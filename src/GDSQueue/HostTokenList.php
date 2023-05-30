@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class HostTokenList
 {
@@ -28,7 +28,7 @@ class HostTokenList
 
     /**
      * @param HostToken $HostToken
-     * @return \FilippoToso\Travelport\GDSQueue\HostTokenList
+     * @return \Santosdave\Travelport\GDSQueue\HostTokenList
      */
     public function setHostToken($HostToken)
     {

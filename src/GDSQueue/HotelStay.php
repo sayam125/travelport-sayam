@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class HotelStay
 {
@@ -42,7 +42,7 @@ class HotelStay
 
     /**
      * @param typeDate $CheckinDate
-     * @return \FilippoToso\Travelport\GDSQueue\HotelStay
+     * @return \Santosdave\Travelport\GDSQueue\HotelStay
      */
     public function setCheckinDate($CheckinDate)
     {
@@ -60,7 +60,7 @@ class HotelStay
 
     /**
      * @param typeDate $CheckoutDate
-     * @return \FilippoToso\Travelport\GDSQueue\HotelStay
+     * @return \Santosdave\Travelport\GDSQueue\HotelStay
      */
     public function setCheckoutDate($CheckoutDate)
     {
@@ -78,7 +78,7 @@ class HotelStay
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\GDSQueue\HotelStay
+     * @return \Santosdave\Travelport\GDSQueue\HotelStay
      */
     public function setKey($Key)
     {

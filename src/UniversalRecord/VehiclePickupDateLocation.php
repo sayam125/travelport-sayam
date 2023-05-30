@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class VehiclePickupDateLocation
 {
@@ -57,7 +57,7 @@ class VehiclePickupDateLocation
 
     /**
      * @param \DateTime $PickupDateTime
-     * @return \FilippoToso\Travelport\UniversalRecord\VehiclePickupDateLocation
+     * @return \Santosdave\Travelport\UniversalRecord\VehiclePickupDateLocation
      */
     public function setPickupDateTime(\DateTime $PickupDateTime)
     {
@@ -75,7 +75,7 @@ class VehiclePickupDateLocation
 
     /**
      * @param typeIATACode $PickupLocation
-     * @return \FilippoToso\Travelport\UniversalRecord\VehiclePickupDateLocation
+     * @return \Santosdave\Travelport\UniversalRecord\VehiclePickupDateLocation
      */
     public function setPickupLocation($PickupLocation)
     {
@@ -93,7 +93,7 @@ class VehiclePickupDateLocation
 
     /**
      * @param typeVehicleLocation $PickupLocationType
-     * @return \FilippoToso\Travelport\UniversalRecord\VehiclePickupDateLocation
+     * @return \Santosdave\Travelport\UniversalRecord\VehiclePickupDateLocation
      */
     public function setPickupLocationType($PickupLocationType)
     {
@@ -111,7 +111,7 @@ class VehiclePickupDateLocation
 
     /**
      * @param string $PickupLocationNumber
-     * @return \FilippoToso\Travelport\UniversalRecord\VehiclePickupDateLocation
+     * @return \Santosdave\Travelport\UniversalRecord\VehiclePickupDateLocation
      */
     public function setPickupLocationNumber($PickupLocationNumber)
     {

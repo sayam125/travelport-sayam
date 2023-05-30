@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class PrePayAccount
 {
@@ -70,7 +70,7 @@ class PrePayAccount
 
     /**
      * @param CreditSummary $CreditSummary
-     * @return \FilippoToso\Travelport\Air\PrePayAccount
+     * @return \Santosdave\Travelport\Air\PrePayAccount
      */
     public function setCreditSummary($CreditSummary)
     {
@@ -88,7 +88,7 @@ class PrePayAccount
 
     /**
      * @param PrePayPriceInfo $PrePayPriceInfo
-     * @return \FilippoToso\Travelport\Air\PrePayAccount
+     * @return \Santosdave\Travelport\Air\PrePayAccount
      */
     public function setPrePayPriceInfo($PrePayPriceInfo)
     {
@@ -106,7 +106,7 @@ class PrePayAccount
 
     /**
      * @param string $ProgramTitle
-     * @return \FilippoToso\Travelport\Air\PrePayAccount
+     * @return \Santosdave\Travelport\Air\PrePayAccount
      */
     public function setProgramTitle($ProgramTitle)
     {
@@ -124,7 +124,7 @@ class PrePayAccount
 
     /**
      * @param string $CertificateNumber
-     * @return \FilippoToso\Travelport\Air\PrePayAccount
+     * @return \Santosdave\Travelport\Air\PrePayAccount
      */
     public function setCertificateNumber($CertificateNumber)
     {
@@ -142,7 +142,7 @@ class PrePayAccount
 
     /**
      * @param string $ProgramName
-     * @return \FilippoToso\Travelport\Air\PrePayAccount
+     * @return \Santosdave\Travelport\Air\PrePayAccount
      */
     public function setProgramName($ProgramName)
     {
@@ -160,7 +160,7 @@ class PrePayAccount
 
     /**
      * @param date $EffectiveDate
-     * @return \FilippoToso\Travelport\Air\PrePayAccount
+     * @return \Santosdave\Travelport\Air\PrePayAccount
      */
     public function setEffectiveDate($EffectiveDate)
     {
@@ -178,7 +178,7 @@ class PrePayAccount
 
     /**
      * @param date $ExpireDate
-     * @return \FilippoToso\Travelport\Air\PrePayAccount
+     * @return \Santosdave\Travelport\Air\PrePayAccount
      */
     public function setExpireDate($ExpireDate)
     {

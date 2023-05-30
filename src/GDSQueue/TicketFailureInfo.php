@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class TicketFailureInfo
 {
@@ -56,7 +56,7 @@ class TicketFailureInfo
 
     /**
      * @param AirPricingInfoRef $AirPricingInfoRef
-     * @return \FilippoToso\Travelport\GDSQueue\TicketFailureInfo
+     * @return \Santosdave\Travelport\GDSQueue\TicketFailureInfo
      */
     public function setAirPricingInfoRef($AirPricingInfoRef)
     {
@@ -74,7 +74,7 @@ class TicketFailureInfo
 
     /**
      * @param Name $Name
-     * @return \FilippoToso\Travelport\GDSQueue\TicketFailureInfo
+     * @return \Santosdave\Travelport\GDSQueue\TicketFailureInfo
      */
     public function setName($Name)
     {
@@ -92,7 +92,7 @@ class TicketFailureInfo
 
     /**
      * @param int $Code
-     * @return \FilippoToso\Travelport\GDSQueue\TicketFailureInfo
+     * @return \Santosdave\Travelport\GDSQueue\TicketFailureInfo
      */
     public function setCode($Code)
     {
@@ -110,7 +110,7 @@ class TicketFailureInfo
 
     /**
      * @param string $Message
-     * @return \FilippoToso\Travelport\GDSQueue\TicketFailureInfo
+     * @return \Santosdave\Travelport\GDSQueue\TicketFailureInfo
      */
     public function setMessage($Message)
     {
@@ -128,7 +128,7 @@ class TicketFailureInfo
 
     /**
      * @param typeRef $BookingTravelerRef
-     * @return \FilippoToso\Travelport\GDSQueue\TicketFailureInfo
+     * @return \Santosdave\Travelport\GDSQueue\TicketFailureInfo
      */
     public function setBookingTravelerRef($BookingTravelerRef)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class PaymentAddress
 {
@@ -63,7 +63,7 @@ class PaymentAddress
 
     /**
      * @param StringLength1to128 $AddressLine
-     * @return \FilippoToso\Travelport\UProfile\PaymentAddress
+     * @return \Santosdave\Travelport\UProfile\PaymentAddress
      */
     public function setAddressLine($AddressLine)
     {
@@ -81,7 +81,7 @@ class PaymentAddress
 
     /**
      * @param anonymous583 $Postal
-     * @return \FilippoToso\Travelport\UProfile\PaymentAddress
+     * @return \Santosdave\Travelport\UProfile\PaymentAddress
      */
     public function setPostal($Postal)
     {
@@ -99,7 +99,7 @@ class PaymentAddress
 
     /**
      * @param typeCountry $Country
-     * @return \FilippoToso\Travelport\UProfile\PaymentAddress
+     * @return \Santosdave\Travelport\UProfile\PaymentAddress
      */
     public function setCountry($Country)
     {
@@ -117,7 +117,7 @@ class PaymentAddress
 
     /**
      * @param anonymous584 $State
-     * @return \FilippoToso\Travelport\UProfile\PaymentAddress
+     * @return \Santosdave\Travelport\UProfile\PaymentAddress
      */
     public function setState($State)
     {
@@ -135,7 +135,7 @@ class PaymentAddress
 
     /**
      * @param StringLength1to128 $OtherStateProvince
-     * @return \FilippoToso\Travelport\UProfile\PaymentAddress
+     * @return \Santosdave\Travelport\UProfile\PaymentAddress
      */
     public function setOtherStateProvince($OtherStateProvince)
     {
@@ -153,7 +153,7 @@ class PaymentAddress
 
     /**
      * @param StringLength1to255 $City
-     * @return \FilippoToso\Travelport\UProfile\PaymentAddress
+     * @return \Santosdave\Travelport\UProfile\PaymentAddress
      */
     public function setCity($City)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class Item extends typeReferenceData
 {
@@ -33,7 +33,7 @@ class Item extends typeReferenceData
 
     /**
      * @param AdditionalElement $AdditionalElement
-     * @return \FilippoToso\Travelport\Util\Item
+     * @return \Santosdave\Travelport\Util\Item
      */
     public function setAdditionalElement($AdditionalElement)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class AgencyInformation
 {
@@ -40,7 +40,7 @@ class AgencyInformation
 
     /**
      * @param typeStructuredAddress $Address
-     * @return \FilippoToso\Travelport\GDSQueue\AgencyInformation
+     * @return \Santosdave\Travelport\GDSQueue\AgencyInformation
      */
     public function setAddress($Address)
     {
@@ -58,7 +58,7 @@ class AgencyInformation
 
     /**
      * @param Email $Email
-     * @return \FilippoToso\Travelport\GDSQueue\AgencyInformation
+     * @return \Santosdave\Travelport\GDSQueue\AgencyInformation
      */
     public function setEmail($Email)
     {
@@ -76,7 +76,7 @@ class AgencyInformation
 
     /**
      * @param PhoneNumber $PhoneNumber
-     * @return \FilippoToso\Travelport\GDSQueue\AgencyInformation
+     * @return \Santosdave\Travelport\GDSQueue\AgencyInformation
      */
     public function setPhoneNumber($PhoneNumber)
     {

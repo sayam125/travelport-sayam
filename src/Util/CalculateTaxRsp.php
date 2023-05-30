@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class CalculateTaxRsp extends BaseRsp
 {
@@ -34,7 +34,7 @@ class CalculateTaxRsp extends BaseRsp
 
     /**
      * @param CalculateTaxResult $CalculateTaxResult
-     * @return \FilippoToso\Travelport\Util\CalculateTaxRsp
+     * @return \Santosdave\Travelport\Util\CalculateTaxRsp
      */
     public function setCalculateTaxResult($CalculateTaxResult)
     {

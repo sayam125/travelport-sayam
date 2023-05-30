@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class typeUnstructuredAddress
 {
@@ -28,7 +28,7 @@ class typeUnstructuredAddress
 
     /**
      * @param Address[] $Address
-     * @return \FilippoToso\Travelport\GDSQueue\typeUnstructuredAddress
+     * @return \Santosdave\Travelport\GDSQueue\typeUnstructuredAddress
      */
     public function setAddress(array $Address)
     {

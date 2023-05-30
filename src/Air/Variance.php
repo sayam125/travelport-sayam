@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class Variance
 {
@@ -49,7 +49,7 @@ class Variance
 
     /**
      * @param typeVarianceType $Type
-     * @return \FilippoToso\Travelport\Air\Variance
+     * @return \Santosdave\Travelport\Air\Variance
      */
     public function setType($Type)
     {
@@ -67,7 +67,7 @@ class Variance
 
     /**
      * @param string $Time
-     * @return \FilippoToso\Travelport\Air\Variance
+     * @return \Santosdave\Travelport\Air\Variance
      */
     public function setTime($Time)
     {
@@ -85,7 +85,7 @@ class Variance
 
     /**
      * @param typeVarianceIndicator $Indicator
-     * @return \FilippoToso\Travelport\Air\Variance
+     * @return \Santosdave\Travelport\Air\Variance
      */
     public function setIndicator($Indicator)
     {
@@ -103,7 +103,7 @@ class Variance
 
     /**
      * @param string $Reason
-     * @return \FilippoToso\Travelport\Air\Variance
+     * @return \Santosdave\Travelport\Air\Variance
      */
     public function setReason($Reason)
     {

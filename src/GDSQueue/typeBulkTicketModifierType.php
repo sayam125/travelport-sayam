@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class typeBulkTicketModifierType
 {
@@ -28,7 +28,7 @@ class typeBulkTicketModifierType
 
     /**
      * @param boolean $SuppressOnFareCalc
-     * @return \FilippoToso\Travelport\GDSQueue\typeBulkTicketModifierType
+     * @return \Santosdave\Travelport\GDSQueue\typeBulkTicketModifierType
      */
     public function setSuppressOnFareCalc($SuppressOnFareCalc)
     {

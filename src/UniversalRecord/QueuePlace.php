@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class QueuePlace
 {
@@ -33,7 +33,7 @@ class QueuePlace
 
     /**
      * @param typePCC $PseudoCityCode
-     * @return \FilippoToso\Travelport\UniversalRecord\QueuePlace
+     * @return \Santosdave\Travelport\UniversalRecord\QueuePlace
      */
     public function setPseudoCityCode($PseudoCityCode)
     {
@@ -51,7 +51,7 @@ class QueuePlace
 
     /**
      * @param QueueSelector $QueueSelector
-     * @return \FilippoToso\Travelport\UniversalRecord\QueuePlace
+     * @return \Santosdave\Travelport\UniversalRecord\QueuePlace
      */
     public function setQueueSelector($QueueSelector)
     {

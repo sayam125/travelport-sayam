@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class ModifiedRange
 {
@@ -35,7 +35,7 @@ class ModifiedRange
 
     /**
      * @param date $ModifiedStart
-     * @return \FilippoToso\Travelport\Rail\ModifiedRange
+     * @return \Santosdave\Travelport\Rail\ModifiedRange
      */
     public function setModifiedStart($ModifiedStart)
     {
@@ -53,7 +53,7 @@ class ModifiedRange
 
     /**
      * @param date $ModifiedEnd
-     * @return \FilippoToso\Travelport\Rail\ModifiedRange
+     * @return \Santosdave\Travelport\Rail\ModifiedRange
      */
     public function setModifiedEnd($ModifiedEnd)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class AirDelete
 {
@@ -49,7 +49,7 @@ class AirDelete
 
     /**
      * @param typeLocatorCode $ReservationLocatorCode
-     * @return \FilippoToso\Travelport\UniversalRecord\AirDelete
+     * @return \Santosdave\Travelport\UniversalRecord\AirDelete
      */
     public function setReservationLocatorCode($ReservationLocatorCode)
     {
@@ -67,7 +67,7 @@ class AirDelete
 
     /**
      * @param typeElement $Element
-     * @return \FilippoToso\Travelport\UniversalRecord\AirDelete
+     * @return \Santosdave\Travelport\UniversalRecord\AirDelete
      */
     public function setElement($Element)
     {
@@ -85,7 +85,7 @@ class AirDelete
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\UniversalRecord\AirDelete
+     * @return \Santosdave\Travelport\UniversalRecord\AirDelete
      */
     public function setKey($Key)
     {
@@ -103,7 +103,7 @@ class AirDelete
 
     /**
      * @param typeRef $BookingTravelerRef
-     * @return \FilippoToso\Travelport\UniversalRecord\AirDelete
+     * @return \Santosdave\Travelport\UniversalRecord\AirDelete
      */
     public function setBookingTravelerRef($BookingTravelerRef)
     {

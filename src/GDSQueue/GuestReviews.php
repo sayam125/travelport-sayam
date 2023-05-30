@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class GuestReviews
 {
@@ -28,7 +28,7 @@ class GuestReviews
 
     /**
      * @param Comments[] $Comments
-     * @return \FilippoToso\Travelport\GDSQueue\GuestReviews
+     * @return \Santosdave\Travelport\GDSQueue\GuestReviews
      */
     public function setComments(array $Comments)
     {

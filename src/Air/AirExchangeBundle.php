@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class AirExchangeBundle
 {
@@ -49,7 +49,7 @@ class AirExchangeBundle
 
     /**
      * @param AirExchangeInfo $AirExchangeInfo
-     * @return \FilippoToso\Travelport\Air\AirExchangeBundle
+     * @return \Santosdave\Travelport\Air\AirExchangeBundle
      */
     public function setAirExchangeInfo($AirExchangeInfo)
     {
@@ -67,7 +67,7 @@ class AirExchangeBundle
 
     /**
      * @param AirPricingInfoRef $AirPricingInfoRef
-     * @return \FilippoToso\Travelport\Air\AirExchangeBundle
+     * @return \Santosdave\Travelport\Air\AirExchangeBundle
      */
     public function setAirPricingInfoRef($AirPricingInfoRef)
     {
@@ -85,7 +85,7 @@ class AirExchangeBundle
 
     /**
      * @param typeTaxInfo $TaxInfo
-     * @return \FilippoToso\Travelport\Air\AirExchangeBundle
+     * @return \Santosdave\Travelport\Air\AirExchangeBundle
      */
     public function setTaxInfo($TaxInfo)
     {
@@ -103,7 +103,7 @@ class AirExchangeBundle
 
     /**
      * @param Penalty $Penalty
-     * @return \FilippoToso\Travelport\Air\AirExchangeBundle
+     * @return \Santosdave\Travelport\Air\AirExchangeBundle
      */
     public function setPenalty($Penalty)
     {

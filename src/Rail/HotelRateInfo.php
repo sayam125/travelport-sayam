@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class HotelRateInfo
 {
@@ -28,7 +28,7 @@ class HotelRateInfo
 
     /**
      * @param typeRatePlanType $RatePlanType
-     * @return \FilippoToso\Travelport\Rail\HotelRateInfo
+     * @return \Santosdave\Travelport\Rail\HotelRateInfo
      */
     public function setRatePlanType($RatePlanType)
     {

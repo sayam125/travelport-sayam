@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class typeWeight
 {
@@ -35,7 +35,7 @@ class typeWeight
 
     /**
      * @param int $Value
-     * @return \FilippoToso\Travelport\GDSQueue\typeWeight
+     * @return \Santosdave\Travelport\GDSQueue\typeWeight
      */
     public function setValue($Value)
     {
@@ -53,7 +53,7 @@ class typeWeight
 
     /**
      * @param typeUnitWeight $Unit
-     * @return \FilippoToso\Travelport\GDSQueue\typeWeight
+     * @return \Santosdave\Travelport\GDSQueue\typeWeight
      */
     public function setUnit($Unit)
     {

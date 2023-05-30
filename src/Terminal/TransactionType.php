@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Terminal;
+namespace Santosdave\Travelport\Terminal;
 
 class TransactionType extends typeTransactionsAllowed
 {
@@ -55,7 +55,7 @@ class TransactionType extends typeTransactionsAllowed
 
     /**
      * @param Air $Air
-     * @return \FilippoToso\Travelport\Terminal\TransactionType
+     * @return \Santosdave\Travelport\Terminal\TransactionType
      */
     public function setAir($Air)
     {
@@ -73,7 +73,7 @@ class TransactionType extends typeTransactionsAllowed
 
     /**
      * @param typeTransactionsAllowed $Hotel
-     * @return \FilippoToso\Travelport\Terminal\TransactionType
+     * @return \Santosdave\Travelport\Terminal\TransactionType
      */
     public function setHotel($Hotel)
     {
@@ -91,7 +91,7 @@ class TransactionType extends typeTransactionsAllowed
 
     /**
      * @param typeTransactionsAllowed $Rail
-     * @return \FilippoToso\Travelport\Terminal\TransactionType
+     * @return \Santosdave\Travelport\Terminal\TransactionType
      */
     public function setRail($Rail)
     {
@@ -109,7 +109,7 @@ class TransactionType extends typeTransactionsAllowed
 
     /**
      * @param typeTransactionsAllowed $Vehicle
-     * @return \FilippoToso\Travelport\Terminal\TransactionType
+     * @return \Santosdave\Travelport\Terminal\TransactionType
      */
     public function setVehicle($Vehicle)
     {
@@ -127,7 +127,7 @@ class TransactionType extends typeTransactionsAllowed
 
     /**
      * @param typeBookingTransactionsAllowed $Passive
-     * @return \FilippoToso\Travelport\Terminal\TransactionType
+     * @return \Santosdave\Travelport\Terminal\TransactionType
      */
     public function setPassive($Passive)
     {
@@ -145,7 +145,7 @@ class TransactionType extends typeTransactionsAllowed
 
     /**
      * @param typeBookingTransactionsAllowed $BackgroundPassive
-     * @return \FilippoToso\Travelport\Terminal\TransactionType
+     * @return \Santosdave\Travelport\Terminal\TransactionType
      */
     public function setBackgroundPassive($BackgroundPassive)
     {

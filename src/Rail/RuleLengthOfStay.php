@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class RuleLengthOfStay
 {
@@ -31,7 +31,7 @@ class RuleLengthOfStay
 
     /**
      * @param typeRestrictionLengthOfStay $MinimumStay
-     * @return \FilippoToso\Travelport\Rail\RuleLengthOfStay
+     * @return \Santosdave\Travelport\Rail\RuleLengthOfStay
      */
     public function setMinimumStay($MinimumStay)
     {
@@ -49,7 +49,7 @@ class RuleLengthOfStay
 
     /**
      * @param typeRestrictionLengthOfStay $MaximumStay
-     * @return \FilippoToso\Travelport\Rail\RuleLengthOfStay
+     * @return \Santosdave\Travelport\Rail\RuleLengthOfStay
      */
     public function setMaximumStay($MaximumStay)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class FileFinishingInfo
 {
@@ -63,7 +63,7 @@ class FileFinishingInfo
 
     /**
      * @param ShopInformation $ShopInformation
-     * @return \FilippoToso\Travelport\GDSQueue\FileFinishingInfo
+     * @return \Santosdave\Travelport\GDSQueue\FileFinishingInfo
      */
     public function setShopInformation($ShopInformation)
     {
@@ -81,7 +81,7 @@ class FileFinishingInfo
 
     /**
      * @param PolicyInformation $PolicyInformation
-     * @return \FilippoToso\Travelport\GDSQueue\FileFinishingInfo
+     * @return \Santosdave\Travelport\GDSQueue\FileFinishingInfo
      */
     public function setPolicyInformation($PolicyInformation)
     {
@@ -99,7 +99,7 @@ class FileFinishingInfo
 
     /**
      * @param AccountInformation $AccountInformation
-     * @return \FilippoToso\Travelport\GDSQueue\FileFinishingInfo
+     * @return \Santosdave\Travelport\GDSQueue\FileFinishingInfo
      */
     public function setAccountInformation($AccountInformation)
     {
@@ -117,7 +117,7 @@ class FileFinishingInfo
 
     /**
      * @param AgencyInformation $AgencyInformation
-     * @return \FilippoToso\Travelport\GDSQueue\FileFinishingInfo
+     * @return \Santosdave\Travelport\GDSQueue\FileFinishingInfo
      */
     public function setAgencyInformation($AgencyInformation)
     {
@@ -135,7 +135,7 @@ class FileFinishingInfo
 
     /**
      * @param TravelerInformation $TravelerInformation
-     * @return \FilippoToso\Travelport\GDSQueue\FileFinishingInfo
+     * @return \Santosdave\Travelport\GDSQueue\FileFinishingInfo
      */
     public function setTravelerInformation($TravelerInformation)
     {
@@ -153,7 +153,7 @@ class FileFinishingInfo
 
     /**
      * @param CustomProfileInformation $CustomProfileInformation
-     * @return \FilippoToso\Travelport\GDSQueue\FileFinishingInfo
+     * @return \Santosdave\Travelport\GDSQueue\FileFinishingInfo
      */
     public function setCustomProfileInformation($CustomProfileInformation)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Vehicle;
+namespace Santosdave\Travelport\Vehicle;
 
 class RentalPeriodRules
 {
@@ -36,7 +36,7 @@ class RentalPeriodRules
 
     /**
      * @param typeRentalPeriod $MaxRental
-     * @return \FilippoToso\Travelport\Vehicle\RentalPeriodRules
+     * @return \Santosdave\Travelport\Vehicle\RentalPeriodRules
      */
     public function setMaxRental($MaxRental)
     {
@@ -54,7 +54,7 @@ class RentalPeriodRules
 
     /**
      * @param typeRentalPeriod $MinRental
-     * @return \FilippoToso\Travelport\Vehicle\RentalPeriodRules
+     * @return \Santosdave\Travelport\Vehicle\RentalPeriodRules
      */
     public function setMinRental($MinRental)
     {
@@ -72,7 +72,7 @@ class RentalPeriodRules
 
     /**
      * @param typeRentalPeriod $AbsoluteMax
-     * @return \FilippoToso\Travelport\Vehicle\RentalPeriodRules
+     * @return \Santosdave\Travelport\Vehicle\RentalPeriodRules
      */
     public function setAbsoluteMax($AbsoluteMax)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class QueueSelector
 {
@@ -42,7 +42,7 @@ class QueueSelector
 
     /**
      * @param string $Queue
-     * @return \FilippoToso\Travelport\Util\QueueSelector
+     * @return \Santosdave\Travelport\Util\QueueSelector
      */
     public function setQueue($Queue)
     {
@@ -60,7 +60,7 @@ class QueueSelector
 
     /**
      * @param string $Category
-     * @return \FilippoToso\Travelport\Util\QueueSelector
+     * @return \Santosdave\Travelport\Util\QueueSelector
      */
     public function setCategory($Category)
     {
@@ -78,7 +78,7 @@ class QueueSelector
 
     /**
      * @param string $DateRange
-     * @return \FilippoToso\Travelport\Util\QueueSelector
+     * @return \Santosdave\Travelport\Util\QueueSelector
      */
     public function setDateRange($DateRange)
     {

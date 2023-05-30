@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Terminal;
+namespace Santosdave\Travelport\Terminal;
 
 class typeNonAirReservationRef
 {
@@ -28,7 +28,7 @@ class typeNonAirReservationRef
 
     /**
      * @param typeLocatorCode $LocatorCode
-     * @return \FilippoToso\Travelport\Terminal\typeNonAirReservationRef
+     * @return \Santosdave\Travelport\Terminal\typeNonAirReservationRef
      */
     public function setLocatorCode($LocatorCode)
     {

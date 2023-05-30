@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeVendorLocation
 {
@@ -56,7 +56,7 @@ class typeVendorLocation
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\UProfile\typeVendorLocation
+     * @return \Santosdave\Travelport\UProfile\typeVendorLocation
      */
     public function setProviderCode($ProviderCode)
     {
@@ -74,7 +74,7 @@ class typeVendorLocation
 
     /**
      * @param typeSupplierCode $VendorCode
-     * @return \FilippoToso\Travelport\UProfile\typeVendorLocation
+     * @return \Santosdave\Travelport\UProfile\typeVendorLocation
      */
     public function setVendorCode($VendorCode)
     {
@@ -92,7 +92,7 @@ class typeVendorLocation
 
     /**
      * @param boolean $PreferredOption
-     * @return \FilippoToso\Travelport\UProfile\typeVendorLocation
+     * @return \Santosdave\Travelport\UProfile\typeVendorLocation
      */
     public function setPreferredOption($PreferredOption)
     {
@@ -110,7 +110,7 @@ class typeVendorLocation
 
     /**
      * @param anonymous4 $VendorLocationID
-     * @return \FilippoToso\Travelport\UProfile\typeVendorLocation
+     * @return \Santosdave\Travelport\UProfile\typeVendorLocation
      */
     public function setVendorLocationID($VendorLocationID)
     {
@@ -128,7 +128,7 @@ class typeVendorLocation
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\UProfile\typeVendorLocation
+     * @return \Santosdave\Travelport\UProfile\typeVendorLocation
      */
     public function setKey($Key)
     {

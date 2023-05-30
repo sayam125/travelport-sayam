@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class RailJourneyList
 {
@@ -28,7 +28,7 @@ class RailJourneyList
 
     /**
      * @param RailJourney $RailJourney
-     * @return \FilippoToso\Travelport\GDSQueue\RailJourneyList
+     * @return \Santosdave\Travelport\GDSQueue\RailJourneyList
      */
     public function setRailJourney($RailJourney)
     {

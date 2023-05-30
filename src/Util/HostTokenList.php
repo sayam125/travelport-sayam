@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class HostTokenList
 {
@@ -28,7 +28,7 @@ class HostTokenList
 
     /**
      * @param HostToken $HostToken
-     * @return \FilippoToso\Travelport\Util\HostTokenList
+     * @return \Santosdave\Travelport\Util\HostTokenList
      */
     public function setHostToken($HostToken)
     {

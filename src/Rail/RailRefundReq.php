@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class RailRefundReq extends BaseReq
 {
@@ -61,7 +61,7 @@ class RailRefundReq extends BaseReq
 
     /**
      * @param ContinuityCheckOverride $ContinuityCheckOverride
-     * @return \FilippoToso\Travelport\Rail\RailRefundReq
+     * @return \Santosdave\Travelport\Rail\RailRefundReq
      */
     public function setContinuityCheckOverride($ContinuityCheckOverride)
     {
@@ -79,7 +79,7 @@ class RailRefundReq extends BaseReq
 
     /**
      * @param FormOfPayment $FormOfPayment
-     * @return \FilippoToso\Travelport\Rail\RailRefundReq
+     * @return \Santosdave\Travelport\Rail\RailRefundReq
      */
     public function setFormOfPayment($FormOfPayment)
     {
@@ -97,7 +97,7 @@ class RailRefundReq extends BaseReq
 
     /**
      * @param typeLocatorCode $LocatorCode
-     * @return \FilippoToso\Travelport\Rail\RailRefundReq
+     * @return \Santosdave\Travelport\Rail\RailRefundReq
      */
     public function setLocatorCode($LocatorCode)
     {
@@ -115,7 +115,7 @@ class RailRefundReq extends BaseReq
 
     /**
      * @param anonymous1474 $RefundOption
-     * @return \FilippoToso\Travelport\Rail\RailRefundReq
+     * @return \Santosdave\Travelport\Rail\RailRefundReq
      */
     public function setRefundOption($RefundOption)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class AirPriceResult
 {
@@ -47,7 +47,7 @@ class AirPriceResult
 
     /**
      * @param AirPricingSolution $AirPricingSolution
-     * @return \FilippoToso\Travelport\GDSQueue\AirPriceResult
+     * @return \Santosdave\Travelport\GDSQueue\AirPriceResult
      */
     public function setAirPricingSolution($AirPricingSolution)
     {
@@ -65,7 +65,7 @@ class AirPriceResult
 
     /**
      * @param FareRule $FareRule
-     * @return \FilippoToso\Travelport\GDSQueue\AirPriceResult
+     * @return \Santosdave\Travelport\GDSQueue\AirPriceResult
      */
     public function setFareRule($FareRule)
     {
@@ -83,7 +83,7 @@ class AirPriceResult
 
     /**
      * @param typeResultMessage $AirPriceError
-     * @return \FilippoToso\Travelport\GDSQueue\AirPriceResult
+     * @return \Santosdave\Travelport\GDSQueue\AirPriceResult
      */
     public function setAirPriceError($AirPriceError)
     {
@@ -101,7 +101,7 @@ class AirPriceResult
 
     /**
      * @param anonymous650 $CommandKey
-     * @return \FilippoToso\Travelport\GDSQueue\AirPriceResult
+     * @return \Santosdave\Travelport\GDSQueue\AirPriceResult
      */
     public function setCommandKey($CommandKey)
     {

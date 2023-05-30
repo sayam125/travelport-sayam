@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class Routing
 {
@@ -47,7 +47,7 @@ class Routing
 
     /**
      * @param DirectionInfo[] $DirectionInfo
-     * @return \FilippoToso\Travelport\Rail\Routing
+     * @return \Santosdave\Travelport\Rail\Routing
      */
     public function setDirectionInfo(array $DirectionInfo = null)
     {
@@ -65,7 +65,7 @@ class Routing
 
     /**
      * @param boolean $RoutingConstructedInd
-     * @return \FilippoToso\Travelport\Rail\Routing
+     * @return \Santosdave\Travelport\Rail\Routing
      */
     public function setRoutingConstructedInd($RoutingConstructedInd)
     {
@@ -83,7 +83,7 @@ class Routing
 
     /**
      * @param string $Number
-     * @return \FilippoToso\Travelport\Rail\Routing
+     * @return \Santosdave\Travelport\Rail\Routing
      */
     public function setNumber($Number)
     {
@@ -101,7 +101,7 @@ class Routing
 
     /**
      * @param string $RoutingRestriction
-     * @return \FilippoToso\Travelport\Rail\Routing
+     * @return \Santosdave\Travelport\Rail\Routing
      */
     public function setRoutingRestriction($RoutingRestriction)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class RailFareIDList
 {
@@ -28,7 +28,7 @@ class RailFareIDList
 
     /**
      * @param RailFareID $RailFareID
-     * @return \FilippoToso\Travelport\GDSQueue\RailFareIDList
+     * @return \Santosdave\Travelport\GDSQueue\RailFareIDList
      */
     public function setRailFareID($RailFareID)
     {

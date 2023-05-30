@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class VehicleAdd
 {
@@ -126,7 +126,7 @@ class VehicleAdd
 
     /**
      * @param LoyaltyCard $LoyaltyCard
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleAdd
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleAdd
      */
     public function setLoyaltyCard($LoyaltyCard)
     {
@@ -144,7 +144,7 @@ class VehicleAdd
 
     /**
      * @param DriversLicense $DriversLicense
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleAdd
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleAdd
      */
     public function setDriversLicense($DriversLicense)
     {
@@ -162,7 +162,7 @@ class VehicleAdd
 
     /**
      * @param VehicleSpecialRequest $VehicleSpecialRequest
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleAdd
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleAdd
      */
     public function setVehicleSpecialRequest($VehicleSpecialRequest)
     {
@@ -180,7 +180,7 @@ class VehicleAdd
 
     /**
      * @param SpecialEquipment $SpecialEquipment
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleAdd
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleAdd
      */
     public function setSpecialEquipment($SpecialEquipment)
     {
@@ -198,7 +198,7 @@ class VehicleAdd
 
     /**
      * @param PaymentInformation $PaymentInformation
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleAdd
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleAdd
      */
     public function setPaymentInformation($PaymentInformation)
     {
@@ -216,7 +216,7 @@ class VehicleAdd
 
     /**
      * @param Guarantee $Guarantee
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleAdd
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleAdd
      */
     public function setGuarantee($Guarantee)
     {
@@ -234,7 +234,7 @@ class VehicleAdd
 
     /**
      * @param BookingSource $BookingSource
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleAdd
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleAdd
      */
     public function setBookingSource($BookingSource)
     {
@@ -252,7 +252,7 @@ class VehicleAdd
 
     /**
      * @param AssociatedRemark $AssociatedRemark
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleAdd
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleAdd
      */
     public function setAssociatedRemark($AssociatedRemark)
     {
@@ -270,7 +270,7 @@ class VehicleAdd
 
     /**
      * @param DeliveryAddress $DeliveryAddress
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleAdd
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleAdd
      */
     public function setDeliveryAddress($DeliveryAddress)
     {
@@ -288,7 +288,7 @@ class VehicleAdd
 
     /**
      * @param CollectionAddress $CollectionAddress
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleAdd
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleAdd
      */
     public function setCollectionAddress($CollectionAddress)
     {
@@ -306,7 +306,7 @@ class VehicleAdd
 
     /**
      * @param ThirdPartyInformation $ThirdPartyInformation
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleAdd
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleAdd
      */
     public function setThirdPartyInformation($ThirdPartyInformation)
     {
@@ -324,7 +324,7 @@ class VehicleAdd
 
     /**
      * @param TravelComplianceData $TravelComplianceData
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleAdd
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleAdd
      */
     public function setTravelComplianceData($TravelComplianceData)
     {
@@ -342,7 +342,7 @@ class VehicleAdd
 
     /**
      * @param FlightArrivalInformation $FlightArrivalInformation
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleAdd
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleAdd
      */
     public function setFlightArrivalInformation($FlightArrivalInformation)
     {
@@ -360,7 +360,7 @@ class VehicleAdd
 
     /**
      * @param typeLocatorCode $ReservationLocatorCode
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleAdd
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleAdd
      */
     public function setReservationLocatorCode($ReservationLocatorCode)
     {
@@ -378,7 +378,7 @@ class VehicleAdd
 
     /**
      * @param typeRef $BookingTravelerRef
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleAdd
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleAdd
      */
     public function setBookingTravelerRef($BookingTravelerRef)
     {

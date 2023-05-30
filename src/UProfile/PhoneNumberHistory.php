@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class PhoneNumberHistory
 {
@@ -84,7 +84,7 @@ class PhoneNumberHistory
 
     /**
      * @param ProviderReservationInfoRef $ProviderReservationInfoRef
-     * @return \FilippoToso\Travelport\UProfile\PhoneNumberHistory
+     * @return \Santosdave\Travelport\UProfile\PhoneNumberHistory
      */
     public function setProviderReservationInfoRef($ProviderReservationInfoRef)
     {
@@ -102,7 +102,7 @@ class PhoneNumberHistory
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\UProfile\PhoneNumberHistory
+     * @return \Santosdave\Travelport\UProfile\PhoneNumberHistory
      */
     public function setKey($Key)
     {
@@ -120,7 +120,7 @@ class PhoneNumberHistory
 
     /**
      * @param anonymous907 $Type
-     * @return \FilippoToso\Travelport\UProfile\PhoneNumberHistory
+     * @return \Santosdave\Travelport\UProfile\PhoneNumberHistory
      */
     public function setType($Type)
     {
@@ -138,7 +138,7 @@ class PhoneNumberHistory
 
     /**
      * @param anonymous908 $Location
-     * @return \FilippoToso\Travelport\UProfile\PhoneNumberHistory
+     * @return \Santosdave\Travelport\UProfile\PhoneNumberHistory
      */
     public function setLocation($Location)
     {
@@ -156,7 +156,7 @@ class PhoneNumberHistory
 
     /**
      * @param anonymous909 $CountryCode
-     * @return \FilippoToso\Travelport\UProfile\PhoneNumberHistory
+     * @return \Santosdave\Travelport\UProfile\PhoneNumberHistory
      */
     public function setCountryCode($CountryCode)
     {
@@ -174,7 +174,7 @@ class PhoneNumberHistory
 
     /**
      * @param anonymous910 $AreaCode
-     * @return \FilippoToso\Travelport\UProfile\PhoneNumberHistory
+     * @return \Santosdave\Travelport\UProfile\PhoneNumberHistory
      */
     public function setAreaCode($AreaCode)
     {
@@ -192,7 +192,7 @@ class PhoneNumberHistory
 
     /**
      * @param anonymous911 $Number
-     * @return \FilippoToso\Travelport\UProfile\PhoneNumberHistory
+     * @return \Santosdave\Travelport\UProfile\PhoneNumberHistory
      */
     public function setNumber($Number)
     {
@@ -210,7 +210,7 @@ class PhoneNumberHistory
 
     /**
      * @param anonymous912 $Extension
-     * @return \FilippoToso\Travelport\UProfile\PhoneNumberHistory
+     * @return \Santosdave\Travelport\UProfile\PhoneNumberHistory
      */
     public function setExtension($Extension)
     {
@@ -228,7 +228,7 @@ class PhoneNumberHistory
 
     /**
      * @param anonymous913 $Text
-     * @return \FilippoToso\Travelport\UProfile\PhoneNumberHistory
+     * @return \Santosdave\Travelport\UProfile\PhoneNumberHistory
      */
     public function setText($Text)
     {

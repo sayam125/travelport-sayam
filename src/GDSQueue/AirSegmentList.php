@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class AirSegmentList
 {
@@ -28,7 +28,7 @@ class AirSegmentList
 
     /**
      * @param typeBaseAirSegment $AirSegment
-     * @return \FilippoToso\Travelport\GDSQueue\AirSegmentList
+     * @return \Santosdave\Travelport\GDSQueue\AirSegmentList
      */
     public function setAirSegment($AirSegment)
     {

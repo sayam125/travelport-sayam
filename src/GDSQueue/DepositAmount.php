@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class DepositAmount
 {
@@ -35,7 +35,7 @@ class DepositAmount
 
     /**
      * @param typeMoney $Amount
-     * @return \FilippoToso\Travelport\GDSQueue\DepositAmount
+     * @return \Santosdave\Travelport\GDSQueue\DepositAmount
      */
     public function setAmount($Amount)
     {
@@ -53,7 +53,7 @@ class DepositAmount
 
     /**
      * @param typeMoney $ApproximateAmount
-     * @return \FilippoToso\Travelport\GDSQueue\DepositAmount
+     * @return \Santosdave\Travelport\GDSQueue\DepositAmount
      */
     public function setApproximateAmount($ApproximateAmount)
     {

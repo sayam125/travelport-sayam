@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class McoSearchResult
 {
@@ -63,7 +63,7 @@ class McoSearchResult
 
     /**
      * @param Name $Name
-     * @return \FilippoToso\Travelport\Util\McoSearchResult
+     * @return \Santosdave\Travelport\Util\McoSearchResult
      */
     public function setName($Name)
     {
@@ -89,7 +89,7 @@ class McoSearchResult
 
     /**
      * @param \DateTime $CreateDate
-     * @return \FilippoToso\Travelport\Util\McoSearchResult
+     * @return \Santosdave\Travelport\Util\McoSearchResult
      */
     public function setCreateDate(\DateTime $CreateDate)
     {
@@ -107,7 +107,7 @@ class McoSearchResult
 
     /**
      * @param string $Number
-     * @return \FilippoToso\Travelport\Util\McoSearchResult
+     * @return \Santosdave\Travelport\Util\McoSearchResult
      */
     public function setNumber($Number)
     {
@@ -125,7 +125,7 @@ class McoSearchResult
 
     /**
      * @param typeMCOStatus $Status
-     * @return \FilippoToso\Travelport\Util\McoSearchResult
+     * @return \Santosdave\Travelport\Util\McoSearchResult
      */
     public function setStatus($Status)
     {
@@ -143,7 +143,7 @@ class McoSearchResult
 
     /**
      * @param typeMCOType $Type
-     * @return \FilippoToso\Travelport\Util\McoSearchResult
+     * @return \Santosdave\Travelport\Util\McoSearchResult
      */
     public function setType($Type)
     {
@@ -161,7 +161,7 @@ class McoSearchResult
 
     /**
      * @param string $LocatorCode
-     * @return \FilippoToso\Travelport\Util\McoSearchResult
+     * @return \Santosdave\Travelport\Util\McoSearchResult
      */
     public function setLocatorCode($LocatorCode)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class EMD
 {
@@ -105,7 +105,7 @@ class EMD
 
     /**
      * @param anonymous845 $FulfillmentType
-     * @return \FilippoToso\Travelport\UniversalRecord\EMD
+     * @return \Santosdave\Travelport\UniversalRecord\EMD
      */
     public function setFulfillmentType($FulfillmentType)
     {
@@ -123,7 +123,7 @@ class EMD
 
     /**
      * @param string $FulfillmentTypeDescription
-     * @return \FilippoToso\Travelport\UniversalRecord\EMD
+     * @return \Santosdave\Travelport\UniversalRecord\EMD
      */
     public function setFulfillmentTypeDescription($FulfillmentTypeDescription)
     {
@@ -141,7 +141,7 @@ class EMD
 
     /**
      * @param string $AssociatedItem
-     * @return \FilippoToso\Travelport\UniversalRecord\EMD
+     * @return \Santosdave\Travelport\UniversalRecord\EMD
      */
     public function setAssociatedItem($AssociatedItem)
     {
@@ -159,7 +159,7 @@ class EMD
 
     /**
      * @param anonymous846 $AvailabilityChargeIndicator
-     * @return \FilippoToso\Travelport\UniversalRecord\EMD
+     * @return \Santosdave\Travelport\UniversalRecord\EMD
      */
     public function setAvailabilityChargeIndicator($AvailabilityChargeIndicator)
     {
@@ -177,7 +177,7 @@ class EMD
 
     /**
      * @param anonymous847 $RefundReissueIndicator
-     * @return \FilippoToso\Travelport\UniversalRecord\EMD
+     * @return \Santosdave\Travelport\UniversalRecord\EMD
      */
     public function setRefundReissueIndicator($RefundReissueIndicator)
     {
@@ -195,7 +195,7 @@ class EMD
 
     /**
      * @param anonymous848 $Commissionable
-     * @return \FilippoToso\Travelport\UniversalRecord\EMD
+     * @return \Santosdave\Travelport\UniversalRecord\EMD
      */
     public function setCommissionable($Commissionable)
     {
@@ -213,7 +213,7 @@ class EMD
 
     /**
      * @param anonymous849 $MileageIndicator
-     * @return \FilippoToso\Travelport\UniversalRecord\EMD
+     * @return \Santosdave\Travelport\UniversalRecord\EMD
      */
     public function setMileageIndicator($MileageIndicator)
     {
@@ -231,7 +231,7 @@ class EMD
 
     /**
      * @param anonymous850 $Location
-     * @return \FilippoToso\Travelport\UniversalRecord\EMD
+     * @return \Santosdave\Travelport\UniversalRecord\EMD
      */
     public function setLocation($Location)
     {
@@ -249,7 +249,7 @@ class EMD
 
     /**
      * @param anonymous851 $Date
-     * @return \FilippoToso\Travelport\UniversalRecord\EMD
+     * @return \Santosdave\Travelport\UniversalRecord\EMD
      */
     public function setDate($Date)
     {
@@ -267,7 +267,7 @@ class EMD
 
     /**
      * @param anonymous852 $Booking
-     * @return \FilippoToso\Travelport\UniversalRecord\EMD
+     * @return \Santosdave\Travelport\UniversalRecord\EMD
      */
     public function setBooking($Booking)
     {
@@ -285,7 +285,7 @@ class EMD
 
     /**
      * @param anonymous853 $DisplayCategory
-     * @return \FilippoToso\Travelport\UniversalRecord\EMD
+     * @return \Santosdave\Travelport\UniversalRecord\EMD
      */
     public function setDisplayCategory($DisplayCategory)
     {
@@ -303,7 +303,7 @@ class EMD
 
     /**
      * @param boolean $Reusable
-     * @return \FilippoToso\Travelport\UniversalRecord\EMD
+     * @return \Santosdave\Travelport\UniversalRecord\EMD
      */
     public function setReusable($Reusable)
     {

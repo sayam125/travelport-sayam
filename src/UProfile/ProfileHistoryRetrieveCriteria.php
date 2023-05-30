@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class ProfileHistoryRetrieveCriteria
 {
@@ -63,7 +63,7 @@ class ProfileHistoryRetrieveCriteria
 
     /**
      * @param typeProfileID $AgentID
-     * @return \FilippoToso\Travelport\UProfile\ProfileHistoryRetrieveCriteria
+     * @return \Santosdave\Travelport\UProfile\ProfileHistoryRetrieveCriteria
      */
     public function setAgentID($AgentID)
     {
@@ -81,7 +81,7 @@ class ProfileHistoryRetrieveCriteria
 
     /**
      * @param date $StartDate
-     * @return \FilippoToso\Travelport\UProfile\ProfileHistoryRetrieveCriteria
+     * @return \Santosdave\Travelport\UProfile\ProfileHistoryRetrieveCriteria
      */
     public function setStartDate($StartDate)
     {
@@ -99,7 +99,7 @@ class ProfileHistoryRetrieveCriteria
 
     /**
      * @param date $EndDate
-     * @return \FilippoToso\Travelport\UProfile\ProfileHistoryRetrieveCriteria
+     * @return \Santosdave\Travelport\UProfile\ProfileHistoryRetrieveCriteria
      */
     public function setEndDate($EndDate)
     {
@@ -117,7 +117,7 @@ class ProfileHistoryRetrieveCriteria
 
     /**
      * @param typeFieldID $FieldID
-     * @return \FilippoToso\Travelport\UProfile\ProfileHistoryRetrieveCriteria
+     * @return \Santosdave\Travelport\UProfile\ProfileHistoryRetrieveCriteria
      */
     public function setFieldID($FieldID)
     {
@@ -135,7 +135,7 @@ class ProfileHistoryRetrieveCriteria
 
     /**
      * @param typeFieldID $FieldGroupID
-     * @return \FilippoToso\Travelport\UProfile\ProfileHistoryRetrieveCriteria
+     * @return \Santosdave\Travelport\UProfile\ProfileHistoryRetrieveCriteria
      */
     public function setFieldGroupID($FieldGroupID)
     {
@@ -153,7 +153,7 @@ class ProfileHistoryRetrieveCriteria
 
     /**
      * @param typeProfileComponentType $FieldGroupType
-     * @return \FilippoToso\Travelport\UProfile\ProfileHistoryRetrieveCriteria
+     * @return \Santosdave\Travelport\UProfile\ProfileHistoryRetrieveCriteria
      */
     public function setFieldGroupType($FieldGroupType)
     {

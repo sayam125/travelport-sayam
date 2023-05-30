@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Vehicle;
+namespace Santosdave\Travelport\Vehicle;
 
 class typeOTASubKey
 {
@@ -40,7 +40,7 @@ class typeOTASubKey
 
     /**
      * @param string[] $Text
-     * @return \FilippoToso\Travelport\Vehicle\typeOTASubKey
+     * @return \Santosdave\Travelport\Vehicle\typeOTASubKey
      */
     public function setText(array $Text = null)
     {
@@ -58,7 +58,7 @@ class typeOTASubKey
 
     /**
      * @param typeOTACode $Name
-     * @return \FilippoToso\Travelport\Vehicle\typeOTASubKey
+     * @return \Santosdave\Travelport\Vehicle\typeOTASubKey
      */
     public function setName($Name)
     {
@@ -76,7 +76,7 @@ class typeOTASubKey
 
     /**
      * @param string $Description
-     * @return \FilippoToso\Travelport\Vehicle\typeOTASubKey
+     * @return \Santosdave\Travelport\Vehicle\typeOTASubKey
      */
     public function setDescription($Description)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class AirRefundQuoteRsp extends BaseRsp
 {
@@ -41,7 +41,7 @@ class AirRefundQuoteRsp extends BaseRsp
 
     /**
      * @param AirRefundBundle $AirRefundBundle
-     * @return \FilippoToso\Travelport\Air\AirRefundQuoteRsp
+     * @return \Santosdave\Travelport\Air\AirRefundQuoteRsp
      */
     public function setAirRefundBundle($AirRefundBundle)
     {
@@ -59,7 +59,7 @@ class AirRefundQuoteRsp extends BaseRsp
 
     /**
      * @param TCRRefundBundle $TCRRefundBundle
-     * @return \FilippoToso\Travelport\Air\AirRefundQuoteRsp
+     * @return \Santosdave\Travelport\Air\AirRefundQuoteRsp
      */
     public function setTCRRefundBundle($TCRRefundBundle)
     {

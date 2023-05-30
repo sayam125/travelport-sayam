@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class FareRuleNameValue
 {
@@ -35,7 +35,7 @@ class FareRuleNameValue
 
     /**
      * @param string $Name
-     * @return \FilippoToso\Travelport\Rail\FareRuleNameValue
+     * @return \Santosdave\Travelport\Rail\FareRuleNameValue
      */
     public function setName($Name)
     {
@@ -53,7 +53,7 @@ class FareRuleNameValue
 
     /**
      * @param string $Value
-     * @return \FilippoToso\Travelport\Rail\FareRuleNameValue
+     * @return \Santosdave\Travelport\Rail\FareRuleNameValue
      */
     public function setValue($Value)
     {

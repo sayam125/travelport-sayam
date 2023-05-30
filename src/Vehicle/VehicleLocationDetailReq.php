@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Vehicle;
+namespace Santosdave\Travelport\Vehicle;
 
 class VehicleLocationDetailReq extends BaseReq
 {
@@ -61,7 +61,7 @@ class VehicleLocationDetailReq extends BaseReq
 
     /**
      * @param Vendor $Vendor
-     * @return \FilippoToso\Travelport\Vehicle\VehicleLocationDetailReq
+     * @return \Santosdave\Travelport\Vehicle\VehicleLocationDetailReq
      */
     public function setVendor($Vendor)
     {
@@ -79,7 +79,7 @@ class VehicleLocationDetailReq extends BaseReq
 
     /**
      * @param VehicleDateLocation $VehicleDateLocation
-     * @return \FilippoToso\Travelport\Vehicle\VehicleLocationDetailReq
+     * @return \Santosdave\Travelport\Vehicle\VehicleLocationDetailReq
      */
     public function setVehicleDateLocation($VehicleDateLocation)
     {
@@ -97,7 +97,7 @@ class VehicleLocationDetailReq extends BaseReq
 
     /**
      * @param PointOfSale $PointOfSale
-     * @return \FilippoToso\Travelport\Vehicle\VehicleLocationDetailReq
+     * @return \Santosdave\Travelport\Vehicle\VehicleLocationDetailReq
      */
     public function setPointOfSale($PointOfSale)
     {
@@ -115,7 +115,7 @@ class VehicleLocationDetailReq extends BaseReq
 
     /**
      * @param typePolicyReference $PolicyReference
-     * @return \FilippoToso\Travelport\Vehicle\VehicleLocationDetailReq
+     * @return \Santosdave\Travelport\Vehicle\VehicleLocationDetailReq
      */
     public function setPolicyReference($PolicyReference)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class HotelMediaLinksRsp extends BaseRsp
 {
@@ -34,7 +34,7 @@ class HotelMediaLinksRsp extends BaseRsp
 
     /**
      * @param HotelPropertyWithMediaItems $HotelPropertyWithMediaItems
-     * @return \FilippoToso\Travelport\Hotel\HotelMediaLinksRsp
+     * @return \Santosdave\Travelport\Hotel\HotelMediaLinksRsp
      */
     public function setHotelPropertyWithMediaItems($HotelPropertyWithMediaItems)
     {

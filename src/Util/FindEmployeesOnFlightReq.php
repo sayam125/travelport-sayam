@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class FindEmployeesOnFlightReq extends BaseReq
 {
@@ -47,7 +47,7 @@ class FindEmployeesOnFlightReq extends BaseReq
 
     /**
      * @param FlightCriteria $FlightCriteria
-     * @return \FilippoToso\Travelport\Util\FindEmployeesOnFlightReq
+     * @return \Santosdave\Travelport\Util\FindEmployeesOnFlightReq
      */
     public function setFlightCriteria($FlightCriteria)
     {
@@ -65,7 +65,7 @@ class FindEmployeesOnFlightReq extends BaseReq
 
     /**
      * @param typeAccountID $AccountID
-     * @return \FilippoToso\Travelport\Util\FindEmployeesOnFlightReq
+     * @return \Santosdave\Travelport\Util\FindEmployeesOnFlightReq
      */
     public function setAccountID($AccountID)
     {

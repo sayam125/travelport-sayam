@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Vehicle;
+namespace Santosdave\Travelport\Vehicle;
 
 class typeProviderReservationSpecificInfo
 {
@@ -49,7 +49,7 @@ class typeProviderReservationSpecificInfo
 
     /**
      * @param OperatedBy $OperatedBy
-     * @return \FilippoToso\Travelport\Vehicle\typeProviderReservationSpecificInfo
+     * @return \Santosdave\Travelport\Vehicle\typeProviderReservationSpecificInfo
      */
     public function setOperatedBy($OperatedBy)
     {
@@ -67,7 +67,7 @@ class typeProviderReservationSpecificInfo
 
     /**
      * @param ProviderReservationInfoRef $ProviderReservationInfoRef
-     * @return \FilippoToso\Travelport\Vehicle\typeProviderReservationSpecificInfo
+     * @return \Santosdave\Travelport\Vehicle\typeProviderReservationSpecificInfo
      */
     public function setProviderReservationInfoRef($ProviderReservationInfoRef)
     {
@@ -85,7 +85,7 @@ class typeProviderReservationSpecificInfo
 
     /**
      * @param boolean $ProviderReservationLevel
-     * @return \FilippoToso\Travelport\Vehicle\typeProviderReservationSpecificInfo
+     * @return \Santosdave\Travelport\Vehicle\typeProviderReservationSpecificInfo
      */
     public function setProviderReservationLevel($ProviderReservationLevel)
     {
@@ -103,7 +103,7 @@ class typeProviderReservationSpecificInfo
 
     /**
      * @param boolean $ReservationLevel
-     * @return \FilippoToso\Travelport\Vehicle\typeProviderReservationSpecificInfo
+     * @return \Santosdave\Travelport\Vehicle\typeProviderReservationSpecificInfo
      */
     public function setReservationLevel($ReservationLevel)
     {

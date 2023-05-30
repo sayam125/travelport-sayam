@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class PreviousSegment
 {
@@ -41,7 +41,7 @@ class PreviousSegment
 
     /**
      * @param typeSegmentRef $AirSegmentRef
-     * @return \FilippoToso\Travelport\GDSQueue\PreviousSegment
+     * @return \Santosdave\Travelport\GDSQueue\PreviousSegment
      */
     public function setAirSegmentRef($AirSegmentRef)
     {
@@ -59,7 +59,7 @@ class PreviousSegment
 
     /**
      * @param typeNonAirReservationRef $HotelReservationRef
-     * @return \FilippoToso\Travelport\GDSQueue\PreviousSegment
+     * @return \Santosdave\Travelport\GDSQueue\PreviousSegment
      */
     public function setHotelReservationRef($HotelReservationRef)
     {
@@ -77,7 +77,7 @@ class PreviousSegment
 
     /**
      * @param typeNonAirReservationRef $VehicleReservationRef
-     * @return \FilippoToso\Travelport\GDSQueue\PreviousSegment
+     * @return \Santosdave\Travelport\GDSQueue\PreviousSegment
      */
     public function setVehicleReservationRef($VehicleReservationRef)
     {
@@ -95,7 +95,7 @@ class PreviousSegment
 
     /**
      * @param typeSegmentRef $PassiveSegmentRef
-     * @return \FilippoToso\Travelport\GDSQueue\PreviousSegment
+     * @return \Santosdave\Travelport\GDSQueue\PreviousSegment
      */
     public function setPassiveSegmentRef($PassiveSegmentRef)
     {

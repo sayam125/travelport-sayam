@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class typeWeight
 {
@@ -35,7 +35,7 @@ class typeWeight
 
     /**
      * @param int $Value
-     * @return \FilippoToso\Travelport\Air\typeWeight
+     * @return \Santosdave\Travelport\Air\typeWeight
      */
     public function setValue($Value)
     {
@@ -53,7 +53,7 @@ class typeWeight
 
     /**
      * @param typeUnitWeight $Unit
-     * @return \FilippoToso\Travelport\Air\typeWeight
+     * @return \Santosdave\Travelport\Air\typeWeight
      */
     public function setUnit($Unit)
     {

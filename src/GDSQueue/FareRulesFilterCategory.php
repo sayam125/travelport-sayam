@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class FareRulesFilterCategory
 {
@@ -35,7 +35,7 @@ class FareRulesFilterCategory
 
     /**
      * @param string[] $CategoryCode
-     * @return \FilippoToso\Travelport\GDSQueue\FareRulesFilterCategory
+     * @return \Santosdave\Travelport\GDSQueue\FareRulesFilterCategory
      */
     public function setCategoryCode(array $CategoryCode)
     {
@@ -53,7 +53,7 @@ class FareRulesFilterCategory
 
     /**
      * @param string $FareInfoRef
-     * @return \FilippoToso\Travelport\GDSQueue\FareRulesFilterCategory
+     * @return \Santosdave\Travelport\GDSQueue\FareRulesFilterCategory
      */
     public function setFareInfoRef($FareInfoRef)
     {

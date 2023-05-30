@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class PaymentAdvice
 {
@@ -56,7 +56,7 @@ class PaymentAdvice
 
     /**
      * @param anonymous485 $Type
-     * @return \FilippoToso\Travelport\Rail\PaymentAdvice
+     * @return \Santosdave\Travelport\Rail\PaymentAdvice
      */
     public function setType($Type)
     {
@@ -74,7 +74,7 @@ class PaymentAdvice
 
     /**
      * @param anonymous486 $DocumentNumber
-     * @return \FilippoToso\Travelport\Rail\PaymentAdvice
+     * @return \Santosdave\Travelport\Rail\PaymentAdvice
      */
     public function setDocumentNumber($DocumentNumber)
     {
@@ -92,7 +92,7 @@ class PaymentAdvice
 
     /**
      * @param date $IssueDate
-     * @return \FilippoToso\Travelport\Rail\PaymentAdvice
+     * @return \Santosdave\Travelport\Rail\PaymentAdvice
      */
     public function setIssueDate($IssueDate)
     {
@@ -110,7 +110,7 @@ class PaymentAdvice
 
     /**
      * @param typeIATACode $IssueCity
-     * @return \FilippoToso\Travelport\Rail\PaymentAdvice
+     * @return \Santosdave\Travelport\Rail\PaymentAdvice
      */
     public function setIssueCity($IssueCity)
     {
@@ -128,7 +128,7 @@ class PaymentAdvice
 
     /**
      * @param anonymous487 $OriginalFOP
-     * @return \FilippoToso\Travelport\Rail\PaymentAdvice
+     * @return \Santosdave\Travelport\Rail\PaymentAdvice
      */
     public function setOriginalFOP($OriginalFOP)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class typeEmailAddress
 {
@@ -35,7 +35,7 @@ class typeEmailAddress
 
     /**
      * @param Email $Email
-     * @return \FilippoToso\Travelport\Util\typeEmailAddress
+     * @return \Santosdave\Travelport\Util\typeEmailAddress
      */
     public function setEmail($Email)
     {
@@ -53,7 +53,7 @@ class typeEmailAddress
 
     /**
      * @param string $SimpleName
-     * @return \FilippoToso\Travelport\Util\typeEmailAddress
+     * @return \Santosdave\Travelport\Util\typeEmailAddress
      */
     public function setSimpleName($SimpleName)
     {

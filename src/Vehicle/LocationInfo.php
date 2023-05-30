@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Vehicle;
+namespace Santosdave\Travelport\Vehicle;
 
 class LocationInfo
 {
@@ -68,7 +68,7 @@ class LocationInfo
 
     /**
      * @param typeStructuredAddress $LocationAddress
-     * @return \FilippoToso\Travelport\Vehicle\LocationInfo
+     * @return \Santosdave\Travelport\Vehicle\LocationInfo
      */
     public function setLocationAddress($LocationAddress)
     {
@@ -86,7 +86,7 @@ class LocationInfo
 
     /**
      * @param PhoneNumber $PhoneNumber
-     * @return \FilippoToso\Travelport\Vehicle\LocationInfo
+     * @return \Santosdave\Travelport\Vehicle\LocationInfo
      */
     public function setPhoneNumber($PhoneNumber)
     {
@@ -104,7 +104,7 @@ class LocationInfo
 
     /**
      * @param string $OperationTime
-     * @return \FilippoToso\Travelport\Vehicle\LocationInfo
+     * @return \Santosdave\Travelport\Vehicle\LocationInfo
      */
     public function setOperationTime($OperationTime)
     {
@@ -122,7 +122,7 @@ class LocationInfo
 
     /**
      * @param string $ShuttleInfo
-     * @return \FilippoToso\Travelport\Vehicle\LocationInfo
+     * @return \Santosdave\Travelport\Vehicle\LocationInfo
      */
     public function setShuttleInfo($ShuttleInfo)
     {
@@ -140,7 +140,7 @@ class LocationInfo
 
     /**
      * @param string $Name
-     * @return \FilippoToso\Travelport\Vehicle\LocationInfo
+     * @return \Santosdave\Travelport\Vehicle\LocationInfo
      */
     public function setName($Name)
     {
@@ -158,7 +158,7 @@ class LocationInfo
 
     /**
      * @param string $CounterLocation
-     * @return \FilippoToso\Travelport\Vehicle\LocationInfo
+     * @return \Santosdave\Travelport\Vehicle\LocationInfo
      */
     public function setCounterLocation($CounterLocation)
     {
@@ -176,7 +176,7 @@ class LocationInfo
 
     /**
      * @param boolean $PreferredOption
-     * @return \FilippoToso\Travelport\Vehicle\LocationInfo
+     * @return \Santosdave\Travelport\Vehicle\LocationInfo
      */
     public function setPreferredOption($PreferredOption)
     {

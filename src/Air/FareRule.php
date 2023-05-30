@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class FareRule
 {
@@ -108,7 +108,7 @@ class FareRule
 
     /**
      * @param FareRuleLong $FareRuleLong
-     * @return \FilippoToso\Travelport\Air\FareRule
+     * @return \Santosdave\Travelport\Air\FareRule
      */
     public function setFareRuleLong($FareRuleLong)
     {
@@ -126,7 +126,7 @@ class FareRule
 
     /**
      * @param FareRuleShort $FareRuleShort
-     * @return \FilippoToso\Travelport\Air\FareRule
+     * @return \Santosdave\Travelport\Air\FareRule
      */
     public function setFareRuleShort($FareRuleShort)
     {
@@ -144,7 +144,7 @@ class FareRule
 
     /**
      * @param RuleAdvancedPurchase $RuleAdvancedPurchase
-     * @return \FilippoToso\Travelport\Air\FareRule
+     * @return \Santosdave\Travelport\Air\FareRule
      */
     public function setRuleAdvancedPurchase($RuleAdvancedPurchase)
     {
@@ -162,7 +162,7 @@ class FareRule
 
     /**
      * @param RuleLengthOfStay $RuleLengthOfStay
-     * @return \FilippoToso\Travelport\Air\FareRule
+     * @return \Santosdave\Travelport\Air\FareRule
      */
     public function setRuleLengthOfStay($RuleLengthOfStay)
     {
@@ -180,7 +180,7 @@ class FareRule
 
     /**
      * @param RuleCharges $RuleCharges
-     * @return \FilippoToso\Travelport\Air\FareRule
+     * @return \Santosdave\Travelport\Air\FareRule
      */
     public function setRuleCharges($RuleCharges)
     {
@@ -198,7 +198,7 @@ class FareRule
 
     /**
      * @param typeResultMessage[] $FareRuleResultMessage
-     * @return \FilippoToso\Travelport\Air\FareRule
+     * @return \Santosdave\Travelport\Air\FareRule
      */
     public function setFareRuleResultMessage(array $FareRuleResultMessage = null)
     {
@@ -216,7 +216,7 @@ class FareRule
 
     /**
      * @param StructuredFareRulesType $StructuredFareRules
-     * @return \FilippoToso\Travelport\Air\FareRule
+     * @return \Santosdave\Travelport\Air\FareRule
      */
     public function setStructuredFareRules($StructuredFareRules)
     {
@@ -234,7 +234,7 @@ class FareRule
 
     /**
      * @param string $FareInfoRef
-     * @return \FilippoToso\Travelport\Air\FareRule
+     * @return \Santosdave\Travelport\Air\FareRule
      */
     public function setFareInfoRef($FareInfoRef)
     {
@@ -252,7 +252,7 @@ class FareRule
 
     /**
      * @param string $RuleNumber
-     * @return \FilippoToso\Travelport\Air\FareRule
+     * @return \Santosdave\Travelport\Air\FareRule
      */
     public function setRuleNumber($RuleNumber)
     {
@@ -270,7 +270,7 @@ class FareRule
 
     /**
      * @param string $Source
-     * @return \FilippoToso\Travelport\Air\FareRule
+     * @return \Santosdave\Travelport\Air\FareRule
      */
     public function setSource($Source)
     {
@@ -288,7 +288,7 @@ class FareRule
 
     /**
      * @param string $TariffNumber
-     * @return \FilippoToso\Travelport\Air\FareRule
+     * @return \Santosdave\Travelport\Air\FareRule
      */
     public function setTariffNumber($TariffNumber)
     {
@@ -306,7 +306,7 @@ class FareRule
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\Air\FareRule
+     * @return \Santosdave\Travelport\Air\FareRule
      */
     public function setProviderCode($ProviderCode)
     {
@@ -324,7 +324,7 @@ class FareRule
 
     /**
      * @param typeSupplierCode $SupplierCode
-     * @return \FilippoToso\Travelport\Air\FareRule
+     * @return \Santosdave\Travelport\Air\FareRule
      */
     public function setSupplierCode($SupplierCode)
     {

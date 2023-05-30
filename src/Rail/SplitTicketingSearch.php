@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class SplitTicketingSearch
 {
@@ -28,7 +28,7 @@ class SplitTicketingSearch
 
     /**
      * @param int $RoundTrip
-     * @return \FilippoToso\Travelport\Rail\SplitTicketingSearch
+     * @return \Santosdave\Travelport\Rail\SplitTicketingSearch
      */
     public function setRoundTrip($RoundTrip)
     {

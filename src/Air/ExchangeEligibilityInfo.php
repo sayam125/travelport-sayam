@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class ExchangeEligibilityInfo
 {
@@ -49,7 +49,7 @@ class ExchangeEligibilityInfo
 
     /**
      * @param ExchangePenaltyInfo $ExchangePenaltyInfo
-     * @return \FilippoToso\Travelport\Air\ExchangeEligibilityInfo
+     * @return \Santosdave\Travelport\Air\ExchangeEligibilityInfo
      */
     public function setExchangePenaltyInfo($ExchangePenaltyInfo)
     {
@@ -67,7 +67,7 @@ class ExchangeEligibilityInfo
 
     /**
      * @param string $EligibleFares
-     * @return \FilippoToso\Travelport\Air\ExchangeEligibilityInfo
+     * @return \Santosdave\Travelport\Air\ExchangeEligibilityInfo
      */
     public function setEligibleFares($EligibleFares)
     {
@@ -85,7 +85,7 @@ class ExchangeEligibilityInfo
 
     /**
      * @param string $RefundableFares
-     * @return \FilippoToso\Travelport\Air\ExchangeEligibilityInfo
+     * @return \Santosdave\Travelport\Air\ExchangeEligibilityInfo
      */
     public function setRefundableFares($RefundableFares)
     {
@@ -103,7 +103,7 @@ class ExchangeEligibilityInfo
 
     /**
      * @param boolean $PassedAutomationChecks
-     * @return \FilippoToso\Travelport\Air\ExchangeEligibilityInfo
+     * @return \Santosdave\Travelport\Air\ExchangeEligibilityInfo
      */
     public function setPassedAutomationChecks($PassedAutomationChecks)
     {

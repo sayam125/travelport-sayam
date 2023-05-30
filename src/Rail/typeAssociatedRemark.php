@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class typeAssociatedRemark extends typeRemarkWithTravelerRef
 {
@@ -46,7 +46,7 @@ class typeAssociatedRemark extends typeRemarkWithTravelerRef
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Rail\typeAssociatedRemark
+     * @return \Santosdave\Travelport\Rail\typeAssociatedRemark
      */
     public function setKey($Key)
     {
@@ -64,7 +64,7 @@ class typeAssociatedRemark extends typeRemarkWithTravelerRef
 
     /**
      * @param typeElementStatus $ElStat
-     * @return \FilippoToso\Travelport\Rail\typeAssociatedRemark
+     * @return \Santosdave\Travelport\Rail\typeAssociatedRemark
      */
     public function setElStat($ElStat)
     {
@@ -82,7 +82,7 @@ class typeAssociatedRemark extends typeRemarkWithTravelerRef
 
     /**
      * @param boolean $KeyOverride
-     * @return \FilippoToso\Travelport\Rail\typeAssociatedRemark
+     * @return \Santosdave\Travelport\Rail\typeAssociatedRemark
      */
     public function setKeyOverride($KeyOverride)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class MAXType
 {
@@ -84,7 +84,7 @@ class MAXType
 
     /**
      * @param boolean $HoursMax
-     * @return \FilippoToso\Travelport\UniversalRecord\MAXType
+     * @return \Santosdave\Travelport\UniversalRecord\MAXType
      */
     public function setHoursMax($HoursMax)
     {
@@ -102,7 +102,7 @@ class MAXType
 
     /**
      * @param boolean $DaysMax
-     * @return \FilippoToso\Travelport\UniversalRecord\MAXType
+     * @return \Santosdave\Travelport\UniversalRecord\MAXType
      */
     public function setDaysMax($DaysMax)
     {
@@ -120,7 +120,7 @@ class MAXType
 
     /**
      * @param boolean $MonthsMax
-     * @return \FilippoToso\Travelport\UniversalRecord\MAXType
+     * @return \Santosdave\Travelport\UniversalRecord\MAXType
      */
     public function setMonthsMax($MonthsMax)
     {
@@ -138,7 +138,7 @@ class MAXType
 
     /**
      * @param boolean $OccurIndMax
-     * @return \FilippoToso\Travelport\UniversalRecord\MAXType
+     * @return \Santosdave\Travelport\UniversalRecord\MAXType
      */
     public function setOccurIndMax($OccurIndMax)
     {
@@ -156,7 +156,7 @@ class MAXType
 
     /**
      * @param boolean $SameDayMax
-     * @return \FilippoToso\Travelport\UniversalRecord\MAXType
+     * @return \Santosdave\Travelport\UniversalRecord\MAXType
      */
     public function setSameDayMax($SameDayMax)
     {
@@ -174,7 +174,7 @@ class MAXType
 
     /**
      * @param boolean $StartIndMax
-     * @return \FilippoToso\Travelport\UniversalRecord\MAXType
+     * @return \Santosdave\Travelport\UniversalRecord\MAXType
      */
     public function setStartIndMax($StartIndMax)
     {
@@ -192,7 +192,7 @@ class MAXType
 
     /**
      * @param boolean $CompletionInd
-     * @return \FilippoToso\Travelport\UniversalRecord\MAXType
+     * @return \Santosdave\Travelport\UniversalRecord\MAXType
      */
     public function setCompletionInd($CompletionInd)
     {
@@ -210,7 +210,7 @@ class MAXType
 
     /**
      * @param int $TmDOWMax
-     * @return \FilippoToso\Travelport\UniversalRecord\MAXType
+     * @return \Santosdave\Travelport\UniversalRecord\MAXType
      */
     public function setTmDOWMax($TmDOWMax)
     {
@@ -228,7 +228,7 @@ class MAXType
 
     /**
      * @param int $NumOccurMax
-     * @return \FilippoToso\Travelport\UniversalRecord\MAXType
+     * @return \Santosdave\Travelport\UniversalRecord\MAXType
      */
     public function setNumOccurMax($NumOccurMax)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class CorporateDiscountID
 {
@@ -35,7 +35,7 @@ class CorporateDiscountID
 
     /**
      * @param string $_
-     * @return \FilippoToso\Travelport\UniversalRecord\CorporateDiscountID
+     * @return \Santosdave\Travelport\UniversalRecord\CorporateDiscountID
      */
     public function set_($_)
     {
@@ -53,7 +53,7 @@ class CorporateDiscountID
 
     /**
      * @param boolean $NegotiatedRateCode
-     * @return \FilippoToso\Travelport\UniversalRecord\CorporateDiscountID
+     * @return \Santosdave\Travelport\UniversalRecord\CorporateDiscountID
      */
     public function setNegotiatedRateCode($NegotiatedRateCode)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class ProfileDataAdd
 {
@@ -224,7 +224,7 @@ class ProfileDataAdd
 
     /**
      * @param Address $Address
-     * @return \FilippoToso\Travelport\UProfile\ProfileDataAdd
+     * @return \Santosdave\Travelport\UProfile\ProfileDataAdd
      */
     public function setAddress($Address)
     {
@@ -242,7 +242,7 @@ class ProfileDataAdd
 
     /**
      * @param Phone $Phone
-     * @return \FilippoToso\Travelport\UProfile\ProfileDataAdd
+     * @return \Santosdave\Travelport\UProfile\ProfileDataAdd
      */
     public function setPhone($Phone)
     {
@@ -260,7 +260,7 @@ class ProfileDataAdd
 
     /**
      * @param ElectronicAddress $ElectronicAddress
-     * @return \FilippoToso\Travelport\UProfile\ProfileDataAdd
+     * @return \Santosdave\Travelport\UProfile\ProfileDataAdd
      */
     public function setElectronicAddress($ElectronicAddress)
     {
@@ -278,7 +278,7 @@ class ProfileDataAdd
 
     /**
      * @param TravelerIdentityInformation $TravelerIdentityInformation
-     * @return \FilippoToso\Travelport\UProfile\ProfileDataAdd
+     * @return \Santosdave\Travelport\UProfile\ProfileDataAdd
      */
     public function setTravelerIdentityInformation($TravelerIdentityInformation)
     {
@@ -296,7 +296,7 @@ class ProfileDataAdd
 
     /**
      * @param ExternalIdentifier $ExternalIdentifier
-     * @return \FilippoToso\Travelport\UProfile\ProfileDataAdd
+     * @return \Santosdave\Travelport\UProfile\ProfileDataAdd
      */
     public function setExternalIdentifier($ExternalIdentifier)
     {
@@ -314,7 +314,7 @@ class ProfileDataAdd
 
     /**
      * @param TravelDocument $TravelDocument
-     * @return \FilippoToso\Travelport\UProfile\ProfileDataAdd
+     * @return \Santosdave\Travelport\UProfile\ProfileDataAdd
      */
     public function setTravelDocument($TravelDocument)
     {
@@ -332,7 +332,7 @@ class ProfileDataAdd
 
     /**
      * @param AccountingReference $AccountingReference
-     * @return \FilippoToso\Travelport\UProfile\ProfileDataAdd
+     * @return \Santosdave\Travelport\UProfile\ProfileDataAdd
      */
     public function setAccountingReference($AccountingReference)
     {
@@ -350,7 +350,7 @@ class ProfileDataAdd
 
     /**
      * @param PolicyReference $PolicyReference
-     * @return \FilippoToso\Travelport\UProfile\ProfileDataAdd
+     * @return \Santosdave\Travelport\UProfile\ProfileDataAdd
      */
     public function setPolicyReference($PolicyReference)
     {
@@ -368,7 +368,7 @@ class ProfileDataAdd
 
     /**
      * @param LoyaltyProgramEnrollment $LoyaltyProgramEnrollment
-     * @return \FilippoToso\Travelport\UProfile\ProfileDataAdd
+     * @return \Santosdave\Travelport\UProfile\ProfileDataAdd
      */
     public function setLoyaltyProgramEnrollment($LoyaltyProgramEnrollment)
     {
@@ -386,7 +386,7 @@ class ProfileDataAdd
 
     /**
      * @param Commission $Commission
-     * @return \FilippoToso\Travelport\UProfile\ProfileDataAdd
+     * @return \Santosdave\Travelport\UProfile\ProfileDataAdd
      */
     public function setCommission($Commission)
     {
@@ -404,7 +404,7 @@ class ProfileDataAdd
 
     /**
      * @param Contract $Contract
-     * @return \FilippoToso\Travelport\UProfile\ProfileDataAdd
+     * @return \Santosdave\Travelport\UProfile\ProfileDataAdd
      */
     public function setContract($Contract)
     {
@@ -422,7 +422,7 @@ class ProfileDataAdd
 
     /**
      * @param ServiceFee $ServiceFee
-     * @return \FilippoToso\Travelport\UProfile\ProfileDataAdd
+     * @return \Santosdave\Travelport\UProfile\ProfileDataAdd
      */
     public function setServiceFee($ServiceFee)
     {
@@ -440,7 +440,7 @@ class ProfileDataAdd
 
     /**
      * @param typeFormOfPaymentType $FormOfPayment
-     * @return \FilippoToso\Travelport\UProfile\ProfileDataAdd
+     * @return \Santosdave\Travelport\UProfile\ProfileDataAdd
      */
     public function setFormOfPayment($FormOfPayment)
     {
@@ -458,7 +458,7 @@ class ProfileDataAdd
 
     /**
      * @param AirPreference $AirPreference
-     * @return \FilippoToso\Travelport\UProfile\ProfileDataAdd
+     * @return \Santosdave\Travelport\UProfile\ProfileDataAdd
      */
     public function setAirPreference($AirPreference)
     {
@@ -476,7 +476,7 @@ class ProfileDataAdd
 
     /**
      * @param HotelPreference $HotelPreference
-     * @return \FilippoToso\Travelport\UProfile\ProfileDataAdd
+     * @return \Santosdave\Travelport\UProfile\ProfileDataAdd
      */
     public function setHotelPreference($HotelPreference)
     {
@@ -494,7 +494,7 @@ class ProfileDataAdd
 
     /**
      * @param OtherPreference $OtherPreference
-     * @return \FilippoToso\Travelport\UProfile\ProfileDataAdd
+     * @return \Santosdave\Travelport\UProfile\ProfileDataAdd
      */
     public function setOtherPreference($OtherPreference)
     {
@@ -512,7 +512,7 @@ class ProfileDataAdd
 
     /**
      * @param Remark $Remark
-     * @return \FilippoToso\Travelport\UProfile\ProfileDataAdd
+     * @return \Santosdave\Travelport\UProfile\ProfileDataAdd
      */
     public function setRemark($Remark)
     {
@@ -530,7 +530,7 @@ class ProfileDataAdd
 
     /**
      * @param FieldData $FieldData
-     * @return \FilippoToso\Travelport\UProfile\ProfileDataAdd
+     * @return \Santosdave\Travelport\UProfile\ProfileDataAdd
      */
     public function setFieldData($FieldData)
     {
@@ -548,7 +548,7 @@ class ProfileDataAdd
 
     /**
      * @param AlternateContact $AlternateContact
-     * @return \FilippoToso\Travelport\UProfile\ProfileDataAdd
+     * @return \Santosdave\Travelport\UProfile\ProfileDataAdd
      */
     public function setAlternateContact($AlternateContact)
     {
@@ -566,7 +566,7 @@ class ProfileDataAdd
 
     /**
      * @param AlternateContactAddress $AlternateContactAddress
-     * @return \FilippoToso\Travelport\UProfile\ProfileDataAdd
+     * @return \Santosdave\Travelport\UProfile\ProfileDataAdd
      */
     public function setAlternateContactAddress($AlternateContactAddress)
     {
@@ -584,7 +584,7 @@ class ProfileDataAdd
 
     /**
      * @param AlternateContactPhone $AlternateContactPhone
-     * @return \FilippoToso\Travelport\UProfile\ProfileDataAdd
+     * @return \Santosdave\Travelport\UProfile\ProfileDataAdd
      */
     public function setAlternateContactPhone($AlternateContactPhone)
     {
@@ -602,7 +602,7 @@ class ProfileDataAdd
 
     /**
      * @param AlternateContactElectronicAddress $AlternateContactElectronicAddress
-     * @return \FilippoToso\Travelport\UProfile\ProfileDataAdd
+     * @return \Santosdave\Travelport\UProfile\ProfileDataAdd
      */
     public function setAlternateContactElectronicAddress($AlternateContactElectronicAddress)
     {
@@ -620,7 +620,7 @@ class ProfileDataAdd
 
     /**
      * @param FieldGroupData $FieldGroupData
-     * @return \FilippoToso\Travelport\UProfile\ProfileDataAdd
+     * @return \Santosdave\Travelport\UProfile\ProfileDataAdd
      */
     public function setFieldGroupData($FieldGroupData)
     {
@@ -638,7 +638,7 @@ class ProfileDataAdd
 
     /**
      * @param VehiclePreference $VehiclePreference
-     * @return \FilippoToso\Travelport\UProfile\ProfileDataAdd
+     * @return \Santosdave\Travelport\UProfile\ProfileDataAdd
      */
     public function setVehiclePreference($VehiclePreference)
     {
@@ -656,7 +656,7 @@ class ProfileDataAdd
 
     /**
      * @param Advisory $Advisory
-     * @return \FilippoToso\Travelport\UProfile\ProfileDataAdd
+     * @return \Santosdave\Travelport\UProfile\ProfileDataAdd
      */
     public function setAdvisory($Advisory)
     {
@@ -674,7 +674,7 @@ class ProfileDataAdd
 
     /**
      * @param CommissionReference $CommissionReference
-     * @return \FilippoToso\Travelport\UProfile\ProfileDataAdd
+     * @return \Santosdave\Travelport\UProfile\ProfileDataAdd
      */
     public function setCommissionReference($CommissionReference)
     {
@@ -692,7 +692,7 @@ class ProfileDataAdd
 
     /**
      * @param RailPreference $RailPreference
-     * @return \FilippoToso\Travelport\UProfile\ProfileDataAdd
+     * @return \Santosdave\Travelport\UProfile\ProfileDataAdd
      */
     public function setRailPreference($RailPreference)
     {
@@ -710,7 +710,7 @@ class ProfileDataAdd
 
     /**
      * @param ProviderInfo $ProviderInfo
-     * @return \FilippoToso\Travelport\UProfile\ProfileDataAdd
+     * @return \Santosdave\Travelport\UProfile\ProfileDataAdd
      */
     public function setProviderInfo($ProviderInfo)
     {
@@ -728,7 +728,7 @@ class ProfileDataAdd
 
     /**
      * @param ProprietaryData $ProprietaryData
-     * @return \FilippoToso\Travelport\UProfile\ProfileDataAdd
+     * @return \Santosdave\Travelport\UProfile\ProfileDataAdd
      */
     public function setProprietaryData($ProprietaryData)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class PaymentRestriction
 {
@@ -35,7 +35,7 @@ class PaymentRestriction
 
     /**
      * @param CardRestriction $CardRestriction
-     * @return \FilippoToso\Travelport\Hotel\PaymentRestriction
+     * @return \Santosdave\Travelport\Hotel\PaymentRestriction
      */
     public function setCardRestriction($CardRestriction)
     {
@@ -53,7 +53,7 @@ class PaymentRestriction
 
     /**
      * @param AddressRestriction $AddressRestriction
-     * @return \FilippoToso\Travelport\Hotel\PaymentRestriction
+     * @return \Santosdave\Travelport\Hotel\PaymentRestriction
      */
     public function setAddressRestriction($AddressRestriction)
     {

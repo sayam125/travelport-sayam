@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class MetaData
 {
@@ -35,7 +35,7 @@ class MetaData
 
     /**
      * @param anonymous185 $Key
-     * @return \FilippoToso\Travelport\GDSQueue\MetaData
+     * @return \Santosdave\Travelport\GDSQueue\MetaData
      */
     public function setKey($Key)
     {
@@ -53,7 +53,7 @@ class MetaData
 
     /**
      * @param anonymous186 $Value
-     * @return \FilippoToso\Travelport\GDSQueue\MetaData
+     * @return \Santosdave\Travelport\GDSQueue\MetaData
      */
     public function setValue($Value)
     {

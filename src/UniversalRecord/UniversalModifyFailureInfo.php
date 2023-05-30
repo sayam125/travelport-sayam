@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class UniversalModifyFailureInfo
 {
@@ -35,7 +35,7 @@ class UniversalModifyFailureInfo
 
     /**
      * @param UniversalModifyCommandError $UniversalModifyCommandError
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalModifyFailureInfo
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalModifyFailureInfo
      */
     public function setUniversalModifyCommandError($UniversalModifyCommandError)
     {
@@ -53,7 +53,7 @@ class UniversalModifyFailureInfo
 
     /**
      * @param AirSegmentSellFailureInfo $AirSegmentSellFailureInfo
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalModifyFailureInfo
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalModifyFailureInfo
      */
     public function setAirSegmentSellFailureInfo($AirSegmentSellFailureInfo)
     {

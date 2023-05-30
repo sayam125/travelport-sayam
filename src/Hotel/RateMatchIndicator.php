@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class RateMatchIndicator
 {
@@ -42,7 +42,7 @@ class RateMatchIndicator
 
     /**
      * @param anonymous611 $Type
-     * @return \FilippoToso\Travelport\Hotel\RateMatchIndicator
+     * @return \Santosdave\Travelport\Hotel\RateMatchIndicator
      */
     public function setType($Type)
     {
@@ -60,7 +60,7 @@ class RateMatchIndicator
 
     /**
      * @param anonymous612 $Status
-     * @return \FilippoToso\Travelport\Hotel\RateMatchIndicator
+     * @return \Santosdave\Travelport\Hotel\RateMatchIndicator
      */
     public function setStatus($Status)
     {
@@ -78,7 +78,7 @@ class RateMatchIndicator
 
     /**
      * @param string $Value
-     * @return \FilippoToso\Travelport\Hotel\RateMatchIndicator
+     * @return \Santosdave\Travelport\Hotel\RateMatchIndicator
      */
     public function setValue($Value)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class IncludedItem
 {
@@ -35,7 +35,7 @@ class IncludedItem
 
     /**
      * @param string $Code
-     * @return \FilippoToso\Travelport\UniversalRecord\IncludedItem
+     * @return \Santosdave\Travelport\UniversalRecord\IncludedItem
      */
     public function setCode($Code)
     {
@@ -53,7 +53,7 @@ class IncludedItem
 
     /**
      * @param string $Description
-     * @return \FilippoToso\Travelport\UniversalRecord\IncludedItem
+     * @return \Santosdave\Travelport\UniversalRecord\IncludedItem
      */
     public function setDescription($Description)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class PassengerTypeLevel
 {
@@ -49,7 +49,7 @@ class PassengerTypeLevel
 
     /**
      * @param typePTC $TravelerType
-     * @return \FilippoToso\Travelport\Util\PassengerTypeLevel
+     * @return \Santosdave\Travelport\Util\PassengerTypeLevel
      */
     public function setTravelerType($TravelerType)
     {
@@ -67,7 +67,7 @@ class PassengerTypeLevel
 
     /**
      * @param typeMoney $Amount
-     * @return \FilippoToso\Travelport\Util\PassengerTypeLevel
+     * @return \Santosdave\Travelport\Util\PassengerTypeLevel
      */
     public function setAmount($Amount)
     {
@@ -85,7 +85,7 @@ class PassengerTypeLevel
 
     /**
      * @param typePercentageWithDecimal $Percentage
-     * @return \FilippoToso\Travelport\Util\PassengerTypeLevel
+     * @return \Santosdave\Travelport\Util\PassengerTypeLevel
      */
     public function setPercentage($Percentage)
     {
@@ -103,7 +103,7 @@ class PassengerTypeLevel
 
     /**
      * @param typeMoney $CommissionCap
-     * @return \FilippoToso\Travelport\Util\PassengerTypeLevel
+     * @return \Santosdave\Travelport\Util\PassengerTypeLevel
      */
     public function setCommissionCap($CommissionCap)
     {

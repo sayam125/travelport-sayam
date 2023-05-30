@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class AirPreference extends typeBasePreference
 {
@@ -229,7 +229,7 @@ class AirPreference extends typeBasePreference
 
     /**
      * @param typeAirFare $AirFareType
-     * @return \FilippoToso\Travelport\UProfile\AirPreference
+     * @return \Santosdave\Travelport\UProfile\AirPreference
      */
     public function setAirFareType($AirFareType)
     {
@@ -247,7 +247,7 @@ class AirPreference extends typeBasePreference
 
     /**
      * @param typeFlightNumber $StartingFlightNumber
-     * @return \FilippoToso\Travelport\UProfile\AirPreference
+     * @return \Santosdave\Travelport\UProfile\AirPreference
      */
     public function setStartingFlightNumber($StartingFlightNumber)
     {
@@ -265,7 +265,7 @@ class AirPreference extends typeBasePreference
 
     /**
      * @param typeFlightNumber $EndingFlightNumber
-     * @return \FilippoToso\Travelport\UProfile\AirPreference
+     * @return \Santosdave\Travelport\UProfile\AirPreference
      */
     public function setEndingFlightNumber($EndingFlightNumber)
     {
@@ -283,7 +283,7 @@ class AirPreference extends typeBasePreference
 
     /**
      * @param boolean $Interline
-     * @return \FilippoToso\Travelport\UProfile\AirPreference
+     * @return \Santosdave\Travelport\UProfile\AirPreference
      */
     public function setInterline($Interline)
     {
@@ -301,7 +301,7 @@ class AirPreference extends typeBasePreference
 
     /**
      * @param typeMoney $MaxFareAmount
-     * @return \FilippoToso\Travelport\UProfile\AirPreference
+     * @return \Santosdave\Travelport\UProfile\AirPreference
      */
     public function setMaxFareAmount($MaxFareAmount)
     {
@@ -319,7 +319,7 @@ class AirPreference extends typeBasePreference
 
     /**
      * @param int $MaxConnectionMinutes
-     * @return \FilippoToso\Travelport\UProfile\AirPreference
+     * @return \Santosdave\Travelport\UProfile\AirPreference
      */
     public function setMaxConnectionMinutes($MaxConnectionMinutes)
     {
@@ -337,7 +337,7 @@ class AirPreference extends typeBasePreference
 
     /**
      * @param int $MaxEmployeesPerFlight
-     * @return \FilippoToso\Travelport\UProfile\AirPreference
+     * @return \Santosdave\Travelport\UProfile\AirPreference
      */
     public function setMaxEmployeesPerFlight($MaxEmployeesPerFlight)
     {
@@ -355,7 +355,7 @@ class AirPreference extends typeBasePreference
 
     /**
      * @param int $MaxDomesticTripHours
-     * @return \FilippoToso\Travelport\UProfile\AirPreference
+     * @return \Santosdave\Travelport\UProfile\AirPreference
      */
     public function setMaxDomesticTripHours($MaxDomesticTripHours)
     {
@@ -373,7 +373,7 @@ class AirPreference extends typeBasePreference
 
     /**
      * @param int $MaxInternationalTripHours
-     * @return \FilippoToso\Travelport\UProfile\AirPreference
+     * @return \Santosdave\Travelport\UProfile\AirPreference
      */
     public function setMaxInternationalTripHours($MaxInternationalTripHours)
     {
@@ -391,7 +391,7 @@ class AirPreference extends typeBasePreference
 
     /**
      * @param anonymous658 $SeatNumber
-     * @return \FilippoToso\Travelport\UProfile\AirPreference
+     * @return \Santosdave\Travelport\UProfile\AirPreference
      */
     public function setSeatNumber($SeatNumber)
     {
@@ -409,7 +409,7 @@ class AirPreference extends typeBasePreference
 
     /**
      * @param anonymous659 $CRSCode
-     * @return \FilippoToso\Travelport\UProfile\AirPreference
+     * @return \Santosdave\Travelport\UProfile\AirPreference
      */
     public function setCRSCode($CRSCode)
     {
@@ -427,7 +427,7 @@ class AirPreference extends typeBasePreference
 
     /**
      * @param typeSSRCode $SSRCode
-     * @return \FilippoToso\Travelport\UProfile\AirPreference
+     * @return \Santosdave\Travelport\UProfile\AirPreference
      */
     public function setSSRCode($SSRCode)
     {
@@ -445,7 +445,7 @@ class AirPreference extends typeBasePreference
 
     /**
      * @param anonymous882 $AccountCode
-     * @return \FilippoToso\Travelport\UProfile\AirPreference
+     * @return \Santosdave\Travelport\UProfile\AirPreference
      */
     public function setAccountCode($AccountCode)
     {
@@ -463,7 +463,7 @@ class AirPreference extends typeBasePreference
 
     /**
      * @param typeGeoPoliticalAreaType $ArrivalGeoPoliticalAreaType
-     * @return \FilippoToso\Travelport\UProfile\AirPreference
+     * @return \Santosdave\Travelport\UProfile\AirPreference
      */
     public function setArrivalGeoPoliticalAreaType($ArrivalGeoPoliticalAreaType)
     {
@@ -481,7 +481,7 @@ class AirPreference extends typeBasePreference
 
     /**
      * @param typeGeoPoliticalAreaCode $ArrivalGeoPoliticalAreaCode
-     * @return \FilippoToso\Travelport\UProfile\AirPreference
+     * @return \Santosdave\Travelport\UProfile\AirPreference
      */
     public function setArrivalGeoPoliticalAreaCode($ArrivalGeoPoliticalAreaCode)
     {
@@ -499,7 +499,7 @@ class AirPreference extends typeBasePreference
 
     /**
      * @param typeMoney $BenchMarkAmount
-     * @return \FilippoToso\Travelport\UProfile\AirPreference
+     * @return \Santosdave\Travelport\UProfile\AirPreference
      */
     public function setBenchMarkAmount($BenchMarkAmount)
     {
@@ -517,7 +517,7 @@ class AirPreference extends typeBasePreference
 
     /**
      * @param typeGeoPoliticalAreaType $ConnectionGeoPoliticalAreaType
-     * @return \FilippoToso\Travelport\UProfile\AirPreference
+     * @return \Santosdave\Travelport\UProfile\AirPreference
      */
     public function setConnectionGeoPoliticalAreaType($ConnectionGeoPoliticalAreaType)
     {
@@ -535,7 +535,7 @@ class AirPreference extends typeBasePreference
 
     /**
      * @param typeGeoPoliticalAreaCode $ConnectionGeoPoliticalAreaCode
-     * @return \FilippoToso\Travelport\UProfile\AirPreference
+     * @return \Santosdave\Travelport\UProfile\AirPreference
      */
     public function setConnectionGeoPoliticalAreaCode($ConnectionGeoPoliticalAreaCode)
     {
@@ -553,7 +553,7 @@ class AirPreference extends typeBasePreference
 
     /**
      * @param anonymous883 $ContractCode
-     * @return \FilippoToso\Travelport\UProfile\AirPreference
+     * @return \Santosdave\Travelport\UProfile\AirPreference
      */
     public function setContractCode($ContractCode)
     {
@@ -571,7 +571,7 @@ class AirPreference extends typeBasePreference
 
     /**
      * @param anonymous884 $CorporateID
-     * @return \FilippoToso\Travelport\UProfile\AirPreference
+     * @return \Santosdave\Travelport\UProfile\AirPreference
      */
     public function setCorporateID($CorporateID)
     {
@@ -589,7 +589,7 @@ class AirPreference extends typeBasePreference
 
     /**
      * @param typePCC $PseudoCityCode
-     * @return \FilippoToso\Travelport\UProfile\AirPreference
+     * @return \Santosdave\Travelport\UProfile\AirPreference
      */
     public function setPseudoCityCode($PseudoCityCode)
     {
@@ -607,7 +607,7 @@ class AirPreference extends typeBasePreference
 
     /**
      * @param date $TravelStartDate
-     * @return \FilippoToso\Travelport\UProfile\AirPreference
+     * @return \Santosdave\Travelport\UProfile\AirPreference
      */
     public function setTravelStartDate($TravelStartDate)
     {
@@ -625,7 +625,7 @@ class AirPreference extends typeBasePreference
 
     /**
      * @param date $TravelEndDate
-     * @return \FilippoToso\Travelport\UProfile\AirPreference
+     * @return \Santosdave\Travelport\UProfile\AirPreference
      */
     public function setTravelEndDate($TravelEndDate)
     {
@@ -643,7 +643,7 @@ class AirPreference extends typeBasePreference
 
     /**
      * @param anonymous893 $CabinTypeMiscTravel
-     * @return \FilippoToso\Travelport\UProfile\AirPreference
+     * @return \Santosdave\Travelport\UProfile\AirPreference
      */
     public function setCabinTypeMiscTravel($CabinTypeMiscTravel)
     {
@@ -661,7 +661,7 @@ class AirPreference extends typeBasePreference
 
     /**
      * @param anonymous894 $CabinTypeRefCategory
-     * @return \FilippoToso\Travelport\UProfile\AirPreference
+     * @return \Santosdave\Travelport\UProfile\AirPreference
      */
     public function setCabinTypeRefCategory($CabinTypeRefCategory)
     {
@@ -679,7 +679,7 @@ class AirPreference extends typeBasePreference
 
     /**
      * @param anonymous887 $SeatTypeMiscTravel
-     * @return \FilippoToso\Travelport\UProfile\AirPreference
+     * @return \Santosdave\Travelport\UProfile\AirPreference
      */
     public function setSeatTypeMiscTravel($SeatTypeMiscTravel)
     {
@@ -697,7 +697,7 @@ class AirPreference extends typeBasePreference
 
     /**
      * @param anonymous888 $SeatTypeMiscRefCategory
-     * @return \FilippoToso\Travelport\UProfile\AirPreference
+     * @return \Santosdave\Travelport\UProfile\AirPreference
      */
     public function setSeatTypeMiscRefCategory($SeatTypeMiscRefCategory)
     {

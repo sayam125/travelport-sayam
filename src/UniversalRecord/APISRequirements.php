@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class APISRequirements
 {
@@ -70,7 +70,7 @@ class APISRequirements
 
     /**
      * @param Document $Document
-     * @return \FilippoToso\Travelport\UniversalRecord\APISRequirements
+     * @return \Santosdave\Travelport\UniversalRecord\APISRequirements
      */
     public function setDocument($Document)
     {
@@ -88,7 +88,7 @@ class APISRequirements
 
     /**
      * @param UNKNOWN $Key
-     * @return \FilippoToso\Travelport\UniversalRecord\APISRequirements
+     * @return \Santosdave\Travelport\UniversalRecord\APISRequirements
      */
     public function setKey($Key)
     {
@@ -106,7 +106,7 @@ class APISRequirements
 
     /**
      * @param string $Level
-     * @return \FilippoToso\Travelport\UniversalRecord\APISRequirements
+     * @return \Santosdave\Travelport\UniversalRecord\APISRequirements
      */
     public function setLevel($Level)
     {
@@ -124,7 +124,7 @@ class APISRequirements
 
     /**
      * @param boolean $GenderRequired
-     * @return \FilippoToso\Travelport\UniversalRecord\APISRequirements
+     * @return \Santosdave\Travelport\UniversalRecord\APISRequirements
      */
     public function setGenderRequired($GenderRequired)
     {
@@ -142,7 +142,7 @@ class APISRequirements
 
     /**
      * @param boolean $DateOfBirthRequired
-     * @return \FilippoToso\Travelport\UniversalRecord\APISRequirements
+     * @return \Santosdave\Travelport\UniversalRecord\APISRequirements
      */
     public function setDateOfBirthRequired($DateOfBirthRequired)
     {
@@ -160,7 +160,7 @@ class APISRequirements
 
     /**
      * @param string $RequiredDocuments
-     * @return \FilippoToso\Travelport\UniversalRecord\APISRequirements
+     * @return \Santosdave\Travelport\UniversalRecord\APISRequirements
      */
     public function setRequiredDocuments($RequiredDocuments)
     {
@@ -178,7 +178,7 @@ class APISRequirements
 
     /**
      * @param boolean $NationalityRequired
-     * @return \FilippoToso\Travelport\UniversalRecord\APISRequirements
+     * @return \Santosdave\Travelport\UniversalRecord\APISRequirements
      */
     public function setNationalityRequired($NationalityRequired)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Vehicle;
+namespace Santosdave\Travelport\Vehicle;
 
 class VehicleRulesLookup
 {
@@ -35,7 +35,7 @@ class VehicleRulesLookup
 
     /**
      * @param VehicleDateLocation $VehicleDateLocation
-     * @return \FilippoToso\Travelport\Vehicle\VehicleRulesLookup
+     * @return \Santosdave\Travelport\Vehicle\VehicleRulesLookup
      */
     public function setVehicleDateLocation($VehicleDateLocation)
     {
@@ -53,7 +53,7 @@ class VehicleRulesLookup
 
     /**
      * @param VehicleSearchModifiers $VehicleSearchModifiers
-     * @return \FilippoToso\Travelport\Vehicle\VehicleRulesLookup
+     * @return \Santosdave\Travelport\Vehicle\VehicleRulesLookup
      */
     public function setVehicleSearchModifiers($VehicleSearchModifiers)
     {

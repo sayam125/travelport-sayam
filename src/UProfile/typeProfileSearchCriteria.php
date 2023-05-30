@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeProfileSearchCriteria
 {
@@ -48,7 +48,7 @@ class typeProfileSearchCriteria
 
     /**
      * @param typeSearchAddress $Address
-     * @return \FilippoToso\Travelport\UProfile\typeProfileSearchCriteria
+     * @return \Santosdave\Travelport\UProfile\typeProfileSearchCriteria
      */
     public function setAddress($Address)
     {
@@ -66,7 +66,7 @@ class typeProfileSearchCriteria
 
     /**
      * @param typeSearchPhone $Phone
-     * @return \FilippoToso\Travelport\UProfile\typeProfileSearchCriteria
+     * @return \Santosdave\Travelport\UProfile\typeProfileSearchCriteria
      */
     public function setPhone($Phone)
     {
@@ -84,7 +84,7 @@ class typeProfileSearchCriteria
 
     /**
      * @param typeSearchElectronicAddress $ElectronicAddress
-     * @return \FilippoToso\Travelport\UProfile\typeProfileSearchCriteria
+     * @return \Santosdave\Travelport\UProfile\typeProfileSearchCriteria
      */
     public function setElectronicAddress($ElectronicAddress)
     {
@@ -102,7 +102,7 @@ class typeProfileSearchCriteria
 
     /**
      * @param typeSearchExternalIdentifier $ExternalIdentifier
-     * @return \FilippoToso\Travelport\UProfile\typeProfileSearchCriteria
+     * @return \Santosdave\Travelport\UProfile\typeProfileSearchCriteria
      */
     public function setExternalIdentifier($ExternalIdentifier)
     {
@@ -120,7 +120,7 @@ class typeProfileSearchCriteria
 
     /**
      * @param typeWildcard $AdditionalIdentifier
-     * @return \FilippoToso\Travelport\UProfile\typeProfileSearchCriteria
+     * @return \Santosdave\Travelport\UProfile\typeProfileSearchCriteria
      */
     public function setAdditionalIdentifier($AdditionalIdentifier)
     {

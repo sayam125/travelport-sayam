@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class Tax
 {
@@ -70,7 +70,7 @@ class Tax
 
     /**
      * @param typeMoney $Amount
-     * @return \FilippoToso\Travelport\Hotel\Tax
+     * @return \Santosdave\Travelport\Hotel\Tax
      */
     public function setAmount($Amount)
     {
@@ -88,7 +88,7 @@ class Tax
 
     /**
      * @param float $Percentage
-     * @return \FilippoToso\Travelport\Hotel\Tax
+     * @return \Santosdave\Travelport\Hotel\Tax
      */
     public function setPercentage($Percentage)
     {
@@ -106,7 +106,7 @@ class Tax
 
     /**
      * @param typeOTACode $Code
-     * @return \FilippoToso\Travelport\Hotel\Tax
+     * @return \Santosdave\Travelport\Hotel\Tax
      */
     public function setCode($Code)
     {
@@ -124,7 +124,7 @@ class Tax
 
     /**
      * @param date $EffectiveDate
-     * @return \FilippoToso\Travelport\Hotel\Tax
+     * @return \Santosdave\Travelport\Hotel\Tax
      */
     public function setEffectiveDate($EffectiveDate)
     {
@@ -142,7 +142,7 @@ class Tax
 
     /**
      * @param date $ExpirationDate
-     * @return \FilippoToso\Travelport\Hotel\Tax
+     * @return \Santosdave\Travelport\Hotel\Tax
      */
     public function setExpirationDate($ExpirationDate)
     {
@@ -160,7 +160,7 @@ class Tax
 
     /**
      * @param string $Term
-     * @return \FilippoToso\Travelport\Hotel\Tax
+     * @return \Santosdave\Travelport\Hotel\Tax
      */
     public function setTerm($Term)
     {
@@ -178,7 +178,7 @@ class Tax
 
     /**
      * @param string $CollectionFreq
-     * @return \FilippoToso\Travelport\Hotel\Tax
+     * @return \Santosdave\Travelport\Hotel\Tax
      */
     public function setCollectionFreq($CollectionFreq)
     {

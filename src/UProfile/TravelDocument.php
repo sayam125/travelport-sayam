@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class TravelDocument extends typeKeyTaggedElement
 {
@@ -211,7 +211,7 @@ class TravelDocument extends typeKeyTaggedElement
 
     /**
      * @param typeTravelDocumentAddress $Address
-     * @return \FilippoToso\Travelport\UProfile\TravelDocument
+     * @return \Santosdave\Travelport\UProfile\TravelDocument
      */
     public function setAddress($Address)
     {
@@ -229,7 +229,7 @@ class TravelDocument extends typeKeyTaggedElement
 
     /**
      * @param typeTravelDocumentType $Type
-     * @return \FilippoToso\Travelport\UProfile\TravelDocument
+     * @return \Santosdave\Travelport\UProfile\TravelDocument
      */
     public function setType($Type)
     {
@@ -247,7 +247,7 @@ class TravelDocument extends typeKeyTaggedElement
 
     /**
      * @param StringLength1to128 $DocumentNumber
-     * @return \FilippoToso\Travelport\UProfile\TravelDocument
+     * @return \Santosdave\Travelport\UProfile\TravelDocument
      */
     public function setDocumentNumber($DocumentNumber)
     {
@@ -265,7 +265,7 @@ class TravelDocument extends typeKeyTaggedElement
 
     /**
      * @param date $IssuedDate
-     * @return \FilippoToso\Travelport\UProfile\TravelDocument
+     * @return \Santosdave\Travelport\UProfile\TravelDocument
      */
     public function setIssuedDate($IssuedDate)
     {
@@ -283,7 +283,7 @@ class TravelDocument extends typeKeyTaggedElement
 
     /**
      * @param date $ExpirationDate
-     * @return \FilippoToso\Travelport\UProfile\TravelDocument
+     * @return \Santosdave\Travelport\UProfile\TravelDocument
      */
     public function setExpirationDate($ExpirationDate)
     {
@@ -301,7 +301,7 @@ class TravelDocument extends typeKeyTaggedElement
 
     /**
      * @param StringLength1to255 $LocationIssuedDescription
-     * @return \FilippoToso\Travelport\UProfile\TravelDocument
+     * @return \Santosdave\Travelport\UProfile\TravelDocument
      */
     public function setLocationIssuedDescription($LocationIssuedDescription)
     {
@@ -319,7 +319,7 @@ class TravelDocument extends typeKeyTaggedElement
 
     /**
      * @param StringLength1to128 $GivenName
-     * @return \FilippoToso\Travelport\UProfile\TravelDocument
+     * @return \Santosdave\Travelport\UProfile\TravelDocument
      */
     public function setGivenName($GivenName)
     {
@@ -337,7 +337,7 @@ class TravelDocument extends typeKeyTaggedElement
 
     /**
      * @param StringLength1to128 $MiddleName
-     * @return \FilippoToso\Travelport\UProfile\TravelDocument
+     * @return \Santosdave\Travelport\UProfile\TravelDocument
      */
     public function setMiddleName($MiddleName)
     {
@@ -355,7 +355,7 @@ class TravelDocument extends typeKeyTaggedElement
 
     /**
      * @param StringLength1to128 $Surname
-     * @return \FilippoToso\Travelport\UProfile\TravelDocument
+     * @return \Santosdave\Travelport\UProfile\TravelDocument
      */
     public function setSurname($Surname)
     {
@@ -373,7 +373,7 @@ class TravelDocument extends typeKeyTaggedElement
 
     /**
      * @param typeGender $Gender
-     * @return \FilippoToso\Travelport\UProfile\TravelDocument
+     * @return \Santosdave\Travelport\UProfile\TravelDocument
      */
     public function setGender($Gender)
     {
@@ -391,7 +391,7 @@ class TravelDocument extends typeKeyTaggedElement
 
     /**
      * @param StringLength1to255 $NationalIdentifier
-     * @return \FilippoToso\Travelport\UProfile\TravelDocument
+     * @return \Santosdave\Travelport\UProfile\TravelDocument
      */
     public function setNationalIdentifier($NationalIdentifier)
     {
@@ -409,7 +409,7 @@ class TravelDocument extends typeKeyTaggedElement
 
     /**
      * @param date $BirthDate
-     * @return \FilippoToso\Travelport\UProfile\TravelDocument
+     * @return \Santosdave\Travelport\UProfile\TravelDocument
      */
     public function setBirthDate($BirthDate)
     {
@@ -427,7 +427,7 @@ class TravelDocument extends typeKeyTaggedElement
 
     /**
      * @param StringLength1to128 $PlaceOfBirth
-     * @return \FilippoToso\Travelport\UProfile\TravelDocument
+     * @return \Santosdave\Travelport\UProfile\TravelDocument
      */
     public function setPlaceOfBirth($PlaceOfBirth)
     {
@@ -445,7 +445,7 @@ class TravelDocument extends typeKeyTaggedElement
 
     /**
      * @param typeCountry $Nationality
-     * @return \FilippoToso\Travelport\UProfile\TravelDocument
+     * @return \Santosdave\Travelport\UProfile\TravelDocument
      */
     public function setNationality($Nationality)
     {
@@ -463,7 +463,7 @@ class TravelDocument extends typeKeyTaggedElement
 
     /**
      * @param typeCountry $Citizenship
-     * @return \FilippoToso\Travelport\UProfile\TravelDocument
+     * @return \Santosdave\Travelport\UProfile\TravelDocument
      */
     public function setCitizenship($Citizenship)
     {
@@ -481,7 +481,7 @@ class TravelDocument extends typeKeyTaggedElement
 
     /**
      * @param typeCountry $IssuedByCountry
-     * @return \FilippoToso\Travelport\UProfile\TravelDocument
+     * @return \Santosdave\Travelport\UProfile\TravelDocument
      */
     public function setIssuedByCountry($IssuedByCountry)
     {
@@ -499,7 +499,7 @@ class TravelDocument extends typeKeyTaggedElement
 
     /**
      * @param StringLength1to128 $IssuedByOtherCountryName
-     * @return \FilippoToso\Travelport\UProfile\TravelDocument
+     * @return \Santosdave\Travelport\UProfile\TravelDocument
      */
     public function setIssuedByOtherCountryName($IssuedByOtherCountryName)
     {
@@ -517,7 +517,7 @@ class TravelDocument extends typeKeyTaggedElement
 
     /**
      * @param anonymous633 $Height
-     * @return \FilippoToso\Travelport\UProfile\TravelDocument
+     * @return \Santosdave\Travelport\UProfile\TravelDocument
      */
     public function setHeight($Height)
     {
@@ -535,7 +535,7 @@ class TravelDocument extends typeKeyTaggedElement
 
     /**
      * @param anonymous634 $HeightUnit
-     * @return \FilippoToso\Travelport\UProfile\TravelDocument
+     * @return \Santosdave\Travelport\UProfile\TravelDocument
      */
     public function setHeightUnit($HeightUnit)
     {
@@ -553,7 +553,7 @@ class TravelDocument extends typeKeyTaggedElement
 
     /**
      * @param anonymous635 $Weight
-     * @return \FilippoToso\Travelport\UProfile\TravelDocument
+     * @return \Santosdave\Travelport\UProfile\TravelDocument
      */
     public function setWeight($Weight)
     {
@@ -571,7 +571,7 @@ class TravelDocument extends typeKeyTaggedElement
 
     /**
      * @param anonymous636 $WeightUnit
-     * @return \FilippoToso\Travelport\UProfile\TravelDocument
+     * @return \Santosdave\Travelport\UProfile\TravelDocument
      */
     public function setWeightUnit($WeightUnit)
     {
@@ -589,7 +589,7 @@ class TravelDocument extends typeKeyTaggedElement
 
     /**
      * @param StringLength1to255 $Residence
-     * @return \FilippoToso\Travelport\UProfile\TravelDocument
+     * @return \Santosdave\Travelport\UProfile\TravelDocument
      */
     public function setResidence($Residence)
     {
@@ -607,7 +607,7 @@ class TravelDocument extends typeKeyTaggedElement
 
     /**
      * @param StringLength1to255 $EyeColor
-     * @return \FilippoToso\Travelport\UProfile\TravelDocument
+     * @return \Santosdave\Travelport\UProfile\TravelDocument
      */
     public function setEyeColor($EyeColor)
     {
@@ -625,7 +625,7 @@ class TravelDocument extends typeKeyTaggedElement
 
     /**
      * @param StringLength1to255 $MilitaryStatus
-     * @return \FilippoToso\Travelport\UProfile\TravelDocument
+     * @return \Santosdave\Travelport\UProfile\TravelDocument
      */
     public function setMilitaryStatus($MilitaryStatus)
     {
@@ -643,7 +643,7 @@ class TravelDocument extends typeKeyTaggedElement
 
     /**
      * @param typePriorityOrder $PriorityOrder
-     * @return \FilippoToso\Travelport\UProfile\TravelDocument
+     * @return \Santosdave\Travelport\UProfile\TravelDocument
      */
     public function setPriorityOrder($PriorityOrder)
     {
@@ -661,7 +661,7 @@ class TravelDocument extends typeKeyTaggedElement
 
     /**
      * @param typeGeoPoliticalAreaType $IssuedForGeoPoliticalAreaType
-     * @return \FilippoToso\Travelport\UProfile\TravelDocument
+     * @return \Santosdave\Travelport\UProfile\TravelDocument
      */
     public function setIssuedForGeoPoliticalAreaType($IssuedForGeoPoliticalAreaType)
     {
@@ -679,7 +679,7 @@ class TravelDocument extends typeKeyTaggedElement
 
     /**
      * @param typeGeoPoliticalAreaCode $IssuedForGeoPoliticalAreaCode
-     * @return \FilippoToso\Travelport\UProfile\TravelDocument
+     * @return \Santosdave\Travelport\UProfile\TravelDocument
      */
     public function setIssuedForGeoPoliticalAreaCode($IssuedForGeoPoliticalAreaCode)
     {

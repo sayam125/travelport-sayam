@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class ProfileChildSearchRsp extends BaseRsp
 {
@@ -48,7 +48,7 @@ class ProfileChildSearchRsp extends BaseRsp
 
     /**
      * @param ProfileChildSummary $ProfileChildSummary
-     * @return \FilippoToso\Travelport\UProfile\ProfileChildSearchRsp
+     * @return \Santosdave\Travelport\UProfile\ProfileChildSearchRsp
      */
     public function setProfileChildSummary($ProfileChildSummary)
     {
@@ -66,7 +66,7 @@ class ProfileChildSearchRsp extends BaseRsp
 
     /**
      * @param typeMoreResults $MoreResults
-     * @return \FilippoToso\Travelport\UProfile\ProfileChildSearchRsp
+     * @return \Santosdave\Travelport\UProfile\ProfileChildSearchRsp
      */
     public function setMoreResults($MoreResults)
     {
@@ -84,7 +84,7 @@ class ProfileChildSearchRsp extends BaseRsp
 
     /**
      * @param int $NumberOfChildren
-     * @return \FilippoToso\Travelport\UProfile\ProfileChildSearchRsp
+     * @return \Santosdave\Travelport\UProfile\ProfileChildSearchRsp
      */
     public function setNumberOfChildren($NumberOfChildren)
     {

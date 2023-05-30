@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class EMDRetrieveRsp extends BaseRsp
 {
@@ -41,7 +41,7 @@ class EMDRetrieveRsp extends BaseRsp
 
     /**
      * @param EMDInfo $EMDInfo
-     * @return \FilippoToso\Travelport\Air\EMDRetrieveRsp
+     * @return \Santosdave\Travelport\Air\EMDRetrieveRsp
      */
     public function setEMDInfo($EMDInfo)
     {
@@ -59,7 +59,7 @@ class EMDRetrieveRsp extends BaseRsp
 
     /**
      * @param EMDSummaryInfo $EMDSummaryInfo
-     * @return \FilippoToso\Travelport\Air\EMDRetrieveRsp
+     * @return \Santosdave\Travelport\Air\EMDRetrieveRsp
      */
     public function setEMDSummaryInfo($EMDSummaryInfo)
     {

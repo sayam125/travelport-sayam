@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class CreditCard extends typeCreditCardType
 {
@@ -51,7 +51,7 @@ class CreditCard extends typeCreditCardType
 
     /**
      * @param string $ProfileID
-     * @return \FilippoToso\Travelport\Util\CreditCard
+     * @return \Santosdave\Travelport\Util\CreditCard
      */
     public function setProfileID($ProfileID)
     {
@@ -69,7 +69,7 @@ class CreditCard extends typeCreditCardType
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Util\CreditCard
+     * @return \Santosdave\Travelport\Util\CreditCard
      */
     public function setKey($Key)
     {

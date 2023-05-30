@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class MarketingMessage
 {
@@ -26,7 +26,7 @@ class MarketingMessage
 
     /**
      * @param string[] $Text
-     * @return \FilippoToso\Travelport\UniversalRecord\MarketingMessage
+     * @return \Santosdave\Travelport\UniversalRecord\MarketingMessage
      */
     public function setText(array $Text = null)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class FareDisplay
 {
@@ -229,7 +229,7 @@ class FareDisplay
 
     /**
      * @param FareDisplayRule $FareDisplayRule
-     * @return \FilippoToso\Travelport\UniversalRecord\FareDisplay
+     * @return \Santosdave\Travelport\UniversalRecord\FareDisplay
      */
     public function setFareDisplayRule($FareDisplayRule)
     {
@@ -247,7 +247,7 @@ class FareDisplay
 
     /**
      * @param FarePricing $FarePricing
-     * @return \FilippoToso\Travelport\UniversalRecord\FareDisplay
+     * @return \Santosdave\Travelport\UniversalRecord\FareDisplay
      */
     public function setFarePricing($FarePricing)
     {
@@ -265,7 +265,7 @@ class FareDisplay
 
     /**
      * @param FareRestriction $FareRestriction
-     * @return \FilippoToso\Travelport\UniversalRecord\FareDisplay
+     * @return \Santosdave\Travelport\UniversalRecord\FareDisplay
      */
     public function setFareRestriction($FareRestriction)
     {
@@ -283,7 +283,7 @@ class FareDisplay
 
     /**
      * @param string $FareRoutingInformation
-     * @return \FilippoToso\Travelport\UniversalRecord\FareDisplay
+     * @return \Santosdave\Travelport\UniversalRecord\FareDisplay
      */
     public function setFareRoutingInformation($FareRoutingInformation)
     {
@@ -301,7 +301,7 @@ class FareDisplay
 
     /**
      * @param string $FareMileageInformation
-     * @return \FilippoToso\Travelport\UniversalRecord\FareDisplay
+     * @return \Santosdave\Travelport\UniversalRecord\FareDisplay
      */
     public function setFareMileageInformation($FareMileageInformation)
     {
@@ -319,7 +319,7 @@ class FareDisplay
 
     /**
      * @param AirFareDisplayRuleKey $AirFareDisplayRuleKey
-     * @return \FilippoToso\Travelport\UniversalRecord\FareDisplay
+     * @return \Santosdave\Travelport\UniversalRecord\FareDisplay
      */
     public function setAirFareDisplayRuleKey($AirFareDisplayRuleKey)
     {
@@ -337,7 +337,7 @@ class FareDisplay
 
     /**
      * @param BookingCode $BookingCode
-     * @return \FilippoToso\Travelport\UniversalRecord\FareDisplay
+     * @return \Santosdave\Travelport\UniversalRecord\FareDisplay
      */
     public function setBookingCode($BookingCode)
     {
@@ -355,7 +355,7 @@ class FareDisplay
 
     /**
      * @param AccountCode $AccountCode
-     * @return \FilippoToso\Travelport\UniversalRecord\FareDisplay
+     * @return \Santosdave\Travelport\UniversalRecord\FareDisplay
      */
     public function setAccountCode($AccountCode)
     {
@@ -373,7 +373,7 @@ class FareDisplay
 
     /**
      * @param AddlBookingCodeInformation $AddlBookingCodeInformation
-     * @return \FilippoToso\Travelport\UniversalRecord\FareDisplay
+     * @return \Santosdave\Travelport\UniversalRecord\FareDisplay
      */
     public function setAddlBookingCodeInformation($AddlBookingCodeInformation)
     {
@@ -391,7 +391,7 @@ class FareDisplay
 
     /**
      * @param FareRuleFailureInfo $FareRuleFailureInfo
-     * @return \FilippoToso\Travelport\UniversalRecord\FareDisplay
+     * @return \Santosdave\Travelport\UniversalRecord\FareDisplay
      */
     public function setFareRuleFailureInfo($FareRuleFailureInfo)
     {
@@ -409,7 +409,7 @@ class FareDisplay
 
     /**
      * @param PriceChangeType[] $PriceChange
-     * @return \FilippoToso\Travelport\UniversalRecord\FareDisplay
+     * @return \Santosdave\Travelport\UniversalRecord\FareDisplay
      */
     public function setPriceChange(array $PriceChange = null)
     {
@@ -427,7 +427,7 @@ class FareDisplay
 
     /**
      * @param typeCarrier $Carrier
-     * @return \FilippoToso\Travelport\UniversalRecord\FareDisplay
+     * @return \Santosdave\Travelport\UniversalRecord\FareDisplay
      */
     public function setCarrier($Carrier)
     {
@@ -445,7 +445,7 @@ class FareDisplay
 
     /**
      * @param string $FareBasis
-     * @return \FilippoToso\Travelport\UniversalRecord\FareDisplay
+     * @return \Santosdave\Travelport\UniversalRecord\FareDisplay
      */
     public function setFareBasis($FareBasis)
     {
@@ -463,7 +463,7 @@ class FareDisplay
 
     /**
      * @param typeMoney $Amount
-     * @return \FilippoToso\Travelport\UniversalRecord\FareDisplay
+     * @return \Santosdave\Travelport\UniversalRecord\FareDisplay
      */
     public function setAmount($Amount)
     {
@@ -481,7 +481,7 @@ class FareDisplay
 
     /**
      * @param typeFareTripType $TripType
-     * @return \FilippoToso\Travelport\UniversalRecord\FareDisplay
+     * @return \Santosdave\Travelport\UniversalRecord\FareDisplay
      */
     public function setTripType($TripType)
     {
@@ -499,7 +499,7 @@ class FareDisplay
 
     /**
      * @param typeFareTypeCode $FareTypeCode
-     * @return \FilippoToso\Travelport\UniversalRecord\FareDisplay
+     * @return \Santosdave\Travelport\UniversalRecord\FareDisplay
      */
     public function setFareTypeCode($FareTypeCode)
     {
@@ -517,7 +517,7 @@ class FareDisplay
 
     /**
      * @param boolean $SpecialFare
-     * @return \FilippoToso\Travelport\UniversalRecord\FareDisplay
+     * @return \Santosdave\Travelport\UniversalRecord\FareDisplay
      */
     public function setSpecialFare($SpecialFare)
     {
@@ -535,7 +535,7 @@ class FareDisplay
 
     /**
      * @param boolean $InstantPurchase
-     * @return \FilippoToso\Travelport\UniversalRecord\FareDisplay
+     * @return \Santosdave\Travelport\UniversalRecord\FareDisplay
      */
     public function setInstantPurchase($InstantPurchase)
     {
@@ -553,7 +553,7 @@ class FareDisplay
 
     /**
      * @param boolean $EligibilityRestricted
-     * @return \FilippoToso\Travelport\UniversalRecord\FareDisplay
+     * @return \Santosdave\Travelport\UniversalRecord\FareDisplay
      */
     public function setEligibilityRestricted($EligibilityRestricted)
     {
@@ -571,7 +571,7 @@ class FareDisplay
 
     /**
      * @param boolean $FlightRestricted
-     * @return \FilippoToso\Travelport\UniversalRecord\FareDisplay
+     * @return \Santosdave\Travelport\UniversalRecord\FareDisplay
      */
     public function setFlightRestricted($FlightRestricted)
     {
@@ -589,7 +589,7 @@ class FareDisplay
 
     /**
      * @param boolean $StopoversRestricted
-     * @return \FilippoToso\Travelport\UniversalRecord\FareDisplay
+     * @return \Santosdave\Travelport\UniversalRecord\FareDisplay
      */
     public function setStopoversRestricted($StopoversRestricted)
     {
@@ -607,7 +607,7 @@ class FareDisplay
 
     /**
      * @param boolean $TransfersRestricted
-     * @return \FilippoToso\Travelport\UniversalRecord\FareDisplay
+     * @return \Santosdave\Travelport\UniversalRecord\FareDisplay
      */
     public function setTransfersRestricted($TransfersRestricted)
     {
@@ -625,7 +625,7 @@ class FareDisplay
 
     /**
      * @param boolean $BlackoutsExist
-     * @return \FilippoToso\Travelport\UniversalRecord\FareDisplay
+     * @return \Santosdave\Travelport\UniversalRecord\FareDisplay
      */
     public function setBlackoutsExist($BlackoutsExist)
     {
@@ -643,7 +643,7 @@ class FareDisplay
 
     /**
      * @param boolean $AccompaniedTravel
-     * @return \FilippoToso\Travelport\UniversalRecord\FareDisplay
+     * @return \Santosdave\Travelport\UniversalRecord\FareDisplay
      */
     public function setAccompaniedTravel($AccompaniedTravel)
     {
@@ -661,7 +661,7 @@ class FareDisplay
 
     /**
      * @param typeMileOrRouteBasedFare $MileOrRouteBasedFare
-     * @return \FilippoToso\Travelport\UniversalRecord\FareDisplay
+     * @return \Santosdave\Travelport\UniversalRecord\FareDisplay
      */
     public function setMileOrRouteBasedFare($MileOrRouteBasedFare)
     {
@@ -679,7 +679,7 @@ class FareDisplay
 
     /**
      * @param typeATPCOGlobalIndicator $GlobalIndicator
-     * @return \FilippoToso\Travelport\UniversalRecord\FareDisplay
+     * @return \Santosdave\Travelport\UniversalRecord\FareDisplay
      */
     public function setGlobalIndicator($GlobalIndicator)
     {
@@ -697,7 +697,7 @@ class FareDisplay
 
     /**
      * @param typeIATACode $Origin
-     * @return \FilippoToso\Travelport\UniversalRecord\FareDisplay
+     * @return \Santosdave\Travelport\UniversalRecord\FareDisplay
      */
     public function setOrigin($Origin)
     {
@@ -715,7 +715,7 @@ class FareDisplay
 
     /**
      * @param typeIATACode $Destination
-     * @return \FilippoToso\Travelport\UniversalRecord\FareDisplay
+     * @return \Santosdave\Travelport\UniversalRecord\FareDisplay
      */
     public function setDestination($Destination)
     {
@@ -733,7 +733,7 @@ class FareDisplay
 
     /**
      * @param string $FareTicketingCode
-     * @return \FilippoToso\Travelport\UniversalRecord\FareDisplay
+     * @return \Santosdave\Travelport\UniversalRecord\FareDisplay
      */
     public function setFareTicketingCode($FareTicketingCode)
     {
@@ -751,7 +751,7 @@ class FareDisplay
 
     /**
      * @param typeTicketDesignator $FareTicketingDesignator
-     * @return \FilippoToso\Travelport\UniversalRecord\FareDisplay
+     * @return \Santosdave\Travelport\UniversalRecord\FareDisplay
      */
     public function setFareTicketingDesignator($FareTicketingDesignator)
     {

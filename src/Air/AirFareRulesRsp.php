@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class AirFareRulesRsp extends BaseRsp
 {
@@ -34,7 +34,7 @@ class AirFareRulesRsp extends BaseRsp
 
     /**
      * @param FareRule $FareRule
-     * @return \FilippoToso\Travelport\Air\AirFareRulesRsp
+     * @return \Santosdave\Travelport\Air\AirFareRulesRsp
      */
     public function setFareRule($FareRule)
     {

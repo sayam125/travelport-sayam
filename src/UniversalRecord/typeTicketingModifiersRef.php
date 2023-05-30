@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class typeTicketingModifiersRef
 {
@@ -35,7 +35,7 @@ class typeTicketingModifiersRef
 
     /**
      * @param AirPricingInfoRef $AirPricingInfoRef
-     * @return \FilippoToso\Travelport\UniversalRecord\typeTicketingModifiersRef
+     * @return \Santosdave\Travelport\UniversalRecord\typeTicketingModifiersRef
      */
     public function setAirPricingInfoRef($AirPricingInfoRef)
     {
@@ -53,7 +53,7 @@ class typeTicketingModifiersRef
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\UniversalRecord\typeTicketingModifiersRef
+     * @return \Santosdave\Travelport\UniversalRecord\typeTicketingModifiersRef
      */
     public function setKey($Key)
     {

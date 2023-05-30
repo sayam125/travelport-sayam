@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class Row
 {
@@ -49,7 +49,7 @@ class Row
 
     /**
      * @param Facility $Facility
-     * @return \FilippoToso\Travelport\Air\Row
+     * @return \Santosdave\Travelport\Air\Row
      */
     public function setFacility($Facility)
     {
@@ -67,7 +67,7 @@ class Row
 
     /**
      * @param Characteristic $Characteristic
-     * @return \FilippoToso\Travelport\Air\Row
+     * @return \Santosdave\Travelport\Air\Row
      */
     public function setCharacteristic($Characteristic)
     {
@@ -85,7 +85,7 @@ class Row
 
     /**
      * @param int $Number
-     * @return \FilippoToso\Travelport\Air\Row
+     * @return \Santosdave\Travelport\Air\Row
      */
     public function setNumber($Number)
     {
@@ -103,7 +103,7 @@ class Row
 
     /**
      * @param typeRef $SearchTravelerRef
-     * @return \FilippoToso\Travelport\Air\Row
+     * @return \Santosdave\Travelport\Air\Row
      */
     public function setSearchTravelerRef($SearchTravelerRef)
     {

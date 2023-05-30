@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class NextResultReference
 {
@@ -35,7 +35,7 @@ class NextResultReference
 
     /**
      * @param typeNonBlanks $_
-     * @return \FilippoToso\Travelport\GDSQueue\NextResultReference
+     * @return \Santosdave\Travelport\GDSQueue\NextResultReference
      */
     public function set_($_)
     {
@@ -53,7 +53,7 @@ class NextResultReference
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\GDSQueue\NextResultReference
+     * @return \Santosdave\Travelport\GDSQueue\NextResultReference
      */
     public function setProviderCode($ProviderCode)
     {

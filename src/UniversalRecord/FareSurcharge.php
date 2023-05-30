@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class FareSurcharge
 {
@@ -70,7 +70,7 @@ class FareSurcharge
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\UniversalRecord\FareSurcharge
+     * @return \Santosdave\Travelport\UniversalRecord\FareSurcharge
      */
     public function setKey($Key)
     {
@@ -88,7 +88,7 @@ class FareSurcharge
 
     /**
      * @param string $Type
-     * @return \FilippoToso\Travelport\UniversalRecord\FareSurcharge
+     * @return \Santosdave\Travelport\UniversalRecord\FareSurcharge
      */
     public function setType($Type)
     {
@@ -106,7 +106,7 @@ class FareSurcharge
 
     /**
      * @param typeMoney $Amount
-     * @return \FilippoToso\Travelport\UniversalRecord\FareSurcharge
+     * @return \Santosdave\Travelport\UniversalRecord\FareSurcharge
      */
     public function setAmount($Amount)
     {
@@ -124,7 +124,7 @@ class FareSurcharge
 
     /**
      * @param typeRef $SegmentRef
-     * @return \FilippoToso\Travelport\UniversalRecord\FareSurcharge
+     * @return \Santosdave\Travelport\UniversalRecord\FareSurcharge
      */
     public function setSegmentRef($SegmentRef)
     {
@@ -142,7 +142,7 @@ class FareSurcharge
 
     /**
      * @param typeRef $CouponRef
-     * @return \FilippoToso\Travelport\UniversalRecord\FareSurcharge
+     * @return \Santosdave\Travelport\UniversalRecord\FareSurcharge
      */
     public function setCouponRef($CouponRef)
     {
@@ -160,7 +160,7 @@ class FareSurcharge
 
     /**
      * @param typeElementStatus $ElStat
-     * @return \FilippoToso\Travelport\UniversalRecord\FareSurcharge
+     * @return \Santosdave\Travelport\UniversalRecord\FareSurcharge
      */
     public function setElStat($ElStat)
     {
@@ -178,7 +178,7 @@ class FareSurcharge
 
     /**
      * @param boolean $KeyOverride
-     * @return \FilippoToso\Travelport\UniversalRecord\FareSurcharge
+     * @return \Santosdave\Travelport\UniversalRecord\FareSurcharge
      */
     public function setKeyOverride($KeyOverride)
     {

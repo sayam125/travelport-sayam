@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class EndpointRef extends typeEndpointRef
 {
@@ -37,7 +37,7 @@ class EndpointRef extends typeEndpointRef
 
     /**
      * @param typePurposeTypeCode $PurposeTypeCode
-     * @return \FilippoToso\Travelport\UProfile\EndpointRef
+     * @return \Santosdave\Travelport\UProfile\EndpointRef
      */
     public function setPurposeTypeCode($PurposeTypeCode)
     {
@@ -55,7 +55,7 @@ class EndpointRef extends typeEndpointRef
 
     /**
      * @param string $EndPointCode
-     * @return \FilippoToso\Travelport\UProfile\EndpointRef
+     * @return \Santosdave\Travelport\UProfile\EndpointRef
      */
     public function setEndPointCode($EndPointCode)
     {

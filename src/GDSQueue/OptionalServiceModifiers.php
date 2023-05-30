@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class OptionalServiceModifiers
 {
@@ -28,7 +28,7 @@ class OptionalServiceModifiers
 
     /**
      * @param OptionalServiceModifier $OptionalServiceModifier
-     * @return \FilippoToso\Travelport\GDSQueue\OptionalServiceModifiers
+     * @return \Santosdave\Travelport\GDSQueue\OptionalServiceModifiers
      */
     public function setOptionalServiceModifier($OptionalServiceModifier)
     {

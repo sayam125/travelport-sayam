@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class CurrencyConversionRsp extends BaseRsp
 {
@@ -34,7 +34,7 @@ class CurrencyConversionRsp extends BaseRsp
 
     /**
      * @param CurrencyConversion $CurrencyConversion
-     * @return \FilippoToso\Travelport\Util\CurrencyConversionRsp
+     * @return \Santosdave\Travelport\Util\CurrencyConversionRsp
      */
     public function setCurrencyConversion($CurrencyConversion)
     {

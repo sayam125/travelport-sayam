@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class FareFamily
 {
@@ -63,7 +63,7 @@ class FareFamily
 
     /**
      * @param typeFlightSpec $FlightSpec
-     * @return \FilippoToso\Travelport\Util\FareFamily
+     * @return \Santosdave\Travelport\Util\FareFamily
      */
     public function setFlightSpec($FlightSpec)
     {
@@ -81,7 +81,7 @@ class FareFamily
 
     /**
      * @param typeCarrier $Carrier
-     * @return \FilippoToso\Travelport\Util\FareFamily
+     * @return \Santosdave\Travelport\Util\FareFamily
      */
     public function setCarrier($Carrier)
     {
@@ -99,7 +99,7 @@ class FareFamily
 
     /**
      * @param typeFareFamily $Label
-     * @return \FilippoToso\Travelport\Util\FareFamily
+     * @return \Santosdave\Travelport\Util\FareFamily
      */
     public function setLabel($Label)
     {
@@ -117,7 +117,7 @@ class FareFamily
 
     /**
      * @param typeFareBasisCode $FareBasis
-     * @return \FilippoToso\Travelport\Util\FareFamily
+     * @return \Santosdave\Travelport\Util\FareFamily
      */
     public function setFareBasis($FareBasis)
     {
@@ -135,7 +135,7 @@ class FareFamily
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Util\FareFamily
+     * @return \Santosdave\Travelport\Util\FareFamily
      */
     public function setKey($Key)
     {
@@ -153,7 +153,7 @@ class FareFamily
 
     /**
      * @param typeURVersion $Version
-     * @return \FilippoToso\Travelport\Util\FareFamily
+     * @return \Santosdave\Travelport\Util\FareFamily
      */
     public function setVersion($Version)
     {

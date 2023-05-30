@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class GdsQueuePlaceRsp extends BaseRsp
 {
@@ -34,7 +34,7 @@ class GdsQueuePlaceRsp extends BaseRsp
 
     /**
      * @param UniversalRecord $UniversalRecord
-     * @return \FilippoToso\Travelport\GDSQueue\GdsQueuePlaceRsp
+     * @return \Santosdave\Travelport\GDSQueue\GdsQueuePlaceRsp
      */
     public function setUniversalRecord($UniversalRecord)
     {

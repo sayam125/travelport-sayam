@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class AppliedProfileCriteria
 {
@@ -28,7 +28,7 @@ class AppliedProfileCriteria
 
     /**
      * @param anonymous1415 $TravelerProfileId
-     * @return \FilippoToso\Travelport\UniversalRecord\AppliedProfileCriteria
+     * @return \Santosdave\Travelport\UniversalRecord\AppliedProfileCriteria
      */
     public function setTravelerProfileId($TravelerProfileId)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class CreateAgencyFeeMcoReq extends BaseReq
 {
@@ -96,7 +96,7 @@ class CreateAgencyFeeMcoReq extends BaseReq
 
     /**
      * @param Name $Name
-     * @return \FilippoToso\Travelport\Util\CreateAgencyFeeMcoReq
+     * @return \Santosdave\Travelport\Util\CreateAgencyFeeMcoReq
      */
     public function setName($Name)
     {
@@ -114,7 +114,7 @@ class CreateAgencyFeeMcoReq extends BaseReq
 
     /**
      * @param FormOfPayment $FormOfPayment
-     * @return \FilippoToso\Travelport\Util\CreateAgencyFeeMcoReq
+     * @return \Santosdave\Travelport\Util\CreateAgencyFeeMcoReq
      */
     public function setFormOfPayment($FormOfPayment)
     {
@@ -132,7 +132,7 @@ class CreateAgencyFeeMcoReq extends BaseReq
 
     /**
      * @param FormOfPaymentRef $FormOfPaymentRef
-     * @return \FilippoToso\Travelport\Util\CreateAgencyFeeMcoReq
+     * @return \Santosdave\Travelport\Util\CreateAgencyFeeMcoReq
      */
     public function setFormOfPaymentRef($FormOfPaymentRef)
     {
@@ -150,7 +150,7 @@ class CreateAgencyFeeMcoReq extends BaseReq
 
     /**
      * @param GeneralRemark $GeneralRemark
-     * @return \FilippoToso\Travelport\Util\CreateAgencyFeeMcoReq
+     * @return \Santosdave\Travelport\Util\CreateAgencyFeeMcoReq
      */
     public function setGeneralRemark($GeneralRemark)
     {
@@ -168,7 +168,7 @@ class CreateAgencyFeeMcoReq extends BaseReq
 
     /**
      * @param AccountingRemark $AccountingRemark
-     * @return \FilippoToso\Travelport\Util\CreateAgencyFeeMcoReq
+     * @return \Santosdave\Travelport\Util\CreateAgencyFeeMcoReq
      */
     public function setAccountingRemark($AccountingRemark)
     {
@@ -186,7 +186,7 @@ class CreateAgencyFeeMcoReq extends BaseReq
 
     /**
      * @param typeMoney $Amount
-     * @return \FilippoToso\Travelport\Util\CreateAgencyFeeMcoReq
+     * @return \Santosdave\Travelport\Util\CreateAgencyFeeMcoReq
      */
     public function setAmount($Amount)
     {
@@ -204,7 +204,7 @@ class CreateAgencyFeeMcoReq extends BaseReq
 
     /**
      * @param typeAirport $LocationCode
-     * @return \FilippoToso\Travelport\Util\CreateAgencyFeeMcoReq
+     * @return \Santosdave\Travelport\Util\CreateAgencyFeeMcoReq
      */
     public function setLocationCode($LocationCode)
     {
@@ -222,7 +222,7 @@ class CreateAgencyFeeMcoReq extends BaseReq
 
     /**
      * @param anonymous1085 $LocatorCode
-     * @return \FilippoToso\Travelport\Util\CreateAgencyFeeMcoReq
+     * @return \Santosdave\Travelport\Util\CreateAgencyFeeMcoReq
      */
     public function setLocatorCode($LocatorCode)
     {
@@ -240,7 +240,7 @@ class CreateAgencyFeeMcoReq extends BaseReq
 
     /**
      * @param string $TicketNumber
-     * @return \FilippoToso\Travelport\Util\CreateAgencyFeeMcoReq
+     * @return \Santosdave\Travelport\Util\CreateAgencyFeeMcoReq
      */
     public function setTicketNumber($TicketNumber)
     {

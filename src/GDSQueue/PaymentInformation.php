@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class PaymentInformation extends typePaymentInformation
 {
@@ -32,7 +32,7 @@ class PaymentInformation extends typePaymentInformation
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\GDSQueue\PaymentInformation
+     * @return \Santosdave\Travelport\GDSQueue\PaymentInformation
      */
     public function setKey($Key)
     {

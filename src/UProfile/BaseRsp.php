@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class BaseRsp
 {
@@ -56,7 +56,7 @@ class BaseRsp
 
     /**
      * @param ResponseMessage $ResponseMessage
-     * @return \FilippoToso\Travelport\UProfile\BaseRsp
+     * @return \Santosdave\Travelport\UProfile\BaseRsp
      */
     public function setResponseMessage($ResponseMessage)
     {
@@ -74,7 +74,7 @@ class BaseRsp
 
     /**
      * @param string $TraceId
-     * @return \FilippoToso\Travelport\UProfile\BaseRsp
+     * @return \Santosdave\Travelport\UProfile\BaseRsp
      */
     public function setTraceId($TraceId)
     {
@@ -92,7 +92,7 @@ class BaseRsp
 
     /**
      * @param string $TransactionId
-     * @return \FilippoToso\Travelport\UProfile\BaseRsp
+     * @return \Santosdave\Travelport\UProfile\BaseRsp
      */
     public function setTransactionId($TransactionId)
     {
@@ -110,7 +110,7 @@ class BaseRsp
 
     /**
      * @param int $ResponseTime
-     * @return \FilippoToso\Travelport\UProfile\BaseRsp
+     * @return \Santosdave\Travelport\UProfile\BaseRsp
      */
     public function setResponseTime($ResponseTime)
     {
@@ -128,7 +128,7 @@ class BaseRsp
 
     /**
      * @param string $CommandHistory
-     * @return \FilippoToso\Travelport\UProfile\BaseRsp
+     * @return \Santosdave\Travelport\UProfile\BaseRsp
      */
     public function setCommandHistory($CommandHistory)
     {

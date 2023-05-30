@@ -1,6 +1,6 @@
 # PHP client library for Travelport SOAP API
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/filippo-toso/travelport.svg?style=flat-square)](https://packagist.org/packages/filippo-toso/travelport)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/santosdave/travelport.svg?style=flat-square)](https://packagist.org/packages/santosdave/travelport)
 
 With this library you can call the Travelport SOAP methods in a object oriented way.
 
@@ -9,7 +9,7 @@ With this library you can call the Travelport SOAP methods in a object oriented 
 You can install the package via composer:
 
 ```bash
-composer require filippo-toso/travelport
+composer require santosdave/travelport
 ```
 
 ## Usage
@@ -19,8 +19,8 @@ If you don't have the required credentials you can register for a trial on this 
 Here is a pure PHP example:
 
 ```php
-use FilippoToso\Travelport;
-use FilippoToso\Travelport\System;
+use Santosdave\Travelport;
+use Santosdave\Travelport\System;
 
 // Create the API client
 $travelport = new Travelport\Travelport(
@@ -64,7 +64,7 @@ You can also use this library in your Laravel applications.
 The first step whould be to publish the configuration file:
 
 ```
-php artisan vendor:publish --tag=config --provider="FilippoToso\Travelport\TravelportServiceProvider"
+php artisan vendor:publish --tag=config --provider="Santosdave\Travelport\TravelportServiceProvider"
 ```
 
 Then insert your credentials in the config\travelport.php file.
@@ -72,8 +72,8 @@ Then insert your credentials in the config\travelport.php file.
 Then you can execute requests with a code like this:
 
 ```php
-use FilippoToso\Travelport;
-use FilippoToso\Travelport\System;
+use Santosdave\Travelport;
+use Santosdave\Travelport\System;
 
 // Create a Time request on the System service
 $request = (new System\TimeReq())
@@ -107,7 +107,7 @@ If you discover any security related issues, please email filippo@toso.dev inste
 
 ## Credits
 
-- [Filippo Toso](https://github.com/filippotoso)
+- [Filippo Toso](https://github.com/santosdave)
 
 ## License
 

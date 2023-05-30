@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class IncludedInBase
 {
@@ -28,7 +28,7 @@ class IncludedInBase
 
     /**
      * @param typeMoney $Amount
-     * @return \FilippoToso\Travelport\GDSQueue\IncludedInBase
+     * @return \Santosdave\Travelport\GDSQueue\IncludedInBase
      */
     public function setAmount($Amount)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class Criteria
 {
@@ -35,7 +35,7 @@ class Criteria
 
     /**
      * @param anonymous1188 $Order
-     * @return \FilippoToso\Travelport\Rail\Criteria
+     * @return \Santosdave\Travelport\Rail\Criteria
      */
     public function setOrder($Order)
     {
@@ -53,7 +53,7 @@ class Criteria
 
     /**
      * @param anonymous1189 $Type
-     * @return \FilippoToso\Travelport\Rail\Criteria
+     * @return \Santosdave\Travelport\Rail\Criteria
      */
     public function setType($Type)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class ServiceFeeTaxInfo
 {
@@ -35,7 +35,7 @@ class ServiceFeeTaxInfo
 
     /**
      * @param string $Category
-     * @return \FilippoToso\Travelport\Air\ServiceFeeTaxInfo
+     * @return \Santosdave\Travelport\Air\ServiceFeeTaxInfo
      */
     public function setCategory($Category)
     {
@@ -53,7 +53,7 @@ class ServiceFeeTaxInfo
 
     /**
      * @param typeMoney $Amount
-     * @return \FilippoToso\Travelport\Air\ServiceFeeTaxInfo
+     * @return \Santosdave\Travelport\Air\ServiceFeeTaxInfo
      */
     public function setAmount($Amount)
     {

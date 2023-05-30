@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class AgencyContactInfo
 {
@@ -35,7 +35,7 @@ class AgencyContactInfo
 
     /**
      * @param PhoneNumber $PhoneNumber
-     * @return \FilippoToso\Travelport\GDSQueue\AgencyContactInfo
+     * @return \Santosdave\Travelport\GDSQueue\AgencyContactInfo
      */
     public function setPhoneNumber($PhoneNumber)
     {
@@ -53,7 +53,7 @@ class AgencyContactInfo
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\GDSQueue\AgencyContactInfo
+     * @return \Santosdave\Travelport\GDSQueue\AgencyContactInfo
      */
     public function setKey($Key)
     {

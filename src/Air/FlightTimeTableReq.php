@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class FlightTimeTableReq extends BaseSearchReq
 {
@@ -41,7 +41,7 @@ class FlightTimeTableReq extends BaseSearchReq
 
     /**
      * @param FlightTimeTableCriteria $FlightTimeTableCriteria
-     * @return \FilippoToso\Travelport\Air\FlightTimeTableReq
+     * @return \Santosdave\Travelport\Air\FlightTimeTableReq
      */
     public function setFlightTimeTableCriteria($FlightTimeTableCriteria)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class SavedTripRetrieveReq extends BaseReq
 {
@@ -47,7 +47,7 @@ class SavedTripRetrieveReq extends BaseReq
 
     /**
      * @param typeLocatorCode $LocatorCode
-     * @return \FilippoToso\Travelport\UniversalRecord\SavedTripRetrieveReq
+     * @return \Santosdave\Travelport\UniversalRecord\SavedTripRetrieveReq
      */
     public function setLocatorCode($LocatorCode)
     {
@@ -65,7 +65,7 @@ class SavedTripRetrieveReq extends BaseReq
 
     /**
      * @param typeTravelerLastName $TravelerLastName
-     * @return \FilippoToso\Travelport\UniversalRecord\SavedTripRetrieveReq
+     * @return \Santosdave\Travelport\UniversalRecord\SavedTripRetrieveReq
      */
     public function setTravelerLastName($TravelerLastName)
     {

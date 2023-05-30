@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class SessProp
 {
@@ -35,7 +35,7 @@ class SessProp
 
     /**
      * @param string $nm
-     * @return \FilippoToso\Travelport\UniversalRecord\SessProp
+     * @return \Santosdave\Travelport\UniversalRecord\SessProp
      */
     public function setNm($nm)
     {
@@ -53,7 +53,7 @@ class SessProp
 
     /**
      * @param string $val
-     * @return \FilippoToso\Travelport\UniversalRecord\SessProp
+     * @return \Santosdave\Travelport\UniversalRecord\SessProp
      */
     public function setVal($val)
     {

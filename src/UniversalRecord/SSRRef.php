@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class SSRRef
 {
@@ -28,7 +28,7 @@ class SSRRef
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\UniversalRecord\SSRRef
+     * @return \Santosdave\Travelport\UniversalRecord\SSRRef
      */
     public function setKey($Key)
     {

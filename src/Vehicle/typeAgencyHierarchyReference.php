@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Vehicle;
+namespace Santosdave\Travelport\Vehicle;
 
 class typeAgencyHierarchyReference
 {
@@ -35,7 +35,7 @@ class typeAgencyHierarchyReference
 
     /**
      * @param typeProfileID $ProfileID
-     * @return \FilippoToso\Travelport\Vehicle\typeAgencyHierarchyReference
+     * @return \Santosdave\Travelport\Vehicle\typeAgencyHierarchyReference
      */
     public function setProfileID($ProfileID)
     {
@@ -53,7 +53,7 @@ class typeAgencyHierarchyReference
 
     /**
      * @param typeAgencyProfileLevel $ProfileType
-     * @return \FilippoToso\Travelport\Vehicle\typeAgencyHierarchyReference
+     * @return \Santosdave\Travelport\Vehicle\typeAgencyHierarchyReference
      */
     public function setProfileType($ProfileType)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Vehicle;
+namespace Santosdave\Travelport\Vehicle;
 
 class typeProviderReservationDetail
 {
@@ -42,7 +42,7 @@ class typeProviderReservationDetail
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\Vehicle\typeProviderReservationDetail
+     * @return \Santosdave\Travelport\Vehicle\typeProviderReservationDetail
      */
     public function setProviderCode($ProviderCode)
     {
@@ -60,7 +60,7 @@ class typeProviderReservationDetail
 
     /**
      * @param typeProviderLocatorCode $ProviderLocatorCode
-     * @return \FilippoToso\Travelport\Vehicle\typeProviderReservationDetail
+     * @return \Santosdave\Travelport\Vehicle\typeProviderReservationDetail
      */
     public function setProviderLocatorCode($ProviderLocatorCode)
     {
@@ -78,7 +78,7 @@ class typeProviderReservationDetail
 
     /**
      * @param typeSupplierCode $SupplierCode
-     * @return \FilippoToso\Travelport\Vehicle\typeProviderReservationDetail
+     * @return \Santosdave\Travelport\Vehicle\typeProviderReservationDetail
      */
     public function setSupplierCode($SupplierCode)
     {

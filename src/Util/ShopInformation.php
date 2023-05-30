@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class ShopInformation
 {
@@ -52,7 +52,7 @@ class ShopInformation
 
     /**
      * @param SearchRequest[] $SearchRequest
-     * @return \FilippoToso\Travelport\Util\ShopInformation
+     * @return \Santosdave\Travelport\Util\ShopInformation
      */
     public function setSearchRequest(array $SearchRequest = null)
     {
@@ -70,7 +70,7 @@ class ShopInformation
 
     /**
      * @param FlightsOffered[] $FlightsOffered
-     * @return \FilippoToso\Travelport\Util\ShopInformation
+     * @return \Santosdave\Travelport\Util\ShopInformation
      */
     public function setFlightsOffered(array $FlightsOffered = null)
     {
@@ -88,7 +88,7 @@ class ShopInformation
 
     /**
      * @param string $CabinShopped
-     * @return \FilippoToso\Travelport\Util\ShopInformation
+     * @return \Santosdave\Travelport\Util\ShopInformation
      */
     public function setCabinShopped($CabinShopped)
     {
@@ -106,7 +106,7 @@ class ShopInformation
 
     /**
      * @param string $CabinSelected
-     * @return \FilippoToso\Travelport\Util\ShopInformation
+     * @return \Santosdave\Travelport\Util\ShopInformation
      */
     public function setCabinSelected($CabinSelected)
     {
@@ -124,7 +124,7 @@ class ShopInformation
 
     /**
      * @param typeMoney $LowestFareOffered
-     * @return \FilippoToso\Travelport\Util\ShopInformation
+     * @return \Santosdave\Travelport\Util\ShopInformation
      */
     public function setLowestFareOffered($LowestFareOffered)
     {

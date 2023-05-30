@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class ContractCodes
 {
@@ -28,7 +28,7 @@ class ContractCodes
 
     /**
      * @param ContractCode $ContractCode
-     * @return \FilippoToso\Travelport\GDSQueue\ContractCodes
+     * @return \Santosdave\Travelport\GDSQueue\ContractCodes
      */
     public function setContractCode($ContractCode)
     {

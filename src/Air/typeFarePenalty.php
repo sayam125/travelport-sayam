@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class typeFarePenalty
 {
@@ -45,7 +45,7 @@ class typeFarePenalty
 
     /**
      * @param typeMoney $Amount
-     * @return \FilippoToso\Travelport\Air\typeFarePenalty
+     * @return \Santosdave\Travelport\Air\typeFarePenalty
      */
     public function setAmount($Amount)
     {
@@ -63,7 +63,7 @@ class typeFarePenalty
 
     /**
      * @param typePercentageWithDecimal $Percentage
-     * @return \FilippoToso\Travelport\Air\typeFarePenalty
+     * @return \Santosdave\Travelport\Air\typeFarePenalty
      */
     public function setPercentage($Percentage)
     {
@@ -81,7 +81,7 @@ class typeFarePenalty
 
     /**
      * @param anonymous875 $PenaltyApplies
-     * @return \FilippoToso\Travelport\Air\typeFarePenalty
+     * @return \Santosdave\Travelport\Air\typeFarePenalty
      */
     public function setPenaltyApplies($PenaltyApplies)
     {
@@ -99,7 +99,7 @@ class typeFarePenalty
 
     /**
      * @param boolean $NoShow
-     * @return \FilippoToso\Travelport\Air\typeFarePenalty
+     * @return \Santosdave\Travelport\Air\typeFarePenalty
      */
     public function setNoShow($NoShow)
     {

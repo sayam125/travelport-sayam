@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class typeTicketModifierValueType
 {
@@ -35,7 +35,7 @@ class typeTicketModifierValueType
 
     /**
      * @param string $Value
-     * @return \FilippoToso\Travelport\GDSQueue\typeTicketModifierValueType
+     * @return \Santosdave\Travelport\GDSQueue\typeTicketModifierValueType
      */
     public function setValue($Value)
     {
@@ -53,7 +53,7 @@ class typeTicketModifierValueType
 
     /**
      * @param boolean $NetFareValue
-     * @return \FilippoToso\Travelport\GDSQueue\typeTicketModifierValueType
+     * @return \Santosdave\Travelport\GDSQueue\typeTicketModifierValueType
      */
     public function setNetFareValue($NetFareValue)
     {

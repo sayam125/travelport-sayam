@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class ProhibitedChains
 {
@@ -28,7 +28,7 @@ class ProhibitedChains
 
     /**
      * @param HotelChain $HotelChain
-     * @return \FilippoToso\Travelport\GDSQueue\ProhibitedChains
+     * @return \Santosdave\Travelport\GDSQueue\ProhibitedChains
      */
     public function setHotelChain($HotelChain)
     {

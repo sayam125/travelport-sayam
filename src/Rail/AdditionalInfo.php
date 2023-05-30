@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class AdditionalInfo
 {
@@ -28,7 +28,7 @@ class AdditionalInfo
 
     /**
      * @param string $Category
-     * @return \FilippoToso\Travelport\Rail\AdditionalInfo
+     * @return \Santosdave\Travelport\Rail\AdditionalInfo
      */
     public function setCategory($Category)
     {

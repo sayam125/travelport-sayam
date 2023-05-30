@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class AirExchangeEligibilityReq extends BaseReq
 {
@@ -47,7 +47,7 @@ class AirExchangeEligibilityReq extends BaseReq
 
     /**
      * @param ProviderReservationInfo $ProviderReservationInfo
-     * @return \FilippoToso\Travelport\Air\AirExchangeEligibilityReq
+     * @return \Santosdave\Travelport\Air\AirExchangeEligibilityReq
      */
     public function setProviderReservationInfo($ProviderReservationInfo)
     {
@@ -65,7 +65,7 @@ class AirExchangeEligibilityReq extends BaseReq
 
     /**
      * @param string $Type
-     * @return \FilippoToso\Travelport\Air\AirExchangeEligibilityReq
+     * @return \Santosdave\Travelport\Air\AirExchangeEligibilityReq
      */
     public function setType($Type)
     {

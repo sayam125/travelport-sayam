@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class MaxLayoverDurationType
 {
@@ -42,7 +42,7 @@ class MaxLayoverDurationType
 
     /**
      * @param MaxLayoverDurationRangeType $Domestic
-     * @return \FilippoToso\Travelport\Util\MaxLayoverDurationType
+     * @return \Santosdave\Travelport\Util\MaxLayoverDurationType
      */
     public function setDomestic($Domestic)
     {
@@ -60,7 +60,7 @@ class MaxLayoverDurationType
 
     /**
      * @param MaxLayoverDurationRangeType $Gateway
-     * @return \FilippoToso\Travelport\Util\MaxLayoverDurationType
+     * @return \Santosdave\Travelport\Util\MaxLayoverDurationType
      */
     public function setGateway($Gateway)
     {
@@ -78,7 +78,7 @@ class MaxLayoverDurationType
 
     /**
      * @param MaxLayoverDurationRangeType $International
-     * @return \FilippoToso\Travelport\Util\MaxLayoverDurationType
+     * @return \Santosdave\Travelport\Util\MaxLayoverDurationType
      */
     public function setInternational($International)
     {

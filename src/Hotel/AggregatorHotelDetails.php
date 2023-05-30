@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class AggregatorHotelDetails extends typeHotelDetails
 {
@@ -124,7 +124,7 @@ class AggregatorHotelDetails extends typeHotelDetails
 
     /**
      * @param string $Aggregator
-     * @return \FilippoToso\Travelport\Hotel\AggregatorHotelDetails
+     * @return \Santosdave\Travelport\Hotel\AggregatorHotelDetails
      */
     public function setAggregator($Aggregator)
     {
@@ -142,7 +142,7 @@ class AggregatorHotelDetails extends typeHotelDetails
 
     /**
      * @param string $AggregatorName
-     * @return \FilippoToso\Travelport\Hotel\AggregatorHotelDetails
+     * @return \Santosdave\Travelport\Hotel\AggregatorHotelDetails
      */
     public function setAggregatorName($AggregatorName)
     {
@@ -160,7 +160,7 @@ class AggregatorHotelDetails extends typeHotelDetails
 
     /**
      * @param string $RulesAndRestriction
-     * @return \FilippoToso\Travelport\Hotel\AggregatorHotelDetails
+     * @return \Santosdave\Travelport\Hotel\AggregatorHotelDetails
      */
     public function setRulesAndRestriction($RulesAndRestriction)
     {
@@ -178,7 +178,7 @@ class AggregatorHotelDetails extends typeHotelDetails
 
     /**
      * @param string $TermsAndConditions
-     * @return \FilippoToso\Travelport\Hotel\AggregatorHotelDetails
+     * @return \Santosdave\Travelport\Hotel\AggregatorHotelDetails
      */
     public function setTermsAndConditions($TermsAndConditions)
     {
@@ -196,7 +196,7 @@ class AggregatorHotelDetails extends typeHotelDetails
 
     /**
      * @param boolean $SupportsPayment
-     * @return \FilippoToso\Travelport\Hotel\AggregatorHotelDetails
+     * @return \Santosdave\Travelport\Hotel\AggregatorHotelDetails
      */
     public function setSupportsPayment($SupportsPayment)
     {
@@ -214,7 +214,7 @@ class AggregatorHotelDetails extends typeHotelDetails
 
     /**
      * @param string $CommissionModel
-     * @return \FilippoToso\Travelport\Hotel\AggregatorHotelDetails
+     * @return \Santosdave\Travelport\Hotel\AggregatorHotelDetails
      */
     public function setCommissionModel($CommissionModel)
     {
@@ -232,7 +232,7 @@ class AggregatorHotelDetails extends typeHotelDetails
 
     /**
      * @param string $MultiRoomSupport
-     * @return \FilippoToso\Travelport\Hotel\AggregatorHotelDetails
+     * @return \Santosdave\Travelport\Hotel\AggregatorHotelDetails
      */
     public function setMultiRoomSupport($MultiRoomSupport)
     {
@@ -250,7 +250,7 @@ class AggregatorHotelDetails extends typeHotelDetails
 
     /**
      * @param boolean $SupportsChildren
-     * @return \FilippoToso\Travelport\Hotel\AggregatorHotelDetails
+     * @return \Santosdave\Travelport\Hotel\AggregatorHotelDetails
      */
     public function setSupportsChildren($SupportsChildren)
     {
@@ -268,7 +268,7 @@ class AggregatorHotelDetails extends typeHotelDetails
 
     /**
      * @param int $ChildStartAge
-     * @return \FilippoToso\Travelport\Hotel\AggregatorHotelDetails
+     * @return \Santosdave\Travelport\Hotel\AggregatorHotelDetails
      */
     public function setChildStartAge($ChildStartAge)
     {
@@ -286,7 +286,7 @@ class AggregatorHotelDetails extends typeHotelDetails
 
     /**
      * @param int $AdultStartAge
-     * @return \FilippoToso\Travelport\Hotel\AggregatorHotelDetails
+     * @return \Santosdave\Travelport\Hotel\AggregatorHotelDetails
      */
     public function setAdultStartAge($AdultStartAge)
     {
@@ -304,7 +304,7 @@ class AggregatorHotelDetails extends typeHotelDetails
 
     /**
      * @param int $MaxChildrenPerRoom
-     * @return \FilippoToso\Travelport\Hotel\AggregatorHotelDetails
+     * @return \Santosdave\Travelport\Hotel\AggregatorHotelDetails
      */
     public function setMaxChildrenPerRoom($MaxChildrenPerRoom)
     {
@@ -322,7 +322,7 @@ class AggregatorHotelDetails extends typeHotelDetails
 
     /**
      * @param string $PhoneNumber
-     * @return \FilippoToso\Travelport\Hotel\AggregatorHotelDetails
+     * @return \Santosdave\Travelport\Hotel\AggregatorHotelDetails
      */
     public function setPhoneNumber($PhoneNumber)
     {
@@ -340,7 +340,7 @@ class AggregatorHotelDetails extends typeHotelDetails
 
     /**
      * @param string $AreaCode
-     * @return \FilippoToso\Travelport\Hotel\AggregatorHotelDetails
+     * @return \Santosdave\Travelport\Hotel\AggregatorHotelDetails
      */
     public function setAreaCode($AreaCode)
     {
@@ -358,7 +358,7 @@ class AggregatorHotelDetails extends typeHotelDetails
 
     /**
      * @param string $CountryCode
-     * @return \FilippoToso\Travelport\Hotel\AggregatorHotelDetails
+     * @return \Santosdave\Travelport\Hotel\AggregatorHotelDetails
      */
     public function setCountryCode($CountryCode)
     {

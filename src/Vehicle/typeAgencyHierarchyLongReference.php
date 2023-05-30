@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Vehicle;
+namespace Santosdave\Travelport\Vehicle;
 
 class typeAgencyHierarchyLongReference extends typeAgencyHierarchyReference
 {
@@ -38,7 +38,7 @@ class typeAgencyHierarchyLongReference extends typeAgencyHierarchyReference
 
     /**
      * @param int $ProfileVersion
-     * @return \FilippoToso\Travelport\Vehicle\typeAgencyHierarchyLongReference
+     * @return \Santosdave\Travelport\Vehicle\typeAgencyHierarchyLongReference
      */
     public function setProfileVersion($ProfileVersion)
     {
@@ -56,7 +56,7 @@ class typeAgencyHierarchyLongReference extends typeAgencyHierarchyReference
 
     /**
      * @param anonymous375 $ProfileName
-     * @return \FilippoToso\Travelport\Vehicle\typeAgencyHierarchyLongReference
+     * @return \Santosdave\Travelport\Vehicle\typeAgencyHierarchyLongReference
      */
     public function setProfileName($ProfileName)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class TagRef
 {
@@ -28,7 +28,7 @@ class TagRef
 
     /**
      * @param typeID $ID
-     * @return \FilippoToso\Travelport\UProfile\TagRef
+     * @return \Santosdave\Travelport\UProfile\TagRef
      */
     public function setID($ID)
     {

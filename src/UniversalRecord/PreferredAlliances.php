@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class PreferredAlliances
 {
@@ -28,7 +28,7 @@ class PreferredAlliances
 
     /**
      * @param Alliance $Alliance
-     * @return \FilippoToso\Travelport\UniversalRecord\PreferredAlliances
+     * @return \Santosdave\Travelport\UniversalRecord\PreferredAlliances
      */
     public function setAlliance($Alliance)
     {

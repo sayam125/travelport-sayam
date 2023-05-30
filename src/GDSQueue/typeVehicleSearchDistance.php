@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class typeVehicleSearchDistance
 {
@@ -49,7 +49,7 @@ class typeVehicleSearchDistance
 
     /**
      * @param typeDistance $Units
-     * @return \FilippoToso\Travelport\GDSQueue\typeVehicleSearchDistance
+     * @return \Santosdave\Travelport\GDSQueue\typeVehicleSearchDistance
      */
     public function setUnits($Units)
     {
@@ -67,7 +67,7 @@ class typeVehicleSearchDistance
 
     /**
      * @param anonymous561 $Direction
-     * @return \FilippoToso\Travelport\GDSQueue\typeVehicleSearchDistance
+     * @return \Santosdave\Travelport\GDSQueue\typeVehicleSearchDistance
      */
     public function setDirection($Direction)
     {
@@ -85,7 +85,7 @@ class typeVehicleSearchDistance
 
     /**
      * @param anonymous562 $MinDistance
-     * @return \FilippoToso\Travelport\GDSQueue\typeVehicleSearchDistance
+     * @return \Santosdave\Travelport\GDSQueue\typeVehicleSearchDistance
      */
     public function setMinDistance($MinDistance)
     {
@@ -103,7 +103,7 @@ class typeVehicleSearchDistance
 
     /**
      * @param anonymous563 $MaxDistance
-     * @return \FilippoToso\Travelport\GDSQueue\typeVehicleSearchDistance
+     * @return \Santosdave\Travelport\GDSQueue\typeVehicleSearchDistance
      */
     public function setMaxDistance($MaxDistance)
     {

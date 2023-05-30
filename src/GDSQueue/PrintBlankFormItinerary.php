@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class PrintBlankFormItinerary
 {
@@ -35,7 +35,7 @@ class PrintBlankFormItinerary
 
     /**
      * @param boolean $IncludeDescription
-     * @return \FilippoToso\Travelport\GDSQueue\PrintBlankFormItinerary
+     * @return \Santosdave\Travelport\GDSQueue\PrintBlankFormItinerary
      */
     public function setIncludeDescription($IncludeDescription)
     {
@@ -53,7 +53,7 @@ class PrintBlankFormItinerary
 
     /**
      * @param boolean $IncludeHeader
-     * @return \FilippoToso\Travelport\GDSQueue\PrintBlankFormItinerary
+     * @return \Santosdave\Travelport\GDSQueue\PrintBlankFormItinerary
      */
     public function setIncludeHeader($IncludeHeader)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class BookingRulesFareReference
 {
@@ -63,7 +63,7 @@ class BookingRulesFareReference
 
     /**
      * @param string $_
-     * @return \FilippoToso\Travelport\UniversalRecord\BookingRulesFareReference
+     * @return \Santosdave\Travelport\UniversalRecord\BookingRulesFareReference
      */
     public function set_($_)
     {
@@ -81,7 +81,7 @@ class BookingRulesFareReference
 
     /**
      * @param typeClassOfService $ClassOfService
-     * @return \FilippoToso\Travelport\UniversalRecord\BookingRulesFareReference
+     * @return \Santosdave\Travelport\UniversalRecord\BookingRulesFareReference
      */
     public function setClassOfService($ClassOfService)
     {
@@ -99,7 +99,7 @@ class BookingRulesFareReference
 
     /**
      * @param typeTicketDesignator $TicketDesignatorCode
-     * @return \FilippoToso\Travelport\UniversalRecord\BookingRulesFareReference
+     * @return \Santosdave\Travelport\UniversalRecord\BookingRulesFareReference
      */
     public function setTicketDesignatorCode($TicketDesignatorCode)
     {
@@ -117,7 +117,7 @@ class BookingRulesFareReference
 
     /**
      * @param string $AccountCode
-     * @return \FilippoToso\Travelport\UniversalRecord\BookingRulesFareReference
+     * @return \Santosdave\Travelport\UniversalRecord\BookingRulesFareReference
      */
     public function setAccountCode($AccountCode)
     {
@@ -135,7 +135,7 @@ class BookingRulesFareReference
 
     /**
      * @param boolean $UpgrageAllowed
-     * @return \FilippoToso\Travelport\UniversalRecord\BookingRulesFareReference
+     * @return \Santosdave\Travelport\UniversalRecord\BookingRulesFareReference
      */
     public function setUpgrageAllowed($UpgrageAllowed)
     {
@@ -153,7 +153,7 @@ class BookingRulesFareReference
 
     /**
      * @param typeClassOfService $UpgradeClassOfService
-     * @return \FilippoToso\Travelport\UniversalRecord\BookingRulesFareReference
+     * @return \Santosdave\Travelport\UniversalRecord\BookingRulesFareReference
      */
     public function setUpgradeClassOfService($UpgradeClassOfService)
     {

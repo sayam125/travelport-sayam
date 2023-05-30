@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class RoutingRules
 {
@@ -26,7 +26,7 @@ class RoutingRules
 
     /**
      * @param Routing[] $Routing
-     * @return \FilippoToso\Travelport\Air\RoutingRules
+     * @return \Santosdave\Travelport\Air\RoutingRules
      */
     public function setRouting(array $Routing = null)
     {

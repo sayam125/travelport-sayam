@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class SSRRef
 {
@@ -28,7 +28,7 @@ class SSRRef
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\GDSQueue\SSRRef
+     * @return \Santosdave\Travelport\GDSQueue\SSRRef
      */
     public function setKey($Key)
     {

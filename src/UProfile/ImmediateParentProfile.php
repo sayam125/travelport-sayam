@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class ImmediateParentProfile
 {
@@ -35,7 +35,7 @@ class ImmediateParentProfile
 
     /**
      * @param typeImmediateParentRef $ImmediateParentRef
-     * @return \FilippoToso\Travelport\UProfile\ImmediateParentProfile
+     * @return \Santosdave\Travelport\UProfile\ImmediateParentProfile
      */
     public function setImmediateParentRef($ImmediateParentRef)
     {
@@ -53,7 +53,7 @@ class ImmediateParentProfile
 
     /**
      * @param boolean $ControlBranch
-     * @return \FilippoToso\Travelport\UProfile\ImmediateParentProfile
+     * @return \Santosdave\Travelport\UProfile\ImmediateParentProfile
      */
     public function setControlBranch($ControlBranch)
     {

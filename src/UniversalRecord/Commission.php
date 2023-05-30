@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class Commission
 {
@@ -42,7 +42,7 @@ class Commission
 
     /**
      * @param typeMoney $Amount
-     * @return \FilippoToso\Travelport\UniversalRecord\Commission
+     * @return \Santosdave\Travelport\UniversalRecord\Commission
      */
     public function setAmount($Amount)
     {
@@ -60,7 +60,7 @@ class Commission
 
     /**
      * @param typeMoney $MiscellaneousAmount
-     * @return \FilippoToso\Travelport\UniversalRecord\Commission
+     * @return \Santosdave\Travelport\UniversalRecord\Commission
      */
     public function setMiscellaneousAmount($MiscellaneousAmount)
     {
@@ -78,7 +78,7 @@ class Commission
 
     /**
      * @param StringLength1to13 $MiscellaneousDescription
-     * @return \FilippoToso\Travelport\UniversalRecord\Commission
+     * @return \Santosdave\Travelport\UniversalRecord\Commission
      */
     public function setMiscellaneousDescription($MiscellaneousDescription)
     {

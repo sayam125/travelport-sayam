@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class FareTicketDesignator
 {
@@ -28,7 +28,7 @@ class FareTicketDesignator
 
     /**
      * @param typeTicketDesignator $Value
-     * @return \FilippoToso\Travelport\UniversalRecord\FareTicketDesignator
+     * @return \Santosdave\Travelport\UniversalRecord\FareTicketDesignator
      */
     public function setValue($Value)
     {

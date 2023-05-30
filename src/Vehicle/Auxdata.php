@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Vehicle;
+namespace Santosdave\Travelport\Vehicle;
 
 class Auxdata
 {
@@ -28,7 +28,7 @@ class Auxdata
 
     /**
      * @param Entry[] $Entry
-     * @return \FilippoToso\Travelport\Vehicle\Auxdata
+     * @return \Santosdave\Travelport\Vehicle\Auxdata
      */
     public function setEntry(array $Entry)
     {

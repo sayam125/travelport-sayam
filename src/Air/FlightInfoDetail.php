@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class FlightInfoDetail
 {
@@ -133,7 +133,7 @@ class FlightInfoDetail
 
     /**
      * @param CodeshareInfo $CodeshareInfo
-     * @return \FilippoToso\Travelport\Air\FlightInfoDetail
+     * @return \Santosdave\Travelport\Air\FlightInfoDetail
      */
     public function setCodeshareInfo($CodeshareInfo)
     {
@@ -151,7 +151,7 @@ class FlightInfoDetail
 
     /**
      * @param typeMealService $Meals
-     * @return \FilippoToso\Travelport\Air\FlightInfoDetail
+     * @return \Santosdave\Travelport\Air\FlightInfoDetail
      */
     public function setMeals($Meals)
     {
@@ -169,7 +169,7 @@ class FlightInfoDetail
 
     /**
      * @param string $InFlightServices
-     * @return \FilippoToso\Travelport\Air\FlightInfoDetail
+     * @return \Santosdave\Travelport\Air\FlightInfoDetail
      */
     public function setInFlightServices($InFlightServices)
     {
@@ -187,7 +187,7 @@ class FlightInfoDetail
 
     /**
      * @param Variance $Variance
-     * @return \FilippoToso\Travelport\Air\FlightInfoDetail
+     * @return \Santosdave\Travelport\Air\FlightInfoDetail
      */
     public function setVariance($Variance)
     {
@@ -205,7 +205,7 @@ class FlightInfoDetail
 
     /**
      * @param typeIATACode $Origin
-     * @return \FilippoToso\Travelport\Air\FlightInfoDetail
+     * @return \Santosdave\Travelport\Air\FlightInfoDetail
      */
     public function setOrigin($Origin)
     {
@@ -223,7 +223,7 @@ class FlightInfoDetail
 
     /**
      * @param typeIATACode $Destination
-     * @return \FilippoToso\Travelport\Air\FlightInfoDetail
+     * @return \Santosdave\Travelport\Air\FlightInfoDetail
      */
     public function setDestination($Destination)
     {
@@ -241,7 +241,7 @@ class FlightInfoDetail
 
     /**
      * @param string $ScheduledDepartureTime
-     * @return \FilippoToso\Travelport\Air\FlightInfoDetail
+     * @return \Santosdave\Travelport\Air\FlightInfoDetail
      */
     public function setScheduledDepartureTime($ScheduledDepartureTime)
     {
@@ -259,7 +259,7 @@ class FlightInfoDetail
 
     /**
      * @param string $ScheduledArrivalTime
-     * @return \FilippoToso\Travelport\Air\FlightInfoDetail
+     * @return \Santosdave\Travelport\Air\FlightInfoDetail
      */
     public function setScheduledArrivalTime($ScheduledArrivalTime)
     {
@@ -277,7 +277,7 @@ class FlightInfoDetail
 
     /**
      * @param int $TravelTime
-     * @return \FilippoToso\Travelport\Air\FlightInfoDetail
+     * @return \Santosdave\Travelport\Air\FlightInfoDetail
      */
     public function setTravelTime($TravelTime)
     {
@@ -295,7 +295,7 @@ class FlightInfoDetail
 
     /**
      * @param typeEticketability $ETicketability
-     * @return \FilippoToso\Travelport\Air\FlightInfoDetail
+     * @return \Santosdave\Travelport\Air\FlightInfoDetail
      */
     public function setETicketability($ETicketability)
     {
@@ -313,7 +313,7 @@ class FlightInfoDetail
 
     /**
      * @param typeEquipment $Equipment
-     * @return \FilippoToso\Travelport\Air\FlightInfoDetail
+     * @return \Santosdave\Travelport\Air\FlightInfoDetail
      */
     public function setEquipment($Equipment)
     {
@@ -331,7 +331,7 @@ class FlightInfoDetail
 
     /**
      * @param string $OriginTerminal
-     * @return \FilippoToso\Travelport\Air\FlightInfoDetail
+     * @return \Santosdave\Travelport\Air\FlightInfoDetail
      */
     public function setOriginTerminal($OriginTerminal)
     {
@@ -349,7 +349,7 @@ class FlightInfoDetail
 
     /**
      * @param anonymous984 $OriginGate
-     * @return \FilippoToso\Travelport\Air\FlightInfoDetail
+     * @return \Santosdave\Travelport\Air\FlightInfoDetail
      */
     public function setOriginGate($OriginGate)
     {
@@ -367,7 +367,7 @@ class FlightInfoDetail
 
     /**
      * @param string $DestinationTerminal
-     * @return \FilippoToso\Travelport\Air\FlightInfoDetail
+     * @return \Santosdave\Travelport\Air\FlightInfoDetail
      */
     public function setDestinationTerminal($DestinationTerminal)
     {
@@ -385,7 +385,7 @@ class FlightInfoDetail
 
     /**
      * @param anonymous985 $DestinationGate
-     * @return \FilippoToso\Travelport\Air\FlightInfoDetail
+     * @return \Santosdave\Travelport\Air\FlightInfoDetail
      */
     public function setDestinationGate($DestinationGate)
     {
@@ -403,7 +403,7 @@ class FlightInfoDetail
 
     /**
      * @param boolean $AutomatedCheckin
-     * @return \FilippoToso\Travelport\Air\FlightInfoDetail
+     * @return \Santosdave\Travelport\Air\FlightInfoDetail
      */
     public function setAutomatedCheckin($AutomatedCheckin)
     {

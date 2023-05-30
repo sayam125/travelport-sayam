@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeAddress extends typeKeyElement
 {
@@ -72,7 +72,7 @@ class typeAddress extends typeKeyElement
 
     /**
      * @param StringLength1to128 $AddressLine
-     * @return \FilippoToso\Travelport\UProfile\typeAddress
+     * @return \Santosdave\Travelport\UProfile\typeAddress
      */
     public function setAddressLine($AddressLine)
     {
@@ -90,7 +90,7 @@ class typeAddress extends typeKeyElement
 
     /**
      * @param anonymous802 $City
-     * @return \FilippoToso\Travelport\UProfile\typeAddress
+     * @return \Santosdave\Travelport\UProfile\typeAddress
      */
     public function setCity($City)
     {
@@ -108,7 +108,7 @@ class typeAddress extends typeKeyElement
 
     /**
      * @param anonymous803 $State
-     * @return \FilippoToso\Travelport\UProfile\typeAddress
+     * @return \Santosdave\Travelport\UProfile\typeAddress
      */
     public function setState($State)
     {
@@ -126,7 +126,7 @@ class typeAddress extends typeKeyElement
 
     /**
      * @param StringLength1to128 $OtherStateProvince
-     * @return \FilippoToso\Travelport\UProfile\typeAddress
+     * @return \Santosdave\Travelport\UProfile\typeAddress
      */
     public function setOtherStateProvince($OtherStateProvince)
     {
@@ -144,7 +144,7 @@ class typeAddress extends typeKeyElement
 
     /**
      * @param typeCountry $Country
-     * @return \FilippoToso\Travelport\UProfile\typeAddress
+     * @return \Santosdave\Travelport\UProfile\typeAddress
      */
     public function setCountry($Country)
     {
@@ -162,7 +162,7 @@ class typeAddress extends typeKeyElement
 
     /**
      * @param anonymous804 $Postal
-     * @return \FilippoToso\Travelport\UProfile\typeAddress
+     * @return \Santosdave\Travelport\UProfile\typeAddress
      */
     public function setPostal($Postal)
     {
@@ -180,7 +180,7 @@ class typeAddress extends typeKeyElement
 
     /**
      * @param StringLength1to128 $Type
-     * @return \FilippoToso\Travelport\UProfile\typeAddress
+     * @return \Santosdave\Travelport\UProfile\typeAddress
      */
     public function setType($Type)
     {

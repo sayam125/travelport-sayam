@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class CO2Emission
 {
@@ -35,7 +35,7 @@ class CO2Emission
 
     /**
      * @param typeRef $AirSegmentRef
-     * @return \FilippoToso\Travelport\Rail\CO2Emission
+     * @return \Santosdave\Travelport\Rail\CO2Emission
      */
     public function setAirSegmentRef($AirSegmentRef)
     {
@@ -53,7 +53,7 @@ class CO2Emission
 
     /**
      * @param float $Value
-     * @return \FilippoToso\Travelport\Rail\CO2Emission
+     * @return \Santosdave\Travelport\Rail\CO2Emission
      */
     public function setValue($Value)
     {

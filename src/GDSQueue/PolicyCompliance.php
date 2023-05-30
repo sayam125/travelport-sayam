@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class PolicyCompliance
 {
@@ -35,7 +35,7 @@ class PolicyCompliance
 
     /**
      * @param boolean $InPolicy
-     * @return \FilippoToso\Travelport\GDSQueue\PolicyCompliance
+     * @return \Santosdave\Travelport\GDSQueue\PolicyCompliance
      */
     public function setInPolicy($InPolicy)
     {
@@ -53,7 +53,7 @@ class PolicyCompliance
 
     /**
      * @param StringLength1to128 $PolicyToken
-     * @return \FilippoToso\Travelport\GDSQueue\PolicyCompliance
+     * @return \Santosdave\Travelport\GDSQueue\PolicyCompliance
      */
     public function setPolicyToken($PolicyToken)
     {

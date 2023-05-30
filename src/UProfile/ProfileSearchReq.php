@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class ProfileSearchReq extends BaseReq
 {
@@ -82,7 +82,7 @@ class ProfileSearchReq extends BaseReq
 
     /**
      * @param ProfileTypeSearch $ProfileTypeSearch
-     * @return \FilippoToso\Travelport\UProfile\ProfileSearchReq
+     * @return \Santosdave\Travelport\UProfile\ProfileSearchReq
      */
     public function setProfileTypeSearch($ProfileTypeSearch)
     {
@@ -100,7 +100,7 @@ class ProfileSearchReq extends BaseReq
 
     /**
      * @param ProfileSearch $ProfileSearch
-     * @return \FilippoToso\Travelport\UProfile\ProfileSearchReq
+     * @return \Santosdave\Travelport\UProfile\ProfileSearchReq
      */
     public function setProfileSearch($ProfileSearch)
     {
@@ -118,7 +118,7 @@ class ProfileSearchReq extends BaseReq
 
     /**
      * @param ProfileSearchModifiers $ProfileSearchModifiers
-     * @return \FilippoToso\Travelport\UProfile\ProfileSearchReq
+     * @return \Santosdave\Travelport\UProfile\ProfileSearchReq
      */
     public function setProfileSearchModifiers($ProfileSearchModifiers)
     {
@@ -136,7 +136,7 @@ class ProfileSearchReq extends BaseReq
 
     /**
      * @param typeProfileType $ProfileType
-     * @return \FilippoToso\Travelport\UProfile\ProfileSearchReq
+     * @return \Santosdave\Travelport\UProfile\ProfileSearchReq
      */
     public function setProfileType($ProfileType)
     {
@@ -154,7 +154,7 @@ class ProfileSearchReq extends BaseReq
 
     /**
      * @param UNKNOWN $ProfileParentID
-     * @return \FilippoToso\Travelport\UProfile\ProfileSearchReq
+     * @return \Santosdave\Travelport\UProfile\ProfileSearchReq
      */
     public function setProfileParentID($ProfileParentID)
     {
@@ -172,7 +172,7 @@ class ProfileSearchReq extends BaseReq
 
     /**
      * @param boolean $ReturnParentSummary
-     * @return \FilippoToso\Travelport\UProfile\ProfileSearchReq
+     * @return \Santosdave\Travelport\UProfile\ProfileSearchReq
      */
     public function setReturnParentSummary($ReturnParentSummary)
     {
@@ -190,7 +190,7 @@ class ProfileSearchReq extends BaseReq
 
     /**
      * @param StringLength1to128 $SearchToken
-     * @return \FilippoToso\Travelport\UProfile\ProfileSearchReq
+     * @return \Santosdave\Travelport\UProfile\ProfileSearchReq
      */
     public function setSearchToken($SearchToken)
     {

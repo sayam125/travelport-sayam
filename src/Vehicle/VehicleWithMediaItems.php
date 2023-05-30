@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Vehicle;
+namespace Santosdave\Travelport\Vehicle;
 
 class VehicleWithMediaItems
 {
@@ -40,7 +40,7 @@ class VehicleWithMediaItems
 
     /**
      * @param Vehicle $Vehicle
-     * @return \FilippoToso\Travelport\Vehicle\VehicleWithMediaItems
+     * @return \Santosdave\Travelport\Vehicle\VehicleWithMediaItems
      */
     public function setVehicle($Vehicle)
     {
@@ -58,7 +58,7 @@ class VehicleWithMediaItems
 
     /**
      * @param MediaItem $MediaItem
-     * @return \FilippoToso\Travelport\Vehicle\VehicleWithMediaItems
+     * @return \Santosdave\Travelport\Vehicle\VehicleWithMediaItems
      */
     public function setMediaItem($MediaItem)
     {
@@ -76,7 +76,7 @@ class VehicleWithMediaItems
 
     /**
      * @param typeResultMessage[] $MediaResultMessage
-     * @return \FilippoToso\Travelport\Vehicle\VehicleWithMediaItems
+     * @return \Santosdave\Travelport\Vehicle\VehicleWithMediaItems
      */
     public function setMediaResultMessage(array $MediaResultMessage = null)
     {

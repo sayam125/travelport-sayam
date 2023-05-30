@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Terminal;
+namespace Santosdave\Travelport\Terminal;
 
 class SpecialEquipment
 {
@@ -49,7 +49,7 @@ class SpecialEquipment
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Terminal\SpecialEquipment
+     * @return \Santosdave\Travelport\Terminal\SpecialEquipment
      */
     public function setKey($Key)
     {
@@ -67,7 +67,7 @@ class SpecialEquipment
 
     /**
      * @param string $Type
-     * @return \FilippoToso\Travelport\Terminal\SpecialEquipment
+     * @return \Santosdave\Travelport\Terminal\SpecialEquipment
      */
     public function setType($Type)
     {
@@ -85,7 +85,7 @@ class SpecialEquipment
 
     /**
      * @param typeElementStatus $ElStat
-     * @return \FilippoToso\Travelport\Terminal\SpecialEquipment
+     * @return \Santosdave\Travelport\Terminal\SpecialEquipment
      */
     public function setElStat($ElStat)
     {
@@ -103,7 +103,7 @@ class SpecialEquipment
 
     /**
      * @param boolean $KeyOverride
-     * @return \FilippoToso\Travelport\Terminal\SpecialEquipment
+     * @return \Santosdave\Travelport\Terminal\SpecialEquipment
      */
     public function setKeyOverride($KeyOverride)
     {

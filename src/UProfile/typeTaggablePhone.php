@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeTaggablePhone extends typePhone
 {
@@ -51,7 +51,7 @@ class typeTaggablePhone extends typePhone
 
     /**
      * @param TagRef $TagRef
-     * @return \FilippoToso\Travelport\UProfile\typeTaggablePhone
+     * @return \Santosdave\Travelport\UProfile\typeTaggablePhone
      */
     public function setTagRef($TagRef)
     {
@@ -69,7 +69,7 @@ class typeTaggablePhone extends typePhone
 
     /**
      * @param typeContactPurpose $Purpose
-     * @return \FilippoToso\Travelport\UProfile\typeTaggablePhone
+     * @return \Santosdave\Travelport\UProfile\typeTaggablePhone
      */
     public function setPurpose($Purpose)
     {
@@ -87,7 +87,7 @@ class typeTaggablePhone extends typePhone
 
     /**
      * @param typePriorityOrder $PriorityOrder
-     * @return \FilippoToso\Travelport\UProfile\typeTaggablePhone
+     * @return \Santosdave\Travelport\UProfile\typeTaggablePhone
      */
     public function setPriorityOrder($PriorityOrder)
     {

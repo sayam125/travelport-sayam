@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class typeFreeFormText
 {
@@ -28,7 +28,7 @@ class typeFreeFormText
 
     /**
      * @param string $_
-     * @return \FilippoToso\Travelport\UniversalRecord\typeFreeFormText
+     * @return \Santosdave\Travelport\UniversalRecord\typeFreeFormText
      */
     public function set_($_)
     {

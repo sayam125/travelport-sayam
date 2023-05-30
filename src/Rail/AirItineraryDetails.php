@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class AirItineraryDetails
 {
@@ -42,7 +42,7 @@ class AirItineraryDetails
 
     /**
      * @param AirSegmentDetails $AirSegmentDetails
-     * @return \FilippoToso\Travelport\Rail\AirItineraryDetails
+     * @return \Santosdave\Travelport\Rail\AirItineraryDetails
      */
     public function setAirSegmentDetails($AirSegmentDetails)
     {
@@ -60,7 +60,7 @@ class AirItineraryDetails
 
     /**
      * @param PassengerDetails $PassengerDetails
-     * @return \FilippoToso\Travelport\Rail\AirItineraryDetails
+     * @return \Santosdave\Travelport\Rail\AirItineraryDetails
      */
     public function setPassengerDetails($PassengerDetails)
     {
@@ -78,7 +78,7 @@ class AirItineraryDetails
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Rail\AirItineraryDetails
+     * @return \Santosdave\Travelport\Rail\AirItineraryDetails
      */
     public function setKey($Key)
     {

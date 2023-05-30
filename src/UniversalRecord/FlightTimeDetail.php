@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class FlightTimeDetail
 {
@@ -194,7 +194,7 @@ class FlightTimeDetail
 
     /**
      * @param typeDaysOfOperation $DaysOfOperation
-     * @return \FilippoToso\Travelport\UniversalRecord\FlightTimeDetail
+     * @return \Santosdave\Travelport\UniversalRecord\FlightTimeDetail
      */
     public function setDaysOfOperation($DaysOfOperation)
     {
@@ -212,7 +212,7 @@ class FlightTimeDetail
 
     /**
      * @param Connection $Connection
-     * @return \FilippoToso\Travelport\UniversalRecord\FlightTimeDetail
+     * @return \Santosdave\Travelport\UniversalRecord\FlightTimeDetail
      */
     public function setConnection($Connection)
     {
@@ -230,7 +230,7 @@ class FlightTimeDetail
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\UniversalRecord\FlightTimeDetail
+     * @return \Santosdave\Travelport\UniversalRecord\FlightTimeDetail
      */
     public function setKey($Key)
     {
@@ -248,7 +248,7 @@ class FlightTimeDetail
 
     /**
      * @param string $VendorCode
-     * @return \FilippoToso\Travelport\UniversalRecord\FlightTimeDetail
+     * @return \Santosdave\Travelport\UniversalRecord\FlightTimeDetail
      */
     public function setVendorCode($VendorCode)
     {
@@ -266,7 +266,7 @@ class FlightTimeDetail
 
     /**
      * @param typeFlightNumber $FlightNumber
-     * @return \FilippoToso\Travelport\UniversalRecord\FlightTimeDetail
+     * @return \Santosdave\Travelport\UniversalRecord\FlightTimeDetail
      */
     public function setFlightNumber($FlightNumber)
     {
@@ -284,7 +284,7 @@ class FlightTimeDetail
 
     /**
      * @param typeAirport $Origin
-     * @return \FilippoToso\Travelport\UniversalRecord\FlightTimeDetail
+     * @return \Santosdave\Travelport\UniversalRecord\FlightTimeDetail
      */
     public function setOrigin($Origin)
     {
@@ -302,7 +302,7 @@ class FlightTimeDetail
 
     /**
      * @param typeAirport $Destination
-     * @return \FilippoToso\Travelport\UniversalRecord\FlightTimeDetail
+     * @return \Santosdave\Travelport\UniversalRecord\FlightTimeDetail
      */
     public function setDestination($Destination)
     {
@@ -320,7 +320,7 @@ class FlightTimeDetail
 
     /**
      * @param time $DepartureTime
-     * @return \FilippoToso\Travelport\UniversalRecord\FlightTimeDetail
+     * @return \Santosdave\Travelport\UniversalRecord\FlightTimeDetail
      */
     public function setDepartureTime($DepartureTime)
     {
@@ -338,7 +338,7 @@ class FlightTimeDetail
 
     /**
      * @param time $ArrivalTime
-     * @return \FilippoToso\Travelport\UniversalRecord\FlightTimeDetail
+     * @return \Santosdave\Travelport\UniversalRecord\FlightTimeDetail
      */
     public function setArrivalTime($ArrivalTime)
     {
@@ -356,7 +356,7 @@ class FlightTimeDetail
 
     /**
      * @param int $StopCount
-     * @return \FilippoToso\Travelport\UniversalRecord\FlightTimeDetail
+     * @return \Santosdave\Travelport\UniversalRecord\FlightTimeDetail
      */
     public function setStopCount($StopCount)
     {
@@ -374,7 +374,7 @@ class FlightTimeDetail
 
     /**
      * @param typeEquipment $Equipment
-     * @return \FilippoToso\Travelport\UniversalRecord\FlightTimeDetail
+     * @return \Santosdave\Travelport\UniversalRecord\FlightTimeDetail
      */
     public function setEquipment($Equipment)
     {
@@ -392,7 +392,7 @@ class FlightTimeDetail
 
     /**
      * @param date $ScheduleStartDate
-     * @return \FilippoToso\Travelport\UniversalRecord\FlightTimeDetail
+     * @return \Santosdave\Travelport\UniversalRecord\FlightTimeDetail
      */
     public function setScheduleStartDate($ScheduleStartDate)
     {
@@ -410,7 +410,7 @@ class FlightTimeDetail
 
     /**
      * @param date $ScheduleEndDate
-     * @return \FilippoToso\Travelport\UniversalRecord\FlightTimeDetail
+     * @return \Santosdave\Travelport\UniversalRecord\FlightTimeDetail
      */
     public function setScheduleEndDate($ScheduleEndDate)
     {
@@ -428,7 +428,7 @@ class FlightTimeDetail
 
     /**
      * @param boolean $DisplayOption
-     * @return \FilippoToso\Travelport\UniversalRecord\FlightTimeDetail
+     * @return \Santosdave\Travelport\UniversalRecord\FlightTimeDetail
      */
     public function setDisplayOption($DisplayOption)
     {
@@ -446,7 +446,7 @@ class FlightTimeDetail
 
     /**
      * @param int $OnTimePerformance
-     * @return \FilippoToso\Travelport\UniversalRecord\FlightTimeDetail
+     * @return \Santosdave\Travelport\UniversalRecord\FlightTimeDetail
      */
     public function setOnTimePerformance($OnTimePerformance)
     {
@@ -464,7 +464,7 @@ class FlightTimeDetail
 
     /**
      * @param int $DayChange
-     * @return \FilippoToso\Travelport\UniversalRecord\FlightTimeDetail
+     * @return \Santosdave\Travelport\UniversalRecord\FlightTimeDetail
      */
     public function setDayChange($DayChange)
     {
@@ -482,7 +482,7 @@ class FlightTimeDetail
 
     /**
      * @param int $JourneyTime
-     * @return \FilippoToso\Travelport\UniversalRecord\FlightTimeDetail
+     * @return \Santosdave\Travelport\UniversalRecord\FlightTimeDetail
      */
     public function setJourneyTime($JourneyTime)
     {
@@ -500,7 +500,7 @@ class FlightTimeDetail
 
     /**
      * @param int $FlightTime
-     * @return \FilippoToso\Travelport\UniversalRecord\FlightTimeDetail
+     * @return \Santosdave\Travelport\UniversalRecord\FlightTimeDetail
      */
     public function setFlightTime($FlightTime)
     {
@@ -518,7 +518,7 @@ class FlightTimeDetail
 
     /**
      * @param string $StartTerminal
-     * @return \FilippoToso\Travelport\UniversalRecord\FlightTimeDetail
+     * @return \Santosdave\Travelport\UniversalRecord\FlightTimeDetail
      */
     public function setStartTerminal($StartTerminal)
     {
@@ -536,7 +536,7 @@ class FlightTimeDetail
 
     /**
      * @param string $EndTerminal
-     * @return \FilippoToso\Travelport\UniversalRecord\FlightTimeDetail
+     * @return \Santosdave\Travelport\UniversalRecord\FlightTimeDetail
      */
     public function setEndTerminal($EndTerminal)
     {
@@ -554,7 +554,7 @@ class FlightTimeDetail
 
     /**
      * @param typeIATACode $FirstIntermediateStop
-     * @return \FilippoToso\Travelport\UniversalRecord\FlightTimeDetail
+     * @return \Santosdave\Travelport\UniversalRecord\FlightTimeDetail
      */
     public function setFirstIntermediateStop($FirstIntermediateStop)
     {
@@ -572,7 +572,7 @@ class FlightTimeDetail
 
     /**
      * @param typeIATACode $LastIntermediateStop
-     * @return \FilippoToso\Travelport\UniversalRecord\FlightTimeDetail
+     * @return \Santosdave\Travelport\UniversalRecord\FlightTimeDetail
      */
     public function setLastIntermediateStop($LastIntermediateStop)
     {
@@ -590,7 +590,7 @@ class FlightTimeDetail
 
     /**
      * @param anonymous933 $InsideAvailability
-     * @return \FilippoToso\Travelport\UniversalRecord\FlightTimeDetail
+     * @return \Santosdave\Travelport\UniversalRecord\FlightTimeDetail
      */
     public function setInsideAvailability($InsideAvailability)
     {
@@ -608,7 +608,7 @@ class FlightTimeDetail
 
     /**
      * @param anonymous934 $SecureSell
-     * @return \FilippoToso\Travelport\UniversalRecord\FlightTimeDetail
+     * @return \Santosdave\Travelport\UniversalRecord\FlightTimeDetail
      */
     public function setSecureSell($SecureSell)
     {
@@ -626,7 +626,7 @@ class FlightTimeDetail
 
     /**
      * @param typeAvailabilitySource $AvailabilitySource
-     * @return \FilippoToso\Travelport\UniversalRecord\FlightTimeDetail
+     * @return \Santosdave\Travelport\UniversalRecord\FlightTimeDetail
      */
     public function setAvailabilitySource($AvailabilitySource)
     {

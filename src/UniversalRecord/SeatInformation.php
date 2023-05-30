@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class SeatInformation
 {
@@ -63,7 +63,7 @@ class SeatInformation
 
     /**
      * @param string $Power
-     * @return \FilippoToso\Travelport\UniversalRecord\SeatInformation
+     * @return \Santosdave\Travelport\UniversalRecord\SeatInformation
      */
     public function setPower($Power)
     {
@@ -81,7 +81,7 @@ class SeatInformation
 
     /**
      * @param string $Video
-     * @return \FilippoToso\Travelport\UniversalRecord\SeatInformation
+     * @return \Santosdave\Travelport\UniversalRecord\SeatInformation
      */
     public function setVideo($Video)
     {
@@ -99,7 +99,7 @@ class SeatInformation
 
     /**
      * @param string $Type
-     * @return \FilippoToso\Travelport\UniversalRecord\SeatInformation
+     * @return \Santosdave\Travelport\UniversalRecord\SeatInformation
      */
     public function setType($Type)
     {
@@ -117,7 +117,7 @@ class SeatInformation
 
     /**
      * @param string $Description
-     * @return \FilippoToso\Travelport\UniversalRecord\SeatInformation
+     * @return \Santosdave\Travelport\UniversalRecord\SeatInformation
      */
     public function setDescription($Description)
     {
@@ -135,7 +135,7 @@ class SeatInformation
 
     /**
      * @param Rating $Rating
-     * @return \FilippoToso\Travelport\UniversalRecord\SeatInformation
+     * @return \Santosdave\Travelport\UniversalRecord\SeatInformation
      */
     public function setRating($Rating)
     {
@@ -153,7 +153,7 @@ class SeatInformation
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\UniversalRecord\SeatInformation
+     * @return \Santosdave\Travelport\UniversalRecord\SeatInformation
      */
     public function setKey($Key)
     {

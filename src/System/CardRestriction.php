@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\System;
+namespace Santosdave\Travelport\System;
 
 class CardRestriction
 {
@@ -42,7 +42,7 @@ class CardRestriction
 
     /**
      * @param RequiredField $RequiredField
-     * @return \FilippoToso\Travelport\System\CardRestriction
+     * @return \Santosdave\Travelport\System\CardRestriction
      */
     public function setRequiredField($RequiredField)
     {
@@ -60,7 +60,7 @@ class CardRestriction
 
     /**
      * @param typeCardMerchantType $Code
-     * @return \FilippoToso\Travelport\System\CardRestriction
+     * @return \Santosdave\Travelport\System\CardRestriction
      */
     public function setCode($Code)
     {
@@ -78,7 +78,7 @@ class CardRestriction
 
     /**
      * @param string $Name
-     * @return \FilippoToso\Travelport\System\CardRestriction
+     * @return \Santosdave\Travelport\System\CardRestriction
      */
     public function setName($Name)
     {

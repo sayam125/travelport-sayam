@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class typeDateRange
 {
@@ -35,7 +35,7 @@ class typeDateRange
 
     /**
      * @param date $StartDate
-     * @return \FilippoToso\Travelport\GDSQueue\typeDateRange
+     * @return \Santosdave\Travelport\GDSQueue\typeDateRange
      */
     public function setStartDate($StartDate)
     {
@@ -53,7 +53,7 @@ class typeDateRange
 
     /**
      * @param date $EndDate
-     * @return \FilippoToso\Travelport\GDSQueue\typeDateRange
+     * @return \Santosdave\Travelport\GDSQueue\typeDateRange
      */
     public function setEndDate($EndDate)
     {

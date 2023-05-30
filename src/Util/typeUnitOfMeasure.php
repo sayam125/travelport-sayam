@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class typeUnitOfMeasure
 {
@@ -35,7 +35,7 @@ class typeUnitOfMeasure
 
     /**
      * @param float $Value
-     * @return \FilippoToso\Travelport\Util\typeUnitOfMeasure
+     * @return \Santosdave\Travelport\Util\typeUnitOfMeasure
      */
     public function setValue($Value)
     {
@@ -53,7 +53,7 @@ class typeUnitOfMeasure
 
     /**
      * @param string $Unit
-     * @return \FilippoToso\Travelport\Util\typeUnitOfMeasure
+     * @return \Santosdave\Travelport\Util\typeUnitOfMeasure
      */
     public function setUnit($Unit)
     {

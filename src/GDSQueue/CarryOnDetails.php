@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class CarryOnDetails
 {
@@ -70,7 +70,7 @@ class CarryOnDetails
 
     /**
      * @param BaggageRestriction $BaggageRestriction
-     * @return \FilippoToso\Travelport\GDSQueue\CarryOnDetails
+     * @return \Santosdave\Travelport\GDSQueue\CarryOnDetails
      */
     public function setBaggageRestriction($BaggageRestriction)
     {
@@ -88,7 +88,7 @@ class CarryOnDetails
 
     /**
      * @param string $ApplicableCarryOnBags
-     * @return \FilippoToso\Travelport\GDSQueue\CarryOnDetails
+     * @return \Santosdave\Travelport\GDSQueue\CarryOnDetails
      */
     public function setApplicableCarryOnBags($ApplicableCarryOnBags)
     {
@@ -106,7 +106,7 @@ class CarryOnDetails
 
     /**
      * @param typeMoney $BasePrice
-     * @return \FilippoToso\Travelport\GDSQueue\CarryOnDetails
+     * @return \Santosdave\Travelport\GDSQueue\CarryOnDetails
      */
     public function setBasePrice($BasePrice)
     {
@@ -124,7 +124,7 @@ class CarryOnDetails
 
     /**
      * @param typeMoney $ApproximateBasePrice
-     * @return \FilippoToso\Travelport\GDSQueue\CarryOnDetails
+     * @return \Santosdave\Travelport\GDSQueue\CarryOnDetails
      */
     public function setApproximateBasePrice($ApproximateBasePrice)
     {
@@ -142,7 +142,7 @@ class CarryOnDetails
 
     /**
      * @param typeMoney $Taxes
-     * @return \FilippoToso\Travelport\GDSQueue\CarryOnDetails
+     * @return \Santosdave\Travelport\GDSQueue\CarryOnDetails
      */
     public function setTaxes($Taxes)
     {
@@ -160,7 +160,7 @@ class CarryOnDetails
 
     /**
      * @param typeMoney $TotalPrice
-     * @return \FilippoToso\Travelport\GDSQueue\CarryOnDetails
+     * @return \Santosdave\Travelport\GDSQueue\CarryOnDetails
      */
     public function setTotalPrice($TotalPrice)
     {
@@ -178,7 +178,7 @@ class CarryOnDetails
 
     /**
      * @param typeMoney $ApproximateTotalPrice
-     * @return \FilippoToso\Travelport\GDSQueue\CarryOnDetails
+     * @return \Santosdave\Travelport\GDSQueue\CarryOnDetails
      */
     public function setApproximateTotalPrice($ApproximateTotalPrice)
     {

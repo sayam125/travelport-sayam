@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class UniversalRecordHistorySearchModifiers
 {
@@ -68,7 +68,7 @@ class UniversalRecordHistorySearchModifiers
 
     /**
      * @param string $ElementType
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalRecordHistorySearchModifiers
+     * @return \Santosdave\Travelport\GDSQueue\UniversalRecordHistorySearchModifiers
      */
     public function setElementType($ElementType)
     {
@@ -86,7 +86,7 @@ class UniversalRecordHistorySearchModifiers
 
     /**
      * @param date $ModifiedDate
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalRecordHistorySearchModifiers
+     * @return \Santosdave\Travelport\GDSQueue\UniversalRecordHistorySearchModifiers
      */
     public function setModifiedDate($ModifiedDate)
     {
@@ -104,7 +104,7 @@ class UniversalRecordHistorySearchModifiers
 
     /**
      * @param ModifiedRange $ModifiedRange
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalRecordHistorySearchModifiers
+     * @return \Santosdave\Travelport\GDSQueue\UniversalRecordHistorySearchModifiers
      */
     public function setModifiedRange($ModifiedRange)
     {
@@ -122,7 +122,7 @@ class UniversalRecordHistorySearchModifiers
 
     /**
      * @param typeMaxResults $MaxResults
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalRecordHistorySearchModifiers
+     * @return \Santosdave\Travelport\GDSQueue\UniversalRecordHistorySearchModifiers
      */
     public function setMaxResults($MaxResults)
     {
@@ -140,7 +140,7 @@ class UniversalRecordHistorySearchModifiers
 
     /**
      * @param typeStartFromResult $StartFromResult
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalRecordHistorySearchModifiers
+     * @return \Santosdave\Travelport\GDSQueue\UniversalRecordHistorySearchModifiers
      */
     public function setStartFromResult($StartFromResult)
     {
@@ -158,7 +158,7 @@ class UniversalRecordHistorySearchModifiers
 
     /**
      * @param UNKNOWN $ModifiedBy
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalRecordHistorySearchModifiers
+     * @return \Santosdave\Travelport\GDSQueue\UniversalRecordHistorySearchModifiers
      */
     public function setModifiedBy($ModifiedBy)
     {
@@ -176,7 +176,7 @@ class UniversalRecordHistorySearchModifiers
 
     /**
      * @param boolean $DebugMode
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalRecordHistorySearchModifiers
+     * @return \Santosdave\Travelport\GDSQueue\UniversalRecordHistorySearchModifiers
      */
     public function setDebugMode($DebugMode)
     {

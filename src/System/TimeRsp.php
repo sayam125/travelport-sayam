@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\System;
+namespace Santosdave\Travelport\System;
 
 class TimeRsp extends BaseRsp
 {
@@ -34,7 +34,7 @@ class TimeRsp extends BaseRsp
 
     /**
      * @param SystemTime $SystemTime
-     * @return \FilippoToso\Travelport\System\TimeRsp
+     * @return \Santosdave\Travelport\System\TimeRsp
      */
     public function setSystemTime($SystemTime)
     {

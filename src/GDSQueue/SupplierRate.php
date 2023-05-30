@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class SupplierRate extends typeVehicleRates
 {
@@ -53,7 +53,7 @@ class SupplierRate extends typeVehicleRates
 
     /**
      * @param typeMoney $DiscountAmount
-     * @return \FilippoToso\Travelport\GDSQueue\SupplierRate
+     * @return \Santosdave\Travelport\GDSQueue\SupplierRate
      */
     public function setDiscountAmount($DiscountAmount)
     {
@@ -71,7 +71,7 @@ class SupplierRate extends typeVehicleRates
 
     /**
      * @param typeMoney $MandatoryChargeTotal
-     * @return \FilippoToso\Travelport\GDSQueue\SupplierRate
+     * @return \Santosdave\Travelport\GDSQueue\SupplierRate
      */
     public function setMandatoryChargeTotal($MandatoryChargeTotal)
     {
@@ -89,7 +89,7 @@ class SupplierRate extends typeVehicleRates
 
     /**
      * @param typeMoney $ApproximateTotal
-     * @return \FilippoToso\Travelport\GDSQueue\SupplierRate
+     * @return \Santosdave\Travelport\GDSQueue\SupplierRate
      */
     public function setApproximateTotal($ApproximateTotal)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class PricedEquip
 {
@@ -35,7 +35,7 @@ class PricedEquip
 
     /**
      * @param Equipment $Equipment
-     * @return \FilippoToso\Travelport\GDSQueue\PricedEquip
+     * @return \Santosdave\Travelport\GDSQueue\PricedEquip
      */
     public function setEquipment($Equipment)
     {
@@ -53,7 +53,7 @@ class PricedEquip
 
     /**
      * @param Charge $Charge
-     * @return \FilippoToso\Travelport\GDSQueue\PricedEquip
+     * @return \Santosdave\Travelport\GDSQueue\PricedEquip
      */
     public function setCharge($Charge)
     {

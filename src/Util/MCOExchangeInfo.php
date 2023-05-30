@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class MCOExchangeInfo
 {
@@ -63,7 +63,7 @@ class MCOExchangeInfo
 
     /**
      * @param FormOfPayment $FormOfPayment
-     * @return \FilippoToso\Travelport\Util\MCOExchangeInfo
+     * @return \Santosdave\Travelport\Util\MCOExchangeInfo
      */
     public function setFormOfPayment($FormOfPayment)
     {
@@ -81,7 +81,7 @@ class MCOExchangeInfo
 
     /**
      * @param ExchangedCoupon $ExchangedCoupon
-     * @return \FilippoToso\Travelport\Util\MCOExchangeInfo
+     * @return \Santosdave\Travelport\Util\MCOExchangeInfo
      */
     public function setExchangedCoupon($ExchangedCoupon)
     {
@@ -99,7 +99,7 @@ class MCOExchangeInfo
 
     /**
      * @param typeTicketNumber $OriginalTicketNumber
-     * @return \FilippoToso\Travelport\Util\MCOExchangeInfo
+     * @return \Santosdave\Travelport\Util\MCOExchangeInfo
      */
     public function setOriginalTicketNumber($OriginalTicketNumber)
     {
@@ -117,7 +117,7 @@ class MCOExchangeInfo
 
     /**
      * @param typeCity $OriginalCityCode
-     * @return \FilippoToso\Travelport\Util\MCOExchangeInfo
+     * @return \Santosdave\Travelport\Util\MCOExchangeInfo
      */
     public function setOriginalCityCode($OriginalCityCode)
     {
@@ -135,7 +135,7 @@ class MCOExchangeInfo
 
     /**
      * @param typeDate $OriginalTicketDate
-     * @return \FilippoToso\Travelport\Util\MCOExchangeInfo
+     * @return \Santosdave\Travelport\Util\MCOExchangeInfo
      */
     public function setOriginalTicketDate($OriginalTicketDate)
     {
@@ -153,7 +153,7 @@ class MCOExchangeInfo
 
     /**
      * @param typeIATA $IATACode
-     * @return \FilippoToso\Travelport\Util\MCOExchangeInfo
+     * @return \Santosdave\Travelport\Util\MCOExchangeInfo
      */
     public function setIATACode($IATACode)
     {

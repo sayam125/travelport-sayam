@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\System;
+namespace Santosdave\Travelport\System;
 
 class BaseSearchReq extends BaseReq
 {
@@ -40,7 +40,7 @@ class BaseSearchReq extends BaseReq
 
     /**
      * @param NextResultReference $NextResultReference
-     * @return \FilippoToso\Travelport\System\BaseSearchReq
+     * @return \Santosdave\Travelport\System\BaseSearchReq
      */
     public function setNextResultReference($NextResultReference)
     {

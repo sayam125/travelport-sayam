@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class MirReportRetrieveReq extends BaseReq
 {
@@ -47,7 +47,7 @@ class MirReportRetrieveReq extends BaseReq
 
     /**
      * @param anonymous1091 $LocatorCode
-     * @return \FilippoToso\Travelport\Util\MirReportRetrieveReq
+     * @return \Santosdave\Travelport\Util\MirReportRetrieveReq
      */
     public function setLocatorCode($LocatorCode)
     {
@@ -65,7 +65,7 @@ class MirReportRetrieveReq extends BaseReq
 
     /**
      * @param anonymous1092 $ReportFormat
-     * @return \FilippoToso\Travelport\Util\MirReportRetrieveReq
+     * @return \Santosdave\Travelport\Util\MirReportRetrieveReq
      */
     public function setReportFormat($ReportFormat)
     {

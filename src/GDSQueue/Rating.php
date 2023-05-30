@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class Rating
 {
@@ -35,7 +35,7 @@ class Rating
 
     /**
      * @param string $_
-     * @return \FilippoToso\Travelport\GDSQueue\Rating
+     * @return \Santosdave\Travelport\GDSQueue\Rating
      */
     public function set_($_)
     {
@@ -53,7 +53,7 @@ class Rating
 
     /**
      * @param int $Number
-     * @return \FilippoToso\Travelport\GDSQueue\Rating
+     * @return \Santosdave\Travelport\GDSQueue\Rating
      */
     public function setNumber($Number)
     {

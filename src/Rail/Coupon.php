@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class Coupon
 {
@@ -168,7 +168,7 @@ class Coupon
 
     /**
      * @param TicketDesignator $TicketDesignator
-     * @return \FilippoToso\Travelport\Rail\Coupon
+     * @return \Santosdave\Travelport\Rail\Coupon
      */
     public function setTicketDesignator($TicketDesignator)
     {
@@ -186,7 +186,7 @@ class Coupon
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Rail\Coupon
+     * @return \Santosdave\Travelport\Rail\Coupon
      */
     public function setKey($Key)
     {
@@ -204,7 +204,7 @@ class Coupon
 
     /**
      * @param int $CouponNumber
-     * @return \FilippoToso\Travelport\Rail\Coupon
+     * @return \Santosdave\Travelport\Rail\Coupon
      */
     public function setCouponNumber($CouponNumber)
     {
@@ -222,7 +222,7 @@ class Coupon
 
     /**
      * @param typeCarrier $OperatingCarrier
-     * @return \FilippoToso\Travelport\Rail\Coupon
+     * @return \Santosdave\Travelport\Rail\Coupon
      */
     public function setOperatingCarrier($OperatingCarrier)
     {
@@ -240,7 +240,7 @@ class Coupon
 
     /**
      * @param typeFlightNumber $OperatingFlightNumber
-     * @return \FilippoToso\Travelport\Rail\Coupon
+     * @return \Santosdave\Travelport\Rail\Coupon
      */
     public function setOperatingFlightNumber($OperatingFlightNumber)
     {
@@ -258,7 +258,7 @@ class Coupon
 
     /**
      * @param typeCarrier $MarketingCarrier
-     * @return \FilippoToso\Travelport\Rail\Coupon
+     * @return \Santosdave\Travelport\Rail\Coupon
      */
     public function setMarketingCarrier($MarketingCarrier)
     {
@@ -276,7 +276,7 @@ class Coupon
 
     /**
      * @param typeFlightNumber $MarketingFlightNumber
-     * @return \FilippoToso\Travelport\Rail\Coupon
+     * @return \Santosdave\Travelport\Rail\Coupon
      */
     public function setMarketingFlightNumber($MarketingFlightNumber)
     {
@@ -294,7 +294,7 @@ class Coupon
 
     /**
      * @param typeIATACode $Origin
-     * @return \FilippoToso\Travelport\Rail\Coupon
+     * @return \Santosdave\Travelport\Rail\Coupon
      */
     public function setOrigin($Origin)
     {
@@ -312,7 +312,7 @@ class Coupon
 
     /**
      * @param typeIATACode $Destination
-     * @return \FilippoToso\Travelport\Rail\Coupon
+     * @return \Santosdave\Travelport\Rail\Coupon
      */
     public function setDestination($Destination)
     {
@@ -330,7 +330,7 @@ class Coupon
 
     /**
      * @param string $DepartureTime
-     * @return \FilippoToso\Travelport\Rail\Coupon
+     * @return \Santosdave\Travelport\Rail\Coupon
      */
     public function setDepartureTime($DepartureTime)
     {
@@ -348,7 +348,7 @@ class Coupon
 
     /**
      * @param string $ArrivalTime
-     * @return \FilippoToso\Travelport\Rail\Coupon
+     * @return \Santosdave\Travelport\Rail\Coupon
      */
     public function setArrivalTime($ArrivalTime)
     {
@@ -366,7 +366,7 @@ class Coupon
 
     /**
      * @param boolean $StopoverCode
-     * @return \FilippoToso\Travelport\Rail\Coupon
+     * @return \Santosdave\Travelport\Rail\Coupon
      */
     public function setStopoverCode($StopoverCode)
     {
@@ -384,7 +384,7 @@ class Coupon
 
     /**
      * @param anonymous842 $BookingClass
-     * @return \FilippoToso\Travelport\Rail\Coupon
+     * @return \Santosdave\Travelport\Rail\Coupon
      */
     public function setBookingClass($BookingClass)
     {
@@ -402,7 +402,7 @@ class Coupon
 
     /**
      * @param string $FareBasis
-     * @return \FilippoToso\Travelport\Rail\Coupon
+     * @return \Santosdave\Travelport\Rail\Coupon
      */
     public function setFareBasis($FareBasis)
     {
@@ -420,7 +420,7 @@ class Coupon
 
     /**
      * @param date $NotValidBefore
-     * @return \FilippoToso\Travelport\Rail\Coupon
+     * @return \Santosdave\Travelport\Rail\Coupon
      */
     public function setNotValidBefore($NotValidBefore)
     {
@@ -438,7 +438,7 @@ class Coupon
 
     /**
      * @param date $NotValidAfter
-     * @return \FilippoToso\Travelport\Rail\Coupon
+     * @return \Santosdave\Travelport\Rail\Coupon
      */
     public function setNotValidAfter($NotValidAfter)
     {
@@ -456,7 +456,7 @@ class Coupon
 
     /**
      * @param anonymous843 $Status
-     * @return \FilippoToso\Travelport\Rail\Coupon
+     * @return \Santosdave\Travelport\Rail\Coupon
      */
     public function setStatus($Status)
     {
@@ -474,7 +474,7 @@ class Coupon
 
     /**
      * @param int $SegmentGroup
-     * @return \FilippoToso\Travelport\Rail\Coupon
+     * @return \Santosdave\Travelport\Rail\Coupon
      */
     public function setSegmentGroup($SegmentGroup)
     {
@@ -492,7 +492,7 @@ class Coupon
 
     /**
      * @param int $MarriageGroup
-     * @return \FilippoToso\Travelport\Rail\Coupon
+     * @return \Santosdave\Travelport\Rail\Coupon
      */
     public function setMarriageGroup($MarriageGroup)
     {
@@ -510,7 +510,7 @@ class Coupon
 
     /**
      * @param typeElementStatus $ElStat
-     * @return \FilippoToso\Travelport\Rail\Coupon
+     * @return \Santosdave\Travelport\Rail\Coupon
      */
     public function setElStat($ElStat)
     {
@@ -528,7 +528,7 @@ class Coupon
 
     /**
      * @param boolean $KeyOverride
-     * @return \FilippoToso\Travelport\Rail\Coupon
+     * @return \Santosdave\Travelport\Rail\Coupon
      */
     public function setKeyOverride($KeyOverride)
     {

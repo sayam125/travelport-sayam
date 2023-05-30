@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class FindEmployeesOnFlightRsp extends BaseRsp
 {
@@ -32,7 +32,7 @@ class FindEmployeesOnFlightRsp extends BaseRsp
 
     /**
      * @param EmployeesOnFlight[] $EmployeesOnFlight
-     * @return \FilippoToso\Travelport\Util\FindEmployeesOnFlightRsp
+     * @return \Santosdave\Travelport\Util\FindEmployeesOnFlightRsp
      */
     public function setEmployeesOnFlight(array $EmployeesOnFlight = null)
     {

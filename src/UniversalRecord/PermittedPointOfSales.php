@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class PermittedPointOfSales
 {
@@ -28,7 +28,7 @@ class PermittedPointOfSales
 
     /**
      * @param PointOfSale $PointOfSale
-     * @return \FilippoToso\Travelport\UniversalRecord\PermittedPointOfSales
+     * @return \Santosdave\Travelport\UniversalRecord\PermittedPointOfSales
      */
     public function setPointOfSale($PointOfSale)
     {

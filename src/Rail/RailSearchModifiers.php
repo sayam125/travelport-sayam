@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class RailSearchModifiers
 {
@@ -54,7 +54,7 @@ class RailSearchModifiers
 
     /**
      * @param PreferredSuppliers $PreferredSuppliers
-     * @return \FilippoToso\Travelport\Rail\RailSearchModifiers
+     * @return \Santosdave\Travelport\Rail\RailSearchModifiers
      */
     public function setPreferredSuppliers($PreferredSuppliers)
     {
@@ -72,7 +72,7 @@ class RailSearchModifiers
 
     /**
      * @param anonymous1320 $MaxChanges
-     * @return \FilippoToso\Travelport\Rail\RailSearchModifiers
+     * @return \Santosdave\Travelport\Rail\RailSearchModifiers
      */
     public function setMaxChanges($MaxChanges)
     {
@@ -90,7 +90,7 @@ class RailSearchModifiers
 
     /**
      * @param typeRailDirection $Direction
-     * @return \FilippoToso\Travelport\Rail\RailSearchModifiers
+     * @return \Santosdave\Travelport\Rail\RailSearchModifiers
      */
     public function setDirection($Direction)
     {
@@ -108,7 +108,7 @@ class RailSearchModifiers
 
     /**
      * @param string $Class
-     * @return \FilippoToso\Travelport\Rail\RailSearchModifiers
+     * @return \Santosdave\Travelport\Rail\RailSearchModifiers
      */
     public function setClass($Class)
     {
@@ -126,7 +126,7 @@ class RailSearchModifiers
 
     /**
      * @param int $MaxSolutions
-     * @return \FilippoToso\Travelport\Rail\RailSearchModifiers
+     * @return \Santosdave\Travelport\Rail\RailSearchModifiers
      */
     public function setMaxSolutions($MaxSolutions)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Vehicle;
+namespace Santosdave\Travelport\Vehicle;
 
 class VehicleKeywordReq extends BaseSearchReq
 {
@@ -62,7 +62,7 @@ class VehicleKeywordReq extends BaseSearchReq
 
     /**
      * @param Vendor $Vendor
-     * @return \FilippoToso\Travelport\Vehicle\VehicleKeywordReq
+     * @return \Santosdave\Travelport\Vehicle\VehicleKeywordReq
      */
     public function setVendor($Vendor)
     {
@@ -80,7 +80,7 @@ class VehicleKeywordReq extends BaseSearchReq
 
     /**
      * @param typePickupDateLocation $PickupDateLocation
-     * @return \FilippoToso\Travelport\Vehicle\VehicleKeywordReq
+     * @return \Santosdave\Travelport\Vehicle\VehicleKeywordReq
      */
     public function setPickupDateLocation($PickupDateLocation)
     {
@@ -98,7 +98,7 @@ class VehicleKeywordReq extends BaseSearchReq
 
     /**
      * @param Keyword $Keyword
-     * @return \FilippoToso\Travelport\Vehicle\VehicleKeywordReq
+     * @return \Santosdave\Travelport\Vehicle\VehicleKeywordReq
      */
     public function setKeyword($Keyword)
     {
@@ -116,7 +116,7 @@ class VehicleKeywordReq extends BaseSearchReq
 
     /**
      * @param boolean $KeywordList
-     * @return \FilippoToso\Travelport\Vehicle\VehicleKeywordReq
+     * @return \Santosdave\Travelport\Vehicle\VehicleKeywordReq
      */
     public function setKeywordList($KeywordList)
     {

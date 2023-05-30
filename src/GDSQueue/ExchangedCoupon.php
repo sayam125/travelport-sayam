@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class ExchangedCoupon
 {
@@ -35,7 +35,7 @@ class ExchangedCoupon
 
     /**
      * @param typeTicketNumber $TicketNumber
-     * @return \FilippoToso\Travelport\GDSQueue\ExchangedCoupon
+     * @return \Santosdave\Travelport\GDSQueue\ExchangedCoupon
      */
     public function setTicketNumber($TicketNumber)
     {
@@ -53,7 +53,7 @@ class ExchangedCoupon
 
     /**
      * @param string $CouponNumber
-     * @return \FilippoToso\Travelport\GDSQueue\ExchangedCoupon
+     * @return \Santosdave\Travelport\GDSQueue\ExchangedCoupon
      */
     public function setCouponNumber($CouponNumber)
     {

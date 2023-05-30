@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class VehicleType
 {
@@ -28,7 +28,7 @@ class VehicleType
 
     /**
      * @param typeVehicleTypes $_
-     * @return \FilippoToso\Travelport\GDSQueue\VehicleType
+     * @return \Santosdave\Travelport\GDSQueue\VehicleType
      */
     public function set_($_)
     {

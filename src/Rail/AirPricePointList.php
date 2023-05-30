@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class AirPricePointList
 {
@@ -28,7 +28,7 @@ class AirPricePointList
 
     /**
      * @param AirPricePoint $AirPricePoint
-     * @return \FilippoToso\Travelport\Rail\AirPricePointList
+     * @return \Santosdave\Travelport\Rail\AirPricePointList
      */
     public function setAirPricePoint($AirPricePoint)
     {

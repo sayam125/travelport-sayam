@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class CreditsUsed
 {
@@ -35,7 +35,7 @@ class CreditsUsed
 
     /**
      * @param float $UsedCredit
-     * @return \FilippoToso\Travelport\Rail\CreditsUsed
+     * @return \Santosdave\Travelport\Rail\CreditsUsed
      */
     public function setUsedCredit($UsedCredit)
     {
@@ -53,7 +53,7 @@ class CreditsUsed
 
     /**
      * @param typeCurrency $CurrencyCode
-     * @return \FilippoToso\Travelport\Rail\CreditsUsed
+     * @return \Santosdave\Travelport\Rail\CreditsUsed
      */
     public function setCurrencyCode($CurrencyCode)
     {

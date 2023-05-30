@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class SupplierLocator
 {
@@ -54,7 +54,7 @@ class SupplierLocator
 
     /**
      * @param typeGeneralReference[] $SegmentRef
-     * @return \FilippoToso\Travelport\UProfile\SupplierLocator
+     * @return \Santosdave\Travelport\UProfile\SupplierLocator
      */
     public function setSegmentRef(array $SegmentRef = null)
     {
@@ -72,7 +72,7 @@ class SupplierLocator
 
     /**
      * @param typeCarrier $SupplierCode
-     * @return \FilippoToso\Travelport\UProfile\SupplierLocator
+     * @return \Santosdave\Travelport\UProfile\SupplierLocator
      */
     public function setSupplierCode($SupplierCode)
     {
@@ -90,7 +90,7 @@ class SupplierLocator
 
     /**
      * @param string $SupplierLocatorCode
-     * @return \FilippoToso\Travelport\UProfile\SupplierLocator
+     * @return \Santosdave\Travelport\UProfile\SupplierLocator
      */
     public function setSupplierLocatorCode($SupplierLocatorCode)
     {
@@ -108,7 +108,7 @@ class SupplierLocator
 
     /**
      * @param typeRef $ProviderReservationInfoRef
-     * @return \FilippoToso\Travelport\UProfile\SupplierLocator
+     * @return \Santosdave\Travelport\UProfile\SupplierLocator
      */
     public function setProviderReservationInfoRef($ProviderReservationInfoRef)
     {
@@ -134,7 +134,7 @@ class SupplierLocator
 
     /**
      * @param \DateTime $CreateDateTime
-     * @return \FilippoToso\Travelport\UProfile\SupplierLocator
+     * @return \Santosdave\Travelport\UProfile\SupplierLocator
      */
     public function setCreateDateTime(\DateTime $CreateDateTime)
     {

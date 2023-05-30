@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class ExchangedTicketInfo
 {
@@ -28,7 +28,7 @@ class ExchangedTicketInfo
 
     /**
      * @param typeTicketNumber $Number
-     * @return \FilippoToso\Travelport\UniversalRecord\ExchangedTicketInfo
+     * @return \Santosdave\Travelport\UniversalRecord\ExchangedTicketInfo
      */
     public function setNumber($Number)
     {

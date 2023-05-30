@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class BaseBaggageAllowanceInfo
 {
@@ -56,7 +56,7 @@ class BaseBaggageAllowanceInfo
 
     /**
      * @param URLInfo $URLInfo
-     * @return \FilippoToso\Travelport\UniversalRecord\BaseBaggageAllowanceInfo
+     * @return \Santosdave\Travelport\UniversalRecord\BaseBaggageAllowanceInfo
      */
     public function setURLInfo($URLInfo)
     {
@@ -74,7 +74,7 @@ class BaseBaggageAllowanceInfo
 
     /**
      * @param TextInfo $TextInfo
-     * @return \FilippoToso\Travelport\UniversalRecord\BaseBaggageAllowanceInfo
+     * @return \Santosdave\Travelport\UniversalRecord\BaseBaggageAllowanceInfo
      */
     public function setTextInfo($TextInfo)
     {
@@ -92,7 +92,7 @@ class BaseBaggageAllowanceInfo
 
     /**
      * @param typeIATACode $Origin
-     * @return \FilippoToso\Travelport\UniversalRecord\BaseBaggageAllowanceInfo
+     * @return \Santosdave\Travelport\UniversalRecord\BaseBaggageAllowanceInfo
      */
     public function setOrigin($Origin)
     {
@@ -110,7 +110,7 @@ class BaseBaggageAllowanceInfo
 
     /**
      * @param typeIATACode $Destination
-     * @return \FilippoToso\Travelport\UniversalRecord\BaseBaggageAllowanceInfo
+     * @return \Santosdave\Travelport\UniversalRecord\BaseBaggageAllowanceInfo
      */
     public function setDestination($Destination)
     {
@@ -128,7 +128,7 @@ class BaseBaggageAllowanceInfo
 
     /**
      * @param typeCarrier $Carrier
-     * @return \FilippoToso\Travelport\UniversalRecord\BaseBaggageAllowanceInfo
+     * @return \Santosdave\Travelport\UniversalRecord\BaseBaggageAllowanceInfo
      */
     public function setCarrier($Carrier)
     {

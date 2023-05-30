@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class ProfileModifyTemplateReq extends BaseReq
 {
@@ -54,7 +54,7 @@ class ProfileModifyTemplateReq extends BaseReq
 
     /**
      * @param TemplateModifyCmd $TemplateModifyCmd
-     * @return \FilippoToso\Travelport\UProfile\ProfileModifyTemplateReq
+     * @return \Santosdave\Travelport\UProfile\ProfileModifyTemplateReq
      */
     public function setTemplateModifyCmd($TemplateModifyCmd)
     {
@@ -72,7 +72,7 @@ class ProfileModifyTemplateReq extends BaseReq
 
     /**
      * @param typeTemplateID $ID
-     * @return \FilippoToso\Travelport\UProfile\ProfileModifyTemplateReq
+     * @return \Santosdave\Travelport\UProfile\ProfileModifyTemplateReq
      */
     public function setID($ID)
     {
@@ -90,7 +90,7 @@ class ProfileModifyTemplateReq extends BaseReq
 
     /**
      * @param typeVersion $Version
-     * @return \FilippoToso\Travelport\UProfile\ProfileModifyTemplateReq
+     * @return \Santosdave\Travelport\UProfile\ProfileModifyTemplateReq
      */
     public function setVersion($Version)
     {

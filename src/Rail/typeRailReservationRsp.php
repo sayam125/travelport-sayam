@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 abstract class typeRailReservationRsp extends BaseRsp
 {
@@ -34,7 +34,7 @@ abstract class typeRailReservationRsp extends BaseRsp
 
     /**
      * @param UniversalRecord $UniversalRecord
-     * @return \FilippoToso\Travelport\Rail\typeRailReservationRsp
+     * @return \Santosdave\Travelport\Rail\typeRailReservationRsp
      */
     public function setUniversalRecord($UniversalRecord)
     {

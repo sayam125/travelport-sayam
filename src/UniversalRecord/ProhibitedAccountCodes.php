@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class ProhibitedAccountCodes
 {
@@ -28,7 +28,7 @@ class ProhibitedAccountCodes
 
     /**
      * @param AccountCode $AccountCode
-     * @return \FilippoToso\Travelport\UniversalRecord\ProhibitedAccountCodes
+     * @return \Santosdave\Travelport\UniversalRecord\ProhibitedAccountCodes
      */
     public function setAccountCode($AccountCode)
     {

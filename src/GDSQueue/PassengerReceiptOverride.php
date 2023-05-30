@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class PassengerReceiptOverride
 {
@@ -28,7 +28,7 @@ class PassengerReceiptOverride
 
     /**
      * @param typeNonBlanks $_
-     * @return \FilippoToso\Travelport\GDSQueue\PassengerReceiptOverride
+     * @return \Santosdave\Travelport\GDSQueue\PassengerReceiptOverride
      */
     public function set_($_)
     {

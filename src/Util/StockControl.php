@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class StockControl
 {
@@ -35,7 +35,7 @@ class StockControl
 
     /**
      * @param string $Type
-     * @return \FilippoToso\Travelport\Util\StockControl
+     * @return \Santosdave\Travelport\Util\StockControl
      */
     public function setType($Type)
     {
@@ -53,7 +53,7 @@ class StockControl
 
     /**
      * @param string $Number
-     * @return \FilippoToso\Travelport\Util\StockControl
+     * @return \Santosdave\Travelport\Util\StockControl
      */
     public function setNumber($Number)
     {

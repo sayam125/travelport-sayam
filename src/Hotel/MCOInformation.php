@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class MCOInformation
 {
@@ -49,7 +49,7 @@ class MCOInformation
 
     /**
      * @param PassengerInfo $PassengerInfo
-     * @return \FilippoToso\Travelport\Hotel\MCOInformation
+     * @return \Santosdave\Travelport\Hotel\MCOInformation
      */
     public function setPassengerInfo($PassengerInfo)
     {
@@ -67,7 +67,7 @@ class MCOInformation
 
     /**
      * @param string $MCONumber
-     * @return \FilippoToso\Travelport\Hotel\MCOInformation
+     * @return \Santosdave\Travelport\Hotel\MCOInformation
      */
     public function setMCONumber($MCONumber)
     {
@@ -85,7 +85,7 @@ class MCOInformation
 
     /**
      * @param string $Status
-     * @return \FilippoToso\Travelport\Hotel\MCOInformation
+     * @return \Santosdave\Travelport\Hotel\MCOInformation
      */
     public function setStatus($Status)
     {
@@ -103,7 +103,7 @@ class MCOInformation
 
     /**
      * @param string $MCOType
-     * @return \FilippoToso\Travelport\Hotel\MCOInformation
+     * @return \Santosdave\Travelport\Hotel\MCOInformation
      */
     public function setMCOType($MCOType)
     {

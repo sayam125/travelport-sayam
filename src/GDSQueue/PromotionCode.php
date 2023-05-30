@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class PromotionCode
 {
@@ -35,7 +35,7 @@ class PromotionCode
 
     /**
      * @param typePromoCodeString $_
-     * @return \FilippoToso\Travelport\GDSQueue\PromotionCode
+     * @return \Santosdave\Travelport\GDSQueue\PromotionCode
      */
     public function set_($_)
     {
@@ -53,7 +53,7 @@ class PromotionCode
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\GDSQueue\PromotionCode
+     * @return \Santosdave\Travelport\GDSQueue\PromotionCode
      */
     public function setKey($Key)
     {

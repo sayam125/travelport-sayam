@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class AlternateLocationDistance
 {
@@ -49,7 +49,7 @@ class AlternateLocationDistance
 
     /**
      * @param Distance $Distance
-     * @return \FilippoToso\Travelport\Util\AlternateLocationDistance
+     * @return \Santosdave\Travelport\Util\AlternateLocationDistance
      */
     public function setDistance($Distance)
     {
@@ -67,7 +67,7 @@ class AlternateLocationDistance
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Util\AlternateLocationDistance
+     * @return \Santosdave\Travelport\Util\AlternateLocationDistance
      */
     public function setKey($Key)
     {
@@ -85,7 +85,7 @@ class AlternateLocationDistance
 
     /**
      * @param typeIATACode $SearchLocation
-     * @return \FilippoToso\Travelport\Util\AlternateLocationDistance
+     * @return \Santosdave\Travelport\Util\AlternateLocationDistance
      */
     public function setSearchLocation($SearchLocation)
     {
@@ -103,7 +103,7 @@ class AlternateLocationDistance
 
     /**
      * @param typeIATACode $AlternateLocation
-     * @return \FilippoToso\Travelport\Util\AlternateLocationDistance
+     * @return \Santosdave\Travelport\Util\AlternateLocationDistance
      */
     public function setAlternateLocation($AlternateLocation)
     {

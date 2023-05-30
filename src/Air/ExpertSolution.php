@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class ExpertSolution
 {
@@ -56,7 +56,7 @@ class ExpertSolution
 
     /**
      * @param LegPrice $LegPrice
-     * @return \FilippoToso\Travelport\Air\ExpertSolution
+     * @return \Santosdave\Travelport\Air\ExpertSolution
      */
     public function setLegPrice($LegPrice)
     {
@@ -74,7 +74,7 @@ class ExpertSolution
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Air\ExpertSolution
+     * @return \Santosdave\Travelport\Air\ExpertSolution
      */
     public function setKey($Key)
     {
@@ -92,7 +92,7 @@ class ExpertSolution
 
     /**
      * @param typeMoney $TotalPrice
-     * @return \FilippoToso\Travelport\Air\ExpertSolution
+     * @return \Santosdave\Travelport\Air\ExpertSolution
      */
     public function setTotalPrice($TotalPrice)
     {
@@ -110,7 +110,7 @@ class ExpertSolution
 
     /**
      * @param typeMoney $ApproximateTotalPrice
-     * @return \FilippoToso\Travelport\Air\ExpertSolution
+     * @return \Santosdave\Travelport\Air\ExpertSolution
      */
     public function setApproximateTotalPrice($ApproximateTotalPrice)
     {
@@ -128,7 +128,7 @@ class ExpertSolution
 
     /**
      * @param date $CreatedDate
-     * @return \FilippoToso\Travelport\Air\ExpertSolution
+     * @return \Santosdave\Travelport\Air\ExpertSolution
      */
     public function setCreatedDate($CreatedDate)
     {

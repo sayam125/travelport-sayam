@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeEditableEndpoint extends typeEndpointRef
 {
@@ -37,7 +37,7 @@ class typeEditableEndpoint extends typeEndpointRef
 
     /**
      * @param typeFieldRef $FixedFieldRef
-     * @return \FilippoToso\Travelport\UProfile\typeEditableEndpoint
+     * @return \Santosdave\Travelport\UProfile\typeEditableEndpoint
      */
     public function setFixedFieldRef($FixedFieldRef)
     {
@@ -55,7 +55,7 @@ class typeEditableEndpoint extends typeEndpointRef
 
     /**
      * @param typeFieldRef $CustomFieldRef
-     * @return \FilippoToso\Travelport\UProfile\typeEditableEndpoint
+     * @return \Santosdave\Travelport\UProfile\typeEditableEndpoint
      */
     public function setCustomFieldRef($CustomFieldRef)
     {

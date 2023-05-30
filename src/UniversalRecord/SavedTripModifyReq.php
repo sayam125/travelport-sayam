@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class SavedTripModifyReq extends BaseReq
 {
@@ -40,7 +40,7 @@ class SavedTripModifyReq extends BaseReq
 
     /**
      * @param SavedTrip $SavedTrip
-     * @return \FilippoToso\Travelport\UniversalRecord\SavedTripModifyReq
+     * @return \Santosdave\Travelport\UniversalRecord\SavedTripModifyReq
      */
     public function setSavedTrip($SavedTrip)
     {

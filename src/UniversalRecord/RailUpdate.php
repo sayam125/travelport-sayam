@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class RailUpdate
 {
@@ -35,7 +35,7 @@ class RailUpdate
 
     /**
      * @param BookingAction $BookingAction
-     * @return \FilippoToso\Travelport\UniversalRecord\RailUpdate
+     * @return \Santosdave\Travelport\UniversalRecord\RailUpdate
      */
     public function setBookingAction($BookingAction)
     {
@@ -53,7 +53,7 @@ class RailUpdate
 
     /**
      * @param typeLocatorCode $ReservationLocatorCode
-     * @return \FilippoToso\Travelport\UniversalRecord\RailUpdate
+     * @return \Santosdave\Travelport\UniversalRecord\RailUpdate
      */
     public function setReservationLocatorCode($ReservationLocatorCode)
     {

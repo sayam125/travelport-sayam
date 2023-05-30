@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class BookingDates
 {
@@ -35,7 +35,7 @@ class BookingDates
 
     /**
      * @param typeDate $CheckInDate
-     * @return \FilippoToso\Travelport\Rail\BookingDates
+     * @return \Santosdave\Travelport\Rail\BookingDates
      */
     public function setCheckInDate($CheckInDate)
     {
@@ -53,7 +53,7 @@ class BookingDates
 
     /**
      * @param typeDate $CheckOutDate
-     * @return \FilippoToso\Travelport\Rail\BookingDates
+     * @return \Santosdave\Travelport\Rail\BookingDates
      */
     public function setCheckOutDate($CheckOutDate)
     {

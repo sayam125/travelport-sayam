@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class UpsellBrand
 {
@@ -35,7 +35,7 @@ class UpsellBrand
 
     /**
      * @param string $FareBasis
-     * @return \FilippoToso\Travelport\GDSQueue\UpsellBrand
+     * @return \Santosdave\Travelport\GDSQueue\UpsellBrand
      */
     public function setFareBasis($FareBasis)
     {
@@ -53,7 +53,7 @@ class UpsellBrand
 
     /**
      * @param string $FareInfoRef
-     * @return \FilippoToso\Travelport\GDSQueue\UpsellBrand
+     * @return \Santosdave\Travelport\GDSQueue\UpsellBrand
      */
     public function setFareInfoRef($FareInfoRef)
     {

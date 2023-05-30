@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class RailJourneyList
 {
@@ -28,7 +28,7 @@ class RailJourneyList
 
     /**
      * @param RailJourney $RailJourney
-     * @return \FilippoToso\Travelport\Air\RailJourneyList
+     * @return \Santosdave\Travelport\Air\RailJourneyList
      */
     public function setRailJourney($RailJourney)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class RailSeatMapRsp extends BaseRsp
 {
@@ -34,7 +34,7 @@ class RailSeatMapRsp extends BaseRsp
 
     /**
      * @param Coach $Coach
-     * @return \FilippoToso\Travelport\Rail\RailSeatMapRsp
+     * @return \Santosdave\Travelport\Rail\RailSeatMapRsp
      */
     public function setCoach($Coach)
     {

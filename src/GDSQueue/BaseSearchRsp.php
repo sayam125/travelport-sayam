@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class BaseSearchRsp extends BaseRsp
 {
@@ -34,7 +34,7 @@ class BaseSearchRsp extends BaseRsp
 
     /**
      * @param NextResultReference $NextResultReference
-     * @return \FilippoToso\Travelport\GDSQueue\BaseSearchRsp
+     * @return \Santosdave\Travelport\GDSQueue\BaseSearchRsp
      */
     public function setNextResultReference($NextResultReference)
     {

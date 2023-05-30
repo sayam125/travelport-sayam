@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\System;
+namespace Santosdave\Travelport\System;
 
 class NameOverride
 {
@@ -35,7 +35,7 @@ class NameOverride
 
     /**
      * @param anonymous410 $First
-     * @return \FilippoToso\Travelport\System\NameOverride
+     * @return \Santosdave\Travelport\System\NameOverride
      */
     public function setFirst($First)
     {
@@ -53,7 +53,7 @@ class NameOverride
 
     /**
      * @param anonymous411 $Last
-     * @return \FilippoToso\Travelport\System\NameOverride
+     * @return \Santosdave\Travelport\System\NameOverride
      */
     public function setLast($Last)
     {

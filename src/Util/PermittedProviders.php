@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class PermittedProviders
 {
@@ -28,7 +28,7 @@ class PermittedProviders
 
     /**
      * @param Provider $Provider
-     * @return \FilippoToso\Travelport\Util\PermittedProviders
+     * @return \Santosdave\Travelport\Util\PermittedProviders
      */
     public function setProvider($Provider)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class HotelUpsellQualifySearchCriteria extends UpsellSearchCriteria
 {
@@ -59,7 +59,7 @@ class HotelUpsellQualifySearchCriteria extends UpsellSearchCriteria
 
     /**
      * @param CorporateDiscountID $CorporateDiscountID
-     * @return \FilippoToso\Travelport\Util\HotelUpsellQualifySearchCriteria
+     * @return \Santosdave\Travelport\Util\HotelUpsellQualifySearchCriteria
      */
     public function setCorporateDiscountID($CorporateDiscountID)
     {
@@ -77,7 +77,7 @@ class HotelUpsellQualifySearchCriteria extends UpsellSearchCriteria
 
     /**
      * @param typeHotelChainCode $HotelChainCode
-     * @return \FilippoToso\Travelport\Util\HotelUpsellQualifySearchCriteria
+     * @return \Santosdave\Travelport\Util\HotelUpsellQualifySearchCriteria
      */
     public function setHotelChainCode($HotelChainCode)
     {
@@ -95,7 +95,7 @@ class HotelUpsellQualifySearchCriteria extends UpsellSearchCriteria
 
     /**
      * @param typeHotelCode $HotelCode
-     * @return \FilippoToso\Travelport\Util\HotelUpsellQualifySearchCriteria
+     * @return \Santosdave\Travelport\Util\HotelUpsellQualifySearchCriteria
      */
     public function setHotelCode($HotelCode)
     {
@@ -113,7 +113,7 @@ class HotelUpsellQualifySearchCriteria extends UpsellSearchCriteria
 
     /**
      * @param typeIATACode $HotelLocation
-     * @return \FilippoToso\Travelport\Util\HotelUpsellQualifySearchCriteria
+     * @return \Santosdave\Travelport\Util\HotelUpsellQualifySearchCriteria
      */
     public function setHotelLocation($HotelLocation)
     {
@@ -131,7 +131,7 @@ class HotelUpsellQualifySearchCriteria extends UpsellSearchCriteria
 
     /**
      * @param typeRatePlanType $RatePlanType
-     * @return \FilippoToso\Travelport\Util\HotelUpsellQualifySearchCriteria
+     * @return \Santosdave\Travelport\Util\HotelUpsellQualifySearchCriteria
      */
     public function setRatePlanType($RatePlanType)
     {

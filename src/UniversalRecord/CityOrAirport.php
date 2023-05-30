@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class CityOrAirport extends Location
 {
@@ -35,7 +35,7 @@ class CityOrAirport extends Location
 
     /**
      * @param typeIATACode $Code
-     * @return \FilippoToso\Travelport\UniversalRecord\CityOrAirport
+     * @return \Santosdave\Travelport\UniversalRecord\CityOrAirport
      */
     public function setCode($Code)
     {
@@ -53,7 +53,7 @@ class CityOrAirport extends Location
 
     /**
      * @param boolean $PreferCity
-     * @return \FilippoToso\Travelport\UniversalRecord\CityOrAirport
+     * @return \Santosdave\Travelport\UniversalRecord\CityOrAirport
      */
     public function setPreferCity($PreferCity)
     {

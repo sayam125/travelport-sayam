@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class ReferenceDataRetrieveReq extends BaseReq
 {
@@ -54,7 +54,7 @@ class ReferenceDataRetrieveReq extends BaseReq
 
     /**
      * @param ReferenceDataSearchModifiers $ReferenceDataSearchModifiers
-     * @return \FilippoToso\Travelport\Util\ReferenceDataRetrieveReq
+     * @return \Santosdave\Travelport\Util\ReferenceDataRetrieveReq
      */
     public function setReferenceDataSearchModifiers($ReferenceDataSearchModifiers)
     {
@@ -72,7 +72,7 @@ class ReferenceDataRetrieveReq extends BaseReq
 
     /**
      * @param RequestReferenceDataItem $RequestReferenceDataItem
-     * @return \FilippoToso\Travelport\Util\ReferenceDataRetrieveReq
+     * @return \Santosdave\Travelport\Util\ReferenceDataRetrieveReq
      */
     public function setRequestReferenceDataItem($RequestReferenceDataItem)
     {
@@ -90,7 +90,7 @@ class ReferenceDataRetrieveReq extends BaseReq
 
     /**
      * @param typeTypeCode $TypeCode
-     * @return \FilippoToso\Travelport\Util\ReferenceDataRetrieveReq
+     * @return \Santosdave\Travelport\Util\ReferenceDataRetrieveReq
      */
     public function setTypeCode($TypeCode)
     {

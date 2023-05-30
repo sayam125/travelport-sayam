@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class TravelInfo
 {
@@ -35,7 +35,7 @@ class TravelInfo
 
     /**
      * @param anonymous279 $TripName
-     * @return \FilippoToso\Travelport\UProfile\TravelInfo
+     * @return \Santosdave\Travelport\UProfile\TravelInfo
      */
     public function setTripName($TripName)
     {
@@ -53,7 +53,7 @@ class TravelInfo
 
     /**
      * @param anonymous280 $TravelPurpose
-     * @return \FilippoToso\Travelport\UProfile\TravelInfo
+     * @return \Santosdave\Travelport\UProfile\TravelInfo
      */
     public function setTravelPurpose($TravelPurpose)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class UniversalUpdate
 {
@@ -145,7 +145,7 @@ class UniversalUpdate
 
     /**
      * @param AccountingRemark $AccountingRemark
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalUpdate
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalUpdate
      */
     public function setAccountingRemark($AccountingRemark)
     {
@@ -163,7 +163,7 @@ class UniversalUpdate
 
     /**
      * @param GeneralRemark $GeneralRemark
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalUpdate
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalUpdate
      */
     public function setGeneralRemark($GeneralRemark)
     {
@@ -181,7 +181,7 @@ class UniversalUpdate
 
     /**
      * @param OSI $OSI
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalUpdate
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalUpdate
      */
     public function setOSI($OSI)
     {
@@ -199,7 +199,7 @@ class UniversalUpdate
 
     /**
      * @param UnassociatedRemark $UnassociatedRemark
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalUpdate
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalUpdate
      */
     public function setUnassociatedRemark($UnassociatedRemark)
     {
@@ -217,7 +217,7 @@ class UniversalUpdate
 
     /**
      * @param XMLRemark $XMLRemark
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalUpdate
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalUpdate
      */
     public function setXMLRemark($XMLRemark)
     {
@@ -235,7 +235,7 @@ class UniversalUpdate
 
     /**
      * @param Postscript $Postscript
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalUpdate
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalUpdate
      */
     public function setPostscript($Postscript)
     {
@@ -253,7 +253,7 @@ class UniversalUpdate
 
     /**
      * @param BookingTravelerInfo $BookingTravelerInfo
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalUpdate
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalUpdate
      */
     public function setBookingTravelerInfo($BookingTravelerInfo)
     {
@@ -271,7 +271,7 @@ class UniversalUpdate
 
     /**
      * @param ServiceFeeInfo $ServiceFeeInfo
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalUpdate
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalUpdate
      */
     public function setServiceFeeInfo($ServiceFeeInfo)
     {
@@ -289,7 +289,7 @@ class UniversalUpdate
 
     /**
      * @param Status $Status
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalUpdate
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalUpdate
      */
     public function setStatus($Status)
     {
@@ -307,7 +307,7 @@ class UniversalUpdate
 
     /**
      * @param AgencyContactInfo $AgencyContactInfo
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalUpdate
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalUpdate
      */
     public function setAgencyContactInfo($AgencyContactInfo)
     {
@@ -325,7 +325,7 @@ class UniversalUpdate
 
     /**
      * @param CustomerID $CustomerID
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalUpdate
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalUpdate
      */
     public function setCustomerID($CustomerID)
     {
@@ -343,7 +343,7 @@ class UniversalUpdate
 
     /**
      * @param CommissionRemark $CommissionRemark
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalUpdate
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalUpdate
      */
     public function setCommissionRemark($CommissionRemark)
     {
@@ -361,7 +361,7 @@ class UniversalUpdate
 
     /**
      * @param ConsolidatorRemark $ConsolidatorRemark
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalUpdate
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalUpdate
      */
     public function setConsolidatorRemark($ConsolidatorRemark)
     {
@@ -379,7 +379,7 @@ class UniversalUpdate
 
     /**
      * @param InvoiceRemark $InvoiceRemark
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalUpdate
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalUpdate
      */
     public function setInvoiceRemark($InvoiceRemark)
     {
@@ -397,7 +397,7 @@ class UniversalUpdate
 
     /**
      * @param ActionStatus $ActionStatus
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalUpdate
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalUpdate
      */
     public function setActionStatus($ActionStatus)
     {
@@ -415,7 +415,7 @@ class UniversalUpdate
 
     /**
      * @param ReviewBooking $ReviewBooking
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalUpdate
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalUpdate
      */
     public function setReviewBooking($ReviewBooking)
     {
@@ -433,7 +433,7 @@ class UniversalUpdate
 
     /**
      * @param OwnershipChange $OwnershipChange
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalUpdate
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalUpdate
      */
     public function setOwnershipChange($OwnershipChange)
     {
@@ -451,7 +451,7 @@ class UniversalUpdate
 
     /**
      * @param FormOfPayment $FormOfPayment
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalUpdate
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalUpdate
      */
     public function setFormOfPayment($FormOfPayment)
     {

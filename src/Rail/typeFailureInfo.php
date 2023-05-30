@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class typeFailureInfo
 {
@@ -35,7 +35,7 @@ class typeFailureInfo
 
     /**
      * @param int $Code
-     * @return \FilippoToso\Travelport\Rail\typeFailureInfo
+     * @return \Santosdave\Travelport\Rail\typeFailureInfo
      */
     public function setCode($Code)
     {
@@ -53,7 +53,7 @@ class typeFailureInfo
 
     /**
      * @param string $Message
-     * @return \FilippoToso\Travelport\Rail\typeFailureInfo
+     * @return \Santosdave\Travelport\Rail\typeFailureInfo
      */
     public function setMessage($Message)
     {

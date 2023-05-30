@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class SplitTicketingSearch
 {
@@ -28,7 +28,7 @@ class SplitTicketingSearch
 
     /**
      * @param int $RoundTrip
-     * @return \FilippoToso\Travelport\GDSQueue\SplitTicketingSearch
+     * @return \Santosdave\Travelport\GDSQueue\SplitTicketingSearch
      */
     public function setRoundTrip($RoundTrip)
     {

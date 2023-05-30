@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class HotelRateInfo
 {
@@ -28,7 +28,7 @@ class HotelRateInfo
 
     /**
      * @param typeRatePlanType $RatePlanType
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelRateInfo
+     * @return \Santosdave\Travelport\UniversalRecord\HotelRateInfo
      */
     public function setRatePlanType($RatePlanType)
     {

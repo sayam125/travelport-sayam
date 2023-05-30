@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class HotelChain
 {
@@ -28,7 +28,7 @@ class HotelChain
 
     /**
      * @param typeHotelChainCode $Code
-     * @return \FilippoToso\Travelport\Rail\HotelChain
+     * @return \Santosdave\Travelport\Rail\HotelChain
      */
     public function setCode($Code)
     {

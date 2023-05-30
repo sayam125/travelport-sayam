@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class RefundFailureInfo
 {
@@ -63,7 +63,7 @@ class RefundFailureInfo
 
     /**
      * @param StringLength1to13 $TicketNumber
-     * @return \FilippoToso\Travelport\Air\RefundFailureInfo
+     * @return \Santosdave\Travelport\Air\RefundFailureInfo
      */
     public function setTicketNumber($TicketNumber)
     {
@@ -81,7 +81,7 @@ class RefundFailureInfo
 
     /**
      * @param Name $Name
-     * @return \FilippoToso\Travelport\Air\RefundFailureInfo
+     * @return \Santosdave\Travelport\Air\RefundFailureInfo
      */
     public function setName($Name)
     {
@@ -99,7 +99,7 @@ class RefundFailureInfo
 
     /**
      * @param typeTCRNumber $TCRNumber
-     * @return \FilippoToso\Travelport\Air\RefundFailureInfo
+     * @return \Santosdave\Travelport\Air\RefundFailureInfo
      */
     public function setTCRNumber($TCRNumber)
     {
@@ -117,7 +117,7 @@ class RefundFailureInfo
 
     /**
      * @param typeRef $BookingTravelerRef
-     * @return \FilippoToso\Travelport\Air\RefundFailureInfo
+     * @return \Santosdave\Travelport\Air\RefundFailureInfo
      */
     public function setBookingTravelerRef($BookingTravelerRef)
     {
@@ -135,7 +135,7 @@ class RefundFailureInfo
 
     /**
      * @param int $Code
-     * @return \FilippoToso\Travelport\Air\RefundFailureInfo
+     * @return \Santosdave\Travelport\Air\RefundFailureInfo
      */
     public function setCode($Code)
     {
@@ -153,7 +153,7 @@ class RefundFailureInfo
 
     /**
      * @param string $Message
-     * @return \FilippoToso\Travelport\Air\RefundFailureInfo
+     * @return \Santosdave\Travelport\Air\RefundFailureInfo
      */
     public function setMessage($Message)
     {

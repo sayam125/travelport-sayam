@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class SecondaryTypeRules
 {
@@ -28,7 +28,7 @@ class SecondaryTypeRules
 
     /**
      * @param SecondaryTypeRule[] $SecondaryTypeRule
-     * @return \FilippoToso\Travelport\GDSQueue\SecondaryTypeRules
+     * @return \Santosdave\Travelport\GDSQueue\SecondaryTypeRules
      */
     public function setSecondaryTypeRule(array $SecondaryTypeRule)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class AirRefundRsp extends BaseRsp
 {
@@ -46,7 +46,7 @@ class AirRefundRsp extends BaseRsp
 
     /**
      * @param ETR $ETR
-     * @return \FilippoToso\Travelport\Air\AirRefundRsp
+     * @return \Santosdave\Travelport\Air\AirRefundRsp
      */
     public function setETR($ETR)
     {
@@ -64,7 +64,7 @@ class AirRefundRsp extends BaseRsp
 
     /**
      * @param TCR $TCR
-     * @return \FilippoToso\Travelport\Air\AirRefundRsp
+     * @return \Santosdave\Travelport\Air\AirRefundRsp
      */
     public function setTCR($TCR)
     {
@@ -82,7 +82,7 @@ class AirRefundRsp extends BaseRsp
 
     /**
      * @param typeTicketFailureInfo[] $RefundFailureInfo
-     * @return \FilippoToso\Travelport\Air\AirRefundRsp
+     * @return \Santosdave\Travelport\Air\AirRefundRsp
      */
     public function setRefundFailureInfo(array $RefundFailureInfo = null)
     {

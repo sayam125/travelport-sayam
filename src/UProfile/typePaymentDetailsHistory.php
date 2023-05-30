@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typePaymentDetailsHistory extends typeKeyElement
 {
@@ -103,7 +103,7 @@ class typePaymentDetailsHistory extends typeKeyElement
 
     /**
      * @param PaymentPhone $PaymentPhone
-     * @return \FilippoToso\Travelport\UProfile\typePaymentDetailsHistory
+     * @return \Santosdave\Travelport\UProfile\typePaymentDetailsHistory
      */
     public function setPaymentPhone($PaymentPhone)
     {
@@ -121,7 +121,7 @@ class typePaymentDetailsHistory extends typeKeyElement
 
     /**
      * @param PaymentAddress $PaymentAddress
-     * @return \FilippoToso\Travelport\UProfile\typePaymentDetailsHistory
+     * @return \Santosdave\Travelport\UProfile\typePaymentDetailsHistory
      */
     public function setPaymentAddress($PaymentAddress)
     {
@@ -139,7 +139,7 @@ class typePaymentDetailsHistory extends typeKeyElement
 
     /**
      * @param typeDateOptions $StartDate
-     * @return \FilippoToso\Travelport\UProfile\typePaymentDetailsHistory
+     * @return \Santosdave\Travelport\UProfile\typePaymentDetailsHistory
      */
     public function setStartDate($StartDate)
     {
@@ -157,7 +157,7 @@ class typePaymentDetailsHistory extends typeKeyElement
 
     /**
      * @param typeDateOptions $ExpirationDate
-     * @return \FilippoToso\Travelport\UProfile\typePaymentDetailsHistory
+     * @return \Santosdave\Travelport\UProfile\typePaymentDetailsHistory
      */
     public function setExpirationDate($ExpirationDate)
     {
@@ -175,7 +175,7 @@ class typePaymentDetailsHistory extends typeKeyElement
 
     /**
      * @param typePaymentType $Type
-     * @return \FilippoToso\Travelport\UProfile\typePaymentDetailsHistory
+     * @return \Santosdave\Travelport\UProfile\typePaymentDetailsHistory
      */
     public function setType($Type)
     {
@@ -193,7 +193,7 @@ class typePaymentDetailsHistory extends typeKeyElement
 
     /**
      * @param string $IssuedToName
-     * @return \FilippoToso\Travelport\UProfile\typePaymentDetailsHistory
+     * @return \Santosdave\Travelport\UProfile\typePaymentDetailsHistory
      */
     public function setIssuedToName($IssuedToName)
     {
@@ -211,7 +211,7 @@ class typePaymentDetailsHistory extends typeKeyElement
 
     /**
      * @param boolean $ExtendedPayment
-     * @return \FilippoToso\Travelport\UProfile\typePaymentDetailsHistory
+     * @return \Santosdave\Travelport\UProfile\typePaymentDetailsHistory
      */
     public function setExtendedPayment($ExtendedPayment)
     {
@@ -229,7 +229,7 @@ class typePaymentDetailsHistory extends typeKeyElement
 
     /**
      * @param typePaymentSupplier $PaymentSupplier
-     * @return \FilippoToso\Travelport\UProfile\typePaymentDetailsHistory
+     * @return \Santosdave\Travelport\UProfile\typePaymentDetailsHistory
      */
     public function setPaymentSupplier($PaymentSupplier)
     {
@@ -247,7 +247,7 @@ class typePaymentDetailsHistory extends typeKeyElement
 
     /**
      * @param StringLength1to255 $AccountNumber
-     * @return \FilippoToso\Travelport\UProfile\typePaymentDetailsHistory
+     * @return \Santosdave\Travelport\UProfile\typePaymentDetailsHistory
      */
     public function setAccountNumber($AccountNumber)
     {
@@ -265,7 +265,7 @@ class typePaymentDetailsHistory extends typeKeyElement
 
     /**
      * @param StringLength1to255 $Description
-     * @return \FilippoToso\Travelport\UProfile\typePaymentDetailsHistory
+     * @return \Santosdave\Travelport\UProfile\typePaymentDetailsHistory
      */
     public function setDescription($Description)
     {
@@ -283,7 +283,7 @@ class typePaymentDetailsHistory extends typeKeyElement
 
     /**
      * @param typePriorityOrder $PriorityOrder
-     * @return \FilippoToso\Travelport\UProfile\typePaymentDetailsHistory
+     * @return \Santosdave\Travelport\UProfile\typePaymentDetailsHistory
      */
     public function setPriorityOrder($PriorityOrder)
     {
@@ -301,7 +301,7 @@ class typePaymentDetailsHistory extends typeKeyElement
 
     /**
      * @param typeProfileID $OwnerID
-     * @return \FilippoToso\Travelport\UProfile\typePaymentDetailsHistory
+     * @return \Santosdave\Travelport\UProfile\typePaymentDetailsHistory
      */
     public function setOwnerID($OwnerID)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class ContentProvider
 {
@@ -133,7 +133,7 @@ class ContentProvider
 
     /**
      * @param string $ProviderCode
-     * @return \FilippoToso\Travelport\Util\ContentProvider
+     * @return \Santosdave\Travelport\Util\ContentProvider
      */
     public function setProviderCode($ProviderCode)
     {
@@ -151,7 +151,7 @@ class ContentProvider
 
     /**
      * @param string $SupplierCode
-     * @return \FilippoToso\Travelport\Util\ContentProvider
+     * @return \Santosdave\Travelport\Util\ContentProvider
      */
     public function setSupplierCode($SupplierCode)
     {
@@ -169,7 +169,7 @@ class ContentProvider
 
     /**
      * @param anonymous1140 $AgencyCredentials
-     * @return \FilippoToso\Travelport\Util\ContentProvider
+     * @return \Santosdave\Travelport\Util\ContentProvider
      */
     public function setAgencyCredentials($AgencyCredentials)
     {
@@ -187,7 +187,7 @@ class ContentProvider
 
     /**
      * @param boolean $Active
-     * @return \FilippoToso\Travelport\Util\ContentProvider
+     * @return \Santosdave\Travelport\Util\ContentProvider
      */
     public function setActive($Active)
     {
@@ -205,7 +205,7 @@ class ContentProvider
 
     /**
      * @param boolean $Provisionable
-     * @return \FilippoToso\Travelport\Util\ContentProvider
+     * @return \Santosdave\Travelport\Util\ContentProvider
      */
     public function setProvisionable($Provisionable)
     {
@@ -223,7 +223,7 @@ class ContentProvider
 
     /**
      * @param string $MerchandisingACHAdapter
-     * @return \FilippoToso\Travelport\Util\ContentProvider
+     * @return \Santosdave\Travelport\Util\ContentProvider
      */
     public function setMerchandisingACHAdapter($MerchandisingACHAdapter)
     {
@@ -241,7 +241,7 @@ class ContentProvider
 
     /**
      * @param boolean $StaticDataCarrier
-     * @return \FilippoToso\Travelport\Util\ContentProvider
+     * @return \Santosdave\Travelport\Util\ContentProvider
      */
     public function setStaticDataCarrier($StaticDataCarrier)
     {
@@ -259,7 +259,7 @@ class ContentProvider
 
     /**
      * @param boolean $MerchandisingACHCarrier
-     * @return \FilippoToso\Travelport\Util\ContentProvider
+     * @return \Santosdave\Travelport\Util\ContentProvider
      */
     public function setMerchandisingACHCarrier($MerchandisingACHCarrier)
     {
@@ -277,7 +277,7 @@ class ContentProvider
 
     /**
      * @param boolean $MerchandisingHubCarrier
-     * @return \FilippoToso\Travelport\Util\ContentProvider
+     * @return \Santosdave\Travelport\Util\ContentProvider
      */
     public function setMerchandisingHubCarrier($MerchandisingHubCarrier)
     {
@@ -295,7 +295,7 @@ class ContentProvider
 
     /**
      * @param typeProviderSupplierCapabilityType $BookingRetrieve
-     * @return \FilippoToso\Travelport\Util\ContentProvider
+     * @return \Santosdave\Travelport\Util\ContentProvider
      */
     public function setBookingRetrieve($BookingRetrieve)
     {
@@ -313,7 +313,7 @@ class ContentProvider
 
     /**
      * @param typeProviderSupplierCapabilityType $SegmentModify
-     * @return \FilippoToso\Travelport\Util\ContentProvider
+     * @return \Santosdave\Travelport\Util\ContentProvider
      */
     public function setSegmentModify($SegmentModify)
     {
@@ -331,7 +331,7 @@ class ContentProvider
 
     /**
      * @param typeProviderSupplierCapabilityType $OptionalServicesModify
-     * @return \FilippoToso\Travelport\Util\ContentProvider
+     * @return \Santosdave\Travelport\Util\ContentProvider
      */
     public function setOptionalServicesModify($OptionalServicesModify)
     {
@@ -349,7 +349,7 @@ class ContentProvider
 
     /**
      * @param typeProviderSupplierCapabilityType $TravelerInfoModify
-     * @return \FilippoToso\Travelport\Util\ContentProvider
+     * @return \Santosdave\Travelport\Util\ContentProvider
      */
     public function setTravelerInfoModify($TravelerInfoModify)
     {
@@ -367,7 +367,7 @@ class ContentProvider
 
     /**
      * @param typeProviderSupplierCapabilityType $AdditionalPayment
-     * @return \FilippoToso\Travelport\Util\ContentProvider
+     * @return \Santosdave\Travelport\Util\ContentProvider
      */
     public function setAdditionalPayment($AdditionalPayment)
     {
@@ -385,7 +385,7 @@ class ContentProvider
 
     /**
      * @param typeProviderSupplierCapabilityType $BookingCancel
-     * @return \FilippoToso\Travelport\Util\ContentProvider
+     * @return \Santosdave\Travelport\Util\ContentProvider
      */
     public function setBookingCancel($BookingCancel)
     {
@@ -403,7 +403,7 @@ class ContentProvider
 
     /**
      * @param typeProviderSupplierCapabilityType $SeatMap
-     * @return \FilippoToso\Travelport\Util\ContentProvider
+     * @return \Santosdave\Travelport\Util\ContentProvider
      */
     public function setSeatMap($SeatMap)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class AirFareDisplayRsp extends BaseRsp
 {
@@ -34,7 +34,7 @@ class AirFareDisplayRsp extends BaseRsp
 
     /**
      * @param FareDisplay $FareDisplay
-     * @return \FilippoToso\Travelport\Air\AirFareDisplayRsp
+     * @return \Santosdave\Travelport\Air\AirFareDisplayRsp
      */
     public function setFareDisplay($FareDisplay)
     {

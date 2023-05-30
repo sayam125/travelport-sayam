@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class EMD
 {
@@ -105,7 +105,7 @@ class EMD
 
     /**
      * @param anonymous911 $FulfillmentType
-     * @return \FilippoToso\Travelport\Air\EMD
+     * @return \Santosdave\Travelport\Air\EMD
      */
     public function setFulfillmentType($FulfillmentType)
     {
@@ -123,7 +123,7 @@ class EMD
 
     /**
      * @param string $FulfillmentTypeDescription
-     * @return \FilippoToso\Travelport\Air\EMD
+     * @return \Santosdave\Travelport\Air\EMD
      */
     public function setFulfillmentTypeDescription($FulfillmentTypeDescription)
     {
@@ -141,7 +141,7 @@ class EMD
 
     /**
      * @param string $AssociatedItem
-     * @return \FilippoToso\Travelport\Air\EMD
+     * @return \Santosdave\Travelport\Air\EMD
      */
     public function setAssociatedItem($AssociatedItem)
     {
@@ -159,7 +159,7 @@ class EMD
 
     /**
      * @param anonymous912 $AvailabilityChargeIndicator
-     * @return \FilippoToso\Travelport\Air\EMD
+     * @return \Santosdave\Travelport\Air\EMD
      */
     public function setAvailabilityChargeIndicator($AvailabilityChargeIndicator)
     {
@@ -177,7 +177,7 @@ class EMD
 
     /**
      * @param anonymous913 $RefundReissueIndicator
-     * @return \FilippoToso\Travelport\Air\EMD
+     * @return \Santosdave\Travelport\Air\EMD
      */
     public function setRefundReissueIndicator($RefundReissueIndicator)
     {
@@ -195,7 +195,7 @@ class EMD
 
     /**
      * @param anonymous914 $Commissionable
-     * @return \FilippoToso\Travelport\Air\EMD
+     * @return \Santosdave\Travelport\Air\EMD
      */
     public function setCommissionable($Commissionable)
     {
@@ -213,7 +213,7 @@ class EMD
 
     /**
      * @param anonymous915 $MileageIndicator
-     * @return \FilippoToso\Travelport\Air\EMD
+     * @return \Santosdave\Travelport\Air\EMD
      */
     public function setMileageIndicator($MileageIndicator)
     {
@@ -231,7 +231,7 @@ class EMD
 
     /**
      * @param anonymous916 $Location
-     * @return \FilippoToso\Travelport\Air\EMD
+     * @return \Santosdave\Travelport\Air\EMD
      */
     public function setLocation($Location)
     {
@@ -249,7 +249,7 @@ class EMD
 
     /**
      * @param anonymous917 $Date
-     * @return \FilippoToso\Travelport\Air\EMD
+     * @return \Santosdave\Travelport\Air\EMD
      */
     public function setDate($Date)
     {
@@ -267,7 +267,7 @@ class EMD
 
     /**
      * @param anonymous918 $Booking
-     * @return \FilippoToso\Travelport\Air\EMD
+     * @return \Santosdave\Travelport\Air\EMD
      */
     public function setBooking($Booking)
     {
@@ -285,7 +285,7 @@ class EMD
 
     /**
      * @param anonymous919 $DisplayCategory
-     * @return \FilippoToso\Travelport\Air\EMD
+     * @return \Santosdave\Travelport\Air\EMD
      */
     public function setDisplayCategory($DisplayCategory)
     {
@@ -303,7 +303,7 @@ class EMD
 
     /**
      * @param boolean $Reusable
-     * @return \FilippoToso\Travelport\Air\EMD
+     * @return \Santosdave\Travelport\Air\EMD
      */
     public function setReusable($Reusable)
     {

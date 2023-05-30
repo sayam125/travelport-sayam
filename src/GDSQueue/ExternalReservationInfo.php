@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class ExternalReservationInfo
 {
@@ -35,7 +35,7 @@ class ExternalReservationInfo
 
     /**
      * @param typeLocatorCode $LocatorCode
-     * @return \FilippoToso\Travelport\GDSQueue\ExternalReservationInfo
+     * @return \Santosdave\Travelport\GDSQueue\ExternalReservationInfo
      */
     public function setLocatorCode($LocatorCode)
     {
@@ -53,7 +53,7 @@ class ExternalReservationInfo
 
     /**
      * @param typeCarrier $Carrier
-     * @return \FilippoToso\Travelport\GDSQueue\ExternalReservationInfo
+     * @return \Santosdave\Travelport\GDSQueue\ExternalReservationInfo
      */
     public function setCarrier($Carrier)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class BaggageAllowance
 {
@@ -31,7 +31,7 @@ class BaggageAllowance
 
     /**
      * @param int $NumberOfPieces
-     * @return \FilippoToso\Travelport\GDSQueue\BaggageAllowance
+     * @return \Santosdave\Travelport\GDSQueue\BaggageAllowance
      */
     public function setNumberOfPieces($NumberOfPieces)
     {
@@ -49,7 +49,7 @@ class BaggageAllowance
 
     /**
      * @param typeWeight $MaxWeight
-     * @return \FilippoToso\Travelport\GDSQueue\BaggageAllowance
+     * @return \Santosdave\Travelport\GDSQueue\BaggageAllowance
      */
     public function setMaxWeight($MaxWeight)
     {

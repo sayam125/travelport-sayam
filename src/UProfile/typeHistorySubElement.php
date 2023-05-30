@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeHistorySubElement extends typeAddressHistory
 {
@@ -316,7 +316,7 @@ class typeHistorySubElement extends typeAddressHistory
 
     /**
      * @param typeAccountInfoHistory $AccountInfo
-     * @return \FilippoToso\Travelport\UProfile\typeHistorySubElement
+     * @return \Santosdave\Travelport\UProfile\typeHistorySubElement
      */
     public function setAccountInfo($AccountInfo)
     {
@@ -334,7 +334,7 @@ class typeHistorySubElement extends typeAddressHistory
 
     /**
      * @param typeTravelerInfoHistory $TravelerInfo
-     * @return \FilippoToso\Travelport\UProfile\typeHistorySubElement
+     * @return \Santosdave\Travelport\UProfile\typeHistorySubElement
      */
     public function setTravelerInfo($TravelerInfo)
     {
@@ -352,7 +352,7 @@ class typeHistorySubElement extends typeAddressHistory
 
     /**
      * @param typeTravelDocumentHistory $TravelDocument
-     * @return \FilippoToso\Travelport\UProfile\typeHistorySubElement
+     * @return \Santosdave\Travelport\UProfile\typeHistorySubElement
      */
     public function setTravelDocument($TravelDocument)
     {
@@ -370,7 +370,7 @@ class typeHistorySubElement extends typeAddressHistory
 
     /**
      * @param typeAccountingReferenceHistory $AccountingReference
-     * @return \FilippoToso\Travelport\UProfile\typeHistorySubElement
+     * @return \Santosdave\Travelport\UProfile\typeHistorySubElement
      */
     public function setAccountingReference($AccountingReference)
     {
@@ -388,7 +388,7 @@ class typeHistorySubElement extends typeAddressHistory
 
     /**
      * @param typePolicyReferenceHistory $PolicyReference
-     * @return \FilippoToso\Travelport\UProfile\typeHistorySubElement
+     * @return \Santosdave\Travelport\UProfile\typeHistorySubElement
      */
     public function setPolicyReference($PolicyReference)
     {
@@ -406,7 +406,7 @@ class typeHistorySubElement extends typeAddressHistory
 
     /**
      * @param typeCommissionReferenceHistory $CommissionReference
-     * @return \FilippoToso\Travelport\UProfile\typeHistorySubElement
+     * @return \Santosdave\Travelport\UProfile\typeHistorySubElement
      */
     public function setCommissionReference($CommissionReference)
     {
@@ -424,7 +424,7 @@ class typeHistorySubElement extends typeAddressHistory
 
     /**
      * @param typeLoyaltyProgramEnrollmentHistory $LoyaltyProgramEnrollment
-     * @return \FilippoToso\Travelport\UProfile\typeHistorySubElement
+     * @return \Santosdave\Travelport\UProfile\typeHistorySubElement
      */
     public function setLoyaltyProgramEnrollment($LoyaltyProgramEnrollment)
     {
@@ -442,7 +442,7 @@ class typeHistorySubElement extends typeAddressHistory
 
     /**
      * @param typeContractHistory $Contract
-     * @return \FilippoToso\Travelport\UProfile\typeHistorySubElement
+     * @return \Santosdave\Travelport\UProfile\typeHistorySubElement
      */
     public function setContract($Contract)
     {
@@ -460,7 +460,7 @@ class typeHistorySubElement extends typeAddressHistory
 
     /**
      * @param typeCommissionHistory $Commission
-     * @return \FilippoToso\Travelport\UProfile\typeHistorySubElement
+     * @return \Santosdave\Travelport\UProfile\typeHistorySubElement
      */
     public function setCommission($Commission)
     {
@@ -478,7 +478,7 @@ class typeHistorySubElement extends typeAddressHistory
 
     /**
      * @param typeServiceFeeHistory $ServiceFee
-     * @return \FilippoToso\Travelport\UProfile\typeHistorySubElement
+     * @return \Santosdave\Travelport\UProfile\typeHistorySubElement
      */
     public function setServiceFee($ServiceFee)
     {
@@ -496,7 +496,7 @@ class typeHistorySubElement extends typeAddressHistory
 
     /**
      * @param typeAlternateContactHistory $AlternateContact
-     * @return \FilippoToso\Travelport\UProfile\typeHistorySubElement
+     * @return \Santosdave\Travelport\UProfile\typeHistorySubElement
      */
     public function setAlternateContact($AlternateContact)
     {
@@ -514,7 +514,7 @@ class typeHistorySubElement extends typeAddressHistory
 
     /**
      * @param AlternateContactAddress $AlternateContactAddress
-     * @return \FilippoToso\Travelport\UProfile\typeHistorySubElement
+     * @return \Santosdave\Travelport\UProfile\typeHistorySubElement
      */
     public function setAlternateContactAddress($AlternateContactAddress)
     {
@@ -532,7 +532,7 @@ class typeHistorySubElement extends typeAddressHistory
 
     /**
      * @param AlternateContactPhone $AlternateContactPhone
-     * @return \FilippoToso\Travelport\UProfile\typeHistorySubElement
+     * @return \Santosdave\Travelport\UProfile\typeHistorySubElement
      */
     public function setAlternateContactPhone($AlternateContactPhone)
     {
@@ -550,7 +550,7 @@ class typeHistorySubElement extends typeAddressHistory
 
     /**
      * @param AlternateContactElectronicAddress $AlternateContactElectronicAddress
-     * @return \FilippoToso\Travelport\UProfile\typeHistorySubElement
+     * @return \Santosdave\Travelport\UProfile\typeHistorySubElement
      */
     public function setAlternateContactElectronicAddress($AlternateContactElectronicAddress)
     {
@@ -568,7 +568,7 @@ class typeHistorySubElement extends typeAddressHistory
 
     /**
      * @param typeFormOfPaymentHistory $FormOfPayment
-     * @return \FilippoToso\Travelport\UProfile\typeHistorySubElement
+     * @return \Santosdave\Travelport\UProfile\typeHistorySubElement
      */
     public function setFormOfPayment($FormOfPayment)
     {
@@ -586,7 +586,7 @@ class typeHistorySubElement extends typeAddressHistory
 
     /**
      * @param typeRemarkHistory $Remark
-     * @return \FilippoToso\Travelport\UProfile\typeHistorySubElement
+     * @return \Santosdave\Travelport\UProfile\typeHistorySubElement
      */
     public function setRemark($Remark)
     {
@@ -604,7 +604,7 @@ class typeHistorySubElement extends typeAddressHistory
 
     /**
      * @param typeAddressHistory $Address
-     * @return \FilippoToso\Travelport\UProfile\typeHistorySubElement
+     * @return \Santosdave\Travelport\UProfile\typeHistorySubElement
      */
     public function setAddress($Address)
     {
@@ -622,7 +622,7 @@ class typeHistorySubElement extends typeAddressHistory
 
     /**
      * @param typePhoneHistory $Phone
-     * @return \FilippoToso\Travelport\UProfile\typeHistorySubElement
+     * @return \Santosdave\Travelport\UProfile\typeHistorySubElement
      */
     public function setPhone($Phone)
     {
@@ -640,7 +640,7 @@ class typeHistorySubElement extends typeAddressHistory
 
     /**
      * @param typeElectronicAddressHistory $ElectronicAddress
-     * @return \FilippoToso\Travelport\UProfile\typeHistorySubElement
+     * @return \Santosdave\Travelport\UProfile\typeHistorySubElement
      */
     public function setElectronicAddress($ElectronicAddress)
     {
@@ -658,7 +658,7 @@ class typeHistorySubElement extends typeAddressHistory
 
     /**
      * @param TravelerIdentityInformation $TravelerIdentityInformation
-     * @return \FilippoToso\Travelport\UProfile\typeHistorySubElement
+     * @return \Santosdave\Travelport\UProfile\typeHistorySubElement
      */
     public function setTravelerIdentityInformation($TravelerIdentityInformation)
     {
@@ -676,7 +676,7 @@ class typeHistorySubElement extends typeAddressHistory
 
     /**
      * @param typeExternalIdentifierHistory $ExternalIdentifier
-     * @return \FilippoToso\Travelport\UProfile\typeHistorySubElement
+     * @return \Santosdave\Travelport\UProfile\typeHistorySubElement
      */
     public function setExternalIdentifier($ExternalIdentifier)
     {
@@ -694,7 +694,7 @@ class typeHistorySubElement extends typeAddressHistory
 
     /**
      * @param typeAirPreferenceHistory $AirPreference
-     * @return \FilippoToso\Travelport\UProfile\typeHistorySubElement
+     * @return \Santosdave\Travelport\UProfile\typeHistorySubElement
      */
     public function setAirPreference($AirPreference)
     {
@@ -712,7 +712,7 @@ class typeHistorySubElement extends typeAddressHistory
 
     /**
      * @param typeVehiclePreferenceHistory $VehiclePreference
-     * @return \FilippoToso\Travelport\UProfile\typeHistorySubElement
+     * @return \Santosdave\Travelport\UProfile\typeHistorySubElement
      */
     public function setVehiclePreference($VehiclePreference)
     {
@@ -730,7 +730,7 @@ class typeHistorySubElement extends typeAddressHistory
 
     /**
      * @param typeHotelPreferenceHistory $HotelPreference
-     * @return \FilippoToso\Travelport\UProfile\typeHistorySubElement
+     * @return \Santosdave\Travelport\UProfile\typeHistorySubElement
      */
     public function setHotelPreference($HotelPreference)
     {
@@ -748,7 +748,7 @@ class typeHistorySubElement extends typeAddressHistory
 
     /**
      * @param typeRailPreferenceHistory $RailPreference
-     * @return \FilippoToso\Travelport\UProfile\typeHistorySubElement
+     * @return \Santosdave\Travelport\UProfile\typeHistorySubElement
      */
     public function setRailPreference($RailPreference)
     {
@@ -766,7 +766,7 @@ class typeHistorySubElement extends typeAddressHistory
 
     /**
      * @param typeProfileParentHistory $ProfileParentHistory
-     * @return \FilippoToso\Travelport\UProfile\typeHistorySubElement
+     * @return \Santosdave\Travelport\UProfile\typeHistorySubElement
      */
     public function setProfileParentHistory($ProfileParentHistory)
     {
@@ -784,7 +784,7 @@ class typeHistorySubElement extends typeAddressHistory
 
     /**
      * @param typeFieldDataHistory $FieldData
-     * @return \FilippoToso\Travelport\UProfile\typeHistorySubElement
+     * @return \Santosdave\Travelport\UProfile\typeHistorySubElement
      */
     public function setFieldData($FieldData)
     {
@@ -802,7 +802,7 @@ class typeHistorySubElement extends typeAddressHistory
 
     /**
      * @param typeFieldGroupDataHistory $FieldGroupData
-     * @return \FilippoToso\Travelport\UProfile\typeHistorySubElement
+     * @return \Santosdave\Travelport\UProfile\typeHistorySubElement
      */
     public function setFieldGroupData($FieldGroupData)
     {
@@ -820,7 +820,7 @@ class typeHistorySubElement extends typeAddressHistory
 
     /**
      * @param typeAdvisoryHistory $Advisory
-     * @return \FilippoToso\Travelport\UProfile\typeHistorySubElement
+     * @return \Santosdave\Travelport\UProfile\typeHistorySubElement
      */
     public function setAdvisory($Advisory)
     {
@@ -838,7 +838,7 @@ class typeHistorySubElement extends typeAddressHistory
 
     /**
      * @param typeAgencyGroupInfoHistory $AgencyGroupInfo
-     * @return \FilippoToso\Travelport\UProfile\typeHistorySubElement
+     * @return \Santosdave\Travelport\UProfile\typeHistorySubElement
      */
     public function setAgencyGroupInfo($AgencyGroupInfo)
     {
@@ -856,7 +856,7 @@ class typeHistorySubElement extends typeAddressHistory
 
     /**
      * @param typeAgencyInfoHistory $AgencyInfo
-     * @return \FilippoToso\Travelport\UProfile\typeHistorySubElement
+     * @return \Santosdave\Travelport\UProfile\typeHistorySubElement
      */
     public function setAgencyInfo($AgencyInfo)
     {
@@ -874,7 +874,7 @@ class typeHistorySubElement extends typeAddressHistory
 
     /**
      * @param typeBranchGroupInfoHistory $BranchGroupInfo
-     * @return \FilippoToso\Travelport\UProfile\typeHistorySubElement
+     * @return \Santosdave\Travelport\UProfile\typeHistorySubElement
      */
     public function setBranchGroupInfo($BranchGroupInfo)
     {
@@ -892,7 +892,7 @@ class typeHistorySubElement extends typeAddressHistory
 
     /**
      * @param typeBranchInfoHistory $BranchInfo
-     * @return \FilippoToso\Travelport\UProfile\typeHistorySubElement
+     * @return \Santosdave\Travelport\UProfile\typeHistorySubElement
      */
     public function setBranchInfo($BranchInfo)
     {
@@ -910,7 +910,7 @@ class typeHistorySubElement extends typeAddressHistory
 
     /**
      * @param typeAgentInfoHistory $AgentInfo
-     * @return \FilippoToso\Travelport\UProfile\typeHistorySubElement
+     * @return \Santosdave\Travelport\UProfile\typeHistorySubElement
      */
     public function setAgentInfo($AgentInfo)
     {
@@ -928,7 +928,7 @@ class typeHistorySubElement extends typeAddressHistory
 
     /**
      * @param typeTravelerGroupInfoHistory $TravelerGroupInfo
-     * @return \FilippoToso\Travelport\UProfile\typeHistorySubElement
+     * @return \Santosdave\Travelport\UProfile\typeHistorySubElement
      */
     public function setTravelerGroupInfo($TravelerGroupInfo)
     {
@@ -946,7 +946,7 @@ class typeHistorySubElement extends typeAddressHistory
 
     /**
      * @param typeProfileStatusHistory $ProfileStatus
-     * @return \FilippoToso\Travelport\UProfile\typeHistorySubElement
+     * @return \Santosdave\Travelport\UProfile\typeHistorySubElement
      */
     public function setProfileStatus($ProfileStatus)
     {
@@ -964,7 +964,7 @@ class typeHistorySubElement extends typeAddressHistory
 
     /**
      * @param typeProfileLinkHistory $ProfileLink
-     * @return \FilippoToso\Travelport\UProfile\typeHistorySubElement
+     * @return \Santosdave\Travelport\UProfile\typeHistorySubElement
      */
     public function setProfileLink($ProfileLink)
     {
@@ -982,7 +982,7 @@ class typeHistorySubElement extends typeAddressHistory
 
     /**
      * @param typeProviderInfoHistory $ProviderInfo
-     * @return \FilippoToso\Travelport\UProfile\typeHistorySubElement
+     * @return \Santosdave\Travelport\UProfile\typeHistorySubElement
      */
     public function setProviderInfo($ProviderInfo)
     {
@@ -1000,7 +1000,7 @@ class typeHistorySubElement extends typeAddressHistory
 
     /**
      * @param typeOtherPreferenceHistory $OtherPreference
-     * @return \FilippoToso\Travelport\UProfile\typeHistorySubElement
+     * @return \Santosdave\Travelport\UProfile\typeHistorySubElement
      */
     public function setOtherPreference($OtherPreference)
     {
@@ -1018,7 +1018,7 @@ class typeHistorySubElement extends typeAddressHistory
 
     /**
      * @param typeProprietaryDataHistory $ProprietaryData
-     * @return \FilippoToso\Travelport\UProfile\typeHistorySubElement
+     * @return \Santosdave\Travelport\UProfile\typeHistorySubElement
      */
     public function setProprietaryData($ProprietaryData)
     {

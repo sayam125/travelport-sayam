@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class Document
 {
@@ -42,7 +42,7 @@ class Document
 
     /**
      * @param int $Sequence
-     * @return \FilippoToso\Travelport\GDSQueue\Document
+     * @return \Santosdave\Travelport\GDSQueue\Document
      */
     public function setSequence($Sequence)
     {
@@ -60,7 +60,7 @@ class Document
 
     /**
      * @param string $Type
-     * @return \FilippoToso\Travelport\GDSQueue\Document
+     * @return \Santosdave\Travelport\GDSQueue\Document
      */
     public function setType($Type)
     {
@@ -78,7 +78,7 @@ class Document
 
     /**
      * @param string $Level
-     * @return \FilippoToso\Travelport\GDSQueue\Document
+     * @return \Santosdave\Travelport\GDSQueue\Document
      */
     public function setLevel($Level)
     {

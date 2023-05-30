@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class RailRefundQuoteRsp extends BaseRsp
 {
@@ -34,7 +34,7 @@ class RailRefundQuoteRsp extends BaseRsp
 
     /**
      * @param RailRefundInfo $RailRefundInfo
-     * @return \FilippoToso\Travelport\Rail\RailRefundQuoteRsp
+     * @return \Santosdave\Travelport\Rail\RailRefundQuoteRsp
      */
     public function setRailRefundInfo($RailRefundInfo)
     {

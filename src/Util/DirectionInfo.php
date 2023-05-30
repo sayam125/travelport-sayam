@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class DirectionInfo
 {
@@ -35,7 +35,7 @@ class DirectionInfo
 
     /**
      * @param typeIATACode $LocationCode
-     * @return \FilippoToso\Travelport\Util\DirectionInfo
+     * @return \Santosdave\Travelport\Util\DirectionInfo
      */
     public function setLocationCode($LocationCode)
     {
@@ -53,7 +53,7 @@ class DirectionInfo
 
     /**
      * @param anonymous970 $Direction
-     * @return \FilippoToso\Travelport\Util\DirectionInfo
+     * @return \Santosdave\Travelport\Util\DirectionInfo
      */
     public function setDirection($Direction)
     {

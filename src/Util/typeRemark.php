@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class typeRemark
 {
@@ -42,7 +42,7 @@ class typeRemark
 
     /**
      * @param string $_
-     * @return \FilippoToso\Travelport\Util\typeRemark
+     * @return \Santosdave\Travelport\Util\typeRemark
      */
     public function set_($_)
     {
@@ -60,7 +60,7 @@ class typeRemark
 
     /**
      * @param typeRef $ProviderReservationInfoRef
-     * @return \FilippoToso\Travelport\Util\typeRemark
+     * @return \Santosdave\Travelport\Util\typeRemark
      */
     public function setProviderReservationInfoRef($ProviderReservationInfoRef)
     {
@@ -78,7 +78,7 @@ class typeRemark
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\Util\typeRemark
+     * @return \Santosdave\Travelport\Util\typeRemark
      */
     public function setProviderCode($ProviderCode)
     {

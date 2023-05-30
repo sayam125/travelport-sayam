@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class typeStructuredAddress
 {
@@ -81,7 +81,7 @@ class typeStructuredAddress
 
     /**
      * @param AddressName $AddressName
-     * @return \FilippoToso\Travelport\Air\typeStructuredAddress
+     * @return \Santosdave\Travelport\Air\typeStructuredAddress
      */
     public function setAddressName($AddressName)
     {
@@ -99,7 +99,7 @@ class typeStructuredAddress
 
     /**
      * @param Street[] $Street
-     * @return \FilippoToso\Travelport\Air\typeStructuredAddress
+     * @return \Santosdave\Travelport\Air\typeStructuredAddress
      */
     public function setStreet(array $Street = null)
     {
@@ -117,7 +117,7 @@ class typeStructuredAddress
 
     /**
      * @param City $City
-     * @return \FilippoToso\Travelport\Air\typeStructuredAddress
+     * @return \Santosdave\Travelport\Air\typeStructuredAddress
      */
     public function setCity($City)
     {
@@ -135,7 +135,7 @@ class typeStructuredAddress
 
     /**
      * @param State $State
-     * @return \FilippoToso\Travelport\Air\typeStructuredAddress
+     * @return \Santosdave\Travelport\Air\typeStructuredAddress
      */
     public function setState($State)
     {
@@ -153,7 +153,7 @@ class typeStructuredAddress
 
     /**
      * @param PostalCode $PostalCode
-     * @return \FilippoToso\Travelport\Air\typeStructuredAddress
+     * @return \Santosdave\Travelport\Air\typeStructuredAddress
      */
     public function setPostalCode($PostalCode)
     {
@@ -171,7 +171,7 @@ class typeStructuredAddress
 
     /**
      * @param Country $Country
-     * @return \FilippoToso\Travelport\Air\typeStructuredAddress
+     * @return \Santosdave\Travelport\Air\typeStructuredAddress
      */
     public function setCountry($Country)
     {
@@ -189,7 +189,7 @@ class typeStructuredAddress
 
     /**
      * @param ProviderReservationInfoRef $ProviderReservationInfoRef
-     * @return \FilippoToso\Travelport\Air\typeStructuredAddress
+     * @return \Santosdave\Travelport\Air\typeStructuredAddress
      */
     public function setProviderReservationInfoRef($ProviderReservationInfoRef)
     {
@@ -207,7 +207,7 @@ class typeStructuredAddress
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Air\typeStructuredAddress
+     * @return \Santosdave\Travelport\Air\typeStructuredAddress
      */
     public function setKey($Key)
     {
@@ -225,7 +225,7 @@ class typeStructuredAddress
 
     /**
      * @param typeElementStatus $ElStat
-     * @return \FilippoToso\Travelport\Air\typeStructuredAddress
+     * @return \Santosdave\Travelport\Air\typeStructuredAddress
      */
     public function setElStat($ElStat)
     {
@@ -243,7 +243,7 @@ class typeStructuredAddress
 
     /**
      * @param boolean $KeyOverride
-     * @return \FilippoToso\Travelport\Air\typeStructuredAddress
+     * @return \Santosdave\Travelport\Air\typeStructuredAddress
      */
     public function setKeyOverride($KeyOverride)
     {

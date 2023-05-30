@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class VehicleUpsellOffer
 {
@@ -105,7 +105,7 @@ class VehicleUpsellOffer
 
     /**
      * @param boolean $AirConditioning
-     * @return \FilippoToso\Travelport\Util\VehicleUpsellOffer
+     * @return \Santosdave\Travelport\Util\VehicleUpsellOffer
      */
     public function setAirConditioning($AirConditioning)
     {
@@ -123,7 +123,7 @@ class VehicleUpsellOffer
 
     /**
      * @param typeVehicleTransmission $TransmissionType
-     * @return \FilippoToso\Travelport\Util\VehicleUpsellOffer
+     * @return \Santosdave\Travelport\Util\VehicleUpsellOffer
      */
     public function setTransmissionType($TransmissionType)
     {
@@ -141,7 +141,7 @@ class VehicleUpsellOffer
 
     /**
      * @param typeVehicleClass $VehicleClass
-     * @return \FilippoToso\Travelport\Util\VehicleUpsellOffer
+     * @return \Santosdave\Travelport\Util\VehicleUpsellOffer
      */
     public function setVehicleClass($VehicleClass)
     {
@@ -159,7 +159,7 @@ class VehicleUpsellOffer
 
     /**
      * @param typeVehicleCategory $Category
-     * @return \FilippoToso\Travelport\Util\VehicleUpsellOffer
+     * @return \Santosdave\Travelport\Util\VehicleUpsellOffer
      */
     public function setCategory($Category)
     {
@@ -177,7 +177,7 @@ class VehicleUpsellOffer
 
     /**
      * @param typeDoorCount $DoorCount
-     * @return \FilippoToso\Travelport\Util\VehicleUpsellOffer
+     * @return \Santosdave\Travelport\Util\VehicleUpsellOffer
      */
     public function setDoorCount($DoorCount)
     {
@@ -195,7 +195,7 @@ class VehicleUpsellOffer
 
     /**
      * @param typeRateCode $RateCode
-     * @return \FilippoToso\Travelport\Util\VehicleUpsellOffer
+     * @return \Santosdave\Travelport\Util\VehicleUpsellOffer
      */
     public function setRateCode($RateCode)
     {
@@ -213,7 +213,7 @@ class VehicleUpsellOffer
 
     /**
      * @param typeRateCategory $RateCategory
-     * @return \FilippoToso\Travelport\Util\VehicleUpsellOffer
+     * @return \Santosdave\Travelport\Util\VehicleUpsellOffer
      */
     public function setRateCategory($RateCategory)
     {
@@ -231,7 +231,7 @@ class VehicleUpsellOffer
 
     /**
      * @param typeDiscountNumber $DiscountNumber
-     * @return \FilippoToso\Travelport\Util\VehicleUpsellOffer
+     * @return \Santosdave\Travelport\Util\VehicleUpsellOffer
      */
     public function setDiscountNumber($DiscountNumber)
     {
@@ -249,7 +249,7 @@ class VehicleUpsellOffer
 
     /**
      * @param typeFuel $FuelType
-     * @return \FilippoToso\Travelport\Util\VehicleUpsellOffer
+     * @return \Santosdave\Travelport\Util\VehicleUpsellOffer
      */
     public function setFuelType($FuelType)
     {
@@ -267,7 +267,7 @@ class VehicleUpsellOffer
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Util\VehicleUpsellOffer
+     * @return \Santosdave\Travelport\Util\VehicleUpsellOffer
      */
     public function setKey($Key)
     {
@@ -285,7 +285,7 @@ class VehicleUpsellOffer
 
     /**
      * @param typeElementStatus $ElStat
-     * @return \FilippoToso\Travelport\Util\VehicleUpsellOffer
+     * @return \Santosdave\Travelport\Util\VehicleUpsellOffer
      */
     public function setElStat($ElStat)
     {
@@ -303,7 +303,7 @@ class VehicleUpsellOffer
 
     /**
      * @param boolean $KeyOverride
-     * @return \FilippoToso\Travelport\Util\VehicleUpsellOffer
+     * @return \Santosdave\Travelport\Util\VehicleUpsellOffer
      */
     public function setKeyOverride($KeyOverride)
     {

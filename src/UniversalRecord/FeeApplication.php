@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class FeeApplication
 {
@@ -35,7 +35,7 @@ class FeeApplication
 
     /**
      * @param typeFeeApplication $_
-     * @return \FilippoToso\Travelport\UniversalRecord\FeeApplication
+     * @return \Santosdave\Travelport\UniversalRecord\FeeApplication
      */
     public function set_($_)
     {
@@ -53,7 +53,7 @@ class FeeApplication
 
     /**
      * @param anonymous839 $Code
-     * @return \FilippoToso\Travelport\UniversalRecord\FeeApplication
+     * @return \Santosdave\Travelport\UniversalRecord\FeeApplication
      */
     public function setCode($Code)
     {

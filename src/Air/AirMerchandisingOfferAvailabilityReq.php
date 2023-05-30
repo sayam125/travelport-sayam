@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class AirMerchandisingOfferAvailabilityReq extends BaseReq
 {
@@ -68,7 +68,7 @@ class AirMerchandisingOfferAvailabilityReq extends BaseReq
 
     /**
      * @param AgencySellInfo $AgencySellInfo
-     * @return \FilippoToso\Travelport\Air\AirMerchandisingOfferAvailabilityReq
+     * @return \Santosdave\Travelport\Air\AirMerchandisingOfferAvailabilityReq
      */
     public function setAgencySellInfo($AgencySellInfo)
     {
@@ -86,7 +86,7 @@ class AirMerchandisingOfferAvailabilityReq extends BaseReq
 
     /**
      * @param AirSolution $AirSolution
-     * @return \FilippoToso\Travelport\Air\AirMerchandisingOfferAvailabilityReq
+     * @return \Santosdave\Travelport\Air\AirMerchandisingOfferAvailabilityReq
      */
     public function setAirSolution($AirSolution)
     {
@@ -104,7 +104,7 @@ class AirMerchandisingOfferAvailabilityReq extends BaseReq
 
     /**
      * @param HostReservation $HostReservation
-     * @return \FilippoToso\Travelport\Air\AirMerchandisingOfferAvailabilityReq
+     * @return \Santosdave\Travelport\Air\AirMerchandisingOfferAvailabilityReq
      */
     public function setHostReservation($HostReservation)
     {
@@ -122,7 +122,7 @@ class AirMerchandisingOfferAvailabilityReq extends BaseReq
 
     /**
      * @param OfferAvailabilityModifiers $OfferAvailabilityModifiers
-     * @return \FilippoToso\Travelport\Air\AirMerchandisingOfferAvailabilityReq
+     * @return \Santosdave\Travelport\Air\AirMerchandisingOfferAvailabilityReq
      */
     public function setOfferAvailabilityModifiers($OfferAvailabilityModifiers)
     {
@@ -140,7 +140,7 @@ class AirMerchandisingOfferAvailabilityReq extends BaseReq
 
     /**
      * @param MerchandisingPricingModifiers $MerchandisingPricingModifiers
-     * @return \FilippoToso\Travelport\Air\AirMerchandisingOfferAvailabilityReq
+     * @return \Santosdave\Travelport\Air\AirMerchandisingOfferAvailabilityReq
      */
     public function setMerchandisingPricingModifiers($MerchandisingPricingModifiers)
     {

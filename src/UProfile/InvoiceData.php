@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class InvoiceData
 {
@@ -56,7 +56,7 @@ class InvoiceData
 
     /**
      * @param BookingTravelerInformation $BookingTravelerInformation
-     * @return \FilippoToso\Travelport\UProfile\InvoiceData
+     * @return \Santosdave\Travelport\UProfile\InvoiceData
      */
     public function setBookingTravelerInformation($BookingTravelerInformation)
     {
@@ -74,7 +74,7 @@ class InvoiceData
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\UProfile\InvoiceData
+     * @return \Santosdave\Travelport\UProfile\InvoiceData
      */
     public function setKey($Key)
     {
@@ -92,7 +92,7 @@ class InvoiceData
 
     /**
      * @param string $InvoiceNumber
-     * @return \FilippoToso\Travelport\UProfile\InvoiceData
+     * @return \Santosdave\Travelport\UProfile\InvoiceData
      */
     public function setInvoiceNumber($InvoiceNumber)
     {
@@ -118,7 +118,7 @@ class InvoiceData
 
     /**
      * @param \DateTime $IssueDate
-     * @return \FilippoToso\Travelport\UProfile\InvoiceData
+     * @return \Santosdave\Travelport\UProfile\InvoiceData
      */
     public function setIssueDate(\DateTime $IssueDate)
     {
@@ -136,7 +136,7 @@ class InvoiceData
 
     /**
      * @param typeRef $ProviderReservationInfoRef
-     * @return \FilippoToso\Travelport\UProfile\InvoiceData
+     * @return \Santosdave\Travelport\UProfile\InvoiceData
      */
     public function setProviderReservationInfoRef($ProviderReservationInfoRef)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class LoyaltyCardRef
 {
@@ -28,7 +28,7 @@ class LoyaltyCardRef
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Air\LoyaltyCardRef
+     * @return \Santosdave\Travelport\Air\LoyaltyCardRef
      */
     public function setKey($Key)
     {

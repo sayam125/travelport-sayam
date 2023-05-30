@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class Guarantee
 {
@@ -84,7 +84,7 @@ class Guarantee
 
     /**
      * @param CreditCard $CreditCard
-     * @return \FilippoToso\Travelport\UProfile\Guarantee
+     * @return \Santosdave\Travelport\UProfile\Guarantee
      */
     public function setCreditCard($CreditCard)
     {
@@ -102,7 +102,7 @@ class Guarantee
 
     /**
      * @param OtherGuaranteeInfo $OtherGuaranteeInfo
-     * @return \FilippoToso\Travelport\UProfile\Guarantee
+     * @return \Santosdave\Travelport\UProfile\Guarantee
      */
     public function setOtherGuaranteeInfo($OtherGuaranteeInfo)
     {
@@ -120,7 +120,7 @@ class Guarantee
 
     /**
      * @param anonymous297 $Type
-     * @return \FilippoToso\Travelport\UProfile\Guarantee
+     * @return \Santosdave\Travelport\UProfile\Guarantee
      */
     public function setType($Type)
     {
@@ -138,7 +138,7 @@ class Guarantee
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\UProfile\Guarantee
+     * @return \Santosdave\Travelport\UProfile\Guarantee
      */
     public function setKey($Key)
     {
@@ -156,7 +156,7 @@ class Guarantee
 
     /**
      * @param typeRef $ReuseFOP
-     * @return \FilippoToso\Travelport\UProfile\Guarantee
+     * @return \Santosdave\Travelport\UProfile\Guarantee
      */
     public function setReuseFOP($ReuseFOP)
     {
@@ -174,7 +174,7 @@ class Guarantee
 
     /**
      * @param typeExternalReference $ExternalReference
-     * @return \FilippoToso\Travelport\UProfile\Guarantee
+     * @return \Santosdave\Travelport\UProfile\Guarantee
      */
     public function setExternalReference($ExternalReference)
     {
@@ -192,7 +192,7 @@ class Guarantee
 
     /**
      * @param boolean $Reusable
-     * @return \FilippoToso\Travelport\UProfile\Guarantee
+     * @return \Santosdave\Travelport\UProfile\Guarantee
      */
     public function setReusable($Reusable)
     {
@@ -210,7 +210,7 @@ class Guarantee
 
     /**
      * @param typeElementStatus $ElStat
-     * @return \FilippoToso\Travelport\UProfile\Guarantee
+     * @return \Santosdave\Travelport\UProfile\Guarantee
      */
     public function setElStat($ElStat)
     {
@@ -228,7 +228,7 @@ class Guarantee
 
     /**
      * @param boolean $KeyOverride
-     * @return \FilippoToso\Travelport\UProfile\Guarantee
+     * @return \Santosdave\Travelport\UProfile\Guarantee
      */
     public function setKeyOverride($KeyOverride)
     {

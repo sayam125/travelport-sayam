@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class TCR
 {
@@ -210,7 +210,7 @@ class TCR
 
     /**
      * @param FormOfPayment $FormOfPayment
-     * @return \FilippoToso\Travelport\GDSQueue\TCR
+     * @return \Santosdave\Travelport\GDSQueue\TCR
      */
     public function setFormOfPayment($FormOfPayment)
     {
@@ -228,7 +228,7 @@ class TCR
 
     /**
      * @param Payment $Payment
-     * @return \FilippoToso\Travelport\GDSQueue\TCR
+     * @return \Santosdave\Travelport\GDSQueue\TCR
      */
     public function setPayment($Payment)
     {
@@ -246,7 +246,7 @@ class TCR
 
     /**
      * @param BookingTraveler $BookingTraveler
-     * @return \FilippoToso\Travelport\GDSQueue\TCR
+     * @return \Santosdave\Travelport\GDSQueue\TCR
      */
     public function setBookingTraveler($BookingTraveler)
     {
@@ -264,7 +264,7 @@ class TCR
 
     /**
      * @param PassengerTicketNumber $PassengerTicketNumber
-     * @return \FilippoToso\Travelport\GDSQueue\TCR
+     * @return \Santosdave\Travelport\GDSQueue\TCR
      */
     public function setPassengerTicketNumber($PassengerTicketNumber)
     {
@@ -282,7 +282,7 @@ class TCR
 
     /**
      * @param AirPricingInfo $AirPricingInfo
-     * @return \FilippoToso\Travelport\GDSQueue\TCR
+     * @return \Santosdave\Travelport\GDSQueue\TCR
      */
     public function setAirPricingInfo($AirPricingInfo)
     {
@@ -300,7 +300,7 @@ class TCR
 
     /**
      * @param AgencyInfo $AgencyInfo
-     * @return \FilippoToso\Travelport\GDSQueue\TCR
+     * @return \Santosdave\Travelport\GDSQueue\TCR
      */
     public function setAgencyInfo($AgencyInfo)
     {
@@ -318,7 +318,7 @@ class TCR
 
     /**
      * @param AirReservationLocatorCode $AirReservationLocatorCode
-     * @return \FilippoToso\Travelport\GDSQueue\TCR
+     * @return \Santosdave\Travelport\GDSQueue\TCR
      */
     public function setAirReservationLocatorCode($AirReservationLocatorCode)
     {
@@ -336,7 +336,7 @@ class TCR
 
     /**
      * @param SupplierLocator $SupplierLocator
-     * @return \FilippoToso\Travelport\GDSQueue\TCR
+     * @return \Santosdave\Travelport\GDSQueue\TCR
      */
     public function setSupplierLocator($SupplierLocator)
     {
@@ -354,7 +354,7 @@ class TCR
 
     /**
      * @param RefundRemark $RefundRemark
-     * @return \FilippoToso\Travelport\GDSQueue\TCR
+     * @return \Santosdave\Travelport\GDSQueue\TCR
      */
     public function setRefundRemark($RefundRemark)
     {
@@ -372,7 +372,7 @@ class TCR
 
     /**
      * @param typeTCRNumber $TCRNumber
-     * @return \FilippoToso\Travelport\GDSQueue\TCR
+     * @return \Santosdave\Travelport\GDSQueue\TCR
      */
     public function setTCRNumber($TCRNumber)
     {
@@ -390,7 +390,7 @@ class TCR
 
     /**
      * @param typeTCRStatus $Status
-     * @return \FilippoToso\Travelport\GDSQueue\TCR
+     * @return \Santosdave\Travelport\GDSQueue\TCR
      */
     public function setStatus($Status)
     {
@@ -408,7 +408,7 @@ class TCR
 
     /**
      * @param string $ModifiedDate
-     * @return \FilippoToso\Travelport\GDSQueue\TCR
+     * @return \Santosdave\Travelport\GDSQueue\TCR
      */
     public function setModifiedDate($ModifiedDate)
     {
@@ -426,7 +426,7 @@ class TCR
 
     /**
      * @param string $ConfirmedDate
-     * @return \FilippoToso\Travelport\GDSQueue\TCR
+     * @return \Santosdave\Travelport\GDSQueue\TCR
      */
     public function setConfirmedDate($ConfirmedDate)
     {
@@ -444,7 +444,7 @@ class TCR
 
     /**
      * @param typeMoney $BasePrice
-     * @return \FilippoToso\Travelport\GDSQueue\TCR
+     * @return \Santosdave\Travelport\GDSQueue\TCR
      */
     public function setBasePrice($BasePrice)
     {
@@ -462,7 +462,7 @@ class TCR
 
     /**
      * @param typeMoney $Taxes
-     * @return \FilippoToso\Travelport\GDSQueue\TCR
+     * @return \Santosdave\Travelport\GDSQueue\TCR
      */
     public function setTaxes($Taxes)
     {
@@ -480,7 +480,7 @@ class TCR
 
     /**
      * @param typeMoney $Fees
-     * @return \FilippoToso\Travelport\GDSQueue\TCR
+     * @return \Santosdave\Travelport\GDSQueue\TCR
      */
     public function setFees($Fees)
     {
@@ -498,7 +498,7 @@ class TCR
 
     /**
      * @param boolean $Refundable
-     * @return \FilippoToso\Travelport\GDSQueue\TCR
+     * @return \Santosdave\Travelport\GDSQueue\TCR
      */
     public function setRefundable($Refundable)
     {
@@ -516,7 +516,7 @@ class TCR
 
     /**
      * @param boolean $Exchangeable
-     * @return \FilippoToso\Travelport\GDSQueue\TCR
+     * @return \Santosdave\Travelport\GDSQueue\TCR
      */
     public function setExchangeable($Exchangeable)
     {
@@ -534,7 +534,7 @@ class TCR
 
     /**
      * @param boolean $Voidable
-     * @return \FilippoToso\Travelport\GDSQueue\TCR
+     * @return \Santosdave\Travelport\GDSQueue\TCR
      */
     public function setVoidable($Voidable)
     {
@@ -552,7 +552,7 @@ class TCR
 
     /**
      * @param boolean $Modifiable
-     * @return \FilippoToso\Travelport\GDSQueue\TCR
+     * @return \Santosdave\Travelport\GDSQueue\TCR
      */
     public function setModifiable($Modifiable)
     {
@@ -570,7 +570,7 @@ class TCR
 
     /**
      * @param anonymous722 $RefundAccessCode
-     * @return \FilippoToso\Travelport\GDSQueue\TCR
+     * @return \Santosdave\Travelport\GDSQueue\TCR
      */
     public function setRefundAccessCode($RefundAccessCode)
     {
@@ -588,7 +588,7 @@ class TCR
 
     /**
      * @param typeMoney $RefundAmount
-     * @return \FilippoToso\Travelport\GDSQueue\TCR
+     * @return \Santosdave\Travelport\GDSQueue\TCR
      */
     public function setRefundAmount($RefundAmount)
     {
@@ -606,7 +606,7 @@ class TCR
 
     /**
      * @param typeMoney $RefundFee
-     * @return \FilippoToso\Travelport\GDSQueue\TCR
+     * @return \Santosdave\Travelport\GDSQueue\TCR
      */
     public function setRefundFee($RefundFee)
     {
@@ -624,7 +624,7 @@ class TCR
 
     /**
      * @param typeMoney $ForfeitAmount
-     * @return \FilippoToso\Travelport\GDSQueue\TCR
+     * @return \Santosdave\Travelport\GDSQueue\TCR
      */
     public function setForfeitAmount($ForfeitAmount)
     {
@@ -642,7 +642,7 @@ class TCR
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\GDSQueue\TCR
+     * @return \Santosdave\Travelport\GDSQueue\TCR
      */
     public function setProviderCode($ProviderCode)
     {
@@ -660,7 +660,7 @@ class TCR
 
     /**
      * @param typeProviderLocatorCode $ProviderLocatorCode
-     * @return \FilippoToso\Travelport\GDSQueue\TCR
+     * @return \Santosdave\Travelport\GDSQueue\TCR
      */
     public function setProviderLocatorCode($ProviderLocatorCode)
     {
@@ -678,7 +678,7 @@ class TCR
 
     /**
      * @param typeSupplierCode $SupplierCode
-     * @return \FilippoToso\Travelport\GDSQueue\TCR
+     * @return \Santosdave\Travelport\GDSQueue\TCR
      */
     public function setSupplierCode($SupplierCode)
     {

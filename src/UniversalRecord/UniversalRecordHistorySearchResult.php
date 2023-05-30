@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class UniversalRecordHistorySearchResult
 {
@@ -73,7 +73,7 @@ class UniversalRecordHistorySearchResult
 
     /**
      * @param string $Old
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalRecordHistorySearchResult
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalRecordHistorySearchResult
      */
     public function setOld($Old)
     {
@@ -91,7 +91,7 @@ class UniversalRecordHistorySearchResult
 
     /**
      * @param string $New
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalRecordHistorySearchResult
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalRecordHistorySearchResult
      */
     public function setNew($New)
     {
@@ -109,7 +109,7 @@ class UniversalRecordHistorySearchResult
 
     /**
      * @param string $ModifiedBy
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalRecordHistorySearchResult
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalRecordHistorySearchResult
      */
     public function setModifiedBy($ModifiedBy)
     {
@@ -127,7 +127,7 @@ class UniversalRecordHistorySearchResult
 
     /**
      * @param string $ModifiedDate
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalRecordHistorySearchResult
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalRecordHistorySearchResult
      */
     public function setModifiedDate($ModifiedDate)
     {
@@ -145,7 +145,7 @@ class UniversalRecordHistorySearchResult
 
     /**
      * @param string $ElementType
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalRecordHistorySearchResult
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalRecordHistorySearchResult
      */
     public function setElementType($ElementType)
     {
@@ -163,7 +163,7 @@ class UniversalRecordHistorySearchResult
 
     /**
      * @param string $Action
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalRecordHistorySearchResult
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalRecordHistorySearchResult
      */
     public function setAction($Action)
     {
@@ -181,7 +181,7 @@ class UniversalRecordHistorySearchResult
 
     /**
      * @param string $TransactionId
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalRecordHistorySearchResult
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalRecordHistorySearchResult
      */
     public function setTransactionId($TransactionId)
     {
@@ -199,7 +199,7 @@ class UniversalRecordHistorySearchResult
 
     /**
      * @param anonymous518 $AgentOverride
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalRecordHistorySearchResult
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalRecordHistorySearchResult
      */
     public function setAgentOverride($AgentOverride)
     {

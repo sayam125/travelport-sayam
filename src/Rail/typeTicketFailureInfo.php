@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class typeTicketFailureInfo
 {
@@ -63,7 +63,7 @@ class typeTicketFailureInfo
 
     /**
      * @param StringLength1to13 $TicketNumber
-     * @return \FilippoToso\Travelport\Rail\typeTicketFailureInfo
+     * @return \Santosdave\Travelport\Rail\typeTicketFailureInfo
      */
     public function setTicketNumber($TicketNumber)
     {
@@ -81,7 +81,7 @@ class typeTicketFailureInfo
 
     /**
      * @param Name $Name
-     * @return \FilippoToso\Travelport\Rail\typeTicketFailureInfo
+     * @return \Santosdave\Travelport\Rail\typeTicketFailureInfo
      */
     public function setName($Name)
     {
@@ -99,7 +99,7 @@ class typeTicketFailureInfo
 
     /**
      * @param typeTCRNumber $TCRNumber
-     * @return \FilippoToso\Travelport\Rail\typeTicketFailureInfo
+     * @return \Santosdave\Travelport\Rail\typeTicketFailureInfo
      */
     public function setTCRNumber($TCRNumber)
     {
@@ -117,7 +117,7 @@ class typeTicketFailureInfo
 
     /**
      * @param typeRef[] $BookingTravelerRef
-     * @return \FilippoToso\Travelport\Rail\typeTicketFailureInfo
+     * @return \Santosdave\Travelport\Rail\typeTicketFailureInfo
      */
     public function setBookingTravelerRef(array $BookingTravelerRef)
     {
@@ -135,7 +135,7 @@ class typeTicketFailureInfo
 
     /**
      * @param int $Code
-     * @return \FilippoToso\Travelport\Rail\typeTicketFailureInfo
+     * @return \Santosdave\Travelport\Rail\typeTicketFailureInfo
      */
     public function setCode($Code)
     {
@@ -153,7 +153,7 @@ class typeTicketFailureInfo
 
     /**
      * @param string $Message
-     * @return \FilippoToso\Travelport\Rail\typeTicketFailureInfo
+     * @return \Santosdave\Travelport\Rail\typeTicketFailureInfo
      */
     public function setMessage($Message)
     {

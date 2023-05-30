@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class typeSegmentPolicy
 {
@@ -49,7 +49,7 @@ class typeSegmentPolicy
 
     /**
      * @param Preference $Preference
-     * @return \FilippoToso\Travelport\Rail\typeSegmentPolicy
+     * @return \Santosdave\Travelport\Rail\typeSegmentPolicy
      */
     public function setPreference($Preference)
     {
@@ -67,7 +67,7 @@ class typeSegmentPolicy
 
     /**
      * @param typeRef $SegmentRef
-     * @return \FilippoToso\Travelport\Rail\typeSegmentPolicy
+     * @return \Santosdave\Travelport\Rail\typeSegmentPolicy
      */
     public function setSegmentRef($SegmentRef)
     {
@@ -85,7 +85,7 @@ class typeSegmentPolicy
 
     /**
      * @param boolean $InPolicy
-     * @return \FilippoToso\Travelport\Rail\typeSegmentPolicy
+     * @return \Santosdave\Travelport\Rail\typeSegmentPolicy
      */
     public function setInPolicy($InPolicy)
     {
@@ -103,7 +103,7 @@ class typeSegmentPolicy
 
     /**
      * @param boolean $InContract
-     * @return \FilippoToso\Travelport\Rail\typeSegmentPolicy
+     * @return \Santosdave\Travelport\Rail\typeSegmentPolicy
      */
     public function setInContract($InContract)
     {

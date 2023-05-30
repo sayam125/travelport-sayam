@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class AirFareRuleCategory
 {
@@ -35,7 +35,7 @@ class AirFareRuleCategory
 
     /**
      * @param typeFareRuleCategoryCode[] $CategoryCode
-     * @return \FilippoToso\Travelport\GDSQueue\AirFareRuleCategory
+     * @return \Santosdave\Travelport\GDSQueue\AirFareRuleCategory
      */
     public function setCategoryCode(array $CategoryCode)
     {
@@ -53,7 +53,7 @@ class AirFareRuleCategory
 
     /**
      * @param typeRef $FareInfoRef
-     * @return \FilippoToso\Travelport\GDSQueue\AirFareRuleCategory
+     * @return \Santosdave\Travelport\GDSQueue\AirFareRuleCategory
      */
     public function setFareInfoRef($FareInfoRef)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class UniqueProfileID
 {
@@ -42,7 +42,7 @@ class UniqueProfileID
 
     /**
      * @param StringLength6to128 $_
-     * @return \FilippoToso\Travelport\UProfile\UniqueProfileID
+     * @return \Santosdave\Travelport\UProfile\UniqueProfileID
      */
     public function set_($_)
     {
@@ -60,7 +60,7 @@ class UniqueProfileID
 
     /**
      * @param anonymous878 $ProfileType
-     * @return \FilippoToso\Travelport\UProfile\UniqueProfileID
+     * @return \Santosdave\Travelport\UProfile\UniqueProfileID
      */
     public function setProfileType($ProfileType)
     {
@@ -78,7 +78,7 @@ class UniqueProfileID
 
     /**
      * @param typeProvisioningCode $AgencyCode
-     * @return \FilippoToso\Travelport\UProfile\UniqueProfileID
+     * @return \Santosdave\Travelport\UProfile\UniqueProfileID
      */
     public function setAgencyCode($AgencyCode)
     {

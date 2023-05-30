@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class FareDetails
 {
@@ -49,7 +49,7 @@ class FareDetails
 
     /**
      * @param FareTicketDesignator $FareTicketDesignator
-     * @return \FilippoToso\Travelport\UniversalRecord\FareDetails
+     * @return \Santosdave\Travelport\UniversalRecord\FareDetails
      */
     public function setFareTicketDesignator($FareTicketDesignator)
     {
@@ -67,7 +67,7 @@ class FareDetails
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\UniversalRecord\FareDetails
+     * @return \Santosdave\Travelport\UniversalRecord\FareDetails
      */
     public function setKey($Key)
     {
@@ -85,7 +85,7 @@ class FareDetails
 
     /**
      * @param typeRef $PassengerDetailRef
-     * @return \FilippoToso\Travelport\UniversalRecord\FareDetails
+     * @return \Santosdave\Travelport\UniversalRecord\FareDetails
      */
     public function setPassengerDetailRef($PassengerDetailRef)
     {
@@ -103,7 +103,7 @@ class FareDetails
 
     /**
      * @param typeFareBasisCode $FareBasis
-     * @return \FilippoToso\Travelport\UniversalRecord\FareDetails
+     * @return \Santosdave\Travelport\UniversalRecord\FareDetails
      */
     public function setFareBasis($FareBasis)
     {

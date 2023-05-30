@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class HotelRating
 {
@@ -42,7 +42,7 @@ class HotelRating
 
     /**
      * @param typeSimpleHotelRating[] $Rating
-     * @return \FilippoToso\Travelport\Hotel\HotelRating
+     * @return \Santosdave\Travelport\Hotel\HotelRating
      */
     public function setRating(array $Rating)
     {
@@ -60,7 +60,7 @@ class HotelRating
 
     /**
      * @param RatingRange $RatingRange
-     * @return \FilippoToso\Travelport\Hotel\HotelRating
+     * @return \Santosdave\Travelport\Hotel\HotelRating
      */
     public function setRatingRange($RatingRange)
     {
@@ -78,7 +78,7 @@ class HotelRating
 
     /**
      * @param string $RatingProvider
-     * @return \FilippoToso\Travelport\Hotel\HotelRating
+     * @return \Santosdave\Travelport\Hotel\HotelRating
      */
     public function setRatingProvider($RatingProvider)
     {

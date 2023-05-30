@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class PrePayAccount
 {
@@ -70,7 +70,7 @@ class PrePayAccount
 
     /**
      * @param CreditSummary $CreditSummary
-     * @return \FilippoToso\Travelport\Util\PrePayAccount
+     * @return \Santosdave\Travelport\Util\PrePayAccount
      */
     public function setCreditSummary($CreditSummary)
     {
@@ -88,7 +88,7 @@ class PrePayAccount
 
     /**
      * @param PrePayPriceInfo $PrePayPriceInfo
-     * @return \FilippoToso\Travelport\Util\PrePayAccount
+     * @return \Santosdave\Travelport\Util\PrePayAccount
      */
     public function setPrePayPriceInfo($PrePayPriceInfo)
     {
@@ -106,7 +106,7 @@ class PrePayAccount
 
     /**
      * @param string $ProgramTitle
-     * @return \FilippoToso\Travelport\Util\PrePayAccount
+     * @return \Santosdave\Travelport\Util\PrePayAccount
      */
     public function setProgramTitle($ProgramTitle)
     {
@@ -124,7 +124,7 @@ class PrePayAccount
 
     /**
      * @param string $CertificateNumber
-     * @return \FilippoToso\Travelport\Util\PrePayAccount
+     * @return \Santosdave\Travelport\Util\PrePayAccount
      */
     public function setCertificateNumber($CertificateNumber)
     {
@@ -142,7 +142,7 @@ class PrePayAccount
 
     /**
      * @param string $ProgramName
-     * @return \FilippoToso\Travelport\Util\PrePayAccount
+     * @return \Santosdave\Travelport\Util\PrePayAccount
      */
     public function setProgramName($ProgramName)
     {
@@ -160,7 +160,7 @@ class PrePayAccount
 
     /**
      * @param date $EffectiveDate
-     * @return \FilippoToso\Travelport\Util\PrePayAccount
+     * @return \Santosdave\Travelport\Util\PrePayAccount
      */
     public function setEffectiveDate($EffectiveDate)
     {
@@ -178,7 +178,7 @@ class PrePayAccount
 
     /**
      * @param date $ExpireDate
-     * @return \FilippoToso\Travelport\Util\PrePayAccount
+     * @return \Santosdave\Travelport\Util\PrePayAccount
      */
     public function setExpireDate($ExpireDate)
     {

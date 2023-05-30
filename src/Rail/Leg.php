@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class Leg
 {
@@ -56,7 +56,7 @@ class Leg
 
     /**
      * @param LegDetail $LegDetail
-     * @return \FilippoToso\Travelport\Rail\Leg
+     * @return \Santosdave\Travelport\Rail\Leg
      */
     public function setLegDetail($LegDetail)
     {
@@ -74,7 +74,7 @@ class Leg
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Rail\Leg
+     * @return \Santosdave\Travelport\Rail\Leg
      */
     public function setKey($Key)
     {
@@ -92,7 +92,7 @@ class Leg
 
     /**
      * @param int $Group
-     * @return \FilippoToso\Travelport\Rail\Leg
+     * @return \Santosdave\Travelport\Rail\Leg
      */
     public function setGroup($Group)
     {
@@ -110,7 +110,7 @@ class Leg
 
     /**
      * @param typeRailLocationCode $Origin
-     * @return \FilippoToso\Travelport\Rail\Leg
+     * @return \Santosdave\Travelport\Rail\Leg
      */
     public function setOrigin($Origin)
     {
@@ -128,7 +128,7 @@ class Leg
 
     /**
      * @param typeRailLocationCode $Destination
-     * @return \FilippoToso\Travelport\Rail\Leg
+     * @return \Santosdave\Travelport\Rail\Leg
      */
     public function setDestination($Destination)
     {

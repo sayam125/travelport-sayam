@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class SearchAgent
 {
@@ -49,7 +49,7 @@ class SearchAgent
 
     /**
      * @param string $BranchId
-     * @return \FilippoToso\Travelport\Rail\SearchAgent
+     * @return \Santosdave\Travelport\Rail\SearchAgent
      */
     public function setBranchId($BranchId)
     {
@@ -67,7 +67,7 @@ class SearchAgent
 
     /**
      * @param string $CreatedByAgent
-     * @return \FilippoToso\Travelport\Rail\SearchAgent
+     * @return \Santosdave\Travelport\Rail\SearchAgent
      */
     public function setCreatedByAgent($CreatedByAgent)
     {
@@ -85,7 +85,7 @@ class SearchAgent
 
     /**
      * @param string $ModifiedByAgent
-     * @return \FilippoToso\Travelport\Rail\SearchAgent
+     * @return \Santosdave\Travelport\Rail\SearchAgent
      */
     public function setModifiedByAgent($ModifiedByAgent)
     {
@@ -103,7 +103,7 @@ class SearchAgent
 
     /**
      * @param string $TicketedByAgent
-     * @return \FilippoToso\Travelport\Rail\SearchAgent
+     * @return \Santosdave\Travelport\Rail\SearchAgent
      */
     public function setTicketedByAgent($TicketedByAgent)
     {

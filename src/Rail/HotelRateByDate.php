@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class HotelRateByDate
 {
@@ -84,7 +84,7 @@ class HotelRateByDate
 
     /**
      * @param string $EffectiveDate
-     * @return \FilippoToso\Travelport\Rail\HotelRateByDate
+     * @return \Santosdave\Travelport\Rail\HotelRateByDate
      */
     public function setEffectiveDate($EffectiveDate)
     {
@@ -102,7 +102,7 @@ class HotelRateByDate
 
     /**
      * @param string $ExpireDate
-     * @return \FilippoToso\Travelport\Rail\HotelRateByDate
+     * @return \Santosdave\Travelport\Rail\HotelRateByDate
      */
     public function setExpireDate($ExpireDate)
     {
@@ -120,7 +120,7 @@ class HotelRateByDate
 
     /**
      * @param typeMoney $ApproximateBase
-     * @return \FilippoToso\Travelport\Rail\HotelRateByDate
+     * @return \Santosdave\Travelport\Rail\HotelRateByDate
      */
     public function setApproximateBase($ApproximateBase)
     {
@@ -138,7 +138,7 @@ class HotelRateByDate
 
     /**
      * @param typeMoney $ApproximateTotal
-     * @return \FilippoToso\Travelport\Rail\HotelRateByDate
+     * @return \Santosdave\Travelport\Rail\HotelRateByDate
      */
     public function setApproximateTotal($ApproximateTotal)
     {
@@ -156,7 +156,7 @@ class HotelRateByDate
 
     /**
      * @param string $Contents
-     * @return \FilippoToso\Travelport\Rail\HotelRateByDate
+     * @return \Santosdave\Travelport\Rail\HotelRateByDate
      */
     public function setContents($Contents)
     {
@@ -174,7 +174,7 @@ class HotelRateByDate
 
     /**
      * @param typeMoney $Base
-     * @return \FilippoToso\Travelport\Rail\HotelRateByDate
+     * @return \Santosdave\Travelport\Rail\HotelRateByDate
      */
     public function setBase($Base)
     {
@@ -192,7 +192,7 @@ class HotelRateByDate
 
     /**
      * @param typeMoney $Tax
-     * @return \FilippoToso\Travelport\Rail\HotelRateByDate
+     * @return \Santosdave\Travelport\Rail\HotelRateByDate
      */
     public function setTax($Tax)
     {
@@ -210,7 +210,7 @@ class HotelRateByDate
 
     /**
      * @param typeMoney $Total
-     * @return \FilippoToso\Travelport\Rail\HotelRateByDate
+     * @return \Santosdave\Travelport\Rail\HotelRateByDate
      */
     public function setTotal($Total)
     {
@@ -228,7 +228,7 @@ class HotelRateByDate
 
     /**
      * @param typeMoney $Surcharge
-     * @return \FilippoToso\Travelport\Rail\HotelRateByDate
+     * @return \Santosdave\Travelport\Rail\HotelRateByDate
      */
     public function setSurcharge($Surcharge)
     {

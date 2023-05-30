@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class AgencyBaseInfo
 {
@@ -28,7 +28,7 @@ class AgencyBaseInfo
 
     /**
      * @param Phone $Phone
-     * @return \FilippoToso\Travelport\UProfile\AgencyBaseInfo
+     * @return \Santosdave\Travelport\UProfile\AgencyBaseInfo
      */
     public function setPhone($Phone)
     {

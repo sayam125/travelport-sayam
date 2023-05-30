@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class Phone extends typeTaggablePhone
 {
@@ -47,7 +47,7 @@ class Phone extends typeTaggablePhone
 
     /**
      * @param boolean $Provisioned
-     * @return \FilippoToso\Travelport\UProfile\Phone
+     * @return \Santosdave\Travelport\UProfile\Phone
      */
     public function setProvisioned($Provisioned)
     {
@@ -65,7 +65,7 @@ class Phone extends typeTaggablePhone
 
     /**
      * @param typeProfileID $OwnerID
-     * @return \FilippoToso\Travelport\UProfile\Phone
+     * @return \Santosdave\Travelport\UProfile\Phone
      */
     public function setOwnerID($OwnerID)
     {

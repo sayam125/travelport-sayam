@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class MealRequest
 {
@@ -28,7 +28,7 @@ class MealRequest
 
     /**
      * @param anonymous72 $Type
-     * @return \FilippoToso\Travelport\Rail\MealRequest
+     * @return \Santosdave\Travelport\Rail\MealRequest
      */
     public function setType($Type)
     {

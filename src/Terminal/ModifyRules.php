@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Terminal;
+namespace Santosdave\Travelport\Terminal;
 
 class ModifyRules
 {
@@ -42,7 +42,7 @@ class ModifyRules
 
     /**
      * @param ModifyRule[] $ModifyRule
-     * @return \FilippoToso\Travelport\Terminal\ModifyRules
+     * @return \Santosdave\Travelport\Terminal\ModifyRules
      */
     public function setModifyRule(array $ModifyRule)
     {
@@ -60,7 +60,7 @@ class ModifyRules
 
     /**
      * @param anonymous312 $SupportedModifications
-     * @return \FilippoToso\Travelport\Terminal\ModifyRules
+     * @return \Santosdave\Travelport\Terminal\ModifyRules
      */
     public function setSupportedModifications($SupportedModifications)
     {
@@ -78,7 +78,7 @@ class ModifyRules
 
     /**
      * @param string $ProviderDefinedModificationType
-     * @return \FilippoToso\Travelport\Terminal\ModifyRules
+     * @return \Santosdave\Travelport\Terminal\ModifyRules
      */
     public function setProviderDefinedModificationType($ProviderDefinedModificationType)
     {

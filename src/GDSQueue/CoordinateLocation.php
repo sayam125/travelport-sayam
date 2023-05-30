@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class CoordinateLocation extends Location
 {
@@ -35,7 +35,7 @@ class CoordinateLocation extends Location
 
     /**
      * @param float $latitude
-     * @return \FilippoToso\Travelport\GDSQueue\CoordinateLocation
+     * @return \Santosdave\Travelport\GDSQueue\CoordinateLocation
      */
     public function setLatitude($latitude)
     {
@@ -53,7 +53,7 @@ class CoordinateLocation extends Location
 
     /**
      * @param float $longitude
-     * @return \FilippoToso\Travelport\GDSQueue\CoordinateLocation
+     * @return \Santosdave\Travelport\GDSQueue\CoordinateLocation
      */
     public function setLongitude($longitude)
     {

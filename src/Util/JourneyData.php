@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class JourneyData
 {
@@ -28,7 +28,7 @@ class JourneyData
 
     /**
      * @param typeBaseAirSegment $AirSegment
-     * @return \FilippoToso\Travelport\Util\JourneyData
+     * @return \Santosdave\Travelport\Util\JourneyData
      */
     public function setAirSegment($AirSegment)
     {

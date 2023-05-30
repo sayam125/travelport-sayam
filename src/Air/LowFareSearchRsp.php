@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class LowFareSearchRsp extends AirSearchRsp
 {
@@ -64,7 +64,7 @@ class LowFareSearchRsp extends AirSearchRsp
 
     /**
      * @param BrandList $BrandList
-     * @return \FilippoToso\Travelport\Air\LowFareSearchRsp
+     * @return \Santosdave\Travelport\Air\LowFareSearchRsp
      */
     public function setBrandList($BrandList)
     {
@@ -82,7 +82,7 @@ class LowFareSearchRsp extends AirSearchRsp
 
     /**
      * @param typeCurrency $CurrencyType
-     * @return \FilippoToso\Travelport\Air\LowFareSearchRsp
+     * @return \Santosdave\Travelport\Air\LowFareSearchRsp
      */
     public function setCurrencyType($CurrencyType)
     {

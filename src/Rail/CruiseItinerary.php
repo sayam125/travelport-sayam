@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class CruiseItinerary
 {
@@ -84,7 +84,7 @@ class CruiseItinerary
 
     /**
      * @param date $DepartureDate
-     * @return \FilippoToso\Travelport\Rail\CruiseItinerary
+     * @return \Santosdave\Travelport\Rail\CruiseItinerary
      */
     public function setDepartureDate($DepartureDate)
     {
@@ -102,7 +102,7 @@ class CruiseItinerary
 
     /**
      * @param time $DepartureTime
-     * @return \FilippoToso\Travelport\Rail\CruiseItinerary
+     * @return \Santosdave\Travelport\Rail\CruiseItinerary
      */
     public function setDepartureTime($DepartureTime)
     {
@@ -120,7 +120,7 @@ class CruiseItinerary
 
     /**
      * @param date $ArrivalDate
-     * @return \FilippoToso\Travelport\Rail\CruiseItinerary
+     * @return \Santosdave\Travelport\Rail\CruiseItinerary
      */
     public function setArrivalDate($ArrivalDate)
     {
@@ -138,7 +138,7 @@ class CruiseItinerary
 
     /**
      * @param time $ArrivalTime
-     * @return \FilippoToso\Travelport\Rail\CruiseItinerary
+     * @return \Santosdave\Travelport\Rail\CruiseItinerary
      */
     public function setArrivalTime($ArrivalTime)
     {
@@ -156,7 +156,7 @@ class CruiseItinerary
 
     /**
      * @param date $BoardingDate
-     * @return \FilippoToso\Travelport\Rail\CruiseItinerary
+     * @return \Santosdave\Travelport\Rail\CruiseItinerary
      */
     public function setBoardingDate($BoardingDate)
     {
@@ -174,7 +174,7 @@ class CruiseItinerary
 
     /**
      * @param time $BoardingTime
-     * @return \FilippoToso\Travelport\Rail\CruiseItinerary
+     * @return \Santosdave\Travelport\Rail\CruiseItinerary
      */
     public function setBoardingTime($BoardingTime)
     {
@@ -192,7 +192,7 @@ class CruiseItinerary
 
     /**
      * @param typeStatusCode $Status
-     * @return \FilippoToso\Travelport\Rail\CruiseItinerary
+     * @return \Santosdave\Travelport\Rail\CruiseItinerary
      */
     public function setStatus($Status)
     {
@@ -210,7 +210,7 @@ class CruiseItinerary
 
     /**
      * @param StringLength1to20 $PortName
-     * @return \FilippoToso\Travelport\Rail\CruiseItinerary
+     * @return \Santosdave\Travelport\Rail\CruiseItinerary
      */
     public function setPortName($PortName)
     {
@@ -228,7 +228,7 @@ class CruiseItinerary
 
     /**
      * @param StringLength1 $PortIndicator
-     * @return \FilippoToso\Travelport\Rail\CruiseItinerary
+     * @return \Santosdave\Travelport\Rail\CruiseItinerary
      */
     public function setPortIndicator($PortIndicator)
     {

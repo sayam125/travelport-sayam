@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class HotelDelete
 {
@@ -42,7 +42,7 @@ class HotelDelete
 
     /**
      * @param typeLocatorCode $ReservationLocatorCode
-     * @return \FilippoToso\Travelport\GDSQueue\HotelDelete
+     * @return \Santosdave\Travelport\GDSQueue\HotelDelete
      */
     public function setReservationLocatorCode($ReservationLocatorCode)
     {
@@ -60,7 +60,7 @@ class HotelDelete
 
     /**
      * @param typeElement $Element
-     * @return \FilippoToso\Travelport\GDSQueue\HotelDelete
+     * @return \Santosdave\Travelport\GDSQueue\HotelDelete
      */
     public function setElement($Element)
     {
@@ -78,7 +78,7 @@ class HotelDelete
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\GDSQueue\HotelDelete
+     * @return \Santosdave\Travelport\GDSQueue\HotelDelete
      */
     public function setKey($Key)
     {

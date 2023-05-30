@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class ApplicableSegment
 {
@@ -42,7 +42,7 @@ class ApplicableSegment
 
     /**
      * @param ResponseMessage $ResponseMessage
-     * @return \FilippoToso\Travelport\GDSQueue\ApplicableSegment
+     * @return \Santosdave\Travelport\GDSQueue\ApplicableSegment
      */
     public function setResponseMessage($ResponseMessage)
     {
@@ -60,7 +60,7 @@ class ApplicableSegment
 
     /**
      * @param typeRef $OptionalServiceRef
-     * @return \FilippoToso\Travelport\GDSQueue\ApplicableSegment
+     * @return \Santosdave\Travelport\GDSQueue\ApplicableSegment
      */
     public function setOptionalServiceRef($OptionalServiceRef)
     {
@@ -78,7 +78,7 @@ class ApplicableSegment
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\GDSQueue\ApplicableSegment
+     * @return \Santosdave\Travelport\GDSQueue\ApplicableSegment
      */
     public function setKey($Key)
     {

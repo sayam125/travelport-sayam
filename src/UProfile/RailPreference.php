@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class RailPreference extends typeBasePreference
 {
@@ -222,7 +222,7 @@ class RailPreference extends typeBasePreference
 
     /**
      * @param int $DomesticTripJourneyHours
-     * @return \FilippoToso\Travelport\UProfile\RailPreference
+     * @return \Santosdave\Travelport\UProfile\RailPreference
      */
     public function setDomesticTripJourneyHours($DomesticTripJourneyHours)
     {
@@ -240,7 +240,7 @@ class RailPreference extends typeBasePreference
 
     /**
      * @param anonymous661 $StartingTrainNumber
-     * @return \FilippoToso\Travelport\UProfile\RailPreference
+     * @return \Santosdave\Travelport\UProfile\RailPreference
      */
     public function setStartingTrainNumber($StartingTrainNumber)
     {
@@ -258,7 +258,7 @@ class RailPreference extends typeBasePreference
 
     /**
      * @param anonymous662 $EndingTrainNumber
-     * @return \FilippoToso\Travelport\UProfile\RailPreference
+     * @return \Santosdave\Travelport\UProfile\RailPreference
      */
     public function setEndingTrainNumber($EndingTrainNumber)
     {
@@ -276,7 +276,7 @@ class RailPreference extends typeBasePreference
 
     /**
      * @param int $InternationalTripJourneyHours
-     * @return \FilippoToso\Travelport\UProfile\RailPreference
+     * @return \Santosdave\Travelport\UProfile\RailPreference
      */
     public function setInternationalTripJourneyHours($InternationalTripJourneyHours)
     {
@@ -294,7 +294,7 @@ class RailPreference extends typeBasePreference
 
     /**
      * @param int $MaxEmployeesPerTrain
-     * @return \FilippoToso\Travelport\UProfile\RailPreference
+     * @return \Santosdave\Travelport\UProfile\RailPreference
      */
     public function setMaxEmployeesPerTrain($MaxEmployeesPerTrain)
     {
@@ -312,7 +312,7 @@ class RailPreference extends typeBasePreference
 
     /**
      * @param typeMoney $MaxFareAmount
-     * @return \FilippoToso\Travelport\UProfile\RailPreference
+     * @return \Santosdave\Travelport\UProfile\RailPreference
      */
     public function setMaxFareAmount($MaxFareAmount)
     {
@@ -330,7 +330,7 @@ class RailPreference extends typeBasePreference
 
     /**
      * @param typeRailCabin $CabinType
-     * @return \FilippoToso\Travelport\UProfile\RailPreference
+     * @return \Santosdave\Travelport\UProfile\RailPreference
      */
     public function setCabinType($CabinType)
     {
@@ -348,7 +348,7 @@ class RailPreference extends typeBasePreference
 
     /**
      * @param typeRailGenderCompartment $GenderCompartmentType
-     * @return \FilippoToso\Travelport\UProfile\RailPreference
+     * @return \Santosdave\Travelport\UProfile\RailPreference
      */
     public function setGenderCompartmentType($GenderCompartmentType)
     {
@@ -366,7 +366,7 @@ class RailPreference extends typeBasePreference
 
     /**
      * @param typeRailCoachCompartment $CoachCompartmentType
-     * @return \FilippoToso\Travelport\UProfile\RailPreference
+     * @return \Santosdave\Travelport\UProfile\RailPreference
      */
     public function setCoachCompartmentType($CoachCompartmentType)
     {
@@ -384,7 +384,7 @@ class RailPreference extends typeBasePreference
 
     /**
      * @param typeRailSeatArrangement $SeatArrangementType
-     * @return \FilippoToso\Travelport\UProfile\RailPreference
+     * @return \Santosdave\Travelport\UProfile\RailPreference
      */
     public function setSeatArrangementType($SeatArrangementType)
     {
@@ -402,7 +402,7 @@ class RailPreference extends typeBasePreference
 
     /**
      * @param typeRailSeating $SeatingType
-     * @return \FilippoToso\Travelport\UProfile\RailPreference
+     * @return \Santosdave\Travelport\UProfile\RailPreference
      */
     public function setSeatingType($SeatingType)
     {
@@ -420,7 +420,7 @@ class RailPreference extends typeBasePreference
 
     /**
      * @param boolean $Smoking
-     * @return \FilippoToso\Travelport\UProfile\RailPreference
+     * @return \Santosdave\Travelport\UProfile\RailPreference
      */
     public function setSmoking($Smoking)
     {
@@ -438,7 +438,7 @@ class RailPreference extends typeBasePreference
 
     /**
      * @param typeRailTicketFulfillmentOption $TicketFulfillmentType
-     * @return \FilippoToso\Travelport\UProfile\RailPreference
+     * @return \Santosdave\Travelport\UProfile\RailPreference
      */
     public function setTicketFulfillmentType($TicketFulfillmentType)
     {
@@ -456,7 +456,7 @@ class RailPreference extends typeBasePreference
 
     /**
      * @param anonymous882 $AccountCode
-     * @return \FilippoToso\Travelport\UProfile\RailPreference
+     * @return \Santosdave\Travelport\UProfile\RailPreference
      */
     public function setAccountCode($AccountCode)
     {
@@ -474,7 +474,7 @@ class RailPreference extends typeBasePreference
 
     /**
      * @param typeGeoPoliticalAreaType $ArrivalGeoPoliticalAreaType
-     * @return \FilippoToso\Travelport\UProfile\RailPreference
+     * @return \Santosdave\Travelport\UProfile\RailPreference
      */
     public function setArrivalGeoPoliticalAreaType($ArrivalGeoPoliticalAreaType)
     {
@@ -492,7 +492,7 @@ class RailPreference extends typeBasePreference
 
     /**
      * @param typeGeoPoliticalAreaCode $ArrivalGeoPoliticalAreaCode
-     * @return \FilippoToso\Travelport\UProfile\RailPreference
+     * @return \Santosdave\Travelport\UProfile\RailPreference
      */
     public function setArrivalGeoPoliticalAreaCode($ArrivalGeoPoliticalAreaCode)
     {
@@ -510,7 +510,7 @@ class RailPreference extends typeBasePreference
 
     /**
      * @param typeMoney $BenchMarkAmount
-     * @return \FilippoToso\Travelport\UProfile\RailPreference
+     * @return \Santosdave\Travelport\UProfile\RailPreference
      */
     public function setBenchMarkAmount($BenchMarkAmount)
     {
@@ -528,7 +528,7 @@ class RailPreference extends typeBasePreference
 
     /**
      * @param typeGeoPoliticalAreaType $ConnectionGeoPoliticalAreaType
-     * @return \FilippoToso\Travelport\UProfile\RailPreference
+     * @return \Santosdave\Travelport\UProfile\RailPreference
      */
     public function setConnectionGeoPoliticalAreaType($ConnectionGeoPoliticalAreaType)
     {
@@ -546,7 +546,7 @@ class RailPreference extends typeBasePreference
 
     /**
      * @param typeGeoPoliticalAreaCode $ConnectionGeoPoliticalAreaCode
-     * @return \FilippoToso\Travelport\UProfile\RailPreference
+     * @return \Santosdave\Travelport\UProfile\RailPreference
      */
     public function setConnectionGeoPoliticalAreaCode($ConnectionGeoPoliticalAreaCode)
     {
@@ -564,7 +564,7 @@ class RailPreference extends typeBasePreference
 
     /**
      * @param anonymous883 $ContractCode
-     * @return \FilippoToso\Travelport\UProfile\RailPreference
+     * @return \Santosdave\Travelport\UProfile\RailPreference
      */
     public function setContractCode($ContractCode)
     {
@@ -582,7 +582,7 @@ class RailPreference extends typeBasePreference
 
     /**
      * @param anonymous884 $CorporateID
-     * @return \FilippoToso\Travelport\UProfile\RailPreference
+     * @return \Santosdave\Travelport\UProfile\RailPreference
      */
     public function setCorporateID($CorporateID)
     {
@@ -600,7 +600,7 @@ class RailPreference extends typeBasePreference
 
     /**
      * @param typePCC $PseudoCityCode
-     * @return \FilippoToso\Travelport\UProfile\RailPreference
+     * @return \Santosdave\Travelport\UProfile\RailPreference
      */
     public function setPseudoCityCode($PseudoCityCode)
     {
@@ -618,7 +618,7 @@ class RailPreference extends typeBasePreference
 
     /**
      * @param date $TravelStartDate
-     * @return \FilippoToso\Travelport\UProfile\RailPreference
+     * @return \Santosdave\Travelport\UProfile\RailPreference
      */
     public function setTravelStartDate($TravelStartDate)
     {
@@ -636,7 +636,7 @@ class RailPreference extends typeBasePreference
 
     /**
      * @param date $TravelEndDate
-     * @return \FilippoToso\Travelport\UProfile\RailPreference
+     * @return \Santosdave\Travelport\UProfile\RailPreference
      */
     public function setTravelEndDate($TravelEndDate)
     {
@@ -654,7 +654,7 @@ class RailPreference extends typeBasePreference
 
     /**
      * @param anonymous885 $SeatPositionMiscTravel
-     * @return \FilippoToso\Travelport\UProfile\RailPreference
+     * @return \Santosdave\Travelport\UProfile\RailPreference
      */
     public function setSeatPositionMiscTravel($SeatPositionMiscTravel)
     {
@@ -672,7 +672,7 @@ class RailPreference extends typeBasePreference
 
     /**
      * @param anonymous886 $SeatPositionRefCategory
-     * @return \FilippoToso\Travelport\UProfile\RailPreference
+     * @return \Santosdave\Travelport\UProfile\RailPreference
      */
     public function setSeatPositionRefCategory($SeatPositionRefCategory)
     {

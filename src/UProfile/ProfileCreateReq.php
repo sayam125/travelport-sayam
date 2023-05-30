@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class ProfileCreateReq extends BaseReq
 {
@@ -101,7 +101,7 @@ class ProfileCreateReq extends BaseReq
 
     /**
      * @param ProfileParent $ProfileParent
-     * @return \FilippoToso\Travelport\UProfile\ProfileCreateReq
+     * @return \Santosdave\Travelport\UProfile\ProfileCreateReq
      */
     public function setProfileParent($ProfileParent)
     {
@@ -119,7 +119,7 @@ class ProfileCreateReq extends BaseReq
 
     /**
      * @param ProfileData $ProfileData
-     * @return \FilippoToso\Travelport\UProfile\ProfileCreateReq
+     * @return \Santosdave\Travelport\UProfile\ProfileCreateReq
      */
     public function setProfileData($ProfileData)
     {
@@ -137,7 +137,7 @@ class ProfileCreateReq extends BaseReq
 
     /**
      * @param ProfileLink $ProfileLink
-     * @return \FilippoToso\Travelport\UProfile\ProfileCreateReq
+     * @return \Santosdave\Travelport\UProfile\ProfileCreateReq
      */
     public function setProfileLink($ProfileLink)
     {
@@ -155,7 +155,7 @@ class ProfileCreateReq extends BaseReq
 
     /**
      * @param typeProfileType $ProfileType
-     * @return \FilippoToso\Travelport\UProfile\ProfileCreateReq
+     * @return \Santosdave\Travelport\UProfile\ProfileCreateReq
      */
     public function setProfileType($ProfileType)
     {
@@ -173,7 +173,7 @@ class ProfileCreateReq extends BaseReq
 
     /**
      * @param typeProfileEntityStatus $Status
-     * @return \FilippoToso\Travelport\UProfile\ProfileCreateReq
+     * @return \Santosdave\Travelport\UProfile\ProfileCreateReq
      */
     public function setStatus($Status)
     {
@@ -191,7 +191,7 @@ class ProfileCreateReq extends BaseReq
 
     /**
      * @param typeTemplateID $TemplateID
-     * @return \FilippoToso\Travelport\UProfile\ProfileCreateReq
+     * @return \Santosdave\Travelport\UProfile\ProfileCreateReq
      */
     public function setTemplateID($TemplateID)
     {
@@ -209,7 +209,7 @@ class ProfileCreateReq extends BaseReq
 
     /**
      * @param typeVersion $TemplateVersion
-     * @return \FilippoToso\Travelport\UProfile\ProfileCreateReq
+     * @return \Santosdave\Travelport\UProfile\ProfileCreateReq
      */
     public function setTemplateVersion($TemplateVersion)
     {
@@ -227,7 +227,7 @@ class ProfileCreateReq extends BaseReq
 
     /**
      * @param typeID $HierarchyLevelID
-     * @return \FilippoToso\Travelport\UProfile\ProfileCreateReq
+     * @return \Santosdave\Travelport\UProfile\ProfileCreateReq
      */
     public function setHierarchyLevelID($HierarchyLevelID)
     {
@@ -245,7 +245,7 @@ class ProfileCreateReq extends BaseReq
 
     /**
      * @param boolean $ReturnProfile
-     * @return \FilippoToso\Travelport\UProfile\ProfileCreateReq
+     * @return \Santosdave\Travelport\UProfile\ProfileCreateReq
      */
     public function setReturnProfile($ReturnProfile)
     {
@@ -263,7 +263,7 @@ class ProfileCreateReq extends BaseReq
 
     /**
      * @param boolean $ShowDataUnmasked
-     * @return \FilippoToso\Travelport\UProfile\ProfileCreateReq
+     * @return \Santosdave\Travelport\UProfile\ProfileCreateReq
      */
     public function setShowDataUnmasked($ShowDataUnmasked)
     {

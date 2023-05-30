@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Terminal;
+namespace Santosdave\Travelport\Terminal;
 
 class DriversLicenseRef
 {
@@ -28,7 +28,7 @@ class DriversLicenseRef
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Terminal\DriversLicenseRef
+     * @return \Santosdave\Travelport\Terminal\DriversLicenseRef
      */
     public function setKey($Key)
     {

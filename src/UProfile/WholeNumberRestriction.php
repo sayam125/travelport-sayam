@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class WholeNumberRestriction
 {
@@ -28,7 +28,7 @@ class WholeNumberRestriction
 
     /**
      * @param typeAction $Action
-     * @return \FilippoToso\Travelport\UProfile\WholeNumberRestriction
+     * @return \Santosdave\Travelport\UProfile\WholeNumberRestriction
      */
     public function setAction($Action)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class Child extends typeGuestChildInformation
 {
@@ -30,7 +30,7 @@ class Child extends typeGuestChildInformation
 
     /**
      * @param BookingTravelerRef $BookingTravelerRef
-     * @return \FilippoToso\Travelport\GDSQueue\Child
+     * @return \Santosdave\Travelport\GDSQueue\Child
      */
     public function setBookingTravelerRef($BookingTravelerRef)
     {

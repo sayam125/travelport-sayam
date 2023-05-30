@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class UniversalRecordErrorInfo extends typeErrorInfo
 {
@@ -42,7 +42,7 @@ class UniversalRecordErrorInfo extends typeErrorInfo
 
     /**
      * @param typeLocatorCode $LocatorCode
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalRecordErrorInfo
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalRecordErrorInfo
      */
     public function setLocatorCode($LocatorCode)
     {
@@ -60,7 +60,7 @@ class UniversalRecordErrorInfo extends typeErrorInfo
 
     /**
      * @param typeURVersion $Version
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalRecordErrorInfo
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalRecordErrorInfo
      */
     public function setVersion($Version)
     {

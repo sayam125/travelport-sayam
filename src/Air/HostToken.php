@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class HostToken
 {
@@ -56,7 +56,7 @@ class HostToken
 
     /**
      * @param string $_
-     * @return \FilippoToso\Travelport\Air\HostToken
+     * @return \Santosdave\Travelport\Air\HostToken
      */
     public function set_($_)
     {
@@ -74,7 +74,7 @@ class HostToken
 
     /**
      * @param typeProviderCode $Host
-     * @return \FilippoToso\Travelport\Air\HostToken
+     * @return \Santosdave\Travelport\Air\HostToken
      */
     public function setHost($Host)
     {
@@ -92,7 +92,7 @@ class HostToken
 
     /**
      * @param UNKNOWN $Key
-     * @return \FilippoToso\Travelport\Air\HostToken
+     * @return \Santosdave\Travelport\Air\HostToken
      */
     public function setKey($Key)
     {
@@ -110,7 +110,7 @@ class HostToken
 
     /**
      * @param typeElementStatus $ElStat
-     * @return \FilippoToso\Travelport\Air\HostToken
+     * @return \Santosdave\Travelport\Air\HostToken
      */
     public function setElStat($ElStat)
     {
@@ -128,7 +128,7 @@ class HostToken
 
     /**
      * @param boolean $KeyOverride
-     * @return \FilippoToso\Travelport\Air\HostToken
+     * @return \Santosdave\Travelport\Air\HostToken
      */
     public function setKeyOverride($KeyOverride)
     {

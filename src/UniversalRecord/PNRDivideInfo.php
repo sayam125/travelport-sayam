@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class PNRDivideInfo
 {
@@ -42,7 +42,7 @@ class PNRDivideInfo
 
     /**
      * @param BookingTravelerName $BookingTravelerName
-     * @return \FilippoToso\Travelport\UniversalRecord\PNRDivideInfo
+     * @return \Santosdave\Travelport\UniversalRecord\PNRDivideInfo
      */
     public function setBookingTravelerName($BookingTravelerName)
     {
@@ -60,7 +60,7 @@ class PNRDivideInfo
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\UniversalRecord\PNRDivideInfo
+     * @return \Santosdave\Travelport\UniversalRecord\PNRDivideInfo
      */
     public function setProviderCode($ProviderCode)
     {
@@ -78,7 +78,7 @@ class PNRDivideInfo
 
     /**
      * @param typeProviderLocatorCode $ProviderLocatorCode
-     * @return \FilippoToso\Travelport\UniversalRecord\PNRDivideInfo
+     * @return \Santosdave\Travelport\UniversalRecord\PNRDivideInfo
      */
     public function setProviderLocatorCode($ProviderLocatorCode)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class SessionContext
 {
@@ -35,7 +35,7 @@ class SessionContext
 
     /**
      * @param SessTok $SessTok
-     * @return \FilippoToso\Travelport\UniversalRecord\SessionContext
+     * @return \Santosdave\Travelport\UniversalRecord\SessionContext
      */
     public function setSessTok($SessTok)
     {
@@ -53,7 +53,7 @@ class SessionContext
 
     /**
      * @param SessProp[] $SessProp
-     * @return \FilippoToso\Travelport\UniversalRecord\SessionContext
+     * @return \Santosdave\Travelport\UniversalRecord\SessionContext
      */
     public function setSessProp(array $SessProp)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Vehicle;
+namespace Santosdave\Travelport\Vehicle;
 
 class CreditCard
 {
@@ -35,7 +35,7 @@ class CreditCard
 
     /**
      * @param string $ProfileID
-     * @return \FilippoToso\Travelport\Vehicle\CreditCard
+     * @return \Santosdave\Travelport\Vehicle\CreditCard
      */
     public function setProfileID($ProfileID)
     {
@@ -53,7 +53,7 @@ class CreditCard
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Vehicle\CreditCard
+     * @return \Santosdave\Travelport\Vehicle\CreditCard
      */
     public function setKey($Key)
     {

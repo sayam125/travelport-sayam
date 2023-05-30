@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class RailAvailabilitySearchRsp extends BaseRsp
 {
@@ -83,7 +83,7 @@ class RailAvailabilitySearchRsp extends BaseRsp
 
     /**
      * @param RailSegmentList $RailSegmentList
-     * @return \FilippoToso\Travelport\Rail\RailAvailabilitySearchRsp
+     * @return \Santosdave\Travelport\Rail\RailAvailabilitySearchRsp
      */
     public function setRailSegmentList($RailSegmentList)
     {
@@ -101,7 +101,7 @@ class RailAvailabilitySearchRsp extends BaseRsp
 
     /**
      * @param RailJourneyList $RailJourneyList
-     * @return \FilippoToso\Travelport\Rail\RailAvailabilitySearchRsp
+     * @return \Santosdave\Travelport\Rail\RailAvailabilitySearchRsp
      */
     public function setRailJourneyList($RailJourneyList)
     {
@@ -119,7 +119,7 @@ class RailAvailabilitySearchRsp extends BaseRsp
 
     /**
      * @param RailPricingSolution $RailPricingSolution
-     * @return \FilippoToso\Travelport\Rail\RailAvailabilitySearchRsp
+     * @return \Santosdave\Travelport\Rail\RailAvailabilitySearchRsp
      */
     public function setRailPricingSolution($RailPricingSolution)
     {
@@ -137,7 +137,7 @@ class RailAvailabilitySearchRsp extends BaseRsp
 
     /**
      * @param RailFareNoteList $RailFareNoteList
-     * @return \FilippoToso\Travelport\Rail\RailAvailabilitySearchRsp
+     * @return \Santosdave\Travelport\Rail\RailAvailabilitySearchRsp
      */
     public function setRailFareNoteList($RailFareNoteList)
     {
@@ -155,7 +155,7 @@ class RailAvailabilitySearchRsp extends BaseRsp
 
     /**
      * @param RailFareIDList $RailFareIDList
-     * @return \FilippoToso\Travelport\Rail\RailAvailabilitySearchRsp
+     * @return \Santosdave\Travelport\Rail\RailAvailabilitySearchRsp
      */
     public function setRailFareIDList($RailFareIDList)
     {
@@ -173,7 +173,7 @@ class RailAvailabilitySearchRsp extends BaseRsp
 
     /**
      * @param RailFareList $RailFareList
-     * @return \FilippoToso\Travelport\Rail\RailAvailabilitySearchRsp
+     * @return \Santosdave\Travelport\Rail\RailAvailabilitySearchRsp
      */
     public function setRailFareList($RailFareList)
     {
@@ -191,7 +191,7 @@ class RailAvailabilitySearchRsp extends BaseRsp
 
     /**
      * @param HostTokenList $HostTokenList
-     * @return \FilippoToso\Travelport\Rail\RailAvailabilitySearchRsp
+     * @return \Santosdave\Travelport\Rail\RailAvailabilitySearchRsp
      */
     public function setHostTokenList($HostTokenList)
     {
@@ -209,7 +209,7 @@ class RailAvailabilitySearchRsp extends BaseRsp
 
     /**
      * @param typeResponseType $ResponseType
-     * @return \FilippoToso\Travelport\Rail\RailAvailabilitySearchRsp
+     * @return \Santosdave\Travelport\Rail\RailAvailabilitySearchRsp
      */
     public function setResponseType($ResponseType)
     {

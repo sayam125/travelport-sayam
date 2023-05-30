@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\System;
+namespace Santosdave\Travelport\System;
 
 class DeleteEntry
 {
@@ -28,7 +28,7 @@ class DeleteEntry
 
     /**
      * @param typeCacheKey $Key
-     * @return \FilippoToso\Travelport\System\DeleteEntry
+     * @return \Santosdave\Travelport\System\DeleteEntry
      */
     public function setKey($Key)
     {

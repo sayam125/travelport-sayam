@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class typeUnstructuredAddress
 {
@@ -28,7 +28,7 @@ class typeUnstructuredAddress
 
     /**
      * @param Address[] $Address
-     * @return \FilippoToso\Travelport\UniversalRecord\typeUnstructuredAddress
+     * @return \Santosdave\Travelport\UniversalRecord\typeUnstructuredAddress
      */
     public function setAddress(array $Address)
     {

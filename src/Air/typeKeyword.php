@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class typeKeyword
 {
@@ -59,7 +59,7 @@ class typeKeyword
 
     /**
      * @param typeSubKey[] $SubKey
-     * @return \FilippoToso\Travelport\Air\typeKeyword
+     * @return \Santosdave\Travelport\Air\typeKeyword
      */
     public function setSubKey(array $SubKey = null)
     {
@@ -77,7 +77,7 @@ class typeKeyword
 
     /**
      * @param string[] $Text
-     * @return \FilippoToso\Travelport\Air\typeKeyword
+     * @return \Santosdave\Travelport\Air\typeKeyword
      */
     public function setText(array $Text = null)
     {
@@ -95,7 +95,7 @@ class typeKeyword
 
     /**
      * @param anonymous403 $Name
-     * @return \FilippoToso\Travelport\Air\typeKeyword
+     * @return \Santosdave\Travelport\Air\typeKeyword
      */
     public function setName($Name)
     {
@@ -113,7 +113,7 @@ class typeKeyword
 
     /**
      * @param UNKNOWN $Number
-     * @return \FilippoToso\Travelport\Air\typeKeyword
+     * @return \Santosdave\Travelport\Air\typeKeyword
      */
     public function setNumber($Number)
     {
@@ -131,7 +131,7 @@ class typeKeyword
 
     /**
      * @param UNKNOWN $Description
-     * @return \FilippoToso\Travelport\Air\typeKeyword
+     * @return \Santosdave\Travelport\Air\typeKeyword
      */
     public function setDescription($Description)
     {
@@ -149,7 +149,7 @@ class typeKeyword
 
     /**
      * @param language $LanguageCode
-     * @return \FilippoToso\Travelport\Air\typeKeyword
+     * @return \Santosdave\Travelport\Air\typeKeyword
      */
     public function setLanguageCode($LanguageCode)
     {

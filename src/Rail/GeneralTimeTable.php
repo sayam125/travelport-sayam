@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class GeneralTimeTable
 {
@@ -82,7 +82,7 @@ class GeneralTimeTable
 
     /**
      * @param typeDaysOfOperation $DaysOfOperation
-     * @return \FilippoToso\Travelport\Rail\GeneralTimeTable
+     * @return \Santosdave\Travelport\Rail\GeneralTimeTable
      */
     public function setDaysOfOperation($DaysOfOperation)
     {
@@ -100,7 +100,7 @@ class GeneralTimeTable
 
     /**
      * @param typeLocation $FlightOrigin
-     * @return \FilippoToso\Travelport\Rail\GeneralTimeTable
+     * @return \Santosdave\Travelport\Rail\GeneralTimeTable
      */
     public function setFlightOrigin($FlightOrigin)
     {
@@ -118,7 +118,7 @@ class GeneralTimeTable
 
     /**
      * @param typeLocation $FlightDestination
-     * @return \FilippoToso\Travelport\Rail\GeneralTimeTable
+     * @return \Santosdave\Travelport\Rail\GeneralTimeTable
      */
     public function setFlightDestination($FlightDestination)
     {
@@ -136,7 +136,7 @@ class GeneralTimeTable
 
     /**
      * @param CarrierList $CarrierList
-     * @return \FilippoToso\Travelport\Rail\GeneralTimeTable
+     * @return \Santosdave\Travelport\Rail\GeneralTimeTable
      */
     public function setCarrierList($CarrierList)
     {
@@ -154,7 +154,7 @@ class GeneralTimeTable
 
     /**
      * @param string $StartDate
-     * @return \FilippoToso\Travelport\Rail\GeneralTimeTable
+     * @return \Santosdave\Travelport\Rail\GeneralTimeTable
      */
     public function setStartDate($StartDate)
     {
@@ -172,7 +172,7 @@ class GeneralTimeTable
 
     /**
      * @param string $EndDate
-     * @return \FilippoToso\Travelport\Rail\GeneralTimeTable
+     * @return \Santosdave\Travelport\Rail\GeneralTimeTable
      */
     public function setEndDate($EndDate)
     {
@@ -190,7 +190,7 @@ class GeneralTimeTable
 
     /**
      * @param time $StartTime
-     * @return \FilippoToso\Travelport\Rail\GeneralTimeTable
+     * @return \Santosdave\Travelport\Rail\GeneralTimeTable
      */
     public function setStartTime($StartTime)
     {
@@ -208,7 +208,7 @@ class GeneralTimeTable
 
     /**
      * @param time $EndTime
-     * @return \FilippoToso\Travelport\Rail\GeneralTimeTable
+     * @return \Santosdave\Travelport\Rail\GeneralTimeTable
      */
     public function setEndTime($EndTime)
     {
@@ -226,7 +226,7 @@ class GeneralTimeTable
 
     /**
      * @param boolean $IncludeConnection
-     * @return \FilippoToso\Travelport\Rail\GeneralTimeTable
+     * @return \Santosdave\Travelport\Rail\GeneralTimeTable
      */
     public function setIncludeConnection($IncludeConnection)
     {

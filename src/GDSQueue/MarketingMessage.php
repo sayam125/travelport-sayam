@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class MarketingMessage
 {
@@ -26,7 +26,7 @@ class MarketingMessage
 
     /**
      * @param string[] $Text
-     * @return \FilippoToso\Travelport\GDSQueue\MarketingMessage
+     * @return \Santosdave\Travelport\GDSQueue\MarketingMessage
      */
     public function setText(array $Text = null)
     {

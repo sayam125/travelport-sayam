@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class PassiveDelete
 {
@@ -42,7 +42,7 @@ class PassiveDelete
 
     /**
      * @param typeLocatorCode $ReservationLocatorCode
-     * @return \FilippoToso\Travelport\GDSQueue\PassiveDelete
+     * @return \Santosdave\Travelport\GDSQueue\PassiveDelete
      */
     public function setReservationLocatorCode($ReservationLocatorCode)
     {
@@ -60,7 +60,7 @@ class PassiveDelete
 
     /**
      * @param typeElement $Element
-     * @return \FilippoToso\Travelport\GDSQueue\PassiveDelete
+     * @return \Santosdave\Travelport\GDSQueue\PassiveDelete
      */
     public function setElement($Element)
     {
@@ -78,7 +78,7 @@ class PassiveDelete
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\GDSQueue\PassiveDelete
+     * @return \Santosdave\Travelport\GDSQueue\PassiveDelete
      */
     public function setKey($Key)
     {

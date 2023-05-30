@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class DirectPayment
 {
@@ -28,7 +28,7 @@ class DirectPayment
 
     /**
      * @param string $Text
-     * @return \FilippoToso\Travelport\GDSQueue\DirectPayment
+     * @return \Santosdave\Travelport\GDSQueue\DirectPayment
      */
     public function setText($Text)
     {

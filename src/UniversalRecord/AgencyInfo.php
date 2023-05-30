@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class AgencyInfo
 {
@@ -28,7 +28,7 @@ class AgencyInfo
 
     /**
      * @param AgentAction $AgentAction
-     * @return \FilippoToso\Travelport\UniversalRecord\AgencyInfo
+     * @return \Santosdave\Travelport\UniversalRecord\AgencyInfo
      */
     public function setAgentAction($AgentAction)
     {

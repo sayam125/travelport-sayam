@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class SpecialEquipmentRef
 {
@@ -28,7 +28,7 @@ class SpecialEquipmentRef
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\GDSQueue\SpecialEquipmentRef
+     * @return \Santosdave\Travelport\GDSQueue\SpecialEquipmentRef
      */
     public function setKey($Key)
     {

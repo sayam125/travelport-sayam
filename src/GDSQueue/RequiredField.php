@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class RequiredField
 {
@@ -28,7 +28,7 @@ class RequiredField
 
     /**
      * @param anonymous409 $Name
-     * @return \FilippoToso\Travelport\GDSQueue\RequiredField
+     * @return \Santosdave\Travelport\GDSQueue\RequiredField
      */
     public function setName($Name)
     {

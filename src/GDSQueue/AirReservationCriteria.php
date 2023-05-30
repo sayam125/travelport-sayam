@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class AirReservationCriteria
 {
@@ -66,7 +66,7 @@ class AirReservationCriteria
 
     /**
      * @param typeDateSpec $DepartureDate
-     * @return \FilippoToso\Travelport\GDSQueue\AirReservationCriteria
+     * @return \Santosdave\Travelport\GDSQueue\AirReservationCriteria
      */
     public function setDepartureDate($DepartureDate)
     {
@@ -84,7 +84,7 @@ class AirReservationCriteria
 
     /**
      * @param typeDateSpec $ArrivalDate
-     * @return \FilippoToso\Travelport\GDSQueue\AirReservationCriteria
+     * @return \Santosdave\Travelport\GDSQueue\AirReservationCriteria
      */
     public function setArrivalDate($ArrivalDate)
     {
@@ -102,7 +102,7 @@ class AirReservationCriteria
 
     /**
      * @param typeIATACode $Origin
-     * @return \FilippoToso\Travelport\GDSQueue\AirReservationCriteria
+     * @return \Santosdave\Travelport\GDSQueue\AirReservationCriteria
      */
     public function setOrigin($Origin)
     {
@@ -120,7 +120,7 @@ class AirReservationCriteria
 
     /**
      * @param typeIATACode $Destination
-     * @return \FilippoToso\Travelport\GDSQueue\AirReservationCriteria
+     * @return \Santosdave\Travelport\GDSQueue\AirReservationCriteria
      */
     public function setDestination($Destination)
     {
@@ -138,7 +138,7 @@ class AirReservationCriteria
 
     /**
      * @param string $FlightNumber
-     * @return \FilippoToso\Travelport\GDSQueue\AirReservationCriteria
+     * @return \Santosdave\Travelport\GDSQueue\AirReservationCriteria
      */
     public function setFlightNumber($FlightNumber)
     {
@@ -156,7 +156,7 @@ class AirReservationCriteria
 
     /**
      * @param typeCarrier $Carrier
-     * @return \FilippoToso\Travelport\GDSQueue\AirReservationCriteria
+     * @return \Santosdave\Travelport\GDSQueue\AirReservationCriteria
      */
     public function setCarrier($Carrier)
     {
@@ -174,7 +174,7 @@ class AirReservationCriteria
 
     /**
      * @param boolean $PassiveOnly
-     * @return \FilippoToso\Travelport\GDSQueue\AirReservationCriteria
+     * @return \Santosdave\Travelport\GDSQueue\AirReservationCriteria
      */
     public function setPassiveOnly($PassiveOnly)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class AirPriceResult
 {
@@ -47,7 +47,7 @@ class AirPriceResult
 
     /**
      * @param AirPricingSolution $AirPricingSolution
-     * @return \FilippoToso\Travelport\Air\AirPriceResult
+     * @return \Santosdave\Travelport\Air\AirPriceResult
      */
     public function setAirPricingSolution($AirPricingSolution)
     {
@@ -65,7 +65,7 @@ class AirPriceResult
 
     /**
      * @param FareRule $FareRule
-     * @return \FilippoToso\Travelport\Air\AirPriceResult
+     * @return \Santosdave\Travelport\Air\AirPriceResult
      */
     public function setFareRule($FareRule)
     {
@@ -83,7 +83,7 @@ class AirPriceResult
 
     /**
      * @param typeResultMessage $AirPriceError
-     * @return \FilippoToso\Travelport\Air\AirPriceResult
+     * @return \Santosdave\Travelport\Air\AirPriceResult
      */
     public function setAirPriceError($AirPriceError)
     {
@@ -101,7 +101,7 @@ class AirPriceResult
 
     /**
      * @param anonymous642 $CommandKey
-     * @return \FilippoToso\Travelport\Air\AirPriceResult
+     * @return \Santosdave\Travelport\Air\AirPriceResult
      */
     public function setCommandKey($CommandKey)
     {

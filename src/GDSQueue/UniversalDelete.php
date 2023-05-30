@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class UniversalDelete
 {
@@ -35,7 +35,7 @@ class UniversalDelete
 
     /**
      * @param typeElement $Element
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalDelete
+     * @return \Santosdave\Travelport\GDSQueue\UniversalDelete
      */
     public function setElement($Element)
     {
@@ -53,7 +53,7 @@ class UniversalDelete
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalDelete
+     * @return \Santosdave\Travelport\GDSQueue\UniversalDelete
      */
     public function setKey($Key)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\System;
+namespace Santosdave\Travelport\System;
 
 class BridgedBranch
 {
@@ -28,7 +28,7 @@ class BridgedBranch
 
     /**
      * @param string $BranchId
-     * @return \FilippoToso\Travelport\System\BridgedBranch
+     * @return \Santosdave\Travelport\System\BridgedBranch
      */
     public function setBranchId($BranchId)
     {

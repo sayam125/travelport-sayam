@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class AgentAction
 {
@@ -70,7 +70,7 @@ class AgentAction
 
     /**
      * @param anonymous8 $ActionType
-     * @return \FilippoToso\Travelport\UProfile\AgentAction
+     * @return \Santosdave\Travelport\UProfile\AgentAction
      */
     public function setActionType($ActionType)
     {
@@ -88,7 +88,7 @@ class AgentAction
 
     /**
      * @param string $AgentCode
-     * @return \FilippoToso\Travelport\UProfile\AgentAction
+     * @return \Santosdave\Travelport\UProfile\AgentAction
      */
     public function setAgentCode($AgentCode)
     {
@@ -106,7 +106,7 @@ class AgentAction
 
     /**
      * @param typeBranchCode $BranchCode
-     * @return \FilippoToso\Travelport\UProfile\AgentAction
+     * @return \Santosdave\Travelport\UProfile\AgentAction
      */
     public function setBranchCode($BranchCode)
     {
@@ -124,7 +124,7 @@ class AgentAction
 
     /**
      * @param string $AgencyCode
-     * @return \FilippoToso\Travelport\UProfile\AgentAction
+     * @return \Santosdave\Travelport\UProfile\AgentAction
      */
     public function setAgencyCode($AgencyCode)
     {
@@ -142,7 +142,7 @@ class AgentAction
 
     /**
      * @param string $AgentSine
-     * @return \FilippoToso\Travelport\UProfile\AgentAction
+     * @return \Santosdave\Travelport\UProfile\AgentAction
      */
     public function setAgentSine($AgentSine)
     {
@@ -168,7 +168,7 @@ class AgentAction
 
     /**
      * @param \DateTime $EventTime
-     * @return \FilippoToso\Travelport\UProfile\AgentAction
+     * @return \Santosdave\Travelport\UProfile\AgentAction
      */
     public function setEventTime(\DateTime $EventTime)
     {
@@ -186,7 +186,7 @@ class AgentAction
 
     /**
      * @param anonymous505 $AgentOverride
-     * @return \FilippoToso\Travelport\UProfile\AgentAction
+     * @return \Santosdave\Travelport\UProfile\AgentAction
      */
     public function setAgentOverride($AgentOverride)
     {

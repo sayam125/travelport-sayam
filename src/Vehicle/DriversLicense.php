@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Vehicle;
+namespace Santosdave\Travelport\Vehicle;
 
 class DriversLicense
 {
@@ -49,7 +49,7 @@ class DriversLicense
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Vehicle\DriversLicense
+     * @return \Santosdave\Travelport\Vehicle\DriversLicense
      */
     public function setKey($Key)
     {
@@ -67,7 +67,7 @@ class DriversLicense
 
     /**
      * @param anonymous377 $LicenseNumber
-     * @return \FilippoToso\Travelport\Vehicle\DriversLicense
+     * @return \Santosdave\Travelport\Vehicle\DriversLicense
      */
     public function setLicenseNumber($LicenseNumber)
     {
@@ -85,7 +85,7 @@ class DriversLicense
 
     /**
      * @param typeElementStatus $ElStat
-     * @return \FilippoToso\Travelport\Vehicle\DriversLicense
+     * @return \Santosdave\Travelport\Vehicle\DriversLicense
      */
     public function setElStat($ElStat)
     {
@@ -103,7 +103,7 @@ class DriversLicense
 
     /**
      * @param boolean $KeyOverride
-     * @return \FilippoToso\Travelport\Vehicle\DriversLicense
+     * @return \Santosdave\Travelport\Vehicle\DriversLicense
      */
     public function setKeyOverride($KeyOverride)
     {

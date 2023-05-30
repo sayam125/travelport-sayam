@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class DecimalRestriction
 {
@@ -28,7 +28,7 @@ class DecimalRestriction
 
     /**
      * @param typeAction $Action
-     * @return \FilippoToso\Travelport\UProfile\DecimalRestriction
+     * @return \Santosdave\Travelport\UProfile\DecimalRestriction
      */
     public function setAction($Action)
     {

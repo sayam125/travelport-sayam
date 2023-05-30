@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class ContentProviderRetrieveRsp extends BaseRsp
 {
@@ -34,7 +34,7 @@ class ContentProviderRetrieveRsp extends BaseRsp
 
     /**
      * @param ContentProvider $ContentProvider
-     * @return \FilippoToso\Travelport\Util\ContentProviderRetrieveRsp
+     * @return \Santosdave\Travelport\Util\ContentProviderRetrieveRsp
      */
     public function setContentProvider($ContentProvider)
     {

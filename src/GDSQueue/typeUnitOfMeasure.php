@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class typeUnitOfMeasure
 {
@@ -35,7 +35,7 @@ class typeUnitOfMeasure
 
     /**
      * @param float $Value
-     * @return \FilippoToso\Travelport\GDSQueue\typeUnitOfMeasure
+     * @return \Santosdave\Travelport\GDSQueue\typeUnitOfMeasure
      */
     public function setValue($Value)
     {
@@ -53,7 +53,7 @@ class typeUnitOfMeasure
 
     /**
      * @param string $Unit
-     * @return \FilippoToso\Travelport\GDSQueue\typeUnitOfMeasure
+     * @return \Santosdave\Travelport\GDSQueue\typeUnitOfMeasure
      */
     public function setUnit($Unit)
     {

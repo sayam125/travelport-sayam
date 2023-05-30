@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class ArvlUnknSegment
 {
@@ -54,7 +54,7 @@ class ArvlUnknSegment
 
     /**
      * @param BookingTravelerRef[] $BookingTravelerRef
-     * @return \FilippoToso\Travelport\Rail\ArvlUnknSegment
+     * @return \Santosdave\Travelport\Rail\ArvlUnknSegment
      */
     public function setBookingTravelerRef(array $BookingTravelerRef = null)
     {
@@ -72,7 +72,7 @@ class ArvlUnknSegment
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Rail\ArvlUnknSegment
+     * @return \Santosdave\Travelport\Rail\ArvlUnknSegment
      */
     public function setKey($Key)
     {
@@ -90,7 +90,7 @@ class ArvlUnknSegment
 
     /**
      * @param typeIATACode $Origin
-     * @return \FilippoToso\Travelport\Rail\ArvlUnknSegment
+     * @return \Santosdave\Travelport\Rail\ArvlUnknSegment
      */
     public function setOrigin($Origin)
     {
@@ -108,7 +108,7 @@ class ArvlUnknSegment
 
     /**
      * @param typeIATACode $Destination
-     * @return \FilippoToso\Travelport\Rail\ArvlUnknSegment
+     * @return \Santosdave\Travelport\Rail\ArvlUnknSegment
      */
     public function setDestination($Destination)
     {
@@ -126,7 +126,7 @@ class ArvlUnknSegment
 
     /**
      * @param int $TravelOrder
-     * @return \FilippoToso\Travelport\Rail\ArvlUnknSegment
+     * @return \Santosdave\Travelport\Rail\ArvlUnknSegment
      */
     public function setTravelOrder($TravelOrder)
     {

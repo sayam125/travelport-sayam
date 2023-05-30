@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class BaseCreateWithFormOfPaymentReq extends BaseCreateReservationReq
 {
@@ -65,7 +65,7 @@ class BaseCreateWithFormOfPaymentReq extends BaseCreateReservationReq
 
     /**
      * @param FormOfPayment $FormOfPayment
-     * @return \FilippoToso\Travelport\Rail\BaseCreateWithFormOfPaymentReq
+     * @return \Santosdave\Travelport\Rail\BaseCreateWithFormOfPaymentReq
      */
     public function setFormOfPayment($FormOfPayment)
     {

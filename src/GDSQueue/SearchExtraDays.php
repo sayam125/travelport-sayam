@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class SearchExtraDays
 {
@@ -35,7 +35,7 @@ class SearchExtraDays
 
     /**
      * @param int $DaysBefore
-     * @return \FilippoToso\Travelport\GDSQueue\SearchExtraDays
+     * @return \Santosdave\Travelport\GDSQueue\SearchExtraDays
      */
     public function setDaysBefore($DaysBefore)
     {
@@ -53,7 +53,7 @@ class SearchExtraDays
 
     /**
      * @param int $DaysAfter
-     * @return \FilippoToso\Travelport\GDSQueue\SearchExtraDays
+     * @return \Santosdave\Travelport\GDSQueue\SearchExtraDays
      */
     public function setDaysAfter($DaysAfter)
     {

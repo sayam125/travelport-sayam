@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typePaymentCardHistory
 {
@@ -75,7 +75,7 @@ class typePaymentCardHistory
 
     /**
      * @param PhoneNumberHistory $PhoneNumberHistory
-     * @return \FilippoToso\Travelport\UProfile\typePaymentCardHistory
+     * @return \Santosdave\Travelport\UProfile\typePaymentCardHistory
      */
     public function setPhoneNumberHistory($PhoneNumberHistory)
     {
@@ -93,7 +93,7 @@ class typePaymentCardHistory
 
     /**
      * @param typeStructuredAddress $BillingAddress
-     * @return \FilippoToso\Travelport\UProfile\typePaymentCardHistory
+     * @return \Santosdave\Travelport\UProfile\typePaymentCardHistory
      */
     public function setBillingAddress($BillingAddress)
     {
@@ -111,7 +111,7 @@ class typePaymentCardHistory
 
     /**
      * @param typeCardMerchantType $Type
-     * @return \FilippoToso\Travelport\UProfile\typePaymentCardHistory
+     * @return \Santosdave\Travelport\UProfile\typePaymentCardHistory
      */
     public function setType($Type)
     {
@@ -129,7 +129,7 @@ class typePaymentCardHistory
 
     /**
      * @param typeCreditCardNumber $Number
-     * @return \FilippoToso\Travelport\UProfile\typePaymentCardHistory
+     * @return \Santosdave\Travelport\UProfile\typePaymentCardHistory
      */
     public function setNumber($Number)
     {
@@ -147,7 +147,7 @@ class typePaymentCardHistory
 
     /**
      * @param gYearMonth $ExpDate
-     * @return \FilippoToso\Travelport\UProfile\typePaymentCardHistory
+     * @return \Santosdave\Travelport\UProfile\typePaymentCardHistory
      */
     public function setExpDate($ExpDate)
     {
@@ -165,7 +165,7 @@ class typePaymentCardHistory
 
     /**
      * @param anonymous903 $Name
-     * @return \FilippoToso\Travelport\UProfile\typePaymentCardHistory
+     * @return \Santosdave\Travelport\UProfile\typePaymentCardHistory
      */
     public function setName($Name)
     {
@@ -183,7 +183,7 @@ class typePaymentCardHistory
 
     /**
      * @param anonymous904 $CVV
-     * @return \FilippoToso\Travelport\UProfile\typePaymentCardHistory
+     * @return \Santosdave\Travelport\UProfile\typePaymentCardHistory
      */
     public function setCVV($CVV)
     {
@@ -201,7 +201,7 @@ class typePaymentCardHistory
 
     /**
      * @param anonymous905 $ApprovalCode
-     * @return \FilippoToso\Travelport\UProfile\typePaymentCardHistory
+     * @return \Santosdave\Travelport\UProfile\typePaymentCardHistory
      */
     public function setApprovalCode($ApprovalCode)
     {

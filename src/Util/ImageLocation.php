@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class ImageLocation
 {
@@ -49,7 +49,7 @@ class ImageLocation
 
     /**
      * @param string $_
-     * @return \FilippoToso\Travelport\Util\ImageLocation
+     * @return \Santosdave\Travelport\Util\ImageLocation
      */
     public function set_($_)
     {
@@ -67,7 +67,7 @@ class ImageLocation
 
     /**
      * @param string $Type
-     * @return \FilippoToso\Travelport\Util\ImageLocation
+     * @return \Santosdave\Travelport\Util\ImageLocation
      */
     public function setType($Type)
     {
@@ -85,7 +85,7 @@ class ImageLocation
 
     /**
      * @param int $ImageWidth
-     * @return \FilippoToso\Travelport\Util\ImageLocation
+     * @return \Santosdave\Travelport\Util\ImageLocation
      */
     public function setImageWidth($ImageWidth)
     {
@@ -103,7 +103,7 @@ class ImageLocation
 
     /**
      * @param int $ImageHeight
-     * @return \FilippoToso\Travelport\Util\ImageLocation
+     * @return \Santosdave\Travelport\Util\ImageLocation
      */
     public function setImageHeight($ImageHeight)
     {

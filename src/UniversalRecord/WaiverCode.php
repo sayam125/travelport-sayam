@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class WaiverCode
 {
@@ -42,7 +42,7 @@ class WaiverCode
 
     /**
      * @param typeTourCode $TourCode
-     * @return \FilippoToso\Travelport\UniversalRecord\WaiverCode
+     * @return \Santosdave\Travelport\UniversalRecord\WaiverCode
      */
     public function setTourCode($TourCode)
     {
@@ -60,7 +60,7 @@ class WaiverCode
 
     /**
      * @param typeTicketDesignator $TicketDesignator
-     * @return \FilippoToso\Travelport\UniversalRecord\WaiverCode
+     * @return \Santosdave\Travelport\UniversalRecord\WaiverCode
      */
     public function setTicketDesignator($TicketDesignator)
     {
@@ -78,7 +78,7 @@ class WaiverCode
 
     /**
      * @param anonymous717 $Endorsement
-     * @return \FilippoToso\Travelport\UniversalRecord\WaiverCode
+     * @return \Santosdave\Travelport\UniversalRecord\WaiverCode
      */
     public function setEndorsement($Endorsement)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class BrandID
 {
@@ -28,7 +28,7 @@ class BrandID
 
     /**
      * @param string $Id
-     * @return \FilippoToso\Travelport\Util\BrandID
+     * @return \Santosdave\Travelport\Util\BrandID
      */
     public function setId($Id)
     {

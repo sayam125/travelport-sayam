@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class DetailedBillingInformation
 {
@@ -42,7 +42,7 @@ class DetailedBillingInformation
 
     /**
      * @param FormOfPaymentRef $FormOfPaymentRef
-     * @return \FilippoToso\Travelport\GDSQueue\DetailedBillingInformation
+     * @return \Santosdave\Travelport\GDSQueue\DetailedBillingInformation
      */
     public function setFormOfPaymentRef($FormOfPaymentRef)
     {
@@ -60,7 +60,7 @@ class DetailedBillingInformation
 
     /**
      * @param AirPricingInfoRef $AirPricingInfoRef
-     * @return \FilippoToso\Travelport\GDSQueue\DetailedBillingInformation
+     * @return \Santosdave\Travelport\GDSQueue\DetailedBillingInformation
      */
     public function setAirPricingInfoRef($AirPricingInfoRef)
     {
@@ -78,7 +78,7 @@ class DetailedBillingInformation
 
     /**
      * @param BillingDetailItem $BillingDetailItem
-     * @return \FilippoToso\Travelport\GDSQueue\DetailedBillingInformation
+     * @return \Santosdave\Travelport\GDSQueue\DetailedBillingInformation
      */
     public function setBillingDetailItem($BillingDetailItem)
     {

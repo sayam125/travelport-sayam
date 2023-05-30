@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class Characteristic
 {
@@ -35,7 +35,7 @@ class Characteristic
 
     /**
      * @param boolean $Smoking
-     * @return \FilippoToso\Travelport\GDSQueue\Characteristic
+     * @return \Santosdave\Travelport\GDSQueue\Characteristic
      */
     public function setSmoking($Smoking)
     {
@@ -53,7 +53,7 @@ class Characteristic
 
     /**
      * @param typeCoachClassType $Class
-     * @return \FilippoToso\Travelport\GDSQueue\Characteristic
+     * @return \Santosdave\Travelport\GDSQueue\Characteristic
      */
     public function setClass($Class)
     {

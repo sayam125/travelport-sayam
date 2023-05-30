@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class typeTextElement
 {
@@ -42,7 +42,7 @@ class typeTextElement
 
     /**
      * @param string $_
-     * @return \FilippoToso\Travelport\UniversalRecord\typeTextElement
+     * @return \Santosdave\Travelport\UniversalRecord\typeTextElement
      */
     public function set_($_)
     {
@@ -60,7 +60,7 @@ class typeTextElement
 
     /**
      * @param string $Type
-     * @return \FilippoToso\Travelport\UniversalRecord\typeTextElement
+     * @return \Santosdave\Travelport\UniversalRecord\typeTextElement
      */
     public function setType($Type)
     {
@@ -78,7 +78,7 @@ class typeTextElement
 
     /**
      * @param language $LanguageCode
-     * @return \FilippoToso\Travelport\UniversalRecord\typeTextElement
+     * @return \Santosdave\Travelport\UniversalRecord\typeTextElement
      */
     public function setLanguageCode($LanguageCode)
     {

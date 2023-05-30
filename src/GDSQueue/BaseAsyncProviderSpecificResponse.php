@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class BaseAsyncProviderSpecificResponse
 {
@@ -35,7 +35,7 @@ class BaseAsyncProviderSpecificResponse
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\GDSQueue\BaseAsyncProviderSpecificResponse
+     * @return \Santosdave\Travelport\GDSQueue\BaseAsyncProviderSpecificResponse
      */
     public function setProviderCode($ProviderCode)
     {
@@ -53,7 +53,7 @@ class BaseAsyncProviderSpecificResponse
 
     /**
      * @param boolean $MoreResults
-     * @return \FilippoToso\Travelport\GDSQueue\BaseAsyncProviderSpecificResponse
+     * @return \Santosdave\Travelport\GDSQueue\BaseAsyncProviderSpecificResponse
      */
     public function setMoreResults($MoreResults)
     {

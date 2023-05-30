@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class HotelBedding
 {
@@ -49,7 +49,7 @@ class HotelBedding
 
     /**
      * @param typeBedding $Type
-     * @return \FilippoToso\Travelport\GDSQueue\HotelBedding
+     * @return \Santosdave\Travelport\GDSQueue\HotelBedding
      */
     public function setType($Type)
     {
@@ -67,7 +67,7 @@ class HotelBedding
 
     /**
      * @param int $NumberOfBeds
-     * @return \FilippoToso\Travelport\GDSQueue\HotelBedding
+     * @return \Santosdave\Travelport\GDSQueue\HotelBedding
      */
     public function setNumberOfBeds($NumberOfBeds)
     {
@@ -85,7 +85,7 @@ class HotelBedding
 
     /**
      * @param typeMoney $Amount
-     * @return \FilippoToso\Travelport\GDSQueue\HotelBedding
+     * @return \Santosdave\Travelport\GDSQueue\HotelBedding
      */
     public function setAmount($Amount)
     {
@@ -103,7 +103,7 @@ class HotelBedding
 
     /**
      * @param string $Content
-     * @return \FilippoToso\Travelport\GDSQueue\HotelBedding
+     * @return \Santosdave\Travelport\GDSQueue\HotelBedding
      */
     public function setContent($Content)
     {

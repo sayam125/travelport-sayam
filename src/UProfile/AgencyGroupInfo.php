@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class AgencyGroupInfo extends typeProfileInfo
 {
@@ -59,7 +59,7 @@ class AgencyGroupInfo extends typeProfileInfo
 
     /**
      * @param Address $Address
-     * @return \FilippoToso\Travelport\UProfile\AgencyGroupInfo
+     * @return \Santosdave\Travelport\UProfile\AgencyGroupInfo
      */
     public function setAddress($Address)
     {
@@ -77,7 +77,7 @@ class AgencyGroupInfo extends typeProfileInfo
 
     /**
      * @param Phone $Phone
-     * @return \FilippoToso\Travelport\UProfile\AgencyGroupInfo
+     * @return \Santosdave\Travelport\UProfile\AgencyGroupInfo
      */
     public function setPhone($Phone)
     {
@@ -95,7 +95,7 @@ class AgencyGroupInfo extends typeProfileInfo
 
     /**
      * @param ElectronicAddress $ElectronicAddress
-     * @return \FilippoToso\Travelport\UProfile\AgencyGroupInfo
+     * @return \Santosdave\Travelport\UProfile\AgencyGroupInfo
      */
     public function setElectronicAddress($ElectronicAddress)
     {
@@ -113,7 +113,7 @@ class AgencyGroupInfo extends typeProfileInfo
 
     /**
      * @param ExternalIdentifier $ExternalIdentifier
-     * @return \FilippoToso\Travelport\UProfile\AgencyGroupInfo
+     * @return \Santosdave\Travelport\UProfile\AgencyGroupInfo
      */
     public function setExternalIdentifier($ExternalIdentifier)
     {
@@ -131,7 +131,7 @@ class AgencyGroupInfo extends typeProfileInfo
 
     /**
      * @param StringLength1to128 $Name
-     * @return \FilippoToso\Travelport\UProfile\AgencyGroupInfo
+     * @return \Santosdave\Travelport\UProfile\AgencyGroupInfo
      */
     public function setName($Name)
     {

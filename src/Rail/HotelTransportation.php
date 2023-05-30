@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class HotelTransportation
 {
@@ -28,7 +28,7 @@ class HotelTransportation
 
     /**
      * @param typeOTACode $Type
-     * @return \FilippoToso\Travelport\Rail\HotelTransportation
+     * @return \Santosdave\Travelport\Rail\HotelTransportation
      */
     public function setType($Type)
     {

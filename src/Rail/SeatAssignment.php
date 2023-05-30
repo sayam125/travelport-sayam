@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class SeatAssignment
 {
@@ -84,7 +84,7 @@ class SeatAssignment
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Rail\SeatAssignment
+     * @return \Santosdave\Travelport\Rail\SeatAssignment
      */
     public function setKey($Key)
     {
@@ -102,7 +102,7 @@ class SeatAssignment
 
     /**
      * @param typeStatusCode $Status
-     * @return \FilippoToso\Travelport\Rail\SeatAssignment
+     * @return \Santosdave\Travelport\Rail\SeatAssignment
      */
     public function setStatus($Status)
     {
@@ -120,7 +120,7 @@ class SeatAssignment
 
     /**
      * @param string $Seat
-     * @return \FilippoToso\Travelport\Rail\SeatAssignment
+     * @return \Santosdave\Travelport\Rail\SeatAssignment
      */
     public function setSeat($Seat)
     {
@@ -138,7 +138,7 @@ class SeatAssignment
 
     /**
      * @param typeSeatTypeCode $SeatTypeCode
-     * @return \FilippoToso\Travelport\Rail\SeatAssignment
+     * @return \Santosdave\Travelport\Rail\SeatAssignment
      */
     public function setSeatTypeCode($SeatTypeCode)
     {
@@ -156,7 +156,7 @@ class SeatAssignment
 
     /**
      * @param typeRef $SegmentRef
-     * @return \FilippoToso\Travelport\Rail\SeatAssignment
+     * @return \Santosdave\Travelport\Rail\SeatAssignment
      */
     public function setSegmentRef($SegmentRef)
     {
@@ -174,7 +174,7 @@ class SeatAssignment
 
     /**
      * @param typeRef $FlightDetailsRef
-     * @return \FilippoToso\Travelport\Rail\SeatAssignment
+     * @return \Santosdave\Travelport\Rail\SeatAssignment
      */
     public function setFlightDetailsRef($FlightDetailsRef)
     {
@@ -192,7 +192,7 @@ class SeatAssignment
 
     /**
      * @param string $RailCoachNumber
-     * @return \FilippoToso\Travelport\Rail\SeatAssignment
+     * @return \Santosdave\Travelport\Rail\SeatAssignment
      */
     public function setRailCoachNumber($RailCoachNumber)
     {
@@ -210,7 +210,7 @@ class SeatAssignment
 
     /**
      * @param typeElementStatus $ElStat
-     * @return \FilippoToso\Travelport\Rail\SeatAssignment
+     * @return \Santosdave\Travelport\Rail\SeatAssignment
      */
     public function setElStat($ElStat)
     {
@@ -228,7 +228,7 @@ class SeatAssignment
 
     /**
      * @param boolean $KeyOverride
-     * @return \FilippoToso\Travelport\Rail\SeatAssignment
+     * @return \Santosdave\Travelport\Rail\SeatAssignment
      */
     public function setKeyOverride($KeyOverride)
     {

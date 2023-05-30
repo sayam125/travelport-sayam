@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class SolutionGroup
 {
@@ -81,7 +81,7 @@ class SolutionGroup
 
     /**
      * @param PermittedAccountCodes $PermittedAccountCodes
-     * @return \FilippoToso\Travelport\UniversalRecord\SolutionGroup
+     * @return \Santosdave\Travelport\UniversalRecord\SolutionGroup
      */
     public function setPermittedAccountCodes($PermittedAccountCodes)
     {
@@ -99,7 +99,7 @@ class SolutionGroup
 
     /**
      * @param PreferredAccountCodes $PreferredAccountCodes
-     * @return \FilippoToso\Travelport\UniversalRecord\SolutionGroup
+     * @return \Santosdave\Travelport\UniversalRecord\SolutionGroup
      */
     public function setPreferredAccountCodes($PreferredAccountCodes)
     {
@@ -117,7 +117,7 @@ class SolutionGroup
 
     /**
      * @param ProhibitedAccountCodes $ProhibitedAccountCodes
-     * @return \FilippoToso\Travelport\UniversalRecord\SolutionGroup
+     * @return \Santosdave\Travelport\UniversalRecord\SolutionGroup
      */
     public function setProhibitedAccountCodes($ProhibitedAccountCodes)
     {
@@ -135,7 +135,7 @@ class SolutionGroup
 
     /**
      * @param PermittedPointOfSales $PermittedPointOfSales
-     * @return \FilippoToso\Travelport\UniversalRecord\SolutionGroup
+     * @return \Santosdave\Travelport\UniversalRecord\SolutionGroup
      */
     public function setPermittedPointOfSales($PermittedPointOfSales)
     {
@@ -153,7 +153,7 @@ class SolutionGroup
 
     /**
      * @param ProhibitedPointOfSales $ProhibitedPointOfSales
-     * @return \FilippoToso\Travelport\UniversalRecord\SolutionGroup
+     * @return \Santosdave\Travelport\UniversalRecord\SolutionGroup
      */
     public function setProhibitedPointOfSales($ProhibitedPointOfSales)
     {
@@ -171,7 +171,7 @@ class SolutionGroup
 
     /**
      * @param int $Count
-     * @return \FilippoToso\Travelport\UniversalRecord\SolutionGroup
+     * @return \Santosdave\Travelport\UniversalRecord\SolutionGroup
      */
     public function setCount($Count)
     {
@@ -189,7 +189,7 @@ class SolutionGroup
 
     /**
      * @param typeTripType $TripType
-     * @return \FilippoToso\Travelport\UniversalRecord\SolutionGroup
+     * @return \Santosdave\Travelport\UniversalRecord\SolutionGroup
      */
     public function setTripType($TripType)
     {
@@ -207,7 +207,7 @@ class SolutionGroup
 
     /**
      * @param typeDiversity $Diversification
-     * @return \FilippoToso\Travelport\UniversalRecord\SolutionGroup
+     * @return \Santosdave\Travelport\UniversalRecord\SolutionGroup
      */
     public function setDiversification($Diversification)
     {
@@ -225,7 +225,7 @@ class SolutionGroup
 
     /**
      * @param anonymous570 $Tag
-     * @return \FilippoToso\Travelport\UniversalRecord\SolutionGroup
+     * @return \Santosdave\Travelport\UniversalRecord\SolutionGroup
      */
     public function setTag($Tag)
     {
@@ -243,7 +243,7 @@ class SolutionGroup
 
     /**
      * @param boolean $Primary
-     * @return \FilippoToso\Travelport\UniversalRecord\SolutionGroup
+     * @return \Santosdave\Travelport\UniversalRecord\SolutionGroup
      */
     public function setPrimary($Primary)
     {

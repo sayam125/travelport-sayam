@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class PaymentInformation extends typePaymentInformation
 {
@@ -32,7 +32,7 @@ class PaymentInformation extends typePaymentInformation
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\UniversalRecord\PaymentInformation
+     * @return \Santosdave\Travelport\UniversalRecord\PaymentInformation
      */
     public function setKey($Key)
     {

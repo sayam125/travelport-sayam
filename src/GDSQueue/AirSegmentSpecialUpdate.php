@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class AirSegmentSpecialUpdate
 {
@@ -35,7 +35,7 @@ class AirSegmentSpecialUpdate
 
     /**
      * @param typeBaseAirSegment $AirSegment
-     * @return \FilippoToso\Travelport\GDSQueue\AirSegmentSpecialUpdate
+     * @return \Santosdave\Travelport\GDSQueue\AirSegmentSpecialUpdate
      */
     public function setAirSegment($AirSegment)
     {
@@ -53,7 +53,7 @@ class AirSegmentSpecialUpdate
 
     /**
      * @param anonymous1387 $Action
-     * @return \FilippoToso\Travelport\GDSQueue\AirSegmentSpecialUpdate
+     * @return \Santosdave\Travelport\GDSQueue\AirSegmentSpecialUpdate
      */
     public function setAction($Action)
     {

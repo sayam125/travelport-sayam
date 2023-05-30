@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class Child extends typeGuestChildInformation
 {
@@ -30,7 +30,7 @@ class Child extends typeGuestChildInformation
 
     /**
      * @param BookingTravelerRef $BookingTravelerRef
-     * @return \FilippoToso\Travelport\Hotel\Child
+     * @return \Santosdave\Travelport\Hotel\Child
      */
     public function setBookingTravelerRef($BookingTravelerRef)
     {

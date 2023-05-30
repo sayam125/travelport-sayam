@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class UniversalModifyCommandError
 {
@@ -35,7 +35,7 @@ class UniversalModifyCommandError
 
     /**
      * @param string $_
-     * @return \FilippoToso\Travelport\Rail\UniversalModifyCommandError
+     * @return \Santosdave\Travelport\Rail\UniversalModifyCommandError
      */
     public function set_($_)
     {
@@ -53,7 +53,7 @@ class UniversalModifyCommandError
 
     /**
      * @param typeRef $UniversalModifyCmdKey
-     * @return \FilippoToso\Travelport\Rail\UniversalModifyCommandError
+     * @return \Santosdave\Travelport\Rail\UniversalModifyCommandError
      */
     public function setUniversalModifyCmdKey($UniversalModifyCmdKey)
     {

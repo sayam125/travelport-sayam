@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class FlightArrivalInformation
 {
@@ -42,7 +42,7 @@ class FlightArrivalInformation
 
     /**
      * @param typeCarrier $Carrier
-     * @return \FilippoToso\Travelport\Rail\FlightArrivalInformation
+     * @return \Santosdave\Travelport\Rail\FlightArrivalInformation
      */
     public function setCarrier($Carrier)
     {
@@ -60,7 +60,7 @@ class FlightArrivalInformation
 
     /**
      * @param anonymous599 $FlightNumber
-     * @return \FilippoToso\Travelport\Rail\FlightArrivalInformation
+     * @return \Santosdave\Travelport\Rail\FlightArrivalInformation
      */
     public function setFlightNumber($FlightNumber)
     {
@@ -78,7 +78,7 @@ class FlightArrivalInformation
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Rail\FlightArrivalInformation
+     * @return \Santosdave\Travelport\Rail\FlightArrivalInformation
      */
     public function setKey($Key)
     {

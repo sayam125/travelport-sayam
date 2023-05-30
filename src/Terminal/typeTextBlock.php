@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Terminal;
+namespace Santosdave\Travelport\Terminal;
 
 class typeTextBlock
 {
@@ -28,7 +28,7 @@ class typeTextBlock
 
     /**
      * @param Text[] $Text
-     * @return \FilippoToso\Travelport\Terminal\typeTextBlock
+     * @return \Santosdave\Travelport\Terminal\typeTextBlock
      */
     public function setText(array $Text)
     {

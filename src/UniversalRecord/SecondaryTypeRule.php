@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class SecondaryTypeRule
 {
@@ -33,7 +33,7 @@ class SecondaryTypeRule
 
     /**
      * @param OptionalServiceApplicationLimitType[] $ApplicationLimit
-     * @return \FilippoToso\Travelport\UniversalRecord\SecondaryTypeRule
+     * @return \Santosdave\Travelport\UniversalRecord\SecondaryTypeRule
      */
     public function setApplicationLimit(array $ApplicationLimit = null)
     {
@@ -51,7 +51,7 @@ class SecondaryTypeRule
 
     /**
      * @param typeRef $SecondaryType
-     * @return \FilippoToso\Travelport\UniversalRecord\SecondaryTypeRule
+     * @return \Santosdave\Travelport\UniversalRecord\SecondaryTypeRule
      */
     public function setSecondaryType($SecondaryType)
     {

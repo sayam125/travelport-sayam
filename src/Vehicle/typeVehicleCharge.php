@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Vehicle;
+namespace Santosdave\Travelport\Vehicle;
 
 class typeVehicleCharge
 {
@@ -66,7 +66,7 @@ class typeVehicleCharge
 
     /**
      * @param typeMoney $Amount
-     * @return \FilippoToso\Travelport\Vehicle\typeVehicleCharge
+     * @return \Santosdave\Travelport\Vehicle\typeVehicleCharge
      */
     public function setAmount($Amount)
     {
@@ -84,7 +84,7 @@ class typeVehicleCharge
 
     /**
      * @param typePercentageWithDecimal $Percentage
-     * @return \FilippoToso\Travelport\Vehicle\typeVehicleCharge
+     * @return \Santosdave\Travelport\Vehicle\typeVehicleCharge
      */
     public function setPercentage($Percentage)
     {
@@ -102,7 +102,7 @@ class typeVehicleCharge
 
     /**
      * @param string $Category
-     * @return \FilippoToso\Travelport\Vehicle\typeVehicleCharge
+     * @return \Santosdave\Travelport\Vehicle\typeVehicleCharge
      */
     public function setCategory($Category)
     {
@@ -120,7 +120,7 @@ class typeVehicleCharge
 
     /**
      * @param string $Name
-     * @return \FilippoToso\Travelport\Vehicle\typeVehicleCharge
+     * @return \Santosdave\Travelport\Vehicle\typeVehicleCharge
      */
     public function setName($Name)
     {
@@ -138,7 +138,7 @@ class typeVehicleCharge
 
     /**
      * @param string $Description
-     * @return \FilippoToso\Travelport\Vehicle\typeVehicleCharge
+     * @return \Santosdave\Travelport\Vehicle\typeVehicleCharge
      */
     public function setDescription($Description)
     {
@@ -156,7 +156,7 @@ class typeVehicleCharge
 
     /**
      * @param anonymous595 $Type
-     * @return \FilippoToso\Travelport\Vehicle\typeVehicleCharge
+     * @return \Santosdave\Travelport\Vehicle\typeVehicleCharge
      */
     public function setType($Type)
     {
@@ -174,7 +174,7 @@ class typeVehicleCharge
 
     /**
      * @param anonymous596 $IncludedInRate
-     * @return \FilippoToso\Travelport\Vehicle\typeVehicleCharge
+     * @return \Santosdave\Travelport\Vehicle\typeVehicleCharge
      */
     public function setIncludedInRate($IncludedInRate)
     {

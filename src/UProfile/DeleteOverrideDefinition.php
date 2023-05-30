@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class DeleteOverrideDefinition
 {
@@ -35,7 +35,7 @@ class DeleteOverrideDefinition
 
     /**
      * @param typeID $TemplateFieldID
-     * @return \FilippoToso\Travelport\UProfile\DeleteOverrideDefinition
+     * @return \Santosdave\Travelport\UProfile\DeleteOverrideDefinition
      */
     public function setTemplateFieldID($TemplateFieldID)
     {
@@ -53,7 +53,7 @@ class DeleteOverrideDefinition
 
     /**
      * @param typeCustomFieldOrGroupType $TemplateFieldType
-     * @return \FilippoToso\Travelport\UProfile\DeleteOverrideDefinition
+     * @return \Santosdave\Travelport\UProfile\DeleteOverrideDefinition
      */
     public function setTemplateFieldType($TemplateFieldType)
     {

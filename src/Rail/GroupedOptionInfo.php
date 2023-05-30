@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class GroupedOptionInfo
 {
@@ -28,7 +28,7 @@ class GroupedOptionInfo
 
     /**
      * @param GroupedOption $GroupedOption
-     * @return \FilippoToso\Travelport\Rail\GroupedOptionInfo
+     * @return \Santosdave\Travelport\Rail\GroupedOptionInfo
      */
     public function setGroupedOption($GroupedOption)
     {

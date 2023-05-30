@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class StockControl
 {
@@ -35,7 +35,7 @@ class StockControl
 
     /**
      * @param string $Type
-     * @return \FilippoToso\Travelport\GDSQueue\StockControl
+     * @return \Santosdave\Travelport\GDSQueue\StockControl
      */
     public function setType($Type)
     {
@@ -53,7 +53,7 @@ class StockControl
 
     /**
      * @param string $Number
-     * @return \FilippoToso\Travelport\GDSQueue\StockControl
+     * @return \Santosdave\Travelport\GDSQueue\StockControl
      */
     public function setNumber($Number)
     {

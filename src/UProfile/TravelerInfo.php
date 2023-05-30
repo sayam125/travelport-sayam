@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class TravelerInfo extends typeAccountTypeProfileInfo
 {
@@ -191,7 +191,7 @@ class TravelerInfo extends typeAccountTypeProfileInfo
 
     /**
      * @param Address $Address
-     * @return \FilippoToso\Travelport\UProfile\TravelerInfo
+     * @return \Santosdave\Travelport\UProfile\TravelerInfo
      */
     public function setAddress($Address)
     {
@@ -209,7 +209,7 @@ class TravelerInfo extends typeAccountTypeProfileInfo
 
     /**
      * @param Phone $Phone
-     * @return \FilippoToso\Travelport\UProfile\TravelerInfo
+     * @return \Santosdave\Travelport\UProfile\TravelerInfo
      */
     public function setPhone($Phone)
     {
@@ -227,7 +227,7 @@ class TravelerInfo extends typeAccountTypeProfileInfo
 
     /**
      * @param ElectronicAddress $ElectronicAddress
-     * @return \FilippoToso\Travelport\UProfile\TravelerInfo
+     * @return \Santosdave\Travelport\UProfile\TravelerInfo
      */
     public function setElectronicAddress($ElectronicAddress)
     {
@@ -245,7 +245,7 @@ class TravelerInfo extends typeAccountTypeProfileInfo
 
     /**
      * @param TravelerIdentityInformation $TravelerIdentityInformation
-     * @return \FilippoToso\Travelport\UProfile\TravelerInfo
+     * @return \Santosdave\Travelport\UProfile\TravelerInfo
      */
     public function setTravelerIdentityInformation($TravelerIdentityInformation)
     {
@@ -263,7 +263,7 @@ class TravelerInfo extends typeAccountTypeProfileInfo
 
     /**
      * @param ProprietaryData $ProprietaryData
-     * @return \FilippoToso\Travelport\UProfile\TravelerInfo
+     * @return \Santosdave\Travelport\UProfile\TravelerInfo
      */
     public function setProprietaryData($ProprietaryData)
     {
@@ -281,7 +281,7 @@ class TravelerInfo extends typeAccountTypeProfileInfo
 
     /**
      * @param typePTC[] $PassengerTypeCode
-     * @return \FilippoToso\Travelport\UProfile\TravelerInfo
+     * @return \Santosdave\Travelport\UProfile\TravelerInfo
      */
     public function setPassengerTypeCode(array $PassengerTypeCode = null)
     {
@@ -299,7 +299,7 @@ class TravelerInfo extends typeAccountTypeProfileInfo
 
     /**
      * @param ExternalIdentifier $ExternalIdentifier
-     * @return \FilippoToso\Travelport\UProfile\TravelerInfo
+     * @return \Santosdave\Travelport\UProfile\TravelerInfo
      */
     public function setExternalIdentifier($ExternalIdentifier)
     {
@@ -317,7 +317,7 @@ class TravelerInfo extends typeAccountTypeProfileInfo
 
     /**
      * @param StringLength1to128 $GivenName
-     * @return \FilippoToso\Travelport\UProfile\TravelerInfo
+     * @return \Santosdave\Travelport\UProfile\TravelerInfo
      */
     public function setGivenName($GivenName)
     {
@@ -335,7 +335,7 @@ class TravelerInfo extends typeAccountTypeProfileInfo
 
     /**
      * @param StringLength1to128 $Surname
-     * @return \FilippoToso\Travelport\UProfile\TravelerInfo
+     * @return \Santosdave\Travelport\UProfile\TravelerInfo
      */
     public function setSurname($Surname)
     {
@@ -353,7 +353,7 @@ class TravelerInfo extends typeAccountTypeProfileInfo
 
     /**
      * @param StringLength6to128 $UniqueProfileID
-     * @return \FilippoToso\Travelport\UProfile\TravelerInfo
+     * @return \Santosdave\Travelport\UProfile\TravelerInfo
      */
     public function setUniqueProfileID($UniqueProfileID)
     {
@@ -371,7 +371,7 @@ class TravelerInfo extends typeAccountTypeProfileInfo
 
     /**
      * @param StringLength1to128 $Title
-     * @return \FilippoToso\Travelport\UProfile\TravelerInfo
+     * @return \Santosdave\Travelport\UProfile\TravelerInfo
      */
     public function setTitle($Title)
     {
@@ -389,7 +389,7 @@ class TravelerInfo extends typeAccountTypeProfileInfo
 
     /**
      * @param StringLength1to128 $Nickname
-     * @return \FilippoToso\Travelport\UProfile\TravelerInfo
+     * @return \Santosdave\Travelport\UProfile\TravelerInfo
      */
     public function setNickname($Nickname)
     {
@@ -407,7 +407,7 @@ class TravelerInfo extends typeAccountTypeProfileInfo
 
     /**
      * @param StringLength1to128 $OtherName
-     * @return \FilippoToso\Travelport\UProfile\TravelerInfo
+     * @return \Santosdave\Travelport\UProfile\TravelerInfo
      */
     public function setOtherName($OtherName)
     {
@@ -425,7 +425,7 @@ class TravelerInfo extends typeAccountTypeProfileInfo
 
     /**
      * @param StringLength1to128 $Suffix
-     * @return \FilippoToso\Travelport\UProfile\TravelerInfo
+     * @return \Santosdave\Travelport\UProfile\TravelerInfo
      */
     public function setSuffix($Suffix)
     {
@@ -443,7 +443,7 @@ class TravelerInfo extends typeAccountTypeProfileInfo
 
     /**
      * @param date $BirthDate
-     * @return \FilippoToso\Travelport\UProfile\TravelerInfo
+     * @return \Santosdave\Travelport\UProfile\TravelerInfo
      */
     public function setBirthDate($BirthDate)
     {
@@ -461,7 +461,7 @@ class TravelerInfo extends typeAccountTypeProfileInfo
 
     /**
      * @param typeGender $Gender
-     * @return \FilippoToso\Travelport\UProfile\TravelerInfo
+     * @return \Santosdave\Travelport\UProfile\TravelerInfo
      */
     public function setGender($Gender)
     {
@@ -479,7 +479,7 @@ class TravelerInfo extends typeAccountTypeProfileInfo
 
     /**
      * @param boolean $VipStatus
-     * @return \FilippoToso\Travelport\UProfile\TravelerInfo
+     * @return \Santosdave\Travelport\UProfile\TravelerInfo
      */
     public function setVipStatus($VipStatus)
     {
@@ -497,7 +497,7 @@ class TravelerInfo extends typeAccountTypeProfileInfo
 
     /**
      * @param StringLength1to50 $JobTitle
-     * @return \FilippoToso\Travelport\UProfile\TravelerInfo
+     * @return \Santosdave\Travelport\UProfile\TravelerInfo
      */
     public function setJobTitle($JobTitle)
     {
@@ -515,7 +515,7 @@ class TravelerInfo extends typeAccountTypeProfileInfo
 
     /**
      * @param StringLength1to255 $Disability
-     * @return \FilippoToso\Travelport\UProfile\TravelerInfo
+     * @return \Santosdave\Travelport\UProfile\TravelerInfo
      */
     public function setDisability($Disability)
     {
@@ -533,7 +533,7 @@ class TravelerInfo extends typeAccountTypeProfileInfo
 
     /**
      * @param typeCityOrAirport $HomeCityOrAirport
-     * @return \FilippoToso\Travelport\UProfile\TravelerInfo
+     * @return \Santosdave\Travelport\UProfile\TravelerInfo
      */
     public function setHomeCityOrAirport($HomeCityOrAirport)
     {
@@ -551,7 +551,7 @@ class TravelerInfo extends typeAccountTypeProfileInfo
 
     /**
      * @param anonymous639 $LocalLanguage
-     * @return \FilippoToso\Travelport\UProfile\TravelerInfo
+     * @return \Santosdave\Travelport\UProfile\TravelerInfo
      */
     public function setLocalLanguage($LocalLanguage)
     {
@@ -569,7 +569,7 @@ class TravelerInfo extends typeAccountTypeProfileInfo
 
     /**
      * @param StringLength1to128 $LocalLanguageGivenName
-     * @return \FilippoToso\Travelport\UProfile\TravelerInfo
+     * @return \Santosdave\Travelport\UProfile\TravelerInfo
      */
     public function setLocalLanguageGivenName($LocalLanguageGivenName)
     {
@@ -587,7 +587,7 @@ class TravelerInfo extends typeAccountTypeProfileInfo
 
     /**
      * @param StringLength1to128 $LocalLanguageSurname
-     * @return \FilippoToso\Travelport\UProfile\TravelerInfo
+     * @return \Santosdave\Travelport\UProfile\TravelerInfo
      */
     public function setLocalLanguageSurname($LocalLanguageSurname)
     {
@@ -605,7 +605,7 @@ class TravelerInfo extends typeAccountTypeProfileInfo
 
     /**
      * @param StringLength1to128 $LocalLanguageUsername
-     * @return \FilippoToso\Travelport\UProfile\TravelerInfo
+     * @return \Santosdave\Travelport\UProfile\TravelerInfo
      */
     public function setLocalLanguageUsername($LocalLanguageUsername)
     {

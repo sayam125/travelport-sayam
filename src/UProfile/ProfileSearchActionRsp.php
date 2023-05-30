@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class ProfileSearchActionRsp extends BaseRsp
 {
@@ -34,7 +34,7 @@ class ProfileSearchActionRsp extends BaseRsp
 
     /**
      * @param ActionSummary $ActionSummary
-     * @return \FilippoToso\Travelport\UProfile\ProfileSearchActionRsp
+     * @return \Santosdave\Travelport\UProfile\ProfileSearchActionRsp
      */
     public function setActionSummary($ActionSummary)
     {

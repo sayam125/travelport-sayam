@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class BaseSearchRsp extends BaseRsp
 {
@@ -34,7 +34,7 @@ class BaseSearchRsp extends BaseRsp
 
     /**
      * @param NextResultReference $NextResultReference
-     * @return \FilippoToso\Travelport\Air\BaseSearchRsp
+     * @return \Santosdave\Travelport\Air\BaseSearchRsp
      */
     public function setNextResultReference($NextResultReference)
     {

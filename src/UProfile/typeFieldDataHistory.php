@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeFieldDataHistory extends typeKeyElement
 {
@@ -58,7 +58,7 @@ class typeFieldDataHistory extends typeKeyElement
 
     /**
      * @param int $DisplayOrder
-     * @return \FilippoToso\Travelport\UProfile\typeFieldDataHistory
+     * @return \Santosdave\Travelport\UProfile\typeFieldDataHistory
      */
     public function setDisplayOrder($DisplayOrder)
     {
@@ -76,7 +76,7 @@ class typeFieldDataHistory extends typeKeyElement
 
     /**
      * @param StringLength1to255 $Value
-     * @return \FilippoToso\Travelport\UProfile\typeFieldDataHistory
+     * @return \Santosdave\Travelport\UProfile\typeFieldDataHistory
      */
     public function setValue($Value)
     {
@@ -94,7 +94,7 @@ class typeFieldDataHistory extends typeKeyElement
 
     /**
      * @param typeFieldID $FieldID
-     * @return \FilippoToso\Travelport\UProfile\typeFieldDataHistory
+     * @return \Santosdave\Travelport\UProfile\typeFieldDataHistory
      */
     public function setFieldID($FieldID)
     {
@@ -112,7 +112,7 @@ class typeFieldDataHistory extends typeKeyElement
 
     /**
      * @param StringLength1to255 $Name
-     * @return \FilippoToso\Travelport\UProfile\typeFieldDataHistory
+     * @return \Santosdave\Travelport\UProfile\typeFieldDataHistory
      */
     public function setName($Name)
     {
@@ -130,7 +130,7 @@ class typeFieldDataHistory extends typeKeyElement
 
     /**
      * @param typeProfileID $OwnerID
-     * @return \FilippoToso\Travelport\UProfile\typeFieldDataHistory
+     * @return \Santosdave\Travelport\UProfile\typeFieldDataHistory
      */
     public function setOwnerID($OwnerID)
     {

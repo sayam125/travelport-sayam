@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class FareRuleShort
 {
@@ -42,7 +42,7 @@ class FareRuleShort
 
     /**
      * @param FareRuleNameValue $FareRuleNameValue
-     * @return \FilippoToso\Travelport\UniversalRecord\FareRuleShort
+     * @return \Santosdave\Travelport\UniversalRecord\FareRuleShort
      */
     public function setFareRuleNameValue($FareRuleNameValue)
     {
@@ -60,7 +60,7 @@ class FareRuleShort
 
     /**
      * @param int $Category
-     * @return \FilippoToso\Travelport\UniversalRecord\FareRuleShort
+     * @return \Santosdave\Travelport\UniversalRecord\FareRuleShort
      */
     public function setCategory($Category)
     {
@@ -78,7 +78,7 @@ class FareRuleShort
 
     /**
      * @param string $TableNumber
-     * @return \FilippoToso\Travelport\UniversalRecord\FareRuleShort
+     * @return \Santosdave\Travelport\UniversalRecord\FareRuleShort
      */
     public function setTableNumber($TableNumber)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class PolicyReference extends typeKeyElement
 {
@@ -58,7 +58,7 @@ class PolicyReference extends typeKeyElement
 
     /**
      * @param StringLength1to128 $Type
-     * @return \FilippoToso\Travelport\UProfile\PolicyReference
+     * @return \Santosdave\Travelport\UProfile\PolicyReference
      */
     public function setType($Type)
     {
@@ -76,7 +76,7 @@ class PolicyReference extends typeKeyElement
 
     /**
      * @param StringLength1to255 $Value
-     * @return \FilippoToso\Travelport\UProfile\PolicyReference
+     * @return \Santosdave\Travelport\UProfile\PolicyReference
      */
     public function setValue($Value)
     {
@@ -94,7 +94,7 @@ class PolicyReference extends typeKeyElement
 
     /**
      * @param StringLength1to255 $Desc
-     * @return \FilippoToso\Travelport\UProfile\PolicyReference
+     * @return \Santosdave\Travelport\UProfile\PolicyReference
      */
     public function setDesc($Desc)
     {
@@ -112,7 +112,7 @@ class PolicyReference extends typeKeyElement
 
     /**
      * @param typeProfileID $ControllingPolicyID
-     * @return \FilippoToso\Travelport\UProfile\PolicyReference
+     * @return \Santosdave\Travelport\UProfile\PolicyReference
      */
     public function setControllingPolicyID($ControllingPolicyID)
     {
@@ -130,7 +130,7 @@ class PolicyReference extends typeKeyElement
 
     /**
      * @param typePriorityOrder $PriorityOrder
-     * @return \FilippoToso\Travelport\UProfile\PolicyReference
+     * @return \Santosdave\Travelport\UProfile\PolicyReference
      */
     public function setPriorityOrder($PriorityOrder)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class typeGuestChildInformation
 {
@@ -28,7 +28,7 @@ class typeGuestChildInformation
 
     /**
      * @param int $Age
-     * @return \FilippoToso\Travelport\GDSQueue\typeGuestChildInformation
+     * @return \Santosdave\Travelport\GDSQueue\typeGuestChildInformation
      */
     public function setAge($Age)
     {

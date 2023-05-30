@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class ExemptTaxes
 {
@@ -52,7 +52,7 @@ class ExemptTaxes
 
     /**
      * @param typeCountry[] $CountryCode
-     * @return \FilippoToso\Travelport\UniversalRecord\ExemptTaxes
+     * @return \Santosdave\Travelport\UniversalRecord\ExemptTaxes
      */
     public function setCountryCode(array $CountryCode = null)
     {
@@ -70,7 +70,7 @@ class ExemptTaxes
 
     /**
      * @param string[] $TaxCategory
-     * @return \FilippoToso\Travelport\UniversalRecord\ExemptTaxes
+     * @return \Santosdave\Travelport\UniversalRecord\ExemptTaxes
      */
     public function setTaxCategory(array $TaxCategory = null)
     {
@@ -88,7 +88,7 @@ class ExemptTaxes
 
     /**
      * @param boolean $AllTaxes
-     * @return \FilippoToso\Travelport\UniversalRecord\ExemptTaxes
+     * @return \Santosdave\Travelport\UniversalRecord\ExemptTaxes
      */
     public function setAllTaxes($AllTaxes)
     {
@@ -106,7 +106,7 @@ class ExemptTaxes
 
     /**
      * @param anonymous737 $TaxTerritory
-     * @return \FilippoToso\Travelport\UniversalRecord\ExemptTaxes
+     * @return \Santosdave\Travelport\UniversalRecord\ExemptTaxes
      */
     public function setTaxTerritory($TaxTerritory)
     {
@@ -124,7 +124,7 @@ class ExemptTaxes
 
     /**
      * @param anonymous738 $CompanyName
-     * @return \FilippoToso\Travelport\UniversalRecord\ExemptTaxes
+     * @return \Santosdave\Travelport\UniversalRecord\ExemptTaxes
      */
     public function setCompanyName($CompanyName)
     {

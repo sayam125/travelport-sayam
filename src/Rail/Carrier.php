@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class Carrier
 {
@@ -28,7 +28,7 @@ class Carrier
 
     /**
      * @param typeCarrier $Code
-     * @return \FilippoToso\Travelport\Rail\Carrier
+     * @return \Santosdave\Travelport\Rail\Carrier
      */
     public function setCode($Code)
     {

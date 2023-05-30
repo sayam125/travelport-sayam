@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class KeyMapping
 {
@@ -42,7 +42,7 @@ class KeyMapping
 
     /**
      * @param string $ElementName
-     * @return \FilippoToso\Travelport\Hotel\KeyMapping
+     * @return \Santosdave\Travelport\Hotel\KeyMapping
      */
     public function setElementName($ElementName)
     {
@@ -60,7 +60,7 @@ class KeyMapping
 
     /**
      * @param string $OriginalKey
-     * @return \FilippoToso\Travelport\Hotel\KeyMapping
+     * @return \Santosdave\Travelport\Hotel\KeyMapping
      */
     public function setOriginalKey($OriginalKey)
     {
@@ -78,7 +78,7 @@ class KeyMapping
 
     /**
      * @param string $NewKey
-     * @return \FilippoToso\Travelport\Hotel\KeyMapping
+     * @return \Santosdave\Travelport\Hotel\KeyMapping
      */
     public function setNewKey($NewKey)
     {

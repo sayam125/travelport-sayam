@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class ContinuityCheckOverride
 {
@@ -35,7 +35,7 @@ class ContinuityCheckOverride
 
     /**
      * @param typeNonBlanks $_
-     * @return \FilippoToso\Travelport\Rail\ContinuityCheckOverride
+     * @return \Santosdave\Travelport\Rail\ContinuityCheckOverride
      */
     public function set_($_)
     {
@@ -53,7 +53,7 @@ class ContinuityCheckOverride
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Rail\ContinuityCheckOverride
+     * @return \Santosdave\Travelport\Rail\ContinuityCheckOverride
      */
     public function setKey($Key)
     {

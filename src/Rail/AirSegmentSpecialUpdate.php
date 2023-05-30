@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class AirSegmentSpecialUpdate
 {
@@ -35,7 +35,7 @@ class AirSegmentSpecialUpdate
 
     /**
      * @param typeBaseAirSegment $AirSegment
-     * @return \FilippoToso\Travelport\Rail\AirSegmentSpecialUpdate
+     * @return \Santosdave\Travelport\Rail\AirSegmentSpecialUpdate
      */
     public function setAirSegment($AirSegment)
     {
@@ -53,7 +53,7 @@ class AirSegmentSpecialUpdate
 
     /**
      * @param anonymous1387 $Action
-     * @return \FilippoToso\Travelport\Rail\AirSegmentSpecialUpdate
+     * @return \Santosdave\Travelport\Rail\AirSegmentSpecialUpdate
      */
     public function setAction($Action)
     {

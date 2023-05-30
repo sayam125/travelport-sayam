@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class EMDTravelerInfo
 {
@@ -42,7 +42,7 @@ class EMDTravelerInfo
 
     /**
      * @param NameInfo $NameInfo
-     * @return \FilippoToso\Travelport\Rail\EMDTravelerInfo
+     * @return \Santosdave\Travelport\Rail\EMDTravelerInfo
      */
     public function setNameInfo($NameInfo)
     {
@@ -60,7 +60,7 @@ class EMDTravelerInfo
 
     /**
      * @param typePTC $TravelerType
-     * @return \FilippoToso\Travelport\Rail\EMDTravelerInfo
+     * @return \Santosdave\Travelport\Rail\EMDTravelerInfo
      */
     public function setTravelerType($TravelerType)
     {
@@ -78,7 +78,7 @@ class EMDTravelerInfo
 
     /**
      * @param int $Age
-     * @return \FilippoToso\Travelport\Rail\EMDTravelerInfo
+     * @return \Santosdave\Travelport\Rail\EMDTravelerInfo
      */
     public function setAge($Age)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class ARCPayment
 {
@@ -35,7 +35,7 @@ class ARCPayment
 
     /**
      * @param anonymous50 $ARCIdentifier
-     * @return \FilippoToso\Travelport\GDSQueue\ARCPayment
+     * @return \Santosdave\Travelport\GDSQueue\ARCPayment
      */
     public function setARCIdentifier($ARCIdentifier)
     {
@@ -53,7 +53,7 @@ class ARCPayment
 
     /**
      * @param anonymous51 $ARCPassword
-     * @return \FilippoToso\Travelport\GDSQueue\ARCPayment
+     * @return \Santosdave\Travelport\GDSQueue\ARCPayment
      */
     public function setARCPassword($ARCPassword)
     {

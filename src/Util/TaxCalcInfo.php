@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class TaxCalcInfo
 {
@@ -63,7 +63,7 @@ class TaxCalcInfo
 
     /**
      * @param typeIATACode $Origin
-     * @return \FilippoToso\Travelport\Util\TaxCalcInfo
+     * @return \Santosdave\Travelport\Util\TaxCalcInfo
      */
     public function setOrigin($Origin)
     {
@@ -81,7 +81,7 @@ class TaxCalcInfo
 
     /**
      * @param typeIATACode $Destination
-     * @return \FilippoToso\Travelport\Util\TaxCalcInfo
+     * @return \Santosdave\Travelport\Util\TaxCalcInfo
      */
     public function setDestination($Destination)
     {
@@ -99,7 +99,7 @@ class TaxCalcInfo
 
     /**
      * @param typeMoney $BaseFare
-     * @return \FilippoToso\Travelport\Util\TaxCalcInfo
+     * @return \Santosdave\Travelport\Util\TaxCalcInfo
      */
     public function setBaseFare($BaseFare)
     {
@@ -117,7 +117,7 @@ class TaxCalcInfo
 
     /**
      * @param typeMoney $QSurcharge
-     * @return \FilippoToso\Travelport\Util\TaxCalcInfo
+     * @return \Santosdave\Travelport\Util\TaxCalcInfo
      */
     public function setQSurcharge($QSurcharge)
     {
@@ -135,7 +135,7 @@ class TaxCalcInfo
 
     /**
      * @param typeMoney $StopOverFee
-     * @return \FilippoToso\Travelport\Util\TaxCalcInfo
+     * @return \Santosdave\Travelport\Util\TaxCalcInfo
      */
     public function setStopOverFee($StopOverFee)
     {
@@ -153,7 +153,7 @@ class TaxCalcInfo
 
     /**
      * @param typeMoney $Tax
-     * @return \FilippoToso\Travelport\Util\TaxCalcInfo
+     * @return \Santosdave\Travelport\Util\TaxCalcInfo
      */
     public function setTax($Tax)
     {

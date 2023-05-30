@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class AirFareDisplayModifiers
 {
@@ -178,7 +178,7 @@ class AirFareDisplayModifiers
 
     /**
      * @param typeFareTripType[] $TripType
-     * @return \FilippoToso\Travelport\Util\AirFareDisplayModifiers
+     * @return \Santosdave\Travelport\Util\AirFareDisplayModifiers
      */
     public function setTripType(array $TripType = null)
     {
@@ -196,7 +196,7 @@ class AirFareDisplayModifiers
 
     /**
      * @param CabinClass $CabinClass
-     * @return \FilippoToso\Travelport\Util\AirFareDisplayModifiers
+     * @return \Santosdave\Travelport\Util\AirFareDisplayModifiers
      */
     public function setCabinClass($CabinClass)
     {
@@ -214,7 +214,7 @@ class AirFareDisplayModifiers
 
     /**
      * @param PenaltyFareInformation $PenaltyFareInformation
-     * @return \FilippoToso\Travelport\Util\AirFareDisplayModifiers
+     * @return \Santosdave\Travelport\Util\AirFareDisplayModifiers
      */
     public function setPenaltyFareInformation($PenaltyFareInformation)
     {
@@ -232,7 +232,7 @@ class AirFareDisplayModifiers
 
     /**
      * @param typeFareSearchOption[] $FareSearchOption
-     * @return \FilippoToso\Travelport\Util\AirFareDisplayModifiers
+     * @return \Santosdave\Travelport\Util\AirFareDisplayModifiers
      */
     public function setFareSearchOption(array $FareSearchOption = null)
     {
@@ -250,7 +250,7 @@ class AirFareDisplayModifiers
 
     /**
      * @param int $MaxResponses
-     * @return \FilippoToso\Travelport\Util\AirFareDisplayModifiers
+     * @return \Santosdave\Travelport\Util\AirFareDisplayModifiers
      */
     public function setMaxResponses($MaxResponses)
     {
@@ -268,7 +268,7 @@ class AirFareDisplayModifiers
 
     /**
      * @param date $DepartureDate
-     * @return \FilippoToso\Travelport\Util\AirFareDisplayModifiers
+     * @return \Santosdave\Travelport\Util\AirFareDisplayModifiers
      */
     public function setDepartureDate($DepartureDate)
     {
@@ -286,7 +286,7 @@ class AirFareDisplayModifiers
 
     /**
      * @param date $TicketingDate
-     * @return \FilippoToso\Travelport\Util\AirFareDisplayModifiers
+     * @return \Santosdave\Travelport\Util\AirFareDisplayModifiers
      */
     public function setTicketingDate($TicketingDate)
     {
@@ -304,7 +304,7 @@ class AirFareDisplayModifiers
 
     /**
      * @param date $ReturnDate
-     * @return \FilippoToso\Travelport\Util\AirFareDisplayModifiers
+     * @return \Santosdave\Travelport\Util\AirFareDisplayModifiers
      */
     public function setReturnDate($ReturnDate)
     {
@@ -322,7 +322,7 @@ class AirFareDisplayModifiers
 
     /**
      * @param boolean $BaseFareOnly
-     * @return \FilippoToso\Travelport\Util\AirFareDisplayModifiers
+     * @return \Santosdave\Travelport\Util\AirFareDisplayModifiers
      */
     public function setBaseFareOnly($BaseFareOnly)
     {
@@ -340,7 +340,7 @@ class AirFareDisplayModifiers
 
     /**
      * @param boolean $UnrestrictedFaresOnly
-     * @return \FilippoToso\Travelport\Util\AirFareDisplayModifiers
+     * @return \Santosdave\Travelport\Util\AirFareDisplayModifiers
      */
     public function setUnrestrictedFaresOnly($UnrestrictedFaresOnly)
     {
@@ -358,7 +358,7 @@ class AirFareDisplayModifiers
 
     /**
      * @param typeFaresIndicator $FaresIndicator
-     * @return \FilippoToso\Travelport\Util\AirFareDisplayModifiers
+     * @return \Santosdave\Travelport\Util\AirFareDisplayModifiers
      */
     public function setFaresIndicator($FaresIndicator)
     {
@@ -376,7 +376,7 @@ class AirFareDisplayModifiers
 
     /**
      * @param typeCurrency $CurrencyType
-     * @return \FilippoToso\Travelport\Util\AirFareDisplayModifiers
+     * @return \Santosdave\Travelport\Util\AirFareDisplayModifiers
      */
     public function setCurrencyType($CurrencyType)
     {
@@ -394,7 +394,7 @@ class AirFareDisplayModifiers
 
     /**
      * @param boolean $IncludeTaxes
-     * @return \FilippoToso\Travelport\Util\AirFareDisplayModifiers
+     * @return \Santosdave\Travelport\Util\AirFareDisplayModifiers
      */
     public function setIncludeTaxes($IncludeTaxes)
     {
@@ -412,7 +412,7 @@ class AirFareDisplayModifiers
 
     /**
      * @param boolean $IncludeEstimatedTaxes
-     * @return \FilippoToso\Travelport\Util\AirFareDisplayModifiers
+     * @return \Santosdave\Travelport\Util\AirFareDisplayModifiers
      */
     public function setIncludeEstimatedTaxes($IncludeEstimatedTaxes)
     {
@@ -430,7 +430,7 @@ class AirFareDisplayModifiers
 
     /**
      * @param boolean $IncludeSurcharges
-     * @return \FilippoToso\Travelport\Util\AirFareDisplayModifiers
+     * @return \Santosdave\Travelport\Util\AirFareDisplayModifiers
      */
     public function setIncludeSurcharges($IncludeSurcharges)
     {
@@ -448,7 +448,7 @@ class AirFareDisplayModifiers
 
     /**
      * @param typeATPCOGlobalIndicator $GlobalIndicator
-     * @return \FilippoToso\Travelport\Util\AirFareDisplayModifiers
+     * @return \Santosdave\Travelport\Util\AirFareDisplayModifiers
      */
     public function setGlobalIndicator($GlobalIndicator)
     {
@@ -466,7 +466,7 @@ class AirFareDisplayModifiers
 
     /**
      * @param boolean $ProhibitMinStayFares
-     * @return \FilippoToso\Travelport\Util\AirFareDisplayModifiers
+     * @return \Santosdave\Travelport\Util\AirFareDisplayModifiers
      */
     public function setProhibitMinStayFares($ProhibitMinStayFares)
     {
@@ -484,7 +484,7 @@ class AirFareDisplayModifiers
 
     /**
      * @param boolean $ProhibitMaxStayFares
-     * @return \FilippoToso\Travelport\Util\AirFareDisplayModifiers
+     * @return \Santosdave\Travelport\Util\AirFareDisplayModifiers
      */
     public function setProhibitMaxStayFares($ProhibitMaxStayFares)
     {
@@ -502,7 +502,7 @@ class AirFareDisplayModifiers
 
     /**
      * @param boolean $ProhibitAdvancePurchaseFares
-     * @return \FilippoToso\Travelport\Util\AirFareDisplayModifiers
+     * @return \Santosdave\Travelport\Util\AirFareDisplayModifiers
      */
     public function setProhibitAdvancePurchaseFares($ProhibitAdvancePurchaseFares)
     {
@@ -520,7 +520,7 @@ class AirFareDisplayModifiers
 
     /**
      * @param boolean $ProhibitNonRefundableFares
-     * @return \FilippoToso\Travelport\Util\AirFareDisplayModifiers
+     * @return \Santosdave\Travelport\Util\AirFareDisplayModifiers
      */
     public function setProhibitNonRefundableFares($ProhibitNonRefundableFares)
     {
@@ -538,7 +538,7 @@ class AirFareDisplayModifiers
 
     /**
      * @param boolean $ValidatedFaresOnly
-     * @return \FilippoToso\Travelport\Util\AirFareDisplayModifiers
+     * @return \Santosdave\Travelport\Util\AirFareDisplayModifiers
      */
     public function setValidatedFaresOnly($ValidatedFaresOnly)
     {
@@ -556,7 +556,7 @@ class AirFareDisplayModifiers
 
     /**
      * @param boolean $ProhibitTravelRestrictedFares
-     * @return \FilippoToso\Travelport\Util\AirFareDisplayModifiers
+     * @return \Santosdave\Travelport\Util\AirFareDisplayModifiers
      */
     public function setProhibitTravelRestrictedFares($ProhibitTravelRestrictedFares)
     {
@@ -574,7 +574,7 @@ class AirFareDisplayModifiers
 
     /**
      * @param typeCurrency $FiledCurrency
-     * @return \FilippoToso\Travelport\Util\AirFareDisplayModifiers
+     * @return \Santosdave\Travelport\Util\AirFareDisplayModifiers
      */
     public function setFiledCurrency($FiledCurrency)
     {

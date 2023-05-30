@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class SavedTripSearchModifiers extends BaseSearchModifiers
 {
@@ -43,7 +43,7 @@ class SavedTripSearchModifiers extends BaseSearchModifiers
 
     /**
      * @param string $SavedTripName
-     * @return \FilippoToso\Travelport\UniversalRecord\SavedTripSearchModifiers
+     * @return \Santosdave\Travelport\UniversalRecord\SavedTripSearchModifiers
      */
     public function setSavedTripName($SavedTripName)
     {
@@ -61,7 +61,7 @@ class SavedTripSearchModifiers extends BaseSearchModifiers
 
     /**
      * @param boolean $ExcludeURAssociated
-     * @return \FilippoToso\Travelport\UniversalRecord\SavedTripSearchModifiers
+     * @return \Santosdave\Travelport\UniversalRecord\SavedTripSearchModifiers
      */
     public function setExcludeURAssociated($ExcludeURAssociated)
     {

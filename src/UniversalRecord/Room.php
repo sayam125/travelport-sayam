@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class Room
 {
@@ -35,7 +35,7 @@ class Room
 
     /**
      * @param int $Capacity
-     * @return \FilippoToso\Travelport\UniversalRecord\Room
+     * @return \Santosdave\Travelport\UniversalRecord\Room
      */
     public function setCapacity($Capacity)
     {
@@ -53,7 +53,7 @@ class Room
 
     /**
      * @param int $Quantity
-     * @return \FilippoToso\Travelport\UniversalRecord\Room
+     * @return \Santosdave\Travelport\UniversalRecord\Room
      */
     public function setQuantity($Quantity)
     {

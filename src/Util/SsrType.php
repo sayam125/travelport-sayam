@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class SsrType
 {
@@ -70,7 +70,7 @@ class SsrType
 
     /**
      * @param string $Code
-     * @return \FilippoToso\Travelport\Util\SsrType
+     * @return \Santosdave\Travelport\Util\SsrType
      */
     public function setCode($Code)
     {
@@ -88,7 +88,7 @@ class SsrType
 
     /**
      * @param string $Description
-     * @return \FilippoToso\Travelport\Util\SsrType
+     * @return \Santosdave\Travelport\Util\SsrType
      */
     public function setDescription($Description)
     {
@@ -106,7 +106,7 @@ class SsrType
 
     /**
      * @param string $Providers
-     * @return \FilippoToso\Travelport\Util\SsrType
+     * @return \Santosdave\Travelport\Util\SsrType
      */
     public function setProviders($Providers)
     {
@@ -124,7 +124,7 @@ class SsrType
 
     /**
      * @param string $Level
-     * @return \FilippoToso\Travelport\Util\SsrType
+     * @return \Santosdave\Travelport\Util\SsrType
      */
     public function setLevel($Level)
     {
@@ -142,7 +142,7 @@ class SsrType
 
     /**
      * @param string $FreeTextRequired
-     * @return \FilippoToso\Travelport\Util\SsrType
+     * @return \Santosdave\Travelport\Util\SsrType
      */
     public function setFreeTextRequired($FreeTextRequired)
     {
@@ -160,7 +160,7 @@ class SsrType
 
     /**
      * @param string $Pattern
-     * @return \FilippoToso\Travelport\Util\SsrType
+     * @return \Santosdave\Travelport\Util\SsrType
      */
     public function setPattern($Pattern)
     {
@@ -178,7 +178,7 @@ class SsrType
 
     /**
      * @param string $HelpText
-     * @return \FilippoToso\Travelport\Util\SsrType
+     * @return \Santosdave\Travelport\Util\SsrType
      */
     public function setHelpText($HelpText)
     {

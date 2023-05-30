@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class AirExchangeMultiQuoteReq extends BaseAirExchangeMultiQuoteReq
 {
@@ -43,7 +43,7 @@ class AirExchangeMultiQuoteReq extends BaseAirExchangeMultiQuoteReq
 
     /**
      * @param string $Type
-     * @return \FilippoToso\Travelport\Air\AirExchangeMultiQuoteReq
+     * @return \Santosdave\Travelport\Air\AirExchangeMultiQuoteReq
      */
     public function setType($Type)
     {

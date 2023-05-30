@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class typeHotelDetails
 {
@@ -49,7 +49,7 @@ class typeHotelDetails
 
     /**
      * @param HotelProperty $HotelProperty
-     * @return \FilippoToso\Travelport\Hotel\typeHotelDetails
+     * @return \Santosdave\Travelport\Hotel\typeHotelDetails
      */
     public function setHotelProperty($HotelProperty)
     {
@@ -67,7 +67,7 @@ class typeHotelDetails
 
     /**
      * @param HotelDetailItem $HotelDetailItem
-     * @return \FilippoToso\Travelport\Hotel\typeHotelDetails
+     * @return \Santosdave\Travelport\Hotel\typeHotelDetails
      */
     public function setHotelDetailItem($HotelDetailItem)
     {
@@ -85,7 +85,7 @@ class typeHotelDetails
 
     /**
      * @param HotelRateDetail $HotelRateDetail
-     * @return \FilippoToso\Travelport\Hotel\typeHotelDetails
+     * @return \Santosdave\Travelport\Hotel\typeHotelDetails
      */
     public function setHotelRateDetail($HotelRateDetail)
     {
@@ -103,7 +103,7 @@ class typeHotelDetails
 
     /**
      * @param MediaItem $MediaItem
-     * @return \FilippoToso\Travelport\Hotel\typeHotelDetails
+     * @return \Santosdave\Travelport\Hotel\typeHotelDetails
      */
     public function setMediaItem($MediaItem)
     {

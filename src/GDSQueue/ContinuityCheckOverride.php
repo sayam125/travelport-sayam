@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class ContinuityCheckOverride
 {
@@ -35,7 +35,7 @@ class ContinuityCheckOverride
 
     /**
      * @param typeNonBlanks $_
-     * @return \FilippoToso\Travelport\GDSQueue\ContinuityCheckOverride
+     * @return \Santosdave\Travelport\GDSQueue\ContinuityCheckOverride
      */
     public function set_($_)
     {
@@ -53,7 +53,7 @@ class ContinuityCheckOverride
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\GDSQueue\ContinuityCheckOverride
+     * @return \Santosdave\Travelport\GDSQueue\ContinuityCheckOverride
      */
     public function setKey($Key)
     {

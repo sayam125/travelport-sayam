@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class VehicleReturnDateLocation
 {
@@ -49,7 +49,7 @@ class VehicleReturnDateLocation
 
     /**
      * @param string $ReturnDateTime
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleReturnDateLocation
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleReturnDateLocation
      */
     public function setReturnDateTime($ReturnDateTime)
     {
@@ -67,7 +67,7 @@ class VehicleReturnDateLocation
 
     /**
      * @param typeIATACode $ReturnLocation
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleReturnDateLocation
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleReturnDateLocation
      */
     public function setReturnLocation($ReturnLocation)
     {
@@ -85,7 +85,7 @@ class VehicleReturnDateLocation
 
     /**
      * @param typeVehicleLocation $ReturnLocationType
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleReturnDateLocation
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleReturnDateLocation
      */
     public function setReturnLocationType($ReturnLocationType)
     {
@@ -103,7 +103,7 @@ class VehicleReturnDateLocation
 
     /**
      * @param string $ReturnLocationNumber
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleReturnDateLocation
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleReturnDateLocation
      */
     public function setReturnLocationNumber($ReturnLocationNumber)
     {

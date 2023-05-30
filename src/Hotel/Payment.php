@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class Payment
 {
@@ -91,7 +91,7 @@ class Payment
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Hotel\Payment
+     * @return \Santosdave\Travelport\Hotel\Payment
      */
     public function setKey($Key)
     {
@@ -109,7 +109,7 @@ class Payment
 
     /**
      * @param anonymous313 $Type
-     * @return \FilippoToso\Travelport\Hotel\Payment
+     * @return \Santosdave\Travelport\Hotel\Payment
      */
     public function setType($Type)
     {
@@ -127,7 +127,7 @@ class Payment
 
     /**
      * @param typeRef $FormOfPaymentRef
-     * @return \FilippoToso\Travelport\Hotel\Payment
+     * @return \Santosdave\Travelport\Hotel\Payment
      */
     public function setFormOfPaymentRef($FormOfPaymentRef)
     {
@@ -145,7 +145,7 @@ class Payment
 
     /**
      * @param typeRef $BookingTravelerRef
-     * @return \FilippoToso\Travelport\Hotel\Payment
+     * @return \Santosdave\Travelport\Hotel\Payment
      */
     public function setBookingTravelerRef($BookingTravelerRef)
     {
@@ -163,7 +163,7 @@ class Payment
 
     /**
      * @param typeMoney $Amount
-     * @return \FilippoToso\Travelport\Hotel\Payment
+     * @return \Santosdave\Travelport\Hotel\Payment
      */
     public function setAmount($Amount)
     {
@@ -181,7 +181,7 @@ class Payment
 
     /**
      * @param StringLength1to32 $AmountType
-     * @return \FilippoToso\Travelport\Hotel\Payment
+     * @return \Santosdave\Travelport\Hotel\Payment
      */
     public function setAmountType($AmountType)
     {
@@ -199,7 +199,7 @@ class Payment
 
     /**
      * @param typeMoney $ApproximateAmount
-     * @return \FilippoToso\Travelport\Hotel\Payment
+     * @return \Santosdave\Travelport\Hotel\Payment
      */
     public function setApproximateAmount($ApproximateAmount)
     {
@@ -217,7 +217,7 @@ class Payment
 
     /**
      * @param string $Status
-     * @return \FilippoToso\Travelport\Hotel\Payment
+     * @return \Santosdave\Travelport\Hotel\Payment
      */
     public function setStatus($Status)
     {
@@ -235,7 +235,7 @@ class Payment
 
     /**
      * @param typeElementStatus $ElStat
-     * @return \FilippoToso\Travelport\Hotel\Payment
+     * @return \Santosdave\Travelport\Hotel\Payment
      */
     public function setElStat($ElStat)
     {
@@ -253,7 +253,7 @@ class Payment
 
     /**
      * @param boolean $KeyOverride
-     * @return \FilippoToso\Travelport\Hotel\Payment
+     * @return \Santosdave\Travelport\Hotel\Payment
      */
     public function setKeyOverride($KeyOverride)
     {

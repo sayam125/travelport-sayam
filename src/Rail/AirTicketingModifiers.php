@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class AirTicketingModifiers
 {
@@ -105,7 +105,7 @@ class AirTicketingModifiers
 
     /**
      * @param DocumentModifiers $DocumentModifiers
-     * @return \FilippoToso\Travelport\Rail\AirTicketingModifiers
+     * @return \Santosdave\Travelport\Rail\AirTicketingModifiers
      */
     public function setDocumentModifiers($DocumentModifiers)
     {
@@ -123,7 +123,7 @@ class AirTicketingModifiers
 
     /**
      * @param AirPricingInfoRef $AirPricingInfoRef
-     * @return \FilippoToso\Travelport\Rail\AirTicketingModifiers
+     * @return \Santosdave\Travelport\Rail\AirTicketingModifiers
      */
     public function setAirPricingInfoRef($AirPricingInfoRef)
     {
@@ -141,7 +141,7 @@ class AirTicketingModifiers
 
     /**
      * @param TourCode $TourCode
-     * @return \FilippoToso\Travelport\Rail\AirTicketingModifiers
+     * @return \Santosdave\Travelport\Rail\AirTicketingModifiers
      */
     public function setTourCode($TourCode)
     {
@@ -159,7 +159,7 @@ class AirTicketingModifiers
 
     /**
      * @param TicketEndorsement $TicketEndorsement
-     * @return \FilippoToso\Travelport\Rail\AirTicketingModifiers
+     * @return \Santosdave\Travelport\Rail\AirTicketingModifiers
      */
     public function setTicketEndorsement($TicketEndorsement)
     {
@@ -177,7 +177,7 @@ class AirTicketingModifiers
 
     /**
      * @param Commission $Commission
-     * @return \FilippoToso\Travelport\Rail\AirTicketingModifiers
+     * @return \Santosdave\Travelport\Rail\AirTicketingModifiers
      */
     public function setCommission($Commission)
     {
@@ -195,7 +195,7 @@ class AirTicketingModifiers
 
     /**
      * @param FormOfPayment $FormOfPayment
-     * @return \FilippoToso\Travelport\Rail\AirTicketingModifiers
+     * @return \Santosdave\Travelport\Rail\AirTicketingModifiers
      */
     public function setFormOfPayment($FormOfPayment)
     {
@@ -213,7 +213,7 @@ class AirTicketingModifiers
 
     /**
      * @param CreditCardAuth $CreditCardAuth
-     * @return \FilippoToso\Travelport\Rail\AirTicketingModifiers
+     * @return \Santosdave\Travelport\Rail\AirTicketingModifiers
      */
     public function setCreditCardAuth($CreditCardAuth)
     {
@@ -231,7 +231,7 @@ class AirTicketingModifiers
 
     /**
      * @param Payment $Payment
-     * @return \FilippoToso\Travelport\Rail\AirTicketingModifiers
+     * @return \Santosdave\Travelport\Rail\AirTicketingModifiers
      */
     public function setPayment($Payment)
     {
@@ -249,7 +249,7 @@ class AirTicketingModifiers
 
     /**
      * @param typeCarrier $PlatingCarrier
-     * @return \FilippoToso\Travelport\Rail\AirTicketingModifiers
+     * @return \Santosdave\Travelport\Rail\AirTicketingModifiers
      */
     public function setPlatingCarrier($PlatingCarrier)
     {
@@ -267,7 +267,7 @@ class AirTicketingModifiers
 
     /**
      * @param boolean $TicketedFareOverride
-     * @return \FilippoToso\Travelport\Rail\AirTicketingModifiers
+     * @return \Santosdave\Travelport\Rail\AirTicketingModifiers
      */
     public function setTicketedFareOverride($TicketedFareOverride)
     {
@@ -285,7 +285,7 @@ class AirTicketingModifiers
 
     /**
      * @param boolean $SuppressTaxAndFee
-     * @return \FilippoToso\Travelport\Rail\AirTicketingModifiers
+     * @return \Santosdave\Travelport\Rail\AirTicketingModifiers
      */
     public function setSuppressTaxAndFee($SuppressTaxAndFee)
     {
@@ -303,7 +303,7 @@ class AirTicketingModifiers
 
     /**
      * @param boolean $NoComparisonSFQ
-     * @return \FilippoToso\Travelport\Rail\AirTicketingModifiers
+     * @return \Santosdave\Travelport\Rail\AirTicketingModifiers
      */
     public function setNoComparisonSFQ($NoComparisonSFQ)
     {

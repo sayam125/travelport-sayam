@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class TourCode
 {
@@ -28,7 +28,7 @@ class TourCode
 
     /**
      * @param typeTourCode $Value
-     * @return \FilippoToso\Travelport\Air\TourCode
+     * @return \Santosdave\Travelport\Air\TourCode
      */
     public function setValue($Value)
     {

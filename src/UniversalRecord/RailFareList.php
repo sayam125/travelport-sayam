@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class RailFareList
 {
@@ -28,7 +28,7 @@ class RailFareList
 
     /**
      * @param RailFare $RailFare
-     * @return \FilippoToso\Travelport\UniversalRecord\RailFareList
+     * @return \Santosdave\Travelport\UniversalRecord\RailFareList
      */
     public function setRailFare($RailFare)
     {

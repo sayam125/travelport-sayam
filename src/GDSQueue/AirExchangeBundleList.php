@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class AirExchangeBundleList
 {
@@ -28,7 +28,7 @@ class AirExchangeBundleList
 
     /**
      * @param AirExchangeBundle $AirExchangeBundle
-     * @return \FilippoToso\Travelport\GDSQueue\AirExchangeBundleList
+     * @return \Santosdave\Travelport\GDSQueue\AirExchangeBundleList
      */
     public function setAirExchangeBundle($AirExchangeBundle)
     {

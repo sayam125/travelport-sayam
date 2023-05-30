@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class BrandList
 {
@@ -28,7 +28,7 @@ class BrandList
 
     /**
      * @param Brand $Brand
-     * @return \FilippoToso\Travelport\Air\BrandList
+     * @return \Santosdave\Travelport\Air\BrandList
      */
     public function setBrand($Brand)
     {

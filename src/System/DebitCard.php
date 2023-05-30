@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\System;
+namespace Santosdave\Travelport\System;
 
 class DebitCard extends typePaymentCard
 {
@@ -50,7 +50,7 @@ class DebitCard extends typePaymentCard
 
     /**
      * @param anonymous28 $IssueNumber
-     * @return \FilippoToso\Travelport\System\DebitCard
+     * @return \Santosdave\Travelport\System\DebitCard
      */
     public function setIssueNumber($IssueNumber)
     {
@@ -68,7 +68,7 @@ class DebitCard extends typePaymentCard
 
     /**
      * @param string $ProfileID
-     * @return \FilippoToso\Travelport\System\DebitCard
+     * @return \Santosdave\Travelport\System\DebitCard
      */
     public function setProfileID($ProfileID)
     {
@@ -86,7 +86,7 @@ class DebitCard extends typePaymentCard
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\System\DebitCard
+     * @return \Santosdave\Travelport\System\DebitCard
      */
     public function setKey($Key)
     {

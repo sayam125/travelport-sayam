@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeFormOfPaymentType extends typeKeyTaggedElement
 {
@@ -149,7 +149,7 @@ class typeFormOfPaymentType extends typeKeyTaggedElement
 
     /**
      * @param CreditCard $CreditCard
-     * @return \FilippoToso\Travelport\UProfile\typeFormOfPaymentType
+     * @return \Santosdave\Travelport\UProfile\typeFormOfPaymentType
      */
     public function setCreditCard($CreditCard)
     {
@@ -167,7 +167,7 @@ class typeFormOfPaymentType extends typeKeyTaggedElement
 
     /**
      * @param typePaymentCard $DebitCard
-     * @return \FilippoToso\Travelport\UProfile\typeFormOfPaymentType
+     * @return \Santosdave\Travelport\UProfile\typeFormOfPaymentType
      */
     public function setDebitCard($DebitCard)
     {
@@ -185,7 +185,7 @@ class typeFormOfPaymentType extends typeKeyTaggedElement
 
     /**
      * @param Certificate $Certificate
-     * @return \FilippoToso\Travelport\UProfile\typeFormOfPaymentType
+     * @return \Santosdave\Travelport\UProfile\typeFormOfPaymentType
      */
     public function setCertificate($Certificate)
     {
@@ -203,7 +203,7 @@ class typeFormOfPaymentType extends typeKeyTaggedElement
 
     /**
      * @param StringLength1to13 $TicketNumber
-     * @return \FilippoToso\Travelport\UProfile\typeFormOfPaymentType
+     * @return \Santosdave\Travelport\UProfile\typeFormOfPaymentType
      */
     public function setTicketNumber($TicketNumber)
     {
@@ -221,7 +221,7 @@ class typeFormOfPaymentType extends typeKeyTaggedElement
 
     /**
      * @param Check $Check
-     * @return \FilippoToso\Travelport\UProfile\typeFormOfPaymentType
+     * @return \Santosdave\Travelport\UProfile\typeFormOfPaymentType
      */
     public function setCheck($Check)
     {
@@ -239,7 +239,7 @@ class typeFormOfPaymentType extends typeKeyTaggedElement
 
     /**
      * @param Requisition $Requisition
-     * @return \FilippoToso\Travelport\UProfile\typeFormOfPaymentType
+     * @return \Santosdave\Travelport\UProfile\typeFormOfPaymentType
      */
     public function setRequisition($Requisition)
     {
@@ -257,7 +257,7 @@ class typeFormOfPaymentType extends typeKeyTaggedElement
 
     /**
      * @param MiscFormOfPayment $MiscFormOfPayment
-     * @return \FilippoToso\Travelport\UProfile\typeFormOfPaymentType
+     * @return \Santosdave\Travelport\UProfile\typeFormOfPaymentType
      */
     public function setMiscFormOfPayment($MiscFormOfPayment)
     {
@@ -275,7 +275,7 @@ class typeFormOfPaymentType extends typeKeyTaggedElement
 
     /**
      * @param typeAgencyPayment $AgencyPayment
-     * @return \FilippoToso\Travelport\UProfile\typeFormOfPaymentType
+     * @return \Santosdave\Travelport\UProfile\typeFormOfPaymentType
      */
     public function setAgencyPayment($AgencyPayment)
     {
@@ -293,7 +293,7 @@ class typeFormOfPaymentType extends typeKeyTaggedElement
 
     /**
      * @param UnitedNations $UnitedNations
-     * @return \FilippoToso\Travelport\UProfile\typeFormOfPaymentType
+     * @return \Santosdave\Travelport\UProfile\typeFormOfPaymentType
      */
     public function setUnitedNations($UnitedNations)
     {
@@ -311,7 +311,7 @@ class typeFormOfPaymentType extends typeKeyTaggedElement
 
     /**
      * @param DirectPayment $DirectPayment
-     * @return \FilippoToso\Travelport\UProfile\typeFormOfPaymentType
+     * @return \Santosdave\Travelport\UProfile\typeFormOfPaymentType
      */
     public function setDirectPayment($DirectPayment)
     {
@@ -329,7 +329,7 @@ class typeFormOfPaymentType extends typeKeyTaggedElement
 
     /**
      * @param AgentVoucher $AgentVoucher
-     * @return \FilippoToso\Travelport\UProfile\typeFormOfPaymentType
+     * @return \Santosdave\Travelport\UProfile\typeFormOfPaymentType
      */
     public function setAgentVoucher($AgentVoucher)
     {
@@ -347,7 +347,7 @@ class typeFormOfPaymentType extends typeKeyTaggedElement
 
     /**
      * @param PaymentAdvice $PaymentAdvice
-     * @return \FilippoToso\Travelport\UProfile\typeFormOfPaymentType
+     * @return \Santosdave\Travelport\UProfile\typeFormOfPaymentType
      */
     public function setPaymentAdvice($PaymentAdvice)
     {
@@ -365,7 +365,7 @@ class typeFormOfPaymentType extends typeKeyTaggedElement
 
     /**
      * @param typeGuaranteeInformation $Guarantee
-     * @return \FilippoToso\Travelport\UProfile\typeFormOfPaymentType
+     * @return \Santosdave\Travelport\UProfile\typeFormOfPaymentType
      */
     public function setGuarantee($Guarantee)
     {
@@ -383,7 +383,7 @@ class typeFormOfPaymentType extends typeKeyTaggedElement
 
     /**
      * @param typeVoucherInformation $Voucher
-     * @return \FilippoToso\Travelport\UProfile\typeFormOfPaymentType
+     * @return \Santosdave\Travelport\UProfile\typeFormOfPaymentType
      */
     public function setVoucher($Voucher)
     {
@@ -401,7 +401,7 @@ class typeFormOfPaymentType extends typeKeyTaggedElement
 
     /**
      * @param typeMoney $Cash
-     * @return \FilippoToso\Travelport\UProfile\typeFormOfPaymentType
+     * @return \Santosdave\Travelport\UProfile\typeFormOfPaymentType
      */
     public function setCash($Cash)
     {
@@ -419,7 +419,7 @@ class typeFormOfPaymentType extends typeKeyTaggedElement
 
     /**
      * @param UNKNOWN $Type
-     * @return \FilippoToso\Travelport\UProfile\typeFormOfPaymentType
+     * @return \Santosdave\Travelport\UProfile\typeFormOfPaymentType
      */
     public function setType($Type)
     {
@@ -437,7 +437,7 @@ class typeFormOfPaymentType extends typeKeyTaggedElement
 
     /**
      * @param StringLength1to255 $Description
-     * @return \FilippoToso\Travelport\UProfile\typeFormOfPaymentType
+     * @return \Santosdave\Travelport\UProfile\typeFormOfPaymentType
      */
     public function setDescription($Description)
     {
@@ -455,7 +455,7 @@ class typeFormOfPaymentType extends typeKeyTaggedElement
 
     /**
      * @param typePriorityOrder $PriorityOrder
-     * @return \FilippoToso\Travelport\UProfile\typeFormOfPaymentType
+     * @return \Santosdave\Travelport\UProfile\typeFormOfPaymentType
      */
     public function setPriorityOrder($PriorityOrder)
     {
@@ -473,7 +473,7 @@ class typeFormOfPaymentType extends typeKeyTaggedElement
 
     /**
      * @param typeProfileID $OwnerID
-     * @return \FilippoToso\Travelport\UProfile\typeFormOfPaymentType
+     * @return \Santosdave\Travelport\UProfile\typeFormOfPaymentType
      */
     public function setOwnerID($OwnerID)
     {

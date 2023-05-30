@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport;
+namespace Santosdave\Travelport;
 
 class TravelportClient extends \SoapClient
 {

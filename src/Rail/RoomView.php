@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class RoomView
 {
@@ -28,7 +28,7 @@ class RoomView
 
     /**
      * @param typeOTACode $Code
-     * @return \FilippoToso\Travelport\Rail\RoomView
+     * @return \Santosdave\Travelport\Rail\RoomView
      */
     public function setCode($Code)
     {

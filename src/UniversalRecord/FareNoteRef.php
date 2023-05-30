@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class FareNoteRef
 {
@@ -28,7 +28,7 @@ class FareNoteRef
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\UniversalRecord\FareNoteRef
+     * @return \Santosdave\Travelport\UniversalRecord\FareNoteRef
      */
     public function setKey($Key)
     {

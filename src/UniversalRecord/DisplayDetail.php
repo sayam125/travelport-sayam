@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class DisplayDetail
 {
@@ -35,7 +35,7 @@ class DisplayDetail
 
     /**
      * @param typeDisplayDetailName $Name
-     * @return \FilippoToso\Travelport\UniversalRecord\DisplayDetail
+     * @return \Santosdave\Travelport\UniversalRecord\DisplayDetail
      */
     public function setName($Name)
     {
@@ -53,7 +53,7 @@ class DisplayDetail
 
     /**
      * @param string $Value
-     * @return \FilippoToso\Travelport\UniversalRecord\DisplayDetail
+     * @return \Santosdave\Travelport\UniversalRecord\DisplayDetail
      */
     public function setValue($Value)
     {

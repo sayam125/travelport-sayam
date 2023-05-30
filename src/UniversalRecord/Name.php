@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class Name
 {
@@ -28,7 +28,7 @@ class Name
 
     /**
      * @param typeNonBlanks $_
-     * @return \FilippoToso\Travelport\UniversalRecord\Name
+     * @return \Santosdave\Travelport\UniversalRecord\Name
      */
     public function set_($_)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class AirUpsellRule
 {
@@ -35,7 +35,7 @@ class AirUpsellRule
 
     /**
      * @param AirUpsellQualify $AirUpsellQualify
-     * @return \FilippoToso\Travelport\Util\AirUpsellRule
+     * @return \Santosdave\Travelport\Util\AirUpsellRule
      */
     public function setAirUpsellQualify($AirUpsellQualify)
     {
@@ -53,7 +53,7 @@ class AirUpsellRule
 
     /**
      * @param AirUpsellOffer $AirUpsellOffer
-     * @return \FilippoToso\Travelport\Util\AirUpsellRule
+     * @return \Santosdave\Travelport\Util\AirUpsellRule
      */
     public function setAirUpsellOffer($AirUpsellOffer)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class KeyMapping
 {
@@ -42,7 +42,7 @@ class KeyMapping
 
     /**
      * @param string $ElementName
-     * @return \FilippoToso\Travelport\UniversalRecord\KeyMapping
+     * @return \Santosdave\Travelport\UniversalRecord\KeyMapping
      */
     public function setElementName($ElementName)
     {
@@ -60,7 +60,7 @@ class KeyMapping
 
     /**
      * @param string $OriginalKey
-     * @return \FilippoToso\Travelport\UniversalRecord\KeyMapping
+     * @return \Santosdave\Travelport\UniversalRecord\KeyMapping
      */
     public function setOriginalKey($OriginalKey)
     {
@@ -78,7 +78,7 @@ class KeyMapping
 
     /**
      * @param string $NewKey
-     * @return \FilippoToso\Travelport\UniversalRecord\KeyMapping
+     * @return \Santosdave\Travelport\UniversalRecord\KeyMapping
      */
     public function setNewKey($NewKey)
     {

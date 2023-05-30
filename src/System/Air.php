@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\System;
+namespace Santosdave\Travelport\System;
 
 class Air extends typeTransactionsAllowed
 {
@@ -81,7 +81,7 @@ class Air extends typeTransactionsAllowed
 
     /**
      * @param boolean $OneWayShop
-     * @return \FilippoToso\Travelport\System\Air
+     * @return \Santosdave\Travelport\System\Air
      */
     public function setOneWayShop($OneWayShop)
     {
@@ -99,7 +99,7 @@ class Air extends typeTransactionsAllowed
 
     /**
      * @param boolean $FlexExplore
-     * @return \FilippoToso\Travelport\System\Air
+     * @return \Santosdave\Travelport\System\Air
      */
     public function setFlexExplore($FlexExplore)
     {
@@ -117,7 +117,7 @@ class Air extends typeTransactionsAllowed
 
     /**
      * @param boolean $RapidRepriceEnabled
-     * @return \FilippoToso\Travelport\System\Air
+     * @return \Santosdave\Travelport\System\Air
      */
     public function setRapidRepriceEnabled($RapidRepriceEnabled)
     {
@@ -135,7 +135,7 @@ class Air extends typeTransactionsAllowed
 
     /**
      * @param anonymous418 $Tier
-     * @return \FilippoToso\Travelport\System\Air
+     * @return \Santosdave\Travelport\System\Air
      */
     public function setTier($Tier)
     {
@@ -153,7 +153,7 @@ class Air extends typeTransactionsAllowed
 
     /**
      * @param boolean $DaysEnabled
-     * @return \FilippoToso\Travelport\System\Air
+     * @return \Santosdave\Travelport\System\Air
      */
     public function setDaysEnabled($DaysEnabled)
     {
@@ -171,7 +171,7 @@ class Air extends typeTransactionsAllowed
 
     /**
      * @param boolean $WeekendsEnabled
-     * @return \FilippoToso\Travelport\System\Air
+     * @return \Santosdave\Travelport\System\Air
      */
     public function setWeekendsEnabled($WeekendsEnabled)
     {
@@ -189,7 +189,7 @@ class Air extends typeTransactionsAllowed
 
     /**
      * @param boolean $AirportsEnabled
-     * @return \FilippoToso\Travelport\System\Air
+     * @return \Santosdave\Travelport\System\Air
      */
     public function setAirportsEnabled($AirportsEnabled)
     {
@@ -207,7 +207,7 @@ class Air extends typeTransactionsAllowed
 
     /**
      * @param boolean $ODEnabled
-     * @return \FilippoToso\Travelport\System\Air
+     * @return \Santosdave\Travelport\System\Air
      */
     public function setODEnabled($ODEnabled)
     {

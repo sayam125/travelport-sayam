@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class AddlBookingCodeInformation
 {
@@ -28,7 +28,7 @@ class AddlBookingCodeInformation
 
     /**
      * @param typeNonBlanks $_
-     * @return \FilippoToso\Travelport\Air\AddlBookingCodeInformation
+     * @return \Santosdave\Travelport\Air\AddlBookingCodeInformation
      */
     public function set_($_)
     {

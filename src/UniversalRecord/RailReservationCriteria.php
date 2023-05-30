@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class RailReservationCriteria
 {
@@ -90,7 +90,7 @@ class RailReservationCriteria
 
     /**
      * @param typeDateSpec $JourneyDepartureDate
-     * @return \FilippoToso\Travelport\UniversalRecord\RailReservationCriteria
+     * @return \Santosdave\Travelport\UniversalRecord\RailReservationCriteria
      */
     public function setJourneyDepartureDate($JourneyDepartureDate)
     {
@@ -108,7 +108,7 @@ class RailReservationCriteria
 
     /**
      * @param typeDateSpec $JourneyArrivalDate
-     * @return \FilippoToso\Travelport\UniversalRecord\RailReservationCriteria
+     * @return \Santosdave\Travelport\UniversalRecord\RailReservationCriteria
      */
     public function setJourneyArrivalDate($JourneyArrivalDate)
     {
@@ -126,7 +126,7 @@ class RailReservationCriteria
 
     /**
      * @param typeDateSpec $SegmentDepartureDate
-     * @return \FilippoToso\Travelport\UniversalRecord\RailReservationCriteria
+     * @return \Santosdave\Travelport\UniversalRecord\RailReservationCriteria
      */
     public function setSegmentDepartureDate($SegmentDepartureDate)
     {
@@ -144,7 +144,7 @@ class RailReservationCriteria
 
     /**
      * @param typeDateSpec $SegmentArrivalDate
-     * @return \FilippoToso\Travelport\UniversalRecord\RailReservationCriteria
+     * @return \Santosdave\Travelport\UniversalRecord\RailReservationCriteria
      */
     public function setSegmentArrivalDate($SegmentArrivalDate)
     {
@@ -162,7 +162,7 @@ class RailReservationCriteria
 
     /**
      * @param typeIATACode $JourneyOrigin
-     * @return \FilippoToso\Travelport\UniversalRecord\RailReservationCriteria
+     * @return \Santosdave\Travelport\UniversalRecord\RailReservationCriteria
      */
     public function setJourneyOrigin($JourneyOrigin)
     {
@@ -180,7 +180,7 @@ class RailReservationCriteria
 
     /**
      * @param typeIATACode $JourneyDestination
-     * @return \FilippoToso\Travelport\UniversalRecord\RailReservationCriteria
+     * @return \Santosdave\Travelport\UniversalRecord\RailReservationCriteria
      */
     public function setJourneyDestination($JourneyDestination)
     {
@@ -198,7 +198,7 @@ class RailReservationCriteria
 
     /**
      * @param typeRailLocationCode $JourneyRailLocOrigin
-     * @return \FilippoToso\Travelport\UniversalRecord\RailReservationCriteria
+     * @return \Santosdave\Travelport\UniversalRecord\RailReservationCriteria
      */
     public function setJourneyRailLocOrigin($JourneyRailLocOrigin)
     {
@@ -216,7 +216,7 @@ class RailReservationCriteria
 
     /**
      * @param typeRailLocationCode $JourneyRailLocDestination
-     * @return \FilippoToso\Travelport\UniversalRecord\RailReservationCriteria
+     * @return \Santosdave\Travelport\UniversalRecord\RailReservationCriteria
      */
     public function setJourneyRailLocDestination($JourneyRailLocDestination)
     {
@@ -234,7 +234,7 @@ class RailReservationCriteria
 
     /**
      * @param string $SupplierCode
-     * @return \FilippoToso\Travelport\UniversalRecord\RailReservationCriteria
+     * @return \Santosdave\Travelport\UniversalRecord\RailReservationCriteria
      */
     public function setSupplierCode($SupplierCode)
     {
@@ -252,7 +252,7 @@ class RailReservationCriteria
 
     /**
      * @param string $TrainNumber
-     * @return \FilippoToso\Travelport\UniversalRecord\RailReservationCriteria
+     * @return \Santosdave\Travelport\UniversalRecord\RailReservationCriteria
      */
     public function setTrainNumber($TrainNumber)
     {
@@ -270,7 +270,7 @@ class RailReservationCriteria
 
     /**
      * @param boolean $PassiveOnly
-     * @return \FilippoToso\Travelport\UniversalRecord\RailReservationCriteria
+     * @return \Santosdave\Travelport\UniversalRecord\RailReservationCriteria
      */
     public function setPassiveOnly($PassiveOnly)
     {

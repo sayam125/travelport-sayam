@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class Amount
 {
@@ -35,7 +35,7 @@ class Amount
 
     /**
      * @param anonymous1268 $Type
-     * @return \FilippoToso\Travelport\Rail\Amount
+     * @return \Santosdave\Travelport\Rail\Amount
      */
     public function setType($Type)
     {
@@ -53,7 +53,7 @@ class Amount
 
     /**
      * @param typeMoney $AmountDuePaid
-     * @return \FilippoToso\Travelport\Rail\Amount
+     * @return \Santosdave\Travelport\Rail\Amount
      */
     public function setAmountDuePaid($AmountDuePaid)
     {

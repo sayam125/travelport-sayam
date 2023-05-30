@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class RoomCapacity
 {
@@ -33,7 +33,7 @@ class RoomCapacity
 
     /**
      * @param positiveInteger[] $Capacity
-     * @return \FilippoToso\Travelport\UniversalRecord\RoomCapacity
+     * @return \Santosdave\Travelport\UniversalRecord\RoomCapacity
      */
     public function setCapacity(array $Capacity = null)
     {
@@ -51,7 +51,7 @@ class RoomCapacity
 
     /**
      * @param boolean $IsPackage
-     * @return \FilippoToso\Travelport\UniversalRecord\RoomCapacity
+     * @return \Santosdave\Travelport\UniversalRecord\RoomCapacity
      */
     public function setIsPackage($IsPackage)
     {

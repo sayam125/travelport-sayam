@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Terminal;
+namespace Santosdave\Travelport\Terminal;
 
 class Distance
 {
@@ -42,7 +42,7 @@ class Distance
 
     /**
      * @param anonymous59 $Units
-     * @return \FilippoToso\Travelport\Terminal\Distance
+     * @return \Santosdave\Travelport\Terminal\Distance
      */
     public function setUnits($Units)
     {
@@ -60,7 +60,7 @@ class Distance
 
     /**
      * @param int $Value
-     * @return \FilippoToso\Travelport\Terminal\Distance
+     * @return \Santosdave\Travelport\Terminal\Distance
      */
     public function setValue($Value)
     {
@@ -78,7 +78,7 @@ class Distance
 
     /**
      * @param anonymous60 $Direction
-     * @return \FilippoToso\Travelport\Terminal\Distance
+     * @return \Santosdave\Travelport\Terminal\Distance
      */
     public function setDirection($Direction)
     {

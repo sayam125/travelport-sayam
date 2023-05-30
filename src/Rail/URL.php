@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class URL
 {
@@ -35,7 +35,7 @@ class URL
 
     /**
      * @param string $_
-     * @return \FilippoToso\Travelport\Rail\URL
+     * @return \Santosdave\Travelport\Rail\URL
      */
     public function set_($_)
     {
@@ -53,7 +53,7 @@ class URL
 
     /**
      * @param string $Type
-     * @return \FilippoToso\Travelport\Rail\URL
+     * @return \Santosdave\Travelport\Rail\URL
      */
     public function setType($Type)
     {

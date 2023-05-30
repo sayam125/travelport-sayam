@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class Auxdata
 {
@@ -28,7 +28,7 @@ class Auxdata
 
     /**
      * @param Entry[] $Entry
-     * @return \FilippoToso\Travelport\UniversalRecord\Auxdata
+     * @return \Santosdave\Travelport\UniversalRecord\Auxdata
      */
     public function setEntry(array $Entry)
     {

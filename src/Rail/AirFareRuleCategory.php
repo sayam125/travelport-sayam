@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class AirFareRuleCategory
 {
@@ -35,7 +35,7 @@ class AirFareRuleCategory
 
     /**
      * @param typeFareRuleCategoryCode[] $CategoryCode
-     * @return \FilippoToso\Travelport\Rail\AirFareRuleCategory
+     * @return \Santosdave\Travelport\Rail\AirFareRuleCategory
      */
     public function setCategoryCode(array $CategoryCode)
     {
@@ -53,7 +53,7 @@ class AirFareRuleCategory
 
     /**
      * @param typeRef $FareInfoRef
-     * @return \FilippoToso\Travelport\Rail\AirFareRuleCategory
+     * @return \Santosdave\Travelport\Rail\AirFareRuleCategory
      */
     public function setFareInfoRef($FareInfoRef)
     {

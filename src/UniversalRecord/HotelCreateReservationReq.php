@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class HotelCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 {
@@ -213,7 +213,7 @@ class HotelCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param HotelRateDetail $HotelRateDetail
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\HotelCreateReservationReq
      */
     public function setHotelRateDetail($HotelRateDetail)
     {
@@ -231,7 +231,7 @@ class HotelCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param HotelProperty $HotelProperty
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\HotelCreateReservationReq
      */
     public function setHotelProperty($HotelProperty)
     {
@@ -249,7 +249,7 @@ class HotelCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param ThirdPartyInformation $ThirdPartyInformation
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\HotelCreateReservationReq
      */
     public function setThirdPartyInformation($ThirdPartyInformation)
     {
@@ -267,7 +267,7 @@ class HotelCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param HotelStay $HotelStay
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\HotelCreateReservationReq
      */
     public function setHotelStay($HotelStay)
     {
@@ -285,7 +285,7 @@ class HotelCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param Guarantee $Guarantee
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\HotelCreateReservationReq
      */
     public function setGuarantee($Guarantee)
     {
@@ -303,7 +303,7 @@ class HotelCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param typeGeneralText $HotelSpecialRequest
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\HotelCreateReservationReq
      */
     public function setHotelSpecialRequest($HotelSpecialRequest)
     {
@@ -321,7 +321,7 @@ class HotelCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param PointOfSale $PointOfSale
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\HotelCreateReservationReq
      */
     public function setPointOfSale($PointOfSale)
     {
@@ -339,7 +339,7 @@ class HotelCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param PromotionCode $PromotionCode
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\HotelCreateReservationReq
      */
     public function setPromotionCode($PromotionCode)
     {
@@ -357,7 +357,7 @@ class HotelCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param BookingSource $BookingSource
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\HotelCreateReservationReq
      */
     public function setBookingSource($BookingSource)
     {
@@ -375,7 +375,7 @@ class HotelCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param HotelBedding $HotelBedding
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\HotelCreateReservationReq
      */
     public function setHotelBedding($HotelBedding)
     {
@@ -393,7 +393,7 @@ class HotelCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param GuestInformation $GuestInformation
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\HotelCreateReservationReq
      */
     public function setGuestInformation($GuestInformation)
     {
@@ -411,7 +411,7 @@ class HotelCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param AssociatedRemark $AssociatedRemark
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\HotelCreateReservationReq
      */
     public function setAssociatedRemark($AssociatedRemark)
     {
@@ -429,7 +429,7 @@ class HotelCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param ReservationName $ReservationName
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\HotelCreateReservationReq
      */
     public function setReservationName($ReservationName)
     {
@@ -447,7 +447,7 @@ class HotelCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param ActionStatus $ActionStatus
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\HotelCreateReservationReq
      */
     public function setActionStatus($ActionStatus)
     {
@@ -465,7 +465,7 @@ class HotelCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param HostToken $HostToken
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\HotelCreateReservationReq
      */
     public function setHostToken($HostToken)
     {
@@ -483,7 +483,7 @@ class HotelCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param ReviewBooking $ReviewBooking
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\HotelCreateReservationReq
      */
     public function setReviewBooking($ReviewBooking)
     {
@@ -501,7 +501,7 @@ class HotelCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param string $HotelCommission
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\HotelCreateReservationReq
      */
     public function setHotelCommission($HotelCommission)
     {
@@ -519,7 +519,7 @@ class HotelCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param BookingGuestInformation $BookingGuestInformation
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\HotelCreateReservationReq
      */
     public function setBookingGuestInformation($BookingGuestInformation)
     {
@@ -537,7 +537,7 @@ class HotelCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param boolean $UserAcceptance
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\HotelCreateReservationReq
      */
     public function setUserAcceptance($UserAcceptance)
     {
@@ -555,7 +555,7 @@ class HotelCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param boolean $MandatoryRateMatch
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\HotelCreateReservationReq
      */
     public function setMandatoryRateMatch($MandatoryRateMatch)
     {
@@ -573,7 +573,7 @@ class HotelCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param typeStatusCode $StatusCode
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\HotelCreateReservationReq
      */
     public function setStatusCode($StatusCode)
     {
@@ -591,7 +591,7 @@ class HotelCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param typeHotelConfirmationNumber $BookingConfirmation
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\HotelCreateReservationReq
      */
     public function setBookingConfirmation($BookingConfirmation)
     {

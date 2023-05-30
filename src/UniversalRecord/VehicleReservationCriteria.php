@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class VehicleReservationCriteria
 {
@@ -61,7 +61,7 @@ class VehicleReservationCriteria
 
     /**
      * @param typeDateSpec $PickUpDate
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleReservationCriteria
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleReservationCriteria
      */
     public function setPickUpDate($PickUpDate)
     {
@@ -79,7 +79,7 @@ class VehicleReservationCriteria
 
     /**
      * @param string $VehicleConfirmation
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleReservationCriteria
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleReservationCriteria
      */
     public function setVehicleConfirmation($VehicleConfirmation)
     {
@@ -97,7 +97,7 @@ class VehicleReservationCriteria
 
     /**
      * @param typeIATACode $Location
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleReservationCriteria
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleReservationCriteria
      */
     public function setLocation($Location)
     {
@@ -115,7 +115,7 @@ class VehicleReservationCriteria
 
     /**
      * @param typeSupplierCode $VendorCode
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleReservationCriteria
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleReservationCriteria
      */
     public function setVendorCode($VendorCode)
     {
@@ -133,7 +133,7 @@ class VehicleReservationCriteria
 
     /**
      * @param string $LocationNumber
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleReservationCriteria
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleReservationCriteria
      */
     public function setLocationNumber($LocationNumber)
     {
@@ -151,7 +151,7 @@ class VehicleReservationCriteria
 
     /**
      * @param boolean $PassiveOnly
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleReservationCriteria
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleReservationCriteria
      */
     public function setPassiveOnly($PassiveOnly)
     {

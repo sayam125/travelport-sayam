@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typePhoneHistory extends typeKeyTaggedElement
 {
@@ -101,7 +101,7 @@ class typePhoneHistory extends typeKeyTaggedElement
 
     /**
      * @param typePhoneType $Type
-     * @return \FilippoToso\Travelport\UProfile\typePhoneHistory
+     * @return \Santosdave\Travelport\UProfile\typePhoneHistory
      */
     public function setType($Type)
     {
@@ -119,7 +119,7 @@ class typePhoneHistory extends typeKeyTaggedElement
 
     /**
      * @param StringLength1to255 $Description
-     * @return \FilippoToso\Travelport\UProfile\typePhoneHistory
+     * @return \Santosdave\Travelport\UProfile\typePhoneHistory
      */
     public function setDescription($Description)
     {
@@ -137,7 +137,7 @@ class typePhoneHistory extends typeKeyTaggedElement
 
     /**
      * @param typeContactPurpose $Purpose
-     * @return \FilippoToso\Travelport\UProfile\typePhoneHistory
+     * @return \Santosdave\Travelport\UProfile\typePhoneHistory
      */
     public function setPurpose($Purpose)
     {
@@ -155,7 +155,7 @@ class typePhoneHistory extends typeKeyTaggedElement
 
     /**
      * @param boolean $Provisioned
-     * @return \FilippoToso\Travelport\UProfile\typePhoneHistory
+     * @return \Santosdave\Travelport\UProfile\typePhoneHistory
      */
     public function setProvisioned($Provisioned)
     {
@@ -173,7 +173,7 @@ class typePhoneHistory extends typeKeyTaggedElement
 
     /**
      * @param typePriorityOrder $PriorityOrder
-     * @return \FilippoToso\Travelport\UProfile\typePhoneHistory
+     * @return \Santosdave\Travelport\UProfile\typePhoneHistory
      */
     public function setPriorityOrder($PriorityOrder)
     {
@@ -191,7 +191,7 @@ class typePhoneHistory extends typeKeyTaggedElement
 
     /**
      * @param typeProfileID $OwnerID
-     * @return \FilippoToso\Travelport\UProfile\typePhoneHistory
+     * @return \Santosdave\Travelport\UProfile\typePhoneHistory
      */
     public function setOwnerID($OwnerID)
     {
@@ -209,7 +209,7 @@ class typePhoneHistory extends typeKeyTaggedElement
 
     /**
      * @param anonymous895 $Country
-     * @return \FilippoToso\Travelport\UProfile\typePhoneHistory
+     * @return \Santosdave\Travelport\UProfile\typePhoneHistory
      */
     public function setCountry($Country)
     {
@@ -227,7 +227,7 @@ class typePhoneHistory extends typeKeyTaggedElement
 
     /**
      * @param anonymous896 $AreaCode
-     * @return \FilippoToso\Travelport\UProfile\typePhoneHistory
+     * @return \Santosdave\Travelport\UProfile\typePhoneHistory
      */
     public function setAreaCode($AreaCode)
     {
@@ -245,7 +245,7 @@ class typePhoneHistory extends typeKeyTaggedElement
 
     /**
      * @param anonymous897 $LocalNumber
-     * @return \FilippoToso\Travelport\UProfile\typePhoneHistory
+     * @return \Santosdave\Travelport\UProfile\typePhoneHistory
      */
     public function setLocalNumber($LocalNumber)
     {
@@ -263,7 +263,7 @@ class typePhoneHistory extends typeKeyTaggedElement
 
     /**
      * @param anonymous898 $Extension
-     * @return \FilippoToso\Travelport\UProfile\typePhoneHistory
+     * @return \Santosdave\Travelport\UProfile\typePhoneHistory
      */
     public function setExtension($Extension)
     {
@@ -281,7 +281,7 @@ class typePhoneHistory extends typeKeyTaggedElement
 
     /**
      * @param typeCityOrAirport $Location
-     * @return \FilippoToso\Travelport\UProfile\typePhoneHistory
+     * @return \Santosdave\Travelport\UProfile\typePhoneHistory
      */
     public function setLocation($Location)
     {

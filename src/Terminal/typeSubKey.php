@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Terminal;
+namespace Santosdave\Travelport\Terminal;
 
 class typeSubKey
 {
@@ -40,7 +40,7 @@ class typeSubKey
 
     /**
      * @param string[] $Text
-     * @return \FilippoToso\Travelport\Terminal\typeSubKey
+     * @return \Santosdave\Travelport\Terminal\typeSubKey
      */
     public function setText(array $Text = null)
     {
@@ -58,7 +58,7 @@ class typeSubKey
 
     /**
      * @param string $Name
-     * @return \FilippoToso\Travelport\Terminal\typeSubKey
+     * @return \Santosdave\Travelport\Terminal\typeSubKey
      */
     public function setName($Name)
     {
@@ -76,7 +76,7 @@ class typeSubKey
 
     /**
      * @param string $Description
-     * @return \FilippoToso\Travelport\Terminal\typeSubKey
+     * @return \Santosdave\Travelport\Terminal\typeSubKey
      */
     public function setDescription($Description)
     {

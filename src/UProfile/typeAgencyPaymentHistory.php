@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeAgencyPaymentHistory
 {
@@ -42,7 +42,7 @@ class typeAgencyPaymentHistory
 
     /**
      * @param anonymous920 $AgencyBillingIdentifier
-     * @return \FilippoToso\Travelport\UProfile\typeAgencyPaymentHistory
+     * @return \Santosdave\Travelport\UProfile\typeAgencyPaymentHistory
      */
     public function setAgencyBillingIdentifier($AgencyBillingIdentifier)
     {
@@ -60,7 +60,7 @@ class typeAgencyPaymentHistory
 
     /**
      * @param anonymous921 $AgencyBillingNumber
-     * @return \FilippoToso\Travelport\UProfile\typeAgencyPaymentHistory
+     * @return \Santosdave\Travelport\UProfile\typeAgencyPaymentHistory
      */
     public function setAgencyBillingNumber($AgencyBillingNumber)
     {
@@ -78,7 +78,7 @@ class typeAgencyPaymentHistory
 
     /**
      * @param anonymous922 $AgencyBillingPassword
-     * @return \FilippoToso\Travelport\UProfile\typeAgencyPaymentHistory
+     * @return \Santosdave\Travelport\UProfile\typeAgencyPaymentHistory
      */
     public function setAgencyBillingPassword($AgencyBillingPassword)
     {

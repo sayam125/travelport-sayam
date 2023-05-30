@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class typeTicketModifierValueType
 {
@@ -35,7 +35,7 @@ class typeTicketModifierValueType
 
     /**
      * @param string $Value
-     * @return \FilippoToso\Travelport\Air\typeTicketModifierValueType
+     * @return \Santosdave\Travelport\Air\typeTicketModifierValueType
      */
     public function setValue($Value)
     {
@@ -53,7 +53,7 @@ class typeTicketModifierValueType
 
     /**
      * @param boolean $NetFareValue
-     * @return \FilippoToso\Travelport\Air\typeTicketModifierValueType
+     * @return \Santosdave\Travelport\Air\typeTicketModifierValueType
      */
     public function setNetFareValue($NetFareValue)
     {

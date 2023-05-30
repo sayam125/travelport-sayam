@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class MCOFeeInfo
 {
@@ -42,7 +42,7 @@ class MCOFeeInfo
 
     /**
      * @param anonymous177 $FeeAppliesToInd
-     * @return \FilippoToso\Travelport\GDSQueue\MCOFeeInfo
+     * @return \Santosdave\Travelport\GDSQueue\MCOFeeInfo
      */
     public function setFeeAppliesToInd($FeeAppliesToInd)
     {
@@ -60,7 +60,7 @@ class MCOFeeInfo
 
     /**
      * @param typeMoney $Amount
-     * @return \FilippoToso\Travelport\GDSQueue\MCOFeeInfo
+     * @return \Santosdave\Travelport\GDSQueue\MCOFeeInfo
      */
     public function setAmount($Amount)
     {
@@ -78,7 +78,7 @@ class MCOFeeInfo
 
     /**
      * @param typePercentageWithDecimal $Percentage
-     * @return \FilippoToso\Travelport\GDSQueue\MCOFeeInfo
+     * @return \Santosdave\Travelport\GDSQueue\MCOFeeInfo
      */
     public function setPercentage($Percentage)
     {

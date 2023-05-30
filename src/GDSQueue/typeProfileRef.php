@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class typeProfileRef
 {
@@ -35,7 +35,7 @@ class typeProfileRef
 
     /**
      * @param string $ProfileEntityID
-     * @return \FilippoToso\Travelport\GDSQueue\typeProfileRef
+     * @return \Santosdave\Travelport\GDSQueue\typeProfileRef
      */
     public function setProfileEntityID($ProfileEntityID)
     {
@@ -53,7 +53,7 @@ class typeProfileRef
 
     /**
      * @param typeProfileLevel $ProfileLevel
-     * @return \FilippoToso\Travelport\GDSQueue\typeProfileRef
+     * @return \Santosdave\Travelport\GDSQueue\typeProfileRef
      */
     public function setProfileLevel($ProfileLevel)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class SegmentRemark
 {
@@ -35,7 +35,7 @@ class SegmentRemark
 
     /**
      * @param string $_
-     * @return \FilippoToso\Travelport\Rail\SegmentRemark
+     * @return \Santosdave\Travelport\Rail\SegmentRemark
      */
     public function set_($_)
     {
@@ -53,7 +53,7 @@ class SegmentRemark
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Rail\SegmentRemark
+     * @return \Santosdave\Travelport\Rail\SegmentRemark
      */
     public function setKey($Key)
     {

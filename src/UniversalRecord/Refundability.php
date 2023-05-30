@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class Refundability
 {
@@ -28,7 +28,7 @@ class Refundability
 
     /**
      * @param typeRefundabilityValue $Value
-     * @return \FilippoToso\Travelport\UniversalRecord\Refundability
+     * @return \Santosdave\Travelport\UniversalRecord\Refundability
      */
     public function setValue($Value)
     {

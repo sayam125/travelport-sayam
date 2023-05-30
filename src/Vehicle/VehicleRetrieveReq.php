@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Vehicle;
+namespace Santosdave\Travelport\Vehicle;
 
 class VehicleRetrieveReq extends BaseReq
 {
@@ -47,7 +47,7 @@ class VehicleRetrieveReq extends BaseReq
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\Vehicle\VehicleRetrieveReq
+     * @return \Santosdave\Travelport\Vehicle\VehicleRetrieveReq
      */
     public function setProviderCode($ProviderCode)
     {
@@ -65,7 +65,7 @@ class VehicleRetrieveReq extends BaseReq
 
     /**
      * @param typeProviderLocatorCode $ProviderLocatorCode
-     * @return \FilippoToso\Travelport\Vehicle\VehicleRetrieveReq
+     * @return \Santosdave\Travelport\Vehicle\VehicleRetrieveReq
      */
     public function setProviderLocatorCode($ProviderLocatorCode)
     {

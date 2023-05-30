@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class ActionSummary
 {
@@ -63,7 +63,7 @@ class ActionSummary
 
     /**
      * @param typeActionID $ID
-     * @return \FilippoToso\Travelport\UProfile\ActionSummary
+     * @return \Santosdave\Travelport\UProfile\ActionSummary
      */
     public function setID($ID)
     {
@@ -81,7 +81,7 @@ class ActionSummary
 
     /**
      * @param typeFieldName $Name
-     * @return \FilippoToso\Travelport\UProfile\ActionSummary
+     * @return \Santosdave\Travelport\UProfile\ActionSummary
      */
     public function setName($Name)
     {
@@ -99,7 +99,7 @@ class ActionSummary
 
     /**
      * @param typeActionDescription $Description
-     * @return \FilippoToso\Travelport\UProfile\ActionSummary
+     * @return \Santosdave\Travelport\UProfile\ActionSummary
      */
     public function setDescription($Description)
     {
@@ -117,7 +117,7 @@ class ActionSummary
 
     /**
      * @param string $ConsumingSystem
-     * @return \FilippoToso\Travelport\UProfile\ActionSummary
+     * @return \Santosdave\Travelport\UProfile\ActionSummary
      */
     public function setConsumingSystem($ConsumingSystem)
     {
@@ -135,7 +135,7 @@ class ActionSummary
 
     /**
      * @param string $TargetService
-     * @return \FilippoToso\Travelport\UProfile\ActionSummary
+     * @return \Santosdave\Travelport\UProfile\ActionSummary
      */
     public function setTargetService($TargetService)
     {
@@ -153,7 +153,7 @@ class ActionSummary
 
     /**
      * @param string $ProfileActionCode
-     * @return \FilippoToso\Travelport\UProfile\ActionSummary
+     * @return \Santosdave\Travelport\UProfile\ActionSummary
      */
     public function setProfileActionCode($ProfileActionCode)
     {

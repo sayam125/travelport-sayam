@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class OptionalServicesInfo
 {
@@ -42,7 +42,7 @@ class OptionalServicesInfo
 
     /**
      * @param AirPricingSolution $AirPricingSolution
-     * @return \FilippoToso\Travelport\GDSQueue\OptionalServicesInfo
+     * @return \Santosdave\Travelport\GDSQueue\OptionalServicesInfo
      */
     public function setAirPricingSolution($AirPricingSolution)
     {
@@ -60,7 +60,7 @@ class OptionalServicesInfo
 
     /**
      * @param FormOfPayment $FormOfPayment
-     * @return \FilippoToso\Travelport\GDSQueue\OptionalServicesInfo
+     * @return \Santosdave\Travelport\GDSQueue\OptionalServicesInfo
      */
     public function setFormOfPayment($FormOfPayment)
     {
@@ -78,7 +78,7 @@ class OptionalServicesInfo
 
     /**
      * @param FormOfPaymentRef $FormOfPaymentRef
-     * @return \FilippoToso\Travelport\GDSQueue\OptionalServicesInfo
+     * @return \Santosdave\Travelport\GDSQueue\OptionalServicesInfo
      */
     public function setFormOfPaymentRef($FormOfPaymentRef)
     {

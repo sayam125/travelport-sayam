@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class ServiceFeeTaxInfo
 {
@@ -35,7 +35,7 @@ class ServiceFeeTaxInfo
 
     /**
      * @param string $Category
-     * @return \FilippoToso\Travelport\GDSQueue\ServiceFeeTaxInfo
+     * @return \Santosdave\Travelport\GDSQueue\ServiceFeeTaxInfo
      */
     public function setCategory($Category)
     {
@@ -53,7 +53,7 @@ class ServiceFeeTaxInfo
 
     /**
      * @param typeMoney $Amount
-     * @return \FilippoToso\Travelport\GDSQueue\ServiceFeeTaxInfo
+     * @return \Santosdave\Travelport\GDSQueue\ServiceFeeTaxInfo
      */
     public function setAmount($Amount)
     {

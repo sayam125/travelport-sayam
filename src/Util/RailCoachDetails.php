@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class RailCoachDetails
 {
@@ -42,7 +42,7 @@ class RailCoachDetails
 
     /**
      * @param string $RailCoachNumber
-     * @return \FilippoToso\Travelport\Util\RailCoachDetails
+     * @return \Santosdave\Travelport\Util\RailCoachDetails
      */
     public function setRailCoachNumber($RailCoachNumber)
     {
@@ -60,7 +60,7 @@ class RailCoachDetails
 
     /**
      * @param string $AvailableRailSeats
-     * @return \FilippoToso\Travelport\Util\RailCoachDetails
+     * @return \Santosdave\Travelport\Util\RailCoachDetails
      */
     public function setAvailableRailSeats($AvailableRailSeats)
     {
@@ -78,7 +78,7 @@ class RailCoachDetails
 
     /**
      * @param boolean $RailSeatMapAvailability
-     * @return \FilippoToso\Travelport\Util\RailCoachDetails
+     * @return \Santosdave\Travelport\Util\RailCoachDetails
      */
     public function setRailSeatMapAvailability($RailSeatMapAvailability)
     {

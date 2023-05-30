@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class VehicleDisclaimer
 {
@@ -49,7 +49,7 @@ class VehicleDisclaimer
 
     /**
      * @param string $_
-     * @return \FilippoToso\Travelport\Rail\VehicleDisclaimer
+     * @return \Santosdave\Travelport\Rail\VehicleDisclaimer
      */
     public function set_($_)
     {
@@ -67,7 +67,7 @@ class VehicleDisclaimer
 
     /**
      * @param typeVehicleDisclaimer $Type
-     * @return \FilippoToso\Travelport\Rail\VehicleDisclaimer
+     * @return \Santosdave\Travelport\Rail\VehicleDisclaimer
      */
     public function setType($Type)
     {
@@ -85,7 +85,7 @@ class VehicleDisclaimer
 
     /**
      * @param string $SubType
-     * @return \FilippoToso\Travelport\Rail\VehicleDisclaimer
+     * @return \Santosdave\Travelport\Rail\VehicleDisclaimer
      */
     public function setSubType($SubType)
     {
@@ -103,7 +103,7 @@ class VehicleDisclaimer
 
     /**
      * @param string $Description
-     * @return \FilippoToso\Travelport\Rail\VehicleDisclaimer
+     * @return \Santosdave\Travelport\Rail\VehicleDisclaimer
      */
     public function setDescription($Description)
     {

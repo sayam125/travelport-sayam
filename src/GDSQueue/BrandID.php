@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class BrandID
 {
@@ -28,7 +28,7 @@ class BrandID
 
     /**
      * @param string $Id
-     * @return \FilippoToso\Travelport\GDSQueue\BrandID
+     * @return \Santosdave\Travelport\GDSQueue\BrandID
      */
     public function setId($Id)
     {

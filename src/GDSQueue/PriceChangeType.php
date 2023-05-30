@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class PriceChangeType
 {
@@ -49,7 +49,7 @@ class PriceChangeType
 
     /**
      * @param string $_
-     * @return \FilippoToso\Travelport\GDSQueue\PriceChangeType
+     * @return \Santosdave\Travelport\GDSQueue\PriceChangeType
      */
     public function set_($_)
     {
@@ -67,7 +67,7 @@ class PriceChangeType
 
     /**
      * @param string $Amount
-     * @return \FilippoToso\Travelport\GDSQueue\PriceChangeType
+     * @return \Santosdave\Travelport\GDSQueue\PriceChangeType
      */
     public function setAmount($Amount)
     {
@@ -85,7 +85,7 @@ class PriceChangeType
 
     /**
      * @param string $Carrier
-     * @return \FilippoToso\Travelport\GDSQueue\PriceChangeType
+     * @return \Santosdave\Travelport\GDSQueue\PriceChangeType
      */
     public function setCarrier($Carrier)
     {
@@ -103,7 +103,7 @@ class PriceChangeType
 
     /**
      * @param string $SegmentRef
-     * @return \FilippoToso\Travelport\GDSQueue\PriceChangeType
+     * @return \Santosdave\Travelport\GDSQueue\PriceChangeType
      */
     public function setSegmentRef($SegmentRef)
     {

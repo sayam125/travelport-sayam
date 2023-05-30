@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class NumberOfAdults
 {
@@ -49,7 +49,7 @@ class NumberOfAdults
 
     /**
      * @param string $_
-     * @return \FilippoToso\Travelport\Rail\NumberOfAdults
+     * @return \Santosdave\Travelport\Rail\NumberOfAdults
      */
     public function set_($_)
     {
@@ -67,7 +67,7 @@ class NumberOfAdults
 
     /**
      * @param int $ExtraAdults
-     * @return \FilippoToso\Travelport\Rail\NumberOfAdults
+     * @return \Santosdave\Travelport\Rail\NumberOfAdults
      */
     public function setExtraAdults($ExtraAdults)
     {
@@ -85,7 +85,7 @@ class NumberOfAdults
 
     /**
      * @param typeMoney $Amount
-     * @return \FilippoToso\Travelport\Rail\NumberOfAdults
+     * @return \Santosdave\Travelport\Rail\NumberOfAdults
      */
     public function setAmount($Amount)
     {
@@ -103,7 +103,7 @@ class NumberOfAdults
 
     /**
      * @param string $Content
-     * @return \FilippoToso\Travelport\Rail\NumberOfAdults
+     * @return \Santosdave\Travelport\Rail\NumberOfAdults
      */
     public function setContent($Content)
     {

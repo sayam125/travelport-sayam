@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class Option
 {
@@ -49,7 +49,7 @@ class Option
 
     /**
      * @param BookingInfo $BookingInfo
-     * @return \FilippoToso\Travelport\Rail\Option
+     * @return \Santosdave\Travelport\Rail\Option
      */
     public function setBookingInfo($BookingInfo)
     {
@@ -67,7 +67,7 @@ class Option
 
     /**
      * @param Connection $Connection
-     * @return \FilippoToso\Travelport\Rail\Option
+     * @return \Santosdave\Travelport\Rail\Option
      */
     public function setConnection($Connection)
     {
@@ -85,7 +85,7 @@ class Option
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Rail\Option
+     * @return \Santosdave\Travelport\Rail\Option
      */
     public function setKey($Key)
     {
@@ -103,7 +103,7 @@ class Option
 
     /**
      * @param duration $TravelTime
-     * @return \FilippoToso\Travelport\Rail\Option
+     * @return \Santosdave\Travelport\Rail\Option
      */
     public function setTravelTime($TravelTime)
     {

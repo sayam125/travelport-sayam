@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeCreditCardTypeHistory extends typePaymentCardHistory
 {
@@ -85,7 +85,7 @@ class typeCreditCardTypeHistory extends typePaymentCardHistory
 
     /**
      * @param string $ExtendedPayment
-     * @return \FilippoToso\Travelport\UProfile\typeCreditCardTypeHistory
+     * @return \Santosdave\Travelport\UProfile\typeCreditCardTypeHistory
      */
     public function setExtendedPayment($ExtendedPayment)
     {
@@ -103,7 +103,7 @@ class typeCreditCardTypeHistory extends typePaymentCardHistory
 
     /**
      * @param string $CustomerReference
-     * @return \FilippoToso\Travelport\UProfile\typeCreditCardTypeHistory
+     * @return \Santosdave\Travelport\UProfile\typeCreditCardTypeHistory
      */
     public function setCustomerReference($CustomerReference)
     {
@@ -121,7 +121,7 @@ class typeCreditCardTypeHistory extends typePaymentCardHistory
 
     /**
      * @param boolean $AcceptanceOverride
-     * @return \FilippoToso\Travelport\UProfile\typeCreditCardTypeHistory
+     * @return \Santosdave\Travelport\UProfile\typeCreditCardTypeHistory
      */
     public function setAcceptanceOverride($AcceptanceOverride)
     {
@@ -139,7 +139,7 @@ class typeCreditCardTypeHistory extends typePaymentCardHistory
 
     /**
      * @param boolean $ThirdPartyPayment
-     * @return \FilippoToso\Travelport\UProfile\typeCreditCardTypeHistory
+     * @return \Santosdave\Travelport\UProfile\typeCreditCardTypeHistory
      */
     public function setThirdPartyPayment($ThirdPartyPayment)
     {
@@ -157,7 +157,7 @@ class typeCreditCardTypeHistory extends typePaymentCardHistory
 
     /**
      * @param string $BankName
-     * @return \FilippoToso\Travelport\UProfile\typeCreditCardTypeHistory
+     * @return \Santosdave\Travelport\UProfile\typeCreditCardTypeHistory
      */
     public function setBankName($BankName)
     {
@@ -175,7 +175,7 @@ class typeCreditCardTypeHistory extends typePaymentCardHistory
 
     /**
      * @param typeCountry $BankCountryCode
-     * @return \FilippoToso\Travelport\UProfile\typeCreditCardTypeHistory
+     * @return \Santosdave\Travelport\UProfile\typeCreditCardTypeHistory
      */
     public function setBankCountryCode($BankCountryCode)
     {
@@ -193,7 +193,7 @@ class typeCreditCardTypeHistory extends typePaymentCardHistory
 
     /**
      * @param boolean $ExtractIndicator
-     * @return \FilippoToso\Travelport\UProfile\typeCreditCardTypeHistory
+     * @return \Santosdave\Travelport\UProfile\typeCreditCardTypeHistory
      */
     public function setExtractIndicator($ExtractIndicator)
     {
@@ -211,7 +211,7 @@ class typeCreditCardTypeHistory extends typePaymentCardHistory
 
     /**
      * @param boolean $Active
-     * @return \FilippoToso\Travelport\UProfile\typeCreditCardTypeHistory
+     * @return \Santosdave\Travelport\UProfile\typeCreditCardTypeHistory
      */
     public function setActive($Active)
     {

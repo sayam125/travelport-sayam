@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class CollectionAddressRef
 {
@@ -28,7 +28,7 @@ class CollectionAddressRef
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Rail\CollectionAddressRef
+     * @return \Santosdave\Travelport\Rail\CollectionAddressRef
      */
     public function setKey($Key)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class RailFareIDRef
 {
@@ -28,7 +28,7 @@ class RailFareIDRef
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\UniversalRecord\RailFareIDRef
+     * @return \Santosdave\Travelport\UniversalRecord\RailFareIDRef
      */
     public function setKey($Key)
     {

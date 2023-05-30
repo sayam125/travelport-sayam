@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class BranchBaseInfo
 {
@@ -35,7 +35,7 @@ class BranchBaseInfo
 
     /**
      * @param Address $Address
-     * @return \FilippoToso\Travelport\UProfile\BranchBaseInfo
+     * @return \Santosdave\Travelport\UProfile\BranchBaseInfo
      */
     public function setAddress($Address)
     {
@@ -53,7 +53,7 @@ class BranchBaseInfo
 
     /**
      * @param Phone $Phone
-     * @return \FilippoToso\Travelport\UProfile\BranchBaseInfo
+     * @return \Santosdave\Travelport\UProfile\BranchBaseInfo
      */
     public function setPhone($Phone)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class MCOText extends typeFreeFormText
 {
@@ -37,7 +37,7 @@ class MCOText extends typeFreeFormText
 
     /**
      * @param typeFreeFormText $_
-     * @return \FilippoToso\Travelport\Air\MCOText
+     * @return \Santosdave\Travelport\Air\MCOText
      */
     public function set_($_)
     {
@@ -55,7 +55,7 @@ class MCOText extends typeFreeFormText
 
     /**
      * @param string $Type
-     * @return \FilippoToso\Travelport\Air\MCOText
+     * @return \Santosdave\Travelport\Air\MCOText
      */
     public function setType($Type)
     {

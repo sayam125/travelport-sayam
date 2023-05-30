@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class OperatingCompany
 {
@@ -42,7 +42,7 @@ class OperatingCompany
 
     /**
      * @param string $_
-     * @return \FilippoToso\Travelport\UniversalRecord\OperatingCompany
+     * @return \Santosdave\Travelport\UniversalRecord\OperatingCompany
      */
     public function set_($_)
     {
@@ -60,7 +60,7 @@ class OperatingCompany
 
     /**
      * @param string $Code
-     * @return \FilippoToso\Travelport\UniversalRecord\OperatingCompany
+     * @return \Santosdave\Travelport\UniversalRecord\OperatingCompany
      */
     public function setCode($Code)
     {
@@ -78,7 +78,7 @@ class OperatingCompany
 
     /**
      * @param string $Name
-     * @return \FilippoToso\Travelport\UniversalRecord\OperatingCompany
+     * @return \Santosdave\Travelport\UniversalRecord\OperatingCompany
      */
     public function setName($Name)
     {

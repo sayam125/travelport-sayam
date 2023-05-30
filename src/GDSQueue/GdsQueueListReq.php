@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class GdsQueueListReq extends BaseReq
 {
@@ -75,7 +75,7 @@ class GdsQueueListReq extends BaseReq
 
     /**
      * @param NextResultReference $NextResultReference
-     * @return \FilippoToso\Travelport\GDSQueue\GdsQueueListReq
+     * @return \Santosdave\Travelport\GDSQueue\GdsQueueListReq
      */
     public function setNextResultReference($NextResultReference)
     {
@@ -93,7 +93,7 @@ class GdsQueueListReq extends BaseReq
 
     /**
      * @param QueueSelectorType $GdsQueueSelector
-     * @return \FilippoToso\Travelport\GDSQueue\GdsQueueListReq
+     * @return \Santosdave\Travelport\GDSQueue\GdsQueueListReq
      */
     public function setGdsQueueSelector($GdsQueueSelector)
     {
@@ -111,7 +111,7 @@ class GdsQueueListReq extends BaseReq
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\GDSQueue\GdsQueueListReq
+     * @return \Santosdave\Travelport\GDSQueue\GdsQueueListReq
      */
     public function setProviderCode($ProviderCode)
     {
@@ -129,7 +129,7 @@ class GdsQueueListReq extends BaseReq
 
     /**
      * @param typePCC $PseudoCityCode
-     * @return \FilippoToso\Travelport\GDSQueue\GdsQueueListReq
+     * @return \Santosdave\Travelport\GDSQueue\GdsQueueListReq
      */
     public function setPseudoCityCode($PseudoCityCode)
     {
@@ -147,7 +147,7 @@ class GdsQueueListReq extends BaseReq
 
     /**
      * @param boolean $RetrieveAll
-     * @return \FilippoToso\Travelport\GDSQueue\GdsQueueListReq
+     * @return \Santosdave\Travelport\GDSQueue\GdsQueueListReq
      */
     public function setRetrieveAll($RetrieveAll)
     {
@@ -165,7 +165,7 @@ class GdsQueueListReq extends BaseReq
 
     /**
      * @param string $QueueSessionToken
-     * @return \FilippoToso\Travelport\GDSQueue\GdsQueueListReq
+     * @return \Santosdave\Travelport\GDSQueue\GdsQueueListReq
      */
     public function setQueueSessionToken($QueueSessionToken)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class ContinuityOverrideRemark
 {
@@ -35,7 +35,7 @@ class ContinuityOverrideRemark
 
     /**
      * @param string $_
-     * @return \FilippoToso\Travelport\UniversalRecord\ContinuityOverrideRemark
+     * @return \Santosdave\Travelport\UniversalRecord\ContinuityOverrideRemark
      */
     public function set_($_)
     {
@@ -53,7 +53,7 @@ class ContinuityOverrideRemark
 
     /**
      * @param anonymous1407 $Category
-     * @return \FilippoToso\Travelport\UniversalRecord\ContinuityOverrideRemark
+     * @return \Santosdave\Travelport\UniversalRecord\ContinuityOverrideRemark
      */
     public function setCategory($Category)
     {

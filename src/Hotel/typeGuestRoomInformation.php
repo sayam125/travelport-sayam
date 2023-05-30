@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class typeGuestRoomInformation extends typeGuestChildInformation
 {
@@ -42,7 +42,7 @@ class typeGuestRoomInformation extends typeGuestChildInformation
 
     /**
      * @param int $Adults
-     * @return \FilippoToso\Travelport\Hotel\typeGuestRoomInformation
+     * @return \Santosdave\Travelport\Hotel\typeGuestRoomInformation
      */
     public function setAdults($Adults)
     {
@@ -60,7 +60,7 @@ class typeGuestRoomInformation extends typeGuestChildInformation
 
     /**
      * @param BookingTravelerRef $BookingTravelerRef
-     * @return \FilippoToso\Travelport\Hotel\typeGuestRoomInformation
+     * @return \Santosdave\Travelport\Hotel\typeGuestRoomInformation
      */
     public function setBookingTravelerRef($BookingTravelerRef)
     {
@@ -78,7 +78,7 @@ class typeGuestRoomInformation extends typeGuestChildInformation
 
     /**
      * @param Child[] $Child
-     * @return \FilippoToso\Travelport\Hotel\typeGuestRoomInformation
+     * @return \Santosdave\Travelport\Hotel\typeGuestRoomInformation
      */
     public function setChild(array $Child = null)
     {

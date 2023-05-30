@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class GeoPoliticalAreaFilter
 {
@@ -42,7 +42,7 @@ class GeoPoliticalAreaFilter
 
     /**
      * @param typeGeoPoliticalAreaFilterType $FilterType
-     * @return \FilippoToso\Travelport\UProfile\GeoPoliticalAreaFilter
+     * @return \Santosdave\Travelport\UProfile\GeoPoliticalAreaFilter
      */
     public function setFilterType($FilterType)
     {
@@ -60,7 +60,7 @@ class GeoPoliticalAreaFilter
 
     /**
      * @param typeGeoPoliticalAreaType $GeoPoliticalAreaType
-     * @return \FilippoToso\Travelport\UProfile\GeoPoliticalAreaFilter
+     * @return \Santosdave\Travelport\UProfile\GeoPoliticalAreaFilter
      */
     public function setGeoPoliticalAreaType($GeoPoliticalAreaType)
     {
@@ -78,7 +78,7 @@ class GeoPoliticalAreaFilter
 
     /**
      * @param typeGeoPoliticalAreaCode $GeoPoliticalAreaCode
-     * @return \FilippoToso\Travelport\UProfile\GeoPoliticalAreaFilter
+     * @return \Santosdave\Travelport\UProfile\GeoPoliticalAreaFilter
      */
     public function setGeoPoliticalAreaCode($GeoPoliticalAreaCode)
     {

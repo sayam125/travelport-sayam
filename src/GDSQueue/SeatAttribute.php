@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class SeatAttribute
 {
@@ -28,7 +28,7 @@ class SeatAttribute
 
     /**
      * @param anonymous476 $Value
-     * @return \FilippoToso\Travelport\GDSQueue\SeatAttribute
+     * @return \Santosdave\Travelport\GDSQueue\SeatAttribute
      */
     public function setValue($Value)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class VehiclePolicy
 {
@@ -35,7 +35,7 @@ class VehiclePolicy
 
     /**
      * @param VehicleDisclaimer $VehicleDisclaimer
-     * @return \FilippoToso\Travelport\GDSQueue\VehiclePolicy
+     * @return \Santosdave\Travelport\GDSQueue\VehiclePolicy
      */
     public function setVehicleDisclaimer($VehicleDisclaimer)
     {
@@ -53,7 +53,7 @@ class VehiclePolicy
 
     /**
      * @param VehicleDetail $VehicleDetail
-     * @return \FilippoToso\Travelport\GDSQueue\VehiclePolicy
+     * @return \Santosdave\Travelport\GDSQueue\VehiclePolicy
      */
     public function setVehicleDetail($VehicleDetail)
     {

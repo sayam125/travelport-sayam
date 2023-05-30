@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class MCORemark
 {
@@ -35,7 +35,7 @@ class MCORemark
 
     /**
      * @param string $_
-     * @return \FilippoToso\Travelport\UniversalRecord\MCORemark
+     * @return \Santosdave\Travelport\UniversalRecord\MCORemark
      */
     public function set_($_)
     {
@@ -53,7 +53,7 @@ class MCORemark
 
     /**
      * @param boolean $AdditionalRmk
-     * @return \FilippoToso\Travelport\UniversalRecord\MCORemark
+     * @return \Santosdave\Travelport\UniversalRecord\MCORemark
      */
     public function setAdditionalRmk($AdditionalRmk)
     {

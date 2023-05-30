@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class typeMostRestrictivePenalties
 {
@@ -26,7 +26,7 @@ class typeMostRestrictivePenalties
 
     /**
      * @param typeRestrictionData[] $RestrictionType
-     * @return \FilippoToso\Travelport\UniversalRecord\typeMostRestrictivePenalties
+     * @return \Santosdave\Travelport\UniversalRecord\typeMostRestrictivePenalties
      */
     public function setRestrictionType(array $RestrictionType = null)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class CarrierList
 {
@@ -35,7 +35,7 @@ class CarrierList
 
     /**
      * @param CarrierCode $CarrierCode
-     * @return \FilippoToso\Travelport\GDSQueue\CarrierList
+     * @return \Santosdave\Travelport\GDSQueue\CarrierList
      */
     public function setCarrierCode($CarrierCode)
     {
@@ -53,7 +53,7 @@ class CarrierList
 
     /**
      * @param boolean $IncludeCarrier
-     * @return \FilippoToso\Travelport\GDSQueue\CarrierList
+     * @return \Santosdave\Travelport\GDSQueue\CarrierList
      */
     public function setIncludeCarrier($IncludeCarrier)
     {

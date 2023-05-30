@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class FlightInfo
 {
@@ -82,7 +82,7 @@ class FlightInfo
 
     /**
      * @param FlightInfoDetail $FlightInfoDetail
-     * @return \FilippoToso\Travelport\GDSQueue\FlightInfo
+     * @return \Santosdave\Travelport\GDSQueue\FlightInfo
      */
     public function setFlightInfoDetail($FlightInfoDetail)
     {
@@ -100,7 +100,7 @@ class FlightInfo
 
     /**
      * @param typeResultMessage[] $FlightInfoErrorMessage
-     * @return \FilippoToso\Travelport\GDSQueue\FlightInfo
+     * @return \Santosdave\Travelport\GDSQueue\FlightInfo
      */
     public function setFlightInfoErrorMessage(array $FlightInfoErrorMessage = null)
     {
@@ -118,7 +118,7 @@ class FlightInfo
 
     /**
      * @param typeRef $CriteriaKey
-     * @return \FilippoToso\Travelport\GDSQueue\FlightInfo
+     * @return \Santosdave\Travelport\GDSQueue\FlightInfo
      */
     public function setCriteriaKey($CriteriaKey)
     {
@@ -136,7 +136,7 @@ class FlightInfo
 
     /**
      * @param typeCarrier $Carrier
-     * @return \FilippoToso\Travelport\GDSQueue\FlightInfo
+     * @return \Santosdave\Travelport\GDSQueue\FlightInfo
      */
     public function setCarrier($Carrier)
     {
@@ -154,7 +154,7 @@ class FlightInfo
 
     /**
      * @param typeFlightNumber $FlightNumber
-     * @return \FilippoToso\Travelport\GDSQueue\FlightInfo
+     * @return \Santosdave\Travelport\GDSQueue\FlightInfo
      */
     public function setFlightNumber($FlightNumber)
     {
@@ -172,7 +172,7 @@ class FlightInfo
 
     /**
      * @param typeIATACode $Origin
-     * @return \FilippoToso\Travelport\GDSQueue\FlightInfo
+     * @return \Santosdave\Travelport\GDSQueue\FlightInfo
      */
     public function setOrigin($Origin)
     {
@@ -190,7 +190,7 @@ class FlightInfo
 
     /**
      * @param typeIATACode $Destination
-     * @return \FilippoToso\Travelport\GDSQueue\FlightInfo
+     * @return \Santosdave\Travelport\GDSQueue\FlightInfo
      */
     public function setDestination($Destination)
     {
@@ -208,7 +208,7 @@ class FlightInfo
 
     /**
      * @param date $DepartureDate
-     * @return \FilippoToso\Travelport\GDSQueue\FlightInfo
+     * @return \Santosdave\Travelport\GDSQueue\FlightInfo
      */
     public function setDepartureDate($DepartureDate)
     {
@@ -226,7 +226,7 @@ class FlightInfo
 
     /**
      * @param typeClassOfService $ClassOfService
-     * @return \FilippoToso\Travelport\GDSQueue\FlightInfo
+     * @return \Santosdave\Travelport\GDSQueue\FlightInfo
      */
     public function setClassOfService($ClassOfService)
     {

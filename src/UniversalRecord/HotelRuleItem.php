@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class HotelRuleItem
 {
@@ -35,7 +35,7 @@ class HotelRuleItem
 
     /**
      * @param string[] $Text
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelRuleItem
+     * @return \Santosdave\Travelport\UniversalRecord\HotelRuleItem
      */
     public function setText(array $Text)
     {
@@ -53,7 +53,7 @@ class HotelRuleItem
 
     /**
      * @param string $Name
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelRuleItem
+     * @return \Santosdave\Travelport\UniversalRecord\HotelRuleItem
      */
     public function setName($Name)
     {

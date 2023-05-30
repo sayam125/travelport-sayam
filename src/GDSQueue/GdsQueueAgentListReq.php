@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class GdsQueueAgentListReq extends BaseReq
 {
@@ -40,7 +40,7 @@ class GdsQueueAgentListReq extends BaseReq
 
     /**
      * @param anonymous1491 $AgentID
-     * @return \FilippoToso\Travelport\GDSQueue\GdsQueueAgentListReq
+     * @return \Santosdave\Travelport\GDSQueue\GdsQueueAgentListReq
      */
     public function setAgentID($AgentID)
     {

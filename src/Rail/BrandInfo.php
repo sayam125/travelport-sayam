@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class BrandInfo
 {
@@ -49,7 +49,7 @@ class BrandInfo
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Rail\BrandInfo
+     * @return \Santosdave\Travelport\Rail\BrandInfo
      */
     public function setKey($Key)
     {
@@ -67,7 +67,7 @@ class BrandInfo
 
     /**
      * @param typeBrandId $BrandID
-     * @return \FilippoToso\Travelport\Rail\BrandInfo
+     * @return \Santosdave\Travelport\Rail\BrandInfo
      */
     public function setBrandID($BrandID)
     {
@@ -85,7 +85,7 @@ class BrandInfo
 
     /**
      * @param typeRef $AirPricingInfoRef
-     * @return \FilippoToso\Travelport\Rail\BrandInfo
+     * @return \Santosdave\Travelport\Rail\BrandInfo
      */
     public function setAirPricingInfoRef($AirPricingInfoRef)
     {
@@ -103,7 +103,7 @@ class BrandInfo
 
     /**
      * @param typeRef $FareInfoRef
-     * @return \FilippoToso\Travelport\Rail\BrandInfo
+     * @return \Santosdave\Travelport\Rail\BrandInfo
      */
     public function setFareInfoRef($FareInfoRef)
     {

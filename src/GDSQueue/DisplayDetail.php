@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class DisplayDetail
 {
@@ -35,7 +35,7 @@ class DisplayDetail
 
     /**
      * @param typeDisplayDetailName $Name
-     * @return \FilippoToso\Travelport\GDSQueue\DisplayDetail
+     * @return \Santosdave\Travelport\GDSQueue\DisplayDetail
      */
     public function setName($Name)
     {
@@ -53,7 +53,7 @@ class DisplayDetail
 
     /**
      * @param string $Value
-     * @return \FilippoToso\Travelport\GDSQueue\DisplayDetail
+     * @return \Santosdave\Travelport\GDSQueue\DisplayDetail
      */
     public function setValue($Value)
     {

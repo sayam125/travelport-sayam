@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class CruisePricingInfo
 {
@@ -175,7 +175,7 @@ class CruisePricingInfo
 
     /**
      * @param Fare $Fare
-     * @return \FilippoToso\Travelport\UniversalRecord\CruisePricingInfo
+     * @return \Santosdave\Travelport\UniversalRecord\CruisePricingInfo
      */
     public function setFare($Fare)
     {
@@ -193,7 +193,7 @@ class CruisePricingInfo
 
     /**
      * @param Charges $Charges
-     * @return \FilippoToso\Travelport\UniversalRecord\CruisePricingInfo
+     * @return \Santosdave\Travelport\UniversalRecord\CruisePricingInfo
      */
     public function setCharges($Charges)
     {
@@ -211,7 +211,7 @@ class CruisePricingInfo
 
     /**
      * @param Discount $Discount
-     * @return \FilippoToso\Travelport\UniversalRecord\CruisePricingInfo
+     * @return \Santosdave\Travelport\UniversalRecord\CruisePricingInfo
      */
     public function setDiscount($Discount)
     {
@@ -229,7 +229,7 @@ class CruisePricingInfo
 
     /**
      * @param Deposit $Deposit
-     * @return \FilippoToso\Travelport\UniversalRecord\CruisePricingInfo
+     * @return \Santosdave\Travelport\UniversalRecord\CruisePricingInfo
      */
     public function setDeposit($Deposit)
     {
@@ -247,7 +247,7 @@ class CruisePricingInfo
 
     /**
      * @param Balance $Balance
-     * @return \FilippoToso\Travelport\UniversalRecord\CruisePricingInfo
+     * @return \Santosdave\Travelport\UniversalRecord\CruisePricingInfo
      */
     public function setBalance($Balance)
     {
@@ -265,7 +265,7 @@ class CruisePricingInfo
 
     /**
      * @param Commission $Commission
-     * @return \FilippoToso\Travelport\UniversalRecord\CruisePricingInfo
+     * @return \Santosdave\Travelport\UniversalRecord\CruisePricingInfo
      */
     public function setCommission($Commission)
     {
@@ -283,7 +283,7 @@ class CruisePricingInfo
 
     /**
      * @param CruiseFees $CruiseFees
-     * @return \FilippoToso\Travelport\UniversalRecord\CruisePricingInfo
+     * @return \Santosdave\Travelport\UniversalRecord\CruisePricingInfo
      */
     public function setCruiseFees($CruiseFees)
     {
@@ -301,7 +301,7 @@ class CruisePricingInfo
 
     /**
      * @param CruiseBookingTravelerRef $CruiseBookingTravelerRef
-     * @return \FilippoToso\Travelport\UniversalRecord\CruisePricingInfo
+     * @return \Santosdave\Travelport\UniversalRecord\CruisePricingInfo
      */
     public function setCruiseBookingTravelerRef($CruiseBookingTravelerRef)
     {
@@ -319,7 +319,7 @@ class CruisePricingInfo
 
     /**
      * @param typeMoney $NetFare
-     * @return \FilippoToso\Travelport\UniversalRecord\CruisePricingInfo
+     * @return \Santosdave\Travelport\UniversalRecord\CruisePricingInfo
      */
     public function setNetFare($NetFare)
     {
@@ -337,7 +337,7 @@ class CruisePricingInfo
 
     /**
      * @param typeMoney $ReceivedAmount
-     * @return \FilippoToso\Travelport\UniversalRecord\CruisePricingInfo
+     * @return \Santosdave\Travelport\UniversalRecord\CruisePricingInfo
      */
     public function setReceivedAmount($ReceivedAmount)
     {
@@ -355,7 +355,7 @@ class CruisePricingInfo
 
     /**
      * @param typeMoney $TotalPrice
-     * @return \FilippoToso\Travelport\UniversalRecord\CruisePricingInfo
+     * @return \Santosdave\Travelport\UniversalRecord\CruisePricingInfo
      */
     public function setTotalPrice($TotalPrice)
     {
@@ -373,7 +373,7 @@ class CruisePricingInfo
 
     /**
      * @param typeMoney $BasePrice
-     * @return \FilippoToso\Travelport\UniversalRecord\CruisePricingInfo
+     * @return \Santosdave\Travelport\UniversalRecord\CruisePricingInfo
      */
     public function setBasePrice($BasePrice)
     {
@@ -391,7 +391,7 @@ class CruisePricingInfo
 
     /**
      * @param typeMoney $ApproximateTotalPrice
-     * @return \FilippoToso\Travelport\UniversalRecord\CruisePricingInfo
+     * @return \Santosdave\Travelport\UniversalRecord\CruisePricingInfo
      */
     public function setApproximateTotalPrice($ApproximateTotalPrice)
     {
@@ -409,7 +409,7 @@ class CruisePricingInfo
 
     /**
      * @param typeMoney $ApproximateBasePrice
-     * @return \FilippoToso\Travelport\UniversalRecord\CruisePricingInfo
+     * @return \Santosdave\Travelport\UniversalRecord\CruisePricingInfo
      */
     public function setApproximateBasePrice($ApproximateBasePrice)
     {
@@ -427,7 +427,7 @@ class CruisePricingInfo
 
     /**
      * @param typeMoney $EquivalentBasePrice
-     * @return \FilippoToso\Travelport\UniversalRecord\CruisePricingInfo
+     * @return \Santosdave\Travelport\UniversalRecord\CruisePricingInfo
      */
     public function setEquivalentBasePrice($EquivalentBasePrice)
     {
@@ -445,7 +445,7 @@ class CruisePricingInfo
 
     /**
      * @param typeMoney $Taxes
-     * @return \FilippoToso\Travelport\UniversalRecord\CruisePricingInfo
+     * @return \Santosdave\Travelport\UniversalRecord\CruisePricingInfo
      */
     public function setTaxes($Taxes)
     {
@@ -463,7 +463,7 @@ class CruisePricingInfo
 
     /**
      * @param typeMoney $Fees
-     * @return \FilippoToso\Travelport\UniversalRecord\CruisePricingInfo
+     * @return \Santosdave\Travelport\UniversalRecord\CruisePricingInfo
      */
     public function setFees($Fees)
     {
@@ -481,7 +481,7 @@ class CruisePricingInfo
 
     /**
      * @param typeMoney $Services
-     * @return \FilippoToso\Travelport\UniversalRecord\CruisePricingInfo
+     * @return \Santosdave\Travelport\UniversalRecord\CruisePricingInfo
      */
     public function setServices($Services)
     {
@@ -499,7 +499,7 @@ class CruisePricingInfo
 
     /**
      * @param typeMoney $ApproximateTaxes
-     * @return \FilippoToso\Travelport\UniversalRecord\CruisePricingInfo
+     * @return \Santosdave\Travelport\UniversalRecord\CruisePricingInfo
      */
     public function setApproximateTaxes($ApproximateTaxes)
     {
@@ -517,7 +517,7 @@ class CruisePricingInfo
 
     /**
      * @param typeMoney $ApproximateFees
-     * @return \FilippoToso\Travelport\UniversalRecord\CruisePricingInfo
+     * @return \Santosdave\Travelport\UniversalRecord\CruisePricingInfo
      */
     public function setApproximateFees($ApproximateFees)
     {
@@ -535,7 +535,7 @@ class CruisePricingInfo
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\UniversalRecord\CruisePricingInfo
+     * @return \Santosdave\Travelport\UniversalRecord\CruisePricingInfo
      */
     public function setProviderCode($ProviderCode)
     {
@@ -553,7 +553,7 @@ class CruisePricingInfo
 
     /**
      * @param typeSupplierCode $SupplierCode
-     * @return \FilippoToso\Travelport\UniversalRecord\CruisePricingInfo
+     * @return \Santosdave\Travelport\UniversalRecord\CruisePricingInfo
      */
     public function setSupplierCode($SupplierCode)
     {

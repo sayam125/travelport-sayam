@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class Provider
 {
@@ -28,7 +28,7 @@ class Provider
 
     /**
      * @param typeProviderCode $Code
-     * @return \FilippoToso\Travelport\GDSQueue\Provider
+     * @return \Santosdave\Travelport\GDSQueue\Provider
      */
     public function setCode($Code)
     {

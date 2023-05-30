@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class AirSegmentError
 {
@@ -35,7 +35,7 @@ class AirSegmentError
 
     /**
      * @param typeBaseAirSegment $AirSegment
-     * @return \FilippoToso\Travelport\GDSQueue\AirSegmentError
+     * @return \Santosdave\Travelport\GDSQueue\AirSegmentError
      */
     public function setAirSegment($AirSegment)
     {
@@ -53,7 +53,7 @@ class AirSegmentError
 
     /**
      * @param string $ErrorMessage
-     * @return \FilippoToso\Travelport\GDSQueue\AirSegmentError
+     * @return \Santosdave\Travelport\GDSQueue\AirSegmentError
      */
     public function setErrorMessage($ErrorMessage)
     {

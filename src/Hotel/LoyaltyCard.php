@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class LoyaltyCard
 {
@@ -124,7 +124,7 @@ class LoyaltyCard
 
     /**
      * @param typeProviderReservationSpecificInfo[] $ProviderReservationSpecificInfo
-     * @return \FilippoToso\Travelport\Hotel\LoyaltyCard
+     * @return \Santosdave\Travelport\Hotel\LoyaltyCard
      */
     public function setProviderReservationSpecificInfo(array $ProviderReservationSpecificInfo = null)
     {
@@ -142,7 +142,7 @@ class LoyaltyCard
 
     /**
      * @param typeCardNumber $CardNumber
-     * @return \FilippoToso\Travelport\Hotel\LoyaltyCard
+     * @return \Santosdave\Travelport\Hotel\LoyaltyCard
      */
     public function setCardNumber($CardNumber)
     {
@@ -160,7 +160,7 @@ class LoyaltyCard
 
     /**
      * @param string $Status
-     * @return \FilippoToso\Travelport\Hotel\LoyaltyCard
+     * @return \Santosdave\Travelport\Hotel\LoyaltyCard
      */
     public function setStatus($Status)
     {
@@ -178,7 +178,7 @@ class LoyaltyCard
 
     /**
      * @param string $MembershipStatus
-     * @return \FilippoToso\Travelport\Hotel\LoyaltyCard
+     * @return \Santosdave\Travelport\Hotel\LoyaltyCard
      */
     public function setMembershipStatus($MembershipStatus)
     {
@@ -196,7 +196,7 @@ class LoyaltyCard
 
     /**
      * @param string $FreeText
-     * @return \FilippoToso\Travelport\Hotel\LoyaltyCard
+     * @return \Santosdave\Travelport\Hotel\LoyaltyCard
      */
     public function setFreeText($FreeText)
     {
@@ -214,7 +214,7 @@ class LoyaltyCard
 
     /**
      * @param typeProduct $SupplierType
-     * @return \FilippoToso\Travelport\Hotel\LoyaltyCard
+     * @return \Santosdave\Travelport\Hotel\LoyaltyCard
      */
     public function setSupplierType($SupplierType)
     {
@@ -232,7 +232,7 @@ class LoyaltyCard
 
     /**
      * @param anonymous137 $Level
-     * @return \FilippoToso\Travelport\Hotel\LoyaltyCard
+     * @return \Santosdave\Travelport\Hotel\LoyaltyCard
      */
     public function setLevel($Level)
     {
@@ -250,7 +250,7 @@ class LoyaltyCard
 
     /**
      * @param typePriorityCode $PriorityCode
-     * @return \FilippoToso\Travelport\Hotel\LoyaltyCard
+     * @return \Santosdave\Travelport\Hotel\LoyaltyCard
      */
     public function setPriorityCode($PriorityCode)
     {
@@ -268,7 +268,7 @@ class LoyaltyCard
 
     /**
      * @param string $VendorLocationRef
-     * @return \FilippoToso\Travelport\Hotel\LoyaltyCard
+     * @return \Santosdave\Travelport\Hotel\LoyaltyCard
      */
     public function setVendorLocationRef($VendorLocationRef)
     {
@@ -286,7 +286,7 @@ class LoyaltyCard
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Hotel\LoyaltyCard
+     * @return \Santosdave\Travelport\Hotel\LoyaltyCard
      */
     public function setKey($Key)
     {
@@ -304,7 +304,7 @@ class LoyaltyCard
 
     /**
      * @param typeCarrier $SupplierCode
-     * @return \FilippoToso\Travelport\Hotel\LoyaltyCard
+     * @return \Santosdave\Travelport\Hotel\LoyaltyCard
      */
     public function setSupplierCode($SupplierCode)
     {
@@ -322,7 +322,7 @@ class LoyaltyCard
 
     /**
      * @param string $AllianceLevel
-     * @return \FilippoToso\Travelport\Hotel\LoyaltyCard
+     * @return \Santosdave\Travelport\Hotel\LoyaltyCard
      */
     public function setAllianceLevel($AllianceLevel)
     {
@@ -340,7 +340,7 @@ class LoyaltyCard
 
     /**
      * @param StringLength1to32 $MembershipProgram
-     * @return \FilippoToso\Travelport\Hotel\LoyaltyCard
+     * @return \Santosdave\Travelport\Hotel\LoyaltyCard
      */
     public function setMembershipProgram($MembershipProgram)
     {
@@ -358,7 +358,7 @@ class LoyaltyCard
 
     /**
      * @param typeElementStatus $ElStat
-     * @return \FilippoToso\Travelport\Hotel\LoyaltyCard
+     * @return \Santosdave\Travelport\Hotel\LoyaltyCard
      */
     public function setElStat($ElStat)
     {
@@ -376,7 +376,7 @@ class LoyaltyCard
 
     /**
      * @param boolean $KeyOverride
-     * @return \FilippoToso\Travelport\Hotel\LoyaltyCard
+     * @return \Santosdave\Travelport\Hotel\LoyaltyCard
      */
     public function setKeyOverride($KeyOverride)
     {

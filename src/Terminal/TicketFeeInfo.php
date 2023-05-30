@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Terminal;
+namespace Santosdave\Travelport\Terminal;
 
 class TicketFeeInfo
 {
@@ -42,7 +42,7 @@ class TicketFeeInfo
 
     /**
      * @param typeMoney $Base
-     * @return \FilippoToso\Travelport\Terminal\TicketFeeInfo
+     * @return \Santosdave\Travelport\Terminal\TicketFeeInfo
      */
     public function setBase($Base)
     {
@@ -60,7 +60,7 @@ class TicketFeeInfo
 
     /**
      * @param typeMoney $Tax
-     * @return \FilippoToso\Travelport\Terminal\TicketFeeInfo
+     * @return \Santosdave\Travelport\Terminal\TicketFeeInfo
      */
     public function setTax($Tax)
     {
@@ -78,7 +78,7 @@ class TicketFeeInfo
 
     /**
      * @param typeMoney $Total
-     * @return \FilippoToso\Travelport\Terminal\TicketFeeInfo
+     * @return \Santosdave\Travelport\Terminal\TicketFeeInfo
      */
     public function setTotal($Total)
     {

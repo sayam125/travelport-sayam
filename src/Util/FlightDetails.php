@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class FlightDetails
 {
@@ -154,7 +154,7 @@ class FlightDetails
 
     /**
      * @param Connection $Connection
-     * @return \FilippoToso\Travelport\Util\FlightDetails
+     * @return \Santosdave\Travelport\Util\FlightDetails
      */
     public function setConnection($Connection)
     {
@@ -172,7 +172,7 @@ class FlightDetails
 
     /**
      * @param typeMealService $Meals
-     * @return \FilippoToso\Travelport\Util\FlightDetails
+     * @return \Santosdave\Travelport\Util\FlightDetails
      */
     public function setMeals($Meals)
     {
@@ -190,7 +190,7 @@ class FlightDetails
 
     /**
      * @param string $InFlightServices
-     * @return \FilippoToso\Travelport\Util\FlightDetails
+     * @return \Santosdave\Travelport\Util\FlightDetails
      */
     public function setInFlightServices($InFlightServices)
     {
@@ -208,7 +208,7 @@ class FlightDetails
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Util\FlightDetails
+     * @return \Santosdave\Travelport\Util\FlightDetails
      */
     public function setKey($Key)
     {
@@ -226,7 +226,7 @@ class FlightDetails
 
     /**
      * @param typeEquipment $Equipment
-     * @return \FilippoToso\Travelport\Util\FlightDetails
+     * @return \Santosdave\Travelport\Util\FlightDetails
      */
     public function setEquipment($Equipment)
     {
@@ -244,7 +244,7 @@ class FlightDetails
 
     /**
      * @param int $OnTimePerformance
-     * @return \FilippoToso\Travelport\Util\FlightDetails
+     * @return \Santosdave\Travelport\Util\FlightDetails
      */
     public function setOnTimePerformance($OnTimePerformance)
     {
@@ -262,7 +262,7 @@ class FlightDetails
 
     /**
      * @param string $OriginTerminal
-     * @return \FilippoToso\Travelport\Util\FlightDetails
+     * @return \Santosdave\Travelport\Util\FlightDetails
      */
     public function setOriginTerminal($OriginTerminal)
     {
@@ -280,7 +280,7 @@ class FlightDetails
 
     /**
      * @param string $DestinationTerminal
-     * @return \FilippoToso\Travelport\Util\FlightDetails
+     * @return \Santosdave\Travelport\Util\FlightDetails
      */
     public function setDestinationTerminal($DestinationTerminal)
     {
@@ -298,7 +298,7 @@ class FlightDetails
 
     /**
      * @param int $GroundTime
-     * @return \FilippoToso\Travelport\Util\FlightDetails
+     * @return \Santosdave\Travelport\Util\FlightDetails
      */
     public function setGroundTime($GroundTime)
     {
@@ -316,7 +316,7 @@ class FlightDetails
 
     /**
      * @param boolean $AutomatedCheckin
-     * @return \FilippoToso\Travelport\Util\FlightDetails
+     * @return \Santosdave\Travelport\Util\FlightDetails
      */
     public function setAutomatedCheckin($AutomatedCheckin)
     {
@@ -334,7 +334,7 @@ class FlightDetails
 
     /**
      * @param typeIATACode $Origin
-     * @return \FilippoToso\Travelport\Util\FlightDetails
+     * @return \Santosdave\Travelport\Util\FlightDetails
      */
     public function setOrigin($Origin)
     {
@@ -352,7 +352,7 @@ class FlightDetails
 
     /**
      * @param typeIATACode $Destination
-     * @return \FilippoToso\Travelport\Util\FlightDetails
+     * @return \Santosdave\Travelport\Util\FlightDetails
      */
     public function setDestination($Destination)
     {
@@ -370,7 +370,7 @@ class FlightDetails
 
     /**
      * @param string $DepartureTime
-     * @return \FilippoToso\Travelport\Util\FlightDetails
+     * @return \Santosdave\Travelport\Util\FlightDetails
      */
     public function setDepartureTime($DepartureTime)
     {
@@ -388,7 +388,7 @@ class FlightDetails
 
     /**
      * @param string $ArrivalTime
-     * @return \FilippoToso\Travelport\Util\FlightDetails
+     * @return \Santosdave\Travelport\Util\FlightDetails
      */
     public function setArrivalTime($ArrivalTime)
     {
@@ -406,7 +406,7 @@ class FlightDetails
 
     /**
      * @param int $FlightTime
-     * @return \FilippoToso\Travelport\Util\FlightDetails
+     * @return \Santosdave\Travelport\Util\FlightDetails
      */
     public function setFlightTime($FlightTime)
     {
@@ -424,7 +424,7 @@ class FlightDetails
 
     /**
      * @param int $TravelTime
-     * @return \FilippoToso\Travelport\Util\FlightDetails
+     * @return \Santosdave\Travelport\Util\FlightDetails
      */
     public function setTravelTime($TravelTime)
     {
@@ -442,7 +442,7 @@ class FlightDetails
 
     /**
      * @param int $Distance
-     * @return \FilippoToso\Travelport\Util\FlightDetails
+     * @return \Santosdave\Travelport\Util\FlightDetails
      */
     public function setDistance($Distance)
     {
@@ -460,7 +460,7 @@ class FlightDetails
 
     /**
      * @param typeElementStatus $ElStat
-     * @return \FilippoToso\Travelport\Util\FlightDetails
+     * @return \Santosdave\Travelport\Util\FlightDetails
      */
     public function setElStat($ElStat)
     {
@@ -478,7 +478,7 @@ class FlightDetails
 
     /**
      * @param boolean $KeyOverride
-     * @return \FilippoToso\Travelport\Util\FlightDetails
+     * @return \Santosdave\Travelport\Util\FlightDetails
      */
     public function setKeyOverride($KeyOverride)
     {

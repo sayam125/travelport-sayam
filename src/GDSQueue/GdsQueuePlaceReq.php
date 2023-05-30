@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class GdsQueuePlaceReq extends BaseReq
 {
@@ -61,7 +61,7 @@ class GdsQueuePlaceReq extends BaseReq
 
     /**
      * @param QueueSelector $QueueSelector
-     * @return \FilippoToso\Travelport\GDSQueue\GdsQueuePlaceReq
+     * @return \Santosdave\Travelport\GDSQueue\GdsQueuePlaceReq
      */
     public function setQueueSelector($QueueSelector)
     {
@@ -79,7 +79,7 @@ class GdsQueuePlaceReq extends BaseReq
 
     /**
      * @param typePCC $PseudoCityCode
-     * @return \FilippoToso\Travelport\GDSQueue\GdsQueuePlaceReq
+     * @return \Santosdave\Travelport\GDSQueue\GdsQueuePlaceReq
      */
     public function setPseudoCityCode($PseudoCityCode)
     {
@@ -97,7 +97,7 @@ class GdsQueuePlaceReq extends BaseReq
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\GDSQueue\GdsQueuePlaceReq
+     * @return \Santosdave\Travelport\GDSQueue\GdsQueuePlaceReq
      */
     public function setProviderCode($ProviderCode)
     {
@@ -115,7 +115,7 @@ class GdsQueuePlaceReq extends BaseReq
 
     /**
      * @param typeProviderLocatorCode $ProviderLocatorCode
-     * @return \FilippoToso\Travelport\GDSQueue\GdsQueuePlaceReq
+     * @return \Santosdave\Travelport\GDSQueue\GdsQueuePlaceReq
      */
     public function setProviderLocatorCode($ProviderLocatorCode)
     {

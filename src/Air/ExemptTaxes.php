@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class ExemptTaxes
 {
@@ -52,7 +52,7 @@ class ExemptTaxes
 
     /**
      * @param typeCountry[] $CountryCode
-     * @return \FilippoToso\Travelport\Air\ExemptTaxes
+     * @return \Santosdave\Travelport\Air\ExemptTaxes
      */
     public function setCountryCode(array $CountryCode = null)
     {
@@ -70,7 +70,7 @@ class ExemptTaxes
 
     /**
      * @param string[] $TaxCategory
-     * @return \FilippoToso\Travelport\Air\ExemptTaxes
+     * @return \Santosdave\Travelport\Air\ExemptTaxes
      */
     public function setTaxCategory(array $TaxCategory = null)
     {
@@ -88,7 +88,7 @@ class ExemptTaxes
 
     /**
      * @param boolean $AllTaxes
-     * @return \FilippoToso\Travelport\Air\ExemptTaxes
+     * @return \Santosdave\Travelport\Air\ExemptTaxes
      */
     public function setAllTaxes($AllTaxes)
     {
@@ -106,7 +106,7 @@ class ExemptTaxes
 
     /**
      * @param anonymous803 $TaxTerritory
-     * @return \FilippoToso\Travelport\Air\ExemptTaxes
+     * @return \Santosdave\Travelport\Air\ExemptTaxes
      */
     public function setTaxTerritory($TaxTerritory)
     {
@@ -124,7 +124,7 @@ class ExemptTaxes
 
     /**
      * @param anonymous804 $CompanyName
-     * @return \FilippoToso\Travelport\Air\ExemptTaxes
+     * @return \Santosdave\Travelport\Air\ExemptTaxes
      */
     public function setCompanyName($CompanyName)
     {

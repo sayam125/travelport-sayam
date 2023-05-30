@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class Option
 {
@@ -49,7 +49,7 @@ class Option
 
     /**
      * @param BookingInfo $BookingInfo
-     * @return \FilippoToso\Travelport\GDSQueue\Option
+     * @return \Santosdave\Travelport\GDSQueue\Option
      */
     public function setBookingInfo($BookingInfo)
     {
@@ -67,7 +67,7 @@ class Option
 
     /**
      * @param Connection $Connection
-     * @return \FilippoToso\Travelport\GDSQueue\Option
+     * @return \Santosdave\Travelport\GDSQueue\Option
      */
     public function setConnection($Connection)
     {
@@ -85,7 +85,7 @@ class Option
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\GDSQueue\Option
+     * @return \Santosdave\Travelport\GDSQueue\Option
      */
     public function setKey($Key)
     {
@@ -103,7 +103,7 @@ class Option
 
     /**
      * @param duration $TravelTime
-     * @return \FilippoToso\Travelport\GDSQueue\Option
+     * @return \Santosdave\Travelport\GDSQueue\Option
      */
     public function setTravelTime($TravelTime)
     {

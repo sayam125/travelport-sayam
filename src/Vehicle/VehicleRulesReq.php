@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Vehicle;
+namespace Santosdave\Travelport\Vehicle;
 
 class VehicleRulesReq extends BaseSearchReq
 {
@@ -48,7 +48,7 @@ class VehicleRulesReq extends BaseSearchReq
 
     /**
      * @param typeLocatorCode $VehicleReservationLocatorCode
-     * @return \FilippoToso\Travelport\Vehicle\VehicleRulesReq
+     * @return \Santosdave\Travelport\Vehicle\VehicleRulesReq
      */
     public function setVehicleReservationLocatorCode($VehicleReservationLocatorCode)
     {
@@ -66,7 +66,7 @@ class VehicleRulesReq extends BaseSearchReq
 
     /**
      * @param VehicleRulesLookup $VehicleRulesLookup
-     * @return \FilippoToso\Travelport\Vehicle\VehicleRulesReq
+     * @return \Santosdave\Travelport\Vehicle\VehicleRulesReq
      */
     public function setVehicleRulesLookup($VehicleRulesLookup)
     {

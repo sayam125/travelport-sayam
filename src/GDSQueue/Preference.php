@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class Preference
 {
@@ -28,7 +28,7 @@ class Preference
 
     /**
      * @param anonymous1450 $Owner
-     * @return \FilippoToso\Travelport\GDSQueue\Preference
+     * @return \Santosdave\Travelport\GDSQueue\Preference
      */
     public function setOwner($Owner)
     {

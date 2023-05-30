@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class ARCPayment
 {
@@ -35,7 +35,7 @@ class ARCPayment
 
     /**
      * @param anonymous50 $ARCIdentifier
-     * @return \FilippoToso\Travelport\Hotel\ARCPayment
+     * @return \Santosdave\Travelport\Hotel\ARCPayment
      */
     public function setARCIdentifier($ARCIdentifier)
     {
@@ -53,7 +53,7 @@ class ARCPayment
 
     /**
      * @param anonymous51 $ARCPassword
-     * @return \FilippoToso\Travelport\Hotel\ARCPayment
+     * @return \Santosdave\Travelport\Hotel\ARCPayment
      */
     public function setARCPassword($ARCPassword)
     {

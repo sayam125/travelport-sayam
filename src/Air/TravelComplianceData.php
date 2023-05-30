@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class TravelComplianceData
 {
@@ -85,7 +85,7 @@ class TravelComplianceData
 
     /**
      * @param PolicyCompliance[] $PolicyCompliance
-     * @return \FilippoToso\Travelport\Air\TravelComplianceData
+     * @return \Santosdave\Travelport\Air\TravelComplianceData
      */
     public function setPolicyCompliance(array $PolicyCompliance = null)
     {
@@ -103,7 +103,7 @@ class TravelComplianceData
 
     /**
      * @param ContractCompliance[] $ContractCompliance
-     * @return \FilippoToso\Travelport\Air\TravelComplianceData
+     * @return \Santosdave\Travelport\Air\TravelComplianceData
      */
     public function setContractCompliance(array $ContractCompliance = null)
     {
@@ -121,7 +121,7 @@ class TravelComplianceData
 
     /**
      * @param PreferredSupplier[] $PreferredSupplier
-     * @return \FilippoToso\Travelport\Air\TravelComplianceData
+     * @return \Santosdave\Travelport\Air\TravelComplianceData
      */
     public function setPreferredSupplier(array $PreferredSupplier = null)
     {
@@ -139,7 +139,7 @@ class TravelComplianceData
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Air\TravelComplianceData
+     * @return \Santosdave\Travelport\Air\TravelComplianceData
      */
     public function setKey($Key)
     {
@@ -157,7 +157,7 @@ class TravelComplianceData
 
     /**
      * @param typeRef $AirSegmentRef
-     * @return \FilippoToso\Travelport\Air\TravelComplianceData
+     * @return \Santosdave\Travelport\Air\TravelComplianceData
      */
     public function setAirSegmentRef($AirSegmentRef)
     {
@@ -175,7 +175,7 @@ class TravelComplianceData
 
     /**
      * @param typeRef $PassiveSegmentRef
-     * @return \FilippoToso\Travelport\Air\TravelComplianceData
+     * @return \Santosdave\Travelport\Air\TravelComplianceData
      */
     public function setPassiveSegmentRef($PassiveSegmentRef)
     {
@@ -193,7 +193,7 @@ class TravelComplianceData
 
     /**
      * @param typeRef $RailSegmentRef
-     * @return \FilippoToso\Travelport\Air\TravelComplianceData
+     * @return \Santosdave\Travelport\Air\TravelComplianceData
      */
     public function setRailSegmentRef($RailSegmentRef)
     {
@@ -211,7 +211,7 @@ class TravelComplianceData
 
     /**
      * @param typeLocatorCode $ReservationLocatorRef
-     * @return \FilippoToso\Travelport\Air\TravelComplianceData
+     * @return \Santosdave\Travelport\Air\TravelComplianceData
      */
     public function setReservationLocatorRef($ReservationLocatorRef)
     {
@@ -229,7 +229,7 @@ class TravelComplianceData
 
     /**
      * @param typeElementStatus $ElStat
-     * @return \FilippoToso\Travelport\Air\TravelComplianceData
+     * @return \Santosdave\Travelport\Air\TravelComplianceData
      */
     public function setElStat($ElStat)
     {
@@ -247,7 +247,7 @@ class TravelComplianceData
 
     /**
      * @param boolean $KeyOverride
-     * @return \FilippoToso\Travelport\Air\TravelComplianceData
+     * @return \Santosdave\Travelport\Air\TravelComplianceData
      */
     public function setKeyOverride($KeyOverride)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class Route
 {
@@ -35,7 +35,7 @@ class Route
 
     /**
      * @param Leg $Leg
-     * @return \FilippoToso\Travelport\GDSQueue\Route
+     * @return \Santosdave\Travelport\GDSQueue\Route
      */
     public function setLeg($Leg)
     {
@@ -53,7 +53,7 @@ class Route
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\GDSQueue\Route
+     * @return \Santosdave\Travelport\GDSQueue\Route
      */
     public function setKey($Key)
     {

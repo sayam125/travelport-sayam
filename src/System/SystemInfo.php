@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\System;
+namespace Santosdave\Travelport\System;
 
 class SystemInfo
 {
@@ -42,7 +42,7 @@ class SystemInfo
 
     /**
      * @param string $SystemType
-     * @return \FilippoToso\Travelport\System\SystemInfo
+     * @return \Santosdave\Travelport\System\SystemInfo
      */
     public function setSystemType($SystemType)
     {
@@ -60,7 +60,7 @@ class SystemInfo
 
     /**
      * @param string $ApplicationVersion
-     * @return \FilippoToso\Travelport\System\SystemInfo
+     * @return \Santosdave\Travelport\System\SystemInfo
      */
     public function setApplicationVersion($ApplicationVersion)
     {
@@ -78,7 +78,7 @@ class SystemInfo
 
     /**
      * @param string $Description
-     * @return \FilippoToso\Travelport\System\SystemInfo
+     * @return \Santosdave\Travelport\System\SystemInfo
      */
     public function setDescription($Description)
     {

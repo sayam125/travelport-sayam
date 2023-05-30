@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class HotelAlternateProperties
 {
@@ -28,7 +28,7 @@ class HotelAlternateProperties
 
     /**
      * @param HotelProperty $HotelProperty
-     * @return \FilippoToso\Travelport\GDSQueue\HotelAlternateProperties
+     * @return \Santosdave\Travelport\GDSQueue\HotelAlternateProperties
      */
     public function setHotelProperty($HotelProperty)
     {

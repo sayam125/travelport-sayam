@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class AuditData
 {
@@ -105,7 +105,7 @@ class AuditData
 
     /**
      * @param typeTaxInfo $TaxInfo
-     * @return \FilippoToso\Travelport\Air\AuditData
+     * @return \Santosdave\Travelport\Air\AuditData
      */
     public function setTaxInfo($TaxInfo)
     {
@@ -123,7 +123,7 @@ class AuditData
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Air\AuditData
+     * @return \Santosdave\Travelport\Air\AuditData
      */
     public function setKey($Key)
     {
@@ -141,7 +141,7 @@ class AuditData
 
     /**
      * @param typeMoney $TotalPrice
-     * @return \FilippoToso\Travelport\Air\AuditData
+     * @return \Santosdave\Travelport\Air\AuditData
      */
     public function setTotalPrice($TotalPrice)
     {
@@ -159,7 +159,7 @@ class AuditData
 
     /**
      * @param typeMoney $BasePrice
-     * @return \FilippoToso\Travelport\Air\AuditData
+     * @return \Santosdave\Travelport\Air\AuditData
      */
     public function setBasePrice($BasePrice)
     {
@@ -177,7 +177,7 @@ class AuditData
 
     /**
      * @param typeMoney $ApproximateTotalPrice
-     * @return \FilippoToso\Travelport\Air\AuditData
+     * @return \Santosdave\Travelport\Air\AuditData
      */
     public function setApproximateTotalPrice($ApproximateTotalPrice)
     {
@@ -195,7 +195,7 @@ class AuditData
 
     /**
      * @param typeMoney $ApproximateBasePrice
-     * @return \FilippoToso\Travelport\Air\AuditData
+     * @return \Santosdave\Travelport\Air\AuditData
      */
     public function setApproximateBasePrice($ApproximateBasePrice)
     {
@@ -213,7 +213,7 @@ class AuditData
 
     /**
      * @param typeMoney $EquivalentBasePrice
-     * @return \FilippoToso\Travelport\Air\AuditData
+     * @return \Santosdave\Travelport\Air\AuditData
      */
     public function setEquivalentBasePrice($EquivalentBasePrice)
     {
@@ -231,7 +231,7 @@ class AuditData
 
     /**
      * @param typeMoney $Taxes
-     * @return \FilippoToso\Travelport\Air\AuditData
+     * @return \Santosdave\Travelport\Air\AuditData
      */
     public function setTaxes($Taxes)
     {
@@ -249,7 +249,7 @@ class AuditData
 
     /**
      * @param typeMoney $Fees
-     * @return \FilippoToso\Travelport\Air\AuditData
+     * @return \Santosdave\Travelport\Air\AuditData
      */
     public function setFees($Fees)
     {
@@ -267,7 +267,7 @@ class AuditData
 
     /**
      * @param typeMoney $Services
-     * @return \FilippoToso\Travelport\Air\AuditData
+     * @return \Santosdave\Travelport\Air\AuditData
      */
     public function setServices($Services)
     {
@@ -285,7 +285,7 @@ class AuditData
 
     /**
      * @param typeMoney $ApproximateTaxes
-     * @return \FilippoToso\Travelport\Air\AuditData
+     * @return \Santosdave\Travelport\Air\AuditData
      */
     public function setApproximateTaxes($ApproximateTaxes)
     {
@@ -303,7 +303,7 @@ class AuditData
 
     /**
      * @param typeMoney $ApproximateFees
-     * @return \FilippoToso\Travelport\Air\AuditData
+     * @return \Santosdave\Travelport\Air\AuditData
      */
     public function setApproximateFees($ApproximateFees)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class DaysOfWeekRestriction
 {
@@ -91,7 +91,7 @@ class DaysOfWeekRestriction
 
     /**
      * @param boolean $RestrictionExistsInd
-     * @return \FilippoToso\Travelport\Rail\DaysOfWeekRestriction
+     * @return \Santosdave\Travelport\Rail\DaysOfWeekRestriction
      */
     public function setRestrictionExistsInd($RestrictionExistsInd)
     {
@@ -109,7 +109,7 @@ class DaysOfWeekRestriction
 
     /**
      * @param string $Application
-     * @return \FilippoToso\Travelport\Rail\DaysOfWeekRestriction
+     * @return \Santosdave\Travelport\Rail\DaysOfWeekRestriction
      */
     public function setApplication($Application)
     {
@@ -127,7 +127,7 @@ class DaysOfWeekRestriction
 
     /**
      * @param boolean $IncludeExcludeUseInd
-     * @return \FilippoToso\Travelport\Rail\DaysOfWeekRestriction
+     * @return \Santosdave\Travelport\Rail\DaysOfWeekRestriction
      */
     public function setIncludeExcludeUseInd($IncludeExcludeUseInd)
     {
@@ -145,7 +145,7 @@ class DaysOfWeekRestriction
 
     /**
      * @param boolean $Mon
-     * @return \FilippoToso\Travelport\Rail\DaysOfWeekRestriction
+     * @return \Santosdave\Travelport\Rail\DaysOfWeekRestriction
      */
     public function setMon($Mon)
     {
@@ -163,7 +163,7 @@ class DaysOfWeekRestriction
 
     /**
      * @param boolean $Tue
-     * @return \FilippoToso\Travelport\Rail\DaysOfWeekRestriction
+     * @return \Santosdave\Travelport\Rail\DaysOfWeekRestriction
      */
     public function setTue($Tue)
     {
@@ -181,7 +181,7 @@ class DaysOfWeekRestriction
 
     /**
      * @param boolean $Wed
-     * @return \FilippoToso\Travelport\Rail\DaysOfWeekRestriction
+     * @return \Santosdave\Travelport\Rail\DaysOfWeekRestriction
      */
     public function setWed($Wed)
     {
@@ -199,7 +199,7 @@ class DaysOfWeekRestriction
 
     /**
      * @param boolean $Thu
-     * @return \FilippoToso\Travelport\Rail\DaysOfWeekRestriction
+     * @return \Santosdave\Travelport\Rail\DaysOfWeekRestriction
      */
     public function setThu($Thu)
     {
@@ -217,7 +217,7 @@ class DaysOfWeekRestriction
 
     /**
      * @param boolean $Fri
-     * @return \FilippoToso\Travelport\Rail\DaysOfWeekRestriction
+     * @return \Santosdave\Travelport\Rail\DaysOfWeekRestriction
      */
     public function setFri($Fri)
     {
@@ -235,7 +235,7 @@ class DaysOfWeekRestriction
 
     /**
      * @param boolean $Sat
-     * @return \FilippoToso\Travelport\Rail\DaysOfWeekRestriction
+     * @return \Santosdave\Travelport\Rail\DaysOfWeekRestriction
      */
     public function setSat($Sat)
     {
@@ -253,7 +253,7 @@ class DaysOfWeekRestriction
 
     /**
      * @param boolean $Sun
-     * @return \FilippoToso\Travelport\Rail\DaysOfWeekRestriction
+     * @return \Santosdave\Travelport\Rail\DaysOfWeekRestriction
      */
     public function setSun($Sun)
     {

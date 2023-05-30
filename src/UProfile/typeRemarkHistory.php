@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeRemarkHistory extends typeKeyElement
 {
@@ -84,7 +84,7 @@ class typeRemarkHistory extends typeKeyElement
 
     /**
      * @param StringLength1to255 $RemarkText
-     * @return \FilippoToso\Travelport\UProfile\typeRemarkHistory
+     * @return \Santosdave\Travelport\UProfile\typeRemarkHistory
      */
     public function setRemarkText($RemarkText)
     {
@@ -102,7 +102,7 @@ class typeRemarkHistory extends typeKeyElement
 
     /**
      * @param typeRemarkType $Type
-     * @return \FilippoToso\Travelport\UProfile\typeRemarkHistory
+     * @return \Santosdave\Travelport\UProfile\typeRemarkHistory
      */
     public function setType($Type)
     {
@@ -120,7 +120,7 @@ class typeRemarkHistory extends typeKeyElement
 
     /**
      * @param typeAccountingRemarkType $AccountingRemarkType
-     * @return \FilippoToso\Travelport\UProfile\typeRemarkHistory
+     * @return \Santosdave\Travelport\UProfile\typeRemarkHistory
      */
     public function setAccountingRemarkType($AccountingRemarkType)
     {
@@ -138,7 +138,7 @@ class typeRemarkHistory extends typeKeyElement
 
     /**
      * @param typeProviderCode $Provider
-     * @return \FilippoToso\Travelport\UProfile\typeRemarkHistory
+     * @return \Santosdave\Travelport\UProfile\typeRemarkHistory
      */
     public function setProvider($Provider)
     {
@@ -156,7 +156,7 @@ class typeRemarkHistory extends typeKeyElement
 
     /**
      * @param typeGeneralRemarkType $GeneralRemarkType
-     * @return \FilippoToso\Travelport\UProfile\typeRemarkHistory
+     * @return \Santosdave\Travelport\UProfile\typeRemarkHistory
      */
     public function setGeneralRemarkType($GeneralRemarkType)
     {
@@ -174,7 +174,7 @@ class typeRemarkHistory extends typeKeyElement
 
     /**
      * @param typeRemarkCategory $CategoryType
-     * @return \FilippoToso\Travelport\UProfile\typeRemarkHistory
+     * @return \Santosdave\Travelport\UProfile\typeRemarkHistory
      */
     public function setCategoryType($CategoryType)
     {
@@ -192,7 +192,7 @@ class typeRemarkHistory extends typeKeyElement
 
     /**
      * @param typeSupplierType $SupplierType
-     * @return \FilippoToso\Travelport\UProfile\typeRemarkHistory
+     * @return \Santosdave\Travelport\UProfile\typeRemarkHistory
      */
     public function setSupplierType($SupplierType)
     {
@@ -210,7 +210,7 @@ class typeRemarkHistory extends typeKeyElement
 
     /**
      * @param typeSupplier $Supplier
-     * @return \FilippoToso\Travelport\UProfile\typeRemarkHistory
+     * @return \Santosdave\Travelport\UProfile\typeRemarkHistory
      */
     public function setSupplier($Supplier)
     {
@@ -228,7 +228,7 @@ class typeRemarkHistory extends typeKeyElement
 
     /**
      * @param typePriorityOrder $PriorityOrder
-     * @return \FilippoToso\Travelport\UProfile\typeRemarkHistory
+     * @return \Santosdave\Travelport\UProfile\typeRemarkHistory
      */
     public function setPriorityOrder($PriorityOrder)
     {

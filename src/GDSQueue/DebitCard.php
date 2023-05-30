@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class DebitCard extends typePaymentCard
 {
@@ -50,7 +50,7 @@ class DebitCard extends typePaymentCard
 
     /**
      * @param anonymous29 $IssueNumber
-     * @return \FilippoToso\Travelport\GDSQueue\DebitCard
+     * @return \Santosdave\Travelport\GDSQueue\DebitCard
      */
     public function setIssueNumber($IssueNumber)
     {
@@ -68,7 +68,7 @@ class DebitCard extends typePaymentCard
 
     /**
      * @param string $ProfileID
-     * @return \FilippoToso\Travelport\GDSQueue\DebitCard
+     * @return \Santosdave\Travelport\GDSQueue\DebitCard
      */
     public function setProfileID($ProfileID)
     {
@@ -86,7 +86,7 @@ class DebitCard extends typePaymentCard
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\GDSQueue\DebitCard
+     * @return \Santosdave\Travelport\GDSQueue\DebitCard
      */
     public function setKey($Key)
     {

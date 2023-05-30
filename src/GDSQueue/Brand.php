@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class Brand
 {
@@ -159,7 +159,7 @@ class Brand
 
     /**
      * @param typeTextElement $Title
-     * @return \FilippoToso\Travelport\GDSQueue\Brand
+     * @return \Santosdave\Travelport\GDSQueue\Brand
      */
     public function setTitle($Title)
     {
@@ -177,7 +177,7 @@ class Brand
 
     /**
      * @param typeTextElement $Text
-     * @return \FilippoToso\Travelport\GDSQueue\Brand
+     * @return \Santosdave\Travelport\GDSQueue\Brand
      */
     public function setText($Text)
     {
@@ -195,7 +195,7 @@ class Brand
 
     /**
      * @param ImageLocation $ImageLocation
-     * @return \FilippoToso\Travelport\GDSQueue\Brand
+     * @return \Santosdave\Travelport\GDSQueue\Brand
      */
     public function setImageLocation($ImageLocation)
     {
@@ -213,7 +213,7 @@ class Brand
 
     /**
      * @param OptionalServices $OptionalServices
-     * @return \FilippoToso\Travelport\GDSQueue\Brand
+     * @return \Santosdave\Travelport\GDSQueue\Brand
      */
     public function setOptionalServices($OptionalServices)
     {
@@ -231,7 +231,7 @@ class Brand
 
     /**
      * @param Rules $Rules
-     * @return \FilippoToso\Travelport\GDSQueue\Brand
+     * @return \Santosdave\Travelport\GDSQueue\Brand
      */
     public function setRules($Rules)
     {
@@ -249,7 +249,7 @@ class Brand
 
     /**
      * @param ServiceAssociations $ServiceAssociations
-     * @return \FilippoToso\Travelport\GDSQueue\Brand
+     * @return \Santosdave\Travelport\GDSQueue\Brand
      */
     public function setServiceAssociations($ServiceAssociations)
     {
@@ -267,7 +267,7 @@ class Brand
 
     /**
      * @param UpsellBrand $UpsellBrand
-     * @return \FilippoToso\Travelport\GDSQueue\Brand
+     * @return \Santosdave\Travelport\GDSQueue\Brand
      */
     public function setUpsellBrand($UpsellBrand)
     {
@@ -285,7 +285,7 @@ class Brand
 
     /**
      * @param typeApplicableSegment[] $ApplicableSegment
-     * @return \FilippoToso\Travelport\GDSQueue\Brand
+     * @return \Santosdave\Travelport\GDSQueue\Brand
      */
     public function setApplicableSegment(array $ApplicableSegment = null)
     {
@@ -303,7 +303,7 @@ class Brand
 
     /**
      * @param typeDefaultBrandDetail $DefaultBrandDetail
-     * @return \FilippoToso\Travelport\GDSQueue\Brand
+     * @return \Santosdave\Travelport\GDSQueue\Brand
      */
     public function setDefaultBrandDetail($DefaultBrandDetail)
     {
@@ -321,7 +321,7 @@ class Brand
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\GDSQueue\Brand
+     * @return \Santosdave\Travelport\GDSQueue\Brand
      */
     public function setKey($Key)
     {
@@ -339,7 +339,7 @@ class Brand
 
     /**
      * @param typeBrandId $BrandID
-     * @return \FilippoToso\Travelport\GDSQueue\Brand
+     * @return \Santosdave\Travelport\GDSQueue\Brand
      */
     public function setBrandID($BrandID)
     {
@@ -357,7 +357,7 @@ class Brand
 
     /**
      * @param string $Name
-     * @return \FilippoToso\Travelport\GDSQueue\Brand
+     * @return \Santosdave\Travelport\GDSQueue\Brand
      */
     public function setName($Name)
     {
@@ -375,7 +375,7 @@ class Brand
 
     /**
      * @param typeRef $AirItineraryDetailsRef
-     * @return \FilippoToso\Travelport\GDSQueue\Brand
+     * @return \Santosdave\Travelport\GDSQueue\Brand
      */
     public function setAirItineraryDetailsRef($AirItineraryDetailsRef)
     {
@@ -393,7 +393,7 @@ class Brand
 
     /**
      * @param typeBrandId $UpSellBrandID
-     * @return \FilippoToso\Travelport\GDSQueue\Brand
+     * @return \Santosdave\Travelport\GDSQueue\Brand
      */
     public function setUpSellBrandID($UpSellBrandID)
     {
@@ -411,7 +411,7 @@ class Brand
 
     /**
      * @param boolean $BrandFound
-     * @return \FilippoToso\Travelport\GDSQueue\Brand
+     * @return \Santosdave\Travelport\GDSQueue\Brand
      */
     public function setBrandFound($BrandFound)
     {
@@ -429,7 +429,7 @@ class Brand
 
     /**
      * @param boolean $UpSellBrandFound
-     * @return \FilippoToso\Travelport\GDSQueue\Brand
+     * @return \Santosdave\Travelport\GDSQueue\Brand
      */
     public function setUpSellBrandFound($UpSellBrandFound)
     {
@@ -447,7 +447,7 @@ class Brand
 
     /**
      * @param boolean $BrandedDetailsAvailable
-     * @return \FilippoToso\Travelport\GDSQueue\Brand
+     * @return \Santosdave\Travelport\GDSQueue\Brand
      */
     public function setBrandedDetailsAvailable($BrandedDetailsAvailable)
     {
@@ -465,7 +465,7 @@ class Brand
 
     /**
      * @param typeCarrier $Carrier
-     * @return \FilippoToso\Travelport\GDSQueue\Brand
+     * @return \Santosdave\Travelport\GDSQueue\Brand
      */
     public function setCarrier($Carrier)
     {
@@ -483,7 +483,7 @@ class Brand
 
     /**
      * @param StringLength1to10 $BrandTier
-     * @return \FilippoToso\Travelport\GDSQueue\Brand
+     * @return \Santosdave\Travelport\GDSQueue\Brand
      */
     public function setBrandTier($BrandTier)
     {
@@ -501,7 +501,7 @@ class Brand
 
     /**
      * @param StringLength1to99 $BrandMaintained
-     * @return \FilippoToso\Travelport\GDSQueue\Brand
+     * @return \Santosdave\Travelport\GDSQueue\Brand
      */
     public function setBrandMaintained($BrandMaintained)
     {

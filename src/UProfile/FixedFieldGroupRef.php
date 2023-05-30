@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class FixedFieldGroupRef
 {
@@ -28,7 +28,7 @@ class FixedFieldGroupRef
 
     /**
      * @param typeID $ID
-     * @return \FilippoToso\Travelport\UProfile\FixedFieldGroupRef
+     * @return \Santosdave\Travelport\UProfile\FixedFieldGroupRef
      */
     public function setID($ID)
     {

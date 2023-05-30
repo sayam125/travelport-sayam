@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class APISRequirementsList
 {
@@ -28,7 +28,7 @@ class APISRequirementsList
 
     /**
      * @param APISRequirements $APISRequirements
-     * @return \FilippoToso\Travelport\Rail\APISRequirementsList
+     * @return \Santosdave\Travelport\Rail\APISRequirementsList
      */
     public function setAPISRequirements($APISRequirements)
     {

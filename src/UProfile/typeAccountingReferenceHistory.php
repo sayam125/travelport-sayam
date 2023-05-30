@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeAccountingReferenceHistory extends typeKeyElement
 {
@@ -70,7 +70,7 @@ class typeAccountingReferenceHistory extends typeKeyElement
 
     /**
      * @param typeRef[] $PaymentDetailsRef
-     * @return \FilippoToso\Travelport\UProfile\typeAccountingReferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeAccountingReferenceHistory
      */
     public function setPaymentDetailsRef(array $PaymentDetailsRef = null)
     {
@@ -88,7 +88,7 @@ class typeAccountingReferenceHistory extends typeKeyElement
 
     /**
      * @param string $Type
-     * @return \FilippoToso\Travelport\UProfile\typeAccountingReferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeAccountingReferenceHistory
      */
     public function setType($Type)
     {
@@ -106,7 +106,7 @@ class typeAccountingReferenceHistory extends typeKeyElement
 
     /**
      * @param StringLength1to255 $Value
-     * @return \FilippoToso\Travelport\UProfile\typeAccountingReferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeAccountingReferenceHistory
      */
     public function setValue($Value)
     {
@@ -124,7 +124,7 @@ class typeAccountingReferenceHistory extends typeKeyElement
 
     /**
      * @param typeProfileID $AccountID
-     * @return \FilippoToso\Travelport\UProfile\typeAccountingReferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeAccountingReferenceHistory
      */
     public function setAccountID($AccountID)
     {
@@ -142,7 +142,7 @@ class typeAccountingReferenceHistory extends typeKeyElement
 
     /**
      * @param typePriorityOrder $PriorityOrder
-     * @return \FilippoToso\Travelport\UProfile\typeAccountingReferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeAccountingReferenceHistory
      */
     public function setPriorityOrder($PriorityOrder)
     {
@@ -160,7 +160,7 @@ class typeAccountingReferenceHistory extends typeKeyElement
 
     /**
      * @param typeProfileID $OwnerID
-     * @return \FilippoToso\Travelport\UProfile\typeAccountingReferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeAccountingReferenceHistory
      */
     public function setOwnerID($OwnerID)
     {
@@ -178,7 +178,7 @@ class typeAccountingReferenceHistory extends typeKeyElement
 
     /**
      * @param boolean $Active
-     * @return \FilippoToso\Travelport\UProfile\typeAccountingReferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeAccountingReferenceHistory
      */
     public function setActive($Active)
     {

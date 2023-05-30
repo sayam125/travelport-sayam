@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class FareRemarkList
 {
@@ -28,7 +28,7 @@ class FareRemarkList
 
     /**
      * @param FareRemark $FareRemark
-     * @return \FilippoToso\Travelport\GDSQueue\FareRemarkList
+     * @return \Santosdave\Travelport\GDSQueue\FareRemarkList
      */
     public function setFareRemark($FareRemark)
     {

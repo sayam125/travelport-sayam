@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class typePaymentCard
 {
@@ -75,7 +75,7 @@ class typePaymentCard
 
     /**
      * @param PhoneNumber $PhoneNumber
-     * @return \FilippoToso\Travelport\Util\typePaymentCard
+     * @return \Santosdave\Travelport\Util\typePaymentCard
      */
     public function setPhoneNumber($PhoneNumber)
     {
@@ -93,7 +93,7 @@ class typePaymentCard
 
     /**
      * @param typeStructuredAddress $BillingAddress
-     * @return \FilippoToso\Travelport\Util\typePaymentCard
+     * @return \Santosdave\Travelport\Util\typePaymentCard
      */
     public function setBillingAddress($BillingAddress)
     {
@@ -111,7 +111,7 @@ class typePaymentCard
 
     /**
      * @param typeCardMerchantType $Type
-     * @return \FilippoToso\Travelport\Util\typePaymentCard
+     * @return \Santosdave\Travelport\Util\typePaymentCard
      */
     public function setType($Type)
     {
@@ -129,7 +129,7 @@ class typePaymentCard
 
     /**
      * @param typeCreditCardNumber $Number
-     * @return \FilippoToso\Travelport\Util\typePaymentCard
+     * @return \Santosdave\Travelport\Util\typePaymentCard
      */
     public function setNumber($Number)
     {
@@ -147,7 +147,7 @@ class typePaymentCard
 
     /**
      * @param gYearMonth $ExpDate
-     * @return \FilippoToso\Travelport\Util\typePaymentCard
+     * @return \Santosdave\Travelport\Util\typePaymentCard
      */
     public function setExpDate($ExpDate)
     {
@@ -165,7 +165,7 @@ class typePaymentCard
 
     /**
      * @param anonymous38 $Name
-     * @return \FilippoToso\Travelport\Util\typePaymentCard
+     * @return \Santosdave\Travelport\Util\typePaymentCard
      */
     public function setName($Name)
     {
@@ -183,7 +183,7 @@ class typePaymentCard
 
     /**
      * @param anonymous39 $CVV
-     * @return \FilippoToso\Travelport\Util\typePaymentCard
+     * @return \Santosdave\Travelport\Util\typePaymentCard
      */
     public function setCVV($CVV)
     {
@@ -201,7 +201,7 @@ class typePaymentCard
 
     /**
      * @param anonymous40 $ApprovalCode
-     * @return \FilippoToso\Travelport\Util\typePaymentCard
+     * @return \Santosdave\Travelport\Util\typePaymentCard
      */
     public function setApprovalCode($ApprovalCode)
     {

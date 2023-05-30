@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class RecordIdentifier
 {
@@ -42,7 +42,7 @@ class RecordIdentifier
 
     /**
      * @param typeLocatorCode $UniversalLocatorCode
-     * @return \FilippoToso\Travelport\UniversalRecord\RecordIdentifier
+     * @return \Santosdave\Travelport\UniversalRecord\RecordIdentifier
      */
     public function setUniversalLocatorCode($UniversalLocatorCode)
     {
@@ -60,7 +60,7 @@ class RecordIdentifier
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\UniversalRecord\RecordIdentifier
+     * @return \Santosdave\Travelport\UniversalRecord\RecordIdentifier
      */
     public function setProviderCode($ProviderCode)
     {
@@ -78,7 +78,7 @@ class RecordIdentifier
 
     /**
      * @param typeProviderLocatorCode $ProviderLocatorCode
-     * @return \FilippoToso\Travelport\UniversalRecord\RecordIdentifier
+     * @return \Santosdave\Travelport\UniversalRecord\RecordIdentifier
      */
     public function setProviderLocatorCode($ProviderLocatorCode)
     {

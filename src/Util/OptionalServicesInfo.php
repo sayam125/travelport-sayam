@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class OptionalServicesInfo
 {
@@ -42,7 +42,7 @@ class OptionalServicesInfo
 
     /**
      * @param AirPricingSolution $AirPricingSolution
-     * @return \FilippoToso\Travelport\Util\OptionalServicesInfo
+     * @return \Santosdave\Travelport\Util\OptionalServicesInfo
      */
     public function setAirPricingSolution($AirPricingSolution)
     {
@@ -60,7 +60,7 @@ class OptionalServicesInfo
 
     /**
      * @param FormOfPayment $FormOfPayment
-     * @return \FilippoToso\Travelport\Util\OptionalServicesInfo
+     * @return \Santosdave\Travelport\Util\OptionalServicesInfo
      */
     public function setFormOfPayment($FormOfPayment)
     {
@@ -78,7 +78,7 @@ class OptionalServicesInfo
 
     /**
      * @param FormOfPaymentRef $FormOfPaymentRef
-     * @return \FilippoToso\Travelport\Util\OptionalServicesInfo
+     * @return \Santosdave\Travelport\Util\OptionalServicesInfo
      */
     public function setFormOfPaymentRef($FormOfPaymentRef)
     {

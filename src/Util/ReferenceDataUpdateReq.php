@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class ReferenceDataUpdateReq extends BaseReq
 {
@@ -54,7 +54,7 @@ class ReferenceDataUpdateReq extends BaseReq
 
     /**
      * @param Item[] $Item
-     * @return \FilippoToso\Travelport\Util\ReferenceDataUpdateReq
+     * @return \Santosdave\Travelport\Util\ReferenceDataUpdateReq
      */
     public function setItem(array $Item)
     {
@@ -72,7 +72,7 @@ class ReferenceDataUpdateReq extends BaseReq
 
     /**
      * @param anonymous1214 $Action
-     * @return \FilippoToso\Travelport\Util\ReferenceDataUpdateReq
+     * @return \Santosdave\Travelport\Util\ReferenceDataUpdateReq
      */
     public function setAction($Action)
     {
@@ -90,7 +90,7 @@ class ReferenceDataUpdateReq extends BaseReq
 
     /**
      * @param typeTypeCode $TypeCode
-     * @return \FilippoToso\Travelport\Util\ReferenceDataUpdateReq
+     * @return \Santosdave\Travelport\Util\ReferenceDataUpdateReq
      */
     public function setTypeCode($TypeCode)
     {

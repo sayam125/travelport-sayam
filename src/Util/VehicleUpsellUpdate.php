@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class VehicleUpsellUpdate
 {
@@ -35,7 +35,7 @@ class VehicleUpsellUpdate
 
     /**
      * @param VehicleUpsellQualify $VehicleUpsellQualify
-     * @return \FilippoToso\Travelport\Util\VehicleUpsellUpdate
+     * @return \Santosdave\Travelport\Util\VehicleUpsellUpdate
      */
     public function setVehicleUpsellQualify($VehicleUpsellQualify)
     {
@@ -53,7 +53,7 @@ class VehicleUpsellUpdate
 
     /**
      * @param VehicleUpsellOffer $VehicleUpsellOffer
-     * @return \FilippoToso\Travelport\Util\VehicleUpsellUpdate
+     * @return \Santosdave\Travelport\Util\VehicleUpsellUpdate
      */
     public function setVehicleUpsellOffer($VehicleUpsellOffer)
     {

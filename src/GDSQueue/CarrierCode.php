@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class CarrierCode
 {
@@ -28,7 +28,7 @@ class CarrierCode
 
     /**
      * @param typeCarrier $_
-     * @return \FilippoToso\Travelport\GDSQueue\CarrierCode
+     * @return \Santosdave\Travelport\GDSQueue\CarrierCode
      */
     public function set_($_)
     {

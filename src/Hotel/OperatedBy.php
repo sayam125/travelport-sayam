@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class OperatedBy
 {
@@ -28,7 +28,7 @@ class OperatedBy
 
     /**
      * @param typeNonBlanks $_
-     * @return \FilippoToso\Travelport\Hotel\OperatedBy
+     * @return \Santosdave\Travelport\Hotel\OperatedBy
      */
     public function set_($_)
     {

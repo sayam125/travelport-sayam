@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class MctException
 {
@@ -175,7 +175,7 @@ class MctException
 
     /**
      * @param int $Time
-     * @return \FilippoToso\Travelport\Util\MctException
+     * @return \Santosdave\Travelport\Util\MctException
      */
     public function setTime($Time)
     {
@@ -193,7 +193,7 @@ class MctException
 
     /**
      * @param typeIATACode $ArriveStation
-     * @return \FilippoToso\Travelport\Util\MctException
+     * @return \Santosdave\Travelport\Util\MctException
      */
     public function setArriveStation($ArriveStation)
     {
@@ -211,7 +211,7 @@ class MctException
 
     /**
      * @param typeIATACode $DepartStation
-     * @return \FilippoToso\Travelport\Util\MctException
+     * @return \Santosdave\Travelport\Util\MctException
      */
     public function setDepartStation($DepartStation)
     {
@@ -229,7 +229,7 @@ class MctException
 
     /**
      * @param typeMctConnection $Connection
-     * @return \FilippoToso\Travelport\Util\MctException
+     * @return \Santosdave\Travelport\Util\MctException
      */
     public function setConnection($Connection)
     {
@@ -247,7 +247,7 @@ class MctException
 
     /**
      * @param typeCarrier $ArriveCarrier
-     * @return \FilippoToso\Travelport\Util\MctException
+     * @return \Santosdave\Travelport\Util\MctException
      */
     public function setArriveCarrier($ArriveCarrier)
     {
@@ -265,7 +265,7 @@ class MctException
 
     /**
      * @param typeCarrier $DepartCarrier
-     * @return \FilippoToso\Travelport\Util\MctException
+     * @return \Santosdave\Travelport\Util\MctException
      */
     public function setDepartCarrier($DepartCarrier)
     {
@@ -283,7 +283,7 @@ class MctException
 
     /**
      * @param string $ArriveFlightRangeBegin
-     * @return \FilippoToso\Travelport\Util\MctException
+     * @return \Santosdave\Travelport\Util\MctException
      */
     public function setArriveFlightRangeBegin($ArriveFlightRangeBegin)
     {
@@ -301,7 +301,7 @@ class MctException
 
     /**
      * @param string $ArriveFlightRangeEnd
-     * @return \FilippoToso\Travelport\Util\MctException
+     * @return \Santosdave\Travelport\Util\MctException
      */
     public function setArriveFlightRangeEnd($ArriveFlightRangeEnd)
     {
@@ -319,7 +319,7 @@ class MctException
 
     /**
      * @param string $DepartFlightRangeBegin
-     * @return \FilippoToso\Travelport\Util\MctException
+     * @return \Santosdave\Travelport\Util\MctException
      */
     public function setDepartFlightRangeBegin($DepartFlightRangeBegin)
     {
@@ -337,7 +337,7 @@ class MctException
 
     /**
      * @param string $DepartFlightRangeEnd
-     * @return \FilippoToso\Travelport\Util\MctException
+     * @return \Santosdave\Travelport\Util\MctException
      */
     public function setDepartFlightRangeEnd($DepartFlightRangeEnd)
     {
@@ -355,7 +355,7 @@ class MctException
 
     /**
      * @param string $ArriveEquipment
-     * @return \FilippoToso\Travelport\Util\MctException
+     * @return \Santosdave\Travelport\Util\MctException
      */
     public function setArriveEquipment($ArriveEquipment)
     {
@@ -373,7 +373,7 @@ class MctException
 
     /**
      * @param string $DepartEquipment
-     * @return \FilippoToso\Travelport\Util\MctException
+     * @return \Santosdave\Travelport\Util\MctException
      */
     public function setDepartEquipment($DepartEquipment)
     {
@@ -391,7 +391,7 @@ class MctException
 
     /**
      * @param typeIATACode $PreviousStation
-     * @return \FilippoToso\Travelport\Util\MctException
+     * @return \Santosdave\Travelport\Util\MctException
      */
     public function setPreviousStation($PreviousStation)
     {
@@ -409,7 +409,7 @@ class MctException
 
     /**
      * @param typeIATACode $NextStation
-     * @return \FilippoToso\Travelport\Util\MctException
+     * @return \Santosdave\Travelport\Util\MctException
      */
     public function setNextStation($NextStation)
     {
@@ -427,7 +427,7 @@ class MctException
 
     /**
      * @param typeCountry $PreviousCountry
-     * @return \FilippoToso\Travelport\Util\MctException
+     * @return \Santosdave\Travelport\Util\MctException
      */
     public function setPreviousCountry($PreviousCountry)
     {
@@ -445,7 +445,7 @@ class MctException
 
     /**
      * @param typeCountry $NextCountry
-     * @return \FilippoToso\Travelport\Util\MctException
+     * @return \Santosdave\Travelport\Util\MctException
      */
     public function setNextCountry($NextCountry)
     {
@@ -463,7 +463,7 @@ class MctException
 
     /**
      * @param typeState $PreviousState
-     * @return \FilippoToso\Travelport\Util\MctException
+     * @return \Santosdave\Travelport\Util\MctException
      */
     public function setPreviousState($PreviousState)
     {
@@ -481,7 +481,7 @@ class MctException
 
     /**
      * @param typeState $NextState
-     * @return \FilippoToso\Travelport\Util\MctException
+     * @return \Santosdave\Travelport\Util\MctException
      */
     public function setNextState($NextState)
     {
@@ -499,7 +499,7 @@ class MctException
 
     /**
      * @param string $ArriveTerminal
-     * @return \FilippoToso\Travelport\Util\MctException
+     * @return \Santosdave\Travelport\Util\MctException
      */
     public function setArriveTerminal($ArriveTerminal)
     {
@@ -517,7 +517,7 @@ class MctException
 
     /**
      * @param string $DepartTerminal
-     * @return \FilippoToso\Travelport\Util\MctException
+     * @return \Santosdave\Travelport\Util\MctException
      */
     public function setDepartTerminal($DepartTerminal)
     {
@@ -535,7 +535,7 @@ class MctException
 
     /**
      * @param date $EffectiveDate
-     * @return \FilippoToso\Travelport\Util\MctException
+     * @return \Santosdave\Travelport\Util\MctException
      */
     public function setEffectiveDate($EffectiveDate)
     {
@@ -553,7 +553,7 @@ class MctException
 
     /**
      * @param date $DiscontinueDate
-     * @return \FilippoToso\Travelport\Util\MctException
+     * @return \Santosdave\Travelport\Util\MctException
      */
     public function setDiscontinueDate($DiscontinueDate)
     {

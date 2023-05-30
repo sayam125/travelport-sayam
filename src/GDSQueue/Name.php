@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class Name
 {
@@ -28,7 +28,7 @@ class Name
 
     /**
      * @param typeNonBlanks $_
-     * @return \FilippoToso\Travelport\GDSQueue\Name
+     * @return \Santosdave\Travelport\GDSQueue\Name
      */
     public function set_($_)
     {

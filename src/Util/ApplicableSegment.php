@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class ApplicableSegment
 {
@@ -42,7 +42,7 @@ class ApplicableSegment
 
     /**
      * @param ResponseMessage $ResponseMessage
-     * @return \FilippoToso\Travelport\Util\ApplicableSegment
+     * @return \Santosdave\Travelport\Util\ApplicableSegment
      */
     public function setResponseMessage($ResponseMessage)
     {
@@ -60,7 +60,7 @@ class ApplicableSegment
 
     /**
      * @param typeRef $OptionalServiceRef
-     * @return \FilippoToso\Travelport\Util\ApplicableSegment
+     * @return \Santosdave\Travelport\Util\ApplicableSegment
      */
     public function setOptionalServiceRef($OptionalServiceRef)
     {
@@ -78,7 +78,7 @@ class ApplicableSegment
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Util\ApplicableSegment
+     * @return \Santosdave\Travelport\Util\ApplicableSegment
      */
     public function setKey($Key)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeRemarkWithTravelerRef
 {
@@ -47,7 +47,7 @@ class typeRemarkWithTravelerRef
 
     /**
      * @param string $RemarkData
-     * @return \FilippoToso\Travelport\UProfile\typeRemarkWithTravelerRef
+     * @return \Santosdave\Travelport\UProfile\typeRemarkWithTravelerRef
      */
     public function setRemarkData($RemarkData)
     {
@@ -65,7 +65,7 @@ class typeRemarkWithTravelerRef
 
     /**
      * @param typeRef[] $BookingTravelerRef
-     * @return \FilippoToso\Travelport\UProfile\typeRemarkWithTravelerRef
+     * @return \Santosdave\Travelport\UProfile\typeRemarkWithTravelerRef
      */
     public function setBookingTravelerRef(array $BookingTravelerRef = null)
     {
@@ -83,7 +83,7 @@ class typeRemarkWithTravelerRef
 
     /**
      * @param typeRef $ProviderReservationInfoRef
-     * @return \FilippoToso\Travelport\UProfile\typeRemarkWithTravelerRef
+     * @return \Santosdave\Travelport\UProfile\typeRemarkWithTravelerRef
      */
     public function setProviderReservationInfoRef($ProviderReservationInfoRef)
     {
@@ -101,7 +101,7 @@ class typeRemarkWithTravelerRef
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\UProfile\typeRemarkWithTravelerRef
+     * @return \Santosdave\Travelport\UProfile\typeRemarkWithTravelerRef
      */
     public function setProviderCode($ProviderCode)
     {

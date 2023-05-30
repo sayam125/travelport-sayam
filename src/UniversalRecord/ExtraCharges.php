@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class ExtraCharges
 {
@@ -56,7 +56,7 @@ class ExtraCharges
 
     /**
      * @param typeMoney $ExtraAdultAmount
-     * @return \FilippoToso\Travelport\UniversalRecord\ExtraCharges
+     * @return \Santosdave\Travelport\UniversalRecord\ExtraCharges
      */
     public function setExtraAdultAmount($ExtraAdultAmount)
     {
@@ -74,7 +74,7 @@ class ExtraCharges
 
     /**
      * @param typeMoney $ExtraChildAmount
-     * @return \FilippoToso\Travelport\UniversalRecord\ExtraCharges
+     * @return \Santosdave\Travelport\UniversalRecord\ExtraCharges
      */
     public function setExtraChildAmount($ExtraChildAmount)
     {
@@ -92,7 +92,7 @@ class ExtraCharges
 
     /**
      * @param typeMoney $CribAmount
-     * @return \FilippoToso\Travelport\UniversalRecord\ExtraCharges
+     * @return \Santosdave\Travelport\UniversalRecord\ExtraCharges
      */
     public function setCribAmount($CribAmount)
     {
@@ -110,7 +110,7 @@ class ExtraCharges
 
     /**
      * @param typeMoney $AdultRollawayCharge
-     * @return \FilippoToso\Travelport\UniversalRecord\ExtraCharges
+     * @return \Santosdave\Travelport\UniversalRecord\ExtraCharges
      */
     public function setAdultRollawayCharge($AdultRollawayCharge)
     {
@@ -128,7 +128,7 @@ class ExtraCharges
 
     /**
      * @param typeMoney $ChildRollawayCharge
-     * @return \FilippoToso\Travelport\UniversalRecord\ExtraCharges
+     * @return \Santosdave\Travelport\UniversalRecord\ExtraCharges
      */
     public function setChildRollawayCharge($ChildRollawayCharge)
     {

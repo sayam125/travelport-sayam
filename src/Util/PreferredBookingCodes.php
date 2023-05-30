@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class PreferredBookingCodes
 {
@@ -28,7 +28,7 @@ class PreferredBookingCodes
 
     /**
      * @param BookingCode $BookingCode
-     * @return \FilippoToso\Travelport\Util\PreferredBookingCodes
+     * @return \Santosdave\Travelport\Util\PreferredBookingCodes
      */
     public function setBookingCode($BookingCode)
     {

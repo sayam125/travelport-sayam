@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class RailSolutionChangedInfo
 {
@@ -35,7 +35,7 @@ class RailSolutionChangedInfo
 
     /**
      * @param RailPricingSolution $RailPricingSolution
-     * @return \FilippoToso\Travelport\Air\RailSolutionChangedInfo
+     * @return \Santosdave\Travelport\Air\RailSolutionChangedInfo
      */
     public function setRailPricingSolution($RailPricingSolution)
     {
@@ -53,7 +53,7 @@ class RailSolutionChangedInfo
 
     /**
      * @param anonymous598 $ReasonCode
-     * @return \FilippoToso\Travelport\Air\RailSolutionChangedInfo
+     * @return \Santosdave\Travelport\Air\RailSolutionChangedInfo
      */
     public function setReasonCode($ReasonCode)
     {

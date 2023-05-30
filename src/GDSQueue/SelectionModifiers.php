@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class SelectionModifiers
 {
@@ -47,7 +47,7 @@ class SelectionModifiers
 
     /**
      * @param AirSegmentRef $AirSegmentRef
-     * @return \FilippoToso\Travelport\GDSQueue\SelectionModifiers
+     * @return \Santosdave\Travelport\GDSQueue\SelectionModifiers
      */
     public function setAirSegmentRef($AirSegmentRef)
     {
@@ -65,7 +65,7 @@ class SelectionModifiers
 
     /**
      * @param typeRef[] $SvcSegmentRef
-     * @return \FilippoToso\Travelport\GDSQueue\SelectionModifiers
+     * @return \Santosdave\Travelport\GDSQueue\SelectionModifiers
      */
     public function setSvcSegmentRef(array $SvcSegmentRef = null)
     {
@@ -83,7 +83,7 @@ class SelectionModifiers
 
     /**
      * @param typeCarrier $SupplierCode
-     * @return \FilippoToso\Travelport\GDSQueue\SelectionModifiers
+     * @return \Santosdave\Travelport\GDSQueue\SelectionModifiers
      */
     public function setSupplierCode($SupplierCode)
     {
@@ -101,7 +101,7 @@ class SelectionModifiers
 
     /**
      * @param anonymous1082 $RFIC
-     * @return \FilippoToso\Travelport\GDSQueue\SelectionModifiers
+     * @return \Santosdave\Travelport\GDSQueue\SelectionModifiers
      */
     public function setRFIC($RFIC)
     {

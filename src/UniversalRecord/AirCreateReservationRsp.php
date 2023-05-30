@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class AirCreateReservationRsp extends BaseRsp
 {
@@ -48,7 +48,7 @@ class AirCreateReservationRsp extends BaseRsp
 
     /**
      * @param UniversalRecord $UniversalRecord
-     * @return \FilippoToso\Travelport\UniversalRecord\AirCreateReservationRsp
+     * @return \Santosdave\Travelport\UniversalRecord\AirCreateReservationRsp
      */
     public function setUniversalRecord($UniversalRecord)
     {
@@ -66,7 +66,7 @@ class AirCreateReservationRsp extends BaseRsp
 
     /**
      * @param AirSolutionChangedInfo $AirSolutionChangedInfo
-     * @return \FilippoToso\Travelport\UniversalRecord\AirCreateReservationRsp
+     * @return \Santosdave\Travelport\UniversalRecord\AirCreateReservationRsp
      */
     public function setAirSolutionChangedInfo($AirSolutionChangedInfo)
     {
@@ -84,7 +84,7 @@ class AirCreateReservationRsp extends BaseRsp
 
     /**
      * @param AirSegmentSellFailureInfo $AirSegmentSellFailureInfo
-     * @return \FilippoToso\Travelport\UniversalRecord\AirCreateReservationRsp
+     * @return \Santosdave\Travelport\UniversalRecord\AirCreateReservationRsp
      */
     public function setAirSegmentSellFailureInfo($AirSegmentSellFailureInfo)
     {

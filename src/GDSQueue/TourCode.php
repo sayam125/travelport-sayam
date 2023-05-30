@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class TourCode
 {
@@ -28,7 +28,7 @@ class TourCode
 
     /**
      * @param typeTourCode $Value
-     * @return \FilippoToso\Travelport\GDSQueue\TourCode
+     * @return \Santosdave\Travelport\GDSQueue\TourCode
      */
     public function setValue($Value)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Vehicle;
+namespace Santosdave\Travelport\Vehicle;
 
 class VehicleRulesRsp extends BaseSearchRsp
 {
@@ -96,7 +96,7 @@ class VehicleRulesRsp extends BaseSearchRsp
 
     /**
      * @param Vehicle $Vehicle
-     * @return \FilippoToso\Travelport\Vehicle\VehicleRulesRsp
+     * @return \Santosdave\Travelport\Vehicle\VehicleRulesRsp
      */
     public function setVehicle($Vehicle)
     {
@@ -114,7 +114,7 @@ class VehicleRulesRsp extends BaseSearchRsp
 
     /**
      * @param string $OperationTime
-     * @return \FilippoToso\Travelport\Vehicle\VehicleRulesRsp
+     * @return \Santosdave\Travelport\Vehicle\VehicleRulesRsp
      */
     public function setOperationTime($OperationTime)
     {
@@ -132,7 +132,7 @@ class VehicleRulesRsp extends BaseSearchRsp
 
     /**
      * @param StartEndTimes $StartEndTimes
-     * @return \FilippoToso\Travelport\Vehicle\VehicleRulesRsp
+     * @return \Santosdave\Travelport\Vehicle\VehicleRulesRsp
      */
     public function setStartEndTimes($StartEndTimes)
     {
@@ -150,7 +150,7 @@ class VehicleRulesRsp extends BaseSearchRsp
 
     /**
      * @param RentalPeriodRules $RentalPeriodRules
-     * @return \FilippoToso\Travelport\Vehicle\VehicleRulesRsp
+     * @return \Santosdave\Travelport\Vehicle\VehicleRulesRsp
      */
     public function setRentalPeriodRules($RentalPeriodRules)
     {
@@ -168,7 +168,7 @@ class VehicleRulesRsp extends BaseSearchRsp
 
     /**
      * @param PrePayCancelInfo[] $PrePayCancelInfo
-     * @return \FilippoToso\Travelport\Vehicle\VehicleRulesRsp
+     * @return \Santosdave\Travelport\Vehicle\VehicleRulesRsp
      */
     public function setPrePayCancelInfo(array $PrePayCancelInfo = null)
     {
@@ -186,7 +186,7 @@ class VehicleRulesRsp extends BaseSearchRsp
 
     /**
      * @param PaymentRule[] $PaymentRule
-     * @return \FilippoToso\Travelport\Vehicle\VehicleRulesRsp
+     * @return \Santosdave\Travelport\Vehicle\VehicleRulesRsp
      */
     public function setPaymentRule(array $PaymentRule = null)
     {
@@ -204,7 +204,7 @@ class VehicleRulesRsp extends BaseSearchRsp
 
     /**
      * @param PaymentCreditCard[] $PaymentCreditCard
-     * @return \FilippoToso\Travelport\Vehicle\VehicleRulesRsp
+     * @return \Santosdave\Travelport\Vehicle\VehicleRulesRsp
      */
     public function setPaymentCreditCard(array $PaymentCreditCard = null)
     {
@@ -222,7 +222,7 @@ class VehicleRulesRsp extends BaseSearchRsp
 
     /**
      * @param typeVehicleCharge[] $VehicleCharge
-     * @return \FilippoToso\Travelport\Vehicle\VehicleRulesRsp
+     * @return \Santosdave\Travelport\Vehicle\VehicleRulesRsp
      */
     public function setVehicleCharge(array $VehicleCharge = null)
     {
@@ -240,7 +240,7 @@ class VehicleRulesRsp extends BaseSearchRsp
 
     /**
      * @param MarketingInformation $MarketingInformation
-     * @return \FilippoToso\Travelport\Vehicle\VehicleRulesRsp
+     * @return \Santosdave\Travelport\Vehicle\VehicleRulesRsp
      */
     public function setMarketingInformation($MarketingInformation)
     {
@@ -258,7 +258,7 @@ class VehicleRulesRsp extends BaseSearchRsp
 
     /**
      * @param typeKeyword $Policy
-     * @return \FilippoToso\Travelport\Vehicle\VehicleRulesRsp
+     * @return \Santosdave\Travelport\Vehicle\VehicleRulesRsp
      */
     public function setPolicy($Policy)
     {
@@ -276,7 +276,7 @@ class VehicleRulesRsp extends BaseSearchRsp
 
     /**
      * @param typeVehicleLocationInformation $PickupLocationInformation
-     * @return \FilippoToso\Travelport\Vehicle\VehicleRulesRsp
+     * @return \Santosdave\Travelport\Vehicle\VehicleRulesRsp
      */
     public function setPickupLocationInformation($PickupLocationInformation)
     {
@@ -294,7 +294,7 @@ class VehicleRulesRsp extends BaseSearchRsp
 
     /**
      * @param typeVehicleLocationInformation $ReturnLocationInformation
-     * @return \FilippoToso\Travelport\Vehicle\VehicleRulesRsp
+     * @return \Santosdave\Travelport\Vehicle\VehicleRulesRsp
      */
     public function setReturnLocationInformation($ReturnLocationInformation)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class EmbargoList
 {
@@ -28,7 +28,7 @@ class EmbargoList
 
     /**
      * @param Embargo $Embargo
-     * @return \FilippoToso\Travelport\GDSQueue\EmbargoList
+     * @return \Santosdave\Travelport\GDSQueue\EmbargoList
      */
     public function setEmbargo($Embargo)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class InitialAsynchResult
 {
@@ -28,7 +28,7 @@ class InitialAsynchResult
 
     /**
      * @param int $MaxWait
-     * @return \FilippoToso\Travelport\Rail\InitialAsynchResult
+     * @return \Santosdave\Travelport\Rail\InitialAsynchResult
      */
     public function setMaxWait($MaxWait)
     {

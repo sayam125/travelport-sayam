@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class AirMerchandisingOfferAvailabilityRsp extends BaseRsp
 {
@@ -55,7 +55,7 @@ class AirMerchandisingOfferAvailabilityRsp extends BaseRsp
 
     /**
      * @param AirSolution $AirSolution
-     * @return \FilippoToso\Travelport\Air\AirMerchandisingOfferAvailabilityRsp
+     * @return \Santosdave\Travelport\Air\AirMerchandisingOfferAvailabilityRsp
      */
     public function setAirSolution($AirSolution)
     {
@@ -73,7 +73,7 @@ class AirMerchandisingOfferAvailabilityRsp extends BaseRsp
 
     /**
      * @param Remark $Remark
-     * @return \FilippoToso\Travelport\Air\AirMerchandisingOfferAvailabilityRsp
+     * @return \Santosdave\Travelport\Air\AirMerchandisingOfferAvailabilityRsp
      */
     public function setRemark($Remark)
     {
@@ -91,7 +91,7 @@ class AirMerchandisingOfferAvailabilityRsp extends BaseRsp
 
     /**
      * @param OptionalServices $OptionalServices
-     * @return \FilippoToso\Travelport\Air\AirMerchandisingOfferAvailabilityRsp
+     * @return \Santosdave\Travelport\Air\AirMerchandisingOfferAvailabilityRsp
      */
     public function setOptionalServices($OptionalServices)
     {
@@ -109,7 +109,7 @@ class AirMerchandisingOfferAvailabilityRsp extends BaseRsp
 
     /**
      * @param EmbargoList $EmbargoList
-     * @return \FilippoToso\Travelport\Air\AirMerchandisingOfferAvailabilityRsp
+     * @return \Santosdave\Travelport\Air\AirMerchandisingOfferAvailabilityRsp
      */
     public function setEmbargoList($EmbargoList)
     {

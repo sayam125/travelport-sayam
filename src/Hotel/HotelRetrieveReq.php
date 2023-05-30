@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class HotelRetrieveReq extends BaseReq
 {
@@ -47,7 +47,7 @@ class HotelRetrieveReq extends BaseReq
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\Hotel\HotelRetrieveReq
+     * @return \Santosdave\Travelport\Hotel\HotelRetrieveReq
      */
     public function setProviderCode($ProviderCode)
     {
@@ -65,7 +65,7 @@ class HotelRetrieveReq extends BaseReq
 
     /**
      * @param typeProviderLocatorCode $ProviderLocatorCode
-     * @return \FilippoToso\Travelport\Hotel\HotelRetrieveReq
+     * @return \Santosdave\Travelport\Hotel\HotelRetrieveReq
      */
     public function setProviderLocatorCode($ProviderLocatorCode)
     {

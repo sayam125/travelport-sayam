@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class BookingSource
 {
@@ -35,7 +35,7 @@ class BookingSource
 
     /**
      * @param anonymous297 $Code
-     * @return \FilippoToso\Travelport\GDSQueue\BookingSource
+     * @return \Santosdave\Travelport\GDSQueue\BookingSource
      */
     public function setCode($Code)
     {
@@ -53,7 +53,7 @@ class BookingSource
 
     /**
      * @param anonymous298 $Type
-     * @return \FilippoToso\Travelport\GDSQueue\BookingSource
+     * @return \Santosdave\Travelport\GDSQueue\BookingSource
      */
     public function setType($Type)
     {

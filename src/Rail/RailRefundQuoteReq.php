@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class RailRefundQuoteReq extends BaseReq
 {
@@ -40,7 +40,7 @@ class RailRefundQuoteReq extends BaseReq
 
     /**
      * @param typeLocatorCode $LocatorCode
-     * @return \FilippoToso\Travelport\Rail\RailRefundQuoteReq
+     * @return \Santosdave\Travelport\Rail\RailRefundQuoteReq
      */
     public function setLocatorCode($LocatorCode)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class InvoluntaryChange
 {
@@ -28,7 +28,7 @@ class InvoluntaryChange
 
     /**
      * @param TicketEndorsement $TicketEndorsement
-     * @return \FilippoToso\Travelport\Util\InvoluntaryChange
+     * @return \Santosdave\Travelport\Util\InvoluntaryChange
      */
     public function setTicketEndorsement($TicketEndorsement)
     {

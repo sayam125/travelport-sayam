@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeSearchPhone
 {
@@ -42,7 +42,7 @@ class typeSearchPhone
 
     /**
      * @param anonymous838 $CountryCode
-     * @return \FilippoToso\Travelport\UProfile\typeSearchPhone
+     * @return \Santosdave\Travelport\UProfile\typeSearchPhone
      */
     public function setCountryCode($CountryCode)
     {
@@ -60,7 +60,7 @@ class typeSearchPhone
 
     /**
      * @param anonymous839 $AreaCode
-     * @return \FilippoToso\Travelport\UProfile\typeSearchPhone
+     * @return \Santosdave\Travelport\UProfile\typeSearchPhone
      */
     public function setAreaCode($AreaCode)
     {
@@ -78,7 +78,7 @@ class typeSearchPhone
 
     /**
      * @param anonymous840 $LocalNumber
-     * @return \FilippoToso\Travelport\UProfile\typeSearchPhone
+     * @return \Santosdave\Travelport\UProfile\typeSearchPhone
      */
     public function setLocalNumber($LocalNumber)
     {

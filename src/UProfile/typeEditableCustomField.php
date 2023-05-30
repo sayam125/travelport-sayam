@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeEditableCustomField extends typeCommonEditableField
 {
@@ -49,7 +49,7 @@ class typeEditableCustomField extends typeCommonEditableField
 
     /**
      * @param boolean $Hide
-     * @return \FilippoToso\Travelport\UProfile\typeEditableCustomField
+     * @return \Santosdave\Travelport\UProfile\typeEditableCustomField
      */
     public function setHide($Hide)
     {
@@ -67,7 +67,7 @@ class typeEditableCustomField extends typeCommonEditableField
 
     /**
      * @param boolean $SearchOption
-     * @return \FilippoToso\Travelport\UProfile\typeEditableCustomField
+     * @return \Santosdave\Travelport\UProfile\typeEditableCustomField
      */
     public function setSearchOption($SearchOption)
     {
@@ -85,7 +85,7 @@ class typeEditableCustomField extends typeCommonEditableField
 
     /**
      * @param int $SearchOptionDisplayOrder
-     * @return \FilippoToso\Travelport\UProfile\typeEditableCustomField
+     * @return \Santosdave\Travelport\UProfile\typeEditableCustomField
      */
     public function setSearchOptionDisplayOrder($SearchOptionDisplayOrder)
     {

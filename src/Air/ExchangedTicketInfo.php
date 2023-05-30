@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class ExchangedTicketInfo
 {
@@ -28,7 +28,7 @@ class ExchangedTicketInfo
 
     /**
      * @param typeTicketNumber $Number
-     * @return \FilippoToso\Travelport\Air\ExchangedTicketInfo
+     * @return \Santosdave\Travelport\Air\ExchangedTicketInfo
      */
     public function setNumber($Number)
     {

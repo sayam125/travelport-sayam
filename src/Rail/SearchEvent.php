@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class SearchEvent extends typeTimeRange
 {
@@ -31,7 +31,7 @@ class SearchEvent extends typeTimeRange
 
     /**
      * @param typeEventType $Type
-     * @return \FilippoToso\Travelport\Rail\SearchEvent
+     * @return \Santosdave\Travelport\Rail\SearchEvent
      */
     public function setType($Type)
     {

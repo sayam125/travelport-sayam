@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class RailSolutionChangedInfo
 {
@@ -35,7 +35,7 @@ class RailSolutionChangedInfo
 
     /**
      * @param RailPricingSolution $RailPricingSolution
-     * @return \FilippoToso\Travelport\GDSQueue\RailSolutionChangedInfo
+     * @return \Santosdave\Travelport\GDSQueue\RailSolutionChangedInfo
      */
     public function setRailPricingSolution($RailPricingSolution)
     {
@@ -53,7 +53,7 @@ class RailSolutionChangedInfo
 
     /**
      * @param anonymous1332 $ReasonCode
-     * @return \FilippoToso\Travelport\GDSQueue\RailSolutionChangedInfo
+     * @return \Santosdave\Travelport\GDSQueue\RailSolutionChangedInfo
      */
     public function setReasonCode($ReasonCode)
     {

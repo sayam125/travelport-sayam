@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class AccountRelatedRules
 {
@@ -35,7 +35,7 @@ class AccountRelatedRules
 
     /**
      * @param BookingRules $BookingRules
-     * @return \FilippoToso\Travelport\Air\AccountRelatedRules
+     * @return \Santosdave\Travelport\Air\AccountRelatedRules
      */
     public function setBookingRules($BookingRules)
     {
@@ -53,7 +53,7 @@ class AccountRelatedRules
 
     /**
      * @param RoutingRules $RoutingRules
-     * @return \FilippoToso\Travelport\Air\AccountRelatedRules
+     * @return \Santosdave\Travelport\Air\AccountRelatedRules
      */
     public function setRoutingRules($RoutingRules)
     {

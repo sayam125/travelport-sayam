@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class typeAssociatedRemarkWithSegmentRef extends typeAssociatedRemark
 {
@@ -35,7 +35,7 @@ class typeAssociatedRemarkWithSegmentRef extends typeAssociatedRemark
 
     /**
      * @param typeRef $SegmentRef
-     * @return \FilippoToso\Travelport\GDSQueue\typeAssociatedRemarkWithSegmentRef
+     * @return \Santosdave\Travelport\GDSQueue\typeAssociatedRemarkWithSegmentRef
      */
     public function setSegmentRef($SegmentRef)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class AirSegmentSellFailureInfo
 {
@@ -28,7 +28,7 @@ class AirSegmentSellFailureInfo
 
     /**
      * @param AirSegmentError $AirSegmentError
-     * @return \FilippoToso\Travelport\GDSQueue\AirSegmentSellFailureInfo
+     * @return \Santosdave\Travelport\GDSQueue\AirSegmentSellFailureInfo
      */
     public function setAirSegmentError($AirSegmentError)
     {

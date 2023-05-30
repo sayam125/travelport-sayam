@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class AirMerchandisingFulfillmentReq extends BaseReq
 {
@@ -101,7 +101,7 @@ class AirMerchandisingFulfillmentReq extends BaseReq
 
     /**
      * @param HostToken $HostToken
-     * @return \FilippoToso\Travelport\UniversalRecord\AirMerchandisingFulfillmentReq
+     * @return \Santosdave\Travelport\UniversalRecord\AirMerchandisingFulfillmentReq
      */
     public function setHostToken($HostToken)
     {
@@ -119,7 +119,7 @@ class AirMerchandisingFulfillmentReq extends BaseReq
 
     /**
      * @param HostReservation $HostReservation
-     * @return \FilippoToso\Travelport\UniversalRecord\AirMerchandisingFulfillmentReq
+     * @return \Santosdave\Travelport\UniversalRecord\AirMerchandisingFulfillmentReq
      */
     public function setHostReservation($HostReservation)
     {
@@ -137,7 +137,7 @@ class AirMerchandisingFulfillmentReq extends BaseReq
 
     /**
      * @param AgencySellInfo $AgencySellInfo
-     * @return \FilippoToso\Travelport\UniversalRecord\AirMerchandisingFulfillmentReq
+     * @return \Santosdave\Travelport\UniversalRecord\AirMerchandisingFulfillmentReq
      */
     public function setAgencySellInfo($AgencySellInfo)
     {
@@ -155,7 +155,7 @@ class AirMerchandisingFulfillmentReq extends BaseReq
 
     /**
      * @param AirSolution $AirSolution
-     * @return \FilippoToso\Travelport\UniversalRecord\AirMerchandisingFulfillmentReq
+     * @return \Santosdave\Travelport\UniversalRecord\AirMerchandisingFulfillmentReq
      */
     public function setAirSolution($AirSolution)
     {
@@ -173,7 +173,7 @@ class AirMerchandisingFulfillmentReq extends BaseReq
 
     /**
      * @param CreditCard $CreditCard
-     * @return \FilippoToso\Travelport\UniversalRecord\AirMerchandisingFulfillmentReq
+     * @return \Santosdave\Travelport\UniversalRecord\AirMerchandisingFulfillmentReq
      */
     public function setCreditCard($CreditCard)
     {
@@ -191,7 +191,7 @@ class AirMerchandisingFulfillmentReq extends BaseReq
 
     /**
      * @param OptionalServices $OptionalServices
-     * @return \FilippoToso\Travelport\UniversalRecord\AirMerchandisingFulfillmentReq
+     * @return \Santosdave\Travelport\UniversalRecord\AirMerchandisingFulfillmentReq
      */
     public function setOptionalServices($OptionalServices)
     {
@@ -209,7 +209,7 @@ class AirMerchandisingFulfillmentReq extends BaseReq
 
     /**
      * @param SpecificSeatAssignment $SpecificSeatAssignment
-     * @return \FilippoToso\Travelport\UniversalRecord\AirMerchandisingFulfillmentReq
+     * @return \Santosdave\Travelport\UniversalRecord\AirMerchandisingFulfillmentReq
      */
     public function setSpecificSeatAssignment($SpecificSeatAssignment)
     {
@@ -227,7 +227,7 @@ class AirMerchandisingFulfillmentReq extends BaseReq
 
     /**
      * @param GeneralRemark $GeneralRemark
-     * @return \FilippoToso\Travelport\UniversalRecord\AirMerchandisingFulfillmentReq
+     * @return \Santosdave\Travelport\UniversalRecord\AirMerchandisingFulfillmentReq
      */
     public function setGeneralRemark($GeneralRemark)
     {
@@ -245,7 +245,7 @@ class AirMerchandisingFulfillmentReq extends BaseReq
 
     /**
      * @param string $ConfirmationEmail
-     * @return \FilippoToso\Travelport\UniversalRecord\AirMerchandisingFulfillmentReq
+     * @return \Santosdave\Travelport\UniversalRecord\AirMerchandisingFulfillmentReq
      */
     public function setConfirmationEmail($ConfirmationEmail)
     {
@@ -263,7 +263,7 @@ class AirMerchandisingFulfillmentReq extends BaseReq
 
     /**
      * @param MerchandisingPricingModifiers $MerchandisingPricingModifiers
-     * @return \FilippoToso\Travelport\UniversalRecord\AirMerchandisingFulfillmentReq
+     * @return \Santosdave\Travelport\UniversalRecord\AirMerchandisingFulfillmentReq
      */
     public function setMerchandisingPricingModifiers($MerchandisingPricingModifiers)
     {

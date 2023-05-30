@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class FixedField
 {
@@ -175,7 +175,7 @@ class FixedField
 
     /**
      * @param FixedFieldGroupRef $FixedFieldGroupRef
-     * @return \FilippoToso\Travelport\UProfile\FixedField
+     * @return \Santosdave\Travelport\UProfile\FixedField
      */
     public function setFixedFieldGroupRef($FixedFieldGroupRef)
     {
@@ -193,7 +193,7 @@ class FixedField
 
     /**
      * @param ActionRef $ActionRef
-     * @return \FilippoToso\Travelport\UProfile\FixedField
+     * @return \Santosdave\Travelport\UProfile\FixedField
      */
     public function setActionRef($ActionRef)
     {
@@ -211,7 +211,7 @@ class FixedField
 
     /**
      * @param typeFieldID $ID
-     * @return \FilippoToso\Travelport\UProfile\FixedField
+     * @return \Santosdave\Travelport\UProfile\FixedField
      */
     public function setID($ID)
     {
@@ -229,7 +229,7 @@ class FixedField
 
     /**
      * @param boolean $ReadOnly
-     * @return \FilippoToso\Travelport\UProfile\FixedField
+     * @return \Santosdave\Travelport\UProfile\FixedField
      */
     public function setReadOnly($ReadOnly)
     {
@@ -247,7 +247,7 @@ class FixedField
 
     /**
      * @param boolean $Overriden
-     * @return \FilippoToso\Travelport\UProfile\FixedField
+     * @return \Santosdave\Travelport\UProfile\FixedField
      */
     public function setOverriden($Overriden)
     {
@@ -265,7 +265,7 @@ class FixedField
 
     /**
      * @param string $Label
-     * @return \FilippoToso\Travelport\UProfile\FixedField
+     * @return \Santosdave\Travelport\UProfile\FixedField
      */
     public function setLabel($Label)
     {
@@ -283,7 +283,7 @@ class FixedField
 
     /**
      * @param int $DisplayOrder
-     * @return \FilippoToso\Travelport\UProfile\FixedField
+     * @return \Santosdave\Travelport\UProfile\FixedField
      */
     public function setDisplayOrder($DisplayOrder)
     {
@@ -301,7 +301,7 @@ class FixedField
 
     /**
      * @param boolean $Hide
-     * @return \FilippoToso\Travelport\UProfile\FixedField
+     * @return \Santosdave\Travelport\UProfile\FixedField
      */
     public function setHide($Hide)
     {
@@ -319,7 +319,7 @@ class FixedField
 
     /**
      * @param boolean $SearchOption
-     * @return \FilippoToso\Travelport\UProfile\FixedField
+     * @return \Santosdave\Travelport\UProfile\FixedField
      */
     public function setSearchOption($SearchOption)
     {
@@ -337,7 +337,7 @@ class FixedField
 
     /**
      * @param int $SearchOptionDisplayOrder
-     * @return \FilippoToso\Travelport\UProfile\FixedField
+     * @return \Santosdave\Travelport\UProfile\FixedField
      */
     public function setSearchOptionDisplayOrder($SearchOptionDisplayOrder)
     {
@@ -355,7 +355,7 @@ class FixedField
 
     /**
      * @param int $MinOccursOverride
-     * @return \FilippoToso\Travelport\UProfile\FixedField
+     * @return \Santosdave\Travelport\UProfile\FixedField
      */
     public function setMinOccursOverride($MinOccursOverride)
     {
@@ -373,7 +373,7 @@ class FixedField
 
     /**
      * @param int $MaxOccursOverride
-     * @return \FilippoToso\Travelport\UProfile\FixedField
+     * @return \Santosdave\Travelport\UProfile\FixedField
      */
     public function setMaxOccursOverride($MaxOccursOverride)
     {
@@ -391,7 +391,7 @@ class FixedField
 
     /**
      * @param int $MaxOccurs
-     * @return \FilippoToso\Travelport\UProfile\FixedField
+     * @return \Santosdave\Travelport\UProfile\FixedField
      */
     public function setMaxOccurs($MaxOccurs)
     {
@@ -409,7 +409,7 @@ class FixedField
 
     /**
      * @param int $MinOccurs
-     * @return \FilippoToso\Travelport\UProfile\FixedField
+     * @return \Santosdave\Travelport\UProfile\FixedField
      */
     public function setMinOccurs($MinOccurs)
     {
@@ -427,7 +427,7 @@ class FixedField
 
     /**
      * @param typeFieldName $Name
-     * @return \FilippoToso\Travelport\UProfile\FixedField
+     * @return \Santosdave\Travelport\UProfile\FixedField
      */
     public function setName($Name)
     {
@@ -445,7 +445,7 @@ class FixedField
 
     /**
      * @param typeFixedFieldDataFormat $DataType
-     * @return \FilippoToso\Travelport\UProfile\FixedField
+     * @return \Santosdave\Travelport\UProfile\FixedField
      */
     public function setDataType($DataType)
     {
@@ -463,7 +463,7 @@ class FixedField
 
     /**
      * @param anonymous879 $Component
-     * @return \FilippoToso\Travelport\UProfile\FixedField
+     * @return \Santosdave\Travelport\UProfile\FixedField
      */
     public function setComponent($Component)
     {
@@ -481,7 +481,7 @@ class FixedField
 
     /**
      * @param StringLength1to255 $Description
-     * @return \FilippoToso\Travelport\UProfile\FixedField
+     * @return \Santosdave\Travelport\UProfile\FixedField
      */
     public function setDescription($Description)
     {
@@ -499,7 +499,7 @@ class FixedField
 
     /**
      * @param boolean $Encrypted
-     * @return \FilippoToso\Travelport\UProfile\FixedField
+     * @return \Santosdave\Travelport\UProfile\FixedField
      */
     public function setEncrypted($Encrypted)
     {
@@ -517,7 +517,7 @@ class FixedField
 
     /**
      * @param typeMasked $Masked
-     * @return \FilippoToso\Travelport\UProfile\FixedField
+     * @return \Santosdave\Travelport\UProfile\FixedField
      */
     public function setMasked($Masked)
     {
@@ -535,7 +535,7 @@ class FixedField
 
     /**
      * @param boolean $Searchable
-     * @return \FilippoToso\Travelport\UProfile\FixedField
+     * @return \Santosdave\Travelport\UProfile\FixedField
      */
     public function setSearchable($Searchable)
     {
@@ -553,7 +553,7 @@ class FixedField
 
     /**
      * @param boolean $Inheritable
-     * @return \FilippoToso\Travelport\UProfile\FixedField
+     * @return \Santosdave\Travelport\UProfile\FixedField
      */
     public function setInheritable($Inheritable)
     {

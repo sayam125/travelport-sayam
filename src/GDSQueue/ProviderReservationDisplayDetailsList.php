@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class ProviderReservationDisplayDetailsList
 {
@@ -35,7 +35,7 @@ class ProviderReservationDisplayDetailsList
 
     /**
      * @param DisplayDetails $DisplayDetails
-     * @return \FilippoToso\Travelport\GDSQueue\ProviderReservationDisplayDetailsList
+     * @return \Santosdave\Travelport\GDSQueue\ProviderReservationDisplayDetailsList
      */
     public function setDisplayDetails($DisplayDetails)
     {
@@ -53,7 +53,7 @@ class ProviderReservationDisplayDetailsList
 
     /**
      * @param TravelerNameNum $TravelerNameNum
-     * @return \FilippoToso\Travelport\GDSQueue\ProviderReservationDisplayDetailsList
+     * @return \Santosdave\Travelport\GDSQueue\ProviderReservationDisplayDetailsList
      */
     public function setTravelerNameNum($TravelerNameNum)
     {

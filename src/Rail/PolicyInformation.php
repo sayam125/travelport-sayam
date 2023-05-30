@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class PolicyInformation
 {
@@ -56,7 +56,7 @@ class PolicyInformation
 
     /**
      * @param typeSegmentPolicy $AirPolicy
-     * @return \FilippoToso\Travelport\Rail\PolicyInformation
+     * @return \Santosdave\Travelport\Rail\PolicyInformation
      */
     public function setAirPolicy($AirPolicy)
     {
@@ -74,7 +74,7 @@ class PolicyInformation
 
     /**
      * @param typeSegmentPolicy $RailPolicy
-     * @return \FilippoToso\Travelport\Rail\PolicyInformation
+     * @return \Santosdave\Travelport\Rail\PolicyInformation
      */
     public function setRailPolicy($RailPolicy)
     {
@@ -92,7 +92,7 @@ class PolicyInformation
 
     /**
      * @param typeSegmentPolicy $HotelPolicy
-     * @return \FilippoToso\Travelport\Rail\PolicyInformation
+     * @return \Santosdave\Travelport\Rail\PolicyInformation
      */
     public function setHotelPolicy($HotelPolicy)
     {
@@ -110,7 +110,7 @@ class PolicyInformation
 
     /**
      * @param typeSegmentPolicy $VehiclePolicy
-     * @return \FilippoToso\Travelport\Rail\PolicyInformation
+     * @return \Santosdave\Travelport\Rail\PolicyInformation
      */
     public function setVehiclePolicy($VehiclePolicy)
     {
@@ -128,7 +128,7 @@ class PolicyInformation
 
     /**
      * @param typeRef $BookingTravelerRef
-     * @return \FilippoToso\Travelport\Rail\PolicyInformation
+     * @return \Santosdave\Travelport\Rail\PolicyInformation
      */
     public function setBookingTravelerRef($BookingTravelerRef)
     {

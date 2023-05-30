@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class BaggageRestriction
 {
@@ -40,7 +40,7 @@ class BaggageRestriction
 
     /**
      * @param Dimension $Dimension
-     * @return \FilippoToso\Travelport\Rail\BaggageRestriction
+     * @return \Santosdave\Travelport\Rail\BaggageRestriction
      */
     public function setDimension($Dimension)
     {
@@ -58,7 +58,7 @@ class BaggageRestriction
 
     /**
      * @param typeUnitOfMeasure[] $MaxWeight
-     * @return \FilippoToso\Travelport\Rail\BaggageRestriction
+     * @return \Santosdave\Travelport\Rail\BaggageRestriction
      */
     public function setMaxWeight(array $MaxWeight = null)
     {
@@ -76,7 +76,7 @@ class BaggageRestriction
 
     /**
      * @param TextInfo $TextInfo
-     * @return \FilippoToso\Travelport\Rail\BaggageRestriction
+     * @return \Santosdave\Travelport\Rail\BaggageRestriction
      */
     public function setTextInfo($TextInfo)
     {

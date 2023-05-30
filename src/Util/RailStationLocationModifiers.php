@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class RailStationLocationModifiers
 {
@@ -56,7 +56,7 @@ class RailStationLocationModifiers
 
     /**
      * @param RailLocation $RailLocation
-     * @return \FilippoToso\Travelport\Util\RailStationLocationModifiers
+     * @return \Santosdave\Travelport\Util\RailStationLocationModifiers
      */
     public function setRailLocation($RailLocation)
     {
@@ -74,7 +74,7 @@ class RailStationLocationModifiers
 
     /**
      * @param typeCountry $CountryCode
-     * @return \FilippoToso\Travelport\Util\RailStationLocationModifiers
+     * @return \Santosdave\Travelport\Util\RailStationLocationModifiers
      */
     public function setCountryCode($CountryCode)
     {
@@ -92,7 +92,7 @@ class RailStationLocationModifiers
 
     /**
      * @param typeSupplierCode $Distributor
-     * @return \FilippoToso\Travelport\Util\RailStationLocationModifiers
+     * @return \Santosdave\Travelport\Util\RailStationLocationModifiers
      */
     public function setDistributor($Distributor)
     {
@@ -110,7 +110,7 @@ class RailStationLocationModifiers
 
     /**
      * @param string $Description
-     * @return \FilippoToso\Travelport\Util\RailStationLocationModifiers
+     * @return \Santosdave\Travelport\Util\RailStationLocationModifiers
      */
     public function setDescription($Description)
     {
@@ -128,7 +128,7 @@ class RailStationLocationModifiers
 
     /**
      * @param boolean $Active
-     * @return \FilippoToso\Travelport\Util\RailStationLocationModifiers
+     * @return \Santosdave\Travelport\Util\RailStationLocationModifiers
      */
     public function setActive($Active)
     {

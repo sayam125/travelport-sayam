@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class RequestKeyMappings
 {
@@ -28,7 +28,7 @@ class RequestKeyMappings
 
     /**
      * @param KeyMapping $KeyMapping
-     * @return \FilippoToso\Travelport\GDSQueue\RequestKeyMappings
+     * @return \Santosdave\Travelport\GDSQueue\RequestKeyMappings
      */
     public function setKeyMapping($KeyMapping)
     {

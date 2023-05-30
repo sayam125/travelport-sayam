@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class RoutingRules
 {
@@ -26,7 +26,7 @@ class RoutingRules
 
     /**
      * @param Routing[] $Routing
-     * @return \FilippoToso\Travelport\Rail\RoutingRules
+     * @return \Santosdave\Travelport\Rail\RoutingRules
      */
     public function setRouting(array $Routing = null)
     {

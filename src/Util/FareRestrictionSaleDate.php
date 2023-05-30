@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class FareRestrictionSaleDate
 {
@@ -35,7 +35,7 @@ class FareRestrictionSaleDate
 
     /**
      * @param date $StartDate
-     * @return \FilippoToso\Travelport\Util\FareRestrictionSaleDate
+     * @return \Santosdave\Travelport\Util\FareRestrictionSaleDate
      */
     public function setStartDate($StartDate)
     {
@@ -53,7 +53,7 @@ class FareRestrictionSaleDate
 
     /**
      * @param date $EndDate
-     * @return \FilippoToso\Travelport\Util\FareRestrictionSaleDate
+     * @return \Santosdave\Travelport\Util\FareRestrictionSaleDate
      */
     public function setEndDate($EndDate)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Vehicle;
+namespace Santosdave\Travelport\Vehicle;
 
 class AppliedProfile
 {
@@ -84,7 +84,7 @@ class AppliedProfile
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Vehicle\AppliedProfile
+     * @return \Santosdave\Travelport\Vehicle\AppliedProfile
      */
     public function setKey($Key)
     {
@@ -102,7 +102,7 @@ class AppliedProfile
 
     /**
      * @param string $TravelerID
-     * @return \FilippoToso\Travelport\Vehicle\AppliedProfile
+     * @return \Santosdave\Travelport\Vehicle\AppliedProfile
      */
     public function setTravelerID($TravelerID)
     {
@@ -120,7 +120,7 @@ class AppliedProfile
 
     /**
      * @param string $TravelerName
-     * @return \FilippoToso\Travelport\Vehicle\AppliedProfile
+     * @return \Santosdave\Travelport\Vehicle\AppliedProfile
      */
     public function setTravelerName($TravelerName)
     {
@@ -138,7 +138,7 @@ class AppliedProfile
 
     /**
      * @param string $AccountID
-     * @return \FilippoToso\Travelport\Vehicle\AppliedProfile
+     * @return \Santosdave\Travelport\Vehicle\AppliedProfile
      */
     public function setAccountID($AccountID)
     {
@@ -156,7 +156,7 @@ class AppliedProfile
 
     /**
      * @param string $AccountName
-     * @return \FilippoToso\Travelport\Vehicle\AppliedProfile
+     * @return \Santosdave\Travelport\Vehicle\AppliedProfile
      */
     public function setAccountName($AccountName)
     {
@@ -174,7 +174,7 @@ class AppliedProfile
 
     /**
      * @param string $ImmediateParentID
-     * @return \FilippoToso\Travelport\Vehicle\AppliedProfile
+     * @return \Santosdave\Travelport\Vehicle\AppliedProfile
      */
     public function setImmediateParentID($ImmediateParentID)
     {
@@ -192,7 +192,7 @@ class AppliedProfile
 
     /**
      * @param string $ImmediateParentName
-     * @return \FilippoToso\Travelport\Vehicle\AppliedProfile
+     * @return \Santosdave\Travelport\Vehicle\AppliedProfile
      */
     public function setImmediateParentName($ImmediateParentName)
     {
@@ -210,7 +210,7 @@ class AppliedProfile
 
     /**
      * @param typeElementStatus $ElStat
-     * @return \FilippoToso\Travelport\Vehicle\AppliedProfile
+     * @return \Santosdave\Travelport\Vehicle\AppliedProfile
      */
     public function setElStat($ElStat)
     {
@@ -228,7 +228,7 @@ class AppliedProfile
 
     /**
      * @param boolean $KeyOverride
-     * @return \FilippoToso\Travelport\Vehicle\AppliedProfile
+     * @return \Santosdave\Travelport\Vehicle\AppliedProfile
      */
     public function setKeyOverride($KeyOverride)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Vehicle;
+namespace Santosdave\Travelport\Vehicle;
 
 class typeKeyBasedReference
 {
@@ -28,7 +28,7 @@ class typeKeyBasedReference
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Vehicle\typeKeyBasedReference
+     * @return \Santosdave\Travelport\Vehicle\typeKeyBasedReference
      */
     public function setKey($Key)
     {

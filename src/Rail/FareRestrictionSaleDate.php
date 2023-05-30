@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class FareRestrictionSaleDate
 {
@@ -35,7 +35,7 @@ class FareRestrictionSaleDate
 
     /**
      * @param date $StartDate
-     * @return \FilippoToso\Travelport\Rail\FareRestrictionSaleDate
+     * @return \Santosdave\Travelport\Rail\FareRestrictionSaleDate
      */
     public function setStartDate($StartDate)
     {
@@ -53,7 +53,7 @@ class FareRestrictionSaleDate
 
     /**
      * @param date $EndDate
-     * @return \FilippoToso\Travelport\Rail\FareRestrictionSaleDate
+     * @return \Santosdave\Travelport\Rail\FareRestrictionSaleDate
      */
     public function setEndDate($EndDate)
     {

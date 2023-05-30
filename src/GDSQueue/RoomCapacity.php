@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class RoomCapacity
 {
@@ -33,7 +33,7 @@ class RoomCapacity
 
     /**
      * @param positiveInteger[] $Capacity
-     * @return \FilippoToso\Travelport\GDSQueue\RoomCapacity
+     * @return \Santosdave\Travelport\GDSQueue\RoomCapacity
      */
     public function setCapacity(array $Capacity = null)
     {
@@ -51,7 +51,7 @@ class RoomCapacity
 
     /**
      * @param boolean $IsPackage
-     * @return \FilippoToso\Travelport\GDSQueue\RoomCapacity
+     * @return \Santosdave\Travelport\GDSQueue\RoomCapacity
      */
     public function setIsPackage($IsPackage)
     {

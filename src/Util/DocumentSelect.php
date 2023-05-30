@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class DocumentSelect
 {
@@ -56,7 +56,7 @@ class DocumentSelect
 
     /**
      * @param BackOfficeHandOff $BackOfficeHandOff
-     * @return \FilippoToso\Travelport\Util\DocumentSelect
+     * @return \Santosdave\Travelport\Util\DocumentSelect
      */
     public function setBackOfficeHandOff($BackOfficeHandOff)
     {
@@ -74,7 +74,7 @@ class DocumentSelect
 
     /**
      * @param Itinerary $Itinerary
-     * @return \FilippoToso\Travelport\Util\DocumentSelect
+     * @return \Santosdave\Travelport\Util\DocumentSelect
      */
     public function setItinerary($Itinerary)
     {
@@ -92,7 +92,7 @@ class DocumentSelect
 
     /**
      * @param boolean $IssueTicketOnly
-     * @return \FilippoToso\Travelport\Util\DocumentSelect
+     * @return \Santosdave\Travelport\Util\DocumentSelect
      */
     public function setIssueTicketOnly($IssueTicketOnly)
     {
@@ -110,7 +110,7 @@ class DocumentSelect
 
     /**
      * @param boolean $IssueElectronicTicket
-     * @return \FilippoToso\Travelport\Util\DocumentSelect
+     * @return \Santosdave\Travelport\Util\DocumentSelect
      */
     public function setIssueElectronicTicket($IssueElectronicTicket)
     {
@@ -128,7 +128,7 @@ class DocumentSelect
 
     /**
      * @param boolean $FaxIndicator
-     * @return \FilippoToso\Travelport\Util\DocumentSelect
+     * @return \Santosdave\Travelport\Util\DocumentSelect
      */
     public function setFaxIndicator($FaxIndicator)
     {

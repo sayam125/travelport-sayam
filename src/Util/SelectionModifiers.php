@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class SelectionModifiers
 {
@@ -47,7 +47,7 @@ class SelectionModifiers
 
     /**
      * @param AirSegmentRef $AirSegmentRef
-     * @return \FilippoToso\Travelport\Util\SelectionModifiers
+     * @return \Santosdave\Travelport\Util\SelectionModifiers
      */
     public function setAirSegmentRef($AirSegmentRef)
     {
@@ -65,7 +65,7 @@ class SelectionModifiers
 
     /**
      * @param typeRef[] $SvcSegmentRef
-     * @return \FilippoToso\Travelport\Util\SelectionModifiers
+     * @return \Santosdave\Travelport\Util\SelectionModifiers
      */
     public function setSvcSegmentRef(array $SvcSegmentRef = null)
     {
@@ -83,7 +83,7 @@ class SelectionModifiers
 
     /**
      * @param typeCarrier $SupplierCode
-     * @return \FilippoToso\Travelport\Util\SelectionModifiers
+     * @return \Santosdave\Travelport\Util\SelectionModifiers
      */
     public function setSupplierCode($SupplierCode)
     {
@@ -101,7 +101,7 @@ class SelectionModifiers
 
     /**
      * @param anonymous1005 $RFIC
-     * @return \FilippoToso\Travelport\Util\SelectionModifiers
+     * @return \Santosdave\Travelport\Util\SelectionModifiers
      */
     public function setRFIC($RFIC)
     {

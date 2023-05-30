@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class Coach
 {
@@ -42,7 +42,7 @@ class Coach
 
     /**
      * @param Characteristic $Characteristic
-     * @return \FilippoToso\Travelport\Air\Coach
+     * @return \Santosdave\Travelport\Air\Coach
      */
     public function setCharacteristic($Characteristic)
     {
@@ -60,7 +60,7 @@ class Coach
 
     /**
      * @param Remark $Remark
-     * @return \FilippoToso\Travelport\Air\Coach
+     * @return \Santosdave\Travelport\Air\Coach
      */
     public function setRemark($Remark)
     {
@@ -78,7 +78,7 @@ class Coach
 
     /**
      * @param string $CoachNumber
-     * @return \FilippoToso\Travelport\Air\Coach
+     * @return \Santosdave\Travelport\Air\Coach
      */
     public function setCoachNumber($CoachNumber)
     {

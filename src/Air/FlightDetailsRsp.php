@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class FlightDetailsRsp extends BaseRsp
 {
@@ -41,7 +41,7 @@ class FlightDetailsRsp extends BaseRsp
 
     /**
      * @param typeBaseAirSegment $AirSegment
-     * @return \FilippoToso\Travelport\Air\FlightDetailsRsp
+     * @return \Santosdave\Travelport\Air\FlightDetailsRsp
      */
     public function setAirSegment($AirSegment)
     {
@@ -59,7 +59,7 @@ class FlightDetailsRsp extends BaseRsp
 
     /**
      * @param CO2Emissions $CO2Emissions
-     * @return \FilippoToso\Travelport\Air\FlightDetailsRsp
+     * @return \Santosdave\Travelport\Air\FlightDetailsRsp
      */
     public function setCO2Emissions($CO2Emissions)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class CreditSummary
 {
@@ -42,7 +42,7 @@ class CreditSummary
 
     /**
      * @param typeCurrency $CurrencyCode
-     * @return \FilippoToso\Travelport\Air\CreditSummary
+     * @return \Santosdave\Travelport\Air\CreditSummary
      */
     public function setCurrencyCode($CurrencyCode)
     {
@@ -60,7 +60,7 @@ class CreditSummary
 
     /**
      * @param float $CurrentBalance
-     * @return \FilippoToso\Travelport\Air\CreditSummary
+     * @return \Santosdave\Travelport\Air\CreditSummary
      */
     public function setCurrentBalance($CurrentBalance)
     {
@@ -78,7 +78,7 @@ class CreditSummary
 
     /**
      * @param float $InitialCredit
-     * @return \FilippoToso\Travelport\Air\CreditSummary
+     * @return \Santosdave\Travelport\Air\CreditSummary
      */
     public function setInitialCredit($InitialCredit)
     {

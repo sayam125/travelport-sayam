@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class Airport extends Location
 {
@@ -28,7 +28,7 @@ class Airport extends Location
 
     /**
      * @param typeIATACode $Code
-     * @return \FilippoToso\Travelport\Rail\Airport
+     * @return \Santosdave\Travelport\Rail\Airport
      */
     public function setCode($Code)
     {

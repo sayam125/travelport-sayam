@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class BaggageAllowance
 {
@@ -31,7 +31,7 @@ class BaggageAllowance
 
     /**
      * @param int $NumberOfPieces
-     * @return \FilippoToso\Travelport\Util\BaggageAllowance
+     * @return \Santosdave\Travelport\Util\BaggageAllowance
      */
     public function setNumberOfPieces($NumberOfPieces)
     {
@@ -49,7 +49,7 @@ class BaggageAllowance
 
     /**
      * @param typeWeight $MaxWeight
-     * @return \FilippoToso\Travelport\Util\BaggageAllowance
+     * @return \Santosdave\Travelport\Util\BaggageAllowance
      */
     public function setMaxWeight($MaxWeight)
     {

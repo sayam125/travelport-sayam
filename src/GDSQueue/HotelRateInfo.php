@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class HotelRateInfo
 {
@@ -28,7 +28,7 @@ class HotelRateInfo
 
     /**
      * @param typeRatePlanType $RatePlanType
-     * @return \FilippoToso\Travelport\GDSQueue\HotelRateInfo
+     * @return \Santosdave\Travelport\GDSQueue\HotelRateInfo
      */
     public function setRatePlanType($RatePlanType)
     {

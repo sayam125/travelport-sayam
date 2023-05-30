@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class Penalty
 {
@@ -91,7 +91,7 @@ class Penalty
 
     /**
      * @param boolean $CancelRefund
-     * @return \FilippoToso\Travelport\UProfile\Penalty
+     * @return \Santosdave\Travelport\UProfile\Penalty
      */
     public function setCancelRefund($CancelRefund)
     {
@@ -109,7 +109,7 @@ class Penalty
 
     /**
      * @param boolean $NonRefundable
-     * @return \FilippoToso\Travelport\UProfile\Penalty
+     * @return \Santosdave\Travelport\UProfile\Penalty
      */
     public function setNonRefundable($NonRefundable)
     {
@@ -127,7 +127,7 @@ class Penalty
 
     /**
      * @param boolean $NonExchangeable
-     * @return \FilippoToso\Travelport\UProfile\Penalty
+     * @return \Santosdave\Travelport\UProfile\Penalty
      */
     public function setNonExchangeable($NonExchangeable)
     {
@@ -145,7 +145,7 @@ class Penalty
 
     /**
      * @param boolean $CancelationPenalty
-     * @return \FilippoToso\Travelport\UProfile\Penalty
+     * @return \Santosdave\Travelport\UProfile\Penalty
      */
     public function setCancelationPenalty($CancelationPenalty)
     {
@@ -163,7 +163,7 @@ class Penalty
 
     /**
      * @param boolean $ReissuePenalty
-     * @return \FilippoToso\Travelport\UProfile\Penalty
+     * @return \Santosdave\Travelport\UProfile\Penalty
      */
     public function setReissuePenalty($ReissuePenalty)
     {
@@ -181,7 +181,7 @@ class Penalty
 
     /**
      * @param boolean $NonReissuePenalty
-     * @return \FilippoToso\Travelport\UProfile\Penalty
+     * @return \Santosdave\Travelport\UProfile\Penalty
      */
     public function setNonReissuePenalty($NonReissuePenalty)
     {
@@ -199,7 +199,7 @@ class Penalty
 
     /**
      * @param boolean $TicketRefundPenalty
-     * @return \FilippoToso\Travelport\UProfile\Penalty
+     * @return \Santosdave\Travelport\UProfile\Penalty
      */
     public function setTicketRefundPenalty($TicketRefundPenalty)
     {
@@ -217,7 +217,7 @@ class Penalty
 
     /**
      * @param boolean $ChargeApplicable
-     * @return \FilippoToso\Travelport\UProfile\Penalty
+     * @return \Santosdave\Travelport\UProfile\Penalty
      */
     public function setChargeApplicable($ChargeApplicable)
     {
@@ -235,7 +235,7 @@ class Penalty
 
     /**
      * @param boolean $ChargePortion
-     * @return \FilippoToso\Travelport\UProfile\Penalty
+     * @return \Santosdave\Travelport\UProfile\Penalty
      */
     public function setChargePortion($ChargePortion)
     {
@@ -253,7 +253,7 @@ class Penalty
 
     /**
      * @param typeMoney $PenaltyAmount
-     * @return \FilippoToso\Travelport\UProfile\Penalty
+     * @return \Santosdave\Travelport\UProfile\Penalty
      */
     public function setPenaltyAmount($PenaltyAmount)
     {

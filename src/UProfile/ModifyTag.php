@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class ModifyTag
 {
@@ -56,7 +56,7 @@ class ModifyTag
 
     /**
      * @param typeID $ID
-     * @return \FilippoToso\Travelport\UProfile\ModifyTag
+     * @return \Santosdave\Travelport\UProfile\ModifyTag
      */
     public function setID($ID)
     {
@@ -74,7 +74,7 @@ class ModifyTag
 
     /**
      * @param anonymous624 $Name
-     * @return \FilippoToso\Travelport\UProfile\ModifyTag
+     * @return \Santosdave\Travelport\UProfile\ModifyTag
      */
     public function setName($Name)
     {
@@ -92,7 +92,7 @@ class ModifyTag
 
     /**
      * @param anonymous625 $Label
-     * @return \FilippoToso\Travelport\UProfile\ModifyTag
+     * @return \Santosdave\Travelport\UProfile\ModifyTag
      */
     public function setLabel($Label)
     {
@@ -110,7 +110,7 @@ class ModifyTag
 
     /**
      * @param StringLength1to255 $Description
-     * @return \FilippoToso\Travelport\UProfile\ModifyTag
+     * @return \Santosdave\Travelport\UProfile\ModifyTag
      */
     public function setDescription($Description)
     {
@@ -128,7 +128,7 @@ class ModifyTag
 
     /**
      * @param int $DisplayOrder
-     * @return \FilippoToso\Travelport\UProfile\ModifyTag
+     * @return \Santosdave\Travelport\UProfile\ModifyTag
      */
     public function setDisplayOrder($DisplayOrder)
     {

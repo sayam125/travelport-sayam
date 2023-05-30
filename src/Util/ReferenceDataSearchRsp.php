@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class ReferenceDataSearchRsp extends BaseRsp
 {
@@ -77,7 +77,7 @@ class ReferenceDataSearchRsp extends BaseRsp
 
     /**
      * @param Airport[] $Airport
-     * @return \FilippoToso\Travelport\Util\ReferenceDataSearchRsp
+     * @return \Santosdave\Travelport\Util\ReferenceDataSearchRsp
      */
     public function setAirport(array $Airport = null)
     {
@@ -95,7 +95,7 @@ class ReferenceDataSearchRsp extends BaseRsp
 
     /**
      * @param Carrier[] $Carrier
-     * @return \FilippoToso\Travelport\Util\ReferenceDataSearchRsp
+     * @return \Santosdave\Travelport\Util\ReferenceDataSearchRsp
      */
     public function setCarrier(array $Carrier = null)
     {
@@ -113,7 +113,7 @@ class ReferenceDataSearchRsp extends BaseRsp
 
     /**
      * @param City[] $City
-     * @return \FilippoToso\Travelport\Util\ReferenceDataSearchRsp
+     * @return \Santosdave\Travelport\Util\ReferenceDataSearchRsp
      */
     public function setCity(array $City = null)
     {
@@ -131,7 +131,7 @@ class ReferenceDataSearchRsp extends BaseRsp
 
     /**
      * @param Country[] $Country
-     * @return \FilippoToso\Travelport\Util\ReferenceDataSearchRsp
+     * @return \Santosdave\Travelport\Util\ReferenceDataSearchRsp
      */
     public function setCountry(array $Country = null)
     {
@@ -149,7 +149,7 @@ class ReferenceDataSearchRsp extends BaseRsp
 
     /**
      * @param Currency[] $Currency
-     * @return \FilippoToso\Travelport\Util\ReferenceDataSearchRsp
+     * @return \Santosdave\Travelport\Util\ReferenceDataSearchRsp
      */
     public function setCurrency(array $Currency = null)
     {
@@ -167,7 +167,7 @@ class ReferenceDataSearchRsp extends BaseRsp
 
     /**
      * @param Equipment[] $Equipment
-     * @return \FilippoToso\Travelport\Util\ReferenceDataSearchRsp
+     * @return \Santosdave\Travelport\Util\ReferenceDataSearchRsp
      */
     public function setEquipment(array $Equipment = null)
     {
@@ -185,7 +185,7 @@ class ReferenceDataSearchRsp extends BaseRsp
 
     /**
      * @param PassengerType[] $PassengerType
-     * @return \FilippoToso\Travelport\Util\ReferenceDataSearchRsp
+     * @return \Santosdave\Travelport\Util\ReferenceDataSearchRsp
      */
     public function setPassengerType(array $PassengerType = null)
     {
@@ -203,7 +203,7 @@ class ReferenceDataSearchRsp extends BaseRsp
 
     /**
      * @param State[] $State
-     * @return \FilippoToso\Travelport\Util\ReferenceDataSearchRsp
+     * @return \Santosdave\Travelport\Util\ReferenceDataSearchRsp
      */
     public function setState(array $State = null)
     {
@@ -221,7 +221,7 @@ class ReferenceDataSearchRsp extends BaseRsp
 
     /**
      * @param SsrType[] $SsrType
-     * @return \FilippoToso\Travelport\Util\ReferenceDataSearchRsp
+     * @return \Santosdave\Travelport\Util\ReferenceDataSearchRsp
      */
     public function setSsrType(array $SsrType = null)
     {
@@ -239,7 +239,7 @@ class ReferenceDataSearchRsp extends BaseRsp
 
     /**
      * @param TaxCategory[] $TaxCategory
-     * @return \FilippoToso\Travelport\Util\ReferenceDataSearchRsp
+     * @return \Santosdave\Travelport\Util\ReferenceDataSearchRsp
      */
     public function setTaxCategory(array $TaxCategory = null)
     {

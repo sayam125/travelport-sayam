@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Vehicle;
+namespace Santosdave\Travelport\Vehicle;
 
 class Remark
 {
@@ -35,7 +35,7 @@ class Remark
 
     /**
      * @param string $_
-     * @return \FilippoToso\Travelport\Vehicle\Remark
+     * @return \Santosdave\Travelport\Vehicle\Remark
      */
     public function set_($_)
     {
@@ -53,7 +53,7 @@ class Remark
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Vehicle\Remark
+     * @return \Santosdave\Travelport\Vehicle\Remark
      */
     public function setKey($Key)
     {

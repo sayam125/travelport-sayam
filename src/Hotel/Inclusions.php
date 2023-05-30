@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class Inclusions
 {
@@ -45,7 +45,7 @@ class Inclusions
 
     /**
      * @param BedTypes[] $BedTypes
-     * @return \FilippoToso\Travelport\Hotel\Inclusions
+     * @return \Santosdave\Travelport\Hotel\Inclusions
      */
     public function setBedTypes(array $BedTypes = null)
     {
@@ -63,7 +63,7 @@ class Inclusions
 
     /**
      * @param MealPlans $MealPlans
-     * @return \FilippoToso\Travelport\Hotel\Inclusions
+     * @return \Santosdave\Travelport\Hotel\Inclusions
      */
     public function setMealPlans($MealPlans)
     {
@@ -81,7 +81,7 @@ class Inclusions
 
     /**
      * @param RoomView $RoomView
-     * @return \FilippoToso\Travelport\Hotel\Inclusions
+     * @return \Santosdave\Travelport\Hotel\Inclusions
      */
     public function setRoomView($RoomView)
     {
@@ -99,7 +99,7 @@ class Inclusions
 
     /**
      * @param typeTrinary $SmokingRoomIndicator
-     * @return \FilippoToso\Travelport\Hotel\Inclusions
+     * @return \Santosdave\Travelport\Hotel\Inclusions
      */
     public function setSmokingRoomIndicator($SmokingRoomIndicator)
     {

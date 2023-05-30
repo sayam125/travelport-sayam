@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class typeVehicleSearchDistance
 {
@@ -49,7 +49,7 @@ class typeVehicleSearchDistance
 
     /**
      * @param typeDistance $Units
-     * @return \FilippoToso\Travelport\Rail\typeVehicleSearchDistance
+     * @return \Santosdave\Travelport\Rail\typeVehicleSearchDistance
      */
     public function setUnits($Units)
     {
@@ -67,7 +67,7 @@ class typeVehicleSearchDistance
 
     /**
      * @param anonymous561 $Direction
-     * @return \FilippoToso\Travelport\Rail\typeVehicleSearchDistance
+     * @return \Santosdave\Travelport\Rail\typeVehicleSearchDistance
      */
     public function setDirection($Direction)
     {
@@ -85,7 +85,7 @@ class typeVehicleSearchDistance
 
     /**
      * @param anonymous562 $MinDistance
-     * @return \FilippoToso\Travelport\Rail\typeVehicleSearchDistance
+     * @return \Santosdave\Travelport\Rail\typeVehicleSearchDistance
      */
     public function setMinDistance($MinDistance)
     {
@@ -103,7 +103,7 @@ class typeVehicleSearchDistance
 
     /**
      * @param anonymous563 $MaxDistance
-     * @return \FilippoToso\Travelport\Rail\typeVehicleSearchDistance
+     * @return \Santosdave\Travelport\Rail\typeVehicleSearchDistance
      */
     public function setMaxDistance($MaxDistance)
     {

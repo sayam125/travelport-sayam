@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class AcceptedPayment
 {
@@ -28,7 +28,7 @@ class AcceptedPayment
 
     /**
      * @param typeCardMerchantType $PaymentCode
-     * @return \FilippoToso\Travelport\GDSQueue\AcceptedPayment
+     * @return \Santosdave\Travelport\GDSQueue\AcceptedPayment
      */
     public function setPaymentCode($PaymentCode)
     {

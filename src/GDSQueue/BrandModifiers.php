@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class BrandModifiers
 {
@@ -35,7 +35,7 @@ class BrandModifiers
 
     /**
      * @param FareFamilyDisplay $FareFamilyDisplay
-     * @return \FilippoToso\Travelport\GDSQueue\BrandModifiers
+     * @return \Santosdave\Travelport\GDSQueue\BrandModifiers
      */
     public function setFareFamilyDisplay($FareFamilyDisplay)
     {
@@ -53,7 +53,7 @@ class BrandModifiers
 
     /**
      * @param BasicDetailsOnly $BasicDetailsOnly
-     * @return \FilippoToso\Travelport\GDSQueue\BrandModifiers
+     * @return \Santosdave\Travelport\GDSQueue\BrandModifiers
      */
     public function setBasicDetailsOnly($BasicDetailsOnly)
     {

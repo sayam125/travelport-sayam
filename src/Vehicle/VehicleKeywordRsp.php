@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Vehicle;
+namespace Santosdave\Travelport\Vehicle;
 
 class VehicleKeywordRsp extends BaseRsp
 {
@@ -39,7 +39,7 @@ class VehicleKeywordRsp extends BaseRsp
 
     /**
      * @param string[] $Text
-     * @return \FilippoToso\Travelport\Vehicle\VehicleKeywordRsp
+     * @return \Santosdave\Travelport\Vehicle\VehicleKeywordRsp
      */
     public function setText(array $Text = null)
     {
@@ -57,7 +57,7 @@ class VehicleKeywordRsp extends BaseRsp
 
     /**
      * @param Keyword $Keyword
-     * @return \FilippoToso\Travelport\Vehicle\VehicleKeywordRsp
+     * @return \Santosdave\Travelport\Vehicle\VehicleKeywordRsp
      */
     public function setKeyword($Keyword)
     {

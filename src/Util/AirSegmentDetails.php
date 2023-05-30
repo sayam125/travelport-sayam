@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class AirSegmentDetails
 {
@@ -124,7 +124,7 @@ class AirSegmentDetails
 
     /**
      * @param PassengerDetailsRef $PassengerDetailsRef
-     * @return \FilippoToso\Travelport\Util\AirSegmentDetails
+     * @return \Santosdave\Travelport\Util\AirSegmentDetails
      */
     public function setPassengerDetailsRef($PassengerDetailsRef)
     {
@@ -142,7 +142,7 @@ class AirSegmentDetails
 
     /**
      * @param BrandID $BrandID
-     * @return \FilippoToso\Travelport\Util\AirSegmentDetails
+     * @return \Santosdave\Travelport\Util\AirSegmentDetails
      */
     public function setBrandID($BrandID)
     {
@@ -160,7 +160,7 @@ class AirSegmentDetails
 
     /**
      * @param string $BookingCodeList
-     * @return \FilippoToso\Travelport\Util\AirSegmentDetails
+     * @return \Santosdave\Travelport\Util\AirSegmentDetails
      */
     public function setBookingCodeList($BookingCodeList)
     {
@@ -178,7 +178,7 @@ class AirSegmentDetails
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Util\AirSegmentDetails
+     * @return \Santosdave\Travelport\Util\AirSegmentDetails
      */
     public function setKey($Key)
     {
@@ -196,7 +196,7 @@ class AirSegmentDetails
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\Util\AirSegmentDetails
+     * @return \Santosdave\Travelport\Util\AirSegmentDetails
      */
     public function setProviderCode($ProviderCode)
     {
@@ -214,7 +214,7 @@ class AirSegmentDetails
 
     /**
      * @param typeCarrier $Carrier
-     * @return \FilippoToso\Travelport\Util\AirSegmentDetails
+     * @return \Santosdave\Travelport\Util\AirSegmentDetails
      */
     public function setCarrier($Carrier)
     {
@@ -232,7 +232,7 @@ class AirSegmentDetails
 
     /**
      * @param typeIATACode $Origin
-     * @return \FilippoToso\Travelport\Util\AirSegmentDetails
+     * @return \Santosdave\Travelport\Util\AirSegmentDetails
      */
     public function setOrigin($Origin)
     {
@@ -250,7 +250,7 @@ class AirSegmentDetails
 
     /**
      * @param typeIATACode $Destination
-     * @return \FilippoToso\Travelport\Util\AirSegmentDetails
+     * @return \Santosdave\Travelport\Util\AirSegmentDetails
      */
     public function setDestination($Destination)
     {
@@ -276,7 +276,7 @@ class AirSegmentDetails
 
     /**
      * @param \DateTime $DepartureTime
-     * @return \FilippoToso\Travelport\Util\AirSegmentDetails
+     * @return \Santosdave\Travelport\Util\AirSegmentDetails
      */
     public function setDepartureTime(\DateTime $DepartureTime)
     {
@@ -302,7 +302,7 @@ class AirSegmentDetails
 
     /**
      * @param \DateTime $ArrivalTime
-     * @return \FilippoToso\Travelport\Util\AirSegmentDetails
+     * @return \Santosdave\Travelport\Util\AirSegmentDetails
      */
     public function setArrivalTime(\DateTime $ArrivalTime)
     {
@@ -320,7 +320,7 @@ class AirSegmentDetails
 
     /**
      * @param typeEquipment $Equipment
-     * @return \FilippoToso\Travelport\Util\AirSegmentDetails
+     * @return \Santosdave\Travelport\Util\AirSegmentDetails
      */
     public function setEquipment($Equipment)
     {
@@ -338,7 +338,7 @@ class AirSegmentDetails
 
     /**
      * @param typeClassOfService $ClassOfService
-     * @return \FilippoToso\Travelport\Util\AirSegmentDetails
+     * @return \Santosdave\Travelport\Util\AirSegmentDetails
      */
     public function setClassOfService($ClassOfService)
     {
@@ -356,7 +356,7 @@ class AirSegmentDetails
 
     /**
      * @param string $CabinClass
-     * @return \FilippoToso\Travelport\Util\AirSegmentDetails
+     * @return \Santosdave\Travelport\Util\AirSegmentDetails
      */
     public function setCabinClass($CabinClass)
     {
@@ -374,7 +374,7 @@ class AirSegmentDetails
 
     /**
      * @param typeCarrier $OperatingCarrier
-     * @return \FilippoToso\Travelport\Util\AirSegmentDetails
+     * @return \Santosdave\Travelport\Util\AirSegmentDetails
      */
     public function setOperatingCarrier($OperatingCarrier)
     {
@@ -392,7 +392,7 @@ class AirSegmentDetails
 
     /**
      * @param typeFlightNumber $FlightNumber
-     * @return \FilippoToso\Travelport\Util\AirSegmentDetails
+     * @return \Santosdave\Travelport\Util\AirSegmentDetails
      */
     public function setFlightNumber($FlightNumber)
     {

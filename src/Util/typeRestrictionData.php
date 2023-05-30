@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class typeRestrictionData
 {
@@ -45,7 +45,7 @@ class typeRestrictionData
 
     /**
      * @param typeMoney $Amount
-     * @return \FilippoToso\Travelport\Util\typeRestrictionData
+     * @return \Santosdave\Travelport\Util\typeRestrictionData
      */
     public function setAmount($Amount)
     {
@@ -63,7 +63,7 @@ class typeRestrictionData
 
     /**
      * @param typePercentageWithDecimal $Percentage
-     * @return \FilippoToso\Travelport\Util\typeRestrictionData
+     * @return \Santosdave\Travelport\Util\typeRestrictionData
      */
     public function setPercentage($Percentage)
     {
@@ -81,7 +81,7 @@ class typeRestrictionData
 
     /**
      * @param UNKNOWN $Name
-     * @return \FilippoToso\Travelport\Util\typeRestrictionData
+     * @return \Santosdave\Travelport\Util\typeRestrictionData
      */
     public function setName($Name)
     {
@@ -99,7 +99,7 @@ class typeRestrictionData
 
     /**
      * @param UNKNOWN $Value
-     * @return \FilippoToso\Travelport\Util\typeRestrictionData
+     * @return \Santosdave\Travelport\Util\typeRestrictionData
      */
     public function setValue($Value)
     {

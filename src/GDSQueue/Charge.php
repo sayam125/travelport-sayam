@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class Charge
 {
@@ -42,7 +42,7 @@ class Charge
 
     /**
      * @param typeMoney $Amount
-     * @return \FilippoToso\Travelport\GDSQueue\Charge
+     * @return \Santosdave\Travelport\GDSQueue\Charge
      */
     public function setAmount($Amount)
     {
@@ -60,7 +60,7 @@ class Charge
 
     /**
      * @param string $RatePeriod
-     * @return \FilippoToso\Travelport\GDSQueue\Charge
+     * @return \Santosdave\Travelport\GDSQueue\Charge
      */
     public function setRatePeriod($RatePeriod)
     {
@@ -78,7 +78,7 @@ class Charge
 
     /**
      * @param boolean $IncludedInEstTotalInd
-     * @return \FilippoToso\Travelport\GDSQueue\Charge
+     * @return \Santosdave\Travelport\GDSQueue\Charge
      */
     public function setIncludedInEstTotalInd($IncludedInEstTotalInd)
     {

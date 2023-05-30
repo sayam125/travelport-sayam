@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class BookingAction
 {
@@ -42,7 +42,7 @@ class BookingAction
 
     /**
      * @param FormOfPayment $FormOfPayment
-     * @return \FilippoToso\Travelport\GDSQueue\BookingAction
+     * @return \Santosdave\Travelport\GDSQueue\BookingAction
      */
     public function setFormOfPayment($FormOfPayment)
     {
@@ -60,7 +60,7 @@ class BookingAction
 
     /**
      * @param Payment $Payment
-     * @return \FilippoToso\Travelport\GDSQueue\BookingAction
+     * @return \Santosdave\Travelport\GDSQueue\BookingAction
      */
     public function setPayment($Payment)
     {
@@ -78,7 +78,7 @@ class BookingAction
 
     /**
      * @param string $Type
-     * @return \FilippoToso\Travelport\GDSQueue\BookingAction
+     * @return \Santosdave\Travelport\GDSQueue\BookingAction
      */
     public function setType($Type)
     {

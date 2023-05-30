@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class ApplicationLimits
 {
@@ -28,7 +28,7 @@ class ApplicationLimits
 
     /**
      * @param OptionalServiceApplicationLimitType[] $ApplicationLimit
-     * @return \FilippoToso\Travelport\GDSQueue\ApplicationLimits
+     * @return \Santosdave\Travelport\GDSQueue\ApplicationLimits
      */
     public function setApplicationLimit(array $ApplicationLimit)
     {

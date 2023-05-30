@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class AcceptedPayment
 {
@@ -28,7 +28,7 @@ class AcceptedPayment
 
     /**
      * @param typeCardMerchantType $PaymentCode
-     * @return \FilippoToso\Travelport\Rail\AcceptedPayment
+     * @return \Santosdave\Travelport\Rail\AcceptedPayment
      */
     public function setPaymentCode($PaymentCode)
     {

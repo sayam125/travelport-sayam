@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class Facility
 {
@@ -196,7 +196,7 @@ class Facility
 
     /**
      * @param Characteristic $Characteristic
-     * @return \FilippoToso\Travelport\UniversalRecord\Facility
+     * @return \Santosdave\Travelport\UniversalRecord\Facility
      */
     public function setCharacteristic($Characteristic)
     {
@@ -214,7 +214,7 @@ class Facility
 
     /**
      * @param Remark $Remark
-     * @return \FilippoToso\Travelport\UniversalRecord\Facility
+     * @return \Santosdave\Travelport\UniversalRecord\Facility
      */
     public function setRemark($Remark)
     {
@@ -232,7 +232,7 @@ class Facility
 
     /**
      * @param PassengerSeatPrice $PassengerSeatPrice
-     * @return \FilippoToso\Travelport\UniversalRecord\Facility
+     * @return \Santosdave\Travelport\UniversalRecord\Facility
      */
     public function setPassengerSeatPrice($PassengerSeatPrice)
     {
@@ -250,7 +250,7 @@ class Facility
 
     /**
      * @param typeTaxInfo $TaxInfo
-     * @return \FilippoToso\Travelport\UniversalRecord\Facility
+     * @return \Santosdave\Travelport\UniversalRecord\Facility
      */
     public function setTaxInfo($TaxInfo)
     {
@@ -268,7 +268,7 @@ class Facility
 
     /**
      * @param EMD $EMD
-     * @return \FilippoToso\Travelport\UniversalRecord\Facility
+     * @return \Santosdave\Travelport\UniversalRecord\Facility
      */
     public function setEMD($EMD)
     {
@@ -286,7 +286,7 @@ class Facility
 
     /**
      * @param ServiceData $ServiceData
-     * @return \FilippoToso\Travelport\UniversalRecord\Facility
+     * @return \Santosdave\Travelport\UniversalRecord\Facility
      */
     public function setServiceData($ServiceData)
     {
@@ -304,7 +304,7 @@ class Facility
 
     /**
      * @param TourCode $TourCode
-     * @return \FilippoToso\Travelport\UniversalRecord\Facility
+     * @return \Santosdave\Travelport\UniversalRecord\Facility
      */
     public function setTourCode($TourCode)
     {
@@ -322,7 +322,7 @@ class Facility
 
     /**
      * @param typeFacility $Type
-     * @return \FilippoToso\Travelport\UniversalRecord\Facility
+     * @return \Santosdave\Travelport\UniversalRecord\Facility
      */
     public function setType($Type)
     {
@@ -340,7 +340,7 @@ class Facility
 
     /**
      * @param string $SeatCode
-     * @return \FilippoToso\Travelport\UniversalRecord\Facility
+     * @return \Santosdave\Travelport\UniversalRecord\Facility
      */
     public function setSeatCode($SeatCode)
     {
@@ -358,7 +358,7 @@ class Facility
 
     /**
      * @param typeSeatAvailability $Availability
-     * @return \FilippoToso\Travelport\UniversalRecord\Facility
+     * @return \Santosdave\Travelport\UniversalRecord\Facility
      */
     public function setAvailability($Availability)
     {
@@ -376,7 +376,7 @@ class Facility
 
     /**
      * @param typeMoney $SeatPrice
-     * @return \FilippoToso\Travelport\UniversalRecord\Facility
+     * @return \Santosdave\Travelport\UniversalRecord\Facility
      */
     public function setSeatPrice($SeatPrice)
     {
@@ -394,7 +394,7 @@ class Facility
 
     /**
      * @param boolean $Paid
-     * @return \FilippoToso\Travelport\UniversalRecord\Facility
+     * @return \Santosdave\Travelport\UniversalRecord\Facility
      */
     public function setPaid($Paid)
     {
@@ -412,7 +412,7 @@ class Facility
 
     /**
      * @param anonymous587 $ServiceSubCode
-     * @return \FilippoToso\Travelport\UniversalRecord\Facility
+     * @return \Santosdave\Travelport\UniversalRecord\Facility
      */
     public function setServiceSubCode($ServiceSubCode)
     {
@@ -430,7 +430,7 @@ class Facility
 
     /**
      * @param typeSSRCode $SSRCode
-     * @return \FilippoToso\Travelport\UniversalRecord\Facility
+     * @return \Santosdave\Travelport\UniversalRecord\Facility
      */
     public function setSSRCode($SSRCode)
     {
@@ -448,7 +448,7 @@ class Facility
 
     /**
      * @param anonymous588 $IssuanceReason
-     * @return \FilippoToso\Travelport\UniversalRecord\Facility
+     * @return \Santosdave\Travelport\UniversalRecord\Facility
      */
     public function setIssuanceReason($IssuanceReason)
     {
@@ -466,7 +466,7 @@ class Facility
 
     /**
      * @param typeMoney $BaseSeatPrice
-     * @return \FilippoToso\Travelport\UniversalRecord\Facility
+     * @return \Santosdave\Travelport\UniversalRecord\Facility
      */
     public function setBaseSeatPrice($BaseSeatPrice)
     {
@@ -484,7 +484,7 @@ class Facility
 
     /**
      * @param typeMoney $Taxes
-     * @return \FilippoToso\Travelport\UniversalRecord\Facility
+     * @return \Santosdave\Travelport\UniversalRecord\Facility
      */
     public function setTaxes($Taxes)
     {
@@ -502,7 +502,7 @@ class Facility
 
     /**
      * @param int $Quantity
-     * @return \FilippoToso\Travelport\UniversalRecord\Facility
+     * @return \Santosdave\Travelport\UniversalRecord\Facility
      */
     public function setQuantity($Quantity)
     {
@@ -520,7 +520,7 @@ class Facility
 
     /**
      * @param int $SequenceNumber
-     * @return \FilippoToso\Travelport\UniversalRecord\Facility
+     * @return \Santosdave\Travelport\UniversalRecord\Facility
      */
     public function setSequenceNumber($SequenceNumber)
     {
@@ -538,7 +538,7 @@ class Facility
 
     /**
      * @param boolean $InclusiveOfTax
-     * @return \FilippoToso\Travelport\UniversalRecord\Facility
+     * @return \Santosdave\Travelport\UniversalRecord\Facility
      */
     public function setInclusiveOfTax($InclusiveOfTax)
     {
@@ -556,7 +556,7 @@ class Facility
 
     /**
      * @param boolean $InterlineSettlementAllowed
-     * @return \FilippoToso\Travelport\UniversalRecord\Facility
+     * @return \Santosdave\Travelport\UniversalRecord\Facility
      */
     public function setInterlineSettlementAllowed($InterlineSettlementAllowed)
     {
@@ -574,7 +574,7 @@ class Facility
 
     /**
      * @param string $GeographySpecification
-     * @return \FilippoToso\Travelport\UniversalRecord\Facility
+     * @return \Santosdave\Travelport\UniversalRecord\Facility
      */
     public function setGeographySpecification($GeographySpecification)
     {
@@ -592,7 +592,7 @@ class Facility
 
     /**
      * @param string $Source
-     * @return \FilippoToso\Travelport\UniversalRecord\Facility
+     * @return \Santosdave\Travelport\UniversalRecord\Facility
      */
     public function setSource($Source)
     {
@@ -610,7 +610,7 @@ class Facility
 
     /**
      * @param typeRef $OptionalServiceRef
-     * @return \FilippoToso\Travelport\UniversalRecord\Facility
+     * @return \Santosdave\Travelport\UniversalRecord\Facility
      */
     public function setOptionalServiceRef($OptionalServiceRef)
     {
@@ -628,7 +628,7 @@ class Facility
 
     /**
      * @param typeRef $SeatInformationRef
-     * @return \FilippoToso\Travelport\UniversalRecord\Facility
+     * @return \Santosdave\Travelport\UniversalRecord\Facility
      */
     public function setSeatInformationRef($SeatInformationRef)
     {

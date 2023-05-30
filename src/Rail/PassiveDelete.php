@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class PassiveDelete
 {
@@ -42,7 +42,7 @@ class PassiveDelete
 
     /**
      * @param typeLocatorCode $ReservationLocatorCode
-     * @return \FilippoToso\Travelport\Rail\PassiveDelete
+     * @return \Santosdave\Travelport\Rail\PassiveDelete
      */
     public function setReservationLocatorCode($ReservationLocatorCode)
     {
@@ -60,7 +60,7 @@ class PassiveDelete
 
     /**
      * @param typeElement $Element
-     * @return \FilippoToso\Travelport\Rail\PassiveDelete
+     * @return \Santosdave\Travelport\Rail\PassiveDelete
      */
     public function setElement($Element)
     {
@@ -78,7 +78,7 @@ class PassiveDelete
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Rail\PassiveDelete
+     * @return \Santosdave\Travelport\Rail\PassiveDelete
      */
     public function setKey($Key)
     {

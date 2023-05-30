@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class EffectiveDate
 {
@@ -35,7 +35,7 @@ class EffectiveDate
 
     /**
      * @param typeDate $EarliestDate
-     * @return \FilippoToso\Travelport\Util\EffectiveDate
+     * @return \Santosdave\Travelport\Util\EffectiveDate
      */
     public function setEarliestDate($EarliestDate)
     {
@@ -53,7 +53,7 @@ class EffectiveDate
 
     /**
      * @param typeDate $LatestDate
-     * @return \FilippoToso\Travelport\Util\EffectiveDate
+     * @return \Santosdave\Travelport\Util\EffectiveDate
      */
     public function setLatestDate($LatestDate)
     {

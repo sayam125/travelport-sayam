@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class VehiclePolicy
 {
@@ -35,7 +35,7 @@ class VehiclePolicy
 
     /**
      * @param VehicleDisclaimer $VehicleDisclaimer
-     * @return \FilippoToso\Travelport\Rail\VehiclePolicy
+     * @return \Santosdave\Travelport\Rail\VehiclePolicy
      */
     public function setVehicleDisclaimer($VehicleDisclaimer)
     {
@@ -53,7 +53,7 @@ class VehiclePolicy
 
     /**
      * @param VehicleDetail $VehicleDetail
-     * @return \FilippoToso\Travelport\Rail\VehiclePolicy
+     * @return \Santosdave\Travelport\Rail\VehiclePolicy
      */
     public function setVehicleDetail($VehicleDetail)
     {

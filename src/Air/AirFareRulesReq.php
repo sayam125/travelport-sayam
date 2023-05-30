@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class AirFareRulesReq extends BaseReq
 {
@@ -80,7 +80,7 @@ class AirFareRulesReq extends BaseReq
 
     /**
      * @param AirReservationSelector $AirReservationSelector
-     * @return \FilippoToso\Travelport\Air\AirFareRulesReq
+     * @return \Santosdave\Travelport\Air\AirFareRulesReq
      */
     public function setAirReservationSelector($AirReservationSelector)
     {
@@ -98,7 +98,7 @@ class AirFareRulesReq extends BaseReq
 
     /**
      * @param FareRuleLookup $FareRuleLookup
-     * @return \FilippoToso\Travelport\Air\AirFareRulesReq
+     * @return \Santosdave\Travelport\Air\AirFareRulesReq
      */
     public function setFareRuleLookup($FareRuleLookup)
     {
@@ -116,7 +116,7 @@ class AirFareRulesReq extends BaseReq
 
     /**
      * @param FareRuleKey $FareRuleKey
-     * @return \FilippoToso\Travelport\Air\AirFareRulesReq
+     * @return \Santosdave\Travelport\Air\AirFareRulesReq
      */
     public function setFareRuleKey($FareRuleKey)
     {
@@ -134,7 +134,7 @@ class AirFareRulesReq extends BaseReq
 
     /**
      * @param AirFareDisplayRuleKey $AirFareDisplayRuleKey
-     * @return \FilippoToso\Travelport\Air\AirFareRulesReq
+     * @return \Santosdave\Travelport\Air\AirFareRulesReq
      */
     public function setAirFareDisplayRuleKey($AirFareDisplayRuleKey)
     {
@@ -152,7 +152,7 @@ class AirFareRulesReq extends BaseReq
 
     /**
      * @param AirFareRulesModifier $AirFareRulesModifier
-     * @return \FilippoToso\Travelport\Air\AirFareRulesReq
+     * @return \Santosdave\Travelport\Air\AirFareRulesReq
      */
     public function setAirFareRulesModifier($AirFareRulesModifier)
     {
@@ -170,7 +170,7 @@ class AirFareRulesReq extends BaseReq
 
     /**
      * @param FareRulesFilterCategory[] $FareRulesFilterCategory
-     * @return \FilippoToso\Travelport\Air\AirFareRulesReq
+     * @return \Santosdave\Travelport\Air\AirFareRulesReq
      */
     public function setFareRulesFilterCategory(array $FareRulesFilterCategory = null)
     {
@@ -188,7 +188,7 @@ class AirFareRulesReq extends BaseReq
 
     /**
      * @param typeFareRuleType $FareRuleType
-     * @return \FilippoToso\Travelport\Air\AirFareRulesReq
+     * @return \Santosdave\Travelport\Air\AirFareRulesReq
      */
     public function setFareRuleType($FareRuleType)
     {

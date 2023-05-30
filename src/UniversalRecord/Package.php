@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class Package
 {
@@ -49,7 +49,7 @@ class Package
 
     /**
      * @param StringLength1to30 $Name
-     * @return \FilippoToso\Travelport\UniversalRecord\Package
+     * @return \Santosdave\Travelport\UniversalRecord\Package
      */
     public function setName($Name)
     {
@@ -67,7 +67,7 @@ class Package
 
     /**
      * @param anonymous1359 $Identifier
-     * @return \FilippoToso\Travelport\UniversalRecord\Package
+     * @return \Santosdave\Travelport\UniversalRecord\Package
      */
     public function setIdentifier($Identifier)
     {
@@ -85,7 +85,7 @@ class Package
 
     /**
      * @param int $PassengerCount
-     * @return \FilippoToso\Travelport\UniversalRecord\Package
+     * @return \Santosdave\Travelport\UniversalRecord\Package
      */
     public function setPassengerCount($PassengerCount)
     {
@@ -103,7 +103,7 @@ class Package
 
     /**
      * @param StringLength1to14 $PackageIdentifier
-     * @return \FilippoToso\Travelport\UniversalRecord\Package
+     * @return \Santosdave\Travelport\UniversalRecord\Package
      */
     public function setPackageIdentifier($PackageIdentifier)
     {

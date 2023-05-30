@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class DocumentInfo
 {
@@ -40,7 +40,7 @@ class DocumentInfo
 
     /**
      * @param TicketInfo $TicketInfo
-     * @return \FilippoToso\Travelport\Util\DocumentInfo
+     * @return \Santosdave\Travelport\Util\DocumentInfo
      */
     public function setTicketInfo($TicketInfo)
     {
@@ -58,7 +58,7 @@ class DocumentInfo
 
     /**
      * @param MCOInformation[] $MCOInfo
-     * @return \FilippoToso\Travelport\Util\DocumentInfo
+     * @return \Santosdave\Travelport\Util\DocumentInfo
      */
     public function setMCOInfo(array $MCOInfo = null)
     {
@@ -76,7 +76,7 @@ class DocumentInfo
 
     /**
      * @param TCRInfo $TCRInfo
-     * @return \FilippoToso\Travelport\Util\DocumentInfo
+     * @return \Santosdave\Travelport\Util\DocumentInfo
      */
     public function setTCRInfo($TCRInfo)
     {

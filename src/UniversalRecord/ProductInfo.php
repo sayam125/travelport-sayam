@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class ProductInfo
 {
@@ -28,7 +28,7 @@ class ProductInfo
 
     /**
      * @param Name $Name
-     * @return \FilippoToso\Travelport\UniversalRecord\ProductInfo
+     * @return \Santosdave\Travelport\UniversalRecord\ProductInfo
      */
     public function setName($Name)
     {

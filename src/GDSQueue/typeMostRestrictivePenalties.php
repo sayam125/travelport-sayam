@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class typeMostRestrictivePenalties
 {
@@ -26,7 +26,7 @@ class typeMostRestrictivePenalties
 
     /**
      * @param typeRestrictionData[] $RestrictionType
-     * @return \FilippoToso\Travelport\GDSQueue\typeMostRestrictivePenalties
+     * @return \Santosdave\Travelport\GDSQueue\typeMostRestrictivePenalties
      */
     public function setRestrictionType(array $RestrictionType = null)
     {

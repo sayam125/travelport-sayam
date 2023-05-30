@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class LanguageOption
 {
@@ -35,7 +35,7 @@ class LanguageOption
 
     /**
      * @param typeLanguage $Language
-     * @return \FilippoToso\Travelport\UniversalRecord\LanguageOption
+     * @return \Santosdave\Travelport\UniversalRecord\LanguageOption
      */
     public function setLanguage($Language)
     {
@@ -53,7 +53,7 @@ class LanguageOption
 
     /**
      * @param typeCountry $Country
-     * @return \FilippoToso\Travelport\UniversalRecord\LanguageOption
+     * @return \Santosdave\Travelport\UniversalRecord\LanguageOption
      */
     public function setCountry($Country)
     {

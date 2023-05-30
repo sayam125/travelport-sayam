@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class ProfileSummary
 {
@@ -56,7 +56,7 @@ class ProfileSummary
 
     /**
      * @param string $Name
-     * @return \FilippoToso\Travelport\UProfile\ProfileSummary
+     * @return \Santosdave\Travelport\UProfile\ProfileSummary
      */
     public function setName($Name)
     {
@@ -74,7 +74,7 @@ class ProfileSummary
 
     /**
      * @param string $Description
-     * @return \FilippoToso\Travelport\UProfile\ProfileSummary
+     * @return \Santosdave\Travelport\UProfile\ProfileSummary
      */
     public function setDescription($Description)
     {
@@ -92,7 +92,7 @@ class ProfileSummary
 
     /**
      * @param StringLength1to128 $ProvisioningCode
-     * @return \FilippoToso\Travelport\UProfile\ProfileSummary
+     * @return \Santosdave\Travelport\UProfile\ProfileSummary
      */
     public function setProvisioningCode($ProvisioningCode)
     {
@@ -110,7 +110,7 @@ class ProfileSummary
 
     /**
      * @param typeProfileID $ProfileID
-     * @return \FilippoToso\Travelport\UProfile\ProfileSummary
+     * @return \Santosdave\Travelport\UProfile\ProfileSummary
      */
     public function setProfileID($ProfileID)
     {
@@ -128,7 +128,7 @@ class ProfileSummary
 
     /**
      * @param typeProfileType $ProfileType
-     * @return \FilippoToso\Travelport\UProfile\ProfileSummary
+     * @return \Santosdave\Travelport\UProfile\ProfileSummary
      */
     public function setProfileType($ProfileType)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class typeProfileRef
 {
@@ -35,7 +35,7 @@ class typeProfileRef
 
     /**
      * @param string $ProfileEntityID
-     * @return \FilippoToso\Travelport\Hotel\typeProfileRef
+     * @return \Santosdave\Travelport\Hotel\typeProfileRef
      */
     public function setProfileEntityID($ProfileEntityID)
     {
@@ -53,7 +53,7 @@ class typeProfileRef
 
     /**
      * @param typeProfileLevel $ProfileLevel
-     * @return \FilippoToso\Travelport\Hotel\typeProfileRef
+     * @return \Santosdave\Travelport\Hotel\typeProfileRef
      */
     public function setProfileLevel($ProfileLevel)
     {

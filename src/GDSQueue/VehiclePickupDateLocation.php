@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class VehiclePickupDateLocation
 {
@@ -57,7 +57,7 @@ class VehiclePickupDateLocation
 
     /**
      * @param \DateTime $PickupDateTime
-     * @return \FilippoToso\Travelport\GDSQueue\VehiclePickupDateLocation
+     * @return \Santosdave\Travelport\GDSQueue\VehiclePickupDateLocation
      */
     public function setPickupDateTime(\DateTime $PickupDateTime)
     {
@@ -75,7 +75,7 @@ class VehiclePickupDateLocation
 
     /**
      * @param typeIATACode $PickupLocation
-     * @return \FilippoToso\Travelport\GDSQueue\VehiclePickupDateLocation
+     * @return \Santosdave\Travelport\GDSQueue\VehiclePickupDateLocation
      */
     public function setPickupLocation($PickupLocation)
     {
@@ -93,7 +93,7 @@ class VehiclePickupDateLocation
 
     /**
      * @param typeVehicleLocation $PickupLocationType
-     * @return \FilippoToso\Travelport\GDSQueue\VehiclePickupDateLocation
+     * @return \Santosdave\Travelport\GDSQueue\VehiclePickupDateLocation
      */
     public function setPickupLocationType($PickupLocationType)
     {
@@ -111,7 +111,7 @@ class VehiclePickupDateLocation
 
     /**
      * @param string $PickupLocationNumber
-     * @return \FilippoToso\Travelport\GDSQueue\VehiclePickupDateLocation
+     * @return \Santosdave\Travelport\GDSQueue\VehiclePickupDateLocation
      */
     public function setPickupLocationNumber($PickupLocationNumber)
     {

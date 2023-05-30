@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class VendorInfo
 {
@@ -35,7 +35,7 @@ class VendorInfo
 
     /**
      * @param typeSupplierCode $Code
-     * @return \FilippoToso\Travelport\Rail\VendorInfo
+     * @return \Santosdave\Travelport\Rail\VendorInfo
      */
     public function setCode($Code)
     {
@@ -53,7 +53,7 @@ class VendorInfo
 
     /**
      * @param string $Name
-     * @return \FilippoToso\Travelport\Rail\VendorInfo
+     * @return \Santosdave\Travelport\Rail\VendorInfo
      */
     public function setName($Name)
     {

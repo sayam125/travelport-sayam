@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeCommonEditableGroup extends typeCommonEditableField
 {
@@ -35,7 +35,7 @@ class typeCommonEditableGroup extends typeCommonEditableField
 
     /**
      * @param boolean $Hide
-     * @return \FilippoToso\Travelport\UProfile\typeCommonEditableGroup
+     * @return \Santosdave\Travelport\UProfile\typeCommonEditableGroup
      */
     public function setHide($Hide)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class ProfileParentSearchSummary
 {
@@ -77,7 +77,7 @@ class ProfileParentSearchSummary
 
     /**
      * @param typeProvisioningCode $ProvisioningCode
-     * @return \FilippoToso\Travelport\UProfile\ProfileParentSearchSummary
+     * @return \Santosdave\Travelport\UProfile\ProfileParentSearchSummary
      */
     public function setProvisioningCode($ProvisioningCode)
     {
@@ -95,7 +95,7 @@ class ProfileParentSearchSummary
 
     /**
      * @param StringLength1to128 $Name
-     * @return \FilippoToso\Travelport\UProfile\ProfileParentSearchSummary
+     * @return \Santosdave\Travelport\UProfile\ProfileParentSearchSummary
      */
     public function setName($Name)
     {
@@ -113,7 +113,7 @@ class ProfileParentSearchSummary
 
     /**
      * @param typeVersion $Version
-     * @return \FilippoToso\Travelport\UProfile\ProfileParentSearchSummary
+     * @return \Santosdave\Travelport\UProfile\ProfileParentSearchSummary
      */
     public function setVersion($Version)
     {
@@ -131,7 +131,7 @@ class ProfileParentSearchSummary
 
     /**
      * @param typeID $HierarchyLevelID
-     * @return \FilippoToso\Travelport\UProfile\ProfileParentSearchSummary
+     * @return \Santosdave\Travelport\UProfile\ProfileParentSearchSummary
      */
     public function setHierarchyLevelID($HierarchyLevelID)
     {
@@ -149,7 +149,7 @@ class ProfileParentSearchSummary
 
     /**
      * @param typeProfileEntityStatus $Status
-     * @return \FilippoToso\Travelport\UProfile\ProfileParentSearchSummary
+     * @return \Santosdave\Travelport\UProfile\ProfileParentSearchSummary
      */
     public function setStatus($Status)
     {
@@ -167,7 +167,7 @@ class ProfileParentSearchSummary
 
     /**
      * @param typeImmediateParentRef $ImmediateParentRef
-     * @return \FilippoToso\Travelport\UProfile\ProfileParentSearchSummary
+     * @return \Santosdave\Travelport\UProfile\ProfileParentSearchSummary
      */
     public function setImmediateParentRef($ImmediateParentRef)
     {
@@ -185,7 +185,7 @@ class ProfileParentSearchSummary
 
     /**
      * @param typeProfileID $ProfileID
-     * @return \FilippoToso\Travelport\UProfile\ProfileParentSearchSummary
+     * @return \Santosdave\Travelport\UProfile\ProfileParentSearchSummary
      */
     public function setProfileID($ProfileID)
     {
@@ -203,7 +203,7 @@ class ProfileParentSearchSummary
 
     /**
      * @param typeProfileType $ProfileType
-     * @return \FilippoToso\Travelport\UProfile\ProfileParentSearchSummary
+     * @return \Santosdave\Travelport\UProfile\ProfileParentSearchSummary
      */
     public function setProfileType($ProfileType)
     {

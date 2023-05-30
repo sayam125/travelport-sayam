@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeFormOfPaymentHistory extends typeKeyElement
 {
@@ -139,7 +139,7 @@ class typeFormOfPaymentHistory extends typeKeyElement
 
     /**
      * @param typeCreditCardTypeHistory $CreditCard
-     * @return \FilippoToso\Travelport\UProfile\typeFormOfPaymentHistory
+     * @return \Santosdave\Travelport\UProfile\typeFormOfPaymentHistory
      */
     public function setCreditCard($CreditCard)
     {
@@ -157,7 +157,7 @@ class typeFormOfPaymentHistory extends typeKeyElement
 
     /**
      * @param typePaymentCardHistory $DebitCard
-     * @return \FilippoToso\Travelport\UProfile\typeFormOfPaymentHistory
+     * @return \Santosdave\Travelport\UProfile\typeFormOfPaymentHistory
      */
     public function setDebitCard($DebitCard)
     {
@@ -175,7 +175,7 @@ class typeFormOfPaymentHistory extends typeKeyElement
 
     /**
      * @param CertificateHistory $CertificateHistory
-     * @return \FilippoToso\Travelport\UProfile\typeFormOfPaymentHistory
+     * @return \Santosdave\Travelport\UProfile\typeFormOfPaymentHistory
      */
     public function setCertificateHistory($CertificateHistory)
     {
@@ -193,7 +193,7 @@ class typeFormOfPaymentHistory extends typeKeyElement
 
     /**
      * @param StringLength0to13 $TicketNumberHistory
-     * @return \FilippoToso\Travelport\UProfile\typeFormOfPaymentHistory
+     * @return \Santosdave\Travelport\UProfile\typeFormOfPaymentHistory
      */
     public function setTicketNumberHistory($TicketNumberHistory)
     {
@@ -211,7 +211,7 @@ class typeFormOfPaymentHistory extends typeKeyElement
 
     /**
      * @param Check $Check
-     * @return \FilippoToso\Travelport\UProfile\typeFormOfPaymentHistory
+     * @return \Santosdave\Travelport\UProfile\typeFormOfPaymentHistory
      */
     public function setCheck($Check)
     {
@@ -229,7 +229,7 @@ class typeFormOfPaymentHistory extends typeKeyElement
 
     /**
      * @param Requisition $Requisition
-     * @return \FilippoToso\Travelport\UProfile\typeFormOfPaymentHistory
+     * @return \Santosdave\Travelport\UProfile\typeFormOfPaymentHistory
      */
     public function setRequisition($Requisition)
     {
@@ -247,7 +247,7 @@ class typeFormOfPaymentHistory extends typeKeyElement
 
     /**
      * @param MiscFormOfPaymentHistory $MiscFormOfPaymentHistory
-     * @return \FilippoToso\Travelport\UProfile\typeFormOfPaymentHistory
+     * @return \Santosdave\Travelport\UProfile\typeFormOfPaymentHistory
      */
     public function setMiscFormOfPaymentHistory($MiscFormOfPaymentHistory)
     {
@@ -265,7 +265,7 @@ class typeFormOfPaymentHistory extends typeKeyElement
 
     /**
      * @param typeAgencyPaymentHistory $AgencyPaymentHistory
-     * @return \FilippoToso\Travelport\UProfile\typeFormOfPaymentHistory
+     * @return \Santosdave\Travelport\UProfile\typeFormOfPaymentHistory
      */
     public function setAgencyPaymentHistory($AgencyPaymentHistory)
     {
@@ -283,7 +283,7 @@ class typeFormOfPaymentHistory extends typeKeyElement
 
     /**
      * @param UnitedNationsHistory $UnitedNationsHistory
-     * @return \FilippoToso\Travelport\UProfile\typeFormOfPaymentHistory
+     * @return \Santosdave\Travelport\UProfile\typeFormOfPaymentHistory
      */
     public function setUnitedNationsHistory($UnitedNationsHistory)
     {
@@ -301,7 +301,7 @@ class typeFormOfPaymentHistory extends typeKeyElement
 
     /**
      * @param DirectPayment $DirectPayment
-     * @return \FilippoToso\Travelport\UProfile\typeFormOfPaymentHistory
+     * @return \Santosdave\Travelport\UProfile\typeFormOfPaymentHistory
      */
     public function setDirectPayment($DirectPayment)
     {
@@ -319,7 +319,7 @@ class typeFormOfPaymentHistory extends typeKeyElement
 
     /**
      * @param AgentVoucherHistory $AgentVoucherHistory
-     * @return \FilippoToso\Travelport\UProfile\typeFormOfPaymentHistory
+     * @return \Santosdave\Travelport\UProfile\typeFormOfPaymentHistory
      */
     public function setAgentVoucherHistory($AgentVoucherHistory)
     {
@@ -337,7 +337,7 @@ class typeFormOfPaymentHistory extends typeKeyElement
 
     /**
      * @param typeGuaranteeInformationHistory $Guarantee
-     * @return \FilippoToso\Travelport\UProfile\typeFormOfPaymentHistory
+     * @return \Santosdave\Travelport\UProfile\typeFormOfPaymentHistory
      */
     public function setGuarantee($Guarantee)
     {
@@ -355,7 +355,7 @@ class typeFormOfPaymentHistory extends typeKeyElement
 
     /**
      * @param typeVoucherInformationHistory $Voucher
-     * @return \FilippoToso\Travelport\UProfile\typeFormOfPaymentHistory
+     * @return \Santosdave\Travelport\UProfile\typeFormOfPaymentHistory
      */
     public function setVoucher($Voucher)
     {
@@ -373,7 +373,7 @@ class typeFormOfPaymentHistory extends typeKeyElement
 
     /**
      * @param typeMoney $Cash
-     * @return \FilippoToso\Travelport\UProfile\typeFormOfPaymentHistory
+     * @return \Santosdave\Travelport\UProfile\typeFormOfPaymentHistory
      */
     public function setCash($Cash)
     {
@@ -391,7 +391,7 @@ class typeFormOfPaymentHistory extends typeKeyElement
 
     /**
      * @param UNKNOWN $Type
-     * @return \FilippoToso\Travelport\UProfile\typeFormOfPaymentHistory
+     * @return \Santosdave\Travelport\UProfile\typeFormOfPaymentHistory
      */
     public function setType($Type)
     {
@@ -409,7 +409,7 @@ class typeFormOfPaymentHistory extends typeKeyElement
 
     /**
      * @param StringLength1to255 $Description
-     * @return \FilippoToso\Travelport\UProfile\typeFormOfPaymentHistory
+     * @return \Santosdave\Travelport\UProfile\typeFormOfPaymentHistory
      */
     public function setDescription($Description)
     {
@@ -427,7 +427,7 @@ class typeFormOfPaymentHistory extends typeKeyElement
 
     /**
      * @param typePriorityOrder $PriorityOrder
-     * @return \FilippoToso\Travelport\UProfile\typeFormOfPaymentHistory
+     * @return \Santosdave\Travelport\UProfile\typeFormOfPaymentHistory
      */
     public function setPriorityOrder($PriorityOrder)
     {
@@ -445,7 +445,7 @@ class typeFormOfPaymentHistory extends typeKeyElement
 
     /**
      * @param typeProfileID $OwnerID
-     * @return \FilippoToso\Travelport\UProfile\typeFormOfPaymentHistory
+     * @return \Santosdave\Travelport\UProfile\typeFormOfPaymentHistory
      */
     public function setOwnerID($OwnerID)
     {

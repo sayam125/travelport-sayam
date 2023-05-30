@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class HotelType
 {
@@ -28,7 +28,7 @@ class HotelType
 
     /**
      * @param typeSourceLink $SourceLink
-     * @return \FilippoToso\Travelport\GDSQueue\HotelType
+     * @return \Santosdave\Travelport\GDSQueue\HotelType
      */
     public function setSourceLink($SourceLink)
     {

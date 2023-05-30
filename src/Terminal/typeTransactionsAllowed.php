@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Terminal;
+namespace Santosdave\Travelport\Terminal;
 
 class typeTransactionsAllowed extends typeBookingTransactionsAllowed
 {
@@ -37,7 +37,7 @@ class typeTransactionsAllowed extends typeBookingTransactionsAllowed
 
     /**
      * @param boolean $ShoppingEnabled
-     * @return \FilippoToso\Travelport\Terminal\typeTransactionsAllowed
+     * @return \Santosdave\Travelport\Terminal\typeTransactionsAllowed
      */
     public function setShoppingEnabled($ShoppingEnabled)
     {
@@ -55,7 +55,7 @@ class typeTransactionsAllowed extends typeBookingTransactionsAllowed
 
     /**
      * @param boolean $PricingEnabled
-     * @return \FilippoToso\Travelport\Terminal\typeTransactionsAllowed
+     * @return \Santosdave\Travelport\Terminal\typeTransactionsAllowed
      */
     public function setPricingEnabled($PricingEnabled)
     {

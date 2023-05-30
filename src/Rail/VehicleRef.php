@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class VehicleRef
 {
@@ -28,7 +28,7 @@ class VehicleRef
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Rail\VehicleRef
+     * @return \Santosdave\Travelport\Rail\VehicleRef
      */
     public function setKey($Key)
     {

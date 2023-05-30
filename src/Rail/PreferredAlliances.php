@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class PreferredAlliances
 {
@@ -28,7 +28,7 @@ class PreferredAlliances
 
     /**
      * @param Alliance $Alliance
-     * @return \FilippoToso\Travelport\Rail\PreferredAlliances
+     * @return \Santosdave\Travelport\Rail\PreferredAlliances
      */
     public function setAlliance($Alliance)
     {

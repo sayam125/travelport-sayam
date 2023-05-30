@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class AirPricePointList
 {
@@ -28,7 +28,7 @@ class AirPricePointList
 
     /**
      * @param AirPricePoint $AirPricePoint
-     * @return \FilippoToso\Travelport\GDSQueue\AirPricePointList
+     * @return \Santosdave\Travelport\GDSQueue\AirPricePointList
      */
     public function setAirPricePoint($AirPricePoint)
     {

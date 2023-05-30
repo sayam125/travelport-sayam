@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class FareInfoList
 {
@@ -28,7 +28,7 @@ class FareInfoList
 
     /**
      * @param FareInfo $FareInfo
-     * @return \FilippoToso\Travelport\UniversalRecord\FareInfoList
+     * @return \Santosdave\Travelport\UniversalRecord\FareInfoList
      */
     public function setFareInfo($FareInfo)
     {

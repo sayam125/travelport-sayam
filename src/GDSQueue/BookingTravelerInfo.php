@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class BookingTravelerInfo
 {
@@ -118,7 +118,7 @@ class BookingTravelerInfo
 
     /**
      * @param BookingTravelerName $BookingTravelerName
-     * @return \FilippoToso\Travelport\GDSQueue\BookingTravelerInfo
+     * @return \Santosdave\Travelport\GDSQueue\BookingTravelerInfo
      */
     public function setBookingTravelerName($BookingTravelerName)
     {
@@ -136,7 +136,7 @@ class BookingTravelerInfo
 
     /**
      * @param NameRemark $NameRemark
-     * @return \FilippoToso\Travelport\GDSQueue\BookingTravelerInfo
+     * @return \Santosdave\Travelport\GDSQueue\BookingTravelerInfo
      */
     public function setNameRemark($NameRemark)
     {
@@ -154,7 +154,7 @@ class BookingTravelerInfo
 
     /**
      * @param date $DOB
-     * @return \FilippoToso\Travelport\GDSQueue\BookingTravelerInfo
+     * @return \Santosdave\Travelport\GDSQueue\BookingTravelerInfo
      */
     public function setDOB($DOB)
     {
@@ -172,7 +172,7 @@ class BookingTravelerInfo
 
     /**
      * @param TravelInfo $TravelInfo
-     * @return \FilippoToso\Travelport\GDSQueue\BookingTravelerInfo
+     * @return \Santosdave\Travelport\GDSQueue\BookingTravelerInfo
      */
     public function setTravelInfo($TravelInfo)
     {
@@ -190,7 +190,7 @@ class BookingTravelerInfo
 
     /**
      * @param Email $Email
-     * @return \FilippoToso\Travelport\GDSQueue\BookingTravelerInfo
+     * @return \Santosdave\Travelport\GDSQueue\BookingTravelerInfo
      */
     public function setEmail($Email)
     {
@@ -208,7 +208,7 @@ class BookingTravelerInfo
 
     /**
      * @param PhoneNumber $PhoneNumber
-     * @return \FilippoToso\Travelport\GDSQueue\BookingTravelerInfo
+     * @return \Santosdave\Travelport\GDSQueue\BookingTravelerInfo
      */
     public function setPhoneNumber($PhoneNumber)
     {
@@ -226,7 +226,7 @@ class BookingTravelerInfo
 
     /**
      * @param typeStructuredAddress $Address
-     * @return \FilippoToso\Travelport\GDSQueue\BookingTravelerInfo
+     * @return \Santosdave\Travelport\GDSQueue\BookingTravelerInfo
      */
     public function setAddress($Address)
     {
@@ -244,7 +244,7 @@ class BookingTravelerInfo
 
     /**
      * @param string $EmergencyInfo
-     * @return \FilippoToso\Travelport\GDSQueue\BookingTravelerInfo
+     * @return \Santosdave\Travelport\GDSQueue\BookingTravelerInfo
      */
     public function setEmergencyInfo($EmergencyInfo)
     {
@@ -262,7 +262,7 @@ class BookingTravelerInfo
 
     /**
      * @param DeliveryInfo $DeliveryInfo
-     * @return \FilippoToso\Travelport\GDSQueue\BookingTravelerInfo
+     * @return \Santosdave\Travelport\GDSQueue\BookingTravelerInfo
      */
     public function setDeliveryInfo($DeliveryInfo)
     {
@@ -280,7 +280,7 @@ class BookingTravelerInfo
 
     /**
      * @param int $Age
-     * @return \FilippoToso\Travelport\GDSQueue\BookingTravelerInfo
+     * @return \Santosdave\Travelport\GDSQueue\BookingTravelerInfo
      */
     public function setAge($Age)
     {
@@ -298,7 +298,7 @@ class BookingTravelerInfo
 
     /**
      * @param CustomizedNameData $CustomizedNameData
-     * @return \FilippoToso\Travelport\GDSQueue\BookingTravelerInfo
+     * @return \Santosdave\Travelport\GDSQueue\BookingTravelerInfo
      */
     public function setCustomizedNameData($CustomizedNameData)
     {
@@ -316,7 +316,7 @@ class BookingTravelerInfo
 
     /**
      * @param AppliedProfile $AppliedProfile
-     * @return \FilippoToso\Travelport\GDSQueue\BookingTravelerInfo
+     * @return \Santosdave\Travelport\GDSQueue\BookingTravelerInfo
      */
     public function setAppliedProfile($AppliedProfile)
     {
@@ -334,7 +334,7 @@ class BookingTravelerInfo
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\GDSQueue\BookingTravelerInfo
+     * @return \Santosdave\Travelport\GDSQueue\BookingTravelerInfo
      */
     public function setKey($Key)
     {
@@ -352,7 +352,7 @@ class BookingTravelerInfo
 
     /**
      * @param typePTC $TravelerType
-     * @return \FilippoToso\Travelport\GDSQueue\BookingTravelerInfo
+     * @return \Santosdave\Travelport\GDSQueue\BookingTravelerInfo
      */
     public function setTravelerType($TravelerType)
     {
@@ -370,7 +370,7 @@ class BookingTravelerInfo
 
     /**
      * @param typeGender $Gender
-     * @return \FilippoToso\Travelport\GDSQueue\BookingTravelerInfo
+     * @return \Santosdave\Travelport\GDSQueue\BookingTravelerInfo
      */
     public function setGender($Gender)
     {

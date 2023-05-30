@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class FlightOption
 {
@@ -49,7 +49,7 @@ class FlightOption
 
     /**
      * @param Option $Option
-     * @return \FilippoToso\Travelport\Air\FlightOption
+     * @return \Santosdave\Travelport\Air\FlightOption
      */
     public function setOption($Option)
     {
@@ -67,7 +67,7 @@ class FlightOption
 
     /**
      * @param typeRef $LegRef
-     * @return \FilippoToso\Travelport\Air\FlightOption
+     * @return \Santosdave\Travelport\Air\FlightOption
      */
     public function setLegRef($LegRef)
     {
@@ -85,7 +85,7 @@ class FlightOption
 
     /**
      * @param typeIATACode $Origin
-     * @return \FilippoToso\Travelport\Air\FlightOption
+     * @return \Santosdave\Travelport\Air\FlightOption
      */
     public function setOrigin($Origin)
     {
@@ -103,7 +103,7 @@ class FlightOption
 
     /**
      * @param typeIATACode $Destination
-     * @return \FilippoToso\Travelport\Air\FlightOption
+     * @return \Santosdave\Travelport\Air\FlightOption
      */
     public function setDestination($Destination)
     {

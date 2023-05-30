@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class Tag
 {
@@ -63,7 +63,7 @@ class Tag
 
     /**
      * @param StringLength1to128 $Name
-     * @return \FilippoToso\Travelport\UProfile\Tag
+     * @return \Santosdave\Travelport\UProfile\Tag
      */
     public function setName($Name)
     {
@@ -81,7 +81,7 @@ class Tag
 
     /**
      * @param StringLength1to128 $Label
-     * @return \FilippoToso\Travelport\UProfile\Tag
+     * @return \Santosdave\Travelport\UProfile\Tag
      */
     public function setLabel($Label)
     {
@@ -99,7 +99,7 @@ class Tag
 
     /**
      * @param StringLength1to255 $Description
-     * @return \FilippoToso\Travelport\UProfile\Tag
+     * @return \Santosdave\Travelport\UProfile\Tag
      */
     public function setDescription($Description)
     {
@@ -117,7 +117,7 @@ class Tag
 
     /**
      * @param int $DisplayOrder
-     * @return \FilippoToso\Travelport\UProfile\Tag
+     * @return \Santosdave\Travelport\UProfile\Tag
      */
     public function setDisplayOrder($DisplayOrder)
     {
@@ -135,7 +135,7 @@ class Tag
 
     /**
      * @param typeTagKey $ID
-     * @return \FilippoToso\Travelport\UProfile\Tag
+     * @return \Santosdave\Travelport\UProfile\Tag
      */
     public function setID($ID)
     {
@@ -153,7 +153,7 @@ class Tag
 
     /**
      * @param typeProfileID $AgencyID
-     * @return \FilippoToso\Travelport\UProfile\Tag
+     * @return \Santosdave\Travelport\UProfile\Tag
      */
     public function setAgencyID($AgencyID)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Terminal;
+namespace Santosdave\Travelport\Terminal;
 
 class BookingTravelerName
 {
@@ -56,7 +56,7 @@ class BookingTravelerName
 
     /**
      * @param anonymous77 $Prefix
-     * @return \FilippoToso\Travelport\Terminal\BookingTravelerName
+     * @return \Santosdave\Travelport\Terminal\BookingTravelerName
      */
     public function setPrefix($Prefix)
     {
@@ -74,7 +74,7 @@ class BookingTravelerName
 
     /**
      * @param anonymous78 $First
-     * @return \FilippoToso\Travelport\Terminal\BookingTravelerName
+     * @return \Santosdave\Travelport\Terminal\BookingTravelerName
      */
     public function setFirst($First)
     {
@@ -92,7 +92,7 @@ class BookingTravelerName
 
     /**
      * @param anonymous79 $Middle
-     * @return \FilippoToso\Travelport\Terminal\BookingTravelerName
+     * @return \Santosdave\Travelport\Terminal\BookingTravelerName
      */
     public function setMiddle($Middle)
     {
@@ -110,7 +110,7 @@ class BookingTravelerName
 
     /**
      * @param typeTravelerLastName $Last
-     * @return \FilippoToso\Travelport\Terminal\BookingTravelerName
+     * @return \Santosdave\Travelport\Terminal\BookingTravelerName
      */
     public function setLast($Last)
     {
@@ -128,7 +128,7 @@ class BookingTravelerName
 
     /**
      * @param anonymous80 $Suffix
-     * @return \FilippoToso\Travelport\Terminal\BookingTravelerName
+     * @return \Santosdave\Travelport\Terminal\BookingTravelerName
      */
     public function setSuffix($Suffix)
     {

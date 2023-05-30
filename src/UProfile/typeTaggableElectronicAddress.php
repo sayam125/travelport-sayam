@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeTaggableElectronicAddress extends typeElectronicAddress
 {
@@ -47,7 +47,7 @@ class typeTaggableElectronicAddress extends typeElectronicAddress
 
     /**
      * @param TagRef $TagRef
-     * @return \FilippoToso\Travelport\UProfile\typeTaggableElectronicAddress
+     * @return \Santosdave\Travelport\UProfile\typeTaggableElectronicAddress
      */
     public function setTagRef($TagRef)
     {
@@ -65,7 +65,7 @@ class typeTaggableElectronicAddress extends typeElectronicAddress
 
     /**
      * @param typeContactPurpose $Purpose
-     * @return \FilippoToso\Travelport\UProfile\typeTaggableElectronicAddress
+     * @return \Santosdave\Travelport\UProfile\typeTaggableElectronicAddress
      */
     public function setPurpose($Purpose)
     {
@@ -83,7 +83,7 @@ class typeTaggableElectronicAddress extends typeElectronicAddress
 
     /**
      * @param typePriorityOrder $PriorityOrder
-     * @return \FilippoToso\Travelport\UProfile\typeTaggableElectronicAddress
+     * @return \Santosdave\Travelport\UProfile\typeTaggableElectronicAddress
      */
     public function setPriorityOrder($PriorityOrder)
     {

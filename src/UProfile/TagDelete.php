@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class TagDelete
 {
@@ -42,7 +42,7 @@ class TagDelete
 
     /**
      * @param typeTaggableElement $Element
-     * @return \FilippoToso\Travelport\UProfile\TagDelete
+     * @return \Santosdave\Travelport\UProfile\TagDelete
      */
     public function setElement($Element)
     {
@@ -60,7 +60,7 @@ class TagDelete
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\UProfile\TagDelete
+     * @return \Santosdave\Travelport\UProfile\TagDelete
      */
     public function setKey($Key)
     {
@@ -78,7 +78,7 @@ class TagDelete
 
     /**
      * @param typeTagID $TagID
-     * @return \FilippoToso\Travelport\UProfile\TagDelete
+     * @return \Santosdave\Travelport\UProfile\TagDelete
      */
     public function setTagID($TagID)
     {

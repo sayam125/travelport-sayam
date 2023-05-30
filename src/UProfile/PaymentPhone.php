@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class PaymentPhone
 {
@@ -56,7 +56,7 @@ class PaymentPhone
 
     /**
      * @param anonymous895 $Country
-     * @return \FilippoToso\Travelport\UProfile\PaymentPhone
+     * @return \Santosdave\Travelport\UProfile\PaymentPhone
      */
     public function setCountry($Country)
     {
@@ -74,7 +74,7 @@ class PaymentPhone
 
     /**
      * @param anonymous896 $AreaCode
-     * @return \FilippoToso\Travelport\UProfile\PaymentPhone
+     * @return \Santosdave\Travelport\UProfile\PaymentPhone
      */
     public function setAreaCode($AreaCode)
     {
@@ -92,7 +92,7 @@ class PaymentPhone
 
     /**
      * @param anonymous897 $LocalNumber
-     * @return \FilippoToso\Travelport\UProfile\PaymentPhone
+     * @return \Santosdave\Travelport\UProfile\PaymentPhone
      */
     public function setLocalNumber($LocalNumber)
     {
@@ -110,7 +110,7 @@ class PaymentPhone
 
     /**
      * @param anonymous898 $Extension
-     * @return \FilippoToso\Travelport\UProfile\PaymentPhone
+     * @return \Santosdave\Travelport\UProfile\PaymentPhone
      */
     public function setExtension($Extension)
     {
@@ -128,7 +128,7 @@ class PaymentPhone
 
     /**
      * @param typeCityOrAirport $Location
-     * @return \FilippoToso\Travelport\UProfile\PaymentPhone
+     * @return \Santosdave\Travelport\UProfile\PaymentPhone
      */
     public function setLocation($Location)
     {

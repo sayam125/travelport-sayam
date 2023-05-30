@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class RailFareIDList
 {
@@ -28,7 +28,7 @@ class RailFareIDList
 
     /**
      * @param RailFareID $RailFareID
-     * @return \FilippoToso\Travelport\Rail\RailFareIDList
+     * @return \Santosdave\Travelport\Rail\RailFareIDList
      */
     public function setRailFareID($RailFareID)
     {

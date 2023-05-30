@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class UniversalRecordHistorySearchRsp extends BaseRsp
 {
@@ -41,7 +41,7 @@ class UniversalRecordHistorySearchRsp extends BaseRsp
 
     /**
      * @param UniversalRecordHistorySearchResult $UniversalRecordHistorySearchResult
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalRecordHistorySearchRsp
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalRecordHistorySearchRsp
      */
     public function setUniversalRecordHistorySearchResult($UniversalRecordHistorySearchResult)
     {
@@ -59,7 +59,7 @@ class UniversalRecordHistorySearchRsp extends BaseRsp
 
     /**
      * @param boolean $LastResult
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalRecordHistorySearchRsp
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalRecordHistorySearchRsp
      */
     public function setLastResult($LastResult)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class FareType
 {
@@ -28,7 +28,7 @@ class FareType
 
     /**
      * @param typeFareTypeCode $Code
-     * @return \FilippoToso\Travelport\GDSQueue\FareType
+     * @return \Santosdave\Travelport\GDSQueue\FareType
      */
     public function setCode($Code)
     {

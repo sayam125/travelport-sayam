@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class FareRestrictionSaleDate
 {
@@ -35,7 +35,7 @@ class FareRestrictionSaleDate
 
     /**
      * @param date $StartDate
-     * @return \FilippoToso\Travelport\GDSQueue\FareRestrictionSaleDate
+     * @return \Santosdave\Travelport\GDSQueue\FareRestrictionSaleDate
      */
     public function setStartDate($StartDate)
     {
@@ -53,7 +53,7 @@ class FareRestrictionSaleDate
 
     /**
      * @param date $EndDate
-     * @return \FilippoToso\Travelport\GDSQueue\FareRestrictionSaleDate
+     * @return \Santosdave\Travelport\GDSQueue\FareRestrictionSaleDate
      */
     public function setEndDate($EndDate)
     {

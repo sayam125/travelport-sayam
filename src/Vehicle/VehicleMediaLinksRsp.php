@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Vehicle;
+namespace Santosdave\Travelport\Vehicle;
 
 class VehicleMediaLinksRsp extends BaseRsp
 {
@@ -34,7 +34,7 @@ class VehicleMediaLinksRsp extends BaseRsp
 
     /**
      * @param VehicleWithMediaItems $VehicleWithMediaItems
-     * @return \FilippoToso\Travelport\Vehicle\VehicleMediaLinksRsp
+     * @return \Santosdave\Travelport\Vehicle\VehicleMediaLinksRsp
      */
     public function setVehicleWithMediaItems($VehicleWithMediaItems)
     {

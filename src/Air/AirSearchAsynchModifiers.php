@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class AirSearchAsynchModifiers
 {
@@ -26,7 +26,7 @@ class AirSearchAsynchModifiers
 
     /**
      * @param InitialAsynchResult $InitialAsynchResult
-     * @return \FilippoToso\Travelport\Air\AirSearchAsynchModifiers
+     * @return \Santosdave\Travelport\Air\AirSearchAsynchModifiers
      */
     public function setInitialAsynchResult($InitialAsynchResult)
     {

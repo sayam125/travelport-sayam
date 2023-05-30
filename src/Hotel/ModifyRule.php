@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class ModifyRule
 {
@@ -63,7 +63,7 @@ class ModifyRule
 
     /**
      * @param ModificationType $Modification
-     * @return \FilippoToso\Travelport\Hotel\ModifyRule
+     * @return \Santosdave\Travelport\Hotel\ModifyRule
      */
     public function setModification($Modification)
     {
@@ -81,7 +81,7 @@ class ModifyRule
 
     /**
      * @param boolean $AutomaticallyAppliedOnAdd
-     * @return \FilippoToso\Travelport\Hotel\ModifyRule
+     * @return \Santosdave\Travelport\Hotel\ModifyRule
      */
     public function setAutomaticallyAppliedOnAdd($AutomaticallyAppliedOnAdd)
     {
@@ -99,7 +99,7 @@ class ModifyRule
 
     /**
      * @param boolean $CanDelete
-     * @return \FilippoToso\Travelport\Hotel\ModifyRule
+     * @return \Santosdave\Travelport\Hotel\ModifyRule
      */
     public function setCanDelete($CanDelete)
     {
@@ -117,7 +117,7 @@ class ModifyRule
 
     /**
      * @param boolean $CanAdd
-     * @return \FilippoToso\Travelport\Hotel\ModifyRule
+     * @return \Santosdave\Travelport\Hotel\ModifyRule
      */
     public function setCanAdd($CanAdd)
     {
@@ -135,7 +135,7 @@ class ModifyRule
 
     /**
      * @param boolean $Refundable
-     * @return \FilippoToso\Travelport\Hotel\ModifyRule
+     * @return \Santosdave\Travelport\Hotel\ModifyRule
      */
     public function setRefundable($Refundable)
     {
@@ -153,7 +153,7 @@ class ModifyRule
 
     /**
      * @param string $ProviderDefinedModificationType
-     * @return \FilippoToso\Travelport\Hotel\ModifyRule
+     * @return \Santosdave\Travelport\Hotel\ModifyRule
      */
     public function setProviderDefinedModificationType($ProviderDefinedModificationType)
     {

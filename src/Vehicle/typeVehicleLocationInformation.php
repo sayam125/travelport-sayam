@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Vehicle;
+namespace Santosdave\Travelport\Vehicle;
 
 class typeVehicleLocationInformation
 {
@@ -82,7 +82,7 @@ class typeVehicleLocationInformation
 
     /**
      * @param typeStructuredAddress $Address
-     * @return \FilippoToso\Travelport\Vehicle\typeVehicleLocationInformation
+     * @return \Santosdave\Travelport\Vehicle\typeVehicleLocationInformation
      */
     public function setAddress($Address)
     {
@@ -100,7 +100,7 @@ class typeVehicleLocationInformation
 
     /**
      * @param PhoneNumber $PhoneNumber
-     * @return \FilippoToso\Travelport\Vehicle\typeVehicleLocationInformation
+     * @return \Santosdave\Travelport\Vehicle\typeVehicleLocationInformation
      */
     public function setPhoneNumber($PhoneNumber)
     {
@@ -118,7 +118,7 @@ class typeVehicleLocationInformation
 
     /**
      * @param string $OperationTime
-     * @return \FilippoToso\Travelport\Vehicle\typeVehicleLocationInformation
+     * @return \Santosdave\Travelport\Vehicle\typeVehicleLocationInformation
      */
     public function setOperationTime($OperationTime)
     {
@@ -136,7 +136,7 @@ class typeVehicleLocationInformation
 
     /**
      * @param string $LocationName
-     * @return \FilippoToso\Travelport\Vehicle\typeVehicleLocationInformation
+     * @return \Santosdave\Travelport\Vehicle\typeVehicleLocationInformation
      */
     public function setLocationName($LocationName)
     {
@@ -154,7 +154,7 @@ class typeVehicleLocationInformation
 
     /**
      * @param string $CounterLocation
-     * @return \FilippoToso\Travelport\Vehicle\typeVehicleLocationInformation
+     * @return \Santosdave\Travelport\Vehicle\typeVehicleLocationInformation
      */
     public function setCounterLocation($CounterLocation)
     {
@@ -172,7 +172,7 @@ class typeVehicleLocationInformation
 
     /**
      * @param typeSupplierCode $VendorCode
-     * @return \FilippoToso\Travelport\Vehicle\typeVehicleLocationInformation
+     * @return \Santosdave\Travelport\Vehicle\typeVehicleLocationInformation
      */
     public function setVendorCode($VendorCode)
     {
@@ -190,7 +190,7 @@ class typeVehicleLocationInformation
 
     /**
      * @param typeIATACode $LocationCode
-     * @return \FilippoToso\Travelport\Vehicle\typeVehicleLocationInformation
+     * @return \Santosdave\Travelport\Vehicle\typeVehicleLocationInformation
      */
     public function setLocationCode($LocationCode)
     {
@@ -208,7 +208,7 @@ class typeVehicleLocationInformation
 
     /**
      * @param typeVehicleLocation $LocationType
-     * @return \FilippoToso\Travelport\Vehicle\typeVehicleLocationInformation
+     * @return \Santosdave\Travelport\Vehicle\typeVehicleLocationInformation
      */
     public function setLocationType($LocationType)
     {
@@ -226,7 +226,7 @@ class typeVehicleLocationInformation
 
     /**
      * @param StringLength3 $LocationNumber
-     * @return \FilippoToso\Travelport\Vehicle\typeVehicleLocationInformation
+     * @return \Santosdave\Travelport\Vehicle\typeVehicleLocationInformation
      */
     public function setLocationNumber($LocationNumber)
     {

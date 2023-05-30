@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class HotelUpsellQualify
 {
@@ -98,7 +98,7 @@ class HotelUpsellQualify
 
     /**
      * @param CorporateDiscountID $CorporateDiscountID
-     * @return \FilippoToso\Travelport\Util\HotelUpsellQualify
+     * @return \Santosdave\Travelport\Util\HotelUpsellQualify
      */
     public function setCorporateDiscountID($CorporateDiscountID)
     {
@@ -116,7 +116,7 @@ class HotelUpsellQualify
 
     /**
      * @param typeHotelChainCode $HotelChainCode
-     * @return \FilippoToso\Travelport\Util\HotelUpsellQualify
+     * @return \Santosdave\Travelport\Util\HotelUpsellQualify
      */
     public function setHotelChainCode($HotelChainCode)
     {
@@ -134,7 +134,7 @@ class HotelUpsellQualify
 
     /**
      * @param typeHotelCode $HotelCode
-     * @return \FilippoToso\Travelport\Util\HotelUpsellQualify
+     * @return \Santosdave\Travelport\Util\HotelUpsellQualify
      */
     public function setHotelCode($HotelCode)
     {
@@ -152,7 +152,7 @@ class HotelUpsellQualify
 
     /**
      * @param typeIATACode $HotelLocation
-     * @return \FilippoToso\Travelport\Util\HotelUpsellQualify
+     * @return \Santosdave\Travelport\Util\HotelUpsellQualify
      */
     public function setHotelLocation($HotelLocation)
     {
@@ -170,7 +170,7 @@ class HotelUpsellQualify
 
     /**
      * @param typeRatePlanType $RatePlanType
-     * @return \FilippoToso\Travelport\Util\HotelUpsellQualify
+     * @return \Santosdave\Travelport\Util\HotelUpsellQualify
      */
     public function setRatePlanType($RatePlanType)
     {
@@ -188,7 +188,7 @@ class HotelUpsellQualify
 
     /**
      * @param typeDate $EffectiveDate
-     * @return \FilippoToso\Travelport\Util\HotelUpsellQualify
+     * @return \Santosdave\Travelport\Util\HotelUpsellQualify
      */
     public function setEffectiveDate($EffectiveDate)
     {
@@ -206,7 +206,7 @@ class HotelUpsellQualify
 
     /**
      * @param typeDate $ExpirationDate
-     * @return \FilippoToso\Travelport\Util\HotelUpsellQualify
+     * @return \Santosdave\Travelport\Util\HotelUpsellQualify
      */
     public function setExpirationDate($ExpirationDate)
     {
@@ -224,7 +224,7 @@ class HotelUpsellQualify
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Util\HotelUpsellQualify
+     * @return \Santosdave\Travelport\Util\HotelUpsellQualify
      */
     public function setKey($Key)
     {
@@ -242,7 +242,7 @@ class HotelUpsellQualify
 
     /**
      * @param typeRef $OfferRef
-     * @return \FilippoToso\Travelport\Util\HotelUpsellQualify
+     * @return \Santosdave\Travelport\Util\HotelUpsellQualify
      */
     public function setOfferRef($OfferRef)
     {
@@ -260,7 +260,7 @@ class HotelUpsellQualify
 
     /**
      * @param typeElementStatus $ElStat
-     * @return \FilippoToso\Travelport\Util\HotelUpsellQualify
+     * @return \Santosdave\Travelport\Util\HotelUpsellQualify
      */
     public function setElStat($ElStat)
     {
@@ -278,7 +278,7 @@ class HotelUpsellQualify
 
     /**
      * @param boolean $KeyOverride
-     * @return \FilippoToso\Travelport\Util\HotelUpsellQualify
+     * @return \Santosdave\Travelport\Util\HotelUpsellQualify
      */
     public function setKeyOverride($KeyOverride)
     {

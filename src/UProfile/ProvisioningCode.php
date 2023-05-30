@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class ProvisioningCode
 {
@@ -35,7 +35,7 @@ class ProvisioningCode
 
     /**
      * @param StringLength1to128 $_
-     * @return \FilippoToso\Travelport\UProfile\ProvisioningCode
+     * @return \Santosdave\Travelport\UProfile\ProvisioningCode
      */
     public function set_($_)
     {
@@ -53,7 +53,7 @@ class ProvisioningCode
 
     /**
      * @param anonymous876 $ProfileType
-     * @return \FilippoToso\Travelport\UProfile\ProvisioningCode
+     * @return \Santosdave\Travelport\UProfile\ProvisioningCode
      */
     public function setProfileType($ProfileType)
     {

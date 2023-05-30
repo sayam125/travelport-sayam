@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class typeNonAirReservationRef
 {
@@ -28,7 +28,7 @@ class typeNonAirReservationRef
 
     /**
      * @param typeLocatorCode $LocatorCode
-     * @return \FilippoToso\Travelport\GDSQueue\typeNonAirReservationRef
+     * @return \Santosdave\Travelport\GDSQueue\typeNonAirReservationRef
      */
     public function setLocatorCode($LocatorCode)
     {

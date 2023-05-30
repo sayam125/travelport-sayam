@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class RequestAmenity
 {
@@ -28,7 +28,7 @@ class RequestAmenity
 
     /**
      * @param anonymous1106 $Type
-     * @return \FilippoToso\Travelport\Util\RequestAmenity
+     * @return \Santosdave\Travelport\Util\RequestAmenity
      */
     public function setType($Type)
     {

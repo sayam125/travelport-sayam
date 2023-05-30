@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class typeSegmentRef
 {
@@ -28,7 +28,7 @@ class typeSegmentRef
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Hotel\typeSegmentRef
+     * @return \Santosdave\Travelport\Hotel\typeSegmentRef
      */
     public function setKey($Key)
     {

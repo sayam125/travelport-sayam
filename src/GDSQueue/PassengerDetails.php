@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class PassengerDetails
 {
@@ -49,7 +49,7 @@ class PassengerDetails
 
     /**
      * @param LoyaltyCardDetails $LoyaltyCardDetails
-     * @return \FilippoToso\Travelport\GDSQueue\PassengerDetails
+     * @return \Santosdave\Travelport\GDSQueue\PassengerDetails
      */
     public function setLoyaltyCardDetails($LoyaltyCardDetails)
     {
@@ -67,7 +67,7 @@ class PassengerDetails
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\GDSQueue\PassengerDetails
+     * @return \Santosdave\Travelport\GDSQueue\PassengerDetails
      */
     public function setKey($Key)
     {
@@ -85,7 +85,7 @@ class PassengerDetails
 
     /**
      * @param typePTC $Code
-     * @return \FilippoToso\Travelport\GDSQueue\PassengerDetails
+     * @return \Santosdave\Travelport\GDSQueue\PassengerDetails
      */
     public function setCode($Code)
     {
@@ -103,7 +103,7 @@ class PassengerDetails
 
     /**
      * @param int $Age
-     * @return \FilippoToso\Travelport\GDSQueue\PassengerDetails
+     * @return \Santosdave\Travelport\GDSQueue\PassengerDetails
      */
     public function setAge($Age)
     {

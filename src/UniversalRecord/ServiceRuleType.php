@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class ServiceRuleType
 {
@@ -53,7 +53,7 @@ class ServiceRuleType
 
     /**
      * @param ApplicationRules $ApplicationRules
-     * @return \FilippoToso\Travelport\UniversalRecord\ServiceRuleType
+     * @return \Santosdave\Travelport\UniversalRecord\ServiceRuleType
      */
     public function setApplicationRules($ApplicationRules)
     {
@@ -71,7 +71,7 @@ class ServiceRuleType
 
     /**
      * @param ApplicationLevel $ApplicationLevel
-     * @return \FilippoToso\Travelport\UniversalRecord\ServiceRuleType
+     * @return \Santosdave\Travelport\UniversalRecord\ServiceRuleType
      */
     public function setApplicationLevel($ApplicationLevel)
     {
@@ -89,7 +89,7 @@ class ServiceRuleType
 
     /**
      * @param ModifyRules $ModifyRules
-     * @return \FilippoToso\Travelport\UniversalRecord\ServiceRuleType
+     * @return \Santosdave\Travelport\UniversalRecord\ServiceRuleType
      */
     public function setModifyRules($ModifyRules)
     {
@@ -107,7 +107,7 @@ class ServiceRuleType
 
     /**
      * @param SecondaryTypeRules $SecondaryTypeRules
-     * @return \FilippoToso\Travelport\UniversalRecord\ServiceRuleType
+     * @return \Santosdave\Travelport\UniversalRecord\ServiceRuleType
      */
     public function setSecondaryTypeRules($SecondaryTypeRules)
     {
@@ -125,7 +125,7 @@ class ServiceRuleType
 
     /**
      * @param FormattedTextTextType[] $Remarks
-     * @return \FilippoToso\Travelport\UniversalRecord\ServiceRuleType
+     * @return \Santosdave\Travelport\UniversalRecord\ServiceRuleType
      */
     public function setRemarks(array $Remarks = null)
     {
@@ -143,7 +143,7 @@ class ServiceRuleType
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\UniversalRecord\ServiceRuleType
+     * @return \Santosdave\Travelport\UniversalRecord\ServiceRuleType
      */
     public function setKey($Key)
     {

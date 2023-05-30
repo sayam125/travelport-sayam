@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class RefundRemark
 {
@@ -28,7 +28,7 @@ class RefundRemark
 
     /**
      * @param string $RemarkData
-     * @return \FilippoToso\Travelport\Rail\RefundRemark
+     * @return \Santosdave\Travelport\Rail\RefundRemark
      */
     public function setRemarkData($RemarkData)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class AirLegModifiers
 {
@@ -166,7 +166,7 @@ class AirLegModifiers
 
     /**
      * @param PermittedCabins $PermittedCabins
-     * @return \FilippoToso\Travelport\GDSQueue\AirLegModifiers
+     * @return \Santosdave\Travelport\GDSQueue\AirLegModifiers
      */
     public function setPermittedCabins($PermittedCabins)
     {
@@ -184,7 +184,7 @@ class AirLegModifiers
 
     /**
      * @param PreferredCabins $PreferredCabins
-     * @return \FilippoToso\Travelport\GDSQueue\AirLegModifiers
+     * @return \Santosdave\Travelport\GDSQueue\AirLegModifiers
      */
     public function setPreferredCabins($PreferredCabins)
     {
@@ -202,7 +202,7 @@ class AirLegModifiers
 
     /**
      * @param PermittedCarriers $PermittedCarriers
-     * @return \FilippoToso\Travelport\GDSQueue\AirLegModifiers
+     * @return \Santosdave\Travelport\GDSQueue\AirLegModifiers
      */
     public function setPermittedCarriers($PermittedCarriers)
     {
@@ -220,7 +220,7 @@ class AirLegModifiers
 
     /**
      * @param ProhibitedCarriers $ProhibitedCarriers
-     * @return \FilippoToso\Travelport\GDSQueue\AirLegModifiers
+     * @return \Santosdave\Travelport\GDSQueue\AirLegModifiers
      */
     public function setProhibitedCarriers($ProhibitedCarriers)
     {
@@ -238,7 +238,7 @@ class AirLegModifiers
 
     /**
      * @param PreferredCarriers $PreferredCarriers
-     * @return \FilippoToso\Travelport\GDSQueue\AirLegModifiers
+     * @return \Santosdave\Travelport\GDSQueue\AirLegModifiers
      */
     public function setPreferredCarriers($PreferredCarriers)
     {
@@ -256,7 +256,7 @@ class AirLegModifiers
 
     /**
      * @param PermittedConnectionPoints $PermittedConnectionPoints
-     * @return \FilippoToso\Travelport\GDSQueue\AirLegModifiers
+     * @return \Santosdave\Travelport\GDSQueue\AirLegModifiers
      */
     public function setPermittedConnectionPoints($PermittedConnectionPoints)
     {
@@ -274,7 +274,7 @@ class AirLegModifiers
 
     /**
      * @param ProhibitedConnectionPoints $ProhibitedConnectionPoints
-     * @return \FilippoToso\Travelport\GDSQueue\AirLegModifiers
+     * @return \Santosdave\Travelport\GDSQueue\AirLegModifiers
      */
     public function setProhibitedConnectionPoints($ProhibitedConnectionPoints)
     {
@@ -292,7 +292,7 @@ class AirLegModifiers
 
     /**
      * @param PreferredConnectionPoints $PreferredConnectionPoints
-     * @return \FilippoToso\Travelport\GDSQueue\AirLegModifiers
+     * @return \Santosdave\Travelport\GDSQueue\AirLegModifiers
      */
     public function setPreferredConnectionPoints($PreferredConnectionPoints)
     {
@@ -310,7 +310,7 @@ class AirLegModifiers
 
     /**
      * @param PermittedBookingCodes $PermittedBookingCodes
-     * @return \FilippoToso\Travelport\GDSQueue\AirLegModifiers
+     * @return \Santosdave\Travelport\GDSQueue\AirLegModifiers
      */
     public function setPermittedBookingCodes($PermittedBookingCodes)
     {
@@ -328,7 +328,7 @@ class AirLegModifiers
 
     /**
      * @param PreferredBookingCodes $PreferredBookingCodes
-     * @return \FilippoToso\Travelport\GDSQueue\AirLegModifiers
+     * @return \Santosdave\Travelport\GDSQueue\AirLegModifiers
      */
     public function setPreferredBookingCodes($PreferredBookingCodes)
     {
@@ -346,7 +346,7 @@ class AirLegModifiers
 
     /**
      * @param PreferredAlliances $PreferredAlliances
-     * @return \FilippoToso\Travelport\GDSQueue\AirLegModifiers
+     * @return \Santosdave\Travelport\GDSQueue\AirLegModifiers
      */
     public function setPreferredAlliances($PreferredAlliances)
     {
@@ -364,7 +364,7 @@ class AirLegModifiers
 
     /**
      * @param ProhibitedBookingCodes $ProhibitedBookingCodes
-     * @return \FilippoToso\Travelport\GDSQueue\AirLegModifiers
+     * @return \Santosdave\Travelport\GDSQueue\AirLegModifiers
      */
     public function setProhibitedBookingCodes($ProhibitedBookingCodes)
     {
@@ -382,7 +382,7 @@ class AirLegModifiers
 
     /**
      * @param DisfavoredAlliances $DisfavoredAlliances
-     * @return \FilippoToso\Travelport\GDSQueue\AirLegModifiers
+     * @return \Santosdave\Travelport\GDSQueue\AirLegModifiers
      */
     public function setDisfavoredAlliances($DisfavoredAlliances)
     {
@@ -400,7 +400,7 @@ class AirLegModifiers
 
     /**
      * @param FlightType $FlightType
-     * @return \FilippoToso\Travelport\GDSQueue\AirLegModifiers
+     * @return \Santosdave\Travelport\GDSQueue\AirLegModifiers
      */
     public function setFlightType($FlightType)
     {
@@ -418,7 +418,7 @@ class AirLegModifiers
 
     /**
      * @param typeAnchorFlightData $AnchorFlightData
-     * @return \FilippoToso\Travelport\GDSQueue\AirLegModifiers
+     * @return \Santosdave\Travelport\GDSQueue\AirLegModifiers
      */
     public function setAnchorFlightData($AnchorFlightData)
     {
@@ -436,7 +436,7 @@ class AirLegModifiers
 
     /**
      * @param boolean $ProhibitOvernightLayovers
-     * @return \FilippoToso\Travelport\GDSQueue\AirLegModifiers
+     * @return \Santosdave\Travelport\GDSQueue\AirLegModifiers
      */
     public function setProhibitOvernightLayovers($ProhibitOvernightLayovers)
     {
@@ -454,7 +454,7 @@ class AirLegModifiers
 
     /**
      * @param int $MaxConnectionTime
-     * @return \FilippoToso\Travelport\GDSQueue\AirLegModifiers
+     * @return \Santosdave\Travelport\GDSQueue\AirLegModifiers
      */
     public function setMaxConnectionTime($MaxConnectionTime)
     {
@@ -472,7 +472,7 @@ class AirLegModifiers
 
     /**
      * @param boolean $ReturnFirstAvailableOnly
-     * @return \FilippoToso\Travelport\GDSQueue\AirLegModifiers
+     * @return \Santosdave\Travelport\GDSQueue\AirLegModifiers
      */
     public function setReturnFirstAvailableOnly($ReturnFirstAvailableOnly)
     {
@@ -490,7 +490,7 @@ class AirLegModifiers
 
     /**
      * @param boolean $AllowDirectAccess
-     * @return \FilippoToso\Travelport\GDSQueue\AirLegModifiers
+     * @return \Santosdave\Travelport\GDSQueue\AirLegModifiers
      */
     public function setAllowDirectAccess($AllowDirectAccess)
     {
@@ -508,7 +508,7 @@ class AirLegModifiers
 
     /**
      * @param boolean $ProhibitMultiAirportConnection
-     * @return \FilippoToso\Travelport\GDSQueue\AirLegModifiers
+     * @return \Santosdave\Travelport\GDSQueue\AirLegModifiers
      */
     public function setProhibitMultiAirportConnection($ProhibitMultiAirportConnection)
     {
@@ -526,7 +526,7 @@ class AirLegModifiers
 
     /**
      * @param boolean $PreferNonStop
-     * @return \FilippoToso\Travelport\GDSQueue\AirLegModifiers
+     * @return \Santosdave\Travelport\GDSQueue\AirLegModifiers
      */
     public function setPreferNonStop($PreferNonStop)
     {
@@ -544,7 +544,7 @@ class AirLegModifiers
 
     /**
      * @param anonymous735 $OrderBy
-     * @return \FilippoToso\Travelport\GDSQueue\AirLegModifiers
+     * @return \Santosdave\Travelport\GDSQueue\AirLegModifiers
      */
     public function setOrderBy($OrderBy)
     {
@@ -562,7 +562,7 @@ class AirLegModifiers
 
     /**
      * @param typeMaxJourneyTime $MaxJourneyTime
-     * @return \FilippoToso\Travelport\GDSQueue\AirLegModifiers
+     * @return \Santosdave\Travelport\GDSQueue\AirLegModifiers
      */
     public function setMaxJourneyTime($MaxJourneyTime)
     {

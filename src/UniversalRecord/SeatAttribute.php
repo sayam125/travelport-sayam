@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class SeatAttribute
 {
@@ -28,7 +28,7 @@ class SeatAttribute
 
     /**
      * @param anonymous479 $Value
-     * @return \FilippoToso\Travelport\UniversalRecord\SeatAttribute
+     * @return \Santosdave\Travelport\UniversalRecord\SeatAttribute
      */
     public function setValue($Value)
     {

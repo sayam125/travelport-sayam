@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class AirReservationSelector
 {
@@ -35,7 +35,7 @@ class AirReservationSelector
 
     /**
      * @param FareInfoRef $FareInfoRef
-     * @return \FilippoToso\Travelport\Air\AirReservationSelector
+     * @return \Santosdave\Travelport\Air\AirReservationSelector
      */
     public function setFareInfoRef($FareInfoRef)
     {
@@ -53,7 +53,7 @@ class AirReservationSelector
 
     /**
      * @param typeLocatorCode $AirReservationLocatorCode
-     * @return \FilippoToso\Travelport\Air\AirReservationSelector
+     * @return \Santosdave\Travelport\Air\AirReservationSelector
      */
     public function setAirReservationLocatorCode($AirReservationLocatorCode)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class RequestedHotelDetails extends typeHotelDetails
 {
@@ -33,7 +33,7 @@ class RequestedHotelDetails extends typeHotelDetails
 
     /**
      * @param HotelType $HotelType
-     * @return \FilippoToso\Travelport\GDSQueue\RequestedHotelDetails
+     * @return \Santosdave\Travelport\GDSQueue\RequestedHotelDetails
      */
     public function setHotelType($HotelType)
     {

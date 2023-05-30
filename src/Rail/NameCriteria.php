@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class NameCriteria
 {
@@ -35,7 +35,7 @@ class NameCriteria
 
     /**
      * @param anonymous1409 $FirstName
-     * @return \FilippoToso\Travelport\Rail\NameCriteria
+     * @return \Santosdave\Travelport\Rail\NameCriteria
      */
     public function setFirstName($FirstName)
     {
@@ -53,7 +53,7 @@ class NameCriteria
 
     /**
      * @param anonymous1410 $LastName
-     * @return \FilippoToso\Travelport\Rail\NameCriteria
+     * @return \Santosdave\Travelport\Rail\NameCriteria
      */
     public function setLastName($LastName)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class AirMerchandisingDetailsReq extends BaseReq
 {
@@ -54,7 +54,7 @@ class AirMerchandisingDetailsReq extends BaseReq
 
     /**
      * @param MerchandisingDetails $MerchandisingDetails
-     * @return \FilippoToso\Travelport\Air\AirMerchandisingDetailsReq
+     * @return \Santosdave\Travelport\Air\AirMerchandisingDetailsReq
      */
     public function setMerchandisingDetails($MerchandisingDetails)
     {
@@ -72,7 +72,7 @@ class AirMerchandisingDetailsReq extends BaseReq
 
     /**
      * @param OptionalServiceModifiers $OptionalServiceModifiers
-     * @return \FilippoToso\Travelport\Air\AirMerchandisingDetailsReq
+     * @return \Santosdave\Travelport\Air\AirMerchandisingDetailsReq
      */
     public function setOptionalServiceModifiers($OptionalServiceModifiers)
     {
@@ -90,7 +90,7 @@ class AirMerchandisingDetailsReq extends BaseReq
 
     /**
      * @param MerchandisingAvailabilityDetails $MerchandisingAvailabilityDetails
-     * @return \FilippoToso\Travelport\Air\AirMerchandisingDetailsReq
+     * @return \Santosdave\Travelport\Air\AirMerchandisingDetailsReq
      */
     public function setMerchandisingAvailabilityDetails($MerchandisingAvailabilityDetails)
     {

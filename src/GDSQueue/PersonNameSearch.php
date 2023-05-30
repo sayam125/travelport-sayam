@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class PersonNameSearch
 {
@@ -28,7 +28,7 @@ class PersonNameSearch
 
     /**
      * @param StringLength1to64 $Last
-     * @return \FilippoToso\Travelport\GDSQueue\PersonNameSearch
+     * @return \Santosdave\Travelport\GDSQueue\PersonNameSearch
      */
     public function setLast($Last)
     {

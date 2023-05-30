@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class Endorsement
 {
@@ -28,7 +28,7 @@ class Endorsement
 
     /**
      * @param typeEndorsement $Value
-     * @return \FilippoToso\Travelport\UniversalRecord\Endorsement
+     * @return \Santosdave\Travelport\UniversalRecord\Endorsement
      */
     public function setValue($Value)
     {

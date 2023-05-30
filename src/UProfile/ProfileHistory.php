@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class ProfileHistory
 {
@@ -91,7 +91,7 @@ class ProfileHistory
 
     /**
      * @param HistoryElement $HistoryElement
-     * @return \FilippoToso\Travelport\UProfile\ProfileHistory
+     * @return \Santosdave\Travelport\UProfile\ProfileHistory
      */
     public function setHistoryElement($HistoryElement)
     {
@@ -109,7 +109,7 @@ class ProfileHistory
 
     /**
      * @param UNKNOWN $ProfileName
-     * @return \FilippoToso\Travelport\UProfile\ProfileHistory
+     * @return \Santosdave\Travelport\UProfile\ProfileHistory
      */
     public function setProfileName($ProfileName)
     {
@@ -127,7 +127,7 @@ class ProfileHistory
 
     /**
      * @param typeProfileID $CreatedByAgentID
-     * @return \FilippoToso\Travelport\UProfile\ProfileHistory
+     * @return \Santosdave\Travelport\UProfile\ProfileHistory
      */
     public function setCreatedByAgentID($CreatedByAgentID)
     {
@@ -145,7 +145,7 @@ class ProfileHistory
 
     /**
      * @param typeAgentCode $CreatedByAgentUserName
-     * @return \FilippoToso\Travelport\UProfile\ProfileHistory
+     * @return \Santosdave\Travelport\UProfile\ProfileHistory
      */
     public function setCreatedByAgentUserName($CreatedByAgentUserName)
     {
@@ -171,7 +171,7 @@ class ProfileHistory
 
     /**
      * @param \DateTime $CreatedDate
-     * @return \FilippoToso\Travelport\UProfile\ProfileHistory
+     * @return \Santosdave\Travelport\UProfile\ProfileHistory
      */
     public function setCreatedDate(\DateTime $CreatedDate)
     {
@@ -189,7 +189,7 @@ class ProfileHistory
 
     /**
      * @param typeProfileID $LastModifiedByAgentID
-     * @return \FilippoToso\Travelport\UProfile\ProfileHistory
+     * @return \Santosdave\Travelport\UProfile\ProfileHistory
      */
     public function setLastModifiedByAgentID($LastModifiedByAgentID)
     {
@@ -207,7 +207,7 @@ class ProfileHistory
 
     /**
      * @param typeAgentCode $LastModifiedByAgentUserName
-     * @return \FilippoToso\Travelport\UProfile\ProfileHistory
+     * @return \Santosdave\Travelport\UProfile\ProfileHistory
      */
     public function setLastModifiedByAgentUserName($LastModifiedByAgentUserName)
     {
@@ -233,7 +233,7 @@ class ProfileHistory
 
     /**
      * @param \DateTime $LastModifiedDate
-     * @return \FilippoToso\Travelport\UProfile\ProfileHistory
+     * @return \Santosdave\Travelport\UProfile\ProfileHistory
      */
     public function setLastModifiedDate(\DateTime $LastModifiedDate)
     {
@@ -251,7 +251,7 @@ class ProfileHistory
 
     /**
      * @param typeProfileID $ProfileID
-     * @return \FilippoToso\Travelport\UProfile\ProfileHistory
+     * @return \Santosdave\Travelport\UProfile\ProfileHistory
      */
     public function setProfileID($ProfileID)
     {
@@ -269,7 +269,7 @@ class ProfileHistory
 
     /**
      * @param typeProfileType $ProfileType
-     * @return \FilippoToso\Travelport\UProfile\ProfileHistory
+     * @return \Santosdave\Travelport\UProfile\ProfileHistory
      */
     public function setProfileType($ProfileType)
     {

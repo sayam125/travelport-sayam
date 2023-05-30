@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class PermittedVendors
 {
@@ -28,7 +28,7 @@ class PermittedVendors
 
     /**
      * @param Vendor $Vendor
-     * @return \FilippoToso\Travelport\Rail\PermittedVendors
+     * @return \Santosdave\Travelport\Rail\PermittedVendors
      */
     public function setVendor($Vendor)
     {

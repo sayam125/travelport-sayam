@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class CustomFieldGroup
 {
@@ -126,7 +126,7 @@ class CustomFieldGroup
 
     /**
      * @param CustomField $CustomField
-     * @return \FilippoToso\Travelport\UProfile\CustomFieldGroup
+     * @return \Santosdave\Travelport\UProfile\CustomFieldGroup
      */
     public function setCustomField($CustomField)
     {
@@ -144,7 +144,7 @@ class CustomFieldGroup
 
     /**
      * @param typeID $ID
-     * @return \FilippoToso\Travelport\UProfile\CustomFieldGroup
+     * @return \Santosdave\Travelport\UProfile\CustomFieldGroup
      */
     public function setID($ID)
     {
@@ -162,7 +162,7 @@ class CustomFieldGroup
 
     /**
      * @param typeFieldName $Name
-     * @return \FilippoToso\Travelport\UProfile\CustomFieldGroup
+     * @return \Santosdave\Travelport\UProfile\CustomFieldGroup
      */
     public function setName($Name)
     {
@@ -180,7 +180,7 @@ class CustomFieldGroup
 
     /**
      * @param int $DisplayOrder
-     * @return \FilippoToso\Travelport\UProfile\CustomFieldGroup
+     * @return \Santosdave\Travelport\UProfile\CustomFieldGroup
      */
     public function setDisplayOrder($DisplayOrder)
     {
@@ -198,7 +198,7 @@ class CustomFieldGroup
 
     /**
      * @param StringLength1to255 $Description
-     * @return \FilippoToso\Travelport\UProfile\CustomFieldGroup
+     * @return \Santosdave\Travelport\UProfile\CustomFieldGroup
      */
     public function setDescription($Description)
     {
@@ -216,7 +216,7 @@ class CustomFieldGroup
 
     /**
      * @param string $Label
-     * @return \FilippoToso\Travelport\UProfile\CustomFieldGroup
+     * @return \Santosdave\Travelport\UProfile\CustomFieldGroup
      */
     public function setLabel($Label)
     {
@@ -234,7 +234,7 @@ class CustomFieldGroup
 
     /**
      * @param boolean $Inheritable
-     * @return \FilippoToso\Travelport\UProfile\CustomFieldGroup
+     * @return \Santosdave\Travelport\UProfile\CustomFieldGroup
      */
     public function setInheritable($Inheritable)
     {
@@ -252,7 +252,7 @@ class CustomFieldGroup
 
     /**
      * @param boolean $Hide
-     * @return \FilippoToso\Travelport\UProfile\CustomFieldGroup
+     * @return \Santosdave\Travelport\UProfile\CustomFieldGroup
      */
     public function setHide($Hide)
     {
@@ -270,7 +270,7 @@ class CustomFieldGroup
 
     /**
      * @param int $MinOccurs
-     * @return \FilippoToso\Travelport\UProfile\CustomFieldGroup
+     * @return \Santosdave\Travelport\UProfile\CustomFieldGroup
      */
     public function setMinOccurs($MinOccurs)
     {
@@ -288,7 +288,7 @@ class CustomFieldGroup
 
     /**
      * @param int $MaxOccurs
-     * @return \FilippoToso\Travelport\UProfile\CustomFieldGroup
+     * @return \Santosdave\Travelport\UProfile\CustomFieldGroup
      */
     public function setMaxOccurs($MaxOccurs)
     {
@@ -306,7 +306,7 @@ class CustomFieldGroup
 
     /**
      * @param int $MinOccursOverride
-     * @return \FilippoToso\Travelport\UProfile\CustomFieldGroup
+     * @return \Santosdave\Travelport\UProfile\CustomFieldGroup
      */
     public function setMinOccursOverride($MinOccursOverride)
     {
@@ -324,7 +324,7 @@ class CustomFieldGroup
 
     /**
      * @param int $MaxOccursOverride
-     * @return \FilippoToso\Travelport\UProfile\CustomFieldGroup
+     * @return \Santosdave\Travelport\UProfile\CustomFieldGroup
      */
     public function setMaxOccursOverride($MaxOccursOverride)
     {
@@ -342,7 +342,7 @@ class CustomFieldGroup
 
     /**
      * @param boolean $InheritableControlInd
-     * @return \FilippoToso\Travelport\UProfile\CustomFieldGroup
+     * @return \Santosdave\Travelport\UProfile\CustomFieldGroup
      */
     public function setInheritableControlInd($InheritableControlInd)
     {
@@ -360,7 +360,7 @@ class CustomFieldGroup
 
     /**
      * @param boolean $ReadOnly
-     * @return \FilippoToso\Travelport\UProfile\CustomFieldGroup
+     * @return \Santosdave\Travelport\UProfile\CustomFieldGroup
      */
     public function setReadOnly($ReadOnly)
     {
@@ -378,7 +378,7 @@ class CustomFieldGroup
 
     /**
      * @param boolean $Overriden
-     * @return \FilippoToso\Travelport\UProfile\CustomFieldGroup
+     * @return \Santosdave\Travelport\UProfile\CustomFieldGroup
      */
     public function setOverriden($Overriden)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class AgentVoucherHistory
 {
@@ -28,7 +28,7 @@ class AgentVoucherHistory
 
     /**
      * @param string $Number
-     * @return \FilippoToso\Travelport\UProfile\AgentVoucherHistory
+     * @return \Santosdave\Travelport\UProfile\AgentVoucherHistory
      */
     public function setNumber($Number)
     {

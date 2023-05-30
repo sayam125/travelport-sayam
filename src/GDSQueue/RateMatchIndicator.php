@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class RateMatchIndicator
 {
@@ -42,7 +42,7 @@ class RateMatchIndicator
 
     /**
      * @param anonymous1227 $Type
-     * @return \FilippoToso\Travelport\GDSQueue\RateMatchIndicator
+     * @return \Santosdave\Travelport\GDSQueue\RateMatchIndicator
      */
     public function setType($Type)
     {
@@ -60,7 +60,7 @@ class RateMatchIndicator
 
     /**
      * @param anonymous1228 $Status
-     * @return \FilippoToso\Travelport\GDSQueue\RateMatchIndicator
+     * @return \Santosdave\Travelport\GDSQueue\RateMatchIndicator
      */
     public function setStatus($Status)
     {
@@ -78,7 +78,7 @@ class RateMatchIndicator
 
     /**
      * @param string $Value
-     * @return \FilippoToso\Travelport\GDSQueue\RateMatchIndicator
+     * @return \Santosdave\Travelport\GDSQueue\RateMatchIndicator
      */
     public function setValue($Value)
     {

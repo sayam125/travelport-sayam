@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class Ticket
 {
@@ -84,7 +84,7 @@ class Ticket
 
     /**
      * @param Coupon $Coupon
-     * @return \FilippoToso\Travelport\Rail\Ticket
+     * @return \Santosdave\Travelport\Rail\Ticket
      */
     public function setCoupon($Coupon)
     {
@@ -102,7 +102,7 @@ class Ticket
 
     /**
      * @param TicketEndorsement $TicketEndorsement
-     * @return \FilippoToso\Travelport\Rail\Ticket
+     * @return \Santosdave\Travelport\Rail\Ticket
      */
     public function setTicketEndorsement($TicketEndorsement)
     {
@@ -120,7 +120,7 @@ class Ticket
 
     /**
      * @param TourCode $TourCode
-     * @return \FilippoToso\Travelport\Rail\Ticket
+     * @return \Santosdave\Travelport\Rail\Ticket
      */
     public function setTourCode($TourCode)
     {
@@ -138,7 +138,7 @@ class Ticket
 
     /**
      * @param ExchangedTicketInfo $ExchangedTicketInfo
-     * @return \FilippoToso\Travelport\Rail\Ticket
+     * @return \Santosdave\Travelport\Rail\Ticket
      */
     public function setExchangedTicketInfo($ExchangedTicketInfo)
     {
@@ -156,7 +156,7 @@ class Ticket
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Rail\Ticket
+     * @return \Santosdave\Travelport\Rail\Ticket
      */
     public function setKey($Key)
     {
@@ -174,7 +174,7 @@ class Ticket
 
     /**
      * @param typeTicketNumber $TicketNumber
-     * @return \FilippoToso\Travelport\Rail\Ticket
+     * @return \Santosdave\Travelport\Rail\Ticket
      */
     public function setTicketNumber($TicketNumber)
     {
@@ -192,7 +192,7 @@ class Ticket
 
     /**
      * @param typeTicketStatus $TicketStatus
-     * @return \FilippoToso\Travelport\Rail\Ticket
+     * @return \Santosdave\Travelport\Rail\Ticket
      */
     public function setTicketStatus($TicketStatus)
     {
@@ -210,7 +210,7 @@ class Ticket
 
     /**
      * @param typeElementStatus $ElStat
-     * @return \FilippoToso\Travelport\Rail\Ticket
+     * @return \Santosdave\Travelport\Rail\Ticket
      */
     public function setElStat($ElStat)
     {
@@ -228,7 +228,7 @@ class Ticket
 
     /**
      * @param boolean $KeyOverride
-     * @return \FilippoToso\Travelport\Rail\Ticket
+     * @return \Santosdave\Travelport\Rail\Ticket
      */
     public function setKeyOverride($KeyOverride)
     {

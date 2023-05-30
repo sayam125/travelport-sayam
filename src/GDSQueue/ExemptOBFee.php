@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class ExemptOBFee
 {
@@ -26,7 +26,7 @@ class ExemptOBFee
 
     /**
      * @param typeSubCode[] $SubCode
-     * @return \FilippoToso\Travelport\GDSQueue\ExemptOBFee
+     * @return \Santosdave\Travelport\GDSQueue\ExemptOBFee
      */
     public function setSubCode(array $SubCode = null)
     {

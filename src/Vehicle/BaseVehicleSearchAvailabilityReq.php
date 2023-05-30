@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Vehicle;
+namespace Santosdave\Travelport\Vehicle;
 
 class BaseVehicleSearchAvailabilityReq extends BaseSearchReq
 {
@@ -55,7 +55,7 @@ class BaseVehicleSearchAvailabilityReq extends BaseSearchReq
 
     /**
      * @param VehicleDateLocation $VehicleDateLocation
-     * @return \FilippoToso\Travelport\Vehicle\BaseVehicleSearchAvailabilityReq
+     * @return \Santosdave\Travelport\Vehicle\BaseVehicleSearchAvailabilityReq
      */
     public function setVehicleDateLocation($VehicleDateLocation)
     {
@@ -73,7 +73,7 @@ class BaseVehicleSearchAvailabilityReq extends BaseSearchReq
 
     /**
      * @param VehicleSearchModifiers $VehicleSearchModifiers
-     * @return \FilippoToso\Travelport\Vehicle\BaseVehicleSearchAvailabilityReq
+     * @return \Santosdave\Travelport\Vehicle\BaseVehicleSearchAvailabilityReq
      */
     public function setVehicleSearchModifiers($VehicleSearchModifiers)
     {
@@ -91,7 +91,7 @@ class BaseVehicleSearchAvailabilityReq extends BaseSearchReq
 
     /**
      * @param PointOfSale $PointOfSale
-     * @return \FilippoToso\Travelport\Vehicle\BaseVehicleSearchAvailabilityReq
+     * @return \Santosdave\Travelport\Vehicle\BaseVehicleSearchAvailabilityReq
      */
     public function setPointOfSale($PointOfSale)
     {

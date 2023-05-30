@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class OTHType
 {
@@ -273,7 +273,7 @@ class OTHType
 
     /**
      * @param boolean $Cat0
-     * @return \FilippoToso\Travelport\Util\OTHType
+     * @return \Santosdave\Travelport\Util\OTHType
      */
     public function setCat0($Cat0)
     {
@@ -291,7 +291,7 @@ class OTHType
 
     /**
      * @param boolean $Cat1
-     * @return \FilippoToso\Travelport\Util\OTHType
+     * @return \Santosdave\Travelport\Util\OTHType
      */
     public function setCat1($Cat1)
     {
@@ -309,7 +309,7 @@ class OTHType
 
     /**
      * @param boolean $Cat2
-     * @return \FilippoToso\Travelport\Util\OTHType
+     * @return \Santosdave\Travelport\Util\OTHType
      */
     public function setCat2($Cat2)
     {
@@ -327,7 +327,7 @@ class OTHType
 
     /**
      * @param boolean $Cat3
-     * @return \FilippoToso\Travelport\Util\OTHType
+     * @return \Santosdave\Travelport\Util\OTHType
      */
     public function setCat3($Cat3)
     {
@@ -345,7 +345,7 @@ class OTHType
 
     /**
      * @param boolean $Cat4
-     * @return \FilippoToso\Travelport\Util\OTHType
+     * @return \Santosdave\Travelport\Util\OTHType
      */
     public function setCat4($Cat4)
     {
@@ -363,7 +363,7 @@ class OTHType
 
     /**
      * @param boolean $Cat5
-     * @return \FilippoToso\Travelport\Util\OTHType
+     * @return \Santosdave\Travelport\Util\OTHType
      */
     public function setCat5($Cat5)
     {
@@ -381,7 +381,7 @@ class OTHType
 
     /**
      * @param boolean $Cat6
-     * @return \FilippoToso\Travelport\Util\OTHType
+     * @return \Santosdave\Travelport\Util\OTHType
      */
     public function setCat6($Cat6)
     {
@@ -399,7 +399,7 @@ class OTHType
 
     /**
      * @param boolean $Cat7
-     * @return \FilippoToso\Travelport\Util\OTHType
+     * @return \Santosdave\Travelport\Util\OTHType
      */
     public function setCat7($Cat7)
     {
@@ -417,7 +417,7 @@ class OTHType
 
     /**
      * @param boolean $Cat8
-     * @return \FilippoToso\Travelport\Util\OTHType
+     * @return \Santosdave\Travelport\Util\OTHType
      */
     public function setCat8($Cat8)
     {
@@ -435,7 +435,7 @@ class OTHType
 
     /**
      * @param boolean $Cat9
-     * @return \FilippoToso\Travelport\Util\OTHType
+     * @return \Santosdave\Travelport\Util\OTHType
      */
     public function setCat9($Cat9)
     {
@@ -453,7 +453,7 @@ class OTHType
 
     /**
      * @param boolean $Cat10
-     * @return \FilippoToso\Travelport\Util\OTHType
+     * @return \Santosdave\Travelport\Util\OTHType
      */
     public function setCat10($Cat10)
     {
@@ -471,7 +471,7 @@ class OTHType
 
     /**
      * @param boolean $Cat11
-     * @return \FilippoToso\Travelport\Util\OTHType
+     * @return \Santosdave\Travelport\Util\OTHType
      */
     public function setCat11($Cat11)
     {
@@ -489,7 +489,7 @@ class OTHType
 
     /**
      * @param boolean $Cat12
-     * @return \FilippoToso\Travelport\Util\OTHType
+     * @return \Santosdave\Travelport\Util\OTHType
      */
     public function setCat12($Cat12)
     {
@@ -507,7 +507,7 @@ class OTHType
 
     /**
      * @param boolean $Cat13
-     * @return \FilippoToso\Travelport\Util\OTHType
+     * @return \Santosdave\Travelport\Util\OTHType
      */
     public function setCat13($Cat13)
     {
@@ -525,7 +525,7 @@ class OTHType
 
     /**
      * @param boolean $Cat14
-     * @return \FilippoToso\Travelport\Util\OTHType
+     * @return \Santosdave\Travelport\Util\OTHType
      */
     public function setCat14($Cat14)
     {
@@ -543,7 +543,7 @@ class OTHType
 
     /**
      * @param boolean $Cat15
-     * @return \FilippoToso\Travelport\Util\OTHType
+     * @return \Santosdave\Travelport\Util\OTHType
      */
     public function setCat15($Cat15)
     {
@@ -561,7 +561,7 @@ class OTHType
 
     /**
      * @param boolean $Cat16
-     * @return \FilippoToso\Travelport\Util\OTHType
+     * @return \Santosdave\Travelport\Util\OTHType
      */
     public function setCat16($Cat16)
     {
@@ -579,7 +579,7 @@ class OTHType
 
     /**
      * @param boolean $Cat17
-     * @return \FilippoToso\Travelport\Util\OTHType
+     * @return \Santosdave\Travelport\Util\OTHType
      */
     public function setCat17($Cat17)
     {
@@ -597,7 +597,7 @@ class OTHType
 
     /**
      * @param boolean $Cat18
-     * @return \FilippoToso\Travelport\Util\OTHType
+     * @return \Santosdave\Travelport\Util\OTHType
      */
     public function setCat18($Cat18)
     {
@@ -615,7 +615,7 @@ class OTHType
 
     /**
      * @param boolean $Cat19
-     * @return \FilippoToso\Travelport\Util\OTHType
+     * @return \Santosdave\Travelport\Util\OTHType
      */
     public function setCat19($Cat19)
     {
@@ -633,7 +633,7 @@ class OTHType
 
     /**
      * @param boolean $Cat20
-     * @return \FilippoToso\Travelport\Util\OTHType
+     * @return \Santosdave\Travelport\Util\OTHType
      */
     public function setCat20($Cat20)
     {
@@ -651,7 +651,7 @@ class OTHType
 
     /**
      * @param boolean $Cat21
-     * @return \FilippoToso\Travelport\Util\OTHType
+     * @return \Santosdave\Travelport\Util\OTHType
      */
     public function setCat21($Cat21)
     {
@@ -669,7 +669,7 @@ class OTHType
 
     /**
      * @param boolean $Cat22
-     * @return \FilippoToso\Travelport\Util\OTHType
+     * @return \Santosdave\Travelport\Util\OTHType
      */
     public function setCat22($Cat22)
     {
@@ -687,7 +687,7 @@ class OTHType
 
     /**
      * @param boolean $Cat23
-     * @return \FilippoToso\Travelport\Util\OTHType
+     * @return \Santosdave\Travelport\Util\OTHType
      */
     public function setCat23($Cat23)
     {
@@ -705,7 +705,7 @@ class OTHType
 
     /**
      * @param boolean $Cat24
-     * @return \FilippoToso\Travelport\Util\OTHType
+     * @return \Santosdave\Travelport\Util\OTHType
      */
     public function setCat24($Cat24)
     {
@@ -723,7 +723,7 @@ class OTHType
 
     /**
      * @param boolean $Cat25
-     * @return \FilippoToso\Travelport\Util\OTHType
+     * @return \Santosdave\Travelport\Util\OTHType
      */
     public function setCat25($Cat25)
     {
@@ -741,7 +741,7 @@ class OTHType
 
     /**
      * @param boolean $Cat26
-     * @return \FilippoToso\Travelport\Util\OTHType
+     * @return \Santosdave\Travelport\Util\OTHType
      */
     public function setCat26($Cat26)
     {
@@ -759,7 +759,7 @@ class OTHType
 
     /**
      * @param boolean $Cat27
-     * @return \FilippoToso\Travelport\Util\OTHType
+     * @return \Santosdave\Travelport\Util\OTHType
      */
     public function setCat27($Cat27)
     {
@@ -777,7 +777,7 @@ class OTHType
 
     /**
      * @param boolean $Cat28
-     * @return \FilippoToso\Travelport\Util\OTHType
+     * @return \Santosdave\Travelport\Util\OTHType
      */
     public function setCat28($Cat28)
     {
@@ -795,7 +795,7 @@ class OTHType
 
     /**
      * @param boolean $Cat29
-     * @return \FilippoToso\Travelport\Util\OTHType
+     * @return \Santosdave\Travelport\Util\OTHType
      */
     public function setCat29($Cat29)
     {
@@ -813,7 +813,7 @@ class OTHType
 
     /**
      * @param boolean $Cat30
-     * @return \FilippoToso\Travelport\Util\OTHType
+     * @return \Santosdave\Travelport\Util\OTHType
      */
     public function setCat30($Cat30)
     {
@@ -831,7 +831,7 @@ class OTHType
 
     /**
      * @param boolean $Cat31
-     * @return \FilippoToso\Travelport\Util\OTHType
+     * @return \Santosdave\Travelport\Util\OTHType
      */
     public function setCat31($Cat31)
     {
@@ -849,7 +849,7 @@ class OTHType
 
     /**
      * @param date $RestrictiveDt
-     * @return \FilippoToso\Travelport\Util\OTHType
+     * @return \Santosdave\Travelport\Util\OTHType
      */
     public function setRestrictiveDt($RestrictiveDt)
     {
@@ -867,7 +867,7 @@ class OTHType
 
     /**
      * @param float $SurchargeAmt
-     * @return \FilippoToso\Travelport\Util\OTHType
+     * @return \Santosdave\Travelport\Util\OTHType
      */
     public function setSurchargeAmt($SurchargeAmt)
     {
@@ -885,7 +885,7 @@ class OTHType
 
     /**
      * @param boolean $NotUSACity
-     * @return \FilippoToso\Travelport\Util\OTHType
+     * @return \Santosdave\Travelport\Util\OTHType
      */
     public function setNotUSACity($NotUSACity)
     {
@@ -903,7 +903,7 @@ class OTHType
 
     /**
      * @param boolean $MissingRules
-     * @return \FilippoToso\Travelport\Util\OTHType
+     * @return \Santosdave\Travelport\Util\OTHType
      */
     public function setMissingRules($MissingRules)
     {

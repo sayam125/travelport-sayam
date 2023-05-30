@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class HotelKeywordReq extends BaseReq
 {
@@ -75,7 +75,7 @@ class HotelKeywordReq extends BaseReq
 
     /**
      * @param Keyword $Keyword
-     * @return \FilippoToso\Travelport\Hotel\HotelKeywordReq
+     * @return \Santosdave\Travelport\Hotel\HotelKeywordReq
      */
     public function setKeyword($Keyword)
     {
@@ -93,7 +93,7 @@ class HotelKeywordReq extends BaseReq
 
     /**
      * @param PermittedProviders $PermittedProviders
-     * @return \FilippoToso\Travelport\Hotel\HotelKeywordReq
+     * @return \Santosdave\Travelport\Hotel\HotelKeywordReq
      */
     public function setPermittedProviders($PermittedProviders)
     {
@@ -111,7 +111,7 @@ class HotelKeywordReq extends BaseReq
 
     /**
      * @param typeHotelChainCode $HotelChain
-     * @return \FilippoToso\Travelport\Hotel\HotelKeywordReq
+     * @return \Santosdave\Travelport\Hotel\HotelKeywordReq
      */
     public function setHotelChain($HotelChain)
     {
@@ -129,7 +129,7 @@ class HotelKeywordReq extends BaseReq
 
     /**
      * @param typeHotelCode $HotelCode
-     * @return \FilippoToso\Travelport\Hotel\HotelKeywordReq
+     * @return \Santosdave\Travelport\Hotel\HotelKeywordReq
      */
     public function setHotelCode($HotelCode)
     {
@@ -147,7 +147,7 @@ class HotelKeywordReq extends BaseReq
 
     /**
      * @param typeDate $CheckinDate
-     * @return \FilippoToso\Travelport\Hotel\HotelKeywordReq
+     * @return \Santosdave\Travelport\Hotel\HotelKeywordReq
      */
     public function setCheckinDate($CheckinDate)
     {
@@ -165,7 +165,7 @@ class HotelKeywordReq extends BaseReq
 
     /**
      * @param boolean $ReturnKeywordList
-     * @return \FilippoToso\Travelport\Hotel\HotelKeywordReq
+     * @return \Santosdave\Travelport\Hotel\HotelKeywordReq
      */
     public function setReturnKeywordList($ReturnKeywordList)
     {

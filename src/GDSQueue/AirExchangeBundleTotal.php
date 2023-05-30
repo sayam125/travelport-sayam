@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class AirExchangeBundleTotal
 {
@@ -35,7 +35,7 @@ class AirExchangeBundleTotal
 
     /**
      * @param AirExchangeInfo $AirExchangeInfo
-     * @return \FilippoToso\Travelport\GDSQueue\AirExchangeBundleTotal
+     * @return \Santosdave\Travelport\GDSQueue\AirExchangeBundleTotal
      */
     public function setAirExchangeInfo($AirExchangeInfo)
     {
@@ -53,7 +53,7 @@ class AirExchangeBundleTotal
 
     /**
      * @param Penalty $Penalty
-     * @return \FilippoToso\Travelport\GDSQueue\AirExchangeBundleTotal
+     * @return \Santosdave\Travelport\GDSQueue\AirExchangeBundleTotal
      */
     public function setPenalty($Penalty)
     {

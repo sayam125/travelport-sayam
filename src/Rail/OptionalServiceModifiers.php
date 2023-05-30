@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class OptionalServiceModifiers
 {
@@ -28,7 +28,7 @@ class OptionalServiceModifiers
 
     /**
      * @param OptionalServiceModifier $OptionalServiceModifier
-     * @return \FilippoToso\Travelport\Rail\OptionalServiceModifiers
+     * @return \Santosdave\Travelport\Rail\OptionalServiceModifiers
      */
     public function setOptionalServiceModifier($OptionalServiceModifier)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class DocumentModifiers
 {
@@ -35,7 +35,7 @@ class DocumentModifiers
 
     /**
      * @param boolean $GenerateItineraryInvoice
-     * @return \FilippoToso\Travelport\UniversalRecord\DocumentModifiers
+     * @return \Santosdave\Travelport\UniversalRecord\DocumentModifiers
      */
     public function setGenerateItineraryInvoice($GenerateItineraryInvoice)
     {
@@ -53,7 +53,7 @@ class DocumentModifiers
 
     /**
      * @param boolean $GenerateAccountingInterface
-     * @return \FilippoToso\Travelport\UniversalRecord\DocumentModifiers
+     * @return \Santosdave\Travelport\UniversalRecord\DocumentModifiers
      */
     public function setGenerateAccountingInterface($GenerateAccountingInterface)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class CustomerReceiptInfo
 {
@@ -35,7 +35,7 @@ class CustomerReceiptInfo
 
     /**
      * @param typeRef $BookingTravelerRef
-     * @return \FilippoToso\Travelport\GDSQueue\CustomerReceiptInfo
+     * @return \Santosdave\Travelport\GDSQueue\CustomerReceiptInfo
      */
     public function setBookingTravelerRef($BookingTravelerRef)
     {
@@ -53,7 +53,7 @@ class CustomerReceiptInfo
 
     /**
      * @param typeRef $EmailRef
-     * @return \FilippoToso\Travelport\GDSQueue\CustomerReceiptInfo
+     * @return \Santosdave\Travelport\GDSQueue\CustomerReceiptInfo
      */
     public function setEmailRef($EmailRef)
     {

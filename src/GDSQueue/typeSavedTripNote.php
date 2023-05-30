@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class typeSavedTripNote
 {
@@ -28,7 +28,7 @@ class typeSavedTripNote
 
     /**
      * @param anonymous1419 $Text
-     * @return \FilippoToso\Travelport\GDSQueue\typeSavedTripNote
+     * @return \Santosdave\Travelport\GDSQueue\typeSavedTripNote
      */
     public function setText($Text)
     {

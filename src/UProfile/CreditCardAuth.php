@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class CreditCardAuth
 {
@@ -98,7 +98,7 @@ class CreditCardAuth
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\UProfile\CreditCardAuth
+     * @return \Santosdave\Travelport\UProfile\CreditCardAuth
      */
     public function setKey($Key)
     {
@@ -116,7 +116,7 @@ class CreditCardAuth
 
     /**
      * @param typeRef $PaymentRef
-     * @return \FilippoToso\Travelport\UProfile\CreditCardAuth
+     * @return \Santosdave\Travelport\UProfile\CreditCardAuth
      */
     public function setPaymentRef($PaymentRef)
     {
@@ -134,7 +134,7 @@ class CreditCardAuth
 
     /**
      * @param string $TransId
-     * @return \FilippoToso\Travelport\UProfile\CreditCardAuth
+     * @return \Santosdave\Travelport\UProfile\CreditCardAuth
      */
     public function setTransId($TransId)
     {
@@ -152,7 +152,7 @@ class CreditCardAuth
 
     /**
      * @param typeCreditCardNumber $Number
-     * @return \FilippoToso\Travelport\UProfile\CreditCardAuth
+     * @return \Santosdave\Travelport\UProfile\CreditCardAuth
      */
     public function setNumber($Number)
     {
@@ -170,7 +170,7 @@ class CreditCardAuth
 
     /**
      * @param typeMoney $Amount
-     * @return \FilippoToso\Travelport\UProfile\CreditCardAuth
+     * @return \Santosdave\Travelport\UProfile\CreditCardAuth
      */
     public function setAmount($Amount)
     {
@@ -188,7 +188,7 @@ class CreditCardAuth
 
     /**
      * @param string $AuthCode
-     * @return \FilippoToso\Travelport\UProfile\CreditCardAuth
+     * @return \Santosdave\Travelport\UProfile\CreditCardAuth
      */
     public function setAuthCode($AuthCode)
     {
@@ -206,7 +206,7 @@ class CreditCardAuth
 
     /**
      * @param string $AuthResultCode
-     * @return \FilippoToso\Travelport\UProfile\CreditCardAuth
+     * @return \Santosdave\Travelport\UProfile\CreditCardAuth
      */
     public function setAuthResultCode($AuthResultCode)
     {
@@ -224,7 +224,7 @@ class CreditCardAuth
 
     /**
      * @param string $AVSResultCode
-     * @return \FilippoToso\Travelport\UProfile\CreditCardAuth
+     * @return \Santosdave\Travelport\UProfile\CreditCardAuth
      */
     public function setAVSResultCode($AVSResultCode)
     {
@@ -242,7 +242,7 @@ class CreditCardAuth
 
     /**
      * @param string $Message
-     * @return \FilippoToso\Travelport\UProfile\CreditCardAuth
+     * @return \Santosdave\Travelport\UProfile\CreditCardAuth
      */
     public function setMessage($Message)
     {
@@ -260,7 +260,7 @@ class CreditCardAuth
 
     /**
      * @param typeRef $ProviderReservationInfoRef
-     * @return \FilippoToso\Travelport\UProfile\CreditCardAuth
+     * @return \Santosdave\Travelport\UProfile\CreditCardAuth
      */
     public function setProviderReservationInfoRef($ProviderReservationInfoRef)
     {
@@ -278,7 +278,7 @@ class CreditCardAuth
 
     /**
      * @param typeRef $FormOfPaymentRef
-     * @return \FilippoToso\Travelport\UProfile\CreditCardAuth
+     * @return \Santosdave\Travelport\UProfile\CreditCardAuth
      */
     public function setFormOfPaymentRef($FormOfPaymentRef)
     {

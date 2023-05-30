@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class DocumentModifiers
 {
@@ -35,7 +35,7 @@ class DocumentModifiers
 
     /**
      * @param boolean $GenerateItineraryInvoice
-     * @return \FilippoToso\Travelport\Rail\DocumentModifiers
+     * @return \Santosdave\Travelport\Rail\DocumentModifiers
      */
     public function setGenerateItineraryInvoice($GenerateItineraryInvoice)
     {
@@ -53,7 +53,7 @@ class DocumentModifiers
 
     /**
      * @param boolean $GenerateAccountingInterface
-     * @return \FilippoToso\Travelport\Rail\DocumentModifiers
+     * @return \Santosdave\Travelport\Rail\DocumentModifiers
      */
     public function setGenerateAccountingInterface($GenerateAccountingInterface)
     {

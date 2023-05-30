@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class FareFamilyDelete
 {
@@ -35,7 +35,7 @@ class FareFamilyDelete
 
     /**
      * @param typeRef $FareFamilyRef
-     * @return \FilippoToso\Travelport\Util\FareFamilyDelete
+     * @return \Santosdave\Travelport\Util\FareFamilyDelete
      */
     public function setFareFamilyRef($FareFamilyRef)
     {
@@ -53,7 +53,7 @@ class FareFamilyDelete
 
     /**
      * @param typeURVersion $Version
-     * @return \FilippoToso\Travelport\Util\FareFamilyDelete
+     * @return \Santosdave\Travelport\Util\FareFamilyDelete
      */
     public function setVersion($Version)
     {

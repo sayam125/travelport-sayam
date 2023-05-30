@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeProfileParentHistory
 {
@@ -49,7 +49,7 @@ class typeProfileParentHistory
 
     /**
      * @param typeProfileID $ProfileID
-     * @return \FilippoToso\Travelport\UProfile\typeProfileParentHistory
+     * @return \Santosdave\Travelport\UProfile\typeProfileParentHistory
      */
     public function setProfileID($ProfileID)
     {
@@ -67,7 +67,7 @@ class typeProfileParentHistory
 
     /**
      * @param typeProfileType $ProfileType
-     * @return \FilippoToso\Travelport\UProfile\typeProfileParentHistory
+     * @return \Santosdave\Travelport\UProfile\typeProfileParentHistory
      */
     public function setProfileType($ProfileType)
     {
@@ -85,7 +85,7 @@ class typeProfileParentHistory
 
     /**
      * @param string $ProfileName
-     * @return \FilippoToso\Travelport\UProfile\typeProfileParentHistory
+     * @return \Santosdave\Travelport\UProfile\typeProfileParentHistory
      */
     public function setProfileName($ProfileName)
     {
@@ -103,7 +103,7 @@ class typeProfileParentHistory
 
     /**
      * @param typeProvisioningCode $ProvisioningCode
-     * @return \FilippoToso\Travelport\UProfile\typeProfileParentHistory
+     * @return \Santosdave\Travelport\UProfile\typeProfileParentHistory
      */
     public function setProvisioningCode($ProvisioningCode)
     {

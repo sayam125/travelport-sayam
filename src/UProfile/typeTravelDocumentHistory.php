@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeTravelDocumentHistory extends typeKeyElement
 {
@@ -210,7 +210,7 @@ class typeTravelDocumentHistory extends typeKeyElement
 
     /**
      * @param typeTravelDocumentAddressHistory $Address
-     * @return \FilippoToso\Travelport\UProfile\typeTravelDocumentHistory
+     * @return \Santosdave\Travelport\UProfile\typeTravelDocumentHistory
      */
     public function setAddress($Address)
     {
@@ -228,7 +228,7 @@ class typeTravelDocumentHistory extends typeKeyElement
 
     /**
      * @param typeTravelDocumentType $Type
-     * @return \FilippoToso\Travelport\UProfile\typeTravelDocumentHistory
+     * @return \Santosdave\Travelport\UProfile\typeTravelDocumentHistory
      */
     public function setType($Type)
     {
@@ -246,7 +246,7 @@ class typeTravelDocumentHistory extends typeKeyElement
 
     /**
      * @param StringLength1to255 $DocumentNumber
-     * @return \FilippoToso\Travelport\UProfile\typeTravelDocumentHistory
+     * @return \Santosdave\Travelport\UProfile\typeTravelDocumentHistory
      */
     public function setDocumentNumber($DocumentNumber)
     {
@@ -264,7 +264,7 @@ class typeTravelDocumentHistory extends typeKeyElement
 
     /**
      * @param date $IssuedDate
-     * @return \FilippoToso\Travelport\UProfile\typeTravelDocumentHistory
+     * @return \Santosdave\Travelport\UProfile\typeTravelDocumentHistory
      */
     public function setIssuedDate($IssuedDate)
     {
@@ -282,7 +282,7 @@ class typeTravelDocumentHistory extends typeKeyElement
 
     /**
      * @param date $ExpirationDate
-     * @return \FilippoToso\Travelport\UProfile\typeTravelDocumentHistory
+     * @return \Santosdave\Travelport\UProfile\typeTravelDocumentHistory
      */
     public function setExpirationDate($ExpirationDate)
     {
@@ -300,7 +300,7 @@ class typeTravelDocumentHistory extends typeKeyElement
 
     /**
      * @param StringLength1to255 $LocationIssuedDescription
-     * @return \FilippoToso\Travelport\UProfile\typeTravelDocumentHistory
+     * @return \Santosdave\Travelport\UProfile\typeTravelDocumentHistory
      */
     public function setLocationIssuedDescription($LocationIssuedDescription)
     {
@@ -318,7 +318,7 @@ class typeTravelDocumentHistory extends typeKeyElement
 
     /**
      * @param StringLength1to128 $GivenName
-     * @return \FilippoToso\Travelport\UProfile\typeTravelDocumentHistory
+     * @return \Santosdave\Travelport\UProfile\typeTravelDocumentHistory
      */
     public function setGivenName($GivenName)
     {
@@ -336,7 +336,7 @@ class typeTravelDocumentHistory extends typeKeyElement
 
     /**
      * @param StringLength1to128 $MiddleName
-     * @return \FilippoToso\Travelport\UProfile\typeTravelDocumentHistory
+     * @return \Santosdave\Travelport\UProfile\typeTravelDocumentHistory
      */
     public function setMiddleName($MiddleName)
     {
@@ -354,7 +354,7 @@ class typeTravelDocumentHistory extends typeKeyElement
 
     /**
      * @param StringLength1to128 $Surname
-     * @return \FilippoToso\Travelport\UProfile\typeTravelDocumentHistory
+     * @return \Santosdave\Travelport\UProfile\typeTravelDocumentHistory
      */
     public function setSurname($Surname)
     {
@@ -372,7 +372,7 @@ class typeTravelDocumentHistory extends typeKeyElement
 
     /**
      * @param typeGender $Gender
-     * @return \FilippoToso\Travelport\UProfile\typeTravelDocumentHistory
+     * @return \Santosdave\Travelport\UProfile\typeTravelDocumentHistory
      */
     public function setGender($Gender)
     {
@@ -390,7 +390,7 @@ class typeTravelDocumentHistory extends typeKeyElement
 
     /**
      * @param StringLength1to255 $NationalIdentifier
-     * @return \FilippoToso\Travelport\UProfile\typeTravelDocumentHistory
+     * @return \Santosdave\Travelport\UProfile\typeTravelDocumentHistory
      */
     public function setNationalIdentifier($NationalIdentifier)
     {
@@ -408,7 +408,7 @@ class typeTravelDocumentHistory extends typeKeyElement
 
     /**
      * @param date $BirthDate
-     * @return \FilippoToso\Travelport\UProfile\typeTravelDocumentHistory
+     * @return \Santosdave\Travelport\UProfile\typeTravelDocumentHistory
      */
     public function setBirthDate($BirthDate)
     {
@@ -426,7 +426,7 @@ class typeTravelDocumentHistory extends typeKeyElement
 
     /**
      * @param StringLength1to128 $PlaceOfBirth
-     * @return \FilippoToso\Travelport\UProfile\typeTravelDocumentHistory
+     * @return \Santosdave\Travelport\UProfile\typeTravelDocumentHistory
      */
     public function setPlaceOfBirth($PlaceOfBirth)
     {
@@ -444,7 +444,7 @@ class typeTravelDocumentHistory extends typeKeyElement
 
     /**
      * @param typeCountry $Nationality
-     * @return \FilippoToso\Travelport\UProfile\typeTravelDocumentHistory
+     * @return \Santosdave\Travelport\UProfile\typeTravelDocumentHistory
      */
     public function setNationality($Nationality)
     {
@@ -462,7 +462,7 @@ class typeTravelDocumentHistory extends typeKeyElement
 
     /**
      * @param typeCountry $Citizenship
-     * @return \FilippoToso\Travelport\UProfile\typeTravelDocumentHistory
+     * @return \Santosdave\Travelport\UProfile\typeTravelDocumentHistory
      */
     public function setCitizenship($Citizenship)
     {
@@ -480,7 +480,7 @@ class typeTravelDocumentHistory extends typeKeyElement
 
     /**
      * @param typeCountry $IssuedByCountry
-     * @return \FilippoToso\Travelport\UProfile\typeTravelDocumentHistory
+     * @return \Santosdave\Travelport\UProfile\typeTravelDocumentHistory
      */
     public function setIssuedByCountry($IssuedByCountry)
     {
@@ -498,7 +498,7 @@ class typeTravelDocumentHistory extends typeKeyElement
 
     /**
      * @param StringLength1to128 $IssuedByOtherCountryName
-     * @return \FilippoToso\Travelport\UProfile\typeTravelDocumentHistory
+     * @return \Santosdave\Travelport\UProfile\typeTravelDocumentHistory
      */
     public function setIssuedByOtherCountryName($IssuedByOtherCountryName)
     {
@@ -516,7 +516,7 @@ class typeTravelDocumentHistory extends typeKeyElement
 
     /**
      * @param anonymous699 $Height
-     * @return \FilippoToso\Travelport\UProfile\typeTravelDocumentHistory
+     * @return \Santosdave\Travelport\UProfile\typeTravelDocumentHistory
      */
     public function setHeight($Height)
     {
@@ -534,7 +534,7 @@ class typeTravelDocumentHistory extends typeKeyElement
 
     /**
      * @param anonymous700 $HeightUnit
-     * @return \FilippoToso\Travelport\UProfile\typeTravelDocumentHistory
+     * @return \Santosdave\Travelport\UProfile\typeTravelDocumentHistory
      */
     public function setHeightUnit($HeightUnit)
     {
@@ -552,7 +552,7 @@ class typeTravelDocumentHistory extends typeKeyElement
 
     /**
      * @param anonymous701 $Weight
-     * @return \FilippoToso\Travelport\UProfile\typeTravelDocumentHistory
+     * @return \Santosdave\Travelport\UProfile\typeTravelDocumentHistory
      */
     public function setWeight($Weight)
     {
@@ -570,7 +570,7 @@ class typeTravelDocumentHistory extends typeKeyElement
 
     /**
      * @param anonymous702 $WeightUnit
-     * @return \FilippoToso\Travelport\UProfile\typeTravelDocumentHistory
+     * @return \Santosdave\Travelport\UProfile\typeTravelDocumentHistory
      */
     public function setWeightUnit($WeightUnit)
     {
@@ -588,7 +588,7 @@ class typeTravelDocumentHistory extends typeKeyElement
 
     /**
      * @param StringLength1to255 $Residence
-     * @return \FilippoToso\Travelport\UProfile\typeTravelDocumentHistory
+     * @return \Santosdave\Travelport\UProfile\typeTravelDocumentHistory
      */
     public function setResidence($Residence)
     {
@@ -606,7 +606,7 @@ class typeTravelDocumentHistory extends typeKeyElement
 
     /**
      * @param StringLength1to255 $EyeColor
-     * @return \FilippoToso\Travelport\UProfile\typeTravelDocumentHistory
+     * @return \Santosdave\Travelport\UProfile\typeTravelDocumentHistory
      */
     public function setEyeColor($EyeColor)
     {
@@ -624,7 +624,7 @@ class typeTravelDocumentHistory extends typeKeyElement
 
     /**
      * @param StringLength1to255 $MilitaryStatus
-     * @return \FilippoToso\Travelport\UProfile\typeTravelDocumentHistory
+     * @return \Santosdave\Travelport\UProfile\typeTravelDocumentHistory
      */
     public function setMilitaryStatus($MilitaryStatus)
     {
@@ -642,7 +642,7 @@ class typeTravelDocumentHistory extends typeKeyElement
 
     /**
      * @param typePriorityOrder $PriorityOrder
-     * @return \FilippoToso\Travelport\UProfile\typeTravelDocumentHistory
+     * @return \Santosdave\Travelport\UProfile\typeTravelDocumentHistory
      */
     public function setPriorityOrder($PriorityOrder)
     {
@@ -660,7 +660,7 @@ class typeTravelDocumentHistory extends typeKeyElement
 
     /**
      * @param typeGeoPoliticalAreaType $IssuedForGeoPoliticalAreaType
-     * @return \FilippoToso\Travelport\UProfile\typeTravelDocumentHistory
+     * @return \Santosdave\Travelport\UProfile\typeTravelDocumentHistory
      */
     public function setIssuedForGeoPoliticalAreaType($IssuedForGeoPoliticalAreaType)
     {
@@ -678,7 +678,7 @@ class typeTravelDocumentHistory extends typeKeyElement
 
     /**
      * @param typeGeoPoliticalAreaCode $IssuedForGeoPoliticalAreaCode
-     * @return \FilippoToso\Travelport\UProfile\typeTravelDocumentHistory
+     * @return \Santosdave\Travelport\UProfile\typeTravelDocumentHistory
      */
     public function setIssuedForGeoPoliticalAreaCode($IssuedForGeoPoliticalAreaCode)
     {

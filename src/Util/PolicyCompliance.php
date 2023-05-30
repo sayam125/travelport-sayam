@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class PolicyCompliance
 {
@@ -35,7 +35,7 @@ class PolicyCompliance
 
     /**
      * @param boolean $InPolicy
-     * @return \FilippoToso\Travelport\Util\PolicyCompliance
+     * @return \Santosdave\Travelport\Util\PolicyCompliance
      */
     public function setInPolicy($InPolicy)
     {
@@ -53,7 +53,7 @@ class PolicyCompliance
 
     /**
      * @param StringLength1to128 $PolicyToken
-     * @return \FilippoToso\Travelport\Util\PolicyCompliance
+     * @return \Santosdave\Travelport\Util\PolicyCompliance
      */
     public function setPolicyToken($PolicyToken)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Vehicle;
+namespace Santosdave\Travelport\Vehicle;
 
 class typeSearchLocation
 {
@@ -63,7 +63,7 @@ class typeSearchLocation
 
     /**
      * @param Airport $Airport
-     * @return \FilippoToso\Travelport\Vehicle\typeSearchLocation
+     * @return \Santosdave\Travelport\Vehicle\typeSearchLocation
      */
     public function setAirport($Airport)
     {
@@ -81,7 +81,7 @@ class typeSearchLocation
 
     /**
      * @param City $City
-     * @return \FilippoToso\Travelport\Vehicle\typeSearchLocation
+     * @return \Santosdave\Travelport\Vehicle\typeSearchLocation
      */
     public function setCity($City)
     {
@@ -99,7 +99,7 @@ class typeSearchLocation
 
     /**
      * @param CityOrAirport $CityOrAirport
-     * @return \FilippoToso\Travelport\Vehicle\typeSearchLocation
+     * @return \Santosdave\Travelport\Vehicle\typeSearchLocation
      */
     public function setCityOrAirport($CityOrAirport)
     {
@@ -117,7 +117,7 @@ class typeSearchLocation
 
     /**
      * @param CoordinateLocation $CoordinateLocation
-     * @return \FilippoToso\Travelport\Vehicle\typeSearchLocation
+     * @return \Santosdave\Travelport\Vehicle\typeSearchLocation
      */
     public function setCoordinateLocation($CoordinateLocation)
     {
@@ -135,7 +135,7 @@ class typeSearchLocation
 
     /**
      * @param RailLocation $RailLocation
-     * @return \FilippoToso\Travelport\Vehicle\typeSearchLocation
+     * @return \Santosdave\Travelport\Vehicle\typeSearchLocation
      */
     public function setRailLocation($RailLocation)
     {
@@ -153,7 +153,7 @@ class typeSearchLocation
 
     /**
      * @param Distance $Distance
-     * @return \FilippoToso\Travelport\Vehicle\typeSearchLocation
+     * @return \Santosdave\Travelport\Vehicle\typeSearchLocation
      */
     public function setDistance($Distance)
     {

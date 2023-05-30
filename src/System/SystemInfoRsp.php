@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\System;
+namespace Santosdave\Travelport\System;
 
 class SystemInfoRsp extends BaseRsp
 {
@@ -41,7 +41,7 @@ class SystemInfoRsp extends BaseRsp
 
     /**
      * @param SystemInfo $SystemInfo
-     * @return \FilippoToso\Travelport\System\SystemInfoRsp
+     * @return \Santosdave\Travelport\System\SystemInfoRsp
      */
     public function setSystemInfo($SystemInfo)
     {
@@ -59,7 +59,7 @@ class SystemInfoRsp extends BaseRsp
 
     /**
      * @param SystemTime $SystemTime
-     * @return \FilippoToso\Travelport\System\SystemInfoRsp
+     * @return \Santosdave\Travelport\System\SystemInfoRsp
      */
     public function setSystemTime($SystemTime)
     {

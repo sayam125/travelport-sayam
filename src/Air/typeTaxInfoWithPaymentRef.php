@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class typeTaxInfoWithPaymentRef extends typeTaxInfo
 {
@@ -46,7 +46,7 @@ class typeTaxInfoWithPaymentRef extends typeTaxInfo
 
     /**
      * @param PaymentRef $PaymentRef
-     * @return \FilippoToso\Travelport\Air\typeTaxInfoWithPaymentRef
+     * @return \Santosdave\Travelport\Air\typeTaxInfoWithPaymentRef
      */
     public function setPaymentRef($PaymentRef)
     {

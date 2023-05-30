@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class LandCharges
 {
@@ -63,7 +63,7 @@ class LandCharges
 
     /**
      * @param Tax $Tax
-     * @return \FilippoToso\Travelport\UniversalRecord\LandCharges
+     * @return \Santosdave\Travelport\UniversalRecord\LandCharges
      */
     public function setTax($Tax)
     {
@@ -81,7 +81,7 @@ class LandCharges
 
     /**
      * @param typeMoney $Base
-     * @return \FilippoToso\Travelport\UniversalRecord\LandCharges
+     * @return \Santosdave\Travelport\UniversalRecord\LandCharges
      */
     public function setBase($Base)
     {
@@ -99,7 +99,7 @@ class LandCharges
 
     /**
      * @param typeMoney $Total
-     * @return \FilippoToso\Travelport\UniversalRecord\LandCharges
+     * @return \Santosdave\Travelport\UniversalRecord\LandCharges
      */
     public function setTotal($Total)
     {
@@ -117,7 +117,7 @@ class LandCharges
 
     /**
      * @param typeMoney $Miscellaneous
-     * @return \FilippoToso\Travelport\UniversalRecord\LandCharges
+     * @return \Santosdave\Travelport\UniversalRecord\LandCharges
      */
     public function setMiscellaneous($Miscellaneous)
     {
@@ -135,7 +135,7 @@ class LandCharges
 
     /**
      * @param typeMoney $PrePaid
-     * @return \FilippoToso\Travelport\UniversalRecord\LandCharges
+     * @return \Santosdave\Travelport\UniversalRecord\LandCharges
      */
     public function setPrePaid($PrePaid)
     {
@@ -153,7 +153,7 @@ class LandCharges
 
     /**
      * @param typeMoney $Deposit
-     * @return \FilippoToso\Travelport\UniversalRecord\LandCharges
+     * @return \Santosdave\Travelport\UniversalRecord\LandCharges
      */
     public function setDeposit($Deposit)
     {

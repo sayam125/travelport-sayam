@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class TravelerType
 {
@@ -28,7 +28,7 @@ class TravelerType
 
     /**
      * @param typePTC $Code
-     * @return \FilippoToso\Travelport\Hotel\TravelerType
+     * @return \Santosdave\Travelport\Hotel\TravelerType
      */
     public function setCode($Code)
     {

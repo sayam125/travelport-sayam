@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class UnitedNations
 {
@@ -28,7 +28,7 @@ class UnitedNations
 
     /**
      * @param string $Number
-     * @return \FilippoToso\Travelport\GDSQueue\UnitedNations
+     * @return \Santosdave\Travelport\GDSQueue\UnitedNations
      */
     public function setNumber($Number)
     {

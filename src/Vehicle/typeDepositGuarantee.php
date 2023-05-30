@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Vehicle;
+namespace Santosdave\Travelport\Vehicle;
 
 class typeDepositGuarantee
 {
@@ -84,7 +84,7 @@ class typeDepositGuarantee
 
     /**
      * @param typeReserveRequirement $Purpose
-     * @return \FilippoToso\Travelport\Vehicle\typeDepositGuarantee
+     * @return \Santosdave\Travelport\Vehicle\typeDepositGuarantee
      */
     public function setPurpose($Purpose)
     {
@@ -102,7 +102,7 @@ class typeDepositGuarantee
 
     /**
      * @param anonymous591 $Type
-     * @return \FilippoToso\Travelport\Vehicle\typeDepositGuarantee
+     * @return \Santosdave\Travelport\Vehicle\typeDepositGuarantee
      */
     public function setType($Type)
     {
@@ -120,7 +120,7 @@ class typeDepositGuarantee
 
     /**
      * @param typeMoney $Amount
-     * @return \FilippoToso\Travelport\Vehicle\typeDepositGuarantee
+     * @return \Santosdave\Travelport\Vehicle\typeDepositGuarantee
      */
     public function setAmount($Amount)
     {
@@ -138,7 +138,7 @@ class typeDepositGuarantee
 
     /**
      * @param float $Percent
-     * @return \FilippoToso\Travelport\Vehicle\typeDepositGuarantee
+     * @return \Santosdave\Travelport\Vehicle\typeDepositGuarantee
      */
     public function setPercent($Percent)
     {
@@ -156,7 +156,7 @@ class typeDepositGuarantee
 
     /**
      * @param date $DueDate
-     * @return \FilippoToso\Travelport\Vehicle\typeDepositGuarantee
+     * @return \Santosdave\Travelport\Vehicle\typeDepositGuarantee
      */
     public function setDueDate($DueDate)
     {
@@ -174,7 +174,7 @@ class typeDepositGuarantee
 
     /**
      * @param int $NumberOfDays
-     * @return \FilippoToso\Travelport\Vehicle\typeDepositGuarantee
+     * @return \Santosdave\Travelport\Vehicle\typeDepositGuarantee
      */
     public function setNumberOfDays($NumberOfDays)
     {
@@ -192,7 +192,7 @@ class typeDepositGuarantee
 
     /**
      * @param anonymous592 $OptionType
-     * @return \FilippoToso\Travelport\Vehicle\typeDepositGuarantee
+     * @return \Santosdave\Travelport\Vehicle\typeDepositGuarantee
      */
     public function setOptionType($OptionType)
     {
@@ -210,7 +210,7 @@ class typeDepositGuarantee
 
     /**
      * @param boolean $Required
-     * @return \FilippoToso\Travelport\Vehicle\typeDepositGuarantee
+     * @return \Santosdave\Travelport\Vehicle\typeDepositGuarantee
      */
     public function setRequired($Required)
     {
@@ -228,7 +228,7 @@ class typeDepositGuarantee
 
     /**
      * @param boolean $RequirementPassed
-     * @return \FilippoToso\Travelport\Vehicle\typeDepositGuarantee
+     * @return \Santosdave\Travelport\Vehicle\typeDepositGuarantee
      */
     public function setRequirementPassed($RequirementPassed)
     {

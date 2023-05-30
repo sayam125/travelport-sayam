@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class VoidResultInfo
 {
@@ -47,7 +47,7 @@ class VoidResultInfo
 
     /**
      * @param string $FailureRemark
-     * @return \FilippoToso\Travelport\GDSQueue\VoidResultInfo
+     * @return \Santosdave\Travelport\GDSQueue\VoidResultInfo
      */
     public function setFailureRemark($FailureRemark)
     {
@@ -65,7 +65,7 @@ class VoidResultInfo
 
     /**
      * @param string $ResultType
-     * @return \FilippoToso\Travelport\GDSQueue\VoidResultInfo
+     * @return \Santosdave\Travelport\GDSQueue\VoidResultInfo
      */
     public function setResultType($ResultType)
     {
@@ -83,7 +83,7 @@ class VoidResultInfo
 
     /**
      * @param StringLength1to13 $DocumentNumber
-     * @return \FilippoToso\Travelport\GDSQueue\VoidResultInfo
+     * @return \Santosdave\Travelport\GDSQueue\VoidResultInfo
      */
     public function setDocumentNumber($DocumentNumber)
     {
@@ -101,7 +101,7 @@ class VoidResultInfo
 
     /**
      * @param anonymous453 $DocumentType
-     * @return \FilippoToso\Travelport\GDSQueue\VoidResultInfo
+     * @return \Santosdave\Travelport\GDSQueue\VoidResultInfo
      */
     public function setDocumentType($DocumentType)
     {

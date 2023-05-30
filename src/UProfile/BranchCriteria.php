@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class BranchCriteria extends typeProfileSearchCriteria
 {
@@ -58,7 +58,7 @@ class BranchCriteria extends typeProfileSearchCriteria
 
     /**
      * @param typeWildcard $Name
-     * @return \FilippoToso\Travelport\UProfile\BranchCriteria
+     * @return \Santosdave\Travelport\UProfile\BranchCriteria
      */
     public function setName($Name)
     {
@@ -76,7 +76,7 @@ class BranchCriteria extends typeProfileSearchCriteria
 
     /**
      * @param typeWildcard $IataNumber
-     * @return \FilippoToso\Travelport\UProfile\BranchCriteria
+     * @return \Santosdave\Travelport\UProfile\BranchCriteria
      */
     public function setIataNumber($IataNumber)
     {
@@ -94,7 +94,7 @@ class BranchCriteria extends typeProfileSearchCriteria
 
     /**
      * @param typeFilterControlAndWorkspace $BranchType
-     * @return \FilippoToso\Travelport\UProfile\BranchCriteria
+     * @return \Santosdave\Travelport\UProfile\BranchCriteria
      */
     public function setBranchType($BranchType)
     {
@@ -112,7 +112,7 @@ class BranchCriteria extends typeProfileSearchCriteria
 
     /**
      * @param typeWildcard $PseudoCityCode
-     * @return \FilippoToso\Travelport\UProfile\BranchCriteria
+     * @return \Santosdave\Travelport\UProfile\BranchCriteria
      */
     public function setPseudoCityCode($PseudoCityCode)
     {
@@ -130,7 +130,7 @@ class BranchCriteria extends typeProfileSearchCriteria
 
     /**
      * @param typeWildcard $BranchCode
-     * @return \FilippoToso\Travelport\UProfile\BranchCriteria
+     * @return \Santosdave\Travelport\UProfile\BranchCriteria
      */
     public function setBranchCode($BranchCode)
     {

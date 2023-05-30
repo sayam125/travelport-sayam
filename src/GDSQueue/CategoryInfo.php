@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class CategoryInfo
 {
@@ -56,7 +56,7 @@ class CategoryInfo
 
     /**
      * @param DateRangeInfo $DateRangeInfo
-     * @return \FilippoToso\Travelport\GDSQueue\CategoryInfo
+     * @return \Santosdave\Travelport\GDSQueue\CategoryInfo
      */
     public function setDateRangeInfo($DateRangeInfo)
     {
@@ -74,7 +74,7 @@ class CategoryInfo
 
     /**
      * @param string $Title
-     * @return \FilippoToso\Travelport\GDSQueue\CategoryInfo
+     * @return \Santosdave\Travelport\GDSQueue\CategoryInfo
      */
     public function setTitle($Title)
     {
@@ -92,7 +92,7 @@ class CategoryInfo
 
     /**
      * @param string $Category
-     * @return \FilippoToso\Travelport\GDSQueue\CategoryInfo
+     * @return \Santosdave\Travelport\GDSQueue\CategoryInfo
      */
     public function setCategory($Category)
     {
@@ -110,7 +110,7 @@ class CategoryInfo
 
     /**
      * @param int $Count
-     * @return \FilippoToso\Travelport\GDSQueue\CategoryInfo
+     * @return \Santosdave\Travelport\GDSQueue\CategoryInfo
      */
     public function setCount($Count)
     {
@@ -128,7 +128,7 @@ class CategoryInfo
 
     /**
      * @param int $TotalCount
-     * @return \FilippoToso\Travelport\GDSQueue\CategoryInfo
+     * @return \Santosdave\Travelport\GDSQueue\CategoryInfo
      */
     public function setTotalCount($TotalCount)
     {

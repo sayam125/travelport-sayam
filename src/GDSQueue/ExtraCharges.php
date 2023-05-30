@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class ExtraCharges
 {
@@ -56,7 +56,7 @@ class ExtraCharges
 
     /**
      * @param typeMoney $ExtraAdultAmount
-     * @return \FilippoToso\Travelport\GDSQueue\ExtraCharges
+     * @return \Santosdave\Travelport\GDSQueue\ExtraCharges
      */
     public function setExtraAdultAmount($ExtraAdultAmount)
     {
@@ -74,7 +74,7 @@ class ExtraCharges
 
     /**
      * @param typeMoney $ExtraChildAmount
-     * @return \FilippoToso\Travelport\GDSQueue\ExtraCharges
+     * @return \Santosdave\Travelport\GDSQueue\ExtraCharges
      */
     public function setExtraChildAmount($ExtraChildAmount)
     {
@@ -92,7 +92,7 @@ class ExtraCharges
 
     /**
      * @param typeMoney $CribAmount
-     * @return \FilippoToso\Travelport\GDSQueue\ExtraCharges
+     * @return \Santosdave\Travelport\GDSQueue\ExtraCharges
      */
     public function setCribAmount($CribAmount)
     {
@@ -110,7 +110,7 @@ class ExtraCharges
 
     /**
      * @param typeMoney $AdultRollawayCharge
-     * @return \FilippoToso\Travelport\GDSQueue\ExtraCharges
+     * @return \Santosdave\Travelport\GDSQueue\ExtraCharges
      */
     public function setAdultRollawayCharge($AdultRollawayCharge)
     {
@@ -128,7 +128,7 @@ class ExtraCharges
 
     /**
      * @param typeMoney $ChildRollawayCharge
-     * @return \FilippoToso\Travelport\GDSQueue\ExtraCharges
+     * @return \Santosdave\Travelport\GDSQueue\ExtraCharges
      */
     public function setChildRollawayCharge($ChildRollawayCharge)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class VehicleReservation extends BaseReservation
 {
@@ -184,7 +184,7 @@ class VehicleReservation extends BaseReservation
 
     /**
      * @param BookingTravelerRef $BookingTravelerRef
-     * @return \FilippoToso\Travelport\Rail\VehicleReservation
+     * @return \Santosdave\Travelport\Rail\VehicleReservation
      */
     public function setBookingTravelerRef($BookingTravelerRef)
     {
@@ -202,7 +202,7 @@ class VehicleReservation extends BaseReservation
 
     /**
      * @param ReservationName $ReservationName
-     * @return \FilippoToso\Travelport\Rail\VehicleReservation
+     * @return \Santosdave\Travelport\Rail\VehicleReservation
      */
     public function setReservationName($ReservationName)
     {
@@ -220,7 +220,7 @@ class VehicleReservation extends BaseReservation
 
     /**
      * @param VehicleDateLocation $VehicleDateLocation
-     * @return \FilippoToso\Travelport\Rail\VehicleReservation
+     * @return \Santosdave\Travelport\Rail\VehicleReservation
      */
     public function setVehicleDateLocation($VehicleDateLocation)
     {
@@ -238,7 +238,7 @@ class VehicleReservation extends BaseReservation
 
     /**
      * @param Vehicle $Vehicle
-     * @return \FilippoToso\Travelport\Rail\VehicleReservation
+     * @return \Santosdave\Travelport\Rail\VehicleReservation
      */
     public function setVehicle($Vehicle)
     {
@@ -256,7 +256,7 @@ class VehicleReservation extends BaseReservation
 
     /**
      * @param SpecialEquipment $SpecialEquipment
-     * @return \FilippoToso\Travelport\Rail\VehicleReservation
+     * @return \Santosdave\Travelport\Rail\VehicleReservation
      */
     public function setSpecialEquipment($SpecialEquipment)
     {
@@ -274,7 +274,7 @@ class VehicleReservation extends BaseReservation
 
     /**
      * @param VehicleSpecialRequest $VehicleSpecialRequest
-     * @return \FilippoToso\Travelport\Rail\VehicleReservation
+     * @return \Santosdave\Travelport\Rail\VehicleReservation
      */
     public function setVehicleSpecialRequest($VehicleSpecialRequest)
     {
@@ -292,7 +292,7 @@ class VehicleReservation extends BaseReservation
 
     /**
      * @param PaymentInformation $PaymentInformation
-     * @return \FilippoToso\Travelport\Rail\VehicleReservation
+     * @return \Santosdave\Travelport\Rail\VehicleReservation
      */
     public function setPaymentInformation($PaymentInformation)
     {
@@ -310,7 +310,7 @@ class VehicleReservation extends BaseReservation
 
     /**
      * @param DeliveryAddress $DeliveryAddress
-     * @return \FilippoToso\Travelport\Rail\VehicleReservation
+     * @return \Santosdave\Travelport\Rail\VehicleReservation
      */
     public function setDeliveryAddress($DeliveryAddress)
     {
@@ -328,7 +328,7 @@ class VehicleReservation extends BaseReservation
 
     /**
      * @param CollectionAddress $CollectionAddress
-     * @return \FilippoToso\Travelport\Rail\VehicleReservation
+     * @return \Santosdave\Travelport\Rail\VehicleReservation
      */
     public function setCollectionAddress($CollectionAddress)
     {
@@ -346,7 +346,7 @@ class VehicleReservation extends BaseReservation
 
     /**
      * @param FlightArrivalInformation $FlightArrivalInformation
-     * @return \FilippoToso\Travelport\Rail\VehicleReservation
+     * @return \Santosdave\Travelport\Rail\VehicleReservation
      */
     public function setFlightArrivalInformation($FlightArrivalInformation)
     {
@@ -364,7 +364,7 @@ class VehicleReservation extends BaseReservation
 
     /**
      * @param Guarantee $Guarantee
-     * @return \FilippoToso\Travelport\Rail\VehicleReservation
+     * @return \Santosdave\Travelport\Rail\VehicleReservation
      */
     public function setGuarantee($Guarantee)
     {
@@ -382,7 +382,7 @@ class VehicleReservation extends BaseReservation
 
     /**
      * @param AssociatedRemark $AssociatedRemark
-     * @return \FilippoToso\Travelport\Rail\VehicleReservation
+     * @return \Santosdave\Travelport\Rail\VehicleReservation
      */
     public function setAssociatedRemark($AssociatedRemark)
     {
@@ -400,7 +400,7 @@ class VehicleReservation extends BaseReservation
 
     /**
      * @param BookingSource $BookingSource
-     * @return \FilippoToso\Travelport\Rail\VehicleReservation
+     * @return \Santosdave\Travelport\Rail\VehicleReservation
      */
     public function setBookingSource($BookingSource)
     {
@@ -418,7 +418,7 @@ class VehicleReservation extends BaseReservation
 
     /**
      * @param ThirdPartyInformation $ThirdPartyInformation
-     * @return \FilippoToso\Travelport\Rail\VehicleReservation
+     * @return \Santosdave\Travelport\Rail\VehicleReservation
      */
     public function setThirdPartyInformation($ThirdPartyInformation)
     {
@@ -436,7 +436,7 @@ class VehicleReservation extends BaseReservation
 
     /**
      * @param string $SellMessage
-     * @return \FilippoToso\Travelport\Rail\VehicleReservation
+     * @return \Santosdave\Travelport\Rail\VehicleReservation
      */
     public function setSellMessage($SellMessage)
     {
@@ -454,7 +454,7 @@ class VehicleReservation extends BaseReservation
 
     /**
      * @param string $SupplierCode
-     * @return \FilippoToso\Travelport\Rail\VehicleReservation
+     * @return \Santosdave\Travelport\Rail\VehicleReservation
      */
     public function setSupplierCode($SupplierCode)
     {
@@ -472,7 +472,7 @@ class VehicleReservation extends BaseReservation
 
     /**
      * @param string $BookingConfirmation
-     * @return \FilippoToso\Travelport\Rail\VehicleReservation
+     * @return \Santosdave\Travelport\Rail\VehicleReservation
      */
     public function setBookingConfirmation($BookingConfirmation)
     {
@@ -490,7 +490,7 @@ class VehicleReservation extends BaseReservation
 
     /**
      * @param string $Status
-     * @return \FilippoToso\Travelport\Rail\VehicleReservation
+     * @return \Santosdave\Travelport\Rail\VehicleReservation
      */
     public function setStatus($Status)
     {
@@ -508,7 +508,7 @@ class VehicleReservation extends BaseReservation
 
     /**
      * @param typeRef $ProviderReservationInfoRef
-     * @return \FilippoToso\Travelport\Rail\VehicleReservation
+     * @return \Santosdave\Travelport\Rail\VehicleReservation
      */
     public function setProviderReservationInfoRef($ProviderReservationInfoRef)
     {
@@ -526,7 +526,7 @@ class VehicleReservation extends BaseReservation
 
     /**
      * @param typeRef $PassiveProviderReservationInfoRef
-     * @return \FilippoToso\Travelport\Rail\VehicleReservation
+     * @return \Santosdave\Travelport\Rail\VehicleReservation
      */
     public function setPassiveProviderReservationInfoRef($PassiveProviderReservationInfoRef)
     {
@@ -544,7 +544,7 @@ class VehicleReservation extends BaseReservation
 
     /**
      * @param int $TravelOrder
-     * @return \FilippoToso\Travelport\Rail\VehicleReservation
+     * @return \Santosdave\Travelport\Rail\VehicleReservation
      */
     public function setTravelOrder($TravelOrder)
     {
@@ -562,7 +562,7 @@ class VehicleReservation extends BaseReservation
 
     /**
      * @param anonymous538 $ProviderSegmentOrder
-     * @return \FilippoToso\Travelport\Rail\VehicleReservation
+     * @return \Santosdave\Travelport\Rail\VehicleReservation
      */
     public function setProviderSegmentOrder($ProviderSegmentOrder)
     {

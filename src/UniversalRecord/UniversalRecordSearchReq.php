@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class UniversalRecordSearchReq extends BaseReq
 {
@@ -152,7 +152,7 @@ class UniversalRecordSearchReq extends BaseReq
 
     /**
      * @param UniversalRecordSearchModifiers $UniversalRecordSearchModifiers
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalRecordSearchReq
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalRecordSearchReq
      */
     public function setUniversalRecordSearchModifiers($UniversalRecordSearchModifiers)
     {
@@ -170,7 +170,7 @@ class UniversalRecordSearchReq extends BaseReq
 
     /**
      * @param TravelerCriteria $TravelerCriteria
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalRecordSearchReq
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalRecordSearchReq
      */
     public function setTravelerCriteria($TravelerCriteria)
     {
@@ -188,7 +188,7 @@ class UniversalRecordSearchReq extends BaseReq
 
     /**
      * @param SearchAgent $SearchAgent
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalRecordSearchReq
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalRecordSearchReq
      */
     public function setSearchAgent($SearchAgent)
     {
@@ -206,7 +206,7 @@ class UniversalRecordSearchReq extends BaseReq
 
     /**
      * @param AirReservationCriteria $AirReservationCriteria
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalRecordSearchReq
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalRecordSearchReq
      */
     public function setAirReservationCriteria($AirReservationCriteria)
     {
@@ -224,7 +224,7 @@ class UniversalRecordSearchReq extends BaseReq
 
     /**
      * @param HotelReservationCriteria $HotelReservationCriteria
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalRecordSearchReq
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalRecordSearchReq
      */
     public function setHotelReservationCriteria($HotelReservationCriteria)
     {
@@ -242,7 +242,7 @@ class UniversalRecordSearchReq extends BaseReq
 
     /**
      * @param VehicleReservationCriteria $VehicleReservationCriteria
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalRecordSearchReq
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalRecordSearchReq
      */
     public function setVehicleReservationCriteria($VehicleReservationCriteria)
     {
@@ -260,7 +260,7 @@ class UniversalRecordSearchReq extends BaseReq
 
     /**
      * @param RailReservationCriteria $RailReservationCriteria
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalRecordSearchReq
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalRecordSearchReq
      */
     public function setRailReservationCriteria($RailReservationCriteria)
     {
@@ -278,7 +278,7 @@ class UniversalRecordSearchReq extends BaseReq
 
     /**
      * @param SearchAccount $SearchAccount
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalRecordSearchReq
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalRecordSearchReq
      */
     public function setSearchAccount($SearchAccount)
     {
@@ -296,7 +296,7 @@ class UniversalRecordSearchReq extends BaseReq
 
     /**
      * @param date $ActionDate
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalRecordSearchReq
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalRecordSearchReq
      */
     public function setActionDate($ActionDate)
     {
@@ -314,7 +314,7 @@ class UniversalRecordSearchReq extends BaseReq
 
     /**
      * @param typeRecordStatus $RecordStatus
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalRecordSearchReq
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalRecordSearchReq
      */
     public function setRecordStatus($RecordStatus)
     {
@@ -332,7 +332,7 @@ class UniversalRecordSearchReq extends BaseReq
 
     /**
      * @param string $ClientId
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalRecordSearchReq
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalRecordSearchReq
      */
     public function setClientId($ClientId)
     {
@@ -350,7 +350,7 @@ class UniversalRecordSearchReq extends BaseReq
 
     /**
      * @param string $ProviderCode
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalRecordSearchReq
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalRecordSearchReq
      */
     public function setProviderCode($ProviderCode)
     {
@@ -368,7 +368,7 @@ class UniversalRecordSearchReq extends BaseReq
 
     /**
      * @param string $ProviderLocatorCode
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalRecordSearchReq
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalRecordSearchReq
      */
     public function setProviderLocatorCode($ProviderLocatorCode)
     {
@@ -386,7 +386,7 @@ class UniversalRecordSearchReq extends BaseReq
 
     /**
      * @param typeExternalSearchIndex $ExternalSearchIndex
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalRecordSearchReq
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalRecordSearchReq
      */
     public function setExternalSearchIndex($ExternalSearchIndex)
     {
@@ -404,7 +404,7 @@ class UniversalRecordSearchReq extends BaseReq
 
     /**
      * @param UNKNOWN $RestrictToProfileId
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalRecordSearchReq
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalRecordSearchReq
      */
     public function setRestrictToProfileId($RestrictToProfileId)
     {
@@ -422,7 +422,7 @@ class UniversalRecordSearchReq extends BaseReq
 
     /**
      * @param boolean $PassiveOnly
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalRecordSearchReq
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalRecordSearchReq
      */
     public function setPassiveOnly($PassiveOnly)
     {
@@ -440,7 +440,7 @@ class UniversalRecordSearchReq extends BaseReq
 
     /**
      * @param URTicketStatus $TicketStatus
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalRecordSearchReq
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalRecordSearchReq
      */
     public function setTicketStatus($TicketStatus)
     {

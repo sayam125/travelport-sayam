@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class ProviderReservationSearchModifiers
 {
@@ -77,7 +77,7 @@ class ProviderReservationSearchModifiers
 
     /**
      * @param boolean $IncludeAllNames
-     * @return \FilippoToso\Travelport\UniversalRecord\ProviderReservationSearchModifiers
+     * @return \Santosdave\Travelport\UniversalRecord\ProviderReservationSearchModifiers
      */
     public function setIncludeAllNames($IncludeAllNames)
     {
@@ -95,7 +95,7 @@ class ProviderReservationSearchModifiers
 
     /**
      * @param boolean $IncludeAgentInfo
-     * @return \FilippoToso\Travelport\UniversalRecord\ProviderReservationSearchModifiers
+     * @return \Santosdave\Travelport\UniversalRecord\ProviderReservationSearchModifiers
      */
     public function setIncludeAgentInfo($IncludeAgentInfo)
     {
@@ -113,7 +113,7 @@ class ProviderReservationSearchModifiers
 
     /**
      * @param typeMaxResults $MaxResults
-     * @return \FilippoToso\Travelport\UniversalRecord\ProviderReservationSearchModifiers
+     * @return \Santosdave\Travelport\UniversalRecord\ProviderReservationSearchModifiers
      */
     public function setMaxResults($MaxResults)
     {
@@ -131,7 +131,7 @@ class ProviderReservationSearchModifiers
 
     /**
      * @param typeStartFromResult $StartFromResult
-     * @return \FilippoToso\Travelport\UniversalRecord\ProviderReservationSearchModifiers
+     * @return \Santosdave\Travelport\UniversalRecord\ProviderReservationSearchModifiers
      */
     public function setStartFromResult($StartFromResult)
     {
@@ -149,7 +149,7 @@ class ProviderReservationSearchModifiers
 
     /**
      * @param boolean $ExcludeAir
-     * @return \FilippoToso\Travelport\UniversalRecord\ProviderReservationSearchModifiers
+     * @return \Santosdave\Travelport\UniversalRecord\ProviderReservationSearchModifiers
      */
     public function setExcludeAir($ExcludeAir)
     {
@@ -167,7 +167,7 @@ class ProviderReservationSearchModifiers
 
     /**
      * @param boolean $ExcludeVehicle
-     * @return \FilippoToso\Travelport\UniversalRecord\ProviderReservationSearchModifiers
+     * @return \Santosdave\Travelport\UniversalRecord\ProviderReservationSearchModifiers
      */
     public function setExcludeVehicle($ExcludeVehicle)
     {
@@ -185,7 +185,7 @@ class ProviderReservationSearchModifiers
 
     /**
      * @param boolean $ExcludeHotel
-     * @return \FilippoToso\Travelport\UniversalRecord\ProviderReservationSearchModifiers
+     * @return \Santosdave\Travelport\UniversalRecord\ProviderReservationSearchModifiers
      */
     public function setExcludeHotel($ExcludeHotel)
     {
@@ -203,7 +203,7 @@ class ProviderReservationSearchModifiers
 
     /**
      * @param boolean $ExcludeGround
-     * @return \FilippoToso\Travelport\UniversalRecord\ProviderReservationSearchModifiers
+     * @return \Santosdave\Travelport\UniversalRecord\ProviderReservationSearchModifiers
      */
     public function setExcludeGround($ExcludeGround)
     {

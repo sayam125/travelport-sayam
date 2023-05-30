@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class typeVehicleRateDescription
 {
@@ -35,7 +35,7 @@ class typeVehicleRateDescription
 
     /**
      * @param Text[] $Text
-     * @return \FilippoToso\Travelport\UniversalRecord\typeVehicleRateDescription
+     * @return \Santosdave\Travelport\UniversalRecord\typeVehicleRateDescription
      */
     public function setText(array $Text)
     {
@@ -53,7 +53,7 @@ class typeVehicleRateDescription
 
     /**
      * @param string $Name
-     * @return \FilippoToso\Travelport\UniversalRecord\typeVehicleRateDescription
+     * @return \Santosdave\Travelport\UniversalRecord\typeVehicleRateDescription
      */
     public function setName($Name)
     {

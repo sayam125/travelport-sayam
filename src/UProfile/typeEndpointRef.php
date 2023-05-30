@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeEndpointRef
 {
@@ -28,7 +28,7 @@ class typeEndpointRef
 
     /**
      * @param typeEndpointID $ID
-     * @return \FilippoToso\Travelport\UProfile\typeEndpointRef
+     * @return \Santosdave\Travelport\UProfile\typeEndpointRef
      */
     public function setID($ID)
     {

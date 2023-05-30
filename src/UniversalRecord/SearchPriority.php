@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class SearchPriority
 {
@@ -28,7 +28,7 @@ class SearchPriority
 
     /**
      * @param Criteria[] $Criteria
-     * @return \FilippoToso\Travelport\UniversalRecord\SearchPriority
+     * @return \Santosdave\Travelport\UniversalRecord\SearchPriority
      */
     public function setCriteria(array $Criteria)
     {

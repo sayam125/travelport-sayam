@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class typeTicketModifierAccountingType
 {
@@ -28,7 +28,7 @@ class typeTicketModifierAccountingType
 
     /**
      * @param string $Value
-     * @return \FilippoToso\Travelport\GDSQueue\typeTicketModifierAccountingType
+     * @return \Santosdave\Travelport\GDSQueue\typeTicketModifierAccountingType
      */
     public function setValue($Value)
     {

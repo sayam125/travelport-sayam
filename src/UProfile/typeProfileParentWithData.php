@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeProfileParentWithData
 {
@@ -98,7 +98,7 @@ class typeProfileParentWithData
 
     /**
      * @param BaseInfo $BaseInfo
-     * @return \FilippoToso\Travelport\UProfile\typeProfileParentWithData
+     * @return \Santosdave\Travelport\UProfile\typeProfileParentWithData
      */
     public function setBaseInfo($BaseInfo)
     {
@@ -116,7 +116,7 @@ class typeProfileParentWithData
 
     /**
      * @param typeProfileParentWithData $ProfileParent
-     * @return \FilippoToso\Travelport\UProfile\typeProfileParentWithData
+     * @return \Santosdave\Travelport\UProfile\typeProfileParentWithData
      */
     public function setProfileParent($ProfileParent)
     {
@@ -134,7 +134,7 @@ class typeProfileParentWithData
 
     /**
      * @param ProfileData $ProfileData
-     * @return \FilippoToso\Travelport\UProfile\typeProfileParentWithData
+     * @return \Santosdave\Travelport\UProfile\typeProfileParentWithData
      */
     public function setProfileData($ProfileData)
     {
@@ -152,7 +152,7 @@ class typeProfileParentWithData
 
     /**
      * @param typeProfileID $ProfileID
-     * @return \FilippoToso\Travelport\UProfile\typeProfileParentWithData
+     * @return \Santosdave\Travelport\UProfile\typeProfileParentWithData
      */
     public function setProfileID($ProfileID)
     {
@@ -170,7 +170,7 @@ class typeProfileParentWithData
 
     /**
      * @param typeProfileType $ProfileType
-     * @return \FilippoToso\Travelport\UProfile\typeProfileParentWithData
+     * @return \Santosdave\Travelport\UProfile\typeProfileParentWithData
      */
     public function setProfileType($ProfileType)
     {
@@ -188,7 +188,7 @@ class typeProfileParentWithData
 
     /**
      * @param typeEntityName $Name
-     * @return \FilippoToso\Travelport\UProfile\typeProfileParentWithData
+     * @return \Santosdave\Travelport\UProfile\typeProfileParentWithData
      */
     public function setName($Name)
     {
@@ -206,7 +206,7 @@ class typeProfileParentWithData
 
     /**
      * @param typeProfileEntityStatusWithDelete $Status
-     * @return \FilippoToso\Travelport\UProfile\typeProfileParentWithData
+     * @return \Santosdave\Travelport\UProfile\typeProfileParentWithData
      */
     public function setStatus($Status)
     {
@@ -224,7 +224,7 @@ class typeProfileParentWithData
 
     /**
      * @param typeID $HierarchyLevelID
-     * @return \FilippoToso\Travelport\UProfile\typeProfileParentWithData
+     * @return \Santosdave\Travelport\UProfile\typeProfileParentWithData
      */
     public function setHierarchyLevelID($HierarchyLevelID)
     {
@@ -242,7 +242,7 @@ class typeProfileParentWithData
 
     /**
      * @param typeVersion $Version
-     * @return \FilippoToso\Travelport\UProfile\typeProfileParentWithData
+     * @return \Santosdave\Travelport\UProfile\typeProfileParentWithData
      */
     public function setVersion($Version)
     {
@@ -260,7 +260,7 @@ class typeProfileParentWithData
 
     /**
      * @param typeTemplateID $TemplateID
-     * @return \FilippoToso\Travelport\UProfile\typeProfileParentWithData
+     * @return \Santosdave\Travelport\UProfile\typeProfileParentWithData
      */
     public function setTemplateID($TemplateID)
     {
@@ -278,7 +278,7 @@ class typeProfileParentWithData
 
     /**
      * @param typeVersion $TemplateVersion
-     * @return \FilippoToso\Travelport\UProfile\typeProfileParentWithData
+     * @return \Santosdave\Travelport\UProfile\typeProfileParentWithData
      */
     public function setTemplateVersion($TemplateVersion)
     {

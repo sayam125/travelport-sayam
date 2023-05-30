@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class LandCharges
 {
@@ -63,7 +63,7 @@ class LandCharges
 
     /**
      * @param Tax $Tax
-     * @return \FilippoToso\Travelport\GDSQueue\LandCharges
+     * @return \Santosdave\Travelport\GDSQueue\LandCharges
      */
     public function setTax($Tax)
     {
@@ -81,7 +81,7 @@ class LandCharges
 
     /**
      * @param typeMoney $Base
-     * @return \FilippoToso\Travelport\GDSQueue\LandCharges
+     * @return \Santosdave\Travelport\GDSQueue\LandCharges
      */
     public function setBase($Base)
     {
@@ -99,7 +99,7 @@ class LandCharges
 
     /**
      * @param typeMoney $Total
-     * @return \FilippoToso\Travelport\GDSQueue\LandCharges
+     * @return \Santosdave\Travelport\GDSQueue\LandCharges
      */
     public function setTotal($Total)
     {
@@ -117,7 +117,7 @@ class LandCharges
 
     /**
      * @param typeMoney $Miscellaneous
-     * @return \FilippoToso\Travelport\GDSQueue\LandCharges
+     * @return \Santosdave\Travelport\GDSQueue\LandCharges
      */
     public function setMiscellaneous($Miscellaneous)
     {
@@ -135,7 +135,7 @@ class LandCharges
 
     /**
      * @param typeMoney $PrePaid
-     * @return \FilippoToso\Travelport\GDSQueue\LandCharges
+     * @return \Santosdave\Travelport\GDSQueue\LandCharges
      */
     public function setPrePaid($PrePaid)
     {
@@ -153,7 +153,7 @@ class LandCharges
 
     /**
      * @param typeMoney $Deposit
-     * @return \FilippoToso\Travelport\GDSQueue\LandCharges
+     * @return \Santosdave\Travelport\GDSQueue\LandCharges
      */
     public function setDeposit($Deposit)
     {

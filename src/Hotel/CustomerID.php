@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class CustomerID extends typeRemark
 {
@@ -39,7 +39,7 @@ class CustomerID extends typeRemark
 
     /**
      * @param typeRemark $_
-     * @return \FilippoToso\Travelport\Hotel\CustomerID
+     * @return \Santosdave\Travelport\Hotel\CustomerID
      */
     public function set_($_)
     {
@@ -57,7 +57,7 @@ class CustomerID extends typeRemark
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Hotel\CustomerID
+     * @return \Santosdave\Travelport\Hotel\CustomerID
      */
     public function setKey($Key)
     {

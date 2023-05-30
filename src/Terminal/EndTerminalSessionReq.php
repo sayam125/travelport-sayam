@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Terminal;
+namespace Santosdave\Travelport\Terminal;
 
 class EndTerminalSessionReq extends BaseReq
 {
@@ -40,7 +40,7 @@ class EndTerminalSessionReq extends BaseReq
 
     /**
      * @param HostToken $HostToken
-     * @return \FilippoToso\Travelport\Terminal\EndTerminalSessionReq
+     * @return \Santosdave\Travelport\Terminal\EndTerminalSessionReq
      */
     public function setHostToken($HostToken)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class CruiseReservation extends BaseReservation
 {
@@ -79,7 +79,7 @@ class CruiseReservation extends BaseReservation
 
     /**
      * @param CruiseSegment $CruiseSegment
-     * @return \FilippoToso\Travelport\UniversalRecord\CruiseReservation
+     * @return \Santosdave\Travelport\UniversalRecord\CruiseReservation
      */
     public function setCruiseSegment($CruiseSegment)
     {
@@ -97,7 +97,7 @@ class CruiseReservation extends BaseReservation
 
     /**
      * @param CruiseItinerary $CruiseItinerary
-     * @return \FilippoToso\Travelport\UniversalRecord\CruiseReservation
+     * @return \Santosdave\Travelport\UniversalRecord\CruiseReservation
      */
     public function setCruiseItinerary($CruiseItinerary)
     {
@@ -115,7 +115,7 @@ class CruiseReservation extends BaseReservation
 
     /**
      * @param CruisePricingInfo $CruisePricingInfo
-     * @return \FilippoToso\Travelport\UniversalRecord\CruiseReservation
+     * @return \Santosdave\Travelport\UniversalRecord\CruiseReservation
      */
     public function setCruisePricingInfo($CruisePricingInfo)
     {
@@ -133,7 +133,7 @@ class CruiseReservation extends BaseReservation
 
     /**
      * @param OptionalService $OptionalService
-     * @return \FilippoToso\Travelport\UniversalRecord\CruiseReservation
+     * @return \Santosdave\Travelport\UniversalRecord\CruiseReservation
      */
     public function setOptionalService($OptionalService)
     {
@@ -151,7 +151,7 @@ class CruiseReservation extends BaseReservation
 
     /**
      * @param BookingTravelerRef $BookingTravelerRef
-     * @return \FilippoToso\Travelport\UniversalRecord\CruiseReservation
+     * @return \Santosdave\Travelport\UniversalRecord\CruiseReservation
      */
     public function setBookingTravelerRef($BookingTravelerRef)
     {
@@ -169,7 +169,7 @@ class CruiseReservation extends BaseReservation
 
     /**
      * @param ProviderReservationInfoRef $ProviderReservationInfoRef
-     * @return \FilippoToso\Travelport\UniversalRecord\CruiseReservation
+     * @return \Santosdave\Travelport\UniversalRecord\CruiseReservation
      */
     public function setProviderReservationInfoRef($ProviderReservationInfoRef)
     {
@@ -187,7 +187,7 @@ class CruiseReservation extends BaseReservation
 
     /**
      * @param Payment $Payment
-     * @return \FilippoToso\Travelport\UniversalRecord\CruiseReservation
+     * @return \Santosdave\Travelport\UniversalRecord\CruiseReservation
      */
     public function setPayment($Payment)
     {

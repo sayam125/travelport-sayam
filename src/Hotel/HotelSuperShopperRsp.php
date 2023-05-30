@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class HotelSuperShopperRsp extends BaseSearchRsp
 {
@@ -56,7 +56,7 @@ class HotelSuperShopperRsp extends BaseSearchRsp
 
     /**
      * @param VendorLocation $VendorLocation
-     * @return \FilippoToso\Travelport\Hotel\HotelSuperShopperRsp
+     * @return \Santosdave\Travelport\Hotel\HotelSuperShopperRsp
      */
     public function setVendorLocation($VendorLocation)
     {
@@ -74,7 +74,7 @@ class HotelSuperShopperRsp extends BaseSearchRsp
 
     /**
      * @param CurrencyRateConversion $CurrencyRateConversion
-     * @return \FilippoToso\Travelport\Hotel\HotelSuperShopperRsp
+     * @return \Santosdave\Travelport\Hotel\HotelSuperShopperRsp
      */
     public function setCurrencyRateConversion($CurrencyRateConversion)
     {
@@ -92,7 +92,7 @@ class HotelSuperShopperRsp extends BaseSearchRsp
 
     /**
      * @param HotelSuperShopperResults $HotelSuperShopperResults
-     * @return \FilippoToso\Travelport\Hotel\HotelSuperShopperRsp
+     * @return \Santosdave\Travelport\Hotel\HotelSuperShopperRsp
      */
     public function setHotelSuperShopperResults($HotelSuperShopperResults)
     {
@@ -110,7 +110,7 @@ class HotelSuperShopperRsp extends BaseSearchRsp
 
     /**
      * @param QuickResponse $QuickResponse
-     * @return \FilippoToso\Travelport\Hotel\HotelSuperShopperRsp
+     * @return \Santosdave\Travelport\Hotel\HotelSuperShopperRsp
      */
     public function setQuickResponse($QuickResponse)
     {

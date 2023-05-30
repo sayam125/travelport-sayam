@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class BookingTravelerInformation
 {
@@ -35,7 +35,7 @@ class BookingTravelerInformation
 
     /**
      * @param Name $Name
-     * @return \FilippoToso\Travelport\UniversalRecord\BookingTravelerInformation
+     * @return \Santosdave\Travelport\UniversalRecord\BookingTravelerInformation
      */
     public function setName($Name)
     {
@@ -53,7 +53,7 @@ class BookingTravelerInformation
 
     /**
      * @param typeRef $BookingTravelerRef
-     * @return \FilippoToso\Travelport\UniversalRecord\BookingTravelerInformation
+     * @return \Santosdave\Travelport\UniversalRecord\BookingTravelerInformation
      */
     public function setBookingTravelerRef($BookingTravelerRef)
     {

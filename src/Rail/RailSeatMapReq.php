@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class RailSeatMapReq extends BaseReq
 {
@@ -40,7 +40,7 @@ class RailSeatMapReq extends BaseReq
 
     /**
      * @param RailInfo $RailInfo
-     * @return \FilippoToso\Travelport\Rail\RailSeatMapReq
+     * @return \Santosdave\Travelport\Rail\RailSeatMapReq
      */
     public function setRailInfo($RailInfo)
     {

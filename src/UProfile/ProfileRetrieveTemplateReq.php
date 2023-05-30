@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class ProfileRetrieveTemplateReq extends BaseReq
 {
@@ -59,7 +59,7 @@ class ProfileRetrieveTemplateReq extends BaseReq
 
     /**
      * @param StringLength1to128[] $ConsumingSystem
-     * @return \FilippoToso\Travelport\UProfile\ProfileRetrieveTemplateReq
+     * @return \Santosdave\Travelport\UProfile\ProfileRetrieveTemplateReq
      */
     public function setConsumingSystem(array $ConsumingSystem = null)
     {
@@ -77,7 +77,7 @@ class ProfileRetrieveTemplateReq extends BaseReq
 
     /**
      * @param typeTemplateID $ID
-     * @return \FilippoToso\Travelport\UProfile\ProfileRetrieveTemplateReq
+     * @return \Santosdave\Travelport\UProfile\ProfileRetrieveTemplateReq
      */
     public function setID($ID)
     {
@@ -95,7 +95,7 @@ class ProfileRetrieveTemplateReq extends BaseReq
 
     /**
      * @param typeVersion $Version
-     * @return \FilippoToso\Travelport\UProfile\ProfileRetrieveTemplateReq
+     * @return \Santosdave\Travelport\UProfile\ProfileRetrieveTemplateReq
      */
     public function setVersion($Version)
     {
@@ -113,7 +113,7 @@ class ProfileRetrieveTemplateReq extends BaseReq
 
     /**
      * @param boolean $ReturnOverrideFieldsOnly
-     * @return \FilippoToso\Travelport\UProfile\ProfileRetrieveTemplateReq
+     * @return \Santosdave\Travelport\UProfile\ProfileRetrieveTemplateReq
      */
     public function setReturnOverrideFieldsOnly($ReturnOverrideFieldsOnly)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class typeLocation
 {
@@ -42,7 +42,7 @@ class typeLocation
 
     /**
      * @param Airport $Airport
-     * @return \FilippoToso\Travelport\Air\typeLocation
+     * @return \Santosdave\Travelport\Air\typeLocation
      */
     public function setAirport($Airport)
     {
@@ -60,7 +60,7 @@ class typeLocation
 
     /**
      * @param City $City
-     * @return \FilippoToso\Travelport\Air\typeLocation
+     * @return \Santosdave\Travelport\Air\typeLocation
      */
     public function setCity($City)
     {
@@ -78,7 +78,7 @@ class typeLocation
 
     /**
      * @param CityOrAirport $CityOrAirport
-     * @return \FilippoToso\Travelport\Air\typeLocation
+     * @return \Santosdave\Travelport\Air\typeLocation
      */
     public function setCityOrAirport($CityOrAirport)
     {

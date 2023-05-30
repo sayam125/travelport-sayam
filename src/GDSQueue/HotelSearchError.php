@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class HotelSearchError extends typeResultMessage
 {
@@ -39,7 +39,7 @@ class HotelSearchError extends typeResultMessage
 
     /**
      * @param typeResultMessage $_
-     * @return \FilippoToso\Travelport\GDSQueue\HotelSearchError
+     * @return \Santosdave\Travelport\GDSQueue\HotelSearchError
      */
     public function set_($_)
     {
@@ -57,7 +57,7 @@ class HotelSearchError extends typeResultMessage
 
     /**
      * @param typeThirdPartySupplier $RateSupplier
-     * @return \FilippoToso\Travelport\GDSQueue\HotelSearchError
+     * @return \Santosdave\Travelport\GDSQueue\HotelSearchError
      */
     public function setRateSupplier($RateSupplier)
     {

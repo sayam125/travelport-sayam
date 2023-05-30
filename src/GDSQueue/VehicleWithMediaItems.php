@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class VehicleWithMediaItems
 {
@@ -40,7 +40,7 @@ class VehicleWithMediaItems
 
     /**
      * @param Vehicle $Vehicle
-     * @return \FilippoToso\Travelport\GDSQueue\VehicleWithMediaItems
+     * @return \Santosdave\Travelport\GDSQueue\VehicleWithMediaItems
      */
     public function setVehicle($Vehicle)
     {
@@ -58,7 +58,7 @@ class VehicleWithMediaItems
 
     /**
      * @param MediaItem $MediaItem
-     * @return \FilippoToso\Travelport\GDSQueue\VehicleWithMediaItems
+     * @return \Santosdave\Travelport\GDSQueue\VehicleWithMediaItems
      */
     public function setMediaItem($MediaItem)
     {
@@ -76,7 +76,7 @@ class VehicleWithMediaItems
 
     /**
      * @param typeResultMessage[] $MediaResultMessage
-     * @return \FilippoToso\Travelport\GDSQueue\VehicleWithMediaItems
+     * @return \Santosdave\Travelport\GDSQueue\VehicleWithMediaItems
      */
     public function setMediaResultMessage(array $MediaResultMessage = null)
     {

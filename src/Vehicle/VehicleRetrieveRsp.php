@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Vehicle;
+namespace Santosdave\Travelport\Vehicle;
 
 class VehicleRetrieveRsp extends BaseRsp
 {
@@ -34,7 +34,7 @@ class VehicleRetrieveRsp extends BaseRsp
 
     /**
      * @param VehicleReservation $VehicleReservation
-     * @return \FilippoToso\Travelport\Vehicle\VehicleRetrieveRsp
+     * @return \Santosdave\Travelport\Vehicle\VehicleRetrieveRsp
      */
     public function setVehicleReservation($VehicleReservation)
     {

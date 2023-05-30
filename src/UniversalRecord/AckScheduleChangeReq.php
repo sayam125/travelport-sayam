@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class AckScheduleChangeReq extends BaseReq
 {
@@ -68,7 +68,7 @@ class AckScheduleChangeReq extends BaseReq
 
     /**
      * @param string $UniversalRecordLocatorCode
-     * @return \FilippoToso\Travelport\UniversalRecord\AckScheduleChangeReq
+     * @return \Santosdave\Travelport\UniversalRecord\AckScheduleChangeReq
      */
     public function setUniversalRecordLocatorCode($UniversalRecordLocatorCode)
     {
@@ -86,7 +86,7 @@ class AckScheduleChangeReq extends BaseReq
 
     /**
      * @param string $ReservationLocatorCode
-     * @return \FilippoToso\Travelport\UniversalRecord\AckScheduleChangeReq
+     * @return \Santosdave\Travelport\UniversalRecord\AckScheduleChangeReq
      */
     public function setReservationLocatorCode($ReservationLocatorCode)
     {
@@ -104,7 +104,7 @@ class AckScheduleChangeReq extends BaseReq
 
     /**
      * @param typeURVersion $Version
-     * @return \FilippoToso\Travelport\UniversalRecord\AckScheduleChangeReq
+     * @return \Santosdave\Travelport\UniversalRecord\AckScheduleChangeReq
      */
     public function setVersion($Version)
     {
@@ -122,7 +122,7 @@ class AckScheduleChangeReq extends BaseReq
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\UniversalRecord\AckScheduleChangeReq
+     * @return \Santosdave\Travelport\UniversalRecord\AckScheduleChangeReq
      */
     public function setProviderCode($ProviderCode)
     {
@@ -140,7 +140,7 @@ class AckScheduleChangeReq extends BaseReq
 
     /**
      * @param typeProviderLocatorCode $ProviderLocatorCode
-     * @return \FilippoToso\Travelport\UniversalRecord\AckScheduleChangeReq
+     * @return \Santosdave\Travelport\UniversalRecord\AckScheduleChangeReq
      */
     public function setProviderLocatorCode($ProviderLocatorCode)
     {

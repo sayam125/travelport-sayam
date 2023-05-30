@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class BookingCodeInfo
 {
@@ -35,7 +35,7 @@ class BookingCodeInfo
 
     /**
      * @param string $CabinClass
-     * @return \FilippoToso\Travelport\GDSQueue\BookingCodeInfo
+     * @return \Santosdave\Travelport\GDSQueue\BookingCodeInfo
      */
     public function setCabinClass($CabinClass)
     {
@@ -53,7 +53,7 @@ class BookingCodeInfo
 
     /**
      * @param string $BookingCounts
-     * @return \FilippoToso\Travelport\GDSQueue\BookingCodeInfo
+     * @return \Santosdave\Travelport\GDSQueue\BookingCodeInfo
      */
     public function setBookingCounts($BookingCounts)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\System;
+namespace Santosdave\Travelport\System;
 
 class typeFeeInfo
 {
@@ -124,7 +124,7 @@ class typeFeeInfo
 
     /**
      * @param TaxInfoRef[] $TaxInfoRef
-     * @return \FilippoToso\Travelport\System\typeFeeInfo
+     * @return \Santosdave\Travelport\System\typeFeeInfo
      */
     public function setTaxInfoRef(array $TaxInfoRef = null)
     {
@@ -142,7 +142,7 @@ class typeFeeInfo
 
     /**
      * @param typeMoney $BaseAmount
-     * @return \FilippoToso\Travelport\System\typeFeeInfo
+     * @return \Santosdave\Travelport\System\typeFeeInfo
      */
     public function setBaseAmount($BaseAmount)
     {
@@ -160,7 +160,7 @@ class typeFeeInfo
 
     /**
      * @param string $Description
-     * @return \FilippoToso\Travelport\System\typeFeeInfo
+     * @return \Santosdave\Travelport\System\typeFeeInfo
      */
     public function setDescription($Description)
     {
@@ -178,7 +178,7 @@ class typeFeeInfo
 
     /**
      * @param string $SubCode
-     * @return \FilippoToso\Travelport\System\typeFeeInfo
+     * @return \Santosdave\Travelport\System\typeFeeInfo
      */
     public function setSubCode($SubCode)
     {
@@ -196,7 +196,7 @@ class typeFeeInfo
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\System\typeFeeInfo
+     * @return \Santosdave\Travelport\System\typeFeeInfo
      */
     public function setKey($Key)
     {
@@ -214,7 +214,7 @@ class typeFeeInfo
 
     /**
      * @param typeMoney $Amount
-     * @return \FilippoToso\Travelport\System\typeFeeInfo
+     * @return \Santosdave\Travelport\System\typeFeeInfo
      */
     public function setAmount($Amount)
     {
@@ -232,7 +232,7 @@ class typeFeeInfo
 
     /**
      * @param string $Code
-     * @return \FilippoToso\Travelport\System\typeFeeInfo
+     * @return \Santosdave\Travelport\System\typeFeeInfo
      */
     public function setCode($Code)
     {
@@ -250,7 +250,7 @@ class typeFeeInfo
 
     /**
      * @param string $FeeToken
-     * @return \FilippoToso\Travelport\System\typeFeeInfo
+     * @return \Santosdave\Travelport\System\typeFeeInfo
      */
     public function setFeeToken($FeeToken)
     {
@@ -268,7 +268,7 @@ class typeFeeInfo
 
     /**
      * @param typeRef $PaymentRef
-     * @return \FilippoToso\Travelport\System\typeFeeInfo
+     * @return \Santosdave\Travelport\System\typeFeeInfo
      */
     public function setPaymentRef($PaymentRef)
     {
@@ -286,7 +286,7 @@ class typeFeeInfo
 
     /**
      * @param typeRef $BookingTravelerRef
-     * @return \FilippoToso\Travelport\System\typeFeeInfo
+     * @return \Santosdave\Travelport\System\typeFeeInfo
      */
     public function setBookingTravelerRef($BookingTravelerRef)
     {
@@ -304,7 +304,7 @@ class typeFeeInfo
 
     /**
      * @param typePTC $PassengerTypeCode
-     * @return \FilippoToso\Travelport\System\typeFeeInfo
+     * @return \Santosdave\Travelport\System\typeFeeInfo
      */
     public function setPassengerTypeCode($PassengerTypeCode)
     {
@@ -322,7 +322,7 @@ class typeFeeInfo
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\System\typeFeeInfo
+     * @return \Santosdave\Travelport\System\typeFeeInfo
      */
     public function setProviderCode($ProviderCode)
     {
@@ -340,7 +340,7 @@ class typeFeeInfo
 
     /**
      * @param typeSupplierCode $SupplierCode
-     * @return \FilippoToso\Travelport\System\typeFeeInfo
+     * @return \Santosdave\Travelport\System\typeFeeInfo
      */
     public function setSupplierCode($SupplierCode)
     {
@@ -358,7 +358,7 @@ class typeFeeInfo
 
     /**
      * @param typeElementStatus $ElStat
-     * @return \FilippoToso\Travelport\System\typeFeeInfo
+     * @return \Santosdave\Travelport\System\typeFeeInfo
      */
     public function setElStat($ElStat)
     {
@@ -376,7 +376,7 @@ class typeFeeInfo
 
     /**
      * @param boolean $KeyOverride
-     * @return \FilippoToso\Travelport\System\typeFeeInfo
+     * @return \Santosdave\Travelport\System\typeFeeInfo
      */
     public function setKeyOverride($KeyOverride)
     {

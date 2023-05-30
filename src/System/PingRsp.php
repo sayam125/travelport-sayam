@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\System;
+namespace Santosdave\Travelport\System;
 
 class PingRsp extends BaseRsp
 {
@@ -34,7 +34,7 @@ class PingRsp extends BaseRsp
 
     /**
      * @param Payload $Payload
-     * @return \FilippoToso\Travelport\System\PingRsp
+     * @return \Santosdave\Travelport\System\PingRsp
      */
     public function setPayload($Payload)
     {

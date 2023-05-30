@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeRailPreferenceHistory extends typeBasePreferenceHistory
 {
@@ -221,7 +221,7 @@ class typeRailPreferenceHistory extends typeBasePreferenceHistory
 
     /**
      * @param typeRailCabin $CabinType
-     * @return \FilippoToso\Travelport\UProfile\typeRailPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeRailPreferenceHistory
      */
     public function setCabinType($CabinType)
     {
@@ -239,7 +239,7 @@ class typeRailPreferenceHistory extends typeBasePreferenceHistory
 
     /**
      * @param int $DomesticTripJourneyHours
-     * @return \FilippoToso\Travelport\UProfile\typeRailPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeRailPreferenceHistory
      */
     public function setDomesticTripJourneyHours($DomesticTripJourneyHours)
     {
@@ -257,7 +257,7 @@ class typeRailPreferenceHistory extends typeBasePreferenceHistory
 
     /**
      * @param anonymous674 $EndingTrainNumber
-     * @return \FilippoToso\Travelport\UProfile\typeRailPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeRailPreferenceHistory
      */
     public function setEndingTrainNumber($EndingTrainNumber)
     {
@@ -275,7 +275,7 @@ class typeRailPreferenceHistory extends typeBasePreferenceHistory
 
     /**
      * @param int $InternationalTripJourneyHours
-     * @return \FilippoToso\Travelport\UProfile\typeRailPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeRailPreferenceHistory
      */
     public function setInternationalTripJourneyHours($InternationalTripJourneyHours)
     {
@@ -293,7 +293,7 @@ class typeRailPreferenceHistory extends typeBasePreferenceHistory
 
     /**
      * @param int $MaxEmployeesPerTrain
-     * @return \FilippoToso\Travelport\UProfile\typeRailPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeRailPreferenceHistory
      */
     public function setMaxEmployeesPerTrain($MaxEmployeesPerTrain)
     {
@@ -311,7 +311,7 @@ class typeRailPreferenceHistory extends typeBasePreferenceHistory
 
     /**
      * @param typeMoney $MaxFareAmount
-     * @return \FilippoToso\Travelport\UProfile\typeRailPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeRailPreferenceHistory
      */
     public function setMaxFareAmount($MaxFareAmount)
     {
@@ -329,7 +329,7 @@ class typeRailPreferenceHistory extends typeBasePreferenceHistory
 
     /**
      * @param typeRailGenderCompartment $GenderCompartmentType
-     * @return \FilippoToso\Travelport\UProfile\typeRailPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeRailPreferenceHistory
      */
     public function setGenderCompartmentType($GenderCompartmentType)
     {
@@ -347,7 +347,7 @@ class typeRailPreferenceHistory extends typeBasePreferenceHistory
 
     /**
      * @param typeRailCoachCompartment $CoachCompartmentType
-     * @return \FilippoToso\Travelport\UProfile\typeRailPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeRailPreferenceHistory
      */
     public function setCoachCompartmentType($CoachCompartmentType)
     {
@@ -365,7 +365,7 @@ class typeRailPreferenceHistory extends typeBasePreferenceHistory
 
     /**
      * @param typeRailSeatArrangement $SeatArrangementType
-     * @return \FilippoToso\Travelport\UProfile\typeRailPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeRailPreferenceHistory
      */
     public function setSeatArrangementType($SeatArrangementType)
     {
@@ -383,7 +383,7 @@ class typeRailPreferenceHistory extends typeBasePreferenceHistory
 
     /**
      * @param typeRailSeating $SeatingType
-     * @return \FilippoToso\Travelport\UProfile\typeRailPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeRailPreferenceHistory
      */
     public function setSeatingType($SeatingType)
     {
@@ -401,7 +401,7 @@ class typeRailPreferenceHistory extends typeBasePreferenceHistory
 
     /**
      * @param boolean $Smoking
-     * @return \FilippoToso\Travelport\UProfile\typeRailPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeRailPreferenceHistory
      */
     public function setSmoking($Smoking)
     {
@@ -419,7 +419,7 @@ class typeRailPreferenceHistory extends typeBasePreferenceHistory
 
     /**
      * @param anonymous675 $StartingTrainNumber
-     * @return \FilippoToso\Travelport\UProfile\typeRailPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeRailPreferenceHistory
      */
     public function setStartingTrainNumber($StartingTrainNumber)
     {
@@ -437,7 +437,7 @@ class typeRailPreferenceHistory extends typeBasePreferenceHistory
 
     /**
      * @param typeRailTicketFulfillmentOption $TicketFulfillmentType
-     * @return \FilippoToso\Travelport\UProfile\typeRailPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeRailPreferenceHistory
      */
     public function setTicketFulfillmentType($TicketFulfillmentType)
     {
@@ -455,7 +455,7 @@ class typeRailPreferenceHistory extends typeBasePreferenceHistory
 
     /**
      * @param anonymous882 $AccountCode
-     * @return \FilippoToso\Travelport\UProfile\typeRailPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeRailPreferenceHistory
      */
     public function setAccountCode($AccountCode)
     {
@@ -473,7 +473,7 @@ class typeRailPreferenceHistory extends typeBasePreferenceHistory
 
     /**
      * @param typeGeoPoliticalAreaType $ArrivalGeoPoliticalAreaType
-     * @return \FilippoToso\Travelport\UProfile\typeRailPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeRailPreferenceHistory
      */
     public function setArrivalGeoPoliticalAreaType($ArrivalGeoPoliticalAreaType)
     {
@@ -491,7 +491,7 @@ class typeRailPreferenceHistory extends typeBasePreferenceHistory
 
     /**
      * @param typeGeoPoliticalAreaCode $ArrivalGeoPoliticalAreaCode
-     * @return \FilippoToso\Travelport\UProfile\typeRailPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeRailPreferenceHistory
      */
     public function setArrivalGeoPoliticalAreaCode($ArrivalGeoPoliticalAreaCode)
     {
@@ -509,7 +509,7 @@ class typeRailPreferenceHistory extends typeBasePreferenceHistory
 
     /**
      * @param typeMoney $BenchMarkAmount
-     * @return \FilippoToso\Travelport\UProfile\typeRailPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeRailPreferenceHistory
      */
     public function setBenchMarkAmount($BenchMarkAmount)
     {
@@ -527,7 +527,7 @@ class typeRailPreferenceHistory extends typeBasePreferenceHistory
 
     /**
      * @param typeGeoPoliticalAreaType $ConnectionGeoPoliticalAreaType
-     * @return \FilippoToso\Travelport\UProfile\typeRailPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeRailPreferenceHistory
      */
     public function setConnectionGeoPoliticalAreaType($ConnectionGeoPoliticalAreaType)
     {
@@ -545,7 +545,7 @@ class typeRailPreferenceHistory extends typeBasePreferenceHistory
 
     /**
      * @param typeGeoPoliticalAreaCode $ConnectionGeoPoliticalAreaCode
-     * @return \FilippoToso\Travelport\UProfile\typeRailPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeRailPreferenceHistory
      */
     public function setConnectionGeoPoliticalAreaCode($ConnectionGeoPoliticalAreaCode)
     {
@@ -563,7 +563,7 @@ class typeRailPreferenceHistory extends typeBasePreferenceHistory
 
     /**
      * @param anonymous883 $ContractCode
-     * @return \FilippoToso\Travelport\UProfile\typeRailPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeRailPreferenceHistory
      */
     public function setContractCode($ContractCode)
     {
@@ -581,7 +581,7 @@ class typeRailPreferenceHistory extends typeBasePreferenceHistory
 
     /**
      * @param anonymous884 $CorporateID
-     * @return \FilippoToso\Travelport\UProfile\typeRailPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeRailPreferenceHistory
      */
     public function setCorporateID($CorporateID)
     {
@@ -599,7 +599,7 @@ class typeRailPreferenceHistory extends typeBasePreferenceHistory
 
     /**
      * @param typePCC $PseudoCityCode
-     * @return \FilippoToso\Travelport\UProfile\typeRailPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeRailPreferenceHistory
      */
     public function setPseudoCityCode($PseudoCityCode)
     {
@@ -617,7 +617,7 @@ class typeRailPreferenceHistory extends typeBasePreferenceHistory
 
     /**
      * @param date $TravelStartDate
-     * @return \FilippoToso\Travelport\UProfile\typeRailPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeRailPreferenceHistory
      */
     public function setTravelStartDate($TravelStartDate)
     {
@@ -635,7 +635,7 @@ class typeRailPreferenceHistory extends typeBasePreferenceHistory
 
     /**
      * @param date $TravelEndDate
-     * @return \FilippoToso\Travelport\UProfile\typeRailPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeRailPreferenceHistory
      */
     public function setTravelEndDate($TravelEndDate)
     {
@@ -653,7 +653,7 @@ class typeRailPreferenceHistory extends typeBasePreferenceHistory
 
     /**
      * @param anonymous885 $SeatPositionMiscTravel
-     * @return \FilippoToso\Travelport\UProfile\typeRailPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeRailPreferenceHistory
      */
     public function setSeatPositionMiscTravel($SeatPositionMiscTravel)
     {
@@ -671,7 +671,7 @@ class typeRailPreferenceHistory extends typeBasePreferenceHistory
 
     /**
      * @param anonymous886 $SeatPositionRefCategory
-     * @return \FilippoToso\Travelport\UProfile\typeRailPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeRailPreferenceHistory
      */
     public function setSeatPositionRefCategory($SeatPositionRefCategory)
     {

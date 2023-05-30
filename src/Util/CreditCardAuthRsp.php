@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class CreditCardAuthRsp extends BaseRsp
 {
@@ -34,7 +34,7 @@ class CreditCardAuthRsp extends BaseRsp
 
     /**
      * @param CreditCardAuth $CreditCardAuth
-     * @return \FilippoToso\Travelport\Util\CreditCardAuthRsp
+     * @return \Santosdave\Travelport\Util\CreditCardAuthRsp
      */
     public function setCreditCardAuth($CreditCardAuth)
     {

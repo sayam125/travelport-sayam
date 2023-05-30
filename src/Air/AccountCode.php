@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class AccountCode
 {
@@ -49,7 +49,7 @@ class AccountCode
 
     /**
      * @param anonymous128 $Code
-     * @return \FilippoToso\Travelport\Air\AccountCode
+     * @return \Santosdave\Travelport\Air\AccountCode
      */
     public function setCode($Code)
     {
@@ -67,7 +67,7 @@ class AccountCode
 
     /**
      * @param string $Type
-     * @return \FilippoToso\Travelport\Air\AccountCode
+     * @return \Santosdave\Travelport\Air\AccountCode
      */
     public function setType($Type)
     {
@@ -85,7 +85,7 @@ class AccountCode
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\Air\AccountCode
+     * @return \Santosdave\Travelport\Air\AccountCode
      */
     public function setProviderCode($ProviderCode)
     {
@@ -103,7 +103,7 @@ class AccountCode
 
     /**
      * @param typeSupplierCode $SupplierCode
-     * @return \FilippoToso\Travelport\Air\AccountCode
+     * @return \Santosdave\Travelport\Air\AccountCode
      */
     public function setSupplierCode($SupplierCode)
     {

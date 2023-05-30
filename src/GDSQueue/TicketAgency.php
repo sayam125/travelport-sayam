@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class TicketAgency
 {
@@ -35,7 +35,7 @@ class TicketAgency
 
     /**
      * @param UNKNOWN $ProviderCode
-     * @return \FilippoToso\Travelport\GDSQueue\TicketAgency
+     * @return \Santosdave\Travelport\GDSQueue\TicketAgency
      */
     public function setProviderCode($ProviderCode)
     {
@@ -53,7 +53,7 @@ class TicketAgency
 
     /**
      * @param UNKNOWN $PseudoCityCode
-     * @return \FilippoToso\Travelport\GDSQueue\TicketAgency
+     * @return \Santosdave\Travelport\GDSQueue\TicketAgency
      */
     public function setPseudoCityCode($PseudoCityCode)
     {

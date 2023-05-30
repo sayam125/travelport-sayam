@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class AvailabilitySearchReq extends AirSearchReq
 {
@@ -74,7 +74,7 @@ class AvailabilitySearchReq extends AirSearchReq
 
     /**
      * @param SearchPassenger $SearchPassenger
-     * @return \FilippoToso\Travelport\Air\AvailabilitySearchReq
+     * @return \Santosdave\Travelport\Air\AvailabilitySearchReq
      */
     public function setSearchPassenger($SearchPassenger)
     {
@@ -92,7 +92,7 @@ class AvailabilitySearchReq extends AirSearchReq
 
     /**
      * @param PointOfSale $PointOfSale
-     * @return \FilippoToso\Travelport\Air\AvailabilitySearchReq
+     * @return \Santosdave\Travelport\Air\AvailabilitySearchReq
      */
     public function setPointOfSale($PointOfSale)
     {
@@ -110,7 +110,7 @@ class AvailabilitySearchReq extends AirSearchReq
 
     /**
      * @param boolean $ReturnBrandIndicator
-     * @return \FilippoToso\Travelport\Air\AvailabilitySearchReq
+     * @return \Santosdave\Travelport\Air\AvailabilitySearchReq
      */
     public function setReturnBrandIndicator($ReturnBrandIndicator)
     {
@@ -128,7 +128,7 @@ class AvailabilitySearchReq extends AirSearchReq
 
     /**
      * @param anonymous1191 $ChannelId
-     * @return \FilippoToso\Travelport\Air\AvailabilitySearchReq
+     * @return \Santosdave\Travelport\Air\AvailabilitySearchReq
      */
     public function setChannelId($ChannelId)
     {
@@ -146,7 +146,7 @@ class AvailabilitySearchReq extends AirSearchReq
 
     /**
      * @param anonymous1192 $NSCC
-     * @return \FilippoToso\Travelport\Air\AvailabilitySearchReq
+     * @return \Santosdave\Travelport\Air\AvailabilitySearchReq
      */
     public function setNSCC($NSCC)
     {

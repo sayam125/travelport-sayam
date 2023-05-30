@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class typeRentalPeriod
 {
@@ -42,7 +42,7 @@ class typeRentalPeriod
 
     /**
      * @param anonymous1128 $RentalUnit
-     * @return \FilippoToso\Travelport\UniversalRecord\typeRentalPeriod
+     * @return \Santosdave\Travelport\UniversalRecord\typeRentalPeriod
      */
     public function setRentalUnit($RentalUnit)
     {
@@ -60,7 +60,7 @@ class typeRentalPeriod
 
     /**
      * @param int $Length
-     * @return \FilippoToso\Travelport\UniversalRecord\typeRentalPeriod
+     * @return \Santosdave\Travelport\UniversalRecord\typeRentalPeriod
      */
     public function setLength($Length)
     {
@@ -78,7 +78,7 @@ class typeRentalPeriod
 
     /**
      * @param boolean $RequirementPassed
-     * @return \FilippoToso\Travelport\UniversalRecord\typeRentalPeriod
+     * @return \Santosdave\Travelport\UniversalRecord\typeRentalPeriod
      */
     public function setRequirementPassed($RequirementPassed)
     {

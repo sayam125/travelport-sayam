@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class SearchTicketing
 {
@@ -42,7 +42,7 @@ class SearchTicketing
 
     /**
      * @param anonymous199 $TicketStatus
-     * @return \FilippoToso\Travelport\GDSQueue\SearchTicketing
+     * @return \Santosdave\Travelport\GDSQueue\SearchTicketing
      */
     public function setTicketStatus($TicketStatus)
     {
@@ -60,7 +60,7 @@ class SearchTicketing
 
     /**
      * @param anonymous200 $ReservationStatus
-     * @return \FilippoToso\Travelport\GDSQueue\SearchTicketing
+     * @return \Santosdave\Travelport\GDSQueue\SearchTicketing
      */
     public function setReservationStatus($ReservationStatus)
     {
@@ -78,7 +78,7 @@ class SearchTicketing
 
     /**
      * @param date $TicketDate
-     * @return \FilippoToso\Travelport\GDSQueue\SearchTicketing
+     * @return \Santosdave\Travelport\GDSQueue\SearchTicketing
      */
     public function setTicketDate($TicketDate)
     {

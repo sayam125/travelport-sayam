@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class CodeshareInfo
 {
@@ -42,7 +42,7 @@ class CodeshareInfo
 
     /**
      * @param string $_
-     * @return \FilippoToso\Travelport\Air\CodeshareInfo
+     * @return \Santosdave\Travelport\Air\CodeshareInfo
      */
     public function set_($_)
     {
@@ -60,7 +60,7 @@ class CodeshareInfo
 
     /**
      * @param typeCarrier $OperatingCarrier
-     * @return \FilippoToso\Travelport\Air\CodeshareInfo
+     * @return \Santosdave\Travelport\Air\CodeshareInfo
      */
     public function setOperatingCarrier($OperatingCarrier)
     {
@@ -78,7 +78,7 @@ class CodeshareInfo
 
     /**
      * @param typeFlightNumber $OperatingFlightNumber
-     * @return \FilippoToso\Travelport\Air\CodeshareInfo
+     * @return \Santosdave\Travelport\Air\CodeshareInfo
      */
     public function setOperatingFlightNumber($OperatingFlightNumber)
     {

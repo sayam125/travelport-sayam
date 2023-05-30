@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class AirSegmentData
 {
@@ -56,7 +56,7 @@ class AirSegmentData
 
     /**
      * @param AirSegmentRef $AirSegmentRef
-     * @return \FilippoToso\Travelport\UniversalRecord\AirSegmentData
+     * @return \Santosdave\Travelport\UniversalRecord\AirSegmentData
      */
     public function setAirSegmentRef($AirSegmentRef)
     {
@@ -74,7 +74,7 @@ class AirSegmentData
 
     /**
      * @param BaggageAllowance $BaggageAllowance
-     * @return \FilippoToso\Travelport\UniversalRecord\AirSegmentData
+     * @return \Santosdave\Travelport\UniversalRecord\AirSegmentData
      */
     public function setBaggageAllowance($BaggageAllowance)
     {
@@ -92,7 +92,7 @@ class AirSegmentData
 
     /**
      * @param Brand $Brand
-     * @return \FilippoToso\Travelport\UniversalRecord\AirSegmentData
+     * @return \Santosdave\Travelport\UniversalRecord\AirSegmentData
      */
     public function setBrand($Brand)
     {
@@ -110,7 +110,7 @@ class AirSegmentData
 
     /**
      * @param string $CabinClass
-     * @return \FilippoToso\Travelport\UniversalRecord\AirSegmentData
+     * @return \Santosdave\Travelport\UniversalRecord\AirSegmentData
      */
     public function setCabinClass($CabinClass)
     {
@@ -128,7 +128,7 @@ class AirSegmentData
 
     /**
      * @param typeClassOfService $ClassOfService
-     * @return \FilippoToso\Travelport\UniversalRecord\AirSegmentData
+     * @return \Santosdave\Travelport\UniversalRecord\AirSegmentData
      */
     public function setClassOfService($ClassOfService)
     {

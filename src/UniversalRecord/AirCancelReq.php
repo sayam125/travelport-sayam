@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class AirCancelReq extends BaseReq
 {
@@ -75,7 +75,7 @@ class AirCancelReq extends BaseReq
 
     /**
      * @param ContinuityCheckOverride $ContinuityCheckOverride
-     * @return \FilippoToso\Travelport\UniversalRecord\AirCancelReq
+     * @return \Santosdave\Travelport\UniversalRecord\AirCancelReq
      */
     public function setContinuityCheckOverride($ContinuityCheckOverride)
     {
@@ -93,7 +93,7 @@ class AirCancelReq extends BaseReq
 
     /**
      * @param AirReservationLocatorCode $AirReservationLocatorCode
-     * @return \FilippoToso\Travelport\UniversalRecord\AirCancelReq
+     * @return \Santosdave\Travelport\UniversalRecord\AirCancelReq
      */
     public function setAirReservationLocatorCode($AirReservationLocatorCode)
     {
@@ -111,7 +111,7 @@ class AirCancelReq extends BaseReq
 
     /**
      * @param typeBaseAirSegment $AirSegment
-     * @return \FilippoToso\Travelport\UniversalRecord\AirCancelReq
+     * @return \Santosdave\Travelport\UniversalRecord\AirCancelReq
      */
     public function setAirSegment($AirSegment)
     {
@@ -129,7 +129,7 @@ class AirCancelReq extends BaseReq
 
     /**
      * @param AirSegmentRef $AirSegmentRef
-     * @return \FilippoToso\Travelport\UniversalRecord\AirCancelReq
+     * @return \Santosdave\Travelport\UniversalRecord\AirCancelReq
      */
     public function setAirSegmentRef($AirSegmentRef)
     {
@@ -147,7 +147,7 @@ class AirCancelReq extends BaseReq
 
     /**
      * @param FileFinishingInfo $FileFinishingInfo
-     * @return \FilippoToso\Travelport\UniversalRecord\AirCancelReq
+     * @return \Santosdave\Travelport\UniversalRecord\AirCancelReq
      */
     public function setFileFinishingInfo($FileFinishingInfo)
     {
@@ -165,7 +165,7 @@ class AirCancelReq extends BaseReq
 
     /**
      * @param typeURVersion $Version
-     * @return \FilippoToso\Travelport\UniversalRecord\AirCancelReq
+     * @return \Santosdave\Travelport\UniversalRecord\AirCancelReq
      */
     public function setVersion($Version)
     {

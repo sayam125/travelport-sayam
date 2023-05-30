@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class typeTicketModifierAmountType
 {
@@ -28,7 +28,7 @@ class typeTicketModifierAmountType
 
     /**
      * @param typeMoney $Amount
-     * @return \FilippoToso\Travelport\Air\typeTicketModifierAmountType
+     * @return \Santosdave\Travelport\Air\typeTicketModifierAmountType
      */
     public function setAmount($Amount)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class AgencyContactInfo
 {
@@ -35,7 +35,7 @@ class AgencyContactInfo
 
     /**
      * @param PhoneNumber $PhoneNumber
-     * @return \FilippoToso\Travelport\Air\AgencyContactInfo
+     * @return \Santosdave\Travelport\Air\AgencyContactInfo
      */
     public function setPhoneNumber($PhoneNumber)
     {
@@ -53,7 +53,7 @@ class AgencyContactInfo
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Air\AgencyContactInfo
+     * @return \Santosdave\Travelport\Air\AgencyContactInfo
      */
     public function setKey($Key)
     {

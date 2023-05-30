@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class AirRepriceReq extends AirBaseReq
 {
@@ -61,7 +61,7 @@ class AirRepriceReq extends AirBaseReq
 
     /**
      * @param AirReservationLocatorCode $AirReservationLocatorCode
-     * @return \FilippoToso\Travelport\Air\AirRepriceReq
+     * @return \Santosdave\Travelport\Air\AirRepriceReq
      */
     public function setAirReservationLocatorCode($AirReservationLocatorCode)
     {
@@ -79,7 +79,7 @@ class AirRepriceReq extends AirBaseReq
 
     /**
      * @param AirPricingSolution $AirPricingSolution
-     * @return \FilippoToso\Travelport\Air\AirRepriceReq
+     * @return \Santosdave\Travelport\Air\AirRepriceReq
      */
     public function setAirPricingSolution($AirPricingSolution)
     {
@@ -97,7 +97,7 @@ class AirRepriceReq extends AirBaseReq
 
     /**
      * @param typeFareRuleType $FareRuleType
-     * @return \FilippoToso\Travelport\Air\AirRepriceReq
+     * @return \Santosdave\Travelport\Air\AirRepriceReq
      */
     public function setFareRuleType($FareRuleType)
     {
@@ -115,7 +115,7 @@ class AirRepriceReq extends AirBaseReq
 
     /**
      * @param boolean $IgnoreAvailability
-     * @return \FilippoToso\Travelport\Air\AirRepriceReq
+     * @return \Santosdave\Travelport\Air\AirRepriceReq
      */
     public function setIgnoreAvailability($IgnoreAvailability)
     {

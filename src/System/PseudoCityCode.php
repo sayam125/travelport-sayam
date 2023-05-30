@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\System;
+namespace Santosdave\Travelport\System;
 
 class PseudoCityCode
 {
@@ -28,7 +28,7 @@ class PseudoCityCode
 
     /**
      * @param typePCC $_
-     * @return \FilippoToso\Travelport\System\PseudoCityCode
+     * @return \Santosdave\Travelport\System\PseudoCityCode
      */
     public function set_($_)
     {

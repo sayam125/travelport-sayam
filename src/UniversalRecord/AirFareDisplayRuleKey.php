@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class AirFareDisplayRuleKey
 {
@@ -35,7 +35,7 @@ class AirFareDisplayRuleKey
 
     /**
      * @param typeNonBlanks $_
-     * @return \FilippoToso\Travelport\UniversalRecord\AirFareDisplayRuleKey
+     * @return \Santosdave\Travelport\UniversalRecord\AirFareDisplayRuleKey
      */
     public function set_($_)
     {
@@ -53,7 +53,7 @@ class AirFareDisplayRuleKey
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\UniversalRecord\AirFareDisplayRuleKey
+     * @return \Santosdave\Travelport\UniversalRecord\AirFareDisplayRuleKey
      */
     public function setProviderCode($ProviderCode)
     {

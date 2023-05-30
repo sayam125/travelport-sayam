@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class EmergencyContact
 {
@@ -42,7 +42,7 @@ class EmergencyContact
 
     /**
      * @param PhoneNumber $PhoneNumber
-     * @return \FilippoToso\Travelport\UProfile\EmergencyContact
+     * @return \Santosdave\Travelport\UProfile\EmergencyContact
      */
     public function setPhoneNumber($PhoneNumber)
     {
@@ -60,7 +60,7 @@ class EmergencyContact
 
     /**
      * @param UNKNOWN $Name
-     * @return \FilippoToso\Travelport\UProfile\EmergencyContact
+     * @return \Santosdave\Travelport\UProfile\EmergencyContact
      */
     public function setName($Name)
     {
@@ -78,7 +78,7 @@ class EmergencyContact
 
     /**
      * @param UNKNOWN $Relationship
-     * @return \FilippoToso\Travelport\UProfile\EmergencyContact
+     * @return \Santosdave\Travelport\UProfile\EmergencyContact
      */
     public function setRelationship($Relationship)
     {

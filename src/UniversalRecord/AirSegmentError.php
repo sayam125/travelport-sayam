@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class AirSegmentError
 {
@@ -35,7 +35,7 @@ class AirSegmentError
 
     /**
      * @param typeBaseAirSegment $AirSegment
-     * @return \FilippoToso\Travelport\UniversalRecord\AirSegmentError
+     * @return \Santosdave\Travelport\UniversalRecord\AirSegmentError
      */
     public function setAirSegment($AirSegment)
     {
@@ -53,7 +53,7 @@ class AirSegmentError
 
     /**
      * @param string $ErrorMessage
-     * @return \FilippoToso\Travelport\UniversalRecord\AirSegmentError
+     * @return \Santosdave\Travelport\UniversalRecord\AirSegmentError
      */
     public function setErrorMessage($ErrorMessage)
     {

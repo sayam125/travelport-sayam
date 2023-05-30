@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class Amenities
 {
@@ -28,7 +28,7 @@ class Amenities
 
     /**
      * @param Amenity $Amenity
-     * @return \FilippoToso\Travelport\Hotel\Amenities
+     * @return \Santosdave\Travelport\Hotel\Amenities
      */
     public function setAmenity($Amenity)
     {

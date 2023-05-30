@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class EMDInfo
 {
@@ -126,7 +126,7 @@ class EMDInfo
 
     /**
      * @param EMDTravelerInfo $EMDTravelerInfo
-     * @return \FilippoToso\Travelport\Util\EMDInfo
+     * @return \Santosdave\Travelport\Util\EMDInfo
      */
     public function setEMDTravelerInfo($EMDTravelerInfo)
     {
@@ -144,7 +144,7 @@ class EMDInfo
 
     /**
      * @param SupplierLocator $SupplierLocator
-     * @return \FilippoToso\Travelport\Util\EMDInfo
+     * @return \Santosdave\Travelport\Util\EMDInfo
      */
     public function setSupplierLocator($SupplierLocator)
     {
@@ -162,7 +162,7 @@ class EMDInfo
 
     /**
      * @param ElectronicMiscDocument $ElectronicMiscDocument
-     * @return \FilippoToso\Travelport\Util\EMDInfo
+     * @return \Santosdave\Travelport\Util\EMDInfo
      */
     public function setElectronicMiscDocument($ElectronicMiscDocument)
     {
@@ -180,7 +180,7 @@ class EMDInfo
 
     /**
      * @param Payment $Payment
-     * @return \FilippoToso\Travelport\Util\EMDInfo
+     * @return \Santosdave\Travelport\Util\EMDInfo
      */
     public function setPayment($Payment)
     {
@@ -198,7 +198,7 @@ class EMDInfo
 
     /**
      * @param FormOfPayment $FormOfPayment
-     * @return \FilippoToso\Travelport\Util\EMDInfo
+     * @return \Santosdave\Travelport\Util\EMDInfo
      */
     public function setFormOfPayment($FormOfPayment)
     {
@@ -216,7 +216,7 @@ class EMDInfo
 
     /**
      * @param EMDPricingInfo $EMDPricingInfo
-     * @return \FilippoToso\Travelport\Util\EMDInfo
+     * @return \Santosdave\Travelport\Util\EMDInfo
      */
     public function setEMDPricingInfo($EMDPricingInfo)
     {
@@ -234,7 +234,7 @@ class EMDInfo
 
     /**
      * @param EMDEndorsement $EMDEndorsement
-     * @return \FilippoToso\Travelport\Util\EMDInfo
+     * @return \Santosdave\Travelport\Util\EMDInfo
      */
     public function setEMDEndorsement($EMDEndorsement)
     {
@@ -252,7 +252,7 @@ class EMDInfo
 
     /**
      * @param string $FareCalc
-     * @return \FilippoToso\Travelport\Util\EMDInfo
+     * @return \Santosdave\Travelport\Util\EMDInfo
      */
     public function setFareCalc($FareCalc)
     {
@@ -270,7 +270,7 @@ class EMDInfo
 
     /**
      * @param EMDCommission $EMDCommission
-     * @return \FilippoToso\Travelport\Util\EMDInfo
+     * @return \Santosdave\Travelport\Util\EMDInfo
      */
     public function setEMDCommission($EMDCommission)
     {
@@ -288,7 +288,7 @@ class EMDInfo
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Util\EMDInfo
+     * @return \Santosdave\Travelport\Util\EMDInfo
      */
     public function setKey($Key)
     {
@@ -306,7 +306,7 @@ class EMDInfo
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\Util\EMDInfo
+     * @return \Santosdave\Travelport\Util\EMDInfo
      */
     public function setProviderCode($ProviderCode)
     {
@@ -324,7 +324,7 @@ class EMDInfo
 
     /**
      * @param typeProviderLocatorCode $ProviderLocatorCode
-     * @return \FilippoToso\Travelport\Util\EMDInfo
+     * @return \Santosdave\Travelport\Util\EMDInfo
      */
     public function setProviderLocatorCode($ProviderLocatorCode)
     {
@@ -342,7 +342,7 @@ class EMDInfo
 
     /**
      * @param typeSupplierCode $SupplierCode
-     * @return \FilippoToso\Travelport\Util\EMDInfo
+     * @return \Santosdave\Travelport\Util\EMDInfo
      */
     public function setSupplierCode($SupplierCode)
     {
@@ -360,7 +360,7 @@ class EMDInfo
 
     /**
      * @param typeElementStatus $ElStat
-     * @return \FilippoToso\Travelport\Util\EMDInfo
+     * @return \Santosdave\Travelport\Util\EMDInfo
      */
     public function setElStat($ElStat)
     {
@@ -378,7 +378,7 @@ class EMDInfo
 
     /**
      * @param boolean $KeyOverride
-     * @return \FilippoToso\Travelport\Util\EMDInfo
+     * @return \Santosdave\Travelport\Util\EMDInfo
      */
     public function setKeyOverride($KeyOverride)
     {

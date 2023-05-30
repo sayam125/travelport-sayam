@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class UniversalModifyErrorInfo extends typeErrorInfo
 {
@@ -42,7 +42,7 @@ class UniversalModifyErrorInfo extends typeErrorInfo
 
     /**
      * @param UniversalModifyCommandError $UniversalModifyCommandError
-     * @return \FilippoToso\Travelport\Rail\UniversalModifyErrorInfo
+     * @return \Santosdave\Travelport\Rail\UniversalModifyErrorInfo
      */
     public function setUniversalModifyCommandError($UniversalModifyCommandError)
     {
@@ -60,7 +60,7 @@ class UniversalModifyErrorInfo extends typeErrorInfo
 
     /**
      * @param AirSegmentError $AirSegmentError
-     * @return \FilippoToso\Travelport\Rail\UniversalModifyErrorInfo
+     * @return \Santosdave\Travelport\Rail\UniversalModifyErrorInfo
      */
     public function setAirSegmentError($AirSegmentError)
     {

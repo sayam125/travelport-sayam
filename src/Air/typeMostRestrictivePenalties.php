@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class typeMostRestrictivePenalties
 {
@@ -26,7 +26,7 @@ class typeMostRestrictivePenalties
 
     /**
      * @param typeRestrictionData[] $RestrictionType
-     * @return \FilippoToso\Travelport\Air\typeMostRestrictivePenalties
+     * @return \Santosdave\Travelport\Air\typeMostRestrictivePenalties
      */
     public function setRestrictionType(array $RestrictionType = null)
     {

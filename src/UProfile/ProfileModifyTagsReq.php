@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class ProfileModifyTagsReq extends BaseReq
 {
@@ -40,7 +40,7 @@ class ProfileModifyTagsReq extends BaseReq
 
     /**
      * @param ModifyTag $ModifyTag
-     * @return \FilippoToso\Travelport\UProfile\ProfileModifyTagsReq
+     * @return \Santosdave\Travelport\UProfile\ProfileModifyTagsReq
      */
     public function setModifyTag($ModifyTag)
     {

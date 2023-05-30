@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class HotelCreateReservationRsp extends BaseRsp
 {
@@ -39,7 +39,7 @@ class HotelCreateReservationRsp extends BaseRsp
 
     /**
      * @param UniversalRecord $UniversalRecord
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelCreateReservationRsp
+     * @return \Santosdave\Travelport\UniversalRecord\HotelCreateReservationRsp
      */
     public function setUniversalRecord($UniversalRecord)
     {
@@ -57,7 +57,7 @@ class HotelCreateReservationRsp extends BaseRsp
 
     /**
      * @param HotelRateChangedInfo $HotelRateChangedInfo
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelCreateReservationRsp
+     * @return \Santosdave\Travelport\UniversalRecord\HotelCreateReservationRsp
      */
     public function setHotelRateChangedInfo($HotelRateChangedInfo)
     {

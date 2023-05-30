@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Vehicle;
+namespace Santosdave\Travelport\Vehicle;
 
 class VehicleMediaLinksReq extends BaseReq
 {
@@ -47,7 +47,7 @@ class VehicleMediaLinksReq extends BaseReq
 
     /**
      * @param VehicleSearchId $VehicleSearchId
-     * @return \FilippoToso\Travelport\Vehicle\VehicleMediaLinksReq
+     * @return \Santosdave\Travelport\Vehicle\VehicleMediaLinksReq
      */
     public function setVehicleSearchId($VehicleSearchId)
     {
@@ -65,7 +65,7 @@ class VehicleMediaLinksReq extends BaseReq
 
     /**
      * @param VehiclePickupLocation $VehiclePickupLocation
-     * @return \FilippoToso\Travelport\Vehicle\VehicleMediaLinksReq
+     * @return \Santosdave\Travelport\Vehicle\VehicleMediaLinksReq
      */
     public function setVehiclePickupLocation($VehiclePickupLocation)
     {

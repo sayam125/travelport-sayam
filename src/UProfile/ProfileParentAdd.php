@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class ProfileParentAdd
 {
@@ -42,7 +42,7 @@ class ProfileParentAdd
 
     /**
      * @param typeProfileID $ProfileID
-     * @return \FilippoToso\Travelport\UProfile\ProfileParentAdd
+     * @return \Santosdave\Travelport\UProfile\ProfileParentAdd
      */
     public function setProfileID($ProfileID)
     {
@@ -60,7 +60,7 @@ class ProfileParentAdd
 
     /**
      * @param ProvisioningCode $ProvisioningCode
-     * @return \FilippoToso\Travelport\UProfile\ProfileParentAdd
+     * @return \Santosdave\Travelport\UProfile\ProfileParentAdd
      */
     public function setProvisioningCode($ProvisioningCode)
     {
@@ -78,7 +78,7 @@ class ProfileParentAdd
 
     /**
      * @param UniqueProfileID $UniqueProfileID
-     * @return \FilippoToso\Travelport\UProfile\ProfileParentAdd
+     * @return \Santosdave\Travelport\UProfile\ProfileParentAdd
      */
     public function setUniqueProfileID($UniqueProfileID)
     {

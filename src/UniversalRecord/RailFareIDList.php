@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class RailFareIDList
 {
@@ -28,7 +28,7 @@ class RailFareIDList
 
     /**
      * @param RailFareID $RailFareID
-     * @return \FilippoToso\Travelport\UniversalRecord\RailFareIDList
+     * @return \Santosdave\Travelport\UniversalRecord\RailFareIDList
      */
     public function setRailFareID($RailFareID)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class AppliedProfileCriteria
 {
@@ -28,7 +28,7 @@ class AppliedProfileCriteria
 
     /**
      * @param anonymous1412 $TravelerProfileId
-     * @return \FilippoToso\Travelport\GDSQueue\AppliedProfileCriteria
+     * @return \Santosdave\Travelport\GDSQueue\AppliedProfileCriteria
      */
     public function setTravelerProfileId($TravelerProfileId)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class ExternalReservationInfo
 {
@@ -35,7 +35,7 @@ class ExternalReservationInfo
 
     /**
      * @param typeLocatorCode $LocatorCode
-     * @return \FilippoToso\Travelport\Rail\ExternalReservationInfo
+     * @return \Santosdave\Travelport\Rail\ExternalReservationInfo
      */
     public function setLocatorCode($LocatorCode)
     {
@@ -53,7 +53,7 @@ class ExternalReservationInfo
 
     /**
      * @param typeCarrier $Carrier
-     * @return \FilippoToso\Travelport\Rail\ExternalReservationInfo
+     * @return \Santosdave\Travelport\Rail\ExternalReservationInfo
      */
     public function setCarrier($Carrier)
     {

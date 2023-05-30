@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class BackOfficeHandOff
 {
@@ -42,7 +42,7 @@ class BackOfficeHandOff
 
     /**
      * @param typeBackOffice $Type
-     * @return \FilippoToso\Travelport\Rail\BackOfficeHandOff
+     * @return \Santosdave\Travelport\Rail\BackOfficeHandOff
      */
     public function setType($Type)
     {
@@ -60,7 +60,7 @@ class BackOfficeHandOff
 
     /**
      * @param string $Location
-     * @return \FilippoToso\Travelport\Rail\BackOfficeHandOff
+     * @return \Santosdave\Travelport\Rail\BackOfficeHandOff
      */
     public function setLocation($Location)
     {
@@ -78,7 +78,7 @@ class BackOfficeHandOff
 
     /**
      * @param typePCC $PseudoCityCode
-     * @return \FilippoToso\Travelport\Rail\BackOfficeHandOff
+     * @return \Santosdave\Travelport\Rail\BackOfficeHandOff
      */
     public function setPseudoCityCode($PseudoCityCode)
     {

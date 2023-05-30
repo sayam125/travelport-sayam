@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Terminal;
+namespace Santosdave\Travelport\Terminal;
 
 class typeCreditCardType extends typePaymentCard
 {
@@ -85,7 +85,7 @@ class typeCreditCardType extends typePaymentCard
 
     /**
      * @param string $ExtendedPayment
-     * @return \FilippoToso\Travelport\Terminal\typeCreditCardType
+     * @return \Santosdave\Travelport\Terminal\typeCreditCardType
      */
     public function setExtendedPayment($ExtendedPayment)
     {
@@ -103,7 +103,7 @@ class typeCreditCardType extends typePaymentCard
 
     /**
      * @param string $CustomerReference
-     * @return \FilippoToso\Travelport\Terminal\typeCreditCardType
+     * @return \Santosdave\Travelport\Terminal\typeCreditCardType
      */
     public function setCustomerReference($CustomerReference)
     {
@@ -121,7 +121,7 @@ class typeCreditCardType extends typePaymentCard
 
     /**
      * @param boolean $AcceptanceOverride
-     * @return \FilippoToso\Travelport\Terminal\typeCreditCardType
+     * @return \Santosdave\Travelport\Terminal\typeCreditCardType
      */
     public function setAcceptanceOverride($AcceptanceOverride)
     {
@@ -139,7 +139,7 @@ class typeCreditCardType extends typePaymentCard
 
     /**
      * @param boolean $ThirdPartyPayment
-     * @return \FilippoToso\Travelport\Terminal\typeCreditCardType
+     * @return \Santosdave\Travelport\Terminal\typeCreditCardType
      */
     public function setThirdPartyPayment($ThirdPartyPayment)
     {
@@ -157,7 +157,7 @@ class typeCreditCardType extends typePaymentCard
 
     /**
      * @param string $BankName
-     * @return \FilippoToso\Travelport\Terminal\typeCreditCardType
+     * @return \Santosdave\Travelport\Terminal\typeCreditCardType
      */
     public function setBankName($BankName)
     {
@@ -175,7 +175,7 @@ class typeCreditCardType extends typePaymentCard
 
     /**
      * @param typeCountry $BankCountryCode
-     * @return \FilippoToso\Travelport\Terminal\typeCreditCardType
+     * @return \Santosdave\Travelport\Terminal\typeCreditCardType
      */
     public function setBankCountryCode($BankCountryCode)
     {
@@ -193,7 +193,7 @@ class typeCreditCardType extends typePaymentCard
 
     /**
      * @param typeState $BankStateCode
-     * @return \FilippoToso\Travelport\Terminal\typeCreditCardType
+     * @return \Santosdave\Travelport\Terminal\typeCreditCardType
      */
     public function setBankStateCode($BankStateCode)
     {
@@ -211,7 +211,7 @@ class typeCreditCardType extends typePaymentCard
 
     /**
      * @param boolean $Enett
-     * @return \FilippoToso\Travelport\Terminal\typeCreditCardType
+     * @return \Santosdave\Travelport\Terminal\typeCreditCardType
      */
     public function setEnett($Enett)
     {

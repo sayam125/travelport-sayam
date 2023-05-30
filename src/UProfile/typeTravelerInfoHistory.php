@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeTravelerInfoHistory extends typeAccountTypeProfileInfo
 {
@@ -156,7 +156,7 @@ class typeTravelerInfoHistory extends typeAccountTypeProfileInfo
 
     /**
      * @param ProprietaryData $ProprietaryData
-     * @return \FilippoToso\Travelport\UProfile\typeTravelerInfoHistory
+     * @return \Santosdave\Travelport\UProfile\typeTravelerInfoHistory
      */
     public function setProprietaryData($ProprietaryData)
     {
@@ -174,7 +174,7 @@ class typeTravelerInfoHistory extends typeAccountTypeProfileInfo
 
     /**
      * @param typePTC[] $PassengerTypeCode
-     * @return \FilippoToso\Travelport\UProfile\typeTravelerInfoHistory
+     * @return \Santosdave\Travelport\UProfile\typeTravelerInfoHistory
      */
     public function setPassengerTypeCode(array $PassengerTypeCode = null)
     {
@@ -192,7 +192,7 @@ class typeTravelerInfoHistory extends typeAccountTypeProfileInfo
 
     /**
      * @param StringLength1to128 $GivenName
-     * @return \FilippoToso\Travelport\UProfile\typeTravelerInfoHistory
+     * @return \Santosdave\Travelport\UProfile\typeTravelerInfoHistory
      */
     public function setGivenName($GivenName)
     {
@@ -210,7 +210,7 @@ class typeTravelerInfoHistory extends typeAccountTypeProfileInfo
 
     /**
      * @param StringLength1to128 $Surname
-     * @return \FilippoToso\Travelport\UProfile\typeTravelerInfoHistory
+     * @return \Santosdave\Travelport\UProfile\typeTravelerInfoHistory
      */
     public function setSurname($Surname)
     {
@@ -228,7 +228,7 @@ class typeTravelerInfoHistory extends typeAccountTypeProfileInfo
 
     /**
      * @param StringLength6to128 $UniqueProfileID
-     * @return \FilippoToso\Travelport\UProfile\typeTravelerInfoHistory
+     * @return \Santosdave\Travelport\UProfile\typeTravelerInfoHistory
      */
     public function setUniqueProfileID($UniqueProfileID)
     {
@@ -246,7 +246,7 @@ class typeTravelerInfoHistory extends typeAccountTypeProfileInfo
 
     /**
      * @param StringLength1to128 $Title
-     * @return \FilippoToso\Travelport\UProfile\typeTravelerInfoHistory
+     * @return \Santosdave\Travelport\UProfile\typeTravelerInfoHistory
      */
     public function setTitle($Title)
     {
@@ -264,7 +264,7 @@ class typeTravelerInfoHistory extends typeAccountTypeProfileInfo
 
     /**
      * @param StringLength1to128 $Nickname
-     * @return \FilippoToso\Travelport\UProfile\typeTravelerInfoHistory
+     * @return \Santosdave\Travelport\UProfile\typeTravelerInfoHistory
      */
     public function setNickname($Nickname)
     {
@@ -282,7 +282,7 @@ class typeTravelerInfoHistory extends typeAccountTypeProfileInfo
 
     /**
      * @param StringLength1to128 $OtherName
-     * @return \FilippoToso\Travelport\UProfile\typeTravelerInfoHistory
+     * @return \Santosdave\Travelport\UProfile\typeTravelerInfoHistory
      */
     public function setOtherName($OtherName)
     {
@@ -300,7 +300,7 @@ class typeTravelerInfoHistory extends typeAccountTypeProfileInfo
 
     /**
      * @param StringLength1to128 $Suffix
-     * @return \FilippoToso\Travelport\UProfile\typeTravelerInfoHistory
+     * @return \Santosdave\Travelport\UProfile\typeTravelerInfoHistory
      */
     public function setSuffix($Suffix)
     {
@@ -318,7 +318,7 @@ class typeTravelerInfoHistory extends typeAccountTypeProfileInfo
 
     /**
      * @param date $BirthDate
-     * @return \FilippoToso\Travelport\UProfile\typeTravelerInfoHistory
+     * @return \Santosdave\Travelport\UProfile\typeTravelerInfoHistory
      */
     public function setBirthDate($BirthDate)
     {
@@ -336,7 +336,7 @@ class typeTravelerInfoHistory extends typeAccountTypeProfileInfo
 
     /**
      * @param typeGender $Gender
-     * @return \FilippoToso\Travelport\UProfile\typeTravelerInfoHistory
+     * @return \Santosdave\Travelport\UProfile\typeTravelerInfoHistory
      */
     public function setGender($Gender)
     {
@@ -354,7 +354,7 @@ class typeTravelerInfoHistory extends typeAccountTypeProfileInfo
 
     /**
      * @param boolean $VipStatus
-     * @return \FilippoToso\Travelport\UProfile\typeTravelerInfoHistory
+     * @return \Santosdave\Travelport\UProfile\typeTravelerInfoHistory
      */
     public function setVipStatus($VipStatus)
     {
@@ -372,7 +372,7 @@ class typeTravelerInfoHistory extends typeAccountTypeProfileInfo
 
     /**
      * @param StringLength1to50 $JobTitle
-     * @return \FilippoToso\Travelport\UProfile\typeTravelerInfoHistory
+     * @return \Santosdave\Travelport\UProfile\typeTravelerInfoHistory
      */
     public function setJobTitle($JobTitle)
     {
@@ -390,7 +390,7 @@ class typeTravelerInfoHistory extends typeAccountTypeProfileInfo
 
     /**
      * @param StringLength1to255 $Disability
-     * @return \FilippoToso\Travelport\UProfile\typeTravelerInfoHistory
+     * @return \Santosdave\Travelport\UProfile\typeTravelerInfoHistory
      */
     public function setDisability($Disability)
     {
@@ -408,7 +408,7 @@ class typeTravelerInfoHistory extends typeAccountTypeProfileInfo
 
     /**
      * @param typeCityOrAirport $HomeCityOrAirport
-     * @return \FilippoToso\Travelport\UProfile\typeTravelerInfoHistory
+     * @return \Santosdave\Travelport\UProfile\typeTravelerInfoHistory
      */
     public function setHomeCityOrAirport($HomeCityOrAirport)
     {
@@ -426,7 +426,7 @@ class typeTravelerInfoHistory extends typeAccountTypeProfileInfo
 
     /**
      * @param anonymous639 $LocalLanguage
-     * @return \FilippoToso\Travelport\UProfile\typeTravelerInfoHistory
+     * @return \Santosdave\Travelport\UProfile\typeTravelerInfoHistory
      */
     public function setLocalLanguage($LocalLanguage)
     {
@@ -444,7 +444,7 @@ class typeTravelerInfoHistory extends typeAccountTypeProfileInfo
 
     /**
      * @param StringLength1to128 $LocalLanguageGivenName
-     * @return \FilippoToso\Travelport\UProfile\typeTravelerInfoHistory
+     * @return \Santosdave\Travelport\UProfile\typeTravelerInfoHistory
      */
     public function setLocalLanguageGivenName($LocalLanguageGivenName)
     {
@@ -462,7 +462,7 @@ class typeTravelerInfoHistory extends typeAccountTypeProfileInfo
 
     /**
      * @param StringLength1to128 $LocalLanguageSurname
-     * @return \FilippoToso\Travelport\UProfile\typeTravelerInfoHistory
+     * @return \Santosdave\Travelport\UProfile\typeTravelerInfoHistory
      */
     public function setLocalLanguageSurname($LocalLanguageSurname)
     {
@@ -480,7 +480,7 @@ class typeTravelerInfoHistory extends typeAccountTypeProfileInfo
 
     /**
      * @param StringLength1to128 $LocalLanguageUsername
-     * @return \FilippoToso\Travelport\UProfile\typeTravelerInfoHistory
+     * @return \Santosdave\Travelport\UProfile\typeTravelerInfoHistory
      */
     public function setLocalLanguageUsername($LocalLanguageUsername)
     {

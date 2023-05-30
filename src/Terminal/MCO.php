@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Terminal;
+namespace Santosdave\Travelport\Terminal;
 
 class MCO extends MCOInformation
 {
@@ -180,7 +180,7 @@ class MCO extends MCOInformation
 
     /**
      * @param FormOfPayment $FormOfPayment
-     * @return \FilippoToso\Travelport\Terminal\MCO
+     * @return \Santosdave\Travelport\Terminal\MCO
      */
     public function setFormOfPayment($FormOfPayment)
     {
@@ -198,7 +198,7 @@ class MCO extends MCOInformation
 
     /**
      * @param Endorsement $Endorsement
-     * @return \FilippoToso\Travelport\Terminal\MCO
+     * @return \Santosdave\Travelport\Terminal\MCO
      */
     public function setEndorsement($Endorsement)
     {
@@ -216,7 +216,7 @@ class MCO extends MCOInformation
 
     /**
      * @param MCOExchangeInfo $MCOExchangeInfo
-     * @return \FilippoToso\Travelport\Terminal\MCO
+     * @return \Santosdave\Travelport\Terminal\MCO
      */
     public function setMCOExchangeInfo($MCOExchangeInfo)
     {
@@ -234,7 +234,7 @@ class MCO extends MCOInformation
 
     /**
      * @param MCOFeeInfo $MCOFeeInfo
-     * @return \FilippoToso\Travelport\Terminal\MCO
+     * @return \Santosdave\Travelport\Terminal\MCO
      */
     public function setMCOFeeInfo($MCOFeeInfo)
     {
@@ -252,7 +252,7 @@ class MCO extends MCOInformation
 
     /**
      * @param MCORemark $MCORemark
-     * @return \FilippoToso\Travelport\Terminal\MCO
+     * @return \Santosdave\Travelport\Terminal\MCO
      */
     public function setMCORemark($MCORemark)
     {
@@ -270,7 +270,7 @@ class MCO extends MCOInformation
 
     /**
      * @param MCOPriceData $MCOPriceData
-     * @return \FilippoToso\Travelport\Terminal\MCO
+     * @return \Santosdave\Travelport\Terminal\MCO
      */
     public function setMCOPriceData($MCOPriceData)
     {
@@ -288,7 +288,7 @@ class MCO extends MCOInformation
 
     /**
      * @param StockControl $StockControl
-     * @return \FilippoToso\Travelport\Terminal\MCO
+     * @return \Santosdave\Travelport\Terminal\MCO
      */
     public function setStockControl($StockControl)
     {
@@ -306,7 +306,7 @@ class MCO extends MCOInformation
 
     /**
      * @param MCOText $MCOText
-     * @return \FilippoToso\Travelport\Terminal\MCO
+     * @return \Santosdave\Travelport\Terminal\MCO
      */
     public function setMCOText($MCOText)
     {
@@ -324,7 +324,7 @@ class MCO extends MCOInformation
 
     /**
      * @param string $TicketType
-     * @return \FilippoToso\Travelport\Terminal\MCO
+     * @return \Santosdave\Travelport\Terminal\MCO
      */
     public function setTicketType($TicketType)
     {
@@ -342,7 +342,7 @@ class MCO extends MCOInformation
 
     /**
      * @param string $TicketNumber
-     * @return \FilippoToso\Travelport\Terminal\MCO
+     * @return \Santosdave\Travelport\Terminal\MCO
      */
     public function setTicketNumber($TicketNumber)
     {
@@ -360,7 +360,7 @@ class MCO extends MCOInformation
 
     /**
      * @param boolean $MCOIssued
-     * @return \FilippoToso\Travelport\Terminal\MCO
+     * @return \Santosdave\Travelport\Terminal\MCO
      */
     public function setMCOIssued($MCOIssued)
     {
@@ -386,7 +386,7 @@ class MCO extends MCOInformation
 
     /**
      * @param \DateTime $MCOIssueDate
-     * @return \FilippoToso\Travelport\Terminal\MCO
+     * @return \Santosdave\Travelport\Terminal\MCO
      */
     public function setMCOIssueDate(\DateTime $MCOIssueDate)
     {
@@ -404,7 +404,7 @@ class MCO extends MCOInformation
 
     /**
      * @param string $MCODocNum
-     * @return \FilippoToso\Travelport\Terminal\MCO
+     * @return \Santosdave\Travelport\Terminal\MCO
      */
     public function setMCODocNum($MCODocNum)
     {
@@ -422,7 +422,7 @@ class MCO extends MCOInformation
 
     /**
      * @param string $IssueReasonCode
-     * @return \FilippoToso\Travelport\Terminal\MCO
+     * @return \Santosdave\Travelport\Terminal\MCO
      */
     public function setIssueReasonCode($IssueReasonCode)
     {
@@ -440,7 +440,7 @@ class MCO extends MCOInformation
 
     /**
      * @param typeCarrier $PlatingCarrier
-     * @return \FilippoToso\Travelport\Terminal\MCO
+     * @return \Santosdave\Travelport\Terminal\MCO
      */
     public function setPlatingCarrier($PlatingCarrier)
     {
@@ -458,7 +458,7 @@ class MCO extends MCOInformation
 
     /**
      * @param string $TourOperator
-     * @return \FilippoToso\Travelport\Terminal\MCO
+     * @return \Santosdave\Travelport\Terminal\MCO
      */
     public function setTourOperator($TourOperator)
     {
@@ -476,7 +476,7 @@ class MCO extends MCOInformation
 
     /**
      * @param string $Location
-     * @return \FilippoToso\Travelport\Terminal\MCO
+     * @return \Santosdave\Travelport\Terminal\MCO
      */
     public function setLocation($Location)
     {
@@ -494,7 +494,7 @@ class MCO extends MCOInformation
 
     /**
      * @param string $TourCode
-     * @return \FilippoToso\Travelport\Terminal\MCO
+     * @return \Santosdave\Travelport\Terminal\MCO
      */
     public function setTourCode($TourCode)
     {
@@ -512,7 +512,7 @@ class MCO extends MCOInformation
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\Terminal\MCO
+     * @return \Santosdave\Travelport\Terminal\MCO
      */
     public function setProviderCode($ProviderCode)
     {
@@ -530,7 +530,7 @@ class MCO extends MCOInformation
 
     /**
      * @param typeProviderLocatorCode $ProviderLocatorCode
-     * @return \FilippoToso\Travelport\Terminal\MCO
+     * @return \Santosdave\Travelport\Terminal\MCO
      */
     public function setProviderLocatorCode($ProviderLocatorCode)
     {
@@ -548,7 +548,7 @@ class MCO extends MCOInformation
 
     /**
      * @param typePCC $PseudoCityCode
-     * @return \FilippoToso\Travelport\Terminal\MCO
+     * @return \Santosdave\Travelport\Terminal\MCO
      */
     public function setPseudoCityCode($PseudoCityCode)
     {
@@ -566,7 +566,7 @@ class MCO extends MCOInformation
 
     /**
      * @param date $ExpiryDate
-     * @return \FilippoToso\Travelport\Terminal\MCO
+     * @return \Santosdave\Travelport\Terminal\MCO
      */
     public function setExpiryDate($ExpiryDate)
     {

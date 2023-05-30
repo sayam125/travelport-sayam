@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class HistoryElement
 {
@@ -80,7 +80,7 @@ class HistoryElement
 
     /**
      * @param typeHistorySubElement $Original
-     * @return \FilippoToso\Travelport\UProfile\HistoryElement
+     * @return \Santosdave\Travelport\UProfile\HistoryElement
      */
     public function setOriginal($Original)
     {
@@ -98,7 +98,7 @@ class HistoryElement
 
     /**
      * @param typeHistorySubElement $New
-     * @return \FilippoToso\Travelport\UProfile\HistoryElement
+     * @return \Santosdave\Travelport\UProfile\HistoryElement
      */
     public function setNew($New)
     {
@@ -116,7 +116,7 @@ class HistoryElement
 
     /**
      * @param typeAction $Action
-     * @return \FilippoToso\Travelport\UProfile\HistoryElement
+     * @return \Santosdave\Travelport\UProfile\HistoryElement
      */
     public function setAction($Action)
     {
@@ -134,7 +134,7 @@ class HistoryElement
 
     /**
      * @param typeProfileID $ModifiedByAgentID
-     * @return \FilippoToso\Travelport\UProfile\HistoryElement
+     * @return \Santosdave\Travelport\UProfile\HistoryElement
      */
     public function setModifiedByAgentID($ModifiedByAgentID)
     {
@@ -152,7 +152,7 @@ class HistoryElement
 
     /**
      * @param typeAgentCode $ModifiedByAgentUserName
-     * @return \FilippoToso\Travelport\UProfile\HistoryElement
+     * @return \Santosdave\Travelport\UProfile\HistoryElement
      */
     public function setModifiedByAgentUserName($ModifiedByAgentUserName)
     {
@@ -178,7 +178,7 @@ class HistoryElement
 
     /**
      * @param \DateTime $ModifiedDate
-     * @return \FilippoToso\Travelport\UProfile\HistoryElement
+     * @return \Santosdave\Travelport\UProfile\HistoryElement
      */
     public function setModifiedDate(\DateTime $ModifiedDate)
     {
@@ -196,7 +196,7 @@ class HistoryElement
 
     /**
      * @param anonymous599 $Component
-     * @return \FilippoToso\Travelport\UProfile\HistoryElement
+     * @return \Santosdave\Travelport\UProfile\HistoryElement
      */
     public function setComponent($Component)
     {
@@ -214,7 +214,7 @@ class HistoryElement
 
     /**
      * @param anonymous600 $CorrelationElement
-     * @return \FilippoToso\Travelport\UProfile\HistoryElement
+     * @return \Santosdave\Travelport\UProfile\HistoryElement
      */
     public function setCorrelationElement($CorrelationElement)
     {
@@ -232,7 +232,7 @@ class HistoryElement
 
     /**
      * @param StringLength1to128 $CorrelationValue
-     * @return \FilippoToso\Travelport\UProfile\HistoryElement
+     * @return \Santosdave\Travelport\UProfile\HistoryElement
      */
     public function setCorrelationValue($CorrelationValue)
     {

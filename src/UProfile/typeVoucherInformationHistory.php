@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeVoucherInformationHistory
 {
@@ -49,7 +49,7 @@ class typeVoucherInformationHistory
 
     /**
      * @param typeVoucherType $VoucherType
-     * @return \FilippoToso\Travelport\UProfile\typeVoucherInformationHistory
+     * @return \Santosdave\Travelport\UProfile\typeVoucherInformationHistory
      */
     public function setVoucherType($VoucherType)
     {
@@ -67,7 +67,7 @@ class typeVoucherInformationHistory
 
     /**
      * @param typeMoney $Amount
-     * @return \FilippoToso\Travelport\UProfile\typeVoucherInformationHistory
+     * @return \Santosdave\Travelport\UProfile\typeVoucherInformationHistory
      */
     public function setAmount($Amount)
     {
@@ -85,7 +85,7 @@ class typeVoucherInformationHistory
 
     /**
      * @param string $ConfirmationNumber
-     * @return \FilippoToso\Travelport\UProfile\typeVoucherInformationHistory
+     * @return \Santosdave\Travelport\UProfile\typeVoucherInformationHistory
      */
     public function setConfirmationNumber($ConfirmationNumber)
     {
@@ -103,7 +103,7 @@ class typeVoucherInformationHistory
 
     /**
      * @param string $AccountName
-     * @return \FilippoToso\Travelport\UProfile\typeVoucherInformationHistory
+     * @return \Santosdave\Travelport\UProfile\typeVoucherInformationHistory
      */
     public function setAccountName($AccountName)
     {

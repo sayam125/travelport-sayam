@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class typeTicketingModifiersRef
 {
@@ -35,7 +35,7 @@ class typeTicketingModifiersRef
 
     /**
      * @param AirPricingInfoRef $AirPricingInfoRef
-     * @return \FilippoToso\Travelport\GDSQueue\typeTicketingModifiersRef
+     * @return \Santosdave\Travelport\GDSQueue\typeTicketingModifiersRef
      */
     public function setAirPricingInfoRef($AirPricingInfoRef)
     {
@@ -53,7 +53,7 @@ class typeTicketingModifiersRef
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\GDSQueue\typeTicketingModifiersRef
+     * @return \Santosdave\Travelport\GDSQueue\typeTicketingModifiersRef
      */
     public function setKey($Key)
     {

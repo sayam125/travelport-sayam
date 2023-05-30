@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeExternalIdentifierHistory extends typeKeyElement
 {
@@ -37,7 +37,7 @@ class typeExternalIdentifierHistory extends typeKeyElement
 
     /**
      * @param StringLength1to255 $ExtID
-     * @return \FilippoToso\Travelport\UProfile\typeExternalIdentifierHistory
+     * @return \Santosdave\Travelport\UProfile\typeExternalIdentifierHistory
      */
     public function setExtID($ExtID)
     {
@@ -55,7 +55,7 @@ class typeExternalIdentifierHistory extends typeKeyElement
 
     /**
      * @param StringLength1to128 $Source
-     * @return \FilippoToso\Travelport\UProfile\typeExternalIdentifierHistory
+     * @return \Santosdave\Travelport\UProfile\typeExternalIdentifierHistory
      */
     public function setSource($Source)
     {

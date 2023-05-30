@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class FormOfPaymentRef
 {
@@ -28,7 +28,7 @@ class FormOfPaymentRef
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Hotel\FormOfPaymentRef
+     * @return \Santosdave\Travelport\Hotel\FormOfPaymentRef
      */
     public function setKey($Key)
     {

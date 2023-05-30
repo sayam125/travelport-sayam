@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class PriceRange
 {
@@ -42,7 +42,7 @@ class PriceRange
 
     /**
      * @param boolean $DefaultCurrency
-     * @return \FilippoToso\Travelport\Rail\PriceRange
+     * @return \Santosdave\Travelport\Rail\PriceRange
      */
     public function setDefaultCurrency($DefaultCurrency)
     {
@@ -60,7 +60,7 @@ class PriceRange
 
     /**
      * @param typeMoney $StartPrice
-     * @return \FilippoToso\Travelport\Rail\PriceRange
+     * @return \Santosdave\Travelport\Rail\PriceRange
      */
     public function setStartPrice($StartPrice)
     {
@@ -78,7 +78,7 @@ class PriceRange
 
     /**
      * @param typeMoney $EndPrice
-     * @return \FilippoToso\Travelport\Rail\PriceRange
+     * @return \Santosdave\Travelport\Rail\PriceRange
      */
     public function setEndPrice($EndPrice)
     {

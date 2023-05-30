@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class ProfileSearchTagsReq extends BaseReq
 {
@@ -40,7 +40,7 @@ class ProfileSearchTagsReq extends BaseReq
 
     /**
      * @param typeProfileID $AgencyID
-     * @return \FilippoToso\Travelport\UProfile\ProfileSearchTagsReq
+     * @return \Santosdave\Travelport\UProfile\ProfileSearchTagsReq
      */
     public function setAgencyID($AgencyID)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class PersonNameSearch
 {
@@ -28,7 +28,7 @@ class PersonNameSearch
 
     /**
      * @param StringLength1to64 $Last
-     * @return \FilippoToso\Travelport\Util\PersonNameSearch
+     * @return \Santosdave\Travelport\Util\PersonNameSearch
      */
     public function setLast($Last)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class Restriction
 {
@@ -35,7 +35,7 @@ class Restriction
 
     /**
      * @param string $Operation
-     * @return \FilippoToso\Travelport\Hotel\Restriction
+     * @return \Santosdave\Travelport\Hotel\Restriction
      */
     public function setOperation($Operation)
     {
@@ -53,7 +53,7 @@ class Restriction
 
     /**
      * @param string $Reason
-     * @return \FilippoToso\Travelport\Hotel\Restriction
+     * @return \Santosdave\Travelport\Hotel\Restriction
      */
     public function setReason($Reason)
     {

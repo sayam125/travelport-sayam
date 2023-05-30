@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class ExchangedCoupon
 {
@@ -35,7 +35,7 @@ class ExchangedCoupon
 
     /**
      * @param typeTicketNumber $TicketNumber
-     * @return \FilippoToso\Travelport\UniversalRecord\ExchangedCoupon
+     * @return \Santosdave\Travelport\UniversalRecord\ExchangedCoupon
      */
     public function setTicketNumber($TicketNumber)
     {
@@ -53,7 +53,7 @@ class ExchangedCoupon
 
     /**
      * @param string $CouponNumber
-     * @return \FilippoToso\Travelport\UniversalRecord\ExchangedCoupon
+     * @return \Santosdave\Travelport\UniversalRecord\ExchangedCoupon
      */
     public function setCouponNumber($CouponNumber)
     {

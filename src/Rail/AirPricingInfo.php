@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class AirPricingInfo
 {
@@ -473,7 +473,7 @@ class AirPricingInfo
 
     /**
      * @param FareInfo $FareInfo
-     * @return \FilippoToso\Travelport\Rail\AirPricingInfo
+     * @return \Santosdave\Travelport\Rail\AirPricingInfo
      */
     public function setFareInfo($FareInfo)
     {
@@ -491,7 +491,7 @@ class AirPricingInfo
 
     /**
      * @param FareStatus $FareStatus
-     * @return \FilippoToso\Travelport\Rail\AirPricingInfo
+     * @return \Santosdave\Travelport\Rail\AirPricingInfo
      */
     public function setFareStatus($FareStatus)
     {
@@ -509,7 +509,7 @@ class AirPricingInfo
 
     /**
      * @param FareInfoRef $FareInfoRef
-     * @return \FilippoToso\Travelport\Rail\AirPricingInfo
+     * @return \Santosdave\Travelport\Rail\AirPricingInfo
      */
     public function setFareInfoRef($FareInfoRef)
     {
@@ -527,7 +527,7 @@ class AirPricingInfo
 
     /**
      * @param BookingInfo $BookingInfo
-     * @return \FilippoToso\Travelport\Rail\AirPricingInfo
+     * @return \Santosdave\Travelport\Rail\AirPricingInfo
      */
     public function setBookingInfo($BookingInfo)
     {
@@ -545,7 +545,7 @@ class AirPricingInfo
 
     /**
      * @param typeTaxInfo $TaxInfo
-     * @return \FilippoToso\Travelport\Rail\AirPricingInfo
+     * @return \Santosdave\Travelport\Rail\AirPricingInfo
      */
     public function setTaxInfo($TaxInfo)
     {
@@ -563,7 +563,7 @@ class AirPricingInfo
 
     /**
      * @param string $FareCalc
-     * @return \FilippoToso\Travelport\Rail\AirPricingInfo
+     * @return \Santosdave\Travelport\Rail\AirPricingInfo
      */
     public function setFareCalc($FareCalc)
     {
@@ -581,7 +581,7 @@ class AirPricingInfo
 
     /**
      * @param PassengerType $PassengerType
-     * @return \FilippoToso\Travelport\Rail\AirPricingInfo
+     * @return \Santosdave\Travelport\Rail\AirPricingInfo
      */
     public function setPassengerType($PassengerType)
     {
@@ -599,7 +599,7 @@ class AirPricingInfo
 
     /**
      * @param BookingTravelerRef $BookingTravelerRef
-     * @return \FilippoToso\Travelport\Rail\AirPricingInfo
+     * @return \Santosdave\Travelport\Rail\AirPricingInfo
      */
     public function setBookingTravelerRef($BookingTravelerRef)
     {
@@ -617,7 +617,7 @@ class AirPricingInfo
 
     /**
      * @param WaiverCode $WaiverCode
-     * @return \FilippoToso\Travelport\Rail\AirPricingInfo
+     * @return \Santosdave\Travelport\Rail\AirPricingInfo
      */
     public function setWaiverCode($WaiverCode)
     {
@@ -635,7 +635,7 @@ class AirPricingInfo
 
     /**
      * @param PaymentRef $PaymentRef
-     * @return \FilippoToso\Travelport\Rail\AirPricingInfo
+     * @return \Santosdave\Travelport\Rail\AirPricingInfo
      */
     public function setPaymentRef($PaymentRef)
     {
@@ -653,7 +653,7 @@ class AirPricingInfo
 
     /**
      * @param typeFarePenalty[] $ChangePenalty
-     * @return \FilippoToso\Travelport\Rail\AirPricingInfo
+     * @return \Santosdave\Travelport\Rail\AirPricingInfo
      */
     public function setChangePenalty(array $ChangePenalty = null)
     {
@@ -671,7 +671,7 @@ class AirPricingInfo
 
     /**
      * @param typeFarePenalty[] $CancelPenalty
-     * @return \FilippoToso\Travelport\Rail\AirPricingInfo
+     * @return \Santosdave\Travelport\Rail\AirPricingInfo
      */
     public function setCancelPenalty(array $CancelPenalty = null)
     {
@@ -689,7 +689,7 @@ class AirPricingInfo
 
     /**
      * @param typeFarePenalty[] $NoShowPenalty
-     * @return \FilippoToso\Travelport\Rail\AirPricingInfo
+     * @return \Santosdave\Travelport\Rail\AirPricingInfo
      */
     public function setNoShowPenalty(array $NoShowPenalty = null)
     {
@@ -707,7 +707,7 @@ class AirPricingInfo
 
     /**
      * @param typeMostRestrictivePenalties $MostRestrictivePenalties
-     * @return \FilippoToso\Travelport\Rail\AirPricingInfo
+     * @return \Santosdave\Travelport\Rail\AirPricingInfo
      */
     public function setMostRestrictivePenalties($MostRestrictivePenalties)
     {
@@ -725,7 +725,7 @@ class AirPricingInfo
 
     /**
      * @param typeFeeInfo $FeeInfo
-     * @return \FilippoToso\Travelport\Rail\AirPricingInfo
+     * @return \Santosdave\Travelport\Rail\AirPricingInfo
      */
     public function setFeeInfo($FeeInfo)
     {
@@ -743,7 +743,7 @@ class AirPricingInfo
 
     /**
      * @param Adjustment $Adjustment
-     * @return \FilippoToso\Travelport\Rail\AirPricingInfo
+     * @return \Santosdave\Travelport\Rail\AirPricingInfo
      */
     public function setAdjustment($Adjustment)
     {
@@ -761,7 +761,7 @@ class AirPricingInfo
 
     /**
      * @param YieldCustom $Yield
-     * @return \FilippoToso\Travelport\Rail\AirPricingInfo
+     * @return \Santosdave\Travelport\Rail\AirPricingInfo
      */
     public function setYield($Yield)
     {
@@ -779,7 +779,7 @@ class AirPricingInfo
 
     /**
      * @param AirPricingModifiers $AirPricingModifiers
-     * @return \FilippoToso\Travelport\Rail\AirPricingInfo
+     * @return \Santosdave\Travelport\Rail\AirPricingInfo
      */
     public function setAirPricingModifiers($AirPricingModifiers)
     {
@@ -797,7 +797,7 @@ class AirPricingInfo
 
     /**
      * @param TicketingModifiersRef $TicketingModifiersRef
-     * @return \FilippoToso\Travelport\Rail\AirPricingInfo
+     * @return \Santosdave\Travelport\Rail\AirPricingInfo
      */
     public function setTicketingModifiersRef($TicketingModifiersRef)
     {
@@ -815,7 +815,7 @@ class AirPricingInfo
 
     /**
      * @param AirSegmentPricingModifiers $AirSegmentPricingModifiers
-     * @return \FilippoToso\Travelport\Rail\AirPricingInfo
+     * @return \Santosdave\Travelport\Rail\AirPricingInfo
      */
     public function setAirSegmentPricingModifiers($AirSegmentPricingModifiers)
     {
@@ -833,7 +833,7 @@ class AirPricingInfo
 
     /**
      * @param FlightOptionsList $FlightOptionsList
-     * @return \FilippoToso\Travelport\Rail\AirPricingInfo
+     * @return \Santosdave\Travelport\Rail\AirPricingInfo
      */
     public function setFlightOptionsList($FlightOptionsList)
     {
@@ -851,7 +851,7 @@ class AirPricingInfo
 
     /**
      * @param BaggageAllowances $BaggageAllowances
-     * @return \FilippoToso\Travelport\Rail\AirPricingInfo
+     * @return \Santosdave\Travelport\Rail\AirPricingInfo
      */
     public function setBaggageAllowances($BaggageAllowances)
     {
@@ -869,7 +869,7 @@ class AirPricingInfo
 
     /**
      * @param FareRulesFilter $FareRulesFilter
-     * @return \FilippoToso\Travelport\Rail\AirPricingInfo
+     * @return \Santosdave\Travelport\Rail\AirPricingInfo
      */
     public function setFareRulesFilter($FareRulesFilter)
     {
@@ -887,7 +887,7 @@ class AirPricingInfo
 
     /**
      * @param PolicyCodesList $PolicyCodesList
-     * @return \FilippoToso\Travelport\Rail\AirPricingInfo
+     * @return \Santosdave\Travelport\Rail\AirPricingInfo
      */
     public function setPolicyCodesList($PolicyCodesList)
     {
@@ -905,7 +905,7 @@ class AirPricingInfo
 
     /**
      * @param PriceChangeType[] $PriceChange
-     * @return \FilippoToso\Travelport\Rail\AirPricingInfo
+     * @return \Santosdave\Travelport\Rail\AirPricingInfo
      */
     public function setPriceChange(array $PriceChange = null)
     {
@@ -923,7 +923,7 @@ class AirPricingInfo
 
     /**
      * @param ActionDetails $ActionDetails
-     * @return \FilippoToso\Travelport\Rail\AirPricingInfo
+     * @return \Santosdave\Travelport\Rail\AirPricingInfo
      */
     public function setActionDetails($ActionDetails)
     {
@@ -941,7 +941,7 @@ class AirPricingInfo
 
     /**
      * @param Commission $Commission
-     * @return \FilippoToso\Travelport\Rail\AirPricingInfo
+     * @return \Santosdave\Travelport\Rail\AirPricingInfo
      */
     public function setCommission($Commission)
     {
@@ -959,7 +959,7 @@ class AirPricingInfo
 
     /**
      * @param typeIATACode $Origin
-     * @return \FilippoToso\Travelport\Rail\AirPricingInfo
+     * @return \Santosdave\Travelport\Rail\AirPricingInfo
      */
     public function setOrigin($Origin)
     {
@@ -977,7 +977,7 @@ class AirPricingInfo
 
     /**
      * @param typeIATACode $Destination
-     * @return \FilippoToso\Travelport\Rail\AirPricingInfo
+     * @return \Santosdave\Travelport\Rail\AirPricingInfo
      */
     public function setDestination($Destination)
     {
@@ -995,7 +995,7 @@ class AirPricingInfo
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Rail\AirPricingInfo
+     * @return \Santosdave\Travelport\Rail\AirPricingInfo
      */
     public function setKey($Key)
     {
@@ -1013,7 +1013,7 @@ class AirPricingInfo
 
     /**
      * @param anonymous620 $CommandKey
-     * @return \FilippoToso\Travelport\Rail\AirPricingInfo
+     * @return \Santosdave\Travelport\Rail\AirPricingInfo
      */
     public function setCommandKey($CommandKey)
     {
@@ -1031,7 +1031,7 @@ class AirPricingInfo
 
     /**
      * @param StringLength1to32 $AmountType
-     * @return \FilippoToso\Travelport\Rail\AirPricingInfo
+     * @return \Santosdave\Travelport\Rail\AirPricingInfo
      */
     public function setAmountType($AmountType)
     {
@@ -1049,7 +1049,7 @@ class AirPricingInfo
 
     /**
      * @param boolean $IncludesVAT
-     * @return \FilippoToso\Travelport\Rail\AirPricingInfo
+     * @return \Santosdave\Travelport\Rail\AirPricingInfo
      */
     public function setIncludesVAT($IncludesVAT)
     {
@@ -1067,7 +1067,7 @@ class AirPricingInfo
 
     /**
      * @param typeMoney $ExchangeAmount
-     * @return \FilippoToso\Travelport\Rail\AirPricingInfo
+     * @return \Santosdave\Travelport\Rail\AirPricingInfo
      */
     public function setExchangeAmount($ExchangeAmount)
     {
@@ -1085,7 +1085,7 @@ class AirPricingInfo
 
     /**
      * @param typeMoney $ForfeitAmount
-     * @return \FilippoToso\Travelport\Rail\AirPricingInfo
+     * @return \Santosdave\Travelport\Rail\AirPricingInfo
      */
     public function setForfeitAmount($ForfeitAmount)
     {
@@ -1103,7 +1103,7 @@ class AirPricingInfo
 
     /**
      * @param boolean $Refundable
-     * @return \FilippoToso\Travelport\Rail\AirPricingInfo
+     * @return \Santosdave\Travelport\Rail\AirPricingInfo
      */
     public function setRefundable($Refundable)
     {
@@ -1121,7 +1121,7 @@ class AirPricingInfo
 
     /**
      * @param boolean $Exchangeable
-     * @return \FilippoToso\Travelport\Rail\AirPricingInfo
+     * @return \Santosdave\Travelport\Rail\AirPricingInfo
      */
     public function setExchangeable($Exchangeable)
     {
@@ -1139,7 +1139,7 @@ class AirPricingInfo
 
     /**
      * @param string $LatestTicketingTime
-     * @return \FilippoToso\Travelport\Rail\AirPricingInfo
+     * @return \Santosdave\Travelport\Rail\AirPricingInfo
      */
     public function setLatestTicketingTime($LatestTicketingTime)
     {
@@ -1157,7 +1157,7 @@ class AirPricingInfo
 
     /**
      * @param typePricingMethod $PricingMethod
-     * @return \FilippoToso\Travelport\Rail\AirPricingInfo
+     * @return \Santosdave\Travelport\Rail\AirPricingInfo
      */
     public function setPricingMethod($PricingMethod)
     {
@@ -1175,7 +1175,7 @@ class AirPricingInfo
 
     /**
      * @param string $Checksum
-     * @return \FilippoToso\Travelport\Rail\AirPricingInfo
+     * @return \Santosdave\Travelport\Rail\AirPricingInfo
      */
     public function setChecksum($Checksum)
     {
@@ -1193,7 +1193,7 @@ class AirPricingInfo
 
     /**
      * @param typeEticketability $ETicketability
-     * @return \FilippoToso\Travelport\Rail\AirPricingInfo
+     * @return \Santosdave\Travelport\Rail\AirPricingInfo
      */
     public function setETicketability($ETicketability)
     {
@@ -1211,7 +1211,7 @@ class AirPricingInfo
 
     /**
      * @param typeCarrier $PlatingCarrier
-     * @return \FilippoToso\Travelport\Rail\AirPricingInfo
+     * @return \Santosdave\Travelport\Rail\AirPricingInfo
      */
     public function setPlatingCarrier($PlatingCarrier)
     {
@@ -1229,7 +1229,7 @@ class AirPricingInfo
 
     /**
      * @param typeRef $ProviderReservationInfoRef
-     * @return \FilippoToso\Travelport\Rail\AirPricingInfo
+     * @return \Santosdave\Travelport\Rail\AirPricingInfo
      */
     public function setProviderReservationInfoRef($ProviderReservationInfoRef)
     {
@@ -1247,7 +1247,7 @@ class AirPricingInfo
 
     /**
      * @param int $AirPricingInfoGroup
-     * @return \FilippoToso\Travelport\Rail\AirPricingInfo
+     * @return \Santosdave\Travelport\Rail\AirPricingInfo
      */
     public function setAirPricingInfoGroup($AirPricingInfoGroup)
     {
@@ -1265,7 +1265,7 @@ class AirPricingInfo
 
     /**
      * @param typeMoney $TotalNetPrice
-     * @return \FilippoToso\Travelport\Rail\AirPricingInfo
+     * @return \Santosdave\Travelport\Rail\AirPricingInfo
      */
     public function setTotalNetPrice($TotalNetPrice)
     {
@@ -1283,7 +1283,7 @@ class AirPricingInfo
 
     /**
      * @param boolean $Ticketed
-     * @return \FilippoToso\Travelport\Rail\AirPricingInfo
+     * @return \Santosdave\Travelport\Rail\AirPricingInfo
      */
     public function setTicketed($Ticketed)
     {
@@ -1301,7 +1301,7 @@ class AirPricingInfo
 
     /**
      * @param anonymous621 $PricingType
-     * @return \FilippoToso\Travelport\Rail\AirPricingInfo
+     * @return \Santosdave\Travelport\Rail\AirPricingInfo
      */
     public function setPricingType($PricingType)
     {
@@ -1319,7 +1319,7 @@ class AirPricingInfo
 
     /**
      * @param string $TrueLastDateToTicket
-     * @return \FilippoToso\Travelport\Rail\AirPricingInfo
+     * @return \Santosdave\Travelport\Rail\AirPricingInfo
      */
     public function setTrueLastDateToTicket($TrueLastDateToTicket)
     {
@@ -1337,7 +1337,7 @@ class AirPricingInfo
 
     /**
      * @param anonymous622 $FareCalculationInd
-     * @return \FilippoToso\Travelport\Rail\AirPricingInfo
+     * @return \Santosdave\Travelport\Rail\AirPricingInfo
      */
     public function setFareCalculationInd($FareCalculationInd)
     {
@@ -1355,7 +1355,7 @@ class AirPricingInfo
 
     /**
      * @param boolean $Cat35Indicator
-     * @return \FilippoToso\Travelport\Rail\AirPricingInfo
+     * @return \Santosdave\Travelport\Rail\AirPricingInfo
      */
     public function setCat35Indicator($Cat35Indicator)
     {
@@ -1373,7 +1373,7 @@ class AirPricingInfo
 
     /**
      * @param typeMoney $TotalPrice
-     * @return \FilippoToso\Travelport\Rail\AirPricingInfo
+     * @return \Santosdave\Travelport\Rail\AirPricingInfo
      */
     public function setTotalPrice($TotalPrice)
     {
@@ -1391,7 +1391,7 @@ class AirPricingInfo
 
     /**
      * @param typeMoney $BasePrice
-     * @return \FilippoToso\Travelport\Rail\AirPricingInfo
+     * @return \Santosdave\Travelport\Rail\AirPricingInfo
      */
     public function setBasePrice($BasePrice)
     {
@@ -1409,7 +1409,7 @@ class AirPricingInfo
 
     /**
      * @param typeMoney $ApproximateTotalPrice
-     * @return \FilippoToso\Travelport\Rail\AirPricingInfo
+     * @return \Santosdave\Travelport\Rail\AirPricingInfo
      */
     public function setApproximateTotalPrice($ApproximateTotalPrice)
     {
@@ -1427,7 +1427,7 @@ class AirPricingInfo
 
     /**
      * @param typeMoney $ApproximateBasePrice
-     * @return \FilippoToso\Travelport\Rail\AirPricingInfo
+     * @return \Santosdave\Travelport\Rail\AirPricingInfo
      */
     public function setApproximateBasePrice($ApproximateBasePrice)
     {
@@ -1445,7 +1445,7 @@ class AirPricingInfo
 
     /**
      * @param typeMoney $EquivalentBasePrice
-     * @return \FilippoToso\Travelport\Rail\AirPricingInfo
+     * @return \Santosdave\Travelport\Rail\AirPricingInfo
      */
     public function setEquivalentBasePrice($EquivalentBasePrice)
     {
@@ -1463,7 +1463,7 @@ class AirPricingInfo
 
     /**
      * @param typeMoney $Taxes
-     * @return \FilippoToso\Travelport\Rail\AirPricingInfo
+     * @return \Santosdave\Travelport\Rail\AirPricingInfo
      */
     public function setTaxes($Taxes)
     {
@@ -1481,7 +1481,7 @@ class AirPricingInfo
 
     /**
      * @param typeMoney $Fees
-     * @return \FilippoToso\Travelport\Rail\AirPricingInfo
+     * @return \Santosdave\Travelport\Rail\AirPricingInfo
      */
     public function setFees($Fees)
     {
@@ -1499,7 +1499,7 @@ class AirPricingInfo
 
     /**
      * @param typeMoney $Services
-     * @return \FilippoToso\Travelport\Rail\AirPricingInfo
+     * @return \Santosdave\Travelport\Rail\AirPricingInfo
      */
     public function setServices($Services)
     {
@@ -1517,7 +1517,7 @@ class AirPricingInfo
 
     /**
      * @param typeMoney $ApproximateTaxes
-     * @return \FilippoToso\Travelport\Rail\AirPricingInfo
+     * @return \Santosdave\Travelport\Rail\AirPricingInfo
      */
     public function setApproximateTaxes($ApproximateTaxes)
     {
@@ -1535,7 +1535,7 @@ class AirPricingInfo
 
     /**
      * @param typeMoney $ApproximateFees
-     * @return \FilippoToso\Travelport\Rail\AirPricingInfo
+     * @return \Santosdave\Travelport\Rail\AirPricingInfo
      */
     public function setApproximateFees($ApproximateFees)
     {
@@ -1553,7 +1553,7 @@ class AirPricingInfo
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\Rail\AirPricingInfo
+     * @return \Santosdave\Travelport\Rail\AirPricingInfo
      */
     public function setProviderCode($ProviderCode)
     {
@@ -1571,7 +1571,7 @@ class AirPricingInfo
 
     /**
      * @param typeSupplierCode $SupplierCode
-     * @return \FilippoToso\Travelport\Rail\AirPricingInfo
+     * @return \Santosdave\Travelport\Rail\AirPricingInfo
      */
     public function setSupplierCode($SupplierCode)
     {
@@ -1589,7 +1589,7 @@ class AirPricingInfo
 
     /**
      * @param typeElementStatus $ElStat
-     * @return \FilippoToso\Travelport\Rail\AirPricingInfo
+     * @return \Santosdave\Travelport\Rail\AirPricingInfo
      */
     public function setElStat($ElStat)
     {
@@ -1607,7 +1607,7 @@ class AirPricingInfo
 
     /**
      * @param boolean $KeyOverride
-     * @return \FilippoToso\Travelport\Rail\AirPricingInfo
+     * @return \Santosdave\Travelport\Rail\AirPricingInfo
      */
     public function setKeyOverride($KeyOverride)
     {
@@ -1625,7 +1625,7 @@ class AirPricingInfo
 
     /**
      * @param boolean $InPolicy
-     * @return \FilippoToso\Travelport\Rail\AirPricingInfo
+     * @return \Santosdave\Travelport\Rail\AirPricingInfo
      */
     public function setInPolicy($InPolicy)
     {
@@ -1643,7 +1643,7 @@ class AirPricingInfo
 
     /**
      * @param boolean $PreferredOption
-     * @return \FilippoToso\Travelport\Rail\AirPricingInfo
+     * @return \Santosdave\Travelport\Rail\AirPricingInfo
      */
     public function setPreferredOption($PreferredOption)
     {

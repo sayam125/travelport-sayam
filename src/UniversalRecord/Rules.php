@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class Rules
 {
@@ -26,7 +26,7 @@ class Rules
 
     /**
      * @param string $RulesText
-     * @return \FilippoToso\Travelport\UniversalRecord\Rules
+     * @return \Santosdave\Travelport\UniversalRecord\Rules
      */
     public function setRulesText($RulesText)
     {

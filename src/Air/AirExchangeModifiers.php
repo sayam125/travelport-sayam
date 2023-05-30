@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class AirExchangeModifiers
 {
@@ -89,7 +89,7 @@ class AirExchangeModifiers
 
     /**
      * @param ContractCodes $ContractCodes
-     * @return \FilippoToso\Travelport\Air\AirExchangeModifiers
+     * @return \Santosdave\Travelport\Air\AirExchangeModifiers
      */
     public function setContractCodes($ContractCodes)
     {
@@ -107,7 +107,7 @@ class AirExchangeModifiers
 
     /**
      * @param string $BookingDate
-     * @return \FilippoToso\Travelport\Air\AirExchangeModifiers
+     * @return \Santosdave\Travelport\Air\AirExchangeModifiers
      */
     public function setBookingDate($BookingDate)
     {
@@ -125,7 +125,7 @@ class AirExchangeModifiers
 
     /**
      * @param string $TicketingDate
-     * @return \FilippoToso\Travelport\Air\AirExchangeModifiers
+     * @return \Santosdave\Travelport\Air\AirExchangeModifiers
      */
     public function setTicketingDate($TicketingDate)
     {
@@ -143,7 +143,7 @@ class AirExchangeModifiers
 
     /**
      * @param string $AccountCode
-     * @return \FilippoToso\Travelport\Air\AirExchangeModifiers
+     * @return \Santosdave\Travelport\Air\AirExchangeModifiers
      */
     public function setAccountCode($AccountCode)
     {
@@ -161,7 +161,7 @@ class AirExchangeModifiers
 
     /**
      * @param typeTicketDesignator $TicketDesignator
-     * @return \FilippoToso\Travelport\Air\AirExchangeModifiers
+     * @return \Santosdave\Travelport\Air\AirExchangeModifiers
      */
     public function setTicketDesignator($TicketDesignator)
     {
@@ -179,7 +179,7 @@ class AirExchangeModifiers
 
     /**
      * @param boolean $AllowPenaltyFares
-     * @return \FilippoToso\Travelport\Air\AirExchangeModifiers
+     * @return \Santosdave\Travelport\Air\AirExchangeModifiers
      */
     public function setAllowPenaltyFares($AllowPenaltyFares)
     {
@@ -197,7 +197,7 @@ class AirExchangeModifiers
 
     /**
      * @param boolean $PrivateFaresOnly
-     * @return \FilippoToso\Travelport\Air\AirExchangeModifiers
+     * @return \Santosdave\Travelport\Air\AirExchangeModifiers
      */
     public function setPrivateFaresOnly($PrivateFaresOnly)
     {
@@ -215,7 +215,7 @@ class AirExchangeModifiers
 
     /**
      * @param typeLocatorCode $UniversalRecordLocatorCode
-     * @return \FilippoToso\Travelport\Air\AirExchangeModifiers
+     * @return \Santosdave\Travelport\Air\AirExchangeModifiers
      */
     public function setUniversalRecordLocatorCode($UniversalRecordLocatorCode)
     {
@@ -233,7 +233,7 @@ class AirExchangeModifiers
 
     /**
      * @param typeLocatorCode $ProviderLocatorCode
-     * @return \FilippoToso\Travelport\Air\AirExchangeModifiers
+     * @return \Santosdave\Travelport\Air\AirExchangeModifiers
      */
     public function setProviderLocatorCode($ProviderLocatorCode)
     {
@@ -251,7 +251,7 @@ class AirExchangeModifiers
 
     /**
      * @param string $ProviderCode
-     * @return \FilippoToso\Travelport\Air\AirExchangeModifiers
+     * @return \Santosdave\Travelport\Air\AirExchangeModifiers
      */
     public function setProviderCode($ProviderCode)
     {

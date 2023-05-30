@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class HotelSuperShopperResults
 {
@@ -47,7 +47,7 @@ class HotelSuperShopperResults
 
     /**
      * @param HotelProperty $HotelProperty
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelSuperShopperResults
+     * @return \Santosdave\Travelport\UniversalRecord\HotelSuperShopperResults
      */
     public function setHotelProperty($HotelProperty)
     {
@@ -65,7 +65,7 @@ class HotelSuperShopperResults
 
     /**
      * @param HotelDetailItem $HotelDetailItem
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelSuperShopperResults
+     * @return \Santosdave\Travelport\UniversalRecord\HotelSuperShopperResults
      */
     public function setHotelDetailItem($HotelDetailItem)
     {
@@ -83,7 +83,7 @@ class HotelSuperShopperResults
 
     /**
      * @param HotelRateDetail $HotelRateDetail
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelSuperShopperResults
+     * @return \Santosdave\Travelport\UniversalRecord\HotelSuperShopperResults
      */
     public function setHotelRateDetail($HotelRateDetail)
     {
@@ -101,7 +101,7 @@ class HotelSuperShopperResults
 
     /**
      * @param typeResultMessage[] $HotelResultsError
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelSuperShopperResults
+     * @return \Santosdave\Travelport\UniversalRecord\HotelSuperShopperResults
      */
     public function setHotelResultsError(array $HotelResultsError = null)
     {

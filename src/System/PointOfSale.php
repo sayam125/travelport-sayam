@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\System;
+namespace Santosdave\Travelport\System;
 
 class PointOfSale
 {
@@ -49,7 +49,7 @@ class PointOfSale
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\System\PointOfSale
+     * @return \Santosdave\Travelport\System\PointOfSale
      */
     public function setProviderCode($ProviderCode)
     {
@@ -67,7 +67,7 @@ class PointOfSale
 
     /**
      * @param typePCC $PseudoCityCode
-     * @return \FilippoToso\Travelport\System\PointOfSale
+     * @return \Santosdave\Travelport\System\PointOfSale
      */
     public function setPseudoCityCode($PseudoCityCode)
     {
@@ -85,7 +85,7 @@ class PointOfSale
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\System\PointOfSale
+     * @return \Santosdave\Travelport\System\PointOfSale
      */
     public function setKey($Key)
     {
@@ -103,7 +103,7 @@ class PointOfSale
 
     /**
      * @param typeIATA $IATA
-     * @return \FilippoToso\Travelport\System\PointOfSale
+     * @return \Santosdave\Travelport\System\PointOfSale
      */
     public function setIATA($IATA)
     {

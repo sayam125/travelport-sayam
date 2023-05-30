@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class AirSegmentList
 {
@@ -28,7 +28,7 @@ class AirSegmentList
 
     /**
      * @param typeBaseAirSegment $AirSegment
-     * @return \FilippoToso\Travelport\Air\AirSegmentList
+     * @return \Santosdave\Travelport\Air\AirSegmentList
      */
     public function setAirSegment($AirSegment)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class Vehicle
 {
@@ -168,7 +168,7 @@ class Vehicle
 
     /**
      * @param typePolicyCodesList $PolicyCodesList
-     * @return \FilippoToso\Travelport\GDSQueue\Vehicle
+     * @return \Santosdave\Travelport\GDSQueue\Vehicle
      */
     public function setPolicyCodesList($PolicyCodesList)
     {
@@ -186,7 +186,7 @@ class Vehicle
 
     /**
      * @param VehicleRate $VehicleRate
-     * @return \FilippoToso\Travelport\GDSQueue\Vehicle
+     * @return \Santosdave\Travelport\GDSQueue\Vehicle
      */
     public function setVehicleRate($VehicleRate)
     {
@@ -204,7 +204,7 @@ class Vehicle
 
     /**
      * @param typeSupplierCode $VendorCode
-     * @return \FilippoToso\Travelport\GDSQueue\Vehicle
+     * @return \Santosdave\Travelport\GDSQueue\Vehicle
      */
     public function setVendorCode($VendorCode)
     {
@@ -222,7 +222,7 @@ class Vehicle
 
     /**
      * @param boolean $AirConditioning
-     * @return \FilippoToso\Travelport\GDSQueue\Vehicle
+     * @return \Santosdave\Travelport\GDSQueue\Vehicle
      */
     public function setAirConditioning($AirConditioning)
     {
@@ -240,7 +240,7 @@ class Vehicle
 
     /**
      * @param typeVehicleTransmission $TransmissionType
-     * @return \FilippoToso\Travelport\GDSQueue\Vehicle
+     * @return \Santosdave\Travelport\GDSQueue\Vehicle
      */
     public function setTransmissionType($TransmissionType)
     {
@@ -258,7 +258,7 @@ class Vehicle
 
     /**
      * @param typeVehicleClass $VehicleClass
-     * @return \FilippoToso\Travelport\GDSQueue\Vehicle
+     * @return \Santosdave\Travelport\GDSQueue\Vehicle
      */
     public function setVehicleClass($VehicleClass)
     {
@@ -276,7 +276,7 @@ class Vehicle
 
     /**
      * @param typeVehicleCategory $Category
-     * @return \FilippoToso\Travelport\GDSQueue\Vehicle
+     * @return \Santosdave\Travelport\GDSQueue\Vehicle
      */
     public function setCategory($Category)
     {
@@ -294,7 +294,7 @@ class Vehicle
 
     /**
      * @param string $Description
-     * @return \FilippoToso\Travelport\GDSQueue\Vehicle
+     * @return \Santosdave\Travelport\GDSQueue\Vehicle
      */
     public function setDescription($Description)
     {
@@ -312,7 +312,7 @@ class Vehicle
 
     /**
      * @param typeDoorCount $DoorCount
-     * @return \FilippoToso\Travelport\GDSQueue\Vehicle
+     * @return \Santosdave\Travelport\GDSQueue\Vehicle
      */
     public function setDoorCount($DoorCount)
     {
@@ -330,7 +330,7 @@ class Vehicle
 
     /**
      * @param string $Location
-     * @return \FilippoToso\Travelport\GDSQueue\Vehicle
+     * @return \Santosdave\Travelport\GDSQueue\Vehicle
      */
     public function setLocation($Location)
     {
@@ -348,7 +348,7 @@ class Vehicle
 
     /**
      * @param anonymous545 $CounterLocationCode
-     * @return \FilippoToso\Travelport\GDSQueue\Vehicle
+     * @return \Santosdave\Travelport\GDSQueue\Vehicle
      */
     public function setCounterLocationCode($CounterLocationCode)
     {
@@ -366,7 +366,7 @@ class Vehicle
 
     /**
      * @param typeRef $VendorLocationKey
-     * @return \FilippoToso\Travelport\GDSQueue\Vehicle
+     * @return \Santosdave\Travelport\GDSQueue\Vehicle
      */
     public function setVendorLocationKey($VendorLocationKey)
     {
@@ -384,7 +384,7 @@ class Vehicle
 
     /**
      * @param anonymous546 $VendorName
-     * @return \FilippoToso\Travelport\GDSQueue\Vehicle
+     * @return \Santosdave\Travelport\GDSQueue\Vehicle
      */
     public function setVendorName($VendorName)
     {
@@ -402,7 +402,7 @@ class Vehicle
 
     /**
      * @param string $AlternateVendor
-     * @return \FilippoToso\Travelport\GDSQueue\Vehicle
+     * @return \Santosdave\Travelport\GDSQueue\Vehicle
      */
     public function setAlternateVendor($AlternateVendor)
     {
@@ -420,7 +420,7 @@ class Vehicle
 
     /**
      * @param typeFuel $FuelType
-     * @return \FilippoToso\Travelport\GDSQueue\Vehicle
+     * @return \Santosdave\Travelport\GDSQueue\Vehicle
      */
     public function setFuelType($FuelType)
     {
@@ -438,7 +438,7 @@ class Vehicle
 
     /**
      * @param anonymous547 $AcrissVehicleCode
-     * @return \FilippoToso\Travelport\GDSQueue\Vehicle
+     * @return \Santosdave\Travelport\GDSQueue\Vehicle
      */
     public function setAcrissVehicleCode($AcrissVehicleCode)
     {
@@ -456,7 +456,7 @@ class Vehicle
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\GDSQueue\Vehicle
+     * @return \Santosdave\Travelport\GDSQueue\Vehicle
      */
     public function setKey($Key)
     {
@@ -474,7 +474,7 @@ class Vehicle
 
     /**
      * @param boolean $ReturnAtPickup
-     * @return \FilippoToso\Travelport\GDSQueue\Vehicle
+     * @return \Santosdave\Travelport\GDSQueue\Vehicle
      */
     public function setReturnAtPickup($ReturnAtPickup)
     {
@@ -492,7 +492,7 @@ class Vehicle
 
     /**
      * @param boolean $InPolicy
-     * @return \FilippoToso\Travelport\GDSQueue\Vehicle
+     * @return \Santosdave\Travelport\GDSQueue\Vehicle
      */
     public function setInPolicy($InPolicy)
     {
@@ -510,7 +510,7 @@ class Vehicle
 
     /**
      * @param typePolicyCode $PolicyCode
-     * @return \FilippoToso\Travelport\GDSQueue\Vehicle
+     * @return \Santosdave\Travelport\GDSQueue\Vehicle
      */
     public function setPolicyCode($PolicyCode)
     {
@@ -528,7 +528,7 @@ class Vehicle
 
     /**
      * @param boolean $PreferredOption
-     * @return \FilippoToso\Travelport\GDSQueue\Vehicle
+     * @return \Santosdave\Travelport\GDSQueue\Vehicle
      */
     public function setPreferredOption($PreferredOption)
     {

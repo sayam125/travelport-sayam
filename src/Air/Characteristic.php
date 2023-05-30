@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class Characteristic
 {
@@ -49,7 +49,7 @@ class Characteristic
 
     /**
      * @param string $Value
-     * @return \FilippoToso\Travelport\Air\Characteristic
+     * @return \Santosdave\Travelport\Air\Characteristic
      */
     public function setValue($Value)
     {
@@ -67,7 +67,7 @@ class Characteristic
 
     /**
      * @param typePosition $Position
-     * @return \FilippoToso\Travelport\Air\Characteristic
+     * @return \Santosdave\Travelport\Air\Characteristic
      */
     public function setPosition($Position)
     {
@@ -85,7 +85,7 @@ class Characteristic
 
     /**
      * @param typeRowLocation $RowLocation
-     * @return \FilippoToso\Travelport\Air\Characteristic
+     * @return \Santosdave\Travelport\Air\Characteristic
      */
     public function setRowLocation($RowLocation)
     {
@@ -103,7 +103,7 @@ class Characteristic
 
     /**
      * @param StringLength1to99 $PADISCode
-     * @return \FilippoToso\Travelport\Air\Characteristic
+     * @return \Santosdave\Travelport\Air\Characteristic
      */
     public function setPADISCode($PADISCode)
     {

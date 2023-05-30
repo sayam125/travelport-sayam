@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class CruiseFees
 {
@@ -35,7 +35,7 @@ class CruiseFees
 
     /**
      * @param typeMoney $Amount
-     * @return \FilippoToso\Travelport\Rail\CruiseFees
+     * @return \Santosdave\Travelport\Rail\CruiseFees
      */
     public function setAmount($Amount)
     {
@@ -53,7 +53,7 @@ class CruiseFees
 
     /**
      * @param StringLength1to13 $Description
-     * @return \FilippoToso\Travelport\Rail\CruiseFees
+     * @return \Santosdave\Travelport\Rail\CruiseFees
      */
     public function setDescription($Description)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class VendorLocation extends typeVendorLocation
 {
@@ -35,7 +35,7 @@ class VendorLocation extends typeVendorLocation
 
     /**
      * @param Distance $Distance
-     * @return \FilippoToso\Travelport\GDSQueue\VendorLocation
+     * @return \Santosdave\Travelport\GDSQueue\VendorLocation
      */
     public function setDistance($Distance)
     {

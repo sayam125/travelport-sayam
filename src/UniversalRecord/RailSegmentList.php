@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class RailSegmentList
 {
@@ -28,7 +28,7 @@ class RailSegmentList
 
     /**
      * @param RailSegment $RailSegment
-     * @return \FilippoToso\Travelport\UniversalRecord\RailSegmentList
+     * @return \Santosdave\Travelport\UniversalRecord\RailSegmentList
      */
     public function setRailSegment($RailSegment)
     {

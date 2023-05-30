@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class AirPricingModifierRef
 {
@@ -28,7 +28,7 @@ class AirPricingModifierRef
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\GDSQueue\AirPricingModifierRef
+     * @return \Santosdave\Travelport\GDSQueue\AirPricingModifierRef
      */
     public function setKey($Key)
     {

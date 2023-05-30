@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class TravelArranger
 {
@@ -42,7 +42,7 @@ class TravelArranger
 
     /**
      * @param string $_
-     * @return \FilippoToso\Travelport\Air\TravelArranger
+     * @return \Santosdave\Travelport\Air\TravelArranger
      */
     public function set_($_)
     {
@@ -60,7 +60,7 @@ class TravelArranger
 
     /**
      * @param string $CompanyShortName
-     * @return \FilippoToso\Travelport\Air\TravelArranger
+     * @return \Santosdave\Travelport\Air\TravelArranger
      */
     public function setCompanyShortName($CompanyShortName)
     {
@@ -78,7 +78,7 @@ class TravelArranger
 
     /**
      * @param string $Code
-     * @return \FilippoToso\Travelport\Air\TravelArranger
+     * @return \Santosdave\Travelport\Air\TravelArranger
      */
     public function setCode($Code)
     {

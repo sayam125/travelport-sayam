@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class Charges
 {
@@ -70,7 +70,7 @@ class Charges
 
     /**
      * @param typeMoney $AirCharge
-     * @return \FilippoToso\Travelport\Rail\Charges
+     * @return \Santosdave\Travelport\Rail\Charges
      */
     public function setAirCharge($AirCharge)
     {
@@ -88,7 +88,7 @@ class Charges
 
     /**
      * @param typeMoney $OptionalCharge
-     * @return \FilippoToso\Travelport\Rail\Charges
+     * @return \Santosdave\Travelport\Rail\Charges
      */
     public function setOptionalCharge($OptionalCharge)
     {
@@ -106,7 +106,7 @@ class Charges
 
     /**
      * @param typeMoney $WaiverCharge
-     * @return \FilippoToso\Travelport\Rail\Charges
+     * @return \Santosdave\Travelport\Rail\Charges
      */
     public function setWaiverCharge($WaiverCharge)
     {
@@ -124,7 +124,7 @@ class Charges
 
     /**
      * @param StringLength1 $WaiverChargeType
-     * @return \FilippoToso\Travelport\Rail\Charges
+     * @return \Santosdave\Travelport\Rail\Charges
      */
     public function setWaiverChargeType($WaiverChargeType)
     {
@@ -142,7 +142,7 @@ class Charges
 
     /**
      * @param typeMoney $PortCharge
-     * @return \FilippoToso\Travelport\Rail\Charges
+     * @return \Santosdave\Travelport\Rail\Charges
      */
     public function setPortCharge($PortCharge)
     {
@@ -160,7 +160,7 @@ class Charges
 
     /**
      * @param StringLength1to13 $PortChargeDescription
-     * @return \FilippoToso\Travelport\Rail\Charges
+     * @return \Santosdave\Travelport\Rail\Charges
      */
     public function setPortChargeDescription($PortChargeDescription)
     {
@@ -178,7 +178,7 @@ class Charges
 
     /**
      * @param typeMoney $PenaltyCharge
-     * @return \FilippoToso\Travelport\Rail\Charges
+     * @return \Santosdave\Travelport\Rail\Charges
      */
     public function setPenaltyCharge($PenaltyCharge)
     {

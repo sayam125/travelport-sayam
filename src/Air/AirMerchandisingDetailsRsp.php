@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class AirMerchandisingDetailsRsp extends BaseRsp
 {
@@ -46,7 +46,7 @@ class AirMerchandisingDetailsRsp extends BaseRsp
 
     /**
      * @param OptionalServices $OptionalServices
-     * @return \FilippoToso\Travelport\Air\AirMerchandisingDetailsRsp
+     * @return \Santosdave\Travelport\Air\AirMerchandisingDetailsRsp
      */
     public function setOptionalServices($OptionalServices)
     {
@@ -64,7 +64,7 @@ class AirMerchandisingDetailsRsp extends BaseRsp
 
     /**
      * @param Brand $Brand
-     * @return \FilippoToso\Travelport\Air\AirMerchandisingDetailsRsp
+     * @return \Santosdave\Travelport\Air\AirMerchandisingDetailsRsp
      */
     public function setBrand($Brand)
     {
@@ -82,7 +82,7 @@ class AirMerchandisingDetailsRsp extends BaseRsp
 
     /**
      * @param UnassociatedBookingCodeList $UnassociatedBookingCodeList
-     * @return \FilippoToso\Travelport\Air\AirMerchandisingDetailsRsp
+     * @return \Santosdave\Travelport\Air\AirMerchandisingDetailsRsp
      */
     public function setUnassociatedBookingCodeList($UnassociatedBookingCodeList)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class ListSearch
 {
@@ -49,7 +49,7 @@ class ListSearch
 
     /**
      * @param PersonNameSearch $PersonNameSearch
-     * @return \FilippoToso\Travelport\Air\ListSearch
+     * @return \Santosdave\Travelport\Air\ListSearch
      */
     public function setPersonNameSearch($PersonNameSearch)
     {
@@ -67,7 +67,7 @@ class ListSearch
 
     /**
      * @param LoyaltyCard $LoyaltyCard
-     * @return \FilippoToso\Travelport\Air\ListSearch
+     * @return \Santosdave\Travelport\Air\ListSearch
      */
     public function setLoyaltyCard($LoyaltyCard)
     {
@@ -85,7 +85,7 @@ class ListSearch
 
     /**
      * @param typeStartFromResult $StartFromResult
-     * @return \FilippoToso\Travelport\Air\ListSearch
+     * @return \Santosdave\Travelport\Air\ListSearch
      */
     public function setStartFromResult($StartFromResult)
     {
@@ -103,7 +103,7 @@ class ListSearch
 
     /**
      * @param typeMaxResults $MaxResults
-     * @return \FilippoToso\Travelport\Air\ListSearch
+     * @return \Santosdave\Travelport\Air\ListSearch
      */
     public function setMaxResults($MaxResults)
     {

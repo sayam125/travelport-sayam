@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class typeGeneralReference
 {
@@ -28,7 +28,7 @@ class typeGeneralReference
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Util\typeGeneralReference
+     * @return \Santosdave\Travelport\Util\typeGeneralReference
      */
     public function setKey($Key)
     {

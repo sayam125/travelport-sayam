@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class EMDCoupon
 {
@@ -140,7 +140,7 @@ class EMDCoupon
 
     /**
      * @param int $Number
-     * @return \FilippoToso\Travelport\GDSQueue\EMDCoupon
+     * @return \Santosdave\Travelport\GDSQueue\EMDCoupon
      */
     public function setNumber($Number)
     {
@@ -158,7 +158,7 @@ class EMDCoupon
 
     /**
      * @param string $Status
-     * @return \FilippoToso\Travelport\GDSQueue\EMDCoupon
+     * @return \Santosdave\Travelport\GDSQueue\EMDCoupon
      */
     public function setStatus($Status)
     {
@@ -176,7 +176,7 @@ class EMDCoupon
 
     /**
      * @param string $SvcDescription
-     * @return \FilippoToso\Travelport\GDSQueue\EMDCoupon
+     * @return \Santosdave\Travelport\GDSQueue\EMDCoupon
      */
     public function setSvcDescription($SvcDescription)
     {
@@ -194,7 +194,7 @@ class EMDCoupon
 
     /**
      * @param boolean $ConsumedAtIssuanceInd
-     * @return \FilippoToso\Travelport\GDSQueue\EMDCoupon
+     * @return \Santosdave\Travelport\GDSQueue\EMDCoupon
      */
     public function setConsumedAtIssuanceInd($ConsumedAtIssuanceInd)
     {
@@ -212,7 +212,7 @@ class EMDCoupon
 
     /**
      * @param anonymous1067 $RFIC
-     * @return \FilippoToso\Travelport\GDSQueue\EMDCoupon
+     * @return \Santosdave\Travelport\GDSQueue\EMDCoupon
      */
     public function setRFIC($RFIC)
     {
@@ -230,7 +230,7 @@ class EMDCoupon
 
     /**
      * @param anonymous1068 $RFISC
-     * @return \FilippoToso\Travelport\GDSQueue\EMDCoupon
+     * @return \Santosdave\Travelport\GDSQueue\EMDCoupon
      */
     public function setRFISC($RFISC)
     {
@@ -248,7 +248,7 @@ class EMDCoupon
 
     /**
      * @param anonymous1069 $RFIDescription
-     * @return \FilippoToso\Travelport\GDSQueue\EMDCoupon
+     * @return \Santosdave\Travelport\GDSQueue\EMDCoupon
      */
     public function setRFIDescription($RFIDescription)
     {
@@ -266,7 +266,7 @@ class EMDCoupon
 
     /**
      * @param typeIATACode $Origin
-     * @return \FilippoToso\Travelport\GDSQueue\EMDCoupon
+     * @return \Santosdave\Travelport\GDSQueue\EMDCoupon
      */
     public function setOrigin($Origin)
     {
@@ -284,7 +284,7 @@ class EMDCoupon
 
     /**
      * @param typeIATACode $Destination
-     * @return \FilippoToso\Travelport\GDSQueue\EMDCoupon
+     * @return \Santosdave\Travelport\GDSQueue\EMDCoupon
      */
     public function setDestination($Destination)
     {
@@ -302,7 +302,7 @@ class EMDCoupon
 
     /**
      * @param typeFlightNumber $FlightNumber
-     * @return \FilippoToso\Travelport\GDSQueue\EMDCoupon
+     * @return \Santosdave\Travelport\GDSQueue\EMDCoupon
      */
     public function setFlightNumber($FlightNumber)
     {
@@ -320,7 +320,7 @@ class EMDCoupon
 
     /**
      * @param anonymous1070 $PresentTo
-     * @return \FilippoToso\Travelport\GDSQueue\EMDCoupon
+     * @return \Santosdave\Travelport\GDSQueue\EMDCoupon
      */
     public function setPresentTo($PresentTo)
     {
@@ -338,7 +338,7 @@ class EMDCoupon
 
     /**
      * @param anonymous1071 $PresentAt
-     * @return \FilippoToso\Travelport\GDSQueue\EMDCoupon
+     * @return \Santosdave\Travelport\GDSQueue\EMDCoupon
      */
     public function setPresentAt($PresentAt)
     {
@@ -356,7 +356,7 @@ class EMDCoupon
 
     /**
      * @param boolean $NonRefundableInd
-     * @return \FilippoToso\Travelport\GDSQueue\EMDCoupon
+     * @return \Santosdave\Travelport\GDSQueue\EMDCoupon
      */
     public function setNonRefundableInd($NonRefundableInd)
     {
@@ -374,7 +374,7 @@ class EMDCoupon
 
     /**
      * @param typeCarrier $MarketingCarrier
-     * @return \FilippoToso\Travelport\GDSQueue\EMDCoupon
+     * @return \Santosdave\Travelport\GDSQueue\EMDCoupon
      */
     public function setMarketingCarrier($MarketingCarrier)
     {
@@ -392,7 +392,7 @@ class EMDCoupon
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\GDSQueue\EMDCoupon
+     * @return \Santosdave\Travelport\GDSQueue\EMDCoupon
      */
     public function setKey($Key)
     {
@@ -410,7 +410,7 @@ class EMDCoupon
 
     /**
      * @param typeElementStatus $ElStat
-     * @return \FilippoToso\Travelport\GDSQueue\EMDCoupon
+     * @return \Santosdave\Travelport\GDSQueue\EMDCoupon
      */
     public function setElStat($ElStat)
     {
@@ -428,7 +428,7 @@ class EMDCoupon
 
     /**
      * @param boolean $KeyOverride
-     * @return \FilippoToso\Travelport\GDSQueue\EMDCoupon
+     * @return \Santosdave\Travelport\GDSQueue\EMDCoupon
      */
     public function setKeyOverride($KeyOverride)
     {

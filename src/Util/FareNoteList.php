@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class FareNoteList
 {
@@ -28,7 +28,7 @@ class FareNoteList
 
     /**
      * @param FareNote $FareNote
-     * @return \FilippoToso\Travelport\Util\FareNoteList
+     * @return \Santosdave\Travelport\Util\FareNoteList
      */
     public function setFareNote($FareNote)
     {

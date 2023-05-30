@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class PersonalGeography
 {
@@ -36,7 +36,7 @@ class PersonalGeography
 
     /**
      * @param typeCountry $CountryCode
-     * @return \FilippoToso\Travelport\GDSQueue\PersonalGeography
+     * @return \Santosdave\Travelport\GDSQueue\PersonalGeography
      */
     public function setCountryCode($CountryCode)
     {
@@ -54,7 +54,7 @@ class PersonalGeography
 
     /**
      * @param typeState $StateProvinceCode
-     * @return \FilippoToso\Travelport\GDSQueue\PersonalGeography
+     * @return \Santosdave\Travelport\GDSQueue\PersonalGeography
      */
     public function setStateProvinceCode($StateProvinceCode)
     {
@@ -72,7 +72,7 @@ class PersonalGeography
 
     /**
      * @param typeCity $CityCode
-     * @return \FilippoToso\Travelport\GDSQueue\PersonalGeography
+     * @return \Santosdave\Travelport\GDSQueue\PersonalGeography
      */
     public function setCityCode($CityCode)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class NextResultReference
 {
@@ -35,7 +35,7 @@ class NextResultReference
 
     /**
      * @param typeNonBlanks $_
-     * @return \FilippoToso\Travelport\UProfile\NextResultReference
+     * @return \Santosdave\Travelport\UProfile\NextResultReference
      */
     public function set_($_)
     {
@@ -53,7 +53,7 @@ class NextResultReference
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\UProfile\NextResultReference
+     * @return \Santosdave\Travelport\UProfile\NextResultReference
      */
     public function setProviderCode($ProviderCode)
     {

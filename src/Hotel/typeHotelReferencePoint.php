@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class typeHotelReferencePoint
 {
@@ -42,7 +42,7 @@ class typeHotelReferencePoint
 
     /**
      * @param typeReferencePoint $_
-     * @return \FilippoToso\Travelport\Hotel\typeHotelReferencePoint
+     * @return \Santosdave\Travelport\Hotel\typeHotelReferencePoint
      */
     public function set_($_)
     {
@@ -60,7 +60,7 @@ class typeHotelReferencePoint
 
     /**
      * @param typeCountry $Country
-     * @return \FilippoToso\Travelport\Hotel\typeHotelReferencePoint
+     * @return \Santosdave\Travelport\Hotel\typeHotelReferencePoint
      */
     public function setCountry($Country)
     {
@@ -78,7 +78,7 @@ class typeHotelReferencePoint
 
     /**
      * @param typeState $State
-     * @return \FilippoToso\Travelport\Hotel\typeHotelReferencePoint
+     * @return \Santosdave\Travelport\Hotel\typeHotelReferencePoint
      */
     public function setState($State)
     {

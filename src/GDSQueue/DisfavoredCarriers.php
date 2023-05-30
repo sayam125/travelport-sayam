@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class DisfavoredCarriers
 {
@@ -28,7 +28,7 @@ class DisfavoredCarriers
 
     /**
      * @param Carrier $Carrier
-     * @return \FilippoToso\Travelport\GDSQueue\DisfavoredCarriers
+     * @return \Santosdave\Travelport\GDSQueue\DisfavoredCarriers
      */
     public function setCarrier($Carrier)
     {

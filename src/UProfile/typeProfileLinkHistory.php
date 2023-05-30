@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeProfileLinkHistory
 {
@@ -70,7 +70,7 @@ class typeProfileLinkHistory
 
     /**
      * @param typeProfileID $TravelerID
-     * @return \FilippoToso\Travelport\UProfile\typeProfileLinkHistory
+     * @return \Santosdave\Travelport\UProfile\typeProfileLinkHistory
      */
     public function setTravelerID($TravelerID)
     {
@@ -88,7 +88,7 @@ class typeProfileLinkHistory
 
     /**
      * @param typeProfileLinkRelationship $Relationship
-     * @return \FilippoToso\Travelport\UProfile\typeProfileLinkHistory
+     * @return \Santosdave\Travelport\UProfile\typeProfileLinkHistory
      */
     public function setRelationship($Relationship)
     {
@@ -106,7 +106,7 @@ class typeProfileLinkHistory
 
     /**
      * @param StringLength1to128 $GivenName
-     * @return \FilippoToso\Travelport\UProfile\typeProfileLinkHistory
+     * @return \Santosdave\Travelport\UProfile\typeProfileLinkHistory
      */
     public function setGivenName($GivenName)
     {
@@ -124,7 +124,7 @@ class typeProfileLinkHistory
 
     /**
      * @param StringLength1to128 $OtherName
-     * @return \FilippoToso\Travelport\UProfile\typeProfileLinkHistory
+     * @return \Santosdave\Travelport\UProfile\typeProfileLinkHistory
      */
     public function setOtherName($OtherName)
     {
@@ -142,7 +142,7 @@ class typeProfileLinkHistory
 
     /**
      * @param StringLength1to128 $Surname
-     * @return \FilippoToso\Travelport\UProfile\typeProfileLinkHistory
+     * @return \Santosdave\Travelport\UProfile\typeProfileLinkHistory
      */
     public function setSurname($Surname)
     {
@@ -160,7 +160,7 @@ class typeProfileLinkHistory
 
     /**
      * @param StringLength1to128 $Nickname
-     * @return \FilippoToso\Travelport\UProfile\typeProfileLinkHistory
+     * @return \Santosdave\Travelport\UProfile\typeProfileLinkHistory
      */
     public function setNickname($Nickname)
     {
@@ -178,7 +178,7 @@ class typeProfileLinkHistory
 
     /**
      * @param StringLength1to128 $ElectronicAddress
-     * @return \FilippoToso\Travelport\UProfile\typeProfileLinkHistory
+     * @return \Santosdave\Travelport\UProfile\typeProfileLinkHistory
      */
     public function setElectronicAddress($ElectronicAddress)
     {

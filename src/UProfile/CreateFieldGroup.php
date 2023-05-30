@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class CreateFieldGroup
 {
@@ -70,7 +70,7 @@ class CreateFieldGroup
 
     /**
      * @param CreateField $CreateField
-     * @return \FilippoToso\Travelport\UProfile\CreateFieldGroup
+     * @return \Santosdave\Travelport\UProfile\CreateFieldGroup
      */
     public function setCreateField($CreateField)
     {
@@ -88,7 +88,7 @@ class CreateFieldGroup
 
     /**
      * @param typeFieldName $Name
-     * @return \FilippoToso\Travelport\UProfile\CreateFieldGroup
+     * @return \Santosdave\Travelport\UProfile\CreateFieldGroup
      */
     public function setName($Name)
     {
@@ -106,7 +106,7 @@ class CreateFieldGroup
 
     /**
      * @param StringLength1to255 $Description
-     * @return \FilippoToso\Travelport\UProfile\CreateFieldGroup
+     * @return \Santosdave\Travelport\UProfile\CreateFieldGroup
      */
     public function setDescription($Description)
     {
@@ -124,7 +124,7 @@ class CreateFieldGroup
 
     /**
      * @param boolean $Protected
-     * @return \FilippoToso\Travelport\UProfile\CreateFieldGroup
+     * @return \Santosdave\Travelport\UProfile\CreateFieldGroup
      */
     public function setProtected($Protected)
     {
@@ -142,7 +142,7 @@ class CreateFieldGroup
 
     /**
      * @param boolean $Inheritable
-     * @return \FilippoToso\Travelport\UProfile\CreateFieldGroup
+     * @return \Santosdave\Travelport\UProfile\CreateFieldGroup
      */
     public function setInheritable($Inheritable)
     {
@@ -160,7 +160,7 @@ class CreateFieldGroup
 
     /**
      * @param int $MinOccurs
-     * @return \FilippoToso\Travelport\UProfile\CreateFieldGroup
+     * @return \Santosdave\Travelport\UProfile\CreateFieldGroup
      */
     public function setMinOccurs($MinOccurs)
     {
@@ -178,7 +178,7 @@ class CreateFieldGroup
 
     /**
      * @param int $MaxOccurs
-     * @return \FilippoToso\Travelport\UProfile\CreateFieldGroup
+     * @return \Santosdave\Travelport\UProfile\CreateFieldGroup
      */
     public function setMaxOccurs($MaxOccurs)
     {

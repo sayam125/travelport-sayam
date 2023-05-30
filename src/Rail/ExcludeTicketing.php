@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class ExcludeTicketing
 {
@@ -26,7 +26,7 @@ class ExcludeTicketing
 
     /**
      * @param typeRef[] $BookingTravelerRef
-     * @return \FilippoToso\Travelport\Rail\ExcludeTicketing
+     * @return \Santosdave\Travelport\Rail\ExcludeTicketing
      */
     public function setBookingTravelerRef(array $BookingTravelerRef = null)
     {

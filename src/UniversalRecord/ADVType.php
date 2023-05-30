@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class ADVType
 {
@@ -245,7 +245,7 @@ class ADVType
 
     /**
      * @param boolean $AdvRsvnOnlyIfTk
-     * @return \FilippoToso\Travelport\UniversalRecord\ADVType
+     * @return \Santosdave\Travelport\UniversalRecord\ADVType
      */
     public function setAdvRsvnOnlyIfTk($AdvRsvnOnlyIfTk)
     {
@@ -263,7 +263,7 @@ class ADVType
 
     /**
      * @param boolean $AdvRsvnAnyTm
-     * @return \FilippoToso\Travelport\UniversalRecord\ADVType
+     * @return \Santosdave\Travelport\UniversalRecord\ADVType
      */
     public function setAdvRsvnAnyTm($AdvRsvnAnyTm)
     {
@@ -281,7 +281,7 @@ class ADVType
 
     /**
      * @param boolean $AdvRsvnHrs
-     * @return \FilippoToso\Travelport\UniversalRecord\ADVType
+     * @return \Santosdave\Travelport\UniversalRecord\ADVType
      */
     public function setAdvRsvnHrs($AdvRsvnHrs)
     {
@@ -299,7 +299,7 @@ class ADVType
 
     /**
      * @param boolean $AdvRsvnDays
-     * @return \FilippoToso\Travelport\UniversalRecord\ADVType
+     * @return \Santosdave\Travelport\UniversalRecord\ADVType
      */
     public function setAdvRsvnDays($AdvRsvnDays)
     {
@@ -317,7 +317,7 @@ class ADVType
 
     /**
      * @param boolean $AdvRsvnMonths
-     * @return \FilippoToso\Travelport\UniversalRecord\ADVType
+     * @return \Santosdave\Travelport\UniversalRecord\ADVType
      */
     public function setAdvRsvnMonths($AdvRsvnMonths)
     {
@@ -335,7 +335,7 @@ class ADVType
 
     /**
      * @param boolean $AdvRsvnEarliestTm
-     * @return \FilippoToso\Travelport\UniversalRecord\ADVType
+     * @return \Santosdave\Travelport\UniversalRecord\ADVType
      */
     public function setAdvRsvnEarliestTm($AdvRsvnEarliestTm)
     {
@@ -353,7 +353,7 @@ class ADVType
 
     /**
      * @param boolean $AdvRsvnLatestTm
-     * @return \FilippoToso\Travelport\UniversalRecord\ADVType
+     * @return \Santosdave\Travelport\UniversalRecord\ADVType
      */
     public function setAdvRsvnLatestTm($AdvRsvnLatestTm)
     {
@@ -371,7 +371,7 @@ class ADVType
 
     /**
      * @param boolean $AdvRsvnWaived
-     * @return \FilippoToso\Travelport\UniversalRecord\ADVType
+     * @return \Santosdave\Travelport\UniversalRecord\ADVType
      */
     public function setAdvRsvnWaived($AdvRsvnWaived)
     {
@@ -389,7 +389,7 @@ class ADVType
 
     /**
      * @param boolean $AdvRsvnDataExists
-     * @return \FilippoToso\Travelport\UniversalRecord\ADVType
+     * @return \Santosdave\Travelport\UniversalRecord\ADVType
      */
     public function setAdvRsvnDataExists($AdvRsvnDataExists)
     {
@@ -407,7 +407,7 @@ class ADVType
 
     /**
      * @param boolean $AdvRsvnEndItem
-     * @return \FilippoToso\Travelport\UniversalRecord\ADVType
+     * @return \Santosdave\Travelport\UniversalRecord\ADVType
      */
     public function setAdvRsvnEndItem($AdvRsvnEndItem)
     {
@@ -425,7 +425,7 @@ class ADVType
 
     /**
      * @param boolean $AdvTkEarliestTm
-     * @return \FilippoToso\Travelport\UniversalRecord\ADVType
+     * @return \Santosdave\Travelport\UniversalRecord\ADVType
      */
     public function setAdvTkEarliestTm($AdvTkEarliestTm)
     {
@@ -443,7 +443,7 @@ class ADVType
 
     /**
      * @param boolean $AdvTkLatestTm
-     * @return \FilippoToso\Travelport\UniversalRecord\ADVType
+     * @return \Santosdave\Travelport\UniversalRecord\ADVType
      */
     public function setAdvTkLatestTm($AdvTkLatestTm)
     {
@@ -461,7 +461,7 @@ class ADVType
 
     /**
      * @param boolean $AdvTkRsvnHrs
-     * @return \FilippoToso\Travelport\UniversalRecord\ADVType
+     * @return \Santosdave\Travelport\UniversalRecord\ADVType
      */
     public function setAdvTkRsvnHrs($AdvTkRsvnHrs)
     {
@@ -479,7 +479,7 @@ class ADVType
 
     /**
      * @param boolean $AdvTkRsvnDays
-     * @return \FilippoToso\Travelport\UniversalRecord\ADVType
+     * @return \Santosdave\Travelport\UniversalRecord\ADVType
      */
     public function setAdvTkRsvnDays($AdvTkRsvnDays)
     {
@@ -497,7 +497,7 @@ class ADVType
 
     /**
      * @param boolean $AdvTkRsvnMonths
-     * @return \FilippoToso\Travelport\UniversalRecord\ADVType
+     * @return \Santosdave\Travelport\UniversalRecord\ADVType
      */
     public function setAdvTkRsvnMonths($AdvTkRsvnMonths)
     {
@@ -515,7 +515,7 @@ class ADVType
 
     /**
      * @param boolean $AdvTkStartHrs
-     * @return \FilippoToso\Travelport\UniversalRecord\ADVType
+     * @return \Santosdave\Travelport\UniversalRecord\ADVType
      */
     public function setAdvTkStartHrs($AdvTkStartHrs)
     {
@@ -533,7 +533,7 @@ class ADVType
 
     /**
      * @param boolean $AdvTkStartDays
-     * @return \FilippoToso\Travelport\UniversalRecord\ADVType
+     * @return \Santosdave\Travelport\UniversalRecord\ADVType
      */
     public function setAdvTkStartDays($AdvTkStartDays)
     {
@@ -551,7 +551,7 @@ class ADVType
 
     /**
      * @param boolean $AdvTkStartMonths
-     * @return \FilippoToso\Travelport\UniversalRecord\ADVType
+     * @return \Santosdave\Travelport\UniversalRecord\ADVType
      */
     public function setAdvTkStartMonths($AdvTkStartMonths)
     {
@@ -569,7 +569,7 @@ class ADVType
 
     /**
      * @param boolean $AdvTkWaived
-     * @return \FilippoToso\Travelport\UniversalRecord\ADVType
+     * @return \Santosdave\Travelport\UniversalRecord\ADVType
      */
     public function setAdvTkWaived($AdvTkWaived)
     {
@@ -587,7 +587,7 @@ class ADVType
 
     /**
      * @param boolean $AdvTkAnyTm
-     * @return \FilippoToso\Travelport\UniversalRecord\ADVType
+     * @return \Santosdave\Travelport\UniversalRecord\ADVType
      */
     public function setAdvTkAnyTm($AdvTkAnyTm)
     {
@@ -605,7 +605,7 @@ class ADVType
 
     /**
      * @param boolean $AdvTkEndItem
-     * @return \FilippoToso\Travelport\UniversalRecord\ADVType
+     * @return \Santosdave\Travelport\UniversalRecord\ADVType
      */
     public function setAdvTkEndItem($AdvTkEndItem)
     {
@@ -623,7 +623,7 @@ class ADVType
 
     /**
      * @param int $AdvRsvnTm
-     * @return \FilippoToso\Travelport\UniversalRecord\ADVType
+     * @return \Santosdave\Travelport\UniversalRecord\ADVType
      */
     public function setAdvRsvnTm($AdvRsvnTm)
     {
@@ -641,7 +641,7 @@ class ADVType
 
     /**
      * @param int $AdvTkRsvnTm
-     * @return \FilippoToso\Travelport\UniversalRecord\ADVType
+     * @return \Santosdave\Travelport\UniversalRecord\ADVType
      */
     public function setAdvTkRsvnTm($AdvTkRsvnTm)
     {
@@ -659,7 +659,7 @@ class ADVType
 
     /**
      * @param int $AdvTkStartTm
-     * @return \FilippoToso\Travelport\UniversalRecord\ADVType
+     * @return \Santosdave\Travelport\UniversalRecord\ADVType
      */
     public function setAdvTkStartTm($AdvTkStartTm)
     {
@@ -677,7 +677,7 @@ class ADVType
 
     /**
      * @param boolean $EarliestRsvnDtPresent
-     * @return \FilippoToso\Travelport\UniversalRecord\ADVType
+     * @return \Santosdave\Travelport\UniversalRecord\ADVType
      */
     public function setEarliestRsvnDtPresent($EarliestRsvnDtPresent)
     {
@@ -695,7 +695,7 @@ class ADVType
 
     /**
      * @param boolean $EarliestTkDtPresent
-     * @return \FilippoToso\Travelport\UniversalRecord\ADVType
+     * @return \Santosdave\Travelport\UniversalRecord\ADVType
      */
     public function setEarliestTkDtPresent($EarliestTkDtPresent)
     {
@@ -713,7 +713,7 @@ class ADVType
 
     /**
      * @param boolean $LatestRsvnDtPresent
-     * @return \FilippoToso\Travelport\UniversalRecord\ADVType
+     * @return \Santosdave\Travelport\UniversalRecord\ADVType
      */
     public function setLatestRsvnDtPresent($LatestRsvnDtPresent)
     {
@@ -731,7 +731,7 @@ class ADVType
 
     /**
      * @param boolean $LatestTkDtPresent
-     * @return \FilippoToso\Travelport\UniversalRecord\ADVType
+     * @return \Santosdave\Travelport\UniversalRecord\ADVType
      */
     public function setLatestTkDtPresent($LatestTkDtPresent)
     {
@@ -749,7 +749,7 @@ class ADVType
 
     /**
      * @param date $EarliestRsvnDt
-     * @return \FilippoToso\Travelport\UniversalRecord\ADVType
+     * @return \Santosdave\Travelport\UniversalRecord\ADVType
      */
     public function setEarliestRsvnDt($EarliestRsvnDt)
     {
@@ -767,7 +767,7 @@ class ADVType
 
     /**
      * @param date $EarliestTkDt
-     * @return \FilippoToso\Travelport\UniversalRecord\ADVType
+     * @return \Santosdave\Travelport\UniversalRecord\ADVType
      */
     public function setEarliestTkDt($EarliestTkDt)
     {
@@ -785,7 +785,7 @@ class ADVType
 
     /**
      * @param date $LatestRsvnDt
-     * @return \FilippoToso\Travelport\UniversalRecord\ADVType
+     * @return \Santosdave\Travelport\UniversalRecord\ADVType
      */
     public function setLatestRsvnDt($LatestRsvnDt)
     {
@@ -803,7 +803,7 @@ class ADVType
 
     /**
      * @param date $LatestTkDt
-     * @return \FilippoToso\Travelport\UniversalRecord\ADVType
+     * @return \Santosdave\Travelport\UniversalRecord\ADVType
      */
     public function setLatestTkDt($LatestTkDt)
     {

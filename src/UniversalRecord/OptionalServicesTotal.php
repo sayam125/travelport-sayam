@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class OptionalServicesTotal
 {
@@ -105,7 +105,7 @@ class OptionalServicesTotal
 
     /**
      * @param typeTaxInfo $TaxInfo
-     * @return \FilippoToso\Travelport\UniversalRecord\OptionalServicesTotal
+     * @return \Santosdave\Travelport\UniversalRecord\OptionalServicesTotal
      */
     public function setTaxInfo($TaxInfo)
     {
@@ -123,7 +123,7 @@ class OptionalServicesTotal
 
     /**
      * @param typeFeeInfo $FeeInfo
-     * @return \FilippoToso\Travelport\UniversalRecord\OptionalServicesTotal
+     * @return \Santosdave\Travelport\UniversalRecord\OptionalServicesTotal
      */
     public function setFeeInfo($FeeInfo)
     {
@@ -141,7 +141,7 @@ class OptionalServicesTotal
 
     /**
      * @param typeMoney $TotalPrice
-     * @return \FilippoToso\Travelport\UniversalRecord\OptionalServicesTotal
+     * @return \Santosdave\Travelport\UniversalRecord\OptionalServicesTotal
      */
     public function setTotalPrice($TotalPrice)
     {
@@ -159,7 +159,7 @@ class OptionalServicesTotal
 
     /**
      * @param typeMoney $BasePrice
-     * @return \FilippoToso\Travelport\UniversalRecord\OptionalServicesTotal
+     * @return \Santosdave\Travelport\UniversalRecord\OptionalServicesTotal
      */
     public function setBasePrice($BasePrice)
     {
@@ -177,7 +177,7 @@ class OptionalServicesTotal
 
     /**
      * @param typeMoney $ApproximateTotalPrice
-     * @return \FilippoToso\Travelport\UniversalRecord\OptionalServicesTotal
+     * @return \Santosdave\Travelport\UniversalRecord\OptionalServicesTotal
      */
     public function setApproximateTotalPrice($ApproximateTotalPrice)
     {
@@ -195,7 +195,7 @@ class OptionalServicesTotal
 
     /**
      * @param typeMoney $ApproximateBasePrice
-     * @return \FilippoToso\Travelport\UniversalRecord\OptionalServicesTotal
+     * @return \Santosdave\Travelport\UniversalRecord\OptionalServicesTotal
      */
     public function setApproximateBasePrice($ApproximateBasePrice)
     {
@@ -213,7 +213,7 @@ class OptionalServicesTotal
 
     /**
      * @param typeMoney $EquivalentBasePrice
-     * @return \FilippoToso\Travelport\UniversalRecord\OptionalServicesTotal
+     * @return \Santosdave\Travelport\UniversalRecord\OptionalServicesTotal
      */
     public function setEquivalentBasePrice($EquivalentBasePrice)
     {
@@ -231,7 +231,7 @@ class OptionalServicesTotal
 
     /**
      * @param typeMoney $Taxes
-     * @return \FilippoToso\Travelport\UniversalRecord\OptionalServicesTotal
+     * @return \Santosdave\Travelport\UniversalRecord\OptionalServicesTotal
      */
     public function setTaxes($Taxes)
     {
@@ -249,7 +249,7 @@ class OptionalServicesTotal
 
     /**
      * @param typeMoney $Fees
-     * @return \FilippoToso\Travelport\UniversalRecord\OptionalServicesTotal
+     * @return \Santosdave\Travelport\UniversalRecord\OptionalServicesTotal
      */
     public function setFees($Fees)
     {
@@ -267,7 +267,7 @@ class OptionalServicesTotal
 
     /**
      * @param typeMoney $Services
-     * @return \FilippoToso\Travelport\UniversalRecord\OptionalServicesTotal
+     * @return \Santosdave\Travelport\UniversalRecord\OptionalServicesTotal
      */
     public function setServices($Services)
     {
@@ -285,7 +285,7 @@ class OptionalServicesTotal
 
     /**
      * @param typeMoney $ApproximateTaxes
-     * @return \FilippoToso\Travelport\UniversalRecord\OptionalServicesTotal
+     * @return \Santosdave\Travelport\UniversalRecord\OptionalServicesTotal
      */
     public function setApproximateTaxes($ApproximateTaxes)
     {
@@ -303,7 +303,7 @@ class OptionalServicesTotal
 
     /**
      * @param typeMoney $ApproximateFees
-     * @return \FilippoToso\Travelport\UniversalRecord\OptionalServicesTotal
+     * @return \Santosdave\Travelport\UniversalRecord\OptionalServicesTotal
      */
     public function setApproximateFees($ApproximateFees)
     {

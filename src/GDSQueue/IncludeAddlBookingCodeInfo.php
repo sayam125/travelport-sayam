@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class IncludeAddlBookingCodeInfo
 {
@@ -35,7 +35,7 @@ class IncludeAddlBookingCodeInfo
 
     /**
      * @param typeCarrierCode $Type
-     * @return \FilippoToso\Travelport\GDSQueue\IncludeAddlBookingCodeInfo
+     * @return \Santosdave\Travelport\GDSQueue\IncludeAddlBookingCodeInfo
      */
     public function setType($Type)
     {
@@ -53,7 +53,7 @@ class IncludeAddlBookingCodeInfo
 
     /**
      * @param typeCarrier $SecondaryCarrier
-     * @return \FilippoToso\Travelport\GDSQueue\IncludeAddlBookingCodeInfo
+     * @return \Santosdave\Travelport\GDSQueue\IncludeAddlBookingCodeInfo
      */
     public function setSecondaryCarrier($SecondaryCarrier)
     {

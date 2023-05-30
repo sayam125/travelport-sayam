@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class ProviderReservationLevel
 {
@@ -42,7 +42,7 @@ class ProviderReservationLevel
 
     /**
      * @param typeMoney $Amount
-     * @return \FilippoToso\Travelport\Hotel\ProviderReservationLevel
+     * @return \Santosdave\Travelport\Hotel\ProviderReservationLevel
      */
     public function setAmount($Amount)
     {
@@ -60,7 +60,7 @@ class ProviderReservationLevel
 
     /**
      * @param typePercentageWithDecimal $Percentage
-     * @return \FilippoToso\Travelport\Hotel\ProviderReservationLevel
+     * @return \Santosdave\Travelport\Hotel\ProviderReservationLevel
      */
     public function setPercentage($Percentage)
     {
@@ -78,7 +78,7 @@ class ProviderReservationLevel
 
     /**
      * @param typeMoney $CommissionCap
-     * @return \FilippoToso\Travelport\Hotel\ProviderReservationLevel
+     * @return \Santosdave\Travelport\Hotel\ProviderReservationLevel
      */
     public function setCommissionCap($CommissionCap)
     {

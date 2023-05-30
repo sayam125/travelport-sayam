@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class Row
 {
@@ -49,7 +49,7 @@ class Row
 
     /**
      * @param Facility $Facility
-     * @return \FilippoToso\Travelport\GDSQueue\Row
+     * @return \Santosdave\Travelport\GDSQueue\Row
      */
     public function setFacility($Facility)
     {
@@ -67,7 +67,7 @@ class Row
 
     /**
      * @param Characteristic $Characteristic
-     * @return \FilippoToso\Travelport\GDSQueue\Row
+     * @return \Santosdave\Travelport\GDSQueue\Row
      */
     public function setCharacteristic($Characteristic)
     {
@@ -85,7 +85,7 @@ class Row
 
     /**
      * @param int $Number
-     * @return \FilippoToso\Travelport\GDSQueue\Row
+     * @return \Santosdave\Travelport\GDSQueue\Row
      */
     public function setNumber($Number)
     {
@@ -103,7 +103,7 @@ class Row
 
     /**
      * @param typeRef $SearchTravelerRef
-     * @return \FilippoToso\Travelport\GDSQueue\Row
+     * @return \Santosdave\Travelport\GDSQueue\Row
      */
     public function setSearchTravelerRef($SearchTravelerRef)
     {

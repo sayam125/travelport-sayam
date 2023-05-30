@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class AirUpsellSearchReq extends AirBaseReq
 {
@@ -47,7 +47,7 @@ class AirUpsellSearchReq extends AirBaseReq
 
     /**
      * @param AirItinerary $AirItinerary
-     * @return \FilippoToso\Travelport\Air\AirUpsellSearchReq
+     * @return \Santosdave\Travelport\Air\AirUpsellSearchReq
      */
     public function setAirItinerary($AirItinerary)
     {
@@ -65,7 +65,7 @@ class AirUpsellSearchReq extends AirBaseReq
 
     /**
      * @param AirPriceResult $AirPriceResult
-     * @return \FilippoToso\Travelport\Air\AirUpsellSearchReq
+     * @return \Santosdave\Travelport\Air\AirUpsellSearchReq
      */
     public function setAirPriceResult($AirPriceResult)
     {

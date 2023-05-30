@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class ExemptTaxes
 {
@@ -52,7 +52,7 @@ class ExemptTaxes
 
     /**
      * @param typeCountry[] $CountryCode
-     * @return \FilippoToso\Travelport\GDSQueue\ExemptTaxes
+     * @return \Santosdave\Travelport\GDSQueue\ExemptTaxes
      */
     public function setCountryCode(array $CountryCode = null)
     {
@@ -70,7 +70,7 @@ class ExemptTaxes
 
     /**
      * @param string[] $TaxCategory
-     * @return \FilippoToso\Travelport\GDSQueue\ExemptTaxes
+     * @return \Santosdave\Travelport\GDSQueue\ExemptTaxes
      */
     public function setTaxCategory(array $TaxCategory = null)
     {
@@ -88,7 +88,7 @@ class ExemptTaxes
 
     /**
      * @param boolean $AllTaxes
-     * @return \FilippoToso\Travelport\GDSQueue\ExemptTaxes
+     * @return \Santosdave\Travelport\GDSQueue\ExemptTaxes
      */
     public function setAllTaxes($AllTaxes)
     {
@@ -106,7 +106,7 @@ class ExemptTaxes
 
     /**
      * @param anonymous811 $TaxTerritory
-     * @return \FilippoToso\Travelport\GDSQueue\ExemptTaxes
+     * @return \Santosdave\Travelport\GDSQueue\ExemptTaxes
      */
     public function setTaxTerritory($TaxTerritory)
     {
@@ -124,7 +124,7 @@ class ExemptTaxes
 
     /**
      * @param anonymous812 $CompanyName
-     * @return \FilippoToso\Travelport\GDSQueue\ExemptTaxes
+     * @return \Santosdave\Travelport\GDSQueue\ExemptTaxes
      */
     public function setCompanyName($CompanyName)
     {

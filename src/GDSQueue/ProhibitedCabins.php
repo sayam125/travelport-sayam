@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class ProhibitedCabins
 {
@@ -28,7 +28,7 @@ class ProhibitedCabins
 
     /**
      * @param CabinClass $CabinClass
-     * @return \FilippoToso\Travelport\GDSQueue\ProhibitedCabins
+     * @return \Santosdave\Travelport\GDSQueue\ProhibitedCabins
      */
     public function setCabinClass($CabinClass)
     {

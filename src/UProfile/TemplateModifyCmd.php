@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class TemplateModifyCmd
 {
@@ -98,7 +98,7 @@ class TemplateModifyCmd
 
     /**
      * @param TemplateInfoUpdate $TemplateInfoUpdate
-     * @return \FilippoToso\Travelport\UProfile\TemplateModifyCmd
+     * @return \Santosdave\Travelport\UProfile\TemplateModifyCmd
      */
     public function setTemplateInfoUpdate($TemplateInfoUpdate)
     {
@@ -116,7 +116,7 @@ class TemplateModifyCmd
 
     /**
      * @param FixedFieldUpdate $FixedFieldUpdate
-     * @return \FilippoToso\Travelport\UProfile\TemplateModifyCmd
+     * @return \Santosdave\Travelport\UProfile\TemplateModifyCmd
      */
     public function setFixedFieldUpdate($FixedFieldUpdate)
     {
@@ -134,7 +134,7 @@ class TemplateModifyCmd
 
     /**
      * @param FixedGroupUpdate $FixedGroupUpdate
-     * @return \FilippoToso\Travelport\UProfile\TemplateModifyCmd
+     * @return \Santosdave\Travelport\UProfile\TemplateModifyCmd
      */
     public function setFixedGroupUpdate($FixedGroupUpdate)
     {
@@ -152,7 +152,7 @@ class TemplateModifyCmd
 
     /**
      * @param typeEditableCustomField $CustomFieldAdd
-     * @return \FilippoToso\Travelport\UProfile\TemplateModifyCmd
+     * @return \Santosdave\Travelport\UProfile\TemplateModifyCmd
      */
     public function setCustomFieldAdd($CustomFieldAdd)
     {
@@ -170,7 +170,7 @@ class TemplateModifyCmd
 
     /**
      * @param typeEditableCustomField $CustomFieldUpdate
-     * @return \FilippoToso\Travelport\UProfile\TemplateModifyCmd
+     * @return \Santosdave\Travelport\UProfile\TemplateModifyCmd
      */
     public function setCustomFieldUpdate($CustomFieldUpdate)
     {
@@ -188,7 +188,7 @@ class TemplateModifyCmd
 
     /**
      * @param typeCommonEditableGroup $CustomFieldGroupAdd
-     * @return \FilippoToso\Travelport\UProfile\TemplateModifyCmd
+     * @return \Santosdave\Travelport\UProfile\TemplateModifyCmd
      */
     public function setCustomFieldGroupAdd($CustomFieldGroupAdd)
     {
@@ -206,7 +206,7 @@ class TemplateModifyCmd
 
     /**
      * @param typeCommonEditableGroup $CustomFieldGroupUpdate
-     * @return \FilippoToso\Travelport\UProfile\TemplateModifyCmd
+     * @return \Santosdave\Travelport\UProfile\TemplateModifyCmd
      */
     public function setCustomFieldGroupUpdate($CustomFieldGroupUpdate)
     {
@@ -224,7 +224,7 @@ class TemplateModifyCmd
 
     /**
      * @param EndpointAdd $EndpointAdd
-     * @return \FilippoToso\Travelport\UProfile\TemplateModifyCmd
+     * @return \Santosdave\Travelport\UProfile\TemplateModifyCmd
      */
     public function setEndpointAdd($EndpointAdd)
     {
@@ -242,7 +242,7 @@ class TemplateModifyCmd
 
     /**
      * @param typeEditableEndpoint $EndpointRemove
-     * @return \FilippoToso\Travelport\UProfile\TemplateModifyCmd
+     * @return \Santosdave\Travelport\UProfile\TemplateModifyCmd
      */
     public function setEndpointRemove($EndpointRemove)
     {
@@ -260,7 +260,7 @@ class TemplateModifyCmd
 
     /**
      * @param typeCustomFieldAndGroupDeleteRef $CustomFieldDelete
-     * @return \FilippoToso\Travelport\UProfile\TemplateModifyCmd
+     * @return \Santosdave\Travelport\UProfile\TemplateModifyCmd
      */
     public function setCustomFieldDelete($CustomFieldDelete)
     {
@@ -278,7 +278,7 @@ class TemplateModifyCmd
 
     /**
      * @param typeCustomFieldAndGroupDeleteRef $CustomFieldGroupDelete
-     * @return \FilippoToso\Travelport\UProfile\TemplateModifyCmd
+     * @return \Santosdave\Travelport\UProfile\TemplateModifyCmd
      */
     public function setCustomFieldGroupDelete($CustomFieldGroupDelete)
     {

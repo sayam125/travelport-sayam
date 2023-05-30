@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class FareRemark
 {
@@ -47,7 +47,7 @@ class FareRemark
 
     /**
      * @param string[] $Text
-     * @return \FilippoToso\Travelport\Util\FareRemark
+     * @return \Santosdave\Travelport\Util\FareRemark
      */
     public function setText(array $Text = null)
     {
@@ -65,7 +65,7 @@ class FareRemark
 
     /**
      * @param URL $URL
-     * @return \FilippoToso\Travelport\Util\FareRemark
+     * @return \Santosdave\Travelport\Util\FareRemark
      */
     public function setURL($URL)
     {
@@ -83,7 +83,7 @@ class FareRemark
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Util\FareRemark
+     * @return \Santosdave\Travelport\Util\FareRemark
      */
     public function setKey($Key)
     {
@@ -101,7 +101,7 @@ class FareRemark
 
     /**
      * @param string $Name
-     * @return \FilippoToso\Travelport\Util\FareRemark
+     * @return \Santosdave\Travelport\Util\FareRemark
      */
     public function setName($Name)
     {

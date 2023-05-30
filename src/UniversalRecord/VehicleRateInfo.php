@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class VehicleRateInfo
 {
@@ -42,7 +42,7 @@ class VehicleRateInfo
 
     /**
      * @param string $TourCode
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleRateInfo
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleRateInfo
      */
     public function setTourCode($TourCode)
     {
@@ -60,7 +60,7 @@ class VehicleRateInfo
 
     /**
      * @param typeDiscountNumber $DiscountNumber
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleRateInfo
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleRateInfo
      */
     public function setDiscountNumber($DiscountNumber)
     {
@@ -78,7 +78,7 @@ class VehicleRateInfo
 
     /**
      * @param string $PromotionalCode
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleRateInfo
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleRateInfo
      */
     public function setPromotionalCode($PromotionalCode)
     {

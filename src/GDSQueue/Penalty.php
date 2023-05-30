@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class Penalty
 {
@@ -35,7 +35,7 @@ class Penalty
 
     /**
      * @param typeMoney $Amount
-     * @return \FilippoToso\Travelport\GDSQueue\Penalty
+     * @return \Santosdave\Travelport\GDSQueue\Penalty
      */
     public function setAmount($Amount)
     {
@@ -53,7 +53,7 @@ class Penalty
 
     /**
      * @param string $PenaltyType
-     * @return \FilippoToso\Travelport\GDSQueue\Penalty
+     * @return \Santosdave\Travelport\GDSQueue\Penalty
      */
     public function setPenaltyType($PenaltyType)
     {

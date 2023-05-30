@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class ModifyRules
 {
@@ -42,7 +42,7 @@ class ModifyRules
 
     /**
      * @param ModifyRule[] $ModifyRule
-     * @return \FilippoToso\Travelport\GDSQueue\ModifyRules
+     * @return \Santosdave\Travelport\GDSQueue\ModifyRules
      */
     public function setModifyRule(array $ModifyRule)
     {
@@ -60,7 +60,7 @@ class ModifyRules
 
     /**
      * @param anonymous321 $SupportedModifications
-     * @return \FilippoToso\Travelport\GDSQueue\ModifyRules
+     * @return \Santosdave\Travelport\GDSQueue\ModifyRules
      */
     public function setSupportedModifications($SupportedModifications)
     {
@@ -78,7 +78,7 @@ class ModifyRules
 
     /**
      * @param string $ProviderDefinedModificationType
-     * @return \FilippoToso\Travelport\GDSQueue\ModifyRules
+     * @return \Santosdave\Travelport\GDSQueue\ModifyRules
      */
     public function setProviderDefinedModificationType($ProviderDefinedModificationType)
     {

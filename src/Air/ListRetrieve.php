@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class ListRetrieve
 {
@@ -28,7 +28,7 @@ class ListRetrieve
 
     /**
      * @param typeProviderReservationDetail $ProviderReservationDetail
-     * @return \FilippoToso\Travelport\Air\ListRetrieve
+     * @return \Santosdave\Travelport\Air\ListRetrieve
      */
     public function setProviderReservationDetail($ProviderReservationDetail)
     {

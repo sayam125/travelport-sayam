@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class PriceChangeType
 {
@@ -49,7 +49,7 @@ class PriceChangeType
 
     /**
      * @param string $_
-     * @return \FilippoToso\Travelport\UniversalRecord\PriceChangeType
+     * @return \Santosdave\Travelport\UniversalRecord\PriceChangeType
      */
     public function set_($_)
     {
@@ -67,7 +67,7 @@ class PriceChangeType
 
     /**
      * @param string $Amount
-     * @return \FilippoToso\Travelport\UniversalRecord\PriceChangeType
+     * @return \Santosdave\Travelport\UniversalRecord\PriceChangeType
      */
     public function setAmount($Amount)
     {
@@ -85,7 +85,7 @@ class PriceChangeType
 
     /**
      * @param string $Carrier
-     * @return \FilippoToso\Travelport\UniversalRecord\PriceChangeType
+     * @return \Santosdave\Travelport\UniversalRecord\PriceChangeType
      */
     public function setCarrier($Carrier)
     {
@@ -103,7 +103,7 @@ class PriceChangeType
 
     /**
      * @param string $SegmentRef
-     * @return \FilippoToso\Travelport\UniversalRecord\PriceChangeType
+     * @return \Santosdave\Travelport\UniversalRecord\PriceChangeType
      */
     public function setSegmentRef($SegmentRef)
     {

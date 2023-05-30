@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\System;
+namespace Santosdave\Travelport\System;
 
 class ContractCompliance
 {
@@ -35,7 +35,7 @@ class ContractCompliance
 
     /**
      * @param boolean $InContract
-     * @return \FilippoToso\Travelport\System\ContractCompliance
+     * @return \Santosdave\Travelport\System\ContractCompliance
      */
     public function setInContract($InContract)
     {
@@ -53,7 +53,7 @@ class ContractCompliance
 
     /**
      * @param StringLength1to128 $ContractToken
-     * @return \FilippoToso\Travelport\System\ContractCompliance
+     * @return \Santosdave\Travelport\System\ContractCompliance
      */
     public function setContractToken($ContractToken)
     {

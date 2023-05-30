@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class SeatMapReq extends BaseReq
 {
@@ -89,7 +89,7 @@ class SeatMapReq extends BaseReq
 
     /**
      * @param AgencySellInfo $AgencySellInfo
-     * @return \FilippoToso\Travelport\Air\SeatMapReq
+     * @return \Santosdave\Travelport\Air\SeatMapReq
      */
     public function setAgencySellInfo($AgencySellInfo)
     {
@@ -107,7 +107,7 @@ class SeatMapReq extends BaseReq
 
     /**
      * @param typeBaseAirSegment $AirSegment
-     * @return \FilippoToso\Travelport\Air\SeatMapReq
+     * @return \Santosdave\Travelport\Air\SeatMapReq
      */
     public function setAirSegment($AirSegment)
     {
@@ -125,7 +125,7 @@ class SeatMapReq extends BaseReq
 
     /**
      * @param HostToken $HostToken
-     * @return \FilippoToso\Travelport\Air\SeatMapReq
+     * @return \Santosdave\Travelport\Air\SeatMapReq
      */
     public function setHostToken($HostToken)
     {
@@ -143,7 +143,7 @@ class SeatMapReq extends BaseReq
 
     /**
      * @param SearchTraveler $SearchTraveler
-     * @return \FilippoToso\Travelport\Air\SeatMapReq
+     * @return \Santosdave\Travelport\Air\SeatMapReq
      */
     public function setSearchTraveler($SearchTraveler)
     {
@@ -161,7 +161,7 @@ class SeatMapReq extends BaseReq
 
     /**
      * @param HostReservation $HostReservation
-     * @return \FilippoToso\Travelport\Air\SeatMapReq
+     * @return \Santosdave\Travelport\Air\SeatMapReq
      */
     public function setHostReservation($HostReservation)
     {
@@ -179,7 +179,7 @@ class SeatMapReq extends BaseReq
 
     /**
      * @param MerchandisingPricingModifiers $MerchandisingPricingModifiers
-     * @return \FilippoToso\Travelport\Air\SeatMapReq
+     * @return \Santosdave\Travelport\Air\SeatMapReq
      */
     public function setMerchandisingPricingModifiers($MerchandisingPricingModifiers)
     {
@@ -197,7 +197,7 @@ class SeatMapReq extends BaseReq
 
     /**
      * @param boolean $ReturnSeatPricing
-     * @return \FilippoToso\Travelport\Air\SeatMapReq
+     * @return \Santosdave\Travelport\Air\SeatMapReq
      */
     public function setReturnSeatPricing($ReturnSeatPricing)
     {
@@ -215,7 +215,7 @@ class SeatMapReq extends BaseReq
 
     /**
      * @param boolean $ReturnBrandingInfo
-     * @return \FilippoToso\Travelport\Air\SeatMapReq
+     * @return \Santosdave\Travelport\Air\SeatMapReq
      */
     public function setReturnBrandingInfo($ReturnBrandingInfo)
     {

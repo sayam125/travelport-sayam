@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class ExchangePenaltyInfo
 {
@@ -49,7 +49,7 @@ class ExchangePenaltyInfo
 
     /**
      * @param PenaltyInformation $PenaltyInformation
-     * @return \FilippoToso\Travelport\GDSQueue\ExchangePenaltyInfo
+     * @return \Santosdave\Travelport\GDSQueue\ExchangePenaltyInfo
      */
     public function setPenaltyInformation($PenaltyInformation)
     {
@@ -67,7 +67,7 @@ class ExchangePenaltyInfo
 
     /**
      * @param typePTC $PTC
-     * @return \FilippoToso\Travelport\GDSQueue\ExchangePenaltyInfo
+     * @return \Santosdave\Travelport\GDSQueue\ExchangePenaltyInfo
      */
     public function setPTC($PTC)
     {
@@ -85,7 +85,7 @@ class ExchangePenaltyInfo
 
     /**
      * @param typeMoney $MinimumChangeFee
-     * @return \FilippoToso\Travelport\GDSQueue\ExchangePenaltyInfo
+     * @return \Santosdave\Travelport\GDSQueue\ExchangePenaltyInfo
      */
     public function setMinimumChangeFee($MinimumChangeFee)
     {
@@ -103,7 +103,7 @@ class ExchangePenaltyInfo
 
     /**
      * @param typeMoney $MaximumChangeFee
-     * @return \FilippoToso\Travelport\GDSQueue\ExchangePenaltyInfo
+     * @return \Santosdave\Travelport\GDSQueue\ExchangePenaltyInfo
      */
     public function setMaximumChangeFee($MaximumChangeFee)
     {

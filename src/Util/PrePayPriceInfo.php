@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class PrePayPriceInfo
 {
@@ -49,7 +49,7 @@ class PrePayPriceInfo
 
     /**
      * @param typeTaxInfo $TaxInfo
-     * @return \FilippoToso\Travelport\Util\PrePayPriceInfo
+     * @return \Santosdave\Travelport\Util\PrePayPriceInfo
      */
     public function setTaxInfo($TaxInfo)
     {
@@ -67,7 +67,7 @@ class PrePayPriceInfo
 
     /**
      * @param typeMoney $BaseFare
-     * @return \FilippoToso\Travelport\Util\PrePayPriceInfo
+     * @return \Santosdave\Travelport\Util\PrePayPriceInfo
      */
     public function setBaseFare($BaseFare)
     {
@@ -85,7 +85,7 @@ class PrePayPriceInfo
 
     /**
      * @param typeMoney $TotalFare
-     * @return \FilippoToso\Travelport\Util\PrePayPriceInfo
+     * @return \Santosdave\Travelport\Util\PrePayPriceInfo
      */
     public function setTotalFare($TotalFare)
     {
@@ -103,7 +103,7 @@ class PrePayPriceInfo
 
     /**
      * @param typeMoney $TotalTax
-     * @return \FilippoToso\Travelport\Util\PrePayPriceInfo
+     * @return \Santosdave\Travelport\Util\PrePayPriceInfo
      */
     public function setTotalTax($TotalTax)
     {

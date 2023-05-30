@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class Journey
 {
@@ -35,7 +35,7 @@ class Journey
 
     /**
      * @param AirSegmentRef $AirSegmentRef
-     * @return \FilippoToso\Travelport\GDSQueue\Journey
+     * @return \Santosdave\Travelport\GDSQueue\Journey
      */
     public function setAirSegmentRef($AirSegmentRef)
     {
@@ -53,7 +53,7 @@ class Journey
 
     /**
      * @param duration $TravelTime
-     * @return \FilippoToso\Travelport\GDSQueue\Journey
+     * @return \Santosdave\Travelport\GDSQueue\Journey
      */
     public function setTravelTime($TravelTime)
     {

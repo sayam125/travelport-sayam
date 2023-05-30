@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class XMLRemark
 {
@@ -56,7 +56,7 @@ class XMLRemark
 
     /**
      * @param string $_
-     * @return \FilippoToso\Travelport\Air\XMLRemark
+     * @return \Santosdave\Travelport\Air\XMLRemark
      */
     public function set_($_)
     {
@@ -74,7 +74,7 @@ class XMLRemark
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Air\XMLRemark
+     * @return \Santosdave\Travelport\Air\XMLRemark
      */
     public function setKey($Key)
     {
@@ -92,7 +92,7 @@ class XMLRemark
 
     /**
      * @param anonymous119 $Category
-     * @return \FilippoToso\Travelport\Air\XMLRemark
+     * @return \Santosdave\Travelport\Air\XMLRemark
      */
     public function setCategory($Category)
     {
@@ -110,7 +110,7 @@ class XMLRemark
 
     /**
      * @param typeElementStatus $ElStat
-     * @return \FilippoToso\Travelport\Air\XMLRemark
+     * @return \Santosdave\Travelport\Air\XMLRemark
      */
     public function setElStat($ElStat)
     {
@@ -128,7 +128,7 @@ class XMLRemark
 
     /**
      * @param boolean $KeyOverride
-     * @return \FilippoToso\Travelport\Air\XMLRemark
+     * @return \Santosdave\Travelport\Air\XMLRemark
      */
     public function setKeyOverride($KeyOverride)
     {

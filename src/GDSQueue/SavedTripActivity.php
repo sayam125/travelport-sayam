@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class SavedTripActivity
 {
@@ -148,7 +148,7 @@ class SavedTripActivity
 
     /**
      * @param BookingTravelerRef[] $BookingTravelerRef
-     * @return \FilippoToso\Travelport\GDSQueue\SavedTripActivity
+     * @return \Santosdave\Travelport\GDSQueue\SavedTripActivity
      */
     public function setBookingTravelerRef(array $BookingTravelerRef = null)
     {
@@ -166,7 +166,7 @@ class SavedTripActivity
 
     /**
      * @param SearchPassengerRef[] $SearchPassengerRef
-     * @return \FilippoToso\Travelport\GDSQueue\SavedTripActivity
+     * @return \Santosdave\Travelport\GDSQueue\SavedTripActivity
      */
     public function setSearchPassengerRef(array $SearchPassengerRef = null)
     {
@@ -184,7 +184,7 @@ class SavedTripActivity
 
     /**
      * @param PointOfSaleRef[] $PointOfSaleRef
-     * @return \FilippoToso\Travelport\GDSQueue\SavedTripActivity
+     * @return \Santosdave\Travelport\GDSQueue\SavedTripActivity
      */
     public function setPointOfSaleRef(array $PointOfSaleRef = null)
     {
@@ -202,7 +202,7 @@ class SavedTripActivity
 
     /**
      * @param AccountingRemarkRef[] $AccountingRemarkRef
-     * @return \FilippoToso\Travelport\GDSQueue\SavedTripActivity
+     * @return \Santosdave\Travelport\GDSQueue\SavedTripActivity
      */
     public function setAccountingRemarkRef(array $AccountingRemarkRef = null)
     {
@@ -220,7 +220,7 @@ class SavedTripActivity
 
     /**
      * @param GeneralRemarkRef[] $GeneralRemarkRef
-     * @return \FilippoToso\Travelport\GDSQueue\SavedTripActivity
+     * @return \Santosdave\Travelport\GDSQueue\SavedTripActivity
      */
     public function setGeneralRemarkRef(array $GeneralRemarkRef = null)
     {
@@ -238,7 +238,7 @@ class SavedTripActivity
 
     /**
      * @param AirPricingModifierRef[] $AirPricingModifierRef
-     * @return \FilippoToso\Travelport\GDSQueue\SavedTripActivity
+     * @return \Santosdave\Travelport\GDSQueue\SavedTripActivity
      */
     public function setAirPricingModifierRef(array $AirPricingModifierRef = null)
     {
@@ -256,7 +256,7 @@ class SavedTripActivity
 
     /**
      * @param AirPricingSolutionRef[] $AirPricingSolutionRef
-     * @return \FilippoToso\Travelport\GDSQueue\SavedTripActivity
+     * @return \Santosdave\Travelport\GDSQueue\SavedTripActivity
      */
     public function setAirPricingSolutionRef(array $AirPricingSolutionRef = null)
     {
@@ -274,7 +274,7 @@ class SavedTripActivity
 
     /**
      * @param VehicleSearchModifiersRef[] $VehicleSearchModifiersRef
-     * @return \FilippoToso\Travelport\GDSQueue\SavedTripActivity
+     * @return \Santosdave\Travelport\GDSQueue\SavedTripActivity
      */
     public function setVehicleSearchModifiersRef(array $VehicleSearchModifiersRef = null)
     {
@@ -292,7 +292,7 @@ class SavedTripActivity
 
     /**
      * @param VehicleDateLocationRef[] $VehicleDateLocationRef
-     * @return \FilippoToso\Travelport\GDSQueue\SavedTripActivity
+     * @return \Santosdave\Travelport\GDSQueue\SavedTripActivity
      */
     public function setVehicleDateLocationRef(array $VehicleDateLocationRef = null)
     {
@@ -310,7 +310,7 @@ class SavedTripActivity
 
     /**
      * @param SpecialEquipmentRef[] $SpecialEquipmentRef
-     * @return \FilippoToso\Travelport\GDSQueue\SavedTripActivity
+     * @return \Santosdave\Travelport\GDSQueue\SavedTripActivity
      */
     public function setSpecialEquipmentRef(array $SpecialEquipmentRef = null)
     {
@@ -328,7 +328,7 @@ class SavedTripActivity
 
     /**
      * @param VehicleSpecialRequestRef[] $VehicleSpecialRequestRef
-     * @return \FilippoToso\Travelport\GDSQueue\SavedTripActivity
+     * @return \Santosdave\Travelport\GDSQueue\SavedTripActivity
      */
     public function setVehicleSpecialRequestRef(array $VehicleSpecialRequestRef = null)
     {
@@ -346,7 +346,7 @@ class SavedTripActivity
 
     /**
      * @param PaymentInformationRef[] $PaymentInformationRef
-     * @return \FilippoToso\Travelport\GDSQueue\SavedTripActivity
+     * @return \Santosdave\Travelport\GDSQueue\SavedTripActivity
      */
     public function setPaymentInformationRef(array $PaymentInformationRef = null)
     {
@@ -364,7 +364,7 @@ class SavedTripActivity
 
     /**
      * @param DeliveryAddressRef[] $DeliveryAddressRef
-     * @return \FilippoToso\Travelport\GDSQueue\SavedTripActivity
+     * @return \Santosdave\Travelport\GDSQueue\SavedTripActivity
      */
     public function setDeliveryAddressRef(array $DeliveryAddressRef = null)
     {
@@ -382,7 +382,7 @@ class SavedTripActivity
 
     /**
      * @param CollectionAddressRef[] $CollectionAddressRef
-     * @return \FilippoToso\Travelport\GDSQueue\SavedTripActivity
+     * @return \Santosdave\Travelport\GDSQueue\SavedTripActivity
      */
     public function setCollectionAddressRef(array $CollectionAddressRef = null)
     {
@@ -400,7 +400,7 @@ class SavedTripActivity
 
     /**
      * @param FlightArrivalInformationRef[] $FlightArrivalInformationRef
-     * @return \FilippoToso\Travelport\GDSQueue\SavedTripActivity
+     * @return \Santosdave\Travelport\GDSQueue\SavedTripActivity
      */
     public function setFlightArrivalInformationRef(array $FlightArrivalInformationRef = null)
     {
@@ -418,7 +418,7 @@ class SavedTripActivity
 
     /**
      * @param VehicleRef[] $VehicleRef
-     * @return \FilippoToso\Travelport\GDSQueue\SavedTripActivity
+     * @return \Santosdave\Travelport\GDSQueue\SavedTripActivity
      */
     public function setVehicleRef(array $VehicleRef = null)
     {
@@ -436,7 +436,7 @@ class SavedTripActivity
 
     /**
      * @param VendorLocationRef[] $VendorLocationRef
-     * @return \FilippoToso\Travelport\GDSQueue\SavedTripActivity
+     * @return \Santosdave\Travelport\GDSQueue\SavedTripActivity
      */
     public function setVendorLocationRef(array $VendorLocationRef = null)
     {
@@ -454,7 +454,7 @@ class SavedTripActivity
 
     /**
      * @param HotelPropertyRef[] $HotelPropertyRef
-     * @return \FilippoToso\Travelport\GDSQueue\SavedTripActivity
+     * @return \Santosdave\Travelport\GDSQueue\SavedTripActivity
      */
     public function setHotelPropertyRef(array $HotelPropertyRef = null)
     {
@@ -472,7 +472,7 @@ class SavedTripActivity
 
     /**
      * @param HotelStayRef[] $HotelStayRef
-     * @return \FilippoToso\Travelport\GDSQueue\SavedTripActivity
+     * @return \Santosdave\Travelport\GDSQueue\SavedTripActivity
      */
     public function setHotelStayRef(array $HotelStayRef = null)
     {
@@ -490,7 +490,7 @@ class SavedTripActivity
 
     /**
      * @param HotelRulesModifiersRef[] $HotelRulesModifiersRef
-     * @return \FilippoToso\Travelport\GDSQueue\SavedTripActivity
+     * @return \Santosdave\Travelport\GDSQueue\SavedTripActivity
      */
     public function setHotelRulesModifiersRef(array $HotelRulesModifiersRef = null)
     {
@@ -508,7 +508,7 @@ class SavedTripActivity
 
     /**
      * @param HotelDetailsModifiersRef[] $HotelDetailsModifiersRef
-     * @return \FilippoToso\Travelport\GDSQueue\SavedTripActivity
+     * @return \Santosdave\Travelport\GDSQueue\SavedTripActivity
      */
     public function setHotelDetailsModifiersRef(array $HotelDetailsModifiersRef = null)
     {
@@ -526,7 +526,7 @@ class SavedTripActivity
 
     /**
      * @param HotelRateDetailRef[] $HotelRateDetailRef
-     * @return \FilippoToso\Travelport\GDSQueue\SavedTripActivity
+     * @return \Santosdave\Travelport\GDSQueue\SavedTripActivity
      */
     public function setHotelRateDetailRef(array $HotelRateDetailRef = null)
     {
@@ -544,7 +544,7 @@ class SavedTripActivity
 
     /**
      * @param PromotionCodeRef[] $PromotionCodeRef
-     * @return \FilippoToso\Travelport\GDSQueue\SavedTripActivity
+     * @return \Santosdave\Travelport\GDSQueue\SavedTripActivity
      */
     public function setPromotionCodeRef(array $PromotionCodeRef = null)
     {
@@ -562,7 +562,7 @@ class SavedTripActivity
 
     /**
      * @param RailPricingSolutionRef[] $RailPricingSolutionRef
-     * @return \FilippoToso\Travelport\GDSQueue\SavedTripActivity
+     * @return \Santosdave\Travelport\GDSQueue\SavedTripActivity
      */
     public function setRailPricingSolutionRef(array $RailPricingSolutionRef = null)
     {
@@ -580,7 +580,7 @@ class SavedTripActivity
 
     /**
      * @param anonymous1445 $Type
-     * @return \FilippoToso\Travelport\GDSQueue\SavedTripActivity
+     * @return \Santosdave\Travelport\GDSQueue\SavedTripActivity
      */
     public function setType($Type)
     {

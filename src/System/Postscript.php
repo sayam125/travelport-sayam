@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\System;
+namespace Santosdave\Travelport\System;
 
 class Postscript extends typeRemark
 {
@@ -39,7 +39,7 @@ class Postscript extends typeRemark
 
     /**
      * @param typeRemark $_
-     * @return \FilippoToso\Travelport\System\Postscript
+     * @return \Santosdave\Travelport\System\Postscript
      */
     public function set_($_)
     {
@@ -57,7 +57,7 @@ class Postscript extends typeRemark
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\System\Postscript
+     * @return \Santosdave\Travelport\System\Postscript
      */
     public function setKey($Key)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class AirRetrieveDocumentReq extends BaseReq
 {
@@ -94,7 +94,7 @@ class AirRetrieveDocumentReq extends BaseReq
 
     /**
      * @param AirReservationLocatorCode $AirReservationLocatorCode
-     * @return \FilippoToso\Travelport\Air\AirRetrieveDocumentReq
+     * @return \Santosdave\Travelport\Air\AirRetrieveDocumentReq
      */
     public function setAirReservationLocatorCode($AirReservationLocatorCode)
     {
@@ -112,7 +112,7 @@ class AirRetrieveDocumentReq extends BaseReq
 
     /**
      * @param StringLength1to13 $TicketNumber
-     * @return \FilippoToso\Travelport\Air\AirRetrieveDocumentReq
+     * @return \Santosdave\Travelport\Air\AirRetrieveDocumentReq
      */
     public function setTicketNumber($TicketNumber)
     {
@@ -130,7 +130,7 @@ class AirRetrieveDocumentReq extends BaseReq
 
     /**
      * @param typeTCRNumber[] $TCRNumber
-     * @return \FilippoToso\Travelport\Air\AirRetrieveDocumentReq
+     * @return \Santosdave\Travelport\Air\AirRetrieveDocumentReq
      */
     public function setTCRNumber(array $TCRNumber = null)
     {
@@ -148,7 +148,7 @@ class AirRetrieveDocumentReq extends BaseReq
 
     /**
      * @param boolean $ReturnRestrictions
-     * @return \FilippoToso\Travelport\Air\AirRetrieveDocumentReq
+     * @return \Santosdave\Travelport\Air\AirRetrieveDocumentReq
      */
     public function setReturnRestrictions($ReturnRestrictions)
     {
@@ -166,7 +166,7 @@ class AirRetrieveDocumentReq extends BaseReq
 
     /**
      * @param boolean $ReturnPricing
-     * @return \FilippoToso\Travelport\Air\AirRetrieveDocumentReq
+     * @return \Santosdave\Travelport\Air\AirRetrieveDocumentReq
      */
     public function setReturnPricing($ReturnPricing)
     {
@@ -184,7 +184,7 @@ class AirRetrieveDocumentReq extends BaseReq
 
     /**
      * @param boolean $RetrieveMCO
-     * @return \FilippoToso\Travelport\Air\AirRetrieveDocumentReq
+     * @return \Santosdave\Travelport\Air\AirRetrieveDocumentReq
      */
     public function setRetrieveMCO($RetrieveMCO)
     {
@@ -202,7 +202,7 @@ class AirRetrieveDocumentReq extends BaseReq
 
     /**
      * @param typeLocatorCode $UniversalRecordLocatorCode
-     * @return \FilippoToso\Travelport\Air\AirRetrieveDocumentReq
+     * @return \Santosdave\Travelport\Air\AirRetrieveDocumentReq
      */
     public function setUniversalRecordLocatorCode($UniversalRecordLocatorCode)
     {
@@ -220,7 +220,7 @@ class AirRetrieveDocumentReq extends BaseReq
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\Air\AirRetrieveDocumentReq
+     * @return \Santosdave\Travelport\Air\AirRetrieveDocumentReq
      */
     public function setProviderCode($ProviderCode)
     {
@@ -238,7 +238,7 @@ class AirRetrieveDocumentReq extends BaseReq
 
     /**
      * @param typeProviderLocatorCode $ProviderLocatorCode
-     * @return \FilippoToso\Travelport\Air\AirRetrieveDocumentReq
+     * @return \Santosdave\Travelport\Air\AirRetrieveDocumentReq
      */
     public function setProviderLocatorCode($ProviderLocatorCode)
     {

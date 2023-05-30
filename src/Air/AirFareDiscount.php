@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class AirFareDiscount
 {
@@ -42,7 +42,7 @@ class AirFareDiscount
 
     /**
      * @param float $Percentage
-     * @return \FilippoToso\Travelport\Air\AirFareDiscount
+     * @return \Santosdave\Travelport\Air\AirFareDiscount
      */
     public function setPercentage($Percentage)
     {
@@ -60,7 +60,7 @@ class AirFareDiscount
 
     /**
      * @param typeMoney $Amount
-     * @return \FilippoToso\Travelport\Air\AirFareDiscount
+     * @return \Santosdave\Travelport\Air\AirFareDiscount
      */
     public function setAmount($Amount)
     {
@@ -78,7 +78,7 @@ class AirFareDiscount
 
     /**
      * @param typeFareDiscount $DiscountMethod
-     * @return \FilippoToso\Travelport\Air\AirFareDiscount
+     * @return \Santosdave\Travelport\Air\AirFareDiscount
      */
     public function setDiscountMethod($DiscountMethod)
     {

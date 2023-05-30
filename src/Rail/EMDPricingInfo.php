@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class EMDPricingInfo
 {
@@ -56,7 +56,7 @@ class EMDPricingInfo
 
     /**
      * @param typeTaxInfo $TaxInfo
-     * @return \FilippoToso\Travelport\Rail\EMDPricingInfo
+     * @return \Santosdave\Travelport\Rail\EMDPricingInfo
      */
     public function setTaxInfo($TaxInfo)
     {
@@ -74,7 +74,7 @@ class EMDPricingInfo
 
     /**
      * @param typeMoney $BaseFare
-     * @return \FilippoToso\Travelport\Rail\EMDPricingInfo
+     * @return \Santosdave\Travelport\Rail\EMDPricingInfo
      */
     public function setBaseFare($BaseFare)
     {
@@ -92,7 +92,7 @@ class EMDPricingInfo
 
     /**
      * @param typeMoney $TotalFare
-     * @return \FilippoToso\Travelport\Rail\EMDPricingInfo
+     * @return \Santosdave\Travelport\Rail\EMDPricingInfo
      */
     public function setTotalFare($TotalFare)
     {
@@ -110,7 +110,7 @@ class EMDPricingInfo
 
     /**
      * @param typeMoney $TotalTax
-     * @return \FilippoToso\Travelport\Rail\EMDPricingInfo
+     * @return \Santosdave\Travelport\Rail\EMDPricingInfo
      */
     public function setTotalTax($TotalTax)
     {
@@ -128,7 +128,7 @@ class EMDPricingInfo
 
     /**
      * @param typeMoney $EquivFare
-     * @return \FilippoToso\Travelport\Rail\EMDPricingInfo
+     * @return \Santosdave\Travelport\Rail\EMDPricingInfo
      */
     public function setEquivFare($EquivFare)
     {

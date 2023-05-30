@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class URLInfo
 {
@@ -31,7 +31,7 @@ class URLInfo
 
     /**
      * @param typeGeneralText[] $Text
-     * @return \FilippoToso\Travelport\GDSQueue\URLInfo
+     * @return \Santosdave\Travelport\GDSQueue\URLInfo
      */
     public function setText(array $Text = null)
     {
@@ -49,7 +49,7 @@ class URLInfo
 
     /**
      * @param anyURI[] $URL
-     * @return \FilippoToso\Travelport\GDSQueue\URLInfo
+     * @return \Santosdave\Travelport\GDSQueue\URLInfo
      */
     public function setURL(array $URL = null)
     {

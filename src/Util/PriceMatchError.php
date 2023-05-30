@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class PriceMatchError
 {
@@ -91,7 +91,7 @@ class PriceMatchError
 
     /**
      * @param string $ErrorMessage
-     * @return \FilippoToso\Travelport\Util\PriceMatchError
+     * @return \Santosdave\Travelport\Util\PriceMatchError
      */
     public function setErrorMessage($ErrorMessage)
     {
@@ -109,7 +109,7 @@ class PriceMatchError
 
     /**
      * @param typeSupplierCode $VendorCode
-     * @return \FilippoToso\Travelport\Util\PriceMatchError
+     * @return \Santosdave\Travelport\Util\PriceMatchError
      */
     public function setVendorCode($VendorCode)
     {
@@ -127,7 +127,7 @@ class PriceMatchError
 
     /**
      * @param typeHotelChainCode $HotelChain
-     * @return \FilippoToso\Travelport\Util\PriceMatchError
+     * @return \Santosdave\Travelport\Util\PriceMatchError
      */
     public function setHotelChain($HotelChain)
     {
@@ -145,7 +145,7 @@ class PriceMatchError
 
     /**
      * @param typeHotelCode $HotelCode
-     * @return \FilippoToso\Travelport\Util\PriceMatchError
+     * @return \Santosdave\Travelport\Util\PriceMatchError
      */
     public function setHotelCode($HotelCode)
     {
@@ -163,7 +163,7 @@ class PriceMatchError
 
     /**
      * @param float $ReqBase
-     * @return \FilippoToso\Travelport\Util\PriceMatchError
+     * @return \Santosdave\Travelport\Util\PriceMatchError
      */
     public function setReqBase($ReqBase)
     {
@@ -181,7 +181,7 @@ class PriceMatchError
 
     /**
      * @param float $RspBase
-     * @return \FilippoToso\Travelport\Util\PriceMatchError
+     * @return \Santosdave\Travelport\Util\PriceMatchError
      */
     public function setRspBase($RspBase)
     {
@@ -199,7 +199,7 @@ class PriceMatchError
 
     /**
      * @param float $BaseDiff
-     * @return \FilippoToso\Travelport\Util\PriceMatchError
+     * @return \Santosdave\Travelport\Util\PriceMatchError
      */
     public function setBaseDiff($BaseDiff)
     {
@@ -217,7 +217,7 @@ class PriceMatchError
 
     /**
      * @param float $ReqTotal
-     * @return \FilippoToso\Travelport\Util\PriceMatchError
+     * @return \Santosdave\Travelport\Util\PriceMatchError
      */
     public function setReqTotal($ReqTotal)
     {
@@ -235,7 +235,7 @@ class PriceMatchError
 
     /**
      * @param float $RspTotal
-     * @return \FilippoToso\Travelport\Util\PriceMatchError
+     * @return \Santosdave\Travelport\Util\PriceMatchError
      */
     public function setRspTotal($RspTotal)
     {
@@ -253,7 +253,7 @@ class PriceMatchError
 
     /**
      * @param float $TotalDiff
-     * @return \FilippoToso\Travelport\Util\PriceMatchError
+     * @return \Santosdave\Travelport\Util\PriceMatchError
      */
     public function setTotalDiff($TotalDiff)
     {

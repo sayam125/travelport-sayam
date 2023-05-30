@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class AirItineraryDetails
 {
@@ -42,7 +42,7 @@ class AirItineraryDetails
 
     /**
      * @param AirSegmentDetails $AirSegmentDetails
-     * @return \FilippoToso\Travelport\UniversalRecord\AirItineraryDetails
+     * @return \Santosdave\Travelport\UniversalRecord\AirItineraryDetails
      */
     public function setAirSegmentDetails($AirSegmentDetails)
     {
@@ -60,7 +60,7 @@ class AirItineraryDetails
 
     /**
      * @param PassengerDetails $PassengerDetails
-     * @return \FilippoToso\Travelport\UniversalRecord\AirItineraryDetails
+     * @return \Santosdave\Travelport\UniversalRecord\AirItineraryDetails
      */
     public function setPassengerDetails($PassengerDetails)
     {
@@ -78,7 +78,7 @@ class AirItineraryDetails
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\UniversalRecord\AirItineraryDetails
+     * @return \Santosdave\Travelport\UniversalRecord\AirItineraryDetails
      */
     public function setKey($Key)
     {

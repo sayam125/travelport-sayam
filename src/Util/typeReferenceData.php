@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class typeReferenceData
 {
@@ -49,7 +49,7 @@ class typeReferenceData
 
     /**
      * @param date $DeprecatedDate
-     * @return \FilippoToso\Travelport\Util\typeReferenceData
+     * @return \Santosdave\Travelport\Util\typeReferenceData
      */
     public function setDeprecatedDate($DeprecatedDate)
     {
@@ -67,7 +67,7 @@ class typeReferenceData
 
     /**
      * @param StringLength1to128 $Code
-     * @return \FilippoToso\Travelport\Util\typeReferenceData
+     * @return \Santosdave\Travelport\Util\typeReferenceData
      */
     public function setCode($Code)
     {
@@ -85,7 +85,7 @@ class typeReferenceData
 
     /**
      * @param StringLength1to128 $Name
-     * @return \FilippoToso\Travelport\Util\typeReferenceData
+     * @return \Santosdave\Travelport\Util\typeReferenceData
      */
     public function setName($Name)
     {
@@ -103,7 +103,7 @@ class typeReferenceData
 
     /**
      * @param StringLength1to255 $Description
-     * @return \FilippoToso\Travelport\Util\typeReferenceData
+     * @return \Santosdave\Travelport\Util\typeReferenceData
      */
     public function setDescription($Description)
     {

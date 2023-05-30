@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class typeBaseAirSegment extends Segment
 {
@@ -373,7 +373,7 @@ class typeBaseAirSegment extends Segment
 
     /**
      * @param SponsoredFltInfo $SponsoredFltInfo
-     * @return \FilippoToso\Travelport\Rail\typeBaseAirSegment
+     * @return \Santosdave\Travelport\Rail\typeBaseAirSegment
      */
     public function setSponsoredFltInfo($SponsoredFltInfo)
     {
@@ -391,7 +391,7 @@ class typeBaseAirSegment extends Segment
 
     /**
      * @param CodeshareInfo $CodeshareInfo
-     * @return \FilippoToso\Travelport\Rail\typeBaseAirSegment
+     * @return \Santosdave\Travelport\Rail\typeBaseAirSegment
      */
     public function setCodeshareInfo($CodeshareInfo)
     {
@@ -409,7 +409,7 @@ class typeBaseAirSegment extends Segment
 
     /**
      * @param AirAvailInfo $AirAvailInfo
-     * @return \FilippoToso\Travelport\Rail\typeBaseAirSegment
+     * @return \Santosdave\Travelport\Rail\typeBaseAirSegment
      */
     public function setAirAvailInfo($AirAvailInfo)
     {
@@ -427,7 +427,7 @@ class typeBaseAirSegment extends Segment
 
     /**
      * @param FlightDetails $FlightDetails
-     * @return \FilippoToso\Travelport\Rail\typeBaseAirSegment
+     * @return \Santosdave\Travelport\Rail\typeBaseAirSegment
      */
     public function setFlightDetails($FlightDetails)
     {
@@ -445,7 +445,7 @@ class typeBaseAirSegment extends Segment
 
     /**
      * @param FlightDetailsRef $FlightDetailsRef
-     * @return \FilippoToso\Travelport\Rail\typeBaseAirSegment
+     * @return \Santosdave\Travelport\Rail\typeBaseAirSegment
      */
     public function setFlightDetailsRef($FlightDetailsRef)
     {
@@ -463,7 +463,7 @@ class typeBaseAirSegment extends Segment
 
     /**
      * @param AlternateLocationDistanceRef $AlternateLocationDistanceRef
-     * @return \FilippoToso\Travelport\Rail\typeBaseAirSegment
+     * @return \Santosdave\Travelport\Rail\typeBaseAirSegment
      */
     public function setAlternateLocationDistanceRef($AlternateLocationDistanceRef)
     {
@@ -481,7 +481,7 @@ class typeBaseAirSegment extends Segment
 
     /**
      * @param Connection $Connection
-     * @return \FilippoToso\Travelport\Rail\typeBaseAirSegment
+     * @return \Santosdave\Travelport\Rail\typeBaseAirSegment
      */
     public function setConnection($Connection)
     {
@@ -499,7 +499,7 @@ class typeBaseAirSegment extends Segment
 
     /**
      * @param string $SellMessage
-     * @return \FilippoToso\Travelport\Rail\typeBaseAirSegment
+     * @return \Santosdave\Travelport\Rail\typeBaseAirSegment
      */
     public function setSellMessage($SellMessage)
     {
@@ -517,7 +517,7 @@ class typeBaseAirSegment extends Segment
 
     /**
      * @param RailCoachDetails $RailCoachDetails
-     * @return \FilippoToso\Travelport\Rail\typeBaseAirSegment
+     * @return \Santosdave\Travelport\Rail\typeBaseAirSegment
      */
     public function setRailCoachDetails($RailCoachDetails)
     {
@@ -535,7 +535,7 @@ class typeBaseAirSegment extends Segment
 
     /**
      * @param boolean $OpenSegment
-     * @return \FilippoToso\Travelport\Rail\typeBaseAirSegment
+     * @return \Santosdave\Travelport\Rail\typeBaseAirSegment
      */
     public function setOpenSegment($OpenSegment)
     {
@@ -553,7 +553,7 @@ class typeBaseAirSegment extends Segment
 
     /**
      * @param int $Group
-     * @return \FilippoToso\Travelport\Rail\typeBaseAirSegment
+     * @return \Santosdave\Travelport\Rail\typeBaseAirSegment
      */
     public function setGroup($Group)
     {
@@ -571,7 +571,7 @@ class typeBaseAirSegment extends Segment
 
     /**
      * @param typeCarrier $Carrier
-     * @return \FilippoToso\Travelport\Rail\typeBaseAirSegment
+     * @return \Santosdave\Travelport\Rail\typeBaseAirSegment
      */
     public function setCarrier($Carrier)
     {
@@ -589,7 +589,7 @@ class typeBaseAirSegment extends Segment
 
     /**
      * @param string $CabinClass
-     * @return \FilippoToso\Travelport\Rail\typeBaseAirSegment
+     * @return \Santosdave\Travelport\Rail\typeBaseAirSegment
      */
     public function setCabinClass($CabinClass)
     {
@@ -607,7 +607,7 @@ class typeBaseAirSegment extends Segment
 
     /**
      * @param typeFlightNumber $FlightNumber
-     * @return \FilippoToso\Travelport\Rail\typeBaseAirSegment
+     * @return \Santosdave\Travelport\Rail\typeBaseAirSegment
      */
     public function setFlightNumber($FlightNumber)
     {
@@ -625,7 +625,7 @@ class typeBaseAirSegment extends Segment
 
     /**
      * @param typeClassOfService $ClassOfService
-     * @return \FilippoToso\Travelport\Rail\typeBaseAirSegment
+     * @return \Santosdave\Travelport\Rail\typeBaseAirSegment
      */
     public function setClassOfService($ClassOfService)
     {
@@ -643,7 +643,7 @@ class typeBaseAirSegment extends Segment
 
     /**
      * @param typeEticketability $ETicketability
-     * @return \FilippoToso\Travelport\Rail\typeBaseAirSegment
+     * @return \Santosdave\Travelport\Rail\typeBaseAirSegment
      */
     public function setETicketability($ETicketability)
     {
@@ -661,7 +661,7 @@ class typeBaseAirSegment extends Segment
 
     /**
      * @param typeEquipment $Equipment
-     * @return \FilippoToso\Travelport\Rail\typeBaseAirSegment
+     * @return \Santosdave\Travelport\Rail\typeBaseAirSegment
      */
     public function setEquipment($Equipment)
     {
@@ -679,7 +679,7 @@ class typeBaseAirSegment extends Segment
 
     /**
      * @param int $MarriageGroup
-     * @return \FilippoToso\Travelport\Rail\typeBaseAirSegment
+     * @return \Santosdave\Travelport\Rail\typeBaseAirSegment
      */
     public function setMarriageGroup($MarriageGroup)
     {
@@ -697,7 +697,7 @@ class typeBaseAirSegment extends Segment
 
     /**
      * @param int $NumberOfStops
-     * @return \FilippoToso\Travelport\Rail\typeBaseAirSegment
+     * @return \Santosdave\Travelport\Rail\typeBaseAirSegment
      */
     public function setNumberOfStops($NumberOfStops)
     {
@@ -715,7 +715,7 @@ class typeBaseAirSegment extends Segment
 
     /**
      * @param boolean $Seamless
-     * @return \FilippoToso\Travelport\Rail\typeBaseAirSegment
+     * @return \Santosdave\Travelport\Rail\typeBaseAirSegment
      */
     public function setSeamless($Seamless)
     {
@@ -733,7 +733,7 @@ class typeBaseAirSegment extends Segment
 
     /**
      * @param boolean $ChangeOfPlane
-     * @return \FilippoToso\Travelport\Rail\typeBaseAirSegment
+     * @return \Santosdave\Travelport\Rail\typeBaseAirSegment
      */
     public function setChangeOfPlane($ChangeOfPlane)
     {
@@ -751,7 +751,7 @@ class typeBaseAirSegment extends Segment
 
     /**
      * @param string $GuaranteedPaymentCarrier
-     * @return \FilippoToso\Travelport\Rail\typeBaseAirSegment
+     * @return \Santosdave\Travelport\Rail\typeBaseAirSegment
      */
     public function setGuaranteedPaymentCarrier($GuaranteedPaymentCarrier)
     {
@@ -769,7 +769,7 @@ class typeBaseAirSegment extends Segment
 
     /**
      * @param string $HostTokenRef
-     * @return \FilippoToso\Travelport\Rail\typeBaseAirSegment
+     * @return \Santosdave\Travelport\Rail\typeBaseAirSegment
      */
     public function setHostTokenRef($HostTokenRef)
     {
@@ -787,7 +787,7 @@ class typeBaseAirSegment extends Segment
 
     /**
      * @param typeRef $ProviderReservationInfoRef
-     * @return \FilippoToso\Travelport\Rail\typeBaseAirSegment
+     * @return \Santosdave\Travelport\Rail\typeBaseAirSegment
      */
     public function setProviderReservationInfoRef($ProviderReservationInfoRef)
     {
@@ -805,7 +805,7 @@ class typeBaseAirSegment extends Segment
 
     /**
      * @param typeRef $PassiveProviderReservationInfoRef
-     * @return \FilippoToso\Travelport\Rail\typeBaseAirSegment
+     * @return \Santosdave\Travelport\Rail\typeBaseAirSegment
      */
     public function setPassiveProviderReservationInfoRef($PassiveProviderReservationInfoRef)
     {
@@ -823,7 +823,7 @@ class typeBaseAirSegment extends Segment
 
     /**
      * @param boolean $OptionalServicesIndicator
-     * @return \FilippoToso\Travelport\Rail\typeBaseAirSegment
+     * @return \Santosdave\Travelport\Rail\typeBaseAirSegment
      */
     public function setOptionalServicesIndicator($OptionalServicesIndicator)
     {
@@ -841,7 +841,7 @@ class typeBaseAirSegment extends Segment
 
     /**
      * @param typeAvailabilitySource $AvailabilitySource
-     * @return \FilippoToso\Travelport\Rail\typeBaseAirSegment
+     * @return \Santosdave\Travelport\Rail\typeBaseAirSegment
      */
     public function setAvailabilitySource($AvailabilitySource)
     {
@@ -859,7 +859,7 @@ class typeBaseAirSegment extends Segment
 
     /**
      * @param string $APISRequirementsRef
-     * @return \FilippoToso\Travelport\Rail\typeBaseAirSegment
+     * @return \Santosdave\Travelport\Rail\typeBaseAirSegment
      */
     public function setAPISRequirementsRef($APISRequirementsRef)
     {
@@ -877,7 +877,7 @@ class typeBaseAirSegment extends Segment
 
     /**
      * @param boolean $BlackListed
-     * @return \FilippoToso\Travelport\Rail\typeBaseAirSegment
+     * @return \Santosdave\Travelport\Rail\typeBaseAirSegment
      */
     public function setBlackListed($BlackListed)
     {
@@ -895,7 +895,7 @@ class typeBaseAirSegment extends Segment
 
     /**
      * @param string $OperationalStatus
-     * @return \FilippoToso\Travelport\Rail\typeBaseAirSegment
+     * @return \Santosdave\Travelport\Rail\typeBaseAirSegment
      */
     public function setOperationalStatus($OperationalStatus)
     {
@@ -913,7 +913,7 @@ class typeBaseAirSegment extends Segment
 
     /**
      * @param anonymous1057 $NumberInParty
-     * @return \FilippoToso\Travelport\Rail\typeBaseAirSegment
+     * @return \Santosdave\Travelport\Rail\typeBaseAirSegment
      */
     public function setNumberInParty($NumberInParty)
     {
@@ -931,7 +931,7 @@ class typeBaseAirSegment extends Segment
 
     /**
      * @param anonymous1058 $RailCoachNumber
-     * @return \FilippoToso\Travelport\Rail\typeBaseAirSegment
+     * @return \Santosdave\Travelport\Rail\typeBaseAirSegment
      */
     public function setRailCoachNumber($RailCoachNumber)
     {
@@ -949,7 +949,7 @@ class typeBaseAirSegment extends Segment
 
     /**
      * @param date $BookingDate
-     * @return \FilippoToso\Travelport\Rail\typeBaseAirSegment
+     * @return \Santosdave\Travelport\Rail\typeBaseAirSegment
      */
     public function setBookingDate($BookingDate)
     {
@@ -967,7 +967,7 @@ class typeBaseAirSegment extends Segment
 
     /**
      * @param boolean $FlownSegment
-     * @return \FilippoToso\Travelport\Rail\typeBaseAirSegment
+     * @return \Santosdave\Travelport\Rail\typeBaseAirSegment
      */
     public function setFlownSegment($FlownSegment)
     {
@@ -985,7 +985,7 @@ class typeBaseAirSegment extends Segment
 
     /**
      * @param boolean $ScheduleChange
-     * @return \FilippoToso\Travelport\Rail\typeBaseAirSegment
+     * @return \Santosdave\Travelport\Rail\typeBaseAirSegment
      */
     public function setScheduleChange($ScheduleChange)
     {
@@ -1003,7 +1003,7 @@ class typeBaseAirSegment extends Segment
 
     /**
      * @param string $BrandIndicator
-     * @return \FilippoToso\Travelport\Rail\typeBaseAirSegment
+     * @return \Santosdave\Travelport\Rail\typeBaseAirSegment
      */
     public function setBrandIndicator($BrandIndicator)
     {
@@ -1021,7 +1021,7 @@ class typeBaseAirSegment extends Segment
 
     /**
      * @param typeIATACode $Origin
-     * @return \FilippoToso\Travelport\Rail\typeBaseAirSegment
+     * @return \Santosdave\Travelport\Rail\typeBaseAirSegment
      */
     public function setOrigin($Origin)
     {
@@ -1039,7 +1039,7 @@ class typeBaseAirSegment extends Segment
 
     /**
      * @param typeIATACode $Destination
-     * @return \FilippoToso\Travelport\Rail\typeBaseAirSegment
+     * @return \Santosdave\Travelport\Rail\typeBaseAirSegment
      */
     public function setDestination($Destination)
     {
@@ -1057,7 +1057,7 @@ class typeBaseAirSegment extends Segment
 
     /**
      * @param string $DepartureTime
-     * @return \FilippoToso\Travelport\Rail\typeBaseAirSegment
+     * @return \Santosdave\Travelport\Rail\typeBaseAirSegment
      */
     public function setDepartureTime($DepartureTime)
     {
@@ -1075,7 +1075,7 @@ class typeBaseAirSegment extends Segment
 
     /**
      * @param string $ArrivalTime
-     * @return \FilippoToso\Travelport\Rail\typeBaseAirSegment
+     * @return \Santosdave\Travelport\Rail\typeBaseAirSegment
      */
     public function setArrivalTime($ArrivalTime)
     {
@@ -1093,7 +1093,7 @@ class typeBaseAirSegment extends Segment
 
     /**
      * @param int $FlightTime
-     * @return \FilippoToso\Travelport\Rail\typeBaseAirSegment
+     * @return \Santosdave\Travelport\Rail\typeBaseAirSegment
      */
     public function setFlightTime($FlightTime)
     {
@@ -1111,7 +1111,7 @@ class typeBaseAirSegment extends Segment
 
     /**
      * @param int $TravelTime
-     * @return \FilippoToso\Travelport\Rail\typeBaseAirSegment
+     * @return \Santosdave\Travelport\Rail\typeBaseAirSegment
      */
     public function setTravelTime($TravelTime)
     {
@@ -1129,7 +1129,7 @@ class typeBaseAirSegment extends Segment
 
     /**
      * @param int $Distance
-     * @return \FilippoToso\Travelport\Rail\typeBaseAirSegment
+     * @return \Santosdave\Travelport\Rail\typeBaseAirSegment
      */
     public function setDistance($Distance)
     {
@@ -1147,7 +1147,7 @@ class typeBaseAirSegment extends Segment
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\Rail\typeBaseAirSegment
+     * @return \Santosdave\Travelport\Rail\typeBaseAirSegment
      */
     public function setProviderCode($ProviderCode)
     {
@@ -1165,7 +1165,7 @@ class typeBaseAirSegment extends Segment
 
     /**
      * @param typeSupplierCode $SupplierCode
-     * @return \FilippoToso\Travelport\Rail\typeBaseAirSegment
+     * @return \Santosdave\Travelport\Rail\typeBaseAirSegment
      */
     public function setSupplierCode($SupplierCode)
     {
@@ -1183,7 +1183,7 @@ class typeBaseAirSegment extends Segment
 
     /**
      * @param string $ParticipantLevel
-     * @return \FilippoToso\Travelport\Rail\typeBaseAirSegment
+     * @return \Santosdave\Travelport\Rail\typeBaseAirSegment
      */
     public function setParticipantLevel($ParticipantLevel)
     {
@@ -1201,7 +1201,7 @@ class typeBaseAirSegment extends Segment
 
     /**
      * @param boolean $LinkAvailability
-     * @return \FilippoToso\Travelport\Rail\typeBaseAirSegment
+     * @return \Santosdave\Travelport\Rail\typeBaseAirSegment
      */
     public function setLinkAvailability($LinkAvailability)
     {
@@ -1219,7 +1219,7 @@ class typeBaseAirSegment extends Segment
 
     /**
      * @param string $PolledAvailabilityOption
-     * @return \FilippoToso\Travelport\Rail\typeBaseAirSegment
+     * @return \Santosdave\Travelport\Rail\typeBaseAirSegment
      */
     public function setPolledAvailabilityOption($PolledAvailabilityOption)
     {
@@ -1237,7 +1237,7 @@ class typeBaseAirSegment extends Segment
 
     /**
      * @param string $AvailabilityDisplayType
-     * @return \FilippoToso\Travelport\Rail\typeBaseAirSegment
+     * @return \Santosdave\Travelport\Rail\typeBaseAirSegment
      */
     public function setAvailabilityDisplayType($AvailabilityDisplayType)
     {

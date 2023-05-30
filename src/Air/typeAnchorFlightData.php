@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class typeAnchorFlightData
 {
@@ -42,7 +42,7 @@ class typeAnchorFlightData
 
     /**
      * @param typeCarrier $AirlineCode
-     * @return \FilippoToso\Travelport\Air\typeAnchorFlightData
+     * @return \Santosdave\Travelport\Air\typeAnchorFlightData
      */
     public function setAirlineCode($AirlineCode)
     {
@@ -60,7 +60,7 @@ class typeAnchorFlightData
 
     /**
      * @param typeFlightNumber $FlightNumber
-     * @return \FilippoToso\Travelport\Air\typeAnchorFlightData
+     * @return \Santosdave\Travelport\Air\typeAnchorFlightData
      */
     public function setFlightNumber($FlightNumber)
     {
@@ -78,7 +78,7 @@ class typeAnchorFlightData
 
     /**
      * @param boolean $ConnectionIndicator
-     * @return \FilippoToso\Travelport\Air\typeAnchorFlightData
+     * @return \Santosdave\Travelport\Air\typeAnchorFlightData
      */
     public function setConnectionIndicator($ConnectionIndicator)
     {

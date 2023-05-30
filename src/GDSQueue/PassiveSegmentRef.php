@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class PassiveSegmentRef
 {
@@ -28,7 +28,7 @@ class PassiveSegmentRef
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\GDSQueue\PassiveSegmentRef
+     * @return \Santosdave\Travelport\GDSQueue\PassiveSegmentRef
      */
     public function setKey($Key)
     {

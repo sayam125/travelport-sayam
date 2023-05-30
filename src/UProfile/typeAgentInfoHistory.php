@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeAgentInfoHistory extends typeProfileInfo
 {
@@ -101,7 +101,7 @@ class typeAgentInfoHistory extends typeProfileInfo
 
     /**
      * @param StringLength1to128 $UserName
-     * @return \FilippoToso\Travelport\UProfile\typeAgentInfoHistory
+     * @return \Santosdave\Travelport\UProfile\typeAgentInfoHistory
      */
     public function setUserName($UserName)
     {
@@ -119,7 +119,7 @@ class typeAgentInfoHistory extends typeProfileInfo
 
     /**
      * @param StringLength1to255 $OccupationalTitle
-     * @return \FilippoToso\Travelport\UProfile\typeAgentInfoHistory
+     * @return \Santosdave\Travelport\UProfile\typeAgentInfoHistory
      */
     public function setOccupationalTitle($OccupationalTitle)
     {
@@ -137,7 +137,7 @@ class typeAgentInfoHistory extends typeProfileInfo
 
     /**
      * @param StringLength1to128 $Title
-     * @return \FilippoToso\Travelport\UProfile\typeAgentInfoHistory
+     * @return \Santosdave\Travelport\UProfile\typeAgentInfoHistory
      */
     public function setTitle($Title)
     {
@@ -155,7 +155,7 @@ class typeAgentInfoHistory extends typeProfileInfo
 
     /**
      * @param StringLength1to128 $Nickname
-     * @return \FilippoToso\Travelport\UProfile\typeAgentInfoHistory
+     * @return \Santosdave\Travelport\UProfile\typeAgentInfoHistory
      */
     public function setNickname($Nickname)
     {
@@ -173,7 +173,7 @@ class typeAgentInfoHistory extends typeProfileInfo
 
     /**
      * @param StringLength1to128 $GivenName
-     * @return \FilippoToso\Travelport\UProfile\typeAgentInfoHistory
+     * @return \Santosdave\Travelport\UProfile\typeAgentInfoHistory
      */
     public function setGivenName($GivenName)
     {
@@ -191,7 +191,7 @@ class typeAgentInfoHistory extends typeProfileInfo
 
     /**
      * @param StringLength1to128 $OtherName
-     * @return \FilippoToso\Travelport\UProfile\typeAgentInfoHistory
+     * @return \Santosdave\Travelport\UProfile\typeAgentInfoHistory
      */
     public function setOtherName($OtherName)
     {
@@ -209,7 +209,7 @@ class typeAgentInfoHistory extends typeProfileInfo
 
     /**
      * @param StringLength1to128 $Surname
-     * @return \FilippoToso\Travelport\UProfile\typeAgentInfoHistory
+     * @return \Santosdave\Travelport\UProfile\typeAgentInfoHistory
      */
     public function setSurname($Surname)
     {
@@ -227,7 +227,7 @@ class typeAgentInfoHistory extends typeProfileInfo
 
     /**
      * @param StringLength1to128 $Suffix
-     * @return \FilippoToso\Travelport\UProfile\typeAgentInfoHistory
+     * @return \Santosdave\Travelport\UProfile\typeAgentInfoHistory
      */
     public function setSuffix($Suffix)
     {
@@ -245,7 +245,7 @@ class typeAgentInfoHistory extends typeProfileInfo
 
     /**
      * @param typeProfileID $DefaultBranchID
-     * @return \FilippoToso\Travelport\UProfile\typeAgentInfoHistory
+     * @return \Santosdave\Travelport\UProfile\typeAgentInfoHistory
      */
     public function setDefaultBranchID($DefaultBranchID)
     {
@@ -263,7 +263,7 @@ class typeAgentInfoHistory extends typeProfileInfo
 
     /**
      * @param typeProvisioningCode $DefaultBranchCode
-     * @return \FilippoToso\Travelport\UProfile\typeAgentInfoHistory
+     * @return \Santosdave\Travelport\UProfile\typeAgentInfoHistory
      */
     public function setDefaultBranchCode($DefaultBranchCode)
     {
@@ -281,7 +281,7 @@ class typeAgentInfoHistory extends typeProfileInfo
 
     /**
      * @param typeAlternateAgentID $AlternateAgentID
-     * @return \FilippoToso\Travelport\UProfile\typeAgentInfoHistory
+     * @return \Santosdave\Travelport\UProfile\typeAgentInfoHistory
      */
     public function setAlternateAgentID($AlternateAgentID)
     {

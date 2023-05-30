@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class typeFreeFormText
 {
@@ -28,7 +28,7 @@ class typeFreeFormText
 
     /**
      * @param string $_
-     * @return \FilippoToso\Travelport\GDSQueue\typeFreeFormText
+     * @return \Santosdave\Travelport\GDSQueue\typeFreeFormText
      */
     public function set_($_)
     {

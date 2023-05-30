@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class PermittedAccountCodes
 {
@@ -28,7 +28,7 @@ class PermittedAccountCodes
 
     /**
      * @param AccountCode $AccountCode
-     * @return \FilippoToso\Travelport\GDSQueue\PermittedAccountCodes
+     * @return \Santosdave\Travelport\GDSQueue\PermittedAccountCodes
      */
     public function setAccountCode($AccountCode)
     {

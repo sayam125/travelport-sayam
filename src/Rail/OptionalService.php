@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class OptionalService
 {
@@ -133,7 +133,7 @@ class OptionalService
 
     /**
      * @param OptionJourneyDetails $OptionJourneyDetails
-     * @return \FilippoToso\Travelport\Rail\OptionalService
+     * @return \Santosdave\Travelport\Rail\OptionalService
      */
     public function setOptionJourneyDetails($OptionJourneyDetails)
     {
@@ -151,7 +151,7 @@ class OptionalService
 
     /**
      * @param BookingTravelerRef $BookingTravelerRef
-     * @return \FilippoToso\Travelport\Rail\OptionalService
+     * @return \Santosdave\Travelport\Rail\OptionalService
      */
     public function setBookingTravelerRef($BookingTravelerRef)
     {
@@ -169,7 +169,7 @@ class OptionalService
 
     /**
      * @param StringLength1 $FeatureType
-     * @return \FilippoToso\Travelport\Rail\OptionalService
+     * @return \Santosdave\Travelport\Rail\OptionalService
      */
     public function setFeatureType($FeatureType)
     {
@@ -187,7 +187,7 @@ class OptionalService
 
     /**
      * @param typeStatusCode $Status
-     * @return \FilippoToso\Travelport\Rail\OptionalService
+     * @return \Santosdave\Travelport\Rail\OptionalService
      */
     public function setStatus($Status)
     {
@@ -205,7 +205,7 @@ class OptionalService
 
     /**
      * @param int $Quantity
-     * @return \FilippoToso\Travelport\Rail\OptionalService
+     * @return \Santosdave\Travelport\Rail\OptionalService
      */
     public function setQuantity($Quantity)
     {
@@ -223,7 +223,7 @@ class OptionalService
 
     /**
      * @param StringLength1to10 $ProviderDefinedType
-     * @return \FilippoToso\Travelport\Rail\OptionalService
+     * @return \Santosdave\Travelport\Rail\OptionalService
      */
     public function setProviderDefinedType($ProviderDefinedType)
     {
@@ -241,7 +241,7 @@ class OptionalService
 
     /**
      * @param StringLength1to25 $Description
-     * @return \FilippoToso\Travelport\Rail\OptionalService
+     * @return \Santosdave\Travelport\Rail\OptionalService
      */
     public function setDescription($Description)
     {
@@ -259,7 +259,7 @@ class OptionalService
 
     /**
      * @param date $StartDate
-     * @return \FilippoToso\Travelport\Rail\OptionalService
+     * @return \Santosdave\Travelport\Rail\OptionalService
      */
     public function setStartDate($StartDate)
     {
@@ -277,7 +277,7 @@ class OptionalService
 
     /**
      * @param date $EndDate
-     * @return \FilippoToso\Travelport\Rail\OptionalService
+     * @return \Santosdave\Travelport\Rail\OptionalService
      */
     public function setEndDate($EndDate)
     {
@@ -295,7 +295,7 @@ class OptionalService
 
     /**
      * @param date $BookingDate
-     * @return \FilippoToso\Travelport\Rail\OptionalService
+     * @return \Santosdave\Travelport\Rail\OptionalService
      */
     public function setBookingDate($BookingDate)
     {
@@ -313,7 +313,7 @@ class OptionalService
 
     /**
      * @param StringLength1to10 $SetIdentifier
-     * @return \FilippoToso\Travelport\Rail\OptionalService
+     * @return \Santosdave\Travelport\Rail\OptionalService
      */
     public function setSetIdentifier($SetIdentifier)
     {
@@ -331,7 +331,7 @@ class OptionalService
 
     /**
      * @param StringLength1to20 $SetName
-     * @return \FilippoToso\Travelport\Rail\OptionalService
+     * @return \Santosdave\Travelport\Rail\OptionalService
      */
     public function setSetName($SetName)
     {
@@ -349,7 +349,7 @@ class OptionalService
 
     /**
      * @param typeMoney $TotalPrice
-     * @return \FilippoToso\Travelport\Rail\OptionalService
+     * @return \Santosdave\Travelport\Rail\OptionalService
      */
     public function setTotalPrice($TotalPrice)
     {
@@ -367,7 +367,7 @@ class OptionalService
 
     /**
      * @param boolean $TransportIndicator
-     * @return \FilippoToso\Travelport\Rail\OptionalService
+     * @return \Santosdave\Travelport\Rail\OptionalService
      */
     public function setTransportIndicator($TransportIndicator)
     {
@@ -385,7 +385,7 @@ class OptionalService
 
     /**
      * @param boolean $AirCityIndicator
-     * @return \FilippoToso\Travelport\Rail\OptionalService
+     * @return \Santosdave\Travelport\Rail\OptionalService
      */
     public function setAirCityIndicator($AirCityIndicator)
     {
@@ -403,7 +403,7 @@ class OptionalService
 
     /**
      * @param boolean $PurchaseIndicator
-     * @return \FilippoToso\Travelport\Rail\OptionalService
+     * @return \Santosdave\Travelport\Rail\OptionalService
      */
     public function setPurchaseIndicator($PurchaseIndicator)
     {

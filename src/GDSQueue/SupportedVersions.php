@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class SupportedVersions
 {
@@ -70,7 +70,7 @@ class SupportedVersions
 
     /**
      * @param string $urVersion
-     * @return \FilippoToso\Travelport\GDSQueue\SupportedVersions
+     * @return \Santosdave\Travelport\GDSQueue\SupportedVersions
      */
     public function setUrVersion($urVersion)
     {
@@ -88,7 +88,7 @@ class SupportedVersions
 
     /**
      * @param string $airVersion
-     * @return \FilippoToso\Travelport\GDSQueue\SupportedVersions
+     * @return \Santosdave\Travelport\GDSQueue\SupportedVersions
      */
     public function setAirVersion($airVersion)
     {
@@ -106,7 +106,7 @@ class SupportedVersions
 
     /**
      * @param string $hotelVersion
-     * @return \FilippoToso\Travelport\GDSQueue\SupportedVersions
+     * @return \Santosdave\Travelport\GDSQueue\SupportedVersions
      */
     public function setHotelVersion($hotelVersion)
     {
@@ -124,7 +124,7 @@ class SupportedVersions
 
     /**
      * @param string $vehicleVersion
-     * @return \FilippoToso\Travelport\GDSQueue\SupportedVersions
+     * @return \Santosdave\Travelport\GDSQueue\SupportedVersions
      */
     public function setVehicleVersion($vehicleVersion)
     {
@@ -142,7 +142,7 @@ class SupportedVersions
 
     /**
      * @param string $passiveVersion
-     * @return \FilippoToso\Travelport\GDSQueue\SupportedVersions
+     * @return \Santosdave\Travelport\GDSQueue\SupportedVersions
      */
     public function setPassiveVersion($passiveVersion)
     {
@@ -160,7 +160,7 @@ class SupportedVersions
 
     /**
      * @param string $railVersion
-     * @return \FilippoToso\Travelport\GDSQueue\SupportedVersions
+     * @return \Santosdave\Travelport\GDSQueue\SupportedVersions
      */
     public function setRailVersion($railVersion)
     {
@@ -178,7 +178,7 @@ class SupportedVersions
 
     /**
      * @param string $cruiseVersion
-     * @return \FilippoToso\Travelport\GDSQueue\SupportedVersions
+     * @return \Santosdave\Travelport\GDSQueue\SupportedVersions
      */
     public function setCruiseVersion($cruiseVersion)
     {

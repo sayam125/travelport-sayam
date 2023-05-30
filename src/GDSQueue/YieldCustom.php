@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class YieldCustom
 {
@@ -35,7 +35,7 @@ class YieldCustom
 
     /**
      * @param typeMoney $Amount
-     * @return \FilippoToso\Travelport\GDSQueue\Yield
+     * @return \Santosdave\Travelport\GDSQueue\Yield
      */
     public function setAmount($Amount)
     {
@@ -53,7 +53,7 @@ class YieldCustom
 
     /**
      * @param typeRef $BookingTravelerRef
-     * @return \FilippoToso\Travelport\GDSQueue\Yield
+     * @return \Santosdave\Travelport\GDSQueue\Yield
      */
     public function setBookingTravelerRef($BookingTravelerRef)
     {

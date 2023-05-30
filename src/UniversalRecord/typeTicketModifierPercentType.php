@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class typeTicketModifierPercentType
 {
@@ -28,7 +28,7 @@ class typeTicketModifierPercentType
 
     /**
      * @param typePercentageWithDecimal $Percent
-     * @return \FilippoToso\Travelport\UniversalRecord\typeTicketModifierPercentType
+     * @return \Santosdave\Travelport\UniversalRecord\typeTicketModifierPercentType
      */
     public function setPercent($Percent)
     {

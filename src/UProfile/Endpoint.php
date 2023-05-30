@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class Endpoint
 {
@@ -70,7 +70,7 @@ class Endpoint
 
     /**
      * @param typeEndpointID $ID
-     * @return \FilippoToso\Travelport\UProfile\Endpoint
+     * @return \Santosdave\Travelport\UProfile\Endpoint
      */
     public function setID($ID)
     {
@@ -88,7 +88,7 @@ class Endpoint
 
     /**
      * @param typeEndpointName $Name
-     * @return \FilippoToso\Travelport\UProfile\Endpoint
+     * @return \Santosdave\Travelport\UProfile\Endpoint
      */
     public function setName($Name)
     {
@@ -106,7 +106,7 @@ class Endpoint
 
     /**
      * @param typeEndpointDescription $Description
-     * @return \FilippoToso\Travelport\UProfile\Endpoint
+     * @return \Santosdave\Travelport\UProfile\Endpoint
      */
     public function setDescription($Description)
     {
@@ -124,7 +124,7 @@ class Endpoint
 
     /**
      * @param typeEndpointDataType $DataType
-     * @return \FilippoToso\Travelport\UProfile\Endpoint
+     * @return \Santosdave\Travelport\UProfile\Endpoint
      */
     public function setDataType($DataType)
     {
@@ -142,7 +142,7 @@ class Endpoint
 
     /**
      * @param int $MinOccurs
-     * @return \FilippoToso\Travelport\UProfile\Endpoint
+     * @return \Santosdave\Travelport\UProfile\Endpoint
      */
     public function setMinOccurs($MinOccurs)
     {
@@ -160,7 +160,7 @@ class Endpoint
 
     /**
      * @param int $MaxOccurs
-     * @return \FilippoToso\Travelport\UProfile\Endpoint
+     * @return \Santosdave\Travelport\UProfile\Endpoint
      */
     public function setMaxOccurs($MaxOccurs)
     {
@@ -178,7 +178,7 @@ class Endpoint
 
     /**
      * @param string $EndPointCode
-     * @return \FilippoToso\Travelport\UProfile\Endpoint
+     * @return \Santosdave\Travelport\UProfile\Endpoint
      */
     public function setEndPointCode($EndPointCode)
     {

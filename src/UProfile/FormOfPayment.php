@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class FormOfPayment
 {
@@ -231,7 +231,7 @@ class FormOfPayment
 
     /**
      * @param CreditCard $CreditCard
-     * @return \FilippoToso\Travelport\UProfile\FormOfPayment
+     * @return \Santosdave\Travelport\UProfile\FormOfPayment
      */
     public function setCreditCard($CreditCard)
     {
@@ -249,7 +249,7 @@ class FormOfPayment
 
     /**
      * @param DebitCard $DebitCard
-     * @return \FilippoToso\Travelport\UProfile\FormOfPayment
+     * @return \Santosdave\Travelport\UProfile\FormOfPayment
      */
     public function setDebitCard($DebitCard)
     {
@@ -267,7 +267,7 @@ class FormOfPayment
 
     /**
      * @param EnettVan $EnettVan
-     * @return \FilippoToso\Travelport\UProfile\FormOfPayment
+     * @return \Santosdave\Travelport\UProfile\FormOfPayment
      */
     public function setEnettVan($EnettVan)
     {
@@ -285,7 +285,7 @@ class FormOfPayment
 
     /**
      * @param Certificate $Certificate
-     * @return \FilippoToso\Travelport\UProfile\FormOfPayment
+     * @return \Santosdave\Travelport\UProfile\FormOfPayment
      */
     public function setCertificate($Certificate)
     {
@@ -303,7 +303,7 @@ class FormOfPayment
 
     /**
      * @param StringLength1to13 $TicketNumber
-     * @return \FilippoToso\Travelport\UProfile\FormOfPayment
+     * @return \Santosdave\Travelport\UProfile\FormOfPayment
      */
     public function setTicketNumber($TicketNumber)
     {
@@ -321,7 +321,7 @@ class FormOfPayment
 
     /**
      * @param Check $Check
-     * @return \FilippoToso\Travelport\UProfile\FormOfPayment
+     * @return \Santosdave\Travelport\UProfile\FormOfPayment
      */
     public function setCheck($Check)
     {
@@ -339,7 +339,7 @@ class FormOfPayment
 
     /**
      * @param Requisition $Requisition
-     * @return \FilippoToso\Travelport\UProfile\FormOfPayment
+     * @return \Santosdave\Travelport\UProfile\FormOfPayment
      */
     public function setRequisition($Requisition)
     {
@@ -357,7 +357,7 @@ class FormOfPayment
 
     /**
      * @param MiscFormOfPayment $MiscFormOfPayment
-     * @return \FilippoToso\Travelport\UProfile\FormOfPayment
+     * @return \Santosdave\Travelport\UProfile\FormOfPayment
      */
     public function setMiscFormOfPayment($MiscFormOfPayment)
     {
@@ -375,7 +375,7 @@ class FormOfPayment
 
     /**
      * @param typeAgencyPayment $AgencyPayment
-     * @return \FilippoToso\Travelport\UProfile\FormOfPayment
+     * @return \Santosdave\Travelport\UProfile\FormOfPayment
      */
     public function setAgencyPayment($AgencyPayment)
     {
@@ -393,7 +393,7 @@ class FormOfPayment
 
     /**
      * @param UnitedNations $UnitedNations
-     * @return \FilippoToso\Travelport\UProfile\FormOfPayment
+     * @return \Santosdave\Travelport\UProfile\FormOfPayment
      */
     public function setUnitedNations($UnitedNations)
     {
@@ -411,7 +411,7 @@ class FormOfPayment
 
     /**
      * @param DirectPayment $DirectPayment
-     * @return \FilippoToso\Travelport\UProfile\FormOfPayment
+     * @return \Santosdave\Travelport\UProfile\FormOfPayment
      */
     public function setDirectPayment($DirectPayment)
     {
@@ -429,7 +429,7 @@ class FormOfPayment
 
     /**
      * @param AgentVoucher $AgentVoucher
-     * @return \FilippoToso\Travelport\UProfile\FormOfPayment
+     * @return \Santosdave\Travelport\UProfile\FormOfPayment
      */
     public function setAgentVoucher($AgentVoucher)
     {
@@ -447,7 +447,7 @@ class FormOfPayment
 
     /**
      * @param PaymentAdvice $PaymentAdvice
-     * @return \FilippoToso\Travelport\UProfile\FormOfPayment
+     * @return \Santosdave\Travelport\UProfile\FormOfPayment
      */
     public function setPaymentAdvice($PaymentAdvice)
     {
@@ -465,7 +465,7 @@ class FormOfPayment
 
     /**
      * @param typeFormOfPaymentPNRReference $ProviderReservationInfoRef
-     * @return \FilippoToso\Travelport\UProfile\FormOfPayment
+     * @return \Santosdave\Travelport\UProfile\FormOfPayment
      */
     public function setProviderReservationInfoRef($ProviderReservationInfoRef)
     {
@@ -483,7 +483,7 @@ class FormOfPayment
 
     /**
      * @param typeGeneralReference $SegmentRef
-     * @return \FilippoToso\Travelport\UProfile\FormOfPayment
+     * @return \Santosdave\Travelport\UProfile\FormOfPayment
      */
     public function setSegmentRef($SegmentRef)
     {
@@ -501,7 +501,7 @@ class FormOfPayment
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\UProfile\FormOfPayment
+     * @return \Santosdave\Travelport\UProfile\FormOfPayment
      */
     public function setKey($Key)
     {
@@ -519,7 +519,7 @@ class FormOfPayment
 
     /**
      * @param anonymous44 $Type
-     * @return \FilippoToso\Travelport\UProfile\FormOfPayment
+     * @return \Santosdave\Travelport\UProfile\FormOfPayment
      */
     public function setType($Type)
     {
@@ -537,7 +537,7 @@ class FormOfPayment
 
     /**
      * @param string $FulfillmentType
-     * @return \FilippoToso\Travelport\UProfile\FormOfPayment
+     * @return \Santosdave\Travelport\UProfile\FormOfPayment
      */
     public function setFulfillmentType($FulfillmentType)
     {
@@ -555,7 +555,7 @@ class FormOfPayment
 
     /**
      * @param string $FulfillmentLocation
-     * @return \FilippoToso\Travelport\UProfile\FormOfPayment
+     * @return \Santosdave\Travelport\UProfile\FormOfPayment
      */
     public function setFulfillmentLocation($FulfillmentLocation)
     {
@@ -573,7 +573,7 @@ class FormOfPayment
 
     /**
      * @param typeFulfillmentIDType $FulfillmentIDType
-     * @return \FilippoToso\Travelport\UProfile\FormOfPayment
+     * @return \Santosdave\Travelport\UProfile\FormOfPayment
      */
     public function setFulfillmentIDType($FulfillmentIDType)
     {
@@ -591,7 +591,7 @@ class FormOfPayment
 
     /**
      * @param string $FulfillmentIDNumber
-     * @return \FilippoToso\Travelport\UProfile\FormOfPayment
+     * @return \Santosdave\Travelport\UProfile\FormOfPayment
      */
     public function setFulfillmentIDNumber($FulfillmentIDNumber)
     {
@@ -609,7 +609,7 @@ class FormOfPayment
 
     /**
      * @param boolean $IsAgentType
-     * @return \FilippoToso\Travelport\UProfile\FormOfPayment
+     * @return \Santosdave\Travelport\UProfile\FormOfPayment
      */
     public function setIsAgentType($IsAgentType)
     {
@@ -627,7 +627,7 @@ class FormOfPayment
 
     /**
      * @param string $AgentText
-     * @return \FilippoToso\Travelport\UProfile\FormOfPayment
+     * @return \Santosdave\Travelport\UProfile\FormOfPayment
      */
     public function setAgentText($AgentText)
     {
@@ -645,7 +645,7 @@ class FormOfPayment
 
     /**
      * @param typeRef $ReuseFOP
-     * @return \FilippoToso\Travelport\UProfile\FormOfPayment
+     * @return \Santosdave\Travelport\UProfile\FormOfPayment
      */
     public function setReuseFOP($ReuseFOP)
     {
@@ -663,7 +663,7 @@ class FormOfPayment
 
     /**
      * @param typeExternalReference $ExternalReference
-     * @return \FilippoToso\Travelport\UProfile\FormOfPayment
+     * @return \Santosdave\Travelport\UProfile\FormOfPayment
      */
     public function setExternalReference($ExternalReference)
     {
@@ -681,7 +681,7 @@ class FormOfPayment
 
     /**
      * @param boolean $Reusable
-     * @return \FilippoToso\Travelport\UProfile\FormOfPayment
+     * @return \Santosdave\Travelport\UProfile\FormOfPayment
      */
     public function setReusable($Reusable)
     {
@@ -699,7 +699,7 @@ class FormOfPayment
 
     /**
      * @param string $ProfileID
-     * @return \FilippoToso\Travelport\UProfile\FormOfPayment
+     * @return \Santosdave\Travelport\UProfile\FormOfPayment
      */
     public function setProfileID($ProfileID)
     {
@@ -717,7 +717,7 @@ class FormOfPayment
 
     /**
      * @param typeRef $ProfileKey
-     * @return \FilippoToso\Travelport\UProfile\FormOfPayment
+     * @return \Santosdave\Travelport\UProfile\FormOfPayment
      */
     public function setProfileKey($ProfileKey)
     {
@@ -735,7 +735,7 @@ class FormOfPayment
 
     /**
      * @param typeElementStatus $ElStat
-     * @return \FilippoToso\Travelport\UProfile\FormOfPayment
+     * @return \Santosdave\Travelport\UProfile\FormOfPayment
      */
     public function setElStat($ElStat)
     {
@@ -753,7 +753,7 @@ class FormOfPayment
 
     /**
      * @param boolean $KeyOverride
-     * @return \FilippoToso\Travelport\UProfile\FormOfPayment
+     * @return \Santosdave\Travelport\UProfile\FormOfPayment
      */
     public function setKeyOverride($KeyOverride)
     {

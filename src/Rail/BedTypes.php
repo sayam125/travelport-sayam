@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class BedTypes
 {
@@ -35,7 +35,7 @@ class BedTypes
 
     /**
      * @param typeOTACode $Code
-     * @return \FilippoToso\Travelport\Rail\BedTypes
+     * @return \Santosdave\Travelport\Rail\BedTypes
      */
     public function setCode($Code)
     {
@@ -53,7 +53,7 @@ class BedTypes
 
     /**
      * @param int $Quantity
-     * @return \FilippoToso\Travelport\Rail\BedTypes
+     * @return \Santosdave\Travelport\Rail\BedTypes
      */
     public function setQuantity($Quantity)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class OverridePCC
 {
@@ -35,7 +35,7 @@ class OverridePCC
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\UniversalRecord\OverridePCC
+     * @return \Santosdave\Travelport\UniversalRecord\OverridePCC
      */
     public function setProviderCode($ProviderCode)
     {
@@ -53,7 +53,7 @@ class OverridePCC
 
     /**
      * @param typePCC $PseudoCityCode
-     * @return \FilippoToso\Travelport\UniversalRecord\OverridePCC
+     * @return \Santosdave\Travelport\UniversalRecord\OverridePCC
      */
     public function setPseudoCityCode($PseudoCityCode)
     {

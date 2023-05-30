@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class AvailablePseudoCityCode
 {
@@ -28,7 +28,7 @@ class AvailablePseudoCityCode
 
     /**
      * @param typePCC $PseudoCityCode
-     * @return \FilippoToso\Travelport\GDSQueue\AvailablePseudoCityCode
+     * @return \Santosdave\Travelport\GDSQueue\AvailablePseudoCityCode
      */
     public function setPseudoCityCode($PseudoCityCode)
     {

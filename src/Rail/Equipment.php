@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class Equipment
 {
@@ -49,7 +49,7 @@ class Equipment
 
     /**
      * @param string $Type
-     * @return \FilippoToso\Travelport\Rail\Equipment
+     * @return \Santosdave\Travelport\Rail\Equipment
      */
     public function setType($Type)
     {
@@ -67,7 +67,7 @@ class Equipment
 
     /**
      * @param string $Description
-     * @return \FilippoToso\Travelport\Rail\Equipment
+     * @return \Santosdave\Travelport\Rail\Equipment
      */
     public function setDescription($Description)
     {
@@ -85,7 +85,7 @@ class Equipment
 
     /**
      * @param int $Quantity
-     * @return \FilippoToso\Travelport\Rail\Equipment
+     * @return \Santosdave\Travelport\Rail\Equipment
      */
     public function setQuantity($Quantity)
     {
@@ -103,7 +103,7 @@ class Equipment
 
     /**
      * @param typeStatusCode $Status
-     * @return \FilippoToso\Travelport\Rail\Equipment
+     * @return \Santosdave\Travelport\Rail\Equipment
      */
     public function setStatus($Status)
     {

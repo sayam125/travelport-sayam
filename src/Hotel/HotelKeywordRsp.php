@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class HotelKeywordRsp extends BaseRsp
 {
@@ -41,7 +41,7 @@ class HotelKeywordRsp extends BaseRsp
 
     /**
      * @param MarketingInformation $MarketingInformation
-     * @return \FilippoToso\Travelport\Hotel\HotelKeywordRsp
+     * @return \Santosdave\Travelport\Hotel\HotelKeywordRsp
      */
     public function setMarketingInformation($MarketingInformation)
     {
@@ -59,7 +59,7 @@ class HotelKeywordRsp extends BaseRsp
 
     /**
      * @param Keyword $Keyword
-     * @return \FilippoToso\Travelport\Hotel\HotelKeywordRsp
+     * @return \Santosdave\Travelport\Hotel\HotelKeywordRsp
      */
     public function setKeyword($Keyword)
     {

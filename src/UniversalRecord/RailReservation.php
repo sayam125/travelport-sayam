@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class RailReservation extends BaseReservation
 {
@@ -86,7 +86,7 @@ class RailReservation extends BaseReservation
 
     /**
      * @param BookingTravelerRef $BookingTravelerRef
-     * @return \FilippoToso\Travelport\UniversalRecord\RailReservation
+     * @return \Santosdave\Travelport\UniversalRecord\RailReservation
      */
     public function setBookingTravelerRef($BookingTravelerRef)
     {
@@ -104,7 +104,7 @@ class RailReservation extends BaseReservation
 
     /**
      * @param RailJourney $RailJourney
-     * @return \FilippoToso\Travelport\UniversalRecord\RailReservation
+     * @return \Santosdave\Travelport\UniversalRecord\RailReservation
      */
     public function setRailJourney($RailJourney)
     {
@@ -122,7 +122,7 @@ class RailReservation extends BaseReservation
 
     /**
      * @param RailPricingInfo $RailPricingInfo
-     * @return \FilippoToso\Travelport\UniversalRecord\RailReservation
+     * @return \Santosdave\Travelport\UniversalRecord\RailReservation
      */
     public function setRailPricingInfo($RailPricingInfo)
     {
@@ -140,7 +140,7 @@ class RailReservation extends BaseReservation
 
     /**
      * @param Payment $Payment
-     * @return \FilippoToso\Travelport\UniversalRecord\RailReservation
+     * @return \Santosdave\Travelport\UniversalRecord\RailReservation
      */
     public function setPayment($Payment)
     {
@@ -158,7 +158,7 @@ class RailReservation extends BaseReservation
 
     /**
      * @param RailTicketInfo $RailTicketInfo
-     * @return \FilippoToso\Travelport\UniversalRecord\RailReservation
+     * @return \Santosdave\Travelport\UniversalRecord\RailReservation
      */
     public function setRailTicketInfo($RailTicketInfo)
     {
@@ -176,7 +176,7 @@ class RailReservation extends BaseReservation
 
     /**
      * @param RailFareNoteList $RailFareNoteList
-     * @return \FilippoToso\Travelport\UniversalRecord\RailReservation
+     * @return \Santosdave\Travelport\UniversalRecord\RailReservation
      */
     public function setRailFareNoteList($RailFareNoteList)
     {
@@ -194,7 +194,7 @@ class RailReservation extends BaseReservation
 
     /**
      * @param SupplierLocator $SupplierLocator
-     * @return \FilippoToso\Travelport\UniversalRecord\RailReservation
+     * @return \Santosdave\Travelport\UniversalRecord\RailReservation
      */
     public function setSupplierLocator($SupplierLocator)
     {
@@ -212,7 +212,7 @@ class RailReservation extends BaseReservation
 
     /**
      * @param string $BookingStatus
-     * @return \FilippoToso\Travelport\UniversalRecord\RailReservation
+     * @return \Santosdave\Travelport\UniversalRecord\RailReservation
      */
     public function setBookingStatus($BookingStatus)
     {

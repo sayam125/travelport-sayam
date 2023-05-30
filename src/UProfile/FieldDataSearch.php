@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class FieldDataSearch
 {
@@ -49,7 +49,7 @@ class FieldDataSearch
 
     /**
      * @param typeFieldID $FieldID
-     * @return \FilippoToso\Travelport\UProfile\FieldDataSearch
+     * @return \Santosdave\Travelport\UProfile\FieldDataSearch
      */
     public function setFieldID($FieldID)
     {
@@ -67,7 +67,7 @@ class FieldDataSearch
 
     /**
      * @param StringLength1to255 $Name
-     * @return \FilippoToso\Travelport\UProfile\FieldDataSearch
+     * @return \Santosdave\Travelport\UProfile\FieldDataSearch
      */
     public function setName($Name)
     {
@@ -85,7 +85,7 @@ class FieldDataSearch
 
     /**
      * @param anonymous566 $Value
-     * @return \FilippoToso\Travelport\UProfile\FieldDataSearch
+     * @return \Santosdave\Travelport\UProfile\FieldDataSearch
      */
     public function setValue($Value)
     {
@@ -103,7 +103,7 @@ class FieldDataSearch
 
     /**
      * @param typeFieldID $FieldGroupID
-     * @return \FilippoToso\Travelport\UProfile\FieldDataSearch
+     * @return \Santosdave\Travelport\UProfile\FieldDataSearch
      */
     public function setFieldGroupID($FieldGroupID)
     {

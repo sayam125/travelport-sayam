@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class VehicleUpsellRule
 {
@@ -35,7 +35,7 @@ class VehicleUpsellRule
 
     /**
      * @param VehicleUpsellQualify $VehicleUpsellQualify
-     * @return \FilippoToso\Travelport\Util\VehicleUpsellRule
+     * @return \Santosdave\Travelport\Util\VehicleUpsellRule
      */
     public function setVehicleUpsellQualify($VehicleUpsellQualify)
     {
@@ -53,7 +53,7 @@ class VehicleUpsellRule
 
     /**
      * @param VehicleUpsellOffer $VehicleUpsellOffer
-     * @return \FilippoToso\Travelport\Util\VehicleUpsellRule
+     * @return \Santosdave\Travelport\Util\VehicleUpsellRule
      */
     public function setVehicleUpsellOffer($VehicleUpsellOffer)
     {

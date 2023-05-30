@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class Package
 {
@@ -49,7 +49,7 @@ class Package
 
     /**
      * @param StringLength1to30 $Name
-     * @return \FilippoToso\Travelport\Rail\Package
+     * @return \Santosdave\Travelport\Rail\Package
      */
     public function setName($Name)
     {
@@ -67,7 +67,7 @@ class Package
 
     /**
      * @param anonymous1356 $Identifier
-     * @return \FilippoToso\Travelport\Rail\Package
+     * @return \Santosdave\Travelport\Rail\Package
      */
     public function setIdentifier($Identifier)
     {
@@ -85,7 +85,7 @@ class Package
 
     /**
      * @param int $PassengerCount
-     * @return \FilippoToso\Travelport\Rail\Package
+     * @return \Santosdave\Travelport\Rail\Package
      */
     public function setPassengerCount($PassengerCount)
     {
@@ -103,7 +103,7 @@ class Package
 
     /**
      * @param StringLength1to14 $PackageIdentifier
-     * @return \FilippoToso\Travelport\Rail\Package
+     * @return \Santosdave\Travelport\Rail\Package
      */
     public function setPackageIdentifier($PackageIdentifier)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class HierarchyLevel
 {
@@ -77,7 +77,7 @@ class HierarchyLevel
 
     /**
      * @param DefaultTemplate $DefaultTemplate
-     * @return \FilippoToso\Travelport\UProfile\HierarchyLevel
+     * @return \Santosdave\Travelport\UProfile\HierarchyLevel
      */
     public function setDefaultTemplate($DefaultTemplate)
     {
@@ -95,7 +95,7 @@ class HierarchyLevel
 
     /**
      * @param typeHierarchyName $Name
-     * @return \FilippoToso\Travelport\UProfile\HierarchyLevel
+     * @return \Santosdave\Travelport\UProfile\HierarchyLevel
      */
     public function setName($Name)
     {
@@ -113,7 +113,7 @@ class HierarchyLevel
 
     /**
      * @param int $LevelNumber
-     * @return \FilippoToso\Travelport\UProfile\HierarchyLevel
+     * @return \Santosdave\Travelport\UProfile\HierarchyLevel
      */
     public function setLevelNumber($LevelNumber)
     {
@@ -131,7 +131,7 @@ class HierarchyLevel
 
     /**
      * @param StringLength1to255 $Description
-     * @return \FilippoToso\Travelport\UProfile\HierarchyLevel
+     * @return \Santosdave\Travelport\UProfile\HierarchyLevel
      */
     public function setDescription($Description)
     {
@@ -149,7 +149,7 @@ class HierarchyLevel
 
     /**
      * @param typeTemplateID $TemplateID
-     * @return \FilippoToso\Travelport\UProfile\HierarchyLevel
+     * @return \Santosdave\Travelport\UProfile\HierarchyLevel
      */
     public function setTemplateID($TemplateID)
     {
@@ -167,7 +167,7 @@ class HierarchyLevel
 
     /**
      * @param typeVersion $TemplateVersion
-     * @return \FilippoToso\Travelport\UProfile\HierarchyLevel
+     * @return \Santosdave\Travelport\UProfile\HierarchyLevel
      */
     public function setTemplateVersion($TemplateVersion)
     {
@@ -185,7 +185,7 @@ class HierarchyLevel
 
     /**
      * @param typeID $HierarchyLevelID
-     * @return \FilippoToso\Travelport\UProfile\HierarchyLevel
+     * @return \Santosdave\Travelport\UProfile\HierarchyLevel
      */
     public function setHierarchyLevelID($HierarchyLevelID)
     {
@@ -203,7 +203,7 @@ class HierarchyLevel
 
     /**
      * @param typeProfileType $ProfileType
-     * @return \FilippoToso\Travelport\UProfile\HierarchyLevel
+     * @return \Santosdave\Travelport\UProfile\HierarchyLevel
      */
     public function setProfileType($ProfileType)
     {

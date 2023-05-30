@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class TicketAdvisory
 {
@@ -42,7 +42,7 @@ class TicketAdvisory
 
     /**
      * @param StringLength1to500 $_
-     * @return \FilippoToso\Travelport\Rail\TicketAdvisory
+     * @return \Santosdave\Travelport\Rail\TicketAdvisory
      */
     public function set_($_)
     {
@@ -60,7 +60,7 @@ class TicketAdvisory
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Rail\TicketAdvisory
+     * @return \Santosdave\Travelport\Rail\TicketAdvisory
      */
     public function setKey($Key)
     {
@@ -78,7 +78,7 @@ class TicketAdvisory
 
     /**
      * @param language $LanguageCode
-     * @return \FilippoToso\Travelport\Rail\TicketAdvisory
+     * @return \Santosdave\Travelport\Rail\TicketAdvisory
      */
     public function setLanguageCode($LanguageCode)
     {

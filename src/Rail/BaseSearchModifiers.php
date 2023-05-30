@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class BaseSearchModifiers
 {
@@ -75,7 +75,7 @@ class BaseSearchModifiers
 
     /**
      * @param typeDateSpec $TravelDate
-     * @return \FilippoToso\Travelport\Rail\BaseSearchModifiers
+     * @return \Santosdave\Travelport\Rail\BaseSearchModifiers
      */
     public function setTravelDate($TravelDate)
     {
@@ -93,7 +93,7 @@ class BaseSearchModifiers
 
     /**
      * @param boolean $IncludeAllNames
-     * @return \FilippoToso\Travelport\Rail\BaseSearchModifiers
+     * @return \Santosdave\Travelport\Rail\BaseSearchModifiers
      */
     public function setIncludeAllNames($IncludeAllNames)
     {
@@ -111,7 +111,7 @@ class BaseSearchModifiers
 
     /**
      * @param boolean $IncludeAgentInfo
-     * @return \FilippoToso\Travelport\Rail\BaseSearchModifiers
+     * @return \Santosdave\Travelport\Rail\BaseSearchModifiers
      */
     public function setIncludeAgentInfo($IncludeAgentInfo)
     {
@@ -129,7 +129,7 @@ class BaseSearchModifiers
 
     /**
      * @param typeMaxResults $MaxResults
-     * @return \FilippoToso\Travelport\Rail\BaseSearchModifiers
+     * @return \Santosdave\Travelport\Rail\BaseSearchModifiers
      */
     public function setMaxResults($MaxResults)
     {
@@ -147,7 +147,7 @@ class BaseSearchModifiers
 
     /**
      * @param typeStartFromResult $StartFromResult
-     * @return \FilippoToso\Travelport\Rail\BaseSearchModifiers
+     * @return \Santosdave\Travelport\Rail\BaseSearchModifiers
      */
     public function setStartFromResult($StartFromResult)
     {
@@ -165,7 +165,7 @@ class BaseSearchModifiers
 
     /**
      * @param boolean $ExcludeAir
-     * @return \FilippoToso\Travelport\Rail\BaseSearchModifiers
+     * @return \Santosdave\Travelport\Rail\BaseSearchModifiers
      */
     public function setExcludeAir($ExcludeAir)
     {
@@ -183,7 +183,7 @@ class BaseSearchModifiers
 
     /**
      * @param boolean $ExcludeVehicle
-     * @return \FilippoToso\Travelport\Rail\BaseSearchModifiers
+     * @return \Santosdave\Travelport\Rail\BaseSearchModifiers
      */
     public function setExcludeVehicle($ExcludeVehicle)
     {
@@ -201,7 +201,7 @@ class BaseSearchModifiers
 
     /**
      * @param boolean $ExcludeHotel
-     * @return \FilippoToso\Travelport\Rail\BaseSearchModifiers
+     * @return \Santosdave\Travelport\Rail\BaseSearchModifiers
      */
     public function setExcludeHotel($ExcludeHotel)
     {

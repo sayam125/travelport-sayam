@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class CancelInfo
 {
@@ -129,7 +129,7 @@ class CancelInfo
 
     /**
      * @param string $CancellationPolicy
-     * @return \FilippoToso\Travelport\UniversalRecord\CancelInfo
+     * @return \Santosdave\Travelport\UniversalRecord\CancelInfo
      */
     public function setCancellationPolicy($CancellationPolicy)
     {
@@ -147,7 +147,7 @@ class CancelInfo
 
     /**
      * @param string[] $Text
-     * @return \FilippoToso\Travelport\UniversalRecord\CancelInfo
+     * @return \Santosdave\Travelport\UniversalRecord\CancelInfo
      */
     public function setText(array $Text = null)
     {
@@ -165,7 +165,7 @@ class CancelInfo
 
     /**
      * @param typeTrinary $NonRefundableStayIndicator
-     * @return \FilippoToso\Travelport\UniversalRecord\CancelInfo
+     * @return \Santosdave\Travelport\UniversalRecord\CancelInfo
      */
     public function setNonRefundableStayIndicator($NonRefundableStayIndicator)
     {
@@ -191,7 +191,7 @@ class CancelInfo
 
     /**
      * @param \DateTime $CancelDeadline
-     * @return \FilippoToso\Travelport\UniversalRecord\CancelInfo
+     * @return \Santosdave\Travelport\UniversalRecord\CancelInfo
      */
     public function setCancelDeadline(\DateTime $CancelDeadline)
     {
@@ -209,7 +209,7 @@ class CancelInfo
 
     /**
      * @param boolean $TaxInclusive
-     * @return \FilippoToso\Travelport\UniversalRecord\CancelInfo
+     * @return \Santosdave\Travelport\UniversalRecord\CancelInfo
      */
     public function setTaxInclusive($TaxInclusive)
     {
@@ -227,7 +227,7 @@ class CancelInfo
 
     /**
      * @param boolean $FeeInclusive
-     * @return \FilippoToso\Travelport\UniversalRecord\CancelInfo
+     * @return \Santosdave\Travelport\UniversalRecord\CancelInfo
      */
     public function setFeeInclusive($FeeInclusive)
     {
@@ -245,7 +245,7 @@ class CancelInfo
 
     /**
      * @param typeMoney $CancelPenaltyAmount
-     * @return \FilippoToso\Travelport\UniversalRecord\CancelInfo
+     * @return \Santosdave\Travelport\UniversalRecord\CancelInfo
      */
     public function setCancelPenaltyAmount($CancelPenaltyAmount)
     {
@@ -263,7 +263,7 @@ class CancelInfo
 
     /**
      * @param int $NumberOfNights
-     * @return \FilippoToso\Travelport\UniversalRecord\CancelInfo
+     * @return \Santosdave\Travelport\UniversalRecord\CancelInfo
      */
     public function setNumberOfNights($NumberOfNights)
     {
@@ -281,7 +281,7 @@ class CancelInfo
 
     /**
      * @param float $CancelPenaltyPercent
-     * @return \FilippoToso\Travelport\UniversalRecord\CancelInfo
+     * @return \Santosdave\Travelport\UniversalRecord\CancelInfo
      */
     public function setCancelPenaltyPercent($CancelPenaltyPercent)
     {
@@ -299,7 +299,7 @@ class CancelInfo
 
     /**
      * @param string $CancelPenaltyPercentAppliesTo
-     * @return \FilippoToso\Travelport\UniversalRecord\CancelInfo
+     * @return \Santosdave\Travelport\UniversalRecord\CancelInfo
      */
     public function setCancelPenaltyPercentAppliesTo($CancelPenaltyPercentAppliesTo)
     {
@@ -317,7 +317,7 @@ class CancelInfo
 
     /**
      * @param string $Method
-     * @return \FilippoToso\Travelport\UniversalRecord\CancelInfo
+     * @return \Santosdave\Travelport\UniversalRecord\CancelInfo
      */
     public function setMethod($Method)
     {
@@ -335,7 +335,7 @@ class CancelInfo
 
     /**
      * @param boolean $Supported
-     * @return \FilippoToso\Travelport\UniversalRecord\CancelInfo
+     * @return \Santosdave\Travelport\UniversalRecord\CancelInfo
      */
     public function setSupported($Supported)
     {
@@ -353,7 +353,7 @@ class CancelInfo
 
     /**
      * @param string $URL
-     * @return \FilippoToso\Travelport\UniversalRecord\CancelInfo
+     * @return \Santosdave\Travelport\UniversalRecord\CancelInfo
      */
     public function setURL($URL)
     {
@@ -371,7 +371,7 @@ class CancelInfo
 
     /**
      * @param StringLength1to16 $OffsetTimeUnit
-     * @return \FilippoToso\Travelport\UniversalRecord\CancelInfo
+     * @return \Santosdave\Travelport\UniversalRecord\CancelInfo
      */
     public function setOffsetTimeUnit($OffsetTimeUnit)
     {
@@ -389,7 +389,7 @@ class CancelInfo
 
     /**
      * @param Numeric0to999 $OffsetUnitMultiplier
-     * @return \FilippoToso\Travelport\UniversalRecord\CancelInfo
+     * @return \Santosdave\Travelport\UniversalRecord\CancelInfo
      */
     public function setOffsetUnitMultiplier($OffsetUnitMultiplier)
     {
@@ -407,7 +407,7 @@ class CancelInfo
 
     /**
      * @param StringLength1to20 $OffsetDropTime
-     * @return \FilippoToso\Travelport\UniversalRecord\CancelInfo
+     * @return \Santosdave\Travelport\UniversalRecord\CancelInfo
      */
     public function setOffsetDropTime($OffsetDropTime)
     {

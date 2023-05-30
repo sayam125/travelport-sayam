@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class ChargesRules
 {
@@ -31,7 +31,7 @@ class ChargesRules
 
     /**
      * @param VoluntaryChanges[] $VoluntaryChanges
-     * @return \FilippoToso\Travelport\GDSQueue\ChargesRules
+     * @return \Santosdave\Travelport\GDSQueue\ChargesRules
      */
     public function setVoluntaryChanges(array $VoluntaryChanges = null)
     {
@@ -49,7 +49,7 @@ class ChargesRules
 
     /**
      * @param VoluntaryRefunds[] $VoluntaryRefunds
-     * @return \FilippoToso\Travelport\GDSQueue\ChargesRules
+     * @return \Santosdave\Travelport\GDSQueue\ChargesRules
      */
     public function setVoluntaryRefunds(array $VoluntaryRefunds = null)
     {

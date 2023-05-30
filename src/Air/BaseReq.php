@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class BaseReq extends BaseCoreReq
 {
@@ -45,7 +45,7 @@ class BaseReq extends BaseCoreReq
 
     /**
      * @param OverridePCC $OverridePCC
-     * @return \FilippoToso\Travelport\Air\BaseReq
+     * @return \Santosdave\Travelport\Air\BaseReq
      */
     public function setOverridePCC($OverridePCC)
     {
@@ -63,7 +63,7 @@ class BaseReq extends BaseCoreReq
 
     /**
      * @param boolean $RetrieveProviderReservationDetails
-     * @return \FilippoToso\Travelport\Air\BaseReq
+     * @return \Santosdave\Travelport\Air\BaseReq
      */
     public function setRetrieveProviderReservationDetails($RetrieveProviderReservationDetails)
     {

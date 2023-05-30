@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class AccountInfo extends typeAccountTypeProfileInfo
 {
@@ -67,7 +67,7 @@ class AccountInfo extends typeAccountTypeProfileInfo
 
     /**
      * @param Address $Address
-     * @return \FilippoToso\Travelport\UProfile\AccountInfo
+     * @return \Santosdave\Travelport\UProfile\AccountInfo
      */
     public function setAddress($Address)
     {
@@ -85,7 +85,7 @@ class AccountInfo extends typeAccountTypeProfileInfo
 
     /**
      * @param Phone $Phone
-     * @return \FilippoToso\Travelport\UProfile\AccountInfo
+     * @return \Santosdave\Travelport\UProfile\AccountInfo
      */
     public function setPhone($Phone)
     {
@@ -103,7 +103,7 @@ class AccountInfo extends typeAccountTypeProfileInfo
 
     /**
      * @param ElectronicAddress $ElectronicAddress
-     * @return \FilippoToso\Travelport\UProfile\AccountInfo
+     * @return \Santosdave\Travelport\UProfile\AccountInfo
      */
     public function setElectronicAddress($ElectronicAddress)
     {
@@ -121,7 +121,7 @@ class AccountInfo extends typeAccountTypeProfileInfo
 
     /**
      * @param ExternalIdentifier $ExternalIdentifier
-     * @return \FilippoToso\Travelport\UProfile\AccountInfo
+     * @return \Santosdave\Travelport\UProfile\AccountInfo
      */
     public function setExternalIdentifier($ExternalIdentifier)
     {
@@ -139,7 +139,7 @@ class AccountInfo extends typeAccountTypeProfileInfo
 
     /**
      * @param StringLength1to128 $Name
-     * @return \FilippoToso\Travelport\UProfile\AccountInfo
+     * @return \Santosdave\Travelport\UProfile\AccountInfo
      */
     public function setName($Name)
     {
@@ -157,7 +157,7 @@ class AccountInfo extends typeAccountTypeProfileInfo
 
     /**
      * @param StringLength1to128 $LocalLanguageName
-     * @return \FilippoToso\Travelport\UProfile\AccountInfo
+     * @return \Santosdave\Travelport\UProfile\AccountInfo
      */
     public function setLocalLanguageName($LocalLanguageName)
     {

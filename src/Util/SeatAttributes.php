@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class SeatAttributes
 {
@@ -28,7 +28,7 @@ class SeatAttributes
 
     /**
      * @param SeatAttribute $SeatAttribute
-     * @return \FilippoToso\Travelport\Util\SeatAttributes
+     * @return \Santosdave\Travelport\Util\SeatAttributes
      */
     public function setSeatAttribute($SeatAttribute)
     {

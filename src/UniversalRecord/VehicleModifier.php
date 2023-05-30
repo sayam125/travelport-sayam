@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class VehicleModifier
 {
@@ -63,7 +63,7 @@ class VehicleModifier
 
     /**
      * @param boolean $AirConditioning
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleModifier
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleModifier
      */
     public function setAirConditioning($AirConditioning)
     {
@@ -81,7 +81,7 @@ class VehicleModifier
 
     /**
      * @param typeVehicleTransmission $TransmissionType
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleModifier
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleModifier
      */
     public function setTransmissionType($TransmissionType)
     {
@@ -99,7 +99,7 @@ class VehicleModifier
 
     /**
      * @param typeVehicleClass $VehicleClass
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleModifier
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleModifier
      */
     public function setVehicleClass($VehicleClass)
     {
@@ -117,7 +117,7 @@ class VehicleModifier
 
     /**
      * @param typeVehicleCategory $Category
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleModifier
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleModifier
      */
     public function setCategory($Category)
     {
@@ -135,7 +135,7 @@ class VehicleModifier
 
     /**
      * @param typeDoorCount $DoorCount
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleModifier
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleModifier
      */
     public function setDoorCount($DoorCount)
     {
@@ -153,7 +153,7 @@ class VehicleModifier
 
     /**
      * @param typeFuel $FuelType
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleModifier
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleModifier
      */
     public function setFuelType($FuelType)
     {

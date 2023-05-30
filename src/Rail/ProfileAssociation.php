@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class ProfileAssociation
 {
@@ -35,7 +35,7 @@ class ProfileAssociation
 
     /**
      * @param typeRef $TravelerID
-     * @return \FilippoToso\Travelport\Rail\ProfileAssociation
+     * @return \Santosdave\Travelport\Rail\ProfileAssociation
      */
     public function setTravelerID($TravelerID)
     {
@@ -53,7 +53,7 @@ class ProfileAssociation
 
     /**
      * @param typeRef $BookingTravelerRef
-     * @return \FilippoToso\Travelport\Rail\ProfileAssociation
+     * @return \Santosdave\Travelport\Rail\ProfileAssociation
      */
     public function setBookingTravelerRef($BookingTravelerRef)
     {

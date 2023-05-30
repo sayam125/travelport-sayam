@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class RailFareID
 {
@@ -56,7 +56,7 @@ class RailFareID
 
     /**
      * @param string $_
-     * @return \FilippoToso\Travelport\Air\RailFareID
+     * @return \Santosdave\Travelport\Air\RailFareID
      */
     public function set_($_)
     {
@@ -74,7 +74,7 @@ class RailFareID
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Air\RailFareID
+     * @return \Santosdave\Travelport\Air\RailFareID
      */
     public function setKey($Key)
     {
@@ -92,7 +92,7 @@ class RailFareID
 
     /**
      * @param string $Category
-     * @return \FilippoToso\Travelport\Air\RailFareID
+     * @return \Santosdave\Travelport\Air\RailFareID
      */
     public function setCategory($Category)
     {
@@ -110,7 +110,7 @@ class RailFareID
 
     /**
      * @param typeElementStatus $ElStat
-     * @return \FilippoToso\Travelport\Air\RailFareID
+     * @return \Santosdave\Travelport\Air\RailFareID
      */
     public function setElStat($ElStat)
     {
@@ -128,7 +128,7 @@ class RailFareID
 
     /**
      * @param boolean $KeyOverride
-     * @return \FilippoToso\Travelport\Air\RailFareID
+     * @return \Santosdave\Travelport\Air\RailFareID
      */
     public function setKeyOverride($KeyOverride)
     {

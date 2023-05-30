@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class BranchGroupCriteria extends typeProfileSearchCriteria
 {
@@ -37,7 +37,7 @@ class BranchGroupCriteria extends typeProfileSearchCriteria
 
     /**
      * @param typeWildcard $Name
-     * @return \FilippoToso\Travelport\UProfile\BranchGroupCriteria
+     * @return \Santosdave\Travelport\UProfile\BranchGroupCriteria
      */
     public function setName($Name)
     {
@@ -55,7 +55,7 @@ class BranchGroupCriteria extends typeProfileSearchCriteria
 
     /**
      * @param typeWildcard $BranchGroupCode
-     * @return \FilippoToso\Travelport\UProfile\BranchGroupCriteria
+     * @return \Santosdave\Travelport\UProfile\BranchGroupCriteria
      */
     public function setBranchGroupCode($BranchGroupCode)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class TagAdd
 {
@@ -42,7 +42,7 @@ class TagAdd
 
     /**
      * @param typeTaggableElement $Element
-     * @return \FilippoToso\Travelport\UProfile\TagAdd
+     * @return \Santosdave\Travelport\UProfile\TagAdd
      */
     public function setElement($Element)
     {
@@ -60,7 +60,7 @@ class TagAdd
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\UProfile\TagAdd
+     * @return \Santosdave\Travelport\UProfile\TagAdd
      */
     public function setKey($Key)
     {
@@ -78,7 +78,7 @@ class TagAdd
 
     /**
      * @param typeTagID $TagID
-     * @return \FilippoToso\Travelport\UProfile\TagAdd
+     * @return \Santosdave\Travelport\UProfile\TagAdd
      */
     public function setTagID($TagID)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class AirSearchParameters
 {
@@ -49,7 +49,7 @@ class AirSearchParameters
 
     /**
      * @param boolean $NoAdvancePurchase
-     * @return \FilippoToso\Travelport\GDSQueue\AirSearchParameters
+     * @return \Santosdave\Travelport\GDSQueue\AirSearchParameters
      */
     public function setNoAdvancePurchase($NoAdvancePurchase)
     {
@@ -67,7 +67,7 @@ class AirSearchParameters
 
     /**
      * @param boolean $RefundableFares
-     * @return \FilippoToso\Travelport\GDSQueue\AirSearchParameters
+     * @return \Santosdave\Travelport\GDSQueue\AirSearchParameters
      */
     public function setRefundableFares($RefundableFares)
     {
@@ -85,7 +85,7 @@ class AirSearchParameters
 
     /**
      * @param boolean $NonPenaltyFares
-     * @return \FilippoToso\Travelport\GDSQueue\AirSearchParameters
+     * @return \Santosdave\Travelport\GDSQueue\AirSearchParameters
      */
     public function setNonPenaltyFares($NonPenaltyFares)
     {
@@ -103,7 +103,7 @@ class AirSearchParameters
 
     /**
      * @param boolean $UnRestrictedFares
-     * @return \FilippoToso\Travelport\GDSQueue\AirSearchParameters
+     * @return \Santosdave\Travelport\GDSQueue\AirSearchParameters
      */
     public function setUnRestrictedFares($UnRestrictedFares)
     {

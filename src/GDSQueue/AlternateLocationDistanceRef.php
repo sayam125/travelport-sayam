@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class AlternateLocationDistanceRef
 {
@@ -28,7 +28,7 @@ class AlternateLocationDistanceRef
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\GDSQueue\AlternateLocationDistanceRef
+     * @return \Santosdave\Travelport\GDSQueue\AlternateLocationDistanceRef
      */
     public function setKey($Key)
     {

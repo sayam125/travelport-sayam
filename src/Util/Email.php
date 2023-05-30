@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class Email
 {
@@ -70,7 +70,7 @@ class Email
 
     /**
      * @param ProviderReservationInfoRef $ProviderReservationInfoRef
-     * @return \FilippoToso\Travelport\Util\Email
+     * @return \Santosdave\Travelport\Util\Email
      */
     public function setProviderReservationInfoRef($ProviderReservationInfoRef)
     {
@@ -88,7 +88,7 @@ class Email
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Util\Email
+     * @return \Santosdave\Travelport\Util\Email
      */
     public function setKey($Key)
     {
@@ -106,7 +106,7 @@ class Email
 
     /**
      * @param typeEmailType $Type
-     * @return \FilippoToso\Travelport\Util\Email
+     * @return \Santosdave\Travelport\Util\Email
      */
     public function setType($Type)
     {
@@ -124,7 +124,7 @@ class Email
 
     /**
      * @param typeEmailComment $Comment
-     * @return \FilippoToso\Travelport\Util\Email
+     * @return \Santosdave\Travelport\Util\Email
      */
     public function setComment($Comment)
     {
@@ -142,7 +142,7 @@ class Email
 
     /**
      * @param string $EmailID
-     * @return \FilippoToso\Travelport\Util\Email
+     * @return \Santosdave\Travelport\Util\Email
      */
     public function setEmailID($EmailID)
     {
@@ -160,7 +160,7 @@ class Email
 
     /**
      * @param typeElementStatus $ElStat
-     * @return \FilippoToso\Travelport\Util\Email
+     * @return \Santosdave\Travelport\Util\Email
      */
     public function setElStat($ElStat)
     {
@@ -178,7 +178,7 @@ class Email
 
     /**
      * @param boolean $KeyOverride
-     * @return \FilippoToso\Travelport\Util\Email
+     * @return \Santosdave\Travelport\Util\Email
      */
     public function setKeyOverride($KeyOverride)
     {

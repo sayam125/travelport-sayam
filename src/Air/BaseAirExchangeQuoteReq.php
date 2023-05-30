@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class BaseAirExchangeQuoteReq extends BaseCoreReq
 {
@@ -106,7 +106,7 @@ class BaseAirExchangeQuoteReq extends BaseCoreReq
 
     /**
      * @param StringLength1to13 $TicketNumber
-     * @return \FilippoToso\Travelport\Air\BaseAirExchangeQuoteReq
+     * @return \Santosdave\Travelport\Air\BaseAirExchangeQuoteReq
      */
     public function setTicketNumber($TicketNumber)
     {
@@ -124,7 +124,7 @@ class BaseAirExchangeQuoteReq extends BaseCoreReq
 
     /**
      * @param ProviderReservationInfo $ProviderReservationInfo
-     * @return \FilippoToso\Travelport\Air\BaseAirExchangeQuoteReq
+     * @return \Santosdave\Travelport\Air\BaseAirExchangeQuoteReq
      */
     public function setProviderReservationInfo($ProviderReservationInfo)
     {
@@ -142,7 +142,7 @@ class BaseAirExchangeQuoteReq extends BaseCoreReq
 
     /**
      * @param AirPricingSolution $AirPricingSolution
-     * @return \FilippoToso\Travelport\Air\BaseAirExchangeQuoteReq
+     * @return \Santosdave\Travelport\Air\BaseAirExchangeQuoteReq
      */
     public function setAirPricingSolution($AirPricingSolution)
     {
@@ -160,7 +160,7 @@ class BaseAirExchangeQuoteReq extends BaseCoreReq
 
     /**
      * @param AirExchangeModifiers $AirExchangeModifiers
-     * @return \FilippoToso\Travelport\Air\BaseAirExchangeQuoteReq
+     * @return \Santosdave\Travelport\Air\BaseAirExchangeQuoteReq
      */
     public function setAirExchangeModifiers($AirExchangeModifiers)
     {
@@ -178,7 +178,7 @@ class BaseAirExchangeQuoteReq extends BaseCoreReq
 
     /**
      * @param HostToken $HostToken
-     * @return \FilippoToso\Travelport\Air\BaseAirExchangeQuoteReq
+     * @return \Santosdave\Travelport\Air\BaseAirExchangeQuoteReq
      */
     public function setHostToken($HostToken)
     {
@@ -196,7 +196,7 @@ class BaseAirExchangeQuoteReq extends BaseCoreReq
 
     /**
      * @param OptionalServices $OptionalServices
-     * @return \FilippoToso\Travelport\Air\BaseAirExchangeQuoteReq
+     * @return \Santosdave\Travelport\Air\BaseAirExchangeQuoteReq
      */
     public function setOptionalServices($OptionalServices)
     {
@@ -214,7 +214,7 @@ class BaseAirExchangeQuoteReq extends BaseCoreReq
 
     /**
      * @param FormOfPayment $FormOfPayment
-     * @return \FilippoToso\Travelport\Air\BaseAirExchangeQuoteReq
+     * @return \Santosdave\Travelport\Air\BaseAirExchangeQuoteReq
      */
     public function setFormOfPayment($FormOfPayment)
     {
@@ -232,7 +232,7 @@ class BaseAirExchangeQuoteReq extends BaseCoreReq
 
     /**
      * @param RepricingModifiers $RepricingModifiers
-     * @return \FilippoToso\Travelport\Air\BaseAirExchangeQuoteReq
+     * @return \Santosdave\Travelport\Air\BaseAirExchangeQuoteReq
      */
     public function setRepricingModifiers($RepricingModifiers)
     {
@@ -250,7 +250,7 @@ class BaseAirExchangeQuoteReq extends BaseCoreReq
 
     /**
      * @param OriginalItineraryDetails $OriginalItineraryDetails
-     * @return \FilippoToso\Travelport\Air\BaseAirExchangeQuoteReq
+     * @return \Santosdave\Travelport\Air\BaseAirExchangeQuoteReq
      */
     public function setOriginalItineraryDetails($OriginalItineraryDetails)
     {
@@ -268,7 +268,7 @@ class BaseAirExchangeQuoteReq extends BaseCoreReq
 
     /**
      * @param PCC $PCC
-     * @return \FilippoToso\Travelport\Air\BaseAirExchangeQuoteReq
+     * @return \Santosdave\Travelport\Air\BaseAirExchangeQuoteReq
      */
     public function setPCC($PCC)
     {
@@ -286,7 +286,7 @@ class BaseAirExchangeQuoteReq extends BaseCoreReq
 
     /**
      * @param typeFareRuleType $FareRuleType
-     * @return \FilippoToso\Travelport\Air\BaseAirExchangeQuoteReq
+     * @return \Santosdave\Travelport\Air\BaseAirExchangeQuoteReq
      */
     public function setFareRuleType($FareRuleType)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class BaseInfo
 {
@@ -35,7 +35,7 @@ class BaseInfo
 
     /**
      * @param AgencyBaseInfo $AgencyBaseInfo
-     * @return \FilippoToso\Travelport\UProfile\BaseInfo
+     * @return \Santosdave\Travelport\UProfile\BaseInfo
      */
     public function setAgencyBaseInfo($AgencyBaseInfo)
     {
@@ -53,7 +53,7 @@ class BaseInfo
 
     /**
      * @param BranchBaseInfo $BranchBaseInfo
-     * @return \FilippoToso\Travelport\UProfile\BaseInfo
+     * @return \Santosdave\Travelport\UProfile\BaseInfo
      */
     public function setBranchBaseInfo($BranchBaseInfo)
     {

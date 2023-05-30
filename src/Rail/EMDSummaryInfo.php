@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class EMDSummaryInfo
 {
@@ -70,7 +70,7 @@ class EMDSummaryInfo
 
     /**
      * @param EMDSummary $EMDSummary
-     * @return \FilippoToso\Travelport\Rail\EMDSummaryInfo
+     * @return \Santosdave\Travelport\Rail\EMDSummaryInfo
      */
     public function setEMDSummary($EMDSummary)
     {
@@ -88,7 +88,7 @@ class EMDSummaryInfo
 
     /**
      * @param EMDTravelerInfo $EMDTravelerInfo
-     * @return \FilippoToso\Travelport\Rail\EMDSummaryInfo
+     * @return \Santosdave\Travelport\Rail\EMDSummaryInfo
      */
     public function setEMDTravelerInfo($EMDTravelerInfo)
     {
@@ -106,7 +106,7 @@ class EMDSummaryInfo
 
     /**
      * @param Payment $Payment
-     * @return \FilippoToso\Travelport\Rail\EMDSummaryInfo
+     * @return \Santosdave\Travelport\Rail\EMDSummaryInfo
      */
     public function setPayment($Payment)
     {
@@ -124,7 +124,7 @@ class EMDSummaryInfo
 
     /**
      * @param typeRef $ProviderReservationInfoRef
-     * @return \FilippoToso\Travelport\Rail\EMDSummaryInfo
+     * @return \Santosdave\Travelport\Rail\EMDSummaryInfo
      */
     public function setProviderReservationInfoRef($ProviderReservationInfoRef)
     {
@@ -142,7 +142,7 @@ class EMDSummaryInfo
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Rail\EMDSummaryInfo
+     * @return \Santosdave\Travelport\Rail\EMDSummaryInfo
      */
     public function setKey($Key)
     {
@@ -160,7 +160,7 @@ class EMDSummaryInfo
 
     /**
      * @param typeElementStatus $ElStat
-     * @return \FilippoToso\Travelport\Rail\EMDSummaryInfo
+     * @return \Santosdave\Travelport\Rail\EMDSummaryInfo
      */
     public function setElStat($ElStat)
     {
@@ -178,7 +178,7 @@ class EMDSummaryInfo
 
     /**
      * @param boolean $KeyOverride
-     * @return \FilippoToso\Travelport\Rail\EMDSummaryInfo
+     * @return \Santosdave\Travelport\Rail\EMDSummaryInfo
      */
     public function setKeyOverride($KeyOverride)
     {

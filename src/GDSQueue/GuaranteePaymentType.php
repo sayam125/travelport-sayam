@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class GuaranteePaymentType
 {
@@ -42,7 +42,7 @@ class GuaranteePaymentType
 
     /**
      * @param string $_
-     * @return \FilippoToso\Travelport\GDSQueue\GuaranteePaymentType
+     * @return \Santosdave\Travelport\GDSQueue\GuaranteePaymentType
      */
     public function set_($_)
     {
@@ -60,7 +60,7 @@ class GuaranteePaymentType
 
     /**
      * @param string $Type
-     * @return \FilippoToso\Travelport\GDSQueue\GuaranteePaymentType
+     * @return \Santosdave\Travelport\GDSQueue\GuaranteePaymentType
      */
     public function setType($Type)
     {
@@ -78,7 +78,7 @@ class GuaranteePaymentType
 
     /**
      * @param string $Description
-     * @return \FilippoToso\Travelport\GDSQueue\GuaranteePaymentType
+     * @return \Santosdave\Travelport\GDSQueue\GuaranteePaymentType
      */
     public function setDescription($Description)
     {

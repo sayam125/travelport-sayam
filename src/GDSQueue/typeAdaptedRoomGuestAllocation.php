@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class typeAdaptedRoomGuestAllocation
 {
@@ -33,7 +33,7 @@ class typeAdaptedRoomGuestAllocation
 
     /**
      * @param typeGuestChildInformation[] $Child
-     * @return \FilippoToso\Travelport\GDSQueue\typeAdaptedRoomGuestAllocation
+     * @return \Santosdave\Travelport\GDSQueue\typeAdaptedRoomGuestAllocation
      */
     public function setChild(array $Child = null)
     {
@@ -51,7 +51,7 @@ class typeAdaptedRoomGuestAllocation
 
     /**
      * @param int $NumberOfAdults
-     * @return \FilippoToso\Travelport\GDSQueue\typeAdaptedRoomGuestAllocation
+     * @return \Santosdave\Travelport\GDSQueue\typeAdaptedRoomGuestAllocation
      */
     public function setNumberOfAdults($NumberOfAdults)
     {

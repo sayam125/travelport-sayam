@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class FareValidity
 {
@@ -42,7 +42,7 @@ class FareValidity
 
     /**
      * @param typeRef $RailJourneyRef
-     * @return \FilippoToso\Travelport\Rail\FareValidity
+     * @return \Santosdave\Travelport\Rail\FareValidity
      */
     public function setRailJourneyRef($RailJourneyRef)
     {
@@ -60,7 +60,7 @@ class FareValidity
 
     /**
      * @param date $NotValidBefore
-     * @return \FilippoToso\Travelport\Rail\FareValidity
+     * @return \Santosdave\Travelport\Rail\FareValidity
      */
     public function setNotValidBefore($NotValidBefore)
     {
@@ -78,7 +78,7 @@ class FareValidity
 
     /**
      * @param date $NotValidAfter
-     * @return \FilippoToso\Travelport\Rail\FareValidity
+     * @return \Santosdave\Travelport\Rail\FareValidity
      */
     public function setNotValidAfter($NotValidAfter)
     {

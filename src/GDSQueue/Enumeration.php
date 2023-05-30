@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class Enumeration
 {
@@ -28,7 +28,7 @@ class Enumeration
 
     /**
      * @param SolutionGroup $SolutionGroup
-     * @return \FilippoToso\Travelport\GDSQueue\Enumeration
+     * @return \Santosdave\Travelport\GDSQueue\Enumeration
      */
     public function setSolutionGroup($SolutionGroup)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class UpsellSearchModifier
 {
@@ -35,7 +35,7 @@ class UpsellSearchModifier
 
     /**
      * @param typeMaxResults $MaxResults
-     * @return \FilippoToso\Travelport\Util\UpsellSearchModifier
+     * @return \Santosdave\Travelport\Util\UpsellSearchModifier
      */
     public function setMaxResults($MaxResults)
     {
@@ -53,7 +53,7 @@ class UpsellSearchModifier
 
     /**
      * @param typeStartFromResult $StartFromResult
-     * @return \FilippoToso\Travelport\Util\UpsellSearchModifier
+     * @return \Santosdave\Travelport\Util\UpsellSearchModifier
      */
     public function setStartFromResult($StartFromResult)
     {

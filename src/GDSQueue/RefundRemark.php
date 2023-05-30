@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class RefundRemark
 {
@@ -28,7 +28,7 @@ class RefundRemark
 
     /**
      * @param string $RemarkData
-     * @return \FilippoToso\Travelport\GDSQueue\RefundRemark
+     * @return \Santosdave\Travelport\GDSQueue\RefundRemark
      */
     public function setRemarkData($RemarkData)
     {

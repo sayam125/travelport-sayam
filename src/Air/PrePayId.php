@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class PrePayId
 {
@@ -42,7 +42,7 @@ class PrePayId
 
     /**
      * @param CompanyName $CompanyName
-     * @return \FilippoToso\Travelport\Air\PrePayId
+     * @return \Santosdave\Travelport\Air\PrePayId
      */
     public function setCompanyName($CompanyName)
     {
@@ -60,7 +60,7 @@ class PrePayId
 
     /**
      * @param typeCardNumber $Id
-     * @return \FilippoToso\Travelport\Air\PrePayId
+     * @return \Santosdave\Travelport\Air\PrePayId
      */
     public function setId($Id)
     {
@@ -78,7 +78,7 @@ class PrePayId
 
     /**
      * @param string $Type
-     * @return \FilippoToso\Travelport\Air\PrePayId
+     * @return \Santosdave\Travelport\Air\PrePayId
      */
     public function setType($Type)
     {

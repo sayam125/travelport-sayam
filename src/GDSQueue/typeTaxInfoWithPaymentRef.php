@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class typeTaxInfoWithPaymentRef extends typeTaxInfo
 {
@@ -46,7 +46,7 @@ class typeTaxInfoWithPaymentRef extends typeTaxInfo
 
     /**
      * @param PaymentRef $PaymentRef
-     * @return \FilippoToso\Travelport\GDSQueue\typeTaxInfoWithPaymentRef
+     * @return \Santosdave\Travelport\GDSQueue\typeTaxInfoWithPaymentRef
      */
     public function setPaymentRef($PaymentRef)
     {

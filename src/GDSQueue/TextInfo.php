@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class TextInfo
 {
@@ -33,7 +33,7 @@ class TextInfo
 
     /**
      * @param typeGeneralText[] $Text
-     * @return \FilippoToso\Travelport\GDSQueue\TextInfo
+     * @return \Santosdave\Travelport\GDSQueue\TextInfo
      */
     public function setText(array $Text = null)
     {
@@ -51,7 +51,7 @@ class TextInfo
 
     /**
      * @param string $Title
-     * @return \FilippoToso\Travelport\GDSQueue\TextInfo
+     * @return \Santosdave\Travelport\GDSQueue\TextInfo
      */
     public function setTitle($Title)
     {

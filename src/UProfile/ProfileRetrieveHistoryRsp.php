@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class ProfileRetrieveHistoryRsp extends BaseRsp
 {
@@ -41,7 +41,7 @@ class ProfileRetrieveHistoryRsp extends BaseRsp
 
     /**
      * @param ProfileHistory $ProfileHistory
-     * @return \FilippoToso\Travelport\UProfile\ProfileRetrieveHistoryRsp
+     * @return \Santosdave\Travelport\UProfile\ProfileRetrieveHistoryRsp
      */
     public function setProfileHistory($ProfileHistory)
     {
@@ -59,7 +59,7 @@ class ProfileRetrieveHistoryRsp extends BaseRsp
 
     /**
      * @param typeMoreResults $MoreResults
-     * @return \FilippoToso\Travelport\UProfile\ProfileRetrieveHistoryRsp
+     * @return \Santosdave\Travelport\UProfile\ProfileRetrieveHistoryRsp
      */
     public function setMoreResults($MoreResults)
     {

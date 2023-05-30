@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class AirExchangeTicketingRsp extends BaseRsp
 {
@@ -55,7 +55,7 @@ class AirExchangeTicketingRsp extends BaseRsp
 
     /**
      * @param AirSolutionChangedInfo $AirSolutionChangedInfo
-     * @return \FilippoToso\Travelport\Air\AirExchangeTicketingRsp
+     * @return \Santosdave\Travelport\Air\AirExchangeTicketingRsp
      */
     public function setAirSolutionChangedInfo($AirSolutionChangedInfo)
     {
@@ -73,7 +73,7 @@ class AirExchangeTicketingRsp extends BaseRsp
 
     /**
      * @param ETR $ETR
-     * @return \FilippoToso\Travelport\Air\AirExchangeTicketingRsp
+     * @return \Santosdave\Travelport\Air\AirExchangeTicketingRsp
      */
     public function setETR($ETR)
     {
@@ -91,7 +91,7 @@ class AirExchangeTicketingRsp extends BaseRsp
 
     /**
      * @param TicketFailureInfo $TicketFailureInfo
-     * @return \FilippoToso\Travelport\Air\AirExchangeTicketingRsp
+     * @return \Santosdave\Travelport\Air\AirExchangeTicketingRsp
      */
     public function setTicketFailureInfo($TicketFailureInfo)
     {
@@ -109,7 +109,7 @@ class AirExchangeTicketingRsp extends BaseRsp
 
     /**
      * @param DetailedBillingInformation $DetailedBillingInformation
-     * @return \FilippoToso\Travelport\Air\AirExchangeTicketingRsp
+     * @return \Santosdave\Travelport\Air\AirExchangeTicketingRsp
      */
     public function setDetailedBillingInformation($DetailedBillingInformation)
     {

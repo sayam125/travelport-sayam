@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class AutoSeatAssignment
 {
@@ -56,7 +56,7 @@ class AutoSeatAssignment
 
     /**
      * @param typeRef $SegmentRef
-     * @return \FilippoToso\Travelport\Air\AutoSeatAssignment
+     * @return \Santosdave\Travelport\Air\AutoSeatAssignment
      */
     public function setSegmentRef($SegmentRef)
     {
@@ -74,7 +74,7 @@ class AutoSeatAssignment
 
     /**
      * @param boolean $Smoking
-     * @return \FilippoToso\Travelport\Air\AutoSeatAssignment
+     * @return \Santosdave\Travelport\Air\AutoSeatAssignment
      */
     public function setSmoking($Smoking)
     {
@@ -92,7 +92,7 @@ class AutoSeatAssignment
 
     /**
      * @param typeReqSeat $SeatType
-     * @return \FilippoToso\Travelport\Air\AutoSeatAssignment
+     * @return \Santosdave\Travelport\Air\AutoSeatAssignment
      */
     public function setSeatType($SeatType)
     {
@@ -110,7 +110,7 @@ class AutoSeatAssignment
 
     /**
      * @param boolean $Group
-     * @return \FilippoToso\Travelport\Air\AutoSeatAssignment
+     * @return \Santosdave\Travelport\Air\AutoSeatAssignment
      */
     public function setGroup($Group)
     {
@@ -128,7 +128,7 @@ class AutoSeatAssignment
 
     /**
      * @param typeRef $BookingTravelerRef
-     * @return \FilippoToso\Travelport\Air\AutoSeatAssignment
+     * @return \Santosdave\Travelport\Air\AutoSeatAssignment
      */
     public function setBookingTravelerRef($BookingTravelerRef)
     {

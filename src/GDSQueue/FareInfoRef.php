@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class FareInfoRef
 {
@@ -28,7 +28,7 @@ class FareInfoRef
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\GDSQueue\FareInfoRef
+     * @return \Santosdave\Travelport\GDSQueue\FareInfoRef
      */
     public function setKey($Key)
     {

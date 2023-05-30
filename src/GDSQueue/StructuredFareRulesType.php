@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class StructuredFareRulesType
 {
@@ -26,7 +26,7 @@ class StructuredFareRulesType
 
     /**
      * @param FareRuleCategoryTypes[] $FareRuleCategoryType
-     * @return \FilippoToso\Travelport\GDSQueue\StructuredFareRulesType
+     * @return \Santosdave\Travelport\GDSQueue\StructuredFareRulesType
      */
     public function setFareRuleCategoryType(array $FareRuleCategoryType = null)
     {

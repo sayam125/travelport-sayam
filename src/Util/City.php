@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class City
 {
@@ -49,7 +49,7 @@ class City
 
     /**
      * @param typeIATACode $Code
-     * @return \FilippoToso\Travelport\Util\City
+     * @return \Santosdave\Travelport\Util\City
      */
     public function setCode($Code)
     {
@@ -67,7 +67,7 @@ class City
 
     /**
      * @param string $Name
-     * @return \FilippoToso\Travelport\Util\City
+     * @return \Santosdave\Travelport\Util\City
      */
     public function setName($Name)
     {
@@ -85,7 +85,7 @@ class City
 
     /**
      * @param string $StateCode
-     * @return \FilippoToso\Travelport\Util\City
+     * @return \Santosdave\Travelport\Util\City
      */
     public function setStateCode($StateCode)
     {
@@ -103,7 +103,7 @@ class City
 
     /**
      * @param typeCountry $CountryCode
-     * @return \FilippoToso\Travelport\Util\City
+     * @return \Santosdave\Travelport\Util\City
      */
     public function setCountryCode($CountryCode)
     {

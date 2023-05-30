@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\System;
+namespace Santosdave\Travelport\System;
 
 class BookingTraveler
 {
@@ -203,7 +203,7 @@ class BookingTraveler
 
     /**
      * @param BookingTravelerName $BookingTravelerName
-     * @return \FilippoToso\Travelport\System\BookingTraveler
+     * @return \Santosdave\Travelport\System\BookingTraveler
      */
     public function setBookingTravelerName($BookingTravelerName)
     {
@@ -221,7 +221,7 @@ class BookingTraveler
 
     /**
      * @param DeliveryInfo $DeliveryInfo
-     * @return \FilippoToso\Travelport\System\BookingTraveler
+     * @return \Santosdave\Travelport\System\BookingTraveler
      */
     public function setDeliveryInfo($DeliveryInfo)
     {
@@ -239,7 +239,7 @@ class BookingTraveler
 
     /**
      * @param PhoneNumber $PhoneNumber
-     * @return \FilippoToso\Travelport\System\BookingTraveler
+     * @return \Santosdave\Travelport\System\BookingTraveler
      */
     public function setPhoneNumber($PhoneNumber)
     {
@@ -257,7 +257,7 @@ class BookingTraveler
 
     /**
      * @param Email $Email
-     * @return \FilippoToso\Travelport\System\BookingTraveler
+     * @return \Santosdave\Travelport\System\BookingTraveler
      */
     public function setEmail($Email)
     {
@@ -275,7 +275,7 @@ class BookingTraveler
 
     /**
      * @param LoyaltyCard $LoyaltyCard
-     * @return \FilippoToso\Travelport\System\BookingTraveler
+     * @return \Santosdave\Travelport\System\BookingTraveler
      */
     public function setLoyaltyCard($LoyaltyCard)
     {
@@ -293,7 +293,7 @@ class BookingTraveler
 
     /**
      * @param DiscountCard $DiscountCard
-     * @return \FilippoToso\Travelport\System\BookingTraveler
+     * @return \Santosdave\Travelport\System\BookingTraveler
      */
     public function setDiscountCard($DiscountCard)
     {
@@ -311,7 +311,7 @@ class BookingTraveler
 
     /**
      * @param SSR $SSR
-     * @return \FilippoToso\Travelport\System\BookingTraveler
+     * @return \Santosdave\Travelport\System\BookingTraveler
      */
     public function setSSR($SSR)
     {
@@ -329,7 +329,7 @@ class BookingTraveler
 
     /**
      * @param NameRemark $NameRemark
-     * @return \FilippoToso\Travelport\System\BookingTraveler
+     * @return \Santosdave\Travelport\System\BookingTraveler
      */
     public function setNameRemark($NameRemark)
     {
@@ -347,7 +347,7 @@ class BookingTraveler
 
     /**
      * @param AirSeatAssignment $AirSeatAssignment
-     * @return \FilippoToso\Travelport\System\BookingTraveler
+     * @return \Santosdave\Travelport\System\BookingTraveler
      */
     public function setAirSeatAssignment($AirSeatAssignment)
     {
@@ -365,7 +365,7 @@ class BookingTraveler
 
     /**
      * @param RailSeatAssignment $RailSeatAssignment
-     * @return \FilippoToso\Travelport\System\BookingTraveler
+     * @return \Santosdave\Travelport\System\BookingTraveler
      */
     public function setRailSeatAssignment($RailSeatAssignment)
     {
@@ -383,7 +383,7 @@ class BookingTraveler
 
     /**
      * @param string $EmergencyInfo
-     * @return \FilippoToso\Travelport\System\BookingTraveler
+     * @return \Santosdave\Travelport\System\BookingTraveler
      */
     public function setEmergencyInfo($EmergencyInfo)
     {
@@ -401,7 +401,7 @@ class BookingTraveler
 
     /**
      * @param typeStructuredAddress $Address
-     * @return \FilippoToso\Travelport\System\BookingTraveler
+     * @return \Santosdave\Travelport\System\BookingTraveler
      */
     public function setAddress($Address)
     {
@@ -419,7 +419,7 @@ class BookingTraveler
 
     /**
      * @param DriversLicense $DriversLicense
-     * @return \FilippoToso\Travelport\System\BookingTraveler
+     * @return \Santosdave\Travelport\System\BookingTraveler
      */
     public function setDriversLicense($DriversLicense)
     {
@@ -437,7 +437,7 @@ class BookingTraveler
 
     /**
      * @param AppliedProfile $AppliedProfile
-     * @return \FilippoToso\Travelport\System\BookingTraveler
+     * @return \Santosdave\Travelport\System\BookingTraveler
      */
     public function setAppliedProfile($AppliedProfile)
     {
@@ -455,7 +455,7 @@ class BookingTraveler
 
     /**
      * @param CustomizedNameData $CustomizedNameData
-     * @return \FilippoToso\Travelport\System\BookingTraveler
+     * @return \Santosdave\Travelport\System\BookingTraveler
      */
     public function setCustomizedNameData($CustomizedNameData)
     {
@@ -473,7 +473,7 @@ class BookingTraveler
 
     /**
      * @param TravelComplianceData $TravelComplianceData
-     * @return \FilippoToso\Travelport\System\BookingTraveler
+     * @return \Santosdave\Travelport\System\BookingTraveler
      */
     public function setTravelComplianceData($TravelComplianceData)
     {
@@ -491,7 +491,7 @@ class BookingTraveler
 
     /**
      * @param TravelInfo $TravelInfo
-     * @return \FilippoToso\Travelport\System\BookingTraveler
+     * @return \Santosdave\Travelport\System\BookingTraveler
      */
     public function setTravelInfo($TravelInfo)
     {
@@ -509,7 +509,7 @@ class BookingTraveler
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\System\BookingTraveler
+     * @return \Santosdave\Travelport\System\BookingTraveler
      */
     public function setKey($Key)
     {
@@ -527,7 +527,7 @@ class BookingTraveler
 
     /**
      * @param typePTC $TravelerType
-     * @return \FilippoToso\Travelport\System\BookingTraveler
+     * @return \Santosdave\Travelport\System\BookingTraveler
      */
     public function setTravelerType($TravelerType)
     {
@@ -545,7 +545,7 @@ class BookingTraveler
 
     /**
      * @param int $Age
-     * @return \FilippoToso\Travelport\System\BookingTraveler
+     * @return \Santosdave\Travelport\System\BookingTraveler
      */
     public function setAge($Age)
     {
@@ -563,7 +563,7 @@ class BookingTraveler
 
     /**
      * @param boolean $VIP
-     * @return \FilippoToso\Travelport\System\BookingTraveler
+     * @return \Santosdave\Travelport\System\BookingTraveler
      */
     public function setVIP($VIP)
     {
@@ -581,7 +581,7 @@ class BookingTraveler
 
     /**
      * @param date $DOB
-     * @return \FilippoToso\Travelport\System\BookingTraveler
+     * @return \Santosdave\Travelport\System\BookingTraveler
      */
     public function setDOB($DOB)
     {
@@ -599,7 +599,7 @@ class BookingTraveler
 
     /**
      * @param typeGender $Gender
-     * @return \FilippoToso\Travelport\System\BookingTraveler
+     * @return \Santosdave\Travelport\System\BookingTraveler
      */
     public function setGender($Gender)
     {
@@ -617,7 +617,7 @@ class BookingTraveler
 
     /**
      * @param typeCountry $Nationality
-     * @return \FilippoToso\Travelport\System\BookingTraveler
+     * @return \Santosdave\Travelport\System\BookingTraveler
      */
     public function setNationality($Nationality)
     {
@@ -635,7 +635,7 @@ class BookingTraveler
 
     /**
      * @param typeElementStatus $ElStat
-     * @return \FilippoToso\Travelport\System\BookingTraveler
+     * @return \Santosdave\Travelport\System\BookingTraveler
      */
     public function setElStat($ElStat)
     {
@@ -653,7 +653,7 @@ class BookingTraveler
 
     /**
      * @param boolean $KeyOverride
-     * @return \FilippoToso\Travelport\System\BookingTraveler
+     * @return \Santosdave\Travelport\System\BookingTraveler
      */
     public function setKeyOverride($KeyOverride)
     {

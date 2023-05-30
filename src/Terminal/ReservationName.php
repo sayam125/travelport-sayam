@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Terminal;
+namespace Santosdave\Travelport\Terminal;
 
 class ReservationName
 {
@@ -35,7 +35,7 @@ class ReservationName
 
     /**
      * @param BookingTravelerRef $BookingTravelerRef
-     * @return \FilippoToso\Travelport\Terminal\ReservationName
+     * @return \Santosdave\Travelport\Terminal\ReservationName
      */
     public function setBookingTravelerRef($BookingTravelerRef)
     {
@@ -53,7 +53,7 @@ class ReservationName
 
     /**
      * @param NameOverride $NameOverride
-     * @return \FilippoToso\Travelport\Terminal\ReservationName
+     * @return \Santosdave\Travelport\Terminal\ReservationName
      */
     public function setNameOverride($NameOverride)
     {

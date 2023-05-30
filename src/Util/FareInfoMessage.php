@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class FareInfoMessage
 {
@@ -35,7 +35,7 @@ class FareInfoMessage
 
     /**
      * @param string $_
-     * @return \FilippoToso\Travelport\Util\FareInfoMessage
+     * @return \Santosdave\Travelport\Util\FareInfoMessage
      */
     public function set_($_)
     {
@@ -53,7 +53,7 @@ class FareInfoMessage
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Util\FareInfoMessage
+     * @return \Santosdave\Travelport\Util\FareInfoMessage
      */
     public function setKey($Key)
     {

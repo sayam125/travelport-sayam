@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class TravelerInformation
 {
@@ -47,7 +47,7 @@ class TravelerInformation
 
     /**
      * @param EmergencyContact $EmergencyContact
-     * @return \FilippoToso\Travelport\Hotel\TravelerInformation
+     * @return \Santosdave\Travelport\Hotel\TravelerInformation
      */
     public function setEmergencyContact($EmergencyContact)
     {
@@ -65,7 +65,7 @@ class TravelerInformation
 
     /**
      * @param typeAirport $HomeAirport
-     * @return \FilippoToso\Travelport\Hotel\TravelerInformation
+     * @return \Santosdave\Travelport\Hotel\TravelerInformation
      */
     public function setHomeAirport($HomeAirport)
     {
@@ -83,7 +83,7 @@ class TravelerInformation
 
     /**
      * @param date $VisaExpirationDate
-     * @return \FilippoToso\Travelport\Hotel\TravelerInformation
+     * @return \Santosdave\Travelport\Hotel\TravelerInformation
      */
     public function setVisaExpirationDate($VisaExpirationDate)
     {
@@ -101,7 +101,7 @@ class TravelerInformation
 
     /**
      * @param typeRef $BookingTravelerRef
-     * @return \FilippoToso\Travelport\Hotel\TravelerInformation
+     * @return \Santosdave\Travelport\Hotel\TravelerInformation
      */
     public function setBookingTravelerRef($BookingTravelerRef)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Terminal;
+namespace Santosdave\Travelport\Terminal;
 
 class AirSearchParameters
 {
@@ -49,7 +49,7 @@ class AirSearchParameters
 
     /**
      * @param boolean $NoAdvancePurchase
-     * @return \FilippoToso\Travelport\Terminal\AirSearchParameters
+     * @return \Santosdave\Travelport\Terminal\AirSearchParameters
      */
     public function setNoAdvancePurchase($NoAdvancePurchase)
     {
@@ -67,7 +67,7 @@ class AirSearchParameters
 
     /**
      * @param boolean $RefundableFares
-     * @return \FilippoToso\Travelport\Terminal\AirSearchParameters
+     * @return \Santosdave\Travelport\Terminal\AirSearchParameters
      */
     public function setRefundableFares($RefundableFares)
     {
@@ -85,7 +85,7 @@ class AirSearchParameters
 
     /**
      * @param boolean $NonPenaltyFares
-     * @return \FilippoToso\Travelport\Terminal\AirSearchParameters
+     * @return \Santosdave\Travelport\Terminal\AirSearchParameters
      */
     public function setNonPenaltyFares($NonPenaltyFares)
     {
@@ -103,7 +103,7 @@ class AirSearchParameters
 
     /**
      * @param boolean $UnRestrictedFares
-     * @return \FilippoToso\Travelport\Terminal\AirSearchParameters
+     * @return \Santosdave\Travelport\Terminal\AirSearchParameters
      */
     public function setUnRestrictedFares($UnRestrictedFares)
     {

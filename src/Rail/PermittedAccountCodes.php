@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class PermittedAccountCodes
 {
@@ -28,7 +28,7 @@ class PermittedAccountCodes
 
     /**
      * @param AccountCode $AccountCode
-     * @return \FilippoToso\Travelport\Rail\PermittedAccountCodes
+     * @return \Santosdave\Travelport\Rail\PermittedAccountCodes
      */
     public function setAccountCode($AccountCode)
     {

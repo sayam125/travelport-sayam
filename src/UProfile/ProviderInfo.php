@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class ProviderInfo extends typeKeyElement
 {
@@ -44,7 +44,7 @@ class ProviderInfo extends typeKeyElement
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\UProfile\ProviderInfo
+     * @return \Santosdave\Travelport\UProfile\ProviderInfo
      */
     public function setProviderCode($ProviderCode)
     {
@@ -62,7 +62,7 @@ class ProviderInfo extends typeKeyElement
 
     /**
      * @param typePCC $PseudoCityCode
-     * @return \FilippoToso\Travelport\UProfile\ProviderInfo
+     * @return \Santosdave\Travelport\UProfile\ProviderInfo
      */
     public function setPseudoCityCode($PseudoCityCode)
     {
@@ -80,7 +80,7 @@ class ProviderInfo extends typeKeyElement
 
     /**
      * @param typeIATA $IATACode
-     * @return \FilippoToso\Travelport\UProfile\ProviderInfo
+     * @return \Santosdave\Travelport\UProfile\ProviderInfo
      */
     public function setIATACode($IATACode)
     {

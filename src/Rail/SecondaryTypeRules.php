@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class SecondaryTypeRules
 {
@@ -28,7 +28,7 @@ class SecondaryTypeRules
 
     /**
      * @param SecondaryTypeRule[] $SecondaryTypeRule
-     * @return \FilippoToso\Travelport\Rail\SecondaryTypeRules
+     * @return \Santosdave\Travelport\Rail\SecondaryTypeRules
      */
     public function setSecondaryTypeRule(array $SecondaryTypeRule)
     {

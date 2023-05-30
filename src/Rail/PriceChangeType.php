@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class PriceChangeType
 {
@@ -49,7 +49,7 @@ class PriceChangeType
 
     /**
      * @param string $_
-     * @return \FilippoToso\Travelport\Rail\PriceChangeType
+     * @return \Santosdave\Travelport\Rail\PriceChangeType
      */
     public function set_($_)
     {
@@ -67,7 +67,7 @@ class PriceChangeType
 
     /**
      * @param string $Amount
-     * @return \FilippoToso\Travelport\Rail\PriceChangeType
+     * @return \Santosdave\Travelport\Rail\PriceChangeType
      */
     public function setAmount($Amount)
     {
@@ -85,7 +85,7 @@ class PriceChangeType
 
     /**
      * @param string $Carrier
-     * @return \FilippoToso\Travelport\Rail\PriceChangeType
+     * @return \Santosdave\Travelport\Rail\PriceChangeType
      */
     public function setCarrier($Carrier)
     {
@@ -103,7 +103,7 @@ class PriceChangeType
 
     /**
      * @param string $SegmentRef
-     * @return \FilippoToso\Travelport\Rail\PriceChangeType
+     * @return \Santosdave\Travelport\Rail\PriceChangeType
      */
     public function setSegmentRef($SegmentRef)
     {

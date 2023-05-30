@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class LoyaltyProgramEnrollment extends typeKeyTaggedElement
 {
@@ -66,7 +66,7 @@ class LoyaltyProgramEnrollment extends typeKeyTaggedElement
 
     /**
      * @param typeSupplierType $SupplierType
-     * @return \FilippoToso\Travelport\UProfile\LoyaltyProgramEnrollment
+     * @return \Santosdave\Travelport\UProfile\LoyaltyProgramEnrollment
      */
     public function setSupplierType($SupplierType)
     {
@@ -84,7 +84,7 @@ class LoyaltyProgramEnrollment extends typeKeyTaggedElement
 
     /**
      * @param typeSupplier $Supplier
-     * @return \FilippoToso\Travelport\UProfile\LoyaltyProgramEnrollment
+     * @return \Santosdave\Travelport\UProfile\LoyaltyProgramEnrollment
      */
     public function setSupplier($Supplier)
     {
@@ -102,7 +102,7 @@ class LoyaltyProgramEnrollment extends typeKeyTaggedElement
 
     /**
      * @param StringLength1to255 $Number
-     * @return \FilippoToso\Travelport\UProfile\LoyaltyProgramEnrollment
+     * @return \Santosdave\Travelport\UProfile\LoyaltyProgramEnrollment
      */
     public function setNumber($Number)
     {
@@ -120,7 +120,7 @@ class LoyaltyProgramEnrollment extends typeKeyTaggedElement
 
     /**
      * @param StringLength1to128 $ProgramName
-     * @return \FilippoToso\Travelport\UProfile\LoyaltyProgramEnrollment
+     * @return \Santosdave\Travelport\UProfile\LoyaltyProgramEnrollment
      */
     public function setProgramName($ProgramName)
     {
@@ -138,7 +138,7 @@ class LoyaltyProgramEnrollment extends typeKeyTaggedElement
 
     /**
      * @param StringLength1to128 $Status
-     * @return \FilippoToso\Travelport\UProfile\LoyaltyProgramEnrollment
+     * @return \Santosdave\Travelport\UProfile\LoyaltyProgramEnrollment
      */
     public function setStatus($Status)
     {
@@ -156,7 +156,7 @@ class LoyaltyProgramEnrollment extends typeKeyTaggedElement
 
     /**
      * @param typePriorityOrder $PriorityOrder
-     * @return \FilippoToso\Travelport\UProfile\LoyaltyProgramEnrollment
+     * @return \Santosdave\Travelport\UProfile\LoyaltyProgramEnrollment
      */
     public function setPriorityOrder($PriorityOrder)
     {

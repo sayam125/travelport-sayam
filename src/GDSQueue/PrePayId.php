@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class PrePayId
 {
@@ -42,7 +42,7 @@ class PrePayId
 
     /**
      * @param CompanyName $CompanyName
-     * @return \FilippoToso\Travelport\GDSQueue\PrePayId
+     * @return \Santosdave\Travelport\GDSQueue\PrePayId
      */
     public function setCompanyName($CompanyName)
     {
@@ -60,7 +60,7 @@ class PrePayId
 
     /**
      * @param typeCardNumber $Id
-     * @return \FilippoToso\Travelport\GDSQueue\PrePayId
+     * @return \Santosdave\Travelport\GDSQueue\PrePayId
      */
     public function setId($Id)
     {
@@ -78,7 +78,7 @@ class PrePayId
 
     /**
      * @param string $Type
-     * @return \FilippoToso\Travelport\GDSQueue\PrePayId
+     * @return \Santosdave\Travelport\GDSQueue\PrePayId
      */
     public function setType($Type)
     {

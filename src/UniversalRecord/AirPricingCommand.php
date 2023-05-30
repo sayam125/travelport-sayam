@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class AirPricingCommand
 {
@@ -49,7 +49,7 @@ class AirPricingCommand
 
     /**
      * @param AirPricingModifiers $AirPricingModifiers
-     * @return \FilippoToso\Travelport\UniversalRecord\AirPricingCommand
+     * @return \Santosdave\Travelport\UniversalRecord\AirPricingCommand
      */
     public function setAirPricingModifiers($AirPricingModifiers)
     {
@@ -67,7 +67,7 @@ class AirPricingCommand
 
     /**
      * @param AirSegmentPricingModifiers $AirSegmentPricingModifiers
-     * @return \FilippoToso\Travelport\UniversalRecord\AirPricingCommand
+     * @return \Santosdave\Travelport\UniversalRecord\AirPricingCommand
      */
     public function setAirSegmentPricingModifiers($AirSegmentPricingModifiers)
     {
@@ -85,7 +85,7 @@ class AirPricingCommand
 
     /**
      * @param anonymous557 $CommandKey
-     * @return \FilippoToso\Travelport\UniversalRecord\AirPricingCommand
+     * @return \Santosdave\Travelport\UniversalRecord\AirPricingCommand
      */
     public function setCommandKey($CommandKey)
     {
@@ -103,7 +103,7 @@ class AirPricingCommand
 
     /**
      * @param string $CabinClass
-     * @return \FilippoToso\Travelport\UniversalRecord\AirPricingCommand
+     * @return \Santosdave\Travelport\UniversalRecord\AirPricingCommand
      */
     public function setCabinClass($CabinClass)
     {

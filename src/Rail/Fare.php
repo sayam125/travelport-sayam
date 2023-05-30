@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class Fare
 {
@@ -42,7 +42,7 @@ class Fare
 
     /**
      * @param boolean $FareSpecific
-     * @return \FilippoToso\Travelport\Rail\Fare
+     * @return \Santosdave\Travelport\Rail\Fare
      */
     public function setFareSpecific($FareSpecific)
     {
@@ -60,7 +60,7 @@ class Fare
 
     /**
      * @param boolean $MultipleFareIndicator
-     * @return \FilippoToso\Travelport\Rail\Fare
+     * @return \Santosdave\Travelport\Rail\Fare
      */
     public function setMultipleFareIndicator($MultipleFareIndicator)
     {
@@ -78,7 +78,7 @@ class Fare
 
     /**
      * @param StringLength1to8 $RateCode
-     * @return \FilippoToso\Travelport\Rail\Fare
+     * @return \Santosdave\Travelport\Rail\Fare
      */
     public function setRateCode($RateCode)
     {

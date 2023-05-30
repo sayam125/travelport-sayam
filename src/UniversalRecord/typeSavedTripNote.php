@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class typeSavedTripNote
 {
@@ -28,7 +28,7 @@ class typeSavedTripNote
 
     /**
      * @param anonymous1422 $Text
-     * @return \FilippoToso\Travelport\UniversalRecord\typeSavedTripNote
+     * @return \Santosdave\Travelport\UniversalRecord\typeSavedTripNote
      */
     public function setText($Text)
     {

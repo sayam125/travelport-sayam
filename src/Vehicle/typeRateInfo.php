@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Vehicle;
+namespace Santosdave\Travelport\Vehicle;
 
 class typeRateInfo
 {
@@ -63,7 +63,7 @@ class typeRateInfo
 
     /**
      * @param typeMoney $RateForPeriod
-     * @return \FilippoToso\Travelport\Vehicle\typeRateInfo
+     * @return \Santosdave\Travelport\Vehicle\typeRateInfo
      */
     public function setRateForPeriod($RateForPeriod)
     {
@@ -81,7 +81,7 @@ class typeRateInfo
 
     /**
      * @param int $NumberOfPeriods
-     * @return \FilippoToso\Travelport\Vehicle\typeRateInfo
+     * @return \Santosdave\Travelport\Vehicle\typeRateInfo
      */
     public function setNumberOfPeriods($NumberOfPeriods)
     {
@@ -99,7 +99,7 @@ class typeRateInfo
 
     /**
      * @param boolean $UnlimitedMileage
-     * @return \FilippoToso\Travelport\Vehicle\typeRateInfo
+     * @return \Santosdave\Travelport\Vehicle\typeRateInfo
      */
     public function setUnlimitedMileage($UnlimitedMileage)
     {
@@ -117,7 +117,7 @@ class typeRateInfo
 
     /**
      * @param int $MileageAllowance
-     * @return \FilippoToso\Travelport\Vehicle\typeRateInfo
+     * @return \Santosdave\Travelport\Vehicle\typeRateInfo
      */
     public function setMileageAllowance($MileageAllowance)
     {
@@ -135,7 +135,7 @@ class typeRateInfo
 
     /**
      * @param typeDistance $Units
-     * @return \FilippoToso\Travelport\Vehicle\typeRateInfo
+     * @return \Santosdave\Travelport\Vehicle\typeRateInfo
      */
     public function setUnits($Units)
     {
@@ -153,7 +153,7 @@ class typeRateInfo
 
     /**
      * @param typeMoney $ExtraMileageCharge
-     * @return \FilippoToso\Travelport\Vehicle\typeRateInfo
+     * @return \Santosdave\Travelport\Vehicle\typeRateInfo
      */
     public function setExtraMileageCharge($ExtraMileageCharge)
     {

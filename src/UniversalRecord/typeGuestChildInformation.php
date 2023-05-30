@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class typeGuestChildInformation
 {
@@ -28,7 +28,7 @@ class typeGuestChildInformation
 
     /**
      * @param int $Age
-     * @return \FilippoToso\Travelport\UniversalRecord\typeGuestChildInformation
+     * @return \Santosdave\Travelport\UniversalRecord\typeGuestChildInformation
      */
     public function setAge($Age)
     {

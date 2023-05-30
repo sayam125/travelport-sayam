@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class PassiveRemark
 {
@@ -42,7 +42,7 @@ class PassiveRemark
 
     /**
      * @param string $Text
-     * @return \FilippoToso\Travelport\GDSQueue\PassiveRemark
+     * @return \Santosdave\Travelport\GDSQueue\PassiveRemark
      */
     public function setText($Text)
     {
@@ -60,7 +60,7 @@ class PassiveRemark
 
     /**
      * @param string $Type
-     * @return \FilippoToso\Travelport\GDSQueue\PassiveRemark
+     * @return \Santosdave\Travelport\GDSQueue\PassiveRemark
      */
     public function setType($Type)
     {
@@ -78,7 +78,7 @@ class PassiveRemark
 
     /**
      * @param typeRef $PassiveSegmentRef
-     * @return \FilippoToso\Travelport\GDSQueue\PassiveRemark
+     * @return \Santosdave\Travelport\GDSQueue\PassiveRemark
      */
     public function setPassiveSegmentRef($PassiveSegmentRef)
     {

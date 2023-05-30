@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class ExpertSolutionList
 {
@@ -28,7 +28,7 @@ class ExpertSolutionList
 
     /**
      * @param ExpertSolution $ExpertSolution
-     * @return \FilippoToso\Travelport\GDSQueue\ExpertSolutionList
+     * @return \Santosdave\Travelport\GDSQueue\ExpertSolutionList
      */
     public function setExpertSolution($ExpertSolution)
     {

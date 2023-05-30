@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class UniversalRecordModifyRsp extends BaseRsp
 {
@@ -55,7 +55,7 @@ class UniversalRecordModifyRsp extends BaseRsp
 
     /**
      * @param UniversalRecord $UniversalRecord
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalRecordModifyRsp
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalRecordModifyRsp
      */
     public function setUniversalRecord($UniversalRecord)
     {
@@ -73,7 +73,7 @@ class UniversalRecordModifyRsp extends BaseRsp
 
     /**
      * @param AirSolutionChangedInfo $AirSolutionChangedInfo
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalRecordModifyRsp
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalRecordModifyRsp
      */
     public function setAirSolutionChangedInfo($AirSolutionChangedInfo)
     {
@@ -91,7 +91,7 @@ class UniversalRecordModifyRsp extends BaseRsp
 
     /**
      * @param UniversalModifyFailureInfo $UniversalModifyFailureInfo
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalRecordModifyRsp
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalRecordModifyRsp
      */
     public function setUniversalModifyFailureInfo($UniversalModifyFailureInfo)
     {
@@ -109,7 +109,7 @@ class UniversalRecordModifyRsp extends BaseRsp
 
     /**
      * @param string $QueueSessionToken
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalRecordModifyRsp
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalRecordModifyRsp
      */
     public function setQueueSessionToken($QueueSessionToken)
     {

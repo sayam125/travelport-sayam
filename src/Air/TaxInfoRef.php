@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class TaxInfoRef
 {
@@ -28,7 +28,7 @@ class TaxInfoRef
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Air\TaxInfoRef
+     * @return \Santosdave\Travelport\Air\TaxInfoRef
      */
     public function setKey($Key)
     {

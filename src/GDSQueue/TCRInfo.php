@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class TCRInfo
 {
@@ -49,7 +49,7 @@ class TCRInfo
 
     /**
      * @param typeTCRStatus $Status
-     * @return \FilippoToso\Travelport\GDSQueue\TCRInfo
+     * @return \Santosdave\Travelport\GDSQueue\TCRInfo
      */
     public function setStatus($Status)
     {
@@ -75,7 +75,7 @@ class TCRInfo
 
     /**
      * @param \DateTime $Date
-     * @return \FilippoToso\Travelport\GDSQueue\TCRInfo
+     * @return \Santosdave\Travelport\GDSQueue\TCRInfo
      */
     public function setDate(\DateTime $Date)
     {
@@ -93,7 +93,7 @@ class TCRInfo
 
     /**
      * @param typeTCRNumber $TCRNumber
-     * @return \FilippoToso\Travelport\GDSQueue\TCRInfo
+     * @return \Santosdave\Travelport\GDSQueue\TCRInfo
      */
     public function setTCRNumber($TCRNumber)
     {
@@ -111,7 +111,7 @@ class TCRInfo
 
     /**
      * @param typeRef $ProviderReservationInfoRef
-     * @return \FilippoToso\Travelport\GDSQueue\TCRInfo
+     * @return \Santosdave\Travelport\GDSQueue\TCRInfo
      */
     public function setProviderReservationInfoRef($ProviderReservationInfoRef)
     {

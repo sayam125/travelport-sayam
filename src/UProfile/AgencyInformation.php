@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class AgencyInformation
 {
@@ -40,7 +40,7 @@ class AgencyInformation
 
     /**
      * @param typeStructuredAddress $Address
-     * @return \FilippoToso\Travelport\UProfile\AgencyInformation
+     * @return \Santosdave\Travelport\UProfile\AgencyInformation
      */
     public function setAddress($Address)
     {
@@ -58,7 +58,7 @@ class AgencyInformation
 
     /**
      * @param Email $Email
-     * @return \FilippoToso\Travelport\UProfile\AgencyInformation
+     * @return \Santosdave\Travelport\UProfile\AgencyInformation
      */
     public function setEmail($Email)
     {
@@ -76,7 +76,7 @@ class AgencyInformation
 
     /**
      * @param PhoneNumber $PhoneNumber
-     * @return \FilippoToso\Travelport\UProfile\AgencyInformation
+     * @return \Santosdave\Travelport\UProfile\AgencyInformation
      */
     public function setPhoneNumber($PhoneNumber)
     {

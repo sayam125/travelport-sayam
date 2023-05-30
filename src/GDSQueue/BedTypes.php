@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class BedTypes
 {
@@ -35,7 +35,7 @@ class BedTypes
 
     /**
      * @param typeOTACode $Code
-     * @return \FilippoToso\Travelport\GDSQueue\BedTypes
+     * @return \Santosdave\Travelport\GDSQueue\BedTypes
      */
     public function setCode($Code)
     {
@@ -53,7 +53,7 @@ class BedTypes
 
     /**
      * @param int $Quantity
-     * @return \FilippoToso\Travelport\GDSQueue\BedTypes
+     * @return \Santosdave\Travelport\GDSQueue\BedTypes
      */
     public function setQuantity($Quantity)
     {

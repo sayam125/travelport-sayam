@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class CardRestriction
 {
@@ -42,7 +42,7 @@ class CardRestriction
 
     /**
      * @param RequiredField $RequiredField
-     * @return \FilippoToso\Travelport\GDSQueue\CardRestriction
+     * @return \Santosdave\Travelport\GDSQueue\CardRestriction
      */
     public function setRequiredField($RequiredField)
     {
@@ -60,7 +60,7 @@ class CardRestriction
 
     /**
      * @param typeCardMerchantType $Code
-     * @return \FilippoToso\Travelport\GDSQueue\CardRestriction
+     * @return \Santosdave\Travelport\GDSQueue\CardRestriction
      */
     public function setCode($Code)
     {
@@ -78,7 +78,7 @@ class CardRestriction
 
     /**
      * @param string $Name
-     * @return \FilippoToso\Travelport\GDSQueue\CardRestriction
+     * @return \Santosdave\Travelport\GDSQueue\CardRestriction
      */
     public function setName($Name)
     {

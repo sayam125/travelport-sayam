@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class typePaymentInformation
 {
@@ -47,7 +47,7 @@ class typePaymentInformation
 
     /**
      * @param typeVoucherInformation $Voucher
-     * @return \FilippoToso\Travelport\GDSQueue\typePaymentInformation
+     * @return \Santosdave\Travelport\GDSQueue\typePaymentInformation
      */
     public function setVoucher($Voucher)
     {
@@ -65,7 +65,7 @@ class typePaymentInformation
 
     /**
      * @param string $BillingNumber
-     * @return \FilippoToso\Travelport\GDSQueue\typePaymentInformation
+     * @return \Santosdave\Travelport\GDSQueue\typePaymentInformation
      */
     public function setBillingNumber($BillingNumber)
     {
@@ -83,7 +83,7 @@ class typePaymentInformation
 
     /**
      * @param string $BillingReferenceNumber
-     * @return \FilippoToso\Travelport\GDSQueue\typePaymentInformation
+     * @return \Santosdave\Travelport\GDSQueue\typePaymentInformation
      */
     public function setBillingReferenceNumber($BillingReferenceNumber)
     {
@@ -101,7 +101,7 @@ class typePaymentInformation
 
     /**
      * @param anonymous582 $PrePayment
-     * @return \FilippoToso\Travelport\GDSQueue\typePaymentInformation
+     * @return \Santosdave\Travelport\GDSQueue\typePaymentInformation
      */
     public function setPrePayment($PrePayment)
     {

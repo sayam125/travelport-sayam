@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Terminal;
+namespace Santosdave\Travelport\Terminal;
 
 class ApplicationRules
 {
@@ -56,7 +56,7 @@ class ApplicationRules
 
     /**
      * @param boolean $RequiredForAllTravelers
-     * @return \FilippoToso\Travelport\Terminal\ApplicationRules
+     * @return \Santosdave\Travelport\Terminal\ApplicationRules
      */
     public function setRequiredForAllTravelers($RequiredForAllTravelers)
     {
@@ -74,7 +74,7 @@ class ApplicationRules
 
     /**
      * @param boolean $RequiredForAllSegments
-     * @return \FilippoToso\Travelport\Terminal\ApplicationRules
+     * @return \Santosdave\Travelport\Terminal\ApplicationRules
      */
     public function setRequiredForAllSegments($RequiredForAllSegments)
     {
@@ -92,7 +92,7 @@ class ApplicationRules
 
     /**
      * @param boolean $RequiredForAllSegmentsInOD
-     * @return \FilippoToso\Travelport\Terminal\ApplicationRules
+     * @return \Santosdave\Travelport\Terminal\ApplicationRules
      */
     public function setRequiredForAllSegmentsInOD($RequiredForAllSegmentsInOD)
     {
@@ -110,7 +110,7 @@ class ApplicationRules
 
     /**
      * @param boolean $UnselectedOptionRequired
-     * @return \FilippoToso\Travelport\Terminal\ApplicationRules
+     * @return \Santosdave\Travelport\Terminal\ApplicationRules
      */
     public function setUnselectedOptionRequired($UnselectedOptionRequired)
     {
@@ -128,7 +128,7 @@ class ApplicationRules
 
     /**
      * @param boolean $SecondaryOptionCodeRequired
-     * @return \FilippoToso\Travelport\Terminal\ApplicationRules
+     * @return \Santosdave\Travelport\Terminal\ApplicationRules
      */
     public function setSecondaryOptionCodeRequired($SecondaryOptionCodeRequired)
     {

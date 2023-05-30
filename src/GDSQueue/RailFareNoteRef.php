@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class RailFareNoteRef
 {
@@ -28,7 +28,7 @@ class RailFareNoteRef
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\GDSQueue\RailFareNoteRef
+     * @return \Santosdave\Travelport\GDSQueue\RailFareNoteRef
      */
     public function setKey($Key)
     {

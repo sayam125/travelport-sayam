@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeCustomField
 {
@@ -147,7 +147,7 @@ class typeCustomField
 
     /**
      * @param typeStringRestriction $FreeformTextRestriction
-     * @return \FilippoToso\Travelport\UProfile\typeCustomField
+     * @return \Santosdave\Travelport\UProfile\typeCustomField
      */
     public function setFreeformTextRestriction($FreeformTextRestriction)
     {
@@ -165,7 +165,7 @@ class typeCustomField
 
     /**
      * @param typeIntegerRestriction $WholeNumberRestriction
-     * @return \FilippoToso\Travelport\UProfile\typeCustomField
+     * @return \Santosdave\Travelport\UProfile\typeCustomField
      */
     public function setWholeNumberRestriction($WholeNumberRestriction)
     {
@@ -183,7 +183,7 @@ class typeCustomField
 
     /**
      * @param typeFloatRestriction $DecimalRestriction
-     * @return \FilippoToso\Travelport\UProfile\typeCustomField
+     * @return \Santosdave\Travelport\UProfile\typeCustomField
      */
     public function setDecimalRestriction($DecimalRestriction)
     {
@@ -201,7 +201,7 @@ class typeCustomField
 
     /**
      * @param typeStringRestriction $TextRestriction
-     * @return \FilippoToso\Travelport\UProfile\typeCustomField
+     * @return \Santosdave\Travelport\UProfile\typeCustomField
      */
     public function setTextRestriction($TextRestriction)
     {
@@ -219,7 +219,7 @@ class typeCustomField
 
     /**
      * @param typeStringRestriction $AlphaNumericRestriction
-     * @return \FilippoToso\Travelport\UProfile\typeCustomField
+     * @return \Santosdave\Travelport\UProfile\typeCustomField
      */
     public function setAlphaNumericRestriction($AlphaNumericRestriction)
     {
@@ -237,7 +237,7 @@ class typeCustomField
 
     /**
      * @param typeFloatRestriction $PercentageRestriction
-     * @return \FilippoToso\Travelport\UProfile\typeCustomField
+     * @return \Santosdave\Travelport\UProfile\typeCustomField
      */
     public function setPercentageRestriction($PercentageRestriction)
     {
@@ -255,7 +255,7 @@ class typeCustomField
 
     /**
      * @param typeFieldID $ID
-     * @return \FilippoToso\Travelport\UProfile\typeCustomField
+     * @return \Santosdave\Travelport\UProfile\typeCustomField
      */
     public function setID($ID)
     {
@@ -273,7 +273,7 @@ class typeCustomField
 
     /**
      * @param typeFieldName $Name
-     * @return \FilippoToso\Travelport\UProfile\typeCustomField
+     * @return \Santosdave\Travelport\UProfile\typeCustomField
      */
     public function setName($Name)
     {
@@ -291,7 +291,7 @@ class typeCustomField
 
     /**
      * @param StringLength1to255 $Description
-     * @return \FilippoToso\Travelport\UProfile\typeCustomField
+     * @return \Santosdave\Travelport\UProfile\typeCustomField
      */
     public function setDescription($Description)
     {
@@ -309,7 +309,7 @@ class typeCustomField
 
     /**
      * @param typeCustomFieldDataFormat $Type
-     * @return \FilippoToso\Travelport\UProfile\typeCustomField
+     * @return \Santosdave\Travelport\UProfile\typeCustomField
      */
     public function setType($Type)
     {
@@ -327,7 +327,7 @@ class typeCustomField
 
     /**
      * @param boolean $Encrypted
-     * @return \FilippoToso\Travelport\UProfile\typeCustomField
+     * @return \Santosdave\Travelport\UProfile\typeCustomField
      */
     public function setEncrypted($Encrypted)
     {
@@ -345,7 +345,7 @@ class typeCustomField
 
     /**
      * @param typeMasked $Masked
-     * @return \FilippoToso\Travelport\UProfile\typeCustomField
+     * @return \Santosdave\Travelport\UProfile\typeCustomField
      */
     public function setMasked($Masked)
     {
@@ -363,7 +363,7 @@ class typeCustomField
 
     /**
      * @param StringLength1to255 $DefaultValue
-     * @return \FilippoToso\Travelport\UProfile\typeCustomField
+     * @return \Santosdave\Travelport\UProfile\typeCustomField
      */
     public function setDefaultValue($DefaultValue)
     {
@@ -381,7 +381,7 @@ class typeCustomField
 
     /**
      * @param boolean $Protected
-     * @return \FilippoToso\Travelport\UProfile\typeCustomField
+     * @return \Santosdave\Travelport\UProfile\typeCustomField
      */
     public function setProtected($Protected)
     {
@@ -399,7 +399,7 @@ class typeCustomField
 
     /**
      * @param int $DisplayOrder
-     * @return \FilippoToso\Travelport\UProfile\typeCustomField
+     * @return \Santosdave\Travelport\UProfile\typeCustomField
      */
     public function setDisplayOrder($DisplayOrder)
     {
@@ -417,7 +417,7 @@ class typeCustomField
 
     /**
      * @param boolean $Inheritable
-     * @return \FilippoToso\Travelport\UProfile\typeCustomField
+     * @return \Santosdave\Travelport\UProfile\typeCustomField
      */
     public function setInheritable($Inheritable)
     {
@@ -435,7 +435,7 @@ class typeCustomField
 
     /**
      * @param int $MinOccurs
-     * @return \FilippoToso\Travelport\UProfile\typeCustomField
+     * @return \Santosdave\Travelport\UProfile\typeCustomField
      */
     public function setMinOccurs($MinOccurs)
     {
@@ -453,7 +453,7 @@ class typeCustomField
 
     /**
      * @param int $MaxOccurs
-     * @return \FilippoToso\Travelport\UProfile\typeCustomField
+     * @return \Santosdave\Travelport\UProfile\typeCustomField
      */
     public function setMaxOccurs($MaxOccurs)
     {

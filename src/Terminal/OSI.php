@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Terminal;
+namespace Santosdave\Travelport\Terminal;
 
 class OSI
 {
@@ -77,7 +77,7 @@ class OSI
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Terminal\OSI
+     * @return \Santosdave\Travelport\Terminal\OSI
      */
     public function setKey($Key)
     {
@@ -95,7 +95,7 @@ class OSI
 
     /**
      * @param typeCarrier $Carrier
-     * @return \FilippoToso\Travelport\Terminal\OSI
+     * @return \Santosdave\Travelport\Terminal\OSI
      */
     public function setCarrier($Carrier)
     {
@@ -113,7 +113,7 @@ class OSI
 
     /**
      * @param anonymous183 $Code
-     * @return \FilippoToso\Travelport\Terminal\OSI
+     * @return \Santosdave\Travelport\Terminal\OSI
      */
     public function setCode($Code)
     {
@@ -131,7 +131,7 @@ class OSI
 
     /**
      * @param anonymous184 $Text
-     * @return \FilippoToso\Travelport\Terminal\OSI
+     * @return \Santosdave\Travelport\Terminal\OSI
      */
     public function setText($Text)
     {
@@ -149,7 +149,7 @@ class OSI
 
     /**
      * @param typeRef $ProviderReservationInfoRef
-     * @return \FilippoToso\Travelport\Terminal\OSI
+     * @return \Santosdave\Travelport\Terminal\OSI
      */
     public function setProviderReservationInfoRef($ProviderReservationInfoRef)
     {
@@ -167,7 +167,7 @@ class OSI
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\Terminal\OSI
+     * @return \Santosdave\Travelport\Terminal\OSI
      */
     public function setProviderCode($ProviderCode)
     {
@@ -185,7 +185,7 @@ class OSI
 
     /**
      * @param typeElementStatus $ElStat
-     * @return \FilippoToso\Travelport\Terminal\OSI
+     * @return \Santosdave\Travelport\Terminal\OSI
      */
     public function setElStat($ElStat)
     {
@@ -203,7 +203,7 @@ class OSI
 
     /**
      * @param boolean $KeyOverride
-     * @return \FilippoToso\Travelport\Terminal\OSI
+     * @return \Santosdave\Travelport\Terminal\OSI
      */
     public function setKeyOverride($KeyOverride)
     {

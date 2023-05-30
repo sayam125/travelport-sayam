@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class Requisition
 {
@@ -42,7 +42,7 @@ class Requisition
 
     /**
      * @param string $Number
-     * @return \FilippoToso\Travelport\GDSQueue\Requisition
+     * @return \Santosdave\Travelport\GDSQueue\Requisition
      */
     public function setNumber($Number)
     {
@@ -60,7 +60,7 @@ class Requisition
 
     /**
      * @param anonymous31 $Category
-     * @return \FilippoToso\Travelport\GDSQueue\Requisition
+     * @return \Santosdave\Travelport\GDSQueue\Requisition
      */
     public function setCategory($Category)
     {
@@ -78,7 +78,7 @@ class Requisition
 
     /**
      * @param anonymous32 $Type
-     * @return \FilippoToso\Travelport\GDSQueue\Requisition
+     * @return \Santosdave\Travelport\GDSQueue\Requisition
      */
     public function setType($Type)
     {

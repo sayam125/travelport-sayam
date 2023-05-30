@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class AddlBookingCodeInformation
 {
@@ -28,7 +28,7 @@ class AddlBookingCodeInformation
 
     /**
      * @param typeNonBlanks $_
-     * @return \FilippoToso\Travelport\GDSQueue\AddlBookingCodeInformation
+     * @return \Santosdave\Travelport\GDSQueue\AddlBookingCodeInformation
      */
     public function set_($_)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class UnmaskedDataRemark
 {
@@ -63,7 +63,7 @@ class UnmaskedDataRemark
 
     /**
      * @param PseudoCityCode $PseudoCityCode
-     * @return \FilippoToso\Travelport\Rail\UnmaskedDataRemark
+     * @return \Santosdave\Travelport\Rail\UnmaskedDataRemark
      */
     public function setPseudoCityCode($PseudoCityCode)
     {
@@ -81,7 +81,7 @@ class UnmaskedDataRemark
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Rail\UnmaskedDataRemark
+     * @return \Santosdave\Travelport\Rail\UnmaskedDataRemark
      */
     public function setKey($Key)
     {
@@ -99,7 +99,7 @@ class UnmaskedDataRemark
 
     /**
      * @param typeRef $ProviderReservationInfoRef
-     * @return \FilippoToso\Travelport\Rail\UnmaskedDataRemark
+     * @return \Santosdave\Travelport\Rail\UnmaskedDataRemark
      */
     public function setProviderReservationInfoRef($ProviderReservationInfoRef)
     {
@@ -117,7 +117,7 @@ class UnmaskedDataRemark
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\Rail\UnmaskedDataRemark
+     * @return \Santosdave\Travelport\Rail\UnmaskedDataRemark
      */
     public function setProviderCode($ProviderCode)
     {
@@ -135,7 +135,7 @@ class UnmaskedDataRemark
 
     /**
      * @param typeElementStatus $ElStat
-     * @return \FilippoToso\Travelport\Rail\UnmaskedDataRemark
+     * @return \Santosdave\Travelport\Rail\UnmaskedDataRemark
      */
     public function setElStat($ElStat)
     {
@@ -153,7 +153,7 @@ class UnmaskedDataRemark
 
     /**
      * @param boolean $KeyOverride
-     * @return \FilippoToso\Travelport\Rail\UnmaskedDataRemark
+     * @return \Santosdave\Travelport\Rail\UnmaskedDataRemark
      */
     public function setKeyOverride($KeyOverride)
     {

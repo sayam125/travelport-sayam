@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class AirAvailInfo
 {
@@ -47,7 +47,7 @@ class AirAvailInfo
 
     /**
      * @param BookingCodeInfo $BookingCodeInfo
-     * @return \FilippoToso\Travelport\Rail\AirAvailInfo
+     * @return \Santosdave\Travelport\Rail\AirAvailInfo
      */
     public function setBookingCodeInfo($BookingCodeInfo)
     {
@@ -65,7 +65,7 @@ class AirAvailInfo
 
     /**
      * @param FareTokenInfo[] $FareTokenInfo
-     * @return \FilippoToso\Travelport\Rail\AirAvailInfo
+     * @return \Santosdave\Travelport\Rail\AirAvailInfo
      */
     public function setFareTokenInfo(array $FareTokenInfo = null)
     {
@@ -83,7 +83,7 @@ class AirAvailInfo
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\Rail\AirAvailInfo
+     * @return \Santosdave\Travelport\Rail\AirAvailInfo
      */
     public function setProviderCode($ProviderCode)
     {
@@ -101,7 +101,7 @@ class AirAvailInfo
 
     /**
      * @param string $HostTokenRef
-     * @return \FilippoToso\Travelport\Rail\AirAvailInfo
+     * @return \Santosdave\Travelport\Rail\AirAvailInfo
      */
     public function setHostTokenRef($HostTokenRef)
     {

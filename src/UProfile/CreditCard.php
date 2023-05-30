@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class CreditCard
 {
@@ -35,7 +35,7 @@ class CreditCard
 
     /**
      * @param boolean $ExtractIndicator
-     * @return \FilippoToso\Travelport\UProfile\CreditCard
+     * @return \Santosdave\Travelport\UProfile\CreditCard
      */
     public function setExtractIndicator($ExtractIndicator)
     {
@@ -53,7 +53,7 @@ class CreditCard
 
     /**
      * @param boolean $Active
-     * @return \FilippoToso\Travelport\UProfile\CreditCard
+     * @return \Santosdave\Travelport\UProfile\CreditCard
      */
     public function setActive($Active)
     {

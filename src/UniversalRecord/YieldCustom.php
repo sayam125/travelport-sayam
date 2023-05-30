@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class YieldCustom
 {
@@ -35,7 +35,7 @@ class YieldCustom
 
     /**
      * @param typeMoney $Amount
-     * @return \FilippoToso\Travelport\UniversalRecord\Yield
+     * @return \Santosdave\Travelport\UniversalRecord\Yield
      */
     public function setAmount($Amount)
     {
@@ -53,7 +53,7 @@ class YieldCustom
 
     /**
      * @param typeRef $BookingTravelerRef
-     * @return \FilippoToso\Travelport\UniversalRecord\Yield
+     * @return \Santosdave\Travelport\UniversalRecord\Yield
      */
     public function setBookingTravelerRef($BookingTravelerRef)
     {

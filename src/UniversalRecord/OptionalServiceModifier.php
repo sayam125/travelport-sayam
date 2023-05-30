@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class OptionalServiceModifier
 {
@@ -63,7 +63,7 @@ class OptionalServiceModifier
 
     /**
      * @param typeMerchandisingService $Type
-     * @return \FilippoToso\Travelport\UniversalRecord\OptionalServiceModifier
+     * @return \Santosdave\Travelport\UniversalRecord\OptionalServiceModifier
      */
     public function setType($Type)
     {
@@ -81,7 +81,7 @@ class OptionalServiceModifier
 
     /**
      * @param typeMerchandisingService $SecondaryType
-     * @return \FilippoToso\Travelport\UniversalRecord\OptionalServiceModifier
+     * @return \Santosdave\Travelport\UniversalRecord\OptionalServiceModifier
      */
     public function setSecondaryType($SecondaryType)
     {
@@ -99,7 +99,7 @@ class OptionalServiceModifier
 
     /**
      * @param typeSupplierCode $SupplierCode
-     * @return \FilippoToso\Travelport\UniversalRecord\OptionalServiceModifier
+     * @return \Santosdave\Travelport\UniversalRecord\OptionalServiceModifier
      */
     public function setSupplierCode($SupplierCode)
     {
@@ -117,7 +117,7 @@ class OptionalServiceModifier
 
     /**
      * @param string $ServiceSubCode
-     * @return \FilippoToso\Travelport\UniversalRecord\OptionalServiceModifier
+     * @return \Santosdave\Travelport\UniversalRecord\OptionalServiceModifier
      */
     public function setServiceSubCode($ServiceSubCode)
     {
@@ -135,7 +135,7 @@ class OptionalServiceModifier
 
     /**
      * @param date $TravelDate
-     * @return \FilippoToso\Travelport\UniversalRecord\OptionalServiceModifier
+     * @return \Santosdave\Travelport\UniversalRecord\OptionalServiceModifier
      */
     public function setTravelDate($TravelDate)
     {
@@ -153,7 +153,7 @@ class OptionalServiceModifier
 
     /**
      * @param string $Description
-     * @return \FilippoToso\Travelport\UniversalRecord\OptionalServiceModifier
+     * @return \Santosdave\Travelport\UniversalRecord\OptionalServiceModifier
      */
     public function setDescription($Description)
     {

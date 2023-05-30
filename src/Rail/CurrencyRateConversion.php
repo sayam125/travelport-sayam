@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class CurrencyRateConversion
 {
@@ -49,7 +49,7 @@ class CurrencyRateConversion
 
     /**
      * @param float $RateConversion
-     * @return \FilippoToso\Travelport\Rail\CurrencyRateConversion
+     * @return \Santosdave\Travelport\Rail\CurrencyRateConversion
      */
     public function setRateConversion($RateConversion)
     {
@@ -67,7 +67,7 @@ class CurrencyRateConversion
 
     /**
      * @param typeCurrency $SourceCurrencyCode
-     * @return \FilippoToso\Travelport\Rail\CurrencyRateConversion
+     * @return \Santosdave\Travelport\Rail\CurrencyRateConversion
      */
     public function setSourceCurrencyCode($SourceCurrencyCode)
     {
@@ -85,7 +85,7 @@ class CurrencyRateConversion
 
     /**
      * @param typeCurrency $RequestedCurrencyCode
-     * @return \FilippoToso\Travelport\Rail\CurrencyRateConversion
+     * @return \Santosdave\Travelport\Rail\CurrencyRateConversion
      */
     public function setRequestedCurrencyCode($RequestedCurrencyCode)
     {
@@ -103,7 +103,7 @@ class CurrencyRateConversion
 
     /**
      * @param int $DecimalPlaces
-     * @return \FilippoToso\Travelport\Rail\CurrencyRateConversion
+     * @return \Santosdave\Travelport\Rail\CurrencyRateConversion
      */
     public function setDecimalPlaces($DecimalPlaces)
     {

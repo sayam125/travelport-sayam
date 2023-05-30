@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class TicketingModifiers extends typeBulkTicketModifierType
 {
@@ -276,7 +276,7 @@ class TicketingModifiers extends typeBulkTicketModifierType
 
     /**
      * @param typeRef[] $BookingTravelerRef
-     * @return \FilippoToso\Travelport\GDSQueue\TicketingModifiers
+     * @return \Santosdave\Travelport\GDSQueue\TicketingModifiers
      */
     public function setBookingTravelerRef(array $BookingTravelerRef = null)
     {
@@ -294,7 +294,7 @@ class TicketingModifiers extends typeBulkTicketModifierType
 
     /**
      * @param typeTicketModifierAmountType $NetRemit
-     * @return \FilippoToso\Travelport\GDSQueue\TicketingModifiers
+     * @return \Santosdave\Travelport\GDSQueue\TicketingModifiers
      */
     public function setNetRemit($NetRemit)
     {
@@ -312,7 +312,7 @@ class TicketingModifiers extends typeBulkTicketModifierType
 
     /**
      * @param typeTicketModifierAmountType $NetFare
-     * @return \FilippoToso\Travelport\GDSQueue\TicketingModifiers
+     * @return \Santosdave\Travelport\GDSQueue\TicketingModifiers
      */
     public function setNetFare($NetFare)
     {
@@ -330,7 +330,7 @@ class TicketingModifiers extends typeBulkTicketModifierType
 
     /**
      * @param typeTicketModifierAmountType $ActualSellingFare
-     * @return \FilippoToso\Travelport\GDSQueue\TicketingModifiers
+     * @return \Santosdave\Travelport\GDSQueue\TicketingModifiers
      */
     public function setActualSellingFare($ActualSellingFare)
     {
@@ -348,7 +348,7 @@ class TicketingModifiers extends typeBulkTicketModifierType
 
     /**
      * @param typeTicketModifierAccountingType $InvoiceFare
-     * @return \FilippoToso\Travelport\GDSQueue\TicketingModifiers
+     * @return \Santosdave\Travelport\GDSQueue\TicketingModifiers
      */
     public function setInvoiceFare($InvoiceFare)
     {
@@ -366,7 +366,7 @@ class TicketingModifiers extends typeBulkTicketModifierType
 
     /**
      * @param typeTicketModifierAccountingType $CorporateDiscount
-     * @return \FilippoToso\Travelport\GDSQueue\TicketingModifiers
+     * @return \Santosdave\Travelport\GDSQueue\TicketingModifiers
      */
     public function setCorporateDiscount($CorporateDiscount)
     {
@@ -384,7 +384,7 @@ class TicketingModifiers extends typeBulkTicketModifierType
 
     /**
      * @param typeTicketModifierAccountingType $AccountingInfo
-     * @return \FilippoToso\Travelport\GDSQueue\TicketingModifiers
+     * @return \Santosdave\Travelport\GDSQueue\TicketingModifiers
      */
     public function setAccountingInfo($AccountingInfo)
     {
@@ -402,7 +402,7 @@ class TicketingModifiers extends typeBulkTicketModifierType
 
     /**
      * @param BulkTicket $BulkTicket
-     * @return \FilippoToso\Travelport\GDSQueue\TicketingModifiers
+     * @return \Santosdave\Travelport\GDSQueue\TicketingModifiers
      */
     public function setBulkTicket($BulkTicket)
     {
@@ -420,7 +420,7 @@ class TicketingModifiers extends typeBulkTicketModifierType
 
     /**
      * @param typeBulkTicketModifierType $GroupTour
-     * @return \FilippoToso\Travelport\GDSQueue\TicketingModifiers
+     * @return \Santosdave\Travelport\GDSQueue\TicketingModifiers
      */
     public function setGroupTour($GroupTour)
     {
@@ -438,7 +438,7 @@ class TicketingModifiers extends typeBulkTicketModifierType
 
     /**
      * @param Commission $Commission
-     * @return \FilippoToso\Travelport\GDSQueue\TicketingModifiers
+     * @return \Santosdave\Travelport\GDSQueue\TicketingModifiers
      */
     public function setCommission($Commission)
     {
@@ -456,7 +456,7 @@ class TicketingModifiers extends typeBulkTicketModifierType
 
     /**
      * @param TourCode $TourCode
-     * @return \FilippoToso\Travelport\GDSQueue\TicketingModifiers
+     * @return \Santosdave\Travelport\GDSQueue\TicketingModifiers
      */
     public function setTourCode($TourCode)
     {
@@ -474,7 +474,7 @@ class TicketingModifiers extends typeBulkTicketModifierType
 
     /**
      * @param TicketEndorsement $TicketEndorsement
-     * @return \FilippoToso\Travelport\GDSQueue\TicketingModifiers
+     * @return \Santosdave\Travelport\GDSQueue\TicketingModifiers
      */
     public function setTicketEndorsement($TicketEndorsement)
     {
@@ -492,7 +492,7 @@ class TicketingModifiers extends typeBulkTicketModifierType
 
     /**
      * @param typeTicketModifierValueType $ValueModifier
-     * @return \FilippoToso\Travelport\GDSQueue\TicketingModifiers
+     * @return \Santosdave\Travelport\GDSQueue\TicketingModifiers
      */
     public function setValueModifier($ValueModifier)
     {
@@ -510,7 +510,7 @@ class TicketingModifiers extends typeBulkTicketModifierType
 
     /**
      * @param DocumentSelect $DocumentSelect
-     * @return \FilippoToso\Travelport\GDSQueue\TicketingModifiers
+     * @return \Santosdave\Travelport\GDSQueue\TicketingModifiers
      */
     public function setDocumentSelect($DocumentSelect)
     {
@@ -528,7 +528,7 @@ class TicketingModifiers extends typeBulkTicketModifierType
 
     /**
      * @param DocumentOptions $DocumentOptions
-     * @return \FilippoToso\Travelport\GDSQueue\TicketingModifiers
+     * @return \Santosdave\Travelport\GDSQueue\TicketingModifiers
      */
     public function setDocumentOptions($DocumentOptions)
     {
@@ -546,7 +546,7 @@ class TicketingModifiers extends typeBulkTicketModifierType
 
     /**
      * @param SegmentSelect $SegmentSelect
-     * @return \FilippoToso\Travelport\GDSQueue\TicketingModifiers
+     * @return \Santosdave\Travelport\GDSQueue\TicketingModifiers
      */
     public function setSegmentSelect($SegmentSelect)
     {
@@ -564,7 +564,7 @@ class TicketingModifiers extends typeBulkTicketModifierType
 
     /**
      * @param SegmentModifiers $SegmentModifiers
-     * @return \FilippoToso\Travelport\GDSQueue\TicketingModifiers
+     * @return \Santosdave\Travelport\GDSQueue\TicketingModifiers
      */
     public function setSegmentModifiers($SegmentModifiers)
     {
@@ -582,7 +582,7 @@ class TicketingModifiers extends typeBulkTicketModifierType
 
     /**
      * @param SupplierLocator $SupplierLocator
-     * @return \FilippoToso\Travelport\GDSQueue\TicketingModifiers
+     * @return \Santosdave\Travelport\GDSQueue\TicketingModifiers
      */
     public function setSupplierLocator($SupplierLocator)
     {
@@ -600,7 +600,7 @@ class TicketingModifiers extends typeBulkTicketModifierType
 
     /**
      * @param DestinationPurposeCode $DestinationPurposeCode
-     * @return \FilippoToso\Travelport\GDSQueue\TicketingModifiers
+     * @return \Santosdave\Travelport\GDSQueue\TicketingModifiers
      */
     public function setDestinationPurposeCode($DestinationPurposeCode)
     {
@@ -618,7 +618,7 @@ class TicketingModifiers extends typeBulkTicketModifierType
 
     /**
      * @param LanguageOption $LanguageOption
-     * @return \FilippoToso\Travelport\GDSQueue\TicketingModifiers
+     * @return \Santosdave\Travelport\GDSQueue\TicketingModifiers
      */
     public function setLanguageOption($LanguageOption)
     {
@@ -636,7 +636,7 @@ class TicketingModifiers extends typeBulkTicketModifierType
 
     /**
      * @param LandCharges $LandCharges
-     * @return \FilippoToso\Travelport\GDSQueue\TicketingModifiers
+     * @return \Santosdave\Travelport\GDSQueue\TicketingModifiers
      */
     public function setLandCharges($LandCharges)
     {
@@ -654,7 +654,7 @@ class TicketingModifiers extends typeBulkTicketModifierType
 
     /**
      * @param PrintBlankFormItinerary $PrintBlankFormItinerary
-     * @return \FilippoToso\Travelport\GDSQueue\TicketingModifiers
+     * @return \Santosdave\Travelport\GDSQueue\TicketingModifiers
      */
     public function setPrintBlankFormItinerary($PrintBlankFormItinerary)
     {
@@ -672,7 +672,7 @@ class TicketingModifiers extends typeBulkTicketModifierType
 
     /**
      * @param ExcludeTicketing $ExcludeTicketing
-     * @return \FilippoToso\Travelport\GDSQueue\TicketingModifiers
+     * @return \Santosdave\Travelport\GDSQueue\TicketingModifiers
      */
     public function setExcludeTicketing($ExcludeTicketing)
     {
@@ -690,7 +690,7 @@ class TicketingModifiers extends typeBulkTicketModifierType
 
     /**
      * @param ExemptOBFee $ExemptOBFee
-     * @return \FilippoToso\Travelport\GDSQueue\TicketingModifiers
+     * @return \Santosdave\Travelport\GDSQueue\TicketingModifiers
      */
     public function setExemptOBFee($ExemptOBFee)
     {
@@ -708,7 +708,7 @@ class TicketingModifiers extends typeBulkTicketModifierType
 
     /**
      * @param boolean $IsPrimaryDI
-     * @return \FilippoToso\Travelport\GDSQueue\TicketingModifiers
+     * @return \Santosdave\Travelport\GDSQueue\TicketingModifiers
      */
     public function setIsPrimaryDI($IsPrimaryDI)
     {
@@ -726,7 +726,7 @@ class TicketingModifiers extends typeBulkTicketModifierType
 
     /**
      * @param string $DocumentInstructionNumber
-     * @return \FilippoToso\Travelport\GDSQueue\TicketingModifiers
+     * @return \Santosdave\Travelport\GDSQueue\TicketingModifiers
      */
     public function setDocumentInstructionNumber($DocumentInstructionNumber)
     {
@@ -744,7 +744,7 @@ class TicketingModifiers extends typeBulkTicketModifierType
 
     /**
      * @param StringLength1to30 $Reference
-     * @return \FilippoToso\Travelport\GDSQueue\TicketingModifiers
+     * @return \Santosdave\Travelport\GDSQueue\TicketingModifiers
      */
     public function setReference($Reference)
     {
@@ -762,7 +762,7 @@ class TicketingModifiers extends typeBulkTicketModifierType
 
     /**
      * @param anonymous935 $Status
-     * @return \FilippoToso\Travelport\GDSQueue\TicketingModifiers
+     * @return \Santosdave\Travelport\GDSQueue\TicketingModifiers
      */
     public function setStatus($Status)
     {
@@ -780,7 +780,7 @@ class TicketingModifiers extends typeBulkTicketModifierType
 
     /**
      * @param anonymous936 $FreeText
-     * @return \FilippoToso\Travelport\GDSQueue\TicketingModifiers
+     * @return \Santosdave\Travelport\GDSQueue\TicketingModifiers
      */
     public function setFreeText($FreeText)
     {
@@ -798,7 +798,7 @@ class TicketingModifiers extends typeBulkTicketModifierType
 
     /**
      * @param string $NameNumber
-     * @return \FilippoToso\Travelport\GDSQueue\TicketingModifiers
+     * @return \Santosdave\Travelport\GDSQueue\TicketingModifiers
      */
     public function setNameNumber($NameNumber)
     {
@@ -816,7 +816,7 @@ class TicketingModifiers extends typeBulkTicketModifierType
 
     /**
      * @param string $TicketRecord
-     * @return \FilippoToso\Travelport\GDSQueue\TicketingModifiers
+     * @return \Santosdave\Travelport\GDSQueue\TicketingModifiers
      */
     public function setTicketRecord($TicketRecord)
     {
@@ -834,7 +834,7 @@ class TicketingModifiers extends typeBulkTicketModifierType
 
     /**
      * @param typeCarrier $PlatingCarrier
-     * @return \FilippoToso\Travelport\GDSQueue\TicketingModifiers
+     * @return \Santosdave\Travelport\GDSQueue\TicketingModifiers
      */
     public function setPlatingCarrier($PlatingCarrier)
     {
@@ -852,7 +852,7 @@ class TicketingModifiers extends typeBulkTicketModifierType
 
     /**
      * @param boolean $ExemptVAT
-     * @return \FilippoToso\Travelport\GDSQueue\TicketingModifiers
+     * @return \Santosdave\Travelport\GDSQueue\TicketingModifiers
      */
     public function setExemptVAT($ExemptVAT)
     {
@@ -870,7 +870,7 @@ class TicketingModifiers extends typeBulkTicketModifierType
 
     /**
      * @param boolean $NetRemitApplied
-     * @return \FilippoToso\Travelport\GDSQueue\TicketingModifiers
+     * @return \Santosdave\Travelport\GDSQueue\TicketingModifiers
      */
     public function setNetRemitApplied($NetRemitApplied)
     {
@@ -888,7 +888,7 @@ class TicketingModifiers extends typeBulkTicketModifierType
 
     /**
      * @param boolean $FreeTicket
-     * @return \FilippoToso\Travelport\GDSQueue\TicketingModifiers
+     * @return \Santosdave\Travelport\GDSQueue\TicketingModifiers
      */
     public function setFreeTicket($FreeTicket)
     {
@@ -906,7 +906,7 @@ class TicketingModifiers extends typeBulkTicketModifierType
 
     /**
      * @param anonymous937 $CurrencyOverrideCode
-     * @return \FilippoToso\Travelport\GDSQueue\TicketingModifiers
+     * @return \Santosdave\Travelport\GDSQueue\TicketingModifiers
      */
     public function setCurrencyOverrideCode($CurrencyOverrideCode)
     {
@@ -924,7 +924,7 @@ class TicketingModifiers extends typeBulkTicketModifierType
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\GDSQueue\TicketingModifiers
+     * @return \Santosdave\Travelport\GDSQueue\TicketingModifiers
      */
     public function setKey($Key)
     {
@@ -942,7 +942,7 @@ class TicketingModifiers extends typeBulkTicketModifierType
 
     /**
      * @param typeElementStatus $ElStat
-     * @return \FilippoToso\Travelport\GDSQueue\TicketingModifiers
+     * @return \Santosdave\Travelport\GDSQueue\TicketingModifiers
      */
     public function setElStat($ElStat)
     {
@@ -960,7 +960,7 @@ class TicketingModifiers extends typeBulkTicketModifierType
 
     /**
      * @param boolean $KeyOverride
-     * @return \FilippoToso\Travelport\GDSQueue\TicketingModifiers
+     * @return \Santosdave\Travelport\GDSQueue\TicketingModifiers
      */
     public function setKeyOverride($KeyOverride)
     {

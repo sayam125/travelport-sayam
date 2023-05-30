@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class typeVoucherInformation
 {
@@ -56,7 +56,7 @@ class typeVoucherInformation
 
     /**
      * @param typeVoucherType $VoucherType
-     * @return \FilippoToso\Travelport\Hotel\typeVoucherInformation
+     * @return \Santosdave\Travelport\Hotel\typeVoucherInformation
      */
     public function setVoucherType($VoucherType)
     {
@@ -74,7 +74,7 @@ class typeVoucherInformation
 
     /**
      * @param typeMoney $Amount
-     * @return \FilippoToso\Travelport\Hotel\typeVoucherInformation
+     * @return \Santosdave\Travelport\Hotel\typeVoucherInformation
      */
     public function setAmount($Amount)
     {
@@ -92,7 +92,7 @@ class typeVoucherInformation
 
     /**
      * @param string $ConfirmationNumber
-     * @return \FilippoToso\Travelport\Hotel\typeVoucherInformation
+     * @return \Santosdave\Travelport\Hotel\typeVoucherInformation
      */
     public function setConfirmationNumber($ConfirmationNumber)
     {
@@ -110,7 +110,7 @@ class typeVoucherInformation
 
     /**
      * @param string $AccountName
-     * @return \FilippoToso\Travelport\Hotel\typeVoucherInformation
+     * @return \Santosdave\Travelport\Hotel\typeVoucherInformation
      */
     public function setAccountName($AccountName)
     {
@@ -128,7 +128,7 @@ class typeVoucherInformation
 
     /**
      * @param StringLength1to16 $Number
-     * @return \FilippoToso\Travelport\Hotel\typeVoucherInformation
+     * @return \Santosdave\Travelport\Hotel\typeVoucherInformation
      */
     public function setNumber($Number)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class TicketingModifiersRef
 {
@@ -28,7 +28,7 @@ class TicketingModifiersRef
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Rail\TicketingModifiersRef
+     * @return \Santosdave\Travelport\Rail\TicketingModifiersRef
      */
     public function setKey($Key)
     {

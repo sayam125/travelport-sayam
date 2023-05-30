@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class ProfileDeleteHierarchyLevelRsp extends BaseRsp
 {
@@ -34,7 +34,7 @@ class ProfileDeleteHierarchyLevelRsp extends BaseRsp
 
     /**
      * @param HierarchyLevel $HierarchyLevel
-     * @return \FilippoToso\Travelport\UProfile\ProfileDeleteHierarchyLevelRsp
+     * @return \Santosdave\Travelport\UProfile\ProfileDeleteHierarchyLevelRsp
      */
     public function setHierarchyLevel($HierarchyLevel)
     {

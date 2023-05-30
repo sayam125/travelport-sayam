@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class Auxdata
 {
@@ -28,7 +28,7 @@ class Auxdata
 
     /**
      * @param Entry[] $Entry
-     * @return \FilippoToso\Travelport\Hotel\Auxdata
+     * @return \Santosdave\Travelport\Hotel\Auxdata
      */
     public function setEntry(array $Entry)
     {

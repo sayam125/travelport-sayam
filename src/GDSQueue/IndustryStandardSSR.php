@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class IndustryStandardSSR
 {
@@ -28,7 +28,7 @@ class IndustryStandardSSR
 
     /**
      * @param string $Code
-     * @return \FilippoToso\Travelport\GDSQueue\IndustryStandardSSR
+     * @return \Santosdave\Travelport\GDSQueue\IndustryStandardSSR
      */
     public function setCode($Code)
     {

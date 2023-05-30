@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class FareRuleFailureInfo
 {
@@ -28,7 +28,7 @@ class FareRuleFailureInfo
 
     /**
      * @param typeFareRuleFailureInfoReason[] $Reason
-     * @return \FilippoToso\Travelport\Util\FareRuleFailureInfo
+     * @return \Santosdave\Travelport\Util\FareRuleFailureInfo
      */
     public function setReason(array $Reason)
     {

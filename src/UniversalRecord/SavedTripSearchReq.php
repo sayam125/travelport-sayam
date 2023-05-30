@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class SavedTripSearchReq extends BaseReq
 {
@@ -89,7 +89,7 @@ class SavedTripSearchReq extends BaseReq
 
     /**
      * @param SavedTripSearchModifiers $SavedTripSearchModifiers
-     * @return \FilippoToso\Travelport\UniversalRecord\SavedTripSearchReq
+     * @return \Santosdave\Travelport\UniversalRecord\SavedTripSearchReq
      */
     public function setSavedTripSearchModifiers($SavedTripSearchModifiers)
     {
@@ -107,7 +107,7 @@ class SavedTripSearchReq extends BaseReq
 
     /**
      * @param TravelerCriteria $TravelerCriteria
-     * @return \FilippoToso\Travelport\UniversalRecord\SavedTripSearchReq
+     * @return \Santosdave\Travelport\UniversalRecord\SavedTripSearchReq
      */
     public function setTravelerCriteria($TravelerCriteria)
     {
@@ -125,7 +125,7 @@ class SavedTripSearchReq extends BaseReq
 
     /**
      * @param SearchAgent $SearchAgent
-     * @return \FilippoToso\Travelport\UniversalRecord\SavedTripSearchReq
+     * @return \Santosdave\Travelport\UniversalRecord\SavedTripSearchReq
      */
     public function setSearchAgent($SearchAgent)
     {
@@ -143,7 +143,7 @@ class SavedTripSearchReq extends BaseReq
 
     /**
      * @param AirReservationCriteria $AirReservationCriteria
-     * @return \FilippoToso\Travelport\UniversalRecord\SavedTripSearchReq
+     * @return \Santosdave\Travelport\UniversalRecord\SavedTripSearchReq
      */
     public function setAirReservationCriteria($AirReservationCriteria)
     {
@@ -161,7 +161,7 @@ class SavedTripSearchReq extends BaseReq
 
     /**
      * @param HotelReservationCriteria $HotelReservationCriteria
-     * @return \FilippoToso\Travelport\UniversalRecord\SavedTripSearchReq
+     * @return \Santosdave\Travelport\UniversalRecord\SavedTripSearchReq
      */
     public function setHotelReservationCriteria($HotelReservationCriteria)
     {
@@ -179,7 +179,7 @@ class SavedTripSearchReq extends BaseReq
 
     /**
      * @param VehicleReservationCriteria $VehicleReservationCriteria
-     * @return \FilippoToso\Travelport\UniversalRecord\SavedTripSearchReq
+     * @return \Santosdave\Travelport\UniversalRecord\SavedTripSearchReq
      */
     public function setVehicleReservationCriteria($VehicleReservationCriteria)
     {
@@ -197,7 +197,7 @@ class SavedTripSearchReq extends BaseReq
 
     /**
      * @param RailReservationCriteria $RailReservationCriteria
-     * @return \FilippoToso\Travelport\UniversalRecord\SavedTripSearchReq
+     * @return \Santosdave\Travelport\UniversalRecord\SavedTripSearchReq
      */
     public function setRailReservationCriteria($RailReservationCriteria)
     {
@@ -215,7 +215,7 @@ class SavedTripSearchReq extends BaseReq
 
     /**
      * @param typeSavedTripRecordStatus $RecordStatus
-     * @return \FilippoToso\Travelport\UniversalRecord\SavedTripSearchReq
+     * @return \Santosdave\Travelport\UniversalRecord\SavedTripSearchReq
      */
     public function setRecordStatus($RecordStatus)
     {

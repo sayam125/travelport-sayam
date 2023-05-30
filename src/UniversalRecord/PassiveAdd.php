@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class PassiveAdd
 {
@@ -77,7 +77,7 @@ class PassiveAdd
 
     /**
      * @param PassiveSegment $PassiveSegment
-     * @return \FilippoToso\Travelport\UniversalRecord\PassiveAdd
+     * @return \Santosdave\Travelport\UniversalRecord\PassiveAdd
      */
     public function setPassiveSegment($PassiveSegment)
     {
@@ -95,7 +95,7 @@ class PassiveAdd
 
     /**
      * @param PassiveRemark $PassiveRemark
-     * @return \FilippoToso\Travelport\UniversalRecord\PassiveAdd
+     * @return \Santosdave\Travelport\UniversalRecord\PassiveAdd
      */
     public function setPassiveRemark($PassiveRemark)
     {
@@ -113,7 +113,7 @@ class PassiveAdd
 
     /**
      * @param AssociatedRemark $AssociatedRemark
-     * @return \FilippoToso\Travelport\UniversalRecord\PassiveAdd
+     * @return \Santosdave\Travelport\UniversalRecord\PassiveAdd
      */
     public function setAssociatedRemark($AssociatedRemark)
     {
@@ -131,7 +131,7 @@ class PassiveAdd
 
     /**
      * @param SupplierLocator $SupplierLocator
-     * @return \FilippoToso\Travelport\UniversalRecord\PassiveAdd
+     * @return \Santosdave\Travelport\UniversalRecord\PassiveAdd
      */
     public function setSupplierLocator($SupplierLocator)
     {
@@ -149,7 +149,7 @@ class PassiveAdd
 
     /**
      * @param ThirdPartyInformation $ThirdPartyInformation
-     * @return \FilippoToso\Travelport\UniversalRecord\PassiveAdd
+     * @return \Santosdave\Travelport\UniversalRecord\PassiveAdd
      */
     public function setThirdPartyInformation($ThirdPartyInformation)
     {
@@ -167,7 +167,7 @@ class PassiveAdd
 
     /**
      * @param TravelComplianceData $TravelComplianceData
-     * @return \FilippoToso\Travelport\UniversalRecord\PassiveAdd
+     * @return \Santosdave\Travelport\UniversalRecord\PassiveAdd
      */
     public function setTravelComplianceData($TravelComplianceData)
     {
@@ -185,7 +185,7 @@ class PassiveAdd
 
     /**
      * @param typeLocatorCode $ReservationLocatorCode
-     * @return \FilippoToso\Travelport\UniversalRecord\PassiveAdd
+     * @return \Santosdave\Travelport\UniversalRecord\PassiveAdd
      */
     public function setReservationLocatorCode($ReservationLocatorCode)
     {
@@ -203,7 +203,7 @@ class PassiveAdd
 
     /**
      * @param typeRef $BookingTravelerRef
-     * @return \FilippoToso\Travelport\UniversalRecord\PassiveAdd
+     * @return \Santosdave\Travelport\UniversalRecord\PassiveAdd
      */
     public function setBookingTravelerRef($BookingTravelerRef)
     {

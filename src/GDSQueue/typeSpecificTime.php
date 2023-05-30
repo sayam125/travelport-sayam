@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class typeSpecificTime
 {
@@ -28,7 +28,7 @@ class typeSpecificTime
 
     /**
      * @param string $Time
-     * @return \FilippoToso\Travelport\GDSQueue\typeSpecificTime
+     * @return \Santosdave\Travelport\GDSQueue\typeSpecificTime
      */
     public function setTime($Time)
     {

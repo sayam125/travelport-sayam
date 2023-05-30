@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class HotelRulesModifiers
 {
@@ -82,7 +82,7 @@ class HotelRulesModifiers
 
     /**
      * @param PermittedProviders $PermittedProviders
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelRulesModifiers
+     * @return \Santosdave\Travelport\UniversalRecord\HotelRulesModifiers
      */
     public function setPermittedProviders($PermittedProviders)
     {
@@ -100,7 +100,7 @@ class HotelRulesModifiers
 
     /**
      * @param NumberOfChildren $NumberOfChildren
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelRulesModifiers
+     * @return \Santosdave\Travelport\UniversalRecord\HotelRulesModifiers
      */
     public function setNumberOfChildren($NumberOfChildren)
     {
@@ -118,7 +118,7 @@ class HotelRulesModifiers
 
     /**
      * @param HotelBedding $HotelBedding
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelRulesModifiers
+     * @return \Santosdave\Travelport\UniversalRecord\HotelRulesModifiers
      */
     public function setHotelBedding($HotelBedding)
     {
@@ -136,7 +136,7 @@ class HotelRulesModifiers
 
     /**
      * @param typeOTACode $RateCategory
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelRulesModifiers
+     * @return \Santosdave\Travelport\UniversalRecord\HotelRulesModifiers
      */
     public function setRateCategory($RateCategory)
     {
@@ -154,7 +154,7 @@ class HotelRulesModifiers
 
     /**
      * @param CorporateDiscountID $CorporateDiscountID
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelRulesModifiers
+     * @return \Santosdave\Travelport\UniversalRecord\HotelRulesModifiers
      */
     public function setCorporateDiscountID($CorporateDiscountID)
     {
@@ -172,7 +172,7 @@ class HotelRulesModifiers
 
     /**
      * @param int $NumberOfAdults
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelRulesModifiers
+     * @return \Santosdave\Travelport\UniversalRecord\HotelRulesModifiers
      */
     public function setNumberOfAdults($NumberOfAdults)
     {
@@ -190,7 +190,7 @@ class HotelRulesModifiers
 
     /**
      * @param int $NumberOfRooms
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelRulesModifiers
+     * @return \Santosdave\Travelport\UniversalRecord\HotelRulesModifiers
      */
     public function setNumberOfRooms($NumberOfRooms)
     {
@@ -208,7 +208,7 @@ class HotelRulesModifiers
 
     /**
      * @param int $TotalOccupants
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelRulesModifiers
+     * @return \Santosdave\Travelport\UniversalRecord\HotelRulesModifiers
      */
     public function setTotalOccupants($TotalOccupants)
     {
@@ -226,7 +226,7 @@ class HotelRulesModifiers
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelRulesModifiers
+     * @return \Santosdave\Travelport\UniversalRecord\HotelRulesModifiers
      */
     public function setKey($Key)
     {

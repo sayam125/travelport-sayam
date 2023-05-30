@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class CustomizedNameData
 {
@@ -42,7 +42,7 @@ class CustomizedNameData
 
     /**
      * @param string $_
-     * @return \FilippoToso\Travelport\UProfile\CustomizedNameData
+     * @return \Santosdave\Travelport\UProfile\CustomizedNameData
      */
     public function set_($_)
     {
@@ -60,7 +60,7 @@ class CustomizedNameData
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\UProfile\CustomizedNameData
+     * @return \Santosdave\Travelport\UProfile\CustomizedNameData
      */
     public function setKey($Key)
     {
@@ -78,7 +78,7 @@ class CustomizedNameData
 
     /**
      * @param typeRef $ProviderReservationInfoRef
-     * @return \FilippoToso\Travelport\UProfile\CustomizedNameData
+     * @return \Santosdave\Travelport\UProfile\CustomizedNameData
      */
     public function setProviderReservationInfoRef($ProviderReservationInfoRef)
     {

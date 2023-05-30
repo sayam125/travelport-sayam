@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class BrandedFareSearchModifier
 {
@@ -35,7 +35,7 @@ class BrandedFareSearchModifier
 
     /**
      * @param typeMaxResults $MaxResults
-     * @return \FilippoToso\Travelport\Util\BrandedFareSearchModifier
+     * @return \Santosdave\Travelport\Util\BrandedFareSearchModifier
      */
     public function setMaxResults($MaxResults)
     {
@@ -53,7 +53,7 @@ class BrandedFareSearchModifier
 
     /**
      * @param typeStartFromResult $StartFromResult
-     * @return \FilippoToso\Travelport\Util\BrandedFareSearchModifier
+     * @return \Santosdave\Travelport\Util\BrandedFareSearchModifier
      */
     public function setStartFromResult($StartFromResult)
     {

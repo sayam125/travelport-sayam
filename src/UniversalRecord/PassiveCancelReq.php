@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class PassiveCancelReq extends BaseReq
 {
@@ -75,7 +75,7 @@ class PassiveCancelReq extends BaseReq
 
     /**
      * @param PassiveSegmentRef $PassiveSegmentRef
-     * @return \FilippoToso\Travelport\UniversalRecord\PassiveCancelReq
+     * @return \Santosdave\Travelport\UniversalRecord\PassiveCancelReq
      */
     public function setPassiveSegmentRef($PassiveSegmentRef)
     {
@@ -93,7 +93,7 @@ class PassiveCancelReq extends BaseReq
 
     /**
      * @param FileFinishingInfo $FileFinishingInfo
-     * @return \FilippoToso\Travelport\UniversalRecord\PassiveCancelReq
+     * @return \Santosdave\Travelport\UniversalRecord\PassiveCancelReq
      */
     public function setFileFinishingInfo($FileFinishingInfo)
     {
@@ -111,7 +111,7 @@ class PassiveCancelReq extends BaseReq
 
     /**
      * @param string $PassiveReservationLocatorCode
-     * @return \FilippoToso\Travelport\UniversalRecord\PassiveCancelReq
+     * @return \Santosdave\Travelport\UniversalRecord\PassiveCancelReq
      */
     public function setPassiveReservationLocatorCode($PassiveReservationLocatorCode)
     {
@@ -129,7 +129,7 @@ class PassiveCancelReq extends BaseReq
 
     /**
      * @param typeURVersion $Version
-     * @return \FilippoToso\Travelport\UniversalRecord\PassiveCancelReq
+     * @return \Santosdave\Travelport\UniversalRecord\PassiveCancelReq
      */
     public function setVersion($Version)
     {
@@ -147,7 +147,7 @@ class PassiveCancelReq extends BaseReq
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\UniversalRecord\PassiveCancelReq
+     * @return \Santosdave\Travelport\UniversalRecord\PassiveCancelReq
      */
     public function setProviderCode($ProviderCode)
     {
@@ -165,7 +165,7 @@ class PassiveCancelReq extends BaseReq
 
     /**
      * @param typeProviderLocatorCode $ProviderLocatorCode
-     * @return \FilippoToso\Travelport\UniversalRecord\PassiveCancelReq
+     * @return \Santosdave\Travelport\UniversalRecord\PassiveCancelReq
      */
     public function setProviderLocatorCode($ProviderLocatorCode)
     {

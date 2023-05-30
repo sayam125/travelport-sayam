@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\System;
+namespace Santosdave\Travelport\System;
 
 class PingReq extends BaseReq
 {
@@ -40,7 +40,7 @@ class PingReq extends BaseReq
 
     /**
      * @param Payload $Payload
-     * @return \FilippoToso\Travelport\System\PingReq
+     * @return \Santosdave\Travelport\System\PingReq
      */
     public function setPayload($Payload)
     {

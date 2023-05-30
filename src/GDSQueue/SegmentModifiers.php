@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class SegmentModifiers
 {
@@ -47,7 +47,7 @@ class SegmentModifiers
 
     /**
      * @param AirSegmentRef $AirSegmentRef
-     * @return \FilippoToso\Travelport\GDSQueue\SegmentModifiers
+     * @return \Santosdave\Travelport\GDSQueue\SegmentModifiers
      */
     public function setAirSegmentRef($AirSegmentRef)
     {
@@ -65,7 +65,7 @@ class SegmentModifiers
 
     /**
      * @param TicketValidity $TicketValidity
-     * @return \FilippoToso\Travelport\GDSQueue\SegmentModifiers
+     * @return \Santosdave\Travelport\GDSQueue\SegmentModifiers
      */
     public function setTicketValidity($TicketValidity)
     {
@@ -83,7 +83,7 @@ class SegmentModifiers
 
     /**
      * @param BaggageAllowance $BaggageAllowance
-     * @return \FilippoToso\Travelport\GDSQueue\SegmentModifiers
+     * @return \Santosdave\Travelport\GDSQueue\SegmentModifiers
      */
     public function setBaggageAllowance($BaggageAllowance)
     {
@@ -101,7 +101,7 @@ class SegmentModifiers
 
     /**
      * @param typeTicketDesignator $TicketDesignator
-     * @return \FilippoToso\Travelport\GDSQueue\SegmentModifiers
+     * @return \Santosdave\Travelport\GDSQueue\SegmentModifiers
      */
     public function setTicketDesignator($TicketDesignator)
     {

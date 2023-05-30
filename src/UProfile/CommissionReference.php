@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class CommissionReference extends typeKeyElement
 {
@@ -51,7 +51,7 @@ class CommissionReference extends typeKeyElement
 
     /**
      * @param StringLength1to128 $AgentName
-     * @return \FilippoToso\Travelport\UProfile\CommissionReference
+     * @return \Santosdave\Travelport\UProfile\CommissionReference
      */
     public function setAgentName($AgentName)
     {
@@ -69,7 +69,7 @@ class CommissionReference extends typeKeyElement
 
     /**
      * @param StringLength1to128 $AgentNumber
-     * @return \FilippoToso\Travelport\UProfile\CommissionReference
+     * @return \Santosdave\Travelport\UProfile\CommissionReference
      */
     public function setAgentNumber($AgentNumber)
     {
@@ -87,7 +87,7 @@ class CommissionReference extends typeKeyElement
 
     /**
      * @param typePriorityOrder $PriorityOrder
-     * @return \FilippoToso\Travelport\UProfile\CommissionReference
+     * @return \Santosdave\Travelport\UProfile\CommissionReference
      */
     public function setPriorityOrder($PriorityOrder)
     {
@@ -105,7 +105,7 @@ class CommissionReference extends typeKeyElement
 
     /**
      * @param typeProfileID $OwnerID
-     * @return \FilippoToso\Travelport\UProfile\CommissionReference
+     * @return \Santosdave\Travelport\UProfile\CommissionReference
      */
     public function setOwnerID($OwnerID)
     {

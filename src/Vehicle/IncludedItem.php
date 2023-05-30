@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Vehicle;
+namespace Santosdave\Travelport\Vehicle;
 
 class IncludedItem
 {
@@ -35,7 +35,7 @@ class IncludedItem
 
     /**
      * @param string $Code
-     * @return \FilippoToso\Travelport\Vehicle\IncludedItem
+     * @return \Santosdave\Travelport\Vehicle\IncludedItem
      */
     public function setCode($Code)
     {
@@ -53,7 +53,7 @@ class IncludedItem
 
     /**
      * @param string $Description
-     * @return \FilippoToso\Travelport\Vehicle\IncludedItem
+     * @return \Santosdave\Travelport\Vehicle\IncludedItem
      */
     public function setDescription($Description)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class FieldGroupData extends typeKeyTaggedElement
 {
@@ -45,7 +45,7 @@ class FieldGroupData extends typeKeyTaggedElement
 
     /**
      * @param FieldData $FieldData
-     * @return \FilippoToso\Travelport\UProfile\FieldGroupData
+     * @return \Santosdave\Travelport\UProfile\FieldGroupData
      */
     public function setFieldData($FieldData)
     {
@@ -63,7 +63,7 @@ class FieldGroupData extends typeKeyTaggedElement
 
     /**
      * @param typeFieldID $FieldGroupID
-     * @return \FilippoToso\Travelport\UProfile\FieldGroupData
+     * @return \Santosdave\Travelport\UProfile\FieldGroupData
      */
     public function setFieldGroupID($FieldGroupID)
     {
@@ -81,7 +81,7 @@ class FieldGroupData extends typeKeyTaggedElement
 
     /**
      * @param typeProfileID $OwnerID
-     * @return \FilippoToso\Travelport\UProfile\FieldGroupData
+     * @return \Santosdave\Travelport\UProfile\FieldGroupData
      */
     public function setOwnerID($OwnerID)
     {

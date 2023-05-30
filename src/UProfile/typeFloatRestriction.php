@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeFloatRestriction
 {
@@ -35,7 +35,7 @@ class typeFloatRestriction
 
     /**
      * @param typeFloatRestrictionValue $MinValue
-     * @return \FilippoToso\Travelport\UProfile\typeFloatRestriction
+     * @return \Santosdave\Travelport\UProfile\typeFloatRestriction
      */
     public function setMinValue($MinValue)
     {
@@ -53,7 +53,7 @@ class typeFloatRestriction
 
     /**
      * @param typeFloatRestrictionValue $MaxValue
-     * @return \FilippoToso\Travelport\UProfile\typeFloatRestriction
+     * @return \Santosdave\Travelport\UProfile\typeFloatRestriction
      */
     public function setMaxValue($MaxValue)
     {

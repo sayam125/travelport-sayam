@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class QueueAgentRecord
 {
@@ -77,7 +77,7 @@ class QueueAgentRecord
 
     /**
      * @param typeLocatorCode $UniversalRecordLocatorCode
-     * @return \FilippoToso\Travelport\GDSQueue\QueueAgentRecord
+     * @return \Santosdave\Travelport\GDSQueue\QueueAgentRecord
      */
     public function setUniversalRecordLocatorCode($UniversalRecordLocatorCode)
     {
@@ -95,7 +95,7 @@ class QueueAgentRecord
 
     /**
      * @param typePCC $PseudoCityCode
-     * @return \FilippoToso\Travelport\GDSQueue\QueueAgentRecord
+     * @return \Santosdave\Travelport\GDSQueue\QueueAgentRecord
      */
     public function setPseudoCityCode($PseudoCityCode)
     {
@@ -113,7 +113,7 @@ class QueueAgentRecord
 
     /**
      * @param string $QueueSessionToken
-     * @return \FilippoToso\Travelport\GDSQueue\QueueAgentRecord
+     * @return \Santosdave\Travelport\GDSQueue\QueueAgentRecord
      */
     public function setQueueSessionToken($QueueSessionToken)
     {
@@ -131,7 +131,7 @@ class QueueAgentRecord
 
     /**
      * @param string $QueueNumber
-     * @return \FilippoToso\Travelport\GDSQueue\QueueAgentRecord
+     * @return \Santosdave\Travelport\GDSQueue\QueueAgentRecord
      */
     public function setQueueNumber($QueueNumber)
     {
@@ -149,7 +149,7 @@ class QueueAgentRecord
 
     /**
      * @param typeDate $Lastupdated
-     * @return \FilippoToso\Travelport\GDSQueue\QueueAgentRecord
+     * @return \Santosdave\Travelport\GDSQueue\QueueAgentRecord
      */
     public function setLastupdated($Lastupdated)
     {
@@ -167,7 +167,7 @@ class QueueAgentRecord
 
     /**
      * @param typeBranchCode $TargetBranch
-     * @return \FilippoToso\Travelport\GDSQueue\QueueAgentRecord
+     * @return \Santosdave\Travelport\GDSQueue\QueueAgentRecord
      */
     public function setTargetBranch($TargetBranch)
     {
@@ -185,7 +185,7 @@ class QueueAgentRecord
 
     /**
      * @param string $Category
-     * @return \FilippoToso\Travelport\GDSQueue\QueueAgentRecord
+     * @return \Santosdave\Travelport\GDSQueue\QueueAgentRecord
      */
     public function setCategory($Category)
     {
@@ -203,7 +203,7 @@ class QueueAgentRecord
 
     /**
      * @param string $DateRange
-     * @return \FilippoToso\Travelport\GDSQueue\QueueAgentRecord
+     * @return \Santosdave\Travelport\GDSQueue\QueueAgentRecord
      */
     public function setDateRange($DateRange)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class GuestInformation
 {
@@ -47,7 +47,7 @@ class GuestInformation
 
     /**
      * @param NumberOfAdults $NumberOfAdults
-     * @return \FilippoToso\Travelport\Hotel\GuestInformation
+     * @return \Santosdave\Travelport\Hotel\GuestInformation
      */
     public function setNumberOfAdults($NumberOfAdults)
     {
@@ -65,7 +65,7 @@ class GuestInformation
 
     /**
      * @param NumberOfChildren $NumberOfChildren
-     * @return \FilippoToso\Travelport\Hotel\GuestInformation
+     * @return \Santosdave\Travelport\Hotel\GuestInformation
      */
     public function setNumberOfChildren($NumberOfChildren)
     {
@@ -83,7 +83,7 @@ class GuestInformation
 
     /**
      * @param ExtraChild $ExtraChild
-     * @return \FilippoToso\Travelport\Hotel\GuestInformation
+     * @return \Santosdave\Travelport\Hotel\GuestInformation
      */
     public function setExtraChild($ExtraChild)
     {
@@ -101,7 +101,7 @@ class GuestInformation
 
     /**
      * @param int $NumberOfRooms
-     * @return \FilippoToso\Travelport\Hotel\GuestInformation
+     * @return \Santosdave\Travelport\Hotel\GuestInformation
      */
     public function setNumberOfRooms($NumberOfRooms)
     {

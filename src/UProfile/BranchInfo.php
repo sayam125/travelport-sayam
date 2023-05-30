@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class BranchInfo extends typeProfileInfo
 {
@@ -115,7 +115,7 @@ class BranchInfo extends typeProfileInfo
 
     /**
      * @param Address $Address
-     * @return \FilippoToso\Travelport\UProfile\BranchInfo
+     * @return \Santosdave\Travelport\UProfile\BranchInfo
      */
     public function setAddress($Address)
     {
@@ -133,7 +133,7 @@ class BranchInfo extends typeProfileInfo
 
     /**
      * @param Phone $Phone
-     * @return \FilippoToso\Travelport\UProfile\BranchInfo
+     * @return \Santosdave\Travelport\UProfile\BranchInfo
      */
     public function setPhone($Phone)
     {
@@ -151,7 +151,7 @@ class BranchInfo extends typeProfileInfo
 
     /**
      * @param ElectronicAddress $ElectronicAddress
-     * @return \FilippoToso\Travelport\UProfile\BranchInfo
+     * @return \Santosdave\Travelport\UProfile\BranchInfo
      */
     public function setElectronicAddress($ElectronicAddress)
     {
@@ -169,7 +169,7 @@ class BranchInfo extends typeProfileInfo
 
     /**
      * @param ProviderInfo $ProviderInfo
-     * @return \FilippoToso\Travelport\UProfile\BranchInfo
+     * @return \Santosdave\Travelport\UProfile\BranchInfo
      */
     public function setProviderInfo($ProviderInfo)
     {
@@ -187,7 +187,7 @@ class BranchInfo extends typeProfileInfo
 
     /**
      * @param ExternalIdentifier $ExternalIdentifier
-     * @return \FilippoToso\Travelport\UProfile\BranchInfo
+     * @return \Santosdave\Travelport\UProfile\BranchInfo
      */
     public function setExternalIdentifier($ExternalIdentifier)
     {
@@ -205,7 +205,7 @@ class BranchInfo extends typeProfileInfo
 
     /**
      * @param StringLength1to128 $Name
-     * @return \FilippoToso\Travelport\UProfile\BranchInfo
+     * @return \Santosdave\Travelport\UProfile\BranchInfo
      */
     public function setName($Name)
     {
@@ -223,7 +223,7 @@ class BranchInfo extends typeProfileInfo
 
     /**
      * @param typeGeoCityCode $GeoCityCode
-     * @return \FilippoToso\Travelport\UProfile\BranchInfo
+     * @return \Santosdave\Travelport\UProfile\BranchInfo
      */
     public function setGeoCityCode($GeoCityCode)
     {
@@ -241,7 +241,7 @@ class BranchInfo extends typeProfileInfo
 
     /**
      * @param boolean $Control
-     * @return \FilippoToso\Travelport\UProfile\BranchInfo
+     * @return \Santosdave\Travelport\UProfile\BranchInfo
      */
     public function setControl($Control)
     {
@@ -259,7 +259,7 @@ class BranchInfo extends typeProfileInfo
 
     /**
      * @param typeProvisioningCode $BranchCode
-     * @return \FilippoToso\Travelport\UProfile\BranchInfo
+     * @return \Santosdave\Travelport\UProfile\BranchInfo
      */
     public function setBranchCode($BranchCode)
     {
@@ -277,7 +277,7 @@ class BranchInfo extends typeProfileInfo
 
     /**
      * @param typeCurrency $Currency
-     * @return \FilippoToso\Travelport\UProfile\BranchInfo
+     * @return \Santosdave\Travelport\UProfile\BranchInfo
      */
     public function setCurrency($Currency)
     {
@@ -295,7 +295,7 @@ class BranchInfo extends typeProfileInfo
 
     /**
      * @param boolean $URSyncTo
-     * @return \FilippoToso\Travelport\UProfile\BranchInfo
+     * @return \Santosdave\Travelport\UProfile\BranchInfo
      */
     public function setURSyncTo($URSyncTo)
     {
@@ -313,7 +313,7 @@ class BranchInfo extends typeProfileInfo
 
     /**
      * @param boolean $ProfileSyncTo
-     * @return \FilippoToso\Travelport\UProfile\BranchInfo
+     * @return \Santosdave\Travelport\UProfile\BranchInfo
      */
     public function setProfileSyncTo($ProfileSyncTo)
     {
@@ -331,7 +331,7 @@ class BranchInfo extends typeProfileInfo
 
     /**
      * @param boolean $ProfileSyncFrom
-     * @return \FilippoToso\Travelport\UProfile\BranchInfo
+     * @return \Santosdave\Travelport\UProfile\BranchInfo
      */
     public function setProfileSyncFrom($ProfileSyncFrom)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class AirSegmentSpecialUpdate
 {
@@ -35,7 +35,7 @@ class AirSegmentSpecialUpdate
 
     /**
      * @param typeBaseAirSegment $AirSegment
-     * @return \FilippoToso\Travelport\UniversalRecord\AirSegmentSpecialUpdate
+     * @return \Santosdave\Travelport\UniversalRecord\AirSegmentSpecialUpdate
      */
     public function setAirSegment($AirSegment)
     {
@@ -53,7 +53,7 @@ class AirSegmentSpecialUpdate
 
     /**
      * @param anonymous1390 $Action
-     * @return \FilippoToso\Travelport\UniversalRecord\AirSegmentSpecialUpdate
+     * @return \Santosdave\Travelport\UniversalRecord\AirSegmentSpecialUpdate
      */
     public function setAction($Action)
     {

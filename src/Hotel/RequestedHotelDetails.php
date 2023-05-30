@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class RequestedHotelDetails extends typeHotelDetails
 {
@@ -33,7 +33,7 @@ class RequestedHotelDetails extends typeHotelDetails
 
     /**
      * @param HotelType $HotelType
-     * @return \FilippoToso\Travelport\Hotel\RequestedHotelDetails
+     * @return \Santosdave\Travelport\Hotel\RequestedHotelDetails
      */
     public function setHotelType($HotelType)
     {

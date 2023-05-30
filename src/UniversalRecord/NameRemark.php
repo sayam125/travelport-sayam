@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class NameRemark
 {
@@ -63,7 +63,7 @@ class NameRemark
 
     /**
      * @param string $RemarkData
-     * @return \FilippoToso\Travelport\UniversalRecord\NameRemark
+     * @return \Santosdave\Travelport\UniversalRecord\NameRemark
      */
     public function setRemarkData($RemarkData)
     {
@@ -81,7 +81,7 @@ class NameRemark
 
     /**
      * @param ProviderReservationInfoRef $ProviderReservationInfoRef
-     * @return \FilippoToso\Travelport\UniversalRecord\NameRemark
+     * @return \Santosdave\Travelport\UniversalRecord\NameRemark
      */
     public function setProviderReservationInfoRef($ProviderReservationInfoRef)
     {
@@ -99,7 +99,7 @@ class NameRemark
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\UniversalRecord\NameRemark
+     * @return \Santosdave\Travelport\UniversalRecord\NameRemark
      */
     public function setKey($Key)
     {
@@ -117,7 +117,7 @@ class NameRemark
 
     /**
      * @param string $Category
-     * @return \FilippoToso\Travelport\UniversalRecord\NameRemark
+     * @return \Santosdave\Travelport\UniversalRecord\NameRemark
      */
     public function setCategory($Category)
     {
@@ -135,7 +135,7 @@ class NameRemark
 
     /**
      * @param typeElementStatus $ElStat
-     * @return \FilippoToso\Travelport\UniversalRecord\NameRemark
+     * @return \Santosdave\Travelport\UniversalRecord\NameRemark
      */
     public function setElStat($ElStat)
     {
@@ -153,7 +153,7 @@ class NameRemark
 
     /**
      * @param boolean $KeyOverride
-     * @return \FilippoToso\Travelport\UniversalRecord\NameRemark
+     * @return \Santosdave\Travelport\UniversalRecord\NameRemark
      */
     public function setKeyOverride($KeyOverride)
     {

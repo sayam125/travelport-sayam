@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class AirUpsellOffer
 {
@@ -63,7 +63,7 @@ class AirUpsellOffer
 
     /**
      * @param AccountCode $AccountCode
-     * @return \FilippoToso\Travelport\Util\AirUpsellOffer
+     * @return \Santosdave\Travelport\Util\AirUpsellOffer
      */
     public function setAccountCode($AccountCode)
     {
@@ -81,7 +81,7 @@ class AirUpsellOffer
 
     /**
      * @param typeClassOfService $ClassOfService
-     * @return \FilippoToso\Travelport\Util\AirUpsellOffer
+     * @return \Santosdave\Travelport\Util\AirUpsellOffer
      */
     public function setClassOfService($ClassOfService)
     {
@@ -99,7 +99,7 @@ class AirUpsellOffer
 
     /**
      * @param string $CabinClass
-     * @return \FilippoToso\Travelport\Util\AirUpsellOffer
+     * @return \Santosdave\Travelport\Util\AirUpsellOffer
      */
     public function setCabinClass($CabinClass)
     {
@@ -117,7 +117,7 @@ class AirUpsellOffer
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Util\AirUpsellOffer
+     * @return \Santosdave\Travelport\Util\AirUpsellOffer
      */
     public function setKey($Key)
     {
@@ -135,7 +135,7 @@ class AirUpsellOffer
 
     /**
      * @param typeElementStatus $ElStat
-     * @return \FilippoToso\Travelport\Util\AirUpsellOffer
+     * @return \Santosdave\Travelport\Util\AirUpsellOffer
      */
     public function setElStat($ElStat)
     {
@@ -153,7 +153,7 @@ class AirUpsellOffer
 
     /**
      * @param boolean $KeyOverride
-     * @return \FilippoToso\Travelport\Util\AirUpsellOffer
+     * @return \Santosdave\Travelport\Util\AirUpsellOffer
      */
     public function setKeyOverride($KeyOverride)
     {

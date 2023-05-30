@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class MiscFormOfPayment
 {
@@ -63,7 +63,7 @@ class MiscFormOfPayment
 
     /**
      * @param anonymous34 $CreditCardType
-     * @return \FilippoToso\Travelport\Util\MiscFormOfPayment
+     * @return \Santosdave\Travelport\Util\MiscFormOfPayment
      */
     public function setCreditCardType($CreditCardType)
     {
@@ -81,7 +81,7 @@ class MiscFormOfPayment
 
     /**
      * @param typeCreditCardNumber $CreditCardNumber
-     * @return \FilippoToso\Travelport\Util\MiscFormOfPayment
+     * @return \Santosdave\Travelport\Util\MiscFormOfPayment
      */
     public function setCreditCardNumber($CreditCardNumber)
     {
@@ -99,7 +99,7 @@ class MiscFormOfPayment
 
     /**
      * @param gYearMonth $ExpDate
-     * @return \FilippoToso\Travelport\Util\MiscFormOfPayment
+     * @return \Santosdave\Travelport\Util\MiscFormOfPayment
      */
     public function setExpDate($ExpDate)
     {
@@ -117,7 +117,7 @@ class MiscFormOfPayment
 
     /**
      * @param string $Text
-     * @return \FilippoToso\Travelport\Util\MiscFormOfPayment
+     * @return \Santosdave\Travelport\Util\MiscFormOfPayment
      */
     public function setText($Text)
     {
@@ -135,7 +135,7 @@ class MiscFormOfPayment
 
     /**
      * @param anonymous35 $Category
-     * @return \FilippoToso\Travelport\Util\MiscFormOfPayment
+     * @return \Santosdave\Travelport\Util\MiscFormOfPayment
      */
     public function setCategory($Category)
     {
@@ -153,7 +153,7 @@ class MiscFormOfPayment
 
     /**
      * @param boolean $AcceptanceOverride
-     * @return \FilippoToso\Travelport\Util\MiscFormOfPayment
+     * @return \Santosdave\Travelport\Util\MiscFormOfPayment
      */
     public function setAcceptanceOverride($AcceptanceOverride)
     {

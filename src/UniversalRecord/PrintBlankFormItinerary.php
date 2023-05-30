@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class PrintBlankFormItinerary
 {
@@ -35,7 +35,7 @@ class PrintBlankFormItinerary
 
     /**
      * @param boolean $IncludeDescription
-     * @return \FilippoToso\Travelport\UniversalRecord\PrintBlankFormItinerary
+     * @return \Santosdave\Travelport\UniversalRecord\PrintBlankFormItinerary
      */
     public function setIncludeDescription($IncludeDescription)
     {
@@ -53,7 +53,7 @@ class PrintBlankFormItinerary
 
     /**
      * @param boolean $IncludeHeader
-     * @return \FilippoToso\Travelport\UniversalRecord\PrintBlankFormItinerary
+     * @return \Santosdave\Travelport\UniversalRecord\PrintBlankFormItinerary
      */
     public function setIncludeHeader($IncludeHeader)
     {

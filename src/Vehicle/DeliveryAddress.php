@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Vehicle;
+namespace Santosdave\Travelport\Vehicle;
 
 class DeliveryAddress extends typeStructuredAddress
 {
@@ -34,7 +34,7 @@ class DeliveryAddress extends typeStructuredAddress
 
     /**
      * @param PhoneNumber $PhoneNumber
-     * @return \FilippoToso\Travelport\Vehicle\DeliveryAddress
+     * @return \Santosdave\Travelport\Vehicle\DeliveryAddress
      */
     public function setPhoneNumber($PhoneNumber)
     {

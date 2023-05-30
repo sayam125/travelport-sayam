@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class FarePricing
 {
@@ -84,7 +84,7 @@ class FarePricing
 
     /**
      * @param typePTC $PassengerType
-     * @return \FilippoToso\Travelport\Air\FarePricing
+     * @return \Santosdave\Travelport\Air\FarePricing
      */
     public function setPassengerType($PassengerType)
     {
@@ -102,7 +102,7 @@ class FarePricing
 
     /**
      * @param typeMoney $TotalFareAmount
-     * @return \FilippoToso\Travelport\Air\FarePricing
+     * @return \Santosdave\Travelport\Air\FarePricing
      */
     public function setTotalFareAmount($TotalFareAmount)
     {
@@ -120,7 +120,7 @@ class FarePricing
 
     /**
      * @param boolean $PrivateFare
-     * @return \FilippoToso\Travelport\Air\FarePricing
+     * @return \Santosdave\Travelport\Air\FarePricing
      */
     public function setPrivateFare($PrivateFare)
     {
@@ -138,7 +138,7 @@ class FarePricing
 
     /**
      * @param boolean $NegotiatedFare
-     * @return \FilippoToso\Travelport\Air\FarePricing
+     * @return \Santosdave\Travelport\Air\FarePricing
      */
     public function setNegotiatedFare($NegotiatedFare)
     {
@@ -156,7 +156,7 @@ class FarePricing
 
     /**
      * @param boolean $AutoPriceable
-     * @return \FilippoToso\Travelport\Air\FarePricing
+     * @return \Santosdave\Travelport\Air\FarePricing
      */
     public function setAutoPriceable($AutoPriceable)
     {
@@ -174,7 +174,7 @@ class FarePricing
 
     /**
      * @param typeMoney $TotalNetFareAmount
-     * @return \FilippoToso\Travelport\Air\FarePricing
+     * @return \Santosdave\Travelport\Air\FarePricing
      */
     public function setTotalNetFareAmount($TotalNetFareAmount)
     {
@@ -192,7 +192,7 @@ class FarePricing
 
     /**
      * @param typeMoney $BaseFare
-     * @return \FilippoToso\Travelport\Air\FarePricing
+     * @return \Santosdave\Travelport\Air\FarePricing
      */
     public function setBaseFare($BaseFare)
     {
@@ -210,7 +210,7 @@ class FarePricing
 
     /**
      * @param typeMoney $Taxes
-     * @return \FilippoToso\Travelport\Air\FarePricing
+     * @return \Santosdave\Travelport\Air\FarePricing
      */
     public function setTaxes($Taxes)
     {
@@ -228,7 +228,7 @@ class FarePricing
 
     /**
      * @param typeRef $MMid
-     * @return \FilippoToso\Travelport\Air\FarePricing
+     * @return \Santosdave\Travelport\Air\FarePricing
      */
     public function setMMid($MMid)
     {

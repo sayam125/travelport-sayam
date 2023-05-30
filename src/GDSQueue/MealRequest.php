@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class MealRequest
 {
@@ -28,7 +28,7 @@ class MealRequest
 
     /**
      * @param anonymous72 $Type
-     * @return \FilippoToso\Travelport\GDSQueue\MealRequest
+     * @return \Santosdave\Travelport\GDSQueue\MealRequest
      */
     public function setType($Type)
     {

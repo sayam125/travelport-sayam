@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class TotalPenaltyTaxInfo
 {
@@ -33,7 +33,7 @@ class TotalPenaltyTaxInfo
 
     /**
      * @param typeTax[] $PenaltyTaxInfo
-     * @return \FilippoToso\Travelport\GDSQueue\TotalPenaltyTaxInfo
+     * @return \Santosdave\Travelport\GDSQueue\TotalPenaltyTaxInfo
      */
     public function setPenaltyTaxInfo(array $PenaltyTaxInfo = null)
     {
@@ -51,7 +51,7 @@ class TotalPenaltyTaxInfo
 
     /**
      * @param typeMoney $TotalPenaltyTax
-     * @return \FilippoToso\Travelport\GDSQueue\TotalPenaltyTaxInfo
+     * @return \Santosdave\Travelport\GDSQueue\TotalPenaltyTaxInfo
      */
     public function setTotalPenaltyTax($TotalPenaltyTax)
     {

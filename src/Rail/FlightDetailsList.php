@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class FlightDetailsList
 {
@@ -28,7 +28,7 @@ class FlightDetailsList
 
     /**
      * @param FlightDetails $FlightDetails
-     * @return \FilippoToso\Travelport\Rail\FlightDetailsList
+     * @return \Santosdave\Travelport\Rail\FlightDetailsList
      */
     public function setFlightDetails($FlightDetails)
     {

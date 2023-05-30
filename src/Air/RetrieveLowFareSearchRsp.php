@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class RetrieveLowFareSearchRsp extends AirSearchRsp
 {
@@ -71,7 +71,7 @@ class RetrieveLowFareSearchRsp extends AirSearchRsp
 
     /**
      * @param BaseAsyncProviderSpecificResponse $AsyncProviderSpecificResponse
-     * @return \FilippoToso\Travelport\Air\RetrieveLowFareSearchRsp
+     * @return \Santosdave\Travelport\Air\RetrieveLowFareSearchRsp
      */
     public function setAsyncProviderSpecificResponse($AsyncProviderSpecificResponse)
     {
@@ -89,7 +89,7 @@ class RetrieveLowFareSearchRsp extends AirSearchRsp
 
     /**
      * @param BrandList $BrandList
-     * @return \FilippoToso\Travelport\Air\RetrieveLowFareSearchRsp
+     * @return \Santosdave\Travelport\Air\RetrieveLowFareSearchRsp
      */
     public function setBrandList($BrandList)
     {
@@ -107,7 +107,7 @@ class RetrieveLowFareSearchRsp extends AirSearchRsp
 
     /**
      * @param typeCurrency $CurrencyType
-     * @return \FilippoToso\Travelport\Air\RetrieveLowFareSearchRsp
+     * @return \Santosdave\Travelport\Air\RetrieveLowFareSearchRsp
      */
     public function setCurrencyType($CurrencyType)
     {

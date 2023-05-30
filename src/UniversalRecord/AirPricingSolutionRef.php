@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class AirPricingSolutionRef
 {
@@ -28,7 +28,7 @@ class AirPricingSolutionRef
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\UniversalRecord\AirPricingSolutionRef
+     * @return \Santosdave\Travelport\UniversalRecord\AirPricingSolutionRef
      */
     public function setKey($Key)
     {

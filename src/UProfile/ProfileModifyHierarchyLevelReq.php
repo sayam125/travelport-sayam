@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class ProfileModifyHierarchyLevelReq extends BaseReq
 {
@@ -68,7 +68,7 @@ class ProfileModifyHierarchyLevelReq extends BaseReq
 
     /**
      * @param typeHierarchyName $Name
-     * @return \FilippoToso\Travelport\UProfile\ProfileModifyHierarchyLevelReq
+     * @return \Santosdave\Travelport\UProfile\ProfileModifyHierarchyLevelReq
      */
     public function setName($Name)
     {
@@ -86,7 +86,7 @@ class ProfileModifyHierarchyLevelReq extends BaseReq
 
     /**
      * @param StringLength1to255 $Description
-     * @return \FilippoToso\Travelport\UProfile\ProfileModifyHierarchyLevelReq
+     * @return \Santosdave\Travelport\UProfile\ProfileModifyHierarchyLevelReq
      */
     public function setDescription($Description)
     {
@@ -104,7 +104,7 @@ class ProfileModifyHierarchyLevelReq extends BaseReq
 
     /**
      * @param typeID $ParentHierarchyLevelID
-     * @return \FilippoToso\Travelport\UProfile\ProfileModifyHierarchyLevelReq
+     * @return \Santosdave\Travelport\UProfile\ProfileModifyHierarchyLevelReq
      */
     public function setParentHierarchyLevelID($ParentHierarchyLevelID)
     {
@@ -122,7 +122,7 @@ class ProfileModifyHierarchyLevelReq extends BaseReq
 
     /**
      * @param typeID $HierarchyLevelID
-     * @return \FilippoToso\Travelport\UProfile\ProfileModifyHierarchyLevelReq
+     * @return \Santosdave\Travelport\UProfile\ProfileModifyHierarchyLevelReq
      */
     public function setHierarchyLevelID($HierarchyLevelID)
     {
@@ -140,7 +140,7 @@ class ProfileModifyHierarchyLevelReq extends BaseReq
 
     /**
      * @param typeProfileType $ProfileType
-     * @return \FilippoToso\Travelport\UProfile\ProfileModifyHierarchyLevelReq
+     * @return \Santosdave\Travelport\UProfile\ProfileModifyHierarchyLevelReq
      */
     public function setProfileType($ProfileType)
     {

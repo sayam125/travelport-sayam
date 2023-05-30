@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class LinkedUniversalRecord
 {
@@ -49,7 +49,7 @@ class LinkedUniversalRecord
 
     /**
      * @param typeLocatorCode $LocatorCode
-     * @return \FilippoToso\Travelport\UProfile\LinkedUniversalRecord
+     * @return \Santosdave\Travelport\UProfile\LinkedUniversalRecord
      */
     public function setLocatorCode($LocatorCode)
     {
@@ -67,7 +67,7 @@ class LinkedUniversalRecord
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\UProfile\LinkedUniversalRecord
+     * @return \Santosdave\Travelport\UProfile\LinkedUniversalRecord
      */
     public function setKey($Key)
     {
@@ -85,7 +85,7 @@ class LinkedUniversalRecord
 
     /**
      * @param typeElementStatus $ElStat
-     * @return \FilippoToso\Travelport\UProfile\LinkedUniversalRecord
+     * @return \Santosdave\Travelport\UProfile\LinkedUniversalRecord
      */
     public function setElStat($ElStat)
     {
@@ -103,7 +103,7 @@ class LinkedUniversalRecord
 
     /**
      * @param boolean $KeyOverride
-     * @return \FilippoToso\Travelport\UProfile\LinkedUniversalRecord
+     * @return \Santosdave\Travelport\UProfile\LinkedUniversalRecord
      */
     public function setKeyOverride($KeyOverride)
     {

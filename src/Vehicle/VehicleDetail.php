@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Vehicle;
+namespace Santosdave\Travelport\Vehicle;
 
 class VehicleDetail
 {
@@ -112,7 +112,7 @@ class VehicleDetail
 
     /**
      * @param string $Code
-     * @return \FilippoToso\Travelport\Vehicle\VehicleDetail
+     * @return \Santosdave\Travelport\Vehicle\VehicleDetail
      */
     public function setCode($Code)
     {
@@ -130,7 +130,7 @@ class VehicleDetail
 
     /**
      * @param string $SupplierCode
-     * @return \FilippoToso\Travelport\Vehicle\VehicleDetail
+     * @return \Santosdave\Travelport\Vehicle\VehicleDetail
      */
     public function setSupplierCode($SupplierCode)
     {
@@ -148,7 +148,7 @@ class VehicleDetail
 
     /**
      * @param string $PassengerCount
-     * @return \FilippoToso\Travelport\Vehicle\VehicleDetail
+     * @return \Santosdave\Travelport\Vehicle\VehicleDetail
      */
     public function setPassengerCount($PassengerCount)
     {
@@ -166,7 +166,7 @@ class VehicleDetail
 
     /**
      * @param string $NumberOfDoors
-     * @return \FilippoToso\Travelport\Vehicle\VehicleDetail
+     * @return \Santosdave\Travelport\Vehicle\VehicleDetail
      */
     public function setNumberOfDoors($NumberOfDoors)
     {
@@ -184,7 +184,7 @@ class VehicleDetail
 
     /**
      * @param string $BagCount
-     * @return \FilippoToso\Travelport\Vehicle\VehicleDetail
+     * @return \Santosdave\Travelport\Vehicle\VehicleDetail
      */
     public function setBagCount($BagCount)
     {
@@ -202,7 +202,7 @@ class VehicleDetail
 
     /**
      * @param typeVehicleClass $Class
-     * @return \FilippoToso\Travelport\Vehicle\VehicleDetail
+     * @return \Santosdave\Travelport\Vehicle\VehicleDetail
      */
     public function setClass($Class)
     {
@@ -220,7 +220,7 @@ class VehicleDetail
 
     /**
      * @param typeVehicleCategory $Category
-     * @return \FilippoToso\Travelport\Vehicle\VehicleDetail
+     * @return \Santosdave\Travelport\Vehicle\VehicleDetail
      */
     public function setCategory($Category)
     {
@@ -238,7 +238,7 @@ class VehicleDetail
 
     /**
      * @param boolean $AirConditioning
-     * @return \FilippoToso\Travelport\Vehicle\VehicleDetail
+     * @return \Santosdave\Travelport\Vehicle\VehicleDetail
      */
     public function setAirConditioning($AirConditioning)
     {
@@ -256,7 +256,7 @@ class VehicleDetail
 
     /**
      * @param typeVehicleTransmission $Transmission
-     * @return \FilippoToso\Travelport\Vehicle\VehicleDetail
+     * @return \Santosdave\Travelport\Vehicle\VehicleDetail
      */
     public function setTransmission($Transmission)
     {
@@ -274,7 +274,7 @@ class VehicleDetail
 
     /**
      * @param string $MakeModel
-     * @return \FilippoToso\Travelport\Vehicle\VehicleDetail
+     * @return \Santosdave\Travelport\Vehicle\VehicleDetail
      */
     public function setMakeModel($MakeModel)
     {
@@ -292,7 +292,7 @@ class VehicleDetail
 
     /**
      * @param typeFuel $FuelType
-     * @return \FilippoToso\Travelport\Vehicle\VehicleDetail
+     * @return \Santosdave\Travelport\Vehicle\VehicleDetail
      */
     public function setFuelType($FuelType)
     {
@@ -310,7 +310,7 @@ class VehicleDetail
 
     /**
      * @param anonymous575 $AcrissVehicleCode
-     * @return \FilippoToso\Travelport\Vehicle\VehicleDetail
+     * @return \Santosdave\Travelport\Vehicle\VehicleDetail
      */
     public function setAcrissVehicleCode($AcrissVehicleCode)
     {
@@ -328,7 +328,7 @@ class VehicleDetail
 
     /**
      * @param boolean $PreferredOption
-     * @return \FilippoToso\Travelport\Vehicle\VehicleDetail
+     * @return \Santosdave\Travelport\Vehicle\VehicleDetail
      */
     public function setPreferredOption($PreferredOption)
     {

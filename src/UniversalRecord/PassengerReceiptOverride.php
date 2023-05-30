@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class PassengerReceiptOverride
 {
@@ -28,7 +28,7 @@ class PassengerReceiptOverride
 
     /**
      * @param typeNonBlanks $_
-     * @return \FilippoToso\Travelport\UniversalRecord\PassengerReceiptOverride
+     * @return \Santosdave\Travelport\UniversalRecord\PassengerReceiptOverride
      */
     public function set_($_)
     {

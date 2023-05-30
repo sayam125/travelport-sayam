@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class OtherPreference extends typeKeyTaggedElement
 {
@@ -143,7 +143,7 @@ class OtherPreference extends typeKeyTaggedElement
 
     /**
      * @param typePreferencePurpose $Purpose
-     * @return \FilippoToso\Travelport\UProfile\OtherPreference
+     * @return \Santosdave\Travelport\UProfile\OtherPreference
      */
     public function setPurpose($Purpose)
     {
@@ -161,7 +161,7 @@ class OtherPreference extends typeKeyTaggedElement
 
     /**
      * @param typePriorityOrder $PriorityOrder
-     * @return \FilippoToso\Travelport\UProfile\OtherPreference
+     * @return \Santosdave\Travelport\UProfile\OtherPreference
      */
     public function setPriorityOrder($PriorityOrder)
     {
@@ -179,7 +179,7 @@ class OtherPreference extends typeKeyTaggedElement
 
     /**
      * @param boolean $TripApproval
-     * @return \FilippoToso\Travelport\UProfile\OtherPreference
+     * @return \Santosdave\Travelport\UProfile\OtherPreference
      */
     public function setTripApproval($TripApproval)
     {
@@ -197,7 +197,7 @@ class OtherPreference extends typeKeyTaggedElement
 
     /**
      * @param boolean $Inclusive
-     * @return \FilippoToso\Travelport\UProfile\OtherPreference
+     * @return \Santosdave\Travelport\UProfile\OtherPreference
      */
     public function setInclusive($Inclusive)
     {
@@ -215,7 +215,7 @@ class OtherPreference extends typeKeyTaggedElement
 
     /**
      * @param typeOtherPreference $OtherSupplierType
-     * @return \FilippoToso\Travelport\UProfile\OtherPreference
+     * @return \Santosdave\Travelport\UProfile\OtherPreference
      */
     public function setOtherSupplierType($OtherSupplierType)
     {
@@ -233,7 +233,7 @@ class OtherPreference extends typeKeyTaggedElement
 
     /**
      * @param StringLength1to128 $SupplierName
-     * @return \FilippoToso\Travelport\UProfile\OtherPreference
+     * @return \Santosdave\Travelport\UProfile\OtherPreference
      */
     public function setSupplierName($SupplierName)
     {
@@ -251,7 +251,7 @@ class OtherPreference extends typeKeyTaggedElement
 
     /**
      * @param date $BookingStartDate
-     * @return \FilippoToso\Travelport\UProfile\OtherPreference
+     * @return \Santosdave\Travelport\UProfile\OtherPreference
      */
     public function setBookingStartDate($BookingStartDate)
     {
@@ -269,7 +269,7 @@ class OtherPreference extends typeKeyTaggedElement
 
     /**
      * @param date $BookingEndDate
-     * @return \FilippoToso\Travelport\UProfile\OtherPreference
+     * @return \Santosdave\Travelport\UProfile\OtherPreference
      */
     public function setBookingEndDate($BookingEndDate)
     {
@@ -287,7 +287,7 @@ class OtherPreference extends typeKeyTaggedElement
 
     /**
      * @param date $UsageStartDate
-     * @return \FilippoToso\Travelport\UProfile\OtherPreference
+     * @return \Santosdave\Travelport\UProfile\OtherPreference
      */
     public function setUsageStartDate($UsageStartDate)
     {
@@ -305,7 +305,7 @@ class OtherPreference extends typeKeyTaggedElement
 
     /**
      * @param date $UsageEndDate
-     * @return \FilippoToso\Travelport\UProfile\OtherPreference
+     * @return \Santosdave\Travelport\UProfile\OtherPreference
      */
     public function setUsageEndDate($UsageEndDate)
     {
@@ -323,7 +323,7 @@ class OtherPreference extends typeKeyTaggedElement
 
     /**
      * @param typeGeoPoliticalAreaType $GeoPoliticalAreaType
-     * @return \FilippoToso\Travelport\UProfile\OtherPreference
+     * @return \Santosdave\Travelport\UProfile\OtherPreference
      */
     public function setGeoPoliticalAreaType($GeoPoliticalAreaType)
     {
@@ -341,7 +341,7 @@ class OtherPreference extends typeKeyTaggedElement
 
     /**
      * @param typeGeoPoliticalAreaCode $GeoPoliticalAreaCode
-     * @return \FilippoToso\Travelport\UProfile\OtherPreference
+     * @return \Santosdave\Travelport\UProfile\OtherPreference
      */
     public function setGeoPoliticalAreaCode($GeoPoliticalAreaCode)
     {
@@ -359,7 +359,7 @@ class OtherPreference extends typeKeyTaggedElement
 
     /**
      * @param typePreferencePaymentMethod $PreferencePaymentMethod
-     * @return \FilippoToso\Travelport\UProfile\OtherPreference
+     * @return \Santosdave\Travelport\UProfile\OtherPreference
      */
     public function setPreferencePaymentMethod($PreferencePaymentMethod)
     {
@@ -377,7 +377,7 @@ class OtherPreference extends typeKeyTaggedElement
 
     /**
      * @param typeRef $PaymentDetailsRef
-     * @return \FilippoToso\Travelport\UProfile\OtherPreference
+     * @return \Santosdave\Travelport\UProfile\OtherPreference
      */
     public function setPaymentDetailsRef($PaymentDetailsRef)
     {
@@ -395,7 +395,7 @@ class OtherPreference extends typeKeyTaggedElement
 
     /**
      * @param typeMoney $MaxCostAmount
-     * @return \FilippoToso\Travelport\UProfile\OtherPreference
+     * @return \Santosdave\Travelport\UProfile\OtherPreference
      */
     public function setMaxCostAmount($MaxCostAmount)
     {
@@ -413,7 +413,7 @@ class OtherPreference extends typeKeyTaggedElement
 
     /**
      * @param typeCurrency $Currency
-     * @return \FilippoToso\Travelport\UProfile\OtherPreference
+     * @return \Santosdave\Travelport\UProfile\OtherPreference
      */
     public function setCurrency($Currency)
     {
@@ -431,7 +431,7 @@ class OtherPreference extends typeKeyTaggedElement
 
     /**
      * @param StringLength1to255 $GeneralPreference
-     * @return \FilippoToso\Travelport\UProfile\OtherPreference
+     * @return \Santosdave\Travelport\UProfile\OtherPreference
      */
     public function setGeneralPreference($GeneralPreference)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class ProfileModifyRsp extends BaseRsp
 {
@@ -34,7 +34,7 @@ class ProfileModifyRsp extends BaseRsp
 
     /**
      * @param Profile $Profile
-     * @return \FilippoToso\Travelport\UProfile\ProfileModifyRsp
+     * @return \Santosdave\Travelport\UProfile\ProfileModifyRsp
      */
     public function setProfile($Profile)
     {

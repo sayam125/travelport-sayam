@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class PermittedAccountCodes
 {
@@ -28,7 +28,7 @@ class PermittedAccountCodes
 
     /**
      * @param AccountCode $AccountCode
-     * @return \FilippoToso\Travelport\Air\PermittedAccountCodes
+     * @return \Santosdave\Travelport\Air\PermittedAccountCodes
      */
     public function setAccountCode($AccountCode)
     {

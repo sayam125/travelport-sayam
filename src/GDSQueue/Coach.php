@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class Coach
 {
@@ -42,7 +42,7 @@ class Coach
 
     /**
      * @param Characteristic $Characteristic
-     * @return \FilippoToso\Travelport\GDSQueue\Coach
+     * @return \Santosdave\Travelport\GDSQueue\Coach
      */
     public function setCharacteristic($Characteristic)
     {
@@ -60,7 +60,7 @@ class Coach
 
     /**
      * @param Remark $Remark
-     * @return \FilippoToso\Travelport\GDSQueue\Coach
+     * @return \Santosdave\Travelport\GDSQueue\Coach
      */
     public function setRemark($Remark)
     {
@@ -78,7 +78,7 @@ class Coach
 
     /**
      * @param string $CoachNumber
-     * @return \FilippoToso\Travelport\GDSQueue\Coach
+     * @return \Santosdave\Travelport\GDSQueue\Coach
      */
     public function setCoachNumber($CoachNumber)
     {

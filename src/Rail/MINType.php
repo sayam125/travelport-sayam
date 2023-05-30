@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class MINType
 {
@@ -77,7 +77,7 @@ class MINType
 
     /**
      * @param boolean $HoursMin
-     * @return \FilippoToso\Travelport\Rail\MINType
+     * @return \Santosdave\Travelport\Rail\MINType
      */
     public function setHoursMin($HoursMin)
     {
@@ -95,7 +95,7 @@ class MINType
 
     /**
      * @param boolean $DaysMin
-     * @return \FilippoToso\Travelport\Rail\MINType
+     * @return \Santosdave\Travelport\Rail\MINType
      */
     public function setDaysMin($DaysMin)
     {
@@ -113,7 +113,7 @@ class MINType
 
     /**
      * @param boolean $MonthsMin
-     * @return \FilippoToso\Travelport\Rail\MINType
+     * @return \Santosdave\Travelport\Rail\MINType
      */
     public function setMonthsMin($MonthsMin)
     {
@@ -131,7 +131,7 @@ class MINType
 
     /**
      * @param boolean $OccurIndMin
-     * @return \FilippoToso\Travelport\Rail\MINType
+     * @return \Santosdave\Travelport\Rail\MINType
      */
     public function setOccurIndMin($OccurIndMin)
     {
@@ -149,7 +149,7 @@ class MINType
 
     /**
      * @param boolean $SameDayMin
-     * @return \FilippoToso\Travelport\Rail\MINType
+     * @return \Santosdave\Travelport\Rail\MINType
      */
     public function setSameDayMin($SameDayMin)
     {
@@ -167,7 +167,7 @@ class MINType
 
     /**
      * @param int $TmDOWMin
-     * @return \FilippoToso\Travelport\Rail\MINType
+     * @return \Santosdave\Travelport\Rail\MINType
      */
     public function setTmDOWMin($TmDOWMin)
     {
@@ -185,7 +185,7 @@ class MINType
 
     /**
      * @param int $FareComponent
-     * @return \FilippoToso\Travelport\Rail\MINType
+     * @return \Santosdave\Travelport\Rail\MINType
      */
     public function setFareComponent($FareComponent)
     {
@@ -203,7 +203,7 @@ class MINType
 
     /**
      * @param int $NumOccurMin
-     * @return \FilippoToso\Travelport\Rail\MINType
+     * @return \Santosdave\Travelport\Rail\MINType
      */
     public function setNumOccurMin($NumOccurMin)
     {

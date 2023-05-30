@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class ExchangePenaltyInfo
 {
@@ -49,7 +49,7 @@ class ExchangePenaltyInfo
 
     /**
      * @param PenaltyInformation $PenaltyInformation
-     * @return \FilippoToso\Travelport\UniversalRecord\ExchangePenaltyInfo
+     * @return \Santosdave\Travelport\UniversalRecord\ExchangePenaltyInfo
      */
     public function setPenaltyInformation($PenaltyInformation)
     {
@@ -67,7 +67,7 @@ class ExchangePenaltyInfo
 
     /**
      * @param typePTC $PTC
-     * @return \FilippoToso\Travelport\UniversalRecord\ExchangePenaltyInfo
+     * @return \Santosdave\Travelport\UniversalRecord\ExchangePenaltyInfo
      */
     public function setPTC($PTC)
     {
@@ -85,7 +85,7 @@ class ExchangePenaltyInfo
 
     /**
      * @param typeMoney $MinimumChangeFee
-     * @return \FilippoToso\Travelport\UniversalRecord\ExchangePenaltyInfo
+     * @return \Santosdave\Travelport\UniversalRecord\ExchangePenaltyInfo
      */
     public function setMinimumChangeFee($MinimumChangeFee)
     {
@@ -103,7 +103,7 @@ class ExchangePenaltyInfo
 
     /**
      * @param typeMoney $MaximumChangeFee
-     * @return \FilippoToso\Travelport\UniversalRecord\ExchangePenaltyInfo
+     * @return \Santosdave\Travelport\UniversalRecord\ExchangePenaltyInfo
      */
     public function setMaximumChangeFee($MaximumChangeFee)
     {

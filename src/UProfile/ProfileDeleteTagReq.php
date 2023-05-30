@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class ProfileDeleteTagReq extends BaseReq
 {
@@ -47,7 +47,7 @@ class ProfileDeleteTagReq extends BaseReq
 
     /**
      * @param TagRef $TagRef
-     * @return \FilippoToso\Travelport\UProfile\ProfileDeleteTagReq
+     * @return \Santosdave\Travelport\UProfile\ProfileDeleteTagReq
      */
     public function setTagRef($TagRef)
     {
@@ -65,7 +65,7 @@ class ProfileDeleteTagReq extends BaseReq
 
     /**
      * @param boolean $Override
-     * @return \FilippoToso\Travelport\UProfile\ProfileDeleteTagReq
+     * @return \Santosdave\Travelport\UProfile\ProfileDeleteTagReq
      */
     public function setOverride($Override)
     {

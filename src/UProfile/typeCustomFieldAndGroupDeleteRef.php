@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeCustomFieldAndGroupDeleteRef
 {
@@ -28,7 +28,7 @@ class typeCustomFieldAndGroupDeleteRef
 
     /**
      * @param typeID $ID
-     * @return \FilippoToso\Travelport\UProfile\typeCustomFieldAndGroupDeleteRef
+     * @return \Santosdave\Travelport\UProfile\typeCustomFieldAndGroupDeleteRef
      */
     public function setID($ID)
     {

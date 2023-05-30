@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class SavedTripDeleteReq extends BaseReq
 {
@@ -40,7 +40,7 @@ class SavedTripDeleteReq extends BaseReq
 
     /**
      * @param typeLocatorCode $LocatorCode
-     * @return \FilippoToso\Travelport\UniversalRecord\SavedTripDeleteReq
+     * @return \Santosdave\Travelport\UniversalRecord\SavedTripDeleteReq
      */
     public function setLocatorCode($LocatorCode)
     {

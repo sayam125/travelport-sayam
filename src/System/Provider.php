@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\System;
+namespace Santosdave\Travelport\System;
 
 class Provider
 {
@@ -28,7 +28,7 @@ class Provider
 
     /**
      * @param typeProviderCode $Code
-     * @return \FilippoToso\Travelport\System\Provider
+     * @return \Santosdave\Travelport\System\Provider
      */
     public function setCode($Code)
     {

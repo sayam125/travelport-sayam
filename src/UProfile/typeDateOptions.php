@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeDateOptions
 {
@@ -42,7 +42,7 @@ class typeDateOptions
 
     /**
      * @param typeDay $Day
-     * @return \FilippoToso\Travelport\UProfile\typeDateOptions
+     * @return \Santosdave\Travelport\UProfile\typeDateOptions
      */
     public function setDay($Day)
     {
@@ -60,7 +60,7 @@ class typeDateOptions
 
     /**
      * @param typeMonth $Month
-     * @return \FilippoToso\Travelport\UProfile\typeDateOptions
+     * @return \Santosdave\Travelport\UProfile\typeDateOptions
      */
     public function setMonth($Month)
     {
@@ -78,7 +78,7 @@ class typeDateOptions
 
     /**
      * @param typeYear $Year
-     * @return \FilippoToso\Travelport\UProfile\typeDateOptions
+     * @return \Santosdave\Travelport\UProfile\typeDateOptions
      */
     public function setYear($Year)
     {

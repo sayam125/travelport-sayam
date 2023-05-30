@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Vehicle;
+namespace Santosdave\Travelport\Vehicle;
 
 class VehicleLocationDetailRsp extends BaseRsp
 {
@@ -48,7 +48,7 @@ class VehicleLocationDetailRsp extends BaseRsp
 
     /**
      * @param VendorInfo $VendorInfo
-     * @return \FilippoToso\Travelport\Vehicle\VehicleLocationDetailRsp
+     * @return \Santosdave\Travelport\Vehicle\VehicleLocationDetailRsp
      */
     public function setVendorInfo($VendorInfo)
     {
@@ -66,7 +66,7 @@ class VehicleLocationDetailRsp extends BaseRsp
 
     /**
      * @param LocationInfo $LocationInfo
-     * @return \FilippoToso\Travelport\Vehicle\VehicleLocationDetailRsp
+     * @return \Santosdave\Travelport\Vehicle\VehicleLocationDetailRsp
      */
     public function setLocationInfo($LocationInfo)
     {
@@ -84,7 +84,7 @@ class VehicleLocationDetailRsp extends BaseRsp
 
     /**
      * @param VehiclePolicy $VehiclePolicy
-     * @return \FilippoToso\Travelport\Vehicle\VehicleLocationDetailRsp
+     * @return \Santosdave\Travelport\Vehicle\VehicleLocationDetailRsp
      */
     public function setVehiclePolicy($VehiclePolicy)
     {

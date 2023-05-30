@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class MctCountReq extends BaseReq
 {
@@ -40,7 +40,7 @@ class MctCountReq extends BaseReq
 
     /**
      * @param MctSearch $MctSearch
-     * @return \FilippoToso\Travelport\Util\MctCountReq
+     * @return \Santosdave\Travelport\Util\MctCountReq
      */
     public function setMctSearch($MctSearch)
     {

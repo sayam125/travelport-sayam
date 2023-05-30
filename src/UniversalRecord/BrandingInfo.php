@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class BrandingInfo
 {
@@ -105,7 +105,7 @@ class BrandingInfo
 
     /**
      * @param PriceRange $PriceRange
-     * @return \FilippoToso\Travelport\UniversalRecord\BrandingInfo
+     * @return \Santosdave\Travelport\UniversalRecord\BrandingInfo
      */
     public function setPriceRange($PriceRange)
     {
@@ -123,7 +123,7 @@ class BrandingInfo
 
     /**
      * @param typeTextElement $Text
-     * @return \FilippoToso\Travelport\UniversalRecord\BrandingInfo
+     * @return \Santosdave\Travelport\UniversalRecord\BrandingInfo
      */
     public function setText($Text)
     {
@@ -141,7 +141,7 @@ class BrandingInfo
 
     /**
      * @param typeTextElement $Title
-     * @return \FilippoToso\Travelport\UniversalRecord\BrandingInfo
+     * @return \Santosdave\Travelport\UniversalRecord\BrandingInfo
      */
     public function setTitle($Title)
     {
@@ -159,7 +159,7 @@ class BrandingInfo
 
     /**
      * @param ImageLocation $ImageLocation
-     * @return \FilippoToso\Travelport\UniversalRecord\BrandingInfo
+     * @return \Santosdave\Travelport\UniversalRecord\BrandingInfo
      */
     public function setImageLocation($ImageLocation)
     {
@@ -177,7 +177,7 @@ class BrandingInfo
 
     /**
      * @param ServiceGroup $ServiceGroup
-     * @return \FilippoToso\Travelport\UniversalRecord\BrandingInfo
+     * @return \Santosdave\Travelport\UniversalRecord\BrandingInfo
      */
     public function setServiceGroup($ServiceGroup)
     {
@@ -195,7 +195,7 @@ class BrandingInfo
 
     /**
      * @param typeSegmentRef[] $AirSegmentRef
-     * @return \FilippoToso\Travelport\UniversalRecord\BrandingInfo
+     * @return \Santosdave\Travelport\UniversalRecord\BrandingInfo
      */
     public function setAirSegmentRef(array $AirSegmentRef)
     {
@@ -213,7 +213,7 @@ class BrandingInfo
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\UniversalRecord\BrandingInfo
+     * @return \Santosdave\Travelport\UniversalRecord\BrandingInfo
      */
     public function setKey($Key)
     {
@@ -231,7 +231,7 @@ class BrandingInfo
 
     /**
      * @param string $ServiceSubCode
-     * @return \FilippoToso\Travelport\UniversalRecord\BrandingInfo
+     * @return \Santosdave\Travelport\UniversalRecord\BrandingInfo
      */
     public function setServiceSubCode($ServiceSubCode)
     {
@@ -249,7 +249,7 @@ class BrandingInfo
 
     /**
      * @param string $ExternalServiceName
-     * @return \FilippoToso\Travelport\UniversalRecord\BrandingInfo
+     * @return \Santosdave\Travelport\UniversalRecord\BrandingInfo
      */
     public function setExternalServiceName($ExternalServiceName)
     {
@@ -267,7 +267,7 @@ class BrandingInfo
 
     /**
      * @param string $ServiceType
-     * @return \FilippoToso\Travelport\UniversalRecord\BrandingInfo
+     * @return \Santosdave\Travelport\UniversalRecord\BrandingInfo
      */
     public function setServiceType($ServiceType)
     {
@@ -285,7 +285,7 @@ class BrandingInfo
 
     /**
      * @param string $CommercialName
-     * @return \FilippoToso\Travelport\UniversalRecord\BrandingInfo
+     * @return \Santosdave\Travelport\UniversalRecord\BrandingInfo
      */
     public function setCommercialName($CommercialName)
     {
@@ -303,7 +303,7 @@ class BrandingInfo
 
     /**
      * @param string $Chargeable
-     * @return \FilippoToso\Travelport\UniversalRecord\BrandingInfo
+     * @return \Santosdave\Travelport\UniversalRecord\BrandingInfo
      */
     public function setChargeable($Chargeable)
     {

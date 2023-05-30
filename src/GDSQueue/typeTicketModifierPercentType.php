@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class typeTicketModifierPercentType
 {
@@ -28,7 +28,7 @@ class typeTicketModifierPercentType
 
     /**
      * @param typePercentageWithDecimal $Percent
-     * @return \FilippoToso\Travelport\GDSQueue\typeTicketModifierPercentType
+     * @return \Santosdave\Travelport\GDSQueue\typeTicketModifierPercentType
      */
     public function setPercent($Percent)
     {

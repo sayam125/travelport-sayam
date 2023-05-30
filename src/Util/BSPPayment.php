@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class BSPPayment
 {
@@ -35,7 +35,7 @@ class BSPPayment
 
     /**
      * @param anonymous47 $BSPIdentifier
-     * @return \FilippoToso\Travelport\Util\BSPPayment
+     * @return \Santosdave\Travelport\Util\BSPPayment
      */
     public function setBSPIdentifier($BSPIdentifier)
     {
@@ -53,7 +53,7 @@ class BSPPayment
 
     /**
      * @param anonymous48 $BSPPassword
-     * @return \FilippoToso\Travelport\Util\BSPPayment
+     * @return \Santosdave\Travelport\Util\BSPPayment
      */
     public function setBSPPassword($BSPPassword)
     {

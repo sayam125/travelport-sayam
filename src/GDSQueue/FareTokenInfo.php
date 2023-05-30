@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class FareTokenInfo
 {
@@ -35,7 +35,7 @@ class FareTokenInfo
 
     /**
      * @param string $FareInfoRef
-     * @return \FilippoToso\Travelport\GDSQueue\FareTokenInfo
+     * @return \Santosdave\Travelport\GDSQueue\FareTokenInfo
      */
     public function setFareInfoRef($FareInfoRef)
     {
@@ -53,7 +53,7 @@ class FareTokenInfo
 
     /**
      * @param string $HostTokenRef
-     * @return \FilippoToso\Travelport\GDSQueue\FareTokenInfo
+     * @return \Santosdave\Travelport\GDSQueue\FareTokenInfo
      */
     public function setHostTokenRef($HostTokenRef)
     {

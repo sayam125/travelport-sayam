@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class typePolicyCodesList
 {
@@ -36,7 +36,7 @@ class typePolicyCodesList
 
     /**
      * @param PolicyCode[] $PolicyCode
-     * @return \FilippoToso\Travelport\GDSQueue\typePolicyCodesList
+     * @return \Santosdave\Travelport\GDSQueue\typePolicyCodesList
      */
     public function setPolicyCode(array $PolicyCode = null)
     {
@@ -54,7 +54,7 @@ class typePolicyCodesList
 
     /**
      * @param MinPolicyCode[] $MinPolicyCode
-     * @return \FilippoToso\Travelport\GDSQueue\typePolicyCodesList
+     * @return \Santosdave\Travelport\GDSQueue\typePolicyCodesList
      */
     public function setMinPolicyCode(array $MinPolicyCode = null)
     {
@@ -72,7 +72,7 @@ class typePolicyCodesList
 
     /**
      * @param MaxPolicyCode[] $MaxPolicyCode
-     * @return \FilippoToso\Travelport\GDSQueue\typePolicyCodesList
+     * @return \Santosdave\Travelport\GDSQueue\typePolicyCodesList
      */
     public function setMaxPolicyCode(array $MaxPolicyCode = null)
     {

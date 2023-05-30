@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class RailFare
 {
@@ -210,7 +210,7 @@ class RailFare
 
     /**
      * @param RailFareNoteRef $RailFareNoteRef
-     * @return \FilippoToso\Travelport\GDSQueue\RailFare
+     * @return \Santosdave\Travelport\GDSQueue\RailFare
      */
     public function setRailFareNoteRef($RailFareNoteRef)
     {
@@ -228,7 +228,7 @@ class RailFare
 
     /**
      * @param RailFareID $RailFareID
-     * @return \FilippoToso\Travelport\GDSQueue\RailFare
+     * @return \Santosdave\Travelport\GDSQueue\RailFare
      */
     public function setRailFareID($RailFareID)
     {
@@ -246,7 +246,7 @@ class RailFare
 
     /**
      * @param RailFareIDRef $RailFareIDRef
-     * @return \FilippoToso\Travelport\GDSQueue\RailFare
+     * @return \Santosdave\Travelport\GDSQueue\RailFare
      */
     public function setRailFareIDRef($RailFareIDRef)
     {
@@ -264,7 +264,7 @@ class RailFare
 
     /**
      * @param FareValidity $FareValidity
-     * @return \FilippoToso\Travelport\GDSQueue\RailFare
+     * @return \Santosdave\Travelport\GDSQueue\RailFare
      */
     public function setFareValidity($FareValidity)
     {
@@ -282,7 +282,7 @@ class RailFare
 
     /**
      * @param HostToken $HostToken
-     * @return \FilippoToso\Travelport\GDSQueue\RailFare
+     * @return \Santosdave\Travelport\GDSQueue\RailFare
      */
     public function setHostToken($HostToken)
     {
@@ -300,7 +300,7 @@ class RailFare
 
     /**
      * @param FulFillmentType $FulFillmentType
-     * @return \FilippoToso\Travelport\GDSQueue\RailFare
+     * @return \Santosdave\Travelport\GDSQueue\RailFare
      */
     public function setFulFillmentType($FulFillmentType)
     {
@@ -318,7 +318,7 @@ class RailFare
 
     /**
      * @param RailFareComponent $RailFareComponent
-     * @return \FilippoToso\Travelport\GDSQueue\RailFare
+     * @return \Santosdave\Travelport\GDSQueue\RailFare
      */
     public function setRailFareComponent($RailFareComponent)
     {
@@ -336,7 +336,7 @@ class RailFare
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\GDSQueue\RailFare
+     * @return \Santosdave\Travelport\GDSQueue\RailFare
      */
     public function setKey($Key)
     {
@@ -354,7 +354,7 @@ class RailFare
 
     /**
      * @param string $FareBasis
-     * @return \FilippoToso\Travelport\GDSQueue\RailFare
+     * @return \Santosdave\Travelport\GDSQueue\RailFare
      */
     public function setFareBasis($FareBasis)
     {
@@ -372,7 +372,7 @@ class RailFare
 
     /**
      * @param typeRailCabin $CabinClass
-     * @return \FilippoToso\Travelport\GDSQueue\RailFare
+     * @return \Santosdave\Travelport\GDSQueue\RailFare
      */
     public function setCabinClass($CabinClass)
     {
@@ -390,7 +390,7 @@ class RailFare
 
     /**
      * @param typePTC $PassengerTypeCode
-     * @return \FilippoToso\Travelport\GDSQueue\RailFare
+     * @return \Santosdave\Travelport\GDSQueue\RailFare
      */
     public function setPassengerTypeCode($PassengerTypeCode)
     {
@@ -408,7 +408,7 @@ class RailFare
 
     /**
      * @param typeIATACode $Origin
-     * @return \FilippoToso\Travelport\GDSQueue\RailFare
+     * @return \Santosdave\Travelport\GDSQueue\RailFare
      */
     public function setOrigin($Origin)
     {
@@ -426,7 +426,7 @@ class RailFare
 
     /**
      * @param typeIATACode $Destination
-     * @return \FilippoToso\Travelport\GDSQueue\RailFare
+     * @return \Santosdave\Travelport\GDSQueue\RailFare
      */
     public function setDestination($Destination)
     {
@@ -444,7 +444,7 @@ class RailFare
 
     /**
      * @param string $EffectiveDate
-     * @return \FilippoToso\Travelport\GDSQueue\RailFare
+     * @return \Santosdave\Travelport\GDSQueue\RailFare
      */
     public function setEffectiveDate($EffectiveDate)
     {
@@ -462,7 +462,7 @@ class RailFare
 
     /**
      * @param typeMoney $Amount
-     * @return \FilippoToso\Travelport\GDSQueue\RailFare
+     * @return \Santosdave\Travelport\GDSQueue\RailFare
      */
     public function setAmount($Amount)
     {
@@ -480,7 +480,7 @@ class RailFare
 
     /**
      * @param string $RouteDescription
-     * @return \FilippoToso\Travelport\GDSQueue\RailFare
+     * @return \Santosdave\Travelport\GDSQueue\RailFare
      */
     public function setRouteDescription($RouteDescription)
     {
@@ -498,7 +498,7 @@ class RailFare
 
     /**
      * @param string $TicketTypeCode
-     * @return \FilippoToso\Travelport\GDSQueue\RailFare
+     * @return \Santosdave\Travelport\GDSQueue\RailFare
      */
     public function setTicketTypeCode($TicketTypeCode)
     {
@@ -516,7 +516,7 @@ class RailFare
 
     /**
      * @param anonymous1312 $FareReference
-     * @return \FilippoToso\Travelport\GDSQueue\RailFare
+     * @return \Santosdave\Travelport\GDSQueue\RailFare
      */
     public function setFareReference($FareReference)
     {
@@ -534,7 +534,7 @@ class RailFare
 
     /**
      * @param boolean $CrossCityFare
-     * @return \FilippoToso\Travelport\GDSQueue\RailFare
+     * @return \Santosdave\Travelport\GDSQueue\RailFare
      */
     public function setCrossCityFare($CrossCityFare)
     {
@@ -552,7 +552,7 @@ class RailFare
 
     /**
      * @param string $OriginStationName
-     * @return \FilippoToso\Travelport\GDSQueue\RailFare
+     * @return \Santosdave\Travelport\GDSQueue\RailFare
      */
     public function setOriginStationName($OriginStationName)
     {
@@ -570,7 +570,7 @@ class RailFare
 
     /**
      * @param string $DestinationStationName
-     * @return \FilippoToso\Travelport\GDSQueue\RailFare
+     * @return \Santosdave\Travelport\GDSQueue\RailFare
      */
     public function setDestinationStationName($DestinationStationName)
     {
@@ -588,7 +588,7 @@ class RailFare
 
     /**
      * @param boolean $ReservationRequired
-     * @return \FilippoToso\Travelport\GDSQueue\RailFare
+     * @return \Santosdave\Travelport\GDSQueue\RailFare
      */
     public function setReservationRequired($ReservationRequired)
     {
@@ -606,7 +606,7 @@ class RailFare
 
     /**
      * @param typeJourneyDirection $JourneyDirection
-     * @return \FilippoToso\Travelport\GDSQueue\RailFare
+     * @return \Santosdave\Travelport\GDSQueue\RailFare
      */
     public function setJourneyDirection($JourneyDirection)
     {
@@ -624,7 +624,7 @@ class RailFare
 
     /**
      * @param typeRailLocationCode $RailLocOrigin
-     * @return \FilippoToso\Travelport\GDSQueue\RailFare
+     * @return \Santosdave\Travelport\GDSQueue\RailFare
      */
     public function setRailLocOrigin($RailLocOrigin)
     {
@@ -642,7 +642,7 @@ class RailFare
 
     /**
      * @param typeRailLocationCode $RailLocDestination
-     * @return \FilippoToso\Travelport\GDSQueue\RailFare
+     * @return \Santosdave\Travelport\GDSQueue\RailFare
      */
     public function setRailLocDestination($RailLocDestination)
     {
@@ -660,7 +660,7 @@ class RailFare
 
     /**
      * @param typeElementStatus $ElStat
-     * @return \FilippoToso\Travelport\GDSQueue\RailFare
+     * @return \Santosdave\Travelport\GDSQueue\RailFare
      */
     public function setElStat($ElStat)
     {
@@ -678,7 +678,7 @@ class RailFare
 
     /**
      * @param boolean $KeyOverride
-     * @return \FilippoToso\Travelport\GDSQueue\RailFare
+     * @return \Santosdave\Travelport\GDSQueue\RailFare
      */
     public function setKeyOverride($KeyOverride)
     {

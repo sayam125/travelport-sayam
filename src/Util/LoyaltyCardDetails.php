@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class LoyaltyCardDetails
 {
@@ -35,7 +35,7 @@ class LoyaltyCardDetails
 
     /**
      * @param typeCarrier $SupplierCode
-     * @return \FilippoToso\Travelport\Util\LoyaltyCardDetails
+     * @return \Santosdave\Travelport\Util\LoyaltyCardDetails
      */
     public function setSupplierCode($SupplierCode)
     {
@@ -53,7 +53,7 @@ class LoyaltyCardDetails
 
     /**
      * @param typePriorityCode $PriorityCode
-     * @return \FilippoToso\Travelport\Util\LoyaltyCardDetails
+     * @return \Santosdave\Travelport\Util\LoyaltyCardDetails
      */
     public function setPriorityCode($PriorityCode)
     {

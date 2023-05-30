@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class SearchAirLeg
 {
@@ -54,7 +54,7 @@ class SearchAirLeg
 
     /**
      * @param typeSearchLocation[] $SearchOrigin
-     * @return \FilippoToso\Travelport\Rail\SearchAirLeg
+     * @return \Santosdave\Travelport\Rail\SearchAirLeg
      */
     public function setSearchOrigin(array $SearchOrigin)
     {
@@ -72,7 +72,7 @@ class SearchAirLeg
 
     /**
      * @param typeSearchLocation[] $SearchDestination
-     * @return \FilippoToso\Travelport\Rail\SearchAirLeg
+     * @return \Santosdave\Travelport\Rail\SearchAirLeg
      */
     public function setSearchDestination(array $SearchDestination = null)
     {
@@ -90,7 +90,7 @@ class SearchAirLeg
 
     /**
      * @param typeFlexibleTimeSpec[] $SearchDepTime
-     * @return \FilippoToso\Travelport\Rail\SearchAirLeg
+     * @return \Santosdave\Travelport\Rail\SearchAirLeg
      */
     public function setSearchDepTime(array $SearchDepTime)
     {
@@ -108,7 +108,7 @@ class SearchAirLeg
 
     /**
      * @param typeTimeSpec[] $SearchArvTime
-     * @return \FilippoToso\Travelport\Rail\SearchAirLeg
+     * @return \Santosdave\Travelport\Rail\SearchAirLeg
      */
     public function setSearchArvTime(array $SearchArvTime)
     {
@@ -126,7 +126,7 @@ class SearchAirLeg
 
     /**
      * @param AirLegModifiers $AirLegModifiers
-     * @return \FilippoToso\Travelport\Rail\SearchAirLeg
+     * @return \Santosdave\Travelport\Rail\SearchAirLeg
      */
     public function setAirLegModifiers($AirLegModifiers)
     {

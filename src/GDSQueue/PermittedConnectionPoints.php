@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class PermittedConnectionPoints
 {
@@ -28,7 +28,7 @@ class PermittedConnectionPoints
 
     /**
      * @param typeLocation $ConnectionPoint
-     * @return \FilippoToso\Travelport\GDSQueue\PermittedConnectionPoints
+     * @return \Santosdave\Travelport\GDSQueue\PermittedConnectionPoints
      */
     public function setConnectionPoint($ConnectionPoint)
     {

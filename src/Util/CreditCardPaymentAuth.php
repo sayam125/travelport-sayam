@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class CreditCardPaymentAuth
 {
@@ -56,7 +56,7 @@ class CreditCardPaymentAuth
 
     /**
      * @param CreditCard $CreditCard
-     * @return \FilippoToso\Travelport\Util\CreditCardPaymentAuth
+     * @return \Santosdave\Travelport\Util\CreditCardPaymentAuth
      */
     public function setCreditCard($CreditCard)
     {
@@ -74,7 +74,7 @@ class CreditCardPaymentAuth
 
     /**
      * @param FormOfPaymentRef $FormOfPaymentRef
-     * @return \FilippoToso\Travelport\Util\CreditCardPaymentAuth
+     * @return \Santosdave\Travelport\Util\CreditCardPaymentAuth
      */
     public function setFormOfPaymentRef($FormOfPaymentRef)
     {
@@ -92,7 +92,7 @@ class CreditCardPaymentAuth
 
     /**
      * @param anonymous1121 $SecurityCode
-     * @return \FilippoToso\Travelport\Util\CreditCardPaymentAuth
+     * @return \Santosdave\Travelport\Util\CreditCardPaymentAuth
      */
     public function setSecurityCode($SecurityCode)
     {
@@ -110,7 +110,7 @@ class CreditCardPaymentAuth
 
     /**
      * @param typeMoney $Amount
-     * @return \FilippoToso\Travelport\Util\CreditCardPaymentAuth
+     * @return \Santosdave\Travelport\Util\CreditCardPaymentAuth
      */
     public function setAmount($Amount)
     {
@@ -128,7 +128,7 @@ class CreditCardPaymentAuth
 
     /**
      * @param boolean $PerformAVS
-     * @return \FilippoToso\Travelport\Util\CreditCardPaymentAuth
+     * @return \Santosdave\Travelport\Util\CreditCardPaymentAuth
      */
     public function setPerformAVS($PerformAVS)
     {

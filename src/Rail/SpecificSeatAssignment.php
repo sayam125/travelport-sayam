@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class SpecificSeatAssignment
 {
@@ -56,7 +56,7 @@ class SpecificSeatAssignment
 
     /**
      * @param typeRef $BookingTravelerRef
-     * @return \FilippoToso\Travelport\Rail\SpecificSeatAssignment
+     * @return \Santosdave\Travelport\Rail\SpecificSeatAssignment
      */
     public function setBookingTravelerRef($BookingTravelerRef)
     {
@@ -74,7 +74,7 @@ class SpecificSeatAssignment
 
     /**
      * @param typeRef $SegmentRef
-     * @return \FilippoToso\Travelport\Rail\SpecificSeatAssignment
+     * @return \Santosdave\Travelport\Rail\SpecificSeatAssignment
      */
     public function setSegmentRef($SegmentRef)
     {
@@ -92,7 +92,7 @@ class SpecificSeatAssignment
 
     /**
      * @param typeRef $FlightDetailRef
-     * @return \FilippoToso\Travelport\Rail\SpecificSeatAssignment
+     * @return \Santosdave\Travelport\Rail\SpecificSeatAssignment
      */
     public function setFlightDetailRef($FlightDetailRef)
     {
@@ -110,7 +110,7 @@ class SpecificSeatAssignment
 
     /**
      * @param string $SeatId
-     * @return \FilippoToso\Travelport\Rail\SpecificSeatAssignment
+     * @return \Santosdave\Travelport\Rail\SpecificSeatAssignment
      */
     public function setSeatId($SeatId)
     {
@@ -128,7 +128,7 @@ class SpecificSeatAssignment
 
     /**
      * @param anonymous795 $RailCoachNumber
-     * @return \FilippoToso\Travelport\Rail\SpecificSeatAssignment
+     * @return \Santosdave\Travelport\Rail\SpecificSeatAssignment
      */
     public function setRailCoachNumber($RailCoachNumber)
     {

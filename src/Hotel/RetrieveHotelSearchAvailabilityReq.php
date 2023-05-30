@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class RetrieveHotelSearchAvailabilityReq extends BaseReq
 {
@@ -47,7 +47,7 @@ class RetrieveHotelSearchAvailabilityReq extends BaseReq
 
     /**
      * @param string $SearchId
-     * @return \FilippoToso\Travelport\Hotel\RetrieveHotelSearchAvailabilityReq
+     * @return \Santosdave\Travelport\Hotel\RetrieveHotelSearchAvailabilityReq
      */
     public function setSearchId($SearchId)
     {
@@ -65,7 +65,7 @@ class RetrieveHotelSearchAvailabilityReq extends BaseReq
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\Hotel\RetrieveHotelSearchAvailabilityReq
+     * @return \Santosdave\Travelport\Hotel\RetrieveHotelSearchAvailabilityReq
      */
     public function setProviderCode($ProviderCode)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class PromoCodes
 {
@@ -28,7 +28,7 @@ class PromoCodes
 
     /**
      * @param PromoCode $PromoCode
-     * @return \FilippoToso\Travelport\UniversalRecord\PromoCodes
+     * @return \Santosdave\Travelport\UniversalRecord\PromoCodes
      */
     public function setPromoCode($PromoCode)
     {

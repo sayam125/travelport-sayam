@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class TotalPenaltyTaxInfo
 {
@@ -33,7 +33,7 @@ class TotalPenaltyTaxInfo
 
     /**
      * @param typeTax[] $PenaltyTaxInfo
-     * @return \FilippoToso\Travelport\UProfile\TotalPenaltyTaxInfo
+     * @return \Santosdave\Travelport\UProfile\TotalPenaltyTaxInfo
      */
     public function setPenaltyTaxInfo(array $PenaltyTaxInfo = null)
     {
@@ -51,7 +51,7 @@ class TotalPenaltyTaxInfo
 
     /**
      * @param typeMoney $TotalPenaltyTax
-     * @return \FilippoToso\Travelport\UProfile\TotalPenaltyTaxInfo
+     * @return \Santosdave\Travelport\UProfile\TotalPenaltyTaxInfo
      */
     public function setTotalPenaltyTax($TotalPenaltyTax)
     {

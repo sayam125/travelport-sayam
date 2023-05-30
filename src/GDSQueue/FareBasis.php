@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class FareBasis
 {
@@ -35,7 +35,7 @@ class FareBasis
 
     /**
      * @param string $Code
-     * @return \FilippoToso\Travelport\GDSQueue\FareBasis
+     * @return \Santosdave\Travelport\GDSQueue\FareBasis
      */
     public function setCode($Code)
     {
@@ -53,7 +53,7 @@ class FareBasis
 
     /**
      * @param typeRef $SegmentRef
-     * @return \FilippoToso\Travelport\GDSQueue\FareBasis
+     * @return \Santosdave\Travelport\GDSQueue\FareBasis
      */
     public function setSegmentRef($SegmentRef)
     {

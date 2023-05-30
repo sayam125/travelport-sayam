@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class RailSegmentList
 {
@@ -28,7 +28,7 @@ class RailSegmentList
 
     /**
      * @param RailSegment $RailSegment
-     * @return \FilippoToso\Travelport\GDSQueue\RailSegmentList
+     * @return \Santosdave\Travelport\GDSQueue\RailSegmentList
      */
     public function setRailSegment($RailSegment)
     {

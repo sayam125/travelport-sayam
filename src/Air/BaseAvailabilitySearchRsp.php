@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class BaseAvailabilitySearchRsp extends BaseSearchRsp
 {
@@ -84,7 +84,7 @@ class BaseAvailabilitySearchRsp extends BaseSearchRsp
 
     /**
      * @param FlightDetailsList $FlightDetailsList
-     * @return \FilippoToso\Travelport\Air\BaseAvailabilitySearchRsp
+     * @return \Santosdave\Travelport\Air\BaseAvailabilitySearchRsp
      */
     public function setFlightDetailsList($FlightDetailsList)
     {
@@ -102,7 +102,7 @@ class BaseAvailabilitySearchRsp extends BaseSearchRsp
 
     /**
      * @param AirSegmentList $AirSegmentList
-     * @return \FilippoToso\Travelport\Air\BaseAvailabilitySearchRsp
+     * @return \Santosdave\Travelport\Air\BaseAvailabilitySearchRsp
      */
     public function setAirSegmentList($AirSegmentList)
     {
@@ -120,7 +120,7 @@ class BaseAvailabilitySearchRsp extends BaseSearchRsp
 
     /**
      * @param FareInfoList $FareInfoList
-     * @return \FilippoToso\Travelport\Air\BaseAvailabilitySearchRsp
+     * @return \Santosdave\Travelport\Air\BaseAvailabilitySearchRsp
      */
     public function setFareInfoList($FareInfoList)
     {
@@ -138,7 +138,7 @@ class BaseAvailabilitySearchRsp extends BaseSearchRsp
 
     /**
      * @param FareRemarkList $FareRemarkList
-     * @return \FilippoToso\Travelport\Air\BaseAvailabilitySearchRsp
+     * @return \Santosdave\Travelport\Air\BaseAvailabilitySearchRsp
      */
     public function setFareRemarkList($FareRemarkList)
     {
@@ -156,7 +156,7 @@ class BaseAvailabilitySearchRsp extends BaseSearchRsp
 
     /**
      * @param AirItinerarySolution $AirItinerarySolution
-     * @return \FilippoToso\Travelport\Air\BaseAvailabilitySearchRsp
+     * @return \Santosdave\Travelport\Air\BaseAvailabilitySearchRsp
      */
     public function setAirItinerarySolution($AirItinerarySolution)
     {
@@ -174,7 +174,7 @@ class BaseAvailabilitySearchRsp extends BaseSearchRsp
 
     /**
      * @param HostTokenList $HostTokenList
-     * @return \FilippoToso\Travelport\Air\BaseAvailabilitySearchRsp
+     * @return \Santosdave\Travelport\Air\BaseAvailabilitySearchRsp
      */
     public function setHostTokenList($HostTokenList)
     {
@@ -192,7 +192,7 @@ class BaseAvailabilitySearchRsp extends BaseSearchRsp
 
     /**
      * @param APISRequirementsList $APISRequirementsList
-     * @return \FilippoToso\Travelport\Air\BaseAvailabilitySearchRsp
+     * @return \Santosdave\Travelport\Air\BaseAvailabilitySearchRsp
      */
     public function setAPISRequirementsList($APISRequirementsList)
     {
@@ -210,7 +210,7 @@ class BaseAvailabilitySearchRsp extends BaseSearchRsp
 
     /**
      * @param typeDistance $DistanceUnits
-     * @return \FilippoToso\Travelport\Air\BaseAvailabilitySearchRsp
+     * @return \Santosdave\Travelport\Air\BaseAvailabilitySearchRsp
      */
     public function setDistanceUnits($DistanceUnits)
     {

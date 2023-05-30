@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class QuickResponse
 {
@@ -35,7 +35,7 @@ class QuickResponse
 
     /**
      * @param boolean $FastResult
-     * @return \FilippoToso\Travelport\GDSQueue\QuickResponse
+     * @return \Santosdave\Travelport\GDSQueue\QuickResponse
      */
     public function setFastResult($FastResult)
     {
@@ -53,7 +53,7 @@ class QuickResponse
 
     /**
      * @param string $MoreToken
-     * @return \FilippoToso\Travelport\GDSQueue\QuickResponse
+     * @return \Santosdave\Travelport\GDSQueue\QuickResponse
      */
     public function setMoreToken($MoreToken)
     {

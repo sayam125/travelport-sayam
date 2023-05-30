@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class DisplayDetails
 {
@@ -91,7 +91,7 @@ class DisplayDetails
 
     /**
      * @param DisplayDetail $DisplayDetail
-     * @return \FilippoToso\Travelport\GDSQueue\DisplayDetails
+     * @return \Santosdave\Travelport\GDSQueue\DisplayDetails
      */
     public function setDisplayDetail($DisplayDetail)
     {
@@ -109,7 +109,7 @@ class DisplayDetails
 
     /**
      * @param string $DisplayContents
-     * @return \FilippoToso\Travelport\GDSQueue\DisplayDetails
+     * @return \Santosdave\Travelport\GDSQueue\DisplayDetails
      */
     public function setDisplayContents($DisplayContents)
     {
@@ -127,7 +127,7 @@ class DisplayDetails
 
     /**
      * @param boolean $ProviderReservationDetail
-     * @return \FilippoToso\Travelport\GDSQueue\DisplayDetails
+     * @return \Santosdave\Travelport\GDSQueue\DisplayDetails
      */
     public function setProviderReservationDetail($ProviderReservationDetail)
     {
@@ -145,7 +145,7 @@ class DisplayDetails
 
     /**
      * @param boolean $CustomCheck
-     * @return \FilippoToso\Travelport\GDSQueue\DisplayDetails
+     * @return \Santosdave\Travelport\GDSQueue\DisplayDetails
      */
     public function setCustomCheck($CustomCheck)
     {
@@ -163,7 +163,7 @@ class DisplayDetails
 
     /**
      * @param boolean $ProviderProfile
-     * @return \FilippoToso\Travelport\GDSQueue\DisplayDetails
+     * @return \Santosdave\Travelport\GDSQueue\DisplayDetails
      */
     public function setProviderProfile($ProviderProfile)
     {
@@ -181,7 +181,7 @@ class DisplayDetails
 
     /**
      * @param boolean $DivideDetails
-     * @return \FilippoToso\Travelport\GDSQueue\DisplayDetails
+     * @return \Santosdave\Travelport\GDSQueue\DisplayDetails
      */
     public function setDivideDetails($DivideDetails)
     {
@@ -199,7 +199,7 @@ class DisplayDetails
 
     /**
      * @param boolean $EnhancedItinModifiers
-     * @return \FilippoToso\Travelport\GDSQueue\DisplayDetails
+     * @return \Santosdave\Travelport\GDSQueue\DisplayDetails
      */
     public function setEnhancedItinModifiers($EnhancedItinModifiers)
     {
@@ -217,7 +217,7 @@ class DisplayDetails
 
     /**
      * @param boolean $IntegratedContent
-     * @return \FilippoToso\Travelport\GDSQueue\DisplayDetails
+     * @return \Santosdave\Travelport\GDSQueue\DisplayDetails
      */
     public function setIntegratedContent($IntegratedContent)
     {
@@ -235,7 +235,7 @@ class DisplayDetails
 
     /**
      * @param boolean $Cruise
-     * @return \FilippoToso\Travelport\GDSQueue\DisplayDetails
+     * @return \Santosdave\Travelport\GDSQueue\DisplayDetails
      */
     public function setCruise($Cruise)
     {
@@ -253,7 +253,7 @@ class DisplayDetails
 
     /**
      * @param boolean $RailSegment
-     * @return \FilippoToso\Travelport\GDSQueue\DisplayDetails
+     * @return \Santosdave\Travelport\GDSQueue\DisplayDetails
      */
     public function setRailSegment($RailSegment)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class PricingDetails
 {
@@ -141,7 +141,7 @@ class PricingDetails
 
     /**
      * @param string[] $AdvisoryMessage
-     * @return \FilippoToso\Travelport\Util\PricingDetails
+     * @return \Santosdave\Travelport\Util\PricingDetails
      */
     public function setAdvisoryMessage(array $AdvisoryMessage = null)
     {
@@ -159,7 +159,7 @@ class PricingDetails
 
     /**
      * @param string[] $EndorsementText
-     * @return \FilippoToso\Travelport\Util\PricingDetails
+     * @return \Santosdave\Travelport\Util\PricingDetails
      */
     public function setEndorsementText(array $EndorsementText = null)
     {
@@ -177,7 +177,7 @@ class PricingDetails
 
     /**
      * @param string $WaiverText
-     * @return \FilippoToso\Travelport\Util\PricingDetails
+     * @return \Santosdave\Travelport\Util\PricingDetails
      */
     public function setWaiverText($WaiverText)
     {
@@ -195,7 +195,7 @@ class PricingDetails
 
     /**
      * @param boolean $LowFarePricing
-     * @return \FilippoToso\Travelport\Util\PricingDetails
+     * @return \Santosdave\Travelport\Util\PricingDetails
      */
     public function setLowFarePricing($LowFarePricing)
     {
@@ -213,7 +213,7 @@ class PricingDetails
 
     /**
      * @param boolean $LowFareFound
-     * @return \FilippoToso\Travelport\Util\PricingDetails
+     * @return \Santosdave\Travelport\Util\PricingDetails
      */
     public function setLowFareFound($LowFareFound)
     {
@@ -231,7 +231,7 @@ class PricingDetails
 
     /**
      * @param boolean $PenaltyApplies
-     * @return \FilippoToso\Travelport\Util\PricingDetails
+     * @return \Santosdave\Travelport\Util\PricingDetails
      */
     public function setPenaltyApplies($PenaltyApplies)
     {
@@ -249,7 +249,7 @@ class PricingDetails
 
     /**
      * @param boolean $DiscountApplies
-     * @return \FilippoToso\Travelport\Util\PricingDetails
+     * @return \Santosdave\Travelport\Util\PricingDetails
      */
     public function setDiscountApplies($DiscountApplies)
     {
@@ -267,7 +267,7 @@ class PricingDetails
 
     /**
      * @param typeItineraryCode $ItineraryType
-     * @return \FilippoToso\Travelport\Util\PricingDetails
+     * @return \Santosdave\Travelport\Util\PricingDetails
      */
     public function setItineraryType($ItineraryType)
     {
@@ -285,7 +285,7 @@ class PricingDetails
 
     /**
      * @param typeCarrier $ValidatingVendorCode
-     * @return \FilippoToso\Travelport\Util\PricingDetails
+     * @return \Santosdave\Travelport\Util\PricingDetails
      */
     public function setValidatingVendorCode($ValidatingVendorCode)
     {
@@ -303,7 +303,7 @@ class PricingDetails
 
     /**
      * @param date $ForTicketingOnDate
-     * @return \FilippoToso\Travelport\Util\PricingDetails
+     * @return \Santosdave\Travelport\Util\PricingDetails
      */
     public function setForTicketingOnDate($ForTicketingOnDate)
     {
@@ -321,7 +321,7 @@ class PricingDetails
 
     /**
      * @param date $LastDateToTicket
-     * @return \FilippoToso\Travelport\Util\PricingDetails
+     * @return \Santosdave\Travelport\Util\PricingDetails
      */
     public function setLastDateToTicket($LastDateToTicket)
     {
@@ -339,7 +339,7 @@ class PricingDetails
 
     /**
      * @param typeFormOfRefund $FormOfRefund
-     * @return \FilippoToso\Travelport\Util\PricingDetails
+     * @return \Santosdave\Travelport\Util\PricingDetails
      */
     public function setFormOfRefund($FormOfRefund)
     {
@@ -357,7 +357,7 @@ class PricingDetails
 
     /**
      * @param string $AccountCode
-     * @return \FilippoToso\Travelport\Util\PricingDetails
+     * @return \Santosdave\Travelport\Util\PricingDetails
      */
     public function setAccountCode($AccountCode)
     {
@@ -375,7 +375,7 @@ class PricingDetails
 
     /**
      * @param float $BankersSellingRate
-     * @return \FilippoToso\Travelport\Util\PricingDetails
+     * @return \Santosdave\Travelport\Util\PricingDetails
      */
     public function setBankersSellingRate($BankersSellingRate)
     {
@@ -393,7 +393,7 @@ class PricingDetails
 
     /**
      * @param typePricingType $PricingType
-     * @return \FilippoToso\Travelport\Util\PricingDetails
+     * @return \Santosdave\Travelport\Util\PricingDetails
      */
     public function setPricingType($PricingType)
     {
@@ -411,7 +411,7 @@ class PricingDetails
 
     /**
      * @param float $ConversionRate
-     * @return \FilippoToso\Travelport\Util\PricingDetails
+     * @return \Santosdave\Travelport\Util\PricingDetails
      */
     public function setConversionRate($ConversionRate)
     {
@@ -429,7 +429,7 @@ class PricingDetails
 
     /**
      * @param float $RateOfExchange
-     * @return \FilippoToso\Travelport\Util\PricingDetails
+     * @return \Santosdave\Travelport\Util\PricingDetails
      */
     public function setRateOfExchange($RateOfExchange)
     {
@@ -447,7 +447,7 @@ class PricingDetails
 
     /**
      * @param typeCurrency $OriginalTicketCurrency
-     * @return \FilippoToso\Travelport\Util\PricingDetails
+     * @return \Santosdave\Travelport\Util\PricingDetails
      */
     public function setOriginalTicketCurrency($OriginalTicketCurrency)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class BaggageAllowances
 {
@@ -42,7 +42,7 @@ class BaggageAllowances
 
     /**
      * @param BaggageAllowanceInfo $BaggageAllowanceInfo
-     * @return \FilippoToso\Travelport\UniversalRecord\BaggageAllowances
+     * @return \Santosdave\Travelport\UniversalRecord\BaggageAllowances
      */
     public function setBaggageAllowanceInfo($BaggageAllowanceInfo)
     {
@@ -60,7 +60,7 @@ class BaggageAllowances
 
     /**
      * @param CarryOnAllowanceInfo $CarryOnAllowanceInfo
-     * @return \FilippoToso\Travelport\UniversalRecord\BaggageAllowances
+     * @return \Santosdave\Travelport\UniversalRecord\BaggageAllowances
      */
     public function setCarryOnAllowanceInfo($CarryOnAllowanceInfo)
     {
@@ -78,7 +78,7 @@ class BaggageAllowances
 
     /**
      * @param BaseBaggageAllowanceInfo $EmbargoInfo
-     * @return \FilippoToso\Travelport\UniversalRecord\BaggageAllowances
+     * @return \Santosdave\Travelport\UniversalRecord\BaggageAllowances
      */
     public function setEmbargoInfo($EmbargoInfo)
     {

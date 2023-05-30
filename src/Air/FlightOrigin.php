@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class FlightOrigin
 {
@@ -28,7 +28,7 @@ class FlightOrigin
 
     /**
      * @param Airport $Airport
-     * @return \FilippoToso\Travelport\Air\FlightOrigin
+     * @return \Santosdave\Travelport\Air\FlightOrigin
      */
     public function setAirport($Airport)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class typeRestrictionLengthOfStay
 {
@@ -49,7 +49,7 @@ class typeRestrictionLengthOfStay
 
     /**
      * @param int $Length
-     * @return \FilippoToso\Travelport\Rail\typeRestrictionLengthOfStay
+     * @return \Santosdave\Travelport\Rail\typeRestrictionLengthOfStay
      */
     public function setLength($Length)
     {
@@ -67,7 +67,7 @@ class typeRestrictionLengthOfStay
 
     /**
      * @param typeStayUnit $StayUnit
-     * @return \FilippoToso\Travelport\Rail\typeRestrictionLengthOfStay
+     * @return \Santosdave\Travelport\Rail\typeRestrictionLengthOfStay
      */
     public function setStayUnit($StayUnit)
     {
@@ -85,7 +85,7 @@ class typeRestrictionLengthOfStay
 
     /**
      * @param date $StayDate
-     * @return \FilippoToso\Travelport\Rail\typeRestrictionLengthOfStay
+     * @return \Santosdave\Travelport\Rail\typeRestrictionLengthOfStay
      */
     public function setStayDate($StayDate)
     {
@@ -103,7 +103,7 @@ class typeRestrictionLengthOfStay
 
     /**
      * @param boolean $MoreRulesPresent
-     * @return \FilippoToso\Travelport\Rail\typeRestrictionLengthOfStay
+     * @return \Santosdave\Travelport\Rail\typeRestrictionLengthOfStay
      */
     public function setMoreRulesPresent($MoreRulesPresent)
     {

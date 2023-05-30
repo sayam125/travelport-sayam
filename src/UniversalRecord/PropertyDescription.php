@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class PropertyDescription
 {
@@ -35,7 +35,7 @@ class PropertyDescription
 
     /**
      * @param string $_
-     * @return \FilippoToso\Travelport\UniversalRecord\PropertyDescription
+     * @return \Santosdave\Travelport\UniversalRecord\PropertyDescription
      */
     public function set_($_)
     {
@@ -53,7 +53,7 @@ class PropertyDescription
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\UniversalRecord\PropertyDescription
+     * @return \Santosdave\Travelport\UniversalRecord\PropertyDescription
      */
     public function setProviderCode($ProviderCode)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class MerchandisingPricingModifiers
 {
@@ -28,7 +28,7 @@ class MerchandisingPricingModifiers
 
     /**
      * @param AccountCode $AccountCode
-     * @return \FilippoToso\Travelport\GDSQueue\MerchandisingPricingModifiers
+     * @return \Santosdave\Travelport\GDSQueue\MerchandisingPricingModifiers
      */
     public function setAccountCode($AccountCode)
     {

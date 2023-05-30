@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class CurrencyConversionReq extends BaseReq
 {
@@ -40,7 +40,7 @@ class CurrencyConversionReq extends BaseReq
 
     /**
      * @param CurrencyConversion $CurrencyConversion
-     * @return \FilippoToso\Travelport\Util\CurrencyConversionReq
+     * @return \Santosdave\Travelport\Util\CurrencyConversionReq
      */
     public function setCurrencyConversion($CurrencyConversion)
     {

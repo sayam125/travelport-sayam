@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class ServiceData
 {
@@ -89,7 +89,7 @@ class ServiceData
 
     /**
      * @param SeatAttributes $SeatAttributes
-     * @return \FilippoToso\Travelport\Hotel\ServiceData
+     * @return \Santosdave\Travelport\Hotel\ServiceData
      */
     public function setSeatAttributes($SeatAttributes)
     {
@@ -107,7 +107,7 @@ class ServiceData
 
     /**
      * @param CabinClass $CabinClass
-     * @return \FilippoToso\Travelport\Hotel\ServiceData
+     * @return \Santosdave\Travelport\Hotel\ServiceData
      */
     public function setCabinClass($CabinClass)
     {
@@ -125,7 +125,7 @@ class ServiceData
 
     /**
      * @param typeKeyBasedReference[] $SSRRef
-     * @return \FilippoToso\Travelport\Hotel\ServiceData
+     * @return \Santosdave\Travelport\Hotel\ServiceData
      */
     public function setSSRRef(array $SSRRef = null)
     {
@@ -143,7 +143,7 @@ class ServiceData
 
     /**
      * @param string $Data
-     * @return \FilippoToso\Travelport\Hotel\ServiceData
+     * @return \Santosdave\Travelport\Hotel\ServiceData
      */
     public function setData($Data)
     {
@@ -161,7 +161,7 @@ class ServiceData
 
     /**
      * @param typeRef $AirSegmentRef
-     * @return \FilippoToso\Travelport\Hotel\ServiceData
+     * @return \Santosdave\Travelport\Hotel\ServiceData
      */
     public function setAirSegmentRef($AirSegmentRef)
     {
@@ -179,7 +179,7 @@ class ServiceData
 
     /**
      * @param typeRef $BookingTravelerRef
-     * @return \FilippoToso\Travelport\Hotel\ServiceData
+     * @return \Santosdave\Travelport\Hotel\ServiceData
      */
     public function setBookingTravelerRef($BookingTravelerRef)
     {
@@ -197,7 +197,7 @@ class ServiceData
 
     /**
      * @param boolean $StopOver
-     * @return \FilippoToso\Travelport\Hotel\ServiceData
+     * @return \Santosdave\Travelport\Hotel\ServiceData
      */
     public function setStopOver($StopOver)
     {
@@ -215,7 +215,7 @@ class ServiceData
 
     /**
      * @param typePTC $TravelerType
-     * @return \FilippoToso\Travelport\Hotel\ServiceData
+     * @return \Santosdave\Travelport\Hotel\ServiceData
      */
     public function setTravelerType($TravelerType)
     {
@@ -233,7 +233,7 @@ class ServiceData
 
     /**
      * @param typeRef $EMDSummaryRef
-     * @return \FilippoToso\Travelport\Hotel\ServiceData
+     * @return \Santosdave\Travelport\Hotel\ServiceData
      */
     public function setEMDSummaryRef($EMDSummaryRef)
     {
@@ -251,7 +251,7 @@ class ServiceData
 
     /**
      * @param typeRef $EMDCouponRef
-     * @return \FilippoToso\Travelport\Hotel\ServiceData
+     * @return \Santosdave\Travelport\Hotel\ServiceData
      */
     public function setEMDCouponRef($EMDCouponRef)
     {

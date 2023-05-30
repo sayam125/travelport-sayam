@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class ProductInfo
 {
@@ -28,7 +28,7 @@ class ProductInfo
 
     /**
      * @param Name $Name
-     * @return \FilippoToso\Travelport\GDSQueue\ProductInfo
+     * @return \Santosdave\Travelport\GDSQueue\ProductInfo
      */
     public function setName($Name)
     {

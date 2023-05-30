@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class AirExchangeRsp extends BaseRsp
 {
@@ -51,7 +51,7 @@ class AirExchangeRsp extends BaseRsp
 
     /**
      * @param StringLength1to13 $TicketNumber
-     * @return \FilippoToso\Travelport\Air\AirExchangeRsp
+     * @return \Santosdave\Travelport\Air\AirExchangeRsp
      */
     public function setTicketNumber($TicketNumber)
     {
@@ -69,7 +69,7 @@ class AirExchangeRsp extends BaseRsp
 
     /**
      * @param BookingTraveler $BookingTraveler
-     * @return \FilippoToso\Travelport\Air\AirExchangeRsp
+     * @return \Santosdave\Travelport\Air\AirExchangeRsp
      */
     public function setBookingTraveler($BookingTraveler)
     {
@@ -87,7 +87,7 @@ class AirExchangeRsp extends BaseRsp
 
     /**
      * @param typeAirReservationWithFOP $AirReservation
-     * @return \FilippoToso\Travelport\Air\AirExchangeRsp
+     * @return \Santosdave\Travelport\Air\AirExchangeRsp
      */
     public function setAirReservation($AirReservation)
     {
@@ -105,7 +105,7 @@ class AirExchangeRsp extends BaseRsp
 
     /**
      * @param typeTicketFailureInfo[] $ExchangeFailureInfo
-     * @return \FilippoToso\Travelport\Air\AirExchangeRsp
+     * @return \Santosdave\Travelport\Air\AirExchangeRsp
      */
     public function setExchangeFailureInfo(array $ExchangeFailureInfo = null)
     {

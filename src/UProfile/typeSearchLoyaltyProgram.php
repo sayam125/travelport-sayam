@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeSearchLoyaltyProgram
 {
@@ -35,7 +35,7 @@ class typeSearchLoyaltyProgram
 
     /**
      * @param typeWildcard $Number
-     * @return \FilippoToso\Travelport\UProfile\typeSearchLoyaltyProgram
+     * @return \Santosdave\Travelport\UProfile\typeSearchLoyaltyProgram
      */
     public function setNumber($Number)
     {
@@ -53,7 +53,7 @@ class typeSearchLoyaltyProgram
 
     /**
      * @param typeSupplier $SupplierCode
-     * @return \FilippoToso\Travelport\UProfile\typeSearchLoyaltyProgram
+     * @return \Santosdave\Travelport\UProfile\typeSearchLoyaltyProgram
      */
     public function setSupplierCode($SupplierCode)
     {

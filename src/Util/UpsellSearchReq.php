@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class UpsellSearchReq extends BaseReq
 {
@@ -61,7 +61,7 @@ class UpsellSearchReq extends BaseReq
 
     /**
      * @param AirUpsellSearchCriteria $AirUpsellSearchCriteria
-     * @return \FilippoToso\Travelport\Util\UpsellSearchReq
+     * @return \Santosdave\Travelport\Util\UpsellSearchReq
      */
     public function setAirUpsellSearchCriteria($AirUpsellSearchCriteria)
     {
@@ -79,7 +79,7 @@ class UpsellSearchReq extends BaseReq
 
     /**
      * @param HotelUpsellSearchCriteria $HotelUpsellSearchCriteria
-     * @return \FilippoToso\Travelport\Util\UpsellSearchReq
+     * @return \Santosdave\Travelport\Util\UpsellSearchReq
      */
     public function setHotelUpsellSearchCriteria($HotelUpsellSearchCriteria)
     {
@@ -97,7 +97,7 @@ class UpsellSearchReq extends BaseReq
 
     /**
      * @param VehicleUpsellSearchCriteria $VehicleUpsellSearchCriteria
-     * @return \FilippoToso\Travelport\Util\UpsellSearchReq
+     * @return \Santosdave\Travelport\Util\UpsellSearchReq
      */
     public function setVehicleUpsellSearchCriteria($VehicleUpsellSearchCriteria)
     {
@@ -115,7 +115,7 @@ class UpsellSearchReq extends BaseReq
 
     /**
      * @param UpsellSearchModifier $UpsellSearchModifier
-     * @return \FilippoToso\Travelport\Util\UpsellSearchReq
+     * @return \Santosdave\Travelport\Util\UpsellSearchReq
      */
     public function setUpsellSearchModifier($UpsellSearchModifier)
     {

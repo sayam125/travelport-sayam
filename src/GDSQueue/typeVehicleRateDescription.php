@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class typeVehicleRateDescription
 {
@@ -35,7 +35,7 @@ class typeVehicleRateDescription
 
     /**
      * @param Text[] $Text
-     * @return \FilippoToso\Travelport\GDSQueue\typeVehicleRateDescription
+     * @return \Santosdave\Travelport\GDSQueue\typeVehicleRateDescription
      */
     public function setText(array $Text)
     {
@@ -53,7 +53,7 @@ class typeVehicleRateDescription
 
     /**
      * @param string $Name
-     * @return \FilippoToso\Travelport\GDSQueue\typeVehicleRateDescription
+     * @return \Santosdave\Travelport\GDSQueue\typeVehicleRateDescription
      */
     public function setName($Name)
     {

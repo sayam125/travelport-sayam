@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class PenaltyInformation
 {
@@ -112,7 +112,7 @@ class PenaltyInformation
 
     /**
      * @param string $_
-     * @return \FilippoToso\Travelport\UniversalRecord\PenaltyInformation
+     * @return \Santosdave\Travelport\UniversalRecord\PenaltyInformation
      */
     public function set_($_)
     {
@@ -130,7 +130,7 @@ class PenaltyInformation
 
     /**
      * @param typeCarrier $Carrier
-     * @return \FilippoToso\Travelport\UniversalRecord\PenaltyInformation
+     * @return \Santosdave\Travelport\UniversalRecord\PenaltyInformation
      */
     public function setCarrier($Carrier)
     {
@@ -148,7 +148,7 @@ class PenaltyInformation
 
     /**
      * @param string $FareBasis
-     * @return \FilippoToso\Travelport\UniversalRecord\PenaltyInformation
+     * @return \Santosdave\Travelport\UniversalRecord\PenaltyInformation
      */
     public function setFareBasis($FareBasis)
     {
@@ -166,7 +166,7 @@ class PenaltyInformation
 
     /**
      * @param int $FareComponent
-     * @return \FilippoToso\Travelport\UniversalRecord\PenaltyInformation
+     * @return \Santosdave\Travelport\UniversalRecord\PenaltyInformation
      */
     public function setFareComponent($FareComponent)
     {
@@ -184,7 +184,7 @@ class PenaltyInformation
 
     /**
      * @param int $PriceableUnit
-     * @return \FilippoToso\Travelport\UniversalRecord\PenaltyInformation
+     * @return \Santosdave\Travelport\UniversalRecord\PenaltyInformation
      */
     public function setPriceableUnit($PriceableUnit)
     {
@@ -202,7 +202,7 @@ class PenaltyInformation
 
     /**
      * @param typeIATACode $BoardPoint
-     * @return \FilippoToso\Travelport\UniversalRecord\PenaltyInformation
+     * @return \Santosdave\Travelport\UniversalRecord\PenaltyInformation
      */
     public function setBoardPoint($BoardPoint)
     {
@@ -220,7 +220,7 @@ class PenaltyInformation
 
     /**
      * @param typeIATACode $OffPoint
-     * @return \FilippoToso\Travelport\UniversalRecord\PenaltyInformation
+     * @return \Santosdave\Travelport\UniversalRecord\PenaltyInformation
      */
     public function setOffPoint($OffPoint)
     {
@@ -238,7 +238,7 @@ class PenaltyInformation
 
     /**
      * @param typeMoney $MinimumChangeFee
-     * @return \FilippoToso\Travelport\UniversalRecord\PenaltyInformation
+     * @return \Santosdave\Travelport\UniversalRecord\PenaltyInformation
      */
     public function setMinimumChangeFee($MinimumChangeFee)
     {
@@ -256,7 +256,7 @@ class PenaltyInformation
 
     /**
      * @param typeMoney $MaximumChangeFee
-     * @return \FilippoToso\Travelport\UniversalRecord\PenaltyInformation
+     * @return \Santosdave\Travelport\UniversalRecord\PenaltyInformation
      */
     public function setMaximumChangeFee($MaximumChangeFee)
     {
@@ -274,7 +274,7 @@ class PenaltyInformation
 
     /**
      * @param typeCurrency $FiledCurrency
-     * @return \FilippoToso\Travelport\UniversalRecord\PenaltyInformation
+     * @return \Santosdave\Travelport\UniversalRecord\PenaltyInformation
      */
     public function setFiledCurrency($FiledCurrency)
     {
@@ -292,7 +292,7 @@ class PenaltyInformation
 
     /**
      * @param float $ConversionRate
-     * @return \FilippoToso\Travelport\UniversalRecord\PenaltyInformation
+     * @return \Santosdave\Travelport\UniversalRecord\PenaltyInformation
      */
     public function setConversionRate($ConversionRate)
     {
@@ -310,7 +310,7 @@ class PenaltyInformation
 
     /**
      * @param boolean $Refundable
-     * @return \FilippoToso\Travelport\UniversalRecord\PenaltyInformation
+     * @return \Santosdave\Travelport\UniversalRecord\PenaltyInformation
      */
     public function setRefundable($Refundable)
     {
@@ -328,7 +328,7 @@ class PenaltyInformation
 
     /**
      * @param anonymous1070 $ChangeFeeApplicationCode
-     * @return \FilippoToso\Travelport\UniversalRecord\PenaltyInformation
+     * @return \Santosdave\Travelport\UniversalRecord\PenaltyInformation
      */
     public function setChangeFeeApplicationCode($ChangeFeeApplicationCode)
     {

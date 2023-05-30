@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class HotelSuperShopperReq extends BaseSearchReq
 {
@@ -62,7 +62,7 @@ class HotelSuperShopperReq extends BaseSearchReq
 
     /**
      * @param HotelSearchLocation $HotelSearchLocation
-     * @return \FilippoToso\Travelport\Hotel\HotelSuperShopperReq
+     * @return \Santosdave\Travelport\Hotel\HotelSuperShopperReq
      */
     public function setHotelSearchLocation($HotelSearchLocation)
     {
@@ -80,7 +80,7 @@ class HotelSuperShopperReq extends BaseSearchReq
 
     /**
      * @param HotelSearchModifiers $HotelSearchModifiers
-     * @return \FilippoToso\Travelport\Hotel\HotelSuperShopperReq
+     * @return \Santosdave\Travelport\Hotel\HotelSuperShopperReq
      */
     public function setHotelSearchModifiers($HotelSearchModifiers)
     {
@@ -98,7 +98,7 @@ class HotelSuperShopperReq extends BaseSearchReq
 
     /**
      * @param HotelStay $HotelStay
-     * @return \FilippoToso\Travelport\Hotel\HotelSuperShopperReq
+     * @return \Santosdave\Travelport\Hotel\HotelSuperShopperReq
      */
     public function setHotelStay($HotelStay)
     {
@@ -116,7 +116,7 @@ class HotelSuperShopperReq extends BaseSearchReq
 
     /**
      * @param QuickResponse $QuickResponse
-     * @return \FilippoToso\Travelport\Hotel\HotelSuperShopperReq
+     * @return \Santosdave\Travelport\Hotel\HotelSuperShopperReq
      */
     public function setQuickResponse($QuickResponse)
     {

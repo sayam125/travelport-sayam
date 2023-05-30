@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class CurrencyRateConversion
 {
@@ -49,7 +49,7 @@ class CurrencyRateConversion
 
     /**
      * @param float $RateConversion
-     * @return \FilippoToso\Travelport\GDSQueue\CurrencyRateConversion
+     * @return \Santosdave\Travelport\GDSQueue\CurrencyRateConversion
      */
     public function setRateConversion($RateConversion)
     {
@@ -67,7 +67,7 @@ class CurrencyRateConversion
 
     /**
      * @param typeCurrency $SourceCurrencyCode
-     * @return \FilippoToso\Travelport\GDSQueue\CurrencyRateConversion
+     * @return \Santosdave\Travelport\GDSQueue\CurrencyRateConversion
      */
     public function setSourceCurrencyCode($SourceCurrencyCode)
     {
@@ -85,7 +85,7 @@ class CurrencyRateConversion
 
     /**
      * @param typeCurrency $RequestedCurrencyCode
-     * @return \FilippoToso\Travelport\GDSQueue\CurrencyRateConversion
+     * @return \Santosdave\Travelport\GDSQueue\CurrencyRateConversion
      */
     public function setRequestedCurrencyCode($RequestedCurrencyCode)
     {
@@ -103,7 +103,7 @@ class CurrencyRateConversion
 
     /**
      * @param int $DecimalPlaces
-     * @return \FilippoToso\Travelport\GDSQueue\CurrencyRateConversion
+     * @return \Santosdave\Travelport\GDSQueue\CurrencyRateConversion
      */
     public function setDecimalPlaces($DecimalPlaces)
     {

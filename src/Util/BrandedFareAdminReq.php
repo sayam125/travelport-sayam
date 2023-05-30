@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class BrandedFareAdminReq extends BaseReq
 {
@@ -54,7 +54,7 @@ class BrandedFareAdminReq extends BaseReq
 
     /**
      * @param FareFamilyAdd $FareFamilyAdd
-     * @return \FilippoToso\Travelport\Util\BrandedFareAdminReq
+     * @return \Santosdave\Travelport\Util\BrandedFareAdminReq
      */
     public function setFareFamilyAdd($FareFamilyAdd)
     {
@@ -72,7 +72,7 @@ class BrandedFareAdminReq extends BaseReq
 
     /**
      * @param FareFamilyUpdate $FareFamilyUpdate
-     * @return \FilippoToso\Travelport\Util\BrandedFareAdminReq
+     * @return \Santosdave\Travelport\Util\BrandedFareAdminReq
      */
     public function setFareFamilyUpdate($FareFamilyUpdate)
     {
@@ -90,7 +90,7 @@ class BrandedFareAdminReq extends BaseReq
 
     /**
      * @param FareFamilyDelete $FareFamilyDelete
-     * @return \FilippoToso\Travelport\Util\BrandedFareAdminReq
+     * @return \Santosdave\Travelport\Util\BrandedFareAdminReq
      */
     public function setFareFamilyDelete($FareFamilyDelete)
     {

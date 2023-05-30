@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class OptionalServiceApplicationLimitType
 {
@@ -49,7 +49,7 @@ class OptionalServiceApplicationLimitType
 
     /**
      * @param OptionalServiceApplicabilityType $ApplicableLevel
-     * @return \FilippoToso\Travelport\GDSQueue\OptionalServiceApplicationLimitType
+     * @return \Santosdave\Travelport\GDSQueue\OptionalServiceApplicationLimitType
      */
     public function setApplicableLevel($ApplicableLevel)
     {
@@ -67,7 +67,7 @@ class OptionalServiceApplicationLimitType
 
     /**
      * @param string $ProviderDefinedApplicableLevels
-     * @return \FilippoToso\Travelport\GDSQueue\OptionalServiceApplicationLimitType
+     * @return \Santosdave\Travelport\GDSQueue\OptionalServiceApplicationLimitType
      */
     public function setProviderDefinedApplicableLevels($ProviderDefinedApplicableLevels)
     {
@@ -85,7 +85,7 @@ class OptionalServiceApplicationLimitType
 
     /**
      * @param int $MaximumQuantity
-     * @return \FilippoToso\Travelport\GDSQueue\OptionalServiceApplicationLimitType
+     * @return \Santosdave\Travelport\GDSQueue\OptionalServiceApplicationLimitType
      */
     public function setMaximumQuantity($MaximumQuantity)
     {
@@ -103,7 +103,7 @@ class OptionalServiceApplicationLimitType
 
     /**
      * @param int $MinimumQuantity
-     * @return \FilippoToso\Travelport\GDSQueue\OptionalServiceApplicationLimitType
+     * @return \Santosdave\Travelport\GDSQueue\OptionalServiceApplicationLimitType
      */
     public function setMinimumQuantity($MinimumQuantity)
     {

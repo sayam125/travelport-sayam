@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class AirExchangeMultiQuoteOption
 {
@@ -42,7 +42,7 @@ class AirExchangeMultiQuoteOption
 
     /**
      * @param AirSegmentData $AirSegmentData
-     * @return \FilippoToso\Travelport\Air\AirExchangeMultiQuoteOption
+     * @return \Santosdave\Travelport\Air\AirExchangeMultiQuoteOption
      */
     public function setAirSegmentData($AirSegmentData)
     {
@@ -60,7 +60,7 @@ class AirExchangeMultiQuoteOption
 
     /**
      * @param AirExchangeBundleTotal $AirExchangeBundleTotal
-     * @return \FilippoToso\Travelport\Air\AirExchangeMultiQuoteOption
+     * @return \Santosdave\Travelport\Air\AirExchangeMultiQuoteOption
      */
     public function setAirExchangeBundleTotal($AirExchangeBundleTotal)
     {
@@ -78,7 +78,7 @@ class AirExchangeMultiQuoteOption
 
     /**
      * @param AirExchangeBundleList $AirExchangeBundleList
-     * @return \FilippoToso\Travelport\Air\AirExchangeMultiQuoteOption
+     * @return \Santosdave\Travelport\Air\AirExchangeMultiQuoteOption
      */
     public function setAirExchangeBundleList($AirExchangeBundleList)
     {

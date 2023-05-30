@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class typeDateSpec
 {
@@ -31,7 +31,7 @@ class typeDateSpec
 
     /**
      * @param typeDateRange $DateRange
-     * @return \FilippoToso\Travelport\Rail\typeDateSpec
+     * @return \Santosdave\Travelport\Rail\typeDateSpec
      */
     public function setDateRange($DateRange)
     {
@@ -49,7 +49,7 @@ class typeDateSpec
 
     /**
      * @param date $SpecificDate
-     * @return \FilippoToso\Travelport\Rail\typeDateSpec
+     * @return \Santosdave\Travelport\Rail\typeDateSpec
      */
     public function setSpecificDate($SpecificDate)
     {

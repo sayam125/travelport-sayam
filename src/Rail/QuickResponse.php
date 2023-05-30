@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class QuickResponse
 {
@@ -35,7 +35,7 @@ class QuickResponse
 
     /**
      * @param boolean $FastResult
-     * @return \FilippoToso\Travelport\Rail\QuickResponse
+     * @return \Santosdave\Travelport\Rail\QuickResponse
      */
     public function setFastResult($FastResult)
     {
@@ -53,7 +53,7 @@ class QuickResponse
 
     /**
      * @param string $MoreToken
-     * @return \FilippoToso\Travelport\Rail\QuickResponse
+     * @return \Santosdave\Travelport\Rail\QuickResponse
      */
     public function setMoreToken($MoreToken)
     {

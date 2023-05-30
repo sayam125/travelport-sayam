@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class RailExchangeQuoteRsp extends BaseRsp
 {
@@ -76,7 +76,7 @@ class RailExchangeQuoteRsp extends BaseRsp
 
     /**
      * @param RailSegmentList $RailSegmentList
-     * @return \FilippoToso\Travelport\Rail\RailExchangeQuoteRsp
+     * @return \Santosdave\Travelport\Rail\RailExchangeQuoteRsp
      */
     public function setRailSegmentList($RailSegmentList)
     {
@@ -94,7 +94,7 @@ class RailExchangeQuoteRsp extends BaseRsp
 
     /**
      * @param RailJourneyList $RailJourneyList
-     * @return \FilippoToso\Travelport\Rail\RailExchangeQuoteRsp
+     * @return \Santosdave\Travelport\Rail\RailExchangeQuoteRsp
      */
     public function setRailJourneyList($RailJourneyList)
     {
@@ -112,7 +112,7 @@ class RailExchangeQuoteRsp extends BaseRsp
 
     /**
      * @param RailExchangeSolution $RailExchangeSolution
-     * @return \FilippoToso\Travelport\Rail\RailExchangeQuoteRsp
+     * @return \Santosdave\Travelport\Rail\RailExchangeQuoteRsp
      */
     public function setRailExchangeSolution($RailExchangeSolution)
     {
@@ -130,7 +130,7 @@ class RailExchangeQuoteRsp extends BaseRsp
 
     /**
      * @param RailFareNoteList $RailFareNoteList
-     * @return \FilippoToso\Travelport\Rail\RailExchangeQuoteRsp
+     * @return \Santosdave\Travelport\Rail\RailExchangeQuoteRsp
      */
     public function setRailFareNoteList($RailFareNoteList)
     {
@@ -148,7 +148,7 @@ class RailExchangeQuoteRsp extends BaseRsp
 
     /**
      * @param RailFareIDList $RailFareIDList
-     * @return \FilippoToso\Travelport\Rail\RailExchangeQuoteRsp
+     * @return \Santosdave\Travelport\Rail\RailExchangeQuoteRsp
      */
     public function setRailFareIDList($RailFareIDList)
     {
@@ -166,7 +166,7 @@ class RailExchangeQuoteRsp extends BaseRsp
 
     /**
      * @param RailFareList $RailFareList
-     * @return \FilippoToso\Travelport\Rail\RailExchangeQuoteRsp
+     * @return \Santosdave\Travelport\Rail\RailExchangeQuoteRsp
      */
     public function setRailFareList($RailFareList)
     {
@@ -184,7 +184,7 @@ class RailExchangeQuoteRsp extends BaseRsp
 
     /**
      * @param HostTokenList $HostTokenList
-     * @return \FilippoToso\Travelport\Rail\RailExchangeQuoteRsp
+     * @return \Santosdave\Travelport\Rail\RailExchangeQuoteRsp
      */
     public function setHostTokenList($HostTokenList)
     {

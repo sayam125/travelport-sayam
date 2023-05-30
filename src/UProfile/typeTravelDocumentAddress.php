@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeTravelDocumentAddress
 {
@@ -63,7 +63,7 @@ class typeTravelDocumentAddress
 
     /**
      * @param StringLength1to128 $AddressLine
-     * @return \FilippoToso\Travelport\UProfile\typeTravelDocumentAddress
+     * @return \Santosdave\Travelport\UProfile\typeTravelDocumentAddress
      */
     public function setAddressLine($AddressLine)
     {
@@ -81,7 +81,7 @@ class typeTravelDocumentAddress
 
     /**
      * @param anonymous851 $City
-     * @return \FilippoToso\Travelport\UProfile\typeTravelDocumentAddress
+     * @return \Santosdave\Travelport\UProfile\typeTravelDocumentAddress
      */
     public function setCity($City)
     {
@@ -99,7 +99,7 @@ class typeTravelDocumentAddress
 
     /**
      * @param anonymous852 $State
-     * @return \FilippoToso\Travelport\UProfile\typeTravelDocumentAddress
+     * @return \Santosdave\Travelport\UProfile\typeTravelDocumentAddress
      */
     public function setState($State)
     {
@@ -117,7 +117,7 @@ class typeTravelDocumentAddress
 
     /**
      * @param StringLength1to128 $OtherStateProvince
-     * @return \FilippoToso\Travelport\UProfile\typeTravelDocumentAddress
+     * @return \Santosdave\Travelport\UProfile\typeTravelDocumentAddress
      */
     public function setOtherStateProvince($OtherStateProvince)
     {
@@ -135,7 +135,7 @@ class typeTravelDocumentAddress
 
     /**
      * @param anonymous853 $Country
-     * @return \FilippoToso\Travelport\UProfile\typeTravelDocumentAddress
+     * @return \Santosdave\Travelport\UProfile\typeTravelDocumentAddress
      */
     public function setCountry($Country)
     {
@@ -153,7 +153,7 @@ class typeTravelDocumentAddress
 
     /**
      * @param anonymous854 $Postal
-     * @return \FilippoToso\Travelport\UProfile\typeTravelDocumentAddress
+     * @return \Santosdave\Travelport\UProfile\typeTravelDocumentAddress
      */
     public function setPostal($Postal)
     {

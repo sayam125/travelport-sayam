@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class ExternalReservationInfo
 {
@@ -35,7 +35,7 @@ class ExternalReservationInfo
 
     /**
      * @param typeLocatorCode $LocatorCode
-     * @return \FilippoToso\Travelport\UniversalRecord\ExternalReservationInfo
+     * @return \Santosdave\Travelport\UniversalRecord\ExternalReservationInfo
      */
     public function setLocatorCode($LocatorCode)
     {
@@ -53,7 +53,7 @@ class ExternalReservationInfo
 
     /**
      * @param typeCarrier $Carrier
-     * @return \FilippoToso\Travelport\UniversalRecord\ExternalReservationInfo
+     * @return \Santosdave\Travelport\UniversalRecord\ExternalReservationInfo
      */
     public function setCarrier($Carrier)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class typeDateRange
 {
@@ -35,7 +35,7 @@ class typeDateRange
 
     /**
      * @param date $StartDate
-     * @return \FilippoToso\Travelport\UniversalRecord\typeDateRange
+     * @return \Santosdave\Travelport\UniversalRecord\typeDateRange
      */
     public function setStartDate($StartDate)
     {
@@ -53,7 +53,7 @@ class typeDateRange
 
     /**
      * @param date $EndDate
-     * @return \FilippoToso\Travelport\UniversalRecord\typeDateRange
+     * @return \Santosdave\Travelport\UniversalRecord\typeDateRange
      */
     public function setEndDate($EndDate)
     {

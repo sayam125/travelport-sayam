@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Vehicle;
+namespace Santosdave\Travelport\Vehicle;
 
 class VehicleSearchAvailabilityRsp extends BaseVehicleSearchAvailabilityRsp
 {
@@ -44,7 +44,7 @@ class VehicleSearchAvailabilityRsp extends BaseVehicleSearchAvailabilityRsp
 
     /**
      * @param MarketingInformation $MarketingInformation
-     * @return \FilippoToso\Travelport\Vehicle\VehicleSearchAvailabilityRsp
+     * @return \Santosdave\Travelport\Vehicle\VehicleSearchAvailabilityRsp
      */
     public function setMarketingInformation($MarketingInformation)
     {
@@ -62,7 +62,7 @@ class VehicleSearchAvailabilityRsp extends BaseVehicleSearchAvailabilityRsp
 
     /**
      * @param string $MediaLinksSearchId
-     * @return \FilippoToso\Travelport\Vehicle\VehicleSearchAvailabilityRsp
+     * @return \Santosdave\Travelport\Vehicle\VehicleSearchAvailabilityRsp
      */
     public function setMediaLinksSearchId($MediaLinksSearchId)
     {

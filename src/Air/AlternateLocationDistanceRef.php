@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class AlternateLocationDistanceRef
 {
@@ -28,7 +28,7 @@ class AlternateLocationDistanceRef
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Air\AlternateLocationDistanceRef
+     * @return \Santosdave\Travelport\Air\AlternateLocationDistanceRef
      */
     public function setKey($Key)
     {

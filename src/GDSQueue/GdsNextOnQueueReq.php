@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class GdsNextOnQueueReq extends BaseReq
 {
@@ -75,7 +75,7 @@ class GdsNextOnQueueReq extends BaseReq
 
     /**
      * @param QueuePseudoCitySelector $QueuePseudoCitySelector
-     * @return \FilippoToso\Travelport\GDSQueue\GdsNextOnQueueReq
+     * @return \Santosdave\Travelport\GDSQueue\GdsNextOnQueueReq
      */
     public function setQueuePseudoCitySelector($QueuePseudoCitySelector)
     {
@@ -93,7 +93,7 @@ class GdsNextOnQueueReq extends BaseReq
 
     /**
      * @param typeLocatorCode $ProviderLocatorCode
-     * @return \FilippoToso\Travelport\GDSQueue\GdsNextOnQueueReq
+     * @return \Santosdave\Travelport\GDSQueue\GdsNextOnQueueReq
      */
     public function setProviderLocatorCode($ProviderLocatorCode)
     {
@@ -111,7 +111,7 @@ class GdsNextOnQueueReq extends BaseReq
 
     /**
      * @param string $QueueSessionToken
-     * @return \FilippoToso\Travelport\GDSQueue\GdsNextOnQueueReq
+     * @return \Santosdave\Travelport\GDSQueue\GdsNextOnQueueReq
      */
     public function setQueueSessionToken($QueueSessionToken)
     {
@@ -129,7 +129,7 @@ class GdsNextOnQueueReq extends BaseReq
 
     /**
      * @param boolean $QueueContinue
-     * @return \FilippoToso\Travelport\GDSQueue\GdsNextOnQueueReq
+     * @return \Santosdave\Travelport\GDSQueue\GdsNextOnQueueReq
      */
     public function setQueueContinue($QueueContinue)
     {
@@ -147,7 +147,7 @@ class GdsNextOnQueueReq extends BaseReq
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\GDSQueue\GdsNextOnQueueReq
+     * @return \Santosdave\Travelport\GDSQueue\GdsNextOnQueueReq
      */
     public function setProviderCode($ProviderCode)
     {
@@ -165,7 +165,7 @@ class GdsNextOnQueueReq extends BaseReq
 
     /**
      * @param boolean $RemoveCurrent
-     * @return \FilippoToso\Travelport\GDSQueue\GdsNextOnQueueReq
+     * @return \Santosdave\Travelport\GDSQueue\GdsNextOnQueueReq
      */
     public function setRemoveCurrent($RemoveCurrent)
     {

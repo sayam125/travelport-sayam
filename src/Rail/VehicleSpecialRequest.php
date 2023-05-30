@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class VehicleSpecialRequest
 {
@@ -35,7 +35,7 @@ class VehicleSpecialRequest
 
     /**
      * @param typeGeneralText $_
-     * @return \FilippoToso\Travelport\Rail\VehicleSpecialRequest
+     * @return \Santosdave\Travelport\Rail\VehicleSpecialRequest
      */
     public function set_($_)
     {
@@ -53,7 +53,7 @@ class VehicleSpecialRequest
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Rail\VehicleSpecialRequest
+     * @return \Santosdave\Travelport\Rail\VehicleSpecialRequest
      */
     public function setKey($Key)
     {

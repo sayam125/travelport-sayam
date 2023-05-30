@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class DetailRetrieve
 {
@@ -35,7 +35,7 @@ class DetailRetrieve
 
     /**
      * @param typeProviderReservationDetail $ProviderReservationDetail
-     * @return \FilippoToso\Travelport\Air\DetailRetrieve
+     * @return \Santosdave\Travelport\Air\DetailRetrieve
      */
     public function setProviderReservationDetail($ProviderReservationDetail)
     {
@@ -53,7 +53,7 @@ class DetailRetrieve
 
     /**
      * @param typeEMDNumber $EMDNumber
-     * @return \FilippoToso\Travelport\Air\DetailRetrieve
+     * @return \Santosdave\Travelport\Air\DetailRetrieve
      */
     public function setEMDNumber($EMDNumber)
     {

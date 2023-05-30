@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class PriceRange
 {
@@ -42,7 +42,7 @@ class PriceRange
 
     /**
      * @param boolean $DefaultCurrency
-     * @return \FilippoToso\Travelport\Air\PriceRange
+     * @return \Santosdave\Travelport\Air\PriceRange
      */
     public function setDefaultCurrency($DefaultCurrency)
     {
@@ -60,7 +60,7 @@ class PriceRange
 
     /**
      * @param typeMoney $StartPrice
-     * @return \FilippoToso\Travelport\Air\PriceRange
+     * @return \Santosdave\Travelport\Air\PriceRange
      */
     public function setStartPrice($StartPrice)
     {
@@ -78,7 +78,7 @@ class PriceRange
 
     /**
      * @param typeMoney $EndPrice
-     * @return \FilippoToso\Travelport\Air\PriceRange
+     * @return \Santosdave\Travelport\Air\PriceRange
      */
     public function setEndPrice($EndPrice)
     {

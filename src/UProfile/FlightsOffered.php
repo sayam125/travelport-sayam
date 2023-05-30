@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class FlightsOffered
 {
@@ -84,7 +84,7 @@ class FlightsOffered
 
     /**
      * @param typeIATACode $Origin
-     * @return \FilippoToso\Travelport\UProfile\FlightsOffered
+     * @return \Santosdave\Travelport\UProfile\FlightsOffered
      */
     public function setOrigin($Origin)
     {
@@ -102,7 +102,7 @@ class FlightsOffered
 
     /**
      * @param typeIATACode $Destination
-     * @return \FilippoToso\Travelport\UProfile\FlightsOffered
+     * @return \Santosdave\Travelport\UProfile\FlightsOffered
      */
     public function setDestination($Destination)
     {
@@ -120,7 +120,7 @@ class FlightsOffered
 
     /**
      * @param string $DepartureTime
-     * @return \FilippoToso\Travelport\UProfile\FlightsOffered
+     * @return \Santosdave\Travelport\UProfile\FlightsOffered
      */
     public function setDepartureTime($DepartureTime)
     {
@@ -138,7 +138,7 @@ class FlightsOffered
 
     /**
      * @param int $TravelOrder
-     * @return \FilippoToso\Travelport\UProfile\FlightsOffered
+     * @return \Santosdave\Travelport\UProfile\FlightsOffered
      */
     public function setTravelOrder($TravelOrder)
     {
@@ -156,7 +156,7 @@ class FlightsOffered
 
     /**
      * @param typeCarrier $Carrier
-     * @return \FilippoToso\Travelport\UProfile\FlightsOffered
+     * @return \Santosdave\Travelport\UProfile\FlightsOffered
      */
     public function setCarrier($Carrier)
     {
@@ -174,7 +174,7 @@ class FlightsOffered
 
     /**
      * @param typeFlightNumber $FlightNumber
-     * @return \FilippoToso\Travelport\UProfile\FlightsOffered
+     * @return \Santosdave\Travelport\UProfile\FlightsOffered
      */
     public function setFlightNumber($FlightNumber)
     {
@@ -192,7 +192,7 @@ class FlightsOffered
 
     /**
      * @param typeClassOfService $ClassOfService
-     * @return \FilippoToso\Travelport\UProfile\FlightsOffered
+     * @return \Santosdave\Travelport\UProfile\FlightsOffered
      */
     public function setClassOfService($ClassOfService)
     {
@@ -210,7 +210,7 @@ class FlightsOffered
 
     /**
      * @param boolean $StopOver
-     * @return \FilippoToso\Travelport\UProfile\FlightsOffered
+     * @return \Santosdave\Travelport\UProfile\FlightsOffered
      */
     public function setStopOver($StopOver)
     {
@@ -228,7 +228,7 @@ class FlightsOffered
 
     /**
      * @param boolean $Connection
-     * @return \FilippoToso\Travelport\UProfile\FlightsOffered
+     * @return \Santosdave\Travelport\UProfile\FlightsOffered
      */
     public function setConnection($Connection)
     {

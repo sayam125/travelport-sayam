@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeTravelerGroupInfoHistory extends typeAccountTypeProfileInfo
 {
@@ -39,7 +39,7 @@ class typeTravelerGroupInfoHistory extends typeAccountTypeProfileInfo
 
     /**
      * @param StringLength1to128 $Name
-     * @return \FilippoToso\Travelport\UProfile\typeTravelerGroupInfoHistory
+     * @return \Santosdave\Travelport\UProfile\typeTravelerGroupInfoHistory
      */
     public function setName($Name)
     {
@@ -57,7 +57,7 @@ class typeTravelerGroupInfoHistory extends typeAccountTypeProfileInfo
 
     /**
      * @param StringLength1to128 $LocalLanguageName
-     * @return \FilippoToso\Travelport\UProfile\typeTravelerGroupInfoHistory
+     * @return \Santosdave\Travelport\UProfile\typeTravelerGroupInfoHistory
      */
     public function setLocalLanguageName($LocalLanguageName)
     {

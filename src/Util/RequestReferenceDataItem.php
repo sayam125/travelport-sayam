@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class RequestReferenceDataItem
 {
@@ -26,7 +26,7 @@ class RequestReferenceDataItem
 
     /**
      * @param RequestAmenity[] $RequestAmenity
-     * @return \FilippoToso\Travelport\Util\RequestReferenceDataItem
+     * @return \Santosdave\Travelport\Util\RequestReferenceDataItem
      */
     public function setRequestAmenity(array $RequestAmenity = null)
     {

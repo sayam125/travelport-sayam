@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class ServiceSubGroup
 {
@@ -28,7 +28,7 @@ class ServiceSubGroup
 
     /**
      * @param string $Code
-     * @return \FilippoToso\Travelport\GDSQueue\ServiceSubGroup
+     * @return \Santosdave\Travelport\GDSQueue\ServiceSubGroup
      */
     public function setCode($Code)
     {

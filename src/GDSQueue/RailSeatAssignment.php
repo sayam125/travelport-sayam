@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class RailSeatAssignment
 {
@@ -77,7 +77,7 @@ class RailSeatAssignment
 
     /**
      * @param Characteristic $Characteristic
-     * @return \FilippoToso\Travelport\GDSQueue\RailSeatAssignment
+     * @return \Santosdave\Travelport\GDSQueue\RailSeatAssignment
      */
     public function setCharacteristic($Characteristic)
     {
@@ -95,7 +95,7 @@ class RailSeatAssignment
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\GDSQueue\RailSeatAssignment
+     * @return \Santosdave\Travelport\GDSQueue\RailSeatAssignment
      */
     public function setKey($Key)
     {
@@ -113,7 +113,7 @@ class RailSeatAssignment
 
     /**
      * @param typeStatusCode $Status
-     * @return \FilippoToso\Travelport\GDSQueue\RailSeatAssignment
+     * @return \Santosdave\Travelport\GDSQueue\RailSeatAssignment
      */
     public function setStatus($Status)
     {
@@ -131,7 +131,7 @@ class RailSeatAssignment
 
     /**
      * @param string $Seat
-     * @return \FilippoToso\Travelport\GDSQueue\RailSeatAssignment
+     * @return \Santosdave\Travelport\GDSQueue\RailSeatAssignment
      */
     public function setSeat($Seat)
     {
@@ -149,7 +149,7 @@ class RailSeatAssignment
 
     /**
      * @param typeRef $RailSegmentRef
-     * @return \FilippoToso\Travelport\GDSQueue\RailSeatAssignment
+     * @return \Santosdave\Travelport\GDSQueue\RailSeatAssignment
      */
     public function setRailSegmentRef($RailSegmentRef)
     {
@@ -167,7 +167,7 @@ class RailSeatAssignment
 
     /**
      * @param string $CoachNumber
-     * @return \FilippoToso\Travelport\GDSQueue\RailSeatAssignment
+     * @return \Santosdave\Travelport\GDSQueue\RailSeatAssignment
      */
     public function setCoachNumber($CoachNumber)
     {
@@ -185,7 +185,7 @@ class RailSeatAssignment
 
     /**
      * @param typeElementStatus $ElStat
-     * @return \FilippoToso\Travelport\GDSQueue\RailSeatAssignment
+     * @return \Santosdave\Travelport\GDSQueue\RailSeatAssignment
      */
     public function setElStat($ElStat)
     {
@@ -203,7 +203,7 @@ class RailSeatAssignment
 
     /**
      * @param boolean $KeyOverride
-     * @return \FilippoToso\Travelport\GDSQueue\RailSeatAssignment
+     * @return \Santosdave\Travelport\GDSQueue\RailSeatAssignment
      */
     public function setKeyOverride($KeyOverride)
     {

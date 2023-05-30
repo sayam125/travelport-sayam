@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeSearchPaymentDetails
 {
@@ -47,7 +47,7 @@ class typeSearchPaymentDetails
 
     /**
      * @param typeDateOptions $ExpirationDate
-     * @return \FilippoToso\Travelport\UProfile\typeSearchPaymentDetails
+     * @return \Santosdave\Travelport\UProfile\typeSearchPaymentDetails
      */
     public function setExpirationDate($ExpirationDate)
     {
@@ -65,7 +65,7 @@ class typeSearchPaymentDetails
 
     /**
      * @param typePaymentType $Type
-     * @return \FilippoToso\Travelport\UProfile\typeSearchPaymentDetails
+     * @return \Santosdave\Travelport\UProfile\typeSearchPaymentDetails
      */
     public function setType($Type)
     {
@@ -83,7 +83,7 @@ class typeSearchPaymentDetails
 
     /**
      * @param typePaymentSupplier $PaymentSupplier
-     * @return \FilippoToso\Travelport\UProfile\typeSearchPaymentDetails
+     * @return \Santosdave\Travelport\UProfile\typeSearchPaymentDetails
      */
     public function setPaymentSupplier($PaymentSupplier)
     {
@@ -101,7 +101,7 @@ class typeSearchPaymentDetails
 
     /**
      * @param StringLength1to255 $AccountNumber
-     * @return \FilippoToso\Travelport\UProfile\typeSearchPaymentDetails
+     * @return \Santosdave\Travelport\UProfile\typeSearchPaymentDetails
      */
     public function setAccountNumber($AccountNumber)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class Embargo
 {
@@ -84,7 +84,7 @@ class Embargo
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Air\Embargo
+     * @return \Santosdave\Travelport\Air\Embargo
      */
     public function setKey($Key)
     {
@@ -102,7 +102,7 @@ class Embargo
 
     /**
      * @param typeCarrier $Carrier
-     * @return \FilippoToso\Travelport\Air\Embargo
+     * @return \Santosdave\Travelport\Air\Embargo
      */
     public function setCarrier($Carrier)
     {
@@ -120,7 +120,7 @@ class Embargo
 
     /**
      * @param typeRef $SegmentRef
-     * @return \FilippoToso\Travelport\Air\Embargo
+     * @return \Santosdave\Travelport\Air\Embargo
      */
     public function setSegmentRef($SegmentRef)
     {
@@ -138,7 +138,7 @@ class Embargo
 
     /**
      * @param anonymous1126 $Name
-     * @return \FilippoToso\Travelport\Air\Embargo
+     * @return \Santosdave\Travelport\Air\Embargo
      */
     public function setName($Name)
     {
@@ -156,7 +156,7 @@ class Embargo
 
     /**
      * @param string $Text
-     * @return \FilippoToso\Travelport\Air\Embargo
+     * @return \Santosdave\Travelport\Air\Embargo
      */
     public function setText($Text)
     {
@@ -174,7 +174,7 @@ class Embargo
 
     /**
      * @param string $SecondaryType
-     * @return \FilippoToso\Travelport\Air\Embargo
+     * @return \Santosdave\Travelport\Air\Embargo
      */
     public function setSecondaryType($SecondaryType)
     {
@@ -192,7 +192,7 @@ class Embargo
 
     /**
      * @param typeMerchandisingService $Type
-     * @return \FilippoToso\Travelport\Air\Embargo
+     * @return \Santosdave\Travelport\Air\Embargo
      */
     public function setType($Type)
     {
@@ -210,7 +210,7 @@ class Embargo
 
     /**
      * @param anyURI $Url
-     * @return \FilippoToso\Travelport\Air\Embargo
+     * @return \Santosdave\Travelport\Air\Embargo
      */
     public function setUrl($Url)
     {
@@ -228,7 +228,7 @@ class Embargo
 
     /**
      * @param anonymous1127 $ServiceSubCode
-     * @return \FilippoToso\Travelport\Air\Embargo
+     * @return \Santosdave\Travelport\Air\Embargo
      */
     public function setServiceSubCode($ServiceSubCode)
     {

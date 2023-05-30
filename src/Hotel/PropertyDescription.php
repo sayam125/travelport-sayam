@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class PropertyDescription
 {
@@ -35,7 +35,7 @@ class PropertyDescription
 
     /**
      * @param string $_
-     * @return \FilippoToso\Travelport\Hotel\PropertyDescription
+     * @return \Santosdave\Travelport\Hotel\PropertyDescription
      */
     public function set_($_)
     {
@@ -53,7 +53,7 @@ class PropertyDescription
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\Hotel\PropertyDescription
+     * @return \Santosdave\Travelport\Hotel\PropertyDescription
      */
     public function setProviderCode($ProviderCode)
     {

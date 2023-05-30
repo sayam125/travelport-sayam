@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeElectronicAddressHistory extends typeKeyTaggedElement
 {
@@ -73,7 +73,7 @@ class typeElectronicAddressHistory extends typeKeyTaggedElement
 
     /**
      * @param anonymous736 $Name
-     * @return \FilippoToso\Travelport\UProfile\typeElectronicAddressHistory
+     * @return \Santosdave\Travelport\UProfile\typeElectronicAddressHistory
      */
     public function setName($Name)
     {
@@ -91,7 +91,7 @@ class typeElectronicAddressHistory extends typeKeyTaggedElement
 
     /**
      * @param typeEmailType $Type
-     * @return \FilippoToso\Travelport\UProfile\typeElectronicAddressHistory
+     * @return \Santosdave\Travelport\UProfile\typeElectronicAddressHistory
      */
     public function setType($Type)
     {
@@ -109,7 +109,7 @@ class typeElectronicAddressHistory extends typeKeyTaggedElement
 
     /**
      * @param typeEmailFormat $Format
-     * @return \FilippoToso\Travelport\UProfile\typeElectronicAddressHistory
+     * @return \Santosdave\Travelport\UProfile\typeElectronicAddressHistory
      */
     public function setFormat($Format)
     {
@@ -127,7 +127,7 @@ class typeElectronicAddressHistory extends typeKeyTaggedElement
 
     /**
      * @param typeContactPurpose $Purpose
-     * @return \FilippoToso\Travelport\UProfile\typeElectronicAddressHistory
+     * @return \Santosdave\Travelport\UProfile\typeElectronicAddressHistory
      */
     public function setPurpose($Purpose)
     {
@@ -145,7 +145,7 @@ class typeElectronicAddressHistory extends typeKeyTaggedElement
 
     /**
      * @param boolean $Provisioned
-     * @return \FilippoToso\Travelport\UProfile\typeElectronicAddressHistory
+     * @return \Santosdave\Travelport\UProfile\typeElectronicAddressHistory
      */
     public function setProvisioned($Provisioned)
     {
@@ -163,7 +163,7 @@ class typeElectronicAddressHistory extends typeKeyTaggedElement
 
     /**
      * @param typePriorityOrder $PriorityOrder
-     * @return \FilippoToso\Travelport\UProfile\typeElectronicAddressHistory
+     * @return \Santosdave\Travelport\UProfile\typeElectronicAddressHistory
      */
     public function setPriorityOrder($PriorityOrder)
     {
@@ -181,7 +181,7 @@ class typeElectronicAddressHistory extends typeKeyTaggedElement
 
     /**
      * @param typeProfileID $OwnerID
-     * @return \FilippoToso\Travelport\UProfile\typeElectronicAddressHistory
+     * @return \Santosdave\Travelport\UProfile\typeElectronicAddressHistory
      */
     public function setOwnerID($OwnerID)
     {

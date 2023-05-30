@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class TermConditions
 {
@@ -35,7 +35,7 @@ class TermConditions
 
     /**
      * @param LanguageOption $LanguageOption
-     * @return \FilippoToso\Travelport\UniversalRecord\TermConditions
+     * @return \Santosdave\Travelport\UniversalRecord\TermConditions
      */
     public function setLanguageOption($LanguageOption)
     {
@@ -53,7 +53,7 @@ class TermConditions
 
     /**
      * @param boolean $IncludeTermConditions
-     * @return \FilippoToso\Travelport\UniversalRecord\TermConditions
+     * @return \Santosdave\Travelport\UniversalRecord\TermConditions
      */
     public function setIncludeTermConditions($IncludeTermConditions)
     {

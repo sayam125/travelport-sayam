@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class AirFareRuleCategory
 {
@@ -35,7 +35,7 @@ class AirFareRuleCategory
 
     /**
      * @param typeFareRuleCategoryCode[] $CategoryCode
-     * @return \FilippoToso\Travelport\UniversalRecord\AirFareRuleCategory
+     * @return \Santosdave\Travelport\UniversalRecord\AirFareRuleCategory
      */
     public function setCategoryCode(array $CategoryCode)
     {
@@ -53,7 +53,7 @@ class AirFareRuleCategory
 
     /**
      * @param typeRef $FareInfoRef
-     * @return \FilippoToso\Travelport\UniversalRecord\AirFareRuleCategory
+     * @return \Santosdave\Travelport\UniversalRecord\AirFareRuleCategory
      */
     public function setFareInfoRef($FareInfoRef)
     {

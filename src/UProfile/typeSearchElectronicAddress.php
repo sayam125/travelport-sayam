@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeSearchElectronicAddress
 {
@@ -42,7 +42,7 @@ class typeSearchElectronicAddress
 
     /**
      * @param typeWildcard $Address
-     * @return \FilippoToso\Travelport\UProfile\typeSearchElectronicAddress
+     * @return \Santosdave\Travelport\UProfile\typeSearchElectronicAddress
      */
     public function setAddress($Address)
     {
@@ -60,7 +60,7 @@ class typeSearchElectronicAddress
 
     /**
      * @param typeEmailType $Type
-     * @return \FilippoToso\Travelport\UProfile\typeSearchElectronicAddress
+     * @return \Santosdave\Travelport\UProfile\typeSearchElectronicAddress
      */
     public function setType($Type)
     {
@@ -78,7 +78,7 @@ class typeSearchElectronicAddress
 
     /**
      * @param typeContactPurpose $Purpose
-     * @return \FilippoToso\Travelport\UProfile\typeSearchElectronicAddress
+     * @return \Santosdave\Travelport\UProfile\typeSearchElectronicAddress
      */
     public function setPurpose($Purpose)
     {

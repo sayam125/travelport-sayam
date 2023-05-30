@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class RoomView
 {
@@ -28,7 +28,7 @@ class RoomView
 
     /**
      * @param typeOTACode $Code
-     * @return \FilippoToso\Travelport\Hotel\RoomView
+     * @return \Santosdave\Travelport\Hotel\RoomView
      */
     public function setCode($Code)
     {

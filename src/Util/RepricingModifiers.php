@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class RepricingModifiers
 {
@@ -176,7 +176,7 @@ class RepricingModifiers
 
     /**
      * @param PrivateFareOptions $PrivateFareOptions
-     * @return \FilippoToso\Travelport\Util\RepricingModifiers
+     * @return \Santosdave\Travelport\Util\RepricingModifiers
      */
     public function setPrivateFareOptions($PrivateFareOptions)
     {
@@ -194,7 +194,7 @@ class RepricingModifiers
 
     /**
      * @param FareType $FareType
-     * @return \FilippoToso\Travelport\Util\RepricingModifiers
+     * @return \Santosdave\Travelport\Util\RepricingModifiers
      */
     public function setFareType($FareType)
     {
@@ -212,7 +212,7 @@ class RepricingModifiers
 
     /**
      * @param FareTicketDesignator $FareTicketDesignator
-     * @return \FilippoToso\Travelport\Util\RepricingModifiers
+     * @return \Santosdave\Travelport\Util\RepricingModifiers
      */
     public function setFareTicketDesignator($FareTicketDesignator)
     {
@@ -230,7 +230,7 @@ class RepricingModifiers
 
     /**
      * @param OverrideCurrency $OverrideCurrency
-     * @return \FilippoToso\Travelport\Util\RepricingModifiers
+     * @return \Santosdave\Travelport\Util\RepricingModifiers
      */
     public function setOverrideCurrency($OverrideCurrency)
     {
@@ -248,7 +248,7 @@ class RepricingModifiers
 
     /**
      * @param AirSegmentPricingModifiers $AirSegmentPricingModifiers
-     * @return \FilippoToso\Travelport\Util\RepricingModifiers
+     * @return \Santosdave\Travelport\Util\RepricingModifiers
      */
     public function setAirSegmentPricingModifiers($AirSegmentPricingModifiers)
     {
@@ -266,7 +266,7 @@ class RepricingModifiers
 
     /**
      * @param WithholdTaxCode[] $WithholdTaxCode
-     * @return \FilippoToso\Travelport\Util\RepricingModifiers
+     * @return \Santosdave\Travelport\Util\RepricingModifiers
      */
     public function setWithholdTaxCode(array $WithholdTaxCode = null)
     {
@@ -284,7 +284,7 @@ class RepricingModifiers
 
     /**
      * @param typePriceClassOfService $PriceClassOfService
-     * @return \FilippoToso\Travelport\Util\RepricingModifiers
+     * @return \Santosdave\Travelport\Util\RepricingModifiers
      */
     public function setPriceClassOfService($PriceClassOfService)
     {
@@ -302,7 +302,7 @@ class RepricingModifiers
 
     /**
      * @param date $CreateDate
-     * @return \FilippoToso\Travelport\Util\RepricingModifiers
+     * @return \Santosdave\Travelport\Util\RepricingModifiers
      */
     public function setCreateDate($CreateDate)
     {
@@ -320,7 +320,7 @@ class RepricingModifiers
 
     /**
      * @param typeCity $ReissueLocCityCode
-     * @return \FilippoToso\Travelport\Util\RepricingModifiers
+     * @return \Santosdave\Travelport\Util\RepricingModifiers
      */
     public function setReissueLocCityCode($ReissueLocCityCode)
     {
@@ -338,7 +338,7 @@ class RepricingModifiers
 
     /**
      * @param typeCountry $ReissueLocCountryCode
-     * @return \FilippoToso\Travelport\Util\RepricingModifiers
+     * @return \Santosdave\Travelport\Util\RepricingModifiers
      */
     public function setReissueLocCountryCode($ReissueLocCountryCode)
     {
@@ -356,7 +356,7 @@ class RepricingModifiers
 
     /**
      * @param boolean $BulkTicket
-     * @return \FilippoToso\Travelport\Util\RepricingModifiers
+     * @return \Santosdave\Travelport\Util\RepricingModifiers
      */
     public function setBulkTicket($BulkTicket)
     {
@@ -374,7 +374,7 @@ class RepricingModifiers
 
     /**
      * @param string $AccountCode
-     * @return \FilippoToso\Travelport\Util\RepricingModifiers
+     * @return \Santosdave\Travelport\Util\RepricingModifiers
      */
     public function setAccountCode($AccountCode)
     {
@@ -392,7 +392,7 @@ class RepricingModifiers
 
     /**
      * @param anonymous1035 $PenaltyAsTaxCode
-     * @return \FilippoToso\Travelport\Util\RepricingModifiers
+     * @return \Santosdave\Travelport\Util\RepricingModifiers
      */
     public function setPenaltyAsTaxCode($PenaltyAsTaxCode)
     {
@@ -410,7 +410,7 @@ class RepricingModifiers
 
     /**
      * @param typeRef $AirPricingSolutionRef
-     * @return \FilippoToso\Travelport\Util\RepricingModifiers
+     * @return \Santosdave\Travelport\Util\RepricingModifiers
      */
     public function setAirPricingSolutionRef($AirPricingSolutionRef)
     {
@@ -428,7 +428,7 @@ class RepricingModifiers
 
     /**
      * @param boolean $PenaltyToFare
-     * @return \FilippoToso\Travelport\Util\RepricingModifiers
+     * @return \Santosdave\Travelport\Util\RepricingModifiers
      */
     public function setPenaltyToFare($PenaltyToFare)
     {
@@ -446,7 +446,7 @@ class RepricingModifiers
 
     /**
      * @param boolean $PricePTCOnly
-     * @return \FilippoToso\Travelport\Util\RepricingModifiers
+     * @return \Santosdave\Travelport\Util\RepricingModifiers
      */
     public function setPricePTCOnly($PricePTCOnly)
     {
@@ -464,7 +464,7 @@ class RepricingModifiers
 
     /**
      * @param boolean $BrandDetails
-     * @return \FilippoToso\Travelport\Util\RepricingModifiers
+     * @return \Santosdave\Travelport\Util\RepricingModifiers
      */
     public function setBrandDetails($BrandDetails)
     {
@@ -482,7 +482,7 @@ class RepricingModifiers
 
     /**
      * @param string $BrandModifier
-     * @return \FilippoToso\Travelport\Util\RepricingModifiers
+     * @return \Santosdave\Travelport\Util\RepricingModifiers
      */
     public function setBrandModifier($BrandModifier)
     {
@@ -500,7 +500,7 @@ class RepricingModifiers
 
     /**
      * @param boolean $JetServiceOnly
-     * @return \FilippoToso\Travelport\Util\RepricingModifiers
+     * @return \Santosdave\Travelport\Util\RepricingModifiers
      */
     public function setJetServiceOnly($JetServiceOnly)
     {
@@ -518,7 +518,7 @@ class RepricingModifiers
 
     /**
      * @param anonymous1036 $TimeWindow
-     * @return \FilippoToso\Travelport\Util\RepricingModifiers
+     * @return \Santosdave\Travelport\Util\RepricingModifiers
      */
     public function setTimeWindow($TimeWindow)
     {
@@ -536,7 +536,7 @@ class RepricingModifiers
 
     /**
      * @param anonymous1037 $FlightType
-     * @return \FilippoToso\Travelport\Util\RepricingModifiers
+     * @return \Santosdave\Travelport\Util\RepricingModifiers
      */
     public function setFlightType($FlightType)
     {
@@ -554,7 +554,7 @@ class RepricingModifiers
 
     /**
      * @param boolean $MultiAirportSearch
-     * @return \FilippoToso\Travelport\Util\RepricingModifiers
+     * @return \Santosdave\Travelport\Util\RepricingModifiers
      */
     public function setMultiAirportSearch($MultiAirportSearch)
     {
@@ -572,7 +572,7 @@ class RepricingModifiers
 
     /**
      * @param typeIATACode $ConnectionPoint
-     * @return \FilippoToso\Travelport\Util\RepricingModifiers
+     * @return \Santosdave\Travelport\Util\RepricingModifiers
      */
     public function setConnectionPoint($ConnectionPoint)
     {

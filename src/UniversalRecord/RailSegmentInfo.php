@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class RailSegmentInfo
 {
@@ -42,7 +42,7 @@ class RailSegmentInfo
 
     /**
      * @param string $_
-     * @return \FilippoToso\Travelport\UniversalRecord\RailSegmentInfo
+     * @return \Santosdave\Travelport\UniversalRecord\RailSegmentInfo
      */
     public function set_($_)
     {
@@ -60,7 +60,7 @@ class RailSegmentInfo
 
     /**
      * @param string $Category
-     * @return \FilippoToso\Travelport\UniversalRecord\RailSegmentInfo
+     * @return \Santosdave\Travelport\UniversalRecord\RailSegmentInfo
      */
     public function setCategory($Category)
     {
@@ -78,7 +78,7 @@ class RailSegmentInfo
 
     /**
      * @param typeRailSegmentInfo $Type
-     * @return \FilippoToso\Travelport\UniversalRecord\RailSegmentInfo
+     * @return \Santosdave\Travelport\UniversalRecord\RailSegmentInfo
      */
     public function setType($Type)
     {

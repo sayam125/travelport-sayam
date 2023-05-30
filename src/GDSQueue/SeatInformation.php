@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class SeatInformation
 {
@@ -63,7 +63,7 @@ class SeatInformation
 
     /**
      * @param string $Power
-     * @return \FilippoToso\Travelport\GDSQueue\SeatInformation
+     * @return \Santosdave\Travelport\GDSQueue\SeatInformation
      */
     public function setPower($Power)
     {
@@ -81,7 +81,7 @@ class SeatInformation
 
     /**
      * @param string $Video
-     * @return \FilippoToso\Travelport\GDSQueue\SeatInformation
+     * @return \Santosdave\Travelport\GDSQueue\SeatInformation
      */
     public function setVideo($Video)
     {
@@ -99,7 +99,7 @@ class SeatInformation
 
     /**
      * @param string $Type
-     * @return \FilippoToso\Travelport\GDSQueue\SeatInformation
+     * @return \Santosdave\Travelport\GDSQueue\SeatInformation
      */
     public function setType($Type)
     {
@@ -117,7 +117,7 @@ class SeatInformation
 
     /**
      * @param string $Description
-     * @return \FilippoToso\Travelport\GDSQueue\SeatInformation
+     * @return \Santosdave\Travelport\GDSQueue\SeatInformation
      */
     public function setDescription($Description)
     {
@@ -135,7 +135,7 @@ class SeatInformation
 
     /**
      * @param Rating $Rating
-     * @return \FilippoToso\Travelport\GDSQueue\SeatInformation
+     * @return \Santosdave\Travelport\GDSQueue\SeatInformation
      */
     public function setRating($Rating)
     {
@@ -153,7 +153,7 @@ class SeatInformation
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\GDSQueue\SeatInformation
+     * @return \Santosdave\Travelport\GDSQueue\SeatInformation
      */
     public function setKey($Key)
     {

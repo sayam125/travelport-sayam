@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class VehicleSearchId
 {
@@ -28,7 +28,7 @@ class VehicleSearchId
 
     /**
      * @param string $MediaLinksSearchId
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleSearchId
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleSearchId
      */
     public function setMediaLinksSearchId($MediaLinksSearchId)
     {

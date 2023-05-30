@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class RailSupplier
 {
@@ -28,7 +28,7 @@ class RailSupplier
 
     /**
      * @param typeSupplierCode $Code
-     * @return \FilippoToso\Travelport\Air\RailSupplier
+     * @return \Santosdave\Travelport\Air\RailSupplier
      */
     public function setCode($Code)
     {

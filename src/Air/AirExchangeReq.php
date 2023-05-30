@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class AirExchangeReq extends BaseReq
 {
@@ -131,7 +131,7 @@ class AirExchangeReq extends BaseReq
 
     /**
      * @param AirReservationLocatorCode $AirReservationLocatorCode
-     * @return \FilippoToso\Travelport\Air\AirExchangeReq
+     * @return \Santosdave\Travelport\Air\AirExchangeReq
      */
     public function setAirReservationLocatorCode($AirReservationLocatorCode)
     {
@@ -149,7 +149,7 @@ class AirExchangeReq extends BaseReq
 
     /**
      * @param StringLength1to13 $TicketNumber
-     * @return \FilippoToso\Travelport\Air\AirExchangeReq
+     * @return \Santosdave\Travelport\Air\AirExchangeReq
      */
     public function setTicketNumber($TicketNumber)
     {
@@ -167,7 +167,7 @@ class AirExchangeReq extends BaseReq
 
     /**
      * @param SpecificSeatAssignment $SpecificSeatAssignment
-     * @return \FilippoToso\Travelport\Air\AirExchangeReq
+     * @return \Santosdave\Travelport\Air\AirExchangeReq
      */
     public function setSpecificSeatAssignment($SpecificSeatAssignment)
     {
@@ -185,7 +185,7 @@ class AirExchangeReq extends BaseReq
 
     /**
      * @param AirPricingSolution $AirPricingSolution
-     * @return \FilippoToso\Travelport\Air\AirExchangeReq
+     * @return \Santosdave\Travelport\Air\AirExchangeReq
      */
     public function setAirPricingSolution($AirPricingSolution)
     {
@@ -203,7 +203,7 @@ class AirExchangeReq extends BaseReq
 
     /**
      * @param AirExchangeModifiers $AirExchangeModifiers
-     * @return \FilippoToso\Travelport\Air\AirExchangeReq
+     * @return \Santosdave\Travelport\Air\AirExchangeReq
      */
     public function setAirExchangeModifiers($AirExchangeModifiers)
     {
@@ -221,7 +221,7 @@ class AirExchangeReq extends BaseReq
 
     /**
      * @param AirExchangeBundleTotal $AirExchangeBundleTotal
-     * @return \FilippoToso\Travelport\Air\AirExchangeReq
+     * @return \Santosdave\Travelport\Air\AirExchangeReq
      */
     public function setAirExchangeBundleTotal($AirExchangeBundleTotal)
     {
@@ -239,7 +239,7 @@ class AirExchangeReq extends BaseReq
 
     /**
      * @param AirExchangeBundle $AirExchangeBundle
-     * @return \FilippoToso\Travelport\Air\AirExchangeReq
+     * @return \Santosdave\Travelport\Air\AirExchangeReq
      */
     public function setAirExchangeBundle($AirExchangeBundle)
     {
@@ -257,7 +257,7 @@ class AirExchangeReq extends BaseReq
 
     /**
      * @param HostToken $HostToken
-     * @return \FilippoToso\Travelport\Air\AirExchangeReq
+     * @return \Santosdave\Travelport\Air\AirExchangeReq
      */
     public function setHostToken($HostToken)
     {
@@ -275,7 +275,7 @@ class AirExchangeReq extends BaseReq
 
     /**
      * @param OptionalServices $OptionalServices
-     * @return \FilippoToso\Travelport\Air\AirExchangeReq
+     * @return \Santosdave\Travelport\Air\AirExchangeReq
      */
     public function setOptionalServices($OptionalServices)
     {
@@ -293,7 +293,7 @@ class AirExchangeReq extends BaseReq
 
     /**
      * @param FormOfPayment $FormOfPayment
-     * @return \FilippoToso\Travelport\Air\AirExchangeReq
+     * @return \Santosdave\Travelport\Air\AirExchangeReq
      */
     public function setFormOfPayment($FormOfPayment)
     {
@@ -311,7 +311,7 @@ class AirExchangeReq extends BaseReq
 
     /**
      * @param FormOfPaymentRef $FormOfPaymentRef
-     * @return \FilippoToso\Travelport\Air\AirExchangeReq
+     * @return \Santosdave\Travelport\Air\AirExchangeReq
      */
     public function setFormOfPaymentRef($FormOfPaymentRef)
     {
@@ -329,7 +329,7 @@ class AirExchangeReq extends BaseReq
 
     /**
      * @param SSRInfo $SSRInfo
-     * @return \FilippoToso\Travelport\Air\AirExchangeReq
+     * @return \Santosdave\Travelport\Air\AirExchangeReq
      */
     public function setSSRInfo($SSRInfo)
     {
@@ -347,7 +347,7 @@ class AirExchangeReq extends BaseReq
 
     /**
      * @param AddSvc $AddSvc
-     * @return \FilippoToso\Travelport\Air\AirExchangeReq
+     * @return \Santosdave\Travelport\Air\AirExchangeReq
      */
     public function setAddSvc($AddSvc)
     {
@@ -365,7 +365,7 @@ class AirExchangeReq extends BaseReq
 
     /**
      * @param boolean $ReturnReservation
-     * @return \FilippoToso\Travelport\Air\AirExchangeReq
+     * @return \Santosdave\Travelport\Air\AirExchangeReq
      */
     public function setReturnReservation($ReturnReservation)
     {

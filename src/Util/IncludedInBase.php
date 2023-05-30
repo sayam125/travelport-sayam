@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class IncludedInBase
 {
@@ -28,7 +28,7 @@ class IncludedInBase
 
     /**
      * @param typeMoney $Amount
-     * @return \FilippoToso\Travelport\Util\IncludedInBase
+     * @return \Santosdave\Travelport\Util\IncludedInBase
      */
     public function setAmount($Amount)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class AccountRelatedRules
 {
@@ -35,7 +35,7 @@ class AccountRelatedRules
 
     /**
      * @param BookingRules $BookingRules
-     * @return \FilippoToso\Travelport\GDSQueue\AccountRelatedRules
+     * @return \Santosdave\Travelport\GDSQueue\AccountRelatedRules
      */
     public function setBookingRules($BookingRules)
     {
@@ -53,7 +53,7 @@ class AccountRelatedRules
 
     /**
      * @param RoutingRules $RoutingRules
-     * @return \FilippoToso\Travelport\GDSQueue\AccountRelatedRules
+     * @return \Santosdave\Travelport\GDSQueue\AccountRelatedRules
      */
     public function setRoutingRules($RoutingRules)
     {

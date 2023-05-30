@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class ExchangedTicketInfo
 {
@@ -28,7 +28,7 @@ class ExchangedTicketInfo
 
     /**
      * @param typeTicketNumber $Number
-     * @return \FilippoToso\Travelport\GDSQueue\ExchangedTicketInfo
+     * @return \Santosdave\Travelport\GDSQueue\ExchangedTicketInfo
      */
     public function setNumber($Number)
     {

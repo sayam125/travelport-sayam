@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class CoordinateLocation extends Location
 {
@@ -35,7 +35,7 @@ class CoordinateLocation extends Location
 
     /**
      * @param float $latitude
-     * @return \FilippoToso\Travelport\UniversalRecord\CoordinateLocation
+     * @return \Santosdave\Travelport\UniversalRecord\CoordinateLocation
      */
     public function setLatitude($latitude)
     {
@@ -53,7 +53,7 @@ class CoordinateLocation extends Location
 
     /**
      * @param float $longitude
-     * @return \FilippoToso\Travelport\UniversalRecord\CoordinateLocation
+     * @return \Santosdave\Travelport\UniversalRecord\CoordinateLocation
      */
     public function setLongitude($longitude)
     {

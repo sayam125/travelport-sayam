@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class DeliveryAddressRef
 {
@@ -28,7 +28,7 @@ class DeliveryAddressRef
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\GDSQueue\DeliveryAddressRef
+     * @return \Santosdave\Travelport\GDSQueue\DeliveryAddressRef
      */
     public function setKey($Key)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class CO2Emissions
 {
@@ -56,7 +56,7 @@ class CO2Emissions
 
     /**
      * @param CO2Emission $CO2Emission
-     * @return \FilippoToso\Travelport\GDSQueue\CO2Emissions
+     * @return \Santosdave\Travelport\GDSQueue\CO2Emissions
      */
     public function setCO2Emission($CO2Emission)
     {
@@ -74,7 +74,7 @@ class CO2Emissions
 
     /**
      * @param float $TotalValue
-     * @return \FilippoToso\Travelport\GDSQueue\CO2Emissions
+     * @return \Santosdave\Travelport\GDSQueue\CO2Emissions
      */
     public function setTotalValue($TotalValue)
     {
@@ -92,7 +92,7 @@ class CO2Emissions
 
     /**
      * @param StringLength1to64 $Unit
-     * @return \FilippoToso\Travelport\GDSQueue\CO2Emissions
+     * @return \Santosdave\Travelport\GDSQueue\CO2Emissions
      */
     public function setUnit($Unit)
     {
@@ -110,7 +110,7 @@ class CO2Emissions
 
     /**
      * @param StringLength1to64 $Category
-     * @return \FilippoToso\Travelport\GDSQueue\CO2Emissions
+     * @return \Santosdave\Travelport\GDSQueue\CO2Emissions
      */
     public function setCategory($Category)
     {
@@ -128,7 +128,7 @@ class CO2Emissions
 
     /**
      * @param StringLength1to64 $Source
-     * @return \FilippoToso\Travelport\GDSQueue\CO2Emissions
+     * @return \Santosdave\Travelport\GDSQueue\CO2Emissions
      */
     public function setSource($Source)
     {

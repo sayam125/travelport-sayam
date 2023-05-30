@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class PrePayCustomer
 {
@@ -54,7 +54,7 @@ class PrePayCustomer
 
     /**
      * @param PersonName $PersonName
-     * @return \FilippoToso\Travelport\Air\PrePayCustomer
+     * @return \Santosdave\Travelport\Air\PrePayCustomer
      */
     public function setPersonName($PersonName)
     {
@@ -72,7 +72,7 @@ class PrePayCustomer
 
     /**
      * @param Email $Email
-     * @return \FilippoToso\Travelport\Air\PrePayCustomer
+     * @return \Santosdave\Travelport\Air\PrePayCustomer
      */
     public function setEmail($Email)
     {
@@ -90,7 +90,7 @@ class PrePayCustomer
 
     /**
      * @param typeStructuredAddress[] $Address
-     * @return \FilippoToso\Travelport\Air\PrePayCustomer
+     * @return \Santosdave\Travelport\Air\PrePayCustomer
      */
     public function setAddress(array $Address = null)
     {
@@ -108,7 +108,7 @@ class PrePayCustomer
 
     /**
      * @param RelatedTraveler $RelatedTraveler
-     * @return \FilippoToso\Travelport\Air\PrePayCustomer
+     * @return \Santosdave\Travelport\Air\PrePayCustomer
      */
     public function setRelatedTraveler($RelatedTraveler)
     {
@@ -126,7 +126,7 @@ class PrePayCustomer
 
     /**
      * @param LoyaltyCard $LoyaltyCard
-     * @return \FilippoToso\Travelport\Air\PrePayCustomer
+     * @return \Santosdave\Travelport\Air\PrePayCustomer
      */
     public function setLoyaltyCard($LoyaltyCard)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class HotelType
 {
@@ -28,7 +28,7 @@ class HotelType
 
     /**
      * @param typeSourceLink $SourceLink
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelType
+     * @return \Santosdave\Travelport\UniversalRecord\HotelType
      */
     public function setSourceLink($SourceLink)
     {

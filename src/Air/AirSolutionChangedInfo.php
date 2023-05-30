@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class AirSolutionChangedInfo
 {
@@ -35,7 +35,7 @@ class AirSolutionChangedInfo
 
     /**
      * @param AirPricingSolution $AirPricingSolution
-     * @return \FilippoToso\Travelport\Air\AirSolutionChangedInfo
+     * @return \Santosdave\Travelport\Air\AirSolutionChangedInfo
      */
     public function setAirPricingSolution($AirPricingSolution)
     {
@@ -53,7 +53,7 @@ class AirSolutionChangedInfo
 
     /**
      * @param anonymous640 $ReasonCode
-     * @return \FilippoToso\Travelport\Air\AirSolutionChangedInfo
+     * @return \Santosdave\Travelport\Air\AirSolutionChangedInfo
      */
     public function setReasonCode($ReasonCode)
     {

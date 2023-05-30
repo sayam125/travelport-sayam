@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class FareRuleShortRef
 {
@@ -28,7 +28,7 @@ class FareRuleShortRef
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Util\FareRuleShortRef
+     * @return \Santosdave\Travelport\Util\FareRuleShortRef
      */
     public function setKey($Key)
     {

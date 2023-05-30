@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class McoSearchModifiers
 {
@@ -56,7 +56,7 @@ class McoSearchModifiers
 
     /**
      * @param typeMCOType $Type
-     * @return \FilippoToso\Travelport\Util\McoSearchModifiers
+     * @return \Santosdave\Travelport\Util\McoSearchModifiers
      */
     public function setType($Type)
     {
@@ -74,7 +74,7 @@ class McoSearchModifiers
 
     /**
      * @param typeMCOStatus $Status
-     * @return \FilippoToso\Travelport\Util\McoSearchModifiers
+     * @return \Santosdave\Travelport\Util\McoSearchModifiers
      */
     public function setStatus($Status)
     {
@@ -92,7 +92,7 @@ class McoSearchModifiers
 
     /**
      * @param anonymous1124 $MaxResults
-     * @return \FilippoToso\Travelport\Util\McoSearchModifiers
+     * @return \Santosdave\Travelport\Util\McoSearchModifiers
      */
     public function setMaxResults($MaxResults)
     {
@@ -110,7 +110,7 @@ class McoSearchModifiers
 
     /**
      * @param anonymous1125 $StartFromResult
-     * @return \FilippoToso\Travelport\Util\McoSearchModifiers
+     * @return \Santosdave\Travelport\Util\McoSearchModifiers
      */
     public function setStartFromResult($StartFromResult)
     {
@@ -128,7 +128,7 @@ class McoSearchModifiers
 
     /**
      * @param boolean $IncludeName
-     * @return \FilippoToso\Travelport\Util\McoSearchModifiers
+     * @return \Santosdave\Travelport\Util\McoSearchModifiers
      */
     public function setIncludeName($IncludeName)
     {

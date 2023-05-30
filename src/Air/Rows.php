@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class Rows
 {
@@ -35,7 +35,7 @@ class Rows
 
     /**
      * @param Row $Row
-     * @return \FilippoToso\Travelport\Air\Rows
+     * @return \Santosdave\Travelport\Air\Rows
      */
     public function setRow($Row)
     {
@@ -53,7 +53,7 @@ class Rows
 
     /**
      * @param typeRef $SegmentRef
-     * @return \FilippoToso\Travelport\Air\Rows
+     * @return \Santosdave\Travelport\Air\Rows
      */
     public function setSegmentRef($SegmentRef)
     {

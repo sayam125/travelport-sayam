@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class PassengerType
 {
@@ -28,7 +28,7 @@ class PassengerType
 
     /**
      * @param FareGuaranteeInfo $FareGuaranteeInfo
-     * @return \FilippoToso\Travelport\Air\PassengerType
+     * @return \Santosdave\Travelport\Air\PassengerType
      */
     public function setFareGuaranteeInfo($FareGuaranteeInfo)
     {

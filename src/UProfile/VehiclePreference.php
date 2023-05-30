@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class VehiclePreference extends typeBasePreference
 {
@@ -110,7 +110,7 @@ class VehiclePreference extends typeBasePreference
 
     /**
      * @param anonymous542 $CorporateID
-     * @return \FilippoToso\Travelport\UProfile\VehiclePreference
+     * @return \Santosdave\Travelport\UProfile\VehiclePreference
      */
     public function setCorporateID($CorporateID)
     {
@@ -128,7 +128,7 @@ class VehiclePreference extends typeBasePreference
 
     /**
      * @param date $PickUpStartDate
-     * @return \FilippoToso\Travelport\UProfile\VehiclePreference
+     * @return \Santosdave\Travelport\UProfile\VehiclePreference
      */
     public function setPickUpStartDate($PickUpStartDate)
     {
@@ -146,7 +146,7 @@ class VehiclePreference extends typeBasePreference
 
     /**
      * @param date $PickUpEndDate
-     * @return \FilippoToso\Travelport\UProfile\VehiclePreference
+     * @return \Santosdave\Travelport\UProfile\VehiclePreference
      */
     public function setPickUpEndDate($PickUpEndDate)
     {
@@ -164,7 +164,7 @@ class VehiclePreference extends typeBasePreference
 
     /**
      * @param anonymous543 $RateCode
-     * @return \FilippoToso\Travelport\UProfile\VehiclePreference
+     * @return \Santosdave\Travelport\UProfile\VehiclePreference
      */
     public function setRateCode($RateCode)
     {
@@ -182,7 +182,7 @@ class VehiclePreference extends typeBasePreference
 
     /**
      * @param anonymous889 $SpecialEquipMiscTravel
-     * @return \FilippoToso\Travelport\UProfile\VehiclePreference
+     * @return \Santosdave\Travelport\UProfile\VehiclePreference
      */
     public function setSpecialEquipMiscTravel($SpecialEquipMiscTravel)
     {
@@ -200,7 +200,7 @@ class VehiclePreference extends typeBasePreference
 
     /**
      * @param anonymous890 $SpecialEquipRefCategory
-     * @return \FilippoToso\Travelport\UProfile\VehiclePreference
+     * @return \Santosdave\Travelport\UProfile\VehiclePreference
      */
     public function setSpecialEquipRefCategory($SpecialEquipRefCategory)
     {
@@ -218,7 +218,7 @@ class VehiclePreference extends typeBasePreference
 
     /**
      * @param anonymous873 $SpecialRequestMiscTravel
-     * @return \FilippoToso\Travelport\UProfile\VehiclePreference
+     * @return \Santosdave\Travelport\UProfile\VehiclePreference
      */
     public function setSpecialRequestMiscTravel($SpecialRequestMiscTravel)
     {
@@ -236,7 +236,7 @@ class VehiclePreference extends typeBasePreference
 
     /**
      * @param anonymous874 $SpecialRequestRefCategory
-     * @return \FilippoToso\Travelport\UProfile\VehiclePreference
+     * @return \Santosdave\Travelport\UProfile\VehiclePreference
      */
     public function setSpecialRequestRefCategory($SpecialRequestRefCategory)
     {
@@ -254,7 +254,7 @@ class VehiclePreference extends typeBasePreference
 
     /**
      * @param anonymous891 $VehicleTypeMiscTravel
-     * @return \FilippoToso\Travelport\UProfile\VehiclePreference
+     * @return \Santosdave\Travelport\UProfile\VehiclePreference
      */
     public function setVehicleTypeMiscTravel($VehicleTypeMiscTravel)
     {
@@ -272,7 +272,7 @@ class VehiclePreference extends typeBasePreference
 
     /**
      * @param anonymous892 $VehicleTypeRefCategory
-     * @return \FilippoToso\Travelport\UProfile\VehiclePreference
+     * @return \Santosdave\Travelport\UProfile\VehiclePreference
      */
     public function setVehicleTypeRefCategory($VehicleTypeRefCategory)
     {

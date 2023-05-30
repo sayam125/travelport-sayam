@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class Remark
 {
@@ -35,7 +35,7 @@ class Remark
 
     /**
      * @param string $_
-     * @return \FilippoToso\Travelport\GDSQueue\Remark
+     * @return \Santosdave\Travelport\GDSQueue\Remark
      */
     public function set_($_)
     {
@@ -53,7 +53,7 @@ class Remark
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\GDSQueue\Remark
+     * @return \Santosdave\Travelport\GDSQueue\Remark
      */
     public function setKey($Key)
     {

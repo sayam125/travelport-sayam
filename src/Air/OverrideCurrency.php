@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class OverrideCurrency
 {
@@ -35,7 +35,7 @@ class OverrideCurrency
 
     /**
      * @param typeCurrency $CurrencyCode
-     * @return \FilippoToso\Travelport\Air\OverrideCurrency
+     * @return \Santosdave\Travelport\Air\OverrideCurrency
      */
     public function setCurrencyCode($CurrencyCode)
     {
@@ -53,7 +53,7 @@ class OverrideCurrency
 
     /**
      * @param typeCountry $CountryCode
-     * @return \FilippoToso\Travelport\Air\OverrideCurrency
+     * @return \Santosdave\Travelport\Air\OverrideCurrency
      */
     public function setCountryCode($CountryCode)
     {

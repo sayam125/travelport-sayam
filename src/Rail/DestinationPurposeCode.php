@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class DestinationPurposeCode
 {
@@ -35,7 +35,7 @@ class DestinationPurposeCode
 
     /**
      * @param typeDestinationCode $Destination
-     * @return \FilippoToso\Travelport\Rail\DestinationPurposeCode
+     * @return \Santosdave\Travelport\Rail\DestinationPurposeCode
      */
     public function setDestination($Destination)
     {
@@ -53,7 +53,7 @@ class DestinationPurposeCode
 
     /**
      * @param typePurposeCode $Purpose
-     * @return \FilippoToso\Travelport\Rail\DestinationPurposeCode
+     * @return \Santosdave\Travelport\Rail\DestinationPurposeCode
      */
     public function setPurpose($Purpose)
     {

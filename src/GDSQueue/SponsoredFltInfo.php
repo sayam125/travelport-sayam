@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class SponsoredFltInfo
 {
@@ -42,7 +42,7 @@ class SponsoredFltInfo
 
     /**
      * @param int $SponsoredLNB
-     * @return \FilippoToso\Travelport\GDSQueue\SponsoredFltInfo
+     * @return \Santosdave\Travelport\GDSQueue\SponsoredFltInfo
      */
     public function setSponsoredLNB($SponsoredLNB)
     {
@@ -60,7 +60,7 @@ class SponsoredFltInfo
 
     /**
      * @param int $NeutralLNB
-     * @return \FilippoToso\Travelport\GDSQueue\SponsoredFltInfo
+     * @return \Santosdave\Travelport\GDSQueue\SponsoredFltInfo
      */
     public function setNeutralLNB($NeutralLNB)
     {
@@ -78,7 +78,7 @@ class SponsoredFltInfo
 
     /**
      * @param anonymous837 $FltKey
-     * @return \FilippoToso\Travelport\GDSQueue\SponsoredFltInfo
+     * @return \Santosdave\Travelport\GDSQueue\SponsoredFltInfo
      */
     public function setFltKey($FltKey)
     {

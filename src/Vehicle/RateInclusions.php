@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Vehicle;
+namespace Santosdave\Travelport\Vehicle;
 
 class RateInclusions
 {
@@ -28,7 +28,7 @@ class RateInclusions
 
     /**
      * @param IncludedItem $IncludedItem
-     * @return \FilippoToso\Travelport\Vehicle\RateInclusions
+     * @return \Santosdave\Travelport\Vehicle\RateInclusions
      */
     public function setIncludedItem($IncludedItem)
     {

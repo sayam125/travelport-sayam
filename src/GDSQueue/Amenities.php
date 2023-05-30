@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class Amenities
 {
@@ -28,7 +28,7 @@ class Amenities
 
     /**
      * @param Amenity $Amenity
-     * @return \FilippoToso\Travelport\GDSQueue\Amenities
+     * @return \Santosdave\Travelport\GDSQueue\Amenities
      */
     public function setAmenity($Amenity)
     {

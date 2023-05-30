@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class FareRestrictionDaysOfWeek
 {
@@ -84,7 +84,7 @@ class FareRestrictionDaysOfWeek
 
     /**
      * @param typeFareDirectionality $Direction
-     * @return \FilippoToso\Travelport\UniversalRecord\FareRestrictionDaysOfWeek
+     * @return \Santosdave\Travelport\UniversalRecord\FareRestrictionDaysOfWeek
      */
     public function setDirection($Direction)
     {
@@ -102,7 +102,7 @@ class FareRestrictionDaysOfWeek
 
     /**
      * @param typeFareTripType $TripType
-     * @return \FilippoToso\Travelport\UniversalRecord\FareRestrictionDaysOfWeek
+     * @return \Santosdave\Travelport\UniversalRecord\FareRestrictionDaysOfWeek
      */
     public function setTripType($TripType)
     {
@@ -120,7 +120,7 @@ class FareRestrictionDaysOfWeek
 
     /**
      * @param boolean $Monday
-     * @return \FilippoToso\Travelport\UniversalRecord\FareRestrictionDaysOfWeek
+     * @return \Santosdave\Travelport\UniversalRecord\FareRestrictionDaysOfWeek
      */
     public function setMonday($Monday)
     {
@@ -138,7 +138,7 @@ class FareRestrictionDaysOfWeek
 
     /**
      * @param boolean $Tuesday
-     * @return \FilippoToso\Travelport\UniversalRecord\FareRestrictionDaysOfWeek
+     * @return \Santosdave\Travelport\UniversalRecord\FareRestrictionDaysOfWeek
      */
     public function setTuesday($Tuesday)
     {
@@ -156,7 +156,7 @@ class FareRestrictionDaysOfWeek
 
     /**
      * @param boolean $Wednesday
-     * @return \FilippoToso\Travelport\UniversalRecord\FareRestrictionDaysOfWeek
+     * @return \Santosdave\Travelport\UniversalRecord\FareRestrictionDaysOfWeek
      */
     public function setWednesday($Wednesday)
     {
@@ -174,7 +174,7 @@ class FareRestrictionDaysOfWeek
 
     /**
      * @param boolean $Thursday
-     * @return \FilippoToso\Travelport\UniversalRecord\FareRestrictionDaysOfWeek
+     * @return \Santosdave\Travelport\UniversalRecord\FareRestrictionDaysOfWeek
      */
     public function setThursday($Thursday)
     {
@@ -192,7 +192,7 @@ class FareRestrictionDaysOfWeek
 
     /**
      * @param boolean $Friday
-     * @return \FilippoToso\Travelport\UniversalRecord\FareRestrictionDaysOfWeek
+     * @return \Santosdave\Travelport\UniversalRecord\FareRestrictionDaysOfWeek
      */
     public function setFriday($Friday)
     {
@@ -210,7 +210,7 @@ class FareRestrictionDaysOfWeek
 
     /**
      * @param boolean $Saturday
-     * @return \FilippoToso\Travelport\UniversalRecord\FareRestrictionDaysOfWeek
+     * @return \Santosdave\Travelport\UniversalRecord\FareRestrictionDaysOfWeek
      */
     public function setSaturday($Saturday)
     {
@@ -228,7 +228,7 @@ class FareRestrictionDaysOfWeek
 
     /**
      * @param boolean $Sunday
-     * @return \FilippoToso\Travelport\UniversalRecord\FareRestrictionDaysOfWeek
+     * @return \Santosdave\Travelport\UniversalRecord\FareRestrictionDaysOfWeek
      */
     public function setSunday($Sunday)
     {

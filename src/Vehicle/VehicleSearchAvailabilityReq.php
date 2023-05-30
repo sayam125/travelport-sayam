@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Vehicle;
+namespace Santosdave\Travelport\Vehicle;
 
 class VehicleSearchAvailabilityReq extends BaseVehicleSearchAvailabilityReq
 {
@@ -79,7 +79,7 @@ class VehicleSearchAvailabilityReq extends BaseVehicleSearchAvailabilityReq
 
     /**
      * @param boolean $ReturnMediaLinks
-     * @return \FilippoToso\Travelport\Vehicle\VehicleSearchAvailabilityReq
+     * @return \Santosdave\Travelport\Vehicle\VehicleSearchAvailabilityReq
      */
     public function setReturnMediaLinks($ReturnMediaLinks)
     {
@@ -97,7 +97,7 @@ class VehicleSearchAvailabilityReq extends BaseVehicleSearchAvailabilityReq
 
     /**
      * @param boolean $ReturnAllRates
-     * @return \FilippoToso\Travelport\Vehicle\VehicleSearchAvailabilityReq
+     * @return \Santosdave\Travelport\Vehicle\VehicleSearchAvailabilityReq
      */
     public function setReturnAllRates($ReturnAllRates)
     {
@@ -115,7 +115,7 @@ class VehicleSearchAvailabilityReq extends BaseVehicleSearchAvailabilityReq
 
     /**
      * @param boolean $ReturnApproximateTotal
-     * @return \FilippoToso\Travelport\Vehicle\VehicleSearchAvailabilityReq
+     * @return \Santosdave\Travelport\Vehicle\VehicleSearchAvailabilityReq
      */
     public function setReturnApproximateTotal($ReturnApproximateTotal)
     {
@@ -133,7 +133,7 @@ class VehicleSearchAvailabilityReq extends BaseVehicleSearchAvailabilityReq
 
     /**
      * @param boolean $ReturnExtraRateInfo
-     * @return \FilippoToso\Travelport\Vehicle\VehicleSearchAvailabilityReq
+     * @return \Santosdave\Travelport\Vehicle\VehicleSearchAvailabilityReq
      */
     public function setReturnExtraRateInfo($ReturnExtraRateInfo)
     {
@@ -151,7 +151,7 @@ class VehicleSearchAvailabilityReq extends BaseVehicleSearchAvailabilityReq
 
     /**
      * @param typePolicyReference $PolicyReference
-     * @return \FilippoToso\Travelport\Vehicle\VehicleSearchAvailabilityReq
+     * @return \Santosdave\Travelport\Vehicle\VehicleSearchAvailabilityReq
      */
     public function setPolicyReference($PolicyReference)
     {
@@ -169,7 +169,7 @@ class VehicleSearchAvailabilityReq extends BaseVehicleSearchAvailabilityReq
 
     /**
      * @param boolean $ReturnInclusionDetails
-     * @return \FilippoToso\Travelport\Vehicle\VehicleSearchAvailabilityReq
+     * @return \Santosdave\Travelport\Vehicle\VehicleSearchAvailabilityReq
      */
     public function setReturnInclusionDetails($ReturnInclusionDetails)
     {

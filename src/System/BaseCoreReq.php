@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\System;
+namespace Santosdave\Travelport\System;
 
 class BaseCoreReq
 {
@@ -84,7 +84,7 @@ class BaseCoreReq
 
     /**
      * @param BillingPointOfSaleInfo $BillingPointOfSaleInfo
-     * @return \FilippoToso\Travelport\System\BaseCoreReq
+     * @return \Santosdave\Travelport\System\BaseCoreReq
      */
     public function setBillingPointOfSaleInfo($BillingPointOfSaleInfo)
     {
@@ -102,7 +102,7 @@ class BaseCoreReq
 
     /**
      * @param AgentIDOverride $AgentIDOverride
-     * @return \FilippoToso\Travelport\System\BaseCoreReq
+     * @return \Santosdave\Travelport\System\BaseCoreReq
      */
     public function setAgentIDOverride($AgentIDOverride)
     {
@@ -120,7 +120,7 @@ class BaseCoreReq
 
     /**
      * @param string $TerminalSessionInfo
-     * @return \FilippoToso\Travelport\System\BaseCoreReq
+     * @return \Santosdave\Travelport\System\BaseCoreReq
      */
     public function setTerminalSessionInfo($TerminalSessionInfo)
     {
@@ -138,7 +138,7 @@ class BaseCoreReq
 
     /**
      * @param string $TraceId
-     * @return \FilippoToso\Travelport\System\BaseCoreReq
+     * @return \Santosdave\Travelport\System\BaseCoreReq
      */
     public function setTraceId($TraceId)
     {
@@ -156,7 +156,7 @@ class BaseCoreReq
 
     /**
      * @param string $TokenId
-     * @return \FilippoToso\Travelport\System\BaseCoreReq
+     * @return \Santosdave\Travelport\System\BaseCoreReq
      */
     public function setTokenId($TokenId)
     {
@@ -174,7 +174,7 @@ class BaseCoreReq
 
     /**
      * @param string $AuthorizedBy
-     * @return \FilippoToso\Travelport\System\BaseCoreReq
+     * @return \Santosdave\Travelport\System\BaseCoreReq
      */
     public function setAuthorizedBy($AuthorizedBy)
     {
@@ -192,7 +192,7 @@ class BaseCoreReq
 
     /**
      * @param typeBranchCode $TargetBranch
-     * @return \FilippoToso\Travelport\System\BaseCoreReq
+     * @return \Santosdave\Travelport\System\BaseCoreReq
      */
     public function setTargetBranch($TargetBranch)
     {
@@ -210,7 +210,7 @@ class BaseCoreReq
 
     /**
      * @param typeLoggingLevel $OverrideLogging
-     * @return \FilippoToso\Travelport\System\BaseCoreReq
+     * @return \Santosdave\Travelport\System\BaseCoreReq
      */
     public function setOverrideLogging($OverrideLogging)
     {
@@ -228,7 +228,7 @@ class BaseCoreReq
 
     /**
      * @param language $LanguageCode
-     * @return \FilippoToso\Travelport\System\BaseCoreReq
+     * @return \Santosdave\Travelport\System\BaseCoreReq
      */
     public function setLanguageCode($LanguageCode)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class VehicleRate
 {
@@ -292,7 +292,7 @@ class VehicleRate
 
     /**
      * @param SupplierRate $SupplierRate
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleRate
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleRate
      */
     public function setSupplierRate($SupplierRate)
     {
@@ -310,7 +310,7 @@ class VehicleRate
 
     /**
      * @param typeRateVariance $RateVariance
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleRate
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleRate
      */
     public function setRateVariance($RateVariance)
     {
@@ -328,7 +328,7 @@ class VehicleRate
 
     /**
      * @param typeVehicleRates $ApproximateRate
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleRate
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleRate
      */
     public function setApproximateRate($ApproximateRate)
     {
@@ -346,7 +346,7 @@ class VehicleRate
 
     /**
      * @param typeVehicleRateDescription[] $VehicleRateDescription
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleRate
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleRate
      */
     public function setVehicleRateDescription(array $VehicleRateDescription = null)
     {
@@ -364,7 +364,7 @@ class VehicleRate
 
     /**
      * @param typeRateHostIndicator $RateHostIndicator
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleRate
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleRate
      */
     public function setRateHostIndicator($RateHostIndicator)
     {
@@ -382,7 +382,7 @@ class VehicleRate
 
     /**
      * @param typeRateInfo $HourlyLateCharge
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleRate
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleRate
      */
     public function setHourlyLateCharge($HourlyLateCharge)
     {
@@ -400,7 +400,7 @@ class VehicleRate
 
     /**
      * @param typeRateInfo $DailyLateCharge
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleRate
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleRate
      */
     public function setDailyLateCharge($DailyLateCharge)
     {
@@ -418,7 +418,7 @@ class VehicleRate
 
     /**
      * @param PricedEquip $PricedEquip
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleRate
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleRate
      */
     public function setPricedEquip($PricedEquip)
     {
@@ -436,7 +436,7 @@ class VehicleRate
 
     /**
      * @param RateInclusions $RateInclusions
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleRate
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleRate
      */
     public function setRateInclusions($RateInclusions)
     {
@@ -454,7 +454,7 @@ class VehicleRate
 
     /**
      * @param typeRateInfo $WeeklyLateCharge
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleRate
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleRate
      */
     public function setWeeklyLateCharge($WeeklyLateCharge)
     {
@@ -472,7 +472,7 @@ class VehicleRate
 
     /**
      * @param string $PrintText
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleRate
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleRate
      */
     public function setPrintText($PrintText)
     {
@@ -490,7 +490,7 @@ class VehicleRate
 
     /**
      * @param typeRateTimePeriod $RatePeriod
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleRate
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleRate
      */
     public function setRatePeriod($RatePeriod)
     {
@@ -508,7 +508,7 @@ class VehicleRate
 
     /**
      * @param int $NumberOfPeriods
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleRate
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleRate
      */
     public function setNumberOfPeriods($NumberOfPeriods)
     {
@@ -526,7 +526,7 @@ class VehicleRate
 
     /**
      * @param boolean $UnlimitedMileage
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleRate
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleRate
      */
     public function setUnlimitedMileage($UnlimitedMileage)
     {
@@ -544,7 +544,7 @@ class VehicleRate
 
     /**
      * @param int $MileageAllowance
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleRate
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleRate
      */
     public function setMileageAllowance($MileageAllowance)
     {
@@ -562,7 +562,7 @@ class VehicleRate
 
     /**
      * @param typeDistance $Units
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleRate
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleRate
      */
     public function setUnits($Units)
     {
@@ -580,7 +580,7 @@ class VehicleRate
 
     /**
      * @param string $RateSource
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleRate
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleRate
      */
     public function setRateSource($RateSource)
     {
@@ -598,7 +598,7 @@ class VehicleRate
 
     /**
      * @param typeRateAvailability $RateAvailability
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleRate
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleRate
      */
     public function setRateAvailability($RateAvailability)
     {
@@ -616,7 +616,7 @@ class VehicleRate
 
     /**
      * @param typeMoney $RequiredCharges
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleRate
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleRate
      */
     public function setRequiredCharges($RequiredCharges)
     {
@@ -634,7 +634,7 @@ class VehicleRate
 
     /**
      * @param typeRateCode $RateCode
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleRate
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleRate
      */
     public function setRateCode($RateCode)
     {
@@ -652,7 +652,7 @@ class VehicleRate
 
     /**
      * @param typeTrinary $RequestedRateCodeApplied
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleRate
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleRate
      */
     public function setRequestedRateCodeApplied($RequestedRateCodeApplied)
     {
@@ -670,7 +670,7 @@ class VehicleRate
 
     /**
      * @param typeRateCategory $RateCategory
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleRate
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleRate
      */
     public function setRateCategory($RateCategory)
     {
@@ -688,7 +688,7 @@ class VehicleRate
 
     /**
      * @param typeDiscountNumber $DiscountNumber
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleRate
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleRate
      */
     public function setDiscountNumber($DiscountNumber)
     {
@@ -706,7 +706,7 @@ class VehicleRate
 
     /**
      * @param typeTrinary $DiscountNumberApplied
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleRate
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleRate
      */
     public function setDiscountNumberApplied($DiscountNumberApplied)
     {
@@ -724,7 +724,7 @@ class VehicleRate
 
     /**
      * @param typeSupplierCode $VendorCode
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleRate
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleRate
      */
     public function setVendorCode($VendorCode)
     {
@@ -742,7 +742,7 @@ class VehicleRate
 
     /**
      * @param boolean $RateGuaranteed
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleRate
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleRate
      */
     public function setRateGuaranteed($RateGuaranteed)
     {
@@ -760,7 +760,7 @@ class VehicleRate
 
     /**
      * @param string $RateCodePeriod
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleRate
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleRate
      */
     public function setRateCodePeriod($RateCodePeriod)
     {
@@ -778,7 +778,7 @@ class VehicleRate
 
     /**
      * @param string $PromotionalCode
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleRate
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleRate
      */
     public function setPromotionalCode($PromotionalCode)
     {
@@ -796,7 +796,7 @@ class VehicleRate
 
     /**
      * @param typeTrinary $PromotionalCodeApplied
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleRate
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleRate
      */
     public function setPromotionalCodeApplied($PromotionalCodeApplied)
     {
@@ -814,7 +814,7 @@ class VehicleRate
 
     /**
      * @param string $TourCode
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleRate
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleRate
      */
     public function setTourCode($TourCode)
     {
@@ -832,7 +832,7 @@ class VehicleRate
 
     /**
      * @param typeTrinary $TourCodeApplied
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleRate
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleRate
      */
     public function setTourCodeApplied($TourCodeApplied)
     {
@@ -850,7 +850,7 @@ class VehicleRate
 
     /**
      * @param typeRateGuarantee $RateGuaranteeType
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleRate
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleRate
      */
     public function setRateGuaranteeType($RateGuaranteeType)
     {
@@ -868,7 +868,7 @@ class VehicleRate
 
     /**
      * @param anonymous1091 $RequiredPayment
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleRate
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleRate
      */
     public function setRequiredPayment($RequiredPayment)
     {
@@ -886,7 +886,7 @@ class VehicleRate
 
     /**
      * @param boolean $DropOffChargesIncluded
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleRate
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleRate
      */
     public function setDropOffChargesIncluded($DropOffChargesIncluded)
     {
@@ -904,7 +904,7 @@ class VehicleRate
 
     /**
      * @param boolean $CorporateRate
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleRate
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleRate
      */
     public function setCorporateRate($CorporateRate)
     {
@@ -922,7 +922,7 @@ class VehicleRate
 
     /**
      * @param string $AdvancedBooking
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleRate
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleRate
      */
     public function setAdvancedBooking($AdvancedBooking)
     {
@@ -940,7 +940,7 @@ class VehicleRate
 
     /**
      * @param boolean $RentalRestriction
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleRate
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleRate
      */
     public function setRentalRestriction($RentalRestriction)
     {
@@ -958,7 +958,7 @@ class VehicleRate
 
     /**
      * @param boolean $FlightRestriction
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleRate
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleRate
      */
     public function setFlightRestriction($FlightRestriction)
     {
@@ -976,7 +976,7 @@ class VehicleRate
 
     /**
      * @param typeCardNumber $CardNumber
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleRate
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleRate
      */
     public function setCardNumber($CardNumber)
     {
@@ -994,7 +994,7 @@ class VehicleRate
 
     /**
      * @param typeTrinary $CardNumberApplied
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleRate
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleRate
      */
     public function setCardNumberApplied($CardNumberApplied)
     {
@@ -1012,7 +1012,7 @@ class VehicleRate
 
     /**
      * @param int $RateQualifierInd
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleRate
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleRate
      */
     public function setRateQualifierInd($RateQualifierInd)
     {

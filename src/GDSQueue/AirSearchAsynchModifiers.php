@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class AirSearchAsynchModifiers
 {
@@ -26,7 +26,7 @@ class AirSearchAsynchModifiers
 
     /**
      * @param InitialAsynchResult $InitialAsynchResult
-     * @return \FilippoToso\Travelport\GDSQueue\AirSearchAsynchModifiers
+     * @return \Santosdave\Travelport\GDSQueue\AirSearchAsynchModifiers
      */
     public function setInitialAsynchResult($InitialAsynchResult)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class AgencyGroupCriteria extends typeProfileSearchCriteria
 {
@@ -30,7 +30,7 @@ class AgencyGroupCriteria extends typeProfileSearchCriteria
 
     /**
      * @param typeWildcard $Name
-     * @return \FilippoToso\Travelport\UProfile\AgencyGroupCriteria
+     * @return \Santosdave\Travelport\UProfile\AgencyGroupCriteria
      */
     public function setName($Name)
     {

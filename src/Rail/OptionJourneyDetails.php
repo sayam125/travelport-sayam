@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class OptionJourneyDetails
 {
@@ -91,7 +91,7 @@ class OptionJourneyDetails
 
     /**
      * @param StringLength1to5 $PickUpLocation
-     * @return \FilippoToso\Travelport\Rail\OptionJourneyDetails
+     * @return \Santosdave\Travelport\Rail\OptionJourneyDetails
      */
     public function setPickUpLocation($PickUpLocation)
     {
@@ -109,7 +109,7 @@ class OptionJourneyDetails
 
     /**
      * @param time $PickUpTime
-     * @return \FilippoToso\Travelport\Rail\OptionJourneyDetails
+     * @return \Santosdave\Travelport\Rail\OptionJourneyDetails
      */
     public function setPickUpTime($PickUpTime)
     {
@@ -127,7 +127,7 @@ class OptionJourneyDetails
 
     /**
      * @param StringLength1to30 $PickUpDescription
-     * @return \FilippoToso\Travelport\Rail\OptionJourneyDetails
+     * @return \Santosdave\Travelport\Rail\OptionJourneyDetails
      */
     public function setPickUpDescription($PickUpDescription)
     {
@@ -145,7 +145,7 @@ class OptionJourneyDetails
 
     /**
      * @param typeCarrier $PickUpCarrier
-     * @return \FilippoToso\Travelport\Rail\OptionJourneyDetails
+     * @return \Santosdave\Travelport\Rail\OptionJourneyDetails
      */
     public function setPickUpCarrier($PickUpCarrier)
     {
@@ -163,7 +163,7 @@ class OptionJourneyDetails
 
     /**
      * @param typeFlightNumber $PickUpFlightNumber
-     * @return \FilippoToso\Travelport\Rail\OptionJourneyDetails
+     * @return \Santosdave\Travelport\Rail\OptionJourneyDetails
      */
     public function setPickUpFlightNumber($PickUpFlightNumber)
     {
@@ -181,7 +181,7 @@ class OptionJourneyDetails
 
     /**
      * @param StringLength1to5 $ReturnLocation
-     * @return \FilippoToso\Travelport\Rail\OptionJourneyDetails
+     * @return \Santosdave\Travelport\Rail\OptionJourneyDetails
      */
     public function setReturnLocation($ReturnLocation)
     {
@@ -199,7 +199,7 @@ class OptionJourneyDetails
 
     /**
      * @param time $ReturnTime
-     * @return \FilippoToso\Travelport\Rail\OptionJourneyDetails
+     * @return \Santosdave\Travelport\Rail\OptionJourneyDetails
      */
     public function setReturnTime($ReturnTime)
     {
@@ -217,7 +217,7 @@ class OptionJourneyDetails
 
     /**
      * @param StringLength1to30 $ReturnDescription
-     * @return \FilippoToso\Travelport\Rail\OptionJourneyDetails
+     * @return \Santosdave\Travelport\Rail\OptionJourneyDetails
      */
     public function setReturnDescription($ReturnDescription)
     {
@@ -235,7 +235,7 @@ class OptionJourneyDetails
 
     /**
      * @param typeCarrier $ReturnCarrier
-     * @return \FilippoToso\Travelport\Rail\OptionJourneyDetails
+     * @return \Santosdave\Travelport\Rail\OptionJourneyDetails
      */
     public function setReturnCarrier($ReturnCarrier)
     {
@@ -253,7 +253,7 @@ class OptionJourneyDetails
 
     /**
      * @param typeFlightNumber $ReturnFlightNumber
-     * @return \FilippoToso\Travelport\Rail\OptionJourneyDetails
+     * @return \Santosdave\Travelport\Rail\OptionJourneyDetails
      */
     public function setReturnFlightNumber($ReturnFlightNumber)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class Commission
 {
@@ -63,7 +63,7 @@ class Commission
 
     /**
      * @param typeTrinary $Indicator
-     * @return \FilippoToso\Travelport\Hotel\Commission
+     * @return \Santosdave\Travelport\Hotel\Commission
      */
     public function setIndicator($Indicator)
     {
@@ -81,7 +81,7 @@ class Commission
 
     /**
      * @param string $Percent
-     * @return \FilippoToso\Travelport\Hotel\Commission
+     * @return \Santosdave\Travelport\Hotel\Commission
      */
     public function setPercent($Percent)
     {
@@ -99,7 +99,7 @@ class Commission
 
     /**
      * @param typeMoney $CommissionAmount
-     * @return \FilippoToso\Travelport\Hotel\Commission
+     * @return \Santosdave\Travelport\Hotel\Commission
      */
     public function setCommissionAmount($CommissionAmount)
     {
@@ -117,7 +117,7 @@ class Commission
 
     /**
      * @param typeMoney $ApproxCommissionAmount
-     * @return \FilippoToso\Travelport\Hotel\Commission
+     * @return \Santosdave\Travelport\Hotel\Commission
      */
     public function setApproxCommissionAmount($ApproxCommissionAmount)
     {
@@ -135,7 +135,7 @@ class Commission
 
     /**
      * @param typeMoney $CommissionOnSurcharges
-     * @return \FilippoToso\Travelport\Hotel\Commission
+     * @return \Santosdave\Travelport\Hotel\Commission
      */
     public function setCommissionOnSurcharges($CommissionOnSurcharges)
     {
@@ -153,7 +153,7 @@ class Commission
 
     /**
      * @param typeMoney $ApproxCommissionOnSurcharges
-     * @return \FilippoToso\Travelport\Hotel\Commission
+     * @return \Santosdave\Travelport\Hotel\Commission
      */
     public function setApproxCommissionOnSurcharges($ApproxCommissionOnSurcharges)
     {

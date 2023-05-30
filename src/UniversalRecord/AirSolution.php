@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class AirSolution
 {
@@ -49,7 +49,7 @@ class AirSolution
 
     /**
      * @param SearchTraveler $SearchTraveler
-     * @return \FilippoToso\Travelport\UniversalRecord\AirSolution
+     * @return \Santosdave\Travelport\UniversalRecord\AirSolution
      */
     public function setSearchTraveler($SearchTraveler)
     {
@@ -67,7 +67,7 @@ class AirSolution
 
     /**
      * @param typeBaseAirSegment $AirSegment
-     * @return \FilippoToso\Travelport\UniversalRecord\AirSolution
+     * @return \Santosdave\Travelport\UniversalRecord\AirSolution
      */
     public function setAirSegment($AirSegment)
     {
@@ -85,7 +85,7 @@ class AirSolution
 
     /**
      * @param HostToken $HostToken
-     * @return \FilippoToso\Travelport\UniversalRecord\AirSolution
+     * @return \Santosdave\Travelport\UniversalRecord\AirSolution
      */
     public function setHostToken($HostToken)
     {
@@ -103,7 +103,7 @@ class AirSolution
 
     /**
      * @param FareBasis $FareBasis
-     * @return \FilippoToso\Travelport\UniversalRecord\AirSolution
+     * @return \Santosdave\Travelport\UniversalRecord\AirSolution
      */
     public function setFareBasis($FareBasis)
     {

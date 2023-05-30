@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class Aggregator
 {
@@ -28,7 +28,7 @@ class Aggregator
 
     /**
      * @param typeThirdPartySupplier $Name
-     * @return \FilippoToso\Travelport\GDSQueue\Aggregator
+     * @return \Santosdave\Travelport\GDSQueue\Aggregator
      */
     public function setName($Name)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class PermittedPointOfSales
 {
@@ -28,7 +28,7 @@ class PermittedPointOfSales
 
     /**
      * @param PointOfSale $PointOfSale
-     * @return \FilippoToso\Travelport\GDSQueue\PermittedPointOfSales
+     * @return \Santosdave\Travelport\GDSQueue\PermittedPointOfSales
      */
     public function setPointOfSale($PointOfSale)
     {

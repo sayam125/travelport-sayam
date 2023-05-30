@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class SearchAccount
 {
@@ -35,7 +35,7 @@ class SearchAccount
 
     /**
      * @param string $ClientID
-     * @return \FilippoToso\Travelport\UniversalRecord\SearchAccount
+     * @return \Santosdave\Travelport\UniversalRecord\SearchAccount
      */
     public function setClientID($ClientID)
     {
@@ -53,7 +53,7 @@ class SearchAccount
 
     /**
      * @param typeBranchId $BranchID
-     * @return \FilippoToso\Travelport\UniversalRecord\SearchAccount
+     * @return \Santosdave\Travelport\UniversalRecord\SearchAccount
      */
     public function setBranchID($BranchID)
     {

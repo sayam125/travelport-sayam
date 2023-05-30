@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class VehicleDelete
 {
@@ -42,7 +42,7 @@ class VehicleDelete
 
     /**
      * @param typeLocatorCode $ReservationLocatorCode
-     * @return \FilippoToso\Travelport\Rail\VehicleDelete
+     * @return \Santosdave\Travelport\Rail\VehicleDelete
      */
     public function setReservationLocatorCode($ReservationLocatorCode)
     {
@@ -60,7 +60,7 @@ class VehicleDelete
 
     /**
      * @param typeElement $Element
-     * @return \FilippoToso\Travelport\Rail\VehicleDelete
+     * @return \Santosdave\Travelport\Rail\VehicleDelete
      */
     public function setElement($Element)
     {
@@ -78,7 +78,7 @@ class VehicleDelete
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Rail\VehicleDelete
+     * @return \Santosdave\Travelport\Rail\VehicleDelete
      */
     public function setKey($Key)
     {

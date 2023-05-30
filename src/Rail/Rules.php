@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class Rules
 {
@@ -26,7 +26,7 @@ class Rules
 
     /**
      * @param string $RulesText
-     * @return \FilippoToso\Travelport\Rail\Rules
+     * @return \Santosdave\Travelport\Rail\Rules
      */
     public function setRulesText($RulesText)
     {

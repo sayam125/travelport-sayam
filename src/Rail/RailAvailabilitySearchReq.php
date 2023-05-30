@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class RailAvailabilitySearchReq extends BaseReq
 {
@@ -75,7 +75,7 @@ class RailAvailabilitySearchReq extends BaseReq
 
     /**
      * @param SearchRailLeg $SearchRailLeg
-     * @return \FilippoToso\Travelport\Rail\RailAvailabilitySearchReq
+     * @return \Santosdave\Travelport\Rail\RailAvailabilitySearchReq
      */
     public function setSearchRailLeg($SearchRailLeg)
     {
@@ -93,7 +93,7 @@ class RailAvailabilitySearchReq extends BaseReq
 
     /**
      * @param SearchPassenger $SearchPassenger
-     * @return \FilippoToso\Travelport\Rail\RailAvailabilitySearchReq
+     * @return \Santosdave\Travelport\Rail\RailAvailabilitySearchReq
      */
     public function setSearchPassenger($SearchPassenger)
     {
@@ -111,7 +111,7 @@ class RailAvailabilitySearchReq extends BaseReq
 
     /**
      * @param RailSearchModifiers $RailSearchModifiers
-     * @return \FilippoToso\Travelport\Rail\RailAvailabilitySearchReq
+     * @return \Santosdave\Travelport\Rail\RailAvailabilitySearchReq
      */
     public function setRailSearchModifiers($RailSearchModifiers)
     {
@@ -129,7 +129,7 @@ class RailAvailabilitySearchReq extends BaseReq
 
     /**
      * @param RailPricingModifiers $RailPricingModifiers
-     * @return \FilippoToso\Travelport\Rail\RailAvailabilitySearchReq
+     * @return \Santosdave\Travelport\Rail\RailAvailabilitySearchReq
      */
     public function setRailPricingModifiers($RailPricingModifiers)
     {
@@ -147,7 +147,7 @@ class RailAvailabilitySearchReq extends BaseReq
 
     /**
      * @param HostTokenList $HostTokenList
-     * @return \FilippoToso\Travelport\Rail\RailAvailabilitySearchReq
+     * @return \Santosdave\Travelport\Rail\RailAvailabilitySearchReq
      */
     public function setHostTokenList($HostTokenList)
     {
@@ -165,7 +165,7 @@ class RailAvailabilitySearchReq extends BaseReq
 
     /**
      * @param typeResponseType $ResponseType
-     * @return \FilippoToso\Travelport\Rail\RailAvailabilitySearchReq
+     * @return \Santosdave\Travelport\Rail\RailAvailabilitySearchReq
      */
     public function setResponseType($ResponseType)
     {

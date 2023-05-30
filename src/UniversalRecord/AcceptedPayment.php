@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class AcceptedPayment
 {
@@ -28,7 +28,7 @@ class AcceptedPayment
 
     /**
      * @param typeCardMerchantType $PaymentCode
-     * @return \FilippoToso\Travelport\UniversalRecord\AcceptedPayment
+     * @return \Santosdave\Travelport\UniversalRecord\AcceptedPayment
      */
     public function setPaymentCode($PaymentCode)
     {

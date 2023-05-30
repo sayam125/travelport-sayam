@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class BranchGroupInfo extends typeProfileInfo
 {
@@ -87,7 +87,7 @@ class BranchGroupInfo extends typeProfileInfo
 
     /**
      * @param Address $Address
-     * @return \FilippoToso\Travelport\UProfile\BranchGroupInfo
+     * @return \Santosdave\Travelport\UProfile\BranchGroupInfo
      */
     public function setAddress($Address)
     {
@@ -105,7 +105,7 @@ class BranchGroupInfo extends typeProfileInfo
 
     /**
      * @param Phone $Phone
-     * @return \FilippoToso\Travelport\UProfile\BranchGroupInfo
+     * @return \Santosdave\Travelport\UProfile\BranchGroupInfo
      */
     public function setPhone($Phone)
     {
@@ -123,7 +123,7 @@ class BranchGroupInfo extends typeProfileInfo
 
     /**
      * @param ElectronicAddress $ElectronicAddress
-     * @return \FilippoToso\Travelport\UProfile\BranchGroupInfo
+     * @return \Santosdave\Travelport\UProfile\BranchGroupInfo
      */
     public function setElectronicAddress($ElectronicAddress)
     {
@@ -141,7 +141,7 @@ class BranchGroupInfo extends typeProfileInfo
 
     /**
      * @param ExternalIdentifier $ExternalIdentifier
-     * @return \FilippoToso\Travelport\UProfile\BranchGroupInfo
+     * @return \Santosdave\Travelport\UProfile\BranchGroupInfo
      */
     public function setExternalIdentifier($ExternalIdentifier)
     {
@@ -159,7 +159,7 @@ class BranchGroupInfo extends typeProfileInfo
 
     /**
      * @param StringLength1to128 $Name
-     * @return \FilippoToso\Travelport\UProfile\BranchGroupInfo
+     * @return \Santosdave\Travelport\UProfile\BranchGroupInfo
      */
     public function setName($Name)
     {
@@ -177,7 +177,7 @@ class BranchGroupInfo extends typeProfileInfo
 
     /**
      * @param typeProvisioningCode $BranchGroupCode
-     * @return \FilippoToso\Travelport\UProfile\BranchGroupInfo
+     * @return \Santosdave\Travelport\UProfile\BranchGroupInfo
      */
     public function setBranchGroupCode($BranchGroupCode)
     {
@@ -195,7 +195,7 @@ class BranchGroupInfo extends typeProfileInfo
 
     /**
      * @param boolean $URSyncTo
-     * @return \FilippoToso\Travelport\UProfile\BranchGroupInfo
+     * @return \Santosdave\Travelport\UProfile\BranchGroupInfo
      */
     public function setURSyncTo($URSyncTo)
     {
@@ -213,7 +213,7 @@ class BranchGroupInfo extends typeProfileInfo
 
     /**
      * @param boolean $ProfileSyncTo
-     * @return \FilippoToso\Travelport\UProfile\BranchGroupInfo
+     * @return \Santosdave\Travelport\UProfile\BranchGroupInfo
      */
     public function setProfileSyncTo($ProfileSyncTo)
     {
@@ -231,7 +231,7 @@ class BranchGroupInfo extends typeProfileInfo
 
     /**
      * @param boolean $ProfileSyncFrom
-     * @return \FilippoToso\Travelport\UProfile\BranchGroupInfo
+     * @return \Santosdave\Travelport\UProfile\BranchGroupInfo
      */
     public function setProfileSyncFrom($ProfileSyncFrom)
     {

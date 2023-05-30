@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeStringRestriction
 {
@@ -40,7 +40,7 @@ class typeStringRestriction
 
     /**
      * @param typeFieldEnumerationValue[] $Enumeration
-     * @return \FilippoToso\Travelport\UProfile\typeStringRestriction
+     * @return \Santosdave\Travelport\UProfile\typeStringRestriction
      */
     public function setEnumeration(array $Enumeration = null)
     {
@@ -58,7 +58,7 @@ class typeStringRestriction
 
     /**
      * @param int $MinLength
-     * @return \FilippoToso\Travelport\UProfile\typeStringRestriction
+     * @return \Santosdave\Travelport\UProfile\typeStringRestriction
      */
     public function setMinLength($MinLength)
     {
@@ -76,7 +76,7 @@ class typeStringRestriction
 
     /**
      * @param int $MaxLength
-     * @return \FilippoToso\Travelport\UProfile\typeStringRestriction
+     * @return \Santosdave\Travelport\UProfile\typeStringRestriction
      */
     public function setMaxLength($MaxLength)
     {

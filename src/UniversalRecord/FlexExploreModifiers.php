@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class FlexExploreModifiers
 {
@@ -47,7 +47,7 @@ class FlexExploreModifiers
 
     /**
      * @param typeIATACode[] $Destination
-     * @return \FilippoToso\Travelport\UniversalRecord\FlexExploreModifiers
+     * @return \Santosdave\Travelport\UniversalRecord\FlexExploreModifiers
      */
     public function setDestination(array $Destination = null)
     {
@@ -65,7 +65,7 @@ class FlexExploreModifiers
 
     /**
      * @param anonymous605 $Type
-     * @return \FilippoToso\Travelport\UniversalRecord\FlexExploreModifiers
+     * @return \Santosdave\Travelport\UniversalRecord\FlexExploreModifiers
      */
     public function setType($Type)
     {
@@ -83,7 +83,7 @@ class FlexExploreModifiers
 
     /**
      * @param int $Radius
-     * @return \FilippoToso\Travelport\UniversalRecord\FlexExploreModifiers
+     * @return \Santosdave\Travelport\UniversalRecord\FlexExploreModifiers
      */
     public function setRadius($Radius)
     {
@@ -101,7 +101,7 @@ class FlexExploreModifiers
 
     /**
      * @param anonymous606 $GroupName
-     * @return \FilippoToso\Travelport\UniversalRecord\FlexExploreModifiers
+     * @return \Santosdave\Travelport\UniversalRecord\FlexExploreModifiers
      */
     public function setGroupName($GroupName)
     {

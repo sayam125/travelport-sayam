@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeContractHistory extends typeKeyElement
 {
@@ -100,7 +100,7 @@ class typeContractHistory extends typeKeyElement
 
     /**
      * @param typeSupplier $Supplier
-     * @return \FilippoToso\Travelport\UProfile\typeContractHistory
+     * @return \Santosdave\Travelport\UProfile\typeContractHistory
      */
     public function setSupplier($Supplier)
     {
@@ -118,7 +118,7 @@ class typeContractHistory extends typeKeyElement
 
     /**
      * @param typeSupplierType $SupplierType
-     * @return \FilippoToso\Travelport\UProfile\typeContractHistory
+     * @return \Santosdave\Travelport\UProfile\typeContractHistory
      */
     public function setSupplierType($SupplierType)
     {
@@ -136,7 +136,7 @@ class typeContractHistory extends typeKeyElement
 
     /**
      * @param typeProviderCode $Provider
-     * @return \FilippoToso\Travelport\UProfile\typeContractHistory
+     * @return \Santosdave\Travelport\UProfile\typeContractHistory
      */
     public function setProvider($Provider)
     {
@@ -154,7 +154,7 @@ class typeContractHistory extends typeKeyElement
 
     /**
      * @param date $StartDate
-     * @return \FilippoToso\Travelport\UProfile\typeContractHistory
+     * @return \Santosdave\Travelport\UProfile\typeContractHistory
      */
     public function setStartDate($StartDate)
     {
@@ -172,7 +172,7 @@ class typeContractHistory extends typeKeyElement
 
     /**
      * @param date $ExpirationDate
-     * @return \FilippoToso\Travelport\UProfile\typeContractHistory
+     * @return \Santosdave\Travelport\UProfile\typeContractHistory
      */
     public function setExpirationDate($ExpirationDate)
     {
@@ -190,7 +190,7 @@ class typeContractHistory extends typeKeyElement
 
     /**
      * @param typePercentageWithDecimal $DiscountPercentage
-     * @return \FilippoToso\Travelport\UProfile\typeContractHistory
+     * @return \Santosdave\Travelport\UProfile\typeContractHistory
      */
     public function setDiscountPercentage($DiscountPercentage)
     {
@@ -208,7 +208,7 @@ class typeContractHistory extends typeKeyElement
 
     /**
      * @param typeMoney $DiscountValue
-     * @return \FilippoToso\Travelport\UProfile\typeContractHistory
+     * @return \Santosdave\Travelport\UProfile\typeContractHistory
      */
     public function setDiscountValue($DiscountValue)
     {
@@ -226,7 +226,7 @@ class typeContractHistory extends typeKeyElement
 
     /**
      * @param StringLength1to255 $SupplierContractNumber
-     * @return \FilippoToso\Travelport\UProfile\typeContractHistory
+     * @return \Santosdave\Travelport\UProfile\typeContractHistory
      */
     public function setSupplierContractNumber($SupplierContractNumber)
     {
@@ -244,7 +244,7 @@ class typeContractHistory extends typeKeyElement
 
     /**
      * @param StringLength1to255 $PromotionalDesignatorName
-     * @return \FilippoToso\Travelport\UProfile\typeContractHistory
+     * @return \Santosdave\Travelport\UProfile\typeContractHistory
      */
     public function setPromotionalDesignatorName($PromotionalDesignatorName)
     {
@@ -262,7 +262,7 @@ class typeContractHistory extends typeKeyElement
 
     /**
      * @param StringLength1to255 $Description
-     * @return \FilippoToso\Travelport\UProfile\typeContractHistory
+     * @return \Santosdave\Travelport\UProfile\typeContractHistory
      */
     public function setDescription($Description)
     {
@@ -280,7 +280,7 @@ class typeContractHistory extends typeKeyElement
 
     /**
      * @param typePriorityOrder $PriorityOrder
-     * @return \FilippoToso\Travelport\UProfile\typeContractHistory
+     * @return \Santosdave\Travelport\UProfile\typeContractHistory
      */
     public function setPriorityOrder($PriorityOrder)
     {

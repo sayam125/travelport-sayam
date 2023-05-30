@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class ManualFareAdjustment
 {
@@ -63,7 +63,7 @@ class ManualFareAdjustment
 
     /**
      * @param typeAdjustmentTarget $AppliedOn
-     * @return \FilippoToso\Travelport\Air\ManualFareAdjustment
+     * @return \Santosdave\Travelport\Air\ManualFareAdjustment
      */
     public function setAppliedOn($AppliedOn)
     {
@@ -81,7 +81,7 @@ class ManualFareAdjustment
 
     /**
      * @param typeAdjustmentType $AdjustmentType
-     * @return \FilippoToso\Travelport\Air\ManualFareAdjustment
+     * @return \Santosdave\Travelport\Air\ManualFareAdjustment
      */
     public function setAdjustmentType($AdjustmentType)
     {
@@ -99,7 +99,7 @@ class ManualFareAdjustment
 
     /**
      * @param float $Value
-     * @return \FilippoToso\Travelport\Air\ManualFareAdjustment
+     * @return \Santosdave\Travelport\Air\ManualFareAdjustment
      */
     public function setValue($Value)
     {
@@ -117,7 +117,7 @@ class ManualFareAdjustment
 
     /**
      * @param typeRef $PassengerRef
-     * @return \FilippoToso\Travelport\Air\ManualFareAdjustment
+     * @return \Santosdave\Travelport\Air\ManualFareAdjustment
      */
     public function setPassengerRef($PassengerRef)
     {
@@ -135,7 +135,7 @@ class ManualFareAdjustment
 
     /**
      * @param typeTicketDesignator $TicketDesignator
-     * @return \FilippoToso\Travelport\Air\ManualFareAdjustment
+     * @return \Santosdave\Travelport\Air\ManualFareAdjustment
      */
     public function setTicketDesignator($TicketDesignator)
     {
@@ -153,7 +153,7 @@ class ManualFareAdjustment
 
     /**
      * @param typeFareTypeCode $FareType
-     * @return \FilippoToso\Travelport\Air\ManualFareAdjustment
+     * @return \Santosdave\Travelport\Air\ManualFareAdjustment
      */
     public function setFareType($FareType)
     {

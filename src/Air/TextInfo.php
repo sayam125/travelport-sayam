@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class TextInfo
 {
@@ -33,7 +33,7 @@ class TextInfo
 
     /**
      * @param typeGeneralText[] $Text
-     * @return \FilippoToso\Travelport\Air\TextInfo
+     * @return \Santosdave\Travelport\Air\TextInfo
      */
     public function setText(array $Text = null)
     {
@@ -51,7 +51,7 @@ class TextInfo
 
     /**
      * @param string $Title
-     * @return \FilippoToso\Travelport\Air\TextInfo
+     * @return \Santosdave\Travelport\Air\TextInfo
      */
     public function setTitle($Title)
     {

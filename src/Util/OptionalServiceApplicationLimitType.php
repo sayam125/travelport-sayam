@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class OptionalServiceApplicationLimitType
 {
@@ -49,7 +49,7 @@ class OptionalServiceApplicationLimitType
 
     /**
      * @param OptionalServiceApplicabilityType $ApplicableLevel
-     * @return \FilippoToso\Travelport\Util\OptionalServiceApplicationLimitType
+     * @return \Santosdave\Travelport\Util\OptionalServiceApplicationLimitType
      */
     public function setApplicableLevel($ApplicableLevel)
     {
@@ -67,7 +67,7 @@ class OptionalServiceApplicationLimitType
 
     /**
      * @param string $ProviderDefinedApplicableLevels
-     * @return \FilippoToso\Travelport\Util\OptionalServiceApplicationLimitType
+     * @return \Santosdave\Travelport\Util\OptionalServiceApplicationLimitType
      */
     public function setProviderDefinedApplicableLevels($ProviderDefinedApplicableLevels)
     {
@@ -85,7 +85,7 @@ class OptionalServiceApplicationLimitType
 
     /**
      * @param int $MaximumQuantity
-     * @return \FilippoToso\Travelport\Util\OptionalServiceApplicationLimitType
+     * @return \Santosdave\Travelport\Util\OptionalServiceApplicationLimitType
      */
     public function setMaximumQuantity($MaximumQuantity)
     {
@@ -103,7 +103,7 @@ class OptionalServiceApplicationLimitType
 
     /**
      * @param int $MinimumQuantity
-     * @return \FilippoToso\Travelport\Util\OptionalServiceApplicationLimitType
+     * @return \Santosdave\Travelport\Util\OptionalServiceApplicationLimitType
      */
     public function setMinimumQuantity($MinimumQuantity)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class FareSurcharge
 {
@@ -70,7 +70,7 @@ class FareSurcharge
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\GDSQueue\FareSurcharge
+     * @return \Santosdave\Travelport\GDSQueue\FareSurcharge
      */
     public function setKey($Key)
     {
@@ -88,7 +88,7 @@ class FareSurcharge
 
     /**
      * @param string $Type
-     * @return \FilippoToso\Travelport\GDSQueue\FareSurcharge
+     * @return \Santosdave\Travelport\GDSQueue\FareSurcharge
      */
     public function setType($Type)
     {
@@ -106,7 +106,7 @@ class FareSurcharge
 
     /**
      * @param typeMoney $Amount
-     * @return \FilippoToso\Travelport\GDSQueue\FareSurcharge
+     * @return \Santosdave\Travelport\GDSQueue\FareSurcharge
      */
     public function setAmount($Amount)
     {
@@ -124,7 +124,7 @@ class FareSurcharge
 
     /**
      * @param typeRef $SegmentRef
-     * @return \FilippoToso\Travelport\GDSQueue\FareSurcharge
+     * @return \Santosdave\Travelport\GDSQueue\FareSurcharge
      */
     public function setSegmentRef($SegmentRef)
     {
@@ -142,7 +142,7 @@ class FareSurcharge
 
     /**
      * @param typeRef $CouponRef
-     * @return \FilippoToso\Travelport\GDSQueue\FareSurcharge
+     * @return \Santosdave\Travelport\GDSQueue\FareSurcharge
      */
     public function setCouponRef($CouponRef)
     {
@@ -160,7 +160,7 @@ class FareSurcharge
 
     /**
      * @param typeElementStatus $ElStat
-     * @return \FilippoToso\Travelport\GDSQueue\FareSurcharge
+     * @return \Santosdave\Travelport\GDSQueue\FareSurcharge
      */
     public function setElStat($ElStat)
     {
@@ -178,7 +178,7 @@ class FareSurcharge
 
     /**
      * @param boolean $KeyOverride
-     * @return \FilippoToso\Travelport\GDSQueue\FareSurcharge
+     * @return \Santosdave\Travelport\GDSQueue\FareSurcharge
      */
     public function setKeyOverride($KeyOverride)
     {

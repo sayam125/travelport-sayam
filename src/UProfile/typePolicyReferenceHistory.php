@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typePolicyReferenceHistory extends typeKeyElement
 {
@@ -58,7 +58,7 @@ class typePolicyReferenceHistory extends typeKeyElement
 
     /**
      * @param string $Type
-     * @return \FilippoToso\Travelport\UProfile\typePolicyReferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typePolicyReferenceHistory
      */
     public function setType($Type)
     {
@@ -76,7 +76,7 @@ class typePolicyReferenceHistory extends typeKeyElement
 
     /**
      * @param StringLength1to255 $Value
-     * @return \FilippoToso\Travelport\UProfile\typePolicyReferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typePolicyReferenceHistory
      */
     public function setValue($Value)
     {
@@ -94,7 +94,7 @@ class typePolicyReferenceHistory extends typeKeyElement
 
     /**
      * @param typeProfileID $ControllingProfileID
-     * @return \FilippoToso\Travelport\UProfile\typePolicyReferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typePolicyReferenceHistory
      */
     public function setControllingProfileID($ControllingProfileID)
     {
@@ -112,7 +112,7 @@ class typePolicyReferenceHistory extends typeKeyElement
 
     /**
      * @param typePriorityOrder $PriorityOrder
-     * @return \FilippoToso\Travelport\UProfile\typePolicyReferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typePolicyReferenceHistory
      */
     public function setPriorityOrder($PriorityOrder)
     {
@@ -130,7 +130,7 @@ class typePolicyReferenceHistory extends typeKeyElement
 
     /**
      * @param StringLength1to255 $Desc
-     * @return \FilippoToso\Travelport\UProfile\typePolicyReferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typePolicyReferenceHistory
      */
     public function setDesc($Desc)
     {

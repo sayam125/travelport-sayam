@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class PermittedAggregators
 {
@@ -28,7 +28,7 @@ class PermittedAggregators
 
     /**
      * @param Aggregator[] $Aggregator
-     * @return \FilippoToso\Travelport\GDSQueue\PermittedAggregators
+     * @return \Santosdave\Travelport\GDSQueue\PermittedAggregators
      */
     public function setAggregator(array $Aggregator)
     {

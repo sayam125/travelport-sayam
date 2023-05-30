@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class HotelDetailItem
 {
@@ -35,7 +35,7 @@ class HotelDetailItem
 
     /**
      * @param string[] $Text
-     * @return \FilippoToso\Travelport\GDSQueue\HotelDetailItem
+     * @return \Santosdave\Travelport\GDSQueue\HotelDetailItem
      */
     public function setText(array $Text)
     {
@@ -53,7 +53,7 @@ class HotelDetailItem
 
     /**
      * @param string $Name
-     * @return \FilippoToso\Travelport\GDSQueue\HotelDetailItem
+     * @return \Santosdave\Travelport\GDSQueue\HotelDetailItem
      */
     public function setName($Name)
     {

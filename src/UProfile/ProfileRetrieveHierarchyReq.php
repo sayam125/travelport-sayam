@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class ProfileRetrieveHierarchyReq extends BaseReq
 {
@@ -47,7 +47,7 @@ class ProfileRetrieveHierarchyReq extends BaseReq
 
     /**
      * @param typeProfileID $ProfileID
-     * @return \FilippoToso\Travelport\UProfile\ProfileRetrieveHierarchyReq
+     * @return \Santosdave\Travelport\UProfile\ProfileRetrieveHierarchyReq
      */
     public function setProfileID($ProfileID)
     {
@@ -65,7 +65,7 @@ class ProfileRetrieveHierarchyReq extends BaseReq
 
     /**
      * @param typeProvisioningCode $AgencyCode
-     * @return \FilippoToso\Travelport\UProfile\ProfileRetrieveHierarchyReq
+     * @return \Santosdave\Travelport\UProfile\ProfileRetrieveHierarchyReq
      */
     public function setAgencyCode($AgencyCode)
     {

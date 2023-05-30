@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class SearchAccount
 {
@@ -35,7 +35,7 @@ class SearchAccount
 
     /**
      * @param string $ClientID
-     * @return \FilippoToso\Travelport\Rail\SearchAccount
+     * @return \Santosdave\Travelport\Rail\SearchAccount
      */
     public function setClientID($ClientID)
     {
@@ -53,7 +53,7 @@ class SearchAccount
 
     /**
      * @param typeBranchId $BranchID
-     * @return \FilippoToso\Travelport\Rail\SearchAccount
+     * @return \Santosdave\Travelport\Rail\SearchAccount
      */
     public function setBranchID($BranchID)
     {

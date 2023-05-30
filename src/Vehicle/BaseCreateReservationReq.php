@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Vehicle;
+namespace Santosdave\Travelport\Vehicle;
 
 class BaseCreateReservationReq extends BaseReq
 {
@@ -208,7 +208,7 @@ class BaseCreateReservationReq extends BaseReq
 
     /**
      * @param LinkedUniversalRecord $LinkedUniversalRecord
-     * @return \FilippoToso\Travelport\Vehicle\BaseCreateReservationReq
+     * @return \Santosdave\Travelport\Vehicle\BaseCreateReservationReq
      */
     public function setLinkedUniversalRecord($LinkedUniversalRecord)
     {
@@ -226,7 +226,7 @@ class BaseCreateReservationReq extends BaseReq
 
     /**
      * @param BookingTraveler $BookingTraveler
-     * @return \FilippoToso\Travelport\Vehicle\BaseCreateReservationReq
+     * @return \Santosdave\Travelport\Vehicle\BaseCreateReservationReq
      */
     public function setBookingTraveler($BookingTraveler)
     {
@@ -244,7 +244,7 @@ class BaseCreateReservationReq extends BaseReq
 
     /**
      * @param OSI $OSI
-     * @return \FilippoToso\Travelport\Vehicle\BaseCreateReservationReq
+     * @return \Santosdave\Travelport\Vehicle\BaseCreateReservationReq
      */
     public function setOSI($OSI)
     {
@@ -262,7 +262,7 @@ class BaseCreateReservationReq extends BaseReq
 
     /**
      * @param AccountingRemark $AccountingRemark
-     * @return \FilippoToso\Travelport\Vehicle\BaseCreateReservationReq
+     * @return \Santosdave\Travelport\Vehicle\BaseCreateReservationReq
      */
     public function setAccountingRemark($AccountingRemark)
     {
@@ -280,7 +280,7 @@ class BaseCreateReservationReq extends BaseReq
 
     /**
      * @param GeneralRemark $GeneralRemark
-     * @return \FilippoToso\Travelport\Vehicle\BaseCreateReservationReq
+     * @return \Santosdave\Travelport\Vehicle\BaseCreateReservationReq
      */
     public function setGeneralRemark($GeneralRemark)
     {
@@ -298,7 +298,7 @@ class BaseCreateReservationReq extends BaseReq
 
     /**
      * @param XMLRemark $XMLRemark
-     * @return \FilippoToso\Travelport\Vehicle\BaseCreateReservationReq
+     * @return \Santosdave\Travelport\Vehicle\BaseCreateReservationReq
      */
     public function setXMLRemark($XMLRemark)
     {
@@ -316,7 +316,7 @@ class BaseCreateReservationReq extends BaseReq
 
     /**
      * @param UnassociatedRemark $UnassociatedRemark
-     * @return \FilippoToso\Travelport\Vehicle\BaseCreateReservationReq
+     * @return \Santosdave\Travelport\Vehicle\BaseCreateReservationReq
      */
     public function setUnassociatedRemark($UnassociatedRemark)
     {
@@ -334,7 +334,7 @@ class BaseCreateReservationReq extends BaseReq
 
     /**
      * @param Postscript $Postscript
-     * @return \FilippoToso\Travelport\Vehicle\BaseCreateReservationReq
+     * @return \Santosdave\Travelport\Vehicle\BaseCreateReservationReq
      */
     public function setPostscript($Postscript)
     {
@@ -352,7 +352,7 @@ class BaseCreateReservationReq extends BaseReq
 
     /**
      * @param PassiveInfo $PassiveInfo
-     * @return \FilippoToso\Travelport\Vehicle\BaseCreateReservationReq
+     * @return \Santosdave\Travelport\Vehicle\BaseCreateReservationReq
      */
     public function setPassiveInfo($PassiveInfo)
     {
@@ -370,7 +370,7 @@ class BaseCreateReservationReq extends BaseReq
 
     /**
      * @param ContinuityCheckOverride $ContinuityCheckOverride
-     * @return \FilippoToso\Travelport\Vehicle\BaseCreateReservationReq
+     * @return \Santosdave\Travelport\Vehicle\BaseCreateReservationReq
      */
     public function setContinuityCheckOverride($ContinuityCheckOverride)
     {
@@ -388,7 +388,7 @@ class BaseCreateReservationReq extends BaseReq
 
     /**
      * @param AgencyContactInfo $AgencyContactInfo
-     * @return \FilippoToso\Travelport\Vehicle\BaseCreateReservationReq
+     * @return \Santosdave\Travelport\Vehicle\BaseCreateReservationReq
      */
     public function setAgencyContactInfo($AgencyContactInfo)
     {
@@ -406,7 +406,7 @@ class BaseCreateReservationReq extends BaseReq
 
     /**
      * @param CustomerID $CustomerID
-     * @return \FilippoToso\Travelport\Vehicle\BaseCreateReservationReq
+     * @return \Santosdave\Travelport\Vehicle\BaseCreateReservationReq
      */
     public function setCustomerID($CustomerID)
     {
@@ -424,7 +424,7 @@ class BaseCreateReservationReq extends BaseReq
 
     /**
      * @param FileFinishingInfo $FileFinishingInfo
-     * @return \FilippoToso\Travelport\Vehicle\BaseCreateReservationReq
+     * @return \Santosdave\Travelport\Vehicle\BaseCreateReservationReq
      */
     public function setFileFinishingInfo($FileFinishingInfo)
     {
@@ -442,7 +442,7 @@ class BaseCreateReservationReq extends BaseReq
 
     /**
      * @param CommissionRemark $CommissionRemark
-     * @return \FilippoToso\Travelport\Vehicle\BaseCreateReservationReq
+     * @return \Santosdave\Travelport\Vehicle\BaseCreateReservationReq
      */
     public function setCommissionRemark($CommissionRemark)
     {
@@ -460,7 +460,7 @@ class BaseCreateReservationReq extends BaseReq
 
     /**
      * @param ConsolidatorRemark $ConsolidatorRemark
-     * @return \FilippoToso\Travelport\Vehicle\BaseCreateReservationReq
+     * @return \Santosdave\Travelport\Vehicle\BaseCreateReservationReq
      */
     public function setConsolidatorRemark($ConsolidatorRemark)
     {
@@ -478,7 +478,7 @@ class BaseCreateReservationReq extends BaseReq
 
     /**
      * @param InvoiceRemark $InvoiceRemark
-     * @return \FilippoToso\Travelport\Vehicle\BaseCreateReservationReq
+     * @return \Santosdave\Travelport\Vehicle\BaseCreateReservationReq
      */
     public function setInvoiceRemark($InvoiceRemark)
     {
@@ -496,7 +496,7 @@ class BaseCreateReservationReq extends BaseReq
 
     /**
      * @param SSR $SSR
-     * @return \FilippoToso\Travelport\Vehicle\BaseCreateReservationReq
+     * @return \Santosdave\Travelport\Vehicle\BaseCreateReservationReq
      */
     public function setSSR($SSR)
     {
@@ -514,7 +514,7 @@ class BaseCreateReservationReq extends BaseReq
 
     /**
      * @param EmailNotification $EmailNotification
-     * @return \FilippoToso\Travelport\Vehicle\BaseCreateReservationReq
+     * @return \Santosdave\Travelport\Vehicle\BaseCreateReservationReq
      */
     public function setEmailNotification($EmailNotification)
     {
@@ -532,7 +532,7 @@ class BaseCreateReservationReq extends BaseReq
 
     /**
      * @param QueuePlace $QueuePlace
-     * @return \FilippoToso\Travelport\Vehicle\BaseCreateReservationReq
+     * @return \Santosdave\Travelport\Vehicle\BaseCreateReservationReq
      */
     public function setQueuePlace($QueuePlace)
     {
@@ -550,7 +550,7 @@ class BaseCreateReservationReq extends BaseReq
 
     /**
      * @param anonymous536 $RuleName
-     * @return \FilippoToso\Travelport\Vehicle\BaseCreateReservationReq
+     * @return \Santosdave\Travelport\Vehicle\BaseCreateReservationReq
      */
     public function setRuleName($RuleName)
     {
@@ -568,7 +568,7 @@ class BaseCreateReservationReq extends BaseReq
 
     /**
      * @param typeLocatorCode $UniversalRecordLocatorCode
-     * @return \FilippoToso\Travelport\Vehicle\BaseCreateReservationReq
+     * @return \Santosdave\Travelport\Vehicle\BaseCreateReservationReq
      */
     public function setUniversalRecordLocatorCode($UniversalRecordLocatorCode)
     {
@@ -586,7 +586,7 @@ class BaseCreateReservationReq extends BaseReq
 
     /**
      * @param typeLocatorCode $ProviderLocatorCode
-     * @return \FilippoToso\Travelport\Vehicle\BaseCreateReservationReq
+     * @return \Santosdave\Travelport\Vehicle\BaseCreateReservationReq
      */
     public function setProviderLocatorCode($ProviderLocatorCode)
     {
@@ -604,7 +604,7 @@ class BaseCreateReservationReq extends BaseReq
 
     /**
      * @param string $ProviderCode
-     * @return \FilippoToso\Travelport\Vehicle\BaseCreateReservationReq
+     * @return \Santosdave\Travelport\Vehicle\BaseCreateReservationReq
      */
     public function setProviderCode($ProviderCode)
     {
@@ -622,7 +622,7 @@ class BaseCreateReservationReq extends BaseReq
 
     /**
      * @param string $CustomerNumber
-     * @return \FilippoToso\Travelport\Vehicle\BaseCreateReservationReq
+     * @return \Santosdave\Travelport\Vehicle\BaseCreateReservationReq
      */
     public function setCustomerNumber($CustomerNumber)
     {
@@ -640,7 +640,7 @@ class BaseCreateReservationReq extends BaseReq
 
     /**
      * @param int $Version
-     * @return \FilippoToso\Travelport\Vehicle\BaseCreateReservationReq
+     * @return \Santosdave\Travelport\Vehicle\BaseCreateReservationReq
      */
     public function setVersion($Version)
     {

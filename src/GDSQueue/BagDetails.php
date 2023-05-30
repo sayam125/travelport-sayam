@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class BagDetails
 {
@@ -77,7 +77,7 @@ class BagDetails
 
     /**
      * @param BaggageRestriction $BaggageRestriction
-     * @return \FilippoToso\Travelport\GDSQueue\BagDetails
+     * @return \Santosdave\Travelport\GDSQueue\BagDetails
      */
     public function setBaggageRestriction($BaggageRestriction)
     {
@@ -95,7 +95,7 @@ class BagDetails
 
     /**
      * @param AvailableDiscount $AvailableDiscount
-     * @return \FilippoToso\Travelport\GDSQueue\BagDetails
+     * @return \Santosdave\Travelport\GDSQueue\BagDetails
      */
     public function setAvailableDiscount($AvailableDiscount)
     {
@@ -113,7 +113,7 @@ class BagDetails
 
     /**
      * @param string $ApplicableBags
-     * @return \FilippoToso\Travelport\GDSQueue\BagDetails
+     * @return \Santosdave\Travelport\GDSQueue\BagDetails
      */
     public function setApplicableBags($ApplicableBags)
     {
@@ -131,7 +131,7 @@ class BagDetails
 
     /**
      * @param typeMoney $BasePrice
-     * @return \FilippoToso\Travelport\GDSQueue\BagDetails
+     * @return \Santosdave\Travelport\GDSQueue\BagDetails
      */
     public function setBasePrice($BasePrice)
     {
@@ -149,7 +149,7 @@ class BagDetails
 
     /**
      * @param typeMoney $ApproximateBasePrice
-     * @return \FilippoToso\Travelport\GDSQueue\BagDetails
+     * @return \Santosdave\Travelport\GDSQueue\BagDetails
      */
     public function setApproximateBasePrice($ApproximateBasePrice)
     {
@@ -167,7 +167,7 @@ class BagDetails
 
     /**
      * @param typeMoney $Taxes
-     * @return \FilippoToso\Travelport\GDSQueue\BagDetails
+     * @return \Santosdave\Travelport\GDSQueue\BagDetails
      */
     public function setTaxes($Taxes)
     {
@@ -185,7 +185,7 @@ class BagDetails
 
     /**
      * @param typeMoney $TotalPrice
-     * @return \FilippoToso\Travelport\GDSQueue\BagDetails
+     * @return \Santosdave\Travelport\GDSQueue\BagDetails
      */
     public function setTotalPrice($TotalPrice)
     {
@@ -203,7 +203,7 @@ class BagDetails
 
     /**
      * @param typeMoney $ApproximateTotalPrice
-     * @return \FilippoToso\Travelport\GDSQueue\BagDetails
+     * @return \Santosdave\Travelport\GDSQueue\BagDetails
      */
     public function setApproximateTotalPrice($ApproximateTotalPrice)
     {

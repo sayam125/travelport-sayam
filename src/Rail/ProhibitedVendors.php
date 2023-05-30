@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class ProhibitedVendors
 {
@@ -28,7 +28,7 @@ class ProhibitedVendors
 
     /**
      * @param Vendor $Vendor
-     * @return \FilippoToso\Travelport\Rail\ProhibitedVendors
+     * @return \Santosdave\Travelport\Rail\ProhibitedVendors
      */
     public function setVendor($Vendor)
     {

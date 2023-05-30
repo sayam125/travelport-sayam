@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class DepositAmount
 {
@@ -35,7 +35,7 @@ class DepositAmount
 
     /**
      * @param typeMoney $Amount
-     * @return \FilippoToso\Travelport\UniversalRecord\DepositAmount
+     * @return \Santosdave\Travelport\UniversalRecord\DepositAmount
      */
     public function setAmount($Amount)
     {
@@ -53,7 +53,7 @@ class DepositAmount
 
     /**
      * @param typeMoney $ApproximateAmount
-     * @return \FilippoToso\Travelport\UniversalRecord\DepositAmount
+     * @return \Santosdave\Travelport\UniversalRecord\DepositAmount
      */
     public function setApproximateAmount($ApproximateAmount)
     {

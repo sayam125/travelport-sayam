@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class UniversalModifyErrorInfo extends typeErrorInfo
 {
@@ -42,7 +42,7 @@ class UniversalModifyErrorInfo extends typeErrorInfo
 
     /**
      * @param UniversalModifyCommandError $UniversalModifyCommandError
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalModifyErrorInfo
+     * @return \Santosdave\Travelport\GDSQueue\UniversalModifyErrorInfo
      */
     public function setUniversalModifyCommandError($UniversalModifyCommandError)
     {
@@ -60,7 +60,7 @@ class UniversalModifyErrorInfo extends typeErrorInfo
 
     /**
      * @param AirSegmentError $AirSegmentError
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalModifyErrorInfo
+     * @return \Santosdave\Travelport\GDSQueue\UniversalModifyErrorInfo
      */
     public function setAirSegmentError($AirSegmentError)
     {

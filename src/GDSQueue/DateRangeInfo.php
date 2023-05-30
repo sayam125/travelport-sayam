@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class DateRangeInfo
 {
@@ -42,7 +42,7 @@ class DateRangeInfo
 
     /**
      * @param string $DateRange
-     * @return \FilippoToso\Travelport\GDSQueue\DateRangeInfo
+     * @return \Santosdave\Travelport\GDSQueue\DateRangeInfo
      */
     public function setDateRange($DateRange)
     {
@@ -60,7 +60,7 @@ class DateRangeInfo
 
     /**
      * @param string $Title
-     * @return \FilippoToso\Travelport\GDSQueue\DateRangeInfo
+     * @return \Santosdave\Travelport\GDSQueue\DateRangeInfo
      */
     public function setTitle($Title)
     {
@@ -78,7 +78,7 @@ class DateRangeInfo
 
     /**
      * @param int $Count
-     * @return \FilippoToso\Travelport\GDSQueue\DateRangeInfo
+     * @return \Santosdave\Travelport\GDSQueue\DateRangeInfo
      */
     public function setCount($Count)
     {

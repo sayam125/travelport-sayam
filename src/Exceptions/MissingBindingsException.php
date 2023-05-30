@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Exceptions;
+namespace Santosdave\Travelport\Exceptions;
 
 use Exception;
 

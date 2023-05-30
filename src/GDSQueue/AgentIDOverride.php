@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class AgentIDOverride
 {
@@ -42,7 +42,7 @@ class AgentIDOverride
 
     /**
      * @param typeSupplierCode $SupplierCode
-     * @return \FilippoToso\Travelport\GDSQueue\AgentIDOverride
+     * @return \Santosdave\Travelport\GDSQueue\AgentIDOverride
      */
     public function setSupplierCode($SupplierCode)
     {
@@ -60,7 +60,7 @@ class AgentIDOverride
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\GDSQueue\AgentIDOverride
+     * @return \Santosdave\Travelport\GDSQueue\AgentIDOverride
      */
     public function setProviderCode($ProviderCode)
     {
@@ -78,7 +78,7 @@ class AgentIDOverride
 
     /**
      * @param anonymous397 $AgentID
-     * @return \FilippoToso\Travelport\GDSQueue\AgentIDOverride
+     * @return \Santosdave\Travelport\GDSQueue\AgentIDOverride
      */
     public function setAgentID($AgentID)
     {

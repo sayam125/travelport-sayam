@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class RailBookingInfo
 {
@@ -42,7 +42,7 @@ class RailBookingInfo
 
     /**
      * @param typeRef $RailFareRef
-     * @return \FilippoToso\Travelport\Air\RailBookingInfo
+     * @return \Santosdave\Travelport\Air\RailBookingInfo
      */
     public function setRailFareRef($RailFareRef)
     {
@@ -60,7 +60,7 @@ class RailBookingInfo
 
     /**
      * @param typeRef $RailJourneyRef
-     * @return \FilippoToso\Travelport\Air\RailBookingInfo
+     * @return \Santosdave\Travelport\Air\RailBookingInfo
      */
     public function setRailJourneyRef($RailJourneyRef)
     {
@@ -78,7 +78,7 @@ class RailBookingInfo
 
     /**
      * @param boolean $OptionalService
-     * @return \FilippoToso\Travelport\Air\RailBookingInfo
+     * @return \Santosdave\Travelport\Air\RailBookingInfo
      */
     public function setOptionalService($OptionalService)
     {

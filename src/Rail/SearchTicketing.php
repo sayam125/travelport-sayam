@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class SearchTicketing
 {
@@ -42,7 +42,7 @@ class SearchTicketing
 
     /**
      * @param anonymous199 $TicketStatus
-     * @return \FilippoToso\Travelport\Rail\SearchTicketing
+     * @return \Santosdave\Travelport\Rail\SearchTicketing
      */
     public function setTicketStatus($TicketStatus)
     {
@@ -60,7 +60,7 @@ class SearchTicketing
 
     /**
      * @param anonymous200 $ReservationStatus
-     * @return \FilippoToso\Travelport\Rail\SearchTicketing
+     * @return \Santosdave\Travelport\Rail\SearchTicketing
      */
     public function setReservationStatus($ReservationStatus)
     {
@@ -78,7 +78,7 @@ class SearchTicketing
 
     /**
      * @param date $TicketDate
-     * @return \FilippoToso\Travelport\Rail\SearchTicketing
+     * @return \Santosdave\Travelport\Rail\SearchTicketing
      */
     public function setTicketDate($TicketDate)
     {

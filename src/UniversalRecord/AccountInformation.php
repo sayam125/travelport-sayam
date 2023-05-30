@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class AccountInformation
 {
@@ -40,7 +40,7 @@ class AccountInformation
 
     /**
      * @param typeStructuredAddress $Address
-     * @return \FilippoToso\Travelport\UniversalRecord\AccountInformation
+     * @return \Santosdave\Travelport\UniversalRecord\AccountInformation
      */
     public function setAddress($Address)
     {
@@ -58,7 +58,7 @@ class AccountInformation
 
     /**
      * @param PhoneNumber $PhoneNumber
-     * @return \FilippoToso\Travelport\UniversalRecord\AccountInformation
+     * @return \Santosdave\Travelport\UniversalRecord\AccountInformation
      */
     public function setPhoneNumber($PhoneNumber)
     {
@@ -76,7 +76,7 @@ class AccountInformation
 
     /**
      * @param string $AccountName
-     * @return \FilippoToso\Travelport\UniversalRecord\AccountInformation
+     * @return \Santosdave\Travelport\UniversalRecord\AccountInformation
      */
     public function setAccountName($AccountName)
     {

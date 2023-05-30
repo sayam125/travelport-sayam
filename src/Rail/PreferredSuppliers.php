@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class PreferredSuppliers
 {
@@ -28,7 +28,7 @@ class PreferredSuppliers
 
     /**
      * @param RailSupplier $RailSupplier
-     * @return \FilippoToso\Travelport\Rail\PreferredSuppliers
+     * @return \Santosdave\Travelport\Rail\PreferredSuppliers
      */
     public function setRailSupplier($RailSupplier)
     {

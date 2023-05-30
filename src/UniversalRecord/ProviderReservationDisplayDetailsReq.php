@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class ProviderReservationDisplayDetailsReq extends BaseReq
 {
@@ -103,7 +103,7 @@ class ProviderReservationDisplayDetailsReq extends BaseReq
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\UniversalRecord\ProviderReservationDisplayDetailsReq
+     * @return \Santosdave\Travelport\UniversalRecord\ProviderReservationDisplayDetailsReq
      */
     public function setProviderCode($ProviderCode)
     {
@@ -121,7 +121,7 @@ class ProviderReservationDisplayDetailsReq extends BaseReq
 
     /**
      * @param typeProviderLocatorCode $ProviderLocatorCode
-     * @return \FilippoToso\Travelport\UniversalRecord\ProviderReservationDisplayDetailsReq
+     * @return \Santosdave\Travelport\UniversalRecord\ProviderReservationDisplayDetailsReq
      */
     public function setProviderLocatorCode($ProviderLocatorCode)
     {
@@ -139,7 +139,7 @@ class ProviderReservationDisplayDetailsReq extends BaseReq
 
     /**
      * @param boolean $ProviderReservationDetail
-     * @return \FilippoToso\Travelport\UniversalRecord\ProviderReservationDisplayDetailsReq
+     * @return \Santosdave\Travelport\UniversalRecord\ProviderReservationDisplayDetailsReq
      */
     public function setProviderReservationDetail($ProviderReservationDetail)
     {
@@ -157,7 +157,7 @@ class ProviderReservationDisplayDetailsReq extends BaseReq
 
     /**
      * @param boolean $CustomCheck
-     * @return \FilippoToso\Travelport\UniversalRecord\ProviderReservationDisplayDetailsReq
+     * @return \Santosdave\Travelport\UniversalRecord\ProviderReservationDisplayDetailsReq
      */
     public function setCustomCheck($CustomCheck)
     {
@@ -175,7 +175,7 @@ class ProviderReservationDisplayDetailsReq extends BaseReq
 
     /**
      * @param boolean $ProviderProfile
-     * @return \FilippoToso\Travelport\UniversalRecord\ProviderReservationDisplayDetailsReq
+     * @return \Santosdave\Travelport\UniversalRecord\ProviderReservationDisplayDetailsReq
      */
     public function setProviderProfile($ProviderProfile)
     {
@@ -193,7 +193,7 @@ class ProviderReservationDisplayDetailsReq extends BaseReq
 
     /**
      * @param boolean $DivideDetails
-     * @return \FilippoToso\Travelport\UniversalRecord\ProviderReservationDisplayDetailsReq
+     * @return \Santosdave\Travelport\UniversalRecord\ProviderReservationDisplayDetailsReq
      */
     public function setDivideDetails($DivideDetails)
     {
@@ -211,7 +211,7 @@ class ProviderReservationDisplayDetailsReq extends BaseReq
 
     /**
      * @param boolean $EnhancedItinModifiers
-     * @return \FilippoToso\Travelport\UniversalRecord\ProviderReservationDisplayDetailsReq
+     * @return \Santosdave\Travelport\UniversalRecord\ProviderReservationDisplayDetailsReq
      */
     public function setEnhancedItinModifiers($EnhancedItinModifiers)
     {
@@ -229,7 +229,7 @@ class ProviderReservationDisplayDetailsReq extends BaseReq
 
     /**
      * @param boolean $IntegratedContent
-     * @return \FilippoToso\Travelport\UniversalRecord\ProviderReservationDisplayDetailsReq
+     * @return \Santosdave\Travelport\UniversalRecord\ProviderReservationDisplayDetailsReq
      */
     public function setIntegratedContent($IntegratedContent)
     {
@@ -247,7 +247,7 @@ class ProviderReservationDisplayDetailsReq extends BaseReq
 
     /**
      * @param boolean $Cruise
-     * @return \FilippoToso\Travelport\UniversalRecord\ProviderReservationDisplayDetailsReq
+     * @return \Santosdave\Travelport\UniversalRecord\ProviderReservationDisplayDetailsReq
      */
     public function setCruise($Cruise)
     {
@@ -265,7 +265,7 @@ class ProviderReservationDisplayDetailsReq extends BaseReq
 
     /**
      * @param boolean $RailSegment
-     * @return \FilippoToso\Travelport\UniversalRecord\ProviderReservationDisplayDetailsReq
+     * @return \Santosdave\Travelport\UniversalRecord\ProviderReservationDisplayDetailsReq
      */
     public function setRailSegment($RailSegment)
     {

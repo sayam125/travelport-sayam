@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class ProfileModifyFieldReq extends BaseReq
 {
@@ -47,7 +47,7 @@ class ProfileModifyFieldReq extends BaseReq
 
     /**
      * @param ModifyField $ModifyField
-     * @return \FilippoToso\Travelport\UProfile\ProfileModifyFieldReq
+     * @return \Santosdave\Travelport\UProfile\ProfileModifyFieldReq
      */
     public function setModifyField($ModifyField)
     {
@@ -65,7 +65,7 @@ class ProfileModifyFieldReq extends BaseReq
 
     /**
      * @param ModifyFieldGroup $ModifyFieldGroup
-     * @return \FilippoToso\Travelport\UProfile\ProfileModifyFieldReq
+     * @return \Santosdave\Travelport\UProfile\ProfileModifyFieldReq
      */
     public function setModifyFieldGroup($ModifyFieldGroup)
     {

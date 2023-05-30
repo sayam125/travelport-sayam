@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class PercentageRestriction
 {
@@ -28,7 +28,7 @@ class PercentageRestriction
 
     /**
      * @param typeAction $Action
-     * @return \FilippoToso\Travelport\UProfile\PercentageRestriction
+     * @return \Santosdave\Travelport\UProfile\PercentageRestriction
      */
     public function setAction($Action)
     {

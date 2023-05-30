@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class BaseCreateWithFormOfPaymentReq extends BaseCreateReservationReq
 {
@@ -65,7 +65,7 @@ class BaseCreateWithFormOfPaymentReq extends BaseCreateReservationReq
 
     /**
      * @param FormOfPayment $FormOfPayment
-     * @return \FilippoToso\Travelport\Util\BaseCreateWithFormOfPaymentReq
+     * @return \Santosdave\Travelport\Util\BaseCreateWithFormOfPaymentReq
      */
     public function setFormOfPayment($FormOfPayment)
     {

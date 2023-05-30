@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\System;
+namespace Santosdave\Travelport\System;
 
 class RetrieveEntry
 {
@@ -28,7 +28,7 @@ class RetrieveEntry
 
     /**
      * @param typeCacheKey $Key
-     * @return \FilippoToso\Travelport\System\RetrieveEntry
+     * @return \Santosdave\Travelport\System\RetrieveEntry
      */
     public function setKey($Key)
     {

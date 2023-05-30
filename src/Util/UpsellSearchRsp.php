@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class UpsellSearchRsp extends BaseRsp
 {
@@ -55,7 +55,7 @@ class UpsellSearchRsp extends BaseRsp
 
     /**
      * @param AirUpsellSearchResult $AirUpsellSearchResult
-     * @return \FilippoToso\Travelport\Util\UpsellSearchRsp
+     * @return \Santosdave\Travelport\Util\UpsellSearchRsp
      */
     public function setAirUpsellSearchResult($AirUpsellSearchResult)
     {
@@ -73,7 +73,7 @@ class UpsellSearchRsp extends BaseRsp
 
     /**
      * @param HotelUpsellSearchResult $HotelUpsellSearchResult
-     * @return \FilippoToso\Travelport\Util\UpsellSearchRsp
+     * @return \Santosdave\Travelport\Util\UpsellSearchRsp
      */
     public function setHotelUpsellSearchResult($HotelUpsellSearchResult)
     {
@@ -91,7 +91,7 @@ class UpsellSearchRsp extends BaseRsp
 
     /**
      * @param VehicleUpsellSearchResult $VehicleUpsellSearchResult
-     * @return \FilippoToso\Travelport\Util\UpsellSearchRsp
+     * @return \Santosdave\Travelport\Util\UpsellSearchRsp
      */
     public function setVehicleUpsellSearchResult($VehicleUpsellSearchResult)
     {
@@ -109,7 +109,7 @@ class UpsellSearchRsp extends BaseRsp
 
     /**
      * @param typeMoreResults $MoreResults
-     * @return \FilippoToso\Travelport\Util\UpsellSearchRsp
+     * @return \Santosdave\Travelport\Util\UpsellSearchRsp
      */
     public function setMoreResults($MoreResults)
     {

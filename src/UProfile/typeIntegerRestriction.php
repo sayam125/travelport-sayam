@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeIntegerRestriction
 {
@@ -35,7 +35,7 @@ class typeIntegerRestriction
 
     /**
      * @param typeIntegerRestrictionValue $MinValue
-     * @return \FilippoToso\Travelport\UProfile\typeIntegerRestriction
+     * @return \Santosdave\Travelport\UProfile\typeIntegerRestriction
      */
     public function setMinValue($MinValue)
     {
@@ -53,7 +53,7 @@ class typeIntegerRestriction
 
     /**
      * @param typeIntegerRestrictionValue $MaxValue
-     * @return \FilippoToso\Travelport\UProfile\typeIntegerRestriction
+     * @return \Santosdave\Travelport\UProfile\typeIntegerRestriction
      */
     public function setMaxValue($MaxValue)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\System;
+namespace Santosdave\Travelport\System;
 
 class DirectPayment
 {
@@ -28,7 +28,7 @@ class DirectPayment
 
     /**
      * @param string $Text
-     * @return \FilippoToso\Travelport\System\DirectPayment
+     * @return \Santosdave\Travelport\System\DirectPayment
      */
     public function setText($Text)
     {

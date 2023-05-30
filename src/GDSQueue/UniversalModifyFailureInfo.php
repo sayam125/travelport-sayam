@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class UniversalModifyFailureInfo
 {
@@ -35,7 +35,7 @@ class UniversalModifyFailureInfo
 
     /**
      * @param UniversalModifyCommandError $UniversalModifyCommandError
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalModifyFailureInfo
+     * @return \Santosdave\Travelport\GDSQueue\UniversalModifyFailureInfo
      */
     public function setUniversalModifyCommandError($UniversalModifyCommandError)
     {
@@ -53,7 +53,7 @@ class UniversalModifyFailureInfo
 
     /**
      * @param AirSegmentSellFailureInfo $AirSegmentSellFailureInfo
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalModifyFailureInfo
+     * @return \Santosdave\Travelport\GDSQueue\UniversalModifyFailureInfo
      */
     public function setAirSegmentSellFailureInfo($AirSegmentSellFailureInfo)
     {

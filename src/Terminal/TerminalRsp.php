@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Terminal;
+namespace Santosdave\Travelport\Terminal;
 
 class TerminalRsp extends BaseRsp
 {
@@ -34,7 +34,7 @@ class TerminalRsp extends BaseRsp
 
     /**
      * @param typeTextBlock $TerminalCommandResponse
-     * @return \FilippoToso\Travelport\Terminal\TerminalRsp
+     * @return \Santosdave\Travelport\Terminal\TerminalRsp
      */
     public function setTerminalCommandResponse($TerminalCommandResponse)
     {

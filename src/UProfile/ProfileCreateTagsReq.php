@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class ProfileCreateTagsReq extends BaseReq
 {
@@ -47,7 +47,7 @@ class ProfileCreateTagsReq extends BaseReq
 
     /**
      * @param CreateTag[] $CreateTag
-     * @return \FilippoToso\Travelport\UProfile\ProfileCreateTagsReq
+     * @return \Santosdave\Travelport\UProfile\ProfileCreateTagsReq
      */
     public function setCreateTag(array $CreateTag)
     {
@@ -65,7 +65,7 @@ class ProfileCreateTagsReq extends BaseReq
 
     /**
      * @param typeProfileID $AgencyID
-     * @return \FilippoToso\Travelport\UProfile\ProfileCreateTagsReq
+     * @return \Santosdave\Travelport\UProfile\ProfileCreateTagsReq
      */
     public function setAgencyID($AgencyID)
     {

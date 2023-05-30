@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class typeProductInfo
 {
@@ -49,7 +49,7 @@ class typeProductInfo
 
     /**
      * @param typeProduct $ProductType
-     * @return \FilippoToso\Travelport\Rail\typeProductInfo
+     * @return \Santosdave\Travelport\Rail\typeProductInfo
      */
     public function setProductType($ProductType)
     {
@@ -67,7 +67,7 @@ class typeProductInfo
 
     /**
      * @param string $VendorCode
-     * @return \FilippoToso\Travelport\Rail\typeProductInfo
+     * @return \Santosdave\Travelport\Rail\typeProductInfo
      */
     public function setVendorCode($VendorCode)
     {
@@ -85,7 +85,7 @@ class typeProductInfo
 
     /**
      * @param string $ProviderCode
-     * @return \FilippoToso\Travelport\Rail\typeProductInfo
+     * @return \Santosdave\Travelport\Rail\typeProductInfo
      */
     public function setProviderCode($ProviderCode)
     {
@@ -103,7 +103,7 @@ class typeProductInfo
 
     /**
      * @param string $ProviderLocatorCode
-     * @return \FilippoToso\Travelport\Rail\typeProductInfo
+     * @return \Santosdave\Travelport\Rail\typeProductInfo
      */
     public function setProviderLocatorCode($ProviderLocatorCode)
     {

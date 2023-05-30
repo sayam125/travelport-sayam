@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class CreditCardAuthReq extends BaseReq
 {
@@ -54,7 +54,7 @@ class CreditCardAuthReq extends BaseReq
 
     /**
      * @param LocatorCode $LocatorCode
-     * @return \FilippoToso\Travelport\Util\CreditCardAuthReq
+     * @return \Santosdave\Travelport\Util\CreditCardAuthReq
      */
     public function setLocatorCode($LocatorCode)
     {
@@ -72,7 +72,7 @@ class CreditCardAuthReq extends BaseReq
 
     /**
      * @param CreditCardPaymentAuth $CreditCardPaymentAuth
-     * @return \FilippoToso\Travelport\Util\CreditCardAuthReq
+     * @return \Santosdave\Travelport\Util\CreditCardAuthReq
      */
     public function setCreditCardPaymentAuth($CreditCardPaymentAuth)
     {
@@ -90,7 +90,7 @@ class CreditCardAuthReq extends BaseReq
 
     /**
      * @param typeCarrier $PlatingCarrier
-     * @return \FilippoToso\Travelport\Util\CreditCardAuthReq
+     * @return \Santosdave\Travelport\Util\CreditCardAuthReq
      */
     public function setPlatingCarrier($PlatingCarrier)
     {

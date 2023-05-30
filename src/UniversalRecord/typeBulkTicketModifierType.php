@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class typeBulkTicketModifierType
 {
@@ -28,7 +28,7 @@ class typeBulkTicketModifierType
 
     /**
      * @param boolean $SuppressOnFareCalc
-     * @return \FilippoToso\Travelport\UniversalRecord\typeBulkTicketModifierType
+     * @return \Santosdave\Travelport\UniversalRecord\typeBulkTicketModifierType
      */
     public function setSuppressOnFareCalc($SuppressOnFareCalc)
     {

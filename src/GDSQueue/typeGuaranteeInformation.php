@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class typeGuaranteeInformation
 {
@@ -42,7 +42,7 @@ class typeGuaranteeInformation
 
     /**
      * @param anonymous122 $Type
-     * @return \FilippoToso\Travelport\GDSQueue\typeGuaranteeInformation
+     * @return \Santosdave\Travelport\GDSQueue\typeGuaranteeInformation
      */
     public function setType($Type)
     {
@@ -60,7 +60,7 @@ class typeGuaranteeInformation
 
     /**
      * @param anonymous123 $AgencyType
-     * @return \FilippoToso\Travelport\GDSQueue\typeGuaranteeInformation
+     * @return \Santosdave\Travelport\GDSQueue\typeGuaranteeInformation
      */
     public function setAgencyType($AgencyType)
     {
@@ -78,7 +78,7 @@ class typeGuaranteeInformation
 
     /**
      * @param StringLength1to128 $IATANumber
-     * @return \FilippoToso\Travelport\GDSQueue\typeGuaranteeInformation
+     * @return \Santosdave\Travelport\GDSQueue\typeGuaranteeInformation
      */
     public function setIATANumber($IATANumber)
     {

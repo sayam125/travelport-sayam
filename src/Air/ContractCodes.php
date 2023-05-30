@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class ContractCodes
 {
@@ -28,7 +28,7 @@ class ContractCodes
 
     /**
      * @param ContractCode $ContractCode
-     * @return \FilippoToso\Travelport\Air\ContractCodes
+     * @return \Santosdave\Travelport\Air\ContractCodes
      */
     public function setContractCode($ContractCode)
     {

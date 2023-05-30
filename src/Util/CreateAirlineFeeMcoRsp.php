@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class CreateAirlineFeeMcoRsp extends BaseRsp
 {
@@ -34,7 +34,7 @@ class CreateAirlineFeeMcoRsp extends BaseRsp
 
     /**
      * @param MCO $MCO
-     * @return \FilippoToso\Travelport\Util\CreateAirlineFeeMcoRsp
+     * @return \Santosdave\Travelport\Util\CreateAirlineFeeMcoRsp
      */
     public function setMCO($MCO)
     {

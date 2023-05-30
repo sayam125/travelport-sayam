@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class SearchPassenger extends typePassengerType
 {
@@ -41,7 +41,7 @@ class SearchPassenger extends typePassengerType
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\GDSQueue\SearchPassenger
+     * @return \Santosdave\Travelport\GDSQueue\SearchPassenger
      */
     public function setKey($Key)
     {

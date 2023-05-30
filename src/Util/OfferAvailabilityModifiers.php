@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class OfferAvailabilityModifiers
 {
@@ -38,7 +38,7 @@ class OfferAvailabilityModifiers
 
     /**
      * @param typeMerchandisingService[] $ServiceType
-     * @return \FilippoToso\Travelport\Util\OfferAvailabilityModifiers
+     * @return \Santosdave\Travelport\Util\OfferAvailabilityModifiers
      */
     public function setServiceType(array $ServiceType = null)
     {
@@ -56,7 +56,7 @@ class OfferAvailabilityModifiers
 
     /**
      * @param typeCarrier[] $Carrier
-     * @return \FilippoToso\Travelport\Util\OfferAvailabilityModifiers
+     * @return \Santosdave\Travelport\Util\OfferAvailabilityModifiers
      */
     public function setCarrier(array $Carrier = null)
     {
@@ -74,7 +74,7 @@ class OfferAvailabilityModifiers
 
     /**
      * @param typeCurrency $CurrencyType
-     * @return \FilippoToso\Travelport\Util\OfferAvailabilityModifiers
+     * @return \Santosdave\Travelport\Util\OfferAvailabilityModifiers
      */
     public function setCurrencyType($CurrencyType)
     {

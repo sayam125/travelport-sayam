@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class CalculateTaxReq extends BaseReq
 {
@@ -40,7 +40,7 @@ class CalculateTaxReq extends BaseReq
 
     /**
      * @param TaxCalcInfo $TaxCalcInfo
-     * @return \FilippoToso\Travelport\Util\CalculateTaxReq
+     * @return \Santosdave\Travelport\Util\CalculateTaxReq
      */
     public function setTaxCalcInfo($TaxCalcInfo)
     {

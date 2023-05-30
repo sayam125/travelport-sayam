@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class Credentials
 {
@@ -28,7 +28,7 @@ class Credentials
 
     /**
      * @param anonymous25 $UserId
-     * @return \FilippoToso\Travelport\Util\Credentials
+     * @return \Santosdave\Travelport\Util\Credentials
      */
     public function setUserId($UserId)
     {

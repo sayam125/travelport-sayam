@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class NumberOfChildren
 {
@@ -40,7 +40,7 @@ class NumberOfChildren
 
     /**
      * @param int[] $Age
-     * @return \FilippoToso\Travelport\UniversalRecord\NumberOfChildren
+     * @return \Santosdave\Travelport\UniversalRecord\NumberOfChildren
      */
     public function setAge(array $Age = null)
     {
@@ -58,7 +58,7 @@ class NumberOfChildren
 
     /**
      * @param int $Count
-     * @return \FilippoToso\Travelport\UniversalRecord\NumberOfChildren
+     * @return \Santosdave\Travelport\UniversalRecord\NumberOfChildren
      */
     public function setCount($Count)
     {
@@ -76,7 +76,7 @@ class NumberOfChildren
 
     /**
      * @param typeMoney $Amount
-     * @return \FilippoToso\Travelport\UniversalRecord\NumberOfChildren
+     * @return \Santosdave\Travelport\UniversalRecord\NumberOfChildren
      */
     public function setAmount($Amount)
     {

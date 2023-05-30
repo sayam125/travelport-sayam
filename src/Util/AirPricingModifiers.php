@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class AirPricingModifiers
 {
@@ -265,7 +265,7 @@ class AirPricingModifiers
 
     /**
      * @param ProhibitedRuleCategories $ProhibitedRuleCategories
-     * @return \FilippoToso\Travelport\Util\AirPricingModifiers
+     * @return \Santosdave\Travelport\Util\AirPricingModifiers
      */
     public function setProhibitedRuleCategories($ProhibitedRuleCategories)
     {
@@ -283,7 +283,7 @@ class AirPricingModifiers
 
     /**
      * @param AccountCodes $AccountCodes
-     * @return \FilippoToso\Travelport\Util\AirPricingModifiers
+     * @return \Santosdave\Travelport\Util\AirPricingModifiers
      */
     public function setAccountCodes($AccountCodes)
     {
@@ -301,7 +301,7 @@ class AirPricingModifiers
 
     /**
      * @param PermittedCabins $PermittedCabins
-     * @return \FilippoToso\Travelport\Util\AirPricingModifiers
+     * @return \Santosdave\Travelport\Util\AirPricingModifiers
      */
     public function setPermittedCabins($PermittedCabins)
     {
@@ -319,7 +319,7 @@ class AirPricingModifiers
 
     /**
      * @param ContractCodes $ContractCodes
-     * @return \FilippoToso\Travelport\Util\AirPricingModifiers
+     * @return \Santosdave\Travelport\Util\AirPricingModifiers
      */
     public function setContractCodes($ContractCodes)
     {
@@ -337,7 +337,7 @@ class AirPricingModifiers
 
     /**
      * @param ExemptTaxes $ExemptTaxes
-     * @return \FilippoToso\Travelport\Util\AirPricingModifiers
+     * @return \Santosdave\Travelport\Util\AirPricingModifiers
      */
     public function setExemptTaxes($ExemptTaxes)
     {
@@ -355,7 +355,7 @@ class AirPricingModifiers
 
     /**
      * @param PenaltyFareInformation $PenaltyFareInformation
-     * @return \FilippoToso\Travelport\Util\AirPricingModifiers
+     * @return \Santosdave\Travelport\Util\AirPricingModifiers
      */
     public function setPenaltyFareInformation($PenaltyFareInformation)
     {
@@ -373,7 +373,7 @@ class AirPricingModifiers
 
     /**
      * @param DiscountCard $DiscountCard
-     * @return \FilippoToso\Travelport\Util\AirPricingModifiers
+     * @return \Santosdave\Travelport\Util\AirPricingModifiers
      */
     public function setDiscountCard($DiscountCard)
     {
@@ -391,7 +391,7 @@ class AirPricingModifiers
 
     /**
      * @param PromoCodes $PromoCodes
-     * @return \FilippoToso\Travelport\Util\AirPricingModifiers
+     * @return \Santosdave\Travelport\Util\AirPricingModifiers
      */
     public function setPromoCodes($PromoCodes)
     {
@@ -409,7 +409,7 @@ class AirPricingModifiers
 
     /**
      * @param ManualFareAdjustment $ManualFareAdjustment
-     * @return \FilippoToso\Travelport\Util\AirPricingModifiers
+     * @return \Santosdave\Travelport\Util\AirPricingModifiers
      */
     public function setManualFareAdjustment($ManualFareAdjustment)
     {
@@ -427,7 +427,7 @@ class AirPricingModifiers
 
     /**
      * @param PointOfSale $PointOfSale
-     * @return \FilippoToso\Travelport\Util\AirPricingModifiers
+     * @return \Santosdave\Travelport\Util\AirPricingModifiers
      */
     public function setPointOfSale($PointOfSale)
     {
@@ -445,7 +445,7 @@ class AirPricingModifiers
 
     /**
      * @param BrandModifiers $BrandModifiers
-     * @return \FilippoToso\Travelport\Util\AirPricingModifiers
+     * @return \Santosdave\Travelport\Util\AirPricingModifiers
      */
     public function setBrandModifiers($BrandModifiers)
     {
@@ -463,7 +463,7 @@ class AirPricingModifiers
 
     /**
      * @param MultiGDSSearchIndicator $MultiGDSSearchIndicator
-     * @return \FilippoToso\Travelport\Util\AirPricingModifiers
+     * @return \Santosdave\Travelport\Util\AirPricingModifiers
      */
     public function setMultiGDSSearchIndicator($MultiGDSSearchIndicator)
     {
@@ -481,7 +481,7 @@ class AirPricingModifiers
 
     /**
      * @param PreferredCabins $PreferredCabins
-     * @return \FilippoToso\Travelport\Util\AirPricingModifiers
+     * @return \Santosdave\Travelport\Util\AirPricingModifiers
      */
     public function setPreferredCabins($PreferredCabins)
     {
@@ -499,7 +499,7 @@ class AirPricingModifiers
 
     /**
      * @param boolean $ProhibitMinStayFares
-     * @return \FilippoToso\Travelport\Util\AirPricingModifiers
+     * @return \Santosdave\Travelport\Util\AirPricingModifiers
      */
     public function setProhibitMinStayFares($ProhibitMinStayFares)
     {
@@ -517,7 +517,7 @@ class AirPricingModifiers
 
     /**
      * @param boolean $ProhibitMaxStayFares
-     * @return \FilippoToso\Travelport\Util\AirPricingModifiers
+     * @return \Santosdave\Travelport\Util\AirPricingModifiers
      */
     public function setProhibitMaxStayFares($ProhibitMaxStayFares)
     {
@@ -535,7 +535,7 @@ class AirPricingModifiers
 
     /**
      * @param typeCurrency $CurrencyType
-     * @return \FilippoToso\Travelport\Util\AirPricingModifiers
+     * @return \Santosdave\Travelport\Util\AirPricingModifiers
      */
     public function setCurrencyType($CurrencyType)
     {
@@ -553,7 +553,7 @@ class AirPricingModifiers
 
     /**
      * @param boolean $ProhibitAdvancePurchaseFares
-     * @return \FilippoToso\Travelport\Util\AirPricingModifiers
+     * @return \Santosdave\Travelport\Util\AirPricingModifiers
      */
     public function setProhibitAdvancePurchaseFares($ProhibitAdvancePurchaseFares)
     {
@@ -571,7 +571,7 @@ class AirPricingModifiers
 
     /**
      * @param boolean $ProhibitNonRefundableFares
-     * @return \FilippoToso\Travelport\Util\AirPricingModifiers
+     * @return \Santosdave\Travelport\Util\AirPricingModifiers
      */
     public function setProhibitNonRefundableFares($ProhibitNonRefundableFares)
     {
@@ -589,7 +589,7 @@ class AirPricingModifiers
 
     /**
      * @param boolean $ProhibitRestrictedFares
-     * @return \FilippoToso\Travelport\Util\AirPricingModifiers
+     * @return \Santosdave\Travelport\Util\AirPricingModifiers
      */
     public function setProhibitRestrictedFares($ProhibitRestrictedFares)
     {
@@ -607,7 +607,7 @@ class AirPricingModifiers
 
     /**
      * @param typeFaresIndicator $FaresIndicator
-     * @return \FilippoToso\Travelport\Util\AirPricingModifiers
+     * @return \Santosdave\Travelport\Util\AirPricingModifiers
      */
     public function setFaresIndicator($FaresIndicator)
     {
@@ -625,7 +625,7 @@ class AirPricingModifiers
 
     /**
      * @param typeCurrency $FiledCurrency
-     * @return \FilippoToso\Travelport\Util\AirPricingModifiers
+     * @return \Santosdave\Travelport\Util\AirPricingModifiers
      */
     public function setFiledCurrency($FiledCurrency)
     {
@@ -643,7 +643,7 @@ class AirPricingModifiers
 
     /**
      * @param typeCarrier $PlatingCarrier
-     * @return \FilippoToso\Travelport\Util\AirPricingModifiers
+     * @return \Santosdave\Travelport\Util\AirPricingModifiers
      */
     public function setPlatingCarrier($PlatingCarrier)
     {
@@ -661,7 +661,7 @@ class AirPricingModifiers
 
     /**
      * @param typeCarrier $OverrideCarrier
-     * @return \FilippoToso\Travelport\Util\AirPricingModifiers
+     * @return \Santosdave\Travelport\Util\AirPricingModifiers
      */
     public function setOverrideCarrier($OverrideCarrier)
     {
@@ -679,7 +679,7 @@ class AirPricingModifiers
 
     /**
      * @param typeEticketability $ETicketability
-     * @return \FilippoToso\Travelport\Util\AirPricingModifiers
+     * @return \Santosdave\Travelport\Util\AirPricingModifiers
      */
     public function setETicketability($ETicketability)
     {
@@ -697,7 +697,7 @@ class AirPricingModifiers
 
     /**
      * @param boolean $AccountCodeFaresOnly
-     * @return \FilippoToso\Travelport\Util\AirPricingModifiers
+     * @return \Santosdave\Travelport\Util\AirPricingModifiers
      */
     public function setAccountCodeFaresOnly($AccountCodeFaresOnly)
     {
@@ -715,7 +715,7 @@ class AirPricingModifiers
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Util\AirPricingModifiers
+     * @return \Santosdave\Travelport\Util\AirPricingModifiers
      */
     public function setKey($Key)
     {
@@ -733,7 +733,7 @@ class AirPricingModifiers
 
     /**
      * @param boolean $ProhibitNonExchangeableFares
-     * @return \FilippoToso\Travelport\Util\AirPricingModifiers
+     * @return \Santosdave\Travelport\Util\AirPricingModifiers
      */
     public function setProhibitNonExchangeableFares($ProhibitNonExchangeableFares)
     {
@@ -751,7 +751,7 @@ class AirPricingModifiers
 
     /**
      * @param boolean $ForceSegmentSelect
-     * @return \FilippoToso\Travelport\Util\AirPricingModifiers
+     * @return \Santosdave\Travelport\Util\AirPricingModifiers
      */
     public function setForceSegmentSelect($ForceSegmentSelect)
     {
@@ -769,7 +769,7 @@ class AirPricingModifiers
 
     /**
      * @param typeInventoryRequest $InventoryRequestType
-     * @return \FilippoToso\Travelport\Util\AirPricingModifiers
+     * @return \Santosdave\Travelport\Util\AirPricingModifiers
      */
     public function setInventoryRequestType($InventoryRequestType)
     {
@@ -787,7 +787,7 @@ class AirPricingModifiers
 
     /**
      * @param boolean $OneWayShop
-     * @return \FilippoToso\Travelport\Util\AirPricingModifiers
+     * @return \Santosdave\Travelport\Util\AirPricingModifiers
      */
     public function setOneWayShop($OneWayShop)
     {
@@ -805,7 +805,7 @@ class AirPricingModifiers
 
     /**
      * @param boolean $ProhibitUnbundledFareTypes
-     * @return \FilippoToso\Travelport\Util\AirPricingModifiers
+     * @return \Santosdave\Travelport\Util\AirPricingModifiers
      */
     public function setProhibitUnbundledFareTypes($ProhibitUnbundledFareTypes)
     {
@@ -823,7 +823,7 @@ class AirPricingModifiers
 
     /**
      * @param boolean $ReturnServices
-     * @return \FilippoToso\Travelport\Util\AirPricingModifiers
+     * @return \Santosdave\Travelport\Util\AirPricingModifiers
      */
     public function setReturnServices($ReturnServices)
     {
@@ -841,7 +841,7 @@ class AirPricingModifiers
 
     /**
      * @param anonymous729 $ChannelId
-     * @return \FilippoToso\Travelport\Util\AirPricingModifiers
+     * @return \Santosdave\Travelport\Util\AirPricingModifiers
      */
     public function setChannelId($ChannelId)
     {
@@ -859,7 +859,7 @@ class AirPricingModifiers
 
     /**
      * @param boolean $ReturnFareAttributes
-     * @return \FilippoToso\Travelport\Util\AirPricingModifiers
+     * @return \Santosdave\Travelport\Util\AirPricingModifiers
      */
     public function setReturnFareAttributes($ReturnFareAttributes)
     {
@@ -877,7 +877,7 @@ class AirPricingModifiers
 
     /**
      * @param boolean $SellCheck
-     * @return \FilippoToso\Travelport\Util\AirPricingModifiers
+     * @return \Santosdave\Travelport\Util\AirPricingModifiers
      */
     public function setSellCheck($SellCheck)
     {
@@ -895,7 +895,7 @@ class AirPricingModifiers
 
     /**
      * @param boolean $ReturnFailedSegments
-     * @return \FilippoToso\Travelport\Util\AirPricingModifiers
+     * @return \Santosdave\Travelport\Util\AirPricingModifiers
      */
     public function setReturnFailedSegments($ReturnFailedSegments)
     {

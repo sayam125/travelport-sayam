@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class Discount
 {
@@ -35,7 +35,7 @@ class Discount
 
     /**
      * @param typeMoney $Amount
-     * @return \FilippoToso\Travelport\UniversalRecord\Discount
+     * @return \Santosdave\Travelport\UniversalRecord\Discount
      */
     public function setAmount($Amount)
     {
@@ -53,7 +53,7 @@ class Discount
 
     /**
      * @param StringLength1to13 $Description
-     * @return \FilippoToso\Travelport\UniversalRecord\Discount
+     * @return \Santosdave\Travelport\UniversalRecord\Discount
      */
     public function setDescription($Description)
     {

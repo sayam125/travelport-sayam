@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class BaggageRestriction
 {
@@ -40,7 +40,7 @@ class BaggageRestriction
 
     /**
      * @param Dimension $Dimension
-     * @return \FilippoToso\Travelport\GDSQueue\BaggageRestriction
+     * @return \Santosdave\Travelport\GDSQueue\BaggageRestriction
      */
     public function setDimension($Dimension)
     {
@@ -58,7 +58,7 @@ class BaggageRestriction
 
     /**
      * @param typeUnitOfMeasure[] $MaxWeight
-     * @return \FilippoToso\Travelport\GDSQueue\BaggageRestriction
+     * @return \Santosdave\Travelport\GDSQueue\BaggageRestriction
      */
     public function setMaxWeight(array $MaxWeight = null)
     {
@@ -76,7 +76,7 @@ class BaggageRestriction
 
     /**
      * @param TextInfo $TextInfo
-     * @return \FilippoToso\Travelport\GDSQueue\BaggageRestriction
+     * @return \Santosdave\Travelport\GDSQueue\BaggageRestriction
      */
     public function setTextInfo($TextInfo)
     {

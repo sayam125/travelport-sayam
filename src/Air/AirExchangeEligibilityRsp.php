@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class AirExchangeEligibilityRsp extends BaseRsp
 {
@@ -34,7 +34,7 @@ class AirExchangeEligibilityRsp extends BaseRsp
 
     /**
      * @param ExchangeEligibilityInfo $ExchangeEligibilityInfo
-     * @return \FilippoToso\Travelport\Air\AirExchangeEligibilityRsp
+     * @return \Santosdave\Travelport\Air\AirExchangeEligibilityRsp
      */
     public function setExchangeEligibilityInfo($ExchangeEligibilityInfo)
     {

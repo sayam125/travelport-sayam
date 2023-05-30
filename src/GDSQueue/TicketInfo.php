@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class TicketInfo
 {
@@ -105,7 +105,7 @@ class TicketInfo
 
     /**
      * @param Name $Name
-     * @return \FilippoToso\Travelport\GDSQueue\TicketInfo
+     * @return \Santosdave\Travelport\GDSQueue\TicketInfo
      */
     public function setName($Name)
     {
@@ -123,7 +123,7 @@ class TicketInfo
 
     /**
      * @param ConjunctedTicketInfo $ConjunctedTicketInfo
-     * @return \FilippoToso\Travelport\GDSQueue\TicketInfo
+     * @return \Santosdave\Travelport\GDSQueue\TicketInfo
      */
     public function setConjunctedTicketInfo($ConjunctedTicketInfo)
     {
@@ -141,7 +141,7 @@ class TicketInfo
 
     /**
      * @param ExchangedTicketInfo $ExchangedTicketInfo
-     * @return \FilippoToso\Travelport\GDSQueue\TicketInfo
+     * @return \Santosdave\Travelport\GDSQueue\TicketInfo
      */
     public function setExchangedTicketInfo($ExchangedTicketInfo)
     {
@@ -159,7 +159,7 @@ class TicketInfo
 
     /**
      * @param string $Number
-     * @return \FilippoToso\Travelport\GDSQueue\TicketInfo
+     * @return \Santosdave\Travelport\GDSQueue\TicketInfo
      */
     public function setNumber($Number)
     {
@@ -177,7 +177,7 @@ class TicketInfo
 
     /**
      * @param typeIATA $IATANumber
-     * @return \FilippoToso\Travelport\GDSQueue\TicketInfo
+     * @return \Santosdave\Travelport\GDSQueue\TicketInfo
      */
     public function setIATANumber($IATANumber)
     {
@@ -203,7 +203,7 @@ class TicketInfo
 
     /**
      * @param \DateTime $TicketIssueDate
-     * @return \FilippoToso\Travelport\GDSQueue\TicketInfo
+     * @return \Santosdave\Travelport\GDSQueue\TicketInfo
      */
     public function setTicketIssueDate(\DateTime $TicketIssueDate)
     {
@@ -221,7 +221,7 @@ class TicketInfo
 
     /**
      * @param anonymous850 $TicketingAgentSignOn
-     * @return \FilippoToso\Travelport\GDSQueue\TicketInfo
+     * @return \Santosdave\Travelport\GDSQueue\TicketInfo
      */
     public function setTicketingAgentSignOn($TicketingAgentSignOn)
     {
@@ -239,7 +239,7 @@ class TicketInfo
 
     /**
      * @param typeCountry $CountryCode
-     * @return \FilippoToso\Travelport\GDSQueue\TicketInfo
+     * @return \Santosdave\Travelport\GDSQueue\TicketInfo
      */
     public function setCountryCode($CountryCode)
     {
@@ -257,7 +257,7 @@ class TicketInfo
 
     /**
      * @param typeTicketStatus $Status
-     * @return \FilippoToso\Travelport\GDSQueue\TicketInfo
+     * @return \Santosdave\Travelport\GDSQueue\TicketInfo
      */
     public function setStatus($Status)
     {
@@ -275,7 +275,7 @@ class TicketInfo
 
     /**
      * @param boolean $BulkTicket
-     * @return \FilippoToso\Travelport\GDSQueue\TicketInfo
+     * @return \Santosdave\Travelport\GDSQueue\TicketInfo
      */
     public function setBulkTicket($BulkTicket)
     {
@@ -293,7 +293,7 @@ class TicketInfo
 
     /**
      * @param typeRef $BookingTravelerRef
-     * @return \FilippoToso\Travelport\GDSQueue\TicketInfo
+     * @return \Santosdave\Travelport\GDSQueue\TicketInfo
      */
     public function setBookingTravelerRef($BookingTravelerRef)
     {
@@ -311,7 +311,7 @@ class TicketInfo
 
     /**
      * @param typeRef $AirPricingInfoRef
-     * @return \FilippoToso\Travelport\GDSQueue\TicketInfo
+     * @return \Santosdave\Travelport\GDSQueue\TicketInfo
      */
     public function setAirPricingInfoRef($AirPricingInfoRef)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class ProfileDeleteHierarchyLevelReq extends BaseReq
 {
@@ -47,7 +47,7 @@ class ProfileDeleteHierarchyLevelReq extends BaseReq
 
     /**
      * @param typeID $HierarchyLevelID
-     * @return \FilippoToso\Travelport\UProfile\ProfileDeleteHierarchyLevelReq
+     * @return \Santosdave\Travelport\UProfile\ProfileDeleteHierarchyLevelReq
      */
     public function setHierarchyLevelID($HierarchyLevelID)
     {
@@ -65,7 +65,7 @@ class ProfileDeleteHierarchyLevelReq extends BaseReq
 
     /**
      * @param typeDeleteHierarchyLvlProfileType $ProfileType
-     * @return \FilippoToso\Travelport\UProfile\ProfileDeleteHierarchyLevelReq
+     * @return \Santosdave\Travelport\UProfile\ProfileDeleteHierarchyLevelReq
      */
     public function setProfileType($ProfileType)
     {

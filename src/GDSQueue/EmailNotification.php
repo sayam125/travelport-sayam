@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class EmailNotification
 {
@@ -33,7 +33,7 @@ class EmailNotification
 
     /**
      * @param typeRef[] $EmailRef
-     * @return \FilippoToso\Travelport\GDSQueue\EmailNotification
+     * @return \Santosdave\Travelport\GDSQueue\EmailNotification
      */
     public function setEmailRef(array $EmailRef = null)
     {
@@ -51,7 +51,7 @@ class EmailNotification
 
     /**
      * @param anonymous489 $Recipients
-     * @return \FilippoToso\Travelport\GDSQueue\EmailNotification
+     * @return \Santosdave\Travelport\GDSQueue\EmailNotification
      */
     public function setRecipients($Recipients)
     {

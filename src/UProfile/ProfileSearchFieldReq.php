@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class ProfileSearchFieldReq extends BaseReq
 {
@@ -47,7 +47,7 @@ class ProfileSearchFieldReq extends BaseReq
 
     /**
      * @param ProfileSearchModifiers $ProfileSearchModifiers
-     * @return \FilippoToso\Travelport\UProfile\ProfileSearchFieldReq
+     * @return \Santosdave\Travelport\UProfile\ProfileSearchFieldReq
      */
     public function setProfileSearchModifiers($ProfileSearchModifiers)
     {
@@ -65,7 +65,7 @@ class ProfileSearchFieldReq extends BaseReq
 
     /**
      * @param typeProfileID $ProfileID
-     * @return \FilippoToso\Travelport\UProfile\ProfileSearchFieldReq
+     * @return \Santosdave\Travelport\UProfile\ProfileSearchFieldReq
      */
     public function setProfileID($ProfileID)
     {

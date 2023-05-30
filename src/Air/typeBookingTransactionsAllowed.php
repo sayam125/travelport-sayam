@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class typeBookingTransactionsAllowed
 {
@@ -28,7 +28,7 @@ class typeBookingTransactionsAllowed
 
     /**
      * @param boolean $BookingEnabled
-     * @return \FilippoToso\Travelport\Air\typeBookingTransactionsAllowed
+     * @return \Santosdave\Travelport\Air\typeBookingTransactionsAllowed
      */
     public function setBookingEnabled($BookingEnabled)
     {

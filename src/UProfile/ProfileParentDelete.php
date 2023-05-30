@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class ProfileParentDelete
 {
@@ -42,7 +42,7 @@ class ProfileParentDelete
 
     /**
      * @param typeProfileID $ProfileID
-     * @return \FilippoToso\Travelport\UProfile\ProfileParentDelete
+     * @return \Santosdave\Travelport\UProfile\ProfileParentDelete
      */
     public function setProfileID($ProfileID)
     {
@@ -60,7 +60,7 @@ class ProfileParentDelete
 
     /**
      * @param ProvisioningCode $ProvisioningCode
-     * @return \FilippoToso\Travelport\UProfile\ProfileParentDelete
+     * @return \Santosdave\Travelport\UProfile\ProfileParentDelete
      */
     public function setProvisioningCode($ProvisioningCode)
     {
@@ -78,7 +78,7 @@ class ProfileParentDelete
 
     /**
      * @param UniqueProfileID $UniqueProfileID
-     * @return \FilippoToso\Travelport\UProfile\ProfileParentDelete
+     * @return \Santosdave\Travelport\UProfile\ProfileParentDelete
      */
     public function setUniqueProfileID($UniqueProfileID)
     {

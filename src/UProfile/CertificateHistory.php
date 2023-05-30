@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class CertificateHistory
 {
@@ -63,7 +63,7 @@ class CertificateHistory
 
     /**
      * @param string $Number
-     * @return \FilippoToso\Travelport\UProfile\CertificateHistory
+     * @return \Santosdave\Travelport\UProfile\CertificateHistory
      */
     public function setNumber($Number)
     {
@@ -81,7 +81,7 @@ class CertificateHistory
 
     /**
      * @param typeMoney $Amount
-     * @return \FilippoToso\Travelport\UProfile\CertificateHistory
+     * @return \Santosdave\Travelport\UProfile\CertificateHistory
      */
     public function setAmount($Amount)
     {
@@ -99,7 +99,7 @@ class CertificateHistory
 
     /**
      * @param typeMoney $DiscountAmount
-     * @return \FilippoToso\Travelport\UProfile\CertificateHistory
+     * @return \Santosdave\Travelport\UProfile\CertificateHistory
      */
     public function setDiscountAmount($DiscountAmount)
     {
@@ -117,7 +117,7 @@ class CertificateHistory
 
     /**
      * @param int $DiscountPercentage
-     * @return \FilippoToso\Travelport\UProfile\CertificateHistory
+     * @return \Santosdave\Travelport\UProfile\CertificateHistory
      */
     public function setDiscountPercentage($DiscountPercentage)
     {
@@ -135,7 +135,7 @@ class CertificateHistory
 
     /**
      * @param date $NotValidBefore
-     * @return \FilippoToso\Travelport\UProfile\CertificateHistory
+     * @return \Santosdave\Travelport\UProfile\CertificateHistory
      */
     public function setNotValidBefore($NotValidBefore)
     {
@@ -153,7 +153,7 @@ class CertificateHistory
 
     /**
      * @param date $NotValidAfter
-     * @return \FilippoToso\Travelport\UProfile\CertificateHistory
+     * @return \Santosdave\Travelport\UProfile\CertificateHistory
      */
     public function setNotValidAfter($NotValidAfter)
     {

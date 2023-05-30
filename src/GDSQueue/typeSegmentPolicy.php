@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class typeSegmentPolicy
 {
@@ -49,7 +49,7 @@ class typeSegmentPolicy
 
     /**
      * @param Preference $Preference
-     * @return \FilippoToso\Travelport\GDSQueue\typeSegmentPolicy
+     * @return \Santosdave\Travelport\GDSQueue\typeSegmentPolicy
      */
     public function setPreference($Preference)
     {
@@ -67,7 +67,7 @@ class typeSegmentPolicy
 
     /**
      * @param typeRef $SegmentRef
-     * @return \FilippoToso\Travelport\GDSQueue\typeSegmentPolicy
+     * @return \Santosdave\Travelport\GDSQueue\typeSegmentPolicy
      */
     public function setSegmentRef($SegmentRef)
     {
@@ -85,7 +85,7 @@ class typeSegmentPolicy
 
     /**
      * @param boolean $InPolicy
-     * @return \FilippoToso\Travelport\GDSQueue\typeSegmentPolicy
+     * @return \Santosdave\Travelport\GDSQueue\typeSegmentPolicy
      */
     public function setInPolicy($InPolicy)
     {
@@ -103,7 +103,7 @@ class typeSegmentPolicy
 
     /**
      * @param boolean $InContract
-     * @return \FilippoToso\Travelport\GDSQueue\typeSegmentPolicy
+     * @return \Santosdave\Travelport\GDSQueue\typeSegmentPolicy
      */
     public function setInContract($InContract)
     {

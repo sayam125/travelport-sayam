@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class PricedEquip
 {
@@ -35,7 +35,7 @@ class PricedEquip
 
     /**
      * @param Equipment $Equipment
-     * @return \FilippoToso\Travelport\Rail\PricedEquip
+     * @return \Santosdave\Travelport\Rail\PricedEquip
      */
     public function setEquipment($Equipment)
     {
@@ -53,7 +53,7 @@ class PricedEquip
 
     /**
      * @param Charge $Charge
-     * @return \FilippoToso\Travelport\Rail\PricedEquip
+     * @return \Santosdave\Travelport\Rail\PricedEquip
      */
     public function setCharge($Charge)
     {

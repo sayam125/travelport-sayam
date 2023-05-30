@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class Amenity
 {
@@ -35,7 +35,7 @@ class Amenity
 
     /**
      * @param typeAmenity $Code
-     * @return \FilippoToso\Travelport\GDSQueue\Amenity
+     * @return \Santosdave\Travelport\GDSQueue\Amenity
      */
     public function setCode($Code)
     {
@@ -53,7 +53,7 @@ class Amenity
 
     /**
      * @param anonymous1232 $AmenityType
-     * @return \FilippoToso\Travelport\GDSQueue\Amenity
+     * @return \Santosdave\Travelport\GDSQueue\Amenity
      */
     public function setAmenityType($AmenityType)
     {

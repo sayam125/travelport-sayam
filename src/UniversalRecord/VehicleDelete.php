@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class VehicleDelete
 {
@@ -42,7 +42,7 @@ class VehicleDelete
 
     /**
      * @param typeLocatorCode $ReservationLocatorCode
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleDelete
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleDelete
      */
     public function setReservationLocatorCode($ReservationLocatorCode)
     {
@@ -60,7 +60,7 @@ class VehicleDelete
 
     /**
      * @param typeElement $Element
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleDelete
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleDelete
      */
     public function setElement($Element)
     {
@@ -78,7 +78,7 @@ class VehicleDelete
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleDelete
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleDelete
      */
     public function setKey($Key)
     {

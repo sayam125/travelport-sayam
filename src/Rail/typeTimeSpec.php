@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class typeTimeSpec
 {
@@ -38,7 +38,7 @@ class typeTimeSpec
 
     /**
      * @param typeTimeRange $TimeRange
-     * @return \FilippoToso\Travelport\Rail\typeTimeSpec
+     * @return \Santosdave\Travelport\Rail\typeTimeSpec
      */
     public function setTimeRange($TimeRange)
     {
@@ -56,7 +56,7 @@ class typeTimeSpec
 
     /**
      * @param typeSpecificTime $SpecificTime
-     * @return \FilippoToso\Travelport\Rail\typeTimeSpec
+     * @return \Santosdave\Travelport\Rail\typeTimeSpec
      */
     public function setSpecificTime($SpecificTime)
     {
@@ -74,7 +74,7 @@ class typeTimeSpec
 
     /**
      * @param string $PreferredTime
-     * @return \FilippoToso\Travelport\Rail\typeTimeSpec
+     * @return \Santosdave\Travelport\Rail\typeTimeSpec
      */
     public function setPreferredTime($PreferredTime)
     {

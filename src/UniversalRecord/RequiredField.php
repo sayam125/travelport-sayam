@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class RequiredField
 {
@@ -28,7 +28,7 @@ class RequiredField
 
     /**
      * @param anonymous412 $Name
-     * @return \FilippoToso\Travelport\UniversalRecord\RequiredField
+     * @return \Santosdave\Travelport\UniversalRecord\RequiredField
      */
     public function setName($Name)
     {

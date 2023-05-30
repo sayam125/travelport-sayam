@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class RuleLengthOfStay
 {
@@ -31,7 +31,7 @@ class RuleLengthOfStay
 
     /**
      * @param typeRestrictionLengthOfStay $MinimumStay
-     * @return \FilippoToso\Travelport\GDSQueue\RuleLengthOfStay
+     * @return \Santosdave\Travelport\GDSQueue\RuleLengthOfStay
      */
     public function setMinimumStay($MinimumStay)
     {
@@ -49,7 +49,7 @@ class RuleLengthOfStay
 
     /**
      * @param typeRestrictionLengthOfStay $MaximumStay
-     * @return \FilippoToso\Travelport\GDSQueue\RuleLengthOfStay
+     * @return \Santosdave\Travelport\GDSQueue\RuleLengthOfStay
      */
     public function setMaximumStay($MaximumStay)
     {

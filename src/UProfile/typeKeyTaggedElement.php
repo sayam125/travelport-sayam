@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeKeyTaggedElement extends typeKeyElement
 {
@@ -30,7 +30,7 @@ class typeKeyTaggedElement extends typeKeyElement
 
     /**
      * @param TagRef $TagRef
-     * @return \FilippoToso\Travelport\UProfile\typeKeyTaggedElement
+     * @return \Santosdave\Travelport\UProfile\typeKeyTaggedElement
      */
     public function setTagRef($TagRef)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class ElectronicMiscDocument
 {
@@ -98,7 +98,7 @@ class ElectronicMiscDocument
 
     /**
      * @param EMDCoupon $EMDCoupon
-     * @return \FilippoToso\Travelport\Rail\ElectronicMiscDocument
+     * @return \Santosdave\Travelport\Rail\ElectronicMiscDocument
      */
     public function setEMDCoupon($EMDCoupon)
     {
@@ -116,7 +116,7 @@ class ElectronicMiscDocument
 
     /**
      * @param string $Status
-     * @return \FilippoToso\Travelport\Rail\ElectronicMiscDocument
+     * @return \Santosdave\Travelport\Rail\ElectronicMiscDocument
      */
     public function setStatus($Status)
     {
@@ -134,7 +134,7 @@ class ElectronicMiscDocument
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Rail\ElectronicMiscDocument
+     * @return \Santosdave\Travelport\Rail\ElectronicMiscDocument
      */
     public function setKey($Key)
     {
@@ -152,7 +152,7 @@ class ElectronicMiscDocument
 
     /**
      * @param typeEMDNumber $Number
-     * @return \FilippoToso\Travelport\Rail\ElectronicMiscDocument
+     * @return \Santosdave\Travelport\Rail\ElectronicMiscDocument
      */
     public function setNumber($Number)
     {
@@ -170,7 +170,7 @@ class ElectronicMiscDocument
 
     /**
      * @param boolean $PrimaryDocumentIndicator
-     * @return \FilippoToso\Travelport\Rail\ElectronicMiscDocument
+     * @return \Santosdave\Travelport\Rail\ElectronicMiscDocument
      */
     public function setPrimaryDocumentIndicator($PrimaryDocumentIndicator)
     {
@@ -188,7 +188,7 @@ class ElectronicMiscDocument
 
     /**
      * @param typeEMDNumber $InConjunctionWith
-     * @return \FilippoToso\Travelport\Rail\ElectronicMiscDocument
+     * @return \Santosdave\Travelport\Rail\ElectronicMiscDocument
      */
     public function setInConjunctionWith($InConjunctionWith)
     {
@@ -206,7 +206,7 @@ class ElectronicMiscDocument
 
     /**
      * @param typeTicketNumber $AssociatedTicketNumber
-     * @return \FilippoToso\Travelport\Rail\ElectronicMiscDocument
+     * @return \Santosdave\Travelport\Rail\ElectronicMiscDocument
      */
     public function setAssociatedTicketNumber($AssociatedTicketNumber)
     {
@@ -224,7 +224,7 @@ class ElectronicMiscDocument
 
     /**
      * @param typeCarrier $PlatingCarrier
-     * @return \FilippoToso\Travelport\Rail\ElectronicMiscDocument
+     * @return \Santosdave\Travelport\Rail\ElectronicMiscDocument
      */
     public function setPlatingCarrier($PlatingCarrier)
     {
@@ -250,7 +250,7 @@ class ElectronicMiscDocument
 
     /**
      * @param \DateTime $IssueDate
-     * @return \FilippoToso\Travelport\Rail\ElectronicMiscDocument
+     * @return \Santosdave\Travelport\Rail\ElectronicMiscDocument
      */
     public function setIssueDate(\DateTime $IssueDate)
     {
@@ -268,7 +268,7 @@ class ElectronicMiscDocument
 
     /**
      * @param typeElementStatus $ElStat
-     * @return \FilippoToso\Travelport\Rail\ElectronicMiscDocument
+     * @return \Santosdave\Travelport\Rail\ElectronicMiscDocument
      */
     public function setElStat($ElStat)
     {
@@ -286,7 +286,7 @@ class ElectronicMiscDocument
 
     /**
      * @param boolean $KeyOverride
-     * @return \FilippoToso\Travelport\Rail\ElectronicMiscDocument
+     * @return \Santosdave\Travelport\Rail\ElectronicMiscDocument
      */
     public function setKeyOverride($KeyOverride)
     {

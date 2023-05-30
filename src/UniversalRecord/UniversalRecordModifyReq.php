@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class UniversalRecordModifyReq extends BaseReq
 {
@@ -89,7 +89,7 @@ class UniversalRecordModifyReq extends BaseReq
 
     /**
      * @param ContinuityCheckOverride $ContinuityCheckOverride
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalRecordModifyReq
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalRecordModifyReq
      */
     public function setContinuityCheckOverride($ContinuityCheckOverride)
     {
@@ -107,7 +107,7 @@ class UniversalRecordModifyReq extends BaseReq
 
     /**
      * @param RecordIdentifier $RecordIdentifier
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalRecordModifyReq
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalRecordModifyReq
      */
     public function setRecordIdentifier($RecordIdentifier)
     {
@@ -125,7 +125,7 @@ class UniversalRecordModifyReq extends BaseReq
 
     /**
      * @param UniversalModifyCmd $UniversalModifyCmd
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalRecordModifyReq
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalRecordModifyReq
      */
     public function setUniversalModifyCmd($UniversalModifyCmd)
     {
@@ -143,7 +143,7 @@ class UniversalRecordModifyReq extends BaseReq
 
     /**
      * @param FileFinishingInfo $FileFinishingInfo
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalRecordModifyReq
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalRecordModifyReq
      */
     public function setFileFinishingInfo($FileFinishingInfo)
     {
@@ -161,7 +161,7 @@ class UniversalRecordModifyReq extends BaseReq
 
     /**
      * @param QueueNextModifiers $QueueNextModifiers
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalRecordModifyReq
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalRecordModifyReq
      */
     public function setQueueNextModifiers($QueueNextModifiers)
     {
@@ -179,7 +179,7 @@ class UniversalRecordModifyReq extends BaseReq
 
     /**
      * @param boolean $ReturnRecord
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalRecordModifyReq
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalRecordModifyReq
      */
     public function setReturnRecord($ReturnRecord)
     {
@@ -197,7 +197,7 @@ class UniversalRecordModifyReq extends BaseReq
 
     /**
      * @param typeURVersion $Version
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalRecordModifyReq
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalRecordModifyReq
      */
     public function setVersion($Version)
     {
@@ -215,7 +215,7 @@ class UniversalRecordModifyReq extends BaseReq
 
     /**
      * @param boolean $OverrideMCT
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalRecordModifyReq
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalRecordModifyReq
      */
     public function setOverrideMCT($OverrideMCT)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class typeAdaptedRoomGuestAllocation
 {
@@ -33,7 +33,7 @@ class typeAdaptedRoomGuestAllocation
 
     /**
      * @param typeGuestChildInformation[] $Child
-     * @return \FilippoToso\Travelport\UniversalRecord\typeAdaptedRoomGuestAllocation
+     * @return \Santosdave\Travelport\UniversalRecord\typeAdaptedRoomGuestAllocation
      */
     public function setChild(array $Child = null)
     {
@@ -51,7 +51,7 @@ class typeAdaptedRoomGuestAllocation
 
     /**
      * @param int $NumberOfAdults
-     * @return \FilippoToso\Travelport\UniversalRecord\typeAdaptedRoomGuestAllocation
+     * @return \Santosdave\Travelport\UniversalRecord\typeAdaptedRoomGuestAllocation
      */
     public function setNumberOfAdults($NumberOfAdults)
     {

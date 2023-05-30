@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class RailFareNoteList
 {
@@ -28,7 +28,7 @@ class RailFareNoteList
 
     /**
      * @param RailFareNote $RailFareNote
-     * @return \FilippoToso\Travelport\Air\RailFareNoteList
+     * @return \Santosdave\Travelport\Air\RailFareNoteList
      */
     public function setRailFareNote($RailFareNote)
     {

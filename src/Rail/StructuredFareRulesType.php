@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class StructuredFareRulesType
 {
@@ -26,7 +26,7 @@ class StructuredFareRulesType
 
     /**
      * @param FareRuleCategoryTypes[] $FareRuleCategoryType
-     * @return \FilippoToso\Travelport\Rail\StructuredFareRulesType
+     * @return \Santosdave\Travelport\Rail\StructuredFareRulesType
      */
     public function setFareRuleCategoryType(array $FareRuleCategoryType = null)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class FixedFieldUpdate
 {
@@ -91,7 +91,7 @@ class FixedFieldUpdate
 
     /**
      * @param typeFieldID $ID
-     * @return \FilippoToso\Travelport\UProfile\FixedFieldUpdate
+     * @return \Santosdave\Travelport\UProfile\FixedFieldUpdate
      */
     public function setID($ID)
     {
@@ -109,7 +109,7 @@ class FixedFieldUpdate
 
     /**
      * @param string $Label
-     * @return \FilippoToso\Travelport\UProfile\FixedFieldUpdate
+     * @return \Santosdave\Travelport\UProfile\FixedFieldUpdate
      */
     public function setLabel($Label)
     {
@@ -127,7 +127,7 @@ class FixedFieldUpdate
 
     /**
      * @param int $DisplayOrder
-     * @return \FilippoToso\Travelport\UProfile\FixedFieldUpdate
+     * @return \Santosdave\Travelport\UProfile\FixedFieldUpdate
      */
     public function setDisplayOrder($DisplayOrder)
     {
@@ -145,7 +145,7 @@ class FixedFieldUpdate
 
     /**
      * @param boolean $Hide
-     * @return \FilippoToso\Travelport\UProfile\FixedFieldUpdate
+     * @return \Santosdave\Travelport\UProfile\FixedFieldUpdate
      */
     public function setHide($Hide)
     {
@@ -163,7 +163,7 @@ class FixedFieldUpdate
 
     /**
      * @param boolean $SearchOption
-     * @return \FilippoToso\Travelport\UProfile\FixedFieldUpdate
+     * @return \Santosdave\Travelport\UProfile\FixedFieldUpdate
      */
     public function setSearchOption($SearchOption)
     {
@@ -181,7 +181,7 @@ class FixedFieldUpdate
 
     /**
      * @param int $SearchOptionDisplayOrder
-     * @return \FilippoToso\Travelport\UProfile\FixedFieldUpdate
+     * @return \Santosdave\Travelport\UProfile\FixedFieldUpdate
      */
     public function setSearchOptionDisplayOrder($SearchOptionDisplayOrder)
     {
@@ -199,7 +199,7 @@ class FixedFieldUpdate
 
     /**
      * @param int $MinOccursOverride
-     * @return \FilippoToso\Travelport\UProfile\FixedFieldUpdate
+     * @return \Santosdave\Travelport\UProfile\FixedFieldUpdate
      */
     public function setMinOccursOverride($MinOccursOverride)
     {
@@ -217,7 +217,7 @@ class FixedFieldUpdate
 
     /**
      * @param int $MaxOccursOverride
-     * @return \FilippoToso\Travelport\UProfile\FixedFieldUpdate
+     * @return \Santosdave\Travelport\UProfile\FixedFieldUpdate
      */
     public function setMaxOccursOverride($MaxOccursOverride)
     {
@@ -235,7 +235,7 @@ class FixedFieldUpdate
 
     /**
      * @param int $MaxOccurs
-     * @return \FilippoToso\Travelport\UProfile\FixedFieldUpdate
+     * @return \Santosdave\Travelport\UProfile\FixedFieldUpdate
      */
     public function setMaxOccurs($MaxOccurs)
     {
@@ -253,7 +253,7 @@ class FixedFieldUpdate
 
     /**
      * @param int $MinOccurs
-     * @return \FilippoToso\Travelport\UProfile\FixedFieldUpdate
+     * @return \Santosdave\Travelport\UProfile\FixedFieldUpdate
      */
     public function setMinOccurs($MinOccurs)
     {

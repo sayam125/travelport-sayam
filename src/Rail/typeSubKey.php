@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class typeSubKey
 {
@@ -40,7 +40,7 @@ class typeSubKey
 
     /**
      * @param string[] $Text
-     * @return \FilippoToso\Travelport\Rail\typeSubKey
+     * @return \Santosdave\Travelport\Rail\typeSubKey
      */
     public function setText(array $Text = null)
     {
@@ -58,7 +58,7 @@ class typeSubKey
 
     /**
      * @param string $Name
-     * @return \FilippoToso\Travelport\Rail\typeSubKey
+     * @return \Santosdave\Travelport\Rail\typeSubKey
      */
     public function setName($Name)
     {
@@ -76,7 +76,7 @@ class typeSubKey
 
     /**
      * @param string $Description
-     * @return \FilippoToso\Travelport\Rail\typeSubKey
+     * @return \Santosdave\Travelport\Rail\typeSubKey
      */
     public function setDescription($Description)
     {

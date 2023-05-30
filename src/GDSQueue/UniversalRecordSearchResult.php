@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class UniversalRecordSearchResult extends typeProductInfo
 {
@@ -80,7 +80,7 @@ class UniversalRecordSearchResult extends typeProductInfo
 
     /**
      * @param ProductInfo[] $ProductInfo
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalRecordSearchResult
+     * @return \Santosdave\Travelport\GDSQueue\UniversalRecordSearchResult
      */
     public function setProductInfo(array $ProductInfo = null)
     {
@@ -98,7 +98,7 @@ class UniversalRecordSearchResult extends typeProductInfo
 
     /**
      * @param string $UniversalRecordLocatorCode
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalRecordSearchResult
+     * @return \Santosdave\Travelport\GDSQueue\UniversalRecordSearchResult
      */
     public function setUniversalRecordLocatorCode($UniversalRecordLocatorCode)
     {
@@ -116,7 +116,7 @@ class UniversalRecordSearchResult extends typeProductInfo
 
     /**
      * @param string $EarliestTravelDate
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalRecordSearchResult
+     * @return \Santosdave\Travelport\GDSQueue\UniversalRecordSearchResult
      */
     public function setEarliestTravelDate($EarliestTravelDate)
     {
@@ -134,7 +134,7 @@ class UniversalRecordSearchResult extends typeProductInfo
 
     /**
      * @param string $CreatedDate
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalRecordSearchResult
+     * @return \Santosdave\Travelport\GDSQueue\UniversalRecordSearchResult
      */
     public function setCreatedDate($CreatedDate)
     {
@@ -152,7 +152,7 @@ class UniversalRecordSearchResult extends typeProductInfo
 
     /**
      * @param typeLocatorCode $SavedTripLocatorCode
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalRecordSearchResult
+     * @return \Santosdave\Travelport\GDSQueue\UniversalRecordSearchResult
      */
     public function setSavedTripLocatorCode($SavedTripLocatorCode)
     {
@@ -170,7 +170,7 @@ class UniversalRecordSearchResult extends typeProductInfo
 
     /**
      * @param typeReservationTicketed $Ticketed
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalRecordSearchResult
+     * @return \Santosdave\Travelport\GDSQueue\UniversalRecordSearchResult
      */
     public function setTicketed($Ticketed)
     {
@@ -188,7 +188,7 @@ class UniversalRecordSearchResult extends typeProductInfo
 
     /**
      * @param typeRecordStatus $RecordStatus
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalRecordSearchResult
+     * @return \Santosdave\Travelport\GDSQueue\UniversalRecordSearchResult
      */
     public function setRecordStatus($RecordStatus)
     {
@@ -206,7 +206,7 @@ class UniversalRecordSearchResult extends typeProductInfo
 
     /**
      * @param URTicketStatus $TicketStatus
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalRecordSearchResult
+     * @return \Santosdave\Travelport\GDSQueue\UniversalRecordSearchResult
      */
     public function setTicketStatus($TicketStatus)
     {

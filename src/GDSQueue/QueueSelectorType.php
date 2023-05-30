@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class QueueSelectorType
 {
@@ -49,7 +49,7 @@ class QueueSelectorType
 
     /**
      * @param string $Surname
-     * @return \FilippoToso\Travelport\GDSQueue\QueueSelectorType
+     * @return \Santosdave\Travelport\GDSQueue\QueueSelectorType
      */
     public function setSurname($Surname)
     {
@@ -67,7 +67,7 @@ class QueueSelectorType
 
     /**
      * @param string $Queue
-     * @return \FilippoToso\Travelport\GDSQueue\QueueSelectorType
+     * @return \Santosdave\Travelport\GDSQueue\QueueSelectorType
      */
     public function setQueue($Queue)
     {
@@ -85,7 +85,7 @@ class QueueSelectorType
 
     /**
      * @param string $Category
-     * @return \FilippoToso\Travelport\GDSQueue\QueueSelectorType
+     * @return \Santosdave\Travelport\GDSQueue\QueueSelectorType
      */
     public function setCategory($Category)
     {
@@ -103,7 +103,7 @@ class QueueSelectorType
 
     /**
      * @param string $DateRange
-     * @return \FilippoToso\Travelport\GDSQueue\QueueSelectorType
+     * @return \Santosdave\Travelport\GDSQueue\QueueSelectorType
      */
     public function setDateRange($DateRange)
     {

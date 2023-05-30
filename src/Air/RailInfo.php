@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class RailInfo
 {
@@ -84,7 +84,7 @@ class RailInfo
 
     /**
      * @param typeTrainNumber $TrainNumber
-     * @return \FilippoToso\Travelport\Air\RailInfo
+     * @return \Santosdave\Travelport\Air\RailInfo
      */
     public function setTrainNumber($TrainNumber)
     {
@@ -102,7 +102,7 @@ class RailInfo
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\Air\RailInfo
+     * @return \Santosdave\Travelport\Air\RailInfo
      */
     public function setProviderCode($ProviderCode)
     {
@@ -120,7 +120,7 @@ class RailInfo
 
     /**
      * @param typeSupplierCode $SupplierCode
-     * @return \FilippoToso\Travelport\Air\RailInfo
+     * @return \Santosdave\Travelport\Air\RailInfo
      */
     public function setSupplierCode($SupplierCode)
     {
@@ -138,7 +138,7 @@ class RailInfo
 
     /**
      * @param typeIATACode $Origin
-     * @return \FilippoToso\Travelport\Air\RailInfo
+     * @return \Santosdave\Travelport\Air\RailInfo
      */
     public function setOrigin($Origin)
     {
@@ -156,7 +156,7 @@ class RailInfo
 
     /**
      * @param typeRailLocationCode $RailLocOrigin
-     * @return \FilippoToso\Travelport\Air\RailInfo
+     * @return \Santosdave\Travelport\Air\RailInfo
      */
     public function setRailLocOrigin($RailLocOrigin)
     {
@@ -174,7 +174,7 @@ class RailInfo
 
     /**
      * @param typeIATACode $Destination
-     * @return \FilippoToso\Travelport\Air\RailInfo
+     * @return \Santosdave\Travelport\Air\RailInfo
      */
     public function setDestination($Destination)
     {
@@ -192,7 +192,7 @@ class RailInfo
 
     /**
      * @param typeRailLocationCode $RailLocDestination
-     * @return \FilippoToso\Travelport\Air\RailInfo
+     * @return \Santosdave\Travelport\Air\RailInfo
      */
     public function setRailLocDestination($RailLocDestination)
     {
@@ -210,7 +210,7 @@ class RailInfo
 
     /**
      * @param string $DepartureTime
-     * @return \FilippoToso\Travelport\Air\RailInfo
+     * @return \Santosdave\Travelport\Air\RailInfo
      */
     public function setDepartureTime($DepartureTime)
     {
@@ -228,7 +228,7 @@ class RailInfo
 
     /**
      * @param string $ArrivalTime
-     * @return \FilippoToso\Travelport\Air\RailInfo
+     * @return \Santosdave\Travelport\Air\RailInfo
      */
     public function setArrivalTime($ArrivalTime)
     {

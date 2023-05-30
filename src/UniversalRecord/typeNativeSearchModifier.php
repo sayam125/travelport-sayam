@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class typeNativeSearchModifier
 {
@@ -35,7 +35,7 @@ class typeNativeSearchModifier
 
     /**
      * @param string $_
-     * @return \FilippoToso\Travelport\UniversalRecord\typeNativeSearchModifier
+     * @return \Santosdave\Travelport\UniversalRecord\typeNativeSearchModifier
      */
     public function set_($_)
     {
@@ -53,7 +53,7 @@ class typeNativeSearchModifier
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\UniversalRecord\typeNativeSearchModifier
+     * @return \Santosdave\Travelport\UniversalRecord\typeNativeSearchModifier
      */
     public function setProviderCode($ProviderCode)
     {

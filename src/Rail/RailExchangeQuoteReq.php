@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class RailExchangeQuoteReq extends BaseReq
 {
@@ -89,7 +89,7 @@ class RailExchangeQuoteReq extends BaseReq
 
     /**
      * @param SearchRailLeg $SearchRailLeg
-     * @return \FilippoToso\Travelport\Rail\RailExchangeQuoteReq
+     * @return \Santosdave\Travelport\Rail\RailExchangeQuoteReq
      */
     public function setSearchRailLeg($SearchRailLeg)
     {
@@ -107,7 +107,7 @@ class RailExchangeQuoteReq extends BaseReq
 
     /**
      * @param RailSearchModifiers $RailSearchModifiers
-     * @return \FilippoToso\Travelport\Rail\RailExchangeQuoteReq
+     * @return \Santosdave\Travelport\Rail\RailExchangeQuoteReq
      */
     public function setRailSearchModifiers($RailSearchModifiers)
     {
@@ -125,7 +125,7 @@ class RailExchangeQuoteReq extends BaseReq
 
     /**
      * @param SearchPassenger $SearchPassenger
-     * @return \FilippoToso\Travelport\Rail\RailExchangeQuoteReq
+     * @return \Santosdave\Travelport\Rail\RailExchangeQuoteReq
      */
     public function setSearchPassenger($SearchPassenger)
     {
@@ -143,7 +143,7 @@ class RailExchangeQuoteReq extends BaseReq
 
     /**
      * @param HostTokenList $HostTokenList
-     * @return \FilippoToso\Travelport\Rail\RailExchangeQuoteReq
+     * @return \Santosdave\Travelport\Rail\RailExchangeQuoteReq
      */
     public function setHostTokenList($HostTokenList)
     {
@@ -161,7 +161,7 @@ class RailExchangeQuoteReq extends BaseReq
 
     /**
      * @param RailPricingSolution $RailPricingSolution
-     * @return \FilippoToso\Travelport\Rail\RailExchangeQuoteReq
+     * @return \Santosdave\Travelport\Rail\RailExchangeQuoteReq
      */
     public function setRailPricingSolution($RailPricingSolution)
     {
@@ -179,7 +179,7 @@ class RailExchangeQuoteReq extends BaseReq
 
     /**
      * @param RailFareNoteList $RailFareNoteList
-     * @return \FilippoToso\Travelport\Rail\RailExchangeQuoteReq
+     * @return \Santosdave\Travelport\Rail\RailExchangeQuoteReq
      */
     public function setRailFareNoteList($RailFareNoteList)
     {
@@ -197,7 +197,7 @@ class RailExchangeQuoteReq extends BaseReq
 
     /**
      * @param typeLocatorCode $LocatorCode
-     * @return \FilippoToso\Travelport\Rail\RailExchangeQuoteReq
+     * @return \Santosdave\Travelport\Rail\RailExchangeQuoteReq
      */
     public function setLocatorCode($LocatorCode)
     {
@@ -215,7 +215,7 @@ class RailExchangeQuoteReq extends BaseReq
 
     /**
      * @param typeResponseType $ResponseType
-     * @return \FilippoToso\Travelport\Rail\RailExchangeQuoteReq
+     * @return \Santosdave\Travelport\Rail\RailExchangeQuoteReq
      */
     public function setResponseType($ResponseType)
     {

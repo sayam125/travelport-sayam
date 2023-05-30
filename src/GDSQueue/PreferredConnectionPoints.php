@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class PreferredConnectionPoints
 {
@@ -28,7 +28,7 @@ class PreferredConnectionPoints
 
     /**
      * @param typeLocation $ConnectionPoint
-     * @return \FilippoToso\Travelport\GDSQueue\PreferredConnectionPoints
+     * @return \Santosdave\Travelport\GDSQueue\PreferredConnectionPoints
      */
     public function setConnectionPoint($ConnectionPoint)
     {

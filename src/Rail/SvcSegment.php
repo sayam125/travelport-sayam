@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class SvcSegment
 {
@@ -119,7 +119,7 @@ class SvcSegment
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Rail\SvcSegment
+     * @return \Santosdave\Travelport\Rail\SvcSegment
      */
     public function setKey($Key)
     {
@@ -137,7 +137,7 @@ class SvcSegment
 
     /**
      * @param typeCarrier $Carrier
-     * @return \FilippoToso\Travelport\Rail\SvcSegment
+     * @return \Santosdave\Travelport\Rail\SvcSegment
      */
     public function setCarrier($Carrier)
     {
@@ -155,7 +155,7 @@ class SvcSegment
 
     /**
      * @param string $Status
-     * @return \FilippoToso\Travelport\Rail\SvcSegment
+     * @return \Santosdave\Travelport\Rail\SvcSegment
      */
     public function setStatus($Status)
     {
@@ -173,7 +173,7 @@ class SvcSegment
 
     /**
      * @param int $NumberOfItems
-     * @return \FilippoToso\Travelport\Rail\SvcSegment
+     * @return \Santosdave\Travelport\Rail\SvcSegment
      */
     public function setNumberOfItems($NumberOfItems)
     {
@@ -191,7 +191,7 @@ class SvcSegment
 
     /**
      * @param typeIATACode $Origin
-     * @return \FilippoToso\Travelport\Rail\SvcSegment
+     * @return \Santosdave\Travelport\Rail\SvcSegment
      */
     public function setOrigin($Origin)
     {
@@ -209,7 +209,7 @@ class SvcSegment
 
     /**
      * @param typeIATACode $Destination
-     * @return \FilippoToso\Travelport\Rail\SvcSegment
+     * @return \Santosdave\Travelport\Rail\SvcSegment
      */
     public function setDestination($Destination)
     {
@@ -227,7 +227,7 @@ class SvcSegment
 
     /**
      * @param date $StartDate
-     * @return \FilippoToso\Travelport\Rail\SvcSegment
+     * @return \Santosdave\Travelport\Rail\SvcSegment
      */
     public function setStartDate($StartDate)
     {
@@ -245,7 +245,7 @@ class SvcSegment
 
     /**
      * @param int $TravelOrder
-     * @return \FilippoToso\Travelport\Rail\SvcSegment
+     * @return \Santosdave\Travelport\Rail\SvcSegment
      */
     public function setTravelOrder($TravelOrder)
     {
@@ -263,7 +263,7 @@ class SvcSegment
 
     /**
      * @param typeRef $BookingTravelerRef
-     * @return \FilippoToso\Travelport\Rail\SvcSegment
+     * @return \Santosdave\Travelport\Rail\SvcSegment
      */
     public function setBookingTravelerRef($BookingTravelerRef)
     {
@@ -281,7 +281,7 @@ class SvcSegment
 
     /**
      * @param string $RFIC
-     * @return \FilippoToso\Travelport\Rail\SvcSegment
+     * @return \Santosdave\Travelport\Rail\SvcSegment
      */
     public function setRFIC($RFIC)
     {
@@ -299,7 +299,7 @@ class SvcSegment
 
     /**
      * @param string $RFISC
-     * @return \FilippoToso\Travelport\Rail\SvcSegment
+     * @return \Santosdave\Travelport\Rail\SvcSegment
      */
     public function setRFISC($RFISC)
     {
@@ -317,7 +317,7 @@ class SvcSegment
 
     /**
      * @param string $SvcDescription
-     * @return \FilippoToso\Travelport\Rail\SvcSegment
+     * @return \Santosdave\Travelport\Rail\SvcSegment
      */
     public function setSvcDescription($SvcDescription)
     {
@@ -335,7 +335,7 @@ class SvcSegment
 
     /**
      * @param typeMoney $Fee
-     * @return \FilippoToso\Travelport\Rail\SvcSegment
+     * @return \Santosdave\Travelport\Rail\SvcSegment
      */
     public function setFee($Fee)
     {
@@ -353,7 +353,7 @@ class SvcSegment
 
     /**
      * @param typeEMDNumber $EMDNumber
-     * @return \FilippoToso\Travelport\Rail\SvcSegment
+     * @return \Santosdave\Travelport\Rail\SvcSegment
      */
     public function setEMDNumber($EMDNumber)
     {

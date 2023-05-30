@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class McoSearchRsp extends BaseRsp
 {
@@ -34,7 +34,7 @@ class McoSearchRsp extends BaseRsp
 
     /**
      * @param McoSearchResult $McoSearchResult
-     * @return \FilippoToso\Travelport\Util\McoSearchRsp
+     * @return \Santosdave\Travelport\Util\McoSearchRsp
      */
     public function setMcoSearchResult($McoSearchResult)
     {

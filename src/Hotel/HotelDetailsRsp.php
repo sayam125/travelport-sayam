@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class HotelDetailsRsp extends BaseRsp
 {
@@ -67,7 +67,7 @@ class HotelDetailsRsp extends BaseRsp
 
     /**
      * @param NextResultReference $NextResultReference
-     * @return \FilippoToso\Travelport\Hotel\HotelDetailsRsp
+     * @return \Santosdave\Travelport\Hotel\HotelDetailsRsp
      */
     public function setNextResultReference($NextResultReference)
     {
@@ -85,7 +85,7 @@ class HotelDetailsRsp extends BaseRsp
 
     /**
      * @param HostToken $HostToken
-     * @return \FilippoToso\Travelport\Hotel\HotelDetailsRsp
+     * @return \Santosdave\Travelport\Hotel\HotelDetailsRsp
      */
     public function setHostToken($HostToken)
     {
@@ -103,7 +103,7 @@ class HotelDetailsRsp extends BaseRsp
 
     /**
      * @param RequestedHotelDetails $RequestedHotelDetails
-     * @return \FilippoToso\Travelport\Hotel\HotelDetailsRsp
+     * @return \Santosdave\Travelport\Hotel\HotelDetailsRsp
      */
     public function setRequestedHotelDetails($RequestedHotelDetails)
     {
@@ -121,7 +121,7 @@ class HotelDetailsRsp extends BaseRsp
 
     /**
      * @param AggregatorHotelDetails[] $AggregatorHotelDetails
-     * @return \FilippoToso\Travelport\Hotel\HotelDetailsRsp
+     * @return \Santosdave\Travelport\Hotel\HotelDetailsRsp
      */
     public function setAggregatorHotelDetails(array $AggregatorHotelDetails = null)
     {
@@ -139,7 +139,7 @@ class HotelDetailsRsp extends BaseRsp
 
     /**
      * @param HotelAlternateProperties $HotelAlternateProperties
-     * @return \FilippoToso\Travelport\Hotel\HotelDetailsRsp
+     * @return \Santosdave\Travelport\Hotel\HotelDetailsRsp
      */
     public function setHotelAlternateProperties($HotelAlternateProperties)
     {
@@ -157,7 +157,7 @@ class HotelDetailsRsp extends BaseRsp
 
     /**
      * @param GuestReviews $GuestReviews
-     * @return \FilippoToso\Travelport\Hotel\HotelDetailsRsp
+     * @return \Santosdave\Travelport\Hotel\HotelDetailsRsp
      */
     public function setGuestReviews($GuestReviews)
     {

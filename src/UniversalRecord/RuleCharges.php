@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class RuleCharges
 {
@@ -56,7 +56,7 @@ class RuleCharges
 
     /**
      * @param string $PenaltyType
-     * @return \FilippoToso\Travelport\UniversalRecord\RuleCharges
+     * @return \Santosdave\Travelport\UniversalRecord\RuleCharges
      */
     public function setPenaltyType($PenaltyType)
     {
@@ -74,7 +74,7 @@ class RuleCharges
 
     /**
      * @param string $DepartureStatus
-     * @return \FilippoToso\Travelport\UniversalRecord\RuleCharges
+     * @return \Santosdave\Travelport\UniversalRecord\RuleCharges
      */
     public function setDepartureStatus($DepartureStatus)
     {
@@ -92,7 +92,7 @@ class RuleCharges
 
     /**
      * @param typeMoney $Amount
-     * @return \FilippoToso\Travelport\UniversalRecord\RuleCharges
+     * @return \Santosdave\Travelport\UniversalRecord\RuleCharges
      */
     public function setAmount($Amount)
     {
@@ -110,7 +110,7 @@ class RuleCharges
 
     /**
      * @param float $Percent
-     * @return \FilippoToso\Travelport\UniversalRecord\RuleCharges
+     * @return \Santosdave\Travelport\UniversalRecord\RuleCharges
      */
     public function setPercent($Percent)
     {
@@ -128,7 +128,7 @@ class RuleCharges
 
     /**
      * @param boolean $MoreRulesPresent
-     * @return \FilippoToso\Travelport\UniversalRecord\RuleCharges
+     * @return \Santosdave\Travelport\UniversalRecord\RuleCharges
      */
     public function setMoreRulesPresent($MoreRulesPresent)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class AirSearchModifiers
 {
@@ -220,7 +220,7 @@ class AirSearchModifiers
 
     /**
      * @param DisfavoredProviders $DisfavoredProviders
-     * @return \FilippoToso\Travelport\Air\AirSearchModifiers
+     * @return \Santosdave\Travelport\Air\AirSearchModifiers
      */
     public function setDisfavoredProviders($DisfavoredProviders)
     {
@@ -238,7 +238,7 @@ class AirSearchModifiers
 
     /**
      * @param PreferredProviders $PreferredProviders
-     * @return \FilippoToso\Travelport\Air\AirSearchModifiers
+     * @return \Santosdave\Travelport\Air\AirSearchModifiers
      */
     public function setPreferredProviders($PreferredProviders)
     {
@@ -256,7 +256,7 @@ class AirSearchModifiers
 
     /**
      * @param DisfavoredCarriers $DisfavoredCarriers
-     * @return \FilippoToso\Travelport\Air\AirSearchModifiers
+     * @return \Santosdave\Travelport\Air\AirSearchModifiers
      */
     public function setDisfavoredCarriers($DisfavoredCarriers)
     {
@@ -274,7 +274,7 @@ class AirSearchModifiers
 
     /**
      * @param PermittedCarriers $PermittedCarriers
-     * @return \FilippoToso\Travelport\Air\AirSearchModifiers
+     * @return \Santosdave\Travelport\Air\AirSearchModifiers
      */
     public function setPermittedCarriers($PermittedCarriers)
     {
@@ -292,7 +292,7 @@ class AirSearchModifiers
 
     /**
      * @param ProhibitedCarriers $ProhibitedCarriers
-     * @return \FilippoToso\Travelport\Air\AirSearchModifiers
+     * @return \Santosdave\Travelport\Air\AirSearchModifiers
      */
     public function setProhibitedCarriers($ProhibitedCarriers)
     {
@@ -310,7 +310,7 @@ class AirSearchModifiers
 
     /**
      * @param PreferredCarriers $PreferredCarriers
-     * @return \FilippoToso\Travelport\Air\AirSearchModifiers
+     * @return \Santosdave\Travelport\Air\AirSearchModifiers
      */
     public function setPreferredCarriers($PreferredCarriers)
     {
@@ -328,7 +328,7 @@ class AirSearchModifiers
 
     /**
      * @param PermittedCabins $PermittedCabins
-     * @return \FilippoToso\Travelport\Air\AirSearchModifiers
+     * @return \Santosdave\Travelport\Air\AirSearchModifiers
      */
     public function setPermittedCabins($PermittedCabins)
     {
@@ -346,7 +346,7 @@ class AirSearchModifiers
 
     /**
      * @param PreferredCabins $PreferredCabins
-     * @return \FilippoToso\Travelport\Air\AirSearchModifiers
+     * @return \Santosdave\Travelport\Air\AirSearchModifiers
      */
     public function setPreferredCabins($PreferredCabins)
     {
@@ -364,7 +364,7 @@ class AirSearchModifiers
 
     /**
      * @param PreferredAlliances $PreferredAlliances
-     * @return \FilippoToso\Travelport\Air\AirSearchModifiers
+     * @return \Santosdave\Travelport\Air\AirSearchModifiers
      */
     public function setPreferredAlliances($PreferredAlliances)
     {
@@ -382,7 +382,7 @@ class AirSearchModifiers
 
     /**
      * @param DisfavoredAlliances $DisfavoredAlliances
-     * @return \FilippoToso\Travelport\Air\AirSearchModifiers
+     * @return \Santosdave\Travelport\Air\AirSearchModifiers
      */
     public function setDisfavoredAlliances($DisfavoredAlliances)
     {
@@ -400,7 +400,7 @@ class AirSearchModifiers
 
     /**
      * @param PermittedBookingCodes $PermittedBookingCodes
-     * @return \FilippoToso\Travelport\Air\AirSearchModifiers
+     * @return \Santosdave\Travelport\Air\AirSearchModifiers
      */
     public function setPermittedBookingCodes($PermittedBookingCodes)
     {
@@ -418,7 +418,7 @@ class AirSearchModifiers
 
     /**
      * @param PreferredBookingCodes $PreferredBookingCodes
-     * @return \FilippoToso\Travelport\Air\AirSearchModifiers
+     * @return \Santosdave\Travelport\Air\AirSearchModifiers
      */
     public function setPreferredBookingCodes($PreferredBookingCodes)
     {
@@ -436,7 +436,7 @@ class AirSearchModifiers
 
     /**
      * @param ProhibitedBookingCodes $ProhibitedBookingCodes
-     * @return \FilippoToso\Travelport\Air\AirSearchModifiers
+     * @return \Santosdave\Travelport\Air\AirSearchModifiers
      */
     public function setProhibitedBookingCodes($ProhibitedBookingCodes)
     {
@@ -454,7 +454,7 @@ class AirSearchModifiers
 
     /**
      * @param FlightType $FlightType
-     * @return \FilippoToso\Travelport\Air\AirSearchModifiers
+     * @return \Santosdave\Travelport\Air\AirSearchModifiers
      */
     public function setFlightType($FlightType)
     {
@@ -472,7 +472,7 @@ class AirSearchModifiers
 
     /**
      * @param MaxLayoverDurationType $MaxLayoverDuration
-     * @return \FilippoToso\Travelport\Air\AirSearchModifiers
+     * @return \Santosdave\Travelport\Air\AirSearchModifiers
      */
     public function setMaxLayoverDuration($MaxLayoverDuration)
     {
@@ -490,7 +490,7 @@ class AirSearchModifiers
 
     /**
      * @param typeNativeSearchModifier $NativeSearchModifier
-     * @return \FilippoToso\Travelport\Air\AirSearchModifiers
+     * @return \Santosdave\Travelport\Air\AirSearchModifiers
      */
     public function setNativeSearchModifier($NativeSearchModifier)
     {
@@ -508,7 +508,7 @@ class AirSearchModifiers
 
     /**
      * @param typeDistance $DistanceType
-     * @return \FilippoToso\Travelport\Air\AirSearchModifiers
+     * @return \Santosdave\Travelport\Air\AirSearchModifiers
      */
     public function setDistanceType($DistanceType)
     {
@@ -526,7 +526,7 @@ class AirSearchModifiers
 
     /**
      * @param boolean $IncludeFlightDetails
-     * @return \FilippoToso\Travelport\Air\AirSearchModifiers
+     * @return \Santosdave\Travelport\Air\AirSearchModifiers
      */
     public function setIncludeFlightDetails($IncludeFlightDetails)
     {
@@ -544,7 +544,7 @@ class AirSearchModifiers
 
     /**
      * @param boolean $AllowChangeOfAirport
-     * @return \FilippoToso\Travelport\Air\AirSearchModifiers
+     * @return \Santosdave\Travelport\Air\AirSearchModifiers
      */
     public function setAllowChangeOfAirport($AllowChangeOfAirport)
     {
@@ -562,7 +562,7 @@ class AirSearchModifiers
 
     /**
      * @param boolean $ProhibitOvernightLayovers
-     * @return \FilippoToso\Travelport\Air\AirSearchModifiers
+     * @return \Santosdave\Travelport\Air\AirSearchModifiers
      */
     public function setProhibitOvernightLayovers($ProhibitOvernightLayovers)
     {
@@ -580,7 +580,7 @@ class AirSearchModifiers
 
     /**
      * @param int $MaxSolutions
-     * @return \FilippoToso\Travelport\Air\AirSearchModifiers
+     * @return \Santosdave\Travelport\Air\AirSearchModifiers
      */
     public function setMaxSolutions($MaxSolutions)
     {
@@ -598,7 +598,7 @@ class AirSearchModifiers
 
     /**
      * @param int $MaxConnectionTime
-     * @return \FilippoToso\Travelport\Air\AirSearchModifiers
+     * @return \Santosdave\Travelport\Air\AirSearchModifiers
      */
     public function setMaxConnectionTime($MaxConnectionTime)
     {
@@ -616,7 +616,7 @@ class AirSearchModifiers
 
     /**
      * @param boolean $SearchWeekends
-     * @return \FilippoToso\Travelport\Air\AirSearchModifiers
+     * @return \Santosdave\Travelport\Air\AirSearchModifiers
      */
     public function setSearchWeekends($SearchWeekends)
     {
@@ -634,7 +634,7 @@ class AirSearchModifiers
 
     /**
      * @param boolean $IncludeExtraSolutions
-     * @return \FilippoToso\Travelport\Air\AirSearchModifiers
+     * @return \Santosdave\Travelport\Air\AirSearchModifiers
      */
     public function setIncludeExtraSolutions($IncludeExtraSolutions)
     {
@@ -652,7 +652,7 @@ class AirSearchModifiers
 
     /**
      * @param boolean $ProhibitMultiAirportConnection
-     * @return \FilippoToso\Travelport\Air\AirSearchModifiers
+     * @return \Santosdave\Travelport\Air\AirSearchModifiers
      */
     public function setProhibitMultiAirportConnection($ProhibitMultiAirportConnection)
     {
@@ -670,7 +670,7 @@ class AirSearchModifiers
 
     /**
      * @param boolean $PreferNonStop
-     * @return \FilippoToso\Travelport\Air\AirSearchModifiers
+     * @return \Santosdave\Travelport\Air\AirSearchModifiers
      */
     public function setPreferNonStop($PreferNonStop)
     {
@@ -688,7 +688,7 @@ class AirSearchModifiers
 
     /**
      * @param anonymous684 $OrderBy
-     * @return \FilippoToso\Travelport\Air\AirSearchModifiers
+     * @return \Santosdave\Travelport\Air\AirSearchModifiers
      */
     public function setOrderBy($OrderBy)
     {
@@ -706,7 +706,7 @@ class AirSearchModifiers
 
     /**
      * @param boolean $ExcludeOpenJawAirport
-     * @return \FilippoToso\Travelport\Air\AirSearchModifiers
+     * @return \Santosdave\Travelport\Air\AirSearchModifiers
      */
     public function setExcludeOpenJawAirport($ExcludeOpenJawAirport)
     {
@@ -724,7 +724,7 @@ class AirSearchModifiers
 
     /**
      * @param boolean $ExcludeGroundTransportation
-     * @return \FilippoToso\Travelport\Air\AirSearchModifiers
+     * @return \Santosdave\Travelport\Air\AirSearchModifiers
      */
     public function setExcludeGroundTransportation($ExcludeGroundTransportation)
     {
@@ -742,7 +742,7 @@ class AirSearchModifiers
 
     /**
      * @param typeMaxJourneyTime $MaxJourneyTime
-     * @return \FilippoToso\Travelport\Air\AirSearchModifiers
+     * @return \Santosdave\Travelport\Air\AirSearchModifiers
      */
     public function setMaxJourneyTime($MaxJourneyTime)
     {
@@ -760,7 +760,7 @@ class AirSearchModifiers
 
     /**
      * @param boolean $JetServiceOnly
-     * @return \FilippoToso\Travelport\Air\AirSearchModifiers
+     * @return \Santosdave\Travelport\Air\AirSearchModifiers
      */
     public function setJetServiceOnly($JetServiceOnly)
     {

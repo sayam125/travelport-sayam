@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class BookingDates
 {
@@ -35,7 +35,7 @@ class BookingDates
 
     /**
      * @param typeDate $CheckInDate
-     * @return \FilippoToso\Travelport\GDSQueue\BookingDates
+     * @return \Santosdave\Travelport\GDSQueue\BookingDates
      */
     public function setCheckInDate($CheckInDate)
     {
@@ -53,7 +53,7 @@ class BookingDates
 
     /**
      * @param typeDate $CheckOutDate
-     * @return \FilippoToso\Travelport\GDSQueue\BookingDates
+     * @return \Santosdave\Travelport\GDSQueue\BookingDates
      */
     public function setCheckOutDate($CheckOutDate)
     {

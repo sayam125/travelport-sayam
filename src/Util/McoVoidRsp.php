@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class McoVoidRsp extends BaseRsp
 {
@@ -34,7 +34,7 @@ class McoVoidRsp extends BaseRsp
 
     /**
      * @param MCO $MCO
-     * @return \FilippoToso\Travelport\Util\McoVoidRsp
+     * @return \Santosdave\Travelport\Util\McoVoidRsp
      */
     public function setMCO($MCO)
     {

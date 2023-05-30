@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class TicketEndorsement
 {
@@ -28,7 +28,7 @@ class TicketEndorsement
 
     /**
      * @param typeEndorsement $Value
-     * @return \FilippoToso\Travelport\GDSQueue\TicketEndorsement
+     * @return \Santosdave\Travelport\GDSQueue\TicketEndorsement
      */
     public function setValue($Value)
     {

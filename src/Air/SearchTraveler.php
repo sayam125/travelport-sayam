@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class SearchTraveler extends typePassengerType
 {
@@ -48,7 +48,7 @@ class SearchTraveler extends typePassengerType
 
     /**
      * @param AirSeatAssignment $AirSeatAssignment
-     * @return \FilippoToso\Travelport\Air\SearchTraveler
+     * @return \Santosdave\Travelport\Air\SearchTraveler
      */
     public function setAirSeatAssignment($AirSeatAssignment)
     {
@@ -66,7 +66,7 @@ class SearchTraveler extends typePassengerType
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Air\SearchTraveler
+     * @return \Santosdave\Travelport\Air\SearchTraveler
      */
     public function setKey($Key)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class Air extends typeTransactionsAllowed
 {
@@ -88,7 +88,7 @@ class Air extends typeTransactionsAllowed
 
     /**
      * @param boolean $OneWayShop
-     * @return \FilippoToso\Travelport\GDSQueue\Air
+     * @return \Santosdave\Travelport\GDSQueue\Air
      */
     public function setOneWayShop($OneWayShop)
     {
@@ -106,7 +106,7 @@ class Air extends typeTransactionsAllowed
 
     /**
      * @param boolean $FlexExplore
-     * @return \FilippoToso\Travelport\GDSQueue\Air
+     * @return \Santosdave\Travelport\GDSQueue\Air
      */
     public function setFlexExplore($FlexExplore)
     {
@@ -124,7 +124,7 @@ class Air extends typeTransactionsAllowed
 
     /**
      * @param boolean $RapidRepriceEnabled
-     * @return \FilippoToso\Travelport\GDSQueue\Air
+     * @return \Santosdave\Travelport\GDSQueue\Air
      */
     public function setRapidRepriceEnabled($RapidRepriceEnabled)
     {
@@ -142,7 +142,7 @@ class Air extends typeTransactionsAllowed
 
     /**
      * @param boolean $ReturnUpsellFare
-     * @return \FilippoToso\Travelport\GDSQueue\Air
+     * @return \Santosdave\Travelport\GDSQueue\Air
      */
     public function setReturnUpsellFare($ReturnUpsellFare)
     {
@@ -160,7 +160,7 @@ class Air extends typeTransactionsAllowed
 
     /**
      * @param anonymous429 $Tier
-     * @return \FilippoToso\Travelport\GDSQueue\Air
+     * @return \Santosdave\Travelport\GDSQueue\Air
      */
     public function setTier($Tier)
     {
@@ -178,7 +178,7 @@ class Air extends typeTransactionsAllowed
 
     /**
      * @param boolean $DaysEnabled
-     * @return \FilippoToso\Travelport\GDSQueue\Air
+     * @return \Santosdave\Travelport\GDSQueue\Air
      */
     public function setDaysEnabled($DaysEnabled)
     {
@@ -196,7 +196,7 @@ class Air extends typeTransactionsAllowed
 
     /**
      * @param boolean $WeekendsEnabled
-     * @return \FilippoToso\Travelport\GDSQueue\Air
+     * @return \Santosdave\Travelport\GDSQueue\Air
      */
     public function setWeekendsEnabled($WeekendsEnabled)
     {
@@ -214,7 +214,7 @@ class Air extends typeTransactionsAllowed
 
     /**
      * @param boolean $AirportsEnabled
-     * @return \FilippoToso\Travelport\GDSQueue\Air
+     * @return \Santosdave\Travelport\GDSQueue\Air
      */
     public function setAirportsEnabled($AirportsEnabled)
     {
@@ -232,7 +232,7 @@ class Air extends typeTransactionsAllowed
 
     /**
      * @param boolean $ODEnabled
-     * @return \FilippoToso\Travelport\GDSQueue\Air
+     * @return \Santosdave\Travelport\GDSQueue\Air
      */
     public function setODEnabled($ODEnabled)
     {

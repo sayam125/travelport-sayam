@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\System;
+namespace Santosdave\Travelport\System;
 
 class RequestKeyMappings
 {
@@ -28,7 +28,7 @@ class RequestKeyMappings
 
     /**
      * @param KeyMapping $KeyMapping
-     * @return \FilippoToso\Travelport\System\RequestKeyMappings
+     * @return \Santosdave\Travelport\System\RequestKeyMappings
      */
     public function setKeyMapping($KeyMapping)
     {

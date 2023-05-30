@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\System;
+namespace Santosdave\Travelport\System;
 
 class MCOFeeInfo
 {
@@ -42,7 +42,7 @@ class MCOFeeInfo
 
     /**
      * @param anonymous168 $FeeAppliesToInd
-     * @return \FilippoToso\Travelport\System\MCOFeeInfo
+     * @return \Santosdave\Travelport\System\MCOFeeInfo
      */
     public function setFeeAppliesToInd($FeeAppliesToInd)
     {
@@ -60,7 +60,7 @@ class MCOFeeInfo
 
     /**
      * @param typeMoney $Amount
-     * @return \FilippoToso\Travelport\System\MCOFeeInfo
+     * @return \Santosdave\Travelport\System\MCOFeeInfo
      */
     public function setAmount($Amount)
     {
@@ -78,7 +78,7 @@ class MCOFeeInfo
 
     /**
      * @param typePercentageWithDecimal $Percentage
-     * @return \FilippoToso\Travelport\System\MCOFeeInfo
+     * @return \Santosdave\Travelport\System\MCOFeeInfo
      */
     public function setPercentage($Percentage)
     {

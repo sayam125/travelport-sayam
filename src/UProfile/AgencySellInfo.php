@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class AgencySellInfo
 {
@@ -63,7 +63,7 @@ class AgencySellInfo
 
     /**
      * @param typeIATA $IataCode
-     * @return \FilippoToso\Travelport\UProfile\AgencySellInfo
+     * @return \Santosdave\Travelport\UProfile\AgencySellInfo
      */
     public function setIataCode($IataCode)
     {
@@ -81,7 +81,7 @@ class AgencySellInfo
 
     /**
      * @param typeCountry $Country
-     * @return \FilippoToso\Travelport\UProfile\AgencySellInfo
+     * @return \Santosdave\Travelport\UProfile\AgencySellInfo
      */
     public function setCountry($Country)
     {
@@ -99,7 +99,7 @@ class AgencySellInfo
 
     /**
      * @param typeCurrency $CurrencyCode
-     * @return \FilippoToso\Travelport\UProfile\AgencySellInfo
+     * @return \Santosdave\Travelport\UProfile\AgencySellInfo
      */
     public function setCurrencyCode($CurrencyCode)
     {
@@ -117,7 +117,7 @@ class AgencySellInfo
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\UProfile\AgencySellInfo
+     * @return \Santosdave\Travelport\UProfile\AgencySellInfo
      */
     public function setProviderCode($ProviderCode)
     {
@@ -135,7 +135,7 @@ class AgencySellInfo
 
     /**
      * @param typePCC $PseudoCityCode
-     * @return \FilippoToso\Travelport\UProfile\AgencySellInfo
+     * @return \Santosdave\Travelport\UProfile\AgencySellInfo
      */
     public function setPseudoCityCode($PseudoCityCode)
     {
@@ -153,7 +153,7 @@ class AgencySellInfo
 
     /**
      * @param typeIATACode $CityCode
-     * @return \FilippoToso\Travelport\UProfile\AgencySellInfo
+     * @return \Santosdave\Travelport\UProfile\AgencySellInfo
      */
     public function setCityCode($CityCode)
     {

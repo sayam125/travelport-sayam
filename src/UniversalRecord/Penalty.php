@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class Penalty
 {
@@ -35,7 +35,7 @@ class Penalty
 
     /**
      * @param typeMoney $Amount
-     * @return \FilippoToso\Travelport\UniversalRecord\Penalty
+     * @return \Santosdave\Travelport\UniversalRecord\Penalty
      */
     public function setAmount($Amount)
     {
@@ -53,7 +53,7 @@ class Penalty
 
     /**
      * @param string $PenaltyType
-     * @return \FilippoToso\Travelport\UniversalRecord\Penalty
+     * @return \Santosdave\Travelport\UniversalRecord\Penalty
      */
     public function setPenaltyType($PenaltyType)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class BundledService
 {
@@ -70,7 +70,7 @@ class BundledService
 
     /**
      * @param typeCarrier $Carrier
-     * @return \FilippoToso\Travelport\GDSQueue\BundledService
+     * @return \Santosdave\Travelport\GDSQueue\BundledService
      */
     public function setCarrier($Carrier)
     {
@@ -88,7 +88,7 @@ class BundledService
 
     /**
      * @param boolean $CarrierSubCode
-     * @return \FilippoToso\Travelport\GDSQueue\BundledService
+     * @return \Santosdave\Travelport\GDSQueue\BundledService
      */
     public function setCarrierSubCode($CarrierSubCode)
     {
@@ -106,7 +106,7 @@ class BundledService
 
     /**
      * @param string $ServiceType
-     * @return \FilippoToso\Travelport\GDSQueue\BundledService
+     * @return \Santosdave\Travelport\GDSQueue\BundledService
      */
     public function setServiceType($ServiceType)
     {
@@ -124,7 +124,7 @@ class BundledService
 
     /**
      * @param string $ServiceSubCode
-     * @return \FilippoToso\Travelport\GDSQueue\BundledService
+     * @return \Santosdave\Travelport\GDSQueue\BundledService
      */
     public function setServiceSubCode($ServiceSubCode)
     {
@@ -142,7 +142,7 @@ class BundledService
 
     /**
      * @param string $Name
-     * @return \FilippoToso\Travelport\GDSQueue\BundledService
+     * @return \Santosdave\Travelport\GDSQueue\BundledService
      */
     public function setName($Name)
     {
@@ -160,7 +160,7 @@ class BundledService
 
     /**
      * @param anonymous916 $Booking
-     * @return \FilippoToso\Travelport\GDSQueue\BundledService
+     * @return \Santosdave\Travelport\GDSQueue\BundledService
      */
     public function setBooking($Booking)
     {
@@ -178,7 +178,7 @@ class BundledService
 
     /**
      * @param int $Occurrence
-     * @return \FilippoToso\Travelport\GDSQueue\BundledService
+     * @return \Santosdave\Travelport\GDSQueue\BundledService
      */
     public function setOccurrence($Occurrence)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class Advisory extends typeKeyElement
 {
@@ -79,7 +79,7 @@ class Advisory extends typeKeyElement
 
     /**
      * @param typeAdvisoryType $Type
-     * @return \FilippoToso\Travelport\UProfile\Advisory
+     * @return \Santosdave\Travelport\UProfile\Advisory
      */
     public function setType($Type)
     {
@@ -97,7 +97,7 @@ class Advisory extends typeKeyElement
 
     /**
      * @param date $StartDate
-     * @return \FilippoToso\Travelport\UProfile\Advisory
+     * @return \Santosdave\Travelport\UProfile\Advisory
      */
     public function setStartDate($StartDate)
     {
@@ -115,7 +115,7 @@ class Advisory extends typeKeyElement
 
     /**
      * @param date $EndDate
-     * @return \FilippoToso\Travelport\UProfile\Advisory
+     * @return \Santosdave\Travelport\UProfile\Advisory
      */
     public function setEndDate($EndDate)
     {
@@ -133,7 +133,7 @@ class Advisory extends typeKeyElement
 
     /**
      * @param StringLength1to128 $Summary
-     * @return \FilippoToso\Travelport\UProfile\Advisory
+     * @return \Santosdave\Travelport\UProfile\Advisory
      */
     public function setSummary($Summary)
     {
@@ -151,7 +151,7 @@ class Advisory extends typeKeyElement
 
     /**
      * @param StringLength1to1000 $Description
-     * @return \FilippoToso\Travelport\UProfile\Advisory
+     * @return \Santosdave\Travelport\UProfile\Advisory
      */
     public function setDescription($Description)
     {
@@ -169,7 +169,7 @@ class Advisory extends typeKeyElement
 
     /**
      * @param typePriorityOrder $PriorityOrder
-     * @return \FilippoToso\Travelport\UProfile\Advisory
+     * @return \Santosdave\Travelport\UProfile\Advisory
      */
     public function setPriorityOrder($PriorityOrder)
     {
@@ -187,7 +187,7 @@ class Advisory extends typeKeyElement
 
     /**
      * @param typeGeoPoliticalAreaType $GeoPoliticalAreaType
-     * @return \FilippoToso\Travelport\UProfile\Advisory
+     * @return \Santosdave\Travelport\UProfile\Advisory
      */
     public function setGeoPoliticalAreaType($GeoPoliticalAreaType)
     {
@@ -205,7 +205,7 @@ class Advisory extends typeKeyElement
 
     /**
      * @param typeGeoPoliticalAreaCode $GeoPoliticalAreaCode
-     * @return \FilippoToso\Travelport\UProfile\Advisory
+     * @return \Santosdave\Travelport\UProfile\Advisory
      */
     public function setGeoPoliticalAreaCode($GeoPoliticalAreaCode)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class InvoluntaryChange
 {
@@ -28,7 +28,7 @@ class InvoluntaryChange
 
     /**
      * @param TicketEndorsement $TicketEndorsement
-     * @return \FilippoToso\Travelport\Rail\InvoluntaryChange
+     * @return \Santosdave\Travelport\Rail\InvoluntaryChange
      */
     public function setTicketEndorsement($TicketEndorsement)
     {

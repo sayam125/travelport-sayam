@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class MediaItem
 {
@@ -70,7 +70,7 @@ class MediaItem
 
     /**
      * @param string $caption
-     * @return \FilippoToso\Travelport\UniversalRecord\MediaItem
+     * @return \Santosdave\Travelport\UniversalRecord\MediaItem
      */
     public function setCaption($caption)
     {
@@ -88,7 +88,7 @@ class MediaItem
 
     /**
      * @param int $height
-     * @return \FilippoToso\Travelport\UniversalRecord\MediaItem
+     * @return \Santosdave\Travelport\UniversalRecord\MediaItem
      */
     public function setHeight($height)
     {
@@ -106,7 +106,7 @@ class MediaItem
 
     /**
      * @param int $width
-     * @return \FilippoToso\Travelport\UniversalRecord\MediaItem
+     * @return \Santosdave\Travelport\UniversalRecord\MediaItem
      */
     public function setWidth($width)
     {
@@ -124,7 +124,7 @@ class MediaItem
 
     /**
      * @param string $type
-     * @return \FilippoToso\Travelport\UniversalRecord\MediaItem
+     * @return \Santosdave\Travelport\UniversalRecord\MediaItem
      */
     public function setType($type)
     {
@@ -142,7 +142,7 @@ class MediaItem
 
     /**
      * @param anyURI $url
-     * @return \FilippoToso\Travelport\UniversalRecord\MediaItem
+     * @return \Santosdave\Travelport\UniversalRecord\MediaItem
      */
     public function setUrl($url)
     {
@@ -160,7 +160,7 @@ class MediaItem
 
     /**
      * @param anyURI $icon
-     * @return \FilippoToso\Travelport\UniversalRecord\MediaItem
+     * @return \Santosdave\Travelport\UniversalRecord\MediaItem
      */
     public function setIcon($icon)
     {
@@ -178,7 +178,7 @@ class MediaItem
 
     /**
      * @param typeResponseImageSize $sizeCode
-     * @return \FilippoToso\Travelport\UniversalRecord\MediaItem
+     * @return \Santosdave\Travelport\UniversalRecord\MediaItem
      */
     public function setSizeCode($sizeCode)
     {

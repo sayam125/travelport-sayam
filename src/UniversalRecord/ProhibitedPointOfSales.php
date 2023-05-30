@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class ProhibitedPointOfSales
 {
@@ -28,7 +28,7 @@ class ProhibitedPointOfSales
 
     /**
      * @param PointOfSale $PointOfSale
-     * @return \FilippoToso\Travelport\UniversalRecord\ProhibitedPointOfSales
+     * @return \Santosdave\Travelport\UniversalRecord\ProhibitedPointOfSales
      */
     public function setPointOfSale($PointOfSale)
     {

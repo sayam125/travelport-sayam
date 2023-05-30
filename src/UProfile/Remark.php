@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class Remark extends typeKeyTaggedElement
 {
@@ -87,7 +87,7 @@ class Remark extends typeKeyTaggedElement
 
     /**
      * @param StringLength1to255 $RemarkText
-     * @return \FilippoToso\Travelport\UProfile\Remark
+     * @return \Santosdave\Travelport\UProfile\Remark
      */
     public function setRemarkText($RemarkText)
     {
@@ -105,7 +105,7 @@ class Remark extends typeKeyTaggedElement
 
     /**
      * @param typeRemarkType $Type
-     * @return \FilippoToso\Travelport\UProfile\Remark
+     * @return \Santosdave\Travelport\UProfile\Remark
      */
     public function setType($Type)
     {
@@ -123,7 +123,7 @@ class Remark extends typeKeyTaggedElement
 
     /**
      * @param typeAccountingRemarkType $AccountingRemarkType
-     * @return \FilippoToso\Travelport\UProfile\Remark
+     * @return \Santosdave\Travelport\UProfile\Remark
      */
     public function setAccountingRemarkType($AccountingRemarkType)
     {
@@ -141,7 +141,7 @@ class Remark extends typeKeyTaggedElement
 
     /**
      * @param typeProviderCode $Provider
-     * @return \FilippoToso\Travelport\UProfile\Remark
+     * @return \Santosdave\Travelport\UProfile\Remark
      */
     public function setProvider($Provider)
     {
@@ -159,7 +159,7 @@ class Remark extends typeKeyTaggedElement
 
     /**
      * @param typeGeneralRemarkType $GeneralRemarkType
-     * @return \FilippoToso\Travelport\UProfile\Remark
+     * @return \Santosdave\Travelport\UProfile\Remark
      */
     public function setGeneralRemarkType($GeneralRemarkType)
     {
@@ -177,7 +177,7 @@ class Remark extends typeKeyTaggedElement
 
     /**
      * @param typeRemarkCategory $CategoryType
-     * @return \FilippoToso\Travelport\UProfile\Remark
+     * @return \Santosdave\Travelport\UProfile\Remark
      */
     public function setCategoryType($CategoryType)
     {
@@ -195,7 +195,7 @@ class Remark extends typeKeyTaggedElement
 
     /**
      * @param typeSupplierType $SupplierType
-     * @return \FilippoToso\Travelport\UProfile\Remark
+     * @return \Santosdave\Travelport\UProfile\Remark
      */
     public function setSupplierType($SupplierType)
     {
@@ -213,7 +213,7 @@ class Remark extends typeKeyTaggedElement
 
     /**
      * @param typeSupplier $Supplier
-     * @return \FilippoToso\Travelport\UProfile\Remark
+     * @return \Santosdave\Travelport\UProfile\Remark
      */
     public function setSupplier($Supplier)
     {
@@ -231,7 +231,7 @@ class Remark extends typeKeyTaggedElement
 
     /**
      * @param typePriorityOrder $PriorityOrder
-     * @return \FilippoToso\Travelport\UProfile\Remark
+     * @return \Santosdave\Travelport\UProfile\Remark
      */
     public function setPriorityOrder($PriorityOrder)
     {

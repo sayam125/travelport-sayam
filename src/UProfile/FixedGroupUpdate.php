@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class FixedGroupUpdate extends typeCommonEditableGroup
 {
@@ -43,7 +43,7 @@ class FixedGroupUpdate extends typeCommonEditableGroup
 
     /**
      * @param int $MaxOccurs
-     * @return \FilippoToso\Travelport\UProfile\FixedGroupUpdate
+     * @return \Santosdave\Travelport\UProfile\FixedGroupUpdate
      */
     public function setMaxOccurs($MaxOccurs)
     {
@@ -61,7 +61,7 @@ class FixedGroupUpdate extends typeCommonEditableGroup
 
     /**
      * @param int $MinOccurs
-     * @return \FilippoToso\Travelport\UProfile\FixedGroupUpdate
+     * @return \Santosdave\Travelport\UProfile\FixedGroupUpdate
      */
     public function setMinOccurs($MinOccurs)
     {

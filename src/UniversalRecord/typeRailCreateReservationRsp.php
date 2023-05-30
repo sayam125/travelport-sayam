@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 abstract class typeRailCreateReservationRsp extends BaseRsp
 {
@@ -41,7 +41,7 @@ abstract class typeRailCreateReservationRsp extends BaseRsp
 
     /**
      * @param UniversalRecord $UniversalRecord
-     * @return \FilippoToso\Travelport\UniversalRecord\typeRailCreateReservationRsp
+     * @return \Santosdave\Travelport\UniversalRecord\typeRailCreateReservationRsp
      */
     public function setUniversalRecord($UniversalRecord)
     {
@@ -59,7 +59,7 @@ abstract class typeRailCreateReservationRsp extends BaseRsp
 
     /**
      * @param RailSolutionChangedInfo $RailSolutionChangedInfo
-     * @return \FilippoToso\Travelport\UniversalRecord\typeRailCreateReservationRsp
+     * @return \Santosdave\Travelport\UniversalRecord\typeRailCreateReservationRsp
      */
     public function setRailSolutionChangedInfo($RailSolutionChangedInfo)
     {

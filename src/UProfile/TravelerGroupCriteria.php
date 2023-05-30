@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class TravelerGroupCriteria extends typeAccountTypeProfileSearchCriteria
 {
@@ -31,7 +31,7 @@ class TravelerGroupCriteria extends typeAccountTypeProfileSearchCriteria
 
     /**
      * @param typeWildcard $Name
-     * @return \FilippoToso\Travelport\UProfile\TravelerGroupCriteria
+     * @return \Santosdave\Travelport\UProfile\TravelerGroupCriteria
      */
     public function setName($Name)
     {

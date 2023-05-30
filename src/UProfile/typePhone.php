@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typePhone extends typeKeyElement
 {
@@ -72,7 +72,7 @@ class typePhone extends typeKeyElement
 
     /**
      * @param typePhoneType $Type
-     * @return \FilippoToso\Travelport\UProfile\typePhone
+     * @return \Santosdave\Travelport\UProfile\typePhone
      */
     public function setType($Type)
     {
@@ -90,7 +90,7 @@ class typePhone extends typeKeyElement
 
     /**
      * @param anonymous821 $Country
-     * @return \FilippoToso\Travelport\UProfile\typePhone
+     * @return \Santosdave\Travelport\UProfile\typePhone
      */
     public function setCountry($Country)
     {
@@ -108,7 +108,7 @@ class typePhone extends typeKeyElement
 
     /**
      * @param anonymous822 $AreaCode
-     * @return \FilippoToso\Travelport\UProfile\typePhone
+     * @return \Santosdave\Travelport\UProfile\typePhone
      */
     public function setAreaCode($AreaCode)
     {
@@ -126,7 +126,7 @@ class typePhone extends typeKeyElement
 
     /**
      * @param anonymous823 $LocalNumber
-     * @return \FilippoToso\Travelport\UProfile\typePhone
+     * @return \Santosdave\Travelport\UProfile\typePhone
      */
     public function setLocalNumber($LocalNumber)
     {
@@ -144,7 +144,7 @@ class typePhone extends typeKeyElement
 
     /**
      * @param anonymous824 $Extension
-     * @return \FilippoToso\Travelport\UProfile\typePhone
+     * @return \Santosdave\Travelport\UProfile\typePhone
      */
     public function setExtension($Extension)
     {
@@ -162,7 +162,7 @@ class typePhone extends typeKeyElement
 
     /**
      * @param StringLength1to255 $Description
-     * @return \FilippoToso\Travelport\UProfile\typePhone
+     * @return \Santosdave\Travelport\UProfile\typePhone
      */
     public function setDescription($Description)
     {
@@ -180,7 +180,7 @@ class typePhone extends typeKeyElement
 
     /**
      * @param typeCityOrAirport $Location
-     * @return \FilippoToso\Travelport\UProfile\typePhone
+     * @return \Santosdave\Travelport\UProfile\typePhone
      */
     public function setLocation($Location)
     {

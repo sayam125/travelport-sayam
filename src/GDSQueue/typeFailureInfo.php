@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class typeFailureInfo
 {
@@ -35,7 +35,7 @@ class typeFailureInfo
 
     /**
      * @param int $Code
-     * @return \FilippoToso\Travelport\GDSQueue\typeFailureInfo
+     * @return \Santosdave\Travelport\GDSQueue\typeFailureInfo
      */
     public function setCode($Code)
     {
@@ -53,7 +53,7 @@ class typeFailureInfo
 
     /**
      * @param string $Message
-     * @return \FilippoToso\Travelport\GDSQueue\typeFailureInfo
+     * @return \Santosdave\Travelport\GDSQueue\typeFailureInfo
      */
     public function setMessage($Message)
     {

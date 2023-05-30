@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class Alliance
 {
@@ -28,7 +28,7 @@ class Alliance
 
     /**
      * @param string $Code
-     * @return \FilippoToso\Travelport\UniversalRecord\Alliance
+     * @return \Santosdave\Travelport\UniversalRecord\Alliance
      */
     public function setCode($Code)
     {

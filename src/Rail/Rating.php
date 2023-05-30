@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class Rating
 {
@@ -35,7 +35,7 @@ class Rating
 
     /**
      * @param string $_
-     * @return \FilippoToso\Travelport\Rail\Rating
+     * @return \Santosdave\Travelport\Rail\Rating
      */
     public function set_($_)
     {
@@ -53,7 +53,7 @@ class Rating
 
     /**
      * @param int $Number
-     * @return \FilippoToso\Travelport\Rail\Rating
+     * @return \Santosdave\Travelport\Rail\Rating
      */
     public function setNumber($Number)
     {

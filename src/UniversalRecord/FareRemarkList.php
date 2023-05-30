@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class FareRemarkList
 {
@@ -28,7 +28,7 @@ class FareRemarkList
 
     /**
      * @param FareRemark $FareRemark
-     * @return \FilippoToso\Travelport\UniversalRecord\FareRemarkList
+     * @return \Santosdave\Travelport\UniversalRecord\FareRemarkList
      */
     public function setFareRemark($FareRemark)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class HotelDelete
 {
@@ -42,7 +42,7 @@ class HotelDelete
 
     /**
      * @param typeLocatorCode $ReservationLocatorCode
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelDelete
+     * @return \Santosdave\Travelport\UniversalRecord\HotelDelete
      */
     public function setReservationLocatorCode($ReservationLocatorCode)
     {
@@ -60,7 +60,7 @@ class HotelDelete
 
     /**
      * @param typeElement $Element
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelDelete
+     * @return \Santosdave\Travelport\UniversalRecord\HotelDelete
      */
     public function setElement($Element)
     {
@@ -78,7 +78,7 @@ class HotelDelete
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelDelete
+     * @return \Santosdave\Travelport\UniversalRecord\HotelDelete
      */
     public function setKey($Key)
     {

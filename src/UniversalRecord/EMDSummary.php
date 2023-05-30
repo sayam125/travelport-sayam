@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class EMDSummary
 {
@@ -91,7 +91,7 @@ class EMDSummary
 
     /**
      * @param EMDCoupon $EMDCoupon
-     * @return \FilippoToso\Travelport\UniversalRecord\EMDSummary
+     * @return \Santosdave\Travelport\UniversalRecord\EMDSummary
      */
     public function setEMDCoupon($EMDCoupon)
     {
@@ -109,7 +109,7 @@ class EMDSummary
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\UniversalRecord\EMDSummary
+     * @return \Santosdave\Travelport\UniversalRecord\EMDSummary
      */
     public function setKey($Key)
     {
@@ -127,7 +127,7 @@ class EMDSummary
 
     /**
      * @param typeEMDNumber $Number
-     * @return \FilippoToso\Travelport\UniversalRecord\EMDSummary
+     * @return \Santosdave\Travelport\UniversalRecord\EMDSummary
      */
     public function setNumber($Number)
     {
@@ -145,7 +145,7 @@ class EMDSummary
 
     /**
      * @param boolean $PrimaryDocumentIndicator
-     * @return \FilippoToso\Travelport\UniversalRecord\EMDSummary
+     * @return \Santosdave\Travelport\UniversalRecord\EMDSummary
      */
     public function setPrimaryDocumentIndicator($PrimaryDocumentIndicator)
     {
@@ -163,7 +163,7 @@ class EMDSummary
 
     /**
      * @param typeEMDNumber $InConjunctionWith
-     * @return \FilippoToso\Travelport\UniversalRecord\EMDSummary
+     * @return \Santosdave\Travelport\UniversalRecord\EMDSummary
      */
     public function setInConjunctionWith($InConjunctionWith)
     {
@@ -181,7 +181,7 @@ class EMDSummary
 
     /**
      * @param typeTicketNumber $AssociatedTicketNumber
-     * @return \FilippoToso\Travelport\UniversalRecord\EMDSummary
+     * @return \Santosdave\Travelport\UniversalRecord\EMDSummary
      */
     public function setAssociatedTicketNumber($AssociatedTicketNumber)
     {
@@ -199,7 +199,7 @@ class EMDSummary
 
     /**
      * @param typeCarrier $PlatingCarrier
-     * @return \FilippoToso\Travelport\UniversalRecord\EMDSummary
+     * @return \Santosdave\Travelport\UniversalRecord\EMDSummary
      */
     public function setPlatingCarrier($PlatingCarrier)
     {
@@ -225,7 +225,7 @@ class EMDSummary
 
     /**
      * @param \DateTime $IssueDate
-     * @return \FilippoToso\Travelport\UniversalRecord\EMDSummary
+     * @return \Santosdave\Travelport\UniversalRecord\EMDSummary
      */
     public function setIssueDate(\DateTime $IssueDate)
     {
@@ -243,7 +243,7 @@ class EMDSummary
 
     /**
      * @param typeElementStatus $ElStat
-     * @return \FilippoToso\Travelport\UniversalRecord\EMDSummary
+     * @return \Santosdave\Travelport\UniversalRecord\EMDSummary
      */
     public function setElStat($ElStat)
     {
@@ -261,7 +261,7 @@ class EMDSummary
 
     /**
      * @param boolean $KeyOverride
-     * @return \FilippoToso\Travelport\UniversalRecord\EMDSummary
+     * @return \Santosdave\Travelport\UniversalRecord\EMDSummary
      */
     public function setKeyOverride($KeyOverride)
     {

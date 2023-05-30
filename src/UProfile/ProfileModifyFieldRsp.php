@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class ProfileModifyFieldRsp extends BaseRsp
 {
@@ -41,7 +41,7 @@ class ProfileModifyFieldRsp extends BaseRsp
 
     /**
      * @param Field $Field
-     * @return \FilippoToso\Travelport\UProfile\ProfileModifyFieldRsp
+     * @return \Santosdave\Travelport\UProfile\ProfileModifyFieldRsp
      */
     public function setField($Field)
     {
@@ -59,7 +59,7 @@ class ProfileModifyFieldRsp extends BaseRsp
 
     /**
      * @param FieldGroup $FieldGroup
-     * @return \FilippoToso\Travelport\UProfile\ProfileModifyFieldRsp
+     * @return \Santosdave\Travelport\UProfile\ProfileModifyFieldRsp
      */
     public function setFieldGroup($FieldGroup)
     {

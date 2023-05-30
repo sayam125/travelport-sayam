@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class QueueInfo
 {
@@ -63,7 +63,7 @@ class QueueInfo
 
     /**
      * @param CategoryInfo $CategoryInfo
-     * @return \FilippoToso\Travelport\GDSQueue\QueueInfo
+     * @return \Santosdave\Travelport\GDSQueue\QueueInfo
      */
     public function setCategoryInfo($CategoryInfo)
     {
@@ -81,7 +81,7 @@ class QueueInfo
 
     /**
      * @param string $Queue
-     * @return \FilippoToso\Travelport\GDSQueue\QueueInfo
+     * @return \Santosdave\Travelport\GDSQueue\QueueInfo
      */
     public function setQueue($Queue)
     {
@@ -99,7 +99,7 @@ class QueueInfo
 
     /**
      * @param typePCC $PseudoCityCode
-     * @return \FilippoToso\Travelport\GDSQueue\QueueInfo
+     * @return \Santosdave\Travelport\GDSQueue\QueueInfo
      */
     public function setPseudoCityCode($PseudoCityCode)
     {
@@ -117,7 +117,7 @@ class QueueInfo
 
     /**
      * @param int $TotalPNRCount
-     * @return \FilippoToso\Travelport\GDSQueue\QueueInfo
+     * @return \Santosdave\Travelport\GDSQueue\QueueInfo
      */
     public function setTotalPNRCount($TotalPNRCount)
     {
@@ -135,7 +135,7 @@ class QueueInfo
 
     /**
      * @param int $PNRCount
-     * @return \FilippoToso\Travelport\GDSQueue\QueueInfo
+     * @return \Santosdave\Travelport\GDSQueue\QueueInfo
      */
     public function setPNRCount($PNRCount)
     {
@@ -153,7 +153,7 @@ class QueueInfo
 
     /**
      * @param string $Title
-     * @return \FilippoToso\Travelport\GDSQueue\QueueInfo
+     * @return \Santosdave\Travelport\GDSQueue\QueueInfo
      */
     public function setTitle($Title)
     {

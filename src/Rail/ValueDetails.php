@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class ValueDetails
 {
@@ -35,7 +35,7 @@ class ValueDetails
 
     /**
      * @param string $Name
-     * @return \FilippoToso\Travelport\Rail\ValueDetails
+     * @return \Santosdave\Travelport\Rail\ValueDetails
      */
     public function setName($Name)
     {
@@ -53,7 +53,7 @@ class ValueDetails
 
     /**
      * @param string $Value
-     * @return \FilippoToso\Travelport\Rail\ValueDetails
+     * @return \Santosdave\Travelport\Rail\ValueDetails
      */
     public function setValue($Value)
     {

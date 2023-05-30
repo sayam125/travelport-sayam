@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class MctLookupReq extends BaseReq
 {
@@ -47,7 +47,7 @@ class MctLookupReq extends BaseReq
 
     /**
      * @param MctSearch $MctSearch
-     * @return \FilippoToso\Travelport\Util\MctLookupReq
+     * @return \Santosdave\Travelport\Util\MctLookupReq
      */
     public function setMctSearch($MctSearch)
     {
@@ -65,7 +65,7 @@ class MctLookupReq extends BaseReq
 
     /**
      * @param MctQuery $MctQuery
-     * @return \FilippoToso\Travelport\Util\MctLookupReq
+     * @return \Santosdave\Travelport\Util\MctLookupReq
      */
     public function setMctQuery($MctQuery)
     {

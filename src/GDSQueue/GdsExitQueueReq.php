@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class GdsExitQueueReq extends BaseReq
 {
@@ -61,7 +61,7 @@ class GdsExitQueueReq extends BaseReq
 
     /**
      * @param QueuePseudoCitySelector $QueuePseudoCitySelector
-     * @return \FilippoToso\Travelport\GDSQueue\GdsExitQueueReq
+     * @return \Santosdave\Travelport\GDSQueue\GdsExitQueueReq
      */
     public function setQueuePseudoCitySelector($QueuePseudoCitySelector)
     {
@@ -79,7 +79,7 @@ class GdsExitQueueReq extends BaseReq
 
     /**
      * @param string $QueueSessionToken
-     * @return \FilippoToso\Travelport\GDSQueue\GdsExitQueueReq
+     * @return \Santosdave\Travelport\GDSQueue\GdsExitQueueReq
      */
     public function setQueueSessionToken($QueueSessionToken)
     {
@@ -97,7 +97,7 @@ class GdsExitQueueReq extends BaseReq
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\GDSQueue\GdsExitQueueReq
+     * @return \Santosdave\Travelport\GDSQueue\GdsExitQueueReq
      */
     public function setProviderCode($ProviderCode)
     {
@@ -115,7 +115,7 @@ class GdsExitQueueReq extends BaseReq
 
     /**
      * @param boolean $RemoveCurrent
-     * @return \FilippoToso\Travelport\GDSQueue\GdsExitQueueReq
+     * @return \Santosdave\Travelport\GDSQueue\GdsExitQueueReq
      */
     public function setRemoveCurrent($RemoveCurrent)
     {

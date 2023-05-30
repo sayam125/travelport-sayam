@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class MealPlan
 {
@@ -28,7 +28,7 @@ class MealPlan
 
     /**
      * @param typeOTACode $Code
-     * @return \FilippoToso\Travelport\UniversalRecord\MealPlan
+     * @return \Santosdave\Travelport\UniversalRecord\MealPlan
      */
     public function setCode($Code)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class GroupedOptionInfo
 {
@@ -28,7 +28,7 @@ class GroupedOptionInfo
 
     /**
      * @param GroupedOption $GroupedOption
-     * @return \FilippoToso\Travelport\GDSQueue\GroupedOptionInfo
+     * @return \Santosdave\Travelport\GDSQueue\GroupedOptionInfo
      */
     public function setGroupedOption($GroupedOption)
     {

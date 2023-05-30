@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class BillingDetailItem
 {
@@ -56,7 +56,7 @@ class BillingDetailItem
 
     /**
      * @param typeBillingDetailsName $Name
-     * @return \FilippoToso\Travelport\GDSQueue\BillingDetailItem
+     * @return \Santosdave\Travelport\GDSQueue\BillingDetailItem
      */
     public function setName($Name)
     {
@@ -74,7 +74,7 @@ class BillingDetailItem
 
     /**
      * @param typeBillingDetailsDataType $DataType
-     * @return \FilippoToso\Travelport\GDSQueue\BillingDetailItem
+     * @return \Santosdave\Travelport\GDSQueue\BillingDetailItem
      */
     public function setDataType($DataType)
     {
@@ -92,7 +92,7 @@ class BillingDetailItem
 
     /**
      * @param string $MinLength
-     * @return \FilippoToso\Travelport\GDSQueue\BillingDetailItem
+     * @return \Santosdave\Travelport\GDSQueue\BillingDetailItem
      */
     public function setMinLength($MinLength)
     {
@@ -110,7 +110,7 @@ class BillingDetailItem
 
     /**
      * @param string $MaxLength
-     * @return \FilippoToso\Travelport\GDSQueue\BillingDetailItem
+     * @return \Santosdave\Travelport\GDSQueue\BillingDetailItem
      */
     public function setMaxLength($MaxLength)
     {
@@ -128,7 +128,7 @@ class BillingDetailItem
 
     /**
      * @param string $Value
-     * @return \FilippoToso\Travelport\GDSQueue\BillingDetailItem
+     * @return \Santosdave\Travelport\GDSQueue\BillingDetailItem
      */
     public function setValue($Value)
     {

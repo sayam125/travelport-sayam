@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class LegRef
 {
@@ -28,7 +28,7 @@ class LegRef
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\GDSQueue\LegRef
+     * @return \Santosdave\Travelport\GDSQueue\LegRef
      */
     public function setKey($Key)
     {

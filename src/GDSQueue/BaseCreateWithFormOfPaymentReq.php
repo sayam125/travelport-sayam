@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class BaseCreateWithFormOfPaymentReq extends BaseCreateReservationReq
 {
@@ -65,7 +65,7 @@ class BaseCreateWithFormOfPaymentReq extends BaseCreateReservationReq
 
     /**
      * @param FormOfPayment $FormOfPayment
-     * @return \FilippoToso\Travelport\GDSQueue\BaseCreateWithFormOfPaymentReq
+     * @return \Santosdave\Travelport\GDSQueue\BaseCreateWithFormOfPaymentReq
      */
     public function setFormOfPayment($FormOfPayment)
     {

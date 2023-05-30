@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class AdditionalInfo
 {
@@ -35,7 +35,7 @@ class AdditionalInfo
 
     /**
      * @param StringLength1to255 $_
-     * @return \FilippoToso\Travelport\Util\AdditionalInfo
+     * @return \Santosdave\Travelport\Util\AdditionalInfo
      */
     public function set_($_)
     {
@@ -53,7 +53,7 @@ class AdditionalInfo
 
     /**
      * @param string $Type
-     * @return \FilippoToso\Travelport\Util\AdditionalInfo
+     * @return \Santosdave\Travelport\Util\AdditionalInfo
      */
     public function setType($Type)
     {

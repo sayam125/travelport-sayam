@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class GeneralRemark
 {
@@ -117,7 +117,7 @@ class GeneralRemark
 
     /**
      * @param string $RemarkData
-     * @return \FilippoToso\Travelport\Air\GeneralRemark
+     * @return \Santosdave\Travelport\Air\GeneralRemark
      */
     public function setRemarkData($RemarkData)
     {
@@ -135,7 +135,7 @@ class GeneralRemark
 
     /**
      * @param typeRef[] $BookingTravelerRef
-     * @return \FilippoToso\Travelport\Air\GeneralRemark
+     * @return \Santosdave\Travelport\Air\GeneralRemark
      */
     public function setBookingTravelerRef(array $BookingTravelerRef = null)
     {
@@ -153,7 +153,7 @@ class GeneralRemark
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Air\GeneralRemark
+     * @return \Santosdave\Travelport\Air\GeneralRemark
      */
     public function setKey($Key)
     {
@@ -171,7 +171,7 @@ class GeneralRemark
 
     /**
      * @param anonymous111 $Category
-     * @return \FilippoToso\Travelport\Air\GeneralRemark
+     * @return \Santosdave\Travelport\Air\GeneralRemark
      */
     public function setCategory($Category)
     {
@@ -189,7 +189,7 @@ class GeneralRemark
 
     /**
      * @param typeGdsRemark $TypeInGds
-     * @return \FilippoToso\Travelport\Air\GeneralRemark
+     * @return \Santosdave\Travelport\Air\GeneralRemark
      */
     public function setTypeInGds($TypeInGds)
     {
@@ -207,7 +207,7 @@ class GeneralRemark
 
     /**
      * @param typeProduct $SupplierType
-     * @return \FilippoToso\Travelport\Air\GeneralRemark
+     * @return \Santosdave\Travelport\Air\GeneralRemark
      */
     public function setSupplierType($SupplierType)
     {
@@ -225,7 +225,7 @@ class GeneralRemark
 
     /**
      * @param typeRef $ProviderReservationInfoRef
-     * @return \FilippoToso\Travelport\Air\GeneralRemark
+     * @return \Santosdave\Travelport\Air\GeneralRemark
      */
     public function setProviderReservationInfoRef($ProviderReservationInfoRef)
     {
@@ -243,7 +243,7 @@ class GeneralRemark
 
     /**
      * @param typeDirection $Direction
-     * @return \FilippoToso\Travelport\Air\GeneralRemark
+     * @return \Santosdave\Travelport\Air\GeneralRemark
      */
     public function setDirection($Direction)
     {
@@ -269,7 +269,7 @@ class GeneralRemark
 
     /**
      * @param \DateTime $CreateDate
-     * @return \FilippoToso\Travelport\Air\GeneralRemark
+     * @return \Santosdave\Travelport\Air\GeneralRemark
      */
     public function setCreateDate(\DateTime $CreateDate)
     {
@@ -287,7 +287,7 @@ class GeneralRemark
 
     /**
      * @param boolean $UseProviderNativeMode
-     * @return \FilippoToso\Travelport\Air\GeneralRemark
+     * @return \Santosdave\Travelport\Air\GeneralRemark
      */
     public function setUseProviderNativeMode($UseProviderNativeMode)
     {
@@ -305,7 +305,7 @@ class GeneralRemark
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\Air\GeneralRemark
+     * @return \Santosdave\Travelport\Air\GeneralRemark
      */
     public function setProviderCode($ProviderCode)
     {
@@ -323,7 +323,7 @@ class GeneralRemark
 
     /**
      * @param typeSupplierCode $SupplierCode
-     * @return \FilippoToso\Travelport\Air\GeneralRemark
+     * @return \Santosdave\Travelport\Air\GeneralRemark
      */
     public function setSupplierCode($SupplierCode)
     {
@@ -341,7 +341,7 @@ class GeneralRemark
 
     /**
      * @param typeElementStatus $ElStat
-     * @return \FilippoToso\Travelport\Air\GeneralRemark
+     * @return \Santosdave\Travelport\Air\GeneralRemark
      */
     public function setElStat($ElStat)
     {
@@ -359,7 +359,7 @@ class GeneralRemark
 
     /**
      * @param boolean $KeyOverride
-     * @return \FilippoToso\Travelport\Air\GeneralRemark
+     * @return \Santosdave\Travelport\Air\GeneralRemark
      */
     public function setKeyOverride($KeyOverride)
     {

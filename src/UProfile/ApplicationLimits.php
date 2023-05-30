@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class ApplicationLimits
 {
@@ -28,7 +28,7 @@ class ApplicationLimits
 
     /**
      * @param OptionalServiceApplicationLimitType[] $ApplicationLimit
-     * @return \FilippoToso\Travelport\UProfile\ApplicationLimits
+     * @return \Santosdave\Travelport\UProfile\ApplicationLimits
      */
     public function setApplicationLimit(array $ApplicationLimit)
     {

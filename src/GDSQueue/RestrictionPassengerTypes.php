@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class RestrictionPassengerTypes
 {
@@ -35,7 +35,7 @@ class RestrictionPassengerTypes
 
     /**
      * @param string $MaxNbrTravelers
-     * @return \FilippoToso\Travelport\GDSQueue\RestrictionPassengerTypes
+     * @return \Santosdave\Travelport\GDSQueue\RestrictionPassengerTypes
      */
     public function setMaxNbrTravelers($MaxNbrTravelers)
     {
@@ -53,7 +53,7 @@ class RestrictionPassengerTypes
 
     /**
      * @param string $TotalNbrPTC
-     * @return \FilippoToso\Travelport\GDSQueue\RestrictionPassengerTypes
+     * @return \Santosdave\Travelport\GDSQueue\RestrictionPassengerTypes
      */
     public function setTotalNbrPTC($TotalNbrPTC)
     {

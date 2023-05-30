@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class MarketingInformation
 {
@@ -28,7 +28,7 @@ class MarketingInformation
 
     /**
      * @param anyType[] $Text
-     * @return \FilippoToso\Travelport\Rail\MarketingInformation
+     * @return \Santosdave\Travelport\Rail\MarketingInformation
      */
     public function setText(array $Text)
     {

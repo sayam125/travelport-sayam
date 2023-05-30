@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class ProviderLocation
 {
@@ -35,7 +35,7 @@ class ProviderLocation
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\Hotel\ProviderLocation
+     * @return \Santosdave\Travelport\Hotel\ProviderLocation
      */
     public function setProviderCode($ProviderCode)
     {
@@ -53,7 +53,7 @@ class ProviderLocation
 
     /**
      * @param anonymous561 $Location
-     * @return \FilippoToso\Travelport\Hotel\ProviderLocation
+     * @return \Santosdave\Travelport\Hotel\ProviderLocation
      */
     public function setLocation($Location)
     {

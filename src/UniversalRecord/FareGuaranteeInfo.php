@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class FareGuaranteeInfo
 {
@@ -35,7 +35,7 @@ class FareGuaranteeInfo
 
     /**
      * @param date $GuaranteeDate
-     * @return \FilippoToso\Travelport\UniversalRecord\FareGuaranteeInfo
+     * @return \Santosdave\Travelport\UniversalRecord\FareGuaranteeInfo
      */
     public function setGuaranteeDate($GuaranteeDate)
     {
@@ -53,7 +53,7 @@ class FareGuaranteeInfo
 
     /**
      * @param typeFareGuarantee $GuaranteeType
-     * @return \FilippoToso\Travelport\UniversalRecord\FareGuaranteeInfo
+     * @return \Santosdave\Travelport\UniversalRecord\FareGuaranteeInfo
      */
     public function setGuaranteeType($GuaranteeType)
     {

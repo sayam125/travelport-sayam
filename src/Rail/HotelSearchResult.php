@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class HotelSearchResult extends typeResultMessage
 {
@@ -79,7 +79,7 @@ class HotelSearchResult extends typeResultMessage
 
     /**
      * @param VendorLocation $VendorLocation
-     * @return \FilippoToso\Travelport\Rail\HotelSearchResult
+     * @return \Santosdave\Travelport\Rail\HotelSearchResult
      */
     public function setVendorLocation($VendorLocation)
     {
@@ -97,7 +97,7 @@ class HotelSearchResult extends typeResultMessage
 
     /**
      * @param HotelProperty $HotelProperty
-     * @return \FilippoToso\Travelport\Rail\HotelSearchResult
+     * @return \Santosdave\Travelport\Rail\HotelSearchResult
      */
     public function setHotelProperty($HotelProperty)
     {
@@ -115,7 +115,7 @@ class HotelSearchResult extends typeResultMessage
 
     /**
      * @param HotelSearchError[] $HotelSearchError
-     * @return \FilippoToso\Travelport\Rail\HotelSearchResult
+     * @return \Santosdave\Travelport\Rail\HotelSearchResult
      */
     public function setHotelSearchError(array $HotelSearchError = null)
     {
@@ -133,7 +133,7 @@ class HotelSearchResult extends typeResultMessage
 
     /**
      * @param CorporateDiscountID $CorporateDiscountID
-     * @return \FilippoToso\Travelport\Rail\HotelSearchResult
+     * @return \Santosdave\Travelport\Rail\HotelSearchResult
      */
     public function setCorporateDiscountID($CorporateDiscountID)
     {
@@ -151,7 +151,7 @@ class HotelSearchResult extends typeResultMessage
 
     /**
      * @param RateInfo $RateInfo
-     * @return \FilippoToso\Travelport\Rail\HotelSearchResult
+     * @return \Santosdave\Travelport\Rail\HotelSearchResult
      */
     public function setRateInfo($RateInfo)
     {
@@ -169,7 +169,7 @@ class HotelSearchResult extends typeResultMessage
 
     /**
      * @param MediaItem $MediaItem
-     * @return \FilippoToso\Travelport\Rail\HotelSearchResult
+     * @return \Santosdave\Travelport\Rail\HotelSearchResult
      */
     public function setMediaItem($MediaItem)
     {
@@ -187,7 +187,7 @@ class HotelSearchResult extends typeResultMessage
 
     /**
      * @param HotelType $HotelType
-     * @return \FilippoToso\Travelport\Rail\HotelSearchResult
+     * @return \Santosdave\Travelport\Rail\HotelSearchResult
      */
     public function setHotelType($HotelType)
     {
@@ -205,7 +205,7 @@ class HotelSearchResult extends typeResultMessage
 
     /**
      * @param PropertyDescription $PropertyDescription
-     * @return \FilippoToso\Travelport\Rail\HotelSearchResult
+     * @return \Santosdave\Travelport\Rail\HotelSearchResult
      */
     public function setPropertyDescription($PropertyDescription)
     {

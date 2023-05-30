@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class TicketAgency
 {
@@ -35,7 +35,7 @@ class TicketAgency
 
     /**
      * @param UNKNOWN $ProviderCode
-     * @return \FilippoToso\Travelport\UniversalRecord\TicketAgency
+     * @return \Santosdave\Travelport\UniversalRecord\TicketAgency
      */
     public function setProviderCode($ProviderCode)
     {
@@ -53,7 +53,7 @@ class TicketAgency
 
     /**
      * @param UNKNOWN $PseudoCityCode
-     * @return \FilippoToso\Travelport\UniversalRecord\TicketAgency
+     * @return \Santosdave\Travelport\UniversalRecord\TicketAgency
      */
     public function setPseudoCityCode($PseudoCityCode)
     {

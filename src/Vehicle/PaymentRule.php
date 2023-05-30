@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Vehicle;
+namespace Santosdave\Travelport\Vehicle;
 
 class PaymentRule extends typeDepositGuarantee
 {
@@ -36,7 +36,7 @@ class PaymentRule extends typeDepositGuarantee
 
     /**
      * @param CreditCard[] $CreditCard
-     * @return \FilippoToso\Travelport\Vehicle\PaymentRule
+     * @return \Santosdave\Travelport\Vehicle\PaymentRule
      */
     public function setCreditCard(array $CreditCard = null)
     {

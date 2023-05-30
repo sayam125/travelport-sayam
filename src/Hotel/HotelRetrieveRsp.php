@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class HotelRetrieveRsp extends BaseRsp
 {
@@ -34,7 +34,7 @@ class HotelRetrieveRsp extends BaseRsp
 
     /**
      * @param HotelReservation $HotelReservation
-     * @return \FilippoToso\Travelport\Hotel\HotelRetrieveRsp
+     * @return \Santosdave\Travelport\Hotel\HotelRetrieveRsp
      */
     public function setHotelReservation($HotelReservation)
     {

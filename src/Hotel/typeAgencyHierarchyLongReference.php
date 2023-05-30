@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class typeAgencyHierarchyLongReference extends typeAgencyHierarchyReference
 {
@@ -38,7 +38,7 @@ class typeAgencyHierarchyLongReference extends typeAgencyHierarchyReference
 
     /**
      * @param int $ProfileVersion
-     * @return \FilippoToso\Travelport\Hotel\typeAgencyHierarchyLongReference
+     * @return \Santosdave\Travelport\Hotel\typeAgencyHierarchyLongReference
      */
     public function setProfileVersion($ProfileVersion)
     {
@@ -56,7 +56,7 @@ class typeAgencyHierarchyLongReference extends typeAgencyHierarchyReference
 
     /**
      * @param anonymous372 $ProfileName
-     * @return \FilippoToso\Travelport\Hotel\typeAgencyHierarchyLongReference
+     * @return \Santosdave\Travelport\Hotel\typeAgencyHierarchyLongReference
      */
     public function setProfileName($ProfileName)
     {

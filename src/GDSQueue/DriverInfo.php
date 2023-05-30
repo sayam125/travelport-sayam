@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class DriverInfo
 {
@@ -28,7 +28,7 @@ class DriverInfo
 
     /**
      * @param anonymous612 $Age
-     * @return \FilippoToso\Travelport\GDSQueue\DriverInfo
+     * @return \Santosdave\Travelport\GDSQueue\DriverInfo
      */
     public function setAge($Age)
     {

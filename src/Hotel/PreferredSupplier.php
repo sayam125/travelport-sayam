@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class PreferredSupplier
 {
@@ -35,7 +35,7 @@ class PreferredSupplier
 
     /**
      * @param boolean $Preferred
-     * @return \FilippoToso\Travelport\Hotel\PreferredSupplier
+     * @return \Santosdave\Travelport\Hotel\PreferredSupplier
      */
     public function setPreferred($Preferred)
     {
@@ -53,7 +53,7 @@ class PreferredSupplier
 
     /**
      * @param typeProfileType $ProfileType
-     * @return \FilippoToso\Travelport\Hotel\PreferredSupplier
+     * @return \Santosdave\Travelport\Hotel\PreferredSupplier
      */
     public function setProfileType($ProfileType)
     {

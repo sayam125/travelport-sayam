@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class typeAgencyHierarchyReference
 {
@@ -35,7 +35,7 @@ class typeAgencyHierarchyReference
 
     /**
      * @param typeProfileID $ProfileID
-     * @return \FilippoToso\Travelport\GDSQueue\typeAgencyHierarchyReference
+     * @return \Santosdave\Travelport\GDSQueue\typeAgencyHierarchyReference
      */
     public function setProfileID($ProfileID)
     {
@@ -53,7 +53,7 @@ class typeAgencyHierarchyReference
 
     /**
      * @param typeAgencyProfileLevel $ProfileType
-     * @return \FilippoToso\Travelport\GDSQueue\typeAgencyHierarchyReference
+     * @return \Santosdave\Travelport\GDSQueue\typeAgencyHierarchyReference
      */
     public function setProfileType($ProfileType)
     {

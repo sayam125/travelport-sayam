@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class PassiveSegmentRef
 {
@@ -28,7 +28,7 @@ class PassiveSegmentRef
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Rail\PassiveSegmentRef
+     * @return \Santosdave\Travelport\Rail\PassiveSegmentRef
      */
     public function setKey($Key)
     {

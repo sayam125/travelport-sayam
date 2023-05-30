@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class AvailableSSR
 {
@@ -40,7 +40,7 @@ class AvailableSSR
 
     /**
      * @param SSR $SSR
-     * @return \FilippoToso\Travelport\UniversalRecord\AvailableSSR
+     * @return \Santosdave\Travelport\UniversalRecord\AvailableSSR
      */
     public function setSSR($SSR)
     {
@@ -58,7 +58,7 @@ class AvailableSSR
 
     /**
      * @param ServiceRuleType[] $SSRRules
-     * @return \FilippoToso\Travelport\UniversalRecord\AvailableSSR
+     * @return \Santosdave\Travelport\UniversalRecord\AvailableSSR
      */
     public function setSSRRules(array $SSRRules = null)
     {
@@ -76,7 +76,7 @@ class AvailableSSR
 
     /**
      * @param IndustryStandardSSR $IndustryStandardSSR
-     * @return \FilippoToso\Travelport\UniversalRecord\AvailableSSR
+     * @return \Santosdave\Travelport\UniversalRecord\AvailableSSR
      */
     public function setIndustryStandardSSR($IndustryStandardSSR)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class Preference
 {
@@ -28,7 +28,7 @@ class Preference
 
     /**
      * @param anonymous1453 $Owner
-     * @return \FilippoToso\Travelport\UniversalRecord\Preference
+     * @return \Santosdave\Travelport\UniversalRecord\Preference
      */
     public function setOwner($Owner)
     {

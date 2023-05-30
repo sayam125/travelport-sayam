@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class ExemptOBFee
 {
@@ -26,7 +26,7 @@ class ExemptOBFee
 
     /**
      * @param typeSubCode[] $SubCode
-     * @return \FilippoToso\Travelport\Util\ExemptOBFee
+     * @return \Santosdave\Travelport\Util\ExemptOBFee
      */
     public function setSubCode(array $SubCode = null)
     {

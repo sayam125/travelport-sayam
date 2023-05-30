@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeHotelPreferenceHistory extends typeBasePreferenceHistory
 {
@@ -123,7 +123,7 @@ class typeHotelPreferenceHistory extends typeBasePreferenceHistory
 
     /**
      * @param date $CheckInStartDate
-     * @return \FilippoToso\Travelport\UProfile\typeHotelPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeHotelPreferenceHistory
      */
     public function setCheckInStartDate($CheckInStartDate)
     {
@@ -141,7 +141,7 @@ class typeHotelPreferenceHistory extends typeBasePreferenceHistory
 
     /**
      * @param date $CheckInEndDate
-     * @return \FilippoToso\Travelport\UProfile\typeHotelPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeHotelPreferenceHistory
      */
     public function setCheckInEndDate($CheckInEndDate)
     {
@@ -159,7 +159,7 @@ class typeHotelPreferenceHistory extends typeBasePreferenceHistory
 
     /**
      * @param anonymous686 $CorporateDiscountNumber
-     * @return \FilippoToso\Travelport\UProfile\typeHotelPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeHotelPreferenceHistory
      */
     public function setCorporateDiscountNumber($CorporateDiscountNumber)
     {
@@ -177,7 +177,7 @@ class typeHotelPreferenceHistory extends typeBasePreferenceHistory
 
     /**
      * @param typeMoney $MaxRoomRateAmount
-     * @return \FilippoToso\Travelport\UProfile\typeHotelPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeHotelPreferenceHistory
      */
     public function setMaxRoomRateAmount($MaxRoomRateAmount)
     {
@@ -195,7 +195,7 @@ class typeHotelPreferenceHistory extends typeBasePreferenceHistory
 
     /**
      * @param anonymous687 $MultiLevelRateCode
-     * @return \FilippoToso\Travelport\UProfile\typeHotelPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeHotelPreferenceHistory
      */
     public function setMultiLevelRateCode($MultiLevelRateCode)
     {
@@ -213,7 +213,7 @@ class typeHotelPreferenceHistory extends typeBasePreferenceHistory
 
     /**
      * @param anonymous688 $PropertyID
-     * @return \FilippoToso\Travelport\UProfile\typeHotelPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeHotelPreferenceHistory
      */
     public function setPropertyID($PropertyID)
     {
@@ -231,7 +231,7 @@ class typeHotelPreferenceHistory extends typeBasePreferenceHistory
 
     /**
      * @param anonymous689 $RateCode
-     * @return \FilippoToso\Travelport\UProfile\typeHotelPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeHotelPreferenceHistory
      */
     public function setRateCode($RateCode)
     {
@@ -249,7 +249,7 @@ class typeHotelPreferenceHistory extends typeBasePreferenceHistory
 
     /**
      * @param boolean $SmokingRoom
-     * @return \FilippoToso\Travelport\UProfile\typeHotelPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeHotelPreferenceHistory
      */
     public function setSmokingRoom($SmokingRoom)
     {
@@ -267,7 +267,7 @@ class typeHotelPreferenceHistory extends typeBasePreferenceHistory
 
     /**
      * @param anonymous871 $BedTypeMiscTravel
-     * @return \FilippoToso\Travelport\UProfile\typeHotelPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeHotelPreferenceHistory
      */
     public function setBedTypeMiscTravel($BedTypeMiscTravel)
     {
@@ -285,7 +285,7 @@ class typeHotelPreferenceHistory extends typeBasePreferenceHistory
 
     /**
      * @param anonymous872 $BedTypeRefCategory
-     * @return \FilippoToso\Travelport\UProfile\typeHotelPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeHotelPreferenceHistory
      */
     public function setBedTypeRefCategory($BedTypeRefCategory)
     {
@@ -303,7 +303,7 @@ class typeHotelPreferenceHistory extends typeBasePreferenceHistory
 
     /**
      * @param anonymous873 $SpecialRequestMiscTravel
-     * @return \FilippoToso\Travelport\UProfile\typeHotelPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeHotelPreferenceHistory
      */
     public function setSpecialRequestMiscTravel($SpecialRequestMiscTravel)
     {
@@ -321,7 +321,7 @@ class typeHotelPreferenceHistory extends typeBasePreferenceHistory
 
     /**
      * @param anonymous874 $SpecialRequestRefCategory
-     * @return \FilippoToso\Travelport\UProfile\typeHotelPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeHotelPreferenceHistory
      */
     public function setSpecialRequestRefCategory($SpecialRequestRefCategory)
     {

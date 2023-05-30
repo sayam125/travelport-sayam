@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\System;
+namespace Santosdave\Travelport\System;
 
 class ExternalCacheAccessReq extends BaseReq
 {
@@ -50,7 +50,7 @@ class ExternalCacheAccessReq extends BaseReq
 
     /**
      * @param RetrieveEntry[] $RetrieveEntry
-     * @return \FilippoToso\Travelport\System\ExternalCacheAccessReq
+     * @return \Santosdave\Travelport\System\ExternalCacheAccessReq
      */
     public function setRetrieveEntry(array $RetrieveEntry = null)
     {
@@ -68,7 +68,7 @@ class ExternalCacheAccessReq extends BaseReq
 
     /**
      * @param DeleteEntry[] $DeleteEntry
-     * @return \FilippoToso\Travelport\System\ExternalCacheAccessReq
+     * @return \Santosdave\Travelport\System\ExternalCacheAccessReq
      */
     public function setDeleteEntry(array $DeleteEntry = null)
     {
@@ -86,7 +86,7 @@ class ExternalCacheAccessReq extends BaseReq
 
     /**
      * @param string $CacheName
-     * @return \FilippoToso\Travelport\System\ExternalCacheAccessReq
+     * @return \Santosdave\Travelport\System\ExternalCacheAccessReq
      */
     public function setCacheName($CacheName)
     {

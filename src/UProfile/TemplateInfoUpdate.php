@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class TemplateInfoUpdate
 {
@@ -35,7 +35,7 @@ class TemplateInfoUpdate
 
     /**
      * @param UNKNOWN $Name
-     * @return \FilippoToso\Travelport\UProfile\TemplateInfoUpdate
+     * @return \Santosdave\Travelport\UProfile\TemplateInfoUpdate
      */
     public function setName($Name)
     {
@@ -53,7 +53,7 @@ class TemplateInfoUpdate
 
     /**
      * @param UNKNOWN $Description
-     * @return \FilippoToso\Travelport\UProfile\TemplateInfoUpdate
+     * @return \Santosdave\Travelport\UProfile\TemplateInfoUpdate
      */
     public function setDescription($Description)
     {

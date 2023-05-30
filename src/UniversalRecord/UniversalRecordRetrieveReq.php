@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class UniversalRecordRetrieveReq extends BaseReq
 {
@@ -75,7 +75,7 @@ class UniversalRecordRetrieveReq extends BaseReq
 
     /**
      * @param typeLocatorCode $UniversalRecordLocatorCode
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalRecordRetrieveReq
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalRecordRetrieveReq
      */
     public function setUniversalRecordLocatorCode($UniversalRecordLocatorCode)
     {
@@ -93,7 +93,7 @@ class UniversalRecordRetrieveReq extends BaseReq
 
     /**
      * @param ProviderReservationInfo $ProviderReservationInfo
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalRecordRetrieveReq
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalRecordRetrieveReq
      */
     public function setProviderReservationInfo($ProviderReservationInfo)
     {
@@ -111,7 +111,7 @@ class UniversalRecordRetrieveReq extends BaseReq
 
     /**
      * @param boolean $ViewOnlyInd
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalRecordRetrieveReq
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalRecordRetrieveReq
      */
     public function setViewOnlyInd($ViewOnlyInd)
     {
@@ -129,7 +129,7 @@ class UniversalRecordRetrieveReq extends BaseReq
 
     /**
      * @param typeTravelerLastName $TravelerLastName
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalRecordRetrieveReq
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalRecordRetrieveReq
      */
     public function setTravelerLastName($TravelerLastName)
     {
@@ -147,7 +147,7 @@ class UniversalRecordRetrieveReq extends BaseReq
 
     /**
      * @param typeTravelerLastName $TravelerFirstName
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalRecordRetrieveReq
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalRecordRetrieveReq
      */
     public function setTravelerFirstName($TravelerFirstName)
     {
@@ -165,7 +165,7 @@ class UniversalRecordRetrieveReq extends BaseReq
 
     /**
      * @param boolean $ReturnUnmaskedData
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalRecordRetrieveReq
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalRecordRetrieveReq
      */
     public function setReturnUnmaskedData($ReturnUnmaskedData)
     {

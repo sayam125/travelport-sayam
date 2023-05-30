@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class VehiclePickupLocation
 {
@@ -42,7 +42,7 @@ class VehiclePickupLocation
 
     /**
      * @param Vendor $Vendor
-     * @return \FilippoToso\Travelport\UniversalRecord\VehiclePickupLocation
+     * @return \Santosdave\Travelport\UniversalRecord\VehiclePickupLocation
      */
     public function setVendor($Vendor)
     {
@@ -60,7 +60,7 @@ class VehiclePickupLocation
 
     /**
      * @param VehicleModifier $VehicleModifier
-     * @return \FilippoToso\Travelport\UniversalRecord\VehiclePickupLocation
+     * @return \Santosdave\Travelport\UniversalRecord\VehiclePickupLocation
      */
     public function setVehicleModifier($VehicleModifier)
     {
@@ -78,7 +78,7 @@ class VehiclePickupLocation
 
     /**
      * @param typeIATACode $PickUpLocation
-     * @return \FilippoToso\Travelport\UniversalRecord\VehiclePickupLocation
+     * @return \Santosdave\Travelport\UniversalRecord\VehiclePickupLocation
      */
     public function setPickUpLocation($PickUpLocation)
     {

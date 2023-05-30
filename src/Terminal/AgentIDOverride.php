@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Terminal;
+namespace Santosdave\Travelport\Terminal;
 
 class AgentIDOverride
 {
@@ -42,7 +42,7 @@ class AgentIDOverride
 
     /**
      * @param typeSupplierCode $SupplierCode
-     * @return \FilippoToso\Travelport\Terminal\AgentIDOverride
+     * @return \Santosdave\Travelport\Terminal\AgentIDOverride
      */
     public function setSupplierCode($SupplierCode)
     {
@@ -60,7 +60,7 @@ class AgentIDOverride
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\Terminal\AgentIDOverride
+     * @return \Santosdave\Travelport\Terminal\AgentIDOverride
      */
     public function setProviderCode($ProviderCode)
     {
@@ -78,7 +78,7 @@ class AgentIDOverride
 
     /**
      * @param anonymous388 $AgentID
-     * @return \FilippoToso\Travelport\Terminal\AgentIDOverride
+     * @return \Santosdave\Travelport\Terminal\AgentIDOverride
      */
     public function setAgentID($AgentID)
     {

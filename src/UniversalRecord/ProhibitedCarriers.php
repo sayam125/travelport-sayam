@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class ProhibitedCarriers
 {
@@ -28,7 +28,7 @@ class ProhibitedCarriers
 
     /**
      * @param Carrier $Carrier
-     * @return \FilippoToso\Travelport\UniversalRecord\ProhibitedCarriers
+     * @return \Santosdave\Travelport\UniversalRecord\ProhibitedCarriers
      */
     public function setCarrier($Carrier)
     {

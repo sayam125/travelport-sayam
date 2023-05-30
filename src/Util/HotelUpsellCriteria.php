@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class HotelUpsellCriteria
 {
@@ -42,7 +42,7 @@ class HotelUpsellCriteria
 
     /**
      * @param HotelUpsellAdd $HotelUpsellAdd
-     * @return \FilippoToso\Travelport\Util\HotelUpsellCriteria
+     * @return \Santosdave\Travelport\Util\HotelUpsellCriteria
      */
     public function setHotelUpsellAdd($HotelUpsellAdd)
     {
@@ -60,7 +60,7 @@ class HotelUpsellCriteria
 
     /**
      * @param HotelUpsellUpdate $HotelUpsellUpdate
-     * @return \FilippoToso\Travelport\Util\HotelUpsellCriteria
+     * @return \Santosdave\Travelport\Util\HotelUpsellCriteria
      */
     public function setHotelUpsellUpdate($HotelUpsellUpdate)
     {
@@ -78,7 +78,7 @@ class HotelUpsellCriteria
 
     /**
      * @param HotelUpsellDelete $HotelUpsellDelete
-     * @return \FilippoToso\Travelport\Util\HotelUpsellCriteria
+     * @return \Santosdave\Travelport\Util\HotelUpsellCriteria
      */
     public function setHotelUpsellDelete($HotelUpsellDelete)
     {

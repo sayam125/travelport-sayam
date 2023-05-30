@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class FareInfo
 {
@@ -309,7 +309,7 @@ class FareInfo
 
     /**
      * @param FareTicketDesignator $FareTicketDesignator
-     * @return \FilippoToso\Travelport\Rail\FareInfo
+     * @return \Santosdave\Travelport\Rail\FareInfo
      */
     public function setFareTicketDesignator($FareTicketDesignator)
     {
@@ -327,7 +327,7 @@ class FareInfo
 
     /**
      * @param FareSurcharge $FareSurcharge
-     * @return \FilippoToso\Travelport\Rail\FareInfo
+     * @return \Santosdave\Travelport\Rail\FareInfo
      */
     public function setFareSurcharge($FareSurcharge)
     {
@@ -345,7 +345,7 @@ class FareInfo
 
     /**
      * @param AccountCode $AccountCode
-     * @return \FilippoToso\Travelport\Rail\FareInfo
+     * @return \Santosdave\Travelport\Rail\FareInfo
      */
     public function setAccountCode($AccountCode)
     {
@@ -363,7 +363,7 @@ class FareInfo
 
     /**
      * @param ContractCode $ContractCode
-     * @return \FilippoToso\Travelport\Rail\FareInfo
+     * @return \Santosdave\Travelport\Rail\FareInfo
      */
     public function setContractCode($ContractCode)
     {
@@ -381,7 +381,7 @@ class FareInfo
 
     /**
      * @param Endorsement $Endorsement
-     * @return \FilippoToso\Travelport\Rail\FareInfo
+     * @return \Santosdave\Travelport\Rail\FareInfo
      */
     public function setEndorsement($Endorsement)
     {
@@ -399,7 +399,7 @@ class FareInfo
 
     /**
      * @param BaggageAllowance $BaggageAllowance
-     * @return \FilippoToso\Travelport\Rail\FareInfo
+     * @return \Santosdave\Travelport\Rail\FareInfo
      */
     public function setBaggageAllowance($BaggageAllowance)
     {
@@ -417,7 +417,7 @@ class FareInfo
 
     /**
      * @param FareRuleKey $FareRuleKey
-     * @return \FilippoToso\Travelport\Rail\FareInfo
+     * @return \Santosdave\Travelport\Rail\FareInfo
      */
     public function setFareRuleKey($FareRuleKey)
     {
@@ -435,7 +435,7 @@ class FareInfo
 
     /**
      * @param FareRuleFailureInfo $FareRuleFailureInfo
-     * @return \FilippoToso\Travelport\Rail\FareInfo
+     * @return \Santosdave\Travelport\Rail\FareInfo
      */
     public function setFareRuleFailureInfo($FareRuleFailureInfo)
     {
@@ -453,7 +453,7 @@ class FareInfo
 
     /**
      * @param FareRemarkRef $FareRemarkRef
-     * @return \FilippoToso\Travelport\Rail\FareInfo
+     * @return \Santosdave\Travelport\Rail\FareInfo
      */
     public function setFareRemarkRef($FareRemarkRef)
     {
@@ -471,7 +471,7 @@ class FareInfo
 
     /**
      * @param Brand $Brand
-     * @return \FilippoToso\Travelport\Rail\FareInfo
+     * @return \Santosdave\Travelport\Rail\FareInfo
      */
     public function setBrand($Brand)
     {
@@ -489,7 +489,7 @@ class FareInfo
 
     /**
      * @param Commission $Commission
-     * @return \FilippoToso\Travelport\Rail\FareInfo
+     * @return \Santosdave\Travelport\Rail\FareInfo
      */
     public function setCommission($Commission)
     {
@@ -507,7 +507,7 @@ class FareInfo
 
     /**
      * @param string $FareAttributes
-     * @return \FilippoToso\Travelport\Rail\FareInfo
+     * @return \Santosdave\Travelport\Rail\FareInfo
      */
     public function setFareAttributes($FareAttributes)
     {
@@ -525,7 +525,7 @@ class FareInfo
 
     /**
      * @param typeFarePenalty $ChangePenalty
-     * @return \FilippoToso\Travelport\Rail\FareInfo
+     * @return \Santosdave\Travelport\Rail\FareInfo
      */
     public function setChangePenalty($ChangePenalty)
     {
@@ -543,7 +543,7 @@ class FareInfo
 
     /**
      * @param typeFarePenalty $CancelPenalty
-     * @return \FilippoToso\Travelport\Rail\FareInfo
+     * @return \Santosdave\Travelport\Rail\FareInfo
      */
     public function setCancelPenalty($CancelPenalty)
     {
@@ -561,7 +561,7 @@ class FareInfo
 
     /**
      * @param FareRulesFilter $FareRulesFilter
-     * @return \FilippoToso\Travelport\Rail\FareInfo
+     * @return \Santosdave\Travelport\Rail\FareInfo
      */
     public function setFareRulesFilter($FareRulesFilter)
     {
@@ -579,7 +579,7 @@ class FareInfo
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Rail\FareInfo
+     * @return \Santosdave\Travelport\Rail\FareInfo
      */
     public function setKey($Key)
     {
@@ -597,7 +597,7 @@ class FareInfo
 
     /**
      * @param string $FareBasis
-     * @return \FilippoToso\Travelport\Rail\FareInfo
+     * @return \Santosdave\Travelport\Rail\FareInfo
      */
     public function setFareBasis($FareBasis)
     {
@@ -615,7 +615,7 @@ class FareInfo
 
     /**
      * @param typePTC $PassengerTypeCode
-     * @return \FilippoToso\Travelport\Rail\FareInfo
+     * @return \Santosdave\Travelport\Rail\FareInfo
      */
     public function setPassengerTypeCode($PassengerTypeCode)
     {
@@ -633,7 +633,7 @@ class FareInfo
 
     /**
      * @param typeIATACode $Origin
-     * @return \FilippoToso\Travelport\Rail\FareInfo
+     * @return \Santosdave\Travelport\Rail\FareInfo
      */
     public function setOrigin($Origin)
     {
@@ -651,7 +651,7 @@ class FareInfo
 
     /**
      * @param typeIATACode $Destination
-     * @return \FilippoToso\Travelport\Rail\FareInfo
+     * @return \Santosdave\Travelport\Rail\FareInfo
      */
     public function setDestination($Destination)
     {
@@ -669,7 +669,7 @@ class FareInfo
 
     /**
      * @param string $EffectiveDate
-     * @return \FilippoToso\Travelport\Rail\FareInfo
+     * @return \Santosdave\Travelport\Rail\FareInfo
      */
     public function setEffectiveDate($EffectiveDate)
     {
@@ -687,7 +687,7 @@ class FareInfo
 
     /**
      * @param date $TravelDate
-     * @return \FilippoToso\Travelport\Rail\FareInfo
+     * @return \Santosdave\Travelport\Rail\FareInfo
      */
     public function setTravelDate($TravelDate)
     {
@@ -705,7 +705,7 @@ class FareInfo
 
     /**
      * @param date $DepartureDate
-     * @return \FilippoToso\Travelport\Rail\FareInfo
+     * @return \Santosdave\Travelport\Rail\FareInfo
      */
     public function setDepartureDate($DepartureDate)
     {
@@ -723,7 +723,7 @@ class FareInfo
 
     /**
      * @param typeMoney $Amount
-     * @return \FilippoToso\Travelport\Rail\FareInfo
+     * @return \Santosdave\Travelport\Rail\FareInfo
      */
     public function setAmount($Amount)
     {
@@ -741,7 +741,7 @@ class FareInfo
 
     /**
      * @param typePrivateFare $PrivateFare
-     * @return \FilippoToso\Travelport\Rail\FareInfo
+     * @return \Santosdave\Travelport\Rail\FareInfo
      */
     public function setPrivateFare($PrivateFare)
     {
@@ -759,7 +759,7 @@ class FareInfo
 
     /**
      * @param boolean $NegotiatedFare
-     * @return \FilippoToso\Travelport\Rail\FareInfo
+     * @return \Santosdave\Travelport\Rail\FareInfo
      */
     public function setNegotiatedFare($NegotiatedFare)
     {
@@ -777,7 +777,7 @@ class FareInfo
 
     /**
      * @param typeTourCode $TourCode
-     * @return \FilippoToso\Travelport\Rail\FareInfo
+     * @return \Santosdave\Travelport\Rail\FareInfo
      */
     public function setTourCode($TourCode)
     {
@@ -795,7 +795,7 @@ class FareInfo
 
     /**
      * @param string $WaiverCode
-     * @return \FilippoToso\Travelport\Rail\FareInfo
+     * @return \Santosdave\Travelport\Rail\FareInfo
      */
     public function setWaiverCode($WaiverCode)
     {
@@ -813,7 +813,7 @@ class FareInfo
 
     /**
      * @param date $NotValidBefore
-     * @return \FilippoToso\Travelport\Rail\FareInfo
+     * @return \Santosdave\Travelport\Rail\FareInfo
      */
     public function setNotValidBefore($NotValidBefore)
     {
@@ -831,7 +831,7 @@ class FareInfo
 
     /**
      * @param date $NotValidAfter
-     * @return \FilippoToso\Travelport\Rail\FareInfo
+     * @return \Santosdave\Travelport\Rail\FareInfo
      */
     public function setNotValidAfter($NotValidAfter)
     {
@@ -849,7 +849,7 @@ class FareInfo
 
     /**
      * @param typePCC $PseudoCityCode
-     * @return \FilippoToso\Travelport\Rail\FareInfo
+     * @return \Santosdave\Travelport\Rail\FareInfo
      */
     public function setPseudoCityCode($PseudoCityCode)
     {
@@ -867,7 +867,7 @@ class FareInfo
 
     /**
      * @param typeFareFamily $FareFamily
-     * @return \FilippoToso\Travelport\Rail\FareInfo
+     * @return \Santosdave\Travelport\Rail\FareInfo
      */
     public function setFareFamily($FareFamily)
     {
@@ -885,7 +885,7 @@ class FareInfo
 
     /**
      * @param boolean $PromotionalFare
-     * @return \FilippoToso\Travelport\Rail\FareInfo
+     * @return \Santosdave\Travelport\Rail\FareInfo
      */
     public function setPromotionalFare($PromotionalFare)
     {
@@ -903,7 +903,7 @@ class FareInfo
 
     /**
      * @param typeCarCode $CarCode
-     * @return \FilippoToso\Travelport\Rail\FareInfo
+     * @return \Santosdave\Travelport\Rail\FareInfo
      */
     public function setCarCode($CarCode)
     {
@@ -921,7 +921,7 @@ class FareInfo
 
     /**
      * @param typeValueCode $ValueCode
-     * @return \FilippoToso\Travelport\Rail\FareInfo
+     * @return \Santosdave\Travelport\Rail\FareInfo
      */
     public function setValueCode($ValueCode)
     {
@@ -939,7 +939,7 @@ class FareInfo
 
     /**
      * @param boolean $BulkTicket
-     * @return \FilippoToso\Travelport\Rail\FareInfo
+     * @return \Santosdave\Travelport\Rail\FareInfo
      */
     public function setBulkTicket($BulkTicket)
     {
@@ -957,7 +957,7 @@ class FareInfo
 
     /**
      * @param boolean $InclusiveTour
-     * @return \FilippoToso\Travelport\Rail\FareInfo
+     * @return \Santosdave\Travelport\Rail\FareInfo
      */
     public function setInclusiveTour($InclusiveTour)
     {
@@ -975,7 +975,7 @@ class FareInfo
 
     /**
      * @param string $Value
-     * @return \FilippoToso\Travelport\Rail\FareInfo
+     * @return \Santosdave\Travelport\Rail\FareInfo
      */
     public function setValue($Value)
     {
@@ -993,7 +993,7 @@ class FareInfo
 
     /**
      * @param typeSupplierCode $SupplierCode
-     * @return \FilippoToso\Travelport\Rail\FareInfo
+     * @return \Santosdave\Travelport\Rail\FareInfo
      */
     public function setSupplierCode($SupplierCode)
     {
@@ -1011,7 +1011,7 @@ class FareInfo
 
     /**
      * @param typeMoney $TaxAmount
-     * @return \FilippoToso\Travelport\Rail\FareInfo
+     * @return \Santosdave\Travelport\Rail\FareInfo
      */
     public function setTaxAmount($TaxAmount)
     {
@@ -1029,7 +1029,7 @@ class FareInfo
 
     /**
      * @param typeElementStatus $ElStat
-     * @return \FilippoToso\Travelport\Rail\FareInfo
+     * @return \Santosdave\Travelport\Rail\FareInfo
      */
     public function setElStat($ElStat)
     {
@@ -1047,7 +1047,7 @@ class FareInfo
 
     /**
      * @param boolean $KeyOverride
-     * @return \FilippoToso\Travelport\Rail\FareInfo
+     * @return \Santosdave\Travelport\Rail\FareInfo
      */
     public function setKeyOverride($KeyOverride)
     {

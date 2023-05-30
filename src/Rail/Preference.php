@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class Preference
 {
@@ -28,7 +28,7 @@ class Preference
 
     /**
      * @param anonymous1450 $Owner
-     * @return \FilippoToso\Travelport\Rail\Preference
+     * @return \Santosdave\Travelport\Rail\Preference
      */
     public function setOwner($Owner)
     {

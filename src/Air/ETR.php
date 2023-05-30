@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class ETR
 {
@@ -294,7 +294,7 @@ class ETR
 
     /**
      * @param AirReservationLocatorCode $AirReservationLocatorCode
-     * @return \FilippoToso\Travelport\Air\ETR
+     * @return \Santosdave\Travelport\Air\ETR
      */
     public function setAirReservationLocatorCode($AirReservationLocatorCode)
     {
@@ -312,7 +312,7 @@ class ETR
 
     /**
      * @param AgencyInfo $AgencyInfo
-     * @return \FilippoToso\Travelport\Air\ETR
+     * @return \Santosdave\Travelport\Air\ETR
      */
     public function setAgencyInfo($AgencyInfo)
     {
@@ -330,7 +330,7 @@ class ETR
 
     /**
      * @param BookingTraveler $BookingTraveler
-     * @return \FilippoToso\Travelport\Air\ETR
+     * @return \Santosdave\Travelport\Air\ETR
      */
     public function setBookingTraveler($BookingTraveler)
     {
@@ -348,7 +348,7 @@ class ETR
 
     /**
      * @param FormOfPayment $FormOfPayment
-     * @return \FilippoToso\Travelport\Air\ETR
+     * @return \Santosdave\Travelport\Air\ETR
      */
     public function setFormOfPayment($FormOfPayment)
     {
@@ -366,7 +366,7 @@ class ETR
 
     /**
      * @param Payment $Payment
-     * @return \FilippoToso\Travelport\Air\ETR
+     * @return \Santosdave\Travelport\Air\ETR
      */
     public function setPayment($Payment)
     {
@@ -384,7 +384,7 @@ class ETR
 
     /**
      * @param CreditCardAuth $CreditCardAuth
-     * @return \FilippoToso\Travelport\Air\ETR
+     * @return \Santosdave\Travelport\Air\ETR
      */
     public function setCreditCardAuth($CreditCardAuth)
     {
@@ -402,7 +402,7 @@ class ETR
 
     /**
      * @param SupplierLocator $SupplierLocator
-     * @return \FilippoToso\Travelport\Air\ETR
+     * @return \Santosdave\Travelport\Air\ETR
      */
     public function setSupplierLocator($SupplierLocator)
     {
@@ -420,7 +420,7 @@ class ETR
 
     /**
      * @param string $FareCalc
-     * @return \FilippoToso\Travelport\Air\ETR
+     * @return \Santosdave\Travelport\Air\ETR
      */
     public function setFareCalc($FareCalc)
     {
@@ -438,7 +438,7 @@ class ETR
 
     /**
      * @param Ticket $Ticket
-     * @return \FilippoToso\Travelport\Air\ETR
+     * @return \Santosdave\Travelport\Air\ETR
      */
     public function setTicket($Ticket)
     {
@@ -456,7 +456,7 @@ class ETR
 
     /**
      * @param Commission $Commission
-     * @return \FilippoToso\Travelport\Air\ETR
+     * @return \Santosdave\Travelport\Air\ETR
      */
     public function setCommission($Commission)
     {
@@ -474,7 +474,7 @@ class ETR
 
     /**
      * @param AirPricingInfo $AirPricingInfo
-     * @return \FilippoToso\Travelport\Air\ETR
+     * @return \Santosdave\Travelport\Air\ETR
      */
     public function setAirPricingInfo($AirPricingInfo)
     {
@@ -492,7 +492,7 @@ class ETR
 
     /**
      * @param AuditData $AuditData
-     * @return \FilippoToso\Travelport\Air\ETR
+     * @return \Santosdave\Travelport\Air\ETR
      */
     public function setAuditData($AuditData)
     {
@@ -510,7 +510,7 @@ class ETR
 
     /**
      * @param Restriction $Restriction
-     * @return \FilippoToso\Travelport\Air\ETR
+     * @return \Santosdave\Travelport\Air\ETR
      */
     public function setRestriction($Restriction)
     {
@@ -528,7 +528,7 @@ class ETR
 
     /**
      * @param WaiverCode $WaiverCode
-     * @return \FilippoToso\Travelport\Air\ETR
+     * @return \Santosdave\Travelport\Air\ETR
      */
     public function setWaiverCode($WaiverCode)
     {
@@ -546,7 +546,7 @@ class ETR
 
     /**
      * @param BaggageAllowances $BaggageAllowances
-     * @return \FilippoToso\Travelport\Air\ETR
+     * @return \Santosdave\Travelport\Air\ETR
      */
     public function setBaggageAllowances($BaggageAllowances)
     {
@@ -564,7 +564,7 @@ class ETR
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Air\ETR
+     * @return \Santosdave\Travelport\Air\ETR
      */
     public function setKey($Key)
     {
@@ -582,7 +582,7 @@ class ETR
 
     /**
      * @param boolean $Refundable
-     * @return \FilippoToso\Travelport\Air\ETR
+     * @return \Santosdave\Travelport\Air\ETR
      */
     public function setRefundable($Refundable)
     {
@@ -600,7 +600,7 @@ class ETR
 
     /**
      * @param boolean $Exchangeable
-     * @return \FilippoToso\Travelport\Air\ETR
+     * @return \Santosdave\Travelport\Air\ETR
      */
     public function setExchangeable($Exchangeable)
     {
@@ -618,7 +618,7 @@ class ETR
 
     /**
      * @param typeTourCode $TourCode
-     * @return \FilippoToso\Travelport\Air\ETR
+     * @return \Santosdave\Travelport\Air\ETR
      */
     public function setTourCode($TourCode)
     {
@@ -636,7 +636,7 @@ class ETR
 
     /**
      * @param string $IssuedDate
-     * @return \FilippoToso\Travelport\Air\ETR
+     * @return \Santosdave\Travelport\Air\ETR
      */
     public function setIssuedDate($IssuedDate)
     {
@@ -654,7 +654,7 @@ class ETR
 
     /**
      * @param boolean $BulkTicket
-     * @return \FilippoToso\Travelport\Air\ETR
+     * @return \Santosdave\Travelport\Air\ETR
      */
     public function setBulkTicket($BulkTicket)
     {
@@ -672,7 +672,7 @@ class ETR
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\Air\ETR
+     * @return \Santosdave\Travelport\Air\ETR
      */
     public function setProviderCode($ProviderCode)
     {
@@ -690,7 +690,7 @@ class ETR
 
     /**
      * @param typeProviderLocatorCode $ProviderLocatorCode
-     * @return \FilippoToso\Travelport\Air\ETR
+     * @return \Santosdave\Travelport\Air\ETR
      */
     public function setProviderLocatorCode($ProviderLocatorCode)
     {
@@ -708,7 +708,7 @@ class ETR
 
     /**
      * @param typeIATA $IATANumber
-     * @return \FilippoToso\Travelport\Air\ETR
+     * @return \Santosdave\Travelport\Air\ETR
      */
     public function setIATANumber($IATANumber)
     {
@@ -726,7 +726,7 @@ class ETR
 
     /**
      * @param typePCC $PseudoCityCode
-     * @return \FilippoToso\Travelport\Air\ETR
+     * @return \Santosdave\Travelport\Air\ETR
      */
     public function setPseudoCityCode($PseudoCityCode)
     {
@@ -744,7 +744,7 @@ class ETR
 
     /**
      * @param typeCountry $CountryCode
-     * @return \FilippoToso\Travelport\Air\ETR
+     * @return \Santosdave\Travelport\Air\ETR
      */
     public function setCountryCode($CountryCode)
     {
@@ -762,7 +762,7 @@ class ETR
 
     /**
      * @param typeCarrier $PlatingCarrier
-     * @return \FilippoToso\Travelport\Air\ETR
+     * @return \Santosdave\Travelport\Air\ETR
      */
     public function setPlatingCarrier($PlatingCarrier)
     {
@@ -780,7 +780,7 @@ class ETR
 
     /**
      * @param typeMoney $TotalPrice
-     * @return \FilippoToso\Travelport\Air\ETR
+     * @return \Santosdave\Travelport\Air\ETR
      */
     public function setTotalPrice($TotalPrice)
     {
@@ -798,7 +798,7 @@ class ETR
 
     /**
      * @param typeMoney $BasePrice
-     * @return \FilippoToso\Travelport\Air\ETR
+     * @return \Santosdave\Travelport\Air\ETR
      */
     public function setBasePrice($BasePrice)
     {
@@ -816,7 +816,7 @@ class ETR
 
     /**
      * @param typeMoney $ApproximateTotalPrice
-     * @return \FilippoToso\Travelport\Air\ETR
+     * @return \Santosdave\Travelport\Air\ETR
      */
     public function setApproximateTotalPrice($ApproximateTotalPrice)
     {
@@ -834,7 +834,7 @@ class ETR
 
     /**
      * @param typeMoney $ApproximateBasePrice
-     * @return \FilippoToso\Travelport\Air\ETR
+     * @return \Santosdave\Travelport\Air\ETR
      */
     public function setApproximateBasePrice($ApproximateBasePrice)
     {
@@ -852,7 +852,7 @@ class ETR
 
     /**
      * @param typeMoney $EquivalentBasePrice
-     * @return \FilippoToso\Travelport\Air\ETR
+     * @return \Santosdave\Travelport\Air\ETR
      */
     public function setEquivalentBasePrice($EquivalentBasePrice)
     {
@@ -870,7 +870,7 @@ class ETR
 
     /**
      * @param typeMoney $Taxes
-     * @return \FilippoToso\Travelport\Air\ETR
+     * @return \Santosdave\Travelport\Air\ETR
      */
     public function setTaxes($Taxes)
     {
@@ -888,7 +888,7 @@ class ETR
 
     /**
      * @param typeMoney $Fees
-     * @return \FilippoToso\Travelport\Air\ETR
+     * @return \Santosdave\Travelport\Air\ETR
      */
     public function setFees($Fees)
     {
@@ -906,7 +906,7 @@ class ETR
 
     /**
      * @param typeMoney $Services
-     * @return \FilippoToso\Travelport\Air\ETR
+     * @return \Santosdave\Travelport\Air\ETR
      */
     public function setServices($Services)
     {
@@ -924,7 +924,7 @@ class ETR
 
     /**
      * @param typeMoney $ApproximateTaxes
-     * @return \FilippoToso\Travelport\Air\ETR
+     * @return \Santosdave\Travelport\Air\ETR
      */
     public function setApproximateTaxes($ApproximateTaxes)
     {
@@ -942,7 +942,7 @@ class ETR
 
     /**
      * @param typeMoney $ApproximateFees
-     * @return \FilippoToso\Travelport\Air\ETR
+     * @return \Santosdave\Travelport\Air\ETR
      */
     public function setApproximateFees($ApproximateFees)
     {
@@ -960,7 +960,7 @@ class ETR
 
     /**
      * @param typeElementStatus $ElStat
-     * @return \FilippoToso\Travelport\Air\ETR
+     * @return \Santosdave\Travelport\Air\ETR
      */
     public function setElStat($ElStat)
     {
@@ -978,7 +978,7 @@ class ETR
 
     /**
      * @param boolean $KeyOverride
-     * @return \FilippoToso\Travelport\Air\ETR
+     * @return \Santosdave\Travelport\Air\ETR
      */
     public function setKeyOverride($KeyOverride)
     {

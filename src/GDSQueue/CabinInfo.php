@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class CabinInfo
 {
@@ -70,7 +70,7 @@ class CabinInfo
 
     /**
      * @param StringLength1to3 $Category
-     * @return \FilippoToso\Travelport\GDSQueue\CabinInfo
+     * @return \Santosdave\Travelport\GDSQueue\CabinInfo
      */
     public function setCategory($Category)
     {
@@ -88,7 +88,7 @@ class CabinInfo
 
     /**
      * @param StringLength1to5 $Number
-     * @return \FilippoToso\Travelport\GDSQueue\CabinInfo
+     * @return \Santosdave\Travelport\GDSQueue\CabinInfo
      */
     public function setNumber($Number)
     {
@@ -106,7 +106,7 @@ class CabinInfo
 
     /**
      * @param StringLength1 $Location
-     * @return \FilippoToso\Travelport\GDSQueue\CabinInfo
+     * @return \Santosdave\Travelport\GDSQueue\CabinInfo
      */
     public function setLocation($Location)
     {
@@ -124,7 +124,7 @@ class CabinInfo
 
     /**
      * @param StringLength1to12 $RelativeLocation
-     * @return \FilippoToso\Travelport\GDSQueue\CabinInfo
+     * @return \Santosdave\Travelport\GDSQueue\CabinInfo
      */
     public function setRelativeLocation($RelativeLocation)
     {
@@ -142,7 +142,7 @@ class CabinInfo
 
     /**
      * @param StringLength1to15 $DeckName
-     * @return \FilippoToso\Travelport\GDSQueue\CabinInfo
+     * @return \Santosdave\Travelport\GDSQueue\CabinInfo
      */
     public function setDeckName($DeckName)
     {
@@ -160,7 +160,7 @@ class CabinInfo
 
     /**
      * @param StringLength1to10 $BedConfiguration
-     * @return \FilippoToso\Travelport\GDSQueue\CabinInfo
+     * @return \Santosdave\Travelport\GDSQueue\CabinInfo
      */
     public function setBedConfiguration($BedConfiguration)
     {
@@ -178,7 +178,7 @@ class CabinInfo
 
     /**
      * @param boolean $SmokingIndicator
-     * @return \FilippoToso\Travelport\GDSQueue\CabinInfo
+     * @return \Santosdave\Travelport\GDSQueue\CabinInfo
      */
     public function setSmokingIndicator($SmokingIndicator)
     {

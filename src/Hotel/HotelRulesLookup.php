@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class HotelRulesLookup
 {
@@ -63,7 +63,7 @@ class HotelRulesLookup
 
     /**
      * @param HotelProperty $HotelProperty
-     * @return \FilippoToso\Travelport\Hotel\HotelRulesLookup
+     * @return \Santosdave\Travelport\Hotel\HotelRulesLookup
      */
     public function setHotelProperty($HotelProperty)
     {
@@ -81,7 +81,7 @@ class HotelRulesLookup
 
     /**
      * @param HotelStay $HotelStay
-     * @return \FilippoToso\Travelport\Hotel\HotelRulesLookup
+     * @return \Santosdave\Travelport\Hotel\HotelRulesLookup
      */
     public function setHotelStay($HotelStay)
     {
@@ -99,7 +99,7 @@ class HotelRulesLookup
 
     /**
      * @param HotelRulesModifiers $HotelRulesModifiers
-     * @return \FilippoToso\Travelport\Hotel\HotelRulesLookup
+     * @return \Santosdave\Travelport\Hotel\HotelRulesLookup
      */
     public function setHotelRulesModifiers($HotelRulesModifiers)
     {
@@ -117,7 +117,7 @@ class HotelRulesLookup
 
     /**
      * @param string $RatePlanType
-     * @return \FilippoToso\Travelport\Hotel\HotelRulesLookup
+     * @return \Santosdave\Travelport\Hotel\HotelRulesLookup
      */
     public function setRatePlanType($RatePlanType)
     {
@@ -135,7 +135,7 @@ class HotelRulesLookup
 
     /**
      * @param typeMoney $Base
-     * @return \FilippoToso\Travelport\Hotel\HotelRulesLookup
+     * @return \Santosdave\Travelport\Hotel\HotelRulesLookup
      */
     public function setBase($Base)
     {
@@ -153,7 +153,7 @@ class HotelRulesLookup
 
     /**
      * @param anonymous664 $RulesDetailReqd
-     * @return \FilippoToso\Travelport\Hotel\HotelRulesLookup
+     * @return \Santosdave\Travelport\Hotel\HotelRulesLookup
      */
     public function setRulesDetailReqd($RulesDetailReqd)
     {

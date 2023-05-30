@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class VoidResultInfo
 {
@@ -47,7 +47,7 @@ class VoidResultInfo
 
     /**
      * @param string $FailureRemark
-     * @return \FilippoToso\Travelport\Air\VoidResultInfo
+     * @return \Santosdave\Travelport\Air\VoidResultInfo
      */
     public function setFailureRemark($FailureRemark)
     {
@@ -65,7 +65,7 @@ class VoidResultInfo
 
     /**
      * @param string $ResultType
-     * @return \FilippoToso\Travelport\Air\VoidResultInfo
+     * @return \Santosdave\Travelport\Air\VoidResultInfo
      */
     public function setResultType($ResultType)
     {
@@ -83,7 +83,7 @@ class VoidResultInfo
 
     /**
      * @param StringLength1to13 $DocumentNumber
-     * @return \FilippoToso\Travelport\Air\VoidResultInfo
+     * @return \Santosdave\Travelport\Air\VoidResultInfo
      */
     public function setDocumentNumber($DocumentNumber)
     {
@@ -101,7 +101,7 @@ class VoidResultInfo
 
     /**
      * @param anonymous456 $DocumentType
-     * @return \FilippoToso\Travelport\Air\VoidResultInfo
+     * @return \Santosdave\Travelport\Air\VoidResultInfo
      */
     public function setDocumentType($DocumentType)
     {

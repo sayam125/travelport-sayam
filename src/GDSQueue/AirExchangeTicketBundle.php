@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class AirExchangeTicketBundle
 {
@@ -49,7 +49,7 @@ class AirExchangeTicketBundle
 
     /**
      * @param StringLength1to13 $TicketNumber
-     * @return \FilippoToso\Travelport\GDSQueue\AirExchangeTicketBundle
+     * @return \Santosdave\Travelport\GDSQueue\AirExchangeTicketBundle
      */
     public function setTicketNumber($TicketNumber)
     {
@@ -67,7 +67,7 @@ class AirExchangeTicketBundle
 
     /**
      * @param FormOfPayment $FormOfPayment
-     * @return \FilippoToso\Travelport\GDSQueue\AirExchangeTicketBundle
+     * @return \Santosdave\Travelport\GDSQueue\AirExchangeTicketBundle
      */
     public function setFormOfPayment($FormOfPayment)
     {
@@ -85,7 +85,7 @@ class AirExchangeTicketBundle
 
     /**
      * @param FormOfPaymentRef $FormOfPaymentRef
-     * @return \FilippoToso\Travelport\GDSQueue\AirExchangeTicketBundle
+     * @return \Santosdave\Travelport\GDSQueue\AirExchangeTicketBundle
      */
     public function setFormOfPaymentRef($FormOfPaymentRef)
     {
@@ -103,7 +103,7 @@ class AirExchangeTicketBundle
 
     /**
      * @param WaiverCode $WaiverCode
-     * @return \FilippoToso\Travelport\GDSQueue\AirExchangeTicketBundle
+     * @return \Santosdave\Travelport\GDSQueue\AirExchangeTicketBundle
      */
     public function setWaiverCode($WaiverCode)
     {

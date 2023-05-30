@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class ProfileDeleteReq extends BaseReq
 {
@@ -61,7 +61,7 @@ class ProfileDeleteReq extends BaseReq
 
     /**
      * @param typeProfileID $ProfileID
-     * @return \FilippoToso\Travelport\UProfile\ProfileDeleteReq
+     * @return \Santosdave\Travelport\UProfile\ProfileDeleteReq
      */
     public function setProfileID($ProfileID)
     {
@@ -79,7 +79,7 @@ class ProfileDeleteReq extends BaseReq
 
     /**
      * @param ProvisioningCode $ProvisioningCode
-     * @return \FilippoToso\Travelport\UProfile\ProfileDeleteReq
+     * @return \Santosdave\Travelport\UProfile\ProfileDeleteReq
      */
     public function setProvisioningCode($ProvisioningCode)
     {
@@ -97,7 +97,7 @@ class ProfileDeleteReq extends BaseReq
 
     /**
      * @param UniqueProfileID $UniqueProfileID
-     * @return \FilippoToso\Travelport\UProfile\ProfileDeleteReq
+     * @return \Santosdave\Travelport\UProfile\ProfileDeleteReq
      */
     public function setUniqueProfileID($UniqueProfileID)
     {
@@ -115,7 +115,7 @@ class ProfileDeleteReq extends BaseReq
 
     /**
      * @param boolean $Force
-     * @return \FilippoToso\Travelport\UProfile\ProfileDeleteReq
+     * @return \Santosdave\Travelport\UProfile\ProfileDeleteReq
      */
     public function setForce($Force)
     {

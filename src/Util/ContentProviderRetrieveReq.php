@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class ContentProviderRetrieveReq extends BaseReq
 {
@@ -54,7 +54,7 @@ class ContentProviderRetrieveReq extends BaseReq
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\Util\ContentProviderRetrieveReq
+     * @return \Santosdave\Travelport\Util\ContentProviderRetrieveReq
      */
     public function setProviderCode($ProviderCode)
     {
@@ -72,7 +72,7 @@ class ContentProviderRetrieveReq extends BaseReq
 
     /**
      * @param typeSupplierCode $SupplierCode
-     * @return \FilippoToso\Travelport\Util\ContentProviderRetrieveReq
+     * @return \Santosdave\Travelport\Util\ContentProviderRetrieveReq
      */
     public function setSupplierCode($SupplierCode)
     {
@@ -90,7 +90,7 @@ class ContentProviderRetrieveReq extends BaseReq
 
     /**
      * @param typeShowProvidersType $ShowProviders
-     * @return \FilippoToso\Travelport\Util\ContentProviderRetrieveReq
+     * @return \Santosdave\Travelport\Util\ContentProviderRetrieveReq
      */
     public function setShowProviders($ShowProviders)
     {

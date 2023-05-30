@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class typeDefaultBrandDetail
 {
@@ -49,7 +49,7 @@ class typeDefaultBrandDetail
 
     /**
      * @param typeTextElement $Text
-     * @return \FilippoToso\Travelport\Rail\typeDefaultBrandDetail
+     * @return \Santosdave\Travelport\Rail\typeDefaultBrandDetail
      */
     public function setText($Text)
     {
@@ -67,7 +67,7 @@ class typeDefaultBrandDetail
 
     /**
      * @param ImageLocation $ImageLocation
-     * @return \FilippoToso\Travelport\Rail\typeDefaultBrandDetail
+     * @return \Santosdave\Travelport\Rail\typeDefaultBrandDetail
      */
     public function setImageLocation($ImageLocation)
     {
@@ -85,7 +85,7 @@ class typeDefaultBrandDetail
 
     /**
      * @param typeApplicableSegment $ApplicableSegment
-     * @return \FilippoToso\Travelport\Rail\typeDefaultBrandDetail
+     * @return \Santosdave\Travelport\Rail\typeDefaultBrandDetail
      */
     public function setApplicableSegment($ApplicableSegment)
     {
@@ -103,7 +103,7 @@ class typeDefaultBrandDetail
 
     /**
      * @param typeBrandId $BrandID
-     * @return \FilippoToso\Travelport\Rail\typeDefaultBrandDetail
+     * @return \Santosdave\Travelport\Rail\typeDefaultBrandDetail
      */
     public function setBrandID($BrandID)
     {

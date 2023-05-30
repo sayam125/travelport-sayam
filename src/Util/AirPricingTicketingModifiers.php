@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class AirPricingTicketingModifiers
 {
@@ -35,7 +35,7 @@ class AirPricingTicketingModifiers
 
     /**
      * @param AirPricingInfoRef $AirPricingInfoRef
-     * @return \FilippoToso\Travelport\Util\AirPricingTicketingModifiers
+     * @return \Santosdave\Travelport\Util\AirPricingTicketingModifiers
      */
     public function setAirPricingInfoRef($AirPricingInfoRef)
     {
@@ -53,7 +53,7 @@ class AirPricingTicketingModifiers
 
     /**
      * @param TicketingModifiers $TicketingModifiers
-     * @return \FilippoToso\Travelport\Util\AirPricingTicketingModifiers
+     * @return \Santosdave\Travelport\Util\AirPricingTicketingModifiers
      */
     public function setTicketingModifiers($TicketingModifiers)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class ProfileRetrieveReq extends BaseReq
 {
@@ -96,7 +96,7 @@ class ProfileRetrieveReq extends BaseReq
 
     /**
      * @param typeProfileID $ProfileID
-     * @return \FilippoToso\Travelport\UProfile\ProfileRetrieveReq
+     * @return \Santosdave\Travelport\UProfile\ProfileRetrieveReq
      */
     public function setProfileID($ProfileID)
     {
@@ -114,7 +114,7 @@ class ProfileRetrieveReq extends BaseReq
 
     /**
      * @param ProvisioningCode $ProvisioningCode
-     * @return \FilippoToso\Travelport\UProfile\ProfileRetrieveReq
+     * @return \Santosdave\Travelport\UProfile\ProfileRetrieveReq
      */
     public function setProvisioningCode($ProvisioningCode)
     {
@@ -132,7 +132,7 @@ class ProfileRetrieveReq extends BaseReq
 
     /**
      * @param UniqueProfileID $UniqueProfileID
-     * @return \FilippoToso\Travelport\UProfile\ProfileRetrieveReq
+     * @return \Santosdave\Travelport\UProfile\ProfileRetrieveReq
      */
     public function setUniqueProfileID($UniqueProfileID)
     {
@@ -150,7 +150,7 @@ class ProfileRetrieveReq extends BaseReq
 
     /**
      * @param ProfileDataFilter $ProfileDataFilter
-     * @return \FilippoToso\Travelport\UProfile\ProfileRetrieveReq
+     * @return \Santosdave\Travelport\UProfile\ProfileRetrieveReq
      */
     public function setProfileDataFilter($ProfileDataFilter)
     {
@@ -168,7 +168,7 @@ class ProfileRetrieveReq extends BaseReq
 
     /**
      * @param boolean $ReturnParent
-     * @return \FilippoToso\Travelport\UProfile\ProfileRetrieveReq
+     * @return \Santosdave\Travelport\UProfile\ProfileRetrieveReq
      */
     public function setReturnParent($ReturnParent)
     {
@@ -186,7 +186,7 @@ class ProfileRetrieveReq extends BaseReq
 
     /**
      * @param boolean $ReturnParentSummary
-     * @return \FilippoToso\Travelport\UProfile\ProfileRetrieveReq
+     * @return \Santosdave\Travelport\UProfile\ProfileRetrieveReq
      */
     public function setReturnParentSummary($ReturnParentSummary)
     {
@@ -204,7 +204,7 @@ class ProfileRetrieveReq extends BaseReq
 
     /**
      * @param boolean $ShowDataUnmasked
-     * @return \FilippoToso\Travelport\UProfile\ProfileRetrieveReq
+     * @return \Santosdave\Travelport\UProfile\ProfileRetrieveReq
      */
     public function setShowDataUnmasked($ShowDataUnmasked)
     {
@@ -222,7 +222,7 @@ class ProfileRetrieveReq extends BaseReq
 
     /**
      * @param boolean $FullParentHierarchy
-     * @return \FilippoToso\Travelport\UProfile\ProfileRetrieveReq
+     * @return \Santosdave\Travelport\UProfile\ProfileRetrieveReq
      */
     public function setFullParentHierarchy($FullParentHierarchy)
     {
@@ -240,7 +240,7 @@ class ProfileRetrieveReq extends BaseReq
 
     /**
      * @param typeProfileID $ParentID
-     * @return \FilippoToso\Travelport\UProfile\ProfileRetrieveReq
+     * @return \Santosdave\Travelport\UProfile\ProfileRetrieveReq
      */
     public function setParentID($ParentID)
     {

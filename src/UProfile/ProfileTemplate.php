@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class ProfileTemplate
 {
@@ -91,7 +91,7 @@ class ProfileTemplate
 
     /**
      * @param FixedFieldGroup $FixedFieldGroup
-     * @return \FilippoToso\Travelport\UProfile\ProfileTemplate
+     * @return \Santosdave\Travelport\UProfile\ProfileTemplate
      */
     public function setFixedFieldGroup($FixedFieldGroup)
     {
@@ -109,7 +109,7 @@ class ProfileTemplate
 
     /**
      * @param CustomField $CustomField
-     * @return \FilippoToso\Travelport\UProfile\ProfileTemplate
+     * @return \Santosdave\Travelport\UProfile\ProfileTemplate
      */
     public function setCustomField($CustomField)
     {
@@ -127,7 +127,7 @@ class ProfileTemplate
 
     /**
      * @param CustomFieldGroup $CustomFieldGroup
-     * @return \FilippoToso\Travelport\UProfile\ProfileTemplate
+     * @return \Santosdave\Travelport\UProfile\ProfileTemplate
      */
     public function setCustomFieldGroup($CustomFieldGroup)
     {
@@ -145,7 +145,7 @@ class ProfileTemplate
 
     /**
      * @param OverrideDefinition $OverrideDefinition
-     * @return \FilippoToso\Travelport\UProfile\ProfileTemplate
+     * @return \Santosdave\Travelport\UProfile\ProfileTemplate
      */
     public function setOverrideDefinition($OverrideDefinition)
     {
@@ -163,7 +163,7 @@ class ProfileTemplate
 
     /**
      * @param typeTemplateID $ID
-     * @return \FilippoToso\Travelport\UProfile\ProfileTemplate
+     * @return \Santosdave\Travelport\UProfile\ProfileTemplate
      */
     public function setID($ID)
     {
@@ -181,7 +181,7 @@ class ProfileTemplate
 
     /**
      * @param typeTemplateName $Name
-     * @return \FilippoToso\Travelport\UProfile\ProfileTemplate
+     * @return \Santosdave\Travelport\UProfile\ProfileTemplate
      */
     public function setName($Name)
     {
@@ -199,7 +199,7 @@ class ProfileTemplate
 
     /**
      * @param typeTemplateDescription $Description
-     * @return \FilippoToso\Travelport\UProfile\ProfileTemplate
+     * @return \Santosdave\Travelport\UProfile\ProfileTemplate
      */
     public function setDescription($Description)
     {
@@ -217,7 +217,7 @@ class ProfileTemplate
 
     /**
      * @param typeVersion $Version
-     * @return \FilippoToso\Travelport\UProfile\ProfileTemplate
+     * @return \Santosdave\Travelport\UProfile\ProfileTemplate
      */
     public function setVersion($Version)
     {
@@ -235,7 +235,7 @@ class ProfileTemplate
 
     /**
      * @param typeTemplateID $BaseTemplateID
-     * @return \FilippoToso\Travelport\UProfile\ProfileTemplate
+     * @return \Santosdave\Travelport\UProfile\ProfileTemplate
      */
     public function setBaseTemplateID($BaseTemplateID)
     {
@@ -253,7 +253,7 @@ class ProfileTemplate
 
     /**
      * @param typeProfileID $OwnerProfileID
-     * @return \FilippoToso\Travelport\UProfile\ProfileTemplate
+     * @return \Santosdave\Travelport\UProfile\ProfileTemplate
      */
     public function setOwnerProfileID($OwnerProfileID)
     {

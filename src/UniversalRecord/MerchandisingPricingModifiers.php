@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class MerchandisingPricingModifiers
 {
@@ -28,7 +28,7 @@ class MerchandisingPricingModifiers
 
     /**
      * @param AccountCode $AccountCode
-     * @return \FilippoToso\Travelport\UniversalRecord\MerchandisingPricingModifiers
+     * @return \Santosdave\Travelport\UniversalRecord\MerchandisingPricingModifiers
      */
     public function setAccountCode($AccountCode)
     {

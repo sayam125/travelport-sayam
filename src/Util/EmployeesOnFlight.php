@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class EmployeesOnFlight
 {
@@ -70,7 +70,7 @@ class EmployeesOnFlight
 
     /**
      * @param Name $Name
-     * @return \FilippoToso\Travelport\Util\EmployeesOnFlight
+     * @return \Santosdave\Travelport\Util\EmployeesOnFlight
      */
     public function setName($Name)
     {
@@ -88,7 +88,7 @@ class EmployeesOnFlight
 
     /**
      * @param typeLocatorCode $UniversalRecordLocator
-     * @return \FilippoToso\Travelport\Util\EmployeesOnFlight
+     * @return \Santosdave\Travelport\Util\EmployeesOnFlight
      */
     public function setUniversalRecordLocator($UniversalRecordLocator)
     {
@@ -106,7 +106,7 @@ class EmployeesOnFlight
 
     /**
      * @param typeIATACode $Destination
-     * @return \FilippoToso\Travelport\Util\EmployeesOnFlight
+     * @return \Santosdave\Travelport\Util\EmployeesOnFlight
      */
     public function setDestination($Destination)
     {
@@ -124,7 +124,7 @@ class EmployeesOnFlight
 
     /**
      * @param typeIATACode $Origin
-     * @return \FilippoToso\Travelport\Util\EmployeesOnFlight
+     * @return \Santosdave\Travelport\Util\EmployeesOnFlight
      */
     public function setOrigin($Origin)
     {
@@ -142,7 +142,7 @@ class EmployeesOnFlight
 
     /**
      * @param date $DepartureDate
-     * @return \FilippoToso\Travelport\Util\EmployeesOnFlight
+     * @return \Santosdave\Travelport\Util\EmployeesOnFlight
      */
     public function setDepartureDate($DepartureDate)
     {
@@ -160,7 +160,7 @@ class EmployeesOnFlight
 
     /**
      * @param string $FlightNumber
-     * @return \FilippoToso\Travelport\Util\EmployeesOnFlight
+     * @return \Santosdave\Travelport\Util\EmployeesOnFlight
      */
     public function setFlightNumber($FlightNumber)
     {
@@ -178,7 +178,7 @@ class EmployeesOnFlight
 
     /**
      * @param typeCarrier $Carrier
-     * @return \FilippoToso\Travelport\Util\EmployeesOnFlight
+     * @return \Santosdave\Travelport\Util\EmployeesOnFlight
      */
     public function setCarrier($Carrier)
     {

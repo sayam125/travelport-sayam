@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class PassengerSeatPrice
 {
@@ -35,7 +35,7 @@ class PassengerSeatPrice
 
     /**
      * @param typeRef $BookingTravelerRef
-     * @return \FilippoToso\Travelport\GDSQueue\PassengerSeatPrice
+     * @return \Santosdave\Travelport\GDSQueue\PassengerSeatPrice
      */
     public function setBookingTravelerRef($BookingTravelerRef)
     {
@@ -53,7 +53,7 @@ class PassengerSeatPrice
 
     /**
      * @param typeMoney $Amount
-     * @return \FilippoToso\Travelport\GDSQueue\PassengerSeatPrice
+     * @return \Santosdave\Travelport\GDSQueue\PassengerSeatPrice
      */
     public function setAmount($Amount)
     {

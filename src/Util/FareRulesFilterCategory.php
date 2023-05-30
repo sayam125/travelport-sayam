@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class FareRulesFilterCategory
 {
@@ -35,7 +35,7 @@ class FareRulesFilterCategory
 
     /**
      * @param string[] $CategoryCode
-     * @return \FilippoToso\Travelport\Util\FareRulesFilterCategory
+     * @return \Santosdave\Travelport\Util\FareRulesFilterCategory
      */
     public function setCategoryCode(array $CategoryCode)
     {
@@ -53,7 +53,7 @@ class FareRulesFilterCategory
 
     /**
      * @param string $FareInfoRef
-     * @return \FilippoToso\Travelport\Util\FareRulesFilterCategory
+     * @return \Santosdave\Travelport\Util\FareRulesFilterCategory
      */
     public function setFareInfoRef($FareInfoRef)
     {

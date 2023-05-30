@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class typeHotelRateDescription
 {
@@ -35,7 +35,7 @@ class typeHotelRateDescription
 
     /**
      * @param Text[] $Text
-     * @return \FilippoToso\Travelport\Rail\typeHotelRateDescription
+     * @return \Santosdave\Travelport\Rail\typeHotelRateDescription
      */
     public function setText(array $Text)
     {
@@ -53,7 +53,7 @@ class typeHotelRateDescription
 
     /**
      * @param string $Name
-     * @return \FilippoToso\Travelport\Rail\typeHotelRateDescription
+     * @return \Santosdave\Travelport\Rail\typeHotelRateDescription
      */
     public function setName($Name)
     {

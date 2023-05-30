@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class VehicleRateInfo
 {
@@ -42,7 +42,7 @@ class VehicleRateInfo
 
     /**
      * @param string $TourCode
-     * @return \FilippoToso\Travelport\Rail\VehicleRateInfo
+     * @return \Santosdave\Travelport\Rail\VehicleRateInfo
      */
     public function setTourCode($TourCode)
     {
@@ -60,7 +60,7 @@ class VehicleRateInfo
 
     /**
      * @param typeDiscountNumber $DiscountNumber
-     * @return \FilippoToso\Travelport\Rail\VehicleRateInfo
+     * @return \Santosdave\Travelport\Rail\VehicleRateInfo
      */
     public function setDiscountNumber($DiscountNumber)
     {
@@ -78,7 +78,7 @@ class VehicleRateInfo
 
     /**
      * @param string $PromotionalCode
-     * @return \FilippoToso\Travelport\Rail\VehicleRateInfo
+     * @return \Santosdave\Travelport\Rail\VehicleRateInfo
      */
     public function setPromotionalCode($PromotionalCode)
     {

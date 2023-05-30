@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class AirPrePayRsp extends BaseRsp
 {
@@ -55,7 +55,7 @@ class AirPrePayRsp extends BaseRsp
 
     /**
      * @param PrePayProfileInfo $PrePayProfileInfo
-     * @return \FilippoToso\Travelport\Air\AirPrePayRsp
+     * @return \Santosdave\Travelport\Air\AirPrePayRsp
      */
     public function setPrePayProfileInfo($PrePayProfileInfo)
     {
@@ -73,7 +73,7 @@ class AirPrePayRsp extends BaseRsp
 
     /**
      * @param typeMaxResults $MaxResults
-     * @return \FilippoToso\Travelport\Air\AirPrePayRsp
+     * @return \Santosdave\Travelport\Air\AirPrePayRsp
      */
     public function setMaxResults($MaxResults)
     {
@@ -91,7 +91,7 @@ class AirPrePayRsp extends BaseRsp
 
     /**
      * @param boolean $MoreIndicator
-     * @return \FilippoToso\Travelport\Air\AirPrePayRsp
+     * @return \Santosdave\Travelport\Air\AirPrePayRsp
      */
     public function setMoreIndicator($MoreIndicator)
     {
@@ -109,7 +109,7 @@ class AirPrePayRsp extends BaseRsp
 
     /**
      * @param string $MoreDataStartIndex
-     * @return \FilippoToso\Travelport\Air\AirPrePayRsp
+     * @return \Santosdave\Travelport\Air\AirPrePayRsp
      */
     public function setMoreDataStartIndex($MoreDataStartIndex)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\System;
+namespace Santosdave\Travelport\System;
 
 class SecondaryTypeRule
 {
@@ -33,7 +33,7 @@ class SecondaryTypeRule
 
     /**
      * @param OptionalServiceApplicationLimitType[] $ApplicationLimit
-     * @return \FilippoToso\Travelport\System\SecondaryTypeRule
+     * @return \Santosdave\Travelport\System\SecondaryTypeRule
      */
     public function setApplicationLimit(array $ApplicationLimit = null)
     {
@@ -51,7 +51,7 @@ class SecondaryTypeRule
 
     /**
      * @param typeRef $SecondaryType
-     * @return \FilippoToso\Travelport\System\SecondaryTypeRule
+     * @return \Santosdave\Travelport\System\SecondaryTypeRule
      */
     public function setSecondaryType($SecondaryType)
     {

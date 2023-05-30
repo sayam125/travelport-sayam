@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class DisfavoredAlliances
 {
@@ -28,7 +28,7 @@ class DisfavoredAlliances
 
     /**
      * @param Alliance $Alliance
-     * @return \FilippoToso\Travelport\Air\DisfavoredAlliances
+     * @return \Santosdave\Travelport\Air\DisfavoredAlliances
      */
     public function setAlliance($Alliance)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Vehicle;
+namespace Santosdave\Travelport\Vehicle;
 
 class BaseAsyncProviderSpecificResponse
 {
@@ -35,7 +35,7 @@ class BaseAsyncProviderSpecificResponse
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\Vehicle\BaseAsyncProviderSpecificResponse
+     * @return \Santosdave\Travelport\Vehicle\BaseAsyncProviderSpecificResponse
      */
     public function setProviderCode($ProviderCode)
     {
@@ -53,7 +53,7 @@ class BaseAsyncProviderSpecificResponse
 
     /**
      * @param boolean $MoreResults
-     * @return \FilippoToso\Travelport\Vehicle\BaseAsyncProviderSpecificResponse
+     * @return \Santosdave\Travelport\Vehicle\BaseAsyncProviderSpecificResponse
      */
     public function setMoreResults($MoreResults)
     {

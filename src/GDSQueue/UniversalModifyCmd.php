@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class UniversalModifyCmd
 {
@@ -133,7 +133,7 @@ class UniversalModifyCmd
 
     /**
      * @param VehicleAdd $VehicleAdd
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalModifyCmd
+     * @return \Santosdave\Travelport\GDSQueue\UniversalModifyCmd
      */
     public function setVehicleAdd($VehicleAdd)
     {
@@ -151,7 +151,7 @@ class UniversalModifyCmd
 
     /**
      * @param VehicleDelete $VehicleDelete
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalModifyCmd
+     * @return \Santosdave\Travelport\GDSQueue\UniversalModifyCmd
      */
     public function setVehicleDelete($VehicleDelete)
     {
@@ -169,7 +169,7 @@ class UniversalModifyCmd
 
     /**
      * @param VehicleUpdate $VehicleUpdate
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalModifyCmd
+     * @return \Santosdave\Travelport\GDSQueue\UniversalModifyCmd
      */
     public function setVehicleUpdate($VehicleUpdate)
     {
@@ -187,7 +187,7 @@ class UniversalModifyCmd
 
     /**
      * @param AirAdd $AirAdd
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalModifyCmd
+     * @return \Santosdave\Travelport\GDSQueue\UniversalModifyCmd
      */
     public function setAirAdd($AirAdd)
     {
@@ -205,7 +205,7 @@ class UniversalModifyCmd
 
     /**
      * @param AirDelete $AirDelete
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalModifyCmd
+     * @return \Santosdave\Travelport\GDSQueue\UniversalModifyCmd
      */
     public function setAirDelete($AirDelete)
     {
@@ -223,7 +223,7 @@ class UniversalModifyCmd
 
     /**
      * @param AirUpdate $AirUpdate
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalModifyCmd
+     * @return \Santosdave\Travelport\GDSQueue\UniversalModifyCmd
      */
     public function setAirUpdate($AirUpdate)
     {
@@ -241,7 +241,7 @@ class UniversalModifyCmd
 
     /**
      * @param UniversalAdd $UniversalAdd
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalModifyCmd
+     * @return \Santosdave\Travelport\GDSQueue\UniversalModifyCmd
      */
     public function setUniversalAdd($UniversalAdd)
     {
@@ -259,7 +259,7 @@ class UniversalModifyCmd
 
     /**
      * @param UniversalDelete $UniversalDelete
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalModifyCmd
+     * @return \Santosdave\Travelport\GDSQueue\UniversalModifyCmd
      */
     public function setUniversalDelete($UniversalDelete)
     {
@@ -277,7 +277,7 @@ class UniversalModifyCmd
 
     /**
      * @param UniversalUpdate $UniversalUpdate
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalModifyCmd
+     * @return \Santosdave\Travelport\GDSQueue\UniversalModifyCmd
      */
     public function setUniversalUpdate($UniversalUpdate)
     {
@@ -295,7 +295,7 @@ class UniversalModifyCmd
 
     /**
      * @param HotelAdd $HotelAdd
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalModifyCmd
+     * @return \Santosdave\Travelport\GDSQueue\UniversalModifyCmd
      */
     public function setHotelAdd($HotelAdd)
     {
@@ -313,7 +313,7 @@ class UniversalModifyCmd
 
     /**
      * @param HotelUpdate $HotelUpdate
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalModifyCmd
+     * @return \Santosdave\Travelport\GDSQueue\UniversalModifyCmd
      */
     public function setHotelUpdate($HotelUpdate)
     {
@@ -331,7 +331,7 @@ class UniversalModifyCmd
 
     /**
      * @param HotelDelete $HotelDelete
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalModifyCmd
+     * @return \Santosdave\Travelport\GDSQueue\UniversalModifyCmd
      */
     public function setHotelDelete($HotelDelete)
     {
@@ -349,7 +349,7 @@ class UniversalModifyCmd
 
     /**
      * @param PassiveAdd $PassiveAdd
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalModifyCmd
+     * @return \Santosdave\Travelport\GDSQueue\UniversalModifyCmd
      */
     public function setPassiveAdd($PassiveAdd)
     {
@@ -367,7 +367,7 @@ class UniversalModifyCmd
 
     /**
      * @param PassiveDelete $PassiveDelete
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalModifyCmd
+     * @return \Santosdave\Travelport\GDSQueue\UniversalModifyCmd
      */
     public function setPassiveDelete($PassiveDelete)
     {
@@ -385,7 +385,7 @@ class UniversalModifyCmd
 
     /**
      * @param RailUpdate $RailUpdate
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalModifyCmd
+     * @return \Santosdave\Travelport\GDSQueue\UniversalModifyCmd
      */
     public function setRailUpdate($RailUpdate)
     {
@@ -403,7 +403,7 @@ class UniversalModifyCmd
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalModifyCmd
+     * @return \Santosdave\Travelport\GDSQueue\UniversalModifyCmd
      */
     public function setKey($Key)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class ModifyFieldGroup
 {
@@ -91,7 +91,7 @@ class ModifyFieldGroup
 
     /**
      * @param ModifyField $ModifyField
-     * @return \FilippoToso\Travelport\UProfile\ModifyFieldGroup
+     * @return \Santosdave\Travelport\UProfile\ModifyFieldGroup
      */
     public function setModifyField($ModifyField)
     {
@@ -109,7 +109,7 @@ class ModifyFieldGroup
 
     /**
      * @param typeID $ID
-     * @return \FilippoToso\Travelport\UProfile\ModifyFieldGroup
+     * @return \Santosdave\Travelport\UProfile\ModifyFieldGroup
      */
     public function setID($ID)
     {
@@ -127,7 +127,7 @@ class ModifyFieldGroup
 
     /**
      * @param typeUpdateAction $Action
-     * @return \FilippoToso\Travelport\UProfile\ModifyFieldGroup
+     * @return \Santosdave\Travelport\UProfile\ModifyFieldGroup
      */
     public function setAction($Action)
     {
@@ -145,7 +145,7 @@ class ModifyFieldGroup
 
     /**
      * @param boolean $Force
-     * @return \FilippoToso\Travelport\UProfile\ModifyFieldGroup
+     * @return \Santosdave\Travelport\UProfile\ModifyFieldGroup
      */
     public function setForce($Force)
     {
@@ -163,7 +163,7 @@ class ModifyFieldGroup
 
     /**
      * @param typeFieldName $Name
-     * @return \FilippoToso\Travelport\UProfile\ModifyFieldGroup
+     * @return \Santosdave\Travelport\UProfile\ModifyFieldGroup
      */
     public function setName($Name)
     {
@@ -181,7 +181,7 @@ class ModifyFieldGroup
 
     /**
      * @param StringLength1to255 $Description
-     * @return \FilippoToso\Travelport\UProfile\ModifyFieldGroup
+     * @return \Santosdave\Travelport\UProfile\ModifyFieldGroup
      */
     public function setDescription($Description)
     {
@@ -199,7 +199,7 @@ class ModifyFieldGroup
 
     /**
      * @param boolean $Protected
-     * @return \FilippoToso\Travelport\UProfile\ModifyFieldGroup
+     * @return \Santosdave\Travelport\UProfile\ModifyFieldGroup
      */
     public function setProtected($Protected)
     {
@@ -217,7 +217,7 @@ class ModifyFieldGroup
 
     /**
      * @param boolean $Inheritable
-     * @return \FilippoToso\Travelport\UProfile\ModifyFieldGroup
+     * @return \Santosdave\Travelport\UProfile\ModifyFieldGroup
      */
     public function setInheritable($Inheritable)
     {
@@ -235,7 +235,7 @@ class ModifyFieldGroup
 
     /**
      * @param int $MinOccurs
-     * @return \FilippoToso\Travelport\UProfile\ModifyFieldGroup
+     * @return \Santosdave\Travelport\UProfile\ModifyFieldGroup
      */
     public function setMinOccurs($MinOccurs)
     {
@@ -253,7 +253,7 @@ class ModifyFieldGroup
 
     /**
      * @param int $MaxOccurs
-     * @return \FilippoToso\Travelport\UProfile\ModifyFieldGroup
+     * @return \Santosdave\Travelport\UProfile\ModifyFieldGroup
      */
     public function setMaxOccurs($MaxOccurs)
     {

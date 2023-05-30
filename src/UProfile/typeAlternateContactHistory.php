@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeAlternateContactHistory extends typeKeyElement
 {
@@ -65,7 +65,7 @@ class typeAlternateContactHistory extends typeKeyElement
 
     /**
      * @param typeContactType $Type
-     * @return \FilippoToso\Travelport\UProfile\typeAlternateContactHistory
+     * @return \Santosdave\Travelport\UProfile\typeAlternateContactHistory
      */
     public function setType($Type)
     {
@@ -83,7 +83,7 @@ class typeAlternateContactHistory extends typeKeyElement
 
     /**
      * @param StringLength1to128 $GivenName
-     * @return \FilippoToso\Travelport\UProfile\typeAlternateContactHistory
+     * @return \Santosdave\Travelport\UProfile\typeAlternateContactHistory
      */
     public function setGivenName($GivenName)
     {
@@ -101,7 +101,7 @@ class typeAlternateContactHistory extends typeKeyElement
 
     /**
      * @param StringLength1to128 $Surname
-     * @return \FilippoToso\Travelport\UProfile\typeAlternateContactHistory
+     * @return \Santosdave\Travelport\UProfile\typeAlternateContactHistory
      */
     public function setSurname($Surname)
     {
@@ -119,7 +119,7 @@ class typeAlternateContactHistory extends typeKeyElement
 
     /**
      * @param StringLength1to128 $OtherName
-     * @return \FilippoToso\Travelport\UProfile\typeAlternateContactHistory
+     * @return \Santosdave\Travelport\UProfile\typeAlternateContactHistory
      */
     public function setOtherName($OtherName)
     {
@@ -137,7 +137,7 @@ class typeAlternateContactHistory extends typeKeyElement
 
     /**
      * @param StringLength1to128 $Nickname
-     * @return \FilippoToso\Travelport\UProfile\typeAlternateContactHistory
+     * @return \Santosdave\Travelport\UProfile\typeAlternateContactHistory
      */
     public function setNickname($Nickname)
     {
@@ -155,7 +155,7 @@ class typeAlternateContactHistory extends typeKeyElement
 
     /**
      * @param typePriorityOrder $PriorityOrder
-     * @return \FilippoToso\Travelport\UProfile\typeAlternateContactHistory
+     * @return \Santosdave\Travelport\UProfile\typeAlternateContactHistory
      */
     public function setPriorityOrder($PriorityOrder)
     {

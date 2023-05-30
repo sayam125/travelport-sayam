@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class ProfileCreateTagsRsp extends BaseRsp
 {
@@ -34,7 +34,7 @@ class ProfileCreateTagsRsp extends BaseRsp
 
     /**
      * @param Tag $Tag
-     * @return \FilippoToso\Travelport\UProfile\ProfileCreateTagsRsp
+     * @return \Santosdave\Travelport\UProfile\ProfileCreateTagsRsp
      */
     public function setTag($Tag)
     {

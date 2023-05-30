@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class Aggregator
 {
@@ -28,7 +28,7 @@ class Aggregator
 
     /**
      * @param typeThirdPartySupplier $Name
-     * @return \FilippoToso\Travelport\Rail\Aggregator
+     * @return \Santosdave\Travelport\Rail\Aggregator
      */
     public function setName($Name)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Terminal;
+namespace Santosdave\Travelport\Terminal;
 
 class State
 {
@@ -28,7 +28,7 @@ class State
 
     /**
      * @param string $_
-     * @return \FilippoToso\Travelport\Terminal\State
+     * @return \Santosdave\Travelport\Terminal\State
      */
     public function set_($_)
     {

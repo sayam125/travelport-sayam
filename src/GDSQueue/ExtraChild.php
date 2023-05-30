@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class ExtraChild
 {
@@ -35,7 +35,7 @@ class ExtraChild
 
     /**
      * @param int $Count
-     * @return \FilippoToso\Travelport\GDSQueue\ExtraChild
+     * @return \Santosdave\Travelport\GDSQueue\ExtraChild
      */
     public function setCount($Count)
     {
@@ -53,7 +53,7 @@ class ExtraChild
 
     /**
      * @param string $Content
-     * @return \FilippoToso\Travelport\GDSQueue\ExtraChild
+     * @return \Santosdave\Travelport\GDSQueue\ExtraChild
      */
     public function setContent($Content)
     {

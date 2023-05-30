@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class HotelUpdate
 {
@@ -140,7 +140,7 @@ class HotelUpdate
 
     /**
      * @param LoyaltyCard $LoyaltyCard
-     * @return \FilippoToso\Travelport\Rail\HotelUpdate
+     * @return \Santosdave\Travelport\Rail\HotelUpdate
      */
     public function setLoyaltyCard($LoyaltyCard)
     {
@@ -158,7 +158,7 @@ class HotelUpdate
 
     /**
      * @param Guarantee $Guarantee
-     * @return \FilippoToso\Travelport\Rail\HotelUpdate
+     * @return \Santosdave\Travelport\Rail\HotelUpdate
      */
     public function setGuarantee($Guarantee)
     {
@@ -176,7 +176,7 @@ class HotelUpdate
 
     /**
      * @param GuestInformation $GuestInformation
-     * @return \FilippoToso\Travelport\Rail\HotelUpdate
+     * @return \Santosdave\Travelport\Rail\HotelUpdate
      */
     public function setGuestInformation($GuestInformation)
     {
@@ -194,7 +194,7 @@ class HotelUpdate
 
     /**
      * @param AssociatedRemark $AssociatedRemark
-     * @return \FilippoToso\Travelport\Rail\HotelUpdate
+     * @return \Santosdave\Travelport\Rail\HotelUpdate
      */
     public function setAssociatedRemark($AssociatedRemark)
     {
@@ -212,7 +212,7 @@ class HotelUpdate
 
     /**
      * @param BookingSource $BookingSource
-     * @return \FilippoToso\Travelport\Rail\HotelUpdate
+     * @return \Santosdave\Travelport\Rail\HotelUpdate
      */
     public function setBookingSource($BookingSource)
     {
@@ -230,7 +230,7 @@ class HotelUpdate
 
     /**
      * @param typeGeneralText $HotelSpecialRequest
-     * @return \FilippoToso\Travelport\Rail\HotelUpdate
+     * @return \Santosdave\Travelport\Rail\HotelUpdate
      */
     public function setHotelSpecialRequest($HotelSpecialRequest)
     {
@@ -248,7 +248,7 @@ class HotelUpdate
 
     /**
      * @param HotelRateInfo $HotelRateInfo
-     * @return \FilippoToso\Travelport\Rail\HotelUpdate
+     * @return \Santosdave\Travelport\Rail\HotelUpdate
      */
     public function setHotelRateInfo($HotelRateInfo)
     {
@@ -266,7 +266,7 @@ class HotelUpdate
 
     /**
      * @param HotelStay $HotelStay
-     * @return \FilippoToso\Travelport\Rail\HotelUpdate
+     * @return \Santosdave\Travelport\Rail\HotelUpdate
      */
     public function setHotelStay($HotelStay)
     {
@@ -284,7 +284,7 @@ class HotelUpdate
 
     /**
      * @param string $HotelCommission
-     * @return \FilippoToso\Travelport\Rail\HotelUpdate
+     * @return \Santosdave\Travelport\Rail\HotelUpdate
      */
     public function setHotelCommission($HotelCommission)
     {
@@ -302,7 +302,7 @@ class HotelUpdate
 
     /**
      * @param CorporateDiscountID $CorporateDiscountID
-     * @return \FilippoToso\Travelport\Rail\HotelUpdate
+     * @return \Santosdave\Travelport\Rail\HotelUpdate
      */
     public function setCorporateDiscountID($CorporateDiscountID)
     {
@@ -320,7 +320,7 @@ class HotelUpdate
 
     /**
      * @param ReservationName $ReservationName
-     * @return \FilippoToso\Travelport\Rail\HotelUpdate
+     * @return \Santosdave\Travelport\Rail\HotelUpdate
      */
     public function setReservationName($ReservationName)
     {
@@ -338,7 +338,7 @@ class HotelUpdate
 
     /**
      * @param ThirdPartyInformation $ThirdPartyInformation
-     * @return \FilippoToso\Travelport\Rail\HotelUpdate
+     * @return \Santosdave\Travelport\Rail\HotelUpdate
      */
     public function setThirdPartyInformation($ThirdPartyInformation)
     {
@@ -356,7 +356,7 @@ class HotelUpdate
 
     /**
      * @param TravelComplianceData $TravelComplianceData
-     * @return \FilippoToso\Travelport\Rail\HotelUpdate
+     * @return \Santosdave\Travelport\Rail\HotelUpdate
      */
     public function setTravelComplianceData($TravelComplianceData)
     {
@@ -374,7 +374,7 @@ class HotelUpdate
 
     /**
      * @param HotelBedding $HotelBedding
-     * @return \FilippoToso\Travelport\Rail\HotelUpdate
+     * @return \Santosdave\Travelport\Rail\HotelUpdate
      */
     public function setHotelBedding($HotelBedding)
     {
@@ -392,7 +392,7 @@ class HotelUpdate
 
     /**
      * @param BookingConfirmation $BookingConfirmation
-     * @return \FilippoToso\Travelport\Rail\HotelUpdate
+     * @return \Santosdave\Travelport\Rail\HotelUpdate
      */
     public function setBookingConfirmation($BookingConfirmation)
     {
@@ -410,7 +410,7 @@ class HotelUpdate
 
     /**
      * @param typeLocatorCode $ReservationLocatorCode
-     * @return \FilippoToso\Travelport\Rail\HotelUpdate
+     * @return \Santosdave\Travelport\Rail\HotelUpdate
      */
     public function setReservationLocatorCode($ReservationLocatorCode)
     {
@@ -428,7 +428,7 @@ class HotelUpdate
 
     /**
      * @param typeRef $BookingTravelerRef
-     * @return \FilippoToso\Travelport\Rail\HotelUpdate
+     * @return \Santosdave\Travelport\Rail\HotelUpdate
      */
     public function setBookingTravelerRef($BookingTravelerRef)
     {

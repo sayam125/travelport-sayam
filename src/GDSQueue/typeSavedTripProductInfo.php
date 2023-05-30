@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class typeSavedTripProductInfo
 {
@@ -42,7 +42,7 @@ class typeSavedTripProductInfo
 
     /**
      * @param typeProduct $ProductType
-     * @return \FilippoToso\Travelport\GDSQueue\typeSavedTripProductInfo
+     * @return \Santosdave\Travelport\GDSQueue\typeSavedTripProductInfo
      */
     public function setProductType($ProductType)
     {
@@ -60,7 +60,7 @@ class typeSavedTripProductInfo
 
     /**
      * @param string $VendorCode
-     * @return \FilippoToso\Travelport\GDSQueue\typeSavedTripProductInfo
+     * @return \Santosdave\Travelport\GDSQueue\typeSavedTripProductInfo
      */
     public function setVendorCode($VendorCode)
     {
@@ -78,7 +78,7 @@ class typeSavedTripProductInfo
 
     /**
      * @param string $ProviderCode
-     * @return \FilippoToso\Travelport\GDSQueue\typeSavedTripProductInfo
+     * @return \Santosdave\Travelport\GDSQueue\typeSavedTripProductInfo
      */
     public function setProviderCode($ProviderCode)
     {

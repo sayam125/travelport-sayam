@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class WaiverCode
 {
@@ -42,7 +42,7 @@ class WaiverCode
 
     /**
      * @param typeTourCode $TourCode
-     * @return \FilippoToso\Travelport\GDSQueue\WaiverCode
+     * @return \Santosdave\Travelport\GDSQueue\WaiverCode
      */
     public function setTourCode($TourCode)
     {
@@ -60,7 +60,7 @@ class WaiverCode
 
     /**
      * @param typeTicketDesignator $TicketDesignator
-     * @return \FilippoToso\Travelport\GDSQueue\WaiverCode
+     * @return \Santosdave\Travelport\GDSQueue\WaiverCode
      */
     public function setTicketDesignator($TicketDesignator)
     {
@@ -78,7 +78,7 @@ class WaiverCode
 
     /**
      * @param anonymous791 $Endorsement
-     * @return \FilippoToso\Travelport\GDSQueue\WaiverCode
+     * @return \Santosdave\Travelport\GDSQueue\WaiverCode
      */
     public function setEndorsement($Endorsement)
     {

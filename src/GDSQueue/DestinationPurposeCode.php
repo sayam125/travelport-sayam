@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class DestinationPurposeCode
 {
@@ -35,7 +35,7 @@ class DestinationPurposeCode
 
     /**
      * @param typeDestinationCode $Destination
-     * @return \FilippoToso\Travelport\GDSQueue\DestinationPurposeCode
+     * @return \Santosdave\Travelport\GDSQueue\DestinationPurposeCode
      */
     public function setDestination($Destination)
     {
@@ -53,7 +53,7 @@ class DestinationPurposeCode
 
     /**
      * @param typePurposeCode $Purpose
-     * @return \FilippoToso\Travelport\GDSQueue\DestinationPurposeCode
+     * @return \Santosdave\Travelport\GDSQueue\DestinationPurposeCode
      */
     public function setPurpose($Purpose)
     {

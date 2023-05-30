@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class AirExchangeBundleTotal
 {
@@ -35,7 +35,7 @@ class AirExchangeBundleTotal
 
     /**
      * @param AirExchangeInfo $AirExchangeInfo
-     * @return \FilippoToso\Travelport\Air\AirExchangeBundleTotal
+     * @return \Santosdave\Travelport\Air\AirExchangeBundleTotal
      */
     public function setAirExchangeInfo($AirExchangeInfo)
     {
@@ -53,7 +53,7 @@ class AirExchangeBundleTotal
 
     /**
      * @param Penalty $Penalty
-     * @return \FilippoToso\Travelport\Air\AirExchangeBundleTotal
+     * @return \Santosdave\Travelport\Air\AirExchangeBundleTotal
      */
     public function setPenalty($Penalty)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\System;
+namespace Santosdave\Travelport\System;
 
 class typeVendorLocation
 {
@@ -49,7 +49,7 @@ class typeVendorLocation
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\System\typeVendorLocation
+     * @return \Santosdave\Travelport\System\typeVendorLocation
      */
     public function setProviderCode($ProviderCode)
     {
@@ -67,7 +67,7 @@ class typeVendorLocation
 
     /**
      * @param typeSupplierCode $VendorCode
-     * @return \FilippoToso\Travelport\System\typeVendorLocation
+     * @return \Santosdave\Travelport\System\typeVendorLocation
      */
     public function setVendorCode($VendorCode)
     {
@@ -85,7 +85,7 @@ class typeVendorLocation
 
     /**
      * @param anonymous4 $VendorLocationID
-     * @return \FilippoToso\Travelport\System\typeVendorLocation
+     * @return \Santosdave\Travelport\System\typeVendorLocation
      */
     public function setVendorLocationID($VendorLocationID)
     {
@@ -103,7 +103,7 @@ class typeVendorLocation
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\System\typeVendorLocation
+     * @return \Santosdave\Travelport\System\typeVendorLocation
      */
     public function setKey($Key)
     {

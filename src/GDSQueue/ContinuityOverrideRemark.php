@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class ContinuityOverrideRemark
 {
@@ -35,7 +35,7 @@ class ContinuityOverrideRemark
 
     /**
      * @param string $_
-     * @return \FilippoToso\Travelport\GDSQueue\ContinuityOverrideRemark
+     * @return \Santosdave\Travelport\GDSQueue\ContinuityOverrideRemark
      */
     public function set_($_)
     {
@@ -53,7 +53,7 @@ class ContinuityOverrideRemark
 
     /**
      * @param anonymous1404 $Category
-     * @return \FilippoToso\Travelport\GDSQueue\ContinuityOverrideRemark
+     * @return \Santosdave\Travelport\GDSQueue\ContinuityOverrideRemark
      */
     public function setCategory($Category)
     {

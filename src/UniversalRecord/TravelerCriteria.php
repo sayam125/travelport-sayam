@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class TravelerCriteria
 {
@@ -49,7 +49,7 @@ class TravelerCriteria
 
     /**
      * @param NameCriteria $NameCriteria
-     * @return \FilippoToso\Travelport\UniversalRecord\TravelerCriteria
+     * @return \Santosdave\Travelport\UniversalRecord\TravelerCriteria
      */
     public function setNameCriteria($NameCriteria)
     {
@@ -67,7 +67,7 @@ class TravelerCriteria
 
     /**
      * @param AppliedProfileCriteria $AppliedProfileCriteria
-     * @return \FilippoToso\Travelport\UniversalRecord\TravelerCriteria
+     * @return \Santosdave\Travelport\UniversalRecord\TravelerCriteria
      */
     public function setAppliedProfileCriteria($AppliedProfileCriteria)
     {
@@ -85,7 +85,7 @@ class TravelerCriteria
 
     /**
      * @param string $PhoneNumber
-     * @return \FilippoToso\Travelport\UniversalRecord\TravelerCriteria
+     * @return \Santosdave\Travelport\UniversalRecord\TravelerCriteria
      */
     public function setPhoneNumber($PhoneNumber)
     {
@@ -103,7 +103,7 @@ class TravelerCriteria
 
     /**
      * @param boolean $VIPOnly
-     * @return \FilippoToso\Travelport\UniversalRecord\TravelerCriteria
+     * @return \Santosdave\Travelport\UniversalRecord\TravelerCriteria
      */
     public function setVIPOnly($VIPOnly)
     {

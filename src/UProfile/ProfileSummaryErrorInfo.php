@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class ProfileSummaryErrorInfo extends typeErrorInfo
 {
@@ -42,7 +42,7 @@ class ProfileSummaryErrorInfo extends typeErrorInfo
 
     /**
      * @param ProfileSummary[] $ProfileSummary
-     * @return \FilippoToso\Travelport\UProfile\ProfileSummaryErrorInfo
+     * @return \Santosdave\Travelport\UProfile\ProfileSummaryErrorInfo
      */
     public function setProfileSummary(array $ProfileSummary)
     {
@@ -60,7 +60,7 @@ class ProfileSummaryErrorInfo extends typeErrorInfo
 
     /**
      * @param int $NumberOfChildren
-     * @return \FilippoToso\Travelport\UProfile\ProfileSummaryErrorInfo
+     * @return \Santosdave\Travelport\UProfile\ProfileSummaryErrorInfo
      */
     public function setNumberOfChildren($NumberOfChildren)
     {

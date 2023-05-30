@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class typePolicyCodesList
 {
@@ -36,7 +36,7 @@ class typePolicyCodesList
 
     /**
      * @param PolicyCode[] $PolicyCode
-     * @return \FilippoToso\Travelport\UniversalRecord\typePolicyCodesList
+     * @return \Santosdave\Travelport\UniversalRecord\typePolicyCodesList
      */
     public function setPolicyCode(array $PolicyCode = null)
     {
@@ -54,7 +54,7 @@ class typePolicyCodesList
 
     /**
      * @param MinPolicyCode[] $MinPolicyCode
-     * @return \FilippoToso\Travelport\UniversalRecord\typePolicyCodesList
+     * @return \Santosdave\Travelport\UniversalRecord\typePolicyCodesList
      */
     public function setMinPolicyCode(array $MinPolicyCode = null)
     {
@@ -72,7 +72,7 @@ class typePolicyCodesList
 
     /**
      * @param MaxPolicyCode[] $MaxPolicyCode
-     * @return \FilippoToso\Travelport\UniversalRecord\typePolicyCodesList
+     * @return \Santosdave\Travelport\UniversalRecord\typePolicyCodesList
      */
     public function setMaxPolicyCode(array $MaxPolicyCode = null)
     {

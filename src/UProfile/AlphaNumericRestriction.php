@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class AlphaNumericRestriction
 {
@@ -28,7 +28,7 @@ class AlphaNumericRestriction
 
     /**
      * @param typeAction $Action
-     * @return \FilippoToso\Travelport\UProfile\AlphaNumericRestriction
+     * @return \Santosdave\Travelport\UProfile\AlphaNumericRestriction
      */
     public function setAction($Action)
     {

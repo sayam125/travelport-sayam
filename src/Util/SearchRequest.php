@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class SearchRequest
 {
@@ -49,7 +49,7 @@ class SearchRequest
 
     /**
      * @param typeIATACode $Origin
-     * @return \FilippoToso\Travelport\Util\SearchRequest
+     * @return \Santosdave\Travelport\Util\SearchRequest
      */
     public function setOrigin($Origin)
     {
@@ -67,7 +67,7 @@ class SearchRequest
 
     /**
      * @param typeIATACode $Destination
-     * @return \FilippoToso\Travelport\Util\SearchRequest
+     * @return \Santosdave\Travelport\Util\SearchRequest
      */
     public function setDestination($Destination)
     {
@@ -85,7 +85,7 @@ class SearchRequest
 
     /**
      * @param string $DepartureTime
-     * @return \FilippoToso\Travelport\Util\SearchRequest
+     * @return \Santosdave\Travelport\Util\SearchRequest
      */
     public function setDepartureTime($DepartureTime)
     {
@@ -103,7 +103,7 @@ class SearchRequest
 
     /**
      * @param typeClassOfService $ClassOfService
-     * @return \FilippoToso\Travelport\Util\SearchRequest
+     * @return \Santosdave\Travelport\Util\SearchRequest
      */
     public function setClassOfService($ClassOfService)
     {

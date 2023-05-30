@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class PersonName
 {
@@ -42,7 +42,7 @@ class PersonName
 
     /**
      * @param StringLength1to64 $First
-     * @return \FilippoToso\Travelport\Rail\PersonName
+     * @return \Santosdave\Travelport\Rail\PersonName
      */
     public function setFirst($First)
     {
@@ -60,7 +60,7 @@ class PersonName
 
     /**
      * @param StringLength1to64 $Last
-     * @return \FilippoToso\Travelport\Rail\PersonName
+     * @return \Santosdave\Travelport\Rail\PersonName
      */
     public function setLast($Last)
     {
@@ -78,7 +78,7 @@ class PersonName
 
     /**
      * @param StringLength1to16 $Prefix
-     * @return \FilippoToso\Travelport\Rail\PersonName
+     * @return \Santosdave\Travelport\Rail\PersonName
      */
     public function setPrefix($Prefix)
     {

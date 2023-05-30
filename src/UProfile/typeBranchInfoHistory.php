@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeBranchInfoHistory extends typeProfileInfo
 {
@@ -85,7 +85,7 @@ class typeBranchInfoHistory extends typeProfileInfo
 
     /**
      * @param typeProviderInfoHistory[] $ProviderInfo
-     * @return \FilippoToso\Travelport\UProfile\typeBranchInfoHistory
+     * @return \Santosdave\Travelport\UProfile\typeBranchInfoHistory
      */
     public function setProviderInfo(array $ProviderInfo = null)
     {
@@ -103,7 +103,7 @@ class typeBranchInfoHistory extends typeProfileInfo
 
     /**
      * @param StringLength1to128 $Name
-     * @return \FilippoToso\Travelport\UProfile\typeBranchInfoHistory
+     * @return \Santosdave\Travelport\UProfile\typeBranchInfoHistory
      */
     public function setName($Name)
     {
@@ -121,7 +121,7 @@ class typeBranchInfoHistory extends typeProfileInfo
 
     /**
      * @param typeGeoCityCode $GeoCityCode
-     * @return \FilippoToso\Travelport\UProfile\typeBranchInfoHistory
+     * @return \Santosdave\Travelport\UProfile\typeBranchInfoHistory
      */
     public function setGeoCityCode($GeoCityCode)
     {
@@ -139,7 +139,7 @@ class typeBranchInfoHistory extends typeProfileInfo
 
     /**
      * @param boolean $Control
-     * @return \FilippoToso\Travelport\UProfile\typeBranchInfoHistory
+     * @return \Santosdave\Travelport\UProfile\typeBranchInfoHistory
      */
     public function setControl($Control)
     {
@@ -157,7 +157,7 @@ class typeBranchInfoHistory extends typeProfileInfo
 
     /**
      * @param typeProvisioningCode $BranchCode
-     * @return \FilippoToso\Travelport\UProfile\typeBranchInfoHistory
+     * @return \Santosdave\Travelport\UProfile\typeBranchInfoHistory
      */
     public function setBranchCode($BranchCode)
     {
@@ -175,7 +175,7 @@ class typeBranchInfoHistory extends typeProfileInfo
 
     /**
      * @param typeCurrency $Currency
-     * @return \FilippoToso\Travelport\UProfile\typeBranchInfoHistory
+     * @return \Santosdave\Travelport\UProfile\typeBranchInfoHistory
      */
     public function setCurrency($Currency)
     {
@@ -193,7 +193,7 @@ class typeBranchInfoHistory extends typeProfileInfo
 
     /**
      * @param boolean $URSyncTo
-     * @return \FilippoToso\Travelport\UProfile\typeBranchInfoHistory
+     * @return \Santosdave\Travelport\UProfile\typeBranchInfoHistory
      */
     public function setURSyncTo($URSyncTo)
     {
@@ -211,7 +211,7 @@ class typeBranchInfoHistory extends typeProfileInfo
 
     /**
      * @param boolean $ProfileSyncTo
-     * @return \FilippoToso\Travelport\UProfile\typeBranchInfoHistory
+     * @return \Santosdave\Travelport\UProfile\typeBranchInfoHistory
      */
     public function setProfileSyncTo($ProfileSyncTo)
     {
@@ -229,7 +229,7 @@ class typeBranchInfoHistory extends typeProfileInfo
 
     /**
      * @param boolean $ProfileSyncFrom
-     * @return \FilippoToso\Travelport\UProfile\typeBranchInfoHistory
+     * @return \Santosdave\Travelport\UProfile\typeBranchInfoHistory
      */
     public function setProfileSyncFrom($ProfileSyncFrom)
     {

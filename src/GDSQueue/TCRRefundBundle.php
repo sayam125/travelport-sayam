@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class TCRRefundBundle
 {
@@ -84,7 +84,7 @@ class TCRRefundBundle
 
     /**
      * @param AirRefundInfo $AirRefundInfo
-     * @return \FilippoToso\Travelport\GDSQueue\TCRRefundBundle
+     * @return \Santosdave\Travelport\GDSQueue\TCRRefundBundle
      */
     public function setAirRefundInfo($AirRefundInfo)
     {
@@ -102,7 +102,7 @@ class TCRRefundBundle
 
     /**
      * @param WaiverCode $WaiverCode
-     * @return \FilippoToso\Travelport\GDSQueue\TCRRefundBundle
+     * @return \Santosdave\Travelport\GDSQueue\TCRRefundBundle
      */
     public function setWaiverCode($WaiverCode)
     {
@@ -120,7 +120,7 @@ class TCRRefundBundle
 
     /**
      * @param typeBaseAirSegment $AirSegment
-     * @return \FilippoToso\Travelport\GDSQueue\TCRRefundBundle
+     * @return \Santosdave\Travelport\GDSQueue\TCRRefundBundle
      */
     public function setAirSegment($AirSegment)
     {
@@ -138,7 +138,7 @@ class TCRRefundBundle
 
     /**
      * @param typeFeeInfo $FeeInfo
-     * @return \FilippoToso\Travelport\GDSQueue\TCRRefundBundle
+     * @return \Santosdave\Travelport\GDSQueue\TCRRefundBundle
      */
     public function setFeeInfo($FeeInfo)
     {
@@ -156,7 +156,7 @@ class TCRRefundBundle
 
     /**
      * @param typeTaxInfo $TaxInfo
-     * @return \FilippoToso\Travelport\GDSQueue\TCRRefundBundle
+     * @return \Santosdave\Travelport\GDSQueue\TCRRefundBundle
      */
     public function setTaxInfo($TaxInfo)
     {
@@ -174,7 +174,7 @@ class TCRRefundBundle
 
     /**
      * @param HostToken $HostToken
-     * @return \FilippoToso\Travelport\GDSQueue\TCRRefundBundle
+     * @return \Santosdave\Travelport\GDSQueue\TCRRefundBundle
      */
     public function setHostToken($HostToken)
     {
@@ -192,7 +192,7 @@ class TCRRefundBundle
 
     /**
      * @param typeTCRNumber $TCRNumber
-     * @return \FilippoToso\Travelport\GDSQueue\TCRRefundBundle
+     * @return \Santosdave\Travelport\GDSQueue\TCRRefundBundle
      */
     public function setTCRNumber($TCRNumber)
     {
@@ -210,7 +210,7 @@ class TCRRefundBundle
 
     /**
      * @param anonymous739 $RefundType
-     * @return \FilippoToso\Travelport\GDSQueue\TCRRefundBundle
+     * @return \Santosdave\Travelport\GDSQueue\TCRRefundBundle
      */
     public function setRefundType($RefundType)
     {
@@ -228,7 +228,7 @@ class TCRRefundBundle
 
     /**
      * @param anonymous722 $RefundAccessCode
-     * @return \FilippoToso\Travelport\GDSQueue\TCRRefundBundle
+     * @return \Santosdave\Travelport\GDSQueue\TCRRefundBundle
      */
     public function setRefundAccessCode($RefundAccessCode)
     {

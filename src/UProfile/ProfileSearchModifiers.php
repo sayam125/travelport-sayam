@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class ProfileSearchModifiers
 {
@@ -35,7 +35,7 @@ class ProfileSearchModifiers
 
     /**
      * @param typeMaxResults $MaxResults
-     * @return \FilippoToso\Travelport\UProfile\ProfileSearchModifiers
+     * @return \Santosdave\Travelport\UProfile\ProfileSearchModifiers
      */
     public function setMaxResults($MaxResults)
     {
@@ -53,7 +53,7 @@ class ProfileSearchModifiers
 
     /**
      * @param typeStartFromResult $StartFromResult
-     * @return \FilippoToso\Travelport\UProfile\ProfileSearchModifiers
+     * @return \Santosdave\Travelport\UProfile\ProfileSearchModifiers
      */
     public function setStartFromResult($StartFromResult)
     {

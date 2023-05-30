@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class AdaptedRoomGuestAllocation
 {
@@ -28,7 +28,7 @@ class AdaptedRoomGuestAllocation
 
     /**
      * @param typeAdaptedRoomGuestAllocation[] $Room
-     * @return \FilippoToso\Travelport\Hotel\AdaptedRoomGuestAllocation
+     * @return \Santosdave\Travelport\Hotel\AdaptedRoomGuestAllocation
      */
     public function setRoom(array $Room)
     {

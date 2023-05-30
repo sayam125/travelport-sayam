@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class SSRInfo
 {
@@ -33,7 +33,7 @@ class SSRInfo
 
     /**
      * @param SSR $SSR
-     * @return \FilippoToso\Travelport\Hotel\SSRInfo
+     * @return \Santosdave\Travelport\Hotel\SSRInfo
      */
     public function setSSR($SSR)
     {
@@ -51,7 +51,7 @@ class SSRInfo
 
     /**
      * @param typeRef[] $BookingTravelerRef
-     * @return \FilippoToso\Travelport\Hotel\SSRInfo
+     * @return \Santosdave\Travelport\Hotel\SSRInfo
      */
     public function setBookingTravelerRef(array $BookingTravelerRef = null)
     {

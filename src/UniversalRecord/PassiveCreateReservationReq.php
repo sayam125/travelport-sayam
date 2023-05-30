@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class PassiveCreateReservationReq extends BaseCreateReservationReq
 {
@@ -107,7 +107,7 @@ class PassiveCreateReservationReq extends BaseCreateReservationReq
 
     /**
      * @param SupplierLocator $SupplierLocator
-     * @return \FilippoToso\Travelport\UniversalRecord\PassiveCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\PassiveCreateReservationReq
      */
     public function setSupplierLocator($SupplierLocator)
     {
@@ -125,7 +125,7 @@ class PassiveCreateReservationReq extends BaseCreateReservationReq
 
     /**
      * @param ThirdPartyInformation $ThirdPartyInformation
-     * @return \FilippoToso\Travelport\UniversalRecord\PassiveCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\PassiveCreateReservationReq
      */
     public function setThirdPartyInformation($ThirdPartyInformation)
     {
@@ -143,7 +143,7 @@ class PassiveCreateReservationReq extends BaseCreateReservationReq
 
     /**
      * @param PassiveSegment $PassiveSegment
-     * @return \FilippoToso\Travelport\UniversalRecord\PassiveCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\PassiveCreateReservationReq
      */
     public function setPassiveSegment($PassiveSegment)
     {
@@ -161,7 +161,7 @@ class PassiveCreateReservationReq extends BaseCreateReservationReq
 
     /**
      * @param PassiveRemark $PassiveRemark
-     * @return \FilippoToso\Travelport\UniversalRecord\PassiveCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\PassiveCreateReservationReq
      */
     public function setPassiveRemark($PassiveRemark)
     {
@@ -179,7 +179,7 @@ class PassiveCreateReservationReq extends BaseCreateReservationReq
 
     /**
      * @param AssociatedRemark $AssociatedRemark
-     * @return \FilippoToso\Travelport\UniversalRecord\PassiveCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\PassiveCreateReservationReq
      */
     public function setAssociatedRemark($AssociatedRemark)
     {
@@ -197,7 +197,7 @@ class PassiveCreateReservationReq extends BaseCreateReservationReq
 
     /**
      * @param ActionStatus $ActionStatus
-     * @return \FilippoToso\Travelport\UniversalRecord\PassiveCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\PassiveCreateReservationReq
      */
     public function setActionStatus($ActionStatus)
     {
@@ -215,7 +215,7 @@ class PassiveCreateReservationReq extends BaseCreateReservationReq
 
     /**
      * @param ReviewBooking $ReviewBooking
-     * @return \FilippoToso\Travelport\UniversalRecord\PassiveCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\PassiveCreateReservationReq
      */
     public function setReviewBooking($ReviewBooking)
     {

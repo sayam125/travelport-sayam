@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class PromoCode
 {
@@ -42,7 +42,7 @@ class PromoCode
 
     /**
      * @param anonymous837 $Code
-     * @return \FilippoToso\Travelport\Air\PromoCode
+     * @return \Santosdave\Travelport\Air\PromoCode
      */
     public function setCode($Code)
     {
@@ -60,7 +60,7 @@ class PromoCode
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\Air\PromoCode
+     * @return \Santosdave\Travelport\Air\PromoCode
      */
     public function setProviderCode($ProviderCode)
     {
@@ -78,7 +78,7 @@ class PromoCode
 
     /**
      * @param typeSupplierCode $SupplierCode
-     * @return \FilippoToso\Travelport\Air\PromoCode
+     * @return \Santosdave\Travelport\Air\PromoCode
      */
     public function setSupplierCode($SupplierCode)
     {

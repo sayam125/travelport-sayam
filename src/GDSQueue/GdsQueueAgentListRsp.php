@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class GdsQueueAgentListRsp extends BaseRsp
 {
@@ -34,7 +34,7 @@ class GdsQueueAgentListRsp extends BaseRsp
 
     /**
      * @param QueueAgentRecord $QueueAgentRecord
-     * @return \FilippoToso\Travelport\GDSQueue\GdsQueueAgentListRsp
+     * @return \Santosdave\Travelport\GDSQueue\GdsQueueAgentListRsp
      */
     public function setQueueAgentRecord($QueueAgentRecord)
     {

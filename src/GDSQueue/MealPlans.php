@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class MealPlans
 {
@@ -47,7 +47,7 @@ class MealPlans
 
     /**
      * @param MealPlan[] $MealPlan
-     * @return \FilippoToso\Travelport\GDSQueue\MealPlans
+     * @return \Santosdave\Travelport\GDSQueue\MealPlans
      */
     public function setMealPlan(array $MealPlan = null)
     {
@@ -65,7 +65,7 @@ class MealPlans
 
     /**
      * @param typeTrinary $Breakfast
-     * @return \FilippoToso\Travelport\GDSQueue\MealPlans
+     * @return \Santosdave\Travelport\GDSQueue\MealPlans
      */
     public function setBreakfast($Breakfast)
     {
@@ -83,7 +83,7 @@ class MealPlans
 
     /**
      * @param typeTrinary $Lunch
-     * @return \FilippoToso\Travelport\GDSQueue\MealPlans
+     * @return \Santosdave\Travelport\GDSQueue\MealPlans
      */
     public function setLunch($Lunch)
     {
@@ -101,7 +101,7 @@ class MealPlans
 
     /**
      * @param typeTrinary $Dinner
-     * @return \FilippoToso\Travelport\GDSQueue\MealPlans
+     * @return \Santosdave\Travelport\GDSQueue\MealPlans
      */
     public function setDinner($Dinner)
     {

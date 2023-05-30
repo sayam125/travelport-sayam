@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class PrePayAccount
 {
@@ -70,7 +70,7 @@ class PrePayAccount
 
     /**
      * @param CreditSummary $CreditSummary
-     * @return \FilippoToso\Travelport\UniversalRecord\PrePayAccount
+     * @return \Santosdave\Travelport\UniversalRecord\PrePayAccount
      */
     public function setCreditSummary($CreditSummary)
     {
@@ -88,7 +88,7 @@ class PrePayAccount
 
     /**
      * @param PrePayPriceInfo $PrePayPriceInfo
-     * @return \FilippoToso\Travelport\UniversalRecord\PrePayAccount
+     * @return \Santosdave\Travelport\UniversalRecord\PrePayAccount
      */
     public function setPrePayPriceInfo($PrePayPriceInfo)
     {
@@ -106,7 +106,7 @@ class PrePayAccount
 
     /**
      * @param string $ProgramTitle
-     * @return \FilippoToso\Travelport\UniversalRecord\PrePayAccount
+     * @return \Santosdave\Travelport\UniversalRecord\PrePayAccount
      */
     public function setProgramTitle($ProgramTitle)
     {
@@ -124,7 +124,7 @@ class PrePayAccount
 
     /**
      * @param string $CertificateNumber
-     * @return \FilippoToso\Travelport\UniversalRecord\PrePayAccount
+     * @return \Santosdave\Travelport\UniversalRecord\PrePayAccount
      */
     public function setCertificateNumber($CertificateNumber)
     {
@@ -142,7 +142,7 @@ class PrePayAccount
 
     /**
      * @param string $ProgramName
-     * @return \FilippoToso\Travelport\UniversalRecord\PrePayAccount
+     * @return \Santosdave\Travelport\UniversalRecord\PrePayAccount
      */
     public function setProgramName($ProgramName)
     {
@@ -160,7 +160,7 @@ class PrePayAccount
 
     /**
      * @param date $EffectiveDate
-     * @return \FilippoToso\Travelport\UniversalRecord\PrePayAccount
+     * @return \Santosdave\Travelport\UniversalRecord\PrePayAccount
      */
     public function setEffectiveDate($EffectiveDate)
     {
@@ -178,7 +178,7 @@ class PrePayAccount
 
     /**
      * @param date $ExpireDate
-     * @return \FilippoToso\Travelport\UniversalRecord\PrePayAccount
+     * @return \Santosdave\Travelport\UniversalRecord\PrePayAccount
      */
     public function setExpireDate($ExpireDate)
     {

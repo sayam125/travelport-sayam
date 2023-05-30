@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeSearchAccountingReference
 {
@@ -35,7 +35,7 @@ class typeSearchAccountingReference
 
     /**
      * @param StringLength1to128 $Type
-     * @return \FilippoToso\Travelport\UProfile\typeSearchAccountingReference
+     * @return \Santosdave\Travelport\UProfile\typeSearchAccountingReference
      */
     public function setType($Type)
     {
@@ -53,7 +53,7 @@ class typeSearchAccountingReference
 
     /**
      * @param typeWildcard $Value
-     * @return \FilippoToso\Travelport\UProfile\typeSearchAccountingReference
+     * @return \Santosdave\Travelport\UProfile\typeSearchAccountingReference
      */
     public function setValue($Value)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class McoVoidReq extends BaseReq
 {
@@ -54,7 +54,7 @@ class McoVoidReq extends BaseReq
 
     /**
      * @param GeneralRemark $GeneralRemark
-     * @return \FilippoToso\Travelport\Util\McoVoidReq
+     * @return \Santosdave\Travelport\Util\McoVoidReq
      */
     public function setGeneralRemark($GeneralRemark)
     {
@@ -72,7 +72,7 @@ class McoVoidReq extends BaseReq
 
     /**
      * @param string $Number
-     * @return \FilippoToso\Travelport\Util\McoVoidReq
+     * @return \Santosdave\Travelport\Util\McoVoidReq
      */
     public function setNumber($Number)
     {
@@ -90,7 +90,7 @@ class McoVoidReq extends BaseReq
 
     /**
      * @param boolean $ReturnMCO
-     * @return \FilippoToso\Travelport\Util\McoVoidReq
+     * @return \Santosdave\Travelport\Util\McoVoidReq
      */
     public function setReturnMCO($ReturnMCO)
     {

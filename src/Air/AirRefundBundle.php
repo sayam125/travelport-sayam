@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class AirRefundBundle
 {
@@ -70,7 +70,7 @@ class AirRefundBundle
 
     /**
      * @param AirRefundInfo $AirRefundInfo
-     * @return \FilippoToso\Travelport\Air\AirRefundBundle
+     * @return \Santosdave\Travelport\Air\AirRefundBundle
      */
     public function setAirRefundInfo($AirRefundInfo)
     {
@@ -88,7 +88,7 @@ class AirRefundBundle
 
     /**
      * @param Name $Name
-     * @return \FilippoToso\Travelport\Air\AirRefundBundle
+     * @return \Santosdave\Travelport\Air\AirRefundBundle
      */
     public function setName($Name)
     {
@@ -106,7 +106,7 @@ class AirRefundBundle
 
     /**
      * @param typeTaxInfo $TaxInfo
-     * @return \FilippoToso\Travelport\Air\AirRefundBundle
+     * @return \Santosdave\Travelport\Air\AirRefundBundle
      */
     public function setTaxInfo($TaxInfo)
     {
@@ -124,7 +124,7 @@ class AirRefundBundle
 
     /**
      * @param WaiverCode $WaiverCode
-     * @return \FilippoToso\Travelport\Air\AirRefundBundle
+     * @return \Santosdave\Travelport\Air\AirRefundBundle
      */
     public function setWaiverCode($WaiverCode)
     {
@@ -142,7 +142,7 @@ class AirRefundBundle
 
     /**
      * @param string $TicketNumber
-     * @return \FilippoToso\Travelport\Air\AirRefundBundle
+     * @return \Santosdave\Travelport\Air\AirRefundBundle
      */
     public function setTicketNumber($TicketNumber)
     {
@@ -160,7 +160,7 @@ class AirRefundBundle
 
     /**
      * @param UNKNOWN $PTC
-     * @return \FilippoToso\Travelport\Air\AirRefundBundle
+     * @return \Santosdave\Travelport\Air\AirRefundBundle
      */
     public function setPTC($PTC)
     {
@@ -178,7 +178,7 @@ class AirRefundBundle
 
     /**
      * @param anonymous729 $RefundType
-     * @return \FilippoToso\Travelport\Air\AirRefundBundle
+     * @return \Santosdave\Travelport\Air\AirRefundBundle
      */
     public function setRefundType($RefundType)
     {

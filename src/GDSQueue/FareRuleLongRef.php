@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class FareRuleLongRef
 {
@@ -28,7 +28,7 @@ class FareRuleLongRef
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\GDSQueue\FareRuleLongRef
+     * @return \Santosdave\Travelport\GDSQueue\FareRuleLongRef
      */
     public function setKey($Key)
     {

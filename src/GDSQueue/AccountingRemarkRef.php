@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class AccountingRemarkRef
 {
@@ -28,7 +28,7 @@ class AccountingRemarkRef
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\GDSQueue\AccountingRemarkRef
+     * @return \Santosdave\Travelport\GDSQueue\AccountingRemarkRef
      */
     public function setKey($Key)
     {

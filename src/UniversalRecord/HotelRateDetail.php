@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class HotelRateDetail
 {
@@ -240,7 +240,7 @@ class HotelRateDetail
 
     /**
      * @param typePolicyCodesList $PolicyCodesList
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelRateDetail
+     * @return \Santosdave\Travelport\UniversalRecord\HotelRateDetail
      */
     public function setPolicyCodesList($PolicyCodesList)
     {
@@ -258,7 +258,7 @@ class HotelRateDetail
 
     /**
      * @param typeHotelRateDescription[] $RoomRateDescription
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelRateDetail
+     * @return \Santosdave\Travelport\UniversalRecord\HotelRateDetail
      */
     public function setRoomRateDescription(array $RoomRateDescription = null)
     {
@@ -276,7 +276,7 @@ class HotelRateDetail
 
     /**
      * @param HotelRateByDate $HotelRateByDate
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelRateDetail
+     * @return \Santosdave\Travelport\UniversalRecord\HotelRateDetail
      */
     public function setHotelRateByDate($HotelRateByDate)
     {
@@ -294,7 +294,7 @@ class HotelRateDetail
 
     /**
      * @param CorporateDiscountID $CorporateDiscountID
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelRateDetail
+     * @return \Santosdave\Travelport\UniversalRecord\HotelRateDetail
      */
     public function setCorporateDiscountID($CorporateDiscountID)
     {
@@ -312,7 +312,7 @@ class HotelRateDetail
 
     /**
      * @param AcceptedPayment $AcceptedPayment
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelRateDetail
+     * @return \Santosdave\Travelport\UniversalRecord\HotelRateDetail
      */
     public function setAcceptedPayment($AcceptedPayment)
     {
@@ -330,7 +330,7 @@ class HotelRateDetail
 
     /**
      * @param Commission $Commission
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelRateDetail
+     * @return \Santosdave\Travelport\UniversalRecord\HotelRateDetail
      */
     public function setCommission($Commission)
     {
@@ -348,7 +348,7 @@ class HotelRateDetail
 
     /**
      * @param RateMatchIndicator $RateMatchIndicator
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelRateDetail
+     * @return \Santosdave\Travelport\UniversalRecord\HotelRateDetail
      */
     public function setRateMatchIndicator($RateMatchIndicator)
     {
@@ -366,7 +366,7 @@ class HotelRateDetail
 
     /**
      * @param TaxDetails $TaxDetails
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelRateDetail
+     * @return \Santosdave\Travelport\UniversalRecord\HotelRateDetail
      */
     public function setTaxDetails($TaxDetails)
     {
@@ -384,7 +384,7 @@ class HotelRateDetail
 
     /**
      * @param CancelInfo $CancelInfo
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelRateDetail
+     * @return \Santosdave\Travelport\UniversalRecord\HotelRateDetail
      */
     public function setCancelInfo($CancelInfo)
     {
@@ -402,7 +402,7 @@ class HotelRateDetail
 
     /**
      * @param GuaranteeInfo $GuaranteeInfo
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelRateDetail
+     * @return \Santosdave\Travelport\UniversalRecord\HotelRateDetail
      */
     public function setGuaranteeInfo($GuaranteeInfo)
     {
@@ -420,7 +420,7 @@ class HotelRateDetail
 
     /**
      * @param string $SupplementalRateInfo
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelRateDetail
+     * @return \Santosdave\Travelport\UniversalRecord\HotelRateDetail
      */
     public function setSupplementalRateInfo($SupplementalRateInfo)
     {
@@ -438,7 +438,7 @@ class HotelRateDetail
 
     /**
      * @param RoomCapacity $RoomCapacity
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelRateDetail
+     * @return \Santosdave\Travelport\UniversalRecord\HotelRateDetail
      */
     public function setRoomCapacity($RoomCapacity)
     {
@@ -456,7 +456,7 @@ class HotelRateDetail
 
     /**
      * @param ExtraCharges $ExtraCharges
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelRateDetail
+     * @return \Santosdave\Travelport\UniversalRecord\HotelRateDetail
      */
     public function setExtraCharges($ExtraCharges)
     {
@@ -474,7 +474,7 @@ class HotelRateDetail
 
     /**
      * @param Inclusions $Inclusions
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelRateDetail
+     * @return \Santosdave\Travelport\UniversalRecord\HotelRateDetail
      */
     public function setInclusions($Inclusions)
     {
@@ -492,7 +492,7 @@ class HotelRateDetail
 
     /**
      * @param typeRatePlanType $RatePlanType
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelRateDetail
+     * @return \Santosdave\Travelport\UniversalRecord\HotelRateDetail
      */
     public function setRatePlanType($RatePlanType)
     {
@@ -510,7 +510,7 @@ class HotelRateDetail
 
     /**
      * @param typeMoney $ApproximateBase
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelRateDetail
+     * @return \Santosdave\Travelport\UniversalRecord\HotelRateDetail
      */
     public function setApproximateBase($ApproximateBase)
     {
@@ -528,7 +528,7 @@ class HotelRateDetail
 
     /**
      * @param typeMoney $ApproximateTax
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelRateDetail
+     * @return \Santosdave\Travelport\UniversalRecord\HotelRateDetail
      */
     public function setApproximateTax($ApproximateTax)
     {
@@ -546,7 +546,7 @@ class HotelRateDetail
 
     /**
      * @param typeMoney $ApproximateTotal
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelRateDetail
+     * @return \Santosdave\Travelport\UniversalRecord\HotelRateDetail
      */
     public function setApproximateTotal($ApproximateTotal)
     {
@@ -564,7 +564,7 @@ class HotelRateDetail
 
     /**
      * @param typeMoney $ApproximateSurcharge
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelRateDetail
+     * @return \Santosdave\Travelport\UniversalRecord\HotelRateDetail
      */
     public function setApproximateSurcharge($ApproximateSurcharge)
     {
@@ -582,7 +582,7 @@ class HotelRateDetail
 
     /**
      * @param boolean $RateGuaranteed
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelRateDetail
+     * @return \Santosdave\Travelport\UniversalRecord\HotelRateDetail
      */
     public function setRateGuaranteed($RateGuaranteed)
     {
@@ -600,7 +600,7 @@ class HotelRateDetail
 
     /**
      * @param boolean $ApproximateRateGuaranteed
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelRateDetail
+     * @return \Santosdave\Travelport\UniversalRecord\HotelRateDetail
      */
     public function setApproximateRateGuaranteed($ApproximateRateGuaranteed)
     {
@@ -618,7 +618,7 @@ class HotelRateDetail
 
     /**
      * @param typeOTACode $RateCategory
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelRateDetail
+     * @return \Santosdave\Travelport\UniversalRecord\HotelRateDetail
      */
     public function setRateCategory($RateCategory)
     {
@@ -636,7 +636,7 @@ class HotelRateDetail
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelRateDetail
+     * @return \Santosdave\Travelport\UniversalRecord\HotelRateDetail
      */
     public function setKey($Key)
     {
@@ -654,7 +654,7 @@ class HotelRateDetail
 
     /**
      * @param typeThirdPartySupplier $RateSupplier
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelRateDetail
+     * @return \Santosdave\Travelport\UniversalRecord\HotelRateDetail
      */
     public function setRateSupplier($RateSupplier)
     {
@@ -672,7 +672,7 @@ class HotelRateDetail
 
     /**
      * @param int $BookableQuantity
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelRateDetail
+     * @return \Santosdave\Travelport\UniversalRecord\HotelRateDetail
      */
     public function setBookableQuantity($BookableQuantity)
     {
@@ -690,7 +690,7 @@ class HotelRateDetail
 
     /**
      * @param typeRateOfferId $RateOfferId
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelRateDetail
+     * @return \Santosdave\Travelport\UniversalRecord\HotelRateDetail
      */
     public function setRateOfferId($RateOfferId)
     {
@@ -708,7 +708,7 @@ class HotelRateDetail
 
     /**
      * @param boolean $InPolicy
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelRateDetail
+     * @return \Santosdave\Travelport\UniversalRecord\HotelRateDetail
      */
     public function setInPolicy($InPolicy)
     {
@@ -726,7 +726,7 @@ class HotelRateDetail
 
     /**
      * @param typeTrinary $RateChangeIndicator
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelRateDetail
+     * @return \Santosdave\Travelport\UniversalRecord\HotelRateDetail
      */
     public function setRateChangeIndicator($RateChangeIndicator)
     {
@@ -744,7 +744,7 @@ class HotelRateDetail
 
     /**
      * @param typeTrinary $ExtraFeesIncluded
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelRateDetail
+     * @return \Santosdave\Travelport\UniversalRecord\HotelRateDetail
      */
     public function setExtraFeesIncluded($ExtraFeesIncluded)
     {
@@ -762,7 +762,7 @@ class HotelRateDetail
 
     /**
      * @param typeMoney $Base
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelRateDetail
+     * @return \Santosdave\Travelport\UniversalRecord\HotelRateDetail
      */
     public function setBase($Base)
     {
@@ -780,7 +780,7 @@ class HotelRateDetail
 
     /**
      * @param typeMoney $Tax
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelRateDetail
+     * @return \Santosdave\Travelport\UniversalRecord\HotelRateDetail
      */
     public function setTax($Tax)
     {
@@ -798,7 +798,7 @@ class HotelRateDetail
 
     /**
      * @param typeMoney $Total
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelRateDetail
+     * @return \Santosdave\Travelport\UniversalRecord\HotelRateDetail
      */
     public function setTotal($Total)
     {
@@ -816,7 +816,7 @@ class HotelRateDetail
 
     /**
      * @param typeMoney $Surcharge
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelRateDetail
+     * @return \Santosdave\Travelport\UniversalRecord\HotelRateDetail
      */
     public function setSurcharge($Surcharge)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class typeTimeRange
 {
@@ -35,7 +35,7 @@ class typeTimeRange
 
     /**
      * @param string $EarliestTime
-     * @return \FilippoToso\Travelport\Hotel\typeTimeRange
+     * @return \Santosdave\Travelport\Hotel\typeTimeRange
      */
     public function setEarliestTime($EarliestTime)
     {
@@ -53,7 +53,7 @@ class typeTimeRange
 
     /**
      * @param string $LatestTime
-     * @return \FilippoToso\Travelport\Hotel\typeTimeRange
+     * @return \Santosdave\Travelport\Hotel\typeTimeRange
      */
     public function setLatestTime($LatestTime)
     {

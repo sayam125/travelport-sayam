@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class ProviderReservationDivideRsp extends BaseRsp
 {
@@ -41,7 +41,7 @@ class ProviderReservationDivideRsp extends BaseRsp
 
     /**
      * @param ParentProviderReservationInfo $ParentProviderReservationInfo
-     * @return \FilippoToso\Travelport\UniversalRecord\ProviderReservationDivideRsp
+     * @return \Santosdave\Travelport\UniversalRecord\ProviderReservationDivideRsp
      */
     public function setParentProviderReservationInfo($ParentProviderReservationInfo)
     {
@@ -59,7 +59,7 @@ class ProviderReservationDivideRsp extends BaseRsp
 
     /**
      * @param ChildProviderReservationInfo $ChildProviderReservationInfo
-     * @return \FilippoToso\Travelport\UniversalRecord\ProviderReservationDivideRsp
+     * @return \Santosdave\Travelport\UniversalRecord\ProviderReservationDivideRsp
      */
     public function setChildProviderReservationInfo($ChildProviderReservationInfo)
     {

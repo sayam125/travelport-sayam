@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class BillingPointOfSaleInfo
 {
@@ -35,7 +35,7 @@ class BillingPointOfSaleInfo
 
     /**
      * @param string $OriginApplication
-     * @return \FilippoToso\Travelport\GDSQueue\BillingPointOfSaleInfo
+     * @return \Santosdave\Travelport\GDSQueue\BillingPointOfSaleInfo
      */
     public function setOriginApplication($OriginApplication)
     {
@@ -53,7 +53,7 @@ class BillingPointOfSaleInfo
 
     /**
      * @param anonymous395 $CIDBNumber
-     * @return \FilippoToso\Travelport\GDSQueue\BillingPointOfSaleInfo
+     * @return \Santosdave\Travelport\GDSQueue\BillingPointOfSaleInfo
      */
     public function setCIDBNumber($CIDBNumber)
     {

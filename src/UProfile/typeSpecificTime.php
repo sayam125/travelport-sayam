@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeSpecificTime
 {
@@ -28,7 +28,7 @@ class typeSpecificTime
 
     /**
      * @param string $Time
-     * @return \FilippoToso\Travelport\UProfile\typeSpecificTime
+     * @return \Santosdave\Travelport\UProfile\typeSpecificTime
      */
     public function setTime($Time)
     {

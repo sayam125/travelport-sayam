@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class Affiliations
 {
@@ -28,7 +28,7 @@ class Affiliations
 
     /**
      * @param TravelArranger $TravelArranger
-     * @return \FilippoToso\Travelport\Air\Affiliations
+     * @return \Santosdave\Travelport\Air\Affiliations
      */
     public function setTravelArranger($TravelArranger)
     {

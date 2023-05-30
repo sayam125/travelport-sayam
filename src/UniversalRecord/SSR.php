@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class SSR
 {
@@ -140,7 +140,7 @@ class SSR
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\UniversalRecord\SSR
+     * @return \Santosdave\Travelport\UniversalRecord\SSR
      */
     public function setKey($Key)
     {
@@ -158,7 +158,7 @@ class SSR
 
     /**
      * @param typeRef $SegmentRef
-     * @return \FilippoToso\Travelport\UniversalRecord\SSR
+     * @return \Santosdave\Travelport\UniversalRecord\SSR
      */
     public function setSegmentRef($SegmentRef)
     {
@@ -176,7 +176,7 @@ class SSR
 
     /**
      * @param typeRef $PassiveSegmentRef
-     * @return \FilippoToso\Travelport\UniversalRecord\SSR
+     * @return \Santosdave\Travelport\UniversalRecord\SSR
      */
     public function setPassiveSegmentRef($PassiveSegmentRef)
     {
@@ -194,7 +194,7 @@ class SSR
 
     /**
      * @param typeRef $ProviderReservationInfoRef
-     * @return \FilippoToso\Travelport\UniversalRecord\SSR
+     * @return \Santosdave\Travelport\UniversalRecord\SSR
      */
     public function setProviderReservationInfoRef($ProviderReservationInfoRef)
     {
@@ -212,7 +212,7 @@ class SSR
 
     /**
      * @param typeSSRCode $Type
-     * @return \FilippoToso\Travelport\UniversalRecord\SSR
+     * @return \Santosdave\Travelport\UniversalRecord\SSR
      */
     public function setType($Type)
     {
@@ -230,7 +230,7 @@ class SSR
 
     /**
      * @param string $Status
-     * @return \FilippoToso\Travelport\UniversalRecord\SSR
+     * @return \Santosdave\Travelport\UniversalRecord\SSR
      */
     public function setStatus($Status)
     {
@@ -248,7 +248,7 @@ class SSR
 
     /**
      * @param typeSSRFreeText $FreeText
-     * @return \FilippoToso\Travelport\UniversalRecord\SSR
+     * @return \Santosdave\Travelport\UniversalRecord\SSR
      */
     public function setFreeText($FreeText)
     {
@@ -266,7 +266,7 @@ class SSR
 
     /**
      * @param typeCarrier $Carrier
-     * @return \FilippoToso\Travelport\UniversalRecord\SSR
+     * @return \Santosdave\Travelport\UniversalRecord\SSR
      */
     public function setCarrier($Carrier)
     {
@@ -284,7 +284,7 @@ class SSR
 
     /**
      * @param anonymous158 $CarrierSpecificText
-     * @return \FilippoToso\Travelport\UniversalRecord\SSR
+     * @return \Santosdave\Travelport\UniversalRecord\SSR
      */
     public function setCarrierSpecificText($CarrierSpecificText)
     {
@@ -302,7 +302,7 @@ class SSR
 
     /**
      * @param string $Description
-     * @return \FilippoToso\Travelport\UniversalRecord\SSR
+     * @return \Santosdave\Travelport\UniversalRecord\SSR
      */
     public function setDescription($Description)
     {
@@ -320,7 +320,7 @@ class SSR
 
     /**
      * @param anonymous159 $ProviderDefinedType
-     * @return \FilippoToso\Travelport\UniversalRecord\SSR
+     * @return \Santosdave\Travelport\UniversalRecord\SSR
      */
     public function setProviderDefinedType($ProviderDefinedType)
     {
@@ -338,7 +338,7 @@ class SSR
 
     /**
      * @param typeRef $SSRRuleRef
-     * @return \FilippoToso\Travelport\UniversalRecord\SSR
+     * @return \Santosdave\Travelport\UniversalRecord\SSR
      */
     public function setSSRRuleRef($SSRRuleRef)
     {
@@ -356,7 +356,7 @@ class SSR
 
     /**
      * @param anyURI $URL
-     * @return \FilippoToso\Travelport\UniversalRecord\SSR
+     * @return \Santosdave\Travelport\UniversalRecord\SSR
      */
     public function setURL($URL)
     {
@@ -374,7 +374,7 @@ class SSR
 
     /**
      * @param string $ProfileID
-     * @return \FilippoToso\Travelport\UniversalRecord\SSR
+     * @return \Santosdave\Travelport\UniversalRecord\SSR
      */
     public function setProfileID($ProfileID)
     {
@@ -392,7 +392,7 @@ class SSR
 
     /**
      * @param typeRef $ProfileSecureFlightDocKey
-     * @return \FilippoToso\Travelport\UniversalRecord\SSR
+     * @return \Santosdave\Travelport\UniversalRecord\SSR
      */
     public function setProfileSecureFlightDocKey($ProfileSecureFlightDocKey)
     {
@@ -410,7 +410,7 @@ class SSR
 
     /**
      * @param typeElementStatus $ElStat
-     * @return \FilippoToso\Travelport\UniversalRecord\SSR
+     * @return \Santosdave\Travelport\UniversalRecord\SSR
      */
     public function setElStat($ElStat)
     {
@@ -428,7 +428,7 @@ class SSR
 
     /**
      * @param boolean $KeyOverride
-     * @return \FilippoToso\Travelport\UniversalRecord\SSR
+     * @return \Santosdave\Travelport\UniversalRecord\SSR
      */
     public function setKeyOverride($KeyOverride)
     {

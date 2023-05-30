@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class APISRequirementsList
 {
@@ -28,7 +28,7 @@ class APISRequirementsList
 
     /**
      * @param APISRequirements $APISRequirements
-     * @return \FilippoToso\Travelport\GDSQueue\APISRequirementsList
+     * @return \Santosdave\Travelport\GDSQueue\APISRequirementsList
      */
     public function setAPISRequirements($APISRequirements)
     {

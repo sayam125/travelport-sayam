@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class PermittedConnectionPoints
 {
@@ -28,7 +28,7 @@ class PermittedConnectionPoints
 
     /**
      * @param typeLocation $ConnectionPoint
-     * @return \FilippoToso\Travelport\Rail\PermittedConnectionPoints
+     * @return \Santosdave\Travelport\Rail\PermittedConnectionPoints
      */
     public function setConnectionPoint($ConnectionPoint)
     {

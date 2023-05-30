@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class Restriction
 {
@@ -35,7 +35,7 @@ class Restriction
 
     /**
      * @param DaysOfWeekRestriction $DaysOfWeekRestriction
-     * @return \FilippoToso\Travelport\Air\Restriction
+     * @return \Santosdave\Travelport\Air\Restriction
      */
     public function setDaysOfWeekRestriction($DaysOfWeekRestriction)
     {
@@ -53,7 +53,7 @@ class Restriction
 
     /**
      * @param RestrictionPassengerTypes $RestrictionPassengerTypes
-     * @return \FilippoToso\Travelport\Air\Restriction
+     * @return \Santosdave\Travelport\Air\Restriction
      */
     public function setRestrictionPassengerTypes($RestrictionPassengerTypes)
     {

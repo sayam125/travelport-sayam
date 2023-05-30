@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class RoomConfirmationCodes
 {
@@ -28,7 +28,7 @@ class RoomConfirmationCodes
 
     /**
      * @param string[] $ConfirmationCode
-     * @return \FilippoToso\Travelport\Hotel\RoomConfirmationCodes
+     * @return \Santosdave\Travelport\Hotel\RoomConfirmationCodes
      */
     public function setConfirmationCode(array $ConfirmationCode)
     {

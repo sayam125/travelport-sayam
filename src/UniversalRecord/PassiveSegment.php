@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class PassiveSegment
 {
@@ -180,7 +180,7 @@ class PassiveSegment
 
     /**
      * @param Amount $Amount
-     * @return \FilippoToso\Travelport\UniversalRecord\PassiveSegment
+     * @return \Santosdave\Travelport\UniversalRecord\PassiveSegment
      */
     public function setAmount($Amount)
     {
@@ -198,7 +198,7 @@ class PassiveSegment
 
     /**
      * @param typePassiveSupplierCode $SupplierCode
-     * @return \FilippoToso\Travelport\UniversalRecord\PassiveSegment
+     * @return \Santosdave\Travelport\UniversalRecord\PassiveSegment
      */
     public function setSupplierCode($SupplierCode)
     {
@@ -216,7 +216,7 @@ class PassiveSegment
 
     /**
      * @param string $Status
-     * @return \FilippoToso\Travelport\UniversalRecord\PassiveSegment
+     * @return \Santosdave\Travelport\UniversalRecord\PassiveSegment
      */
     public function setStatus($Status)
     {
@@ -234,7 +234,7 @@ class PassiveSegment
 
     /**
      * @param string $StartDate
-     * @return \FilippoToso\Travelport\UniversalRecord\PassiveSegment
+     * @return \Santosdave\Travelport\UniversalRecord\PassiveSegment
      */
     public function setStartDate($StartDate)
     {
@@ -252,7 +252,7 @@ class PassiveSegment
 
     /**
      * @param string $EndDate
-     * @return \FilippoToso\Travelport\UniversalRecord\PassiveSegment
+     * @return \Santosdave\Travelport\UniversalRecord\PassiveSegment
      */
     public function setEndDate($EndDate)
     {
@@ -270,7 +270,7 @@ class PassiveSegment
 
     /**
      * @param typeIATACode $Origin
-     * @return \FilippoToso\Travelport\UniversalRecord\PassiveSegment
+     * @return \Santosdave\Travelport\UniversalRecord\PassiveSegment
      */
     public function setOrigin($Origin)
     {
@@ -288,7 +288,7 @@ class PassiveSegment
 
     /**
      * @param typeIATACode $Destination
-     * @return \FilippoToso\Travelport\UniversalRecord\PassiveSegment
+     * @return \Santosdave\Travelport\UniversalRecord\PassiveSegment
      */
     public function setDestination($Destination)
     {
@@ -306,7 +306,7 @@ class PassiveSegment
 
     /**
      * @param string $AvailabilitySource
-     * @return \FilippoToso\Travelport\UniversalRecord\PassiveSegment
+     * @return \Santosdave\Travelport\UniversalRecord\PassiveSegment
      */
     public function setAvailabilitySource($AvailabilitySource)
     {
@@ -324,7 +324,7 @@ class PassiveSegment
 
     /**
      * @param string $PolledAvailabilityOption
-     * @return \FilippoToso\Travelport\UniversalRecord\PassiveSegment
+     * @return \Santosdave\Travelport\UniversalRecord\PassiveSegment
      */
     public function setPolledAvailabilityOption($PolledAvailabilityOption)
     {
@@ -342,7 +342,7 @@ class PassiveSegment
 
     /**
      * @param string $AvailabilityDisplayType
-     * @return \FilippoToso\Travelport\UniversalRecord\PassiveSegment
+     * @return \Santosdave\Travelport\UniversalRecord\PassiveSegment
      */
     public function setAvailabilityDisplayType($AvailabilityDisplayType)
     {
@@ -360,7 +360,7 @@ class PassiveSegment
 
     /**
      * @param string $FlightNumber
-     * @return \FilippoToso\Travelport\UniversalRecord\PassiveSegment
+     * @return \Santosdave\Travelport\UniversalRecord\PassiveSegment
      */
     public function setFlightNumber($FlightNumber)
     {
@@ -378,7 +378,7 @@ class PassiveSegment
 
     /**
      * @param string $ClassOfService
-     * @return \FilippoToso\Travelport\UniversalRecord\PassiveSegment
+     * @return \Santosdave\Travelport\UniversalRecord\PassiveSegment
      */
     public function setClassOfService($ClassOfService)
     {
@@ -396,7 +396,7 @@ class PassiveSegment
 
     /**
      * @param int $NumberOfItems
-     * @return \FilippoToso\Travelport\UniversalRecord\PassiveSegment
+     * @return \Santosdave\Travelport\UniversalRecord\PassiveSegment
      */
     public function setNumberOfItems($NumberOfItems)
     {
@@ -414,7 +414,7 @@ class PassiveSegment
 
     /**
      * @param string $SegmentType
-     * @return \FilippoToso\Travelport\UniversalRecord\PassiveSegment
+     * @return \Santosdave\Travelport\UniversalRecord\PassiveSegment
      */
     public function setSegmentType($SegmentType)
     {
@@ -432,7 +432,7 @@ class PassiveSegment
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\UniversalRecord\PassiveSegment
+     * @return \Santosdave\Travelport\UniversalRecord\PassiveSegment
      */
     public function setKey($Key)
     {
@@ -450,7 +450,7 @@ class PassiveSegment
 
     /**
      * @param string $VehicleType
-     * @return \FilippoToso\Travelport\UniversalRecord\PassiveSegment
+     * @return \Santosdave\Travelport\UniversalRecord\PassiveSegment
      */
     public function setVehicleType($VehicleType)
     {
@@ -468,7 +468,7 @@ class PassiveSegment
 
     /**
      * @param typeRef $PassiveProviderReservationInfoRef
-     * @return \FilippoToso\Travelport\UniversalRecord\PassiveSegment
+     * @return \Santosdave\Travelport\UniversalRecord\PassiveSegment
      */
     public function setPassiveProviderReservationInfoRef($PassiveProviderReservationInfoRef)
     {
@@ -486,7 +486,7 @@ class PassiveSegment
 
     /**
      * @param int $Group
-     * @return \FilippoToso\Travelport\UniversalRecord\PassiveSegment
+     * @return \Santosdave\Travelport\UniversalRecord\PassiveSegment
      */
     public function setGroup($Group)
     {
@@ -504,7 +504,7 @@ class PassiveSegment
 
     /**
      * @param int $TravelOrder
-     * @return \FilippoToso\Travelport\UniversalRecord\PassiveSegment
+     * @return \Santosdave\Travelport\UniversalRecord\PassiveSegment
      */
     public function setTravelOrder($TravelOrder)
     {
@@ -522,7 +522,7 @@ class PassiveSegment
 
     /**
      * @param anonymous1338 $ProviderSegmentOrder
-     * @return \FilippoToso\Travelport\UniversalRecord\PassiveSegment
+     * @return \Santosdave\Travelport\UniversalRecord\PassiveSegment
      */
     public function setProviderSegmentOrder($ProviderSegmentOrder)
     {
@@ -540,7 +540,7 @@ class PassiveSegment
 
     /**
      * @param string $PassiveGroup
-     * @return \FilippoToso\Travelport\UniversalRecord\PassiveSegment
+     * @return \Santosdave\Travelport\UniversalRecord\PassiveSegment
      */
     public function setPassiveGroup($PassiveGroup)
     {
@@ -558,7 +558,7 @@ class PassiveSegment
 
     /**
      * @param typeElementStatus $ElStat
-     * @return \FilippoToso\Travelport\UniversalRecord\PassiveSegment
+     * @return \Santosdave\Travelport\UniversalRecord\PassiveSegment
      */
     public function setElStat($ElStat)
     {
@@ -576,7 +576,7 @@ class PassiveSegment
 
     /**
      * @param boolean $KeyOverride
-     * @return \FilippoToso\Travelport\UniversalRecord\PassiveSegment
+     * @return \Santosdave\Travelport\UniversalRecord\PassiveSegment
      */
     public function setKeyOverride($KeyOverride)
     {

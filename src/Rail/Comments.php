@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class Comments
 {
@@ -70,7 +70,7 @@ class Comments
 
     /**
      * @param string $_
-     * @return \FilippoToso\Travelport\Rail\Comments
+     * @return \Santosdave\Travelport\Rail\Comments
      */
     public function set_($_)
     {
@@ -88,7 +88,7 @@ class Comments
 
     /**
      * @param typeRef $CommentId
-     * @return \FilippoToso\Travelport\Rail\Comments
+     * @return \Santosdave\Travelport\Rail\Comments
      */
     public function setCommentId($CommentId)
     {
@@ -106,7 +106,7 @@ class Comments
 
     /**
      * @param typeDate $Date
-     * @return \FilippoToso\Travelport\Rail\Comments
+     * @return \Santosdave\Travelport\Rail\Comments
      */
     public function setDate($Date)
     {
@@ -124,7 +124,7 @@ class Comments
 
     /**
      * @param typeLanguage $CommenterLanguage
-     * @return \FilippoToso\Travelport\Rail\Comments
+     * @return \Santosdave\Travelport\Rail\Comments
      */
     public function setCommenterLanguage($CommenterLanguage)
     {
@@ -142,7 +142,7 @@ class Comments
 
     /**
      * @param string $Source
-     * @return \FilippoToso\Travelport\Rail\Comments
+     * @return \Santosdave\Travelport\Rail\Comments
      */
     public function setSource($Source)
     {
@@ -160,7 +160,7 @@ class Comments
 
     /**
      * @param string $CommentSourceName
-     * @return \FilippoToso\Travelport\Rail\Comments
+     * @return \Santosdave\Travelport\Rail\Comments
      */
     public function setCommentSourceName($CommentSourceName)
     {
@@ -178,7 +178,7 @@ class Comments
 
     /**
      * @param string $Commenter
-     * @return \FilippoToso\Travelport\Rail\Comments
+     * @return \Santosdave\Travelport\Rail\Comments
      */
     public function setCommenter($Commenter)
     {

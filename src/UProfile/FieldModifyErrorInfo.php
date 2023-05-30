@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class FieldModifyErrorInfo extends typeErrorInfo
 {
@@ -42,7 +42,7 @@ class FieldModifyErrorInfo extends typeErrorInfo
 
     /**
      * @param ProfileTemplateSummary $ProfileTemplateSummary
-     * @return \FilippoToso\Travelport\UProfile\FieldModifyErrorInfo
+     * @return \Santosdave\Travelport\UProfile\FieldModifyErrorInfo
      */
     public function setProfileTemplateSummary($ProfileTemplateSummary)
     {
@@ -60,7 +60,7 @@ class FieldModifyErrorInfo extends typeErrorInfo
 
     /**
      * @param int $TemplateCount
-     * @return \FilippoToso\Travelport\UProfile\FieldModifyErrorInfo
+     * @return \Santosdave\Travelport\UProfile\FieldModifyErrorInfo
      */
     public function setTemplateCount($TemplateCount)
     {

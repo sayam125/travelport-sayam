@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class ProviderReservationDisplayDetailsRsp extends BaseRsp
 {
@@ -41,7 +41,7 @@ class ProviderReservationDisplayDetailsRsp extends BaseRsp
 
     /**
      * @param DisplayDetails $DisplayDetails
-     * @return \FilippoToso\Travelport\UniversalRecord\ProviderReservationDisplayDetailsRsp
+     * @return \Santosdave\Travelport\UniversalRecord\ProviderReservationDisplayDetailsRsp
      */
     public function setDisplayDetails($DisplayDetails)
     {
@@ -59,7 +59,7 @@ class ProviderReservationDisplayDetailsRsp extends BaseRsp
 
     /**
      * @param TravelerNameNum $TravelerNameNum
-     * @return \FilippoToso\Travelport\UniversalRecord\ProviderReservationDisplayDetailsRsp
+     * @return \Santosdave\Travelport\UniversalRecord\ProviderReservationDisplayDetailsRsp
      */
     public function setTravelerNameNum($TravelerNameNum)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class ProfileCreateFieldReq extends BaseReq
 {
@@ -54,7 +54,7 @@ class ProfileCreateFieldReq extends BaseReq
 
     /**
      * @param CreateField $CreateField
-     * @return \FilippoToso\Travelport\UProfile\ProfileCreateFieldReq
+     * @return \Santosdave\Travelport\UProfile\ProfileCreateFieldReq
      */
     public function setCreateField($CreateField)
     {
@@ -72,7 +72,7 @@ class ProfileCreateFieldReq extends BaseReq
 
     /**
      * @param CreateFieldGroup $CreateFieldGroup
-     * @return \FilippoToso\Travelport\UProfile\ProfileCreateFieldReq
+     * @return \Santosdave\Travelport\UProfile\ProfileCreateFieldReq
      */
     public function setCreateFieldGroup($CreateFieldGroup)
     {
@@ -90,7 +90,7 @@ class ProfileCreateFieldReq extends BaseReq
 
     /**
      * @param typeProfileID $ProfileID
-     * @return \FilippoToso\Travelport\UProfile\ProfileCreateFieldReq
+     * @return \Santosdave\Travelport\UProfile\ProfileCreateFieldReq
      */
     public function setProfileID($ProfileID)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class ReferenceDataSearchModifiers
 {
@@ -49,7 +49,7 @@ class ReferenceDataSearchModifiers
 
     /**
      * @param RailStationLocationModifiers $RailStationLocationModifiers
-     * @return \FilippoToso\Travelport\Util\ReferenceDataSearchModifiers
+     * @return \Santosdave\Travelport\Util\ReferenceDataSearchModifiers
      */
     public function setRailStationLocationModifiers($RailStationLocationModifiers)
     {
@@ -67,7 +67,7 @@ class ReferenceDataSearchModifiers
 
     /**
      * @param anonymous1144 $MaxResults
-     * @return \FilippoToso\Travelport\Util\ReferenceDataSearchModifiers
+     * @return \Santosdave\Travelport\Util\ReferenceDataSearchModifiers
      */
     public function setMaxResults($MaxResults)
     {
@@ -85,7 +85,7 @@ class ReferenceDataSearchModifiers
 
     /**
      * @param anonymous1145 $StartFromResult
-     * @return \FilippoToso\Travelport\Util\ReferenceDataSearchModifiers
+     * @return \Santosdave\Travelport\Util\ReferenceDataSearchModifiers
      */
     public function setStartFromResult($StartFromResult)
     {
@@ -103,7 +103,7 @@ class ReferenceDataSearchModifiers
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\Util\ReferenceDataSearchModifiers
+     * @return \Santosdave\Travelport\Util\ReferenceDataSearchModifiers
      */
     public function setProviderCode($ProviderCode)
     {

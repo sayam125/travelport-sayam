@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class FareTicketDesignator
 {
@@ -28,7 +28,7 @@ class FareTicketDesignator
 
     /**
      * @param typeTicketDesignator $Value
-     * @return \FilippoToso\Travelport\Rail\FareTicketDesignator
+     * @return \Santosdave\Travelport\Rail\FareTicketDesignator
      */
     public function setValue($Value)
     {

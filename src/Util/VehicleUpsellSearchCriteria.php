@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class VehicleUpsellSearchCriteria
 {
@@ -35,7 +35,7 @@ class VehicleUpsellSearchCriteria
 
     /**
      * @param VehicleUpsellOfferSearchCriteria $VehicleUpsellOfferSearchCriteria
-     * @return \FilippoToso\Travelport\Util\VehicleUpsellSearchCriteria
+     * @return \Santosdave\Travelport\Util\VehicleUpsellSearchCriteria
      */
     public function setVehicleUpsellOfferSearchCriteria($VehicleUpsellOfferSearchCriteria)
     {
@@ -53,7 +53,7 @@ class VehicleUpsellSearchCriteria
 
     /**
      * @param VehicleUpsellQualifySearchCriteria $VehicleUpsellQualifySearchCriteria
-     * @return \FilippoToso\Travelport\Util\VehicleUpsellSearchCriteria
+     * @return \Santosdave\Travelport\Util\VehicleUpsellSearchCriteria
      */
     public function setVehicleUpsellQualifySearchCriteria($VehicleUpsellQualifySearchCriteria)
     {

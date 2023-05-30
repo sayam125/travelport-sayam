@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class OtherGuaranteeInfo
 {
@@ -35,7 +35,7 @@ class OtherGuaranteeInfo
 
     /**
      * @param string $_
-     * @return \FilippoToso\Travelport\GDSQueue\OtherGuaranteeInfo
+     * @return \Santosdave\Travelport\GDSQueue\OtherGuaranteeInfo
      */
     public function set_($_)
     {
@@ -53,7 +53,7 @@ class OtherGuaranteeInfo
 
     /**
      * @param anonymous309 $Type
-     * @return \FilippoToso\Travelport\GDSQueue\OtherGuaranteeInfo
+     * @return \Santosdave\Travelport\GDSQueue\OtherGuaranteeInfo
      */
     public function setType($Type)
     {

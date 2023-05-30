@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class HotelSearchError extends typeResultMessage
 {
@@ -39,7 +39,7 @@ class HotelSearchError extends typeResultMessage
 
     /**
      * @param typeResultMessage $_
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelSearchError
+     * @return \Santosdave\Travelport\UniversalRecord\HotelSearchError
      */
     public function set_($_)
     {
@@ -57,7 +57,7 @@ class HotelSearchError extends typeResultMessage
 
     /**
      * @param typeThirdPartySupplier $RateSupplier
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelSearchError
+     * @return \Santosdave\Travelport\UniversalRecord\HotelSearchError
      */
     public function setRateSupplier($RateSupplier)
     {

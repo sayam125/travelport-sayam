@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class CurrencyConversion
 {
@@ -56,7 +56,7 @@ class CurrencyConversion
 
     /**
      * @param typeCurrency $From
-     * @return \FilippoToso\Travelport\Util\CurrencyConversion
+     * @return \Santosdave\Travelport\Util\CurrencyConversion
      */
     public function setFrom($From)
     {
@@ -74,7 +74,7 @@ class CurrencyConversion
 
     /**
      * @param typeCurrency $To
-     * @return \FilippoToso\Travelport\Util\CurrencyConversion
+     * @return \Santosdave\Travelport\Util\CurrencyConversion
      */
     public function setTo($To)
     {
@@ -92,7 +92,7 @@ class CurrencyConversion
 
     /**
      * @param float $OriginalAmount
-     * @return \FilippoToso\Travelport\Util\CurrencyConversion
+     * @return \Santosdave\Travelport\Util\CurrencyConversion
      */
     public function setOriginalAmount($OriginalAmount)
     {
@@ -110,7 +110,7 @@ class CurrencyConversion
 
     /**
      * @param float $ConvertedAmount
-     * @return \FilippoToso\Travelport\Util\CurrencyConversion
+     * @return \Santosdave\Travelport\Util\CurrencyConversion
      */
     public function setConvertedAmount($ConvertedAmount)
     {
@@ -128,7 +128,7 @@ class CurrencyConversion
 
     /**
      * @param float $BankSellingRate
-     * @return \FilippoToso\Travelport\Util\CurrencyConversion
+     * @return \Santosdave\Travelport\Util\CurrencyConversion
      */
     public function setBankSellingRate($BankSellingRate)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class HotelSearchModifiers
 {
@@ -196,7 +196,7 @@ class HotelSearchModifiers
 
     /**
      * @param PermittedChains $PermittedChains
-     * @return \FilippoToso\Travelport\Rail\HotelSearchModifiers
+     * @return \Santosdave\Travelport\Rail\HotelSearchModifiers
      */
     public function setPermittedChains($PermittedChains)
     {
@@ -214,7 +214,7 @@ class HotelSearchModifiers
 
     /**
      * @param ProhibitedChains $ProhibitedChains
-     * @return \FilippoToso\Travelport\Rail\HotelSearchModifiers
+     * @return \Santosdave\Travelport\Rail\HotelSearchModifiers
      */
     public function setProhibitedChains($ProhibitedChains)
     {
@@ -232,7 +232,7 @@ class HotelSearchModifiers
 
     /**
      * @param PermittedProviders $PermittedProviders
-     * @return \FilippoToso\Travelport\Rail\HotelSearchModifiers
+     * @return \Santosdave\Travelport\Rail\HotelSearchModifiers
      */
     public function setPermittedProviders($PermittedProviders)
     {
@@ -250,7 +250,7 @@ class HotelSearchModifiers
 
     /**
      * @param PermittedAggregators $PermittedAggregators
-     * @return \FilippoToso\Travelport\Rail\HotelSearchModifiers
+     * @return \Santosdave\Travelport\Rail\HotelSearchModifiers
      */
     public function setPermittedAggregators($PermittedAggregators)
     {
@@ -268,7 +268,7 @@ class HotelSearchModifiers
 
     /**
      * @param LoyaltyCard $LoyaltyCard
-     * @return \FilippoToso\Travelport\Rail\HotelSearchModifiers
+     * @return \Santosdave\Travelport\Rail\HotelSearchModifiers
      */
     public function setLoyaltyCard($LoyaltyCard)
     {
@@ -286,7 +286,7 @@ class HotelSearchModifiers
 
     /**
      * @param string $HotelName
-     * @return \FilippoToso\Travelport\Rail\HotelSearchModifiers
+     * @return \Santosdave\Travelport\Rail\HotelSearchModifiers
      */
     public function setHotelName($HotelName)
     {
@@ -304,7 +304,7 @@ class HotelSearchModifiers
 
     /**
      * @param CorporateDiscountID $CorporateDiscountID
-     * @return \FilippoToso\Travelport\Rail\HotelSearchModifiers
+     * @return \Santosdave\Travelport\Rail\HotelSearchModifiers
      */
     public function setCorporateDiscountID($CorporateDiscountID)
     {
@@ -322,7 +322,7 @@ class HotelSearchModifiers
 
     /**
      * @param typeOTACode[] $RateCategory
-     * @return \FilippoToso\Travelport\Rail\HotelSearchModifiers
+     * @return \Santosdave\Travelport\Rail\HotelSearchModifiers
      */
     public function setRateCategory(array $RateCategory = null)
     {
@@ -340,7 +340,7 @@ class HotelSearchModifiers
 
     /**
      * @param HotelRating $HotelRating
-     * @return \FilippoToso\Travelport\Rail\HotelSearchModifiers
+     * @return \Santosdave\Travelport\Rail\HotelSearchModifiers
      */
     public function setHotelRating($HotelRating)
     {
@@ -358,7 +358,7 @@ class HotelSearchModifiers
 
     /**
      * @param SearchPriority $SearchPriority
-     * @return \FilippoToso\Travelport\Rail\HotelSearchModifiers
+     * @return \Santosdave\Travelport\Rail\HotelSearchModifiers
      */
     public function setSearchPriority($SearchPriority)
     {
@@ -376,7 +376,7 @@ class HotelSearchModifiers
 
     /**
      * @param HotelBedding $HotelBedding
-     * @return \FilippoToso\Travelport\Rail\HotelSearchModifiers
+     * @return \Santosdave\Travelport\Rail\HotelSearchModifiers
      */
     public function setHotelBedding($HotelBedding)
     {
@@ -394,7 +394,7 @@ class HotelSearchModifiers
 
     /**
      * @param Amenities $Amenities
-     * @return \FilippoToso\Travelport\Rail\HotelSearchModifiers
+     * @return \Santosdave\Travelport\Rail\HotelSearchModifiers
      */
     public function setAmenities($Amenities)
     {
@@ -412,7 +412,7 @@ class HotelSearchModifiers
 
     /**
      * @param typeHotelPaymentType $HotelPaymentType
-     * @return \FilippoToso\Travelport\Rail\HotelSearchModifiers
+     * @return \Santosdave\Travelport\Rail\HotelSearchModifiers
      */
     public function setHotelPaymentType($HotelPaymentType)
     {
@@ -430,7 +430,7 @@ class HotelSearchModifiers
 
     /**
      * @param NumberOfChildren $NumberOfChildren
-     * @return \FilippoToso\Travelport\Rail\HotelSearchModifiers
+     * @return \Santosdave\Travelport\Rail\HotelSearchModifiers
      */
     public function setNumberOfChildren($NumberOfChildren)
     {
@@ -448,7 +448,7 @@ class HotelSearchModifiers
 
     /**
      * @param HotelTransportation $HotelTransportation
-     * @return \FilippoToso\Travelport\Rail\HotelSearchModifiers
+     * @return \Santosdave\Travelport\Rail\HotelSearchModifiers
      */
     public function setHotelTransportation($HotelTransportation)
     {
@@ -466,7 +466,7 @@ class HotelSearchModifiers
 
     /**
      * @param BookingGuestInformation $BookingGuestInformation
-     * @return \FilippoToso\Travelport\Rail\HotelSearchModifiers
+     * @return \Santosdave\Travelport\Rail\HotelSearchModifiers
      */
     public function setBookingGuestInformation($BookingGuestInformation)
     {
@@ -484,7 +484,7 @@ class HotelSearchModifiers
 
     /**
      * @param int $NumberOfAdults
-     * @return \FilippoToso\Travelport\Rail\HotelSearchModifiers
+     * @return \Santosdave\Travelport\Rail\HotelSearchModifiers
      */
     public function setNumberOfAdults($NumberOfAdults)
     {
@@ -502,7 +502,7 @@ class HotelSearchModifiers
 
     /**
      * @param int $NumberOfRooms
-     * @return \FilippoToso\Travelport\Rail\HotelSearchModifiers
+     * @return \Santosdave\Travelport\Rail\HotelSearchModifiers
      */
     public function setNumberOfRooms($NumberOfRooms)
     {
@@ -520,7 +520,7 @@ class HotelSearchModifiers
 
     /**
      * @param int $MaxProperties
-     * @return \FilippoToso\Travelport\Rail\HotelSearchModifiers
+     * @return \Santosdave\Travelport\Rail\HotelSearchModifiers
      */
     public function setMaxProperties($MaxProperties)
     {
@@ -538,7 +538,7 @@ class HotelSearchModifiers
 
     /**
      * @param boolean $IsRelaxed
-     * @return \FilippoToso\Travelport\Rail\HotelSearchModifiers
+     * @return \Santosdave\Travelport\Rail\HotelSearchModifiers
      */
     public function setIsRelaxed($IsRelaxed)
     {
@@ -556,7 +556,7 @@ class HotelSearchModifiers
 
     /**
      * @param typeCurrency $PreferredCurrency
-     * @return \FilippoToso\Travelport\Rail\HotelSearchModifiers
+     * @return \Santosdave\Travelport\Rail\HotelSearchModifiers
      */
     public function setPreferredCurrency($PreferredCurrency)
     {
@@ -574,7 +574,7 @@ class HotelSearchModifiers
 
     /**
      * @param boolean $AvailableHotelsOnly
-     * @return \FilippoToso\Travelport\Rail\HotelSearchModifiers
+     * @return \Santosdave\Travelport\Rail\HotelSearchModifiers
      */
     public function setAvailableHotelsOnly($AvailableHotelsOnly)
     {
@@ -592,7 +592,7 @@ class HotelSearchModifiers
 
     /**
      * @param int $MaxWait
-     * @return \FilippoToso\Travelport\Rail\HotelSearchModifiers
+     * @return \Santosdave\Travelport\Rail\HotelSearchModifiers
      */
     public function setMaxWait($MaxWait)
     {
@@ -610,7 +610,7 @@ class HotelSearchModifiers
 
     /**
      * @param boolean $AggregateResults
-     * @return \FilippoToso\Travelport\Rail\HotelSearchModifiers
+     * @return \Santosdave\Travelport\Rail\HotelSearchModifiers
      */
     public function setAggregateResults($AggregateResults)
     {
@@ -628,7 +628,7 @@ class HotelSearchModifiers
 
     /**
      * @param boolean $ReturnPropertyDescription
-     * @return \FilippoToso\Travelport\Rail\HotelSearchModifiers
+     * @return \Santosdave\Travelport\Rail\HotelSearchModifiers
      */
     public function setReturnPropertyDescription($ReturnPropertyDescription)
     {
@@ -646,7 +646,7 @@ class HotelSearchModifiers
 
     /**
      * @param int $NumOfRatePlans
-     * @return \FilippoToso\Travelport\Rail\HotelSearchModifiers
+     * @return \Santosdave\Travelport\Rail\HotelSearchModifiers
      */
     public function setNumOfRatePlans($NumOfRatePlans)
     {
@@ -664,7 +664,7 @@ class HotelSearchModifiers
 
     /**
      * @param boolean $ReturnAmenities
-     * @return \FilippoToso\Travelport\Rail\HotelSearchModifiers
+     * @return \Santosdave\Travelport\Rail\HotelSearchModifiers
      */
     public function setReturnAmenities($ReturnAmenities)
     {

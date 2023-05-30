@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class UnitedNations
 {
@@ -28,7 +28,7 @@ class UnitedNations
 
     /**
      * @param string $Number
-     * @return \FilippoToso\Travelport\UniversalRecord\UnitedNations
+     * @return \Santosdave\Travelport\UniversalRecord\UnitedNations
      */
     public function setNumber($Number)
     {

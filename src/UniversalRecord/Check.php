@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class Check
 {
@@ -49,7 +49,7 @@ class Check
 
     /**
      * @param anonymous22 $MICRNumber
-     * @return \FilippoToso\Travelport\UniversalRecord\Check
+     * @return \Santosdave\Travelport\UniversalRecord\Check
      */
     public function setMICRNumber($MICRNumber)
     {
@@ -67,7 +67,7 @@ class Check
 
     /**
      * @param string $RoutingNumber
-     * @return \FilippoToso\Travelport\UniversalRecord\Check
+     * @return \Santosdave\Travelport\UniversalRecord\Check
      */
     public function setRoutingNumber($RoutingNumber)
     {
@@ -85,7 +85,7 @@ class Check
 
     /**
      * @param string $AccountNumber
-     * @return \FilippoToso\Travelport\UniversalRecord\Check
+     * @return \Santosdave\Travelport\UniversalRecord\Check
      */
     public function setAccountNumber($AccountNumber)
     {
@@ -103,7 +103,7 @@ class Check
 
     /**
      * @param string $CheckNumber
-     * @return \FilippoToso\Travelport\UniversalRecord\Check
+     * @return \Santosdave\Travelport\UniversalRecord\Check
      */
     public function setCheckNumber($CheckNumber)
     {

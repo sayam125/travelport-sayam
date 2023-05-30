@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class UniversalRecordHistorySearchReq extends BaseReq
 {
@@ -47,7 +47,7 @@ class UniversalRecordHistorySearchReq extends BaseReq
 
     /**
      * @param UniversalRecordHistorySearchModifiers $UniversalRecordHistorySearchModifiers
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalRecordHistorySearchReq
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalRecordHistorySearchReq
      */
     public function setUniversalRecordHistorySearchModifiers($UniversalRecordHistorySearchModifiers)
     {
@@ -65,7 +65,7 @@ class UniversalRecordHistorySearchReq extends BaseReq
 
     /**
      * @param typeLocatorCode $UniversalRecordLocatorCode
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalRecordHistorySearchReq
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalRecordHistorySearchReq
      */
     public function setUniversalRecordLocatorCode($UniversalRecordLocatorCode)
     {

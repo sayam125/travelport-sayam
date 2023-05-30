@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class OverrideCurrency
 {
@@ -35,7 +35,7 @@ class OverrideCurrency
 
     /**
      * @param typeCurrency $CurrencyCode
-     * @return \FilippoToso\Travelport\Rail\OverrideCurrency
+     * @return \Santosdave\Travelport\Rail\OverrideCurrency
      */
     public function setCurrencyCode($CurrencyCode)
     {
@@ -53,7 +53,7 @@ class OverrideCurrency
 
     /**
      * @param typeCountry $CountryCode
-     * @return \FilippoToso\Travelport\Rail\OverrideCurrency
+     * @return \Santosdave\Travelport\Rail\OverrideCurrency
      */
     public function setCountryCode($CountryCode)
     {

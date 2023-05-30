@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class UniversalRecordHistorySearchModifiers
 {
@@ -68,7 +68,7 @@ class UniversalRecordHistorySearchModifiers
 
     /**
      * @param string $ElementType
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalRecordHistorySearchModifiers
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalRecordHistorySearchModifiers
      */
     public function setElementType($ElementType)
     {
@@ -86,7 +86,7 @@ class UniversalRecordHistorySearchModifiers
 
     /**
      * @param date $ModifiedDate
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalRecordHistorySearchModifiers
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalRecordHistorySearchModifiers
      */
     public function setModifiedDate($ModifiedDate)
     {
@@ -104,7 +104,7 @@ class UniversalRecordHistorySearchModifiers
 
     /**
      * @param ModifiedRange $ModifiedRange
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalRecordHistorySearchModifiers
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalRecordHistorySearchModifiers
      */
     public function setModifiedRange($ModifiedRange)
     {
@@ -122,7 +122,7 @@ class UniversalRecordHistorySearchModifiers
 
     /**
      * @param typeMaxResults $MaxResults
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalRecordHistorySearchModifiers
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalRecordHistorySearchModifiers
      */
     public function setMaxResults($MaxResults)
     {
@@ -140,7 +140,7 @@ class UniversalRecordHistorySearchModifiers
 
     /**
      * @param typeStartFromResult $StartFromResult
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalRecordHistorySearchModifiers
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalRecordHistorySearchModifiers
      */
     public function setStartFromResult($StartFromResult)
     {
@@ -158,7 +158,7 @@ class UniversalRecordHistorySearchModifiers
 
     /**
      * @param UNKNOWN $ModifiedBy
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalRecordHistorySearchModifiers
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalRecordHistorySearchModifiers
      */
     public function setModifiedBy($ModifiedBy)
     {
@@ -176,7 +176,7 @@ class UniversalRecordHistorySearchModifiers
 
     /**
      * @param boolean $DebugMode
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalRecordHistorySearchModifiers
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalRecordHistorySearchModifiers
      */
     public function setDebugMode($DebugMode)
     {

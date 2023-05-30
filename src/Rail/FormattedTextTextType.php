@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class FormattedTextTextType
 {
@@ -49,7 +49,7 @@ class FormattedTextTextType
 
     /**
      * @param string $_
-     * @return \FilippoToso\Travelport\Rail\FormattedTextTextType
+     * @return \Santosdave\Travelport\Rail\FormattedTextTextType
      */
     public function set_($_)
     {
@@ -67,7 +67,7 @@ class FormattedTextTextType
 
     /**
      * @param boolean $Formatted
-     * @return \FilippoToso\Travelport\Rail\FormattedTextTextType
+     * @return \Santosdave\Travelport\Rail\FormattedTextTextType
      */
     public function setFormatted($Formatted)
     {
@@ -85,7 +85,7 @@ class FormattedTextTextType
 
     /**
      * @param anonymous331 $TextFormat
-     * @return \FilippoToso\Travelport\Rail\FormattedTextTextType
+     * @return \Santosdave\Travelport\Rail\FormattedTextTextType
      */
     public function setTextFormat($TextFormat)
     {
@@ -103,7 +103,7 @@ class FormattedTextTextType
 
     /**
      * @param language $Language
-     * @return \FilippoToso\Travelport\Rail\FormattedTextTextType
+     * @return \Santosdave\Travelport\Rail\FormattedTextTextType
      */
     public function setLanguage($Language)
     {

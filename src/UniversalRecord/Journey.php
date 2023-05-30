@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class Journey
 {
@@ -35,7 +35,7 @@ class Journey
 
     /**
      * @param AirSegmentRef $AirSegmentRef
-     * @return \FilippoToso\Travelport\UniversalRecord\Journey
+     * @return \Santosdave\Travelport\UniversalRecord\Journey
      */
     public function setAirSegmentRef($AirSegmentRef)
     {
@@ -53,7 +53,7 @@ class Journey
 
     /**
      * @param duration $TravelTime
-     * @return \FilippoToso\Travelport\UniversalRecord\Journey
+     * @return \Santosdave\Travelport\UniversalRecord\Journey
      */
     public function setTravelTime($TravelTime)
     {

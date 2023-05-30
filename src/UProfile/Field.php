@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class Field extends typeCustomField
 {
@@ -61,7 +61,7 @@ class Field extends typeCustomField
 
     /**
      * @param typeProfileID $ProfileID
-     * @return \FilippoToso\Travelport\UProfile\Field
+     * @return \Santosdave\Travelport\UProfile\Field
      */
     public function setProfileID($ProfileID)
     {
@@ -79,7 +79,7 @@ class Field extends typeCustomField
 
     /**
      * @param typeProfileType $ProfileType
-     * @return \FilippoToso\Travelport\UProfile\Field
+     * @return \Santosdave\Travelport\UProfile\Field
      */
     public function setProfileType($ProfileType)
     {
@@ -97,7 +97,7 @@ class Field extends typeCustomField
 
     /**
      * @param boolean $IsUsed
-     * @return \FilippoToso\Travelport\UProfile\Field
+     * @return \Santosdave\Travelport\UProfile\Field
      */
     public function setIsUsed($IsUsed)
     {

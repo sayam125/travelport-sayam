@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class BookingCode
 {
@@ -28,7 +28,7 @@ class BookingCode
 
     /**
      * @param typeClassOfService $Code
-     * @return \FilippoToso\Travelport\GDSQueue\BookingCode
+     * @return \Santosdave\Travelport\GDSQueue\BookingCode
      */
     public function setCode($Code)
     {

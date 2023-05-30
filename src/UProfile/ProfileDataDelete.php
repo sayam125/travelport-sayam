@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class ProfileDataDelete
 {
@@ -35,7 +35,7 @@ class ProfileDataDelete
 
     /**
      * @param typeProfileDataElementType $Element
-     * @return \FilippoToso\Travelport\UProfile\ProfileDataDelete
+     * @return \Santosdave\Travelport\UProfile\ProfileDataDelete
      */
     public function setElement($Element)
     {
@@ -53,7 +53,7 @@ class ProfileDataDelete
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\UProfile\ProfileDataDelete
+     * @return \Santosdave\Travelport\UProfile\ProfileDataDelete
      */
     public function setKey($Key)
     {

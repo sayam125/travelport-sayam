@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Terminal;
+namespace Santosdave\Travelport\Terminal;
 
 class CreateTerminalSessionRsp extends BaseRsp
 {
@@ -34,7 +34,7 @@ class CreateTerminalSessionRsp extends BaseRsp
 
     /**
      * @param HostToken $HostToken
-     * @return \FilippoToso\Travelport\Terminal\CreateTerminalSessionRsp
+     * @return \Santosdave\Travelport\Terminal\CreateTerminalSessionRsp
      */
     public function setHostToken($HostToken)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class AirExchangeMulitQuoteList
 {
@@ -28,7 +28,7 @@ class AirExchangeMulitQuoteList
 
     /**
      * @param AirExchangeMultiQuoteOption $AirExchangeMultiQuoteOption
-     * @return \FilippoToso\Travelport\Rail\AirExchangeMulitQuoteList
+     * @return \Santosdave\Travelport\Rail\AirExchangeMulitQuoteList
      */
     public function setAirExchangeMultiQuoteOption($AirExchangeMultiQuoteOption)
     {

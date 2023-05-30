@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class Room
 {
@@ -35,7 +35,7 @@ class Room
 
     /**
      * @param int $Capacity
-     * @return \FilippoToso\Travelport\GDSQueue\Room
+     * @return \Santosdave\Travelport\GDSQueue\Room
      */
     public function setCapacity($Capacity)
     {
@@ -53,7 +53,7 @@ class Room
 
     /**
      * @param int $Quantity
-     * @return \FilippoToso\Travelport\GDSQueue\Room
+     * @return \Santosdave\Travelport\GDSQueue\Room
      */
     public function setQuantity($Quantity)
     {

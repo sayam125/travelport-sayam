@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class Route
 {
@@ -35,7 +35,7 @@ class Route
 
     /**
      * @param Leg $Leg
-     * @return \FilippoToso\Travelport\Air\Route
+     * @return \Santosdave\Travelport\Air\Route
      */
     public function setLeg($Leg)
     {
@@ -53,7 +53,7 @@ class Route
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Air\Route
+     * @return \Santosdave\Travelport\Air\Route
      */
     public function setKey($Key)
     {

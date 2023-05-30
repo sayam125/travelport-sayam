@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class IncludedItem
 {
@@ -35,7 +35,7 @@ class IncludedItem
 
     /**
      * @param string $Code
-     * @return \FilippoToso\Travelport\GDSQueue\IncludedItem
+     * @return \Santosdave\Travelport\GDSQueue\IncludedItem
      */
     public function setCode($Code)
     {
@@ -53,7 +53,7 @@ class IncludedItem
 
     /**
      * @param string $Description
-     * @return \FilippoToso\Travelport\GDSQueue\IncludedItem
+     * @return \Santosdave\Travelport\GDSQueue\IncludedItem
      */
     public function setDescription($Description)
     {

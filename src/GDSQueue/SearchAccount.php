@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class SearchAccount
 {
@@ -35,7 +35,7 @@ class SearchAccount
 
     /**
      * @param string $ClientID
-     * @return \FilippoToso\Travelport\GDSQueue\SearchAccount
+     * @return \Santosdave\Travelport\GDSQueue\SearchAccount
      */
     public function setClientID($ClientID)
     {
@@ -53,7 +53,7 @@ class SearchAccount
 
     /**
      * @param typeBranchId $BranchID
-     * @return \FilippoToso\Travelport\GDSQueue\SearchAccount
+     * @return \Santosdave\Travelport\GDSQueue\SearchAccount
      */
     public function setBranchID($BranchID)
     {

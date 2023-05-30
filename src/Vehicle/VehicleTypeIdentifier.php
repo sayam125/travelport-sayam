@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Vehicle;
+namespace Santosdave\Travelport\Vehicle;
 
 class VehicleTypeIdentifier
 {
@@ -63,7 +63,7 @@ class VehicleTypeIdentifier
 
     /**
      * @param boolean $AirConditioning
-     * @return \FilippoToso\Travelport\Vehicle\VehicleTypeIdentifier
+     * @return \Santosdave\Travelport\Vehicle\VehicleTypeIdentifier
      */
     public function setAirConditioning($AirConditioning)
     {
@@ -81,7 +81,7 @@ class VehicleTypeIdentifier
 
     /**
      * @param typeVehicleTransmission $TransmissionType
-     * @return \FilippoToso\Travelport\Vehicle\VehicleTypeIdentifier
+     * @return \Santosdave\Travelport\Vehicle\VehicleTypeIdentifier
      */
     public function setTransmissionType($TransmissionType)
     {
@@ -99,7 +99,7 @@ class VehicleTypeIdentifier
 
     /**
      * @param typeVehicleClass $VehicleClass
-     * @return \FilippoToso\Travelport\Vehicle\VehicleTypeIdentifier
+     * @return \Santosdave\Travelport\Vehicle\VehicleTypeIdentifier
      */
     public function setVehicleClass($VehicleClass)
     {
@@ -117,7 +117,7 @@ class VehicleTypeIdentifier
 
     /**
      * @param typeVehicleCategory $Category
-     * @return \FilippoToso\Travelport\Vehicle\VehicleTypeIdentifier
+     * @return \Santosdave\Travelport\Vehicle\VehicleTypeIdentifier
      */
     public function setCategory($Category)
     {
@@ -135,7 +135,7 @@ class VehicleTypeIdentifier
 
     /**
      * @param typeDoorCount $DoorCount
-     * @return \FilippoToso\Travelport\Vehicle\VehicleTypeIdentifier
+     * @return \Santosdave\Travelport\Vehicle\VehicleTypeIdentifier
      */
     public function setDoorCount($DoorCount)
     {
@@ -153,7 +153,7 @@ class VehicleTypeIdentifier
 
     /**
      * @param typeFuel $FuelType
-     * @return \FilippoToso\Travelport\Vehicle\VehicleTypeIdentifier
+     * @return \Santosdave\Travelport\Vehicle\VehicleTypeIdentifier
      */
     public function setFuelType($FuelType)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class Characteristic
 {
@@ -49,7 +49,7 @@ class Characteristic
 
     /**
      * @param anonymous146 $SeatType
-     * @return \FilippoToso\Travelport\Hotel\Characteristic
+     * @return \Santosdave\Travelport\Hotel\Characteristic
      */
     public function setSeatType($SeatType)
     {
@@ -67,7 +67,7 @@ class Characteristic
 
     /**
      * @param anonymous147 $SeatDescription
-     * @return \FilippoToso\Travelport\Hotel\Characteristic
+     * @return \Santosdave\Travelport\Hotel\Characteristic
      */
     public function setSeatDescription($SeatDescription)
     {
@@ -85,7 +85,7 @@ class Characteristic
 
     /**
      * @param anonymous148 $SeatValue
-     * @return \FilippoToso\Travelport\Hotel\Characteristic
+     * @return \Santosdave\Travelport\Hotel\Characteristic
      */
     public function setSeatValue($SeatValue)
     {
@@ -103,7 +103,7 @@ class Characteristic
 
     /**
      * @param anonymous149 $SeatValueDescription
-     * @return \FilippoToso\Travelport\Hotel\Characteristic
+     * @return \Santosdave\Travelport\Hotel\Characteristic
      */
     public function setSeatValueDescription($SeatValueDescription)
     {

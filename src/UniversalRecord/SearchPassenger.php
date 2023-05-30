@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class SearchPassenger extends typePassengerType
 {
@@ -41,7 +41,7 @@ class SearchPassenger extends typePassengerType
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\UniversalRecord\SearchPassenger
+     * @return \Santosdave\Travelport\UniversalRecord\SearchPassenger
      */
     public function setKey($Key)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class BaseHotelSearchRsp extends BaseSearchRsp
 {
@@ -61,7 +61,7 @@ class BaseHotelSearchRsp extends BaseSearchRsp
 
     /**
      * @param typeHotelReferencePoint $ReferencePoint
-     * @return \FilippoToso\Travelport\Hotel\BaseHotelSearchRsp
+     * @return \Santosdave\Travelport\Hotel\BaseHotelSearchRsp
      */
     public function setReferencePoint($ReferencePoint)
     {
@@ -79,7 +79,7 @@ class BaseHotelSearchRsp extends BaseSearchRsp
 
     /**
      * @param HotelSearchResult $HotelSearchResult
-     * @return \FilippoToso\Travelport\Hotel\BaseHotelSearchRsp
+     * @return \Santosdave\Travelport\Hotel\BaseHotelSearchRsp
      */
     public function setHotelSearchResult($HotelSearchResult)
     {
@@ -97,7 +97,7 @@ class BaseHotelSearchRsp extends BaseSearchRsp
 
     /**
      * @param MarketingInformation $MarketingInformation
-     * @return \FilippoToso\Travelport\Hotel\BaseHotelSearchRsp
+     * @return \Santosdave\Travelport\Hotel\BaseHotelSearchRsp
      */
     public function setMarketingInformation($MarketingInformation)
     {
@@ -115,7 +115,7 @@ class BaseHotelSearchRsp extends BaseSearchRsp
 
     /**
      * @param HostToken $HostToken
-     * @return \FilippoToso\Travelport\Hotel\BaseHotelSearchRsp
+     * @return \Santosdave\Travelport\Hotel\BaseHotelSearchRsp
      */
     public function setHostToken($HostToken)
     {
@@ -133,7 +133,7 @@ class BaseHotelSearchRsp extends BaseSearchRsp
 
     /**
      * @param int $AddressSearchQuality
-     * @return \FilippoToso\Travelport\Hotel\BaseHotelSearchRsp
+     * @return \Santosdave\Travelport\Hotel\BaseHotelSearchRsp
      */
     public function setAddressSearchQuality($AddressSearchQuality)
     {

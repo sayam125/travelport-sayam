@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class typeTicketingModifiersRef
 {
@@ -35,7 +35,7 @@ class typeTicketingModifiersRef
 
     /**
      * @param AirPricingInfoRef $AirPricingInfoRef
-     * @return \FilippoToso\Travelport\Rail\typeTicketingModifiersRef
+     * @return \Santosdave\Travelport\Rail\typeTicketingModifiersRef
      */
     public function setAirPricingInfoRef($AirPricingInfoRef)
     {
@@ -53,7 +53,7 @@ class typeTicketingModifiersRef
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Rail\typeTicketingModifiersRef
+     * @return \Santosdave\Travelport\Rail\typeTicketingModifiersRef
      */
     public function setKey($Key)
     {

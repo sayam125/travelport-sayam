@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class CabinInfo
 {
@@ -70,7 +70,7 @@ class CabinInfo
 
     /**
      * @param StringLength1to3 $Category
-     * @return \FilippoToso\Travelport\Rail\CabinInfo
+     * @return \Santosdave\Travelport\Rail\CabinInfo
      */
     public function setCategory($Category)
     {
@@ -88,7 +88,7 @@ class CabinInfo
 
     /**
      * @param StringLength1to5 $Number
-     * @return \FilippoToso\Travelport\Rail\CabinInfo
+     * @return \Santosdave\Travelport\Rail\CabinInfo
      */
     public function setNumber($Number)
     {
@@ -106,7 +106,7 @@ class CabinInfo
 
     /**
      * @param StringLength1 $Location
-     * @return \FilippoToso\Travelport\Rail\CabinInfo
+     * @return \Santosdave\Travelport\Rail\CabinInfo
      */
     public function setLocation($Location)
     {
@@ -124,7 +124,7 @@ class CabinInfo
 
     /**
      * @param StringLength1to12 $RelativeLocation
-     * @return \FilippoToso\Travelport\Rail\CabinInfo
+     * @return \Santosdave\Travelport\Rail\CabinInfo
      */
     public function setRelativeLocation($RelativeLocation)
     {
@@ -142,7 +142,7 @@ class CabinInfo
 
     /**
      * @param StringLength1to15 $DeckName
-     * @return \FilippoToso\Travelport\Rail\CabinInfo
+     * @return \Santosdave\Travelport\Rail\CabinInfo
      */
     public function setDeckName($DeckName)
     {
@@ -160,7 +160,7 @@ class CabinInfo
 
     /**
      * @param StringLength1to10 $BedConfiguration
-     * @return \FilippoToso\Travelport\Rail\CabinInfo
+     * @return \Santosdave\Travelport\Rail\CabinInfo
      */
     public function setBedConfiguration($BedConfiguration)
     {
@@ -178,7 +178,7 @@ class CabinInfo
 
     /**
      * @param boolean $SmokingIndicator
-     * @return \FilippoToso\Travelport\Rail\CabinInfo
+     * @return \Santosdave\Travelport\Rail\CabinInfo
      */
     public function setSmokingIndicator($SmokingIndicator)
     {

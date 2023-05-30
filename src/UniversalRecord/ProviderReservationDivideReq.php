@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class ProviderReservationDivideReq extends BaseReq
 {
@@ -68,7 +68,7 @@ class ProviderReservationDivideReq extends BaseReq
 
     /**
      * @param BookingTravelerRef[] $BookingTravelerRef
-     * @return \FilippoToso\Travelport\UniversalRecord\ProviderReservationDivideReq
+     * @return \Santosdave\Travelport\UniversalRecord\ProviderReservationDivideReq
      */
     public function setBookingTravelerRef(array $BookingTravelerRef)
     {
@@ -86,7 +86,7 @@ class ProviderReservationDivideReq extends BaseReq
 
     /**
      * @param typeLocatorCode $UniversalRecordLocatorCode
-     * @return \FilippoToso\Travelport\UniversalRecord\ProviderReservationDivideReq
+     * @return \Santosdave\Travelport\UniversalRecord\ProviderReservationDivideReq
      */
     public function setUniversalRecordLocatorCode($UniversalRecordLocatorCode)
     {
@@ -104,7 +104,7 @@ class ProviderReservationDivideReq extends BaseReq
 
     /**
      * @param anonymous1477 $CreateChildUniversalRecord
-     * @return \FilippoToso\Travelport\UniversalRecord\ProviderReservationDivideReq
+     * @return \Santosdave\Travelport\UniversalRecord\ProviderReservationDivideReq
      */
     public function setCreateChildUniversalRecord($CreateChildUniversalRecord)
     {
@@ -122,7 +122,7 @@ class ProviderReservationDivideReq extends BaseReq
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\UniversalRecord\ProviderReservationDivideReq
+     * @return \Santosdave\Travelport\UniversalRecord\ProviderReservationDivideReq
      */
     public function setProviderCode($ProviderCode)
     {
@@ -140,7 +140,7 @@ class ProviderReservationDivideReq extends BaseReq
 
     /**
      * @param typeProviderLocatorCode $ProviderLocatorCode
-     * @return \FilippoToso\Travelport\UniversalRecord\ProviderReservationDivideReq
+     * @return \Santosdave\Travelport\UniversalRecord\ProviderReservationDivideReq
      */
     public function setProviderLocatorCode($ProviderLocatorCode)
     {

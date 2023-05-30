@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeContact extends typeKeyTaggedElement
 {
@@ -66,7 +66,7 @@ class typeContact extends typeKeyTaggedElement
 
     /**
      * @param typeContactType $Type
-     * @return \FilippoToso\Travelport\UProfile\typeContact
+     * @return \Santosdave\Travelport\UProfile\typeContact
      */
     public function setType($Type)
     {
@@ -84,7 +84,7 @@ class typeContact extends typeKeyTaggedElement
 
     /**
      * @param StringLength1to128 $GivenName
-     * @return \FilippoToso\Travelport\UProfile\typeContact
+     * @return \Santosdave\Travelport\UProfile\typeContact
      */
     public function setGivenName($GivenName)
     {
@@ -102,7 +102,7 @@ class typeContact extends typeKeyTaggedElement
 
     /**
      * @param StringLength1to128 $Surname
-     * @return \FilippoToso\Travelport\UProfile\typeContact
+     * @return \Santosdave\Travelport\UProfile\typeContact
      */
     public function setSurname($Surname)
     {
@@ -120,7 +120,7 @@ class typeContact extends typeKeyTaggedElement
 
     /**
      * @param StringLength1to128 $OtherName
-     * @return \FilippoToso\Travelport\UProfile\typeContact
+     * @return \Santosdave\Travelport\UProfile\typeContact
      */
     public function setOtherName($OtherName)
     {
@@ -138,7 +138,7 @@ class typeContact extends typeKeyTaggedElement
 
     /**
      * @param StringLength1to128 $Nickname
-     * @return \FilippoToso\Travelport\UProfile\typeContact
+     * @return \Santosdave\Travelport\UProfile\typeContact
      */
     public function setNickname($Nickname)
     {
@@ -156,7 +156,7 @@ class typeContact extends typeKeyTaggedElement
 
     /**
      * @param typePriorityOrder $PriorityOrder
-     * @return \FilippoToso\Travelport\UProfile\typeContact
+     * @return \Santosdave\Travelport\UProfile\typeContact
      */
     public function setPriorityOrder($PriorityOrder)
     {

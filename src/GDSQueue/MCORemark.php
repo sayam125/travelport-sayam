@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class MCORemark
 {
@@ -35,7 +35,7 @@ class MCORemark
 
     /**
      * @param string $_
-     * @return \FilippoToso\Travelport\GDSQueue\MCORemark
+     * @return \Santosdave\Travelport\GDSQueue\MCORemark
      */
     public function set_($_)
     {
@@ -53,7 +53,7 @@ class MCORemark
 
     /**
      * @param boolean $AdditionalRmk
-     * @return \FilippoToso\Travelport\GDSQueue\MCORemark
+     * @return \Santosdave\Travelport\GDSQueue\MCORemark
      */
     public function setAdditionalRmk($AdditionalRmk)
     {

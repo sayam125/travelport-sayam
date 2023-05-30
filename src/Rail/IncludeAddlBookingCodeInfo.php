@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class IncludeAddlBookingCodeInfo
 {
@@ -35,7 +35,7 @@ class IncludeAddlBookingCodeInfo
 
     /**
      * @param typeCarrierCode $Type
-     * @return \FilippoToso\Travelport\Rail\IncludeAddlBookingCodeInfo
+     * @return \Santosdave\Travelport\Rail\IncludeAddlBookingCodeInfo
      */
     public function setType($Type)
     {
@@ -53,7 +53,7 @@ class IncludeAddlBookingCodeInfo
 
     /**
      * @param typeCarrier $SecondaryCarrier
-     * @return \FilippoToso\Travelport\Rail\IncludeAddlBookingCodeInfo
+     * @return \Santosdave\Travelport\Rail\IncludeAddlBookingCodeInfo
      */
     public function setSecondaryCarrier($SecondaryCarrier)
     {

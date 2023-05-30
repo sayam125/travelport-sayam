@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class PassiveRemark
 {
@@ -42,7 +42,7 @@ class PassiveRemark
 
     /**
      * @param string $Text
-     * @return \FilippoToso\Travelport\Rail\PassiveRemark
+     * @return \Santosdave\Travelport\Rail\PassiveRemark
      */
     public function setText($Text)
     {
@@ -60,7 +60,7 @@ class PassiveRemark
 
     /**
      * @param string $Type
-     * @return \FilippoToso\Travelport\Rail\PassiveRemark
+     * @return \Santosdave\Travelport\Rail\PassiveRemark
      */
     public function setType($Type)
     {
@@ -78,7 +78,7 @@ class PassiveRemark
 
     /**
      * @param typeRef $PassiveSegmentRef
-     * @return \FilippoToso\Travelport\Rail\PassiveRemark
+     * @return \Santosdave\Travelport\Rail\PassiveRemark
      */
     public function setPassiveSegmentRef($PassiveSegmentRef)
     {

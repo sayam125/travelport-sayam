@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class typeOTASubKey
 {
@@ -40,7 +40,7 @@ class typeOTASubKey
 
     /**
      * @param string[] $Text
-     * @return \FilippoToso\Travelport\GDSQueue\typeOTASubKey
+     * @return \Santosdave\Travelport\GDSQueue\typeOTASubKey
      */
     public function setText(array $Text = null)
     {
@@ -58,7 +58,7 @@ class typeOTASubKey
 
     /**
      * @param typeOTACode $Name
-     * @return \FilippoToso\Travelport\GDSQueue\typeOTASubKey
+     * @return \Santosdave\Travelport\GDSQueue\typeOTASubKey
      */
     public function setName($Name)
     {
@@ -76,7 +76,7 @@ class typeOTASubKey
 
     /**
      * @param string $Description
-     * @return \FilippoToso\Travelport\GDSQueue\typeOTASubKey
+     * @return \Santosdave\Travelport\GDSQueue\typeOTASubKey
      */
     public function setDescription($Description)
     {

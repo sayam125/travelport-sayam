@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class RailCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 {
@@ -108,7 +108,7 @@ class RailCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param RailPricingSolution $RailPricingSolution
-     * @return \FilippoToso\Travelport\UniversalRecord\RailCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\RailCreateReservationReq
      */
     public function setRailPricingSolution($RailPricingSolution)
     {
@@ -126,7 +126,7 @@ class RailCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param Payment $Payment
-     * @return \FilippoToso\Travelport\UniversalRecord\RailCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\RailCreateReservationReq
      */
     public function setPayment($Payment)
     {
@@ -144,7 +144,7 @@ class RailCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param RailFareNoteList $RailFareNoteList
-     * @return \FilippoToso\Travelport\UniversalRecord\RailCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\RailCreateReservationReq
      */
     public function setRailFareNoteList($RailFareNoteList)
     {
@@ -162,7 +162,7 @@ class RailCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param HostTokenList $HostTokenList
-     * @return \FilippoToso\Travelport\UniversalRecord\RailCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\RailCreateReservationReq
      */
     public function setHostTokenList($HostTokenList)
     {
@@ -180,7 +180,7 @@ class RailCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param RailAutoSeatAssignment $RailAutoSeatAssignment
-     * @return \FilippoToso\Travelport\UniversalRecord\RailCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\RailCreateReservationReq
      */
     public function setRailAutoSeatAssignment($RailAutoSeatAssignment)
     {
@@ -198,7 +198,7 @@ class RailCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param RailSpecificSeatAssignment $RailSpecificSeatAssignment
-     * @return \FilippoToso\Travelport\UniversalRecord\RailCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\RailCreateReservationReq
      */
     public function setRailSpecificSeatAssignment($RailSpecificSeatAssignment)
     {
@@ -216,7 +216,7 @@ class RailCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param string $BookingActionType
-     * @return \FilippoToso\Travelport\UniversalRecord\RailCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\RailCreateReservationReq
      */
     public function setBookingActionType($BookingActionType)
     {

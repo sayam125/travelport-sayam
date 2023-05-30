@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class typeVehicleCharge
 {
@@ -66,7 +66,7 @@ class typeVehicleCharge
 
     /**
      * @param typeMoney $Amount
-     * @return \FilippoToso\Travelport\Rail\typeVehicleCharge
+     * @return \Santosdave\Travelport\Rail\typeVehicleCharge
      */
     public function setAmount($Amount)
     {
@@ -84,7 +84,7 @@ class typeVehicleCharge
 
     /**
      * @param typePercentageWithDecimal $Percentage
-     * @return \FilippoToso\Travelport\Rail\typeVehicleCharge
+     * @return \Santosdave\Travelport\Rail\typeVehicleCharge
      */
     public function setPercentage($Percentage)
     {
@@ -102,7 +102,7 @@ class typeVehicleCharge
 
     /**
      * @param string $Category
-     * @return \FilippoToso\Travelport\Rail\typeVehicleCharge
+     * @return \Santosdave\Travelport\Rail\typeVehicleCharge
      */
     public function setCategory($Category)
     {
@@ -120,7 +120,7 @@ class typeVehicleCharge
 
     /**
      * @param string $Name
-     * @return \FilippoToso\Travelport\Rail\typeVehicleCharge
+     * @return \Santosdave\Travelport\Rail\typeVehicleCharge
      */
     public function setName($Name)
     {
@@ -138,7 +138,7 @@ class typeVehicleCharge
 
     /**
      * @param string $Description
-     * @return \FilippoToso\Travelport\Rail\typeVehicleCharge
+     * @return \Santosdave\Travelport\Rail\typeVehicleCharge
      */
     public function setDescription($Description)
     {
@@ -156,7 +156,7 @@ class typeVehicleCharge
 
     /**
      * @param anonymous592 $Type
-     * @return \FilippoToso\Travelport\Rail\typeVehicleCharge
+     * @return \Santosdave\Travelport\Rail\typeVehicleCharge
      */
     public function setType($Type)
     {
@@ -174,7 +174,7 @@ class typeVehicleCharge
 
     /**
      * @param anonymous593 $IncludedInRate
-     * @return \FilippoToso\Travelport\Rail\typeVehicleCharge
+     * @return \Santosdave\Travelport\Rail\typeVehicleCharge
      */
     public function setIncludedInRate($IncludedInRate)
     {

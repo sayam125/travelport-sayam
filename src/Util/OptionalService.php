@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class OptionalService
 {
@@ -532,7 +532,7 @@ class OptionalService
 
     /**
      * @param ServiceData $ServiceData
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setServiceData($ServiceData)
     {
@@ -550,7 +550,7 @@ class OptionalService
 
     /**
      * @param ServiceInfo $ServiceInfo
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setServiceInfo($ServiceInfo)
     {
@@ -568,7 +568,7 @@ class OptionalService
 
     /**
      * @param Remark $Remark
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setRemark($Remark)
     {
@@ -586,7 +586,7 @@ class OptionalService
 
     /**
      * @param typeTaxInfo $TaxInfo
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setTaxInfo($TaxInfo)
     {
@@ -604,7 +604,7 @@ class OptionalService
 
     /**
      * @param typeFeeInfo $FeeInfo
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setFeeInfo($FeeInfo)
     {
@@ -622,7 +622,7 @@ class OptionalService
 
     /**
      * @param EMD $EMD
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setEMD($EMD)
     {
@@ -640,7 +640,7 @@ class OptionalService
 
     /**
      * @param BundledServices $BundledServices
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setBundledServices($BundledServices)
     {
@@ -658,7 +658,7 @@ class OptionalService
 
     /**
      * @param AdditionalInfo $AdditionalInfo
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setAdditionalInfo($AdditionalInfo)
     {
@@ -676,7 +676,7 @@ class OptionalService
 
     /**
      * @param FeeApplication $FeeApplication
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setFeeApplication($FeeApplication)
     {
@@ -694,7 +694,7 @@ class OptionalService
 
     /**
      * @param typeTextElement $Text
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setText($Text)
     {
@@ -712,7 +712,7 @@ class OptionalService
 
     /**
      * @param PriceRange $PriceRange
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setPriceRange($PriceRange)
     {
@@ -730,7 +730,7 @@ class OptionalService
 
     /**
      * @param TourCode $TourCode
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setTourCode($TourCode)
     {
@@ -748,7 +748,7 @@ class OptionalService
 
     /**
      * @param BrandingInfo $BrandingInfo
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setBrandingInfo($BrandingInfo)
     {
@@ -766,7 +766,7 @@ class OptionalService
 
     /**
      * @param typeTextElement $Title
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setTitle($Title)
     {
@@ -784,7 +784,7 @@ class OptionalService
 
     /**
      * @param typeRef $OptionalServicesRuleRef
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setOptionalServicesRuleRef($OptionalServicesRuleRef)
     {
@@ -802,7 +802,7 @@ class OptionalService
 
     /**
      * @param typeMerchandisingService $Type
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setType($Type)
     {
@@ -820,7 +820,7 @@ class OptionalService
 
     /**
      * @param string $Confirmation
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setConfirmation($Confirmation)
     {
@@ -838,7 +838,7 @@ class OptionalService
 
     /**
      * @param string $SecondaryType
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setSecondaryType($SecondaryType)
     {
@@ -856,7 +856,7 @@ class OptionalService
 
     /**
      * @param typePurchaseWindow $PurchaseWindow
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setPurchaseWindow($PurchaseWindow)
     {
@@ -874,7 +874,7 @@ class OptionalService
 
     /**
      * @param int $Priority
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setPriority($Priority)
     {
@@ -892,7 +892,7 @@ class OptionalService
 
     /**
      * @param boolean $Available
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setAvailable($Available)
     {
@@ -910,7 +910,7 @@ class OptionalService
 
     /**
      * @param boolean $Entitled
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setEntitled($Entitled)
     {
@@ -928,7 +928,7 @@ class OptionalService
 
     /**
      * @param boolean $PerTraveler
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setPerTraveler($PerTraveler)
     {
@@ -954,7 +954,7 @@ class OptionalService
 
     /**
      * @param \DateTime $CreateDate
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setCreateDate(\DateTime $CreateDate)
     {
@@ -972,7 +972,7 @@ class OptionalService
 
     /**
      * @param typeRef $PaymentRef
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setPaymentRef($PaymentRef)
     {
@@ -990,7 +990,7 @@ class OptionalService
 
     /**
      * @param string $ServiceStatus
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setServiceStatus($ServiceStatus)
     {
@@ -1008,7 +1008,7 @@ class OptionalService
 
     /**
      * @param int $Quantity
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setQuantity($Quantity)
     {
@@ -1026,7 +1026,7 @@ class OptionalService
 
     /**
      * @param int $SequenceNumber
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setSequenceNumber($SequenceNumber)
     {
@@ -1044,7 +1044,7 @@ class OptionalService
 
     /**
      * @param anonymous826 $ServiceSubCode
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setServiceSubCode($ServiceSubCode)
     {
@@ -1062,7 +1062,7 @@ class OptionalService
 
     /**
      * @param typeSSRCode $SSRCode
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setSSRCode($SSRCode)
     {
@@ -1080,7 +1080,7 @@ class OptionalService
 
     /**
      * @param anonymous827 $IssuanceReason
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setIssuanceReason($IssuanceReason)
     {
@@ -1098,7 +1098,7 @@ class OptionalService
 
     /**
      * @param anonymous828 $ProviderDefinedType
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setProviderDefinedType($ProviderDefinedType)
     {
@@ -1116,7 +1116,7 @@ class OptionalService
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setKey($Key)
     {
@@ -1134,7 +1134,7 @@ class OptionalService
 
     /**
      * @param typeAssessIndicator $AssessIndicator
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setAssessIndicator($AssessIndicator)
     {
@@ -1152,7 +1152,7 @@ class OptionalService
 
     /**
      * @param int $Mileage
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setMileage($Mileage)
     {
@@ -1170,7 +1170,7 @@ class OptionalService
 
     /**
      * @param anonymous829 $ApplicableFFLevel
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setApplicableFFLevel($ApplicableFFLevel)
     {
@@ -1188,7 +1188,7 @@ class OptionalService
 
     /**
      * @param boolean $Private
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setPrivate($Private)
     {
@@ -1206,7 +1206,7 @@ class OptionalService
 
     /**
      * @param typeSSRFreeText $SSRFreeText
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setSSRFreeText($SSRFreeText)
     {
@@ -1224,7 +1224,7 @@ class OptionalService
 
     /**
      * @param boolean $IsPricingApproximate
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setIsPricingApproximate($IsPricingApproximate)
     {
@@ -1242,7 +1242,7 @@ class OptionalService
 
     /**
      * @param string $Chargeable
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setChargeable($Chargeable)
     {
@@ -1260,7 +1260,7 @@ class OptionalService
 
     /**
      * @param boolean $InclusiveOfTax
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setInclusiveOfTax($InclusiveOfTax)
     {
@@ -1278,7 +1278,7 @@ class OptionalService
 
     /**
      * @param boolean $InterlineSettlementAllowed
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setInterlineSettlementAllowed($InterlineSettlementAllowed)
     {
@@ -1296,7 +1296,7 @@ class OptionalService
 
     /**
      * @param string $GeographySpecification
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setGeographySpecification($GeographySpecification)
     {
@@ -1314,7 +1314,7 @@ class OptionalService
 
     /**
      * @param string $ExcessWeightRate
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setExcessWeightRate($ExcessWeightRate)
     {
@@ -1332,7 +1332,7 @@ class OptionalService
 
     /**
      * @param string $Source
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setSource($Source)
     {
@@ -1350,7 +1350,7 @@ class OptionalService
 
     /**
      * @param boolean $ViewableOnly
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setViewableOnly($ViewableOnly)
     {
@@ -1368,7 +1368,7 @@ class OptionalService
 
     /**
      * @param string $DisplayText
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setDisplayText($DisplayText)
     {
@@ -1386,7 +1386,7 @@ class OptionalService
 
     /**
      * @param string $WeightInExcess
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setWeightInExcess($WeightInExcess)
     {
@@ -1404,7 +1404,7 @@ class OptionalService
 
     /**
      * @param string $TotalWeight
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setTotalWeight($TotalWeight)
     {
@@ -1422,7 +1422,7 @@ class OptionalService
 
     /**
      * @param typeMoney $BaggageUnitPrice
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setBaggageUnitPrice($BaggageUnitPrice)
     {
@@ -1440,7 +1440,7 @@ class OptionalService
 
     /**
      * @param int $FirstPiece
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setFirstPiece($FirstPiece)
     {
@@ -1458,7 +1458,7 @@ class OptionalService
 
     /**
      * @param int $LastPiece
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setLastPiece($LastPiece)
     {
@@ -1476,7 +1476,7 @@ class OptionalService
 
     /**
      * @param boolean $Restricted
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setRestricted($Restricted)
     {
@@ -1494,7 +1494,7 @@ class OptionalService
 
     /**
      * @param boolean $IsRepriceRequired
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setIsRepriceRequired($IsRepriceRequired)
     {
@@ -1512,7 +1512,7 @@ class OptionalService
 
     /**
      * @param string $BookedQuantity
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setBookedQuantity($BookedQuantity)
     {
@@ -1530,7 +1530,7 @@ class OptionalService
 
     /**
      * @param string $Group
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setGroup($Group)
     {
@@ -1548,7 +1548,7 @@ class OptionalService
 
     /**
      * @param typePCC $PseudoCityCode
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setPseudoCityCode($PseudoCityCode)
     {
@@ -1566,7 +1566,7 @@ class OptionalService
 
     /**
      * @param anonymous830 $Tag
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setTag($Tag)
     {
@@ -1584,7 +1584,7 @@ class OptionalService
 
     /**
      * @param anonymous831 $DisplayOrder
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setDisplayOrder($DisplayOrder)
     {
@@ -1602,7 +1602,7 @@ class OptionalService
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setProviderCode($ProviderCode)
     {
@@ -1620,7 +1620,7 @@ class OptionalService
 
     /**
      * @param typeSupplierCode $SupplierCode
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setSupplierCode($SupplierCode)
     {
@@ -1638,7 +1638,7 @@ class OptionalService
 
     /**
      * @param typeMoney $TotalPrice
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setTotalPrice($TotalPrice)
     {
@@ -1656,7 +1656,7 @@ class OptionalService
 
     /**
      * @param typeMoney $BasePrice
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setBasePrice($BasePrice)
     {
@@ -1674,7 +1674,7 @@ class OptionalService
 
     /**
      * @param typeMoney $ApproximateTotalPrice
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setApproximateTotalPrice($ApproximateTotalPrice)
     {
@@ -1692,7 +1692,7 @@ class OptionalService
 
     /**
      * @param typeMoney $ApproximateBasePrice
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setApproximateBasePrice($ApproximateBasePrice)
     {
@@ -1710,7 +1710,7 @@ class OptionalService
 
     /**
      * @param typeMoney $EquivalentBasePrice
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setEquivalentBasePrice($EquivalentBasePrice)
     {
@@ -1728,7 +1728,7 @@ class OptionalService
 
     /**
      * @param typeMoney $Taxes
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setTaxes($Taxes)
     {
@@ -1746,7 +1746,7 @@ class OptionalService
 
     /**
      * @param typeMoney $Fees
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setFees($Fees)
     {
@@ -1764,7 +1764,7 @@ class OptionalService
 
     /**
      * @param typeMoney $Services
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setServices($Services)
     {
@@ -1782,7 +1782,7 @@ class OptionalService
 
     /**
      * @param typeMoney $ApproximateTaxes
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setApproximateTaxes($ApproximateTaxes)
     {
@@ -1800,7 +1800,7 @@ class OptionalService
 
     /**
      * @param typeMoney $ApproximateFees
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setApproximateFees($ApproximateFees)
     {
@@ -1818,7 +1818,7 @@ class OptionalService
 
     /**
      * @param typeElementStatus $ElStat
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setElStat($ElStat)
     {
@@ -1836,7 +1836,7 @@ class OptionalService
 
     /**
      * @param boolean $KeyOverride
-     * @return \FilippoToso\Travelport\Util\OptionalService
+     * @return \Santosdave\Travelport\Util\OptionalService
      */
     public function setKeyOverride($KeyOverride)
     {

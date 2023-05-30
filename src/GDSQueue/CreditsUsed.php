@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class CreditsUsed
 {
@@ -35,7 +35,7 @@ class CreditsUsed
 
     /**
      * @param float $UsedCredit
-     * @return \FilippoToso\Travelport\GDSQueue\CreditsUsed
+     * @return \Santosdave\Travelport\GDSQueue\CreditsUsed
      */
     public function setUsedCredit($UsedCredit)
     {
@@ -53,7 +53,7 @@ class CreditsUsed
 
     /**
      * @param typeCurrency $CurrencyCode
-     * @return \FilippoToso\Travelport\GDSQueue\CreditsUsed
+     * @return \Santosdave\Travelport\GDSQueue\CreditsUsed
      */
     public function setCurrencyCode($CurrencyCode)
     {

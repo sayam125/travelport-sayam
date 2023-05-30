@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class BundledServices
 {
@@ -28,7 +28,7 @@ class BundledServices
 
     /**
      * @param BundledService $BundledService
-     * @return \FilippoToso\Travelport\Rail\BundledServices
+     * @return \Santosdave\Travelport\Rail\BundledServices
      */
     public function setBundledService($BundledService)
     {

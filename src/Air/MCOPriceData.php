@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class MCOPriceData
 {
@@ -52,7 +52,7 @@ class MCOPriceData
 
     /**
      * @param typeTaxInfo[] $TaxInfo
-     * @return \FilippoToso\Travelport\Air\MCOPriceData
+     * @return \Santosdave\Travelport\Air\MCOPriceData
      */
     public function setTaxInfo(array $TaxInfo = null)
     {
@@ -70,7 +70,7 @@ class MCOPriceData
 
     /**
      * @param Commission $Commission
-     * @return \FilippoToso\Travelport\Air\MCOPriceData
+     * @return \Santosdave\Travelport\Air\MCOPriceData
      */
     public function setCommission($Commission)
     {
@@ -88,7 +88,7 @@ class MCOPriceData
 
     /**
      * @param typeMoney $MCOAmount
-     * @return \FilippoToso\Travelport\Air\MCOPriceData
+     * @return \Santosdave\Travelport\Air\MCOPriceData
      */
     public function setMCOAmount($MCOAmount)
     {
@@ -106,7 +106,7 @@ class MCOPriceData
 
     /**
      * @param typeMoney $MCOEquivalentFare
-     * @return \FilippoToso\Travelport\Air\MCOPriceData
+     * @return \Santosdave\Travelport\Air\MCOPriceData
      */
     public function setMCOEquivalentFare($MCOEquivalentFare)
     {
@@ -124,7 +124,7 @@ class MCOPriceData
 
     /**
      * @param typeMoney $MCOTotalAmount
-     * @return \FilippoToso\Travelport\Air\MCOPriceData
+     * @return \Santosdave\Travelport\Air\MCOPriceData
      */
     public function setMCOTotalAmount($MCOTotalAmount)
     {

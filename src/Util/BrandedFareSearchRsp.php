@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class BrandedFareSearchRsp extends BaseRsp
 {
@@ -41,7 +41,7 @@ class BrandedFareSearchRsp extends BaseRsp
 
     /**
      * @param FareFamily $FareFamily
-     * @return \FilippoToso\Travelport\Util\BrandedFareSearchRsp
+     * @return \Santosdave\Travelport\Util\BrandedFareSearchRsp
      */
     public function setFareFamily($FareFamily)
     {
@@ -59,7 +59,7 @@ class BrandedFareSearchRsp extends BaseRsp
 
     /**
      * @param typeMoreResults $MoreResults
-     * @return \FilippoToso\Travelport\Util\BrandedFareSearchRsp
+     * @return \Santosdave\Travelport\Util\BrandedFareSearchRsp
      */
     public function setMoreResults($MoreResults)
     {

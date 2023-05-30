@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class Deposit
 {
@@ -42,7 +42,7 @@ class Deposit
 
     /**
      * @param typeMoney $Amount
-     * @return \FilippoToso\Travelport\UniversalRecord\Deposit
+     * @return \Santosdave\Travelport\UniversalRecord\Deposit
      */
     public function setAmount($Amount)
     {
@@ -60,7 +60,7 @@ class Deposit
 
     /**
      * @param date $DueDate
-     * @return \FilippoToso\Travelport\UniversalRecord\Deposit
+     * @return \Santosdave\Travelport\UniversalRecord\Deposit
      */
     public function setDueDate($DueDate)
     {
@@ -78,7 +78,7 @@ class Deposit
 
     /**
      * @param date $ReceivedDate
-     * @return \FilippoToso\Travelport\UniversalRecord\Deposit
+     * @return \Santosdave\Travelport\UniversalRecord\Deposit
      */
     public function setReceivedDate($ReceivedDate)
     {

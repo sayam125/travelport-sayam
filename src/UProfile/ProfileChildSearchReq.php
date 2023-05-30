@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class ProfileChildSearchReq extends BaseReq
 {
@@ -92,7 +92,7 @@ class ProfileChildSearchReq extends BaseReq
 
     /**
      * @param typeProfileID $ProfileID
-     * @return \FilippoToso\Travelport\UProfile\ProfileChildSearchReq
+     * @return \Santosdave\Travelport\UProfile\ProfileChildSearchReq
      */
     public function setProfileID($ProfileID)
     {
@@ -110,7 +110,7 @@ class ProfileChildSearchReq extends BaseReq
 
     /**
      * @param ProvisioningCode $ProvisioningCode
-     * @return \FilippoToso\Travelport\UProfile\ProfileChildSearchReq
+     * @return \Santosdave\Travelport\UProfile\ProfileChildSearchReq
      */
     public function setProvisioningCode($ProvisioningCode)
     {
@@ -128,7 +128,7 @@ class ProfileChildSearchReq extends BaseReq
 
     /**
      * @param UniqueProfileID $UniqueProfileID
-     * @return \FilippoToso\Travelport\UProfile\ProfileChildSearchReq
+     * @return \Santosdave\Travelport\UProfile\ProfileChildSearchReq
      */
     public function setUniqueProfileID($UniqueProfileID)
     {
@@ -146,7 +146,7 @@ class ProfileChildSearchReq extends BaseReq
 
     /**
      * @param typeWildcard $OrganizationName
-     * @return \FilippoToso\Travelport\UProfile\ProfileChildSearchReq
+     * @return \Santosdave\Travelport\UProfile\ProfileChildSearchReq
      */
     public function setOrganizationName($OrganizationName)
     {
@@ -164,7 +164,7 @@ class ProfileChildSearchReq extends BaseReq
 
     /**
      * @param typeWildcard $GivenName
-     * @return \FilippoToso\Travelport\UProfile\ProfileChildSearchReq
+     * @return \Santosdave\Travelport\UProfile\ProfileChildSearchReq
      */
     public function setGivenName($GivenName)
     {
@@ -182,7 +182,7 @@ class ProfileChildSearchReq extends BaseReq
 
     /**
      * @param typeWildcard $Surname
-     * @return \FilippoToso\Travelport\UProfile\ProfileChildSearchReq
+     * @return \Santosdave\Travelport\UProfile\ProfileChildSearchReq
      */
     public function setSurname($Surname)
     {
@@ -200,7 +200,7 @@ class ProfileChildSearchReq extends BaseReq
 
     /**
      * @param ProfileSearchModifiers $ProfileSearchModifiers
-     * @return \FilippoToso\Travelport\UProfile\ProfileChildSearchReq
+     * @return \Santosdave\Travelport\UProfile\ProfileChildSearchReq
      */
     public function setProfileSearchModifiers($ProfileSearchModifiers)
     {
@@ -218,7 +218,7 @@ class ProfileChildSearchReq extends BaseReq
 
     /**
      * @param anonymous978 $HierarchyType
-     * @return \FilippoToso\Travelport\UProfile\ProfileChildSearchReq
+     * @return \Santosdave\Travelport\UProfile\ProfileChildSearchReq
      */
     public function setHierarchyType($HierarchyType)
     {
@@ -236,7 +236,7 @@ class ProfileChildSearchReq extends BaseReq
 
     /**
      * @param boolean $IncludeAgentsAndTravelers
-     * @return \FilippoToso\Travelport\UProfile\ProfileChildSearchReq
+     * @return \Santosdave\Travelport\UProfile\ProfileChildSearchReq
      */
     public function setIncludeAgentsAndTravelers($IncludeAgentsAndTravelers)
     {

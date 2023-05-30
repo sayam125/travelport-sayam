@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class BookingSource
 {
@@ -35,7 +35,7 @@ class BookingSource
 
     /**
      * @param anonymous287 $Code
-     * @return \FilippoToso\Travelport\UProfile\BookingSource
+     * @return \Santosdave\Travelport\UProfile\BookingSource
      */
     public function setCode($Code)
     {
@@ -53,7 +53,7 @@ class BookingSource
 
     /**
      * @param anonymous288 $Type
-     * @return \FilippoToso\Travelport\UProfile\BookingSource
+     * @return \Santosdave\Travelport\UProfile\BookingSource
      */
     public function setType($Type)
     {

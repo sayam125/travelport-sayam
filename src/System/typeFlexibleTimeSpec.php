@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\System;
+namespace Santosdave\Travelport\System;
 
 class typeFlexibleTimeSpec extends typeTimeSpec
 {
@@ -28,7 +28,7 @@ class typeFlexibleTimeSpec extends typeTimeSpec
 
     /**
      * @param SearchExtraDays $SearchExtraDays
-     * @return \FilippoToso\Travelport\System\typeFlexibleTimeSpec
+     * @return \Santosdave\Travelport\System\typeFlexibleTimeSpec
      */
     public function setSearchExtraDays($SearchExtraDays)
     {

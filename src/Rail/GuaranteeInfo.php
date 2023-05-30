@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class GuaranteeInfo
 {
@@ -98,7 +98,7 @@ class GuaranteeInfo
 
     /**
      * @param DepositAmount $DepositAmount
-     * @return \FilippoToso\Travelport\Rail\GuaranteeInfo
+     * @return \Santosdave\Travelport\Rail\GuaranteeInfo
      */
     public function setDepositAmount($DepositAmount)
     {
@@ -116,7 +116,7 @@ class GuaranteeInfo
 
     /**
      * @param int $DepositNights
-     * @return \FilippoToso\Travelport\Rail\GuaranteeInfo
+     * @return \Santosdave\Travelport\Rail\GuaranteeInfo
      */
     public function setDepositNights($DepositNights)
     {
@@ -134,7 +134,7 @@ class GuaranteeInfo
 
     /**
      * @param int $DepositPercent
-     * @return \FilippoToso\Travelport\Rail\GuaranteeInfo
+     * @return \Santosdave\Travelport\Rail\GuaranteeInfo
      */
     public function setDepositPercent($DepositPercent)
     {
@@ -152,7 +152,7 @@ class GuaranteeInfo
 
     /**
      * @param GuaranteePaymentType $GuaranteePaymentType
-     * @return \FilippoToso\Travelport\Rail\GuaranteeInfo
+     * @return \Santosdave\Travelport\Rail\GuaranteeInfo
      */
     public function setGuaranteePaymentType($GuaranteePaymentType)
     {
@@ -178,7 +178,7 @@ class GuaranteeInfo
 
     /**
      * @param \DateTime $AbsoluteDeadline
-     * @return \FilippoToso\Travelport\Rail\GuaranteeInfo
+     * @return \Santosdave\Travelport\Rail\GuaranteeInfo
      */
     public function setAbsoluteDeadline(\DateTime $AbsoluteDeadline)
     {
@@ -196,7 +196,7 @@ class GuaranteeInfo
 
     /**
      * @param boolean $CredentialsRequired
-     * @return \FilippoToso\Travelport\Rail\GuaranteeInfo
+     * @return \Santosdave\Travelport\Rail\GuaranteeInfo
      */
     public function setCredentialsRequired($CredentialsRequired)
     {
@@ -214,7 +214,7 @@ class GuaranteeInfo
 
     /**
      * @param string $HoldTime
-     * @return \FilippoToso\Travelport\Rail\GuaranteeInfo
+     * @return \Santosdave\Travelport\Rail\GuaranteeInfo
      */
     public function setHoldTime($HoldTime)
     {
@@ -232,7 +232,7 @@ class GuaranteeInfo
 
     /**
      * @param anonymous1245 $GuaranteeType
-     * @return \FilippoToso\Travelport\Rail\GuaranteeInfo
+     * @return \Santosdave\Travelport\Rail\GuaranteeInfo
      */
     public function setGuaranteeType($GuaranteeType)
     {
@@ -250,7 +250,7 @@ class GuaranteeInfo
 
     /**
      * @param StringLength1to16 $OffsetTimeUnit
-     * @return \FilippoToso\Travelport\Rail\GuaranteeInfo
+     * @return \Santosdave\Travelport\Rail\GuaranteeInfo
      */
     public function setOffsetTimeUnit($OffsetTimeUnit)
     {
@@ -268,7 +268,7 @@ class GuaranteeInfo
 
     /**
      * @param Numeric0to999 $OffsetUnitMultiplier
-     * @return \FilippoToso\Travelport\Rail\GuaranteeInfo
+     * @return \Santosdave\Travelport\Rail\GuaranteeInfo
      */
     public function setOffsetUnitMultiplier($OffsetUnitMultiplier)
     {
@@ -286,7 +286,7 @@ class GuaranteeInfo
 
     /**
      * @param StringLength1to20 $OffsetDropTime
-     * @return \FilippoToso\Travelport\Rail\GuaranteeInfo
+     * @return \Santosdave\Travelport\Rail\GuaranteeInfo
      */
     public function setOffsetDropTime($OffsetDropTime)
     {

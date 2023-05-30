@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class CompanyName
 {
@@ -28,7 +28,7 @@ class CompanyName
 
     /**
      * @param typeCarrier $SupplierCode
-     * @return \FilippoToso\Travelport\Air\CompanyName
+     * @return \Santosdave\Travelport\Air\CompanyName
      */
     public function setSupplierCode($SupplierCode)
     {

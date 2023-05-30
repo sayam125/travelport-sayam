@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeProprietaryDataHistory extends typeKeyElement
 {
@@ -44,7 +44,7 @@ class typeProprietaryDataHistory extends typeKeyElement
 
     /**
      * @param anonymous697 $ProprietaryDataType
-     * @return \FilippoToso\Travelport\UProfile\typeProprietaryDataHistory
+     * @return \Santosdave\Travelport\UProfile\typeProprietaryDataHistory
      */
     public function setProprietaryDataType($ProprietaryDataType)
     {
@@ -62,7 +62,7 @@ class typeProprietaryDataHistory extends typeKeyElement
 
     /**
      * @param StringLength1to255 $Value
-     * @return \FilippoToso\Travelport\UProfile\typeProprietaryDataHistory
+     * @return \Santosdave\Travelport\UProfile\typeProprietaryDataHistory
      */
     public function setValue($Value)
     {
@@ -80,7 +80,7 @@ class typeProprietaryDataHistory extends typeKeyElement
 
     /**
      * @param typeProfileID $OwnerID
-     * @return \FilippoToso\Travelport\UProfile\typeProprietaryDataHistory
+     * @return \Santosdave\Travelport\UProfile\typeProprietaryDataHistory
      */
     public function setOwnerID($OwnerID)
     {

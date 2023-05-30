@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class RatesAndDates
 {
@@ -56,7 +56,7 @@ class RatesAndDates
 
     /**
      * @param string $Status
-     * @return \FilippoToso\Travelport\Hotel\RatesAndDates
+     * @return \Santosdave\Travelport\Hotel\RatesAndDates
      */
     public function setStatus($Status)
     {
@@ -74,7 +74,7 @@ class RatesAndDates
 
     /**
      * @param typeDate $Start
-     * @return \FilippoToso\Travelport\Hotel\RatesAndDates
+     * @return \Santosdave\Travelport\Hotel\RatesAndDates
      */
     public function setStart($Start)
     {
@@ -92,7 +92,7 @@ class RatesAndDates
 
     /**
      * @param typeDate $End
-     * @return \FilippoToso\Travelport\Hotel\RatesAndDates
+     * @return \Santosdave\Travelport\Hotel\RatesAndDates
      */
     public function setEnd($End)
     {
@@ -110,7 +110,7 @@ class RatesAndDates
 
     /**
      * @param typeMoney $Low
-     * @return \FilippoToso\Travelport\Hotel\RatesAndDates
+     * @return \Santosdave\Travelport\Hotel\RatesAndDates
      */
     public function setLow($Low)
     {
@@ -128,7 +128,7 @@ class RatesAndDates
 
     /**
      * @param typeMoney $High
-     * @return \FilippoToso\Travelport\Hotel\RatesAndDates
+     * @return \Santosdave\Travelport\Hotel\RatesAndDates
      */
     public function setHigh($High)
     {

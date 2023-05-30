@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class typeHotelReferencePoint
 {
@@ -42,7 +42,7 @@ class typeHotelReferencePoint
 
     /**
      * @param typeReferencePoint $_
-     * @return \FilippoToso\Travelport\GDSQueue\typeHotelReferencePoint
+     * @return \Santosdave\Travelport\GDSQueue\typeHotelReferencePoint
      */
     public function set_($_)
     {
@@ -60,7 +60,7 @@ class typeHotelReferencePoint
 
     /**
      * @param typeCountry $Country
-     * @return \FilippoToso\Travelport\GDSQueue\typeHotelReferencePoint
+     * @return \Santosdave\Travelport\GDSQueue\typeHotelReferencePoint
      */
     public function setCountry($Country)
     {
@@ -78,7 +78,7 @@ class typeHotelReferencePoint
 
     /**
      * @param typeState $State
-     * @return \FilippoToso\Travelport\GDSQueue\typeHotelReferencePoint
+     * @return \Santosdave\Travelport\GDSQueue\typeHotelReferencePoint
      */
     public function setState($State)
     {

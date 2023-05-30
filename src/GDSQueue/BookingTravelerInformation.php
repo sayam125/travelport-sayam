@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class BookingTravelerInformation
 {
@@ -35,7 +35,7 @@ class BookingTravelerInformation
 
     /**
      * @param Name $Name
-     * @return \FilippoToso\Travelport\GDSQueue\BookingTravelerInformation
+     * @return \Santosdave\Travelport\GDSQueue\BookingTravelerInformation
      */
     public function setName($Name)
     {
@@ -53,7 +53,7 @@ class BookingTravelerInformation
 
     /**
      * @param typeRef $BookingTravelerRef
-     * @return \FilippoToso\Travelport\GDSQueue\BookingTravelerInformation
+     * @return \Santosdave\Travelport\GDSQueue\BookingTravelerInformation
      */
     public function setBookingTravelerRef($BookingTravelerRef)
     {

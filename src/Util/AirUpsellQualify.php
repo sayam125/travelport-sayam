@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class AirUpsellQualify
 {
@@ -138,7 +138,7 @@ class AirUpsellQualify
 
     /**
      * @param typeTimeSpec $DepartureTime
-     * @return \FilippoToso\Travelport\Util\AirUpsellQualify
+     * @return \Santosdave\Travelport\Util\AirUpsellQualify
      */
     public function setDepartureTime($DepartureTime)
     {
@@ -156,7 +156,7 @@ class AirUpsellQualify
 
     /**
      * @param typeFlightSpec $FlightSpec
-     * @return \FilippoToso\Travelport\Util\AirUpsellQualify
+     * @return \Santosdave\Travelport\Util\AirUpsellQualify
      */
     public function setFlightSpec($FlightSpec)
     {
@@ -174,7 +174,7 @@ class AirUpsellQualify
 
     /**
      * @param typeFlightSpec $OperatingFlightSpec
-     * @return \FilippoToso\Travelport\Util\AirUpsellQualify
+     * @return \Santosdave\Travelport\Util\AirUpsellQualify
      */
     public function setOperatingFlightSpec($OperatingFlightSpec)
     {
@@ -192,7 +192,7 @@ class AirUpsellQualify
 
     /**
      * @param AccountCode $AccountCode
-     * @return \FilippoToso\Travelport\Util\AirUpsellQualify
+     * @return \Santosdave\Travelport\Util\AirUpsellQualify
      */
     public function setAccountCode($AccountCode)
     {
@@ -210,7 +210,7 @@ class AirUpsellQualify
 
     /**
      * @param typeCarrier $Carrier
-     * @return \FilippoToso\Travelport\Util\AirUpsellQualify
+     * @return \Santosdave\Travelport\Util\AirUpsellQualify
      */
     public function setCarrier($Carrier)
     {
@@ -228,7 +228,7 @@ class AirUpsellQualify
 
     /**
      * @param typeDate $EffectiveDate
-     * @return \FilippoToso\Travelport\Util\AirUpsellQualify
+     * @return \Santosdave\Travelport\Util\AirUpsellQualify
      */
     public function setEffectiveDate($EffectiveDate)
     {
@@ -246,7 +246,7 @@ class AirUpsellQualify
 
     /**
      * @param typeDate $ExpirationDate
-     * @return \FilippoToso\Travelport\Util\AirUpsellQualify
+     * @return \Santosdave\Travelport\Util\AirUpsellQualify
      */
     public function setExpirationDate($ExpirationDate)
     {
@@ -264,7 +264,7 @@ class AirUpsellQualify
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\Util\AirUpsellQualify
+     * @return \Santosdave\Travelport\Util\AirUpsellQualify
      */
     public function setProviderCode($ProviderCode)
     {
@@ -282,7 +282,7 @@ class AirUpsellQualify
 
     /**
      * @param typeIATACode $Origin
-     * @return \FilippoToso\Travelport\Util\AirUpsellQualify
+     * @return \Santosdave\Travelport\Util\AirUpsellQualify
      */
     public function setOrigin($Origin)
     {
@@ -300,7 +300,7 @@ class AirUpsellQualify
 
     /**
      * @param typeIATACode $Destination
-     * @return \FilippoToso\Travelport\Util\AirUpsellQualify
+     * @return \Santosdave\Travelport\Util\AirUpsellQualify
      */
     public function setDestination($Destination)
     {
@@ -318,7 +318,7 @@ class AirUpsellQualify
 
     /**
      * @param typeClassOfService $ClassOfService
-     * @return \FilippoToso\Travelport\Util\AirUpsellQualify
+     * @return \Santosdave\Travelport\Util\AirUpsellQualify
      */
     public function setClassOfService($ClassOfService)
     {
@@ -336,7 +336,7 @@ class AirUpsellQualify
 
     /**
      * @param typeCarrier $OperatingCarrier
-     * @return \FilippoToso\Travelport\Util\AirUpsellQualify
+     * @return \Santosdave\Travelport\Util\AirUpsellQualify
      */
     public function setOperatingCarrier($OperatingCarrier)
     {
@@ -354,7 +354,7 @@ class AirUpsellQualify
 
     /**
      * @param typeRef $OfferRef
-     * @return \FilippoToso\Travelport\Util\AirUpsellQualify
+     * @return \Santosdave\Travelport\Util\AirUpsellQualify
      */
     public function setOfferRef($OfferRef)
     {
@@ -372,7 +372,7 @@ class AirUpsellQualify
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Util\AirUpsellQualify
+     * @return \Santosdave\Travelport\Util\AirUpsellQualify
      */
     public function setKey($Key)
     {
@@ -390,7 +390,7 @@ class AirUpsellQualify
 
     /**
      * @param typeFareBasisCode $FareBasis
-     * @return \FilippoToso\Travelport\Util\AirUpsellQualify
+     * @return \Santosdave\Travelport\Util\AirUpsellQualify
      */
     public function setFareBasis($FareBasis)
     {
@@ -408,7 +408,7 @@ class AirUpsellQualify
 
     /**
      * @param typeElementStatus $ElStat
-     * @return \FilippoToso\Travelport\Util\AirUpsellQualify
+     * @return \Santosdave\Travelport\Util\AirUpsellQualify
      */
     public function setElStat($ElStat)
     {
@@ -426,7 +426,7 @@ class AirUpsellQualify
 
     /**
      * @param boolean $KeyOverride
-     * @return \FilippoToso\Travelport\Util\AirUpsellQualify
+     * @return \Santosdave\Travelport\Util\AirUpsellQualify
      */
     public function setKeyOverride($KeyOverride)
     {

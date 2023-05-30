@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class MediaItem
 {
@@ -70,7 +70,7 @@ class MediaItem
 
     /**
      * @param string $caption
-     * @return \FilippoToso\Travelport\Hotel\MediaItem
+     * @return \Santosdave\Travelport\Hotel\MediaItem
      */
     public function setCaption($caption)
     {
@@ -88,7 +88,7 @@ class MediaItem
 
     /**
      * @param int $height
-     * @return \FilippoToso\Travelport\Hotel\MediaItem
+     * @return \Santosdave\Travelport\Hotel\MediaItem
      */
     public function setHeight($height)
     {
@@ -106,7 +106,7 @@ class MediaItem
 
     /**
      * @param int $width
-     * @return \FilippoToso\Travelport\Hotel\MediaItem
+     * @return \Santosdave\Travelport\Hotel\MediaItem
      */
     public function setWidth($width)
     {
@@ -124,7 +124,7 @@ class MediaItem
 
     /**
      * @param string $type
-     * @return \FilippoToso\Travelport\Hotel\MediaItem
+     * @return \Santosdave\Travelport\Hotel\MediaItem
      */
     public function setType($type)
     {
@@ -142,7 +142,7 @@ class MediaItem
 
     /**
      * @param anyURI $url
-     * @return \FilippoToso\Travelport\Hotel\MediaItem
+     * @return \Santosdave\Travelport\Hotel\MediaItem
      */
     public function setUrl($url)
     {
@@ -160,7 +160,7 @@ class MediaItem
 
     /**
      * @param anyURI $icon
-     * @return \FilippoToso\Travelport\Hotel\MediaItem
+     * @return \Santosdave\Travelport\Hotel\MediaItem
      */
     public function setIcon($icon)
     {
@@ -178,7 +178,7 @@ class MediaItem
 
     /**
      * @param typeResponseImageSize $sizeCode
-     * @return \FilippoToso\Travelport\Hotel\MediaItem
+     * @return \Santosdave\Travelport\Hotel\MediaItem
      */
     public function setSizeCode($sizeCode)
     {

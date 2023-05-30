@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class ActionDetails
 {
@@ -56,7 +56,7 @@ class ActionDetails
 
     /**
      * @param typePCC $PseudoCityCode
-     * @return \FilippoToso\Travelport\Air\ActionDetails
+     * @return \Santosdave\Travelport\Air\ActionDetails
      */
     public function setPseudoCityCode($PseudoCityCode)
     {
@@ -74,7 +74,7 @@ class ActionDetails
 
     /**
      * @param string $AgentSine
-     * @return \FilippoToso\Travelport\Air\ActionDetails
+     * @return \Santosdave\Travelport\Air\ActionDetails
      */
     public function setAgentSine($AgentSine)
     {
@@ -92,7 +92,7 @@ class ActionDetails
 
     /**
      * @param date $EventDate
-     * @return \FilippoToso\Travelport\Air\ActionDetails
+     * @return \Santosdave\Travelport\Air\ActionDetails
      */
     public function setEventDate($EventDate)
     {
@@ -110,7 +110,7 @@ class ActionDetails
 
     /**
      * @param time $EventTime
-     * @return \FilippoToso\Travelport\Air\ActionDetails
+     * @return \Santosdave\Travelport\Air\ActionDetails
      */
     public function setEventTime($EventTime)
     {
@@ -128,7 +128,7 @@ class ActionDetails
 
     /**
      * @param string $Text
-     * @return \FilippoToso\Travelport\Air\ActionDetails
+     * @return \Santosdave\Travelport\Air\ActionDetails
      */
     public function setText($Text)
     {

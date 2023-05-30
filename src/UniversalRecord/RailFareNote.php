@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class RailFareNote
 {
@@ -56,7 +56,7 @@ class RailFareNote
 
     /**
      * @param string $_
-     * @return \FilippoToso\Travelport\UniversalRecord\RailFareNote
+     * @return \Santosdave\Travelport\UniversalRecord\RailFareNote
      */
     public function set_($_)
     {
@@ -74,7 +74,7 @@ class RailFareNote
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\UniversalRecord\RailFareNote
+     * @return \Santosdave\Travelport\UniversalRecord\RailFareNote
      */
     public function setKey($Key)
     {
@@ -92,7 +92,7 @@ class RailFareNote
 
     /**
      * @param string $NoteName
-     * @return \FilippoToso\Travelport\UniversalRecord\RailFareNote
+     * @return \Santosdave\Travelport\UniversalRecord\RailFareNote
      */
     public function setNoteName($NoteName)
     {
@@ -110,7 +110,7 @@ class RailFareNote
 
     /**
      * @param typeElementStatus $ElStat
-     * @return \FilippoToso\Travelport\UniversalRecord\RailFareNote
+     * @return \Santosdave\Travelport\UniversalRecord\RailFareNote
      */
     public function setElStat($ElStat)
     {
@@ -128,7 +128,7 @@ class RailFareNote
 
     /**
      * @param boolean $KeyOverride
-     * @return \FilippoToso\Travelport\UniversalRecord\RailFareNote
+     * @return \Santosdave\Travelport\UniversalRecord\RailFareNote
      */
     public function setKeyOverride($KeyOverride)
     {

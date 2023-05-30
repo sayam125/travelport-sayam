@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class FareRuleCategory
 {
@@ -28,7 +28,7 @@ class FareRuleCategory
 
     /**
      * @param anonymous815 $Category
-     * @return \FilippoToso\Travelport\GDSQueue\FareRuleCategory
+     * @return \Santosdave\Travelport\GDSQueue\FareRuleCategory
      */
     public function setCategory($Category)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class BillingDetailItem
 {
@@ -56,7 +56,7 @@ class BillingDetailItem
 
     /**
      * @param typeBillingDetailsName $Name
-     * @return \FilippoToso\Travelport\UniversalRecord\BillingDetailItem
+     * @return \Santosdave\Travelport\UniversalRecord\BillingDetailItem
      */
     public function setName($Name)
     {
@@ -74,7 +74,7 @@ class BillingDetailItem
 
     /**
      * @param typeBillingDetailsDataType $DataType
-     * @return \FilippoToso\Travelport\UniversalRecord\BillingDetailItem
+     * @return \Santosdave\Travelport\UniversalRecord\BillingDetailItem
      */
     public function setDataType($DataType)
     {
@@ -92,7 +92,7 @@ class BillingDetailItem
 
     /**
      * @param string $MinLength
-     * @return \FilippoToso\Travelport\UniversalRecord\BillingDetailItem
+     * @return \Santosdave\Travelport\UniversalRecord\BillingDetailItem
      */
     public function setMinLength($MinLength)
     {
@@ -110,7 +110,7 @@ class BillingDetailItem
 
     /**
      * @param string $MaxLength
-     * @return \FilippoToso\Travelport\UniversalRecord\BillingDetailItem
+     * @return \Santosdave\Travelport\UniversalRecord\BillingDetailItem
      */
     public function setMaxLength($MaxLength)
     {
@@ -128,7 +128,7 @@ class BillingDetailItem
 
     /**
      * @param string $Value
-     * @return \FilippoToso\Travelport\UniversalRecord\BillingDetailItem
+     * @return \Santosdave\Travelport\UniversalRecord\BillingDetailItem
      */
     public function setValue($Value)
     {

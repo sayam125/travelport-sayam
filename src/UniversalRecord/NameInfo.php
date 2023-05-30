@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class NameInfo
 {
@@ -56,7 +56,7 @@ class NameInfo
 
     /**
      * @param anonymous88 $Prefix
-     * @return \FilippoToso\Travelport\UniversalRecord\NameInfo
+     * @return \Santosdave\Travelport\UniversalRecord\NameInfo
      */
     public function setPrefix($Prefix)
     {
@@ -74,7 +74,7 @@ class NameInfo
 
     /**
      * @param anonymous89 $First
-     * @return \FilippoToso\Travelport\UniversalRecord\NameInfo
+     * @return \Santosdave\Travelport\UniversalRecord\NameInfo
      */
     public function setFirst($First)
     {
@@ -92,7 +92,7 @@ class NameInfo
 
     /**
      * @param anonymous90 $Middle
-     * @return \FilippoToso\Travelport\UniversalRecord\NameInfo
+     * @return \Santosdave\Travelport\UniversalRecord\NameInfo
      */
     public function setMiddle($Middle)
     {
@@ -110,7 +110,7 @@ class NameInfo
 
     /**
      * @param typeTravelerLastName $Last
-     * @return \FilippoToso\Travelport\UniversalRecord\NameInfo
+     * @return \Santosdave\Travelport\UniversalRecord\NameInfo
      */
     public function setLast($Last)
     {
@@ -128,7 +128,7 @@ class NameInfo
 
     /**
      * @param anonymous91 $Suffix
-     * @return \FilippoToso\Travelport\UniversalRecord\NameInfo
+     * @return \Santosdave\Travelport\UniversalRecord\NameInfo
      */
     public function setSuffix($Suffix)
     {

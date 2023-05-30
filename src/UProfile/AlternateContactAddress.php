@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class AlternateContactAddress extends typeTaggableAddress
 {
@@ -41,7 +41,7 @@ class AlternateContactAddress extends typeTaggableAddress
 
     /**
      * @param typeRef $AlternateContactRef
-     * @return \FilippoToso\Travelport\UProfile\AlternateContactAddress
+     * @return \Santosdave\Travelport\UProfile\AlternateContactAddress
      */
     public function setAlternateContactRef($AlternateContactRef)
     {

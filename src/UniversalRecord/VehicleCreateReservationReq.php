@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class VehicleCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 {
@@ -178,7 +178,7 @@ class VehicleCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param VehicleDateLocation $VehicleDateLocation
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleCreateReservationReq
      */
     public function setVehicleDateLocation($VehicleDateLocation)
     {
@@ -196,7 +196,7 @@ class VehicleCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param Vehicle $Vehicle
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleCreateReservationReq
      */
     public function setVehicle($Vehicle)
     {
@@ -214,7 +214,7 @@ class VehicleCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param SpecialEquipment $SpecialEquipment
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleCreateReservationReq
      */
     public function setSpecialEquipment($SpecialEquipment)
     {
@@ -232,7 +232,7 @@ class VehicleCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param VehicleSpecialRequest $VehicleSpecialRequest
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleCreateReservationReq
      */
     public function setVehicleSpecialRequest($VehicleSpecialRequest)
     {
@@ -250,7 +250,7 @@ class VehicleCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param PaymentInformation $PaymentInformation
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleCreateReservationReq
      */
     public function setPaymentInformation($PaymentInformation)
     {
@@ -268,7 +268,7 @@ class VehicleCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param PointOfSale $PointOfSale
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleCreateReservationReq
      */
     public function setPointOfSale($PointOfSale)
     {
@@ -286,7 +286,7 @@ class VehicleCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param DeliveryAddress $DeliveryAddress
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleCreateReservationReq
      */
     public function setDeliveryAddress($DeliveryAddress)
     {
@@ -304,7 +304,7 @@ class VehicleCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param CollectionAddress $CollectionAddress
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleCreateReservationReq
      */
     public function setCollectionAddress($CollectionAddress)
     {
@@ -322,7 +322,7 @@ class VehicleCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param FlightArrivalInformation $FlightArrivalInformation
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleCreateReservationReq
      */
     public function setFlightArrivalInformation($FlightArrivalInformation)
     {
@@ -340,7 +340,7 @@ class VehicleCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param Guarantee $Guarantee
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleCreateReservationReq
      */
     public function setGuarantee($Guarantee)
     {
@@ -358,7 +358,7 @@ class VehicleCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param AssociatedRemark $AssociatedRemark
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleCreateReservationReq
      */
     public function setAssociatedRemark($AssociatedRemark)
     {
@@ -376,7 +376,7 @@ class VehicleCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param BookingSource $BookingSource
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleCreateReservationReq
      */
     public function setBookingSource($BookingSource)
     {
@@ -394,7 +394,7 @@ class VehicleCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param ReservationName $ReservationName
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleCreateReservationReq
      */
     public function setReservationName($ReservationName)
     {
@@ -412,7 +412,7 @@ class VehicleCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param ThirdPartyInformation $ThirdPartyInformation
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleCreateReservationReq
      */
     public function setThirdPartyInformation($ThirdPartyInformation)
     {
@@ -430,7 +430,7 @@ class VehicleCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param ActionStatus $ActionStatus
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleCreateReservationReq
      */
     public function setActionStatus($ActionStatus)
     {
@@ -448,7 +448,7 @@ class VehicleCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param ReviewBooking $ReviewBooking
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleCreateReservationReq
      */
     public function setReviewBooking($ReviewBooking)
     {
@@ -466,7 +466,7 @@ class VehicleCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param boolean $MandatoryRateMatch
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleCreateReservationReq
      */
     public function setMandatoryRateMatch($MandatoryRateMatch)
     {

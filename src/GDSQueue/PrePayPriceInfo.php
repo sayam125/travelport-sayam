@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class PrePayPriceInfo
 {
@@ -49,7 +49,7 @@ class PrePayPriceInfo
 
     /**
      * @param typeTaxInfo $TaxInfo
-     * @return \FilippoToso\Travelport\GDSQueue\PrePayPriceInfo
+     * @return \Santosdave\Travelport\GDSQueue\PrePayPriceInfo
      */
     public function setTaxInfo($TaxInfo)
     {
@@ -67,7 +67,7 @@ class PrePayPriceInfo
 
     /**
      * @param typeMoney $BaseFare
-     * @return \FilippoToso\Travelport\GDSQueue\PrePayPriceInfo
+     * @return \Santosdave\Travelport\GDSQueue\PrePayPriceInfo
      */
     public function setBaseFare($BaseFare)
     {
@@ -85,7 +85,7 @@ class PrePayPriceInfo
 
     /**
      * @param typeMoney $TotalFare
-     * @return \FilippoToso\Travelport\GDSQueue\PrePayPriceInfo
+     * @return \Santosdave\Travelport\GDSQueue\PrePayPriceInfo
      */
     public function setTotalFare($TotalFare)
     {
@@ -103,7 +103,7 @@ class PrePayPriceInfo
 
     /**
      * @param typeMoney $TotalTax
-     * @return \FilippoToso\Travelport\GDSQueue\PrePayPriceInfo
+     * @return \Santosdave\Travelport\GDSQueue\PrePayPriceInfo
      */
     public function setTotalTax($TotalTax)
     {

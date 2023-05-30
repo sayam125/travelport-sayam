@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class McoSearchReq extends BaseReq
 {
@@ -75,7 +75,7 @@ class McoSearchReq extends BaseReq
 
     /**
      * @param Name $Name
-     * @return \FilippoToso\Travelport\Util\McoSearchReq
+     * @return \Santosdave\Travelport\Util\McoSearchReq
      */
     public function setName($Name)
     {
@@ -93,7 +93,7 @@ class McoSearchReq extends BaseReq
 
     /**
      * @param Carrier $Carrier
-     * @return \FilippoToso\Travelport\Util\McoSearchReq
+     * @return \Santosdave\Travelport\Util\McoSearchReq
      */
     public function setCarrier($Carrier)
     {
@@ -111,7 +111,7 @@ class McoSearchReq extends BaseReq
 
     /**
      * @param Airport $Airport
-     * @return \FilippoToso\Travelport\Util\McoSearchReq
+     * @return \Santosdave\Travelport\Util\McoSearchReq
      */
     public function setAirport($Airport)
     {
@@ -129,7 +129,7 @@ class McoSearchReq extends BaseReq
 
     /**
      * @param StringLength1to13 $TicketNumber
-     * @return \FilippoToso\Travelport\Util\McoSearchReq
+     * @return \Santosdave\Travelport\Util\McoSearchReq
      */
     public function setTicketNumber($TicketNumber)
     {
@@ -147,7 +147,7 @@ class McoSearchReq extends BaseReq
 
     /**
      * @param typeTimeRange $McoCreateDate
-     * @return \FilippoToso\Travelport\Util\McoSearchReq
+     * @return \Santosdave\Travelport\Util\McoSearchReq
      */
     public function setMcoCreateDate($McoCreateDate)
     {
@@ -165,7 +165,7 @@ class McoSearchReq extends BaseReq
 
     /**
      * @param McoSearchModifiers $McoSearchModifiers
-     * @return \FilippoToso\Travelport\Util\McoSearchReq
+     * @return \Santosdave\Travelport\Util\McoSearchReq
      */
     public function setMcoSearchModifiers($McoSearchModifiers)
     {

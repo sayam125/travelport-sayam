@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class BrandModifiers
 {
@@ -35,7 +35,7 @@ class BrandModifiers
 
     /**
      * @param FareFamilyDisplay $FareFamilyDisplay
-     * @return \FilippoToso\Travelport\Util\BrandModifiers
+     * @return \Santosdave\Travelport\Util\BrandModifiers
      */
     public function setFareFamilyDisplay($FareFamilyDisplay)
     {
@@ -53,7 +53,7 @@ class BrandModifiers
 
     /**
      * @param BasicDetailsOnly $BasicDetailsOnly
-     * @return \FilippoToso\Travelport\Util\BrandModifiers
+     * @return \Santosdave\Travelport\Util\BrandModifiers
      */
     public function setBasicDetailsOnly($BasicDetailsOnly)
     {

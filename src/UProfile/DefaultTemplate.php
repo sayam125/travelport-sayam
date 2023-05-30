@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class DefaultTemplate
 {
@@ -42,7 +42,7 @@ class DefaultTemplate
 
     /**
      * @param typeHierarchyOverrideType $ProfileType
-     * @return \FilippoToso\Travelport\UProfile\DefaultTemplate
+     * @return \Santosdave\Travelport\UProfile\DefaultTemplate
      */
     public function setProfileType($ProfileType)
     {
@@ -60,7 +60,7 @@ class DefaultTemplate
 
     /**
      * @param typeTemplateID $TemplateID
-     * @return \FilippoToso\Travelport\UProfile\DefaultTemplate
+     * @return \Santosdave\Travelport\UProfile\DefaultTemplate
      */
     public function setTemplateID($TemplateID)
     {
@@ -78,7 +78,7 @@ class DefaultTemplate
 
     /**
      * @param typeVersion $TemplateVersion
-     * @return \FilippoToso\Travelport\UProfile\DefaultTemplate
+     * @return \Santosdave\Travelport\UProfile\DefaultTemplate
      */
     public function setTemplateVersion($TemplateVersion)
     {

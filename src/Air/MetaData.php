@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class MetaData
 {
@@ -35,7 +35,7 @@ class MetaData
 
     /**
      * @param anonymous188 $Key
-     * @return \FilippoToso\Travelport\Air\MetaData
+     * @return \Santosdave\Travelport\Air\MetaData
      */
     public function setKey($Key)
     {
@@ -53,7 +53,7 @@ class MetaData
 
     /**
      * @param anonymous189 $Value
-     * @return \FilippoToso\Travelport\Air\MetaData
+     * @return \Santosdave\Travelport\Air\MetaData
      */
     public function setValue($Value)
     {

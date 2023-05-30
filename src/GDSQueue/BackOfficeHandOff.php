@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class BackOfficeHandOff
 {
@@ -42,7 +42,7 @@ class BackOfficeHandOff
 
     /**
      * @param typeBackOffice $Type
-     * @return \FilippoToso\Travelport\GDSQueue\BackOfficeHandOff
+     * @return \Santosdave\Travelport\GDSQueue\BackOfficeHandOff
      */
     public function setType($Type)
     {
@@ -60,7 +60,7 @@ class BackOfficeHandOff
 
     /**
      * @param string $Location
-     * @return \FilippoToso\Travelport\GDSQueue\BackOfficeHandOff
+     * @return \Santosdave\Travelport\GDSQueue\BackOfficeHandOff
      */
     public function setLocation($Location)
     {
@@ -78,7 +78,7 @@ class BackOfficeHandOff
 
     /**
      * @param typePCC $PseudoCityCode
-     * @return \FilippoToso\Travelport\GDSQueue\BackOfficeHandOff
+     * @return \Santosdave\Travelport\GDSQueue\BackOfficeHandOff
      */
     public function setPseudoCityCode($PseudoCityCode)
     {

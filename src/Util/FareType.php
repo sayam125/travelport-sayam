@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class FareType
 {
@@ -28,7 +28,7 @@ class FareType
 
     /**
      * @param typeFareTypeCode $Code
-     * @return \FilippoToso\Travelport\Util\FareType
+     * @return \Santosdave\Travelport\Util\FareType
      */
     public function setCode($Code)
     {

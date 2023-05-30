@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class PreferredAlliances
 {
@@ -28,7 +28,7 @@ class PreferredAlliances
 
     /**
      * @param Alliance $Alliance
-     * @return \FilippoToso\Travelport\GDSQueue\PreferredAlliances
+     * @return \Santosdave\Travelport\GDSQueue\PreferredAlliances
      */
     public function setAlliance($Alliance)
     {

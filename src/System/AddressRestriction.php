@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\System;
+namespace Santosdave\Travelport\System;
 
 class AddressRestriction
 {
@@ -28,7 +28,7 @@ class AddressRestriction
 
     /**
      * @param RequiredField $RequiredField
-     * @return \FilippoToso\Travelport\System\AddressRestriction
+     * @return \Santosdave\Travelport\System\AddressRestriction
      */
     public function setRequiredField($RequiredField)
     {

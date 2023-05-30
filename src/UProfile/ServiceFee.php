@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class ServiceFee extends typeKeyElement
 {
@@ -58,7 +58,7 @@ class ServiceFee extends typeKeyElement
 
     /**
      * @param typeServiceFeeType $Type
-     * @return \FilippoToso\Travelport\UProfile\ServiceFee
+     * @return \Santosdave\Travelport\UProfile\ServiceFee
      */
     public function setType($Type)
     {
@@ -76,7 +76,7 @@ class ServiceFee extends typeKeyElement
 
     /**
      * @param date $StartDate
-     * @return \FilippoToso\Travelport\UProfile\ServiceFee
+     * @return \Santosdave\Travelport\UProfile\ServiceFee
      */
     public function setStartDate($StartDate)
     {
@@ -94,7 +94,7 @@ class ServiceFee extends typeKeyElement
 
     /**
      * @param typeSupplierType $SupplierType
-     * @return \FilippoToso\Travelport\UProfile\ServiceFee
+     * @return \Santosdave\Travelport\UProfile\ServiceFee
      */
     public function setSupplierType($SupplierType)
     {
@@ -112,7 +112,7 @@ class ServiceFee extends typeKeyElement
 
     /**
      * @param typeMoney $Amount
-     * @return \FilippoToso\Travelport\UProfile\ServiceFee
+     * @return \Santosdave\Travelport\UProfile\ServiceFee
      */
     public function setAmount($Amount)
     {
@@ -130,7 +130,7 @@ class ServiceFee extends typeKeyElement
 
     /**
      * @param typePriorityOrder $PriorityOrder
-     * @return \FilippoToso\Travelport\UProfile\ServiceFee
+     * @return \Santosdave\Travelport\UProfile\ServiceFee
      */
     public function setPriorityOrder($PriorityOrder)
     {

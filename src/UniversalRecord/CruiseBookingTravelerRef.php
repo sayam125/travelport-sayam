@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class CruiseBookingTravelerRef
 {
@@ -42,7 +42,7 @@ class CruiseBookingTravelerRef
 
     /**
      * @param LoyaltyCardRef $LoyaltyCardRef
-     * @return \FilippoToso\Travelport\UniversalRecord\CruiseBookingTravelerRef
+     * @return \Santosdave\Travelport\UniversalRecord\CruiseBookingTravelerRef
      */
     public function setLoyaltyCardRef($LoyaltyCardRef)
     {
@@ -60,7 +60,7 @@ class CruiseBookingTravelerRef
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\UniversalRecord\CruiseBookingTravelerRef
+     * @return \Santosdave\Travelport\UniversalRecord\CruiseBookingTravelerRef
      */
     public function setKey($Key)
     {
@@ -78,7 +78,7 @@ class CruiseBookingTravelerRef
 
     /**
      * @param boolean $WaiverIndicator
-     * @return \FilippoToso\Travelport\UniversalRecord\CruiseBookingTravelerRef
+     * @return \Santosdave\Travelport\UniversalRecord\CruiseBookingTravelerRef
      */
     public function setWaiverIndicator($WaiverIndicator)
     {

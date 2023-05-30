@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class ExpertSolutionList
 {
@@ -28,7 +28,7 @@ class ExpertSolutionList
 
     /**
      * @param ExpertSolution $ExpertSolution
-     * @return \FilippoToso\Travelport\Util\ExpertSolutionList
+     * @return \Santosdave\Travelport\Util\ExpertSolutionList
      */
     public function setExpertSolution($ExpertSolution)
     {

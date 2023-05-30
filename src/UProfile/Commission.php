@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class Commission extends typeKeyElement
 {
@@ -65,7 +65,7 @@ class Commission extends typeKeyElement
 
     /**
      * @param typeCommissionCategory $Type
-     * @return \FilippoToso\Travelport\UProfile\Commission
+     * @return \Santosdave\Travelport\UProfile\Commission
      */
     public function setType($Type)
     {
@@ -83,7 +83,7 @@ class Commission extends typeKeyElement
 
     /**
      * @param typeSupplierType $SupplierType
-     * @return \FilippoToso\Travelport\UProfile\Commission
+     * @return \Santosdave\Travelport\UProfile\Commission
      */
     public function setSupplierType($SupplierType)
     {
@@ -101,7 +101,7 @@ class Commission extends typeKeyElement
 
     /**
      * @param typeSupplier $Supplier
-     * @return \FilippoToso\Travelport\UProfile\Commission
+     * @return \Santosdave\Travelport\UProfile\Commission
      */
     public function setSupplier($Supplier)
     {
@@ -119,7 +119,7 @@ class Commission extends typeKeyElement
 
     /**
      * @param typeMoney $Amount
-     * @return \FilippoToso\Travelport\UProfile\Commission
+     * @return \Santosdave\Travelport\UProfile\Commission
      */
     public function setAmount($Amount)
     {
@@ -137,7 +137,7 @@ class Commission extends typeKeyElement
 
     /**
      * @param typePercentageWithDecimal $Percentage
-     * @return \FilippoToso\Travelport\UProfile\Commission
+     * @return \Santosdave\Travelport\UProfile\Commission
      */
     public function setPercentage($Percentage)
     {
@@ -155,7 +155,7 @@ class Commission extends typeKeyElement
 
     /**
      * @param typePriorityOrder $PriorityOrder
-     * @return \FilippoToso\Travelport\UProfile\Commission
+     * @return \Santosdave\Travelport\UProfile\Commission
      */
     public function setPriorityOrder($PriorityOrder)
     {

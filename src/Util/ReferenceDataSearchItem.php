@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class ReferenceDataSearchItem
 {
@@ -38,7 +38,7 @@ class ReferenceDataSearchItem
 
     /**
      * @param Code $Code
-     * @return \FilippoToso\Travelport\Util\ReferenceDataSearchItem
+     * @return \Santosdave\Travelport\Util\ReferenceDataSearchItem
      */
     public function setCode($Code)
     {
@@ -56,7 +56,7 @@ class ReferenceDataSearchItem
 
     /**
      * @param Name $Name
-     * @return \FilippoToso\Travelport\Util\ReferenceDataSearchItem
+     * @return \Santosdave\Travelport\Util\ReferenceDataSearchItem
      */
     public function setName($Name)
     {
@@ -74,7 +74,7 @@ class ReferenceDataSearchItem
 
     /**
      * @param anonymous1149 $Type
-     * @return \FilippoToso\Travelport\Util\ReferenceDataSearchItem
+     * @return \Santosdave\Travelport\Util\ReferenceDataSearchItem
      */
     public function setType($Type)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class typeVehicleVendorLocation extends typeVendorLocation
 {
@@ -49,7 +49,7 @@ class typeVehicleVendorLocation extends typeVendorLocation
 
     /**
      * @param typeVehicleLocation $LocationType
-     * @return \FilippoToso\Travelport\UniversalRecord\typeVehicleVendorLocation
+     * @return \Santosdave\Travelport\UniversalRecord\typeVehicleVendorLocation
      */
     public function setLocationType($LocationType)
     {
@@ -67,7 +67,7 @@ class typeVehicleVendorLocation extends typeVendorLocation
 
     /**
      * @param typeIATACode $LocationCode
-     * @return \FilippoToso\Travelport\UniversalRecord\typeVehicleVendorLocation
+     * @return \Santosdave\Travelport\UniversalRecord\typeVehicleVendorLocation
      */
     public function setLocationCode($LocationCode)
     {
@@ -85,7 +85,7 @@ class typeVehicleVendorLocation extends typeVendorLocation
 
     /**
      * @param anonymous1085 $Type
-     * @return \FilippoToso\Travelport\UniversalRecord\typeVehicleVendorLocation
+     * @return \Santosdave\Travelport\UniversalRecord\typeVehicleVendorLocation
      */
     public function setType($Type)
     {

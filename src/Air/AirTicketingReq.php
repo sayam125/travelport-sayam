@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class AirTicketingReq extends AirBaseReq
 {
@@ -113,7 +113,7 @@ class AirTicketingReq extends AirBaseReq
 
     /**
      * @param AirReservationLocatorCode $AirReservationLocatorCode
-     * @return \FilippoToso\Travelport\Air\AirTicketingReq
+     * @return \Santosdave\Travelport\Air\AirTicketingReq
      */
     public function setAirReservationLocatorCode($AirReservationLocatorCode)
     {
@@ -131,7 +131,7 @@ class AirTicketingReq extends AirBaseReq
 
     /**
      * @param AirPricingInfoRef[] $AirPricingInfoRef
-     * @return \FilippoToso\Travelport\Air\AirTicketingReq
+     * @return \Santosdave\Travelport\Air\AirTicketingReq
      */
     public function setAirPricingInfoRef(array $AirPricingInfoRef = null)
     {
@@ -149,7 +149,7 @@ class AirTicketingReq extends AirBaseReq
 
     /**
      * @param typeTicketingModifiersRef[] $TicketingModifiersRef
-     * @return \FilippoToso\Travelport\Air\AirTicketingReq
+     * @return \Santosdave\Travelport\Air\AirTicketingReq
      */
     public function setTicketingModifiersRef(array $TicketingModifiersRef = null)
     {
@@ -167,7 +167,7 @@ class AirTicketingReq extends AirBaseReq
 
     /**
      * @param WaiverCode $WaiverCode
-     * @return \FilippoToso\Travelport\Air\AirTicketingReq
+     * @return \Santosdave\Travelport\Air\AirTicketingReq
      */
     public function setWaiverCode($WaiverCode)
     {
@@ -185,7 +185,7 @@ class AirTicketingReq extends AirBaseReq
 
     /**
      * @param Commission $Commission
-     * @return \FilippoToso\Travelport\Air\AirTicketingReq
+     * @return \Santosdave\Travelport\Air\AirTicketingReq
      */
     public function setCommission($Commission)
     {
@@ -203,7 +203,7 @@ class AirTicketingReq extends AirBaseReq
 
     /**
      * @param DetailedBillingInformation $DetailedBillingInformation
-     * @return \FilippoToso\Travelport\Air\AirTicketingReq
+     * @return \Santosdave\Travelport\Air\AirTicketingReq
      */
     public function setDetailedBillingInformation($DetailedBillingInformation)
     {
@@ -221,7 +221,7 @@ class AirTicketingReq extends AirBaseReq
 
     /**
      * @param FaxDetailsInformation $FaxDetailsInformation
-     * @return \FilippoToso\Travelport\Air\AirTicketingReq
+     * @return \Santosdave\Travelport\Air\AirTicketingReq
      */
     public function setFaxDetailsInformation($FaxDetailsInformation)
     {
@@ -239,7 +239,7 @@ class AirTicketingReq extends AirBaseReq
 
     /**
      * @param AirTicketingModifiers $AirTicketingModifiers
-     * @return \FilippoToso\Travelport\Air\AirTicketingReq
+     * @return \Santosdave\Travelport\Air\AirTicketingReq
      */
     public function setAirTicketingModifiers($AirTicketingModifiers)
     {
@@ -257,7 +257,7 @@ class AirTicketingReq extends AirBaseReq
 
     /**
      * @param AirSegmentTicketingModifiers $AirSegmentTicketingModifiers
-     * @return \FilippoToso\Travelport\Air\AirTicketingReq
+     * @return \Santosdave\Travelport\Air\AirTicketingReq
      */
     public function setAirSegmentTicketingModifiers($AirSegmentTicketingModifiers)
     {
@@ -275,7 +275,7 @@ class AirTicketingReq extends AirBaseReq
 
     /**
      * @param boolean $ReturnInfoOnFail
-     * @return \FilippoToso\Travelport\Air\AirTicketingReq
+     * @return \Santosdave\Travelport\Air\AirTicketingReq
      */
     public function setReturnInfoOnFail($ReturnInfoOnFail)
     {
@@ -293,7 +293,7 @@ class AirTicketingReq extends AirBaseReq
 
     /**
      * @param boolean $BulkTicket
-     * @return \FilippoToso\Travelport\Air\AirTicketingReq
+     * @return \Santosdave\Travelport\Air\AirTicketingReq
      */
     public function setBulkTicket($BulkTicket)
     {
@@ -311,7 +311,7 @@ class AirTicketingReq extends AirBaseReq
 
     /**
      * @param boolean $ValidateSpanishResidency
-     * @return \FilippoToso\Travelport\Air\AirTicketingReq
+     * @return \Santosdave\Travelport\Air\AirTicketingReq
      */
     public function setValidateSpanishResidency($ValidateSpanishResidency)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class PassengerType extends typePassengerType
 {
@@ -41,7 +41,7 @@ class PassengerType extends typePassengerType
 
     /**
      * @param FareGuaranteeInfo $FareGuaranteeInfo
-     * @return \FilippoToso\Travelport\Rail\PassengerType
+     * @return \Santosdave\Travelport\Rail\PassengerType
      */
     public function setFareGuaranteeInfo($FareGuaranteeInfo)
     {

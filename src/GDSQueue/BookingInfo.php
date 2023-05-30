@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class BookingInfo
 {
@@ -77,7 +77,7 @@ class BookingInfo
 
     /**
      * @param string $BookingCode
-     * @return \FilippoToso\Travelport\GDSQueue\BookingInfo
+     * @return \Santosdave\Travelport\GDSQueue\BookingInfo
      */
     public function setBookingCode($BookingCode)
     {
@@ -95,7 +95,7 @@ class BookingInfo
 
     /**
      * @param string $BookingCount
-     * @return \FilippoToso\Travelport\GDSQueue\BookingInfo
+     * @return \Santosdave\Travelport\GDSQueue\BookingInfo
      */
     public function setBookingCount($BookingCount)
     {
@@ -113,7 +113,7 @@ class BookingInfo
 
     /**
      * @param string $CabinClass
-     * @return \FilippoToso\Travelport\GDSQueue\BookingInfo
+     * @return \Santosdave\Travelport\GDSQueue\BookingInfo
      */
     public function setCabinClass($CabinClass)
     {
@@ -131,7 +131,7 @@ class BookingInfo
 
     /**
      * @param typeRef $FareInfoRef
-     * @return \FilippoToso\Travelport\GDSQueue\BookingInfo
+     * @return \Santosdave\Travelport\GDSQueue\BookingInfo
      */
     public function setFareInfoRef($FareInfoRef)
     {
@@ -149,7 +149,7 @@ class BookingInfo
 
     /**
      * @param typeRef $SegmentRef
-     * @return \FilippoToso\Travelport\GDSQueue\BookingInfo
+     * @return \Santosdave\Travelport\GDSQueue\BookingInfo
      */
     public function setSegmentRef($SegmentRef)
     {
@@ -167,7 +167,7 @@ class BookingInfo
 
     /**
      * @param typeRef $CouponRef
-     * @return \FilippoToso\Travelport\GDSQueue\BookingInfo
+     * @return \Santosdave\Travelport\GDSQueue\BookingInfo
      */
     public function setCouponRef($CouponRef)
     {
@@ -185,7 +185,7 @@ class BookingInfo
 
     /**
      * @param typeRef $AirItinerarySolutionRef
-     * @return \FilippoToso\Travelport\GDSQueue\BookingInfo
+     * @return \Santosdave\Travelport\GDSQueue\BookingInfo
      */
     public function setAirItinerarySolutionRef($AirItinerarySolutionRef)
     {
@@ -203,7 +203,7 @@ class BookingInfo
 
     /**
      * @param typeRef $HostTokenRef
-     * @return \FilippoToso\Travelport\GDSQueue\BookingInfo
+     * @return \Santosdave\Travelport\GDSQueue\BookingInfo
      */
     public function setHostTokenRef($HostTokenRef)
     {

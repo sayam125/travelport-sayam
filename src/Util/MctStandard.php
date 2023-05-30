@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class MctStandard
 {
@@ -35,7 +35,7 @@ class MctStandard
 
     /**
      * @param typeMctConnection $Type
-     * @return \FilippoToso\Travelport\Util\MctStandard
+     * @return \Santosdave\Travelport\Util\MctStandard
      */
     public function setType($Type)
     {
@@ -53,7 +53,7 @@ class MctStandard
 
     /**
      * @param int $Time
-     * @return \FilippoToso\Travelport\Util\MctStandard
+     * @return \Santosdave\Travelport\Util\MctStandard
      */
     public function setTime($Time)
     {

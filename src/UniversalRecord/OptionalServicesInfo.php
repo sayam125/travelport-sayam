@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class OptionalServicesInfo
 {
@@ -42,7 +42,7 @@ class OptionalServicesInfo
 
     /**
      * @param AirPricingSolution $AirPricingSolution
-     * @return \FilippoToso\Travelport\UniversalRecord\OptionalServicesInfo
+     * @return \Santosdave\Travelport\UniversalRecord\OptionalServicesInfo
      */
     public function setAirPricingSolution($AirPricingSolution)
     {
@@ -60,7 +60,7 @@ class OptionalServicesInfo
 
     /**
      * @param FormOfPayment $FormOfPayment
-     * @return \FilippoToso\Travelport\UniversalRecord\OptionalServicesInfo
+     * @return \Santosdave\Travelport\UniversalRecord\OptionalServicesInfo
      */
     public function setFormOfPayment($FormOfPayment)
     {
@@ -78,7 +78,7 @@ class OptionalServicesInfo
 
     /**
      * @param FormOfPaymentRef $FormOfPaymentRef
-     * @return \FilippoToso\Travelport\UniversalRecord\OptionalServicesInfo
+     * @return \Santosdave\Travelport\UniversalRecord\OptionalServicesInfo
      */
     public function setFormOfPaymentRef($FormOfPaymentRef)
     {

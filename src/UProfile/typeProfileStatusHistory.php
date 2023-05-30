@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeProfileStatusHistory
 {
@@ -28,7 +28,7 @@ class typeProfileStatusHistory
 
     /**
      * @param typeProfileEntityStatus $Status
-     * @return \FilippoToso\Travelport\UProfile\typeProfileStatusHistory
+     * @return \Santosdave\Travelport\UProfile\typeProfileStatusHistory
      */
     public function setStatus($Status)
     {

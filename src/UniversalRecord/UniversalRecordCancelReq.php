@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class UniversalRecordCancelReq extends BaseReq
 {
@@ -54,7 +54,7 @@ class UniversalRecordCancelReq extends BaseReq
 
     /**
      * @param FileFinishingInfo $FileFinishingInfo
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalRecordCancelReq
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalRecordCancelReq
      */
     public function setFileFinishingInfo($FileFinishingInfo)
     {
@@ -72,7 +72,7 @@ class UniversalRecordCancelReq extends BaseReq
 
     /**
      * @param typeLocatorCode $UniversalRecordLocatorCode
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalRecordCancelReq
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalRecordCancelReq
      */
     public function setUniversalRecordLocatorCode($UniversalRecordLocatorCode)
     {
@@ -90,7 +90,7 @@ class UniversalRecordCancelReq extends BaseReq
 
     /**
      * @param typeURVersion $Version
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalRecordCancelReq
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalRecordCancelReq
      */
     public function setVersion($Version)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport;
+namespace Santosdave\Travelport;
 
 interface TravelportLogger
 {

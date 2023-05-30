@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class typeApplicableSegment
 {
@@ -42,7 +42,7 @@ class typeApplicableSegment
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Util\typeApplicableSegment
+     * @return \Santosdave\Travelport\Util\typeApplicableSegment
      */
     public function setKey($Key)
     {
@@ -60,7 +60,7 @@ class typeApplicableSegment
 
     /**
      * @param typeRef $AirItineraryDetailsRef
-     * @return \FilippoToso\Travelport\Util\typeApplicableSegment
+     * @return \Santosdave\Travelport\Util\typeApplicableSegment
      */
     public function setAirItineraryDetailsRef($AirItineraryDetailsRef)
     {
@@ -78,7 +78,7 @@ class typeApplicableSegment
 
     /**
      * @param string $BookingCounts
-     * @return \FilippoToso\Travelport\Util\typeApplicableSegment
+     * @return \Santosdave\Travelport\Util\typeApplicableSegment
      */
     public function setBookingCounts($BookingCounts)
     {

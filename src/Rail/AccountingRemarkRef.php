@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class AccountingRemarkRef
 {
@@ -28,7 +28,7 @@ class AccountingRemarkRef
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Rail\AccountingRemarkRef
+     * @return \Santosdave\Travelport\Rail\AccountingRemarkRef
      */
     public function setKey($Key)
     {

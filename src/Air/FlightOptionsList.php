@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class FlightOptionsList
 {
@@ -28,7 +28,7 @@ class FlightOptionsList
 
     /**
      * @param FlightOption $FlightOption
-     * @return \FilippoToso\Travelport\Air\FlightOptionsList
+     * @return \Santosdave\Travelport\Air\FlightOptionsList
      */
     public function setFlightOption($FlightOption)
     {

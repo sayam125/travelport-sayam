@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class RailExchangeReq extends BaseCreateWithFormOfPaymentReq
 {
@@ -115,7 +115,7 @@ class RailExchangeReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param RailExchangeSolution $RailExchangeSolution
-     * @return \FilippoToso\Travelport\Rail\RailExchangeReq
+     * @return \Santosdave\Travelport\Rail\RailExchangeReq
      */
     public function setRailExchangeSolution($RailExchangeSolution)
     {
@@ -133,7 +133,7 @@ class RailExchangeReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param Payment $Payment
-     * @return \FilippoToso\Travelport\Rail\RailExchangeReq
+     * @return \Santosdave\Travelport\Rail\RailExchangeReq
      */
     public function setPayment($Payment)
     {
@@ -151,7 +151,7 @@ class RailExchangeReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param RailFareNoteList $RailFareNoteList
-     * @return \FilippoToso\Travelport\Rail\RailExchangeReq
+     * @return \Santosdave\Travelport\Rail\RailExchangeReq
      */
     public function setRailFareNoteList($RailFareNoteList)
     {
@@ -169,7 +169,7 @@ class RailExchangeReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param HostTokenList $HostTokenList
-     * @return \FilippoToso\Travelport\Rail\RailExchangeReq
+     * @return \Santosdave\Travelport\Rail\RailExchangeReq
      */
     public function setHostTokenList($HostTokenList)
     {
@@ -187,7 +187,7 @@ class RailExchangeReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param RailAutoSeatAssignment $RailAutoSeatAssignment
-     * @return \FilippoToso\Travelport\Rail\RailExchangeReq
+     * @return \Santosdave\Travelport\Rail\RailExchangeReq
      */
     public function setRailAutoSeatAssignment($RailAutoSeatAssignment)
     {
@@ -205,7 +205,7 @@ class RailExchangeReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param typeLocatorCode $LocatorCode
-     * @return \FilippoToso\Travelport\Rail\RailExchangeReq
+     * @return \Santosdave\Travelport\Rail\RailExchangeReq
      */
     public function setLocatorCode($LocatorCode)
     {
@@ -223,7 +223,7 @@ class RailExchangeReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param string $BookingActionType
-     * @return \FilippoToso\Travelport\Rail\RailExchangeReq
+     * @return \Santosdave\Travelport\Rail\RailExchangeReq
      */
     public function setBookingActionType($BookingActionType)
     {
@@ -241,7 +241,7 @@ class RailExchangeReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param string $RefundOption
-     * @return \FilippoToso\Travelport\Rail\RailExchangeReq
+     * @return \Santosdave\Travelport\Rail\RailExchangeReq
      */
     public function setRefundOption($RefundOption)
     {

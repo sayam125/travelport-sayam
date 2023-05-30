@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class DriversLicenseRef
 {
@@ -28,7 +28,7 @@ class DriversLicenseRef
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\GDSQueue\DriversLicenseRef
+     * @return \Santosdave\Travelport\GDSQueue\DriversLicenseRef
      */
     public function setKey($Key)
     {

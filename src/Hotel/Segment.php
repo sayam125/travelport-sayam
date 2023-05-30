@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class Segment
 {
@@ -77,7 +77,7 @@ class Segment
 
     /**
      * @param SegmentRemark $SegmentRemark
-     * @return \FilippoToso\Travelport\Hotel\Segment
+     * @return \Santosdave\Travelport\Hotel\Segment
      */
     public function setSegmentRemark($SegmentRemark)
     {
@@ -95,7 +95,7 @@ class Segment
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Hotel\Segment
+     * @return \Santosdave\Travelport\Hotel\Segment
      */
     public function setKey($Key)
     {
@@ -113,7 +113,7 @@ class Segment
 
     /**
      * @param string $Status
-     * @return \FilippoToso\Travelport\Hotel\Segment
+     * @return \Santosdave\Travelport\Hotel\Segment
      */
     public function setStatus($Status)
     {
@@ -131,7 +131,7 @@ class Segment
 
     /**
      * @param boolean $Passive
-     * @return \FilippoToso\Travelport\Hotel\Segment
+     * @return \Santosdave\Travelport\Hotel\Segment
      */
     public function setPassive($Passive)
     {
@@ -149,7 +149,7 @@ class Segment
 
     /**
      * @param int $TravelOrder
-     * @return \FilippoToso\Travelport\Hotel\Segment
+     * @return \Santosdave\Travelport\Hotel\Segment
      */
     public function setTravelOrder($TravelOrder)
     {
@@ -167,7 +167,7 @@ class Segment
 
     /**
      * @param anonymous195 $ProviderSegmentOrder
-     * @return \FilippoToso\Travelport\Hotel\Segment
+     * @return \Santosdave\Travelport\Hotel\Segment
      */
     public function setProviderSegmentOrder($ProviderSegmentOrder)
     {
@@ -185,7 +185,7 @@ class Segment
 
     /**
      * @param typeElementStatus $ElStat
-     * @return \FilippoToso\Travelport\Hotel\Segment
+     * @return \Santosdave\Travelport\Hotel\Segment
      */
     public function setElStat($ElStat)
     {
@@ -203,7 +203,7 @@ class Segment
 
     /**
      * @param boolean $KeyOverride
-     * @return \FilippoToso\Travelport\Hotel\Segment
+     * @return \Santosdave\Travelport\Hotel\Segment
      */
     public function setKeyOverride($KeyOverride)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class GdsNextOnQueueRsp extends BaseRsp
 {
@@ -41,7 +41,7 @@ class GdsNextOnQueueRsp extends BaseRsp
 
     /**
      * @param UniversalRecord $UniversalRecord
-     * @return \FilippoToso\Travelport\GDSQueue\GdsNextOnQueueRsp
+     * @return \Santosdave\Travelport\GDSQueue\GdsNextOnQueueRsp
      */
     public function setUniversalRecord($UniversalRecord)
     {
@@ -59,7 +59,7 @@ class GdsNextOnQueueRsp extends BaseRsp
 
     /**
      * @param string $QueueSessionToken
-     * @return \FilippoToso\Travelport\GDSQueue\GdsNextOnQueueRsp
+     * @return \Santosdave\Travelport\GDSQueue\GdsNextOnQueueRsp
      */
     public function setQueueSessionToken($QueueSessionToken)
     {

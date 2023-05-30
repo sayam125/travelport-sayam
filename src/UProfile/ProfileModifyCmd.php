@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class ProfileModifyCmd
 {
@@ -91,7 +91,7 @@ class ProfileModifyCmd
 
     /**
      * @param ProfileStatusUpdate $ProfileStatusUpdate
-     * @return \FilippoToso\Travelport\UProfile\ProfileModifyCmd
+     * @return \Santosdave\Travelport\UProfile\ProfileModifyCmd
      */
     public function setProfileStatusUpdate($ProfileStatusUpdate)
     {
@@ -109,7 +109,7 @@ class ProfileModifyCmd
 
     /**
      * @param ProfileLinkAdd $ProfileLinkAdd
-     * @return \FilippoToso\Travelport\UProfile\ProfileModifyCmd
+     * @return \Santosdave\Travelport\UProfile\ProfileModifyCmd
      */
     public function setProfileLinkAdd($ProfileLinkAdd)
     {
@@ -127,7 +127,7 @@ class ProfileModifyCmd
 
     /**
      * @param ProfileLinkDelete $ProfileLinkDelete
-     * @return \FilippoToso\Travelport\UProfile\ProfileModifyCmd
+     * @return \Santosdave\Travelport\UProfile\ProfileModifyCmd
      */
     public function setProfileLinkDelete($ProfileLinkDelete)
     {
@@ -145,7 +145,7 @@ class ProfileModifyCmd
 
     /**
      * @param ProfileParentAdd $ProfileParentAdd
-     * @return \FilippoToso\Travelport\UProfile\ProfileModifyCmd
+     * @return \Santosdave\Travelport\UProfile\ProfileModifyCmd
      */
     public function setProfileParentAdd($ProfileParentAdd)
     {
@@ -163,7 +163,7 @@ class ProfileModifyCmd
 
     /**
      * @param ProfileParentDelete $ProfileParentDelete
-     * @return \FilippoToso\Travelport\UProfile\ProfileModifyCmd
+     * @return \Santosdave\Travelport\UProfile\ProfileModifyCmd
      */
     public function setProfileParentDelete($ProfileParentDelete)
     {
@@ -181,7 +181,7 @@ class ProfileModifyCmd
 
     /**
      * @param ProfileDataAdd $ProfileDataAdd
-     * @return \FilippoToso\Travelport\UProfile\ProfileModifyCmd
+     * @return \Santosdave\Travelport\UProfile\ProfileModifyCmd
      */
     public function setProfileDataAdd($ProfileDataAdd)
     {
@@ -199,7 +199,7 @@ class ProfileModifyCmd
 
     /**
      * @param ProfileDataUpdate $ProfileDataUpdate
-     * @return \FilippoToso\Travelport\UProfile\ProfileModifyCmd
+     * @return \Santosdave\Travelport\UProfile\ProfileModifyCmd
      */
     public function setProfileDataUpdate($ProfileDataUpdate)
     {
@@ -217,7 +217,7 @@ class ProfileModifyCmd
 
     /**
      * @param ProfileDataDelete $ProfileDataDelete
-     * @return \FilippoToso\Travelport\UProfile\ProfileModifyCmd
+     * @return \Santosdave\Travelport\UProfile\ProfileModifyCmd
      */
     public function setProfileDataDelete($ProfileDataDelete)
     {
@@ -235,7 +235,7 @@ class ProfileModifyCmd
 
     /**
      * @param TagAdd $TagAdd
-     * @return \FilippoToso\Travelport\UProfile\ProfileModifyCmd
+     * @return \Santosdave\Travelport\UProfile\ProfileModifyCmd
      */
     public function setTagAdd($TagAdd)
     {
@@ -253,7 +253,7 @@ class ProfileModifyCmd
 
     /**
      * @param TagDelete $TagDelete
-     * @return \FilippoToso\Travelport\UProfile\ProfileModifyCmd
+     * @return \Santosdave\Travelport\UProfile\ProfileModifyCmd
      */
     public function setTagDelete($TagDelete)
     {

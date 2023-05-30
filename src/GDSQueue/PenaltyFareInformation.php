@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class PenaltyFareInformation
 {
@@ -33,7 +33,7 @@ class PenaltyFareInformation
 
     /**
      * @param typeFarePenalty $PenaltyInfo
-     * @return \FilippoToso\Travelport\GDSQueue\PenaltyFareInformation
+     * @return \Santosdave\Travelport\GDSQueue\PenaltyFareInformation
      */
     public function setPenaltyInfo($PenaltyInfo)
     {
@@ -51,7 +51,7 @@ class PenaltyFareInformation
 
     /**
      * @param boolean $ProhibitPenaltyFares
-     * @return \FilippoToso\Travelport\GDSQueue\PenaltyFareInformation
+     * @return \Santosdave\Travelport\GDSQueue\PenaltyFareInformation
      */
     public function setProhibitPenaltyFares($ProhibitPenaltyFares)
     {

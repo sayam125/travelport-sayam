@@ -1,19 +1,19 @@
 <?php
 
-namespace FilippoToso\Travelport;
+namespace Santosdave\Travelport;
 
-use FilippoToso\Travelport\Exceptions\MissingBindingsException;
+use Santosdave\Travelport\Exceptions\MissingBindingsException;
 
-use FilippoToso\Travelport\Air;
-use FilippoToso\Travelport\Rail;
-use FilippoToso\Travelport\Hotel;
-use FilippoToso\Travelport\Vehicle;
-use FilippoToso\Travelport\System;
-use FilippoToso\Travelport\GDSQueue;
-use FilippoToso\Travelport\Terminal;
-use FilippoToso\Travelport\UniversalRecord;
-use FilippoToso\Travelport\UProfile;
-use FilippoToso\Travelport\Util;
+use Santosdave\Travelport\Air;
+use Santosdave\Travelport\Rail;
+use Santosdave\Travelport\Hotel;
+use Santosdave\Travelport\Vehicle;
+use Santosdave\Travelport\System;
+use Santosdave\Travelport\GDSQueue;
+use Santosdave\Travelport\Terminal;
+use Santosdave\Travelport\UniversalRecord;
+use Santosdave\Travelport\UProfile;
+use Santosdave\Travelport\Util;
 
 class Bindings
 {

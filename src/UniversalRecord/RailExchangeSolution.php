@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class RailExchangeSolution extends typeRailPricingSolution
 {
@@ -48,7 +48,7 @@ class RailExchangeSolution extends typeRailPricingSolution
 
     /**
      * @param RailExchangeInfo $RailExchangeInfo
-     * @return \FilippoToso\Travelport\UniversalRecord\RailExchangeSolution
+     * @return \Santosdave\Travelport\UniversalRecord\RailExchangeSolution
      */
     public function setRailExchangeInfo($RailExchangeInfo)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class ProfileRetrieveHistoryReq extends BaseReq
 {
@@ -61,7 +61,7 @@ class ProfileRetrieveHistoryReq extends BaseReq
 
     /**
      * @param typeProfileID $ProfileID
-     * @return \FilippoToso\Travelport\UProfile\ProfileRetrieveHistoryReq
+     * @return \Santosdave\Travelport\UProfile\ProfileRetrieveHistoryReq
      */
     public function setProfileID($ProfileID)
     {
@@ -79,7 +79,7 @@ class ProfileRetrieveHistoryReq extends BaseReq
 
     /**
      * @param ProfileHistoryRetrieveCriteria $ProfileHistoryRetrieveCriteria
-     * @return \FilippoToso\Travelport\UProfile\ProfileRetrieveHistoryReq
+     * @return \Santosdave\Travelport\UProfile\ProfileRetrieveHistoryReq
      */
     public function setProfileHistoryRetrieveCriteria($ProfileHistoryRetrieveCriteria)
     {
@@ -97,7 +97,7 @@ class ProfileRetrieveHistoryReq extends BaseReq
 
     /**
      * @param ProfileSearchModifiers $ProfileSearchModifiers
-     * @return \FilippoToso\Travelport\UProfile\ProfileRetrieveHistoryReq
+     * @return \Santosdave\Travelport\UProfile\ProfileRetrieveHistoryReq
      */
     public function setProfileSearchModifiers($ProfileSearchModifiers)
     {
@@ -115,7 +115,7 @@ class ProfileRetrieveHistoryReq extends BaseReq
 
     /**
      * @param boolean $ShowDataUnmasked
-     * @return \FilippoToso\Travelport\UProfile\ProfileRetrieveHistoryReq
+     * @return \Santosdave\Travelport\UProfile\ProfileRetrieveHistoryReq
      */
     public function setShowDataUnmasked($ShowDataUnmasked)
     {

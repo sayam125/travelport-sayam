@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class SupplierRate extends typeVehicleRates
 {
@@ -53,7 +53,7 @@ class SupplierRate extends typeVehicleRates
 
     /**
      * @param typeMoney $DiscountAmount
-     * @return \FilippoToso\Travelport\Rail\SupplierRate
+     * @return \Santosdave\Travelport\Rail\SupplierRate
      */
     public function setDiscountAmount($DiscountAmount)
     {
@@ -71,7 +71,7 @@ class SupplierRate extends typeVehicleRates
 
     /**
      * @param typeMoney $MandatoryChargeTotal
-     * @return \FilippoToso\Travelport\Rail\SupplierRate
+     * @return \Santosdave\Travelport\Rail\SupplierRate
      */
     public function setMandatoryChargeTotal($MandatoryChargeTotal)
     {
@@ -89,7 +89,7 @@ class SupplierRate extends typeVehicleRates
 
     /**
      * @param typeMoney $ApproximateTotal
-     * @return \FilippoToso\Travelport\Rail\SupplierRate
+     * @return \Santosdave\Travelport\Rail\SupplierRate
      */
     public function setApproximateTotal($ApproximateTotal)
     {

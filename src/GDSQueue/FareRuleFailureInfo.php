@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class FareRuleFailureInfo
 {
@@ -28,7 +28,7 @@ class FareRuleFailureInfo
 
     /**
      * @param typeFareRuleFailureInfoReason[] $Reason
-     * @return \FilippoToso\Travelport\GDSQueue\FareRuleFailureInfo
+     * @return \Santosdave\Travelport\GDSQueue\FareRuleFailureInfo
      */
     public function setReason(array $Reason)
     {

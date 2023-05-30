@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class StructuredFareRulesType
 {
@@ -26,7 +26,7 @@ class StructuredFareRulesType
 
     /**
      * @param FareRuleCategoryTypes[] $FareRuleCategoryType
-     * @return \FilippoToso\Travelport\Air\StructuredFareRulesType
+     * @return \Santosdave\Travelport\Air\StructuredFareRulesType
      */
     public function setFareRuleCategoryType(array $FareRuleCategoryType = null)
     {

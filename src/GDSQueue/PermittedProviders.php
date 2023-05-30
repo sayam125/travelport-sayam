@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class PermittedProviders
 {
@@ -28,7 +28,7 @@ class PermittedProviders
 
     /**
      * @param Provider $Provider
-     * @return \FilippoToso\Travelport\GDSQueue\PermittedProviders
+     * @return \Santosdave\Travelport\GDSQueue\PermittedProviders
      */
     public function setProvider($Provider)
     {

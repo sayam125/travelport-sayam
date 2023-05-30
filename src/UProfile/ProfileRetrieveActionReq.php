@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class ProfileRetrieveActionReq extends BaseReq
 {
@@ -40,7 +40,7 @@ class ProfileRetrieveActionReq extends BaseReq
 
     /**
      * @param typeActionRef[] $ActionInfo
-     * @return \FilippoToso\Travelport\UProfile\ProfileRetrieveActionReq
+     * @return \Santosdave\Travelport\UProfile\ProfileRetrieveActionReq
      */
     public function setActionInfo(array $ActionInfo)
     {

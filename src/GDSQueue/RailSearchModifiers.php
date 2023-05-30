@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class RailSearchModifiers
 {
@@ -54,7 +54,7 @@ class RailSearchModifiers
 
     /**
      * @param PreferredSuppliers $PreferredSuppliers
-     * @return \FilippoToso\Travelport\GDSQueue\RailSearchModifiers
+     * @return \Santosdave\Travelport\GDSQueue\RailSearchModifiers
      */
     public function setPreferredSuppliers($PreferredSuppliers)
     {
@@ -72,7 +72,7 @@ class RailSearchModifiers
 
     /**
      * @param anonymous1320 $MaxChanges
-     * @return \FilippoToso\Travelport\GDSQueue\RailSearchModifiers
+     * @return \Santosdave\Travelport\GDSQueue\RailSearchModifiers
      */
     public function setMaxChanges($MaxChanges)
     {
@@ -90,7 +90,7 @@ class RailSearchModifiers
 
     /**
      * @param typeRailDirection $Direction
-     * @return \FilippoToso\Travelport\GDSQueue\RailSearchModifiers
+     * @return \Santosdave\Travelport\GDSQueue\RailSearchModifiers
      */
     public function setDirection($Direction)
     {
@@ -108,7 +108,7 @@ class RailSearchModifiers
 
     /**
      * @param string $Class
-     * @return \FilippoToso\Travelport\GDSQueue\RailSearchModifiers
+     * @return \Santosdave\Travelport\GDSQueue\RailSearchModifiers
      */
     public function setClass($Class)
     {
@@ -126,7 +126,7 @@ class RailSearchModifiers
 
     /**
      * @param int $MaxSolutions
-     * @return \FilippoToso\Travelport\GDSQueue\RailSearchModifiers
+     * @return \Santosdave\Travelport\GDSQueue\RailSearchModifiers
      */
     public function setMaxSolutions($MaxSolutions)
     {

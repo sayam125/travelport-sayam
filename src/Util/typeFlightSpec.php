@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class typeFlightSpec
 {
@@ -31,7 +31,7 @@ class typeFlightSpec
 
     /**
      * @param typeFlightNumberRange $FlightNumberRange
-     * @return \FilippoToso\Travelport\Util\typeFlightSpec
+     * @return \Santosdave\Travelport\Util\typeFlightSpec
      */
     public function setFlightNumberRange($FlightNumberRange)
     {
@@ -49,7 +49,7 @@ class typeFlightSpec
 
     /**
      * @param typeSpecificFlightNumber $SpecificFlightNumber
-     * @return \FilippoToso\Travelport\Util\typeFlightSpec
+     * @return \Santosdave\Travelport\Util\typeFlightSpec
      */
     public function setSpecificFlightNumber($SpecificFlightNumber)
     {

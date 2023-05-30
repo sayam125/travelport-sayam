@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class FlightType
 {
@@ -98,7 +98,7 @@ class FlightType
 
     /**
      * @param boolean $RequireSingleCarrier
-     * @return \FilippoToso\Travelport\Util\FlightType
+     * @return \Santosdave\Travelport\Util\FlightType
      */
     public function setRequireSingleCarrier($RequireSingleCarrier)
     {
@@ -116,7 +116,7 @@ class FlightType
 
     /**
      * @param anonymous620 $MaxConnections
-     * @return \FilippoToso\Travelport\Util\FlightType
+     * @return \Santosdave\Travelport\Util\FlightType
      */
     public function setMaxConnections($MaxConnections)
     {
@@ -134,7 +134,7 @@ class FlightType
 
     /**
      * @param anonymous621 $MaxStops
-     * @return \FilippoToso\Travelport\Util\FlightType
+     * @return \Santosdave\Travelport\Util\FlightType
      */
     public function setMaxStops($MaxStops)
     {
@@ -152,7 +152,7 @@ class FlightType
 
     /**
      * @param boolean $NonStopDirects
-     * @return \FilippoToso\Travelport\Util\FlightType
+     * @return \Santosdave\Travelport\Util\FlightType
      */
     public function setNonStopDirects($NonStopDirects)
     {
@@ -170,7 +170,7 @@ class FlightType
 
     /**
      * @param boolean $StopDirects
-     * @return \FilippoToso\Travelport\Util\FlightType
+     * @return \Santosdave\Travelport\Util\FlightType
      */
     public function setStopDirects($StopDirects)
     {
@@ -188,7 +188,7 @@ class FlightType
 
     /**
      * @param boolean $SingleOnlineCon
-     * @return \FilippoToso\Travelport\Util\FlightType
+     * @return \Santosdave\Travelport\Util\FlightType
      */
     public function setSingleOnlineCon($SingleOnlineCon)
     {
@@ -206,7 +206,7 @@ class FlightType
 
     /**
      * @param boolean $DoubleOnlineCon
-     * @return \FilippoToso\Travelport\Util\FlightType
+     * @return \Santosdave\Travelport\Util\FlightType
      */
     public function setDoubleOnlineCon($DoubleOnlineCon)
     {
@@ -224,7 +224,7 @@ class FlightType
 
     /**
      * @param boolean $TripleOnlineCon
-     * @return \FilippoToso\Travelport\Util\FlightType
+     * @return \Santosdave\Travelport\Util\FlightType
      */
     public function setTripleOnlineCon($TripleOnlineCon)
     {
@@ -242,7 +242,7 @@ class FlightType
 
     /**
      * @param boolean $SingleInterlineCon
-     * @return \FilippoToso\Travelport\Util\FlightType
+     * @return \Santosdave\Travelport\Util\FlightType
      */
     public function setSingleInterlineCon($SingleInterlineCon)
     {
@@ -260,7 +260,7 @@ class FlightType
 
     /**
      * @param boolean $DoubleInterlineCon
-     * @return \FilippoToso\Travelport\Util\FlightType
+     * @return \Santosdave\Travelport\Util\FlightType
      */
     public function setDoubleInterlineCon($DoubleInterlineCon)
     {
@@ -278,7 +278,7 @@ class FlightType
 
     /**
      * @param boolean $TripleInterlineCon
-     * @return \FilippoToso\Travelport\Util\FlightType
+     * @return \Santosdave\Travelport\Util\FlightType
      */
     public function setTripleInterlineCon($TripleInterlineCon)
     {

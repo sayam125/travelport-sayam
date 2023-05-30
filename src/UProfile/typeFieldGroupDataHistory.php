@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeFieldGroupDataHistory extends typeKeyElement
 {
@@ -42,7 +42,7 @@ class typeFieldGroupDataHistory extends typeKeyElement
 
     /**
      * @param typeFieldDataHistory[] $FieldData
-     * @return \FilippoToso\Travelport\UProfile\typeFieldGroupDataHistory
+     * @return \Santosdave\Travelport\UProfile\typeFieldGroupDataHistory
      */
     public function setFieldData(array $FieldData = null)
     {
@@ -60,7 +60,7 @@ class typeFieldGroupDataHistory extends typeKeyElement
 
     /**
      * @param typeFieldID $FieldGroupID
-     * @return \FilippoToso\Travelport\UProfile\typeFieldGroupDataHistory
+     * @return \Santosdave\Travelport\UProfile\typeFieldGroupDataHistory
      */
     public function setFieldGroupID($FieldGroupID)
     {
@@ -78,7 +78,7 @@ class typeFieldGroupDataHistory extends typeKeyElement
 
     /**
      * @param typeProfileID $OwnerID
-     * @return \FilippoToso\Travelport\UProfile\typeFieldGroupDataHistory
+     * @return \Santosdave\Travelport\UProfile\typeFieldGroupDataHistory
      */
     public function setOwnerID($OwnerID)
     {

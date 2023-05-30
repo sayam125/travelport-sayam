@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Vehicle;
+namespace Santosdave\Travelport\Vehicle;
 
 class FlightArrivalInformation
 {
@@ -42,7 +42,7 @@ class FlightArrivalInformation
 
     /**
      * @param typeCarrier $Carrier
-     * @return \FilippoToso\Travelport\Vehicle\FlightArrivalInformation
+     * @return \Santosdave\Travelport\Vehicle\FlightArrivalInformation
      */
     public function setCarrier($Carrier)
     {
@@ -60,7 +60,7 @@ class FlightArrivalInformation
 
     /**
      * @param anonymous602 $FlightNumber
-     * @return \FilippoToso\Travelport\Vehicle\FlightArrivalInformation
+     * @return \Santosdave\Travelport\Vehicle\FlightArrivalInformation
      */
     public function setFlightNumber($FlightNumber)
     {
@@ -78,7 +78,7 @@ class FlightArrivalInformation
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Vehicle\FlightArrivalInformation
+     * @return \Santosdave\Travelport\Vehicle\FlightArrivalInformation
      */
     public function setKey($Key)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class RateModifiers
 {
@@ -63,7 +63,7 @@ class RateModifiers
 
     /**
      * @param typeRateCode $RateCode
-     * @return \FilippoToso\Travelport\GDSQueue\RateModifiers
+     * @return \Santosdave\Travelport\GDSQueue\RateModifiers
      */
     public function setRateCode($RateCode)
     {
@@ -81,7 +81,7 @@ class RateModifiers
 
     /**
      * @param typeDiscountNumber $DiscountNumber
-     * @return \FilippoToso\Travelport\GDSQueue\RateModifiers
+     * @return \Santosdave\Travelport\GDSQueue\RateModifiers
      */
     public function setDiscountNumber($DiscountNumber)
     {
@@ -99,7 +99,7 @@ class RateModifiers
 
     /**
      * @param typeSupplierCode $VendorCode
-     * @return \FilippoToso\Travelport\GDSQueue\RateModifiers
+     * @return \Santosdave\Travelport\GDSQueue\RateModifiers
      */
     public function setVendorCode($VendorCode)
     {
@@ -117,7 +117,7 @@ class RateModifiers
 
     /**
      * @param string $PromotionalCode
-     * @return \FilippoToso\Travelport\GDSQueue\RateModifiers
+     * @return \Santosdave\Travelport\GDSQueue\RateModifiers
      */
     public function setPromotionalCode($PromotionalCode)
     {
@@ -135,7 +135,7 @@ class RateModifiers
 
     /**
      * @param string $VendorLocationRef
-     * @return \FilippoToso\Travelport\GDSQueue\RateModifiers
+     * @return \Santosdave\Travelport\GDSQueue\RateModifiers
      */
     public function setVendorLocationRef($VendorLocationRef)
     {
@@ -153,7 +153,7 @@ class RateModifiers
 
     /**
      * @param string $TourCode
-     * @return \FilippoToso\Travelport\GDSQueue\RateModifiers
+     * @return \Santosdave\Travelport\GDSQueue\RateModifiers
      */
     public function setTourCode($TourCode)
     {

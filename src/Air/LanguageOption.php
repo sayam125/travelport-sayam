@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class LanguageOption
 {
@@ -35,7 +35,7 @@ class LanguageOption
 
     /**
      * @param typeLanguage $Language
-     * @return \FilippoToso\Travelport\Air\LanguageOption
+     * @return \Santosdave\Travelport\Air\LanguageOption
      */
     public function setLanguage($Language)
     {
@@ -53,7 +53,7 @@ class LanguageOption
 
     /**
      * @param typeCountry $Country
-     * @return \FilippoToso\Travelport\Air\LanguageOption
+     * @return \Santosdave\Travelport\Air\LanguageOption
      */
     public function setCountry($Country)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class Segment
 {
@@ -70,7 +70,7 @@ class Segment
 
     /**
      * @param SegmentRemark $SegmentRemark
-     * @return \FilippoToso\Travelport\UProfile\Segment
+     * @return \Santosdave\Travelport\UProfile\Segment
      */
     public function setSegmentRemark($SegmentRemark)
     {
@@ -88,7 +88,7 @@ class Segment
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\UProfile\Segment
+     * @return \Santosdave\Travelport\UProfile\Segment
      */
     public function setKey($Key)
     {
@@ -106,7 +106,7 @@ class Segment
 
     /**
      * @param string $Status
-     * @return \FilippoToso\Travelport\UProfile\Segment
+     * @return \Santosdave\Travelport\UProfile\Segment
      */
     public function setStatus($Status)
     {
@@ -124,7 +124,7 @@ class Segment
 
     /**
      * @param boolean $Passive
-     * @return \FilippoToso\Travelport\UProfile\Segment
+     * @return \Santosdave\Travelport\UProfile\Segment
      */
     public function setPassive($Passive)
     {
@@ -142,7 +142,7 @@ class Segment
 
     /**
      * @param int $TravelOrder
-     * @return \FilippoToso\Travelport\UProfile\Segment
+     * @return \Santosdave\Travelport\UProfile\Segment
      */
     public function setTravelOrder($TravelOrder)
     {
@@ -160,7 +160,7 @@ class Segment
 
     /**
      * @param typeElementStatus $ElStat
-     * @return \FilippoToso\Travelport\UProfile\Segment
+     * @return \Santosdave\Travelport\UProfile\Segment
      */
     public function setElStat($ElStat)
     {
@@ -178,7 +178,7 @@ class Segment
 
     /**
      * @param boolean $KeyOverride
-     * @return \FilippoToso\Travelport\UProfile\Segment
+     * @return \Santosdave\Travelport\UProfile\Segment
      */
     public function setKeyOverride($KeyOverride)
     {

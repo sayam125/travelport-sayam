@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class PromoCode
 {
@@ -42,7 +42,7 @@ class PromoCode
 
     /**
      * @param anonymous845 $Code
-     * @return \FilippoToso\Travelport\GDSQueue\PromoCode
+     * @return \Santosdave\Travelport\GDSQueue\PromoCode
      */
     public function setCode($Code)
     {
@@ -60,7 +60,7 @@ class PromoCode
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\GDSQueue\PromoCode
+     * @return \Santosdave\Travelport\GDSQueue\PromoCode
      */
     public function setProviderCode($ProviderCode)
     {
@@ -78,7 +78,7 @@ class PromoCode
 
     /**
      * @param typeSupplierCode $SupplierCode
-     * @return \FilippoToso\Travelport\GDSQueue\PromoCode
+     * @return \Santosdave\Travelport\GDSQueue\PromoCode
      */
     public function setSupplierCode($SupplierCode)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class CommissionRemark
 {
@@ -70,7 +70,7 @@ class CommissionRemark
 
     /**
      * @param ProviderReservationLevel $ProviderReservationLevel
-     * @return \FilippoToso\Travelport\Rail\CommissionRemark
+     * @return \Santosdave\Travelport\Rail\CommissionRemark
      */
     public function setProviderReservationLevel($ProviderReservationLevel)
     {
@@ -88,7 +88,7 @@ class CommissionRemark
 
     /**
      * @param PassengerTypeLevel[] $PassengerTypeLevel
-     * @return \FilippoToso\Travelport\Rail\CommissionRemark
+     * @return \Santosdave\Travelport\Rail\CommissionRemark
      */
     public function setPassengerTypeLevel(array $PassengerTypeLevel)
     {
@@ -106,7 +106,7 @@ class CommissionRemark
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Rail\CommissionRemark
+     * @return \Santosdave\Travelport\Rail\CommissionRemark
      */
     public function setKey($Key)
     {
@@ -124,7 +124,7 @@ class CommissionRemark
 
     /**
      * @param typeRef $ProviderReservationInfoRef
-     * @return \FilippoToso\Travelport\Rail\CommissionRemark
+     * @return \Santosdave\Travelport\Rail\CommissionRemark
      */
     public function setProviderReservationInfoRef($ProviderReservationInfoRef)
     {
@@ -142,7 +142,7 @@ class CommissionRemark
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\Rail\CommissionRemark
+     * @return \Santosdave\Travelport\Rail\CommissionRemark
      */
     public function setProviderCode($ProviderCode)
     {
@@ -160,7 +160,7 @@ class CommissionRemark
 
     /**
      * @param typeElementStatus $ElStat
-     * @return \FilippoToso\Travelport\Rail\CommissionRemark
+     * @return \Santosdave\Travelport\Rail\CommissionRemark
      */
     public function setElStat($ElStat)
     {
@@ -178,7 +178,7 @@ class CommissionRemark
 
     /**
      * @param boolean $KeyOverride
-     * @return \FilippoToso\Travelport\Rail\CommissionRemark
+     * @return \Santosdave\Travelport\Rail\CommissionRemark
      */
     public function setKeyOverride($KeyOverride)
     {

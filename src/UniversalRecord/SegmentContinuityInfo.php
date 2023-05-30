@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class SegmentContinuityInfo
 {
@@ -42,7 +42,7 @@ class SegmentContinuityInfo
 
     /**
      * @param ArvlUnknSegment $ArvlUnknSegment
-     * @return \FilippoToso\Travelport\UniversalRecord\SegmentContinuityInfo
+     * @return \Santosdave\Travelport\UniversalRecord\SegmentContinuityInfo
      */
     public function setArvlUnknSegment($ArvlUnknSegment)
     {
@@ -60,7 +60,7 @@ class SegmentContinuityInfo
 
     /**
      * @param ContinuityOverrideRemark $ContinuityOverrideRemark
-     * @return \FilippoToso\Travelport\UniversalRecord\SegmentContinuityInfo
+     * @return \Santosdave\Travelport\UniversalRecord\SegmentContinuityInfo
      */
     public function setContinuityOverrideRemark($ContinuityOverrideRemark)
     {
@@ -78,7 +78,7 @@ class SegmentContinuityInfo
 
     /**
      * @param int $ArrivalUnknownSegmentCount
-     * @return \FilippoToso\Travelport\UniversalRecord\SegmentContinuityInfo
+     * @return \Santosdave\Travelport\UniversalRecord\SegmentContinuityInfo
      */
     public function setArrivalUnknownSegmentCount($ArrivalUnknownSegmentCount)
     {

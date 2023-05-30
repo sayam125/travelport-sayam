@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class QueueNextModifiers
 {
@@ -49,7 +49,7 @@ class QueueNextModifiers
 
     /**
      * @param boolean $NextOnQueue
-     * @return \FilippoToso\Travelport\Rail\QueueNextModifiers
+     * @return \Santosdave\Travelport\Rail\QueueNextModifiers
      */
     public function setNextOnQueue($NextOnQueue)
     {
@@ -67,7 +67,7 @@ class QueueNextModifiers
 
     /**
      * @param typeLocatorCode $ProviderLocatorCode
-     * @return \FilippoToso\Travelport\Rail\QueueNextModifiers
+     * @return \Santosdave\Travelport\Rail\QueueNextModifiers
      */
     public function setProviderLocatorCode($ProviderLocatorCode)
     {
@@ -85,7 +85,7 @@ class QueueNextModifiers
 
     /**
      * @param boolean $ReQueueCurrent
-     * @return \FilippoToso\Travelport\Rail\QueueNextModifiers
+     * @return \Santosdave\Travelport\Rail\QueueNextModifiers
      */
     public function setReQueueCurrent($ReQueueCurrent)
     {
@@ -103,7 +103,7 @@ class QueueNextModifiers
 
     /**
      * @param string $QueueSessionToken
-     * @return \FilippoToso\Travelport\Rail\QueueNextModifiers
+     * @return \Santosdave\Travelport\Rail\QueueNextModifiers
      */
     public function setQueueSessionToken($QueueSessionToken)
     {

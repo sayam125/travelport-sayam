@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class EmailNotification
 {
@@ -33,7 +33,7 @@ class EmailNotification
 
     /**
      * @param typeRef[] $EmailRef
-     * @return \FilippoToso\Travelport\Air\EmailNotification
+     * @return \Santosdave\Travelport\Air\EmailNotification
      */
     public function setEmailRef(array $EmailRef = null)
     {
@@ -51,7 +51,7 @@ class EmailNotification
 
     /**
      * @param anonymous492 $Recipients
-     * @return \FilippoToso\Travelport\Air\EmailNotification
+     * @return \Santosdave\Travelport\Air\EmailNotification
      */
     public function setRecipients($Recipients)
     {

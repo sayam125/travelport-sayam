@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class InitialAsynchResult
 {
@@ -28,7 +28,7 @@ class InitialAsynchResult
 
     /**
      * @param int $MaxWait
-     * @return \FilippoToso\Travelport\GDSQueue\InitialAsynchResult
+     * @return \Santosdave\Travelport\GDSQueue\InitialAsynchResult
      */
     public function setMaxWait($MaxWait)
     {

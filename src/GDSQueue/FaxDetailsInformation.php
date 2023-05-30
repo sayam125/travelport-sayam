@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class FaxDetailsInformation
 {
@@ -35,7 +35,7 @@ class FaxDetailsInformation
 
     /**
      * @param AirPricingInfoRef $AirPricingInfoRef
-     * @return \FilippoToso\Travelport\GDSQueue\FaxDetailsInformation
+     * @return \Santosdave\Travelport\GDSQueue\FaxDetailsInformation
      */
     public function setAirPricingInfoRef($AirPricingInfoRef)
     {
@@ -53,7 +53,7 @@ class FaxDetailsInformation
 
     /**
      * @param FaxDetails $FaxDetails
-     * @return \FilippoToso\Travelport\GDSQueue\FaxDetailsInformation
+     * @return \Santosdave\Travelport\GDSQueue\FaxDetailsInformation
      */
     public function setFaxDetails($FaxDetails)
     {

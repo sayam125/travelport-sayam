@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class State
 {
@@ -42,7 +42,7 @@ class State
 
     /**
      * @param typeState $Code
-     * @return \FilippoToso\Travelport\Util\State
+     * @return \Santosdave\Travelport\Util\State
      */
     public function setCode($Code)
     {
@@ -60,7 +60,7 @@ class State
 
     /**
      * @param string $Name
-     * @return \FilippoToso\Travelport\Util\State
+     * @return \Santosdave\Travelport\Util\State
      */
     public function setName($Name)
     {
@@ -78,7 +78,7 @@ class State
 
     /**
      * @param typeCountry $CountryCode
-     * @return \FilippoToso\Travelport\Util\State
+     * @return \Santosdave\Travelport\Util\State
      */
     public function setCountryCode($CountryCode)
     {

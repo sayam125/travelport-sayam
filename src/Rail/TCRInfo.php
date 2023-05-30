@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class TCRInfo
 {
@@ -49,7 +49,7 @@ class TCRInfo
 
     /**
      * @param typeTCRStatus $Status
-     * @return \FilippoToso\Travelport\Rail\TCRInfo
+     * @return \Santosdave\Travelport\Rail\TCRInfo
      */
     public function setStatus($Status)
     {
@@ -75,7 +75,7 @@ class TCRInfo
 
     /**
      * @param \DateTime $Date
-     * @return \FilippoToso\Travelport\Rail\TCRInfo
+     * @return \Santosdave\Travelport\Rail\TCRInfo
      */
     public function setDate(\DateTime $Date)
     {
@@ -93,7 +93,7 @@ class TCRInfo
 
     /**
      * @param typeTCRNumber $TCRNumber
-     * @return \FilippoToso\Travelport\Rail\TCRInfo
+     * @return \Santosdave\Travelport\Rail\TCRInfo
      */
     public function setTCRNumber($TCRNumber)
     {
@@ -111,7 +111,7 @@ class TCRInfo
 
     /**
      * @param typeRef $ProviderReservationInfoRef
-     * @return \FilippoToso\Travelport\Rail\TCRInfo
+     * @return \Santosdave\Travelport\Rail\TCRInfo
      */
     public function setProviderReservationInfoRef($ProviderReservationInfoRef)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class PenaltyFareInformation
 {
@@ -33,7 +33,7 @@ class PenaltyFareInformation
 
     /**
      * @param typeFarePenalty $PenaltyInfo
-     * @return \FilippoToso\Travelport\UniversalRecord\PenaltyFareInformation
+     * @return \Santosdave\Travelport\UniversalRecord\PenaltyFareInformation
      */
     public function setPenaltyInfo($PenaltyInfo)
     {
@@ -51,7 +51,7 @@ class PenaltyFareInformation
 
     /**
      * @param boolean $ProhibitPenaltyFares
-     * @return \FilippoToso\Travelport\UniversalRecord\PenaltyFareInformation
+     * @return \Santosdave\Travelport\UniversalRecord\PenaltyFareInformation
      */
     public function setProhibitPenaltyFares($ProhibitPenaltyFares)
     {

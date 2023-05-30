@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class SupportedVersions
 {
@@ -70,7 +70,7 @@ class SupportedVersions
 
     /**
      * @param string $urVersion
-     * @return \FilippoToso\Travelport\Rail\SupportedVersions
+     * @return \Santosdave\Travelport\Rail\SupportedVersions
      */
     public function setUrVersion($urVersion)
     {
@@ -88,7 +88,7 @@ class SupportedVersions
 
     /**
      * @param string $airVersion
-     * @return \FilippoToso\Travelport\Rail\SupportedVersions
+     * @return \Santosdave\Travelport\Rail\SupportedVersions
      */
     public function setAirVersion($airVersion)
     {
@@ -106,7 +106,7 @@ class SupportedVersions
 
     /**
      * @param string $hotelVersion
-     * @return \FilippoToso\Travelport\Rail\SupportedVersions
+     * @return \Santosdave\Travelport\Rail\SupportedVersions
      */
     public function setHotelVersion($hotelVersion)
     {
@@ -124,7 +124,7 @@ class SupportedVersions
 
     /**
      * @param string $vehicleVersion
-     * @return \FilippoToso\Travelport\Rail\SupportedVersions
+     * @return \Santosdave\Travelport\Rail\SupportedVersions
      */
     public function setVehicleVersion($vehicleVersion)
     {
@@ -142,7 +142,7 @@ class SupportedVersions
 
     /**
      * @param string $passiveVersion
-     * @return \FilippoToso\Travelport\Rail\SupportedVersions
+     * @return \Santosdave\Travelport\Rail\SupportedVersions
      */
     public function setPassiveVersion($passiveVersion)
     {
@@ -160,7 +160,7 @@ class SupportedVersions
 
     /**
      * @param string $railVersion
-     * @return \FilippoToso\Travelport\Rail\SupportedVersions
+     * @return \Santosdave\Travelport\Rail\SupportedVersions
      */
     public function setRailVersion($railVersion)
     {
@@ -178,7 +178,7 @@ class SupportedVersions
 
     /**
      * @param string $cruiseVersion
-     * @return \FilippoToso\Travelport\Rail\SupportedVersions
+     * @return \Santosdave\Travelport\Rail\SupportedVersions
      */
     public function setCruiseVersion($cruiseVersion)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class RailSegmentRef
 {
@@ -28,7 +28,7 @@ class RailSegmentRef
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\GDSQueue\RailSegmentRef
+     * @return \Santosdave\Travelport\GDSQueue\RailSegmentRef
      */
     public function setKey($Key)
     {

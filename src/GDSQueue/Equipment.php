@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class Equipment
 {
@@ -49,7 +49,7 @@ class Equipment
 
     /**
      * @param string $Type
-     * @return \FilippoToso\Travelport\GDSQueue\Equipment
+     * @return \Santosdave\Travelport\GDSQueue\Equipment
      */
     public function setType($Type)
     {
@@ -67,7 +67,7 @@ class Equipment
 
     /**
      * @param string $Description
-     * @return \FilippoToso\Travelport\GDSQueue\Equipment
+     * @return \Santosdave\Travelport\GDSQueue\Equipment
      */
     public function setDescription($Description)
     {
@@ -85,7 +85,7 @@ class Equipment
 
     /**
      * @param int $Quantity
-     * @return \FilippoToso\Travelport\GDSQueue\Equipment
+     * @return \Santosdave\Travelport\GDSQueue\Equipment
      */
     public function setQuantity($Quantity)
     {
@@ -103,7 +103,7 @@ class Equipment
 
     /**
      * @param typeStatusCode $Status
-     * @return \FilippoToso\Travelport\GDSQueue\Equipment
+     * @return \Santosdave\Travelport\GDSQueue\Equipment
      */
     public function setStatus($Status)
     {

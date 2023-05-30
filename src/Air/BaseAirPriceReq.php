@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class BaseAirPriceReq extends BaseCoreReq
 {
@@ -164,7 +164,7 @@ class BaseAirPriceReq extends BaseCoreReq
 
     /**
      * @param AirItinerary $AirItinerary
-     * @return \FilippoToso\Travelport\Air\BaseAirPriceReq
+     * @return \Santosdave\Travelport\Air\BaseAirPriceReq
      */
     public function setAirItinerary($AirItinerary)
     {
@@ -182,7 +182,7 @@ class BaseAirPriceReq extends BaseCoreReq
 
     /**
      * @param AirPricingModifiers $AirPricingModifiers
-     * @return \FilippoToso\Travelport\Air\BaseAirPriceReq
+     * @return \Santosdave\Travelport\Air\BaseAirPriceReq
      */
     public function setAirPricingModifiers($AirPricingModifiers)
     {
@@ -200,7 +200,7 @@ class BaseAirPriceReq extends BaseCoreReq
 
     /**
      * @param SearchPassenger $SearchPassenger
-     * @return \FilippoToso\Travelport\Air\BaseAirPriceReq
+     * @return \Santosdave\Travelport\Air\BaseAirPriceReq
      */
     public function setSearchPassenger($SearchPassenger)
     {
@@ -218,7 +218,7 @@ class BaseAirPriceReq extends BaseCoreReq
 
     /**
      * @param AirPricingCommand $AirPricingCommand
-     * @return \FilippoToso\Travelport\Air\BaseAirPriceReq
+     * @return \Santosdave\Travelport\Air\BaseAirPriceReq
      */
     public function setAirPricingCommand($AirPricingCommand)
     {
@@ -236,7 +236,7 @@ class BaseAirPriceReq extends BaseCoreReq
 
     /**
      * @param AirReservationLocatorCode $AirReservationLocatorCode
-     * @return \FilippoToso\Travelport\Air\BaseAirPriceReq
+     * @return \Santosdave\Travelport\Air\BaseAirPriceReq
      */
     public function setAirReservationLocatorCode($AirReservationLocatorCode)
     {
@@ -254,7 +254,7 @@ class BaseAirPriceReq extends BaseCoreReq
 
     /**
      * @param OptionalServices $OptionalServices
-     * @return \FilippoToso\Travelport\Air\BaseAirPriceReq
+     * @return \Santosdave\Travelport\Air\BaseAirPriceReq
      */
     public function setOptionalServices($OptionalServices)
     {
@@ -272,7 +272,7 @@ class BaseAirPriceReq extends BaseCoreReq
 
     /**
      * @param FormOfPayment $FormOfPayment
-     * @return \FilippoToso\Travelport\Air\BaseAirPriceReq
+     * @return \Santosdave\Travelport\Air\BaseAirPriceReq
      */
     public function setFormOfPayment($FormOfPayment)
     {
@@ -290,7 +290,7 @@ class BaseAirPriceReq extends BaseCoreReq
 
     /**
      * @param PCC $PCC
-     * @return \FilippoToso\Travelport\Air\BaseAirPriceReq
+     * @return \Santosdave\Travelport\Air\BaseAirPriceReq
      */
     public function setPCC($PCC)
     {
@@ -308,7 +308,7 @@ class BaseAirPriceReq extends BaseCoreReq
 
     /**
      * @param SSR $SSR
-     * @return \FilippoToso\Travelport\Air\BaseAirPriceReq
+     * @return \Santosdave\Travelport\Air\BaseAirPriceReq
      */
     public function setSSR($SSR)
     {
@@ -326,7 +326,7 @@ class BaseAirPriceReq extends BaseCoreReq
 
     /**
      * @param string $CheckOBFees
-     * @return \FilippoToso\Travelport\Air\BaseAirPriceReq
+     * @return \Santosdave\Travelport\Air\BaseAirPriceReq
      */
     public function setCheckOBFees($CheckOBFees)
     {
@@ -344,7 +344,7 @@ class BaseAirPriceReq extends BaseCoreReq
 
     /**
      * @param typeFareRuleType $FareRuleType
-     * @return \FilippoToso\Travelport\Air\BaseAirPriceReq
+     * @return \Santosdave\Travelport\Air\BaseAirPriceReq
      */
     public function setFareRuleType($FareRuleType)
     {
@@ -362,7 +362,7 @@ class BaseAirPriceReq extends BaseCoreReq
 
     /**
      * @param typeSupplierCode $SupplierCode
-     * @return \FilippoToso\Travelport\Air\BaseAirPriceReq
+     * @return \Santosdave\Travelport\Air\BaseAirPriceReq
      */
     public function setSupplierCode($SupplierCode)
     {
@@ -380,7 +380,7 @@ class BaseAirPriceReq extends BaseCoreReq
 
     /**
      * @param date $TicketDate
-     * @return \FilippoToso\Travelport\Air\BaseAirPriceReq
+     * @return \Santosdave\Travelport\Air\BaseAirPriceReq
      */
     public function setTicketDate($TicketDate)
     {
@@ -398,7 +398,7 @@ class BaseAirPriceReq extends BaseCoreReq
 
     /**
      * @param boolean $CheckFlightDetails
-     * @return \FilippoToso\Travelport\Air\BaseAirPriceReq
+     * @return \Santosdave\Travelport\Air\BaseAirPriceReq
      */
     public function setCheckFlightDetails($CheckFlightDetails)
     {
@@ -416,7 +416,7 @@ class BaseAirPriceReq extends BaseCoreReq
 
     /**
      * @param boolean $ReturnMM
-     * @return \FilippoToso\Travelport\Air\BaseAirPriceReq
+     * @return \Santosdave\Travelport\Air\BaseAirPriceReq
      */
     public function setReturnMM($ReturnMM)
     {
@@ -434,7 +434,7 @@ class BaseAirPriceReq extends BaseCoreReq
 
     /**
      * @param anonymous1147 $NSCC
-     * @return \FilippoToso\Travelport\Air\BaseAirPriceReq
+     * @return \Santosdave\Travelport\Air\BaseAirPriceReq
      */
     public function setNSCC($NSCC)
     {
@@ -452,7 +452,7 @@ class BaseAirPriceReq extends BaseCoreReq
 
     /**
      * @param boolean $SplitPricing
-     * @return \FilippoToso\Travelport\Air\BaseAirPriceReq
+     * @return \Santosdave\Travelport\Air\BaseAirPriceReq
      */
     public function setSplitPricing($SplitPricing)
     {
@@ -470,7 +470,7 @@ class BaseAirPriceReq extends BaseCoreReq
 
     /**
      * @param boolean $MostRestrictivePenalties
-     * @return \FilippoToso\Travelport\Air\BaseAirPriceReq
+     * @return \Santosdave\Travelport\Air\BaseAirPriceReq
      */
     public function setMostRestrictivePenalties($MostRestrictivePenalties)
     {
@@ -488,7 +488,7 @@ class BaseAirPriceReq extends BaseCoreReq
 
     /**
      * @param string $PricingPreference
-     * @return \FilippoToso\Travelport\Air\BaseAirPriceReq
+     * @return \Santosdave\Travelport\Air\BaseAirPriceReq
      */
     public function setPricingPreference($PricingPreference)
     {

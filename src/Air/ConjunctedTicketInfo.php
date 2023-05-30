@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class ConjunctedTicketInfo
 {
@@ -63,7 +63,7 @@ class ConjunctedTicketInfo
 
     /**
      * @param string $Number
-     * @return \FilippoToso\Travelport\Air\ConjunctedTicketInfo
+     * @return \Santosdave\Travelport\Air\ConjunctedTicketInfo
      */
     public function setNumber($Number)
     {
@@ -81,7 +81,7 @@ class ConjunctedTicketInfo
 
     /**
      * @param typeIATA $IATANumber
-     * @return \FilippoToso\Travelport\Air\ConjunctedTicketInfo
+     * @return \Santosdave\Travelport\Air\ConjunctedTicketInfo
      */
     public function setIATANumber($IATANumber)
     {
@@ -107,7 +107,7 @@ class ConjunctedTicketInfo
 
     /**
      * @param \DateTime $TicketIssueDate
-     * @return \FilippoToso\Travelport\Air\ConjunctedTicketInfo
+     * @return \Santosdave\Travelport\Air\ConjunctedTicketInfo
      */
     public function setTicketIssueDate(\DateTime $TicketIssueDate)
     {
@@ -125,7 +125,7 @@ class ConjunctedTicketInfo
 
     /**
      * @param anonymous855 $TicketingAgentSignOn
-     * @return \FilippoToso\Travelport\Air\ConjunctedTicketInfo
+     * @return \Santosdave\Travelport\Air\ConjunctedTicketInfo
      */
     public function setTicketingAgentSignOn($TicketingAgentSignOn)
     {
@@ -143,7 +143,7 @@ class ConjunctedTicketInfo
 
     /**
      * @param typeCountry $CountryCode
-     * @return \FilippoToso\Travelport\Air\ConjunctedTicketInfo
+     * @return \Santosdave\Travelport\Air\ConjunctedTicketInfo
      */
     public function setCountryCode($CountryCode)
     {
@@ -161,7 +161,7 @@ class ConjunctedTicketInfo
 
     /**
      * @param typeTicketStatus $Status
-     * @return \FilippoToso\Travelport\Air\ConjunctedTicketInfo
+     * @return \Santosdave\Travelport\Air\ConjunctedTicketInfo
      */
     public function setStatus($Status)
     {

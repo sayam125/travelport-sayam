@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class FareRuleCategoryTypes
 {
@@ -38,7 +38,7 @@ class FareRuleCategoryTypes
 
     /**
      * @param ValueDetails[] $CategoryDetails
-     * @return \FilippoToso\Travelport\GDSQueue\FareRuleCategoryTypes
+     * @return \Santosdave\Travelport\GDSQueue\FareRuleCategoryTypes
      */
     public function setCategoryDetails(array $CategoryDetails = null)
     {
@@ -56,7 +56,7 @@ class FareRuleCategoryTypes
 
     /**
      * @param CategoryDetailsType[] $VariableCategoryDetails
-     * @return \FilippoToso\Travelport\GDSQueue\FareRuleCategoryTypes
+     * @return \Santosdave\Travelport\GDSQueue\FareRuleCategoryTypes
      */
     public function setVariableCategoryDetails(array $VariableCategoryDetails = null)
     {
@@ -74,7 +74,7 @@ class FareRuleCategoryTypes
 
     /**
      * @param string $Value
-     * @return \FilippoToso\Travelport\GDSQueue\FareRuleCategoryTypes
+     * @return \Santosdave\Travelport\GDSQueue\FareRuleCategoryTypes
      */
     public function setValue($Value)
     {

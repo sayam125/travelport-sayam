@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class AccountRelatedRules
 {
@@ -35,7 +35,7 @@ class AccountRelatedRules
 
     /**
      * @param BookingRules $BookingRules
-     * @return \FilippoToso\Travelport\Rail\AccountRelatedRules
+     * @return \Santosdave\Travelport\Rail\AccountRelatedRules
      */
     public function setBookingRules($BookingRules)
     {
@@ -53,7 +53,7 @@ class AccountRelatedRules
 
     /**
      * @param RoutingRules $RoutingRules
-     * @return \FilippoToso\Travelport\Rail\AccountRelatedRules
+     * @return \Santosdave\Travelport\Rail\AccountRelatedRules
      */
     public function setRoutingRules($RoutingRules)
     {

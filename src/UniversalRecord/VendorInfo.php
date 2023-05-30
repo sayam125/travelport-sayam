@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class VendorInfo
 {
@@ -35,7 +35,7 @@ class VendorInfo
 
     /**
      * @param typeSupplierCode $Code
-     * @return \FilippoToso\Travelport\UniversalRecord\VendorInfo
+     * @return \Santosdave\Travelport\UniversalRecord\VendorInfo
      */
     public function setCode($Code)
     {
@@ -53,7 +53,7 @@ class VendorInfo
 
     /**
      * @param string $Name
-     * @return \FilippoToso\Travelport\UniversalRecord\VendorInfo
+     * @return \Santosdave\Travelport\UniversalRecord\VendorInfo
      */
     public function setName($Name)
     {

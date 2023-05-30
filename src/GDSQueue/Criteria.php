@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class Criteria
 {
@@ -35,7 +35,7 @@ class Criteria
 
     /**
      * @param anonymous1188 $Order
-     * @return \FilippoToso\Travelport\GDSQueue\Criteria
+     * @return \Santosdave\Travelport\GDSQueue\Criteria
      */
     public function setOrder($Order)
     {
@@ -53,7 +53,7 @@ class Criteria
 
     /**
      * @param anonymous1189 $Type
-     * @return \FilippoToso\Travelport\GDSQueue\Criteria
+     * @return \Santosdave\Travelport\GDSQueue\Criteria
      */
     public function setType($Type)
     {

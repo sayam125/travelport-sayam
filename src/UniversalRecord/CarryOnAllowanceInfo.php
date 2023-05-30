@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class CarryOnAllowanceInfo extends BaseBaggageAllowanceInfo
 {
@@ -32,7 +32,7 @@ class CarryOnAllowanceInfo extends BaseBaggageAllowanceInfo
 
     /**
      * @param CarryOnDetails[] $CarryOnDetails
-     * @return \FilippoToso\Travelport\UniversalRecord\CarryOnAllowanceInfo
+     * @return \Santosdave\Travelport\UniversalRecord\CarryOnAllowanceInfo
      */
     public function setCarryOnDetails(array $CarryOnDetails = null)
     {

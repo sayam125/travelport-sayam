@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class ActionStatus
 {
@@ -112,7 +112,7 @@ class ActionStatus
 
     /**
      * @param Remark $Remark
-     * @return \FilippoToso\Travelport\UniversalRecord\ActionStatus
+     * @return \Santosdave\Travelport\UniversalRecord\ActionStatus
      */
     public function setRemark($Remark)
     {
@@ -130,7 +130,7 @@ class ActionStatus
 
     /**
      * @param anonymous136 $Type
-     * @return \FilippoToso\Travelport\UniversalRecord\ActionStatus
+     * @return \Santosdave\Travelport\UniversalRecord\ActionStatus
      */
     public function setType($Type)
     {
@@ -148,7 +148,7 @@ class ActionStatus
 
     /**
      * @param string $TicketDate
-     * @return \FilippoToso\Travelport\UniversalRecord\ActionStatus
+     * @return \Santosdave\Travelport\UniversalRecord\ActionStatus
      */
     public function setTicketDate($TicketDate)
     {
@@ -166,7 +166,7 @@ class ActionStatus
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\UniversalRecord\ActionStatus
+     * @return \Santosdave\Travelport\UniversalRecord\ActionStatus
      */
     public function setKey($Key)
     {
@@ -184,7 +184,7 @@ class ActionStatus
 
     /**
      * @param typeRef $ProviderReservationInfoRef
-     * @return \FilippoToso\Travelport\UniversalRecord\ActionStatus
+     * @return \Santosdave\Travelport\UniversalRecord\ActionStatus
      */
     public function setProviderReservationInfoRef($ProviderReservationInfoRef)
     {
@@ -202,7 +202,7 @@ class ActionStatus
 
     /**
      * @param typeNonBlanks $QueueCategory
-     * @return \FilippoToso\Travelport\UniversalRecord\ActionStatus
+     * @return \Santosdave\Travelport\UniversalRecord\ActionStatus
      */
     public function setQueueCategory($QueueCategory)
     {
@@ -220,7 +220,7 @@ class ActionStatus
 
     /**
      * @param typeAirport $AirportCode
-     * @return \FilippoToso\Travelport\UniversalRecord\ActionStatus
+     * @return \Santosdave\Travelport\UniversalRecord\ActionStatus
      */
     public function setAirportCode($AirportCode)
     {
@@ -238,7 +238,7 @@ class ActionStatus
 
     /**
      * @param typePCC $PseudoCityCode
-     * @return \FilippoToso\Travelport\UniversalRecord\ActionStatus
+     * @return \Santosdave\Travelport\UniversalRecord\ActionStatus
      */
     public function setPseudoCityCode($PseudoCityCode)
     {
@@ -256,7 +256,7 @@ class ActionStatus
 
     /**
      * @param string $AccountCode
-     * @return \FilippoToso\Travelport\UniversalRecord\ActionStatus
+     * @return \Santosdave\Travelport\UniversalRecord\ActionStatus
      */
     public function setAccountCode($AccountCode)
     {
@@ -274,7 +274,7 @@ class ActionStatus
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\UniversalRecord\ActionStatus
+     * @return \Santosdave\Travelport\UniversalRecord\ActionStatus
      */
     public function setProviderCode($ProviderCode)
     {
@@ -292,7 +292,7 @@ class ActionStatus
 
     /**
      * @param typeSupplierCode $SupplierCode
-     * @return \FilippoToso\Travelport\UniversalRecord\ActionStatus
+     * @return \Santosdave\Travelport\UniversalRecord\ActionStatus
      */
     public function setSupplierCode($SupplierCode)
     {
@@ -310,7 +310,7 @@ class ActionStatus
 
     /**
      * @param typeElementStatus $ElStat
-     * @return \FilippoToso\Travelport\UniversalRecord\ActionStatus
+     * @return \Santosdave\Travelport\UniversalRecord\ActionStatus
      */
     public function setElStat($ElStat)
     {
@@ -328,7 +328,7 @@ class ActionStatus
 
     /**
      * @param boolean $KeyOverride
-     * @return \FilippoToso\Travelport\UniversalRecord\ActionStatus
+     * @return \Santosdave\Travelport\UniversalRecord\ActionStatus
      */
     public function setKeyOverride($KeyOverride)
     {

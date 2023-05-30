@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class CustomField extends typeCustomField
 {
@@ -117,7 +117,7 @@ class CustomField extends typeCustomField
 
     /**
      * @param ActionRef $ActionRef
-     * @return \FilippoToso\Travelport\UProfile\CustomField
+     * @return \Santosdave\Travelport\UProfile\CustomField
      */
     public function setActionRef($ActionRef)
     {
@@ -135,7 +135,7 @@ class CustomField extends typeCustomField
 
     /**
      * @param string $Label
-     * @return \FilippoToso\Travelport\UProfile\CustomField
+     * @return \Santosdave\Travelport\UProfile\CustomField
      */
     public function setLabel($Label)
     {
@@ -153,7 +153,7 @@ class CustomField extends typeCustomField
 
     /**
      * @param UNKNOWN $Searchable
-     * @return \FilippoToso\Travelport\UProfile\CustomField
+     * @return \Santosdave\Travelport\UProfile\CustomField
      */
     public function setSearchable($Searchable)
     {
@@ -171,7 +171,7 @@ class CustomField extends typeCustomField
 
     /**
      * @param boolean $SearchOption
-     * @return \FilippoToso\Travelport\UProfile\CustomField
+     * @return \Santosdave\Travelport\UProfile\CustomField
      */
     public function setSearchOption($SearchOption)
     {
@@ -189,7 +189,7 @@ class CustomField extends typeCustomField
 
     /**
      * @param int $SearchOptionDisplayOrder
-     * @return \FilippoToso\Travelport\UProfile\CustomField
+     * @return \Santosdave\Travelport\UProfile\CustomField
      */
     public function setSearchOptionDisplayOrder($SearchOptionDisplayOrder)
     {
@@ -207,7 +207,7 @@ class CustomField extends typeCustomField
 
     /**
      * @param boolean $Hide
-     * @return \FilippoToso\Travelport\UProfile\CustomField
+     * @return \Santosdave\Travelport\UProfile\CustomField
      */
     public function setHide($Hide)
     {
@@ -225,7 +225,7 @@ class CustomField extends typeCustomField
 
     /**
      * @param int $MinOccursOverride
-     * @return \FilippoToso\Travelport\UProfile\CustomField
+     * @return \Santosdave\Travelport\UProfile\CustomField
      */
     public function setMinOccursOverride($MinOccursOverride)
     {
@@ -243,7 +243,7 @@ class CustomField extends typeCustomField
 
     /**
      * @param int $MaxOccursOverride
-     * @return \FilippoToso\Travelport\UProfile\CustomField
+     * @return \Santosdave\Travelport\UProfile\CustomField
      */
     public function setMaxOccursOverride($MaxOccursOverride)
     {
@@ -261,7 +261,7 @@ class CustomField extends typeCustomField
 
     /**
      * @param boolean $InheritableControlInd
-     * @return \FilippoToso\Travelport\UProfile\CustomField
+     * @return \Santosdave\Travelport\UProfile\CustomField
      */
     public function setInheritableControlInd($InheritableControlInd)
     {
@@ -279,7 +279,7 @@ class CustomField extends typeCustomField
 
     /**
      * @param boolean $ReadOnly
-     * @return \FilippoToso\Travelport\UProfile\CustomField
+     * @return \Santosdave\Travelport\UProfile\CustomField
      */
     public function setReadOnly($ReadOnly)
     {
@@ -297,7 +297,7 @@ class CustomField extends typeCustomField
 
     /**
      * @param boolean $Overriden
-     * @return \FilippoToso\Travelport\UProfile\CustomField
+     * @return \Santosdave\Travelport\UProfile\CustomField
      */
     public function setOverriden($Overriden)
     {

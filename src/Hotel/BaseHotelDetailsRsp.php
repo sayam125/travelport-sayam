@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class BaseHotelDetailsRsp extends BaseRsp
 {
@@ -48,7 +48,7 @@ class BaseHotelDetailsRsp extends BaseRsp
 
     /**
      * @param HotelProperty $HotelProperty
-     * @return \FilippoToso\Travelport\Hotel\BaseHotelDetailsRsp
+     * @return \Santosdave\Travelport\Hotel\BaseHotelDetailsRsp
      */
     public function setHotelProperty($HotelProperty)
     {
@@ -66,7 +66,7 @@ class BaseHotelDetailsRsp extends BaseRsp
 
     /**
      * @param HotelDetailItem $HotelDetailItem
-     * @return \FilippoToso\Travelport\Hotel\BaseHotelDetailsRsp
+     * @return \Santosdave\Travelport\Hotel\BaseHotelDetailsRsp
      */
     public function setHotelDetailItem($HotelDetailItem)
     {
@@ -84,7 +84,7 @@ class BaseHotelDetailsRsp extends BaseRsp
 
     /**
      * @param HotelRateDetail $HotelRateDetail
-     * @return \FilippoToso\Travelport\Hotel\BaseHotelDetailsRsp
+     * @return \Santosdave\Travelport\Hotel\BaseHotelDetailsRsp
      */
     public function setHotelRateDetail($HotelRateDetail)
     {

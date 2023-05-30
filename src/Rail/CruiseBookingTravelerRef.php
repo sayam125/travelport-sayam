@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class CruiseBookingTravelerRef
 {
@@ -42,7 +42,7 @@ class CruiseBookingTravelerRef
 
     /**
      * @param LoyaltyCardRef $LoyaltyCardRef
-     * @return \FilippoToso\Travelport\Rail\CruiseBookingTravelerRef
+     * @return \Santosdave\Travelport\Rail\CruiseBookingTravelerRef
      */
     public function setLoyaltyCardRef($LoyaltyCardRef)
     {
@@ -60,7 +60,7 @@ class CruiseBookingTravelerRef
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Rail\CruiseBookingTravelerRef
+     * @return \Santosdave\Travelport\Rail\CruiseBookingTravelerRef
      */
     public function setKey($Key)
     {
@@ -78,7 +78,7 @@ class CruiseBookingTravelerRef
 
     /**
      * @param boolean $WaiverIndicator
-     * @return \FilippoToso\Travelport\Rail\CruiseBookingTravelerRef
+     * @return \Santosdave\Travelport\Rail\CruiseBookingTravelerRef
      */
     public function setWaiverIndicator($WaiverIndicator)
     {

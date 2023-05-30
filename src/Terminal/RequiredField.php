@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Terminal;
+namespace Santosdave\Travelport\Terminal;
 
 class RequiredField
 {
@@ -28,7 +28,7 @@ class RequiredField
 
     /**
      * @param anonymous397 $Name
-     * @return \FilippoToso\Travelport\Terminal\RequiredField
+     * @return \Santosdave\Travelport\Terminal\RequiredField
      */
     public function setName($Name)
     {

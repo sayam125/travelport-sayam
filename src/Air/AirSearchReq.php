@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class AirSearchReq extends BaseSearchReq
 {
@@ -69,7 +69,7 @@ class AirSearchReq extends BaseSearchReq
 
     /**
      * @param PointOfCommencement $PointOfCommencement
-     * @return \FilippoToso\Travelport\Air\AirSearchReq
+     * @return \Santosdave\Travelport\Air\AirSearchReq
      */
     public function setPointOfCommencement($PointOfCommencement)
     {
@@ -87,7 +87,7 @@ class AirSearchReq extends BaseSearchReq
 
     /**
      * @param SearchAirLeg $SearchAirLeg
-     * @return \FilippoToso\Travelport\Air\AirSearchReq
+     * @return \Santosdave\Travelport\Air\AirSearchReq
      */
     public function setSearchAirLeg($SearchAirLeg)
     {
@@ -105,7 +105,7 @@ class AirSearchReq extends BaseSearchReq
 
     /**
      * @param SearchSpecificAirSegment $SearchSpecificAirSegment
-     * @return \FilippoToso\Travelport\Air\AirSearchReq
+     * @return \Santosdave\Travelport\Air\AirSearchReq
      */
     public function setSearchSpecificAirSegment($SearchSpecificAirSegment)
     {
@@ -123,7 +123,7 @@ class AirSearchReq extends BaseSearchReq
 
     /**
      * @param AirSearchModifiers $AirSearchModifiers
-     * @return \FilippoToso\Travelport\Air\AirSearchReq
+     * @return \Santosdave\Travelport\Air\AirSearchReq
      */
     public function setAirSearchModifiers($AirSearchModifiers)
     {
@@ -141,7 +141,7 @@ class AirSearchReq extends BaseSearchReq
 
     /**
      * @param JourneyData $JourneyData
-     * @return \FilippoToso\Travelport\Air\AirSearchReq
+     * @return \Santosdave\Travelport\Air\AirSearchReq
      */
     public function setJourneyData($JourneyData)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class AirExchangeTicketingReq extends BaseReq
 {
@@ -87,7 +87,7 @@ class AirExchangeTicketingReq extends BaseReq
 
     /**
      * @param AirReservationLocatorCode $AirReservationLocatorCode
-     * @return \FilippoToso\Travelport\Air\AirExchangeTicketingReq
+     * @return \Santosdave\Travelport\Air\AirExchangeTicketingReq
      */
     public function setAirReservationLocatorCode($AirReservationLocatorCode)
     {
@@ -105,7 +105,7 @@ class AirExchangeTicketingReq extends BaseReq
 
     /**
      * @param StringLength1to13 $TicketNumber
-     * @return \FilippoToso\Travelport\Air\AirExchangeTicketingReq
+     * @return \Santosdave\Travelport\Air\AirExchangeTicketingReq
      */
     public function setTicketNumber($TicketNumber)
     {
@@ -123,7 +123,7 @@ class AirExchangeTicketingReq extends BaseReq
 
     /**
      * @param typeTicketingModifiersRef[] $TicketingModifiersRef
-     * @return \FilippoToso\Travelport\Air\AirExchangeTicketingReq
+     * @return \Santosdave\Travelport\Air\AirExchangeTicketingReq
      */
     public function setTicketingModifiersRef(array $TicketingModifiersRef = null)
     {
@@ -141,7 +141,7 @@ class AirExchangeTicketingReq extends BaseReq
 
     /**
      * @param WaiverCode $WaiverCode
-     * @return \FilippoToso\Travelport\Air\AirExchangeTicketingReq
+     * @return \Santosdave\Travelport\Air\AirExchangeTicketingReq
      */
     public function setWaiverCode($WaiverCode)
     {
@@ -159,7 +159,7 @@ class AirExchangeTicketingReq extends BaseReq
 
     /**
      * @param DetailedBillingInformation $DetailedBillingInformation
-     * @return \FilippoToso\Travelport\Air\AirExchangeTicketingReq
+     * @return \Santosdave\Travelport\Air\AirExchangeTicketingReq
      */
     public function setDetailedBillingInformation($DetailedBillingInformation)
     {
@@ -177,7 +177,7 @@ class AirExchangeTicketingReq extends BaseReq
 
     /**
      * @param AirTicketingModifiers $AirTicketingModifiers
-     * @return \FilippoToso\Travelport\Air\AirExchangeTicketingReq
+     * @return \Santosdave\Travelport\Air\AirExchangeTicketingReq
      */
     public function setAirTicketingModifiers($AirTicketingModifiers)
     {
@@ -195,7 +195,7 @@ class AirExchangeTicketingReq extends BaseReq
 
     /**
      * @param boolean $BulkTicket
-     * @return \FilippoToso\Travelport\Air\AirExchangeTicketingReq
+     * @return \Santosdave\Travelport\Air\AirExchangeTicketingReq
      */
     public function setBulkTicket($BulkTicket)
     {
@@ -213,7 +213,7 @@ class AirExchangeTicketingReq extends BaseReq
 
     /**
      * @param boolean $ChangeFeeOnTicket
-     * @return \FilippoToso\Travelport\Air\AirExchangeTicketingReq
+     * @return \Santosdave\Travelport\Air\AirExchangeTicketingReq
      */
     public function setChangeFeeOnTicket($ChangeFeeOnTicket)
     {

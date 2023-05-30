@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class VehicleUpsellQualifySearchCriteria extends UpsellSearchCriteria
 {
@@ -80,7 +80,7 @@ class VehicleUpsellQualifySearchCriteria extends UpsellSearchCriteria
 
     /**
      * @param typeSupplierCode $VendorCode
-     * @return \FilippoToso\Travelport\Util\VehicleUpsellQualifySearchCriteria
+     * @return \Santosdave\Travelport\Util\VehicleUpsellQualifySearchCriteria
      */
     public function setVendorCode($VendorCode)
     {
@@ -98,7 +98,7 @@ class VehicleUpsellQualifySearchCriteria extends UpsellSearchCriteria
 
     /**
      * @param typeVehicleClass $VehicleClass
-     * @return \FilippoToso\Travelport\Util\VehicleUpsellQualifySearchCriteria
+     * @return \Santosdave\Travelport\Util\VehicleUpsellQualifySearchCriteria
      */
     public function setVehicleClass($VehicleClass)
     {
@@ -116,7 +116,7 @@ class VehicleUpsellQualifySearchCriteria extends UpsellSearchCriteria
 
     /**
      * @param typeVehicleCategory $Category
-     * @return \FilippoToso\Travelport\Util\VehicleUpsellQualifySearchCriteria
+     * @return \Santosdave\Travelport\Util\VehicleUpsellQualifySearchCriteria
      */
     public function setCategory($Category)
     {
@@ -134,7 +134,7 @@ class VehicleUpsellQualifySearchCriteria extends UpsellSearchCriteria
 
     /**
      * @param boolean $AirConditioning
-     * @return \FilippoToso\Travelport\Util\VehicleUpsellQualifySearchCriteria
+     * @return \Santosdave\Travelport\Util\VehicleUpsellQualifySearchCriteria
      */
     public function setAirConditioning($AirConditioning)
     {
@@ -152,7 +152,7 @@ class VehicleUpsellQualifySearchCriteria extends UpsellSearchCriteria
 
     /**
      * @param typeVehicleTransmission $TransmissionType
-     * @return \FilippoToso\Travelport\Util\VehicleUpsellQualifySearchCriteria
+     * @return \Santosdave\Travelport\Util\VehicleUpsellQualifySearchCriteria
      */
     public function setTransmissionType($TransmissionType)
     {
@@ -170,7 +170,7 @@ class VehicleUpsellQualifySearchCriteria extends UpsellSearchCriteria
 
     /**
      * @param typeDoorCount $DoorCount
-     * @return \FilippoToso\Travelport\Util\VehicleUpsellQualifySearchCriteria
+     * @return \Santosdave\Travelport\Util\VehicleUpsellQualifySearchCriteria
      */
     public function setDoorCount($DoorCount)
     {
@@ -188,7 +188,7 @@ class VehicleUpsellQualifySearchCriteria extends UpsellSearchCriteria
 
     /**
      * @param typeRateCode $RateCode
-     * @return \FilippoToso\Travelport\Util\VehicleUpsellQualifySearchCriteria
+     * @return \Santosdave\Travelport\Util\VehicleUpsellQualifySearchCriteria
      */
     public function setRateCode($RateCode)
     {
@@ -206,7 +206,7 @@ class VehicleUpsellQualifySearchCriteria extends UpsellSearchCriteria
 
     /**
      * @param typeDiscountNumber $DiscountNumber
-     * @return \FilippoToso\Travelport\Util\VehicleUpsellQualifySearchCriteria
+     * @return \Santosdave\Travelport\Util\VehicleUpsellQualifySearchCriteria
      */
     public function setDiscountNumber($DiscountNumber)
     {

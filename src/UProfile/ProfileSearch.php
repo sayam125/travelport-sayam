@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class ProfileSearch
 {
@@ -58,7 +58,7 @@ class ProfileSearch
 
     /**
      * @param typeWildcardMax50 $ContractNumber
-     * @return \FilippoToso\Travelport\UProfile\ProfileSearch
+     * @return \Santosdave\Travelport\UProfile\ProfileSearch
      */
     public function setContractNumber($ContractNumber)
     {
@@ -76,7 +76,7 @@ class ProfileSearch
 
     /**
      * @param StringLength1to128 $TravelDocumentNumber
-     * @return \FilippoToso\Travelport\UProfile\ProfileSearch
+     * @return \Santosdave\Travelport\UProfile\ProfileSearch
      */
     public function setTravelDocumentNumber($TravelDocumentNumber)
     {
@@ -94,7 +94,7 @@ class ProfileSearch
 
     /**
      * @param typeSearchAccountingReference $AccountingReference
-     * @return \FilippoToso\Travelport\UProfile\ProfileSearch
+     * @return \Santosdave\Travelport\UProfile\ProfileSearch
      */
     public function setAccountingReference($AccountingReference)
     {
@@ -112,7 +112,7 @@ class ProfileSearch
 
     /**
      * @param typeSearchContact $AlternateContact
-     * @return \FilippoToso\Travelport\UProfile\ProfileSearch
+     * @return \Santosdave\Travelport\UProfile\ProfileSearch
      */
     public function setAlternateContact($AlternateContact)
     {
@@ -130,7 +130,7 @@ class ProfileSearch
 
     /**
      * @param typeSearchLoyaltyProgram $LoyaltyProgram
-     * @return \FilippoToso\Travelport\UProfile\ProfileSearch
+     * @return \Santosdave\Travelport\UProfile\ProfileSearch
      */
     public function setLoyaltyProgram($LoyaltyProgram)
     {
@@ -148,7 +148,7 @@ class ProfileSearch
 
     /**
      * @param typeSearchPaymentDetails $PaymentDetails
-     * @return \FilippoToso\Travelport\UProfile\ProfileSearch
+     * @return \Santosdave\Travelport\UProfile\ProfileSearch
      */
     public function setPaymentDetails($PaymentDetails)
     {
@@ -166,7 +166,7 @@ class ProfileSearch
 
     /**
      * @param FieldDataSearch $FieldDataSearch
-     * @return \FilippoToso\Travelport\UProfile\ProfileSearch
+     * @return \Santosdave\Travelport\UProfile\ProfileSearch
      */
     public function setFieldDataSearch($FieldDataSearch)
     {

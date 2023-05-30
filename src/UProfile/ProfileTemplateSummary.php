@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class ProfileTemplateSummary
 {
@@ -42,7 +42,7 @@ class ProfileTemplateSummary
 
     /**
      * @param typeTemplateID $ID
-     * @return \FilippoToso\Travelport\UProfile\ProfileTemplateSummary
+     * @return \Santosdave\Travelport\UProfile\ProfileTemplateSummary
      */
     public function setID($ID)
     {
@@ -60,7 +60,7 @@ class ProfileTemplateSummary
 
     /**
      * @param UNKNOWN $Name
-     * @return \FilippoToso\Travelport\UProfile\ProfileTemplateSummary
+     * @return \Santosdave\Travelport\UProfile\ProfileTemplateSummary
      */
     public function setName($Name)
     {
@@ -78,7 +78,7 @@ class ProfileTemplateSummary
 
     /**
      * @param UNKNOWN $Version
-     * @return \FilippoToso\Travelport\UProfile\ProfileTemplateSummary
+     * @return \Santosdave\Travelport\UProfile\ProfileTemplateSummary
      */
     public function setVersion($Version)
     {

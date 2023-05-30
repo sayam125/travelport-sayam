@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class CollectionAddress extends typeStructuredAddress
 {
@@ -34,7 +34,7 @@ class CollectionAddress extends typeStructuredAddress
 
     /**
      * @param PhoneNumber $PhoneNumber
-     * @return \FilippoToso\Travelport\GDSQueue\CollectionAddress
+     * @return \Santosdave\Travelport\GDSQueue\CollectionAddress
      */
     public function setPhoneNumber($PhoneNumber)
     {

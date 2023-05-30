@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class EMDPricingInfo
 {
@@ -56,7 +56,7 @@ class EMDPricingInfo
 
     /**
      * @param typeTaxInfo $TaxInfo
-     * @return \FilippoToso\Travelport\GDSQueue\EMDPricingInfo
+     * @return \Santosdave\Travelport\GDSQueue\EMDPricingInfo
      */
     public function setTaxInfo($TaxInfo)
     {
@@ -74,7 +74,7 @@ class EMDPricingInfo
 
     /**
      * @param typeMoney $BaseFare
-     * @return \FilippoToso\Travelport\GDSQueue\EMDPricingInfo
+     * @return \Santosdave\Travelport\GDSQueue\EMDPricingInfo
      */
     public function setBaseFare($BaseFare)
     {
@@ -92,7 +92,7 @@ class EMDPricingInfo
 
     /**
      * @param typeMoney $TotalFare
-     * @return \FilippoToso\Travelport\GDSQueue\EMDPricingInfo
+     * @return \Santosdave\Travelport\GDSQueue\EMDPricingInfo
      */
     public function setTotalFare($TotalFare)
     {
@@ -110,7 +110,7 @@ class EMDPricingInfo
 
     /**
      * @param typeMoney $TotalTax
-     * @return \FilippoToso\Travelport\GDSQueue\EMDPricingInfo
+     * @return \Santosdave\Travelport\GDSQueue\EMDPricingInfo
      */
     public function setTotalTax($TotalTax)
     {
@@ -128,7 +128,7 @@ class EMDPricingInfo
 
     /**
      * @param typeMoney $EquivFare
-     * @return \FilippoToso\Travelport\GDSQueue\EMDPricingInfo
+     * @return \Santosdave\Travelport\GDSQueue\EMDPricingInfo
      */
     public function setEquivFare($EquivFare)
     {

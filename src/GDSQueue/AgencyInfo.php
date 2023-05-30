@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class AgencyInfo
 {
@@ -28,7 +28,7 @@ class AgencyInfo
 
     /**
      * @param AgentAction $AgentAction
-     * @return \FilippoToso\Travelport\GDSQueue\AgencyInfo
+     * @return \Santosdave\Travelport\GDSQueue\AgencyInfo
      */
     public function setAgentAction($AgentAction)
     {

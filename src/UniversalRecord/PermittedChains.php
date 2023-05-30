@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class PermittedChains
 {
@@ -28,7 +28,7 @@ class PermittedChains
 
     /**
      * @param HotelChain $HotelChain
-     * @return \FilippoToso\Travelport\UniversalRecord\PermittedChains
+     * @return \Santosdave\Travelport\UniversalRecord\PermittedChains
      */
     public function setHotelChain($HotelChain)
     {

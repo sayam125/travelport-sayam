@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Vehicle;
+namespace Santosdave\Travelport\Vehicle;
 
 class StartEndTimes
 {
@@ -36,7 +36,7 @@ class StartEndTimes
 
     /**
      * @param typeStartEndTime $EarliestStart
-     * @return \FilippoToso\Travelport\Vehicle\StartEndTimes
+     * @return \Santosdave\Travelport\Vehicle\StartEndTimes
      */
     public function setEarliestStart($EarliestStart)
     {
@@ -54,7 +54,7 @@ class StartEndTimes
 
     /**
      * @param typeStartEndTime $LatestStart
-     * @return \FilippoToso\Travelport\Vehicle\StartEndTimes
+     * @return \Santosdave\Travelport\Vehicle\StartEndTimes
      */
     public function setLatestStart($LatestStart)
     {
@@ -72,7 +72,7 @@ class StartEndTimes
 
     /**
      * @param typeStartEndTime $LatestEnd
-     * @return \FilippoToso\Travelport\Vehicle\StartEndTimes
+     * @return \Santosdave\Travelport\Vehicle\StartEndTimes
      */
     public function setLatestEnd($LatestEnd)
     {

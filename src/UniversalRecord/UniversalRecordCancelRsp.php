@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class UniversalRecordCancelRsp extends BaseRsp
 {
@@ -34,7 +34,7 @@ class UniversalRecordCancelRsp extends BaseRsp
 
     /**
      * @param ProviderReservationStatus $ProviderReservationStatus
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalRecordCancelRsp
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalRecordCancelRsp
      */
     public function setProviderReservationStatus($ProviderReservationStatus)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class PCC
 {
@@ -42,7 +42,7 @@ class PCC
 
     /**
      * @param OverridePCC $OverridePCC
-     * @return \FilippoToso\Travelport\GDSQueue\PCC
+     * @return \Santosdave\Travelport\GDSQueue\PCC
      */
     public function setOverridePCC($OverridePCC)
     {
@@ -60,7 +60,7 @@ class PCC
 
     /**
      * @param PointOfSale $PointOfSale
-     * @return \FilippoToso\Travelport\GDSQueue\PCC
+     * @return \Santosdave\Travelport\GDSQueue\PCC
      */
     public function setPointOfSale($PointOfSale)
     {
@@ -78,7 +78,7 @@ class PCC
 
     /**
      * @param TicketAgency $TicketAgency
-     * @return \FilippoToso\Travelport\GDSQueue\PCC
+     * @return \Santosdave\Travelport\GDSQueue\PCC
      */
     public function setTicketAgency($TicketAgency)
     {

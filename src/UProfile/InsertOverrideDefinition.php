@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class InsertOverrideDefinition
 {
@@ -28,7 +28,7 @@ class InsertOverrideDefinition
 
     /**
      * @param OverrideDefinition $OverrideDefinition
-     * @return \FilippoToso\Travelport\UProfile\InsertOverrideDefinition
+     * @return \Santosdave\Travelport\UProfile\InsertOverrideDefinition
      */
     public function setOverrideDefinition($OverrideDefinition)
     {

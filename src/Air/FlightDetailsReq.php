@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class FlightDetailsReq extends BaseReq
 {
@@ -40,7 +40,7 @@ class FlightDetailsReq extends BaseReq
 
     /**
      * @param typeBaseAirSegment $AirSegment
-     * @return \FilippoToso\Travelport\Air\FlightDetailsReq
+     * @return \Santosdave\Travelport\Air\FlightDetailsReq
      */
     public function setAirSegment($AirSegment)
     {

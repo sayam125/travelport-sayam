@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class RelatedTraveler
 {
@@ -54,7 +54,7 @@ class RelatedTraveler
 
     /**
      * @param LoyaltyCard $LoyaltyCard
-     * @return \FilippoToso\Travelport\GDSQueue\RelatedTraveler
+     * @return \Santosdave\Travelport\GDSQueue\RelatedTraveler
      */
     public function setLoyaltyCard($LoyaltyCard)
     {
@@ -72,7 +72,7 @@ class RelatedTraveler
 
     /**
      * @param PersonName $PersonName
-     * @return \FilippoToso\Travelport\GDSQueue\RelatedTraveler
+     * @return \Santosdave\Travelport\GDSQueue\RelatedTraveler
      */
     public function setPersonName($PersonName)
     {
@@ -90,7 +90,7 @@ class RelatedTraveler
 
     /**
      * @param CreditsUsed $CreditsUsed
-     * @return \FilippoToso\Travelport\GDSQueue\RelatedTraveler
+     * @return \Santosdave\Travelport\GDSQueue\RelatedTraveler
      */
     public function setCreditsUsed($CreditsUsed)
     {
@@ -108,7 +108,7 @@ class RelatedTraveler
 
     /**
      * @param string $StatusCode
-     * @return \FilippoToso\Travelport\GDSQueue\RelatedTraveler
+     * @return \Santosdave\Travelport\GDSQueue\RelatedTraveler
      */
     public function setStatusCode($StatusCode)
     {
@@ -126,7 +126,7 @@ class RelatedTraveler
 
     /**
      * @param string $Relation
-     * @return \FilippoToso\Travelport\GDSQueue\RelatedTraveler
+     * @return \Santosdave\Travelport\GDSQueue\RelatedTraveler
      */
     public function setRelation($Relation)
     {

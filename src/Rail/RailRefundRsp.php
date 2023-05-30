@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class RailRefundRsp extends BaseRsp
 {
@@ -41,7 +41,7 @@ class RailRefundRsp extends BaseRsp
 
     /**
      * @param Payment $Payment
-     * @return \FilippoToso\Travelport\Rail\RailRefundRsp
+     * @return \Santosdave\Travelport\Rail\RailRefundRsp
      */
     public function setPayment($Payment)
     {
@@ -59,7 +59,7 @@ class RailRefundRsp extends BaseRsp
 
     /**
      * @param MCO $MCO
-     * @return \FilippoToso\Travelport\Rail\RailRefundRsp
+     * @return \Santosdave\Travelport\Rail\RailRefundRsp
      */
     public function setMCO($MCO)
     {

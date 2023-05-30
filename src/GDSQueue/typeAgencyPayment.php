@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class typeAgencyPayment
 {
@@ -42,7 +42,7 @@ class typeAgencyPayment
 
     /**
      * @param anonymous61 $AgencyBillingIdentifier
-     * @return \FilippoToso\Travelport\GDSQueue\typeAgencyPayment
+     * @return \Santosdave\Travelport\GDSQueue\typeAgencyPayment
      */
     public function setAgencyBillingIdentifier($AgencyBillingIdentifier)
     {
@@ -60,7 +60,7 @@ class typeAgencyPayment
 
     /**
      * @param anonymous62 $AgencyBillingNumber
-     * @return \FilippoToso\Travelport\GDSQueue\typeAgencyPayment
+     * @return \Santosdave\Travelport\GDSQueue\typeAgencyPayment
      */
     public function setAgencyBillingNumber($AgencyBillingNumber)
     {
@@ -78,7 +78,7 @@ class typeAgencyPayment
 
     /**
      * @param anonymous63 $AgencyBillingPassword
-     * @return \FilippoToso\Travelport\GDSQueue\typeAgencyPayment
+     * @return \Santosdave\Travelport\GDSQueue\typeAgencyPayment
      */
     public function setAgencyBillingPassword($AgencyBillingPassword)
     {

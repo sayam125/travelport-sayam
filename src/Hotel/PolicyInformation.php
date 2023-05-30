@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class PolicyInformation
 {
@@ -52,7 +52,7 @@ class PolicyInformation
 
     /**
      * @param ReasonCode $ReasonCode
-     * @return \FilippoToso\Travelport\Hotel\PolicyInformation
+     * @return \Santosdave\Travelport\Hotel\PolicyInformation
      */
     public function setReasonCode($ReasonCode)
     {
@@ -70,7 +70,7 @@ class PolicyInformation
 
     /**
      * @param typePolicy $Type
-     * @return \FilippoToso\Travelport\Hotel\PolicyInformation
+     * @return \Santosdave\Travelport\Hotel\PolicyInformation
      */
     public function setType($Type)
     {
@@ -88,7 +88,7 @@ class PolicyInformation
 
     /**
      * @param UNKNOWN $Name
-     * @return \FilippoToso\Travelport\Hotel\PolicyInformation
+     * @return \Santosdave\Travelport\Hotel\PolicyInformation
      */
     public function setName($Name)
     {
@@ -106,7 +106,7 @@ class PolicyInformation
 
     /**
      * @param boolean $OutOfPolicy
-     * @return \FilippoToso\Travelport\Hotel\PolicyInformation
+     * @return \Santosdave\Travelport\Hotel\PolicyInformation
      */
     public function setOutOfPolicy($OutOfPolicy)
     {
@@ -124,7 +124,7 @@ class PolicyInformation
 
     /**
      * @param typeRef $SegmentRef
-     * @return \FilippoToso\Travelport\Hotel\PolicyInformation
+     * @return \Santosdave\Travelport\Hotel\PolicyInformation
      */
     public function setSegmentRef($SegmentRef)
     {

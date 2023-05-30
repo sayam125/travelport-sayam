@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class FlightDetailsList
 {
@@ -28,7 +28,7 @@ class FlightDetailsList
 
     /**
      * @param FlightDetails $FlightDetails
-     * @return \FilippoToso\Travelport\GDSQueue\FlightDetailsList
+     * @return \Santosdave\Travelport\GDSQueue\FlightDetailsList
      */
     public function setFlightDetails($FlightDetails)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Vehicle;
+namespace Santosdave\Travelport\Vehicle;
 
 class BillingPointOfSaleInfo
 {
@@ -35,7 +35,7 @@ class BillingPointOfSaleInfo
 
     /**
      * @param string $OriginApplication
-     * @return \FilippoToso\Travelport\Vehicle\BillingPointOfSaleInfo
+     * @return \Santosdave\Travelport\Vehicle\BillingPointOfSaleInfo
      */
     public function setOriginApplication($OriginApplication)
     {
@@ -53,7 +53,7 @@ class BillingPointOfSaleInfo
 
     /**
      * @param anonymous398 $CIDBNumber
-     * @return \FilippoToso\Travelport\Vehicle\BillingPointOfSaleInfo
+     * @return \Santosdave\Travelport\Vehicle\BillingPointOfSaleInfo
      */
     public function setCIDBNumber($CIDBNumber)
     {

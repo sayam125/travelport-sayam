@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class HotelUpsellOfferSearchCriteria
 {
@@ -35,7 +35,7 @@ class HotelUpsellOfferSearchCriteria
 
     /**
      * @param CorporateDiscountID $CorporateDiscountID
-     * @return \FilippoToso\Travelport\Util\HotelUpsellOfferSearchCriteria
+     * @return \Santosdave\Travelport\Util\HotelUpsellOfferSearchCriteria
      */
     public function setCorporateDiscountID($CorporateDiscountID)
     {
@@ -53,7 +53,7 @@ class HotelUpsellOfferSearchCriteria
 
     /**
      * @param typeRatePlanType $RatePlanType
-     * @return \FilippoToso\Travelport\Util\HotelUpsellOfferSearchCriteria
+     * @return \Santosdave\Travelport\Util\HotelUpsellOfferSearchCriteria
      */
     public function setRatePlanType($RatePlanType)
     {

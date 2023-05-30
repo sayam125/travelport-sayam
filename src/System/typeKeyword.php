@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\System;
+namespace Santosdave\Travelport\System;
 
 class typeKeyword
 {
@@ -47,7 +47,7 @@ class typeKeyword
 
     /**
      * @param typeSubKey[] $SubKey
-     * @return \FilippoToso\Travelport\System\typeKeyword
+     * @return \Santosdave\Travelport\System\typeKeyword
      */
     public function setSubKey(array $SubKey = null)
     {
@@ -65,7 +65,7 @@ class typeKeyword
 
     /**
      * @param anonymous391 $Name
-     * @return \FilippoToso\Travelport\System\typeKeyword
+     * @return \Santosdave\Travelport\System\typeKeyword
      */
     public function setName($Name)
     {
@@ -83,7 +83,7 @@ class typeKeyword
 
     /**
      * @param UNKNOWN $Number
-     * @return \FilippoToso\Travelport\System\typeKeyword
+     * @return \Santosdave\Travelport\System\typeKeyword
      */
     public function setNumber($Number)
     {
@@ -101,7 +101,7 @@ class typeKeyword
 
     /**
      * @param UNKNOWN $Description
-     * @return \FilippoToso\Travelport\System\typeKeyword
+     * @return \Santosdave\Travelport\System\typeKeyword
      */
     public function setDescription($Description)
     {

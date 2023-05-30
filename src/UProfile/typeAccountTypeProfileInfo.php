@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeAccountTypeProfileInfo extends typeProfileInfo
 {
@@ -31,7 +31,7 @@ class typeAccountTypeProfileInfo extends typeProfileInfo
 
     /**
      * @param StringLength1to255 $MidOfficeID
-     * @return \FilippoToso\Travelport\UProfile\typeAccountTypeProfileInfo
+     * @return \Santosdave\Travelport\UProfile\typeAccountTypeProfileInfo
      */
     public function setMidOfficeID($MidOfficeID)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class PreferredConnectionPoints
 {
@@ -28,7 +28,7 @@ class PreferredConnectionPoints
 
     /**
      * @param typeLocation $ConnectionPoint
-     * @return \FilippoToso\Travelport\Air\PreferredConnectionPoints
+     * @return \Santosdave\Travelport\Air\PreferredConnectionPoints
      */
     public function setConnectionPoint($ConnectionPoint)
     {

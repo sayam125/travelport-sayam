@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class RateInfo
 {
@@ -164,7 +164,7 @@ class RateInfo
 
     /**
      * @param typeRoomDispatch $RoomDispatch
-     * @return \FilippoToso\Travelport\Hotel\RateInfo
+     * @return \Santosdave\Travelport\Hotel\RateInfo
      */
     public function setRoomDispatch($RoomDispatch)
     {
@@ -182,7 +182,7 @@ class RateInfo
 
     /**
      * @param typePolicyCodesList $PolicyCodesList
-     * @return \FilippoToso\Travelport\Hotel\RateInfo
+     * @return \Santosdave\Travelport\Hotel\RateInfo
      */
     public function setPolicyCodesList($PolicyCodesList)
     {
@@ -200,7 +200,7 @@ class RateInfo
 
     /**
      * @param typeMoney $MinimumAmount
-     * @return \FilippoToso\Travelport\Hotel\RateInfo
+     * @return \Santosdave\Travelport\Hotel\RateInfo
      */
     public function setMinimumAmount($MinimumAmount)
     {
@@ -218,7 +218,7 @@ class RateInfo
 
     /**
      * @param typeMoney $ApproximateMinimumAmount
-     * @return \FilippoToso\Travelport\Hotel\RateInfo
+     * @return \Santosdave\Travelport\Hotel\RateInfo
      */
     public function setApproximateMinimumAmount($ApproximateMinimumAmount)
     {
@@ -236,7 +236,7 @@ class RateInfo
 
     /**
      * @param boolean $MinAmountRateChanged
-     * @return \FilippoToso\Travelport\Hotel\RateInfo
+     * @return \Santosdave\Travelport\Hotel\RateInfo
      */
     public function setMinAmountRateChanged($MinAmountRateChanged)
     {
@@ -254,7 +254,7 @@ class RateInfo
 
     /**
      * @param typeMoney $MaximumAmount
-     * @return \FilippoToso\Travelport\Hotel\RateInfo
+     * @return \Santosdave\Travelport\Hotel\RateInfo
      */
     public function setMaximumAmount($MaximumAmount)
     {
@@ -272,7 +272,7 @@ class RateInfo
 
     /**
      * @param typeMoney $ApproximateMaximumAmount
-     * @return \FilippoToso\Travelport\Hotel\RateInfo
+     * @return \Santosdave\Travelport\Hotel\RateInfo
      */
     public function setApproximateMaximumAmount($ApproximateMaximumAmount)
     {
@@ -290,7 +290,7 @@ class RateInfo
 
     /**
      * @param boolean $MaxAmountRateChanged
-     * @return \FilippoToso\Travelport\Hotel\RateInfo
+     * @return \Santosdave\Travelport\Hotel\RateInfo
      */
     public function setMaxAmountRateChanged($MaxAmountRateChanged)
     {
@@ -308,7 +308,7 @@ class RateInfo
 
     /**
      * @param typeMoney $MinimumStayAmount
-     * @return \FilippoToso\Travelport\Hotel\RateInfo
+     * @return \Santosdave\Travelport\Hotel\RateInfo
      */
     public function setMinimumStayAmount($MinimumStayAmount)
     {
@@ -326,7 +326,7 @@ class RateInfo
 
     /**
      * @param typeMoney $ApproximateMinimumStayAmount
-     * @return \FilippoToso\Travelport\Hotel\RateInfo
+     * @return \Santosdave\Travelport\Hotel\RateInfo
      */
     public function setApproximateMinimumStayAmount($ApproximateMinimumStayAmount)
     {
@@ -344,7 +344,7 @@ class RateInfo
 
     /**
      * @param string $Commission
-     * @return \FilippoToso\Travelport\Hotel\RateInfo
+     * @return \Santosdave\Travelport\Hotel\RateInfo
      */
     public function setCommission($Commission)
     {
@@ -362,7 +362,7 @@ class RateInfo
 
     /**
      * @param typeThirdPartySupplier $RateSupplier
-     * @return \FilippoToso\Travelport\Hotel\RateInfo
+     * @return \Santosdave\Travelport\Hotel\RateInfo
      */
     public function setRateSupplier($RateSupplier)
     {
@@ -380,7 +380,7 @@ class RateInfo
 
     /**
      * @param anyURI $RateSupplierLogo
-     * @return \FilippoToso\Travelport\Hotel\RateInfo
+     * @return \Santosdave\Travelport\Hotel\RateInfo
      */
     public function setRateSupplierLogo($RateSupplierLogo)
     {
@@ -398,7 +398,7 @@ class RateInfo
 
     /**
      * @param typeHotelPaymentType $PaymentType
-     * @return \FilippoToso\Travelport\Hotel\RateInfo
+     * @return \Santosdave\Travelport\Hotel\RateInfo
      */
     public function setPaymentType($PaymentType)
     {
@@ -416,7 +416,7 @@ class RateInfo
 
     /**
      * @param typeMoney $ApproxAvgNightlyAmt
-     * @return \FilippoToso\Travelport\Hotel\RateInfo
+     * @return \Santosdave\Travelport\Hotel\RateInfo
      */
     public function setApproxAvgNightlyAmt($ApproxAvgNightlyAmt)
     {
@@ -434,7 +434,7 @@ class RateInfo
 
     /**
      * @param boolean $TaxesIncluded
-     * @return \FilippoToso\Travelport\Hotel\RateInfo
+     * @return \Santosdave\Travelport\Hotel\RateInfo
      */
     public function setTaxesIncluded($TaxesIncluded)
     {
@@ -452,7 +452,7 @@ class RateInfo
 
     /**
      * @param boolean $AmountConverted
-     * @return \FilippoToso\Travelport\Hotel\RateInfo
+     * @return \Santosdave\Travelport\Hotel\RateInfo
      */
     public function setAmountConverted($AmountConverted)
     {
@@ -470,7 +470,7 @@ class RateInfo
 
     /**
      * @param string $MultipleRoom
-     * @return \FilippoToso\Travelport\Hotel\RateInfo
+     * @return \Santosdave\Travelport\Hotel\RateInfo
      */
     public function setMultipleRoom($MultipleRoom)
     {
@@ -488,7 +488,7 @@ class RateInfo
 
     /**
      * @param string $PackageOffer
-     * @return \FilippoToso\Travelport\Hotel\RateInfo
+     * @return \Santosdave\Travelport\Hotel\RateInfo
      */
     public function setPackageOffer($PackageOffer)
     {
@@ -506,7 +506,7 @@ class RateInfo
 
     /**
      * @param boolean $MinInPolicy
-     * @return \FilippoToso\Travelport\Hotel\RateInfo
+     * @return \Santosdave\Travelport\Hotel\RateInfo
      */
     public function setMinInPolicy($MinInPolicy)
     {
@@ -524,7 +524,7 @@ class RateInfo
 
     /**
      * @param boolean $MaxInPolicy
-     * @return \FilippoToso\Travelport\Hotel\RateInfo
+     * @return \Santosdave\Travelport\Hotel\RateInfo
      */
     public function setMaxInPolicy($MaxInPolicy)
     {

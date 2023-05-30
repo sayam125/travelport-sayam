@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class MultiGDSSearchIndicator
 {
@@ -56,7 +56,7 @@ class MultiGDSSearchIndicator
 
     /**
      * @param string $Type
-     * @return \FilippoToso\Travelport\UniversalRecord\MultiGDSSearchIndicator
+     * @return \Santosdave\Travelport\UniversalRecord\MultiGDSSearchIndicator
      */
     public function setType($Type)
     {
@@ -74,7 +74,7 @@ class MultiGDSSearchIndicator
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\UniversalRecord\MultiGDSSearchIndicator
+     * @return \Santosdave\Travelport\UniversalRecord\MultiGDSSearchIndicator
      */
     public function setProviderCode($ProviderCode)
     {
@@ -92,7 +92,7 @@ class MultiGDSSearchIndicator
 
     /**
      * @param boolean $DefaultProvider
-     * @return \FilippoToso\Travelport\UniversalRecord\MultiGDSSearchIndicator
+     * @return \Santosdave\Travelport\UniversalRecord\MultiGDSSearchIndicator
      */
     public function setDefaultProvider($DefaultProvider)
     {
@@ -110,7 +110,7 @@ class MultiGDSSearchIndicator
 
     /**
      * @param string $PrivateFareCode
-     * @return \FilippoToso\Travelport\UniversalRecord\MultiGDSSearchIndicator
+     * @return \Santosdave\Travelport\UniversalRecord\MultiGDSSearchIndicator
      */
     public function setPrivateFareCode($PrivateFareCode)
     {
@@ -128,7 +128,7 @@ class MultiGDSSearchIndicator
 
     /**
      * @param boolean $PrivateFareCodeOnly
-     * @return \FilippoToso\Travelport\UniversalRecord\MultiGDSSearchIndicator
+     * @return \Santosdave\Travelport\UniversalRecord\MultiGDSSearchIndicator
      */
     public function setPrivateFareCodeOnly($PrivateFareCodeOnly)
     {

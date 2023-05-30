@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class HotelAlternateProperties
 {
@@ -28,7 +28,7 @@ class HotelAlternateProperties
 
     /**
      * @param HotelProperty $HotelProperty
-     * @return \FilippoToso\Travelport\Hotel\HotelAlternateProperties
+     * @return \Santosdave\Travelport\Hotel\HotelAlternateProperties
      */
     public function setHotelProperty($HotelProperty)
     {

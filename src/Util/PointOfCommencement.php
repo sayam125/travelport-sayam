@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class PointOfCommencement
 {
@@ -35,7 +35,7 @@ class PointOfCommencement
 
     /**
      * @param typeIATACode $CityOrAirportCode
-     * @return \FilippoToso\Travelport\Util\PointOfCommencement
+     * @return \Santosdave\Travelport\Util\PointOfCommencement
      */
     public function setCityOrAirportCode($CityOrAirportCode)
     {
@@ -53,7 +53,7 @@ class PointOfCommencement
 
     /**
      * @param string $Time
-     * @return \FilippoToso\Travelport\Util\PointOfCommencement
+     * @return \Santosdave\Travelport\Util\PointOfCommencement
      */
     public function setTime($Time)
     {

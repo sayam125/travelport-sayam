@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class Distance
 {
@@ -42,7 +42,7 @@ class Distance
 
     /**
      * @param anonymous66 $Units
-     * @return \FilippoToso\Travelport\Rail\Distance
+     * @return \Santosdave\Travelport\Rail\Distance
      */
     public function setUnits($Units)
     {
@@ -60,7 +60,7 @@ class Distance
 
     /**
      * @param int $Value
-     * @return \FilippoToso\Travelport\Rail\Distance
+     * @return \Santosdave\Travelport\Rail\Distance
      */
     public function setValue($Value)
     {
@@ -78,7 +78,7 @@ class Distance
 
     /**
      * @param anonymous67 $Direction
-     * @return \FilippoToso\Travelport\Rail\Distance
+     * @return \Santosdave\Travelport\Rail\Distance
      */
     public function setDirection($Direction)
     {

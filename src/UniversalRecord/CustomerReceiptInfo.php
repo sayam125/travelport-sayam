@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class CustomerReceiptInfo
 {
@@ -35,7 +35,7 @@ class CustomerReceiptInfo
 
     /**
      * @param typeRef $BookingTravelerRef
-     * @return \FilippoToso\Travelport\UniversalRecord\CustomerReceiptInfo
+     * @return \Santosdave\Travelport\UniversalRecord\CustomerReceiptInfo
      */
     public function setBookingTravelerRef($BookingTravelerRef)
     {
@@ -53,7 +53,7 @@ class CustomerReceiptInfo
 
     /**
      * @param typeRef $EmailRef
-     * @return \FilippoToso\Travelport\UniversalRecord\CustomerReceiptInfo
+     * @return \Santosdave\Travelport\UniversalRecord\CustomerReceiptInfo
      */
     public function setEmailRef($EmailRef)
     {

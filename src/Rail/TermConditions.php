@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class TermConditions
 {
@@ -35,7 +35,7 @@ class TermConditions
 
     /**
      * @param LanguageOption $LanguageOption
-     * @return \FilippoToso\Travelport\Rail\TermConditions
+     * @return \Santosdave\Travelport\Rail\TermConditions
      */
     public function setLanguageOption($LanguageOption)
     {
@@ -53,7 +53,7 @@ class TermConditions
 
     /**
      * @param boolean $IncludeTermConditions
-     * @return \FilippoToso\Travelport\Rail\TermConditions
+     * @return \Santosdave\Travelport\Rail\TermConditions
      */
     public function setIncludeTermConditions($IncludeTermConditions)
     {

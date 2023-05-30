@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class SeatMapRsp extends BaseRsp
 {
@@ -102,7 +102,7 @@ class SeatMapRsp extends BaseRsp
 
     /**
      * @param HostToken $HostToken
-     * @return \FilippoToso\Travelport\Air\SeatMapRsp
+     * @return \Santosdave\Travelport\Air\SeatMapRsp
      */
     public function setHostToken($HostToken)
     {
@@ -120,7 +120,7 @@ class SeatMapRsp extends BaseRsp
 
     /**
      * @param CabinClass $CabinClass
-     * @return \FilippoToso\Travelport\Air\SeatMapRsp
+     * @return \Santosdave\Travelport\Air\SeatMapRsp
      */
     public function setCabinClass($CabinClass)
     {
@@ -138,7 +138,7 @@ class SeatMapRsp extends BaseRsp
 
     /**
      * @param typeBaseAirSegment $AirSegment
-     * @return \FilippoToso\Travelport\Air\SeatMapRsp
+     * @return \Santosdave\Travelport\Air\SeatMapRsp
      */
     public function setAirSegment($AirSegment)
     {
@@ -156,7 +156,7 @@ class SeatMapRsp extends BaseRsp
 
     /**
      * @param SearchTraveler $SearchTraveler
-     * @return \FilippoToso\Travelport\Air\SeatMapRsp
+     * @return \Santosdave\Travelport\Air\SeatMapRsp
      */
     public function setSearchTraveler($SearchTraveler)
     {
@@ -174,7 +174,7 @@ class SeatMapRsp extends BaseRsp
 
     /**
      * @param OptionalServices $OptionalServices
-     * @return \FilippoToso\Travelport\Air\SeatMapRsp
+     * @return \Santosdave\Travelport\Air\SeatMapRsp
      */
     public function setOptionalServices($OptionalServices)
     {
@@ -192,7 +192,7 @@ class SeatMapRsp extends BaseRsp
 
     /**
      * @param Remark $Remark
-     * @return \FilippoToso\Travelport\Air\SeatMapRsp
+     * @return \Santosdave\Travelport\Air\SeatMapRsp
      */
     public function setRemark($Remark)
     {
@@ -210,7 +210,7 @@ class SeatMapRsp extends BaseRsp
 
     /**
      * @param Rows $Rows
-     * @return \FilippoToso\Travelport\Air\SeatMapRsp
+     * @return \Santosdave\Travelport\Air\SeatMapRsp
      */
     public function setRows($Rows)
     {
@@ -228,7 +228,7 @@ class SeatMapRsp extends BaseRsp
 
     /**
      * @param PaymentRestriction $PaymentRestriction
-     * @return \FilippoToso\Travelport\Air\SeatMapRsp
+     * @return \Santosdave\Travelport\Air\SeatMapRsp
      */
     public function setPaymentRestriction($PaymentRestriction)
     {
@@ -246,7 +246,7 @@ class SeatMapRsp extends BaseRsp
 
     /**
      * @param SeatInformation $SeatInformation
-     * @return \FilippoToso\Travelport\Air\SeatMapRsp
+     * @return \Santosdave\Travelport\Air\SeatMapRsp
      */
     public function setSeatInformation($SeatInformation)
     {
@@ -264,7 +264,7 @@ class SeatMapRsp extends BaseRsp
 
     /**
      * @param string $Copyright
-     * @return \FilippoToso\Travelport\Air\SeatMapRsp
+     * @return \Santosdave\Travelport\Air\SeatMapRsp
      */
     public function setCopyright($Copyright)
     {
@@ -282,7 +282,7 @@ class SeatMapRsp extends BaseRsp
 
     /**
      * @param typeMoney $GroupSeatPrice
-     * @return \FilippoToso\Travelport\Air\SeatMapRsp
+     * @return \Santosdave\Travelport\Air\SeatMapRsp
      */
     public function setGroupSeatPrice($GroupSeatPrice)
     {

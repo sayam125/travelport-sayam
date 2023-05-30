@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class FlightCriteria
 {
@@ -63,7 +63,7 @@ class FlightCriteria
 
     /**
      * @param string $_
-     * @return \FilippoToso\Travelport\Util\FlightCriteria
+     * @return \Santosdave\Travelport\Util\FlightCriteria
      */
     public function set_($_)
     {
@@ -81,7 +81,7 @@ class FlightCriteria
 
     /**
      * @param typeCarrier $Carrier
-     * @return \FilippoToso\Travelport\Util\FlightCriteria
+     * @return \Santosdave\Travelport\Util\FlightCriteria
      */
     public function setCarrier($Carrier)
     {
@@ -99,7 +99,7 @@ class FlightCriteria
 
     /**
      * @param string $FlightNumber
-     * @return \FilippoToso\Travelport\Util\FlightCriteria
+     * @return \Santosdave\Travelport\Util\FlightCriteria
      */
     public function setFlightNumber($FlightNumber)
     {
@@ -117,7 +117,7 @@ class FlightCriteria
 
     /**
      * @param date $DepartureDate
-     * @return \FilippoToso\Travelport\Util\FlightCriteria
+     * @return \Santosdave\Travelport\Util\FlightCriteria
      */
     public function setDepartureDate($DepartureDate)
     {
@@ -135,7 +135,7 @@ class FlightCriteria
 
     /**
      * @param typeIATACode $Origin
-     * @return \FilippoToso\Travelport\Util\FlightCriteria
+     * @return \Santosdave\Travelport\Util\FlightCriteria
      */
     public function setOrigin($Origin)
     {
@@ -153,7 +153,7 @@ class FlightCriteria
 
     /**
      * @param typeIATACode $Destination
-     * @return \FilippoToso\Travelport\Util\FlightCriteria
+     * @return \Santosdave\Travelport\Util\FlightCriteria
      */
     public function setDestination($Destination)
     {

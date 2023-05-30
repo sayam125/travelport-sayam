@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class AckScheduleChangeRsp extends BaseRsp
 {
@@ -34,7 +34,7 @@ class AckScheduleChangeRsp extends BaseRsp
 
     /**
      * @param UniversalRecord $UniversalRecord
-     * @return \FilippoToso\Travelport\UniversalRecord\AckScheduleChangeRsp
+     * @return \Santosdave\Travelport\UniversalRecord\AckScheduleChangeRsp
      */
     public function setUniversalRecord($UniversalRecord)
     {

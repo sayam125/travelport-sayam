@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeActionRef
 {
@@ -28,7 +28,7 @@ class typeActionRef
 
     /**
      * @param typeActionID $ID
-     * @return \FilippoToso\Travelport\UProfile\typeActionRef
+     * @return \Santosdave\Travelport\UProfile\typeActionRef
      */
     public function setID($ID)
     {

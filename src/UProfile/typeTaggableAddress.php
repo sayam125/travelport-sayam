@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeTaggableAddress extends typeAddress
 {
@@ -58,7 +58,7 @@ class typeTaggableAddress extends typeAddress
 
     /**
      * @param TagRef $TagRef
-     * @return \FilippoToso\Travelport\UProfile\typeTaggableAddress
+     * @return \Santosdave\Travelport\UProfile\typeTaggableAddress
      */
     public function setTagRef($TagRef)
     {
@@ -76,7 +76,7 @@ class typeTaggableAddress extends typeAddress
 
     /**
      * @param StringLength1to255 $DeliveryDescription
-     * @return \FilippoToso\Travelport\UProfile\typeTaggableAddress
+     * @return \Santosdave\Travelport\UProfile\typeTaggableAddress
      */
     public function setDeliveryDescription($DeliveryDescription)
     {
@@ -94,7 +94,7 @@ class typeTaggableAddress extends typeAddress
 
     /**
      * @param typeContactPurpose $Purpose
-     * @return \FilippoToso\Travelport\UProfile\typeTaggableAddress
+     * @return \Santosdave\Travelport\UProfile\typeTaggableAddress
      */
     public function setPurpose($Purpose)
     {
@@ -112,7 +112,7 @@ class typeTaggableAddress extends typeAddress
 
     /**
      * @param typePriorityOrder $PriorityOrder
-     * @return \FilippoToso\Travelport\UProfile\typeTaggableAddress
+     * @return \Santosdave\Travelport\UProfile\typeTaggableAddress
      */
     public function setPriorityOrder($PriorityOrder)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeLoyaltyProgramEnrollmentHistory extends typeKeyElement
 {
@@ -65,7 +65,7 @@ class typeLoyaltyProgramEnrollmentHistory extends typeKeyElement
 
     /**
      * @param typeSupplierType $SupplierType
-     * @return \FilippoToso\Travelport\UProfile\typeLoyaltyProgramEnrollmentHistory
+     * @return \Santosdave\Travelport\UProfile\typeLoyaltyProgramEnrollmentHistory
      */
     public function setSupplierType($SupplierType)
     {
@@ -83,7 +83,7 @@ class typeLoyaltyProgramEnrollmentHistory extends typeKeyElement
 
     /**
      * @param typeSupplier $Supplier
-     * @return \FilippoToso\Travelport\UProfile\typeLoyaltyProgramEnrollmentHistory
+     * @return \Santosdave\Travelport\UProfile\typeLoyaltyProgramEnrollmentHistory
      */
     public function setSupplier($Supplier)
     {
@@ -101,7 +101,7 @@ class typeLoyaltyProgramEnrollmentHistory extends typeKeyElement
 
     /**
      * @param StringLength1to255 $Number
-     * @return \FilippoToso\Travelport\UProfile\typeLoyaltyProgramEnrollmentHistory
+     * @return \Santosdave\Travelport\UProfile\typeLoyaltyProgramEnrollmentHistory
      */
     public function setNumber($Number)
     {
@@ -119,7 +119,7 @@ class typeLoyaltyProgramEnrollmentHistory extends typeKeyElement
 
     /**
      * @param StringLength1to128 $ProgramName
-     * @return \FilippoToso\Travelport\UProfile\typeLoyaltyProgramEnrollmentHistory
+     * @return \Santosdave\Travelport\UProfile\typeLoyaltyProgramEnrollmentHistory
      */
     public function setProgramName($ProgramName)
     {
@@ -137,7 +137,7 @@ class typeLoyaltyProgramEnrollmentHistory extends typeKeyElement
 
     /**
      * @param StringLength1to128 $Status
-     * @return \FilippoToso\Travelport\UProfile\typeLoyaltyProgramEnrollmentHistory
+     * @return \Santosdave\Travelport\UProfile\typeLoyaltyProgramEnrollmentHistory
      */
     public function setStatus($Status)
     {
@@ -155,7 +155,7 @@ class typeLoyaltyProgramEnrollmentHistory extends typeKeyElement
 
     /**
      * @param typePriorityOrder $PriorityOrder
-     * @return \FilippoToso\Travelport\UProfile\typeLoyaltyProgramEnrollmentHistory
+     * @return \Santosdave\Travelport\UProfile\typeLoyaltyProgramEnrollmentHistory
      */
     public function setPriorityOrder($PriorityOrder)
     {

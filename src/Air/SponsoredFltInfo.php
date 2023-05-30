@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class SponsoredFltInfo
 {
@@ -42,7 +42,7 @@ class SponsoredFltInfo
 
     /**
      * @param int $SponsoredLNB
-     * @return \FilippoToso\Travelport\Air\SponsoredFltInfo
+     * @return \Santosdave\Travelport\Air\SponsoredFltInfo
      */
     public function setSponsoredLNB($SponsoredLNB)
     {
@@ -60,7 +60,7 @@ class SponsoredFltInfo
 
     /**
      * @param int $NeutralLNB
-     * @return \FilippoToso\Travelport\Air\SponsoredFltInfo
+     * @return \Santosdave\Travelport\Air\SponsoredFltInfo
      */
     public function setNeutralLNB($NeutralLNB)
     {
@@ -78,7 +78,7 @@ class SponsoredFltInfo
 
     /**
      * @param anonymous829 $FltKey
-     * @return \FilippoToso\Travelport\Air\SponsoredFltInfo
+     * @return \Santosdave\Travelport\Air\SponsoredFltInfo
      */
     public function setFltKey($FltKey)
     {

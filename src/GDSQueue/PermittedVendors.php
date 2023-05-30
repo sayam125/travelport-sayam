@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class PermittedVendors
 {
@@ -28,7 +28,7 @@ class PermittedVendors
 
     /**
      * @param Vendor $Vendor
-     * @return \FilippoToso\Travelport\GDSQueue\PermittedVendors
+     * @return \Santosdave\Travelport\GDSQueue\PermittedVendors
      */
     public function setVendor($Vendor)
     {

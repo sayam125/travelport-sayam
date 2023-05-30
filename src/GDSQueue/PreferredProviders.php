@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class PreferredProviders
 {
@@ -28,7 +28,7 @@ class PreferredProviders
 
     /**
      * @param Provider $Provider
-     * @return \FilippoToso\Travelport\GDSQueue\PreferredProviders
+     * @return \Santosdave\Travelport\GDSQueue\PreferredProviders
      */
     public function setProvider($Provider)
     {

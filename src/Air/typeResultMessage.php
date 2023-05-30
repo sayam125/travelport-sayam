@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class typeResultMessage
 {
@@ -42,7 +42,7 @@ class typeResultMessage
 
     /**
      * @param string $_
-     * @return \FilippoToso\Travelport\Air\typeResultMessage
+     * @return \Santosdave\Travelport\Air\typeResultMessage
      */
     public function set_($_)
     {
@@ -60,7 +60,7 @@ class typeResultMessage
 
     /**
      * @param int $Code
-     * @return \FilippoToso\Travelport\Air\typeResultMessage
+     * @return \Santosdave\Travelport\Air\typeResultMessage
      */
     public function setCode($Code)
     {
@@ -78,7 +78,7 @@ class typeResultMessage
 
     /**
      * @param anonymous232 $Type
-     * @return \FilippoToso\Travelport\Air\typeResultMessage
+     * @return \Santosdave\Travelport\Air\typeResultMessage
      */
     public function setType($Type)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class DebitCard
 {
@@ -42,7 +42,7 @@ class DebitCard
 
     /**
      * @param anonymous28 $IssueNumber
-     * @return \FilippoToso\Travelport\UProfile\DebitCard
+     * @return \Santosdave\Travelport\UProfile\DebitCard
      */
     public function setIssueNumber($IssueNumber)
     {
@@ -60,7 +60,7 @@ class DebitCard
 
     /**
      * @param string $ProfileID
-     * @return \FilippoToso\Travelport\UProfile\DebitCard
+     * @return \Santosdave\Travelport\UProfile\DebitCard
      */
     public function setProfileID($ProfileID)
     {
@@ -78,7 +78,7 @@ class DebitCard
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\UProfile\DebitCard
+     * @return \Santosdave\Travelport\UProfile\DebitCard
      */
     public function setKey($Key)
     {

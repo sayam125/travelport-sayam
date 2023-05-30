@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class DocumentOptions
 {
@@ -47,7 +47,7 @@ class DocumentOptions
 
     /**
      * @param PassengerReceiptOverride $PassengerReceiptOverride
-     * @return \FilippoToso\Travelport\Util\DocumentOptions
+     * @return \Santosdave\Travelport\Util\DocumentOptions
      */
     public function setPassengerReceiptOverride($PassengerReceiptOverride)
     {
@@ -65,7 +65,7 @@ class DocumentOptions
 
     /**
      * @param typeOverrideOption[] $OverrideOption
-     * @return \FilippoToso\Travelport\Util\DocumentOptions
+     * @return \Santosdave\Travelport\Util\DocumentOptions
      */
     public function setOverrideOption(array $OverrideOption = null)
     {
@@ -83,7 +83,7 @@ class DocumentOptions
 
     /**
      * @param boolean $SuppressItineraryRemarks
-     * @return \FilippoToso\Travelport\Util\DocumentOptions
+     * @return \Santosdave\Travelport\Util\DocumentOptions
      */
     public function setSuppressItineraryRemarks($SuppressItineraryRemarks)
     {
@@ -101,7 +101,7 @@ class DocumentOptions
 
     /**
      * @param boolean $GenerateItinNumbers
-     * @return \FilippoToso\Travelport\Util\DocumentOptions
+     * @return \Santosdave\Travelport\Util\DocumentOptions
      */
     public function setGenerateItinNumbers($GenerateItinNumbers)
     {

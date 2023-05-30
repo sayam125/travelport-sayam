@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class AirFareDisplayReq extends BaseReq
 {
@@ -164,7 +164,7 @@ class AirFareDisplayReq extends BaseReq
 
     /**
      * @param FareType $FareType
-     * @return \FilippoToso\Travelport\Air\AirFareDisplayReq
+     * @return \Santosdave\Travelport\Air\AirFareDisplayReq
      */
     public function setFareType($FareType)
     {
@@ -182,7 +182,7 @@ class AirFareDisplayReq extends BaseReq
 
     /**
      * @param typePassengerType[] $PassengerType
-     * @return \FilippoToso\Travelport\Air\AirFareDisplayReq
+     * @return \Santosdave\Travelport\Air\AirFareDisplayReq
      */
     public function setPassengerType(array $PassengerType = null)
     {
@@ -200,7 +200,7 @@ class AirFareDisplayReq extends BaseReq
 
     /**
      * @param BookingCode $BookingCode
-     * @return \FilippoToso\Travelport\Air\AirFareDisplayReq
+     * @return \Santosdave\Travelport\Air\AirFareDisplayReq
      */
     public function setBookingCode($BookingCode)
     {
@@ -218,7 +218,7 @@ class AirFareDisplayReq extends BaseReq
 
     /**
      * @param IncludeAddlBookingCodeInfo $IncludeAddlBookingCodeInfo
-     * @return \FilippoToso\Travelport\Air\AirFareDisplayReq
+     * @return \Santosdave\Travelport\Air\AirFareDisplayReq
      */
     public function setIncludeAddlBookingCodeInfo($IncludeAddlBookingCodeInfo)
     {
@@ -236,7 +236,7 @@ class AirFareDisplayReq extends BaseReq
 
     /**
      * @param FareBasis $FareBasis
-     * @return \FilippoToso\Travelport\Air\AirFareDisplayReq
+     * @return \Santosdave\Travelport\Air\AirFareDisplayReq
      */
     public function setFareBasis($FareBasis)
     {
@@ -254,7 +254,7 @@ class AirFareDisplayReq extends BaseReq
 
     /**
      * @param Carrier $Carrier
-     * @return \FilippoToso\Travelport\Air\AirFareDisplayReq
+     * @return \Santosdave\Travelport\Air\AirFareDisplayReq
      */
     public function setCarrier($Carrier)
     {
@@ -272,7 +272,7 @@ class AirFareDisplayReq extends BaseReq
 
     /**
      * @param AccountCode $AccountCode
-     * @return \FilippoToso\Travelport\Air\AirFareDisplayReq
+     * @return \Santosdave\Travelport\Air\AirFareDisplayReq
      */
     public function setAccountCode($AccountCode)
     {
@@ -290,7 +290,7 @@ class AirFareDisplayReq extends BaseReq
 
     /**
      * @param ContractCode $ContractCode
-     * @return \FilippoToso\Travelport\Air\AirFareDisplayReq
+     * @return \Santosdave\Travelport\Air\AirFareDisplayReq
      */
     public function setContractCode($ContractCode)
     {
@@ -308,7 +308,7 @@ class AirFareDisplayReq extends BaseReq
 
     /**
      * @param AirFareDisplayModifiers $AirFareDisplayModifiers
-     * @return \FilippoToso\Travelport\Air\AirFareDisplayReq
+     * @return \Santosdave\Travelport\Air\AirFareDisplayReq
      */
     public function setAirFareDisplayModifiers($AirFareDisplayModifiers)
     {
@@ -326,7 +326,7 @@ class AirFareDisplayReq extends BaseReq
 
     /**
      * @param PointOfSale $PointOfSale
-     * @return \FilippoToso\Travelport\Air\AirFareDisplayReq
+     * @return \Santosdave\Travelport\Air\AirFareDisplayReq
      */
     public function setPointOfSale($PointOfSale)
     {
@@ -344,7 +344,7 @@ class AirFareDisplayReq extends BaseReq
 
     /**
      * @param AirFareDisplayRuleKey $AirFareDisplayRuleKey
-     * @return \FilippoToso\Travelport\Air\AirFareDisplayReq
+     * @return \Santosdave\Travelport\Air\AirFareDisplayReq
      */
     public function setAirFareDisplayRuleKey($AirFareDisplayRuleKey)
     {
@@ -362,7 +362,7 @@ class AirFareDisplayReq extends BaseReq
 
     /**
      * @param typeIATACode $Origin
-     * @return \FilippoToso\Travelport\Air\AirFareDisplayReq
+     * @return \Santosdave\Travelport\Air\AirFareDisplayReq
      */
     public function setOrigin($Origin)
     {
@@ -380,7 +380,7 @@ class AirFareDisplayReq extends BaseReq
 
     /**
      * @param typeIATACode $Destination
-     * @return \FilippoToso\Travelport\Air\AirFareDisplayReq
+     * @return \Santosdave\Travelport\Air\AirFareDisplayReq
      */
     public function setDestination($Destination)
     {
@@ -398,7 +398,7 @@ class AirFareDisplayReq extends BaseReq
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\Air\AirFareDisplayReq
+     * @return \Santosdave\Travelport\Air\AirFareDisplayReq
      */
     public function setProviderCode($ProviderCode)
     {
@@ -416,7 +416,7 @@ class AirFareDisplayReq extends BaseReq
 
     /**
      * @param typeMileOrRouteBasedFare $IncludeMileRouteInformation
-     * @return \FilippoToso\Travelport\Air\AirFareDisplayReq
+     * @return \Santosdave\Travelport\Air\AirFareDisplayReq
      */
     public function setIncludeMileRouteInformation($IncludeMileRouteInformation)
     {
@@ -434,7 +434,7 @@ class AirFareDisplayReq extends BaseReq
 
     /**
      * @param boolean $UnSaleableFaresOnly
-     * @return \FilippoToso\Travelport\Air\AirFareDisplayReq
+     * @return \Santosdave\Travelport\Air\AirFareDisplayReq
      */
     public function setUnSaleableFaresOnly($UnSaleableFaresOnly)
     {
@@ -452,7 +452,7 @@ class AirFareDisplayReq extends BaseReq
 
     /**
      * @param anonymous1170 $ChannelId
-     * @return \FilippoToso\Travelport\Air\AirFareDisplayReq
+     * @return \Santosdave\Travelport\Air\AirFareDisplayReq
      */
     public function setChannelId($ChannelId)
     {
@@ -470,7 +470,7 @@ class AirFareDisplayReq extends BaseReq
 
     /**
      * @param anonymous1171 $NSCC
-     * @return \FilippoToso\Travelport\Air\AirFareDisplayReq
+     * @return \Santosdave\Travelport\Air\AirFareDisplayReq
      */
     public function setNSCC($NSCC)
     {
@@ -488,7 +488,7 @@ class AirFareDisplayReq extends BaseReq
 
     /**
      * @param boolean $ReturnMM
-     * @return \FilippoToso\Travelport\Air\AirFareDisplayReq
+     * @return \Santosdave\Travelport\Air\AirFareDisplayReq
      */
     public function setReturnMM($ReturnMM)
     {

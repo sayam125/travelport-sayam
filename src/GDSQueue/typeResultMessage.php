@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class typeResultMessage
 {
@@ -42,7 +42,7 @@ class typeResultMessage
 
     /**
      * @param string $_
-     * @return \FilippoToso\Travelport\GDSQueue\typeResultMessage
+     * @return \Santosdave\Travelport\GDSQueue\typeResultMessage
      */
     public function set_($_)
     {
@@ -60,7 +60,7 @@ class typeResultMessage
 
     /**
      * @param int $Code
-     * @return \FilippoToso\Travelport\GDSQueue\typeResultMessage
+     * @return \Santosdave\Travelport\GDSQueue\typeResultMessage
      */
     public function setCode($Code)
     {
@@ -78,7 +78,7 @@ class typeResultMessage
 
     /**
      * @param anonymous229 $Type
-     * @return \FilippoToso\Travelport\GDSQueue\typeResultMessage
+     * @return \Santosdave\Travelport\GDSQueue\typeResultMessage
      */
     public function setType($Type)
     {

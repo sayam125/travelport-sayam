@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class CalculateTaxResult
 {
@@ -49,7 +49,7 @@ class CalculateTaxResult
 
     /**
      * @param TaxCalcInfo $TaxCalcInfo
-     * @return \FilippoToso\Travelport\Util\CalculateTaxResult
+     * @return \Santosdave\Travelport\Util\CalculateTaxResult
      */
     public function setTaxCalcInfo($TaxCalcInfo)
     {
@@ -67,7 +67,7 @@ class CalculateTaxResult
 
     /**
      * @param typeMoney $TotalBaseFare
-     * @return \FilippoToso\Travelport\Util\CalculateTaxResult
+     * @return \Santosdave\Travelport\Util\CalculateTaxResult
      */
     public function setTotalBaseFare($TotalBaseFare)
     {
@@ -85,7 +85,7 @@ class CalculateTaxResult
 
     /**
      * @param typeMoney $TotalTax
-     * @return \FilippoToso\Travelport\Util\CalculateTaxResult
+     * @return \Santosdave\Travelport\Util\CalculateTaxResult
      */
     public function setTotalTax($TotalTax)
     {
@@ -103,7 +103,7 @@ class CalculateTaxResult
 
     /**
      * @param typeMoney $TotalFare
-     * @return \FilippoToso\Travelport\Util\CalculateTaxResult
+     * @return \Santosdave\Travelport\Util\CalculateTaxResult
      */
     public function setTotalFare($TotalFare)
     {

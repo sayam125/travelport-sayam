@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class RailLegModifiers
 {
@@ -38,7 +38,7 @@ class RailLegModifiers
 
     /**
      * @param PermittedConnectionPoints $PermittedConnectionPoints
-     * @return \FilippoToso\Travelport\Rail\RailLegModifiers
+     * @return \Santosdave\Travelport\Rail\RailLegModifiers
      */
     public function setPermittedConnectionPoints($PermittedConnectionPoints)
     {
@@ -56,7 +56,7 @@ class RailLegModifiers
 
     /**
      * @param ProhibitedConnectionPoints $ProhibitedConnectionPoints
-     * @return \FilippoToso\Travelport\Rail\RailLegModifiers
+     * @return \Santosdave\Travelport\Rail\RailLegModifiers
      */
     public function setProhibitedConnectionPoints($ProhibitedConnectionPoints)
     {
@@ -74,7 +74,7 @@ class RailLegModifiers
 
     /**
      * @param string $Class
-     * @return \FilippoToso\Travelport\Rail\RailLegModifiers
+     * @return \Santosdave\Travelport\Rail\RailLegModifiers
      */
     public function setClass($Class)
     {

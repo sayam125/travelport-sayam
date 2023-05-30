@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class typeRemarkWithTravelerRef
 {
@@ -47,7 +47,7 @@ class typeRemarkWithTravelerRef
 
     /**
      * @param string $RemarkData
-     * @return \FilippoToso\Travelport\GDSQueue\typeRemarkWithTravelerRef
+     * @return \Santosdave\Travelport\GDSQueue\typeRemarkWithTravelerRef
      */
     public function setRemarkData($RemarkData)
     {
@@ -65,7 +65,7 @@ class typeRemarkWithTravelerRef
 
     /**
      * @param typeRef[] $BookingTravelerRef
-     * @return \FilippoToso\Travelport\GDSQueue\typeRemarkWithTravelerRef
+     * @return \Santosdave\Travelport\GDSQueue\typeRemarkWithTravelerRef
      */
     public function setBookingTravelerRef(array $BookingTravelerRef = null)
     {
@@ -83,7 +83,7 @@ class typeRemarkWithTravelerRef
 
     /**
      * @param typeRef $ProviderReservationInfoRef
-     * @return \FilippoToso\Travelport\GDSQueue\typeRemarkWithTravelerRef
+     * @return \Santosdave\Travelport\GDSQueue\typeRemarkWithTravelerRef
      */
     public function setProviderReservationInfoRef($ProviderReservationInfoRef)
     {
@@ -101,7 +101,7 @@ class typeRemarkWithTravelerRef
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\GDSQueue\typeRemarkWithTravelerRef
+     * @return \Santosdave\Travelport\GDSQueue\typeRemarkWithTravelerRef
      */
     public function setProviderCode($ProviderCode)
     {

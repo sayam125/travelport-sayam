@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class PassengerTicketNumber
 {
@@ -35,7 +35,7 @@ class PassengerTicketNumber
 
     /**
      * @param typePassengerTicketNumber $TicketNumber
-     * @return \FilippoToso\Travelport\GDSQueue\PassengerTicketNumber
+     * @return \Santosdave\Travelport\GDSQueue\PassengerTicketNumber
      */
     public function setTicketNumber($TicketNumber)
     {
@@ -53,7 +53,7 @@ class PassengerTicketNumber
 
     /**
      * @param typeRef $BookingTravelerRef
-     * @return \FilippoToso\Travelport\GDSQueue\PassengerTicketNumber
+     * @return \Santosdave\Travelport\GDSQueue\PassengerTicketNumber
      */
     public function setBookingTravelerRef($BookingTravelerRef)
     {

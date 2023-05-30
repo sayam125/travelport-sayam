@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class FareRestrictionSeasonal
 {
@@ -77,7 +77,7 @@ class FareRestrictionSeasonal
 
     /**
      * @param string $Comment
-     * @return \FilippoToso\Travelport\Air\FareRestrictionSeasonal
+     * @return \Santosdave\Travelport\Air\FareRestrictionSeasonal
      */
     public function setComment($Comment)
     {
@@ -95,7 +95,7 @@ class FareRestrictionSeasonal
 
     /**
      * @param string $VariationByTravelDates
-     * @return \FilippoToso\Travelport\Air\FareRestrictionSeasonal
+     * @return \Santosdave\Travelport\Air\FareRestrictionSeasonal
      */
     public function setVariationByTravelDates($VariationByTravelDates)
     {
@@ -113,7 +113,7 @@ class FareRestrictionSeasonal
 
     /**
      * @param string $SeasonalRange1Ind
-     * @return \FilippoToso\Travelport\Air\FareRestrictionSeasonal
+     * @return \Santosdave\Travelport\Air\FareRestrictionSeasonal
      */
     public function setSeasonalRange1Ind($SeasonalRange1Ind)
     {
@@ -131,7 +131,7 @@ class FareRestrictionSeasonal
 
     /**
      * @param string $SeasonalRange1StartDate
-     * @return \FilippoToso\Travelport\Air\FareRestrictionSeasonal
+     * @return \Santosdave\Travelport\Air\FareRestrictionSeasonal
      */
     public function setSeasonalRange1StartDate($SeasonalRange1StartDate)
     {
@@ -149,7 +149,7 @@ class FareRestrictionSeasonal
 
     /**
      * @param string $SeasonalRange1EndDate
-     * @return \FilippoToso\Travelport\Air\FareRestrictionSeasonal
+     * @return \Santosdave\Travelport\Air\FareRestrictionSeasonal
      */
     public function setSeasonalRange1EndDate($SeasonalRange1EndDate)
     {
@@ -167,7 +167,7 @@ class FareRestrictionSeasonal
 
     /**
      * @param string $SeasonalRange2Ind
-     * @return \FilippoToso\Travelport\Air\FareRestrictionSeasonal
+     * @return \Santosdave\Travelport\Air\FareRestrictionSeasonal
      */
     public function setSeasonalRange2Ind($SeasonalRange2Ind)
     {
@@ -185,7 +185,7 @@ class FareRestrictionSeasonal
 
     /**
      * @param string $SeasonalRange2StartDate
-     * @return \FilippoToso\Travelport\Air\FareRestrictionSeasonal
+     * @return \Santosdave\Travelport\Air\FareRestrictionSeasonal
      */
     public function setSeasonalRange2StartDate($SeasonalRange2StartDate)
     {
@@ -203,7 +203,7 @@ class FareRestrictionSeasonal
 
     /**
      * @param string $SeasonalRange2EndDate
-     * @return \FilippoToso\Travelport\Air\FareRestrictionSeasonal
+     * @return \Santosdave\Travelport\Air\FareRestrictionSeasonal
      */
     public function setSeasonalRange2EndDate($SeasonalRange2EndDate)
     {

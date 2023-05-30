@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class AdaptedRoomGuestAllocation
 {
@@ -28,7 +28,7 @@ class AdaptedRoomGuestAllocation
 
     /**
      * @param typeAdaptedRoomGuestAllocation[] $Room
-     * @return \FilippoToso\Travelport\GDSQueue\AdaptedRoomGuestAllocation
+     * @return \Santosdave\Travelport\GDSQueue\AdaptedRoomGuestAllocation
      */
     public function setRoom(array $Room)
     {

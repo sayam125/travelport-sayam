@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeSearchContact
 {
@@ -63,7 +63,7 @@ class typeSearchContact
 
     /**
      * @param typeWildcard $GivenName
-     * @return \FilippoToso\Travelport\UProfile\typeSearchContact
+     * @return \Santosdave\Travelport\UProfile\typeSearchContact
      */
     public function setGivenName($GivenName)
     {
@@ -81,7 +81,7 @@ class typeSearchContact
 
     /**
      * @param typeWildcard $OtherName
-     * @return \FilippoToso\Travelport\UProfile\typeSearchContact
+     * @return \Santosdave\Travelport\UProfile\typeSearchContact
      */
     public function setOtherName($OtherName)
     {
@@ -99,7 +99,7 @@ class typeSearchContact
 
     /**
      * @param typeWildcard $Surname
-     * @return \FilippoToso\Travelport\UProfile\typeSearchContact
+     * @return \Santosdave\Travelport\UProfile\typeSearchContact
      */
     public function setSurname($Surname)
     {
@@ -117,7 +117,7 @@ class typeSearchContact
 
     /**
      * @param typeWildcard $NickName
-     * @return \FilippoToso\Travelport\UProfile\typeSearchContact
+     * @return \Santosdave\Travelport\UProfile\typeSearchContact
      */
     public function setNickName($NickName)
     {
@@ -135,7 +135,7 @@ class typeSearchContact
 
     /**
      * @param typeSearchAddress $Address
-     * @return \FilippoToso\Travelport\UProfile\typeSearchContact
+     * @return \Santosdave\Travelport\UProfile\typeSearchContact
      */
     public function setAddress($Address)
     {
@@ -153,7 +153,7 @@ class typeSearchContact
 
     /**
      * @param typeSearchPhone $Phone
-     * @return \FilippoToso\Travelport\UProfile\typeSearchContact
+     * @return \Santosdave\Travelport\UProfile\typeSearchContact
      */
     public function setPhone($Phone)
     {
@@ -171,7 +171,7 @@ class typeSearchContact
 
     /**
      * @param typeSearchElectronicAddress $ElectronicAddress
-     * @return \FilippoToso\Travelport\UProfile\typeSearchContact
+     * @return \Santosdave\Travelport\UProfile\typeSearchContact
      */
     public function setElectronicAddress($ElectronicAddress)
     {
@@ -189,7 +189,7 @@ class typeSearchContact
 
     /**
      * @param typeContactType $Type
-     * @return \FilippoToso\Travelport\UProfile\typeSearchContact
+     * @return \Santosdave\Travelport\UProfile\typeSearchContact
      */
     public function setType($Type)
     {

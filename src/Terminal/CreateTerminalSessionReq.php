@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Terminal;
+namespace Santosdave\Travelport\Terminal;
 
 class CreateTerminalSessionReq extends BaseReq
 {
@@ -47,7 +47,7 @@ class CreateTerminalSessionReq extends BaseReq
 
     /**
      * @param typeProviderCode $Host
-     * @return \FilippoToso\Travelport\Terminal\CreateTerminalSessionReq
+     * @return \Santosdave\Travelport\Terminal\CreateTerminalSessionReq
      */
     public function setHost($Host)
     {
@@ -65,7 +65,7 @@ class CreateTerminalSessionReq extends BaseReq
 
     /**
      * @param int $SessionTimeout
-     * @return \FilippoToso\Travelport\Terminal\CreateTerminalSessionReq
+     * @return \Santosdave\Travelport\Terminal\CreateTerminalSessionReq
      */
     public function setSessionTimeout($SessionTimeout)
     {

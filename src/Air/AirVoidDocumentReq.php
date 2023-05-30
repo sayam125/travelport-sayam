@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class AirVoidDocumentReq extends BaseReq
 {
@@ -75,7 +75,7 @@ class AirVoidDocumentReq extends BaseReq
 
     /**
      * @param AirReservationLocatorCode $AirReservationLocatorCode
-     * @return \FilippoToso\Travelport\Air\AirVoidDocumentReq
+     * @return \Santosdave\Travelport\Air\AirVoidDocumentReq
      */
     public function setAirReservationLocatorCode($AirReservationLocatorCode)
     {
@@ -93,7 +93,7 @@ class AirVoidDocumentReq extends BaseReq
 
     /**
      * @param VoidDocumentInfo $VoidDocumentInfo
-     * @return \FilippoToso\Travelport\Air\AirVoidDocumentReq
+     * @return \Santosdave\Travelport\Air\AirVoidDocumentReq
      */
     public function setVoidDocumentInfo($VoidDocumentInfo)
     {
@@ -111,7 +111,7 @@ class AirVoidDocumentReq extends BaseReq
 
     /**
      * @param boolean $ShowETR
-     * @return \FilippoToso\Travelport\Air\AirVoidDocumentReq
+     * @return \Santosdave\Travelport\Air\AirVoidDocumentReq
      */
     public function setShowETR($ShowETR)
     {
@@ -129,7 +129,7 @@ class AirVoidDocumentReq extends BaseReq
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\Air\AirVoidDocumentReq
+     * @return \Santosdave\Travelport\Air\AirVoidDocumentReq
      */
     public function setProviderCode($ProviderCode)
     {
@@ -147,7 +147,7 @@ class AirVoidDocumentReq extends BaseReq
 
     /**
      * @param string $ProviderLocatorCode
-     * @return \FilippoToso\Travelport\Air\AirVoidDocumentReq
+     * @return \Santosdave\Travelport\Air\AirVoidDocumentReq
      */
     public function setProviderLocatorCode($ProviderLocatorCode)
     {
@@ -165,7 +165,7 @@ class AirVoidDocumentReq extends BaseReq
 
     /**
      * @param boolean $ValidateSpanishResidency
-     * @return \FilippoToso\Travelport\Air\AirVoidDocumentReq
+     * @return \Santosdave\Travelport\Air\AirVoidDocumentReq
      */
     public function setValidateSpanishResidency($ValidateSpanishResidency)
     {

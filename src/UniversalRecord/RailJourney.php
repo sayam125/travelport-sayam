@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class RailJourney
 {
@@ -273,7 +273,7 @@ class RailJourney
 
     /**
      * @param RailSegment $RailSegment
-     * @return \FilippoToso\Travelport\UniversalRecord\RailJourney
+     * @return \Santosdave\Travelport\UniversalRecord\RailJourney
      */
     public function setRailSegment($RailSegment)
     {
@@ -291,7 +291,7 @@ class RailJourney
 
     /**
      * @param RailSegmentRef $RailSegmentRef
-     * @return \FilippoToso\Travelport\UniversalRecord\RailJourney
+     * @return \Santosdave\Travelport\UniversalRecord\RailJourney
      */
     public function setRailSegmentRef($RailSegmentRef)
     {
@@ -309,7 +309,7 @@ class RailJourney
 
     /**
      * @param JourneyRemark $JourneyRemark
-     * @return \FilippoToso\Travelport\UniversalRecord\RailJourney
+     * @return \Santosdave\Travelport\UniversalRecord\RailJourney
      */
     public function setJourneyRemark($JourneyRemark)
     {
@@ -327,7 +327,7 @@ class RailJourney
 
     /**
      * @param HostToken $HostToken
-     * @return \FilippoToso\Travelport\UniversalRecord\RailJourney
+     * @return \Santosdave\Travelport\UniversalRecord\RailJourney
      */
     public function setHostToken($HostToken)
     {
@@ -345,7 +345,7 @@ class RailJourney
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\UniversalRecord\RailJourney
+     * @return \Santosdave\Travelport\UniversalRecord\RailJourney
      */
     public function setKey($Key)
     {
@@ -363,7 +363,7 @@ class RailJourney
 
     /**
      * @param anonymous1270 $RouteDescription
-     * @return \FilippoToso\Travelport\UniversalRecord\RailJourney
+     * @return \Santosdave\Travelport\UniversalRecord\RailJourney
      */
     public function setRouteDescription($RouteDescription)
     {
@@ -381,7 +381,7 @@ class RailJourney
 
     /**
      * @param typeJourneyDirection $JourneyDirection
-     * @return \FilippoToso\Travelport\UniversalRecord\RailJourney
+     * @return \Santosdave\Travelport\UniversalRecord\RailJourney
      */
     public function setJourneyDirection($JourneyDirection)
     {
@@ -399,7 +399,7 @@ class RailJourney
 
     /**
      * @param int $JourneyDuration
-     * @return \FilippoToso\Travelport\UniversalRecord\RailJourney
+     * @return \Santosdave\Travelport\UniversalRecord\RailJourney
      */
     public function setJourneyDuration($JourneyDuration)
     {
@@ -417,7 +417,7 @@ class RailJourney
 
     /**
      * @param string $Status
-     * @return \FilippoToso\Travelport\UniversalRecord\RailJourney
+     * @return \Santosdave\Travelport\UniversalRecord\RailJourney
      */
     public function setStatus($Status)
     {
@@ -435,7 +435,7 @@ class RailJourney
 
     /**
      * @param typeRef $ProviderReservationInfoRef
-     * @return \FilippoToso\Travelport\UniversalRecord\RailJourney
+     * @return \Santosdave\Travelport\UniversalRecord\RailJourney
      */
     public function setProviderReservationInfoRef($ProviderReservationInfoRef)
     {
@@ -453,7 +453,7 @@ class RailJourney
 
     /**
      * @param typeRef $PassiveProviderReservationInfoRef
-     * @return \FilippoToso\Travelport\UniversalRecord\RailJourney
+     * @return \Santosdave\Travelport\UniversalRecord\RailJourney
      */
     public function setPassiveProviderReservationInfoRef($PassiveProviderReservationInfoRef)
     {
@@ -471,7 +471,7 @@ class RailJourney
 
     /**
      * @param int $TravelOrder
-     * @return \FilippoToso\Travelport\UniversalRecord\RailJourney
+     * @return \Santosdave\Travelport\UniversalRecord\RailJourney
      */
     public function setTravelOrder($TravelOrder)
     {
@@ -489,7 +489,7 @@ class RailJourney
 
     /**
      * @param anonymous1271 $RouteReference
-     * @return \FilippoToso\Travelport\UniversalRecord\RailJourney
+     * @return \Santosdave\Travelport\UniversalRecord\RailJourney
      */
     public function setRouteReference($RouteReference)
     {
@@ -507,7 +507,7 @@ class RailJourney
 
     /**
      * @param string $Operation
-     * @return \FilippoToso\Travelport\UniversalRecord\RailJourney
+     * @return \Santosdave\Travelport\UniversalRecord\RailJourney
      */
     public function setOperation($Operation)
     {
@@ -525,7 +525,7 @@ class RailJourney
 
     /**
      * @param typeIATACode $Origin
-     * @return \FilippoToso\Travelport\UniversalRecord\RailJourney
+     * @return \Santosdave\Travelport\UniversalRecord\RailJourney
      */
     public function setOrigin($Origin)
     {
@@ -543,7 +543,7 @@ class RailJourney
 
     /**
      * @param typeIATACode $Destination
-     * @return \FilippoToso\Travelport\UniversalRecord\RailJourney
+     * @return \Santosdave\Travelport\UniversalRecord\RailJourney
      */
     public function setDestination($Destination)
     {
@@ -561,7 +561,7 @@ class RailJourney
 
     /**
      * @param string $DepartureTime
-     * @return \FilippoToso\Travelport\UniversalRecord\RailJourney
+     * @return \Santosdave\Travelport\UniversalRecord\RailJourney
      */
     public function setDepartureTime($DepartureTime)
     {
@@ -579,7 +579,7 @@ class RailJourney
 
     /**
      * @param string $ArrivalTime
-     * @return \FilippoToso\Travelport\UniversalRecord\RailJourney
+     * @return \Santosdave\Travelport\UniversalRecord\RailJourney
      */
     public function setArrivalTime($ArrivalTime)
     {
@@ -597,7 +597,7 @@ class RailJourney
 
     /**
      * @param string $OriginStationName
-     * @return \FilippoToso\Travelport\UniversalRecord\RailJourney
+     * @return \Santosdave\Travelport\UniversalRecord\RailJourney
      */
     public function setOriginStationName($OriginStationName)
     {
@@ -615,7 +615,7 @@ class RailJourney
 
     /**
      * @param string $DestinationStationName
-     * @return \FilippoToso\Travelport\UniversalRecord\RailJourney
+     * @return \Santosdave\Travelport\UniversalRecord\RailJourney
      */
     public function setDestinationStationName($DestinationStationName)
     {
@@ -633,7 +633,7 @@ class RailJourney
 
     /**
      * @param typeRailLocationCode $RailLocOrigin
-     * @return \FilippoToso\Travelport\UniversalRecord\RailJourney
+     * @return \Santosdave\Travelport\UniversalRecord\RailJourney
      */
     public function setRailLocOrigin($RailLocOrigin)
     {
@@ -651,7 +651,7 @@ class RailJourney
 
     /**
      * @param typeRailLocationCode $RailLocDestination
-     * @return \FilippoToso\Travelport\UniversalRecord\RailJourney
+     * @return \Santosdave\Travelport\UniversalRecord\RailJourney
      */
     public function setRailLocDestination($RailLocDestination)
     {
@@ -669,7 +669,7 @@ class RailJourney
 
     /**
      * @param typeMoney $TotalPrice
-     * @return \FilippoToso\Travelport\UniversalRecord\RailJourney
+     * @return \Santosdave\Travelport\UniversalRecord\RailJourney
      */
     public function setTotalPrice($TotalPrice)
     {
@@ -687,7 +687,7 @@ class RailJourney
 
     /**
      * @param typeMoney $BasePrice
-     * @return \FilippoToso\Travelport\UniversalRecord\RailJourney
+     * @return \Santosdave\Travelport\UniversalRecord\RailJourney
      */
     public function setBasePrice($BasePrice)
     {
@@ -705,7 +705,7 @@ class RailJourney
 
     /**
      * @param typeMoney $ApproximateTotalPrice
-     * @return \FilippoToso\Travelport\UniversalRecord\RailJourney
+     * @return \Santosdave\Travelport\UniversalRecord\RailJourney
      */
     public function setApproximateTotalPrice($ApproximateTotalPrice)
     {
@@ -723,7 +723,7 @@ class RailJourney
 
     /**
      * @param typeMoney $ApproximateBasePrice
-     * @return \FilippoToso\Travelport\UniversalRecord\RailJourney
+     * @return \Santosdave\Travelport\UniversalRecord\RailJourney
      */
     public function setApproximateBasePrice($ApproximateBasePrice)
     {
@@ -741,7 +741,7 @@ class RailJourney
 
     /**
      * @param typeMoney $EquivalentBasePrice
-     * @return \FilippoToso\Travelport\UniversalRecord\RailJourney
+     * @return \Santosdave\Travelport\UniversalRecord\RailJourney
      */
     public function setEquivalentBasePrice($EquivalentBasePrice)
     {
@@ -759,7 +759,7 @@ class RailJourney
 
     /**
      * @param typeMoney $Taxes
-     * @return \FilippoToso\Travelport\UniversalRecord\RailJourney
+     * @return \Santosdave\Travelport\UniversalRecord\RailJourney
      */
     public function setTaxes($Taxes)
     {
@@ -777,7 +777,7 @@ class RailJourney
 
     /**
      * @param typeMoney $Fees
-     * @return \FilippoToso\Travelport\UniversalRecord\RailJourney
+     * @return \Santosdave\Travelport\UniversalRecord\RailJourney
      */
     public function setFees($Fees)
     {
@@ -795,7 +795,7 @@ class RailJourney
 
     /**
      * @param typeMoney $Services
-     * @return \FilippoToso\Travelport\UniversalRecord\RailJourney
+     * @return \Santosdave\Travelport\UniversalRecord\RailJourney
      */
     public function setServices($Services)
     {
@@ -813,7 +813,7 @@ class RailJourney
 
     /**
      * @param typeMoney $ApproximateTaxes
-     * @return \FilippoToso\Travelport\UniversalRecord\RailJourney
+     * @return \Santosdave\Travelport\UniversalRecord\RailJourney
      */
     public function setApproximateTaxes($ApproximateTaxes)
     {
@@ -831,7 +831,7 @@ class RailJourney
 
     /**
      * @param typeMoney $ApproximateFees
-     * @return \FilippoToso\Travelport\UniversalRecord\RailJourney
+     * @return \Santosdave\Travelport\UniversalRecord\RailJourney
      */
     public function setApproximateFees($ApproximateFees)
     {
@@ -849,7 +849,7 @@ class RailJourney
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\UniversalRecord\RailJourney
+     * @return \Santosdave\Travelport\UniversalRecord\RailJourney
      */
     public function setProviderCode($ProviderCode)
     {
@@ -867,7 +867,7 @@ class RailJourney
 
     /**
      * @param typeSupplierCode $SupplierCode
-     * @return \FilippoToso\Travelport\UniversalRecord\RailJourney
+     * @return \Santosdave\Travelport\UniversalRecord\RailJourney
      */
     public function setSupplierCode($SupplierCode)
     {
@@ -885,7 +885,7 @@ class RailJourney
 
     /**
      * @param typeElementStatus $ElStat
-     * @return \FilippoToso\Travelport\UniversalRecord\RailJourney
+     * @return \Santosdave\Travelport\UniversalRecord\RailJourney
      */
     public function setElStat($ElStat)
     {
@@ -903,7 +903,7 @@ class RailJourney
 
     /**
      * @param boolean $KeyOverride
-     * @return \FilippoToso\Travelport\UniversalRecord\RailJourney
+     * @return \Santosdave\Travelport\UniversalRecord\RailJourney
      */
     public function setKeyOverride($KeyOverride)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class Charge
 {
@@ -42,7 +42,7 @@ class Charge
 
     /**
      * @param typeMoney $Amount
-     * @return \FilippoToso\Travelport\UniversalRecord\Charge
+     * @return \Santosdave\Travelport\UniversalRecord\Charge
      */
     public function setAmount($Amount)
     {
@@ -60,7 +60,7 @@ class Charge
 
     /**
      * @param string $RatePeriod
-     * @return \FilippoToso\Travelport\UniversalRecord\Charge
+     * @return \Santosdave\Travelport\UniversalRecord\Charge
      */
     public function setRatePeriod($RatePeriod)
     {
@@ -78,7 +78,7 @@ class Charge
 
     /**
      * @param boolean $IncludedInEstTotalInd
-     * @return \FilippoToso\Travelport\UniversalRecord\Charge
+     * @return \Santosdave\Travelport\UniversalRecord\Charge
      */
     public function setIncludedInEstTotalInd($IncludedInEstTotalInd)
     {

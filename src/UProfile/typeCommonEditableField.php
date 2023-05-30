@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeCommonEditableField extends typeFieldRef
 {
@@ -58,7 +58,7 @@ class typeCommonEditableField extends typeFieldRef
 
     /**
      * @param int $MinOccursOverride
-     * @return \FilippoToso\Travelport\UProfile\typeCommonEditableField
+     * @return \Santosdave\Travelport\UProfile\typeCommonEditableField
      */
     public function setMinOccursOverride($MinOccursOverride)
     {
@@ -76,7 +76,7 @@ class typeCommonEditableField extends typeFieldRef
 
     /**
      * @param int $MaxOccursOverride
-     * @return \FilippoToso\Travelport\UProfile\typeCommonEditableField
+     * @return \Santosdave\Travelport\UProfile\typeCommonEditableField
      */
     public function setMaxOccursOverride($MaxOccursOverride)
     {
@@ -94,7 +94,7 @@ class typeCommonEditableField extends typeFieldRef
 
     /**
      * @param string $Label
-     * @return \FilippoToso\Travelport\UProfile\typeCommonEditableField
+     * @return \Santosdave\Travelport\UProfile\typeCommonEditableField
      */
     public function setLabel($Label)
     {
@@ -112,7 +112,7 @@ class typeCommonEditableField extends typeFieldRef
 
     /**
      * @param int $DisplayOrder
-     * @return \FilippoToso\Travelport\UProfile\typeCommonEditableField
+     * @return \Santosdave\Travelport\UProfile\typeCommonEditableField
      */
     public function setDisplayOrder($DisplayOrder)
     {
@@ -130,7 +130,7 @@ class typeCommonEditableField extends typeFieldRef
 
     /**
      * @param boolean $Inheritable
-     * @return \FilippoToso\Travelport\UProfile\typeCommonEditableField
+     * @return \Santosdave\Travelport\UProfile\typeCommonEditableField
      */
     public function setInheritable($Inheritable)
     {

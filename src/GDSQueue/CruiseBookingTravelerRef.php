@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class CruiseBookingTravelerRef
 {
@@ -42,7 +42,7 @@ class CruiseBookingTravelerRef
 
     /**
      * @param LoyaltyCardRef $LoyaltyCardRef
-     * @return \FilippoToso\Travelport\GDSQueue\CruiseBookingTravelerRef
+     * @return \Santosdave\Travelport\GDSQueue\CruiseBookingTravelerRef
      */
     public function setLoyaltyCardRef($LoyaltyCardRef)
     {
@@ -60,7 +60,7 @@ class CruiseBookingTravelerRef
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\GDSQueue\CruiseBookingTravelerRef
+     * @return \Santosdave\Travelport\GDSQueue\CruiseBookingTravelerRef
      */
     public function setKey($Key)
     {
@@ -78,7 +78,7 @@ class CruiseBookingTravelerRef
 
     /**
      * @param boolean $WaiverIndicator
-     * @return \FilippoToso\Travelport\GDSQueue\CruiseBookingTravelerRef
+     * @return \Santosdave\Travelport\GDSQueue\CruiseBookingTravelerRef
      */
     public function setWaiverIndicator($WaiverIndicator)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class MealPlans
 {
@@ -47,7 +47,7 @@ class MealPlans
 
     /**
      * @param MealPlan[] $MealPlan
-     * @return \FilippoToso\Travelport\Hotel\MealPlans
+     * @return \Santosdave\Travelport\Hotel\MealPlans
      */
     public function setMealPlan(array $MealPlan = null)
     {
@@ -65,7 +65,7 @@ class MealPlans
 
     /**
      * @param typeTrinary $Breakfast
-     * @return \FilippoToso\Travelport\Hotel\MealPlans
+     * @return \Santosdave\Travelport\Hotel\MealPlans
      */
     public function setBreakfast($Breakfast)
     {
@@ -83,7 +83,7 @@ class MealPlans
 
     /**
      * @param typeTrinary $Lunch
-     * @return \FilippoToso\Travelport\Hotel\MealPlans
+     * @return \Santosdave\Travelport\Hotel\MealPlans
      */
     public function setLunch($Lunch)
     {
@@ -101,7 +101,7 @@ class MealPlans
 
     /**
      * @param typeTrinary $Dinner
-     * @return \FilippoToso\Travelport\Hotel\MealPlans
+     * @return \Santosdave\Travelport\Hotel\MealPlans
      */
     public function setDinner($Dinner)
     {

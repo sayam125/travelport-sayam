@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class IncludedItem
 {
@@ -35,7 +35,7 @@ class IncludedItem
 
     /**
      * @param string $Code
-     * @return \FilippoToso\Travelport\Rail\IncludedItem
+     * @return \Santosdave\Travelport\Rail\IncludedItem
      */
     public function setCode($Code)
     {
@@ -53,7 +53,7 @@ class IncludedItem
 
     /**
      * @param string $Description
-     * @return \FilippoToso\Travelport\Rail\IncludedItem
+     * @return \Santosdave\Travelport\Rail\IncludedItem
      */
     public function setDescription($Description)
     {

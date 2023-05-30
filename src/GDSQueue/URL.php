@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class URL
 {
@@ -35,7 +35,7 @@ class URL
 
     /**
      * @param string $_
-     * @return \FilippoToso\Travelport\GDSQueue\URL
+     * @return \Santosdave\Travelport\GDSQueue\URL
      */
     public function set_($_)
     {
@@ -53,7 +53,7 @@ class URL
 
     /**
      * @param string $Type
-     * @return \FilippoToso\Travelport\GDSQueue\URL
+     * @return \Santosdave\Travelport\GDSQueue\URL
      */
     public function setType($Type)
     {

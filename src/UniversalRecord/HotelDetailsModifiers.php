@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class HotelDetailsModifiers
 {
@@ -138,7 +138,7 @@ class HotelDetailsModifiers
 
     /**
      * @param PermittedProviders $PermittedProviders
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelDetailsModifiers
+     * @return \Santosdave\Travelport\UniversalRecord\HotelDetailsModifiers
      */
     public function setPermittedProviders($PermittedProviders)
     {
@@ -156,7 +156,7 @@ class HotelDetailsModifiers
 
     /**
      * @param LoyaltyCard $LoyaltyCard
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelDetailsModifiers
+     * @return \Santosdave\Travelport\UniversalRecord\HotelDetailsModifiers
      */
     public function setLoyaltyCard($LoyaltyCard)
     {
@@ -174,7 +174,7 @@ class HotelDetailsModifiers
 
     /**
      * @param CorporateDiscountID $CorporateDiscountID
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelDetailsModifiers
+     * @return \Santosdave\Travelport\UniversalRecord\HotelDetailsModifiers
      */
     public function setCorporateDiscountID($CorporateDiscountID)
     {
@@ -192,7 +192,7 @@ class HotelDetailsModifiers
 
     /**
      * @param HotelStay $HotelStay
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelDetailsModifiers
+     * @return \Santosdave\Travelport\UniversalRecord\HotelDetailsModifiers
      */
     public function setHotelStay($HotelStay)
     {
@@ -210,7 +210,7 @@ class HotelDetailsModifiers
 
     /**
      * @param NumberOfChildren $NumberOfChildren
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelDetailsModifiers
+     * @return \Santosdave\Travelport\UniversalRecord\HotelDetailsModifiers
      */
     public function setNumberOfChildren($NumberOfChildren)
     {
@@ -228,7 +228,7 @@ class HotelDetailsModifiers
 
     /**
      * @param HotelBedding $HotelBedding
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelDetailsModifiers
+     * @return \Santosdave\Travelport\UniversalRecord\HotelDetailsModifiers
      */
     public function setHotelBedding($HotelBedding)
     {
@@ -246,7 +246,7 @@ class HotelDetailsModifiers
 
     /**
      * @param typeOTACode[] $RateCategory
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelDetailsModifiers
+     * @return \Santosdave\Travelport\UniversalRecord\HotelDetailsModifiers
      */
     public function setRateCategory(array $RateCategory = null)
     {
@@ -264,7 +264,7 @@ class HotelDetailsModifiers
 
     /**
      * @param PermittedAggregators $PermittedAggregators
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelDetailsModifiers
+     * @return \Santosdave\Travelport\UniversalRecord\HotelDetailsModifiers
      */
     public function setPermittedAggregators($PermittedAggregators)
     {
@@ -282,7 +282,7 @@ class HotelDetailsModifiers
 
     /**
      * @param BookingGuestInformation $BookingGuestInformation
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelDetailsModifiers
+     * @return \Santosdave\Travelport\UniversalRecord\HotelDetailsModifiers
      */
     public function setBookingGuestInformation($BookingGuestInformation)
     {
@@ -300,7 +300,7 @@ class HotelDetailsModifiers
 
     /**
      * @param int $NumberOfAdults
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelDetailsModifiers
+     * @return \Santosdave\Travelport\UniversalRecord\HotelDetailsModifiers
      */
     public function setNumberOfAdults($NumberOfAdults)
     {
@@ -318,7 +318,7 @@ class HotelDetailsModifiers
 
     /**
      * @param typeRateRuleDetail $RateRuleDetail
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelDetailsModifiers
+     * @return \Santosdave\Travelport\UniversalRecord\HotelDetailsModifiers
      */
     public function setRateRuleDetail($RateRuleDetail)
     {
@@ -336,7 +336,7 @@ class HotelDetailsModifiers
 
     /**
      * @param int $NumberOfRooms
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelDetailsModifiers
+     * @return \Santosdave\Travelport\UniversalRecord\HotelDetailsModifiers
      */
     public function setNumberOfRooms($NumberOfRooms)
     {
@@ -354,7 +354,7 @@ class HotelDetailsModifiers
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelDetailsModifiers
+     * @return \Santosdave\Travelport\UniversalRecord\HotelDetailsModifiers
      */
     public function setKey($Key)
     {
@@ -372,7 +372,7 @@ class HotelDetailsModifiers
 
     /**
      * @param typeCurrency $PreferredCurrency
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelDetailsModifiers
+     * @return \Santosdave\Travelport\UniversalRecord\HotelDetailsModifiers
      */
     public function setPreferredCurrency($PreferredCurrency)
     {
@@ -390,7 +390,7 @@ class HotelDetailsModifiers
 
     /**
      * @param int $TotalOccupants
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelDetailsModifiers
+     * @return \Santosdave\Travelport\UniversalRecord\HotelDetailsModifiers
      */
     public function setTotalOccupants($TotalOccupants)
     {
@@ -408,7 +408,7 @@ class HotelDetailsModifiers
 
     /**
      * @param boolean $ProcessAllNegoRatesInd
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelDetailsModifiers
+     * @return \Santosdave\Travelport\UniversalRecord\HotelDetailsModifiers
      */
     public function setProcessAllNegoRatesInd($ProcessAllNegoRatesInd)
     {
@@ -426,7 +426,7 @@ class HotelDetailsModifiers
 
     /**
      * @param int $MaxWait
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelDetailsModifiers
+     * @return \Santosdave\Travelport\UniversalRecord\HotelDetailsModifiers
      */
     public function setMaxWait($MaxWait)
     {

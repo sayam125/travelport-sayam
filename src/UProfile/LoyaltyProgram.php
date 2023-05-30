@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class LoyaltyProgram
 {
@@ -70,7 +70,7 @@ class LoyaltyProgram
 
     /**
      * @param UNKNOWN $Level
-     * @return \FilippoToso\Travelport\UProfile\LoyaltyProgram
+     * @return \Santosdave\Travelport\UProfile\LoyaltyProgram
      */
     public function setLevel($Level)
     {
@@ -88,7 +88,7 @@ class LoyaltyProgram
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\UProfile\LoyaltyProgram
+     * @return \Santosdave\Travelport\UProfile\LoyaltyProgram
      */
     public function setKey($Key)
     {
@@ -106,7 +106,7 @@ class LoyaltyProgram
 
     /**
      * @param typeCarrier $SupplierCode
-     * @return \FilippoToso\Travelport\UProfile\LoyaltyProgram
+     * @return \Santosdave\Travelport\UProfile\LoyaltyProgram
      */
     public function setSupplierCode($SupplierCode)
     {
@@ -124,7 +124,7 @@ class LoyaltyProgram
 
     /**
      * @param string $AllianceLevel
-     * @return \FilippoToso\Travelport\UProfile\LoyaltyProgram
+     * @return \Santosdave\Travelport\UProfile\LoyaltyProgram
      */
     public function setAllianceLevel($AllianceLevel)
     {
@@ -142,7 +142,7 @@ class LoyaltyProgram
 
     /**
      * @param StringLength1to32 $MembershipProgram
-     * @return \FilippoToso\Travelport\UProfile\LoyaltyProgram
+     * @return \Santosdave\Travelport\UProfile\LoyaltyProgram
      */
     public function setMembershipProgram($MembershipProgram)
     {
@@ -160,7 +160,7 @@ class LoyaltyProgram
 
     /**
      * @param typeElementStatus $ElStat
-     * @return \FilippoToso\Travelport\UProfile\LoyaltyProgram
+     * @return \Santosdave\Travelport\UProfile\LoyaltyProgram
      */
     public function setElStat($ElStat)
     {
@@ -178,7 +178,7 @@ class LoyaltyProgram
 
     /**
      * @param boolean $KeyOverride
-     * @return \FilippoToso\Travelport\UProfile\LoyaltyProgram
+     * @return \Santosdave\Travelport\UProfile\LoyaltyProgram
      */
     public function setKeyOverride($KeyOverride)
     {

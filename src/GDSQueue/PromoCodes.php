@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class PromoCodes
 {
@@ -28,7 +28,7 @@ class PromoCodes
 
     /**
      * @param PromoCode $PromoCode
-     * @return \FilippoToso\Travelport\GDSQueue\PromoCodes
+     * @return \Santosdave\Travelport\GDSQueue\PromoCodes
      */
     public function setPromoCode($PromoCode)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class Itinerary
 {
@@ -42,7 +42,7 @@ class Itinerary
 
     /**
      * @param typeItinerary $Type
-     * @return \FilippoToso\Travelport\Util\Itinerary
+     * @return \Santosdave\Travelport\Util\Itinerary
      */
     public function setType($Type)
     {
@@ -60,7 +60,7 @@ class Itinerary
 
     /**
      * @param typeItineraryOption $Option
-     * @return \FilippoToso\Travelport\Util\Itinerary
+     * @return \Santosdave\Travelport\Util\Itinerary
      */
     public function setOption($Option)
     {
@@ -78,7 +78,7 @@ class Itinerary
 
     /**
      * @param boolean $SeparateIndicator
-     * @return \FilippoToso\Travelport\Util\Itinerary
+     * @return \Santosdave\Travelport\Util\Itinerary
      */
     public function setSeparateIndicator($SeparateIndicator)
     {

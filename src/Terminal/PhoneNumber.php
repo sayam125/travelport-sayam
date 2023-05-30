@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Terminal;
+namespace Santosdave\Travelport\Terminal;
 
 class PhoneNumber
 {
@@ -98,7 +98,7 @@ class PhoneNumber
 
     /**
      * @param ProviderReservationInfoRef $ProviderReservationInfoRef
-     * @return \FilippoToso\Travelport\Terminal\PhoneNumber
+     * @return \Santosdave\Travelport\Terminal\PhoneNumber
      */
     public function setProviderReservationInfoRef($ProviderReservationInfoRef)
     {
@@ -116,7 +116,7 @@ class PhoneNumber
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Terminal\PhoneNumber
+     * @return \Santosdave\Travelport\Terminal\PhoneNumber
      */
     public function setKey($Key)
     {
@@ -134,7 +134,7 @@ class PhoneNumber
 
     /**
      * @param anonymous85 $Type
-     * @return \FilippoToso\Travelport\Terminal\PhoneNumber
+     * @return \Santosdave\Travelport\Terminal\PhoneNumber
      */
     public function setType($Type)
     {
@@ -152,7 +152,7 @@ class PhoneNumber
 
     /**
      * @param anonymous86 $Location
-     * @return \FilippoToso\Travelport\Terminal\PhoneNumber
+     * @return \Santosdave\Travelport\Terminal\PhoneNumber
      */
     public function setLocation($Location)
     {
@@ -170,7 +170,7 @@ class PhoneNumber
 
     /**
      * @param anonymous87 $CountryCode
-     * @return \FilippoToso\Travelport\Terminal\PhoneNumber
+     * @return \Santosdave\Travelport\Terminal\PhoneNumber
      */
     public function setCountryCode($CountryCode)
     {
@@ -188,7 +188,7 @@ class PhoneNumber
 
     /**
      * @param anonymous88 $AreaCode
-     * @return \FilippoToso\Travelport\Terminal\PhoneNumber
+     * @return \Santosdave\Travelport\Terminal\PhoneNumber
      */
     public function setAreaCode($AreaCode)
     {
@@ -206,7 +206,7 @@ class PhoneNumber
 
     /**
      * @param anonymous89 $Number
-     * @return \FilippoToso\Travelport\Terminal\PhoneNumber
+     * @return \Santosdave\Travelport\Terminal\PhoneNumber
      */
     public function setNumber($Number)
     {
@@ -224,7 +224,7 @@ class PhoneNumber
 
     /**
      * @param anonymous90 $Extension
-     * @return \FilippoToso\Travelport\Terminal\PhoneNumber
+     * @return \Santosdave\Travelport\Terminal\PhoneNumber
      */
     public function setExtension($Extension)
     {
@@ -242,7 +242,7 @@ class PhoneNumber
 
     /**
      * @param anonymous91 $Text
-     * @return \FilippoToso\Travelport\Terminal\PhoneNumber
+     * @return \Santosdave\Travelport\Terminal\PhoneNumber
      */
     public function setText($Text)
     {
@@ -260,7 +260,7 @@ class PhoneNumber
 
     /**
      * @param typeElementStatus $ElStat
-     * @return \FilippoToso\Travelport\Terminal\PhoneNumber
+     * @return \Santosdave\Travelport\Terminal\PhoneNumber
      */
     public function setElStat($ElStat)
     {
@@ -278,7 +278,7 @@ class PhoneNumber
 
     /**
      * @param boolean $KeyOverride
-     * @return \FilippoToso\Travelport\Terminal\PhoneNumber
+     * @return \Santosdave\Travelport\Terminal\PhoneNumber
      */
     public function setKeyOverride($KeyOverride)
     {

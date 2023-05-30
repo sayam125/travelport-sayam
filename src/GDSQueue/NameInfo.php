@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class NameInfo
 {
@@ -56,7 +56,7 @@ class NameInfo
 
     /**
      * @param anonymous85 $Prefix
-     * @return \FilippoToso\Travelport\GDSQueue\NameInfo
+     * @return \Santosdave\Travelport\GDSQueue\NameInfo
      */
     public function setPrefix($Prefix)
     {
@@ -74,7 +74,7 @@ class NameInfo
 
     /**
      * @param anonymous86 $First
-     * @return \FilippoToso\Travelport\GDSQueue\NameInfo
+     * @return \Santosdave\Travelport\GDSQueue\NameInfo
      */
     public function setFirst($First)
     {
@@ -92,7 +92,7 @@ class NameInfo
 
     /**
      * @param anonymous87 $Middle
-     * @return \FilippoToso\Travelport\GDSQueue\NameInfo
+     * @return \Santosdave\Travelport\GDSQueue\NameInfo
      */
     public function setMiddle($Middle)
     {
@@ -110,7 +110,7 @@ class NameInfo
 
     /**
      * @param typeTravelerLastName $Last
-     * @return \FilippoToso\Travelport\GDSQueue\NameInfo
+     * @return \Santosdave\Travelport\GDSQueue\NameInfo
      */
     public function setLast($Last)
     {
@@ -128,7 +128,7 @@ class NameInfo
 
     /**
      * @param anonymous88 $Suffix
-     * @return \FilippoToso\Travelport\GDSQueue\NameInfo
+     * @return \Santosdave\Travelport\GDSQueue\NameInfo
      */
     public function setSuffix($Suffix)
     {

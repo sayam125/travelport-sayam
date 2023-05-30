@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class AddSvc
 {
@@ -63,7 +63,7 @@ class AddSvc
 
     /**
      * @param string $RFIC
-     * @return \FilippoToso\Travelport\Air\AddSvc
+     * @return \Santosdave\Travelport\Air\AddSvc
      */
     public function setRFIC($RFIC)
     {
@@ -81,7 +81,7 @@ class AddSvc
 
     /**
      * @param string $RFISC
-     * @return \FilippoToso\Travelport\Air\AddSvc
+     * @return \Santosdave\Travelport\Air\AddSvc
      */
     public function setRFISC($RFISC)
     {
@@ -99,7 +99,7 @@ class AddSvc
 
     /**
      * @param string $SvcDescription
-     * @return \FilippoToso\Travelport\Air\AddSvc
+     * @return \Santosdave\Travelport\Air\AddSvc
      */
     public function setSvcDescription($SvcDescription)
     {
@@ -117,7 +117,7 @@ class AddSvc
 
     /**
      * @param typeIATACode $Origin
-     * @return \FilippoToso\Travelport\Air\AddSvc
+     * @return \Santosdave\Travelport\Air\AddSvc
      */
     public function setOrigin($Origin)
     {
@@ -135,7 +135,7 @@ class AddSvc
 
     /**
      * @param typeIATACode $Destination
-     * @return \FilippoToso\Travelport\Air\AddSvc
+     * @return \Santosdave\Travelport\Air\AddSvc
      */
     public function setDestination($Destination)
     {
@@ -153,7 +153,7 @@ class AddSvc
 
     /**
      * @param date $StartDate
-     * @return \FilippoToso\Travelport\Air\AddSvc
+     * @return \Santosdave\Travelport\Air\AddSvc
      */
     public function setStartDate($StartDate)
     {

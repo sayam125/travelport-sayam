@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Vehicle;
+namespace Santosdave\Travelport\Vehicle;
 
 class typeOTAKeyword
 {
@@ -52,7 +52,7 @@ class typeOTAKeyword
 
     /**
      * @param typeOTASubKey[] $SubKey
-     * @return \FilippoToso\Travelport\Vehicle\typeOTAKeyword
+     * @return \Santosdave\Travelport\Vehicle\typeOTAKeyword
      */
     public function setSubKey(array $SubKey = null)
     {
@@ -70,7 +70,7 @@ class typeOTAKeyword
 
     /**
      * @param string[] $Text
-     * @return \FilippoToso\Travelport\Vehicle\typeOTAKeyword
+     * @return \Santosdave\Travelport\Vehicle\typeOTAKeyword
      */
     public function setText(array $Text = null)
     {
@@ -88,7 +88,7 @@ class typeOTAKeyword
 
     /**
      * @param anonymous406 $Name
-     * @return \FilippoToso\Travelport\Vehicle\typeOTAKeyword
+     * @return \Santosdave\Travelport\Vehicle\typeOTAKeyword
      */
     public function setName($Name)
     {
@@ -106,7 +106,7 @@ class typeOTAKeyword
 
     /**
      * @param UNKNOWN $Number
-     * @return \FilippoToso\Travelport\Vehicle\typeOTAKeyword
+     * @return \Santosdave\Travelport\Vehicle\typeOTAKeyword
      */
     public function setNumber($Number)
     {
@@ -124,7 +124,7 @@ class typeOTAKeyword
 
     /**
      * @param UNKNOWN $Description
-     * @return \FilippoToso\Travelport\Vehicle\typeOTAKeyword
+     * @return \Santosdave\Travelport\Vehicle\typeOTAKeyword
      */
     public function setDescription($Description)
     {

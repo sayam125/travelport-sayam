@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class PromotionCode
 {
@@ -35,7 +35,7 @@ class PromotionCode
 
     /**
      * @param typePromoCodeString $_
-     * @return \FilippoToso\Travelport\Rail\PromotionCode
+     * @return \Santosdave\Travelport\Rail\PromotionCode
      */
     public function set_($_)
     {
@@ -53,7 +53,7 @@ class PromotionCode
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Rail\PromotionCode
+     * @return \Santosdave\Travelport\Rail\PromotionCode
      */
     public function setKey($Key)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class CategoryDetailsType
 {
@@ -33,7 +33,7 @@ class CategoryDetailsType
 
     /**
      * @param ValueDetails[] $CategoryDetails
-     * @return \FilippoToso\Travelport\Util\CategoryDetailsType
+     * @return \Santosdave\Travelport\Util\CategoryDetailsType
      */
     public function setCategoryDetails(array $CategoryDetails = null)
     {
@@ -51,7 +51,7 @@ class CategoryDetailsType
 
     /**
      * @param string $Value
-     * @return \FilippoToso\Travelport\Util\CategoryDetailsType
+     * @return \Santosdave\Travelport\Util\CategoryDetailsType
      */
     public function setValue($Value)
     {

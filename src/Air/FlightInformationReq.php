@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class FlightInformationReq extends BaseReq
 {
@@ -40,7 +40,7 @@ class FlightInformationReq extends BaseReq
 
     /**
      * @param FlightInfoCriteria $FlightInfoCriteria
-     * @return \FilippoToso\Travelport\Air\FlightInformationReq
+     * @return \Santosdave\Travelport\Air\FlightInformationReq
      */
     public function setFlightInfoCriteria($FlightInfoCriteria)
     {

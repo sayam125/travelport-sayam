@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class Alliance
 {
@@ -28,7 +28,7 @@ class Alliance
 
     /**
      * @param string $Code
-     * @return \FilippoToso\Travelport\GDSQueue\Alliance
+     * @return \Santosdave\Travelport\GDSQueue\Alliance
      */
     public function setCode($Code)
     {

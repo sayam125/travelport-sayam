@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class ThirdPartyInformation
 {
@@ -75,7 +75,7 @@ class ThirdPartyInformation
 
     /**
      * @param typeGeneralReference[] $SegmentRef
-     * @return \FilippoToso\Travelport\UniversalRecord\ThirdPartyInformation
+     * @return \Santosdave\Travelport\UniversalRecord\ThirdPartyInformation
      */
     public function setSegmentRef(array $SegmentRef = null)
     {
@@ -93,7 +93,7 @@ class ThirdPartyInformation
 
     /**
      * @param anonymous439 $ThirdPartyCode
-     * @return \FilippoToso\Travelport\UniversalRecord\ThirdPartyInformation
+     * @return \Santosdave\Travelport\UniversalRecord\ThirdPartyInformation
      */
     public function setThirdPartyCode($ThirdPartyCode)
     {
@@ -111,7 +111,7 @@ class ThirdPartyInformation
 
     /**
      * @param anonymous440 $ThirdPartyLocatorCode
-     * @return \FilippoToso\Travelport\UniversalRecord\ThirdPartyInformation
+     * @return \Santosdave\Travelport\UniversalRecord\ThirdPartyInformation
      */
     public function setThirdPartyLocatorCode($ThirdPartyLocatorCode)
     {
@@ -129,7 +129,7 @@ class ThirdPartyInformation
 
     /**
      * @param typeThirdPartySupplier $ThirdPartyName
-     * @return \FilippoToso\Travelport\UniversalRecord\ThirdPartyInformation
+     * @return \Santosdave\Travelport\UniversalRecord\ThirdPartyInformation
      */
     public function setThirdPartyName($ThirdPartyName)
     {
@@ -147,7 +147,7 @@ class ThirdPartyInformation
 
     /**
      * @param typeRef $ProviderReservationInfoRef
-     * @return \FilippoToso\Travelport\UniversalRecord\ThirdPartyInformation
+     * @return \Santosdave\Travelport\UniversalRecord\ThirdPartyInformation
      */
     public function setProviderReservationInfoRef($ProviderReservationInfoRef)
     {
@@ -165,7 +165,7 @@ class ThirdPartyInformation
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\UniversalRecord\ThirdPartyInformation
+     * @return \Santosdave\Travelport\UniversalRecord\ThirdPartyInformation
      */
     public function setKey($Key)
     {
@@ -183,7 +183,7 @@ class ThirdPartyInformation
 
     /**
      * @param typeElementStatus $ElStat
-     * @return \FilippoToso\Travelport\UniversalRecord\ThirdPartyInformation
+     * @return \Santosdave\Travelport\UniversalRecord\ThirdPartyInformation
      */
     public function setElStat($ElStat)
     {
@@ -201,7 +201,7 @@ class ThirdPartyInformation
 
     /**
      * @param boolean $KeyOverride
-     * @return \FilippoToso\Travelport\UniversalRecord\ThirdPartyInformation
+     * @return \Santosdave\Travelport\UniversalRecord\ThirdPartyInformation
      */
     public function setKeyOverride($KeyOverride)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class BookingGuestInformation
 {
@@ -28,7 +28,7 @@ class BookingGuestInformation
 
     /**
      * @param typeGuestRoomInformation[] $Room
-     * @return \FilippoToso\Travelport\GDSQueue\BookingGuestInformation
+     * @return \Santosdave\Travelport\GDSQueue\BookingGuestInformation
      */
     public function setRoom(array $Room)
     {

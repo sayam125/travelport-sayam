@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class SavedTripSearchModifiers extends BaseSearchModifiers
 {
@@ -43,7 +43,7 @@ class SavedTripSearchModifiers extends BaseSearchModifiers
 
     /**
      * @param string $SavedTripName
-     * @return \FilippoToso\Travelport\Rail\SavedTripSearchModifiers
+     * @return \Santosdave\Travelport\Rail\SavedTripSearchModifiers
      */
     public function setSavedTripName($SavedTripName)
     {
@@ -61,7 +61,7 @@ class SavedTripSearchModifiers extends BaseSearchModifiers
 
     /**
      * @param boolean $ExcludeURAssociated
-     * @return \FilippoToso\Travelport\Rail\SavedTripSearchModifiers
+     * @return \Santosdave\Travelport\Rail\SavedTripSearchModifiers
      */
     public function setExcludeURAssociated($ExcludeURAssociated)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class ServiceFeeInfo
 {
@@ -147,7 +147,7 @@ class ServiceFeeInfo
 
     /**
      * @param FormOfPayment $FormOfPayment
-     * @return \FilippoToso\Travelport\Air\ServiceFeeInfo
+     * @return \Santosdave\Travelport\Air\ServiceFeeInfo
      */
     public function setFormOfPayment($FormOfPayment)
     {
@@ -165,7 +165,7 @@ class ServiceFeeInfo
 
     /**
      * @param ServiceFeeTaxInfo $ServiceFeeTaxInfo
-     * @return \FilippoToso\Travelport\Air\ServiceFeeInfo
+     * @return \Santosdave\Travelport\Air\ServiceFeeInfo
      */
     public function setServiceFeeTaxInfo($ServiceFeeTaxInfo)
     {
@@ -183,7 +183,7 @@ class ServiceFeeInfo
 
     /**
      * @param CreditCardAuth $CreditCardAuth
-     * @return \FilippoToso\Travelport\Air\ServiceFeeInfo
+     * @return \Santosdave\Travelport\Air\ServiceFeeInfo
      */
     public function setCreditCardAuth($CreditCardAuth)
     {
@@ -201,7 +201,7 @@ class ServiceFeeInfo
 
     /**
      * @param Payment $Payment
-     * @return \FilippoToso\Travelport\Air\ServiceFeeInfo
+     * @return \Santosdave\Travelport\Air\ServiceFeeInfo
      */
     public function setPayment($Payment)
     {
@@ -219,7 +219,7 @@ class ServiceFeeInfo
 
     /**
      * @param typeStatus $Status
-     * @return \FilippoToso\Travelport\Air\ServiceFeeInfo
+     * @return \Santosdave\Travelport\Air\ServiceFeeInfo
      */
     public function setStatus($Status)
     {
@@ -237,7 +237,7 @@ class ServiceFeeInfo
 
     /**
      * @param string $Description
-     * @return \FilippoToso\Travelport\Air\ServiceFeeInfo
+     * @return \Santosdave\Travelport\Air\ServiceFeeInfo
      */
     public function setDescription($Description)
     {
@@ -255,7 +255,7 @@ class ServiceFeeInfo
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Air\ServiceFeeInfo
+     * @return \Santosdave\Travelport\Air\ServiceFeeInfo
      */
     public function setKey($Key)
     {
@@ -273,7 +273,7 @@ class ServiceFeeInfo
 
     /**
      * @param string $Confirmation
-     * @return \FilippoToso\Travelport\Air\ServiceFeeInfo
+     * @return \Santosdave\Travelport\Air\ServiceFeeInfo
      */
     public function setConfirmation($Confirmation)
     {
@@ -291,7 +291,7 @@ class ServiceFeeInfo
 
     /**
      * @param string $TicketNumber
-     * @return \FilippoToso\Travelport\Air\ServiceFeeInfo
+     * @return \Santosdave\Travelport\Air\ServiceFeeInfo
      */
     public function setTicketNumber($TicketNumber)
     {
@@ -309,7 +309,7 @@ class ServiceFeeInfo
 
     /**
      * @param typeRef $BookingTravelerRef
-     * @return \FilippoToso\Travelport\Air\ServiceFeeInfo
+     * @return \Santosdave\Travelport\Air\ServiceFeeInfo
      */
     public function setBookingTravelerRef($BookingTravelerRef)
     {
@@ -327,7 +327,7 @@ class ServiceFeeInfo
 
     /**
      * @param typeRef $ProviderReservationInfoRef
-     * @return \FilippoToso\Travelport\Air\ServiceFeeInfo
+     * @return \Santosdave\Travelport\Air\ServiceFeeInfo
      */
     public function setProviderReservationInfoRef($ProviderReservationInfoRef)
     {
@@ -345,7 +345,7 @@ class ServiceFeeInfo
 
     /**
      * @param typeRef $PassiveProviderReservationInfoRef
-     * @return \FilippoToso\Travelport\Air\ServiceFeeInfo
+     * @return \Santosdave\Travelport\Air\ServiceFeeInfo
      */
     public function setPassiveProviderReservationInfoRef($PassiveProviderReservationInfoRef)
     {
@@ -363,7 +363,7 @@ class ServiceFeeInfo
 
     /**
      * @param typeMoney $TotalAmount
-     * @return \FilippoToso\Travelport\Air\ServiceFeeInfo
+     * @return \Santosdave\Travelport\Air\ServiceFeeInfo
      */
     public function setTotalAmount($TotalAmount)
     {
@@ -381,7 +381,7 @@ class ServiceFeeInfo
 
     /**
      * @param typeMoney $BaseAmount
-     * @return \FilippoToso\Travelport\Air\ServiceFeeInfo
+     * @return \Santosdave\Travelport\Air\ServiceFeeInfo
      */
     public function setBaseAmount($BaseAmount)
     {
@@ -399,7 +399,7 @@ class ServiceFeeInfo
 
     /**
      * @param typeMoney $Taxes
-     * @return \FilippoToso\Travelport\Air\ServiceFeeInfo
+     * @return \Santosdave\Travelport\Air\ServiceFeeInfo
      */
     public function setTaxes($Taxes)
     {
@@ -417,7 +417,7 @@ class ServiceFeeInfo
 
     /**
      * @param string $BookingTravelerName
-     * @return \FilippoToso\Travelport\Air\ServiceFeeInfo
+     * @return \Santosdave\Travelport\Air\ServiceFeeInfo
      */
     public function setBookingTravelerName($BookingTravelerName)
     {
@@ -435,7 +435,7 @@ class ServiceFeeInfo
 
     /**
      * @param typeElementStatus $ElStat
-     * @return \FilippoToso\Travelport\Air\ServiceFeeInfo
+     * @return \Santosdave\Travelport\Air\ServiceFeeInfo
      */
     public function setElStat($ElStat)
     {
@@ -453,7 +453,7 @@ class ServiceFeeInfo
 
     /**
      * @param boolean $KeyOverride
-     * @return \FilippoToso\Travelport\Air\ServiceFeeInfo
+     * @return \Santosdave\Travelport\Air\ServiceFeeInfo
      */
     public function setKeyOverride($KeyOverride)
     {

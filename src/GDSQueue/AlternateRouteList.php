@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class AlternateRouteList
 {
@@ -28,7 +28,7 @@ class AlternateRouteList
 
     /**
      * @param AlternateRoute $AlternateRoute
-     * @return \FilippoToso\Travelport\GDSQueue\AlternateRouteList
+     * @return \Santosdave\Travelport\GDSQueue\AlternateRouteList
      */
     public function setAlternateRoute($AlternateRoute)
     {

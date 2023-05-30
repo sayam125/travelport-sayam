@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class TaxDetails
 {
@@ -28,7 +28,7 @@ class TaxDetails
 
     /**
      * @param Tax $Tax
-     * @return \FilippoToso\Travelport\Rail\TaxDetails
+     * @return \Santosdave\Travelport\Rail\TaxDetails
      */
     public function setTax($Tax)
     {

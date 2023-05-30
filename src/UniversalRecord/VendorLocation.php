@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class VendorLocation extends typeVendorLocation
 {
@@ -35,7 +35,7 @@ class VendorLocation extends typeVendorLocation
 
     /**
      * @param Distance $Distance
-     * @return \FilippoToso\Travelport\UniversalRecord\VendorLocation
+     * @return \Santosdave\Travelport\UniversalRecord\VendorLocation
      */
     public function setDistance($Distance)
     {

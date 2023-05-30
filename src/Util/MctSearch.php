@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class MctSearch
 {
@@ -119,7 +119,7 @@ class MctSearch
 
     /**
      * @param typeIATACode $ArriveStation
-     * @return \FilippoToso\Travelport\Util\MctSearch
+     * @return \Santosdave\Travelport\Util\MctSearch
      */
     public function setArriveStation($ArriveStation)
     {
@@ -137,7 +137,7 @@ class MctSearch
 
     /**
      * @param typeIATACode $DepartStation
-     * @return \FilippoToso\Travelport\Util\MctSearch
+     * @return \Santosdave\Travelport\Util\MctSearch
      */
     public function setDepartStation($DepartStation)
     {
@@ -155,7 +155,7 @@ class MctSearch
 
     /**
      * @param typeMctConnection $Connection
-     * @return \FilippoToso\Travelport\Util\MctSearch
+     * @return \Santosdave\Travelport\Util\MctSearch
      */
     public function setConnection($Connection)
     {
@@ -173,7 +173,7 @@ class MctSearch
 
     /**
      * @param typeCarrier $ArriveCarrier
-     * @return \FilippoToso\Travelport\Util\MctSearch
+     * @return \Santosdave\Travelport\Util\MctSearch
      */
     public function setArriveCarrier($ArriveCarrier)
     {
@@ -191,7 +191,7 @@ class MctSearch
 
     /**
      * @param typeCarrier $DepartCarrier
-     * @return \FilippoToso\Travelport\Util\MctSearch
+     * @return \Santosdave\Travelport\Util\MctSearch
      */
     public function setDepartCarrier($DepartCarrier)
     {
@@ -209,7 +209,7 @@ class MctSearch
 
     /**
      * @param string $ArriveFlight
-     * @return \FilippoToso\Travelport\Util\MctSearch
+     * @return \Santosdave\Travelport\Util\MctSearch
      */
     public function setArriveFlight($ArriveFlight)
     {
@@ -227,7 +227,7 @@ class MctSearch
 
     /**
      * @param string $DepartFlight
-     * @return \FilippoToso\Travelport\Util\MctSearch
+     * @return \Santosdave\Travelport\Util\MctSearch
      */
     public function setDepartFlight($DepartFlight)
     {
@@ -245,7 +245,7 @@ class MctSearch
 
     /**
      * @param typeIATACode $PreviousStation
-     * @return \FilippoToso\Travelport\Util\MctSearch
+     * @return \Santosdave\Travelport\Util\MctSearch
      */
     public function setPreviousStation($PreviousStation)
     {
@@ -263,7 +263,7 @@ class MctSearch
 
     /**
      * @param typeIATACode $NextStation
-     * @return \FilippoToso\Travelport\Util\MctSearch
+     * @return \Santosdave\Travelport\Util\MctSearch
      */
     public function setNextStation($NextStation)
     {
@@ -281,7 +281,7 @@ class MctSearch
 
     /**
      * @param typeCountry $PreviousCountry
-     * @return \FilippoToso\Travelport\Util\MctSearch
+     * @return \Santosdave\Travelport\Util\MctSearch
      */
     public function setPreviousCountry($PreviousCountry)
     {
@@ -299,7 +299,7 @@ class MctSearch
 
     /**
      * @param typeCountry $NextCountry
-     * @return \FilippoToso\Travelport\Util\MctSearch
+     * @return \Santosdave\Travelport\Util\MctSearch
      */
     public function setNextCountry($NextCountry)
     {
@@ -317,7 +317,7 @@ class MctSearch
 
     /**
      * @param typeState $PreviousState
-     * @return \FilippoToso\Travelport\Util\MctSearch
+     * @return \Santosdave\Travelport\Util\MctSearch
      */
     public function setPreviousState($PreviousState)
     {
@@ -335,7 +335,7 @@ class MctSearch
 
     /**
      * @param typeState $NextState
-     * @return \FilippoToso\Travelport\Util\MctSearch
+     * @return \Santosdave\Travelport\Util\MctSearch
      */
     public function setNextState($NextState)
     {
@@ -353,7 +353,7 @@ class MctSearch
 
     /**
      * @param date $TravelDate
-     * @return \FilippoToso\Travelport\Util\MctSearch
+     * @return \Santosdave\Travelport\Util\MctSearch
      */
     public function setTravelDate($TravelDate)
     {

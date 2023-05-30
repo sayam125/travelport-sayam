@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class Enumeration
 {
@@ -28,7 +28,7 @@ class Enumeration
 
     /**
      * @param SolutionGroup $SolutionGroup
-     * @return \FilippoToso\Travelport\UniversalRecord\Enumeration
+     * @return \Santosdave\Travelport\UniversalRecord\Enumeration
      */
     public function setSolutionGroup($SolutionGroup)
     {

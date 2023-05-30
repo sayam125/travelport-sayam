@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class CreateTag
 {
@@ -49,7 +49,7 @@ class CreateTag
 
     /**
      * @param StringLength1to128 $Name
-     * @return \FilippoToso\Travelport\UProfile\CreateTag
+     * @return \Santosdave\Travelport\UProfile\CreateTag
      */
     public function setName($Name)
     {
@@ -67,7 +67,7 @@ class CreateTag
 
     /**
      * @param StringLength1to128 $Label
-     * @return \FilippoToso\Travelport\UProfile\CreateTag
+     * @return \Santosdave\Travelport\UProfile\CreateTag
      */
     public function setLabel($Label)
     {
@@ -85,7 +85,7 @@ class CreateTag
 
     /**
      * @param StringLength1to255 $Description
-     * @return \FilippoToso\Travelport\UProfile\CreateTag
+     * @return \Santosdave\Travelport\UProfile\CreateTag
      */
     public function setDescription($Description)
     {
@@ -103,7 +103,7 @@ class CreateTag
 
     /**
      * @param int $DisplayOrder
-     * @return \FilippoToso\Travelport\UProfile\CreateTag
+     * @return \Santosdave\Travelport\UProfile\CreateTag
      */
     public function setDisplayOrder($DisplayOrder)
     {

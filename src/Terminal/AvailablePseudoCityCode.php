@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Terminal;
+namespace Santosdave\Travelport\Terminal;
 
 class AvailablePseudoCityCode
 {
@@ -28,7 +28,7 @@ class AvailablePseudoCityCode
 
     /**
      * @param typePCC $PseudoCityCode
-     * @return \FilippoToso\Travelport\Terminal\AvailablePseudoCityCode
+     * @return \Santosdave\Travelport\Terminal\AvailablePseudoCityCode
      */
     public function setPseudoCityCode($PseudoCityCode)
     {

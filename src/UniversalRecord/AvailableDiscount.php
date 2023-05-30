@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class AvailableDiscount
 {
@@ -56,7 +56,7 @@ class AvailableDiscount
 
     /**
      * @param LoyaltyProgram $LoyaltyProgram
-     * @return \FilippoToso\Travelport\UniversalRecord\AvailableDiscount
+     * @return \Santosdave\Travelport\UniversalRecord\AvailableDiscount
      */
     public function setLoyaltyProgram($LoyaltyProgram)
     {
@@ -74,7 +74,7 @@ class AvailableDiscount
 
     /**
      * @param typeMoney $Amount
-     * @return \FilippoToso\Travelport\UniversalRecord\AvailableDiscount
+     * @return \Santosdave\Travelport\UniversalRecord\AvailableDiscount
      */
     public function setAmount($Amount)
     {
@@ -92,7 +92,7 @@ class AvailableDiscount
 
     /**
      * @param typePercentageWithDecimal $Percent
-     * @return \FilippoToso\Travelport\UniversalRecord\AvailableDiscount
+     * @return \Santosdave\Travelport\UniversalRecord\AvailableDiscount
      */
     public function setPercent($Percent)
     {
@@ -110,7 +110,7 @@ class AvailableDiscount
 
     /**
      * @param string $Description
-     * @return \FilippoToso\Travelport\UniversalRecord\AvailableDiscount
+     * @return \Santosdave\Travelport\UniversalRecord\AvailableDiscount
      */
     public function setDescription($Description)
     {
@@ -128,7 +128,7 @@ class AvailableDiscount
 
     /**
      * @param string $DiscountQualifier
-     * @return \FilippoToso\Travelport\UniversalRecord\AvailableDiscount
+     * @return \Santosdave\Travelport\UniversalRecord\AvailableDiscount
      */
     public function setDiscountQualifier($DiscountQualifier)
     {

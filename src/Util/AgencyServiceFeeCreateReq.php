@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class AgencyServiceFeeCreateReq extends BaseReq
 {
@@ -61,7 +61,7 @@ class AgencyServiceFeeCreateReq extends BaseReq
 
     /**
      * @param ServiceFeeInfo $ServiceFeeInfo
-     * @return \FilippoToso\Travelport\Util\AgencyServiceFeeCreateReq
+     * @return \Santosdave\Travelport\Util\AgencyServiceFeeCreateReq
      */
     public function setServiceFeeInfo($ServiceFeeInfo)
     {
@@ -79,7 +79,7 @@ class AgencyServiceFeeCreateReq extends BaseReq
 
     /**
      * @param typeLocatorCode $UniversalRecordLocatorCode
-     * @return \FilippoToso\Travelport\Util\AgencyServiceFeeCreateReq
+     * @return \Santosdave\Travelport\Util\AgencyServiceFeeCreateReq
      */
     public function setUniversalRecordLocatorCode($UniversalRecordLocatorCode)
     {
@@ -97,7 +97,7 @@ class AgencyServiceFeeCreateReq extends BaseReq
 
     /**
      * @param typeLocatorCode $ProviderLocatorCode
-     * @return \FilippoToso\Travelport\Util\AgencyServiceFeeCreateReq
+     * @return \Santosdave\Travelport\Util\AgencyServiceFeeCreateReq
      */
     public function setProviderLocatorCode($ProviderLocatorCode)
     {
@@ -115,7 +115,7 @@ class AgencyServiceFeeCreateReq extends BaseReq
 
     /**
      * @param string $ProviderCode
-     * @return \FilippoToso\Travelport\Util\AgencyServiceFeeCreateReq
+     * @return \Santosdave\Travelport\Util\AgencyServiceFeeCreateReq
      */
     public function setProviderCode($ProviderCode)
     {

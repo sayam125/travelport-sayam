@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class GroupedOption
 {
@@ -28,7 +28,7 @@ class GroupedOption
 
     /**
      * @param typeRef $OptionalServiceRef
-     * @return \FilippoToso\Travelport\GDSQueue\GroupedOption
+     * @return \Santosdave\Travelport\GDSQueue\GroupedOption
      */
     public function setOptionalServiceRef($OptionalServiceRef)
     {

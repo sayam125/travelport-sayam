@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class MirReportRetrieveRsp extends BaseRsp
 {
@@ -34,7 +34,7 @@ class MirReportRetrieveRsp extends BaseRsp
 
     /**
      * @param string $Report
-     * @return \FilippoToso\Travelport\Util\MirReportRetrieveRsp
+     * @return \Santosdave\Travelport\Util\MirReportRetrieveRsp
      */
     public function setReport($Report)
     {

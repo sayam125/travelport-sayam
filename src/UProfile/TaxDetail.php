@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class TaxDetail
 {
@@ -56,7 +56,7 @@ class TaxDetail
 
     /**
      * @param typeMoney $Amount
-     * @return \FilippoToso\Travelport\UProfile\TaxDetail
+     * @return \Santosdave\Travelport\UProfile\TaxDetail
      */
     public function setAmount($Amount)
     {
@@ -74,7 +74,7 @@ class TaxDetail
 
     /**
      * @param typeAirport $OriginAirport
-     * @return \FilippoToso\Travelport\UProfile\TaxDetail
+     * @return \Santosdave\Travelport\UProfile\TaxDetail
      */
     public function setOriginAirport($OriginAirport)
     {
@@ -92,7 +92,7 @@ class TaxDetail
 
     /**
      * @param typeAirport $DestinationAirport
-     * @return \FilippoToso\Travelport\UProfile\TaxDetail
+     * @return \Santosdave\Travelport\UProfile\TaxDetail
      */
     public function setDestinationAirport($DestinationAirport)
     {
@@ -110,7 +110,7 @@ class TaxDetail
 
     /**
      * @param string $CountryCode
-     * @return \FilippoToso\Travelport\UProfile\TaxDetail
+     * @return \Santosdave\Travelport\UProfile\TaxDetail
      */
     public function setCountryCode($CountryCode)
     {
@@ -128,7 +128,7 @@ class TaxDetail
 
     /**
      * @param typeRef $FareInfoRef
-     * @return \FilippoToso\Travelport\UProfile\TaxDetail
+     * @return \Santosdave\Travelport\UProfile\TaxDetail
      */
     public function setFareInfoRef($FareInfoRef)
     {

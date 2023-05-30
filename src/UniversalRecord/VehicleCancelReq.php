@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class VehicleCancelReq extends BaseReq
 {
@@ -89,7 +89,7 @@ class VehicleCancelReq extends BaseReq
 
     /**
      * @param VehicleDateLocation $VehicleDateLocation
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleCancelReq
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleCancelReq
      */
     public function setVehicleDateLocation($VehicleDateLocation)
     {
@@ -107,7 +107,7 @@ class VehicleCancelReq extends BaseReq
 
     /**
      * @param Vehicle $Vehicle
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleCancelReq
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleCancelReq
      */
     public function setVehicle($Vehicle)
     {
@@ -125,7 +125,7 @@ class VehicleCancelReq extends BaseReq
 
     /**
      * @param FileFinishingInfo $FileFinishingInfo
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleCancelReq
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleCancelReq
      */
     public function setFileFinishingInfo($FileFinishingInfo)
     {
@@ -143,7 +143,7 @@ class VehicleCancelReq extends BaseReq
 
     /**
      * @param string $SupplierCode
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleCancelReq
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleCancelReq
      */
     public function setSupplierCode($SupplierCode)
     {
@@ -161,7 +161,7 @@ class VehicleCancelReq extends BaseReq
 
     /**
      * @param string $SupplierLocatorCode
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleCancelReq
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleCancelReq
      */
     public function setSupplierLocatorCode($SupplierLocatorCode)
     {
@@ -179,7 +179,7 @@ class VehicleCancelReq extends BaseReq
 
     /**
      * @param typeURVersion $Version
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleCancelReq
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleCancelReq
      */
     public function setVersion($Version)
     {
@@ -197,7 +197,7 @@ class VehicleCancelReq extends BaseReq
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleCancelReq
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleCancelReq
      */
     public function setProviderCode($ProviderCode)
     {
@@ -215,7 +215,7 @@ class VehicleCancelReq extends BaseReq
 
     /**
      * @param typeProviderLocatorCode $ProviderLocatorCode
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleCancelReq
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleCancelReq
      */
     public function setProviderLocatorCode($ProviderLocatorCode)
     {

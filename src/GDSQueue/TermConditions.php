@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class TermConditions
 {
@@ -35,7 +35,7 @@ class TermConditions
 
     /**
      * @param LanguageOption $LanguageOption
-     * @return \FilippoToso\Travelport\GDSQueue\TermConditions
+     * @return \Santosdave\Travelport\GDSQueue\TermConditions
      */
     public function setLanguageOption($LanguageOption)
     {
@@ -53,7 +53,7 @@ class TermConditions
 
     /**
      * @param boolean $IncludeTermConditions
-     * @return \FilippoToso\Travelport\GDSQueue\TermConditions
+     * @return \Santosdave\Travelport\GDSQueue\TermConditions
      */
     public function setIncludeTermConditions($IncludeTermConditions)
     {

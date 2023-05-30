@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class PreferredSupplier
 {
@@ -35,7 +35,7 @@ class PreferredSupplier
 
     /**
      * @param boolean $Preferred
-     * @return \FilippoToso\Travelport\GDSQueue\PreferredSupplier
+     * @return \Santosdave\Travelport\GDSQueue\PreferredSupplier
      */
     public function setPreferred($Preferred)
     {
@@ -53,7 +53,7 @@ class PreferredSupplier
 
     /**
      * @param typeProfileType $ProfileType
-     * @return \FilippoToso\Travelport\GDSQueue\PreferredSupplier
+     * @return \Santosdave\Travelport\GDSQueue\PreferredSupplier
      */
     public function setProfileType($ProfileType)
     {

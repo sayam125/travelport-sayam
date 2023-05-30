@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class GuestReviews
 {
@@ -28,7 +28,7 @@ class GuestReviews
 
     /**
      * @param Comments[] $Comments
-     * @return \FilippoToso\Travelport\Rail\GuestReviews
+     * @return \Santosdave\Travelport\Rail\GuestReviews
      */
     public function setComments(array $Comments)
     {

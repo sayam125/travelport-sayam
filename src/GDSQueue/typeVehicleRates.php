@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class typeVehicleRates
 {
@@ -91,7 +91,7 @@ class typeVehicleRates
 
     /**
      * @param typeMoney $EstimatedTotalAmount
-     * @return \FilippoToso\Travelport\GDSQueue\typeVehicleRates
+     * @return \Santosdave\Travelport\GDSQueue\typeVehicleRates
      */
     public function setEstimatedTotalAmount($EstimatedTotalAmount)
     {
@@ -109,7 +109,7 @@ class typeVehicleRates
 
     /**
      * @param typeMoney $BaseRate
-     * @return \FilippoToso\Travelport\GDSQueue\typeVehicleRates
+     * @return \Santosdave\Travelport\GDSQueue\typeVehicleRates
      */
     public function setBaseRate($BaseRate)
     {
@@ -127,7 +127,7 @@ class typeVehicleRates
 
     /**
      * @param typeMoney $RateForPeriod
-     * @return \FilippoToso\Travelport\GDSQueue\typeVehicleRates
+     * @return \Santosdave\Travelport\GDSQueue\typeVehicleRates
      */
     public function setRateForPeriod($RateForPeriod)
     {
@@ -145,7 +145,7 @@ class typeVehicleRates
 
     /**
      * @param typeMoney $DropOffCharge
-     * @return \FilippoToso\Travelport\GDSQueue\typeVehicleRates
+     * @return \Santosdave\Travelport\GDSQueue\typeVehicleRates
      */
     public function setDropOffCharge($DropOffCharge)
     {
@@ -163,7 +163,7 @@ class typeVehicleRates
 
     /**
      * @param typeMoney $YoungDriverCharge
-     * @return \FilippoToso\Travelport\GDSQueue\typeVehicleRates
+     * @return \Santosdave\Travelport\GDSQueue\typeVehicleRates
      */
     public function setYoungDriverCharge($YoungDriverCharge)
     {
@@ -181,7 +181,7 @@ class typeVehicleRates
 
     /**
      * @param typeMoney $SeniorDriverCharge
-     * @return \FilippoToso\Travelport\GDSQueue\typeVehicleRates
+     * @return \Santosdave\Travelport\GDSQueue\typeVehicleRates
      */
     public function setSeniorDriverCharge($SeniorDriverCharge)
     {
@@ -199,7 +199,7 @@ class typeVehicleRates
 
     /**
      * @param typeMoney $FuelSurcharge
-     * @return \FilippoToso\Travelport\GDSQueue\typeVehicleRates
+     * @return \Santosdave\Travelport\GDSQueue\typeVehicleRates
      */
     public function setFuelSurcharge($FuelSurcharge)
     {
@@ -217,7 +217,7 @@ class typeVehicleRates
 
     /**
      * @param typeMoney $ExtraMileageCharge
-     * @return \FilippoToso\Travelport\GDSQueue\typeVehicleRates
+     * @return \Santosdave\Travelport\GDSQueue\typeVehicleRates
      */
     public function setExtraMileageCharge($ExtraMileageCharge)
     {
@@ -235,7 +235,7 @@ class typeVehicleRates
 
     /**
      * @param typeMoney $PayNow
-     * @return \FilippoToso\Travelport\GDSQueue\typeVehicleRates
+     * @return \Santosdave\Travelport\GDSQueue\typeVehicleRates
      */
     public function setPayNow($PayNow)
     {
@@ -253,7 +253,7 @@ class typeVehicleRates
 
     /**
      * @param typeMoney $PayLater
-     * @return \FilippoToso\Travelport\GDSQueue\typeVehicleRates
+     * @return \Santosdave\Travelport\GDSQueue\typeVehicleRates
      */
     public function setPayLater($PayLater)
     {

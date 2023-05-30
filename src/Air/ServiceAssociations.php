@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class ServiceAssociations
 {
@@ -28,7 +28,7 @@ class ServiceAssociations
 
     /**
      * @param ApplicableSegment[] $ApplicableSegment
-     * @return \FilippoToso\Travelport\Air\ServiceAssociations
+     * @return \Santosdave\Travelport\Air\ServiceAssociations
      */
     public function setApplicableSegment(array $ApplicableSegment)
     {

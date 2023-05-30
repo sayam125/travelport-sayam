@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class AccountingRemark
 {
@@ -89,7 +89,7 @@ class AccountingRemark
 
     /**
      * @param string $RemarkData
-     * @return \FilippoToso\Travelport\Rail\AccountingRemark
+     * @return \Santosdave\Travelport\Rail\AccountingRemark
      */
     public function setRemarkData($RemarkData)
     {
@@ -107,7 +107,7 @@ class AccountingRemark
 
     /**
      * @param typeRef[] $BookingTravelerRef
-     * @return \FilippoToso\Travelport\Rail\AccountingRemark
+     * @return \Santosdave\Travelport\Rail\AccountingRemark
      */
     public function setBookingTravelerRef(array $BookingTravelerRef = null)
     {
@@ -125,7 +125,7 @@ class AccountingRemark
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Rail\AccountingRemark
+     * @return \Santosdave\Travelport\Rail\AccountingRemark
      */
     public function setKey($Key)
     {
@@ -143,7 +143,7 @@ class AccountingRemark
 
     /**
      * @param anonymous114 $Category
-     * @return \FilippoToso\Travelport\Rail\AccountingRemark
+     * @return \Santosdave\Travelport\Rail\AccountingRemark
      */
     public function setCategory($Category)
     {
@@ -161,7 +161,7 @@ class AccountingRemark
 
     /**
      * @param typeGdsAccountingRemark $TypeInGds
-     * @return \FilippoToso\Travelport\Rail\AccountingRemark
+     * @return \Santosdave\Travelport\Rail\AccountingRemark
      */
     public function setTypeInGds($TypeInGds)
     {
@@ -179,7 +179,7 @@ class AccountingRemark
 
     /**
      * @param typeRef $ProviderReservationInfoRef
-     * @return \FilippoToso\Travelport\Rail\AccountingRemark
+     * @return \Santosdave\Travelport\Rail\AccountingRemark
      */
     public function setProviderReservationInfoRef($ProviderReservationInfoRef)
     {
@@ -197,7 +197,7 @@ class AccountingRemark
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\Rail\AccountingRemark
+     * @return \Santosdave\Travelport\Rail\AccountingRemark
      */
     public function setProviderCode($ProviderCode)
     {
@@ -215,7 +215,7 @@ class AccountingRemark
 
     /**
      * @param boolean $UseProviderNativeMode
-     * @return \FilippoToso\Travelport\Rail\AccountingRemark
+     * @return \Santosdave\Travelport\Rail\AccountingRemark
      */
     public function setUseProviderNativeMode($UseProviderNativeMode)
     {
@@ -233,7 +233,7 @@ class AccountingRemark
 
     /**
      * @param typeElementStatus $ElStat
-     * @return \FilippoToso\Travelport\Rail\AccountingRemark
+     * @return \Santosdave\Travelport\Rail\AccountingRemark
      */
     public function setElStat($ElStat)
     {
@@ -251,7 +251,7 @@ class AccountingRemark
 
     /**
      * @param boolean $KeyOverride
-     * @return \FilippoToso\Travelport\Rail\AccountingRemark
+     * @return \Santosdave\Travelport\Rail\AccountingRemark
      */
     public function setKeyOverride($KeyOverride)
     {

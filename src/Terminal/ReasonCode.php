@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Terminal;
+namespace Santosdave\Travelport\Terminal;
 
 class ReasonCode
 {
@@ -38,7 +38,7 @@ class ReasonCode
 
     /**
      * @param string $OutOfPolicy
-     * @return \FilippoToso\Travelport\Terminal\ReasonCode
+     * @return \Santosdave\Travelport\Terminal\ReasonCode
      */
     public function setOutOfPolicy($OutOfPolicy)
     {
@@ -56,7 +56,7 @@ class ReasonCode
 
     /**
      * @param string $PurposeOfTrip
-     * @return \FilippoToso\Travelport\Terminal\ReasonCode
+     * @return \Santosdave\Travelport\Terminal\ReasonCode
      */
     public function setPurposeOfTrip($PurposeOfTrip)
     {
@@ -74,7 +74,7 @@ class ReasonCode
 
     /**
      * @param Remark $Remark
-     * @return \FilippoToso\Travelport\Terminal\ReasonCode
+     * @return \Santosdave\Travelport\Terminal\ReasonCode
      */
     public function setRemark($Remark)
     {

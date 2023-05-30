@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class AirPricingSolution
 {
@@ -236,7 +236,7 @@ class AirPricingSolution
 
     /**
      * @param typeBaseAirSegment $AirSegment
-     * @return \FilippoToso\Travelport\Air\AirPricingSolution
+     * @return \Santosdave\Travelport\Air\AirPricingSolution
      */
     public function setAirSegment($AirSegment)
     {
@@ -254,7 +254,7 @@ class AirPricingSolution
 
     /**
      * @param AirSegmentRef $AirSegmentRef
-     * @return \FilippoToso\Travelport\Air\AirPricingSolution
+     * @return \Santosdave\Travelport\Air\AirPricingSolution
      */
     public function setAirSegmentRef($AirSegmentRef)
     {
@@ -272,7 +272,7 @@ class AirPricingSolution
 
     /**
      * @param Journey $Journey
-     * @return \FilippoToso\Travelport\Air\AirPricingSolution
+     * @return \Santosdave\Travelport\Air\AirPricingSolution
      */
     public function setJourney($Journey)
     {
@@ -290,7 +290,7 @@ class AirPricingSolution
 
     /**
      * @param LegRef $LegRef
-     * @return \FilippoToso\Travelport\Air\AirPricingSolution
+     * @return \Santosdave\Travelport\Air\AirPricingSolution
      */
     public function setLegRef($LegRef)
     {
@@ -308,7 +308,7 @@ class AirPricingSolution
 
     /**
      * @param AirPricingInfo $AirPricingInfo
-     * @return \FilippoToso\Travelport\Air\AirPricingSolution
+     * @return \Santosdave\Travelport\Air\AirPricingSolution
      */
     public function setAirPricingInfo($AirPricingInfo)
     {
@@ -326,7 +326,7 @@ class AirPricingSolution
 
     /**
      * @param FareNote $FareNote
-     * @return \FilippoToso\Travelport\Air\AirPricingSolution
+     * @return \Santosdave\Travelport\Air\AirPricingSolution
      */
     public function setFareNote($FareNote)
     {
@@ -344,7 +344,7 @@ class AirPricingSolution
 
     /**
      * @param FareNoteRef $FareNoteRef
-     * @return \FilippoToso\Travelport\Air\AirPricingSolution
+     * @return \Santosdave\Travelport\Air\AirPricingSolution
      */
     public function setFareNoteRef($FareNoteRef)
     {
@@ -362,7 +362,7 @@ class AirPricingSolution
 
     /**
      * @param Connection $Connection
-     * @return \FilippoToso\Travelport\Air\AirPricingSolution
+     * @return \Santosdave\Travelport\Air\AirPricingSolution
      */
     public function setConnection($Connection)
     {
@@ -380,7 +380,7 @@ class AirPricingSolution
 
     /**
      * @param MetaData $MetaData
-     * @return \FilippoToso\Travelport\Air\AirPricingSolution
+     * @return \Santosdave\Travelport\Air\AirPricingSolution
      */
     public function setMetaData($MetaData)
     {
@@ -398,7 +398,7 @@ class AirPricingSolution
 
     /**
      * @param typeResultMessage[] $AirPricingResultMessage
-     * @return \FilippoToso\Travelport\Air\AirPricingSolution
+     * @return \Santosdave\Travelport\Air\AirPricingSolution
      */
     public function setAirPricingResultMessage(array $AirPricingResultMessage = null)
     {
@@ -416,7 +416,7 @@ class AirPricingSolution
 
     /**
      * @param typeFeeInfo $FeeInfo
-     * @return \FilippoToso\Travelport\Air\AirPricingSolution
+     * @return \Santosdave\Travelport\Air\AirPricingSolution
      */
     public function setFeeInfo($FeeInfo)
     {
@@ -434,7 +434,7 @@ class AirPricingSolution
 
     /**
      * @param typeTaxInfo $TaxInfo
-     * @return \FilippoToso\Travelport\Air\AirPricingSolution
+     * @return \Santosdave\Travelport\Air\AirPricingSolution
      */
     public function setTaxInfo($TaxInfo)
     {
@@ -452,7 +452,7 @@ class AirPricingSolution
 
     /**
      * @param AirItinerarySolutionRef $AirItinerarySolutionRef
-     * @return \FilippoToso\Travelport\Air\AirPricingSolution
+     * @return \Santosdave\Travelport\Air\AirPricingSolution
      */
     public function setAirItinerarySolutionRef($AirItinerarySolutionRef)
     {
@@ -470,7 +470,7 @@ class AirPricingSolution
 
     /**
      * @param HostToken $HostToken
-     * @return \FilippoToso\Travelport\Air\AirPricingSolution
+     * @return \Santosdave\Travelport\Air\AirPricingSolution
      */
     public function setHostToken($HostToken)
     {
@@ -488,7 +488,7 @@ class AirPricingSolution
 
     /**
      * @param OptionalServices $OptionalServices
-     * @return \FilippoToso\Travelport\Air\AirPricingSolution
+     * @return \Santosdave\Travelport\Air\AirPricingSolution
      */
     public function setOptionalServices($OptionalServices)
     {
@@ -506,7 +506,7 @@ class AirPricingSolution
 
     /**
      * @param AvailableSSR $AvailableSSR
-     * @return \FilippoToso\Travelport\Air\AirPricingSolution
+     * @return \Santosdave\Travelport\Air\AirPricingSolution
      */
     public function setAvailableSSR($AvailableSSR)
     {
@@ -524,7 +524,7 @@ class AirPricingSolution
 
     /**
      * @param PricingDetails $PricingDetails
-     * @return \FilippoToso\Travelport\Air\AirPricingSolution
+     * @return \Santosdave\Travelport\Air\AirPricingSolution
      */
     public function setPricingDetails($PricingDetails)
     {
@@ -542,7 +542,7 @@ class AirPricingSolution
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Air\AirPricingSolution
+     * @return \Santosdave\Travelport\Air\AirPricingSolution
      */
     public function setKey($Key)
     {
@@ -560,7 +560,7 @@ class AirPricingSolution
 
     /**
      * @param boolean $CompleteItinerary
-     * @return \FilippoToso\Travelport\Air\AirPricingSolution
+     * @return \Santosdave\Travelport\Air\AirPricingSolution
      */
     public function setCompleteItinerary($CompleteItinerary)
     {
@@ -578,7 +578,7 @@ class AirPricingSolution
 
     /**
      * @param date $QuoteDate
-     * @return \FilippoToso\Travelport\Air\AirPricingSolution
+     * @return \Santosdave\Travelport\Air\AirPricingSolution
      */
     public function setQuoteDate($QuoteDate)
     {
@@ -596,7 +596,7 @@ class AirPricingSolution
 
     /**
      * @param anonymous702 $Itinerary
-     * @return \FilippoToso\Travelport\Air\AirPricingSolution
+     * @return \Santosdave\Travelport\Air\AirPricingSolution
      */
     public function setItinerary($Itinerary)
     {
@@ -614,7 +614,7 @@ class AirPricingSolution
 
     /**
      * @param typeMoney $TotalPrice
-     * @return \FilippoToso\Travelport\Air\AirPricingSolution
+     * @return \Santosdave\Travelport\Air\AirPricingSolution
      */
     public function setTotalPrice($TotalPrice)
     {
@@ -632,7 +632,7 @@ class AirPricingSolution
 
     /**
      * @param typeMoney $BasePrice
-     * @return \FilippoToso\Travelport\Air\AirPricingSolution
+     * @return \Santosdave\Travelport\Air\AirPricingSolution
      */
     public function setBasePrice($BasePrice)
     {
@@ -650,7 +650,7 @@ class AirPricingSolution
 
     /**
      * @param typeMoney $ApproximateTotalPrice
-     * @return \FilippoToso\Travelport\Air\AirPricingSolution
+     * @return \Santosdave\Travelport\Air\AirPricingSolution
      */
     public function setApproximateTotalPrice($ApproximateTotalPrice)
     {
@@ -668,7 +668,7 @@ class AirPricingSolution
 
     /**
      * @param typeMoney $ApproximateBasePrice
-     * @return \FilippoToso\Travelport\Air\AirPricingSolution
+     * @return \Santosdave\Travelport\Air\AirPricingSolution
      */
     public function setApproximateBasePrice($ApproximateBasePrice)
     {
@@ -686,7 +686,7 @@ class AirPricingSolution
 
     /**
      * @param typeMoney $EquivalentBasePrice
-     * @return \FilippoToso\Travelport\Air\AirPricingSolution
+     * @return \Santosdave\Travelport\Air\AirPricingSolution
      */
     public function setEquivalentBasePrice($EquivalentBasePrice)
     {
@@ -704,7 +704,7 @@ class AirPricingSolution
 
     /**
      * @param typeMoney $Taxes
-     * @return \FilippoToso\Travelport\Air\AirPricingSolution
+     * @return \Santosdave\Travelport\Air\AirPricingSolution
      */
     public function setTaxes($Taxes)
     {
@@ -722,7 +722,7 @@ class AirPricingSolution
 
     /**
      * @param typeMoney $Fees
-     * @return \FilippoToso\Travelport\Air\AirPricingSolution
+     * @return \Santosdave\Travelport\Air\AirPricingSolution
      */
     public function setFees($Fees)
     {
@@ -740,7 +740,7 @@ class AirPricingSolution
 
     /**
      * @param typeMoney $Services
-     * @return \FilippoToso\Travelport\Air\AirPricingSolution
+     * @return \Santosdave\Travelport\Air\AirPricingSolution
      */
     public function setServices($Services)
     {
@@ -758,7 +758,7 @@ class AirPricingSolution
 
     /**
      * @param typeMoney $ApproximateTaxes
-     * @return \FilippoToso\Travelport\Air\AirPricingSolution
+     * @return \Santosdave\Travelport\Air\AirPricingSolution
      */
     public function setApproximateTaxes($ApproximateTaxes)
     {
@@ -776,7 +776,7 @@ class AirPricingSolution
 
     /**
      * @param typeMoney $ApproximateFees
-     * @return \FilippoToso\Travelport\Air\AirPricingSolution
+     * @return \Santosdave\Travelport\Air\AirPricingSolution
      */
     public function setApproximateFees($ApproximateFees)
     {

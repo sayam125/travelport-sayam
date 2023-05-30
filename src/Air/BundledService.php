@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class BundledService
 {
@@ -70,7 +70,7 @@ class BundledService
 
     /**
      * @param typeCarrier $Carrier
-     * @return \FilippoToso\Travelport\Air\BundledService
+     * @return \Santosdave\Travelport\Air\BundledService
      */
     public function setCarrier($Carrier)
     {
@@ -88,7 +88,7 @@ class BundledService
 
     /**
      * @param boolean $CarrierSubCode
-     * @return \FilippoToso\Travelport\Air\BundledService
+     * @return \Santosdave\Travelport\Air\BundledService
      */
     public function setCarrierSubCode($CarrierSubCode)
     {
@@ -106,7 +106,7 @@ class BundledService
 
     /**
      * @param string $ServiceType
-     * @return \FilippoToso\Travelport\Air\BundledService
+     * @return \Santosdave\Travelport\Air\BundledService
      */
     public function setServiceType($ServiceType)
     {
@@ -124,7 +124,7 @@ class BundledService
 
     /**
      * @param string $ServiceSubCode
-     * @return \FilippoToso\Travelport\Air\BundledService
+     * @return \Santosdave\Travelport\Air\BundledService
      */
     public function setServiceSubCode($ServiceSubCode)
     {
@@ -142,7 +142,7 @@ class BundledService
 
     /**
      * @param string $Name
-     * @return \FilippoToso\Travelport\Air\BundledService
+     * @return \Santosdave\Travelport\Air\BundledService
      */
     public function setName($Name)
     {
@@ -160,7 +160,7 @@ class BundledService
 
     /**
      * @param anonymous908 $Booking
-     * @return \FilippoToso\Travelport\Air\BundledService
+     * @return \Santosdave\Travelport\Air\BundledService
      */
     public function setBooking($Booking)
     {
@@ -178,7 +178,7 @@ class BundledService
 
     /**
      * @param int $Occurrence
-     * @return \FilippoToso\Travelport\Air\BundledService
+     * @return \Santosdave\Travelport\Air\BundledService
      */
     public function setOccurrence($Occurrence)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class BridgeBranch
 {
@@ -49,7 +49,7 @@ class BridgeBranch
 
     /**
      * @param typeProfileID $ProfileID
-     * @return \FilippoToso\Travelport\UProfile\BridgeBranch
+     * @return \Santosdave\Travelport\UProfile\BridgeBranch
      */
     public function setProfileID($ProfileID)
     {
@@ -67,7 +67,7 @@ class BridgeBranch
 
     /**
      * @param typeProvisioningCode $BranchCode
-     * @return \FilippoToso\Travelport\UProfile\BridgeBranch
+     * @return \Santosdave\Travelport\UProfile\BridgeBranch
      */
     public function setBranchCode($BranchCode)
     {
@@ -85,7 +85,7 @@ class BridgeBranch
 
     /**
      * @param StringLength1to128 $Name
-     * @return \FilippoToso\Travelport\UProfile\BridgeBranch
+     * @return \Santosdave\Travelport\UProfile\BridgeBranch
      */
     public function setName($Name)
     {
@@ -103,7 +103,7 @@ class BridgeBranch
 
     /**
      * @param boolean $Default
-     * @return \FilippoToso\Travelport\UProfile\BridgeBranch
+     * @return \Santosdave\Travelport\UProfile\BridgeBranch
      */
     public function setDefault($Default)
     {

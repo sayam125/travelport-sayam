@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class RetrieveLowFareSearchReq extends BaseReq
 {
@@ -47,7 +47,7 @@ class RetrieveLowFareSearchReq extends BaseReq
 
     /**
      * @param typeLowFareSearchId $SearchId
-     * @return \FilippoToso\Travelport\Air\RetrieveLowFareSearchReq
+     * @return \Santosdave\Travelport\Air\RetrieveLowFareSearchReq
      */
     public function setSearchId($SearchId)
     {
@@ -65,7 +65,7 @@ class RetrieveLowFareSearchReq extends BaseReq
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\Air\RetrieveLowFareSearchReq
+     * @return \Santosdave\Travelport\Air\RetrieveLowFareSearchReq
      */
     public function setProviderCode($ProviderCode)
     {

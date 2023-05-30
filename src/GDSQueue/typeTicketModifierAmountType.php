@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class typeTicketModifierAmountType
 {
@@ -28,7 +28,7 @@ class typeTicketModifierAmountType
 
     /**
      * @param typeMoney $Amount
-     * @return \FilippoToso\Travelport\GDSQueue\typeTicketModifierAmountType
+     * @return \Santosdave\Travelport\GDSQueue\typeTicketModifierAmountType
      */
     public function setAmount($Amount)
     {

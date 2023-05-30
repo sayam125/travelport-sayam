@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class BridgeBranchCmd
 {
@@ -35,7 +35,7 @@ class BridgeBranchCmd
 
     /**
      * @param typeBridgeBranchCmd $BridgeBranchAdd
-     * @return \FilippoToso\Travelport\UProfile\BridgeBranchCmd
+     * @return \Santosdave\Travelport\UProfile\BridgeBranchCmd
      */
     public function setBridgeBranchAdd($BridgeBranchAdd)
     {
@@ -53,7 +53,7 @@ class BridgeBranchCmd
 
     /**
      * @param typeBridgeBranchCmd $BridgeBranchDelete
-     * @return \FilippoToso\Travelport\UProfile\BridgeBranchCmd
+     * @return \Santosdave\Travelport\UProfile\BridgeBranchCmd
      */
     public function setBridgeBranchDelete($BridgeBranchDelete)
     {

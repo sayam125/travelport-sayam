@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class LocationInformation
 {
@@ -54,7 +54,7 @@ class LocationInformation
 
     /**
      * @param typeStructuredAddress $Address
-     * @return \FilippoToso\Travelport\GDSQueue\LocationInformation
+     * @return \Santosdave\Travelport\GDSQueue\LocationInformation
      */
     public function setAddress($Address)
     {
@@ -72,7 +72,7 @@ class LocationInformation
 
     /**
      * @param typeVehicleLocation $LocationType
-     * @return \FilippoToso\Travelport\GDSQueue\LocationInformation
+     * @return \Santosdave\Travelport\GDSQueue\LocationInformation
      */
     public function setLocationType($LocationType)
     {
@@ -90,7 +90,7 @@ class LocationInformation
 
     /**
      * @param string $AreaGroup
-     * @return \FilippoToso\Travelport\GDSQueue\LocationInformation
+     * @return \Santosdave\Travelport\GDSQueue\LocationInformation
      */
     public function setAreaGroup($AreaGroup)
     {
@@ -108,7 +108,7 @@ class LocationInformation
 
     /**
      * @param typeIATACode $Location
-     * @return \FilippoToso\Travelport\GDSQueue\LocationInformation
+     * @return \Santosdave\Travelport\GDSQueue\LocationInformation
      */
     public function setLocation($Location)
     {
@@ -126,7 +126,7 @@ class LocationInformation
 
     /**
      * @param typeAreaInfo $AreaType
-     * @return \FilippoToso\Travelport\GDSQueue\LocationInformation
+     * @return \Santosdave\Travelport\GDSQueue\LocationInformation
      */
     public function setAreaType($AreaType)
     {

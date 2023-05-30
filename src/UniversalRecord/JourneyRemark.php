@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class JourneyRemark
 {
@@ -35,7 +35,7 @@ class JourneyRemark
 
     /**
      * @param string $_
-     * @return \FilippoToso\Travelport\UniversalRecord\JourneyRemark
+     * @return \Santosdave\Travelport\UniversalRecord\JourneyRemark
      */
     public function set_($_)
     {
@@ -53,7 +53,7 @@ class JourneyRemark
 
     /**
      * @param string $Category
-     * @return \FilippoToso\Travelport\UniversalRecord\JourneyRemark
+     * @return \Santosdave\Travelport\UniversalRecord\JourneyRemark
      */
     public function setCategory($Category)
     {

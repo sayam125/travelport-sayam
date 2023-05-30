@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class MctQuery
 {
@@ -28,7 +28,7 @@ class MctQuery
 
     /**
      * @param typeBaseAirSegment $AirSegment
-     * @return \FilippoToso\Travelport\Util\MctQuery
+     * @return \Santosdave\Travelport\Util\MctQuery
      */
     public function setAirSegment($AirSegment)
     {

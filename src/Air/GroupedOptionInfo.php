@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class GroupedOptionInfo
 {
@@ -28,7 +28,7 @@ class GroupedOptionInfo
 
     /**
      * @param GroupedOption $GroupedOption
-     * @return \FilippoToso\Travelport\Air\GroupedOptionInfo
+     * @return \Santosdave\Travelport\Air\GroupedOptionInfo
      */
     public function setGroupedOption($GroupedOption)
     {

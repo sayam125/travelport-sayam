@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class ExtraChild
 {
@@ -35,7 +35,7 @@ class ExtraChild
 
     /**
      * @param int $Count
-     * @return \FilippoToso\Travelport\UniversalRecord\ExtraChild
+     * @return \Santosdave\Travelport\UniversalRecord\ExtraChild
      */
     public function setCount($Count)
     {
@@ -53,7 +53,7 @@ class ExtraChild
 
     /**
      * @param string $Content
-     * @return \FilippoToso\Travelport\UniversalRecord\ExtraChild
+     * @return \Santosdave\Travelport\UniversalRecord\ExtraChild
      */
     public function setContent($Content)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class Charges
 {
@@ -70,7 +70,7 @@ class Charges
 
     /**
      * @param typeMoney $AirCharge
-     * @return \FilippoToso\Travelport\UniversalRecord\Charges
+     * @return \Santosdave\Travelport\UniversalRecord\Charges
      */
     public function setAirCharge($AirCharge)
     {
@@ -88,7 +88,7 @@ class Charges
 
     /**
      * @param typeMoney $OptionalCharge
-     * @return \FilippoToso\Travelport\UniversalRecord\Charges
+     * @return \Santosdave\Travelport\UniversalRecord\Charges
      */
     public function setOptionalCharge($OptionalCharge)
     {
@@ -106,7 +106,7 @@ class Charges
 
     /**
      * @param typeMoney $WaiverCharge
-     * @return \FilippoToso\Travelport\UniversalRecord\Charges
+     * @return \Santosdave\Travelport\UniversalRecord\Charges
      */
     public function setWaiverCharge($WaiverCharge)
     {
@@ -124,7 +124,7 @@ class Charges
 
     /**
      * @param StringLength1 $WaiverChargeType
-     * @return \FilippoToso\Travelport\UniversalRecord\Charges
+     * @return \Santosdave\Travelport\UniversalRecord\Charges
      */
     public function setWaiverChargeType($WaiverChargeType)
     {
@@ -142,7 +142,7 @@ class Charges
 
     /**
      * @param typeMoney $PortCharge
-     * @return \FilippoToso\Travelport\UniversalRecord\Charges
+     * @return \Santosdave\Travelport\UniversalRecord\Charges
      */
     public function setPortCharge($PortCharge)
     {
@@ -160,7 +160,7 @@ class Charges
 
     /**
      * @param StringLength1to13 $PortChargeDescription
-     * @return \FilippoToso\Travelport\UniversalRecord\Charges
+     * @return \Santosdave\Travelport\UniversalRecord\Charges
      */
     public function setPortChargeDescription($PortChargeDescription)
     {
@@ -178,7 +178,7 @@ class Charges
 
     /**
      * @param typeMoney $PenaltyCharge
-     * @return \FilippoToso\Travelport\UniversalRecord\Charges
+     * @return \Santosdave\Travelport\UniversalRecord\Charges
      */
     public function setPenaltyCharge($PenaltyCharge)
     {

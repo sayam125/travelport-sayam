@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class AirRetrieveDocumentRsp extends BaseRsp
 {
@@ -67,7 +67,7 @@ class AirRetrieveDocumentRsp extends BaseRsp
 
     /**
      * @param ETR $ETR
-     * @return \FilippoToso\Travelport\Air\AirRetrieveDocumentRsp
+     * @return \Santosdave\Travelport\Air\AirRetrieveDocumentRsp
      */
     public function setETR($ETR)
     {
@@ -85,7 +85,7 @@ class AirRetrieveDocumentRsp extends BaseRsp
 
     /**
      * @param MCO $MCO
-     * @return \FilippoToso\Travelport\Air\AirRetrieveDocumentRsp
+     * @return \Santosdave\Travelport\Air\AirRetrieveDocumentRsp
      */
     public function setMCO($MCO)
     {
@@ -103,7 +103,7 @@ class AirRetrieveDocumentRsp extends BaseRsp
 
     /**
      * @param TCR $TCR
-     * @return \FilippoToso\Travelport\Air\AirRetrieveDocumentRsp
+     * @return \Santosdave\Travelport\Air\AirRetrieveDocumentRsp
      */
     public function setTCR($TCR)
     {
@@ -121,7 +121,7 @@ class AirRetrieveDocumentRsp extends BaseRsp
 
     /**
      * @param typeFailureInfo[] $DocumentFailureInfo
-     * @return \FilippoToso\Travelport\Air\AirRetrieveDocumentRsp
+     * @return \Santosdave\Travelport\Air\AirRetrieveDocumentRsp
      */
     public function setDocumentFailureInfo(array $DocumentFailureInfo = null)
     {
@@ -139,7 +139,7 @@ class AirRetrieveDocumentRsp extends BaseRsp
 
     /**
      * @param ServiceFeeInfo $ServiceFeeInfo
-     * @return \FilippoToso\Travelport\Air\AirRetrieveDocumentRsp
+     * @return \Santosdave\Travelport\Air\AirRetrieveDocumentRsp
      */
     public function setServiceFeeInfo($ServiceFeeInfo)
     {
@@ -157,7 +157,7 @@ class AirRetrieveDocumentRsp extends BaseRsp
 
     /**
      * @param typeLocatorCode $UniversalRecordLocatorCode
-     * @return \FilippoToso\Travelport\Air\AirRetrieveDocumentRsp
+     * @return \Santosdave\Travelport\Air\AirRetrieveDocumentRsp
      */
     public function setUniversalRecordLocatorCode($UniversalRecordLocatorCode)
     {

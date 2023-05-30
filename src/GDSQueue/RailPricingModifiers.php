@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class RailPricingModifiers
 {
@@ -56,7 +56,7 @@ class RailPricingModifiers
 
     /**
      * @param DiscountCard $DiscountCard
-     * @return \FilippoToso\Travelport\GDSQueue\RailPricingModifiers
+     * @return \Santosdave\Travelport\GDSQueue\RailPricingModifiers
      */
     public function setDiscountCard($DiscountCard)
     {
@@ -74,7 +74,7 @@ class RailPricingModifiers
 
     /**
      * @param boolean $ProhibitNonRefundableFares
-     * @return \FilippoToso\Travelport\GDSQueue\RailPricingModifiers
+     * @return \Santosdave\Travelport\GDSQueue\RailPricingModifiers
      */
     public function setProhibitNonRefundableFares($ProhibitNonRefundableFares)
     {
@@ -92,7 +92,7 @@ class RailPricingModifiers
 
     /**
      * @param boolean $ProhibitNonExchangeableFares
-     * @return \FilippoToso\Travelport\GDSQueue\RailPricingModifiers
+     * @return \Santosdave\Travelport\GDSQueue\RailPricingModifiers
      */
     public function setProhibitNonExchangeableFares($ProhibitNonExchangeableFares)
     {
@@ -110,7 +110,7 @@ class RailPricingModifiers
 
     /**
      * @param typeCurrency $CurrencyType
-     * @return \FilippoToso\Travelport\GDSQueue\RailPricingModifiers
+     * @return \Santosdave\Travelport\GDSQueue\RailPricingModifiers
      */
     public function setCurrencyType($CurrencyType)
     {
@@ -128,7 +128,7 @@ class RailPricingModifiers
 
     /**
      * @param typeRailSearchType $RailSearchType
-     * @return \FilippoToso\Travelport\GDSQueue\RailPricingModifiers
+     * @return \Santosdave\Travelport\GDSQueue\RailPricingModifiers
      */
     public function setRailSearchType($RailSearchType)
     {

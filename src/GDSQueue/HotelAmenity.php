@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class HotelAmenity
 {
@@ -35,7 +35,7 @@ class HotelAmenity
 
     /**
      * @param typeAmenityLevel $Level
-     * @return \FilippoToso\Travelport\GDSQueue\HotelAmenity
+     * @return \Santosdave\Travelport\GDSQueue\HotelAmenity
      */
     public function setLevel($Level)
     {
@@ -53,7 +53,7 @@ class HotelAmenity
 
     /**
      * @param typeAmenityCode $AmenityCode
-     * @return \FilippoToso\Travelport\GDSQueue\HotelAmenity
+     * @return \Santosdave\Travelport\GDSQueue\HotelAmenity
      */
     public function setAmenityCode($AmenityCode)
     {

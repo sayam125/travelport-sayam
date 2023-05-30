@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class ModifyRule
 {
@@ -63,7 +63,7 @@ class ModifyRule
 
     /**
      * @param ModificationType $Modification
-     * @return \FilippoToso\Travelport\UProfile\ModifyRule
+     * @return \Santosdave\Travelport\UProfile\ModifyRule
      */
     public function setModification($Modification)
     {
@@ -81,7 +81,7 @@ class ModifyRule
 
     /**
      * @param boolean $AutomaticallyAppliedOnAdd
-     * @return \FilippoToso\Travelport\UProfile\ModifyRule
+     * @return \Santosdave\Travelport\UProfile\ModifyRule
      */
     public function setAutomaticallyAppliedOnAdd($AutomaticallyAppliedOnAdd)
     {
@@ -99,7 +99,7 @@ class ModifyRule
 
     /**
      * @param boolean $CanDelete
-     * @return \FilippoToso\Travelport\UProfile\ModifyRule
+     * @return \Santosdave\Travelport\UProfile\ModifyRule
      */
     public function setCanDelete($CanDelete)
     {
@@ -117,7 +117,7 @@ class ModifyRule
 
     /**
      * @param boolean $CanAdd
-     * @return \FilippoToso\Travelport\UProfile\ModifyRule
+     * @return \Santosdave\Travelport\UProfile\ModifyRule
      */
     public function setCanAdd($CanAdd)
     {
@@ -135,7 +135,7 @@ class ModifyRule
 
     /**
      * @param boolean $Refundable
-     * @return \FilippoToso\Travelport\UProfile\ModifyRule
+     * @return \Santosdave\Travelport\UProfile\ModifyRule
      */
     public function setRefundable($Refundable)
     {
@@ -153,7 +153,7 @@ class ModifyRule
 
     /**
      * @param string $ProviderDefinedModificationType
-     * @return \FilippoToso\Travelport\UProfile\ModifyRule
+     * @return \Santosdave\Travelport\UProfile\ModifyRule
      */
     public function setProviderDefinedModificationType($ProviderDefinedModificationType)
     {

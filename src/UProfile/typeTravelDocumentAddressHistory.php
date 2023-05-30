@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeTravelDocumentAddressHistory
 {
@@ -63,7 +63,7 @@ class typeTravelDocumentAddressHistory
 
     /**
      * @param StringLength1to128 $AddressLine
-     * @return \FilippoToso\Travelport\UProfile\typeTravelDocumentAddressHistory
+     * @return \Santosdave\Travelport\UProfile\typeTravelDocumentAddressHistory
      */
     public function setAddressLine($AddressLine)
     {
@@ -81,7 +81,7 @@ class typeTravelDocumentAddressHistory
 
     /**
      * @param StringLength1to128 $State
-     * @return \FilippoToso\Travelport\UProfile\typeTravelDocumentAddressHistory
+     * @return \Santosdave\Travelport\UProfile\typeTravelDocumentAddressHistory
      */
     public function setState($State)
     {
@@ -99,7 +99,7 @@ class typeTravelDocumentAddressHistory
 
     /**
      * @param StringLength1to128 $OtherStateProvince
-     * @return \FilippoToso\Travelport\UProfile\typeTravelDocumentAddressHistory
+     * @return \Santosdave\Travelport\UProfile\typeTravelDocumentAddressHistory
      */
     public function setOtherStateProvince($OtherStateProvince)
     {
@@ -117,7 +117,7 @@ class typeTravelDocumentAddressHistory
 
     /**
      * @param StringLength1to128 $Country
-     * @return \FilippoToso\Travelport\UProfile\typeTravelDocumentAddressHistory
+     * @return \Santosdave\Travelport\UProfile\typeTravelDocumentAddressHistory
      */
     public function setCountry($Country)
     {
@@ -135,7 +135,7 @@ class typeTravelDocumentAddressHistory
 
     /**
      * @param anonymous733 $Postal
-     * @return \FilippoToso\Travelport\UProfile\typeTravelDocumentAddressHistory
+     * @return \Santosdave\Travelport\UProfile\typeTravelDocumentAddressHistory
      */
     public function setPostal($Postal)
     {
@@ -153,7 +153,7 @@ class typeTravelDocumentAddressHistory
 
     /**
      * @param anonymous734 $City
-     * @return \FilippoToso\Travelport\UProfile\typeTravelDocumentAddressHistory
+     * @return \Santosdave\Travelport\UProfile\typeTravelDocumentAddressHistory
      */
     public function setCity($City)
     {

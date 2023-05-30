@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class AirExchangeBundleList
 {
@@ -28,7 +28,7 @@ class AirExchangeBundleList
 
     /**
      * @param AirExchangeBundle $AirExchangeBundle
-     * @return \FilippoToso\Travelport\Util\AirExchangeBundleList
+     * @return \Santosdave\Travelport\Util\AirExchangeBundleList
      */
     public function setAirExchangeBundle($AirExchangeBundle)
     {

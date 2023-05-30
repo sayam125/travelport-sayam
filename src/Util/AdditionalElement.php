@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class AdditionalElement
 {
@@ -35,7 +35,7 @@ class AdditionalElement
 
     /**
      * @param string $Name
-     * @return \FilippoToso\Travelport\Util\AdditionalElement
+     * @return \Santosdave\Travelport\Util\AdditionalElement
      */
     public function setName($Name)
     {
@@ -53,7 +53,7 @@ class AdditionalElement
 
     /**
      * @param string $Value
-     * @return \FilippoToso\Travelport\Util\AdditionalElement
+     * @return \Santosdave\Travelport\Util\AdditionalElement
      */
     public function setValue($Value)
     {

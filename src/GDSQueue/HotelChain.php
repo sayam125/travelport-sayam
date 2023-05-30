@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class HotelChain
 {
@@ -28,7 +28,7 @@ class HotelChain
 
     /**
      * @param typeHotelChainCode $Code
-     * @return \FilippoToso\Travelport\GDSQueue\HotelChain
+     * @return \Santosdave\Travelport\GDSQueue\HotelChain
      */
     public function setCode($Code)
     {

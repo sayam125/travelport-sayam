@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class Restriction
 {
@@ -35,7 +35,7 @@ class Restriction
 
     /**
      * @param DaysOfWeekRestriction $DaysOfWeekRestriction
-     * @return \FilippoToso\Travelport\GDSQueue\Restriction
+     * @return \Santosdave\Travelport\GDSQueue\Restriction
      */
     public function setDaysOfWeekRestriction($DaysOfWeekRestriction)
     {
@@ -53,7 +53,7 @@ class Restriction
 
     /**
      * @param RestrictionPassengerTypes $RestrictionPassengerTypes
-     * @return \FilippoToso\Travelport\GDSQueue\Restriction
+     * @return \Santosdave\Travelport\GDSQueue\Restriction
      */
     public function setRestrictionPassengerTypes($RestrictionPassengerTypes)
     {

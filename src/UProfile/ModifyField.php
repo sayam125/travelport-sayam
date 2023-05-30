@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class ModifyField extends typeStringRestriction
 {
@@ -152,7 +152,7 @@ class ModifyField extends typeStringRestriction
 
     /**
      * @param FreeformTextRestriction $FreeformTextRestriction
-     * @return \FilippoToso\Travelport\UProfile\ModifyField
+     * @return \Santosdave\Travelport\UProfile\ModifyField
      */
     public function setFreeformTextRestriction($FreeformTextRestriction)
     {
@@ -170,7 +170,7 @@ class ModifyField extends typeStringRestriction
 
     /**
      * @param WholeNumberRestriction $WholeNumberRestriction
-     * @return \FilippoToso\Travelport\UProfile\ModifyField
+     * @return \Santosdave\Travelport\UProfile\ModifyField
      */
     public function setWholeNumberRestriction($WholeNumberRestriction)
     {
@@ -188,7 +188,7 @@ class ModifyField extends typeStringRestriction
 
     /**
      * @param DecimalRestriction $DecimalRestriction
-     * @return \FilippoToso\Travelport\UProfile\ModifyField
+     * @return \Santosdave\Travelport\UProfile\ModifyField
      */
     public function setDecimalRestriction($DecimalRestriction)
     {
@@ -206,7 +206,7 @@ class ModifyField extends typeStringRestriction
 
     /**
      * @param TextRestriction $TextRestriction
-     * @return \FilippoToso\Travelport\UProfile\ModifyField
+     * @return \Santosdave\Travelport\UProfile\ModifyField
      */
     public function setTextRestriction($TextRestriction)
     {
@@ -224,7 +224,7 @@ class ModifyField extends typeStringRestriction
 
     /**
      * @param AlphaNumericRestriction $AlphaNumericRestriction
-     * @return \FilippoToso\Travelport\UProfile\ModifyField
+     * @return \Santosdave\Travelport\UProfile\ModifyField
      */
     public function setAlphaNumericRestriction($AlphaNumericRestriction)
     {
@@ -242,7 +242,7 @@ class ModifyField extends typeStringRestriction
 
     /**
      * @param PercentageRestriction $PercentageRestriction
-     * @return \FilippoToso\Travelport\UProfile\ModifyField
+     * @return \Santosdave\Travelport\UProfile\ModifyField
      */
     public function setPercentageRestriction($PercentageRestriction)
     {
@@ -260,7 +260,7 @@ class ModifyField extends typeStringRestriction
 
     /**
      * @param typeFieldID $ID
-     * @return \FilippoToso\Travelport\UProfile\ModifyField
+     * @return \Santosdave\Travelport\UProfile\ModifyField
      */
     public function setID($ID)
     {
@@ -278,7 +278,7 @@ class ModifyField extends typeStringRestriction
 
     /**
      * @param typeAction $Action
-     * @return \FilippoToso\Travelport\UProfile\ModifyField
+     * @return \Santosdave\Travelport\UProfile\ModifyField
      */
     public function setAction($Action)
     {
@@ -296,7 +296,7 @@ class ModifyField extends typeStringRestriction
 
     /**
      * @param boolean $Force
-     * @return \FilippoToso\Travelport\UProfile\ModifyField
+     * @return \Santosdave\Travelport\UProfile\ModifyField
      */
     public function setForce($Force)
     {
@@ -314,7 +314,7 @@ class ModifyField extends typeStringRestriction
 
     /**
      * @param typeFieldName $Name
-     * @return \FilippoToso\Travelport\UProfile\ModifyField
+     * @return \Santosdave\Travelport\UProfile\ModifyField
      */
     public function setName($Name)
     {
@@ -332,7 +332,7 @@ class ModifyField extends typeStringRestriction
 
     /**
      * @param StringLength1to255 $Description
-     * @return \FilippoToso\Travelport\UProfile\ModifyField
+     * @return \Santosdave\Travelport\UProfile\ModifyField
      */
     public function setDescription($Description)
     {
@@ -350,7 +350,7 @@ class ModifyField extends typeStringRestriction
 
     /**
      * @param typeCustomFieldDataFormat $Type
-     * @return \FilippoToso\Travelport\UProfile\ModifyField
+     * @return \Santosdave\Travelport\UProfile\ModifyField
      */
     public function setType($Type)
     {
@@ -368,7 +368,7 @@ class ModifyField extends typeStringRestriction
 
     /**
      * @param boolean $Encrypted
-     * @return \FilippoToso\Travelport\UProfile\ModifyField
+     * @return \Santosdave\Travelport\UProfile\ModifyField
      */
     public function setEncrypted($Encrypted)
     {
@@ -386,7 +386,7 @@ class ModifyField extends typeStringRestriction
 
     /**
      * @param typeMasked $Masked
-     * @return \FilippoToso\Travelport\UProfile\ModifyField
+     * @return \Santosdave\Travelport\UProfile\ModifyField
      */
     public function setMasked($Masked)
     {
@@ -404,7 +404,7 @@ class ModifyField extends typeStringRestriction
 
     /**
      * @param StringLength1to255 $DefaultValue
-     * @return \FilippoToso\Travelport\UProfile\ModifyField
+     * @return \Santosdave\Travelport\UProfile\ModifyField
      */
     public function setDefaultValue($DefaultValue)
     {
@@ -422,7 +422,7 @@ class ModifyField extends typeStringRestriction
 
     /**
      * @param boolean $Protected
-     * @return \FilippoToso\Travelport\UProfile\ModifyField
+     * @return \Santosdave\Travelport\UProfile\ModifyField
      */
     public function setProtected($Protected)
     {
@@ -440,7 +440,7 @@ class ModifyField extends typeStringRestriction
 
     /**
      * @param int $DisplayOrder
-     * @return \FilippoToso\Travelport\UProfile\ModifyField
+     * @return \Santosdave\Travelport\UProfile\ModifyField
      */
     public function setDisplayOrder($DisplayOrder)
     {
@@ -458,7 +458,7 @@ class ModifyField extends typeStringRestriction
 
     /**
      * @param boolean $Inheritable
-     * @return \FilippoToso\Travelport\UProfile\ModifyField
+     * @return \Santosdave\Travelport\UProfile\ModifyField
      */
     public function setInheritable($Inheritable)
     {
@@ -476,7 +476,7 @@ class ModifyField extends typeStringRestriction
 
     /**
      * @param int $MinOccurs
-     * @return \FilippoToso\Travelport\UProfile\ModifyField
+     * @return \Santosdave\Travelport\UProfile\ModifyField
      */
     public function setMinOccurs($MinOccurs)
     {
@@ -494,7 +494,7 @@ class ModifyField extends typeStringRestriction
 
     /**
      * @param int $MaxOccurs
-     * @return \FilippoToso\Travelport\UProfile\ModifyField
+     * @return \Santosdave\Travelport\UProfile\ModifyField
      */
     public function setMaxOccurs($MaxOccurs)
     {

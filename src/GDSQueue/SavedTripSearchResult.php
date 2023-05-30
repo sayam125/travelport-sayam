@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class SavedTripSearchResult extends typeSavedTripProductInfo
 {
@@ -65,7 +65,7 @@ class SavedTripSearchResult extends typeSavedTripProductInfo
 
     /**
      * @param ProductInfo[] $ProductInfo
-     * @return \FilippoToso\Travelport\GDSQueue\SavedTripSearchResult
+     * @return \Santosdave\Travelport\GDSQueue\SavedTripSearchResult
      */
     public function setProductInfo(array $ProductInfo = null)
     {
@@ -83,7 +83,7 @@ class SavedTripSearchResult extends typeSavedTripProductInfo
 
     /**
      * @param string $EarliestTravelDate
-     * @return \FilippoToso\Travelport\GDSQueue\SavedTripSearchResult
+     * @return \Santosdave\Travelport\GDSQueue\SavedTripSearchResult
      */
     public function setEarliestTravelDate($EarliestTravelDate)
     {
@@ -101,7 +101,7 @@ class SavedTripSearchResult extends typeSavedTripProductInfo
 
     /**
      * @param string $CreatedDate
-     * @return \FilippoToso\Travelport\GDSQueue\SavedTripSearchResult
+     * @return \Santosdave\Travelport\GDSQueue\SavedTripSearchResult
      */
     public function setCreatedDate($CreatedDate)
     {
@@ -119,7 +119,7 @@ class SavedTripSearchResult extends typeSavedTripProductInfo
 
     /**
      * @param string $SavedTripName
-     * @return \FilippoToso\Travelport\GDSQueue\SavedTripSearchResult
+     * @return \Santosdave\Travelport\GDSQueue\SavedTripSearchResult
      */
     public function setSavedTripName($SavedTripName)
     {
@@ -137,7 +137,7 @@ class SavedTripSearchResult extends typeSavedTripProductInfo
 
     /**
      * @param typeLocatorCode $LocatorCode
-     * @return \FilippoToso\Travelport\GDSQueue\SavedTripSearchResult
+     * @return \Santosdave\Travelport\GDSQueue\SavedTripSearchResult
      */
     public function setLocatorCode($LocatorCode)
     {
@@ -155,7 +155,7 @@ class SavedTripSearchResult extends typeSavedTripProductInfo
 
     /**
      * @param typeLocatorCode $UniversalRecordLocatorCode
-     * @return \FilippoToso\Travelport\GDSQueue\SavedTripSearchResult
+     * @return \Santosdave\Travelport\GDSQueue\SavedTripSearchResult
      */
     public function setUniversalRecordLocatorCode($UniversalRecordLocatorCode)
     {

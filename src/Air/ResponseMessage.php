@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class ResponseMessage
 {
@@ -56,7 +56,7 @@ class ResponseMessage
 
     /**
      * @param string $_
-     * @return \FilippoToso\Travelport\Air\ResponseMessage
+     * @return \Santosdave\Travelport\Air\ResponseMessage
      */
     public function set_($_)
     {
@@ -74,7 +74,7 @@ class ResponseMessage
 
     /**
      * @param int $Code
-     * @return \FilippoToso\Travelport\Air\ResponseMessage
+     * @return \Santosdave\Travelport\Air\ResponseMessage
      */
     public function setCode($Code)
     {
@@ -92,7 +92,7 @@ class ResponseMessage
 
     /**
      * @param anonymous105 $Type
-     * @return \FilippoToso\Travelport\Air\ResponseMessage
+     * @return \Santosdave\Travelport\Air\ResponseMessage
      */
     public function setType($Type)
     {
@@ -110,7 +110,7 @@ class ResponseMessage
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\Air\ResponseMessage
+     * @return \Santosdave\Travelport\Air\ResponseMessage
      */
     public function setProviderCode($ProviderCode)
     {
@@ -128,7 +128,7 @@ class ResponseMessage
 
     /**
      * @param typeSupplierCode $SupplierCode
-     * @return \FilippoToso\Travelport\Air\ResponseMessage
+     * @return \Santosdave\Travelport\Air\ResponseMessage
      */
     public function setSupplierCode($SupplierCode)
     {

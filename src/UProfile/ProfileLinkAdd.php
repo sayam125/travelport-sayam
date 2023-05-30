@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class ProfileLinkAdd
 {
@@ -35,7 +35,7 @@ class ProfileLinkAdd
 
     /**
      * @param typeProfileID $TravelerID
-     * @return \FilippoToso\Travelport\UProfile\ProfileLinkAdd
+     * @return \Santosdave\Travelport\UProfile\ProfileLinkAdd
      */
     public function setTravelerID($TravelerID)
     {
@@ -53,7 +53,7 @@ class ProfileLinkAdd
 
     /**
      * @param typeProfileLinkRelationship $Relationship
-     * @return \FilippoToso\Travelport\UProfile\ProfileLinkAdd
+     * @return \Santosdave\Travelport\UProfile\ProfileLinkAdd
      */
     public function setRelationship($Relationship)
     {

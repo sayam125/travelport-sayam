@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class BaseLowFareSearchReq extends BaseAirSearchReq
 {
@@ -198,7 +198,7 @@ class BaseLowFareSearchReq extends BaseAirSearchReq
 
     /**
      * @param SearchPassenger $SearchPassenger
-     * @return \FilippoToso\Travelport\Air\BaseLowFareSearchReq
+     * @return \Santosdave\Travelport\Air\BaseLowFareSearchReq
      */
     public function setSearchPassenger($SearchPassenger)
     {
@@ -216,7 +216,7 @@ class BaseLowFareSearchReq extends BaseAirSearchReq
 
     /**
      * @param AirPricingModifiers $AirPricingModifiers
-     * @return \FilippoToso\Travelport\Air\BaseLowFareSearchReq
+     * @return \Santosdave\Travelport\Air\BaseLowFareSearchReq
      */
     public function setAirPricingModifiers($AirPricingModifiers)
     {
@@ -234,7 +234,7 @@ class BaseLowFareSearchReq extends BaseAirSearchReq
 
     /**
      * @param Enumeration $Enumeration
-     * @return \FilippoToso\Travelport\Air\BaseLowFareSearchReq
+     * @return \Santosdave\Travelport\Air\BaseLowFareSearchReq
      */
     public function setEnumeration($Enumeration)
     {
@@ -252,7 +252,7 @@ class BaseLowFareSearchReq extends BaseAirSearchReq
 
     /**
      * @param AirExchangeModifiers $AirExchangeModifiers
-     * @return \FilippoToso\Travelport\Air\BaseLowFareSearchReq
+     * @return \Santosdave\Travelport\Air\BaseLowFareSearchReq
      */
     public function setAirExchangeModifiers($AirExchangeModifiers)
     {
@@ -270,7 +270,7 @@ class BaseLowFareSearchReq extends BaseAirSearchReq
 
     /**
      * @param FlexExploreModifiers $FlexExploreModifiers
-     * @return \FilippoToso\Travelport\Air\BaseLowFareSearchReq
+     * @return \Santosdave\Travelport\Air\BaseLowFareSearchReq
      */
     public function setFlexExploreModifiers($FlexExploreModifiers)
     {
@@ -288,7 +288,7 @@ class BaseLowFareSearchReq extends BaseAirSearchReq
 
     /**
      * @param PCC $PCC
-     * @return \FilippoToso\Travelport\Air\BaseLowFareSearchReq
+     * @return \Santosdave\Travelport\Air\BaseLowFareSearchReq
      */
     public function setPCC($PCC)
     {
@@ -306,7 +306,7 @@ class BaseLowFareSearchReq extends BaseAirSearchReq
 
     /**
      * @param FareRulesFilterCategory $FareRulesFilterCategory
-     * @return \FilippoToso\Travelport\Air\BaseLowFareSearchReq
+     * @return \Santosdave\Travelport\Air\BaseLowFareSearchReq
      */
     public function setFareRulesFilterCategory($FareRulesFilterCategory)
     {
@@ -324,7 +324,7 @@ class BaseLowFareSearchReq extends BaseAirSearchReq
 
     /**
      * @param FormOfPayment $FormOfPayment
-     * @return \FilippoToso\Travelport\Air\BaseLowFareSearchReq
+     * @return \Santosdave\Travelport\Air\BaseLowFareSearchReq
      */
     public function setFormOfPayment($FormOfPayment)
     {
@@ -342,7 +342,7 @@ class BaseLowFareSearchReq extends BaseAirSearchReq
 
     /**
      * @param boolean $EnablePointToPointSearch
-     * @return \FilippoToso\Travelport\Air\BaseLowFareSearchReq
+     * @return \Santosdave\Travelport\Air\BaseLowFareSearchReq
      */
     public function setEnablePointToPointSearch($EnablePointToPointSearch)
     {
@@ -360,7 +360,7 @@ class BaseLowFareSearchReq extends BaseAirSearchReq
 
     /**
      * @param boolean $EnablePointToPointAlternates
-     * @return \FilippoToso\Travelport\Air\BaseLowFareSearchReq
+     * @return \Santosdave\Travelport\Air\BaseLowFareSearchReq
      */
     public function setEnablePointToPointAlternates($EnablePointToPointAlternates)
     {
@@ -378,7 +378,7 @@ class BaseLowFareSearchReq extends BaseAirSearchReq
 
     /**
      * @param int $MaxNumberOfExpertSolutions
-     * @return \FilippoToso\Travelport\Air\BaseLowFareSearchReq
+     * @return \Santosdave\Travelport\Air\BaseLowFareSearchReq
      */
     public function setMaxNumberOfExpertSolutions($MaxNumberOfExpertSolutions)
     {
@@ -396,7 +396,7 @@ class BaseLowFareSearchReq extends BaseAirSearchReq
 
     /**
      * @param boolean $SolutionResult
-     * @return \FilippoToso\Travelport\Air\BaseLowFareSearchReq
+     * @return \Santosdave\Travelport\Air\BaseLowFareSearchReq
      */
     public function setSolutionResult($SolutionResult)
     {
@@ -414,7 +414,7 @@ class BaseLowFareSearchReq extends BaseAirSearchReq
 
     /**
      * @param boolean $PreferCompleteItinerary
-     * @return \FilippoToso\Travelport\Air\BaseLowFareSearchReq
+     * @return \Santosdave\Travelport\Air\BaseLowFareSearchReq
      */
     public function setPreferCompleteItinerary($PreferCompleteItinerary)
     {
@@ -432,7 +432,7 @@ class BaseLowFareSearchReq extends BaseAirSearchReq
 
     /**
      * @param anonymous1185 $MetaOptionIdentifier
-     * @return \FilippoToso\Travelport\Air\BaseLowFareSearchReq
+     * @return \Santosdave\Travelport\Air\BaseLowFareSearchReq
      */
     public function setMetaOptionIdentifier($MetaOptionIdentifier)
     {
@@ -450,7 +450,7 @@ class BaseLowFareSearchReq extends BaseAirSearchReq
 
     /**
      * @param boolean $ReturnUpsellFare
-     * @return \FilippoToso\Travelport\Air\BaseLowFareSearchReq
+     * @return \Santosdave\Travelport\Air\BaseLowFareSearchReq
      */
     public function setReturnUpsellFare($ReturnUpsellFare)
     {
@@ -468,7 +468,7 @@ class BaseLowFareSearchReq extends BaseAirSearchReq
 
     /**
      * @param boolean $IncludeFareInfoMessages
-     * @return \FilippoToso\Travelport\Air\BaseLowFareSearchReq
+     * @return \Santosdave\Travelport\Air\BaseLowFareSearchReq
      */
     public function setIncludeFareInfoMessages($IncludeFareInfoMessages)
     {
@@ -486,7 +486,7 @@ class BaseLowFareSearchReq extends BaseAirSearchReq
 
     /**
      * @param boolean $ReturnBrandedFares
-     * @return \FilippoToso\Travelport\Air\BaseLowFareSearchReq
+     * @return \Santosdave\Travelport\Air\BaseLowFareSearchReq
      */
     public function setReturnBrandedFares($ReturnBrandedFares)
     {
@@ -504,7 +504,7 @@ class BaseLowFareSearchReq extends BaseAirSearchReq
 
     /**
      * @param boolean $MultiGDSSearch
-     * @return \FilippoToso\Travelport\Air\BaseLowFareSearchReq
+     * @return \Santosdave\Travelport\Air\BaseLowFareSearchReq
      */
     public function setMultiGDSSearch($MultiGDSSearch)
     {
@@ -522,7 +522,7 @@ class BaseLowFareSearchReq extends BaseAirSearchReq
 
     /**
      * @param boolean $ReturnMM
-     * @return \FilippoToso\Travelport\Air\BaseLowFareSearchReq
+     * @return \Santosdave\Travelport\Air\BaseLowFareSearchReq
      */
     public function setReturnMM($ReturnMM)
     {
@@ -540,7 +540,7 @@ class BaseLowFareSearchReq extends BaseAirSearchReq
 
     /**
      * @param string $CheckOBFees
-     * @return \FilippoToso\Travelport\Air\BaseLowFareSearchReq
+     * @return \Santosdave\Travelport\Air\BaseLowFareSearchReq
      */
     public function setCheckOBFees($CheckOBFees)
     {
@@ -558,7 +558,7 @@ class BaseLowFareSearchReq extends BaseAirSearchReq
 
     /**
      * @param anonymous1186 $NSCC
-     * @return \FilippoToso\Travelport\Air\BaseLowFareSearchReq
+     * @return \Santosdave\Travelport\Air\BaseLowFareSearchReq
      */
     public function setNSCC($NSCC)
     {
@@ -576,7 +576,7 @@ class BaseLowFareSearchReq extends BaseAirSearchReq
 
     /**
      * @param boolean $FareInfoRules
-     * @return \FilippoToso\Travelport\Air\BaseLowFareSearchReq
+     * @return \Santosdave\Travelport\Air\BaseLowFareSearchReq
      */
     public function setFareInfoRules($FareInfoRules)
     {
@@ -594,7 +594,7 @@ class BaseLowFareSearchReq extends BaseAirSearchReq
 
     /**
      * @param boolean $MostRestrictivePenalties
-     * @return \FilippoToso\Travelport\Air\BaseLowFareSearchReq
+     * @return \Santosdave\Travelport\Air\BaseLowFareSearchReq
      */
     public function setMostRestrictivePenalties($MostRestrictivePenalties)
     {

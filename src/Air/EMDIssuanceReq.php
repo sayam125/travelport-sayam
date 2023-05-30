@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class EMDIssuanceReq extends BaseReq
 {
@@ -82,7 +82,7 @@ class EMDIssuanceReq extends BaseReq
 
     /**
      * @param typeProviderReservationDetail $ProviderReservationDetail
-     * @return \FilippoToso\Travelport\Air\EMDIssuanceReq
+     * @return \Santosdave\Travelport\Air\EMDIssuanceReq
      */
     public function setProviderReservationDetail($ProviderReservationDetail)
     {
@@ -100,7 +100,7 @@ class EMDIssuanceReq extends BaseReq
 
     /**
      * @param StringLength1to13 $TicketNumber
-     * @return \FilippoToso\Travelport\Air\EMDIssuanceReq
+     * @return \Santosdave\Travelport\Air\EMDIssuanceReq
      */
     public function setTicketNumber($TicketNumber)
     {
@@ -118,7 +118,7 @@ class EMDIssuanceReq extends BaseReq
 
     /**
      * @param IssuanceModifiers $IssuanceModifiers
-     * @return \FilippoToso\Travelport\Air\EMDIssuanceReq
+     * @return \Santosdave\Travelport\Air\EMDIssuanceReq
      */
     public function setIssuanceModifiers($IssuanceModifiers)
     {
@@ -136,7 +136,7 @@ class EMDIssuanceReq extends BaseReq
 
     /**
      * @param SelectionModifiers $SelectionModifiers
-     * @return \FilippoToso\Travelport\Air\EMDIssuanceReq
+     * @return \Santosdave\Travelport\Air\EMDIssuanceReq
      */
     public function setSelectionModifiers($SelectionModifiers)
     {
@@ -154,7 +154,7 @@ class EMDIssuanceReq extends BaseReq
 
     /**
      * @param typeLocatorCode $UniversalRecordLocatorCode
-     * @return \FilippoToso\Travelport\Air\EMDIssuanceReq
+     * @return \Santosdave\Travelport\Air\EMDIssuanceReq
      */
     public function setUniversalRecordLocatorCode($UniversalRecordLocatorCode)
     {
@@ -172,7 +172,7 @@ class EMDIssuanceReq extends BaseReq
 
     /**
      * @param boolean $ShowDetails
-     * @return \FilippoToso\Travelport\Air\EMDIssuanceReq
+     * @return \Santosdave\Travelport\Air\EMDIssuanceReq
      */
     public function setShowDetails($ShowDetails)
     {
@@ -190,7 +190,7 @@ class EMDIssuanceReq extends BaseReq
 
     /**
      * @param boolean $IssueAllOpenSVC
-     * @return \FilippoToso\Travelport\Air\EMDIssuanceReq
+     * @return \Santosdave\Travelport\Air\EMDIssuanceReq
      */
     public function setIssueAllOpenSVC($IssueAllOpenSVC)
     {

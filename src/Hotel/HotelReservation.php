@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class HotelReservation extends BaseReservation
 {
@@ -233,7 +233,7 @@ class HotelReservation extends BaseReservation
 
     /**
      * @param BookingTravelerRef $BookingTravelerRef
-     * @return \FilippoToso\Travelport\Hotel\HotelReservation
+     * @return \Santosdave\Travelport\Hotel\HotelReservation
      */
     public function setBookingTravelerRef($BookingTravelerRef)
     {
@@ -251,7 +251,7 @@ class HotelReservation extends BaseReservation
 
     /**
      * @param ReservationName $ReservationName
-     * @return \FilippoToso\Travelport\Hotel\HotelReservation
+     * @return \Santosdave\Travelport\Hotel\HotelReservation
      */
     public function setReservationName($ReservationName)
     {
@@ -269,7 +269,7 @@ class HotelReservation extends BaseReservation
 
     /**
      * @param ThirdPartyInformation $ThirdPartyInformation
-     * @return \FilippoToso\Travelport\Hotel\HotelReservation
+     * @return \Santosdave\Travelport\Hotel\HotelReservation
      */
     public function setThirdPartyInformation($ThirdPartyInformation)
     {
@@ -287,7 +287,7 @@ class HotelReservation extends BaseReservation
 
     /**
      * @param HotelProperty $HotelProperty
-     * @return \FilippoToso\Travelport\Hotel\HotelReservation
+     * @return \Santosdave\Travelport\Hotel\HotelReservation
      */
     public function setHotelProperty($HotelProperty)
     {
@@ -305,7 +305,7 @@ class HotelReservation extends BaseReservation
 
     /**
      * @param HotelRateDetail $HotelRateDetail
-     * @return \FilippoToso\Travelport\Hotel\HotelReservation
+     * @return \Santosdave\Travelport\Hotel\HotelReservation
      */
     public function setHotelRateDetail($HotelRateDetail)
     {
@@ -323,7 +323,7 @@ class HotelReservation extends BaseReservation
 
     /**
      * @param HotelStay $HotelStay
-     * @return \FilippoToso\Travelport\Hotel\HotelReservation
+     * @return \Santosdave\Travelport\Hotel\HotelReservation
      */
     public function setHotelStay($HotelStay)
     {
@@ -341,7 +341,7 @@ class HotelReservation extends BaseReservation
 
     /**
      * @param typeGeneralText $HotelSpecialRequest
-     * @return \FilippoToso\Travelport\Hotel\HotelReservation
+     * @return \Santosdave\Travelport\Hotel\HotelReservation
      */
     public function setHotelSpecialRequest($HotelSpecialRequest)
     {
@@ -359,7 +359,7 @@ class HotelReservation extends BaseReservation
 
     /**
      * @param Guarantee $Guarantee
-     * @return \FilippoToso\Travelport\Hotel\HotelReservation
+     * @return \Santosdave\Travelport\Hotel\HotelReservation
      */
     public function setGuarantee($Guarantee)
     {
@@ -377,7 +377,7 @@ class HotelReservation extends BaseReservation
 
     /**
      * @param PromotionCode $PromotionCode
-     * @return \FilippoToso\Travelport\Hotel\HotelReservation
+     * @return \Santosdave\Travelport\Hotel\HotelReservation
      */
     public function setPromotionCode($PromotionCode)
     {
@@ -395,7 +395,7 @@ class HotelReservation extends BaseReservation
 
     /**
      * @param BookingSource $BookingSource
-     * @return \FilippoToso\Travelport\Hotel\HotelReservation
+     * @return \Santosdave\Travelport\Hotel\HotelReservation
      */
     public function setBookingSource($BookingSource)
     {
@@ -413,7 +413,7 @@ class HotelReservation extends BaseReservation
 
     /**
      * @param HotelBedding $HotelBedding
-     * @return \FilippoToso\Travelport\Hotel\HotelReservation
+     * @return \Santosdave\Travelport\Hotel\HotelReservation
      */
     public function setHotelBedding($HotelBedding)
     {
@@ -431,7 +431,7 @@ class HotelReservation extends BaseReservation
 
     /**
      * @param GuestInformation $GuestInformation
-     * @return \FilippoToso\Travelport\Hotel\HotelReservation
+     * @return \Santosdave\Travelport\Hotel\HotelReservation
      */
     public function setGuestInformation($GuestInformation)
     {
@@ -449,7 +449,7 @@ class HotelReservation extends BaseReservation
 
     /**
      * @param AssociatedRemark $AssociatedRemark
-     * @return \FilippoToso\Travelport\Hotel\HotelReservation
+     * @return \Santosdave\Travelport\Hotel\HotelReservation
      */
     public function setAssociatedRemark($AssociatedRemark)
     {
@@ -467,7 +467,7 @@ class HotelReservation extends BaseReservation
 
     /**
      * @param string $SellMessage
-     * @return \FilippoToso\Travelport\Hotel\HotelReservation
+     * @return \Santosdave\Travelport\Hotel\HotelReservation
      */
     public function setSellMessage($SellMessage)
     {
@@ -485,7 +485,7 @@ class HotelReservation extends BaseReservation
 
     /**
      * @param string $HotelCommission
-     * @return \FilippoToso\Travelport\Hotel\HotelReservation
+     * @return \Santosdave\Travelport\Hotel\HotelReservation
      */
     public function setHotelCommission($HotelCommission)
     {
@@ -503,7 +503,7 @@ class HotelReservation extends BaseReservation
 
     /**
      * @param BookingGuestInformation $BookingGuestInformation
-     * @return \FilippoToso\Travelport\Hotel\HotelReservation
+     * @return \Santosdave\Travelport\Hotel\HotelReservation
      */
     public function setBookingGuestInformation($BookingGuestInformation)
     {
@@ -521,7 +521,7 @@ class HotelReservation extends BaseReservation
 
     /**
      * @param RoomConfirmationCodes $RoomConfirmationCodes
-     * @return \FilippoToso\Travelport\Hotel\HotelReservation
+     * @return \Santosdave\Travelport\Hotel\HotelReservation
      */
     public function setRoomConfirmationCodes($RoomConfirmationCodes)
     {
@@ -539,7 +539,7 @@ class HotelReservation extends BaseReservation
 
     /**
      * @param CancelInfo $CancelInfo
-     * @return \FilippoToso\Travelport\Hotel\HotelReservation
+     * @return \Santosdave\Travelport\Hotel\HotelReservation
      */
     public function setCancelInfo($CancelInfo)
     {
@@ -557,7 +557,7 @@ class HotelReservation extends BaseReservation
 
     /**
      * @param TotalReservationPrice $TotalReservationPrice
-     * @return \FilippoToso\Travelport\Hotel\HotelReservation
+     * @return \Santosdave\Travelport\Hotel\HotelReservation
      */
     public function setTotalReservationPrice($TotalReservationPrice)
     {
@@ -575,7 +575,7 @@ class HotelReservation extends BaseReservation
 
     /**
      * @param HotelDetailItem $HotelDetailItem
-     * @return \FilippoToso\Travelport\Hotel\HotelReservation
+     * @return \Santosdave\Travelport\Hotel\HotelReservation
      */
     public function setHotelDetailItem($HotelDetailItem)
     {
@@ -593,7 +593,7 @@ class HotelReservation extends BaseReservation
 
     /**
      * @param AdaptedRoomGuestAllocation $AdaptedRoomGuestAllocation
-     * @return \FilippoToso\Travelport\Hotel\HotelReservation
+     * @return \Santosdave\Travelport\Hotel\HotelReservation
      */
     public function setAdaptedRoomGuestAllocation($AdaptedRoomGuestAllocation)
     {
@@ -611,7 +611,7 @@ class HotelReservation extends BaseReservation
 
     /**
      * @param string $Status
-     * @return \FilippoToso\Travelport\Hotel\HotelReservation
+     * @return \Santosdave\Travelport\Hotel\HotelReservation
      */
     public function setStatus($Status)
     {
@@ -629,7 +629,7 @@ class HotelReservation extends BaseReservation
 
     /**
      * @param string $AggregatorBookingStatus
-     * @return \FilippoToso\Travelport\Hotel\HotelReservation
+     * @return \Santosdave\Travelport\Hotel\HotelReservation
      */
     public function setAggregatorBookingStatus($AggregatorBookingStatus)
     {
@@ -647,7 +647,7 @@ class HotelReservation extends BaseReservation
 
     /**
      * @param string $BookingConfirmation
-     * @return \FilippoToso\Travelport\Hotel\HotelReservation
+     * @return \Santosdave\Travelport\Hotel\HotelReservation
      */
     public function setBookingConfirmation($BookingConfirmation)
     {
@@ -665,7 +665,7 @@ class HotelReservation extends BaseReservation
 
     /**
      * @param string $CancelConfirmation
-     * @return \FilippoToso\Travelport\Hotel\HotelReservation
+     * @return \Santosdave\Travelport\Hotel\HotelReservation
      */
     public function setCancelConfirmation($CancelConfirmation)
     {
@@ -683,7 +683,7 @@ class HotelReservation extends BaseReservation
 
     /**
      * @param typeRef $ProviderReservationInfoRef
-     * @return \FilippoToso\Travelport\Hotel\HotelReservation
+     * @return \Santosdave\Travelport\Hotel\HotelReservation
      */
     public function setProviderReservationInfoRef($ProviderReservationInfoRef)
     {
@@ -701,7 +701,7 @@ class HotelReservation extends BaseReservation
 
     /**
      * @param int $TravelOrder
-     * @return \FilippoToso\Travelport\Hotel\HotelReservation
+     * @return \Santosdave\Travelport\Hotel\HotelReservation
      */
     public function setTravelOrder($TravelOrder)
     {
@@ -719,7 +719,7 @@ class HotelReservation extends BaseReservation
 
     /**
      * @param anonymous538 $ProviderSegmentOrder
-     * @return \FilippoToso\Travelport\Hotel\HotelReservation
+     * @return \Santosdave\Travelport\Hotel\HotelReservation
      */
     public function setProviderSegmentOrder($ProviderSegmentOrder)
     {
@@ -737,7 +737,7 @@ class HotelReservation extends BaseReservation
 
     /**
      * @param typeRef $PassiveProviderReservationInfoRef
-     * @return \FilippoToso\Travelport\Hotel\HotelReservation
+     * @return \Santosdave\Travelport\Hotel\HotelReservation
      */
     public function setPassiveProviderReservationInfoRef($PassiveProviderReservationInfoRef)
     {

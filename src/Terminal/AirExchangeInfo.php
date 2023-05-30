@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Terminal;
+namespace Santosdave\Travelport\Terminal;
 
 class AirExchangeInfo
 {
@@ -198,7 +198,7 @@ class AirExchangeInfo
 
     /**
      * @param TotalPenaltyTaxInfo $TotalPenaltyTaxInfo
-     * @return \FilippoToso\Travelport\Terminal\AirExchangeInfo
+     * @return \Santosdave\Travelport\Terminal\AirExchangeInfo
      */
     public function setTotalPenaltyTaxInfo($TotalPenaltyTaxInfo)
     {
@@ -216,7 +216,7 @@ class AirExchangeInfo
 
     /**
      * @param typeTax[] $PaidTax
-     * @return \FilippoToso\Travelport\Terminal\AirExchangeInfo
+     * @return \Santosdave\Travelport\Terminal\AirExchangeInfo
      */
     public function setPaidTax(array $PaidTax = null)
     {
@@ -234,7 +234,7 @@ class AirExchangeInfo
 
     /**
      * @param TicketFeeInfo[] $TicketFeeInfo
-     * @return \FilippoToso\Travelport\Terminal\AirExchangeInfo
+     * @return \Santosdave\Travelport\Terminal\AirExchangeInfo
      */
     public function setTicketFeeInfo(array $TicketFeeInfo = null)
     {
@@ -252,7 +252,7 @@ class AirExchangeInfo
 
     /**
      * @param string[] $Reason
-     * @return \FilippoToso\Travelport\Terminal\AirExchangeInfo
+     * @return \Santosdave\Travelport\Terminal\AirExchangeInfo
      */
     public function setReason(array $Reason = null)
     {
@@ -270,7 +270,7 @@ class AirExchangeInfo
 
     /**
      * @param typeFeeInfo[] $FeeInfo
-     * @return \FilippoToso\Travelport\Terminal\AirExchangeInfo
+     * @return \Santosdave\Travelport\Terminal\AirExchangeInfo
      */
     public function setFeeInfo(array $FeeInfo = null)
     {
@@ -288,7 +288,7 @@ class AirExchangeInfo
 
     /**
      * @param typeTaxInfo[] $TaxInfo
-     * @return \FilippoToso\Travelport\Terminal\AirExchangeInfo
+     * @return \Santosdave\Travelport\Terminal\AirExchangeInfo
      */
     public function setTaxInfo(array $TaxInfo = null)
     {
@@ -306,7 +306,7 @@ class AirExchangeInfo
 
     /**
      * @param typeMoney $ExchangeAmount
-     * @return \FilippoToso\Travelport\Terminal\AirExchangeInfo
+     * @return \Santosdave\Travelport\Terminal\AirExchangeInfo
      */
     public function setExchangeAmount($ExchangeAmount)
     {
@@ -324,7 +324,7 @@ class AirExchangeInfo
 
     /**
      * @param typeMoney $BaseFare
-     * @return \FilippoToso\Travelport\Terminal\AirExchangeInfo
+     * @return \Santosdave\Travelport\Terminal\AirExchangeInfo
      */
     public function setBaseFare($BaseFare)
     {
@@ -342,7 +342,7 @@ class AirExchangeInfo
 
     /**
      * @param typeMoney $EquivalentBaseFare
-     * @return \FilippoToso\Travelport\Terminal\AirExchangeInfo
+     * @return \Santosdave\Travelport\Terminal\AirExchangeInfo
      */
     public function setEquivalentBaseFare($EquivalentBaseFare)
     {
@@ -360,7 +360,7 @@ class AirExchangeInfo
 
     /**
      * @param typeMoney $Taxes
-     * @return \FilippoToso\Travelport\Terminal\AirExchangeInfo
+     * @return \Santosdave\Travelport\Terminal\AirExchangeInfo
      */
     public function setTaxes($Taxes)
     {
@@ -378,7 +378,7 @@ class AirExchangeInfo
 
     /**
      * @param typeMoney $ChangeFee
-     * @return \FilippoToso\Travelport\Terminal\AirExchangeInfo
+     * @return \Santosdave\Travelport\Terminal\AirExchangeInfo
      */
     public function setChangeFee($ChangeFee)
     {
@@ -396,7 +396,7 @@ class AirExchangeInfo
 
     /**
      * @param typeMoney $ForfeitAmount
-     * @return \FilippoToso\Travelport\Terminal\AirExchangeInfo
+     * @return \Santosdave\Travelport\Terminal\AirExchangeInfo
      */
     public function setForfeitAmount($ForfeitAmount)
     {
@@ -414,7 +414,7 @@ class AirExchangeInfo
 
     /**
      * @param boolean $Refundable
-     * @return \FilippoToso\Travelport\Terminal\AirExchangeInfo
+     * @return \Santosdave\Travelport\Terminal\AirExchangeInfo
      */
     public function setRefundable($Refundable)
     {
@@ -432,7 +432,7 @@ class AirExchangeInfo
 
     /**
      * @param boolean $Exchangeable
-     * @return \FilippoToso\Travelport\Terminal\AirExchangeInfo
+     * @return \Santosdave\Travelport\Terminal\AirExchangeInfo
      */
     public function setExchangeable($Exchangeable)
     {
@@ -450,7 +450,7 @@ class AirExchangeInfo
 
     /**
      * @param boolean $FirstClassUpgrade
-     * @return \FilippoToso\Travelport\Terminal\AirExchangeInfo
+     * @return \Santosdave\Travelport\Terminal\AirExchangeInfo
      */
     public function setFirstClassUpgrade($FirstClassUpgrade)
     {
@@ -468,7 +468,7 @@ class AirExchangeInfo
 
     /**
      * @param string $TicketByDate
-     * @return \FilippoToso\Travelport\Terminal\AirExchangeInfo
+     * @return \Santosdave\Travelport\Terminal\AirExchangeInfo
      */
     public function setTicketByDate($TicketByDate)
     {
@@ -486,7 +486,7 @@ class AirExchangeInfo
 
     /**
      * @param string $PricingTag
-     * @return \FilippoToso\Travelport\Terminal\AirExchangeInfo
+     * @return \Santosdave\Travelport\Terminal\AirExchangeInfo
      */
     public function setPricingTag($PricingTag)
     {
@@ -504,7 +504,7 @@ class AirExchangeInfo
 
     /**
      * @param typeMoney $EquivalentChangeFee
-     * @return \FilippoToso\Travelport\Terminal\AirExchangeInfo
+     * @return \Santosdave\Travelport\Terminal\AirExchangeInfo
      */
     public function setEquivalentChangeFee($EquivalentChangeFee)
     {
@@ -522,7 +522,7 @@ class AirExchangeInfo
 
     /**
      * @param typeMoney $EquivalentExchangeAmount
-     * @return \FilippoToso\Travelport\Terminal\AirExchangeInfo
+     * @return \Santosdave\Travelport\Terminal\AirExchangeInfo
      */
     public function setEquivalentExchangeAmount($EquivalentExchangeAmount)
     {
@@ -540,7 +540,7 @@ class AirExchangeInfo
 
     /**
      * @param typeMoney $AddCollection
-     * @return \FilippoToso\Travelport\Terminal\AirExchangeInfo
+     * @return \Santosdave\Travelport\Terminal\AirExchangeInfo
      */
     public function setAddCollection($AddCollection)
     {
@@ -558,7 +558,7 @@ class AirExchangeInfo
 
     /**
      * @param typeMoney $ResidualValue
-     * @return \FilippoToso\Travelport\Terminal\AirExchangeInfo
+     * @return \Santosdave\Travelport\Terminal\AirExchangeInfo
      */
     public function setResidualValue($ResidualValue)
     {
@@ -576,7 +576,7 @@ class AirExchangeInfo
 
     /**
      * @param typeMoney $TotalResidualValue
-     * @return \FilippoToso\Travelport\Terminal\AirExchangeInfo
+     * @return \Santosdave\Travelport\Terminal\AirExchangeInfo
      */
     public function setTotalResidualValue($TotalResidualValue)
     {
@@ -594,7 +594,7 @@ class AirExchangeInfo
 
     /**
      * @param typeMoney $OriginalFlightValue
-     * @return \FilippoToso\Travelport\Terminal\AirExchangeInfo
+     * @return \Santosdave\Travelport\Terminal\AirExchangeInfo
      */
     public function setOriginalFlightValue($OriginalFlightValue)
     {
@@ -612,7 +612,7 @@ class AirExchangeInfo
 
     /**
      * @param typeMoney $FlownSegmentValue
-     * @return \FilippoToso\Travelport\Terminal\AirExchangeInfo
+     * @return \Santosdave\Travelport\Terminal\AirExchangeInfo
      */
     public function setFlownSegmentValue($FlownSegmentValue)
     {
@@ -630,7 +630,7 @@ class AirExchangeInfo
 
     /**
      * @param boolean $BulkTicketAdvisory
-     * @return \FilippoToso\Travelport\Terminal\AirExchangeInfo
+     * @return \Santosdave\Travelport\Terminal\AirExchangeInfo
      */
     public function setBulkTicketAdvisory($BulkTicketAdvisory)
     {
@@ -648,7 +648,7 @@ class AirExchangeInfo
 
     /**
      * @param typeFarePull $FarePull
-     * @return \FilippoToso\Travelport\Terminal\AirExchangeInfo
+     * @return \Santosdave\Travelport\Terminal\AirExchangeInfo
      */
     public function setFarePull($FarePull)
     {
@@ -666,7 +666,7 @@ class AirExchangeInfo
 
     /**
      * @param typeMoney $Refund
-     * @return \FilippoToso\Travelport\Terminal\AirExchangeInfo
+     * @return \Santosdave\Travelport\Terminal\AirExchangeInfo
      */
     public function setRefund($Refund)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class AddressRestriction
 {
@@ -28,7 +28,7 @@ class AddressRestriction
 
     /**
      * @param RequiredField $RequiredField
-     * @return \FilippoToso\Travelport\GDSQueue\AddressRestriction
+     * @return \Santosdave\Travelport\GDSQueue\AddressRestriction
      */
     public function setRequiredField($RequiredField)
     {

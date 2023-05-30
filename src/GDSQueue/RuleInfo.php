@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class RuleInfo
 {
@@ -28,7 +28,7 @@ class RuleInfo
 
     /**
      * @param ChargesRules $ChargesRules
-     * @return \FilippoToso\Travelport\GDSQueue\RuleInfo
+     * @return \Santosdave\Travelport\GDSQueue\RuleInfo
      */
     public function setChargesRules($ChargesRules)
     {

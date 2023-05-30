@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class AirMerchandisingFulfillmentRsp extends BaseRsp
 {
@@ -34,7 +34,7 @@ class AirMerchandisingFulfillmentRsp extends BaseRsp
 
     /**
      * @param UniversalRecord $UniversalRecord
-     * @return \FilippoToso\Travelport\UniversalRecord\AirMerchandisingFulfillmentRsp
+     * @return \Santosdave\Travelport\UniversalRecord\AirMerchandisingFulfillmentRsp
      */
     public function setUniversalRecord($UniversalRecord)
     {

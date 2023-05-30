@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class FareFamilyDisplay
 {
@@ -28,7 +28,7 @@ class FareFamilyDisplay
 
     /**
      * @param string $ModifierType
-     * @return \FilippoToso\Travelport\Util\FareFamilyDisplay
+     * @return \Santosdave\Travelport\Util\FareFamilyDisplay
      */
     public function setModifierType($ModifierType)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Vehicle;
+namespace Santosdave\Travelport\Vehicle;
 
 class typeRentalPeriod
 {
@@ -42,7 +42,7 @@ class typeRentalPeriod
 
     /**
      * @param anonymous589 $RentalUnit
-     * @return \FilippoToso\Travelport\Vehicle\typeRentalPeriod
+     * @return \Santosdave\Travelport\Vehicle\typeRentalPeriod
      */
     public function setRentalUnit($RentalUnit)
     {
@@ -60,7 +60,7 @@ class typeRentalPeriod
 
     /**
      * @param int $Length
-     * @return \FilippoToso\Travelport\Vehicle\typeRentalPeriod
+     * @return \Santosdave\Travelport\Vehicle\typeRentalPeriod
      */
     public function setLength($Length)
     {
@@ -78,7 +78,7 @@ class typeRentalPeriod
 
     /**
      * @param boolean $RequirementPassed
-     * @return \FilippoToso\Travelport\Vehicle\typeRentalPeriod
+     * @return \Santosdave\Travelport\Vehicle\typeRentalPeriod
      */
     public function setRequirementPassed($RequirementPassed)
     {

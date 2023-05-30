@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class TravelerIdentityInformation extends typeKeyElement
 {
@@ -65,7 +65,7 @@ class TravelerIdentityInformation extends typeKeyElement
 
     /**
      * @param StringLength1to50 $SecondaryIdCode
-     * @return \FilippoToso\Travelport\UProfile\TravelerIdentityInformation
+     * @return \Santosdave\Travelport\UProfile\TravelerIdentityInformation
      */
     public function setSecondaryIdCode($SecondaryIdCode)
     {
@@ -83,7 +83,7 @@ class TravelerIdentityInformation extends typeKeyElement
 
     /**
      * @param typeMasked $MaskSecondaryIdCode
-     * @return \FilippoToso\Travelport\UProfile\TravelerIdentityInformation
+     * @return \Santosdave\Travelport\UProfile\TravelerIdentityInformation
      */
     public function setMaskSecondaryIdCode($MaskSecondaryIdCode)
     {
@@ -101,7 +101,7 @@ class TravelerIdentityInformation extends typeKeyElement
 
     /**
      * @param StringLength1to128 $SecurityQuestion1
-     * @return \FilippoToso\Travelport\UProfile\TravelerIdentityInformation
+     * @return \Santosdave\Travelport\UProfile\TravelerIdentityInformation
      */
     public function setSecurityQuestion1($SecurityQuestion1)
     {
@@ -119,7 +119,7 @@ class TravelerIdentityInformation extends typeKeyElement
 
     /**
      * @param StringLength1to128 $SecurityAnswer1
-     * @return \FilippoToso\Travelport\UProfile\TravelerIdentityInformation
+     * @return \Santosdave\Travelport\UProfile\TravelerIdentityInformation
      */
     public function setSecurityAnswer1($SecurityAnswer1)
     {
@@ -137,7 +137,7 @@ class TravelerIdentityInformation extends typeKeyElement
 
     /**
      * @param StringLength1to128 $SecurityQuestion2
-     * @return \FilippoToso\Travelport\UProfile\TravelerIdentityInformation
+     * @return \Santosdave\Travelport\UProfile\TravelerIdentityInformation
      */
     public function setSecurityQuestion2($SecurityQuestion2)
     {
@@ -155,7 +155,7 @@ class TravelerIdentityInformation extends typeKeyElement
 
     /**
      * @param StringLength1to128 $SecurityAnswer2
-     * @return \FilippoToso\Travelport\UProfile\TravelerIdentityInformation
+     * @return \Santosdave\Travelport\UProfile\TravelerIdentityInformation
      */
     public function setSecurityAnswer2($SecurityAnswer2)
     {

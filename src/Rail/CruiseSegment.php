@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class CruiseSegment extends Segment
 {
@@ -79,7 +79,7 @@ class CruiseSegment extends Segment
 
     /**
      * @param CruiseStay $CruiseStay
-     * @return \FilippoToso\Travelport\Rail\CruiseSegment
+     * @return \Santosdave\Travelport\Rail\CruiseSegment
      */
     public function setCruiseStay($CruiseStay)
     {
@@ -97,7 +97,7 @@ class CruiseSegment extends Segment
 
     /**
      * @param StringLength1to3 $Vendor
-     * @return \FilippoToso\Travelport\Rail\CruiseSegment
+     * @return \Santosdave\Travelport\Rail\CruiseSegment
      */
     public function setVendor($Vendor)
     {
@@ -115,7 +115,7 @@ class CruiseSegment extends Segment
 
     /**
      * @param StringLength1to30 $VendorName
-     * @return \FilippoToso\Travelport\Rail\CruiseSegment
+     * @return \Santosdave\Travelport\Rail\CruiseSegment
      */
     public function setVendorName($VendorName)
     {
@@ -133,7 +133,7 @@ class CruiseSegment extends Segment
 
     /**
      * @param StringLength1to5 $Origin
-     * @return \FilippoToso\Travelport\Rail\CruiseSegment
+     * @return \Santosdave\Travelport\Rail\CruiseSegment
      */
     public function setOrigin($Origin)
     {
@@ -151,7 +151,7 @@ class CruiseSegment extends Segment
 
     /**
      * @param StringLength1to5 $Destination
-     * @return \FilippoToso\Travelport\Rail\CruiseSegment
+     * @return \Santosdave\Travelport\Rail\CruiseSegment
      */
     public function setDestination($Destination)
     {
@@ -169,7 +169,7 @@ class CruiseSegment extends Segment
 
     /**
      * @param string $DepartureTime
-     * @return \FilippoToso\Travelport\Rail\CruiseSegment
+     * @return \Santosdave\Travelport\Rail\CruiseSegment
      */
     public function setDepartureTime($DepartureTime)
     {
@@ -187,7 +187,7 @@ class CruiseSegment extends Segment
 
     /**
      * @param string $ArrivalTime
-     * @return \FilippoToso\Travelport\Rail\CruiseSegment
+     * @return \Santosdave\Travelport\Rail\CruiseSegment
      */
     public function setArrivalTime($ArrivalTime)
     {

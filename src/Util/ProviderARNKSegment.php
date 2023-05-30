@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class ProviderARNKSegment
 {
@@ -52,7 +52,7 @@ class ProviderARNKSegment
 
     /**
      * @param PreviousSegment $PreviousSegment
-     * @return \FilippoToso\Travelport\Util\ProviderARNKSegment
+     * @return \Santosdave\Travelport\Util\ProviderARNKSegment
      */
     public function setPreviousSegment($PreviousSegment)
     {
@@ -70,7 +70,7 @@ class ProviderARNKSegment
 
     /**
      * @param NextSegment $NextSegment
-     * @return \FilippoToso\Travelport\Util\ProviderARNKSegment
+     * @return \Santosdave\Travelport\Util\ProviderARNKSegment
      */
     public function setNextSegment($NextSegment)
     {
@@ -88,7 +88,7 @@ class ProviderARNKSegment
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Util\ProviderARNKSegment
+     * @return \Santosdave\Travelport\Util\ProviderARNKSegment
      */
     public function setKey($Key)
     {
@@ -106,7 +106,7 @@ class ProviderARNKSegment
 
     /**
      * @param typeRef $ProviderReservationInfoRef
-     * @return \FilippoToso\Travelport\Util\ProviderARNKSegment
+     * @return \Santosdave\Travelport\Util\ProviderARNKSegment
      */
     public function setProviderReservationInfoRef($ProviderReservationInfoRef)
     {
@@ -124,7 +124,7 @@ class ProviderARNKSegment
 
     /**
      * @param anonymous82 $ProviderSegmentOrder
-     * @return \FilippoToso\Travelport\Util\ProviderARNKSegment
+     * @return \Santosdave\Travelport\Util\ProviderARNKSegment
      */
     public function setProviderSegmentOrder($ProviderSegmentOrder)
     {

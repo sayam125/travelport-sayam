@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Terminal;
+namespace Santosdave\Travelport\Terminal;
 
 class Keyword extends typeKeyword
 {
@@ -30,7 +30,7 @@ class Keyword extends typeKeyword
 
     /**
      * @param string[] $Text
-     * @return \FilippoToso\Travelport\Terminal\Keyword
+     * @return \Santosdave\Travelport\Terminal\Keyword
      */
     public function setText(array $Text = null)
     {

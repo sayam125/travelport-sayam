@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class TaxDetails
 {
@@ -28,7 +28,7 @@ class TaxDetails
 
     /**
      * @param Tax $Tax
-     * @return \FilippoToso\Travelport\Hotel\TaxDetails
+     * @return \Santosdave\Travelport\Hotel\TaxDetails
      */
     public function setTax($Tax)
     {

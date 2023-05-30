@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class TravelerCriteria
 {
@@ -49,7 +49,7 @@ class TravelerCriteria
 
     /**
      * @param NameCriteria $NameCriteria
-     * @return \FilippoToso\Travelport\GDSQueue\TravelerCriteria
+     * @return \Santosdave\Travelport\GDSQueue\TravelerCriteria
      */
     public function setNameCriteria($NameCriteria)
     {
@@ -67,7 +67,7 @@ class TravelerCriteria
 
     /**
      * @param AppliedProfileCriteria $AppliedProfileCriteria
-     * @return \FilippoToso\Travelport\GDSQueue\TravelerCriteria
+     * @return \Santosdave\Travelport\GDSQueue\TravelerCriteria
      */
     public function setAppliedProfileCriteria($AppliedProfileCriteria)
     {
@@ -85,7 +85,7 @@ class TravelerCriteria
 
     /**
      * @param string $PhoneNumber
-     * @return \FilippoToso\Travelport\GDSQueue\TravelerCriteria
+     * @return \Santosdave\Travelport\GDSQueue\TravelerCriteria
      */
     public function setPhoneNumber($PhoneNumber)
     {
@@ -103,7 +103,7 @@ class TravelerCriteria
 
     /**
      * @param boolean $VIPOnly
-     * @return \FilippoToso\Travelport\GDSQueue\TravelerCriteria
+     * @return \Santosdave\Travelport\GDSQueue\TravelerCriteria
      */
     public function setVIPOnly($VIPOnly)
     {

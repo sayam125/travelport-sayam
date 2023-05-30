@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class RestrictionPassengerTypes
 {
@@ -35,7 +35,7 @@ class RestrictionPassengerTypes
 
     /**
      * @param string $MaxNbrTravelers
-     * @return \FilippoToso\Travelport\Air\RestrictionPassengerTypes
+     * @return \Santosdave\Travelport\Air\RestrictionPassengerTypes
      */
     public function setMaxNbrTravelers($MaxNbrTravelers)
     {
@@ -53,7 +53,7 @@ class RestrictionPassengerTypes
 
     /**
      * @param string $TotalNbrPTC
-     * @return \FilippoToso\Travelport\Air\RestrictionPassengerTypes
+     * @return \Santosdave\Travelport\Air\RestrictionPassengerTypes
      */
     public function setTotalNbrPTC($TotalNbrPTC)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class AirSolutionChangedInfo
 {
@@ -35,7 +35,7 @@ class AirSolutionChangedInfo
 
     /**
      * @param AirPricingSolution $AirPricingSolution
-     * @return \FilippoToso\Travelport\GDSQueue\AirSolutionChangedInfo
+     * @return \Santosdave\Travelport\GDSQueue\AirSolutionChangedInfo
      */
     public function setAirPricingSolution($AirPricingSolution)
     {
@@ -53,7 +53,7 @@ class AirSolutionChangedInfo
 
     /**
      * @param anonymous648 $ReasonCode
-     * @return \FilippoToso\Travelport\GDSQueue\AirSolutionChangedInfo
+     * @return \Santosdave\Travelport\GDSQueue\AirSolutionChangedInfo
      */
     public function setReasonCode($ReasonCode)
     {

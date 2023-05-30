@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class SessTok
 {
@@ -28,7 +28,7 @@ class SessTok
 
     /**
      * @param string $id
-     * @return \FilippoToso\Travelport\UniversalRecord\SessTok
+     * @return \Santosdave\Travelport\UniversalRecord\SessTok
      */
     public function setId($id)
     {

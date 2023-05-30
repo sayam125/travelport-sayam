@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class RouteList
 {
@@ -28,7 +28,7 @@ class RouteList
 
     /**
      * @param Route $Route
-     * @return \FilippoToso\Travelport\Rail\RouteList
+     * @return \Santosdave\Travelport\Rail\RouteList
      */
     public function setRoute($Route)
     {

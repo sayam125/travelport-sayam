@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class DiningInfo
 {
@@ -42,7 +42,7 @@ class DiningInfo
 
     /**
      * @param StringLength1 $Seating
-     * @return \FilippoToso\Travelport\Rail\DiningInfo
+     * @return \Santosdave\Travelport\Rail\DiningInfo
      */
     public function setSeating($Seating)
     {
@@ -60,7 +60,7 @@ class DiningInfo
 
     /**
      * @param typeStatusCode $Status
-     * @return \FilippoToso\Travelport\Rail\DiningInfo
+     * @return \Santosdave\Travelport\Rail\DiningInfo
      */
     public function setStatus($Status)
     {
@@ -78,7 +78,7 @@ class DiningInfo
 
     /**
      * @param int $TableSize
-     * @return \FilippoToso\Travelport\Rail\DiningInfo
+     * @return \Santosdave\Travelport\Rail\DiningInfo
      */
     public function setTableSize($TableSize)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class FareFamilyCriteria
 {
@@ -42,7 +42,7 @@ class FareFamilyCriteria
 
     /**
      * @param typeCarrier $Carrier
-     * @return \FilippoToso\Travelport\Util\FareFamilyCriteria
+     * @return \Santosdave\Travelport\Util\FareFamilyCriteria
      */
     public function setCarrier($Carrier)
     {
@@ -60,7 +60,7 @@ class FareFamilyCriteria
 
     /**
      * @param typeFareFamily $Label
-     * @return \FilippoToso\Travelport\Util\FareFamilyCriteria
+     * @return \Santosdave\Travelport\Util\FareFamilyCriteria
      */
     public function setLabel($Label)
     {
@@ -78,7 +78,7 @@ class FareFamilyCriteria
 
     /**
      * @param typeFareBasisCode $FareBasis
-     * @return \FilippoToso\Travelport\Util\FareFamilyCriteria
+     * @return \Santosdave\Travelport\Util\FareFamilyCriteria
      */
     public function setFareBasis($FareBasis)
     {

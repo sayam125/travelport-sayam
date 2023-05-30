@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class GdsQueueCountRsp extends BaseRsp
 {
@@ -34,7 +34,7 @@ class GdsQueueCountRsp extends BaseRsp
 
     /**
      * @param QueueInfo $QueueInfo
-     * @return \FilippoToso\Travelport\GDSQueue\GdsQueueCountRsp
+     * @return \Santosdave\Travelport\GDSQueue\GdsQueueCountRsp
      */
     public function setQueueInfo($QueueInfo)
     {

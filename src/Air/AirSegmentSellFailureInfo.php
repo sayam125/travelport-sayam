@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class AirSegmentSellFailureInfo
 {
@@ -28,7 +28,7 @@ class AirSegmentSellFailureInfo
 
     /**
      * @param AirSegmentError $AirSegmentError
-     * @return \FilippoToso\Travelport\Air\AirSegmentSellFailureInfo
+     * @return \Santosdave\Travelport\Air\AirSegmentSellFailureInfo
      */
     public function setAirSegmentError($AirSegmentError)
     {

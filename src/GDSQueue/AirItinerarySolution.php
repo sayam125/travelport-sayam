@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class AirItinerarySolution
 {
@@ -42,7 +42,7 @@ class AirItinerarySolution
 
     /**
      * @param AirSegmentRef $AirSegmentRef
-     * @return \FilippoToso\Travelport\GDSQueue\AirItinerarySolution
+     * @return \Santosdave\Travelport\GDSQueue\AirItinerarySolution
      */
     public function setAirSegmentRef($AirSegmentRef)
     {
@@ -60,7 +60,7 @@ class AirItinerarySolution
 
     /**
      * @param Connection $Connection
-     * @return \FilippoToso\Travelport\GDSQueue\AirItinerarySolution
+     * @return \Santosdave\Travelport\GDSQueue\AirItinerarySolution
      */
     public function setConnection($Connection)
     {
@@ -78,7 +78,7 @@ class AirItinerarySolution
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\GDSQueue\AirItinerarySolution
+     * @return \Santosdave\Travelport\GDSQueue\AirItinerarySolution
      */
     public function setKey($Key)
     {

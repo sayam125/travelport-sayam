@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class MctCountRsp extends BaseRsp
 {
@@ -34,7 +34,7 @@ class MctCountRsp extends BaseRsp
 
     /**
      * @param MctCount $MctCount
-     * @return \FilippoToso\Travelport\Util\MctCountRsp
+     * @return \Santosdave\Travelport\Util\MctCountRsp
      */
     public function setMctCount($MctCount)
     {

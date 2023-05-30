@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class ElectronicAddress extends typeTaggableElectronicAddress
 {
@@ -43,7 +43,7 @@ class ElectronicAddress extends typeTaggableElectronicAddress
 
     /**
      * @param boolean $Provisioned
-     * @return \FilippoToso\Travelport\UProfile\ElectronicAddress
+     * @return \Santosdave\Travelport\UProfile\ElectronicAddress
      */
     public function setProvisioned($Provisioned)
     {
@@ -61,7 +61,7 @@ class ElectronicAddress extends typeTaggableElectronicAddress
 
     /**
      * @param typeProfileID $OwnerID
-     * @return \FilippoToso\Travelport\UProfile\ElectronicAddress
+     * @return \Santosdave\Travelport\UProfile\ElectronicAddress
      */
     public function setOwnerID($OwnerID)
     {

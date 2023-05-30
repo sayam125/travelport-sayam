@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Vehicle;
+namespace Santosdave\Travelport\Vehicle;
 
 class typeRateHostIndicator
 {
@@ -35,7 +35,7 @@ class typeRateHostIndicator
 
     /**
      * @param string $InventoryToken
-     * @return \FilippoToso\Travelport\Vehicle\typeRateHostIndicator
+     * @return \Santosdave\Travelport\Vehicle\typeRateHostIndicator
      */
     public function setInventoryToken($InventoryToken)
     {
@@ -53,7 +53,7 @@ class typeRateHostIndicator
 
     /**
      * @param string $RateToken
-     * @return \FilippoToso\Travelport\Vehicle\typeRateHostIndicator
+     * @return \Santosdave\Travelport\Vehicle\typeRateHostIndicator
      */
     public function setRateToken($RateToken)
     {

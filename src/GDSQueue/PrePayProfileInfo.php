@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class PrePayProfileInfo
 {
@@ -70,7 +70,7 @@ class PrePayProfileInfo
 
     /**
      * @param PrePayId $PrePayId
-     * @return \FilippoToso\Travelport\GDSQueue\PrePayProfileInfo
+     * @return \Santosdave\Travelport\GDSQueue\PrePayProfileInfo
      */
     public function setPrePayId($PrePayId)
     {
@@ -88,7 +88,7 @@ class PrePayProfileInfo
 
     /**
      * @param PrePayCustomer $PrePayCustomer
-     * @return \FilippoToso\Travelport\GDSQueue\PrePayProfileInfo
+     * @return \Santosdave\Travelport\GDSQueue\PrePayProfileInfo
      */
     public function setPrePayCustomer($PrePayCustomer)
     {
@@ -106,7 +106,7 @@ class PrePayProfileInfo
 
     /**
      * @param PrePayAccount $PrePayAccount
-     * @return \FilippoToso\Travelport\GDSQueue\PrePayProfileInfo
+     * @return \Santosdave\Travelport\GDSQueue\PrePayProfileInfo
      */
     public function setPrePayAccount($PrePayAccount)
     {
@@ -124,7 +124,7 @@ class PrePayProfileInfo
 
     /**
      * @param Affiliations $Affiliations
-     * @return \FilippoToso\Travelport\GDSQueue\PrePayProfileInfo
+     * @return \Santosdave\Travelport\GDSQueue\PrePayProfileInfo
      */
     public function setAffiliations($Affiliations)
     {
@@ -142,7 +142,7 @@ class PrePayProfileInfo
 
     /**
      * @param AccountRelatedRules $AccountRelatedRules
-     * @return \FilippoToso\Travelport\GDSQueue\PrePayProfileInfo
+     * @return \Santosdave\Travelport\GDSQueue\PrePayProfileInfo
      */
     public function setAccountRelatedRules($AccountRelatedRules)
     {
@@ -160,7 +160,7 @@ class PrePayProfileInfo
 
     /**
      * @param string $StatusCode
-     * @return \FilippoToso\Travelport\GDSQueue\PrePayProfileInfo
+     * @return \Santosdave\Travelport\GDSQueue\PrePayProfileInfo
      */
     public function setStatusCode($StatusCode)
     {
@@ -178,7 +178,7 @@ class PrePayProfileInfo
 
     /**
      * @param typeCardNumber $CreatorID
-     * @return \FilippoToso\Travelport\GDSQueue\PrePayProfileInfo
+     * @return \Santosdave\Travelport\GDSQueue\PrePayProfileInfo
      */
     public function setCreatorID($CreatorID)
     {

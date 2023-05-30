@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class ActionRef extends typeActionReference
 {
@@ -31,7 +31,7 @@ class ActionRef extends typeActionReference
 
     /**
      * @param EndpointRef $EndpointRef
-     * @return \FilippoToso\Travelport\UProfile\ActionRef
+     * @return \Santosdave\Travelport\UProfile\ActionRef
      */
     public function setEndpointRef($EndpointRef)
     {

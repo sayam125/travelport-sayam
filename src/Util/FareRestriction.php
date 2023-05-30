@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class FareRestriction
 {
@@ -56,7 +56,7 @@ class FareRestriction
 
     /**
      * @param FareRestrictionDaysOfWeek $FareRestrictionDaysOfWeek
-     * @return \FilippoToso\Travelport\Util\FareRestriction
+     * @return \Santosdave\Travelport\Util\FareRestriction
      */
     public function setFareRestrictionDaysOfWeek($FareRestrictionDaysOfWeek)
     {
@@ -74,7 +74,7 @@ class FareRestriction
 
     /**
      * @param FareRestrictionDate $FareRestrictionDate
-     * @return \FilippoToso\Travelport\Util\FareRestriction
+     * @return \Santosdave\Travelport\Util\FareRestriction
      */
     public function setFareRestrictionDate($FareRestrictionDate)
     {
@@ -92,7 +92,7 @@ class FareRestriction
 
     /**
      * @param FareRestrictionSaleDate $FareRestrictionSaleDate
-     * @return \FilippoToso\Travelport\Util\FareRestriction
+     * @return \Santosdave\Travelport\Util\FareRestriction
      */
     public function setFareRestrictionSaleDate($FareRestrictionSaleDate)
     {
@@ -110,7 +110,7 @@ class FareRestriction
 
     /**
      * @param FareRestrictionSeasonal $FareRestrictionSeasonal
-     * @return \FilippoToso\Travelport\Util\FareRestriction
+     * @return \Santosdave\Travelport\Util\FareRestriction
      */
     public function setFareRestrictionSeasonal($FareRestrictionSeasonal)
     {
@@ -128,7 +128,7 @@ class FareRestriction
 
     /**
      * @param typeFareRestrictionType $FareRestrictiontype
-     * @return \FilippoToso\Travelport\Util\FareRestriction
+     * @return \Santosdave\Travelport\Util\FareRestriction
      */
     public function setFareRestrictiontype($FareRestrictiontype)
     {

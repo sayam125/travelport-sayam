@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class typeVendorLocation
 {
@@ -63,7 +63,7 @@ class typeVendorLocation
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\GDSQueue\typeVendorLocation
+     * @return \Santosdave\Travelport\GDSQueue\typeVendorLocation
      */
     public function setProviderCode($ProviderCode)
     {
@@ -81,7 +81,7 @@ class typeVendorLocation
 
     /**
      * @param typeSupplierCode $VendorCode
-     * @return \FilippoToso\Travelport\GDSQueue\typeVendorLocation
+     * @return \Santosdave\Travelport\GDSQueue\typeVendorLocation
      */
     public function setVendorCode($VendorCode)
     {
@@ -99,7 +99,7 @@ class typeVendorLocation
 
     /**
      * @param boolean $PreferredOption
-     * @return \FilippoToso\Travelport\GDSQueue\typeVendorLocation
+     * @return \Santosdave\Travelport\GDSQueue\typeVendorLocation
      */
     public function setPreferredOption($PreferredOption)
     {
@@ -117,7 +117,7 @@ class typeVendorLocation
 
     /**
      * @param anonymous4 $VendorLocationID
-     * @return \FilippoToso\Travelport\GDSQueue\typeVendorLocation
+     * @return \Santosdave\Travelport\GDSQueue\typeVendorLocation
      */
     public function setVendorLocationID($VendorLocationID)
     {
@@ -135,7 +135,7 @@ class typeVendorLocation
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\GDSQueue\typeVendorLocation
+     * @return \Santosdave\Travelport\GDSQueue\typeVendorLocation
      */
     public function setKey($Key)
     {
@@ -153,7 +153,7 @@ class typeVendorLocation
 
     /**
      * @param anonymous5 $MoreRatesToken
-     * @return \FilippoToso\Travelport\GDSQueue\typeVendorLocation
+     * @return \Santosdave\Travelport\GDSQueue\typeVendorLocation
      */
     public function setMoreRatesToken($MoreRatesToken)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeActionReference
 {
@@ -35,7 +35,7 @@ class typeActionReference
 
     /**
      * @param typeActionID $ID
-     * @return \FilippoToso\Travelport\UProfile\typeActionReference
+     * @return \Santosdave\Travelport\UProfile\typeActionReference
      */
     public function setID($ID)
     {
@@ -53,7 +53,7 @@ class typeActionReference
 
     /**
      * @param string $ProfileActionCode
-     * @return \FilippoToso\Travelport\UProfile\typeActionReference
+     * @return \Santosdave\Travelport\UProfile\typeActionReference
      */
     public function setProfileActionCode($ProfileActionCode)
     {

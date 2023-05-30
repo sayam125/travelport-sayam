@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class AlternateRouteList
 {
@@ -28,7 +28,7 @@ class AlternateRouteList
 
     /**
      * @param AlternateRoute $AlternateRoute
-     * @return \FilippoToso\Travelport\Air\AlternateRouteList
+     * @return \Santosdave\Travelport\Air\AlternateRouteList
      */
     public function setAlternateRoute($AlternateRoute)
     {

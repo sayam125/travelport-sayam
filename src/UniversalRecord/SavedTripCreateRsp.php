@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class SavedTripCreateRsp extends BaseRsp
 {
@@ -34,7 +34,7 @@ class SavedTripCreateRsp extends BaseRsp
 
     /**
      * @param SavedTrip $SavedTrip
-     * @return \FilippoToso\Travelport\UniversalRecord\SavedTripCreateRsp
+     * @return \Santosdave\Travelport\UniversalRecord\SavedTripCreateRsp
      */
     public function setSavedTrip($SavedTrip)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class AirPricingAdjustment
 {
@@ -35,7 +35,7 @@ class AirPricingAdjustment
 
     /**
      * @param Adjustment $Adjustment
-     * @return \FilippoToso\Travelport\Air\AirPricingAdjustment
+     * @return \Santosdave\Travelport\Air\AirPricingAdjustment
      */
     public function setAdjustment($Adjustment)
     {
@@ -53,7 +53,7 @@ class AirPricingAdjustment
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Air\AirPricingAdjustment
+     * @return \Santosdave\Travelport\Air\AirPricingAdjustment
      */
     public function setKey($Key)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 abstract class typeRailPricingSolution
 {
@@ -154,7 +154,7 @@ abstract class typeRailPricingSolution
 
     /**
      * @param RailJourney $RailJourney
-     * @return \FilippoToso\Travelport\Air\typeRailPricingSolution
+     * @return \Santosdave\Travelport\Air\typeRailPricingSolution
      */
     public function setRailJourney($RailJourney)
     {
@@ -172,7 +172,7 @@ abstract class typeRailPricingSolution
 
     /**
      * @param RailJourneyRef $RailJourneyRef
-     * @return \FilippoToso\Travelport\Air\typeRailPricingSolution
+     * @return \Santosdave\Travelport\Air\typeRailPricingSolution
      */
     public function setRailJourneyRef($RailJourneyRef)
     {
@@ -190,7 +190,7 @@ abstract class typeRailPricingSolution
 
     /**
      * @param RailPricingInfo $RailPricingInfo
-     * @return \FilippoToso\Travelport\Air\typeRailPricingSolution
+     * @return \Santosdave\Travelport\Air\typeRailPricingSolution
      */
     public function setRailPricingInfo($RailPricingInfo)
     {
@@ -208,7 +208,7 @@ abstract class typeRailPricingSolution
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Air\typeRailPricingSolution
+     * @return \Santosdave\Travelport\Air\typeRailPricingSolution
      */
     public function setKey($Key)
     {
@@ -226,7 +226,7 @@ abstract class typeRailPricingSolution
 
     /**
      * @param int $OfferId
-     * @return \FilippoToso\Travelport\Air\typeRailPricingSolution
+     * @return \Santosdave\Travelport\Air\typeRailPricingSolution
      */
     public function setOfferId($OfferId)
     {
@@ -244,7 +244,7 @@ abstract class typeRailPricingSolution
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\Air\typeRailPricingSolution
+     * @return \Santosdave\Travelport\Air\typeRailPricingSolution
      */
     public function setProviderCode($ProviderCode)
     {
@@ -262,7 +262,7 @@ abstract class typeRailPricingSolution
 
     /**
      * @param typeSupplierCode $SupplierCode
-     * @return \FilippoToso\Travelport\Air\typeRailPricingSolution
+     * @return \Santosdave\Travelport\Air\typeRailPricingSolution
      */
     public function setSupplierCode($SupplierCode)
     {
@@ -280,7 +280,7 @@ abstract class typeRailPricingSolution
 
     /**
      * @param typeRef $HostTokenRef
-     * @return \FilippoToso\Travelport\Air\typeRailPricingSolution
+     * @return \Santosdave\Travelport\Air\typeRailPricingSolution
      */
     public function setHostTokenRef($HostTokenRef)
     {
@@ -298,7 +298,7 @@ abstract class typeRailPricingSolution
 
     /**
      * @param string $Reference
-     * @return \FilippoToso\Travelport\Air\typeRailPricingSolution
+     * @return \Santosdave\Travelport\Air\typeRailPricingSolution
      */
     public function setReference($Reference)
     {
@@ -316,7 +316,7 @@ abstract class typeRailPricingSolution
 
     /**
      * @param typeMoney $TotalPrice
-     * @return \FilippoToso\Travelport\Air\typeRailPricingSolution
+     * @return \Santosdave\Travelport\Air\typeRailPricingSolution
      */
     public function setTotalPrice($TotalPrice)
     {
@@ -334,7 +334,7 @@ abstract class typeRailPricingSolution
 
     /**
      * @param typeMoney $BasePrice
-     * @return \FilippoToso\Travelport\Air\typeRailPricingSolution
+     * @return \Santosdave\Travelport\Air\typeRailPricingSolution
      */
     public function setBasePrice($BasePrice)
     {
@@ -352,7 +352,7 @@ abstract class typeRailPricingSolution
 
     /**
      * @param typeMoney $ApproximateTotalPrice
-     * @return \FilippoToso\Travelport\Air\typeRailPricingSolution
+     * @return \Santosdave\Travelport\Air\typeRailPricingSolution
      */
     public function setApproximateTotalPrice($ApproximateTotalPrice)
     {
@@ -370,7 +370,7 @@ abstract class typeRailPricingSolution
 
     /**
      * @param typeMoney $ApproximateBasePrice
-     * @return \FilippoToso\Travelport\Air\typeRailPricingSolution
+     * @return \Santosdave\Travelport\Air\typeRailPricingSolution
      */
     public function setApproximateBasePrice($ApproximateBasePrice)
     {
@@ -388,7 +388,7 @@ abstract class typeRailPricingSolution
 
     /**
      * @param typeMoney $EquivalentBasePrice
-     * @return \FilippoToso\Travelport\Air\typeRailPricingSolution
+     * @return \Santosdave\Travelport\Air\typeRailPricingSolution
      */
     public function setEquivalentBasePrice($EquivalentBasePrice)
     {
@@ -406,7 +406,7 @@ abstract class typeRailPricingSolution
 
     /**
      * @param typeMoney $Taxes
-     * @return \FilippoToso\Travelport\Air\typeRailPricingSolution
+     * @return \Santosdave\Travelport\Air\typeRailPricingSolution
      */
     public function setTaxes($Taxes)
     {
@@ -424,7 +424,7 @@ abstract class typeRailPricingSolution
 
     /**
      * @param typeMoney $Fees
-     * @return \FilippoToso\Travelport\Air\typeRailPricingSolution
+     * @return \Santosdave\Travelport\Air\typeRailPricingSolution
      */
     public function setFees($Fees)
     {
@@ -442,7 +442,7 @@ abstract class typeRailPricingSolution
 
     /**
      * @param typeMoney $Services
-     * @return \FilippoToso\Travelport\Air\typeRailPricingSolution
+     * @return \Santosdave\Travelport\Air\typeRailPricingSolution
      */
     public function setServices($Services)
     {
@@ -460,7 +460,7 @@ abstract class typeRailPricingSolution
 
     /**
      * @param typeMoney $ApproximateTaxes
-     * @return \FilippoToso\Travelport\Air\typeRailPricingSolution
+     * @return \Santosdave\Travelport\Air\typeRailPricingSolution
      */
     public function setApproximateTaxes($ApproximateTaxes)
     {
@@ -478,7 +478,7 @@ abstract class typeRailPricingSolution
 
     /**
      * @param typeMoney $ApproximateFees
-     * @return \FilippoToso\Travelport\Air\typeRailPricingSolution
+     * @return \Santosdave\Travelport\Air\typeRailPricingSolution
      */
     public function setApproximateFees($ApproximateFees)
     {

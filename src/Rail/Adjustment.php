@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class Adjustment
 {
@@ -56,7 +56,7 @@ class Adjustment
 
     /**
      * @param typeMoney $Amount
-     * @return \FilippoToso\Travelport\Rail\Adjustment
+     * @return \Santosdave\Travelport\Rail\Adjustment
      */
     public function setAmount($Amount)
     {
@@ -74,7 +74,7 @@ class Adjustment
 
     /**
      * @param float $Percent
-     * @return \FilippoToso\Travelport\Rail\Adjustment
+     * @return \Santosdave\Travelport\Rail\Adjustment
      */
     public function setPercent($Percent)
     {
@@ -92,7 +92,7 @@ class Adjustment
 
     /**
      * @param typeMoney $AdjustedTotalPrice
-     * @return \FilippoToso\Travelport\Rail\Adjustment
+     * @return \Santosdave\Travelport\Rail\Adjustment
      */
     public function setAdjustedTotalPrice($AdjustedTotalPrice)
     {
@@ -110,7 +110,7 @@ class Adjustment
 
     /**
      * @param typeMoney $ApproximateAdjustedTotalPrice
-     * @return \FilippoToso\Travelport\Rail\Adjustment
+     * @return \Santosdave\Travelport\Rail\Adjustment
      */
     public function setApproximateAdjustedTotalPrice($ApproximateAdjustedTotalPrice)
     {
@@ -128,7 +128,7 @@ class Adjustment
 
     /**
      * @param typeRef $BookingTravelerRef
-     * @return \FilippoToso\Travelport\Rail\Adjustment
+     * @return \Santosdave\Travelport\Rail\Adjustment
      */
     public function setBookingTravelerRef($BookingTravelerRef)
     {

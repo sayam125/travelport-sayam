@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class CruiseStay
 {
@@ -129,7 +129,7 @@ class CruiseStay
 
     /**
      * @param Package $Package
-     * @return \FilippoToso\Travelport\GDSQueue\CruiseStay
+     * @return \Santosdave\Travelport\GDSQueue\CruiseStay
      */
     public function setPackage($Package)
     {
@@ -147,7 +147,7 @@ class CruiseStay
 
     /**
      * @param CabinInfo $CabinInfo
-     * @return \FilippoToso\Travelport\GDSQueue\CruiseStay
+     * @return \Santosdave\Travelport\GDSQueue\CruiseStay
      */
     public function setCabinInfo($CabinInfo)
     {
@@ -165,7 +165,7 @@ class CruiseStay
 
     /**
      * @param DiningInfo $DiningInfo
-     * @return \FilippoToso\Travelport\GDSQueue\CruiseStay
+     * @return \Santosdave\Travelport\GDSQueue\CruiseStay
      */
     public function setDiningInfo($DiningInfo)
     {
@@ -183,7 +183,7 @@ class CruiseStay
 
     /**
      * @param StringLength1to25 $ShipName
-     * @return \FilippoToso\Travelport\GDSQueue\CruiseStay
+     * @return \Santosdave\Travelport\GDSQueue\CruiseStay
      */
     public function setShipName($ShipName)
     {
@@ -201,7 +201,7 @@ class CruiseStay
 
     /**
      * @param int $DurationOfStay
-     * @return \FilippoToso\Travelport\GDSQueue\CruiseStay
+     * @return \Santosdave\Travelport\GDSQueue\CruiseStay
      */
     public function setDurationOfStay($DurationOfStay)
     {
@@ -219,7 +219,7 @@ class CruiseStay
 
     /**
      * @param string $UnitOfStay
-     * @return \FilippoToso\Travelport\GDSQueue\CruiseStay
+     * @return \Santosdave\Travelport\GDSQueue\CruiseStay
      */
     public function setUnitOfStay($UnitOfStay)
     {
@@ -237,7 +237,7 @@ class CruiseStay
 
     /**
      * @param date $BookingDate
-     * @return \FilippoToso\Travelport\GDSQueue\CruiseStay
+     * @return \Santosdave\Travelport\GDSQueue\CruiseStay
      */
     public function setBookingDate($BookingDate)
     {
@@ -255,7 +255,7 @@ class CruiseStay
 
     /**
      * @param StringLength1to12 $BookingAgent
-     * @return \FilippoToso\Travelport\GDSQueue\CruiseStay
+     * @return \Santosdave\Travelport\GDSQueue\CruiseStay
      */
     public function setBookingAgent($BookingAgent)
     {
@@ -273,7 +273,7 @@ class CruiseStay
 
     /**
      * @param StringLength1to10 $BookingCredit
-     * @return \FilippoToso\Travelport\GDSQueue\CruiseStay
+     * @return \Santosdave\Travelport\GDSQueue\CruiseStay
      */
     public function setBookingCredit($BookingCredit)
     {
@@ -291,7 +291,7 @@ class CruiseStay
 
     /**
      * @param int $OtherPartyConfNbr
-     * @return \FilippoToso\Travelport\GDSQueue\CruiseStay
+     * @return \Santosdave\Travelport\GDSQueue\CruiseStay
      */
     public function setOtherPartyConfNbr($OtherPartyConfNbr)
     {
@@ -309,7 +309,7 @@ class CruiseStay
 
     /**
      * @param StringLength1to5 $PassengerOrigin
-     * @return \FilippoToso\Travelport\GDSQueue\CruiseStay
+     * @return \Santosdave\Travelport\GDSQueue\CruiseStay
      */
     public function setPassengerOrigin($PassengerOrigin)
     {
@@ -327,7 +327,7 @@ class CruiseStay
 
     /**
      * @param StringLength1to16 $ConfirmationNumber
-     * @return \FilippoToso\Travelport\GDSQueue\CruiseStay
+     * @return \Santosdave\Travelport\GDSQueue\CruiseStay
      */
     public function setConfirmationNumber($ConfirmationNumber)
     {
@@ -345,7 +345,7 @@ class CruiseStay
 
     /**
      * @param StringLength1to16 $LinkedConfNumber
-     * @return \FilippoToso\Travelport\GDSQueue\CruiseStay
+     * @return \Santosdave\Travelport\GDSQueue\CruiseStay
      */
     public function setLinkedConfNumber($LinkedConfNumber)
     {
@@ -363,7 +363,7 @@ class CruiseStay
 
     /**
      * @param StringLength1to16 $CancellationNumber
-     * @return \FilippoToso\Travelport\GDSQueue\CruiseStay
+     * @return \Santosdave\Travelport\GDSQueue\CruiseStay
      */
     public function setCancellationNumber($CancellationNumber)
     {
@@ -381,7 +381,7 @@ class CruiseStay
 
     /**
      * @param date $CancellationDate
-     * @return \FilippoToso\Travelport\GDSQueue\CruiseStay
+     * @return \Santosdave\Travelport\GDSQueue\CruiseStay
      */
     public function setCancellationDate($CancellationDate)
     {
@@ -399,7 +399,7 @@ class CruiseStay
 
     /**
      * @param time $CancellationTime
-     * @return \FilippoToso\Travelport\GDSQueue\CruiseStay
+     * @return \Santosdave\Travelport\GDSQueue\CruiseStay
      */
     public function setCancellationTime($CancellationTime)
     {

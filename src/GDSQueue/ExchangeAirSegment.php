@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class ExchangeAirSegment
 {
@@ -42,7 +42,7 @@ class ExchangeAirSegment
 
     /**
      * @param typeBaseAirSegment $AirSegment
-     * @return \FilippoToso\Travelport\GDSQueue\ExchangeAirSegment
+     * @return \Santosdave\Travelport\GDSQueue\ExchangeAirSegment
      */
     public function setAirSegment($AirSegment)
     {
@@ -60,7 +60,7 @@ class ExchangeAirSegment
 
     /**
      * @param CabinClass $CabinClass
-     * @return \FilippoToso\Travelport\GDSQueue\ExchangeAirSegment
+     * @return \Santosdave\Travelport\GDSQueue\ExchangeAirSegment
      */
     public function setCabinClass($CabinClass)
     {
@@ -78,7 +78,7 @@ class ExchangeAirSegment
 
     /**
      * @param string $FareBasisCode
-     * @return \FilippoToso\Travelport\GDSQueue\ExchangeAirSegment
+     * @return \Santosdave\Travelport\GDSQueue\ExchangeAirSegment
      */
     public function setFareBasisCode($FareBasisCode)
     {

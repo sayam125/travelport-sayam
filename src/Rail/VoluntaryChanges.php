@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class VoluntaryChanges
 {
@@ -35,7 +35,7 @@ class VoluntaryChanges
 
     /**
      * @param Penalty $Penalty
-     * @return \FilippoToso\Travelport\Rail\VoluntaryChanges
+     * @return \Santosdave\Travelport\Rail\VoluntaryChanges
      */
     public function setPenalty($Penalty)
     {
@@ -53,7 +53,7 @@ class VoluntaryChanges
 
     /**
      * @param boolean $VolChangeInd
-     * @return \FilippoToso\Travelport\Rail\VoluntaryChanges
+     * @return \Santosdave\Travelport\Rail\VoluntaryChanges
      */
     public function setVolChangeInd($VolChangeInd)
     {

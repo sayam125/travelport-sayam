@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Vehicle;
+namespace Santosdave\Travelport\Vehicle;
 
 class ServiceInfo
 {
@@ -35,7 +35,7 @@ class ServiceInfo
 
     /**
      * @param string[] $Description
-     * @return \FilippoToso\Travelport\Vehicle\ServiceInfo
+     * @return \Santosdave\Travelport\Vehicle\ServiceInfo
      */
     public function setDescription(array $Description)
     {
@@ -53,7 +53,7 @@ class ServiceInfo
 
     /**
      * @param MediaItem $MediaItem
-     * @return \FilippoToso\Travelport\Vehicle\ServiceInfo
+     * @return \Santosdave\Travelport\Vehicle\ServiceInfo
      */
     public function setMediaItem($MediaItem)
     {

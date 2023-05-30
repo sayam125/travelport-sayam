@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class RailSegment extends Segment
 {
@@ -191,7 +191,7 @@ class RailSegment extends Segment
 
     /**
      * @param RailSegmentInfo $RailSegmentInfo
-     * @return \FilippoToso\Travelport\UniversalRecord\RailSegment
+     * @return \Santosdave\Travelport\UniversalRecord\RailSegment
      */
     public function setRailSegmentInfo($RailSegmentInfo)
     {
@@ -209,7 +209,7 @@ class RailSegment extends Segment
 
     /**
      * @param OperatingCompany $OperatingCompany
-     * @return \FilippoToso\Travelport\UniversalRecord\RailSegment
+     * @return \Santosdave\Travelport\UniversalRecord\RailSegment
      */
     public function setOperatingCompany($OperatingCompany)
     {
@@ -227,7 +227,7 @@ class RailSegment extends Segment
 
     /**
      * @param RailAvailInfo $RailAvailInfo
-     * @return \FilippoToso\Travelport\UniversalRecord\RailSegment
+     * @return \Santosdave\Travelport\UniversalRecord\RailSegment
      */
     public function setRailAvailInfo($RailAvailInfo)
     {
@@ -245,7 +245,7 @@ class RailSegment extends Segment
 
     /**
      * @param FulFillmentType $FulFillmentType
-     * @return \FilippoToso\Travelport\UniversalRecord\RailSegment
+     * @return \Santosdave\Travelport\UniversalRecord\RailSegment
      */
     public function setFulFillmentType($FulFillmentType)
     {
@@ -263,7 +263,7 @@ class RailSegment extends Segment
 
     /**
      * @param typeTrainNumber $TrainNumber
-     * @return \FilippoToso\Travelport\UniversalRecord\RailSegment
+     * @return \Santosdave\Travelport\UniversalRecord\RailSegment
      */
     public function setTrainNumber($TrainNumber)
     {
@@ -281,7 +281,7 @@ class RailSegment extends Segment
 
     /**
      * @param string $TrainType
-     * @return \FilippoToso\Travelport\UniversalRecord\RailSegment
+     * @return \Santosdave\Travelport\UniversalRecord\RailSegment
      */
     public function setTrainType($TrainType)
     {
@@ -299,7 +299,7 @@ class RailSegment extends Segment
 
     /**
      * @param typeTrainType $TrainTypeCode
-     * @return \FilippoToso\Travelport\UniversalRecord\RailSegment
+     * @return \Santosdave\Travelport\UniversalRecord\RailSegment
      */
     public function setTrainTypeCode($TrainTypeCode)
     {
@@ -317,7 +317,7 @@ class RailSegment extends Segment
 
     /**
      * @param typeTransportMode $TransportMode
-     * @return \FilippoToso\Travelport\UniversalRecord\RailSegment
+     * @return \Santosdave\Travelport\UniversalRecord\RailSegment
      */
     public function setTransportMode($TransportMode)
     {
@@ -335,7 +335,7 @@ class RailSegment extends Segment
 
     /**
      * @param boolean $SeatAssignable
-     * @return \FilippoToso\Travelport\UniversalRecord\RailSegment
+     * @return \Santosdave\Travelport\UniversalRecord\RailSegment
      */
     public function setSeatAssignable($SeatAssignable)
     {
@@ -353,7 +353,7 @@ class RailSegment extends Segment
 
     /**
      * @param string $TransportCode
-     * @return \FilippoToso\Travelport\UniversalRecord\RailSegment
+     * @return \Santosdave\Travelport\UniversalRecord\RailSegment
      */
     public function setTransportCode($TransportCode)
     {
@@ -371,7 +371,7 @@ class RailSegment extends Segment
 
     /**
      * @param boolean $ReservationRequired
-     * @return \FilippoToso\Travelport\UniversalRecord\RailSegment
+     * @return \Santosdave\Travelport\UniversalRecord\RailSegment
      */
     public function setReservationRequired($ReservationRequired)
     {
@@ -389,7 +389,7 @@ class RailSegment extends Segment
 
     /**
      * @param int $TravelTime
-     * @return \FilippoToso\Travelport\UniversalRecord\RailSegment
+     * @return \Santosdave\Travelport\UniversalRecord\RailSegment
      */
     public function setTravelTime($TravelTime)
     {
@@ -407,7 +407,7 @@ class RailSegment extends Segment
 
     /**
      * @param typeRef $HostTokenRef
-     * @return \FilippoToso\Travelport\UniversalRecord\RailSegment
+     * @return \Santosdave\Travelport\UniversalRecord\RailSegment
      */
     public function setHostTokenRef($HostTokenRef)
     {
@@ -425,7 +425,7 @@ class RailSegment extends Segment
 
     /**
      * @param typeRailCabin $CabinClass
-     * @return \FilippoToso\Travelport\UniversalRecord\RailSegment
+     * @return \Santosdave\Travelport\UniversalRecord\RailSegment
      */
     public function setCabinClass($CabinClass)
     {
@@ -443,7 +443,7 @@ class RailSegment extends Segment
 
     /**
      * @param typeRailClass $ClassCode
-     * @return \FilippoToso\Travelport\UniversalRecord\RailSegment
+     * @return \Santosdave\Travelport\UniversalRecord\RailSegment
      */
     public function setClassCode($ClassCode)
     {
@@ -461,7 +461,7 @@ class RailSegment extends Segment
 
     /**
      * @param typeIATACode $Origin
-     * @return \FilippoToso\Travelport\UniversalRecord\RailSegment
+     * @return \Santosdave\Travelport\UniversalRecord\RailSegment
      */
     public function setOrigin($Origin)
     {
@@ -479,7 +479,7 @@ class RailSegment extends Segment
 
     /**
      * @param typeIATACode $Destination
-     * @return \FilippoToso\Travelport\UniversalRecord\RailSegment
+     * @return \Santosdave\Travelport\UniversalRecord\RailSegment
      */
     public function setDestination($Destination)
     {
@@ -497,7 +497,7 @@ class RailSegment extends Segment
 
     /**
      * @param string $DepartureTime
-     * @return \FilippoToso\Travelport\UniversalRecord\RailSegment
+     * @return \Santosdave\Travelport\UniversalRecord\RailSegment
      */
     public function setDepartureTime($DepartureTime)
     {
@@ -515,7 +515,7 @@ class RailSegment extends Segment
 
     /**
      * @param string $ArrivalTime
-     * @return \FilippoToso\Travelport\UniversalRecord\RailSegment
+     * @return \Santosdave\Travelport\UniversalRecord\RailSegment
      */
     public function setArrivalTime($ArrivalTime)
     {
@@ -533,7 +533,7 @@ class RailSegment extends Segment
 
     /**
      * @param string $OriginStationName
-     * @return \FilippoToso\Travelport\UniversalRecord\RailSegment
+     * @return \Santosdave\Travelport\UniversalRecord\RailSegment
      */
     public function setOriginStationName($OriginStationName)
     {
@@ -551,7 +551,7 @@ class RailSegment extends Segment
 
     /**
      * @param string $DestinationStationName
-     * @return \FilippoToso\Travelport\UniversalRecord\RailSegment
+     * @return \Santosdave\Travelport\UniversalRecord\RailSegment
      */
     public function setDestinationStationName($DestinationStationName)
     {
@@ -569,7 +569,7 @@ class RailSegment extends Segment
 
     /**
      * @param typeRailLocationCode $RailLocOrigin
-     * @return \FilippoToso\Travelport\UniversalRecord\RailSegment
+     * @return \Santosdave\Travelport\UniversalRecord\RailSegment
      */
     public function setRailLocOrigin($RailLocOrigin)
     {
@@ -587,7 +587,7 @@ class RailSegment extends Segment
 
     /**
      * @param typeRailLocationCode $RailLocDestination
-     * @return \FilippoToso\Travelport\UniversalRecord\RailSegment
+     * @return \Santosdave\Travelport\UniversalRecord\RailSegment
      */
     public function setRailLocDestination($RailLocDestination)
     {

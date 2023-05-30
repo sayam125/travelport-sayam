@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class Characteristic
 {
@@ -35,7 +35,7 @@ class Characteristic
 
     /**
      * @param boolean $Smoking
-     * @return \FilippoToso\Travelport\Rail\Characteristic
+     * @return \Santosdave\Travelport\Rail\Characteristic
      */
     public function setSmoking($Smoking)
     {
@@ -53,7 +53,7 @@ class Characteristic
 
     /**
      * @param typeCoachClassType $Class
-     * @return \FilippoToso\Travelport\Rail\Characteristic
+     * @return \Santosdave\Travelport\Rail\Characteristic
      */
     public function setClass($Class)
     {

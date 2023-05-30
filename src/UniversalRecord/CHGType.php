@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class CHGType
 {
@@ -26,7 +26,7 @@ class CHGType
 
     /**
      * @param PenFeeType[] $PenFee
-     * @return \FilippoToso\Travelport\UniversalRecord\CHGType
+     * @return \Santosdave\Travelport\UniversalRecord\CHGType
      */
     public function setPenFee(array $PenFee = null)
     {

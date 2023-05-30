@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class typeFormOfPaymentPNRReference
 {
@@ -35,7 +35,7 @@ class typeFormOfPaymentPNRReference
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Rail\typeFormOfPaymentPNRReference
+     * @return \Santosdave\Travelport\Rail\typeFormOfPaymentPNRReference
      */
     public function setKey($Key)
     {
@@ -53,7 +53,7 @@ class typeFormOfPaymentPNRReference
 
     /**
      * @param boolean $ProviderReservationLevel
-     * @return \FilippoToso\Travelport\Rail\typeFormOfPaymentPNRReference
+     * @return \Santosdave\Travelport\Rail\typeFormOfPaymentPNRReference
      */
     public function setProviderReservationLevel($ProviderReservationLevel)
     {

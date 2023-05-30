@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class HotelType
 {
@@ -28,7 +28,7 @@ class HotelType
 
     /**
      * @param typeSourceLink $SourceLink
-     * @return \FilippoToso\Travelport\Rail\HotelType
+     * @return \Santosdave\Travelport\Rail\HotelType
      */
     public function setSourceLink($SourceLink)
     {

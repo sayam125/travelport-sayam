@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class RailTicketInfo
 {
@@ -91,7 +91,7 @@ class RailTicketInfo
 
     /**
      * @param RailJourneyRef $RailJourneyRef
-     * @return \FilippoToso\Travelport\UniversalRecord\RailTicketInfo
+     * @return \Santosdave\Travelport\UniversalRecord\RailTicketInfo
      */
     public function setRailJourneyRef($RailJourneyRef)
     {
@@ -109,7 +109,7 @@ class RailTicketInfo
 
     /**
      * @param TicketAdvisory $TicketAdvisory
-     * @return \FilippoToso\Travelport\UniversalRecord\RailTicketInfo
+     * @return \Santosdave\Travelport\UniversalRecord\RailTicketInfo
      */
     public function setTicketAdvisory($TicketAdvisory)
     {
@@ -127,7 +127,7 @@ class RailTicketInfo
 
     /**
      * @param anonymous1273 $Number
-     * @return \FilippoToso\Travelport\UniversalRecord\RailTicketInfo
+     * @return \Santosdave\Travelport\UniversalRecord\RailTicketInfo
      */
     public function setNumber($Number)
     {
@@ -145,7 +145,7 @@ class RailTicketInfo
 
     /**
      * @param anonymous1274 $IssueLocation
-     * @return \FilippoToso\Travelport\UniversalRecord\RailTicketInfo
+     * @return \Santosdave\Travelport\UniversalRecord\RailTicketInfo
      */
     public function setIssueLocation($IssueLocation)
     {
@@ -163,7 +163,7 @@ class RailTicketInfo
 
     /**
      * @param StringLength1to255 $TicketStatus
-     * @return \FilippoToso\Travelport\UniversalRecord\RailTicketInfo
+     * @return \Santosdave\Travelport\UniversalRecord\RailTicketInfo
      */
     public function setTicketStatus($TicketStatus)
     {
@@ -181,7 +181,7 @@ class RailTicketInfo
 
     /**
      * @param anonymous1275 $TicketFormType
-     * @return \FilippoToso\Travelport\UniversalRecord\RailTicketInfo
+     * @return \Santosdave\Travelport\UniversalRecord\RailTicketInfo
      */
     public function setTicketFormType($TicketFormType)
     {
@@ -199,7 +199,7 @@ class RailTicketInfo
 
     /**
      * @param StringLength1to255 $TrafficType
-     * @return \FilippoToso\Travelport\UniversalRecord\RailTicketInfo
+     * @return \Santosdave\Travelport\UniversalRecord\RailTicketInfo
      */
     public function setTrafficType($TrafficType)
     {
@@ -225,7 +225,7 @@ class RailTicketInfo
 
     /**
      * @param \DateTime $IssuedDate
-     * @return \FilippoToso\Travelport\UniversalRecord\RailTicketInfo
+     * @return \Santosdave\Travelport\UniversalRecord\RailTicketInfo
      */
     public function setIssuedDate(\DateTime $IssuedDate)
     {
@@ -243,7 +243,7 @@ class RailTicketInfo
 
     /**
      * @param StringLength1to255 $TicketType
-     * @return \FilippoToso\Travelport\UniversalRecord\RailTicketInfo
+     * @return \Santosdave\Travelport\UniversalRecord\RailTicketInfo
      */
     public function setTicketType($TicketType)
     {
@@ -261,7 +261,7 @@ class RailTicketInfo
 
     /**
      * @param typeRef $BookingTravelerRef
-     * @return \FilippoToso\Travelport\UniversalRecord\RailTicketInfo
+     * @return \Santosdave\Travelport\UniversalRecord\RailTicketInfo
      */
     public function setBookingTravelerRef($BookingTravelerRef)
     {

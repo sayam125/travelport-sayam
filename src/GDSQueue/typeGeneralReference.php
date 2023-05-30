@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class typeGeneralReference
 {
@@ -28,7 +28,7 @@ class typeGeneralReference
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\GDSQueue\typeGeneralReference
+     * @return \Santosdave\Travelport\GDSQueue\typeGeneralReference
      */
     public function setKey($Key)
     {

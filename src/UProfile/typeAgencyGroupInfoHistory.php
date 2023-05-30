@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeAgencyGroupInfoHistory extends typeProfileInfo
 {
@@ -31,7 +31,7 @@ class typeAgencyGroupInfoHistory extends typeProfileInfo
 
     /**
      * @param StringLength1to128 $Name
-     * @return \FilippoToso\Travelport\UProfile\typeAgencyGroupInfoHistory
+     * @return \Santosdave\Travelport\UProfile\typeAgencyGroupInfoHistory
      */
     public function setName($Name)
     {

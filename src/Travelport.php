@@ -1,9 +1,9 @@
 <?php
 
-namespace FilippoToso\Travelport;
+namespace Santosdave\Travelport;
 
-use FilippoToso\Travelport\Exceptions\MissingBindingsException;
-use FilippoToso\Travelport\Exceptions\InvalidRegionException;
+use Santosdave\Travelport\Exceptions\MissingBindingsException;
+use Santosdave\Travelport\Exceptions\InvalidRegionException;
 
 use Exception;
 

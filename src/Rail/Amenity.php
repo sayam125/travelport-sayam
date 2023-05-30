@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class Amenity
 {
@@ -35,7 +35,7 @@ class Amenity
 
     /**
      * @param typeAmenity $Code
-     * @return \FilippoToso\Travelport\Rail\Amenity
+     * @return \Santosdave\Travelport\Rail\Amenity
      */
     public function setCode($Code)
     {
@@ -53,7 +53,7 @@ class Amenity
 
     /**
      * @param anonymous1232 $AmenityType
-     * @return \FilippoToso\Travelport\Rail\Amenity
+     * @return \Santosdave\Travelport\Rail\Amenity
      */
     public function setAmenityType($AmenityType)
     {

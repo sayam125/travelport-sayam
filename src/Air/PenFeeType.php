@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class PenFeeType
 {
@@ -112,7 +112,7 @@ class PenFeeType
 
     /**
      * @param boolean $DepRequired
-     * @return \FilippoToso\Travelport\Air\PenFeeType
+     * @return \Santosdave\Travelport\Air\PenFeeType
      */
     public function setDepRequired($DepRequired)
     {
@@ -130,7 +130,7 @@ class PenFeeType
 
     /**
      * @param boolean $DepNonRef
-     * @return \FilippoToso\Travelport\Air\PenFeeType
+     * @return \Santosdave\Travelport\Air\PenFeeType
      */
     public function setDepNonRef($DepNonRef)
     {
@@ -148,7 +148,7 @@ class PenFeeType
 
     /**
      * @param boolean $TkNonRef
-     * @return \FilippoToso\Travelport\Air\PenFeeType
+     * @return \Santosdave\Travelport\Air\PenFeeType
      */
     public function setTkNonRef($TkNonRef)
     {
@@ -166,7 +166,7 @@ class PenFeeType
 
     /**
      * @param boolean $AirVFee
-     * @return \FilippoToso\Travelport\Air\PenFeeType
+     * @return \Santosdave\Travelport\Air\PenFeeType
      */
     public function setAirVFee($AirVFee)
     {
@@ -184,7 +184,7 @@ class PenFeeType
 
     /**
      * @param boolean $Cancellation
-     * @return \FilippoToso\Travelport\Air\PenFeeType
+     * @return \Santosdave\Travelport\Air\PenFeeType
      */
     public function setCancellation($Cancellation)
     {
@@ -202,7 +202,7 @@ class PenFeeType
 
     /**
      * @param boolean $FailConfirmSpace
-     * @return \FilippoToso\Travelport\Air\PenFeeType
+     * @return \Santosdave\Travelport\Air\PenFeeType
      */
     public function setFailConfirmSpace($FailConfirmSpace)
     {
@@ -220,7 +220,7 @@ class PenFeeType
 
     /**
      * @param boolean $ItinChg
-     * @return \FilippoToso\Travelport\Air\PenFeeType
+     * @return \Santosdave\Travelport\Air\PenFeeType
      */
     public function setItinChg($ItinChg)
     {
@@ -238,7 +238,7 @@ class PenFeeType
 
     /**
      * @param boolean $ReplaceTk
-     * @return \FilippoToso\Travelport\Air\PenFeeType
+     * @return \Santosdave\Travelport\Air\PenFeeType
      */
     public function setReplaceTk($ReplaceTk)
     {
@@ -256,7 +256,7 @@ class PenFeeType
 
     /**
      * @param boolean $Applicable
-     * @return \FilippoToso\Travelport\Air\PenFeeType
+     * @return \Santosdave\Travelport\Air\PenFeeType
      */
     public function setApplicable($Applicable)
     {
@@ -274,7 +274,7 @@ class PenFeeType
 
     /**
      * @param boolean $ApplicableTo
-     * @return \FilippoToso\Travelport\Air\PenFeeType
+     * @return \Santosdave\Travelport\Air\PenFeeType
      */
     public function setApplicableTo($ApplicableTo)
     {
@@ -292,7 +292,7 @@ class PenFeeType
 
     /**
      * @param float $Amt
-     * @return \FilippoToso\Travelport\Air\PenFeeType
+     * @return \Santosdave\Travelport\Air\PenFeeType
      */
     public function setAmt($Amt)
     {
@@ -310,7 +310,7 @@ class PenFeeType
 
     /**
      * @param string $Type
-     * @return \FilippoToso\Travelport\Air\PenFeeType
+     * @return \Santosdave\Travelport\Air\PenFeeType
      */
     public function setType($Type)
     {
@@ -328,7 +328,7 @@ class PenFeeType
 
     /**
      * @param string $Currency
-     * @return \FilippoToso\Travelport\Air\PenFeeType
+     * @return \Santosdave\Travelport\Air\PenFeeType
      */
     public function setCurrency($Currency)
     {

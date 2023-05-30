@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class TravelerGroupInfo extends typeAccountTypeProfileInfo
 {
@@ -67,7 +67,7 @@ class TravelerGroupInfo extends typeAccountTypeProfileInfo
 
     /**
      * @param Address $Address
-     * @return \FilippoToso\Travelport\UProfile\TravelerGroupInfo
+     * @return \Santosdave\Travelport\UProfile\TravelerGroupInfo
      */
     public function setAddress($Address)
     {
@@ -85,7 +85,7 @@ class TravelerGroupInfo extends typeAccountTypeProfileInfo
 
     /**
      * @param Phone $Phone
-     * @return \FilippoToso\Travelport\UProfile\TravelerGroupInfo
+     * @return \Santosdave\Travelport\UProfile\TravelerGroupInfo
      */
     public function setPhone($Phone)
     {
@@ -103,7 +103,7 @@ class TravelerGroupInfo extends typeAccountTypeProfileInfo
 
     /**
      * @param ElectronicAddress $ElectronicAddress
-     * @return \FilippoToso\Travelport\UProfile\TravelerGroupInfo
+     * @return \Santosdave\Travelport\UProfile\TravelerGroupInfo
      */
     public function setElectronicAddress($ElectronicAddress)
     {
@@ -121,7 +121,7 @@ class TravelerGroupInfo extends typeAccountTypeProfileInfo
 
     /**
      * @param ExternalIdentifier $ExternalIdentifier
-     * @return \FilippoToso\Travelport\UProfile\TravelerGroupInfo
+     * @return \Santosdave\Travelport\UProfile\TravelerGroupInfo
      */
     public function setExternalIdentifier($ExternalIdentifier)
     {
@@ -139,7 +139,7 @@ class TravelerGroupInfo extends typeAccountTypeProfileInfo
 
     /**
      * @param StringLength1to128 $Name
-     * @return \FilippoToso\Travelport\UProfile\TravelerGroupInfo
+     * @return \Santosdave\Travelport\UProfile\TravelerGroupInfo
      */
     public function setName($Name)
     {
@@ -157,7 +157,7 @@ class TravelerGroupInfo extends typeAccountTypeProfileInfo
 
     /**
      * @param StringLength1to128 $LocalLanguageName
-     * @return \FilippoToso\Travelport\UProfile\TravelerGroupInfo
+     * @return \Santosdave\Travelport\UProfile\TravelerGroupInfo
      */
     public function setLocalLanguageName($LocalLanguageName)
     {

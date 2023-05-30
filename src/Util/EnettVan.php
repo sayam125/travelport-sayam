@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class EnettVan
 {
@@ -49,7 +49,7 @@ class EnettVan
 
     /**
      * @param typeIntegerPercentage $MinPercentage
-     * @return \FilippoToso\Travelport\Util\EnettVan
+     * @return \Santosdave\Travelport\Util\EnettVan
      */
     public function setMinPercentage($MinPercentage)
     {
@@ -67,7 +67,7 @@ class EnettVan
 
     /**
      * @param typeIntegerPercentage $MaxPercentage
-     * @return \FilippoToso\Travelport\Util\EnettVan
+     * @return \Santosdave\Travelport\Util\EnettVan
      */
     public function setMaxPercentage($MaxPercentage)
     {
@@ -85,7 +85,7 @@ class EnettVan
 
     /**
      * @param typeDurationYearInDays $ExpiryDays
-     * @return \FilippoToso\Travelport\Util\EnettVan
+     * @return \Santosdave\Travelport\Util\EnettVan
      */
     public function setExpiryDays($ExpiryDays)
     {
@@ -103,7 +103,7 @@ class EnettVan
 
     /**
      * @param boolean $MultiUse
-     * @return \FilippoToso\Travelport\Util\EnettVan
+     * @return \Santosdave\Travelport\Util\EnettVan
      */
     public function setMultiUse($MultiUse)
     {

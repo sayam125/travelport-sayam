@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Terminal;
+namespace Santosdave\Travelport\Terminal;
 
 class ConsolidatorRemark
 {
@@ -63,7 +63,7 @@ class ConsolidatorRemark
 
     /**
      * @param PseudoCityCode $PseudoCityCode
-     * @return \FilippoToso\Travelport\Terminal\ConsolidatorRemark
+     * @return \Santosdave\Travelport\Terminal\ConsolidatorRemark
      */
     public function setPseudoCityCode($PseudoCityCode)
     {
@@ -81,7 +81,7 @@ class ConsolidatorRemark
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Terminal\ConsolidatorRemark
+     * @return \Santosdave\Travelport\Terminal\ConsolidatorRemark
      */
     public function setKey($Key)
     {
@@ -99,7 +99,7 @@ class ConsolidatorRemark
 
     /**
      * @param typeRef $ProviderReservationInfoRef
-     * @return \FilippoToso\Travelport\Terminal\ConsolidatorRemark
+     * @return \Santosdave\Travelport\Terminal\ConsolidatorRemark
      */
     public function setProviderReservationInfoRef($ProviderReservationInfoRef)
     {
@@ -117,7 +117,7 @@ class ConsolidatorRemark
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\Terminal\ConsolidatorRemark
+     * @return \Santosdave\Travelport\Terminal\ConsolidatorRemark
      */
     public function setProviderCode($ProviderCode)
     {
@@ -135,7 +135,7 @@ class ConsolidatorRemark
 
     /**
      * @param typeElementStatus $ElStat
-     * @return \FilippoToso\Travelport\Terminal\ConsolidatorRemark
+     * @return \Santosdave\Travelport\Terminal\ConsolidatorRemark
      */
     public function setElStat($ElStat)
     {
@@ -153,7 +153,7 @@ class ConsolidatorRemark
 
     /**
      * @param boolean $KeyOverride
-     * @return \FilippoToso\Travelport\Terminal\ConsolidatorRemark
+     * @return \Santosdave\Travelport\Terminal\ConsolidatorRemark
      */
     public function setKeyOverride($KeyOverride)
     {

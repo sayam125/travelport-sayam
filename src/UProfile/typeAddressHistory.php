@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeAddressHistory extends typeKeyTaggedElement
 {
@@ -108,7 +108,7 @@ class typeAddressHistory extends typeKeyTaggedElement
 
     /**
      * @param StringLength1to128 $AddressLine
-     * @return \FilippoToso\Travelport\UProfile\typeAddressHistory
+     * @return \Santosdave\Travelport\UProfile\typeAddressHistory
      */
     public function setAddressLine($AddressLine)
     {
@@ -126,7 +126,7 @@ class typeAddressHistory extends typeKeyTaggedElement
 
     /**
      * @param anonymous730 $City
-     * @return \FilippoToso\Travelport\UProfile\typeAddressHistory
+     * @return \Santosdave\Travelport\UProfile\typeAddressHistory
      */
     public function setCity($City)
     {
@@ -144,7 +144,7 @@ class typeAddressHistory extends typeKeyTaggedElement
 
     /**
      * @param StringLength1to255 $State
-     * @return \FilippoToso\Travelport\UProfile\typeAddressHistory
+     * @return \Santosdave\Travelport\UProfile\typeAddressHistory
      */
     public function setState($State)
     {
@@ -162,7 +162,7 @@ class typeAddressHistory extends typeKeyTaggedElement
 
     /**
      * @param StringLength1to128 $OtherStateProvince
-     * @return \FilippoToso\Travelport\UProfile\typeAddressHistory
+     * @return \Santosdave\Travelport\UProfile\typeAddressHistory
      */
     public function setOtherStateProvince($OtherStateProvince)
     {
@@ -180,7 +180,7 @@ class typeAddressHistory extends typeKeyTaggedElement
 
     /**
      * @param typeCountry $Country
-     * @return \FilippoToso\Travelport\UProfile\typeAddressHistory
+     * @return \Santosdave\Travelport\UProfile\typeAddressHistory
      */
     public function setCountry($Country)
     {
@@ -198,7 +198,7 @@ class typeAddressHistory extends typeKeyTaggedElement
 
     /**
      * @param anonymous731 $Postal
-     * @return \FilippoToso\Travelport\UProfile\typeAddressHistory
+     * @return \Santosdave\Travelport\UProfile\typeAddressHistory
      */
     public function setPostal($Postal)
     {
@@ -216,7 +216,7 @@ class typeAddressHistory extends typeKeyTaggedElement
 
     /**
      * @param StringLength1to128 $Type
-     * @return \FilippoToso\Travelport\UProfile\typeAddressHistory
+     * @return \Santosdave\Travelport\UProfile\typeAddressHistory
      */
     public function setType($Type)
     {
@@ -234,7 +234,7 @@ class typeAddressHistory extends typeKeyTaggedElement
 
     /**
      * @param typeContactPurpose $Purpose
-     * @return \FilippoToso\Travelport\UProfile\typeAddressHistory
+     * @return \Santosdave\Travelport\UProfile\typeAddressHistory
      */
     public function setPurpose($Purpose)
     {
@@ -252,7 +252,7 @@ class typeAddressHistory extends typeKeyTaggedElement
 
     /**
      * @param boolean $Provisioned
-     * @return \FilippoToso\Travelport\UProfile\typeAddressHistory
+     * @return \Santosdave\Travelport\UProfile\typeAddressHistory
      */
     public function setProvisioned($Provisioned)
     {
@@ -270,7 +270,7 @@ class typeAddressHistory extends typeKeyTaggedElement
 
     /**
      * @param typePriorityOrder $PriorityOrder
-     * @return \FilippoToso\Travelport\UProfile\typeAddressHistory
+     * @return \Santosdave\Travelport\UProfile\typeAddressHistory
      */
     public function setPriorityOrder($PriorityOrder)
     {
@@ -288,7 +288,7 @@ class typeAddressHistory extends typeKeyTaggedElement
 
     /**
      * @param StringLength1to255 $DeliveryDescription
-     * @return \FilippoToso\Travelport\UProfile\typeAddressHistory
+     * @return \Santosdave\Travelport\UProfile\typeAddressHistory
      */
     public function setDeliveryDescription($DeliveryDescription)
     {
@@ -306,7 +306,7 @@ class typeAddressHistory extends typeKeyTaggedElement
 
     /**
      * @param typeProfileID $OwnerID
-     * @return \FilippoToso\Travelport\UProfile\typeAddressHistory
+     * @return \Santosdave\Travelport\UProfile\typeAddressHistory
      */
     public function setOwnerID($OwnerID)
     {

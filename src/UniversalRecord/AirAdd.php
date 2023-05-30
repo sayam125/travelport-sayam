@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class AirAdd
 {
@@ -210,7 +210,7 @@ class AirAdd
 
     /**
      * @param AccountingRemark $AccountingRemark
-     * @return \FilippoToso\Travelport\UniversalRecord\AirAdd
+     * @return \Santosdave\Travelport\UniversalRecord\AirAdd
      */
     public function setAccountingRemark($AccountingRemark)
     {
@@ -228,7 +228,7 @@ class AirAdd
 
     /**
      * @param SupplierLocator $SupplierLocator
-     * @return \FilippoToso\Travelport\UniversalRecord\AirAdd
+     * @return \Santosdave\Travelport\UniversalRecord\AirAdd
      */
     public function setSupplierLocator($SupplierLocator)
     {
@@ -246,7 +246,7 @@ class AirAdd
 
     /**
      * @param typeBaseAirSegment $AirSegment
-     * @return \FilippoToso\Travelport\UniversalRecord\AirAdd
+     * @return \Santosdave\Travelport\UniversalRecord\AirAdd
      */
     public function setAirSegment($AirSegment)
     {
@@ -264,7 +264,7 @@ class AirAdd
 
     /**
      * @param AirPricingInfo $AirPricingInfo
-     * @return \FilippoToso\Travelport\UniversalRecord\AirAdd
+     * @return \Santosdave\Travelport\UniversalRecord\AirAdd
      */
     public function setAirPricingInfo($AirPricingInfo)
     {
@@ -282,7 +282,7 @@ class AirAdd
 
     /**
      * @param CreditCardAuth $CreditCardAuth
-     * @return \FilippoToso\Travelport\UniversalRecord\AirAdd
+     * @return \Santosdave\Travelport\UniversalRecord\AirAdd
      */
     public function setCreditCardAuth($CreditCardAuth)
     {
@@ -300,7 +300,7 @@ class AirAdd
 
     /**
      * @param DeliveryInfo $DeliveryInfo
-     * @return \FilippoToso\Travelport\UniversalRecord\AirAdd
+     * @return \Santosdave\Travelport\UniversalRecord\AirAdd
      */
     public function setDeliveryInfo($DeliveryInfo)
     {
@@ -318,7 +318,7 @@ class AirAdd
 
     /**
      * @param Payment $Payment
-     * @return \FilippoToso\Travelport\UniversalRecord\AirAdd
+     * @return \Santosdave\Travelport\UniversalRecord\AirAdd
      */
     public function setPayment($Payment)
     {
@@ -336,7 +336,7 @@ class AirAdd
 
     /**
      * @param SSR $SSR
-     * @return \FilippoToso\Travelport\UniversalRecord\AirAdd
+     * @return \Santosdave\Travelport\UniversalRecord\AirAdd
      */
     public function setSSR($SSR)
     {
@@ -354,7 +354,7 @@ class AirAdd
 
     /**
      * @param LoyaltyCard $LoyaltyCard
-     * @return \FilippoToso\Travelport\UniversalRecord\AirAdd
+     * @return \Santosdave\Travelport\UniversalRecord\AirAdd
      */
     public function setLoyaltyCard($LoyaltyCard)
     {
@@ -372,7 +372,7 @@ class AirAdd
 
     /**
      * @param AutoSeatAssignment $AutoSeatAssignment
-     * @return \FilippoToso\Travelport\UniversalRecord\AirAdd
+     * @return \Santosdave\Travelport\UniversalRecord\AirAdd
      */
     public function setAutoSeatAssignment($AutoSeatAssignment)
     {
@@ -390,7 +390,7 @@ class AirAdd
 
     /**
      * @param SpecificSeatAssignment $SpecificSeatAssignment
-     * @return \FilippoToso\Travelport\UniversalRecord\AirAdd
+     * @return \Santosdave\Travelport\UniversalRecord\AirAdd
      */
     public function setSpecificSeatAssignment($SpecificSeatAssignment)
     {
@@ -408,7 +408,7 @@ class AirAdd
 
     /**
      * @param GeneralRemark $GeneralRemark
-     * @return \FilippoToso\Travelport\UniversalRecord\AirAdd
+     * @return \Santosdave\Travelport\UniversalRecord\AirAdd
      */
     public function setGeneralRemark($GeneralRemark)
     {
@@ -426,7 +426,7 @@ class AirAdd
 
     /**
      * @param typeFeeInfo $FeeInfo
-     * @return \FilippoToso\Travelport\UniversalRecord\AirAdd
+     * @return \Santosdave\Travelport\UniversalRecord\AirAdd
      */
     public function setFeeInfo($FeeInfo)
     {
@@ -444,7 +444,7 @@ class AirAdd
 
     /**
      * @param HostToken $HostToken
-     * @return \FilippoToso\Travelport\UniversalRecord\AirAdd
+     * @return \Santosdave\Travelport\UniversalRecord\AirAdd
      */
     public function setHostToken($HostToken)
     {
@@ -462,7 +462,7 @@ class AirAdd
 
     /**
      * @param AirPricingTicketingModifiers $AirPricingTicketingModifiers
-     * @return \FilippoToso\Travelport\UniversalRecord\AirAdd
+     * @return \Santosdave\Travelport\UniversalRecord\AirAdd
      */
     public function setAirPricingTicketingModifiers($AirPricingTicketingModifiers)
     {
@@ -480,7 +480,7 @@ class AirAdd
 
     /**
      * @param OptionalServicesInfo $OptionalServicesInfo
-     * @return \FilippoToso\Travelport\UniversalRecord\AirAdd
+     * @return \Santosdave\Travelport\UniversalRecord\AirAdd
      */
     public function setOptionalServicesInfo($OptionalServicesInfo)
     {
@@ -498,7 +498,7 @@ class AirAdd
 
     /**
      * @param AirPricingPayment $AirPricingPayment
-     * @return \FilippoToso\Travelport\UniversalRecord\AirAdd
+     * @return \Santosdave\Travelport\UniversalRecord\AirAdd
      */
     public function setAirPricingPayment($AirPricingPayment)
     {
@@ -516,7 +516,7 @@ class AirAdd
 
     /**
      * @param AssociatedRemark $AssociatedRemark
-     * @return \FilippoToso\Travelport\UniversalRecord\AirAdd
+     * @return \Santosdave\Travelport\UniversalRecord\AirAdd
      */
     public function setAssociatedRemark($AssociatedRemark)
     {
@@ -534,7 +534,7 @@ class AirAdd
 
     /**
      * @param PocketItineraryRemark $PocketItineraryRemark
-     * @return \FilippoToso\Travelport\UniversalRecord\AirAdd
+     * @return \Santosdave\Travelport\UniversalRecord\AirAdd
      */
     public function setPocketItineraryRemark($PocketItineraryRemark)
     {
@@ -552,7 +552,7 @@ class AirAdd
 
     /**
      * @param ThirdPartyInformation $ThirdPartyInformation
-     * @return \FilippoToso\Travelport\UniversalRecord\AirAdd
+     * @return \Santosdave\Travelport\UniversalRecord\AirAdd
      */
     public function setThirdPartyInformation($ThirdPartyInformation)
     {
@@ -570,7 +570,7 @@ class AirAdd
 
     /**
      * @param AirSegmentPricingModifiers $AirSegmentPricingModifiers
-     * @return \FilippoToso\Travelport\UniversalRecord\AirAdd
+     * @return \Santosdave\Travelport\UniversalRecord\AirAdd
      */
     public function setAirSegmentPricingModifiers($AirSegmentPricingModifiers)
     {
@@ -588,7 +588,7 @@ class AirAdd
 
     /**
      * @param TravelComplianceData $TravelComplianceData
-     * @return \FilippoToso\Travelport\UniversalRecord\AirAdd
+     * @return \Santosdave\Travelport\UniversalRecord\AirAdd
      */
     public function setTravelComplianceData($TravelComplianceData)
     {
@@ -606,7 +606,7 @@ class AirAdd
 
     /**
      * @param BrandInfo $BrandInfo
-     * @return \FilippoToso\Travelport\UniversalRecord\AirAdd
+     * @return \Santosdave\Travelport\UniversalRecord\AirAdd
      */
     public function setBrandInfo($BrandInfo)
     {
@@ -624,7 +624,7 @@ class AirAdd
 
     /**
      * @param InvoluntaryChange $InvoluntaryChange
-     * @return \FilippoToso\Travelport\UniversalRecord\AirAdd
+     * @return \Santosdave\Travelport\UniversalRecord\AirAdd
      */
     public function setInvoluntaryChange($InvoluntaryChange)
     {
@@ -642,7 +642,7 @@ class AirAdd
 
     /**
      * @param typeLocatorCode $ReservationLocatorCode
-     * @return \FilippoToso\Travelport\UniversalRecord\AirAdd
+     * @return \Santosdave\Travelport\UniversalRecord\AirAdd
      */
     public function setReservationLocatorCode($ReservationLocatorCode)
     {
@@ -660,7 +660,7 @@ class AirAdd
 
     /**
      * @param typeRef $BookingTravelerRef
-     * @return \FilippoToso\Travelport\UniversalRecord\AirAdd
+     * @return \Santosdave\Travelport\UniversalRecord\AirAdd
      */
     public function setBookingTravelerRef($BookingTravelerRef)
     {
@@ -678,7 +678,7 @@ class AirAdd
 
     /**
      * @param boolean $RestrictWaitlist
-     * @return \FilippoToso\Travelport\UniversalRecord\AirAdd
+     * @return \Santosdave\Travelport\UniversalRecord\AirAdd
      */
     public function setRestrictWaitlist($RestrictWaitlist)
     {

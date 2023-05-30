@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class AirRefundModifiers
 {
@@ -42,7 +42,7 @@ class AirRefundModifiers
 
     /**
      * @param string $RefundDate
-     * @return \FilippoToso\Travelport\UniversalRecord\AirRefundModifiers
+     * @return \Santosdave\Travelport\UniversalRecord\AirRefundModifiers
      */
     public function setRefundDate($RefundDate)
     {
@@ -60,7 +60,7 @@ class AirRefundModifiers
 
     /**
      * @param string $AccountCode
-     * @return \FilippoToso\Travelport\UniversalRecord\AirRefundModifiers
+     * @return \Santosdave\Travelport\UniversalRecord\AirRefundModifiers
      */
     public function setAccountCode($AccountCode)
     {
@@ -78,7 +78,7 @@ class AirRefundModifiers
 
     /**
      * @param typeTicketDesignator $TicketDesignator
-     * @return \FilippoToso\Travelport\UniversalRecord\AirRefundModifiers
+     * @return \Santosdave\Travelport\UniversalRecord\AirRefundModifiers
      */
     public function setTicketDesignator($TicketDesignator)
     {

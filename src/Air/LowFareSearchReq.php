@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class LowFareSearchReq extends BaseLowFareSearchReq
 {
@@ -67,7 +67,7 @@ class LowFareSearchReq extends BaseLowFareSearchReq
 
     /**
      * @param typePolicyReference $PolicyReference
-     * @return \FilippoToso\Travelport\Air\LowFareSearchReq
+     * @return \Santosdave\Travelport\Air\LowFareSearchReq
      */
     public function setPolicyReference($PolicyReference)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class BasicDetailsOnly
 {
@@ -28,7 +28,7 @@ class BasicDetailsOnly
 
     /**
      * @param boolean $ReturnBasicDetails
-     * @return \FilippoToso\Travelport\Util\BasicDetailsOnly
+     * @return \Santosdave\Travelport\Util\BasicDetailsOnly
      */
     public function setReturnBasicDetails($ReturnBasicDetails)
     {

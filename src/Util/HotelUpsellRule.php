@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class HotelUpsellRule
 {
@@ -35,7 +35,7 @@ class HotelUpsellRule
 
     /**
      * @param HotelUpsellQualify $HotelUpsellQualify
-     * @return \FilippoToso\Travelport\Util\HotelUpsellRule
+     * @return \Santosdave\Travelport\Util\HotelUpsellRule
      */
     public function setHotelUpsellQualify($HotelUpsellQualify)
     {
@@ -53,7 +53,7 @@ class HotelUpsellRule
 
     /**
      * @param HotelUpsellOffer $HotelUpsellOffer
-     * @return \FilippoToso\Travelport\Util\HotelUpsellRule
+     * @return \Santosdave\Travelport\Util\HotelUpsellRule
      */
     public function setHotelUpsellOffer($HotelUpsellOffer)
     {

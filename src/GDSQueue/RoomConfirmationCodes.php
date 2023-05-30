@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class RoomConfirmationCodes
 {
@@ -28,7 +28,7 @@ class RoomConfirmationCodes
 
     /**
      * @param string[] $ConfirmationCode
-     * @return \FilippoToso\Travelport\GDSQueue\RoomConfirmationCodes
+     * @return \Santosdave\Travelport\GDSQueue\RoomConfirmationCodes
      */
     public function setConfirmationCode(array $ConfirmationCode)
     {

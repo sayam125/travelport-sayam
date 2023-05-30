@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class PermittedCabins
 {
@@ -28,7 +28,7 @@ class PermittedCabins
 
     /**
      * @param CabinClass $CabinClass
-     * @return \FilippoToso\Travelport\Air\PermittedCabins
+     * @return \Santosdave\Travelport\Air\PermittedCabins
      */
     public function setCabinClass($CabinClass)
     {

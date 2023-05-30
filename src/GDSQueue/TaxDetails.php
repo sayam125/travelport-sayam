@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class TaxDetails
 {
@@ -28,7 +28,7 @@ class TaxDetails
 
     /**
      * @param Tax $Tax
-     * @return \FilippoToso\Travelport\GDSQueue\TaxDetails
+     * @return \Santosdave\Travelport\GDSQueue\TaxDetails
      */
     public function setTax($Tax)
     {

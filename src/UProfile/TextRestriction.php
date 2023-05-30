@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class TextRestriction
 {
@@ -28,7 +28,7 @@ class TextRestriction
 
     /**
      * @param typeAction $Action
-     * @return \FilippoToso\Travelport\UProfile\TextRestriction
+     * @return \Santosdave\Travelport\UProfile\TextRestriction
      */
     public function setAction($Action)
     {

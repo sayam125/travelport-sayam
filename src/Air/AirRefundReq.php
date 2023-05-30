@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class AirRefundReq extends BaseReq
 {
@@ -68,7 +68,7 @@ class AirRefundReq extends BaseReq
 
     /**
      * @param AirRefundBundle $AirRefundBundle
-     * @return \FilippoToso\Travelport\Air\AirRefundReq
+     * @return \Santosdave\Travelport\Air\AirRefundReq
      */
     public function setAirRefundBundle($AirRefundBundle)
     {
@@ -86,7 +86,7 @@ class AirRefundReq extends BaseReq
 
     /**
      * @param TCRRefundBundle $TCRRefundBundle
-     * @return \FilippoToso\Travelport\Air\AirRefundReq
+     * @return \Santosdave\Travelport\Air\AirRefundReq
      */
     public function setTCRRefundBundle($TCRRefundBundle)
     {
@@ -104,7 +104,7 @@ class AirRefundReq extends BaseReq
 
     /**
      * @param AirRefundModifiers $AirRefundModifiers
-     * @return \FilippoToso\Travelport\Air\AirRefundReq
+     * @return \Santosdave\Travelport\Air\AirRefundReq
      */
     public function setAirRefundModifiers($AirRefundModifiers)
     {
@@ -122,7 +122,7 @@ class AirRefundReq extends BaseReq
 
     /**
      * @param Commission $Commission
-     * @return \FilippoToso\Travelport\Air\AirRefundReq
+     * @return \Santosdave\Travelport\Air\AirRefundReq
      */
     public function setCommission($Commission)
     {
@@ -140,7 +140,7 @@ class AirRefundReq extends BaseReq
 
     /**
      * @param FormOfPayment $FormOfPayment
-     * @return \FilippoToso\Travelport\Air\AirRefundReq
+     * @return \Santosdave\Travelport\Air\AirRefundReq
      */
     public function setFormOfPayment($FormOfPayment)
     {

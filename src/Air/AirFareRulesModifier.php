@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class AirFareRulesModifier
 {
@@ -28,7 +28,7 @@ class AirFareRulesModifier
 
     /**
      * @param AirFareRuleCategory $AirFareRuleCategory
-     * @return \FilippoToso\Travelport\Air\AirFareRulesModifier
+     * @return \Santosdave\Travelport\Air\AirFareRulesModifier
      */
     public function setAirFareRuleCategory($AirFareRuleCategory)
     {

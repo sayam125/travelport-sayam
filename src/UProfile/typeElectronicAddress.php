@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeElectronicAddress extends typeKeyElement
 {
@@ -44,7 +44,7 @@ class typeElectronicAddress extends typeKeyElement
 
     /**
      * @param anonymous814 $Name
-     * @return \FilippoToso\Travelport\UProfile\typeElectronicAddress
+     * @return \Santosdave\Travelport\UProfile\typeElectronicAddress
      */
     public function setName($Name)
     {
@@ -62,7 +62,7 @@ class typeElectronicAddress extends typeKeyElement
 
     /**
      * @param typeEmailType $Type
-     * @return \FilippoToso\Travelport\UProfile\typeElectronicAddress
+     * @return \Santosdave\Travelport\UProfile\typeElectronicAddress
      */
     public function setType($Type)
     {
@@ -80,7 +80,7 @@ class typeElectronicAddress extends typeKeyElement
 
     /**
      * @param typeEmailFormat $Format
-     * @return \FilippoToso\Travelport\UProfile\typeElectronicAddress
+     * @return \Santosdave\Travelport\UProfile\typeElectronicAddress
      */
     public function setFormat($Format)
     {

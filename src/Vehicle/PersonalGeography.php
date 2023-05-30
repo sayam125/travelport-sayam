@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Vehicle;
+namespace Santosdave\Travelport\Vehicle;
 
 class PersonalGeography
 {
@@ -36,7 +36,7 @@ class PersonalGeography
 
     /**
      * @param typeCountry $CountryCode
-     * @return \FilippoToso\Travelport\Vehicle\PersonalGeography
+     * @return \Santosdave\Travelport\Vehicle\PersonalGeography
      */
     public function setCountryCode($CountryCode)
     {
@@ -54,7 +54,7 @@ class PersonalGeography
 
     /**
      * @param typeState $StateProvinceCode
-     * @return \FilippoToso\Travelport\Vehicle\PersonalGeography
+     * @return \Santosdave\Travelport\Vehicle\PersonalGeography
      */
     public function setStateProvinceCode($StateProvinceCode)
     {
@@ -72,7 +72,7 @@ class PersonalGeography
 
     /**
      * @param typeCity $CityCode
-     * @return \FilippoToso\Travelport\Vehicle\PersonalGeography
+     * @return \Santosdave\Travelport\Vehicle\PersonalGeography
      */
     public function setCityCode($CityCode)
     {

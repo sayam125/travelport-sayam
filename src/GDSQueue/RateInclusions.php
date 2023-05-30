@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class RateInclusions
 {
@@ -28,7 +28,7 @@ class RateInclusions
 
     /**
      * @param IncludedItem $IncludedItem
-     * @return \FilippoToso\Travelport\GDSQueue\RateInclusions
+     * @return \Santosdave\Travelport\GDSQueue\RateInclusions
      */
     public function setIncludedItem($IncludedItem)
     {

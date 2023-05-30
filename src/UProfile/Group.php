@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class Group
 {
@@ -92,7 +92,7 @@ class Group
 
     /**
      * @param Name $Name
-     * @return \FilippoToso\Travelport\UProfile\Group
+     * @return \Santosdave\Travelport\UProfile\Group
      */
     public function setName($Name)
     {
@@ -110,7 +110,7 @@ class Group
 
     /**
      * @param DeliveryInfo $DeliveryInfo
-     * @return \FilippoToso\Travelport\UProfile\Group
+     * @return \Santosdave\Travelport\UProfile\Group
      */
     public function setDeliveryInfo($DeliveryInfo)
     {
@@ -128,7 +128,7 @@ class Group
 
     /**
      * @param PhoneNumber $PhoneNumber
-     * @return \FilippoToso\Travelport\UProfile\Group
+     * @return \Santosdave\Travelport\UProfile\Group
      */
     public function setPhoneNumber($PhoneNumber)
     {
@@ -146,7 +146,7 @@ class Group
 
     /**
      * @param SSRRef[] $SSRRef
-     * @return \FilippoToso\Travelport\UProfile\Group
+     * @return \Santosdave\Travelport\UProfile\Group
      */
     public function setSSRRef(array $SSRRef = null)
     {
@@ -164,7 +164,7 @@ class Group
 
     /**
      * @param typeStructuredAddress $Address
-     * @return \FilippoToso\Travelport\UProfile\Group
+     * @return \Santosdave\Travelport\UProfile\Group
      */
     public function setAddress($Address)
     {
@@ -182,7 +182,7 @@ class Group
 
     /**
      * @param BookingTravelerRef[] $BookingTravelerRef
-     * @return \FilippoToso\Travelport\UProfile\Group
+     * @return \Santosdave\Travelport\UProfile\Group
      */
     public function setBookingTravelerRef(array $BookingTravelerRef = null)
     {
@@ -200,7 +200,7 @@ class Group
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\UProfile\Group
+     * @return \Santosdave\Travelport\UProfile\Group
      */
     public function setKey($Key)
     {
@@ -218,7 +218,7 @@ class Group
 
     /**
      * @param typePTC $TravelerType
-     * @return \FilippoToso\Travelport\UProfile\Group
+     * @return \Santosdave\Travelport\UProfile\Group
      */
     public function setTravelerType($TravelerType)
     {
@@ -236,7 +236,7 @@ class Group
 
     /**
      * @param int $GroupSize
-     * @return \FilippoToso\Travelport\UProfile\Group
+     * @return \Santosdave\Travelport\UProfile\Group
      */
     public function setGroupSize($GroupSize)
     {
@@ -254,7 +254,7 @@ class Group
 
     /**
      * @param typeElementStatus $ElStat
-     * @return \FilippoToso\Travelport\UProfile\Group
+     * @return \Santosdave\Travelport\UProfile\Group
      */
     public function setElStat($ElStat)
     {
@@ -272,7 +272,7 @@ class Group
 
     /**
      * @param boolean $KeyOverride
-     * @return \FilippoToso\Travelport\UProfile\Group
+     * @return \Santosdave\Travelport\UProfile\Group
      */
     public function setKeyOverride($KeyOverride)
     {

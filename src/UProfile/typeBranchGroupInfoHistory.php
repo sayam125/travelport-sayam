@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeBranchGroupInfoHistory extends typeProfileInfo
 {
@@ -45,7 +45,7 @@ class typeBranchGroupInfoHistory extends typeProfileInfo
 
     /**
      * @param StringLength1to128 $Name
-     * @return \FilippoToso\Travelport\UProfile\typeBranchGroupInfoHistory
+     * @return \Santosdave\Travelport\UProfile\typeBranchGroupInfoHistory
      */
     public function setName($Name)
     {
@@ -63,7 +63,7 @@ class typeBranchGroupInfoHistory extends typeProfileInfo
 
     /**
      * @param typeProvisioningCode $BranchGroupCode
-     * @return \FilippoToso\Travelport\UProfile\typeBranchGroupInfoHistory
+     * @return \Santosdave\Travelport\UProfile\typeBranchGroupInfoHistory
      */
     public function setBranchGroupCode($BranchGroupCode)
     {
@@ -81,7 +81,7 @@ class typeBranchGroupInfoHistory extends typeProfileInfo
 
     /**
      * @param boolean $URSyncTo
-     * @return \FilippoToso\Travelport\UProfile\typeBranchGroupInfoHistory
+     * @return \Santosdave\Travelport\UProfile\typeBranchGroupInfoHistory
      */
     public function setURSyncTo($URSyncTo)
     {

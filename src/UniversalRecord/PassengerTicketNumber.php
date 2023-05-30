@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class PassengerTicketNumber
 {
@@ -35,7 +35,7 @@ class PassengerTicketNumber
 
     /**
      * @param typePassengerTicketNumber $TicketNumber
-     * @return \FilippoToso\Travelport\UniversalRecord\PassengerTicketNumber
+     * @return \Santosdave\Travelport\UniversalRecord\PassengerTicketNumber
      */
     public function setTicketNumber($TicketNumber)
     {
@@ -53,7 +53,7 @@ class PassengerTicketNumber
 
     /**
      * @param typeRef $BookingTravelerRef
-     * @return \FilippoToso\Travelport\UniversalRecord\PassengerTicketNumber
+     * @return \Santosdave\Travelport\UniversalRecord\PassengerTicketNumber
      */
     public function setBookingTravelerRef($BookingTravelerRef)
     {

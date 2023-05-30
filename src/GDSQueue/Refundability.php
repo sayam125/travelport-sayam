@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class Refundability
 {
@@ -28,7 +28,7 @@ class Refundability
 
     /**
      * @param typeRefundabilityValue $Value
-     * @return \FilippoToso\Travelport\GDSQueue\Refundability
+     * @return \Santosdave\Travelport\GDSQueue\Refundability
      */
     public function setValue($Value)
     {

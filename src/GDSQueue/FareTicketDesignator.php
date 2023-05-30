@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class FareTicketDesignator
 {
@@ -28,7 +28,7 @@ class FareTicketDesignator
 
     /**
      * @param typeTicketDesignator $Value
-     * @return \FilippoToso\Travelport\GDSQueue\FareTicketDesignator
+     * @return \Santosdave\Travelport\GDSQueue\FareTicketDesignator
      */
     public function setValue($Value)
     {

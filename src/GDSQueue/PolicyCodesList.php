@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class PolicyCodesList
 {
@@ -28,7 +28,7 @@ class PolicyCodesList
 
     /**
      * @param typePolicyCode $PolicyCode
-     * @return \FilippoToso\Travelport\GDSQueue\PolicyCodesList
+     * @return \Santosdave\Travelport\GDSQueue\PolicyCodesList
      */
     public function setPolicyCode($PolicyCode)
     {

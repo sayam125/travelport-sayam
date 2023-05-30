@@ -3,7 +3,7 @@
         'name' => 'santosdave/travelport',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => '717ae0c113ed82adaead45c747b20886cd3f2619',
+        'reference' => '10f4f53c2dc265093c910522926c00f05f004a7c',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -85,7 +85,7 @@
         'santosdave/travelport' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => '717ae0c113ed82adaead45c747b20886cd3f2619',
+            'reference' => '10f4f53c2dc265093c910522926c00f05f004a7c',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

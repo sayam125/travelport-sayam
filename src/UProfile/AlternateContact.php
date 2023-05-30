@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class AlternateContact
 {
@@ -42,7 +42,7 @@ class AlternateContact
 
     /**
      * @param typeTaggableAddress $Address
-     * @return \FilippoToso\Travelport\UProfile\AlternateContact
+     * @return \Santosdave\Travelport\UProfile\AlternateContact
      */
     public function setAddress($Address)
     {
@@ -60,7 +60,7 @@ class AlternateContact
 
     /**
      * @param typeTaggablePhone $Phone
-     * @return \FilippoToso\Travelport\UProfile\AlternateContact
+     * @return \Santosdave\Travelport\UProfile\AlternateContact
      */
     public function setPhone($Phone)
     {
@@ -78,7 +78,7 @@ class AlternateContact
 
     /**
      * @param typeTaggableElectronicAddress $ElectronicAddress
-     * @return \FilippoToso\Travelport\UProfile\AlternateContact
+     * @return \Santosdave\Travelport\UProfile\AlternateContact
      */
     public function setElectronicAddress($ElectronicAddress)
     {

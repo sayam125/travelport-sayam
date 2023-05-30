@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class BulkTicket extends typeBulkTicketModifierType
 {
@@ -30,7 +30,7 @@ class BulkTicket extends typeBulkTicketModifierType
 
     /**
      * @param boolean $NonRefundable
-     * @return \FilippoToso\Travelport\GDSQueue\BulkTicket
+     * @return \Santosdave\Travelport\GDSQueue\BulkTicket
      */
     public function setNonRefundable($NonRefundable)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class ContinuityOverrideRemark
 {
@@ -35,7 +35,7 @@ class ContinuityOverrideRemark
 
     /**
      * @param string $_
-     * @return \FilippoToso\Travelport\Rail\ContinuityOverrideRemark
+     * @return \Santosdave\Travelport\Rail\ContinuityOverrideRemark
      */
     public function set_($_)
     {
@@ -53,7 +53,7 @@ class ContinuityOverrideRemark
 
     /**
      * @param anonymous1404 $Category
-     * @return \FilippoToso\Travelport\Rail\ContinuityOverrideRemark
+     * @return \Santosdave\Travelport\Rail\ContinuityOverrideRemark
      */
     public function setCategory($Category)
     {

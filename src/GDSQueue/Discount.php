@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class Discount
 {
@@ -35,7 +35,7 @@ class Discount
 
     /**
      * @param typeMoney $Amount
-     * @return \FilippoToso\Travelport\GDSQueue\Discount
+     * @return \Santosdave\Travelport\GDSQueue\Discount
      */
     public function setAmount($Amount)
     {
@@ -53,7 +53,7 @@ class Discount
 
     /**
      * @param StringLength1to13 $Description
-     * @return \FilippoToso\Travelport\GDSQueue\Discount
+     * @return \Santosdave\Travelport\GDSQueue\Discount
      */
     public function setDescription($Description)
     {

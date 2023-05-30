@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class GdsQueueListRsp extends BaseRsp
 {
@@ -55,7 +55,7 @@ class GdsQueueListRsp extends BaseRsp
 
     /**
      * @param NextResultReference $NextResultReference
-     * @return \FilippoToso\Travelport\GDSQueue\GdsQueueListRsp
+     * @return \Santosdave\Travelport\GDSQueue\GdsQueueListRsp
      */
     public function setNextResultReference($NextResultReference)
     {
@@ -73,7 +73,7 @@ class GdsQueueListRsp extends BaseRsp
 
     /**
      * @param QueueElement $QueueElement
-     * @return \FilippoToso\Travelport\GDSQueue\GdsQueueListRsp
+     * @return \Santosdave\Travelport\GDSQueue\GdsQueueListRsp
      */
     public function setQueueElement($QueueElement)
     {
@@ -91,7 +91,7 @@ class GdsQueueListRsp extends BaseRsp
 
     /**
      * @param boolean $MorePNRExists
-     * @return \FilippoToso\Travelport\GDSQueue\GdsQueueListRsp
+     * @return \Santosdave\Travelport\GDSQueue\GdsQueueListRsp
      */
     public function setMorePNRExists($MorePNRExists)
     {
@@ -109,7 +109,7 @@ class GdsQueueListRsp extends BaseRsp
 
     /**
      * @param string $QueueSessionToken
-     * @return \FilippoToso\Travelport\GDSQueue\GdsQueueListRsp
+     * @return \Santosdave\Travelport\GDSQueue\GdsQueueListRsp
      */
     public function setQueueSessionToken($QueueSessionToken)
     {

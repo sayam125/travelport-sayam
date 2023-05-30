@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class SegmentSelect
 {
@@ -76,7 +76,7 @@ class SegmentSelect
 
     /**
      * @param typeSegmentRef[] $AirSegmentRef
-     * @return \FilippoToso\Travelport\Air\SegmentSelect
+     * @return \Santosdave\Travelport\Air\SegmentSelect
      */
     public function setAirSegmentRef(array $AirSegmentRef = null)
     {
@@ -94,7 +94,7 @@ class SegmentSelect
 
     /**
      * @param typeNonAirReservationRef[] $HotelReservationRef
-     * @return \FilippoToso\Travelport\Air\SegmentSelect
+     * @return \Santosdave\Travelport\Air\SegmentSelect
      */
     public function setHotelReservationRef(array $HotelReservationRef = null)
     {
@@ -112,7 +112,7 @@ class SegmentSelect
 
     /**
      * @param typeNonAirReservationRef[] $VehicleReservationRef
-     * @return \FilippoToso\Travelport\Air\SegmentSelect
+     * @return \Santosdave\Travelport\Air\SegmentSelect
      */
     public function setVehicleReservationRef(array $VehicleReservationRef = null)
     {
@@ -130,7 +130,7 @@ class SegmentSelect
 
     /**
      * @param typeSegmentRef[] $PassiveSegmentRef
-     * @return \FilippoToso\Travelport\Air\SegmentSelect
+     * @return \Santosdave\Travelport\Air\SegmentSelect
      */
     public function setPassiveSegmentRef(array $PassiveSegmentRef = null)
     {
@@ -148,7 +148,7 @@ class SegmentSelect
 
     /**
      * @param boolean $AllConfirmedAir
-     * @return \FilippoToso\Travelport\Air\SegmentSelect
+     * @return \Santosdave\Travelport\Air\SegmentSelect
      */
     public function setAllConfirmedAir($AllConfirmedAir)
     {
@@ -166,7 +166,7 @@ class SegmentSelect
 
     /**
      * @param boolean $AllWaitlistedAir
-     * @return \FilippoToso\Travelport\Air\SegmentSelect
+     * @return \Santosdave\Travelport\Air\SegmentSelect
      */
     public function setAllWaitlistedAir($AllWaitlistedAir)
     {
@@ -184,7 +184,7 @@ class SegmentSelect
 
     /**
      * @param boolean $AllHotel
-     * @return \FilippoToso\Travelport\Air\SegmentSelect
+     * @return \Santosdave\Travelport\Air\SegmentSelect
      */
     public function setAllHotel($AllHotel)
     {
@@ -202,7 +202,7 @@ class SegmentSelect
 
     /**
      * @param boolean $AllVehicle
-     * @return \FilippoToso\Travelport\Air\SegmentSelect
+     * @return \Santosdave\Travelport\Air\SegmentSelect
      */
     public function setAllVehicle($AllVehicle)
     {
@@ -220,7 +220,7 @@ class SegmentSelect
 
     /**
      * @param boolean $AllPassive
-     * @return \FilippoToso\Travelport\Air\SegmentSelect
+     * @return \Santosdave\Travelport\Air\SegmentSelect
      */
     public function setAllPassive($AllPassive)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class PreferredProviders
 {
@@ -28,7 +28,7 @@ class PreferredProviders
 
     /**
      * @param Provider $Provider
-     * @return \FilippoToso\Travelport\Util\PreferredProviders
+     * @return \Santosdave\Travelport\Util\PreferredProviders
      */
     public function setProvider($Provider)
     {

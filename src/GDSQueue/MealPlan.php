@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class MealPlan
 {
@@ -28,7 +28,7 @@ class MealPlan
 
     /**
      * @param typeOTACode $Code
-     * @return \FilippoToso\Travelport\GDSQueue\MealPlan
+     * @return \Santosdave\Travelport\GDSQueue\MealPlan
      */
     public function setCode($Code)
     {

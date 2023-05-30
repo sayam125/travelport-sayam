@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class LegPrice
 {
@@ -49,7 +49,7 @@ class LegPrice
 
     /**
      * @param LegDetail $LegDetail
-     * @return \FilippoToso\Travelport\Air\LegPrice
+     * @return \Santosdave\Travelport\Air\LegPrice
      */
     public function setLegDetail($LegDetail)
     {
@@ -67,7 +67,7 @@ class LegPrice
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Air\LegPrice
+     * @return \Santosdave\Travelport\Air\LegPrice
      */
     public function setKey($Key)
     {
@@ -85,7 +85,7 @@ class LegPrice
 
     /**
      * @param typeMoney $TotalPrice
-     * @return \FilippoToso\Travelport\Air\LegPrice
+     * @return \Santosdave\Travelport\Air\LegPrice
      */
     public function setTotalPrice($TotalPrice)
     {
@@ -103,7 +103,7 @@ class LegPrice
 
     /**
      * @param typeMoney $ApproximateTotalPrice
-     * @return \FilippoToso\Travelport\Air\LegPrice
+     * @return \Santosdave\Travelport\Air\LegPrice
      */
     public function setApproximateTotalPrice($ApproximateTotalPrice)
     {

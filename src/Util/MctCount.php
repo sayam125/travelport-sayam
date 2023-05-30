@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class MctCount
 {
@@ -42,7 +42,7 @@ class MctCount
 
     /**
      * @param typeMctConnection $Connection
-     * @return \FilippoToso\Travelport\Util\MctCount
+     * @return \Santosdave\Travelport\Util\MctCount
      */
     public function setConnection($Connection)
     {
@@ -60,7 +60,7 @@ class MctCount
 
     /**
      * @param typeCarrier $Carrier
-     * @return \FilippoToso\Travelport\Util\MctCount
+     * @return \Santosdave\Travelport\Util\MctCount
      */
     public function setCarrier($Carrier)
     {
@@ -78,7 +78,7 @@ class MctCount
 
     /**
      * @param int $Count
-     * @return \FilippoToso\Travelport\Util\MctCount
+     * @return \Santosdave\Travelport\Util\MctCount
      */
     public function setCount($Count)
     {

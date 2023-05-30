@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class Balance
 {
@@ -49,7 +49,7 @@ class Balance
 
     /**
      * @param typeMoney $CreditCardDueAmount
-     * @return \FilippoToso\Travelport\Rail\Balance
+     * @return \Santosdave\Travelport\Rail\Balance
      */
     public function setCreditCardDueAmount($CreditCardDueAmount)
     {
@@ -67,7 +67,7 @@ class Balance
 
     /**
      * @param typeMoney $CheckDueAmount
-     * @return \FilippoToso\Travelport\Rail\Balance
+     * @return \Santosdave\Travelport\Rail\Balance
      */
     public function setCheckDueAmount($CheckDueAmount)
     {
@@ -85,7 +85,7 @@ class Balance
 
     /**
      * @param date $DueDate
-     * @return \FilippoToso\Travelport\Rail\Balance
+     * @return \Santosdave\Travelport\Rail\Balance
      */
     public function setDueDate($DueDate)
     {
@@ -103,7 +103,7 @@ class Balance
 
     /**
      * @param date $ReceivedDate
-     * @return \FilippoToso\Travelport\Rail\Balance
+     * @return \Santosdave\Travelport\Rail\Balance
      */
     public function setReceivedDate($ReceivedDate)
     {

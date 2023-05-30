@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class CarryOnAllowanceInfo extends BaseBaggageAllowanceInfo
 {
@@ -32,7 +32,7 @@ class CarryOnAllowanceInfo extends BaseBaggageAllowanceInfo
 
     /**
      * @param CarryOnDetails[] $CarryOnDetails
-     * @return \FilippoToso\Travelport\GDSQueue\CarryOnAllowanceInfo
+     * @return \Santosdave\Travelport\GDSQueue\CarryOnAllowanceInfo
      */
     public function setCarryOnDetails(array $CarryOnDetails = null)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class InvoiceRemark extends typeAssociatedRemark
 {
@@ -48,7 +48,7 @@ class InvoiceRemark extends typeAssociatedRemark
 
     /**
      * @param typeSegmentRef $AirSegmentRef
-     * @return \FilippoToso\Travelport\Rail\InvoiceRemark
+     * @return \Santosdave\Travelport\Rail\InvoiceRemark
      */
     public function setAirSegmentRef($AirSegmentRef)
     {
@@ -66,7 +66,7 @@ class InvoiceRemark extends typeAssociatedRemark
 
     /**
      * @param typeNonAirReservationRef $HotelReservationRef
-     * @return \FilippoToso\Travelport\Rail\InvoiceRemark
+     * @return \Santosdave\Travelport\Rail\InvoiceRemark
      */
     public function setHotelReservationRef($HotelReservationRef)
     {
@@ -84,7 +84,7 @@ class InvoiceRemark extends typeAssociatedRemark
 
     /**
      * @param typeNonAirReservationRef $VehicleReservationRef
-     * @return \FilippoToso\Travelport\Rail\InvoiceRemark
+     * @return \Santosdave\Travelport\Rail\InvoiceRemark
      */
     public function setVehicleReservationRef($VehicleReservationRef)
     {
@@ -102,7 +102,7 @@ class InvoiceRemark extends typeAssociatedRemark
 
     /**
      * @param typeSegmentRef $PassiveSegmentRef
-     * @return \FilippoToso\Travelport\Rail\InvoiceRemark
+     * @return \Santosdave\Travelport\Rail\InvoiceRemark
      */
     public function setPassiveSegmentRef($PassiveSegmentRef)
     {

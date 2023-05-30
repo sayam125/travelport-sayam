@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeKeyElement
 {
@@ -28,7 +28,7 @@ class typeKeyElement
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\UProfile\typeKeyElement
+     * @return \Santosdave\Travelport\UProfile\typeKeyElement
      */
     public function setKey($Key)
     {

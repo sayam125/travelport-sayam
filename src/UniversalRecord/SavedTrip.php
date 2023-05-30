@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class SavedTrip
 {
@@ -326,7 +326,7 @@ class SavedTrip
 
     /**
      * @param BookingTraveler $BookingTraveler
-     * @return \FilippoToso\Travelport\UniversalRecord\SavedTrip
+     * @return \Santosdave\Travelport\UniversalRecord\SavedTrip
      */
     public function setBookingTraveler($BookingTraveler)
     {
@@ -344,7 +344,7 @@ class SavedTrip
 
     /**
      * @param AgencyContactInfo $AgencyContactInfo
-     * @return \FilippoToso\Travelport\UniversalRecord\SavedTrip
+     * @return \Santosdave\Travelport\UniversalRecord\SavedTrip
      */
     public function setAgencyContactInfo($AgencyContactInfo)
     {
@@ -362,7 +362,7 @@ class SavedTrip
 
     /**
      * @param SearchPassenger $SearchPassenger
-     * @return \FilippoToso\Travelport\UniversalRecord\SavedTrip
+     * @return \Santosdave\Travelport\UniversalRecord\SavedTrip
      */
     public function setSearchPassenger($SearchPassenger)
     {
@@ -380,7 +380,7 @@ class SavedTrip
 
     /**
      * @param PointOfSale $PointOfSale
-     * @return \FilippoToso\Travelport\UniversalRecord\SavedTrip
+     * @return \Santosdave\Travelport\UniversalRecord\SavedTrip
      */
     public function setPointOfSale($PointOfSale)
     {
@@ -398,7 +398,7 @@ class SavedTrip
 
     /**
      * @param AccountingRemark $AccountingRemark
-     * @return \FilippoToso\Travelport\UniversalRecord\SavedTrip
+     * @return \Santosdave\Travelport\UniversalRecord\SavedTrip
      */
     public function setAccountingRemark($AccountingRemark)
     {
@@ -416,7 +416,7 @@ class SavedTrip
 
     /**
      * @param GeneralRemark $GeneralRemark
-     * @return \FilippoToso\Travelport\UniversalRecord\SavedTrip
+     * @return \Santosdave\Travelport\UniversalRecord\SavedTrip
      */
     public function setGeneralRemark($GeneralRemark)
     {
@@ -434,7 +434,7 @@ class SavedTrip
 
     /**
      * @param AgencyInfo $AgencyInfo
-     * @return \FilippoToso\Travelport\UniversalRecord\SavedTrip
+     * @return \Santosdave\Travelport\UniversalRecord\SavedTrip
      */
     public function setAgencyInfo($AgencyInfo)
     {
@@ -452,7 +452,7 @@ class SavedTrip
 
     /**
      * @param ReservationName $ReservationName
-     * @return \FilippoToso\Travelport\UniversalRecord\SavedTrip
+     * @return \Santosdave\Travelport\UniversalRecord\SavedTrip
      */
     public function setReservationName($ReservationName)
     {
@@ -470,7 +470,7 @@ class SavedTrip
 
     /**
      * @param AirPricingModifiers $AirPricingModifiers
-     * @return \FilippoToso\Travelport\UniversalRecord\SavedTrip
+     * @return \Santosdave\Travelport\UniversalRecord\SavedTrip
      */
     public function setAirPricingModifiers($AirPricingModifiers)
     {
@@ -488,7 +488,7 @@ class SavedTrip
 
     /**
      * @param AirPricingSolution $AirPricingSolution
-     * @return \FilippoToso\Travelport\UniversalRecord\SavedTrip
+     * @return \Santosdave\Travelport\UniversalRecord\SavedTrip
      */
     public function setAirPricingSolution($AirPricingSolution)
     {
@@ -506,7 +506,7 @@ class SavedTrip
 
     /**
      * @param typeSavedTripNote[] $AirTripNote
-     * @return \FilippoToso\Travelport\UniversalRecord\SavedTrip
+     * @return \Santosdave\Travelport\UniversalRecord\SavedTrip
      */
     public function setAirTripNote(array $AirTripNote = null)
     {
@@ -524,7 +524,7 @@ class SavedTrip
 
     /**
      * @param VehicleSearchModifiers $VehicleSearchModifiers
-     * @return \FilippoToso\Travelport\UniversalRecord\SavedTrip
+     * @return \Santosdave\Travelport\UniversalRecord\SavedTrip
      */
     public function setVehicleSearchModifiers($VehicleSearchModifiers)
     {
@@ -542,7 +542,7 @@ class SavedTrip
 
     /**
      * @param VehicleDateLocation $VehicleDateLocation
-     * @return \FilippoToso\Travelport\UniversalRecord\SavedTrip
+     * @return \Santosdave\Travelport\UniversalRecord\SavedTrip
      */
     public function setVehicleDateLocation($VehicleDateLocation)
     {
@@ -560,7 +560,7 @@ class SavedTrip
 
     /**
      * @param SpecialEquipment $SpecialEquipment
-     * @return \FilippoToso\Travelport\UniversalRecord\SavedTrip
+     * @return \Santosdave\Travelport\UniversalRecord\SavedTrip
      */
     public function setSpecialEquipment($SpecialEquipment)
     {
@@ -578,7 +578,7 @@ class SavedTrip
 
     /**
      * @param VehicleSpecialRequest $VehicleSpecialRequest
-     * @return \FilippoToso\Travelport\UniversalRecord\SavedTrip
+     * @return \Santosdave\Travelport\UniversalRecord\SavedTrip
      */
     public function setVehicleSpecialRequest($VehicleSpecialRequest)
     {
@@ -596,7 +596,7 @@ class SavedTrip
 
     /**
      * @param PaymentInformation $PaymentInformation
-     * @return \FilippoToso\Travelport\UniversalRecord\SavedTrip
+     * @return \Santosdave\Travelport\UniversalRecord\SavedTrip
      */
     public function setPaymentInformation($PaymentInformation)
     {
@@ -614,7 +614,7 @@ class SavedTrip
 
     /**
      * @param DeliveryAddress $DeliveryAddress
-     * @return \FilippoToso\Travelport\UniversalRecord\SavedTrip
+     * @return \Santosdave\Travelport\UniversalRecord\SavedTrip
      */
     public function setDeliveryAddress($DeliveryAddress)
     {
@@ -632,7 +632,7 @@ class SavedTrip
 
     /**
      * @param CollectionAddress $CollectionAddress
-     * @return \FilippoToso\Travelport\UniversalRecord\SavedTrip
+     * @return \Santosdave\Travelport\UniversalRecord\SavedTrip
      */
     public function setCollectionAddress($CollectionAddress)
     {
@@ -650,7 +650,7 @@ class SavedTrip
 
     /**
      * @param FlightArrivalInformation $FlightArrivalInformation
-     * @return \FilippoToso\Travelport\UniversalRecord\SavedTrip
+     * @return \Santosdave\Travelport\UniversalRecord\SavedTrip
      */
     public function setFlightArrivalInformation($FlightArrivalInformation)
     {
@@ -668,7 +668,7 @@ class SavedTrip
 
     /**
      * @param Vehicle $Vehicle
-     * @return \FilippoToso\Travelport\UniversalRecord\SavedTrip
+     * @return \Santosdave\Travelport\UniversalRecord\SavedTrip
      */
     public function setVehicle($Vehicle)
     {
@@ -686,7 +686,7 @@ class SavedTrip
 
     /**
      * @param typeSavedTripNote[] $VehicleTripNote
-     * @return \FilippoToso\Travelport\UniversalRecord\SavedTrip
+     * @return \Santosdave\Travelport\UniversalRecord\SavedTrip
      */
     public function setVehicleTripNote(array $VehicleTripNote = null)
     {
@@ -704,7 +704,7 @@ class SavedTrip
 
     /**
      * @param VendorLocation $VendorLocation
-     * @return \FilippoToso\Travelport\UniversalRecord\SavedTrip
+     * @return \Santosdave\Travelport\UniversalRecord\SavedTrip
      */
     public function setVendorLocation($VendorLocation)
     {
@@ -722,7 +722,7 @@ class SavedTrip
 
     /**
      * @param HotelProperty $HotelProperty
-     * @return \FilippoToso\Travelport\UniversalRecord\SavedTrip
+     * @return \Santosdave\Travelport\UniversalRecord\SavedTrip
      */
     public function setHotelProperty($HotelProperty)
     {
@@ -740,7 +740,7 @@ class SavedTrip
 
     /**
      * @param HotelStay $HotelStay
-     * @return \FilippoToso\Travelport\UniversalRecord\SavedTrip
+     * @return \Santosdave\Travelport\UniversalRecord\SavedTrip
      */
     public function setHotelStay($HotelStay)
     {
@@ -758,7 +758,7 @@ class SavedTrip
 
     /**
      * @param HotelRulesModifiers $HotelRulesModifiers
-     * @return \FilippoToso\Travelport\UniversalRecord\SavedTrip
+     * @return \Santosdave\Travelport\UniversalRecord\SavedTrip
      */
     public function setHotelRulesModifiers($HotelRulesModifiers)
     {
@@ -776,7 +776,7 @@ class SavedTrip
 
     /**
      * @param HotelDetailsModifiers $HotelDetailsModifiers
-     * @return \FilippoToso\Travelport\UniversalRecord\SavedTrip
+     * @return \Santosdave\Travelport\UniversalRecord\SavedTrip
      */
     public function setHotelDetailsModifiers($HotelDetailsModifiers)
     {
@@ -794,7 +794,7 @@ class SavedTrip
 
     /**
      * @param HotelRateDetail $HotelRateDetail
-     * @return \FilippoToso\Travelport\UniversalRecord\SavedTrip
+     * @return \Santosdave\Travelport\UniversalRecord\SavedTrip
      */
     public function setHotelRateDetail($HotelRateDetail)
     {
@@ -812,7 +812,7 @@ class SavedTrip
 
     /**
      * @param PromotionCode $PromotionCode
-     * @return \FilippoToso\Travelport\UniversalRecord\SavedTrip
+     * @return \Santosdave\Travelport\UniversalRecord\SavedTrip
      */
     public function setPromotionCode($PromotionCode)
     {
@@ -830,7 +830,7 @@ class SavedTrip
 
     /**
      * @param typeSavedTripNote[] $HotelTripNote
-     * @return \FilippoToso\Travelport\UniversalRecord\SavedTrip
+     * @return \Santosdave\Travelport\UniversalRecord\SavedTrip
      */
     public function setHotelTripNote(array $HotelTripNote = null)
     {
@@ -848,7 +848,7 @@ class SavedTrip
 
     /**
      * @param RailPricingSolution $RailPricingSolution
-     * @return \FilippoToso\Travelport\UniversalRecord\SavedTrip
+     * @return \Santosdave\Travelport\UniversalRecord\SavedTrip
      */
     public function setRailPricingSolution($RailPricingSolution)
     {
@@ -866,7 +866,7 @@ class SavedTrip
 
     /**
      * @param RailFareNote $RailFareNote
-     * @return \FilippoToso\Travelport\UniversalRecord\SavedTrip
+     * @return \Santosdave\Travelport\UniversalRecord\SavedTrip
      */
     public function setRailFareNote($RailFareNote)
     {
@@ -884,7 +884,7 @@ class SavedTrip
 
     /**
      * @param typeSavedTripNote[] $RailTripNote
-     * @return \FilippoToso\Travelport\UniversalRecord\SavedTrip
+     * @return \Santosdave\Travelport\UniversalRecord\SavedTrip
      */
     public function setRailTripNote(array $RailTripNote = null)
     {
@@ -902,7 +902,7 @@ class SavedTrip
 
     /**
      * @param typeSavedTripNote[] $SavedTripNote
-     * @return \FilippoToso\Travelport\UniversalRecord\SavedTrip
+     * @return \Santosdave\Travelport\UniversalRecord\SavedTrip
      */
     public function setSavedTripNote(array $SavedTripNote = null)
     {
@@ -920,7 +920,7 @@ class SavedTrip
 
     /**
      * @param SavedTripActivity $SavedTripActivity
-     * @return \FilippoToso\Travelport\UniversalRecord\SavedTrip
+     * @return \Santosdave\Travelport\UniversalRecord\SavedTrip
      */
     public function setSavedTripActivity($SavedTripActivity)
     {
@@ -938,7 +938,7 @@ class SavedTrip
 
     /**
      * @param ProfileAssociation $ProfileAssociation
-     * @return \FilippoToso\Travelport\UniversalRecord\SavedTrip
+     * @return \Santosdave\Travelport\UniversalRecord\SavedTrip
      */
     public function setProfileAssociation($ProfileAssociation)
     {
@@ -956,7 +956,7 @@ class SavedTrip
 
     /**
      * @param PolicyInformation $PolicyInformation
-     * @return \FilippoToso\Travelport\UniversalRecord\SavedTrip
+     * @return \Santosdave\Travelport\UniversalRecord\SavedTrip
      */
     public function setPolicyInformation($PolicyInformation)
     {
@@ -974,7 +974,7 @@ class SavedTrip
 
     /**
      * @param typeLocatorCode $LocatorCode
-     * @return \FilippoToso\Travelport\UniversalRecord\SavedTrip
+     * @return \Santosdave\Travelport\UniversalRecord\SavedTrip
      */
     public function setLocatorCode($LocatorCode)
     {
@@ -992,7 +992,7 @@ class SavedTrip
 
     /**
      * @param typeLocatorCode $UniversalRecordLocatorCode
-     * @return \FilippoToso\Travelport\UniversalRecord\SavedTrip
+     * @return \Santosdave\Travelport\UniversalRecord\SavedTrip
      */
     public function setUniversalRecordLocatorCode($UniversalRecordLocatorCode)
     {
@@ -1010,7 +1010,7 @@ class SavedTrip
 
     /**
      * @param anonymous1420 $Name
-     * @return \FilippoToso\Travelport\UniversalRecord\SavedTrip
+     * @return \Santosdave\Travelport\UniversalRecord\SavedTrip
      */
     public function setName($Name)
     {
@@ -1036,7 +1036,7 @@ class SavedTrip
 
     /**
      * @param \DateTime $CreateDate
-     * @return \FilippoToso\Travelport\UniversalRecord\SavedTrip
+     * @return \Santosdave\Travelport\UniversalRecord\SavedTrip
      */
     public function setCreateDate(\DateTime $CreateDate)
     {
@@ -1062,7 +1062,7 @@ class SavedTrip
 
     /**
      * @param \DateTime $ModifiedDate
-     * @return \FilippoToso\Travelport\UniversalRecord\SavedTrip
+     * @return \Santosdave\Travelport\UniversalRecord\SavedTrip
      */
     public function setModifiedDate(\DateTime $ModifiedDate)
     {
@@ -1080,7 +1080,7 @@ class SavedTrip
 
     /**
      * @param typeURVersion $Version
-     * @return \FilippoToso\Travelport\UniversalRecord\SavedTrip
+     * @return \Santosdave\Travelport\UniversalRecord\SavedTrip
      */
     public function setVersion($Version)
     {
@@ -1098,7 +1098,7 @@ class SavedTrip
 
     /**
      * @param typeURStatus $Status
-     * @return \FilippoToso\Travelport\UniversalRecord\SavedTrip
+     * @return \Santosdave\Travelport\UniversalRecord\SavedTrip
      */
     public function setStatus($Status)
     {
@@ -1116,7 +1116,7 @@ class SavedTrip
 
     /**
      * @param string $CreatedByAgent
-     * @return \FilippoToso\Travelport\UniversalRecord\SavedTrip
+     * @return \Santosdave\Travelport\UniversalRecord\SavedTrip
      */
     public function setCreatedByAgent($CreatedByAgent)
     {
@@ -1134,7 +1134,7 @@ class SavedTrip
 
     /**
      * @param string $ModifiedByAgent
-     * @return \FilippoToso\Travelport\UniversalRecord\SavedTrip
+     * @return \Santosdave\Travelport\UniversalRecord\SavedTrip
      */
     public function setModifiedByAgent($ModifiedByAgent)
     {

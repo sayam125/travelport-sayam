@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class NumberOfChildren
 {
@@ -40,7 +40,7 @@ class NumberOfChildren
 
     /**
      * @param int[] $Age
-     * @return \FilippoToso\Travelport\Hotel\NumberOfChildren
+     * @return \Santosdave\Travelport\Hotel\NumberOfChildren
      */
     public function setAge(array $Age = null)
     {
@@ -58,7 +58,7 @@ class NumberOfChildren
 
     /**
      * @param int $Count
-     * @return \FilippoToso\Travelport\Hotel\NumberOfChildren
+     * @return \Santosdave\Travelport\Hotel\NumberOfChildren
      */
     public function setCount($Count)
     {
@@ -76,7 +76,7 @@ class NumberOfChildren
 
     /**
      * @param typeMoney $Amount
-     * @return \FilippoToso\Travelport\Hotel\NumberOfChildren
+     * @return \Santosdave\Travelport\Hotel\NumberOfChildren
      */
     public function setAmount($Amount)
     {

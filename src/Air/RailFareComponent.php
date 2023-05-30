@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class RailFareComponent
 {
@@ -68,7 +68,7 @@ class RailFareComponent
 
     /**
      * @param Discount[] $Discount
-     * @return \FilippoToso\Travelport\Air\RailFareComponent
+     * @return \Santosdave\Travelport\Air\RailFareComponent
      */
     public function setDiscount(array $Discount = null)
     {
@@ -86,7 +86,7 @@ class RailFareComponent
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Air\RailFareComponent
+     * @return \Santosdave\Travelport\Air\RailFareComponent
      */
     public function setKey($Key)
     {
@@ -104,7 +104,7 @@ class RailFareComponent
 
     /**
      * @param typeMoney $Amount
-     * @return \FilippoToso\Travelport\Air\RailFareComponent
+     * @return \Santosdave\Travelport\Air\RailFareComponent
      */
     public function setAmount($Amount)
     {
@@ -122,7 +122,7 @@ class RailFareComponent
 
     /**
      * @param int $Age
-     * @return \FilippoToso\Travelport\Air\RailFareComponent
+     * @return \Santosdave\Travelport\Air\RailFareComponent
      */
     public function setAge($Age)
     {
@@ -140,7 +140,7 @@ class RailFareComponent
 
     /**
      * @param typePTC $PassengerTypeCode
-     * @return \FilippoToso\Travelport\Air\RailFareComponent
+     * @return \Santosdave\Travelport\Air\RailFareComponent
      */
     public function setPassengerTypeCode($PassengerTypeCode)
     {
@@ -158,7 +158,7 @@ class RailFareComponent
 
     /**
      * @param string $SupplierPassengerType
-     * @return \FilippoToso\Travelport\Air\RailFareComponent
+     * @return \Santosdave\Travelport\Air\RailFareComponent
      */
     public function setSupplierPassengerType($SupplierPassengerType)
     {
@@ -176,7 +176,7 @@ class RailFareComponent
 
     /**
      * @param int $Quantity
-     * @return \FilippoToso\Travelport\Air\RailFareComponent
+     * @return \Santosdave\Travelport\Air\RailFareComponent
      */
     public function setQuantity($Quantity)
     {

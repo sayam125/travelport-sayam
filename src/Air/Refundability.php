@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class Refundability
 {
@@ -28,7 +28,7 @@ class Refundability
 
     /**
      * @param typeRefundabilityValue $Value
-     * @return \FilippoToso\Travelport\Air\Refundability
+     * @return \Santosdave\Travelport\Air\Refundability
      */
     public function setValue($Value)
     {

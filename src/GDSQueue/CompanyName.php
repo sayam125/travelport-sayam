@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class CompanyName
 {
@@ -28,7 +28,7 @@ class CompanyName
 
     /**
      * @param typeCarrier $SupplierCode
-     * @return \FilippoToso\Travelport\GDSQueue\CompanyName
+     * @return \Santosdave\Travelport\GDSQueue\CompanyName
      */
     public function setSupplierCode($SupplierCode)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class ServiceSubGroup
 {
@@ -28,7 +28,7 @@ class ServiceSubGroup
 
     /**
      * @param string $Code
-     * @return \FilippoToso\Travelport\Rail\ServiceSubGroup
+     * @return \Santosdave\Travelport\Rail\ServiceSubGroup
      */
     public function setCode($Code)
     {

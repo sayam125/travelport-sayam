@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class ProfileAssociation
 {
@@ -35,7 +35,7 @@ class ProfileAssociation
 
     /**
      * @param typeRef $TravelerID
-     * @return \FilippoToso\Travelport\GDSQueue\ProfileAssociation
+     * @return \Santosdave\Travelport\GDSQueue\ProfileAssociation
      */
     public function setTravelerID($TravelerID)
     {
@@ -53,7 +53,7 @@ class ProfileAssociation
 
     /**
      * @param typeRef $BookingTravelerRef
-     * @return \FilippoToso\Travelport\GDSQueue\ProfileAssociation
+     * @return \Santosdave\Travelport\GDSQueue\ProfileAssociation
      */
     public function setBookingTravelerRef($BookingTravelerRef)
     {

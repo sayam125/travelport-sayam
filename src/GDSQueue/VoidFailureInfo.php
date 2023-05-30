@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class VoidFailureInfo
 {
@@ -42,7 +42,7 @@ class VoidFailureInfo
 
     /**
      * @param string $_
-     * @return \FilippoToso\Travelport\GDSQueue\VoidFailureInfo
+     * @return \Santosdave\Travelport\GDSQueue\VoidFailureInfo
      */
     public function set_($_)
     {
@@ -60,7 +60,7 @@ class VoidFailureInfo
 
     /**
      * @param string $TicketNumber
-     * @return \FilippoToso\Travelport\GDSQueue\VoidFailureInfo
+     * @return \Santosdave\Travelport\GDSQueue\VoidFailureInfo
      */
     public function setTicketNumber($TicketNumber)
     {
@@ -78,7 +78,7 @@ class VoidFailureInfo
 
     /**
      * @param int $Code
-     * @return \FilippoToso\Travelport\GDSQueue\VoidFailureInfo
+     * @return \Santosdave\Travelport\GDSQueue\VoidFailureInfo
      */
     public function setCode($Code)
     {

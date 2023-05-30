@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class ProfileModifyBridgeBranchesReq extends BaseReq
 {
@@ -54,7 +54,7 @@ class ProfileModifyBridgeBranchesReq extends BaseReq
 
     /**
      * @param typeProfileID $AgentID
-     * @return \FilippoToso\Travelport\UProfile\ProfileModifyBridgeBranchesReq
+     * @return \Santosdave\Travelport\UProfile\ProfileModifyBridgeBranchesReq
      */
     public function setAgentID($AgentID)
     {
@@ -72,7 +72,7 @@ class ProfileModifyBridgeBranchesReq extends BaseReq
 
     /**
      * @param StringLength1to128 $UserName
-     * @return \FilippoToso\Travelport\UProfile\ProfileModifyBridgeBranchesReq
+     * @return \Santosdave\Travelport\UProfile\ProfileModifyBridgeBranchesReq
      */
     public function setUserName($UserName)
     {
@@ -90,7 +90,7 @@ class ProfileModifyBridgeBranchesReq extends BaseReq
 
     /**
      * @param BridgeBranchCmd $BridgeBranchCmd
-     * @return \FilippoToso\Travelport\UProfile\ProfileModifyBridgeBranchesReq
+     * @return \Santosdave\Travelport\UProfile\ProfileModifyBridgeBranchesReq
      */
     public function setBridgeBranchCmd($BridgeBranchCmd)
     {

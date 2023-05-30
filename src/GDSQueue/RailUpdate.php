@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class RailUpdate
 {
@@ -35,7 +35,7 @@ class RailUpdate
 
     /**
      * @param BookingAction $BookingAction
-     * @return \FilippoToso\Travelport\GDSQueue\RailUpdate
+     * @return \Santosdave\Travelport\GDSQueue\RailUpdate
      */
     public function setBookingAction($BookingAction)
     {
@@ -53,7 +53,7 @@ class RailUpdate
 
     /**
      * @param typeLocatorCode $ReservationLocatorCode
-     * @return \FilippoToso\Travelport\GDSQueue\RailUpdate
+     * @return \Santosdave\Travelport\GDSQueue\RailUpdate
      */
     public function setReservationLocatorCode($ReservationLocatorCode)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class ProhibitedChains
 {
@@ -28,7 +28,7 @@ class ProhibitedChains
 
     /**
      * @param HotelChain $HotelChain
-     * @return \FilippoToso\Travelport\Rail\ProhibitedChains
+     * @return \Santosdave\Travelport\Rail\ProhibitedChains
      */
     public function setHotelChain($HotelChain)
     {

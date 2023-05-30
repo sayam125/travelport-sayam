@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class RailPricingInfo
 {
@@ -159,7 +159,7 @@ class RailPricingInfo
 
     /**
      * @param RailFare $RailFare
-     * @return \FilippoToso\Travelport\UniversalRecord\RailPricingInfo
+     * @return \Santosdave\Travelport\UniversalRecord\RailPricingInfo
      */
     public function setRailFare($RailFare)
     {
@@ -177,7 +177,7 @@ class RailPricingInfo
 
     /**
      * @param RailFareRef $RailFareRef
-     * @return \FilippoToso\Travelport\UniversalRecord\RailPricingInfo
+     * @return \Santosdave\Travelport\UniversalRecord\RailPricingInfo
      */
     public function setRailFareRef($RailFareRef)
     {
@@ -195,7 +195,7 @@ class RailPricingInfo
 
     /**
      * @param RailBookingInfo $RailBookingInfo
-     * @return \FilippoToso\Travelport\UniversalRecord\RailPricingInfo
+     * @return \Santosdave\Travelport\UniversalRecord\RailPricingInfo
      */
     public function setRailBookingInfo($RailBookingInfo)
     {
@@ -213,7 +213,7 @@ class RailPricingInfo
 
     /**
      * @param typePassengerType[] $PassengerType
-     * @return \FilippoToso\Travelport\UniversalRecord\RailPricingInfo
+     * @return \Santosdave\Travelport\UniversalRecord\RailPricingInfo
      */
     public function setPassengerType(array $PassengerType = null)
     {
@@ -231,7 +231,7 @@ class RailPricingInfo
 
     /**
      * @param BookingTravelerRef $BookingTravelerRef
-     * @return \FilippoToso\Travelport\UniversalRecord\RailPricingInfo
+     * @return \Santosdave\Travelport\UniversalRecord\RailPricingInfo
      */
     public function setBookingTravelerRef($BookingTravelerRef)
     {
@@ -249,7 +249,7 @@ class RailPricingInfo
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\UniversalRecord\RailPricingInfo
+     * @return \Santosdave\Travelport\UniversalRecord\RailPricingInfo
      */
     public function setKey($Key)
     {
@@ -267,7 +267,7 @@ class RailPricingInfo
 
     /**
      * @param typeMoney $ExchangeAmount
-     * @return \FilippoToso\Travelport\UniversalRecord\RailPricingInfo
+     * @return \Santosdave\Travelport\UniversalRecord\RailPricingInfo
      */
     public function setExchangeAmount($ExchangeAmount)
     {
@@ -285,7 +285,7 @@ class RailPricingInfo
 
     /**
      * @param typeMoney $ApproximateExchangeAmount
-     * @return \FilippoToso\Travelport\UniversalRecord\RailPricingInfo
+     * @return \Santosdave\Travelport\UniversalRecord\RailPricingInfo
      */
     public function setApproximateExchangeAmount($ApproximateExchangeAmount)
     {
@@ -303,7 +303,7 @@ class RailPricingInfo
 
     /**
      * @param typeMoney $TotalPrice
-     * @return \FilippoToso\Travelport\UniversalRecord\RailPricingInfo
+     * @return \Santosdave\Travelport\UniversalRecord\RailPricingInfo
      */
     public function setTotalPrice($TotalPrice)
     {
@@ -321,7 +321,7 @@ class RailPricingInfo
 
     /**
      * @param typeMoney $BasePrice
-     * @return \FilippoToso\Travelport\UniversalRecord\RailPricingInfo
+     * @return \Santosdave\Travelport\UniversalRecord\RailPricingInfo
      */
     public function setBasePrice($BasePrice)
     {
@@ -339,7 +339,7 @@ class RailPricingInfo
 
     /**
      * @param typeMoney $ApproximateTotalPrice
-     * @return \FilippoToso\Travelport\UniversalRecord\RailPricingInfo
+     * @return \Santosdave\Travelport\UniversalRecord\RailPricingInfo
      */
     public function setApproximateTotalPrice($ApproximateTotalPrice)
     {
@@ -357,7 +357,7 @@ class RailPricingInfo
 
     /**
      * @param typeMoney $ApproximateBasePrice
-     * @return \FilippoToso\Travelport\UniversalRecord\RailPricingInfo
+     * @return \Santosdave\Travelport\UniversalRecord\RailPricingInfo
      */
     public function setApproximateBasePrice($ApproximateBasePrice)
     {
@@ -375,7 +375,7 @@ class RailPricingInfo
 
     /**
      * @param typeMoney $EquivalentBasePrice
-     * @return \FilippoToso\Travelport\UniversalRecord\RailPricingInfo
+     * @return \Santosdave\Travelport\UniversalRecord\RailPricingInfo
      */
     public function setEquivalentBasePrice($EquivalentBasePrice)
     {
@@ -393,7 +393,7 @@ class RailPricingInfo
 
     /**
      * @param typeMoney $Taxes
-     * @return \FilippoToso\Travelport\UniversalRecord\RailPricingInfo
+     * @return \Santosdave\Travelport\UniversalRecord\RailPricingInfo
      */
     public function setTaxes($Taxes)
     {
@@ -411,7 +411,7 @@ class RailPricingInfo
 
     /**
      * @param typeMoney $Fees
-     * @return \FilippoToso\Travelport\UniversalRecord\RailPricingInfo
+     * @return \Santosdave\Travelport\UniversalRecord\RailPricingInfo
      */
     public function setFees($Fees)
     {
@@ -429,7 +429,7 @@ class RailPricingInfo
 
     /**
      * @param typeMoney $Services
-     * @return \FilippoToso\Travelport\UniversalRecord\RailPricingInfo
+     * @return \Santosdave\Travelport\UniversalRecord\RailPricingInfo
      */
     public function setServices($Services)
     {
@@ -447,7 +447,7 @@ class RailPricingInfo
 
     /**
      * @param typeMoney $ApproximateTaxes
-     * @return \FilippoToso\Travelport\UniversalRecord\RailPricingInfo
+     * @return \Santosdave\Travelport\UniversalRecord\RailPricingInfo
      */
     public function setApproximateTaxes($ApproximateTaxes)
     {
@@ -465,7 +465,7 @@ class RailPricingInfo
 
     /**
      * @param typeMoney $ApproximateFees
-     * @return \FilippoToso\Travelport\UniversalRecord\RailPricingInfo
+     * @return \Santosdave\Travelport\UniversalRecord\RailPricingInfo
      */
     public function setApproximateFees($ApproximateFees)
     {
@@ -483,7 +483,7 @@ class RailPricingInfo
 
     /**
      * @param typeElementStatus $ElStat
-     * @return \FilippoToso\Travelport\UniversalRecord\RailPricingInfo
+     * @return \Santosdave\Travelport\UniversalRecord\RailPricingInfo
      */
     public function setElStat($ElStat)
     {
@@ -501,7 +501,7 @@ class RailPricingInfo
 
     /**
      * @param boolean $KeyOverride
-     * @return \FilippoToso\Travelport\UniversalRecord\RailPricingInfo
+     * @return \Santosdave\Travelport\UniversalRecord\RailPricingInfo
      */
     public function setKeyOverride($KeyOverride)
     {

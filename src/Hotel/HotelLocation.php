@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class HotelLocation
 {
@@ -35,7 +35,7 @@ class HotelLocation
 
     /**
      * @param typeIATACode $Location
-     * @return \FilippoToso\Travelport\Hotel\HotelLocation
+     * @return \Santosdave\Travelport\Hotel\HotelLocation
      */
     public function setLocation($Location)
     {
@@ -53,7 +53,7 @@ class HotelLocation
 
     /**
      * @param typeHotelLocation $LocationType
-     * @return \FilippoToso\Travelport\Hotel\HotelLocation
+     * @return \Santosdave\Travelport\Hotel\HotelLocation
      */
     public function setLocationType($LocationType)
     {

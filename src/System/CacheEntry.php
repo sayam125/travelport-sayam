@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\System;
+namespace Santosdave\Travelport\System;
 
 class CacheEntry
 {
@@ -35,7 +35,7 @@ class CacheEntry
 
     /**
      * @param string $_
-     * @return \FilippoToso\Travelport\System\CacheEntry
+     * @return \Santosdave\Travelport\System\CacheEntry
      */
     public function set_($_)
     {
@@ -53,7 +53,7 @@ class CacheEntry
 
     /**
      * @param typeCacheKey $Key
-     * @return \FilippoToso\Travelport\System\CacheEntry
+     * @return \Santosdave\Travelport\System\CacheEntry
      */
     public function setKey($Key)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class UpsellAdminRsp extends BaseRsp
 {
@@ -48,7 +48,7 @@ class UpsellAdminRsp extends BaseRsp
 
     /**
      * @param AirUpsellRule $AirUpsellRule
-     * @return \FilippoToso\Travelport\Util\UpsellAdminRsp
+     * @return \Santosdave\Travelport\Util\UpsellAdminRsp
      */
     public function setAirUpsellRule($AirUpsellRule)
     {
@@ -66,7 +66,7 @@ class UpsellAdminRsp extends BaseRsp
 
     /**
      * @param VehicleUpsellRule $VehicleUpsellRule
-     * @return \FilippoToso\Travelport\Util\UpsellAdminRsp
+     * @return \Santosdave\Travelport\Util\UpsellAdminRsp
      */
     public function setVehicleUpsellRule($VehicleUpsellRule)
     {
@@ -84,7 +84,7 @@ class UpsellAdminRsp extends BaseRsp
 
     /**
      * @param HotelUpsellRule $HotelUpsellRule
-     * @return \FilippoToso\Travelport\Util\UpsellAdminRsp
+     * @return \Santosdave\Travelport\Util\UpsellAdminRsp
      */
     public function setHotelUpsellRule($HotelUpsellRule)
     {

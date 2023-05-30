@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class EmbargoList
 {
@@ -28,7 +28,7 @@ class EmbargoList
 
     /**
      * @param Embargo $Embargo
-     * @return \FilippoToso\Travelport\Air\EmbargoList
+     * @return \Santosdave\Travelport\Air\EmbargoList
      */
     public function setEmbargo($Embargo)
     {

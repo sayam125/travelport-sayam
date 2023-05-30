@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class FlightInfoCriteria
 {
@@ -70,7 +70,7 @@ class FlightInfoCriteria
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Air\FlightInfoCriteria
+     * @return \Santosdave\Travelport\Air\FlightInfoCriteria
      */
     public function setKey($Key)
     {
@@ -88,7 +88,7 @@ class FlightInfoCriteria
 
     /**
      * @param typeCarrier $Carrier
-     * @return \FilippoToso\Travelport\Air\FlightInfoCriteria
+     * @return \Santosdave\Travelport\Air\FlightInfoCriteria
      */
     public function setCarrier($Carrier)
     {
@@ -106,7 +106,7 @@ class FlightInfoCriteria
 
     /**
      * @param typeFlightNumber $FlightNumber
-     * @return \FilippoToso\Travelport\Air\FlightInfoCriteria
+     * @return \Santosdave\Travelport\Air\FlightInfoCriteria
      */
     public function setFlightNumber($FlightNumber)
     {
@@ -124,7 +124,7 @@ class FlightInfoCriteria
 
     /**
      * @param typeIATACode $Origin
-     * @return \FilippoToso\Travelport\Air\FlightInfoCriteria
+     * @return \Santosdave\Travelport\Air\FlightInfoCriteria
      */
     public function setOrigin($Origin)
     {
@@ -142,7 +142,7 @@ class FlightInfoCriteria
 
     /**
      * @param typeIATACode $Destination
-     * @return \FilippoToso\Travelport\Air\FlightInfoCriteria
+     * @return \Santosdave\Travelport\Air\FlightInfoCriteria
      */
     public function setDestination($Destination)
     {
@@ -160,7 +160,7 @@ class FlightInfoCriteria
 
     /**
      * @param date $DepartureDate
-     * @return \FilippoToso\Travelport\Air\FlightInfoCriteria
+     * @return \Santosdave\Travelport\Air\FlightInfoCriteria
      */
     public function setDepartureDate($DepartureDate)
     {
@@ -178,7 +178,7 @@ class FlightInfoCriteria
 
     /**
      * @param typeClassOfService $ClassOfService
-     * @return \FilippoToso\Travelport\Air\FlightInfoCriteria
+     * @return \Santosdave\Travelport\Air\FlightInfoCriteria
      */
     public function setClassOfService($ClassOfService)
     {

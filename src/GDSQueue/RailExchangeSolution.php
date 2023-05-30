@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class RailExchangeSolution extends typeRailPricingSolution
 {
@@ -48,7 +48,7 @@ class RailExchangeSolution extends typeRailPricingSolution
 
     /**
      * @param RailExchangeInfo $RailExchangeInfo
-     * @return \FilippoToso\Travelport\GDSQueue\RailExchangeSolution
+     * @return \Santosdave\Travelport\GDSQueue\RailExchangeSolution
      */
     public function setRailExchangeInfo($RailExchangeInfo)
     {

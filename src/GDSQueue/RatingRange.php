@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class RatingRange
 {
@@ -35,7 +35,7 @@ class RatingRange
 
     /**
      * @param typeSimpleHotelRating $MinimumRating
-     * @return \FilippoToso\Travelport\GDSQueue\RatingRange
+     * @return \Santosdave\Travelport\GDSQueue\RatingRange
      */
     public function setMinimumRating($MinimumRating)
     {
@@ -53,7 +53,7 @@ class RatingRange
 
     /**
      * @param typeSimpleHotelRating $MaximumRating
-     * @return \FilippoToso\Travelport\GDSQueue\RatingRange
+     * @return \Santosdave\Travelport\GDSQueue\RatingRange
      */
     public function setMaximumRating($MaximumRating)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class ProhibitedRuleCategories
 {
@@ -28,7 +28,7 @@ class ProhibitedRuleCategories
 
     /**
      * @param FareRuleCategory $FareRuleCategory
-     * @return \FilippoToso\Travelport\Util\ProhibitedRuleCategories
+     * @return \Santosdave\Travelport\Util\ProhibitedRuleCategories
      */
     public function setFareRuleCategory($FareRuleCategory)
     {

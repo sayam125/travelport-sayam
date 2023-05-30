@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class BaggageAllowanceInfo extends BaseBaggageAllowanceInfo
 {
@@ -48,7 +48,7 @@ class BaggageAllowanceInfo extends BaseBaggageAllowanceInfo
 
     /**
      * @param BagDetails $BagDetails
-     * @return \FilippoToso\Travelport\GDSQueue\BaggageAllowanceInfo
+     * @return \Santosdave\Travelport\GDSQueue\BaggageAllowanceInfo
      */
     public function setBagDetails($BagDetails)
     {
@@ -66,7 +66,7 @@ class BaggageAllowanceInfo extends BaseBaggageAllowanceInfo
 
     /**
      * @param typePTC $TravelerType
-     * @return \FilippoToso\Travelport\GDSQueue\BaggageAllowanceInfo
+     * @return \Santosdave\Travelport\GDSQueue\BaggageAllowanceInfo
      */
     public function setTravelerType($TravelerType)
     {
@@ -84,7 +84,7 @@ class BaggageAllowanceInfo extends BaseBaggageAllowanceInfo
 
     /**
      * @param typeRef $FareInfoRef
-     * @return \FilippoToso\Travelport\GDSQueue\BaggageAllowanceInfo
+     * @return \Santosdave\Travelport\GDSQueue\BaggageAllowanceInfo
      */
     public function setFareInfoRef($FareInfoRef)
     {

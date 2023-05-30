@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class FlightInformationRsp extends BaseRsp
 {
@@ -34,7 +34,7 @@ class FlightInformationRsp extends BaseRsp
 
     /**
      * @param FlightInfo $FlightInfo
-     * @return \FilippoToso\Travelport\Air\FlightInformationRsp
+     * @return \Santosdave\Travelport\Air\FlightInformationRsp
      */
     public function setFlightInfo($FlightInfo)
     {

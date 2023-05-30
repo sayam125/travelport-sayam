@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class Currency
 {
@@ -42,7 +42,7 @@ class Currency
 
     /**
      * @param typeCurrency $Code
-     * @return \FilippoToso\Travelport\Util\Currency
+     * @return \Santosdave\Travelport\Util\Currency
      */
     public function setCode($Code)
     {
@@ -60,7 +60,7 @@ class Currency
 
     /**
      * @param string $Name
-     * @return \FilippoToso\Travelport\Util\Currency
+     * @return \Santosdave\Travelport\Util\Currency
      */
     public function setName($Name)
     {
@@ -78,7 +78,7 @@ class Currency
 
     /**
      * @param string $Decimal
-     * @return \FilippoToso\Travelport\Util\Currency
+     * @return \Santosdave\Travelport\Util\Currency
      */
     public function setDecimal($Decimal)
     {

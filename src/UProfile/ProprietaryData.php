@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class ProprietaryData extends typeKeyElement
 {
@@ -44,7 +44,7 @@ class ProprietaryData extends typeKeyElement
 
     /**
      * @param anonymous554 $ProprietaryDataType
-     * @return \FilippoToso\Travelport\UProfile\ProprietaryData
+     * @return \Santosdave\Travelport\UProfile\ProprietaryData
      */
     public function setProprietaryDataType($ProprietaryDataType)
     {
@@ -62,7 +62,7 @@ class ProprietaryData extends typeKeyElement
 
     /**
      * @param StringLength1to255 $Value
-     * @return \FilippoToso\Travelport\UProfile\ProprietaryData
+     * @return \Santosdave\Travelport\UProfile\ProprietaryData
      */
     public function setValue($Value)
     {
@@ -80,7 +80,7 @@ class ProprietaryData extends typeKeyElement
 
     /**
      * @param typeProfileID $OwnerID
-     * @return \FilippoToso\Travelport\UProfile\ProprietaryData
+     * @return \Santosdave\Travelport\UProfile\ProprietaryData
      */
     public function setOwnerID($OwnerID)
     {

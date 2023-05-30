@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class FlightTimeTableRsp extends BaseSearchRsp
 {
@@ -33,7 +33,7 @@ class FlightTimeTableRsp extends BaseSearchRsp
 
     /**
      * @param FlightTimeTableList $FlightTimeTableList
-     * @return \FilippoToso\Travelport\Air\FlightTimeTableRsp
+     * @return \Santosdave\Travelport\Air\FlightTimeTableRsp
      */
     public function setFlightTimeTableList($FlightTimeTableList)
     {

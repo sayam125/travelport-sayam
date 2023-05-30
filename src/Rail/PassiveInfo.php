@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class PassiveInfo
 {
@@ -66,7 +66,7 @@ class PassiveInfo
 
     /**
      * @param string[] $TicketNumber
-     * @return \FilippoToso\Travelport\Rail\PassiveInfo
+     * @return \Santosdave\Travelport\Rail\PassiveInfo
      */
     public function setTicketNumber(array $TicketNumber = null)
     {
@@ -84,7 +84,7 @@ class PassiveInfo
 
     /**
      * @param string[] $ConfirmationNumber
-     * @return \FilippoToso\Travelport\Rail\PassiveInfo
+     * @return \Santosdave\Travelport\Rail\PassiveInfo
      */
     public function setConfirmationNumber(array $ConfirmationNumber = null)
     {
@@ -102,7 +102,7 @@ class PassiveInfo
 
     /**
      * @param Commission $Commission
-     * @return \FilippoToso\Travelport\Rail\PassiveInfo
+     * @return \Santosdave\Travelport\Rail\PassiveInfo
      */
     public function setCommission($Commission)
     {
@@ -120,7 +120,7 @@ class PassiveInfo
 
     /**
      * @param string $ProviderCode
-     * @return \FilippoToso\Travelport\Rail\PassiveInfo
+     * @return \Santosdave\Travelport\Rail\PassiveInfo
      */
     public function setProviderCode($ProviderCode)
     {
@@ -138,7 +138,7 @@ class PassiveInfo
 
     /**
      * @param string $ProviderLocatorCode
-     * @return \FilippoToso\Travelport\Rail\PassiveInfo
+     * @return \Santosdave\Travelport\Rail\PassiveInfo
      */
     public function setProviderLocatorCode($ProviderLocatorCode)
     {
@@ -156,7 +156,7 @@ class PassiveInfo
 
     /**
      * @param string $SupplierCode
-     * @return \FilippoToso\Travelport\Rail\PassiveInfo
+     * @return \Santosdave\Travelport\Rail\PassiveInfo
      */
     public function setSupplierCode($SupplierCode)
     {
@@ -174,7 +174,7 @@ class PassiveInfo
 
     /**
      * @param string $SupplierLocatorCode
-     * @return \FilippoToso\Travelport\Rail\PassiveInfo
+     * @return \Santosdave\Travelport\Rail\PassiveInfo
      */
     public function setSupplierLocatorCode($SupplierLocatorCode)
     {

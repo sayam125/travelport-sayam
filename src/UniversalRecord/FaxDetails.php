@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class FaxDetails
 {
@@ -77,7 +77,7 @@ class FaxDetails
 
     /**
      * @param PhoneNumber $PhoneNumber
-     * @return \FilippoToso\Travelport\UniversalRecord\FaxDetails
+     * @return \Santosdave\Travelport\UniversalRecord\FaxDetails
      */
     public function setPhoneNumber($PhoneNumber)
     {
@@ -95,7 +95,7 @@ class FaxDetails
 
     /**
      * @param TermConditions $TermConditions
-     * @return \FilippoToso\Travelport\UniversalRecord\FaxDetails
+     * @return \Santosdave\Travelport\UniversalRecord\FaxDetails
      */
     public function setTermConditions($TermConditions)
     {
@@ -113,7 +113,7 @@ class FaxDetails
 
     /**
      * @param Remark $Remark
-     * @return \FilippoToso\Travelport\UniversalRecord\FaxDetails
+     * @return \Santosdave\Travelport\UniversalRecord\FaxDetails
      */
     public function setRemark($Remark)
     {
@@ -131,7 +131,7 @@ class FaxDetails
 
     /**
      * @param boolean $IncludeCoverSheet
-     * @return \FilippoToso\Travelport\UniversalRecord\FaxDetails
+     * @return \Santosdave\Travelport\UniversalRecord\FaxDetails
      */
     public function setIncludeCoverSheet($IncludeCoverSheet)
     {
@@ -149,7 +149,7 @@ class FaxDetails
 
     /**
      * @param string $To
-     * @return \FilippoToso\Travelport\UniversalRecord\FaxDetails
+     * @return \Santosdave\Travelport\UniversalRecord\FaxDetails
      */
     public function setTo($To)
     {
@@ -167,7 +167,7 @@ class FaxDetails
 
     /**
      * @param string $From
-     * @return \FilippoToso\Travelport\UniversalRecord\FaxDetails
+     * @return \Santosdave\Travelport\UniversalRecord\FaxDetails
      */
     public function setFrom($From)
     {
@@ -185,7 +185,7 @@ class FaxDetails
 
     /**
      * @param string $DeptBillingCode
-     * @return \FilippoToso\Travelport\UniversalRecord\FaxDetails
+     * @return \Santosdave\Travelport\UniversalRecord\FaxDetails
      */
     public function setDeptBillingCode($DeptBillingCode)
     {
@@ -203,7 +203,7 @@ class FaxDetails
 
     /**
      * @param string $InvoiceNumber
-     * @return \FilippoToso\Travelport\UniversalRecord\FaxDetails
+     * @return \Santosdave\Travelport\UniversalRecord\FaxDetails
      */
     public function setInvoiceNumber($InvoiceNumber)
     {

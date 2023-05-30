@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Vehicle;
+namespace Santosdave\Travelport\Vehicle;
 
 class Commission
 {
@@ -35,7 +35,7 @@ class Commission
 
     /**
      * @param typeMoney $Amount
-     * @return \FilippoToso\Travelport\Vehicle\Commission
+     * @return \Santosdave\Travelport\Vehicle\Commission
      */
     public function setAmount($Amount)
     {
@@ -53,7 +53,7 @@ class Commission
 
     /**
      * @param typePercentageWithDecimal $Percentage
-     * @return \FilippoToso\Travelport\Vehicle\Commission
+     * @return \Santosdave\Travelport\Vehicle\Commission
      */
     public function setPercentage($Percentage)
     {

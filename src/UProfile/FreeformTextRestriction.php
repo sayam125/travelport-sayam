@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class FreeformTextRestriction
 {
@@ -28,7 +28,7 @@ class FreeformTextRestriction
 
     /**
      * @param typeAction $Action
-     * @return \FilippoToso\Travelport\UProfile\FreeformTextRestriction
+     * @return \Santosdave\Travelport\UProfile\FreeformTextRestriction
      */
     public function setAction($Action)
     {

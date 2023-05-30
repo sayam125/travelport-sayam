@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class AlternateLocationDistanceList
 {
@@ -28,7 +28,7 @@ class AlternateLocationDistanceList
 
     /**
      * @param AlternateLocationDistance $AlternateLocationDistance
-     * @return \FilippoToso\Travelport\GDSQueue\AlternateLocationDistanceList
+     * @return \Santosdave\Travelport\GDSQueue\AlternateLocationDistanceList
      */
     public function setAlternateLocationDistance($AlternateLocationDistance)
     {

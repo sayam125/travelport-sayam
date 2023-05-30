@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class BaseHotelSearchReq extends BaseSearchReq
 {
@@ -69,7 +69,7 @@ class BaseHotelSearchReq extends BaseSearchReq
 
     /**
      * @param HotelSearchLocation $HotelSearchLocation
-     * @return \FilippoToso\Travelport\Hotel\BaseHotelSearchReq
+     * @return \Santosdave\Travelport\Hotel\BaseHotelSearchReq
      */
     public function setHotelSearchLocation($HotelSearchLocation)
     {
@@ -87,7 +87,7 @@ class BaseHotelSearchReq extends BaseSearchReq
 
     /**
      * @param HotelSearchModifiers $HotelSearchModifiers
-     * @return \FilippoToso\Travelport\Hotel\BaseHotelSearchReq
+     * @return \Santosdave\Travelport\Hotel\BaseHotelSearchReq
      */
     public function setHotelSearchModifiers($HotelSearchModifiers)
     {
@@ -105,7 +105,7 @@ class BaseHotelSearchReq extends BaseSearchReq
 
     /**
      * @param HotelStay $HotelStay
-     * @return \FilippoToso\Travelport\Hotel\BaseHotelSearchReq
+     * @return \Santosdave\Travelport\Hotel\BaseHotelSearchReq
      */
     public function setHotelStay($HotelStay)
     {
@@ -123,7 +123,7 @@ class BaseHotelSearchReq extends BaseSearchReq
 
     /**
      * @param PointOfSale $PointOfSale
-     * @return \FilippoToso\Travelport\Hotel\BaseHotelSearchReq
+     * @return \Santosdave\Travelport\Hotel\BaseHotelSearchReq
      */
     public function setPointOfSale($PointOfSale)
     {
@@ -141,7 +141,7 @@ class BaseHotelSearchReq extends BaseSearchReq
 
     /**
      * @param typePolicyReference $PolicyReference
-     * @return \FilippoToso\Travelport\Hotel\BaseHotelSearchReq
+     * @return \Santosdave\Travelport\Hotel\BaseHotelSearchReq
      */
     public function setPolicyReference($PolicyReference)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class AgencyServiceFeeCreateRsp extends BaseRsp
 {
@@ -34,7 +34,7 @@ class AgencyServiceFeeCreateRsp extends BaseRsp
 
     /**
      * @param ServiceFeeInfo $ServiceFeeInfo
-     * @return \FilippoToso\Travelport\Util\AgencyServiceFeeCreateRsp
+     * @return \Santosdave\Travelport\Util\AgencyServiceFeeCreateRsp
      */
     public function setServiceFeeInfo($ServiceFeeInfo)
     {

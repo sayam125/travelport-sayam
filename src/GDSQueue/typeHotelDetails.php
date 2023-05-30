@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class typeHotelDetails
 {
@@ -49,7 +49,7 @@ class typeHotelDetails
 
     /**
      * @param HotelProperty $HotelProperty
-     * @return \FilippoToso\Travelport\GDSQueue\typeHotelDetails
+     * @return \Santosdave\Travelport\GDSQueue\typeHotelDetails
      */
     public function setHotelProperty($HotelProperty)
     {
@@ -67,7 +67,7 @@ class typeHotelDetails
 
     /**
      * @param HotelDetailItem $HotelDetailItem
-     * @return \FilippoToso\Travelport\GDSQueue\typeHotelDetails
+     * @return \Santosdave\Travelport\GDSQueue\typeHotelDetails
      */
     public function setHotelDetailItem($HotelDetailItem)
     {
@@ -85,7 +85,7 @@ class typeHotelDetails
 
     /**
      * @param HotelRateDetail $HotelRateDetail
-     * @return \FilippoToso\Travelport\GDSQueue\typeHotelDetails
+     * @return \Santosdave\Travelport\GDSQueue\typeHotelDetails
      */
     public function setHotelRateDetail($HotelRateDetail)
     {
@@ -103,7 +103,7 @@ class typeHotelDetails
 
     /**
      * @param MediaItem $MediaItem
-     * @return \FilippoToso\Travelport\GDSQueue\typeHotelDetails
+     * @return \Santosdave\Travelport\GDSQueue\typeHotelDetails
      */
     public function setMediaItem($MediaItem)
     {

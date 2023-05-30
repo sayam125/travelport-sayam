@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class APIProvider
 {
@@ -54,7 +54,7 @@ class APIProvider
 
     /**
      * @param TransactionType $TransactionType
-     * @return \FilippoToso\Travelport\Hotel\APIProvider
+     * @return \Santosdave\Travelport\Hotel\APIProvider
      */
     public function setTransactionType($TransactionType)
     {
@@ -72,7 +72,7 @@ class APIProvider
 
     /**
      * @param AvailablePseudoCityCode[] $AvailablePseudoCityCode
-     * @return \FilippoToso\Travelport\Hotel\APIProvider
+     * @return \Santosdave\Travelport\Hotel\APIProvider
      */
     public function setAvailablePseudoCityCode(array $AvailablePseudoCityCode = null)
     {
@@ -90,7 +90,7 @@ class APIProvider
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\Hotel\APIProvider
+     * @return \Santosdave\Travelport\Hotel\APIProvider
      */
     public function setProviderCode($ProviderCode)
     {
@@ -108,7 +108,7 @@ class APIProvider
 
     /**
      * @param typeSupplierCode $SupplierCode
-     * @return \FilippoToso\Travelport\Hotel\APIProvider
+     * @return \Santosdave\Travelport\Hotel\APIProvider
      */
     public function setSupplierCode($SupplierCode)
     {
@@ -126,7 +126,7 @@ class APIProvider
 
     /**
      * @param typeIATA $IATACode
-     * @return \FilippoToso\Travelport\Hotel\APIProvider
+     * @return \Santosdave\Travelport\Hotel\APIProvider
      */
     public function setIATACode($IATACode)
     {

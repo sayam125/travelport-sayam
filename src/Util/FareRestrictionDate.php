@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class FareRestrictionDate
 {
@@ -49,7 +49,7 @@ class FareRestrictionDate
 
     /**
      * @param typeFareDirectionality $Direction
-     * @return \FilippoToso\Travelport\Util\FareRestrictionDate
+     * @return \Santosdave\Travelport\Util\FareRestrictionDate
      */
     public function setDirection($Direction)
     {
@@ -67,7 +67,7 @@ class FareRestrictionDate
 
     /**
      * @param string $StartDate
-     * @return \FilippoToso\Travelport\Util\FareRestrictionDate
+     * @return \Santosdave\Travelport\Util\FareRestrictionDate
      */
     public function setStartDate($StartDate)
     {
@@ -85,7 +85,7 @@ class FareRestrictionDate
 
     /**
      * @param string $EndDate
-     * @return \FilippoToso\Travelport\Util\FareRestrictionDate
+     * @return \Santosdave\Travelport\Util\FareRestrictionDate
      */
     public function setEndDate($EndDate)
     {
@@ -103,7 +103,7 @@ class FareRestrictionDate
 
     /**
      * @param anonymous594 $EndDateIndicator
-     * @return \FilippoToso\Travelport\Util\FareRestrictionDate
+     * @return \Santosdave\Travelport\Util\FareRestrictionDate
      */
     public function setEndDateIndicator($EndDateIndicator)
     {

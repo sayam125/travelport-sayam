@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class InvoluntaryChange
 {
@@ -28,7 +28,7 @@ class InvoluntaryChange
 
     /**
      * @param TicketEndorsement $TicketEndorsement
-     * @return \FilippoToso\Travelport\GDSQueue\InvoluntaryChange
+     * @return \Santosdave\Travelport\GDSQueue\InvoluntaryChange
      */
     public function setTicketEndorsement($TicketEndorsement)
     {

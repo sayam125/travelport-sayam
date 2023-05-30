@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class FareStatusFailureInfo
 {
@@ -35,7 +35,7 @@ class FareStatusFailureInfo
 
     /**
      * @param string $Code
-     * @return \FilippoToso\Travelport\UniversalRecord\FareStatusFailureInfo
+     * @return \Santosdave\Travelport\UniversalRecord\FareStatusFailureInfo
      */
     public function setCode($Code)
     {
@@ -53,7 +53,7 @@ class FareStatusFailureInfo
 
     /**
      * @param string $Reason
-     * @return \FilippoToso\Travelport\UniversalRecord\FareStatusFailureInfo
+     * @return \Santosdave\Travelport\UniversalRecord\FareStatusFailureInfo
      */
     public function setReason($Reason)
     {

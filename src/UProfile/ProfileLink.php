@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class ProfileLink
 {
@@ -70,7 +70,7 @@ class ProfileLink
 
     /**
      * @param StringLength1to128 $GivenName
-     * @return \FilippoToso\Travelport\UProfile\ProfileLink
+     * @return \Santosdave\Travelport\UProfile\ProfileLink
      */
     public function setGivenName($GivenName)
     {
@@ -88,7 +88,7 @@ class ProfileLink
 
     /**
      * @param StringLength1to128 $OtherName
-     * @return \FilippoToso\Travelport\UProfile\ProfileLink
+     * @return \Santosdave\Travelport\UProfile\ProfileLink
      */
     public function setOtherName($OtherName)
     {
@@ -106,7 +106,7 @@ class ProfileLink
 
     /**
      * @param StringLength1to128 $Surname
-     * @return \FilippoToso\Travelport\UProfile\ProfileLink
+     * @return \Santosdave\Travelport\UProfile\ProfileLink
      */
     public function setSurname($Surname)
     {
@@ -124,7 +124,7 @@ class ProfileLink
 
     /**
      * @param StringLength1to128 $Nickname
-     * @return \FilippoToso\Travelport\UProfile\ProfileLink
+     * @return \Santosdave\Travelport\UProfile\ProfileLink
      */
     public function setNickname($Nickname)
     {
@@ -142,7 +142,7 @@ class ProfileLink
 
     /**
      * @param StringLength1to128 $ElectronicAddress
-     * @return \FilippoToso\Travelport\UProfile\ProfileLink
+     * @return \Santosdave\Travelport\UProfile\ProfileLink
      */
     public function setElectronicAddress($ElectronicAddress)
     {
@@ -160,7 +160,7 @@ class ProfileLink
 
     /**
      * @param typeProfileID $TravelerID
-     * @return \FilippoToso\Travelport\UProfile\ProfileLink
+     * @return \Santosdave\Travelport\UProfile\ProfileLink
      */
     public function setTravelerID($TravelerID)
     {
@@ -178,7 +178,7 @@ class ProfileLink
 
     /**
      * @param typeProfileLinkRelationship $Relationship
-     * @return \FilippoToso\Travelport\UProfile\ProfileLink
+     * @return \Santosdave\Travelport\UProfile\ProfileLink
      */
     public function setRelationship($Relationship)
     {

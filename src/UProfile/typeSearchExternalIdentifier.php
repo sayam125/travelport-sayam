@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeSearchExternalIdentifier
 {
@@ -35,7 +35,7 @@ class typeSearchExternalIdentifier
 
     /**
      * @param StringLength1to255 $ExtID
-     * @return \FilippoToso\Travelport\UProfile\typeSearchExternalIdentifier
+     * @return \Santosdave\Travelport\UProfile\typeSearchExternalIdentifier
      */
     public function setExtID($ExtID)
     {
@@ -53,7 +53,7 @@ class typeSearchExternalIdentifier
 
     /**
      * @param StringLength1to128 $Source
-     * @return \FilippoToso\Travelport\UProfile\typeSearchExternalIdentifier
+     * @return \Santosdave\Travelport\UProfile\typeSearchExternalIdentifier
      */
     public function setSource($Source)
     {

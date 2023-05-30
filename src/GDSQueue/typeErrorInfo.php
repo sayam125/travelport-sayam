@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class typeErrorInfo
 {
@@ -78,7 +78,7 @@ class typeErrorInfo
 
     /**
      * @param string $Code
-     * @return \FilippoToso\Travelport\GDSQueue\typeErrorInfo
+     * @return \Santosdave\Travelport\GDSQueue\typeErrorInfo
      */
     public function setCode($Code)
     {
@@ -96,7 +96,7 @@ class typeErrorInfo
 
     /**
      * @param string $Service
-     * @return \FilippoToso\Travelport\GDSQueue\typeErrorInfo
+     * @return \Santosdave\Travelport\GDSQueue\typeErrorInfo
      */
     public function setService($Service)
     {
@@ -114,7 +114,7 @@ class typeErrorInfo
 
     /**
      * @param string $Type
-     * @return \FilippoToso\Travelport\GDSQueue\typeErrorInfo
+     * @return \Santosdave\Travelport\GDSQueue\typeErrorInfo
      */
     public function setType($Type)
     {
@@ -132,7 +132,7 @@ class typeErrorInfo
 
     /**
      * @param string $Description
-     * @return \FilippoToso\Travelport\GDSQueue\typeErrorInfo
+     * @return \Santosdave\Travelport\GDSQueue\typeErrorInfo
      */
     public function setDescription($Description)
     {
@@ -150,7 +150,7 @@ class typeErrorInfo
 
     /**
      * @param string $TransactionId
-     * @return \FilippoToso\Travelport\GDSQueue\typeErrorInfo
+     * @return \Santosdave\Travelport\GDSQueue\typeErrorInfo
      */
     public function setTransactionId($TransactionId)
     {
@@ -168,7 +168,7 @@ class typeErrorInfo
 
     /**
      * @param string $TraceId
-     * @return \FilippoToso\Travelport\GDSQueue\typeErrorInfo
+     * @return \Santosdave\Travelport\GDSQueue\typeErrorInfo
      */
     public function setTraceId($TraceId)
     {
@@ -186,7 +186,7 @@ class typeErrorInfo
 
     /**
      * @param string $CommandHistory
-     * @return \FilippoToso\Travelport\GDSQueue\typeErrorInfo
+     * @return \Santosdave\Travelport\GDSQueue\typeErrorInfo
      */
     public function setCommandHistory($CommandHistory)
     {
@@ -204,7 +204,7 @@ class typeErrorInfo
 
     /**
      * @param Auxdata $Auxdata
-     * @return \FilippoToso\Travelport\GDSQueue\typeErrorInfo
+     * @return \Santosdave\Travelport\GDSQueue\typeErrorInfo
      */
     public function setAuxdata($Auxdata)
     {
@@ -222,7 +222,7 @@ class typeErrorInfo
 
     /**
      * @param string $StackTrace
-     * @return \FilippoToso\Travelport\GDSQueue\typeErrorInfo
+     * @return \Santosdave\Travelport\GDSQueue\typeErrorInfo
      */
     public function setStackTrace($StackTrace)
     {

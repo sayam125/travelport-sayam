@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class LegDetail
 {
@@ -63,7 +63,7 @@ class LegDetail
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\UniversalRecord\LegDetail
+     * @return \Santosdave\Travelport\UniversalRecord\LegDetail
      */
     public function setKey($Key)
     {
@@ -81,7 +81,7 @@ class LegDetail
 
     /**
      * @param typeIATACode $OriginAirport
-     * @return \FilippoToso\Travelport\UniversalRecord\LegDetail
+     * @return \Santosdave\Travelport\UniversalRecord\LegDetail
      */
     public function setOriginAirport($OriginAirport)
     {
@@ -99,7 +99,7 @@ class LegDetail
 
     /**
      * @param typeIATACode $DestinationAirport
-     * @return \FilippoToso\Travelport\UniversalRecord\LegDetail
+     * @return \Santosdave\Travelport\UniversalRecord\LegDetail
      */
     public function setDestinationAirport($DestinationAirport)
     {
@@ -117,7 +117,7 @@ class LegDetail
 
     /**
      * @param typeCarrier $Carrier
-     * @return \FilippoToso\Travelport\UniversalRecord\LegDetail
+     * @return \Santosdave\Travelport\UniversalRecord\LegDetail
      */
     public function setCarrier($Carrier)
     {
@@ -135,7 +135,7 @@ class LegDetail
 
     /**
      * @param string $TravelDate
-     * @return \FilippoToso\Travelport\UniversalRecord\LegDetail
+     * @return \Santosdave\Travelport\UniversalRecord\LegDetail
      */
     public function setTravelDate($TravelDate)
     {
@@ -153,7 +153,7 @@ class LegDetail
 
     /**
      * @param typeFlightNumber $FlightNumber
-     * @return \FilippoToso\Travelport\UniversalRecord\LegDetail
+     * @return \Santosdave\Travelport\UniversalRecord\LegDetail
      */
     public function setFlightNumber($FlightNumber)
     {

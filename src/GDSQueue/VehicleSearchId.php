@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class VehicleSearchId
 {
@@ -28,7 +28,7 @@ class VehicleSearchId
 
     /**
      * @param string $MediaLinksSearchId
-     * @return \FilippoToso\Travelport\GDSQueue\VehicleSearchId
+     * @return \Santosdave\Travelport\GDSQueue\VehicleSearchId
      */
     public function setMediaLinksSearchId($MediaLinksSearchId)
     {

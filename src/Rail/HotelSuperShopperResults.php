@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class HotelSuperShopperResults
 {
@@ -47,7 +47,7 @@ class HotelSuperShopperResults
 
     /**
      * @param HotelProperty $HotelProperty
-     * @return \FilippoToso\Travelport\Rail\HotelSuperShopperResults
+     * @return \Santosdave\Travelport\Rail\HotelSuperShopperResults
      */
     public function setHotelProperty($HotelProperty)
     {
@@ -65,7 +65,7 @@ class HotelSuperShopperResults
 
     /**
      * @param HotelDetailItem $HotelDetailItem
-     * @return \FilippoToso\Travelport\Rail\HotelSuperShopperResults
+     * @return \Santosdave\Travelport\Rail\HotelSuperShopperResults
      */
     public function setHotelDetailItem($HotelDetailItem)
     {
@@ -83,7 +83,7 @@ class HotelSuperShopperResults
 
     /**
      * @param HotelRateDetail $HotelRateDetail
-     * @return \FilippoToso\Travelport\Rail\HotelSuperShopperResults
+     * @return \Santosdave\Travelport\Rail\HotelSuperShopperResults
      */
     public function setHotelRateDetail($HotelRateDetail)
     {
@@ -101,7 +101,7 @@ class HotelSuperShopperResults
 
     /**
      * @param typeResultMessage[] $HotelResultsError
-     * @return \FilippoToso\Travelport\Rail\HotelSuperShopperResults
+     * @return \Santosdave\Travelport\Rail\HotelSuperShopperResults
      */
     public function setHotelResultsError(array $HotelResultsError = null)
     {

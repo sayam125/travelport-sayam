@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class ChildProviderReservationInfo extends PNRDivideInfo
 {
@@ -32,7 +32,7 @@ class ChildProviderReservationInfo extends PNRDivideInfo
 
     /**
      * @param typeLocatorCode $UniversalLocatorCode
-     * @return \FilippoToso\Travelport\UniversalRecord\ChildProviderReservationInfo
+     * @return \Santosdave\Travelport\UniversalRecord\ChildProviderReservationInfo
      */
     public function setUniversalLocatorCode($UniversalLocatorCode)
     {

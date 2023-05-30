@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class PassiveReservation extends BaseReservation
 {
@@ -79,7 +79,7 @@ class PassiveReservation extends BaseReservation
 
     /**
      * @param SupplierLocator $SupplierLocator
-     * @return \FilippoToso\Travelport\Rail\PassiveReservation
+     * @return \Santosdave\Travelport\Rail\PassiveReservation
      */
     public function setSupplierLocator($SupplierLocator)
     {
@@ -97,7 +97,7 @@ class PassiveReservation extends BaseReservation
 
     /**
      * @param ThirdPartyInformation $ThirdPartyInformation
-     * @return \FilippoToso\Travelport\Rail\PassiveReservation
+     * @return \Santosdave\Travelport\Rail\PassiveReservation
      */
     public function setThirdPartyInformation($ThirdPartyInformation)
     {
@@ -115,7 +115,7 @@ class PassiveReservation extends BaseReservation
 
     /**
      * @param BookingTravelerRef $BookingTravelerRef
-     * @return \FilippoToso\Travelport\Rail\PassiveReservation
+     * @return \Santosdave\Travelport\Rail\PassiveReservation
      */
     public function setBookingTravelerRef($BookingTravelerRef)
     {
@@ -133,7 +133,7 @@ class PassiveReservation extends BaseReservation
 
     /**
      * @param PassiveSegment $PassiveSegment
-     * @return \FilippoToso\Travelport\Rail\PassiveReservation
+     * @return \Santosdave\Travelport\Rail\PassiveReservation
      */
     public function setPassiveSegment($PassiveSegment)
     {
@@ -151,7 +151,7 @@ class PassiveReservation extends BaseReservation
 
     /**
      * @param PassiveRemark $PassiveRemark
-     * @return \FilippoToso\Travelport\Rail\PassiveReservation
+     * @return \Santosdave\Travelport\Rail\PassiveReservation
      */
     public function setPassiveRemark($PassiveRemark)
     {
@@ -169,7 +169,7 @@ class PassiveReservation extends BaseReservation
 
     /**
      * @param AssociatedRemark $AssociatedRemark
-     * @return \FilippoToso\Travelport\Rail\PassiveReservation
+     * @return \Santosdave\Travelport\Rail\PassiveReservation
      */
     public function setAssociatedRemark($AssociatedRemark)
     {
@@ -187,7 +187,7 @@ class PassiveReservation extends BaseReservation
 
     /**
      * @param typeRef $ProviderReservationInfoRef
-     * @return \FilippoToso\Travelport\Rail\PassiveReservation
+     * @return \Santosdave\Travelport\Rail\PassiveReservation
      */
     public function setProviderReservationInfoRef($ProviderReservationInfoRef)
     {

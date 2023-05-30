@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class FlightArrivalInformation
 {
@@ -42,7 +42,7 @@ class FlightArrivalInformation
 
     /**
      * @param typeCarrier $Carrier
-     * @return \FilippoToso\Travelport\GDSQueue\FlightArrivalInformation
+     * @return \Santosdave\Travelport\GDSQueue\FlightArrivalInformation
      */
     public function setCarrier($Carrier)
     {
@@ -60,7 +60,7 @@ class FlightArrivalInformation
 
     /**
      * @param anonymous599 $FlightNumber
-     * @return \FilippoToso\Travelport\GDSQueue\FlightArrivalInformation
+     * @return \Santosdave\Travelport\GDSQueue\FlightArrivalInformation
      */
     public function setFlightNumber($FlightNumber)
     {
@@ -78,7 +78,7 @@ class FlightArrivalInformation
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\GDSQueue\FlightArrivalInformation
+     * @return \Santosdave\Travelport\GDSQueue\FlightArrivalInformation
      */
     public function setKey($Key)
     {

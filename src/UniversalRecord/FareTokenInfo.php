@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class FareTokenInfo
 {
@@ -35,7 +35,7 @@ class FareTokenInfo
 
     /**
      * @param string $FareInfoRef
-     * @return \FilippoToso\Travelport\UniversalRecord\FareTokenInfo
+     * @return \Santosdave\Travelport\UniversalRecord\FareTokenInfo
      */
     public function setFareInfoRef($FareInfoRef)
     {
@@ -53,7 +53,7 @@ class FareTokenInfo
 
     /**
      * @param string $HostTokenRef
-     * @return \FilippoToso\Travelport\UniversalRecord\FareTokenInfo
+     * @return \Santosdave\Travelport\UniversalRecord\FareTokenInfo
      */
     public function setHostTokenRef($HostTokenRef)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class typeSavedTripProductInfo
 {
@@ -42,7 +42,7 @@ class typeSavedTripProductInfo
 
     /**
      * @param typeProduct $ProductType
-     * @return \FilippoToso\Travelport\UniversalRecord\typeSavedTripProductInfo
+     * @return \Santosdave\Travelport\UniversalRecord\typeSavedTripProductInfo
      */
     public function setProductType($ProductType)
     {
@@ -60,7 +60,7 @@ class typeSavedTripProductInfo
 
     /**
      * @param string $VendorCode
-     * @return \FilippoToso\Travelport\UniversalRecord\typeSavedTripProductInfo
+     * @return \Santosdave\Travelport\UniversalRecord\typeSavedTripProductInfo
      */
     public function setVendorCode($VendorCode)
     {
@@ -78,7 +78,7 @@ class typeSavedTripProductInfo
 
     /**
      * @param string $ProviderCode
-     * @return \FilippoToso\Travelport\UniversalRecord\typeSavedTripProductInfo
+     * @return \Santosdave\Travelport\UniversalRecord\typeSavedTripProductInfo
      */
     public function setProviderCode($ProviderCode)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class ContractCompliance
 {
@@ -35,7 +35,7 @@ class ContractCompliance
 
     /**
      * @param boolean $InContract
-     * @return \FilippoToso\Travelport\GDSQueue\ContractCompliance
+     * @return \Santosdave\Travelport\GDSQueue\ContractCompliance
      */
     public function setInContract($InContract)
     {
@@ -53,7 +53,7 @@ class ContractCompliance
 
     /**
      * @param StringLength1to128 $ContractToken
-     * @return \FilippoToso\Travelport\GDSQueue\ContractCompliance
+     * @return \Santosdave\Travelport\GDSQueue\ContractCompliance
      */
     public function setContractToken($ContractToken)
     {

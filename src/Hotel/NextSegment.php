@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class NextSegment
 {
@@ -41,7 +41,7 @@ class NextSegment
 
     /**
      * @param typeSegmentRef $AirSegmentRef
-     * @return \FilippoToso\Travelport\Hotel\NextSegment
+     * @return \Santosdave\Travelport\Hotel\NextSegment
      */
     public function setAirSegmentRef($AirSegmentRef)
     {
@@ -59,7 +59,7 @@ class NextSegment
 
     /**
      * @param typeNonAirReservationRef $HotelReservationRef
-     * @return \FilippoToso\Travelport\Hotel\NextSegment
+     * @return \Santosdave\Travelport\Hotel\NextSegment
      */
     public function setHotelReservationRef($HotelReservationRef)
     {
@@ -77,7 +77,7 @@ class NextSegment
 
     /**
      * @param typeNonAirReservationRef $VehicleReservationRef
-     * @return \FilippoToso\Travelport\Hotel\NextSegment
+     * @return \Santosdave\Travelport\Hotel\NextSegment
      */
     public function setVehicleReservationRef($VehicleReservationRef)
     {
@@ -95,7 +95,7 @@ class NextSegment
 
     /**
      * @param typeSegmentRef $PassiveSegmentRef
-     * @return \FilippoToso\Travelport\Hotel\NextSegment
+     * @return \Santosdave\Travelport\Hotel\NextSegment
      */
     public function setPassiveSegmentRef($PassiveSegmentRef)
     {

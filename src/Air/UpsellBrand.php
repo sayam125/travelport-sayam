@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class UpsellBrand
 {
@@ -35,7 +35,7 @@ class UpsellBrand
 
     /**
      * @param string $FareBasis
-     * @return \FilippoToso\Travelport\Air\UpsellBrand
+     * @return \Santosdave\Travelport\Air\UpsellBrand
      */
     public function setFareBasis($FareBasis)
     {
@@ -53,7 +53,7 @@ class UpsellBrand
 
     /**
      * @param string $FareInfoRef
-     * @return \FilippoToso\Travelport\Air\UpsellBrand
+     * @return \Santosdave\Travelport\Air\UpsellBrand
      */
     public function setFareInfoRef($FareInfoRef)
     {

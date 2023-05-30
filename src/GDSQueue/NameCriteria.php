@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class NameCriteria
 {
@@ -35,7 +35,7 @@ class NameCriteria
 
     /**
      * @param anonymous1409 $FirstName
-     * @return \FilippoToso\Travelport\GDSQueue\NameCriteria
+     * @return \Santosdave\Travelport\GDSQueue\NameCriteria
      */
     public function setFirstName($FirstName)
     {
@@ -53,7 +53,7 @@ class NameCriteria
 
     /**
      * @param anonymous1410 $LastName
-     * @return \FilippoToso\Travelport\GDSQueue\NameCriteria
+     * @return \Santosdave\Travelport\GDSQueue\NameCriteria
      */
     public function setLastName($LastName)
     {

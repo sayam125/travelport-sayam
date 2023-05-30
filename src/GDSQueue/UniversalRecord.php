@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class UniversalRecord
 {
@@ -294,7 +294,7 @@ class UniversalRecord
 
     /**
      * @param LinkedUniversalRecord $LinkedUniversalRecord
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalRecord
+     * @return \Santosdave\Travelport\GDSQueue\UniversalRecord
      */
     public function setLinkedUniversalRecord($LinkedUniversalRecord)
     {
@@ -312,7 +312,7 @@ class UniversalRecord
 
     /**
      * @param Group $Group
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalRecord
+     * @return \Santosdave\Travelport\GDSQueue\UniversalRecord
      */
     public function setGroup($Group)
     {
@@ -330,7 +330,7 @@ class UniversalRecord
 
     /**
      * @param BookingTraveler $BookingTraveler
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalRecord
+     * @return \Santosdave\Travelport\GDSQueue\UniversalRecord
      */
     public function setBookingTraveler($BookingTraveler)
     {
@@ -348,7 +348,7 @@ class UniversalRecord
 
     /**
      * @param ServiceFeeInfo $ServiceFeeInfo
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalRecord
+     * @return \Santosdave\Travelport\GDSQueue\UniversalRecord
      */
     public function setServiceFeeInfo($ServiceFeeInfo)
     {
@@ -366,7 +366,7 @@ class UniversalRecord
 
     /**
      * @param OSI $OSI
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalRecord
+     * @return \Santosdave\Travelport\GDSQueue\UniversalRecord
      */
     public function setOSI($OSI)
     {
@@ -384,7 +384,7 @@ class UniversalRecord
 
     /**
      * @param ActionStatus $ActionStatus
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalRecord
+     * @return \Santosdave\Travelport\GDSQueue\UniversalRecord
      */
     public function setActionStatus($ActionStatus)
     {
@@ -402,7 +402,7 @@ class UniversalRecord
 
     /**
      * @param ProviderReservationInfo $ProviderReservationInfo
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalRecord
+     * @return \Santosdave\Travelport\GDSQueue\UniversalRecord
      */
     public function setProviderReservationInfo($ProviderReservationInfo)
     {
@@ -420,7 +420,7 @@ class UniversalRecord
 
     /**
      * @param AirReservation $AirReservation
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalRecord
+     * @return \Santosdave\Travelport\GDSQueue\UniversalRecord
      */
     public function setAirReservation($AirReservation)
     {
@@ -438,7 +438,7 @@ class UniversalRecord
 
     /**
      * @param HotelReservation $HotelReservation
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalRecord
+     * @return \Santosdave\Travelport\GDSQueue\UniversalRecord
      */
     public function setHotelReservation($HotelReservation)
     {
@@ -456,7 +456,7 @@ class UniversalRecord
 
     /**
      * @param VehicleReservation $VehicleReservation
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalRecord
+     * @return \Santosdave\Travelport\GDSQueue\UniversalRecord
      */
     public function setVehicleReservation($VehicleReservation)
     {
@@ -474,7 +474,7 @@ class UniversalRecord
 
     /**
      * @param PassiveReservation $PassiveReservation
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalRecord
+     * @return \Santosdave\Travelport\GDSQueue\UniversalRecord
      */
     public function setPassiveReservation($PassiveReservation)
     {
@@ -492,7 +492,7 @@ class UniversalRecord
 
     /**
      * @param RailReservation $RailReservation
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalRecord
+     * @return \Santosdave\Travelport\GDSQueue\UniversalRecord
      */
     public function setRailReservation($RailReservation)
     {
@@ -510,7 +510,7 @@ class UniversalRecord
 
     /**
      * @param CruiseReservation $CruiseReservation
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalRecord
+     * @return \Santosdave\Travelport\GDSQueue\UniversalRecord
      */
     public function setCruiseReservation($CruiseReservation)
     {
@@ -528,7 +528,7 @@ class UniversalRecord
 
     /**
      * @param EMDSummaryInfo $EMDSummaryInfo
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalRecord
+     * @return \Santosdave\Travelport\GDSQueue\UniversalRecord
      */
     public function setEMDSummaryInfo($EMDSummaryInfo)
     {
@@ -546,7 +546,7 @@ class UniversalRecord
 
     /**
      * @param ProviderARNKSegment $ProviderARNKSegment
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalRecord
+     * @return \Santosdave\Travelport\GDSQueue\UniversalRecord
      */
     public function setProviderARNKSegment($ProviderARNKSegment)
     {
@@ -564,7 +564,7 @@ class UniversalRecord
 
     /**
      * @param SegmentContinuityInfo $SegmentContinuityInfo
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalRecord
+     * @return \Santosdave\Travelport\GDSQueue\UniversalRecord
      */
     public function setSegmentContinuityInfo($SegmentContinuityInfo)
     {
@@ -582,7 +582,7 @@ class UniversalRecord
 
     /**
      * @param XMLRemark $XMLRemark
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalRecord
+     * @return \Santosdave\Travelport\GDSQueue\UniversalRecord
      */
     public function setXMLRemark($XMLRemark)
     {
@@ -600,7 +600,7 @@ class UniversalRecord
 
     /**
      * @param GeneralRemark $GeneralRemark
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalRecord
+     * @return \Santosdave\Travelport\GDSQueue\UniversalRecord
      */
     public function setGeneralRemark($GeneralRemark)
     {
@@ -618,7 +618,7 @@ class UniversalRecord
 
     /**
      * @param AccountingRemark $AccountingRemark
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalRecord
+     * @return \Santosdave\Travelport\GDSQueue\UniversalRecord
      */
     public function setAccountingRemark($AccountingRemark)
     {
@@ -636,7 +636,7 @@ class UniversalRecord
 
     /**
      * @param UnassociatedRemark $UnassociatedRemark
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalRecord
+     * @return \Santosdave\Travelport\GDSQueue\UniversalRecord
      */
     public function setUnassociatedRemark($UnassociatedRemark)
     {
@@ -654,7 +654,7 @@ class UniversalRecord
 
     /**
      * @param Postscript $Postscript
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalRecord
+     * @return \Santosdave\Travelport\GDSQueue\UniversalRecord
      */
     public function setPostscript($Postscript)
     {
@@ -672,7 +672,7 @@ class UniversalRecord
 
     /**
      * @param AgencyInfo $AgencyInfo
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalRecord
+     * @return \Santosdave\Travelport\GDSQueue\UniversalRecord
      */
     public function setAgencyInfo($AgencyInfo)
     {
@@ -690,7 +690,7 @@ class UniversalRecord
 
     /**
      * @param AppliedProfile $AppliedProfile
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalRecord
+     * @return \Santosdave\Travelport\GDSQueue\UniversalRecord
      */
     public function setAppliedProfile($AppliedProfile)
     {
@@ -708,7 +708,7 @@ class UniversalRecord
 
     /**
      * @param AgencyContactInfo $AgencyContactInfo
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalRecord
+     * @return \Santosdave\Travelport\GDSQueue\UniversalRecord
      */
     public function setAgencyContactInfo($AgencyContactInfo)
     {
@@ -726,7 +726,7 @@ class UniversalRecord
 
     /**
      * @param CustomerID $CustomerID
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalRecord
+     * @return \Santosdave\Travelport\GDSQueue\UniversalRecord
      */
     public function setCustomerID($CustomerID)
     {
@@ -744,7 +744,7 @@ class UniversalRecord
 
     /**
      * @param CommissionRemark $CommissionRemark
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalRecord
+     * @return \Santosdave\Travelport\GDSQueue\UniversalRecord
      */
     public function setCommissionRemark($CommissionRemark)
     {
@@ -762,7 +762,7 @@ class UniversalRecord
 
     /**
      * @param ConsolidatorRemark $ConsolidatorRemark
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalRecord
+     * @return \Santosdave\Travelport\GDSQueue\UniversalRecord
      */
     public function setConsolidatorRemark($ConsolidatorRemark)
     {
@@ -780,7 +780,7 @@ class UniversalRecord
 
     /**
      * @param UnmaskedDataRemark $UnmaskedDataRemark
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalRecord
+     * @return \Santosdave\Travelport\GDSQueue\UniversalRecord
      */
     public function setUnmaskedDataRemark($UnmaskedDataRemark)
     {
@@ -798,7 +798,7 @@ class UniversalRecord
 
     /**
      * @param InvoiceRemark $InvoiceRemark
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalRecord
+     * @return \Santosdave\Travelport\GDSQueue\UniversalRecord
      */
     public function setInvoiceRemark($InvoiceRemark)
     {
@@ -816,7 +816,7 @@ class UniversalRecord
 
     /**
      * @param ReviewBooking $ReviewBooking
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalRecord
+     * @return \Santosdave\Travelport\GDSQueue\UniversalRecord
      */
     public function setReviewBooking($ReviewBooking)
     {
@@ -834,7 +834,7 @@ class UniversalRecord
 
     /**
      * @param SSR $SSR
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalRecord
+     * @return \Santosdave\Travelport\GDSQueue\UniversalRecord
      */
     public function setSSR($SSR)
     {
@@ -852,7 +852,7 @@ class UniversalRecord
 
     /**
      * @param InvoiceData $InvoiceData
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalRecord
+     * @return \Santosdave\Travelport\GDSQueue\UniversalRecord
      */
     public function setInvoiceData($InvoiceData)
     {
@@ -870,7 +870,7 @@ class UniversalRecord
 
     /**
      * @param FormOfPayment $FormOfPayment
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalRecord
+     * @return \Santosdave\Travelport\GDSQueue\UniversalRecord
      */
     public function setFormOfPayment($FormOfPayment)
     {
@@ -888,7 +888,7 @@ class UniversalRecord
 
     /**
      * @param typeLocatorCode $LocatorCode
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalRecord
+     * @return \Santosdave\Travelport\GDSQueue\UniversalRecord
      */
     public function setLocatorCode($LocatorCode)
     {
@@ -906,7 +906,7 @@ class UniversalRecord
 
     /**
      * @param typeLocatorCode $SavedTripLocatorCode
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalRecord
+     * @return \Santosdave\Travelport\GDSQueue\UniversalRecord
      */
     public function setSavedTripLocatorCode($SavedTripLocatorCode)
     {
@@ -924,7 +924,7 @@ class UniversalRecord
 
     /**
      * @param string $LockReason
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalRecord
+     * @return \Santosdave\Travelport\GDSQueue\UniversalRecord
      */
     public function setLockReason($LockReason)
     {
@@ -950,7 +950,7 @@ class UniversalRecord
 
     /**
      * @param \DateTime $CreateDate
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalRecord
+     * @return \Santosdave\Travelport\GDSQueue\UniversalRecord
      */
     public function setCreateDate(\DateTime $CreateDate)
     {
@@ -968,7 +968,7 @@ class UniversalRecord
 
     /**
      * @param typeURVersion $Version
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalRecord
+     * @return \Santosdave\Travelport\GDSQueue\UniversalRecord
      */
     public function setVersion($Version)
     {
@@ -986,7 +986,7 @@ class UniversalRecord
 
     /**
      * @param typeURStatus $Status
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalRecord
+     * @return \Santosdave\Travelport\GDSQueue\UniversalRecord
      */
     public function setStatus($Status)
     {

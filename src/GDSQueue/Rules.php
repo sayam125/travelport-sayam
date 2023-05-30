@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class Rules
 {
@@ -26,7 +26,7 @@ class Rules
 
     /**
      * @param string $RulesText
-     * @return \FilippoToso\Travelport\GDSQueue\Rules
+     * @return \Santosdave\Travelport\GDSQueue\Rules
      */
     public function setRulesText($RulesText)
     {

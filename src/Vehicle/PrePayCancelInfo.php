@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Vehicle;
+namespace Santosdave\Travelport\Vehicle;
 
 class PrePayCancelInfo
 {
@@ -56,7 +56,7 @@ class PrePayCancelInfo
 
     /**
      * @param int $Code
-     * @return \FilippoToso\Travelport\Vehicle\PrePayCancelInfo
+     * @return \Santosdave\Travelport\Vehicle\PrePayCancelInfo
      */
     public function setCode($Code)
     {
@@ -74,7 +74,7 @@ class PrePayCancelInfo
 
     /**
      * @param typeMoney $Amount
-     * @return \FilippoToso\Travelport\Vehicle\PrePayCancelInfo
+     * @return \Santosdave\Travelport\Vehicle\PrePayCancelInfo
      */
     public function setAmount($Amount)
     {
@@ -92,7 +92,7 @@ class PrePayCancelInfo
 
     /**
      * @param int $Percent
-     * @return \FilippoToso\Travelport\Vehicle\PrePayCancelInfo
+     * @return \Santosdave\Travelport\Vehicle\PrePayCancelInfo
      */
     public function setPercent($Percent)
     {
@@ -110,7 +110,7 @@ class PrePayCancelInfo
 
     /**
      * @param int $NumberOfDaysHours
-     * @return \FilippoToso\Travelport\Vehicle\PrePayCancelInfo
+     * @return \Santosdave\Travelport\Vehicle\PrePayCancelInfo
      */
     public function setNumberOfDaysHours($NumberOfDaysHours)
     {
@@ -128,7 +128,7 @@ class PrePayCancelInfo
 
     /**
      * @param int $RentalDays
-     * @return \FilippoToso\Travelport\Vehicle\PrePayCancelInfo
+     * @return \Santosdave\Travelport\Vehicle\PrePayCancelInfo
      */
     public function setRentalDays($RentalDays)
     {

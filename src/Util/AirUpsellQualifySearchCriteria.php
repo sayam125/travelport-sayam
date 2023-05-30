@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class AirUpsellQualifySearchCriteria extends UpsellSearchCriteria
 {
@@ -52,7 +52,7 @@ class AirUpsellQualifySearchCriteria extends UpsellSearchCriteria
 
     /**
      * @param AccountCode $AccountCode
-     * @return \FilippoToso\Travelport\Util\AirUpsellQualifySearchCriteria
+     * @return \Santosdave\Travelport\Util\AirUpsellQualifySearchCriteria
      */
     public function setAccountCode($AccountCode)
     {
@@ -70,7 +70,7 @@ class AirUpsellQualifySearchCriteria extends UpsellSearchCriteria
 
     /**
      * @param typeCarrier $Carrier
-     * @return \FilippoToso\Travelport\Util\AirUpsellQualifySearchCriteria
+     * @return \Santosdave\Travelport\Util\AirUpsellQualifySearchCriteria
      */
     public function setCarrier($Carrier)
     {
@@ -88,7 +88,7 @@ class AirUpsellQualifySearchCriteria extends UpsellSearchCriteria
 
     /**
      * @param typeIATACode $Origin
-     * @return \FilippoToso\Travelport\Util\AirUpsellQualifySearchCriteria
+     * @return \Santosdave\Travelport\Util\AirUpsellQualifySearchCriteria
      */
     public function setOrigin($Origin)
     {
@@ -106,7 +106,7 @@ class AirUpsellQualifySearchCriteria extends UpsellSearchCriteria
 
     /**
      * @param typeIATACode $Destination
-     * @return \FilippoToso\Travelport\Util\AirUpsellQualifySearchCriteria
+     * @return \Santosdave\Travelport\Util\AirUpsellQualifySearchCriteria
      */
     public function setDestination($Destination)
     {

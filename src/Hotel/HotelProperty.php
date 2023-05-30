@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class HotelProperty
 {
@@ -173,7 +173,7 @@ class HotelProperty
 
     /**
      * @param typeUnstructuredAddress $PropertyAddress
-     * @return \FilippoToso\Travelport\Hotel\HotelProperty
+     * @return \Santosdave\Travelport\Hotel\HotelProperty
      */
     public function setPropertyAddress($PropertyAddress)
     {
@@ -191,7 +191,7 @@ class HotelProperty
 
     /**
      * @param PhoneNumber $PhoneNumber
-     * @return \FilippoToso\Travelport\Hotel\HotelProperty
+     * @return \Santosdave\Travelport\Hotel\HotelProperty
      */
     public function setPhoneNumber($PhoneNumber)
     {
@@ -209,7 +209,7 @@ class HotelProperty
 
     /**
      * @param CoordinateLocation $CoordinateLocation
-     * @return \FilippoToso\Travelport\Hotel\HotelProperty
+     * @return \Santosdave\Travelport\Hotel\HotelProperty
      */
     public function setCoordinateLocation($CoordinateLocation)
     {
@@ -227,7 +227,7 @@ class HotelProperty
 
     /**
      * @param Distance $Distance
-     * @return \FilippoToso\Travelport\Hotel\HotelProperty
+     * @return \Santosdave\Travelport\Hotel\HotelProperty
      */
     public function setDistance($Distance)
     {
@@ -245,7 +245,7 @@ class HotelProperty
 
     /**
      * @param HotelRating $HotelRating
-     * @return \FilippoToso\Travelport\Hotel\HotelProperty
+     * @return \Santosdave\Travelport\Hotel\HotelProperty
      */
     public function setHotelRating($HotelRating)
     {
@@ -263,7 +263,7 @@ class HotelProperty
 
     /**
      * @param Amenities $Amenities
-     * @return \FilippoToso\Travelport\Hotel\HotelProperty
+     * @return \Santosdave\Travelport\Hotel\HotelProperty
      */
     public function setAmenities($Amenities)
     {
@@ -281,7 +281,7 @@ class HotelProperty
 
     /**
      * @param MarketingMessage $MarketingMessage
-     * @return \FilippoToso\Travelport\Hotel\HotelProperty
+     * @return \Santosdave\Travelport\Hotel\HotelProperty
      */
     public function setMarketingMessage($MarketingMessage)
     {
@@ -299,7 +299,7 @@ class HotelProperty
 
     /**
      * @param typeHotelChainCode $HotelChain
-     * @return \FilippoToso\Travelport\Hotel\HotelProperty
+     * @return \Santosdave\Travelport\Hotel\HotelProperty
      */
     public function setHotelChain($HotelChain)
     {
@@ -317,7 +317,7 @@ class HotelProperty
 
     /**
      * @param typeHotelCode $HotelCode
-     * @return \FilippoToso\Travelport\Hotel\HotelProperty
+     * @return \Santosdave\Travelport\Hotel\HotelProperty
      */
     public function setHotelCode($HotelCode)
     {
@@ -335,7 +335,7 @@ class HotelProperty
 
     /**
      * @param typeHotelLocationCode $HotelLocation
-     * @return \FilippoToso\Travelport\Hotel\HotelProperty
+     * @return \Santosdave\Travelport\Hotel\HotelProperty
      */
     public function setHotelLocation($HotelLocation)
     {
@@ -353,7 +353,7 @@ class HotelProperty
 
     /**
      * @param string $Name
-     * @return \FilippoToso\Travelport\Hotel\HotelProperty
+     * @return \Santosdave\Travelport\Hotel\HotelProperty
      */
     public function setName($Name)
     {
@@ -371,7 +371,7 @@ class HotelProperty
 
     /**
      * @param string $VendorLocationKey
-     * @return \FilippoToso\Travelport\Hotel\HotelProperty
+     * @return \Santosdave\Travelport\Hotel\HotelProperty
      */
     public function setVendorLocationKey($VendorLocationKey)
     {
@@ -389,7 +389,7 @@ class HotelProperty
 
     /**
      * @param typeOTACode $HotelTransportation
-     * @return \FilippoToso\Travelport\Hotel\HotelProperty
+     * @return \Santosdave\Travelport\Hotel\HotelProperty
      */
     public function setHotelTransportation($HotelTransportation)
     {
@@ -407,7 +407,7 @@ class HotelProperty
 
     /**
      * @param typeReserveRequirement $ReserveRequirement
-     * @return \FilippoToso\Travelport\Hotel\HotelProperty
+     * @return \Santosdave\Travelport\Hotel\HotelProperty
      */
     public function setReserveRequirement($ReserveRequirement)
     {
@@ -425,7 +425,7 @@ class HotelProperty
 
     /**
      * @param StringLength1 $ParticipationLevel
-     * @return \FilippoToso\Travelport\Hotel\HotelProperty
+     * @return \Santosdave\Travelport\Hotel\HotelProperty
      */
     public function setParticipationLevel($ParticipationLevel)
     {
@@ -443,7 +443,7 @@ class HotelProperty
 
     /**
      * @param typeHotelAvailability $Availability
-     * @return \FilippoToso\Travelport\Hotel\HotelProperty
+     * @return \Santosdave\Travelport\Hotel\HotelProperty
      */
     public function setAvailability($Availability)
     {
@@ -461,7 +461,7 @@ class HotelProperty
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Hotel\HotelProperty
+     * @return \Santosdave\Travelport\Hotel\HotelProperty
      */
     public function setKey($Key)
     {
@@ -479,7 +479,7 @@ class HotelProperty
 
     /**
      * @param boolean $PreferredOption
-     * @return \FilippoToso\Travelport\Hotel\HotelProperty
+     * @return \Santosdave\Travelport\Hotel\HotelProperty
      */
     public function setPreferredOption($PreferredOption)
     {
@@ -497,7 +497,7 @@ class HotelProperty
 
     /**
      * @param boolean $MoreRates
-     * @return \FilippoToso\Travelport\Hotel\HotelProperty
+     * @return \Santosdave\Travelport\Hotel\HotelProperty
      */
     public function setMoreRates($MoreRates)
     {
@@ -515,7 +515,7 @@ class HotelProperty
 
     /**
      * @param anonymous540 $MoreRatesToken
-     * @return \FilippoToso\Travelport\Hotel\HotelProperty
+     * @return \Santosdave\Travelport\Hotel\HotelProperty
      */
     public function setMoreRatesToken($MoreRatesToken)
     {
@@ -533,7 +533,7 @@ class HotelProperty
 
     /**
      * @param typeNetTransCommission $NetTransCommissionInd
-     * @return \FilippoToso\Travelport\Hotel\HotelProperty
+     * @return \Santosdave\Travelport\Hotel\HotelProperty
      */
     public function setNetTransCommissionInd($NetTransCommissionInd)
     {
@@ -551,7 +551,7 @@ class HotelProperty
 
     /**
      * @param int $NumOfRatePlans
-     * @return \FilippoToso\Travelport\Hotel\HotelProperty
+     * @return \Santosdave\Travelport\Hotel\HotelProperty
      */
     public function setNumOfRatePlans($NumOfRatePlans)
     {

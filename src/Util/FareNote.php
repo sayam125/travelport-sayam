@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class FareNote
 {
@@ -70,7 +70,7 @@ class FareNote
 
     /**
      * @param string $_
-     * @return \FilippoToso\Travelport\Util\FareNote
+     * @return \Santosdave\Travelport\Util\FareNote
      */
     public function set_($_)
     {
@@ -88,7 +88,7 @@ class FareNote
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Util\FareNote
+     * @return \Santosdave\Travelport\Util\FareNote
      */
     public function setKey($Key)
     {
@@ -106,7 +106,7 @@ class FareNote
 
     /**
      * @param int $Precedence
-     * @return \FilippoToso\Travelport\Util\FareNote
+     * @return \Santosdave\Travelport\Util\FareNote
      */
     public function setPrecedence($Precedence)
     {
@@ -124,7 +124,7 @@ class FareNote
 
     /**
      * @param string $NoteName
-     * @return \FilippoToso\Travelport\Util\FareNote
+     * @return \Santosdave\Travelport\Util\FareNote
      */
     public function setNoteName($NoteName)
     {
@@ -142,7 +142,7 @@ class FareNote
 
     /**
      * @param typeRef $FareInfoMessageRef
-     * @return \FilippoToso\Travelport\Util\FareNote
+     * @return \Santosdave\Travelport\Util\FareNote
      */
     public function setFareInfoMessageRef($FareInfoMessageRef)
     {
@@ -160,7 +160,7 @@ class FareNote
 
     /**
      * @param typeElementStatus $ElStat
-     * @return \FilippoToso\Travelport\Util\FareNote
+     * @return \Santosdave\Travelport\Util\FareNote
      */
     public function setElStat($ElStat)
     {
@@ -178,7 +178,7 @@ class FareNote
 
     /**
      * @param boolean $KeyOverride
-     * @return \FilippoToso\Travelport\Util\FareNote
+     * @return \Santosdave\Travelport\Util\FareNote
      */
     public function setKeyOverride($KeyOverride)
     {

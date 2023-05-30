@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class APISRequirements
 {
@@ -70,7 +70,7 @@ class APISRequirements
 
     /**
      * @param Document $Document
-     * @return \FilippoToso\Travelport\Rail\APISRequirements
+     * @return \Santosdave\Travelport\Rail\APISRequirements
      */
     public function setDocument($Document)
     {
@@ -88,7 +88,7 @@ class APISRequirements
 
     /**
      * @param UNKNOWN $Key
-     * @return \FilippoToso\Travelport\Rail\APISRequirements
+     * @return \Santosdave\Travelport\Rail\APISRequirements
      */
     public function setKey($Key)
     {
@@ -106,7 +106,7 @@ class APISRequirements
 
     /**
      * @param string $Level
-     * @return \FilippoToso\Travelport\Rail\APISRequirements
+     * @return \Santosdave\Travelport\Rail\APISRequirements
      */
     public function setLevel($Level)
     {
@@ -124,7 +124,7 @@ class APISRequirements
 
     /**
      * @param boolean $GenderRequired
-     * @return \FilippoToso\Travelport\Rail\APISRequirements
+     * @return \Santosdave\Travelport\Rail\APISRequirements
      */
     public function setGenderRequired($GenderRequired)
     {
@@ -142,7 +142,7 @@ class APISRequirements
 
     /**
      * @param boolean $DateOfBirthRequired
-     * @return \FilippoToso\Travelport\Rail\APISRequirements
+     * @return \Santosdave\Travelport\Rail\APISRequirements
      */
     public function setDateOfBirthRequired($DateOfBirthRequired)
     {
@@ -160,7 +160,7 @@ class APISRequirements
 
     /**
      * @param string $RequiredDocuments
-     * @return \FilippoToso\Travelport\Rail\APISRequirements
+     * @return \Santosdave\Travelport\Rail\APISRequirements
      */
     public function setRequiredDocuments($RequiredDocuments)
     {
@@ -178,7 +178,7 @@ class APISRequirements
 
     /**
      * @param boolean $NationalityRequired
-     * @return \FilippoToso\Travelport\Rail\APISRequirements
+     * @return \Santosdave\Travelport\Rail\APISRequirements
      */
     public function setNationalityRequired($NationalityRequired)
     {

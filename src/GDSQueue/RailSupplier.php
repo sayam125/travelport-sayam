@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class RailSupplier
 {
@@ -28,7 +28,7 @@ class RailSupplier
 
     /**
      * @param typeSupplierCode $Code
-     * @return \FilippoToso\Travelport\GDSQueue\RailSupplier
+     * @return \Santosdave\Travelport\GDSQueue\RailSupplier
      */
     public function setCode($Code)
     {

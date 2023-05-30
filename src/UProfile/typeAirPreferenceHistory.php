@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeAirPreferenceHistory extends typeBasePreferenceHistory
 {
@@ -249,7 +249,7 @@ class typeAirPreferenceHistory extends typeBasePreferenceHistory
 
     /**
      * @param typeAirFare $AirFareType
-     * @return \FilippoToso\Travelport\UProfile\typeAirPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeAirPreferenceHistory
      */
     public function setAirFareType($AirFareType)
     {
@@ -267,7 +267,7 @@ class typeAirPreferenceHistory extends typeBasePreferenceHistory
 
     /**
      * @param anonymous677 $CRSCode
-     * @return \FilippoToso\Travelport\UProfile\typeAirPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeAirPreferenceHistory
      */
     public function setCRSCode($CRSCode)
     {
@@ -285,7 +285,7 @@ class typeAirPreferenceHistory extends typeBasePreferenceHistory
 
     /**
      * @param anonymous678 $EndingFlightNumber
-     * @return \FilippoToso\Travelport\UProfile\typeAirPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeAirPreferenceHistory
      */
     public function setEndingFlightNumber($EndingFlightNumber)
     {
@@ -303,7 +303,7 @@ class typeAirPreferenceHistory extends typeBasePreferenceHistory
 
     /**
      * @param anonymous679 $FareType
-     * @return \FilippoToso\Travelport\UProfile\typeAirPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeAirPreferenceHistory
      */
     public function setFareType($FareType)
     {
@@ -321,7 +321,7 @@ class typeAirPreferenceHistory extends typeBasePreferenceHistory
 
     /**
      * @param boolean $Interline
-     * @return \FilippoToso\Travelport\UProfile\typeAirPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeAirPreferenceHistory
      */
     public function setInterline($Interline)
     {
@@ -339,7 +339,7 @@ class typeAirPreferenceHistory extends typeBasePreferenceHistory
 
     /**
      * @param typeMoney $MaxFareAmount
-     * @return \FilippoToso\Travelport\UProfile\typeAirPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeAirPreferenceHistory
      */
     public function setMaxFareAmount($MaxFareAmount)
     {
@@ -357,7 +357,7 @@ class typeAirPreferenceHistory extends typeBasePreferenceHistory
 
     /**
      * @param int $MaxConnectionMinutes
-     * @return \FilippoToso\Travelport\UProfile\typeAirPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeAirPreferenceHistory
      */
     public function setMaxConnectionMinutes($MaxConnectionMinutes)
     {
@@ -375,7 +375,7 @@ class typeAirPreferenceHistory extends typeBasePreferenceHistory
 
     /**
      * @param int $MaxDomesticTripHours
-     * @return \FilippoToso\Travelport\UProfile\typeAirPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeAirPreferenceHistory
      */
     public function setMaxDomesticTripHours($MaxDomesticTripHours)
     {
@@ -393,7 +393,7 @@ class typeAirPreferenceHistory extends typeBasePreferenceHistory
 
     /**
      * @param int $MaxEmployeesPerFlight
-     * @return \FilippoToso\Travelport\UProfile\typeAirPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeAirPreferenceHistory
      */
     public function setMaxEmployeesPerFlight($MaxEmployeesPerFlight)
     {
@@ -411,7 +411,7 @@ class typeAirPreferenceHistory extends typeBasePreferenceHistory
 
     /**
      * @param int $MaxInternationalTripHours
-     * @return \FilippoToso\Travelport\UProfile\typeAirPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeAirPreferenceHistory
      */
     public function setMaxInternationalTripHours($MaxInternationalTripHours)
     {
@@ -429,7 +429,7 @@ class typeAirPreferenceHistory extends typeBasePreferenceHistory
 
     /**
      * @param anonymous680 $MealTypeCRS
-     * @return \FilippoToso\Travelport\UProfile\typeAirPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeAirPreferenceHistory
      */
     public function setMealTypeCRS($MealTypeCRS)
     {
@@ -447,7 +447,7 @@ class typeAirPreferenceHistory extends typeBasePreferenceHistory
 
     /**
      * @param anonymous681 $MealTypeSSR
-     * @return \FilippoToso\Travelport\UProfile\typeAirPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeAirPreferenceHistory
      */
     public function setMealTypeSSR($MealTypeSSR)
     {
@@ -465,7 +465,7 @@ class typeAirPreferenceHistory extends typeBasePreferenceHistory
 
     /**
      * @param anonymous682 $SeatNumber
-     * @return \FilippoToso\Travelport\UProfile\typeAirPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeAirPreferenceHistory
      */
     public function setSeatNumber($SeatNumber)
     {
@@ -483,7 +483,7 @@ class typeAirPreferenceHistory extends typeBasePreferenceHistory
 
     /**
      * @param anonymous683 $SSRCode
-     * @return \FilippoToso\Travelport\UProfile\typeAirPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeAirPreferenceHistory
      */
     public function setSSRCode($SSRCode)
     {
@@ -501,7 +501,7 @@ class typeAirPreferenceHistory extends typeBasePreferenceHistory
 
     /**
      * @param anonymous684 $StartingFlightNumber
-     * @return \FilippoToso\Travelport\UProfile\typeAirPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeAirPreferenceHistory
      */
     public function setStartingFlightNumber($StartingFlightNumber)
     {
@@ -519,7 +519,7 @@ class typeAirPreferenceHistory extends typeBasePreferenceHistory
 
     /**
      * @param anonymous882 $AccountCode
-     * @return \FilippoToso\Travelport\UProfile\typeAirPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeAirPreferenceHistory
      */
     public function setAccountCode($AccountCode)
     {
@@ -537,7 +537,7 @@ class typeAirPreferenceHistory extends typeBasePreferenceHistory
 
     /**
      * @param typeGeoPoliticalAreaType $ArrivalGeoPoliticalAreaType
-     * @return \FilippoToso\Travelport\UProfile\typeAirPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeAirPreferenceHistory
      */
     public function setArrivalGeoPoliticalAreaType($ArrivalGeoPoliticalAreaType)
     {
@@ -555,7 +555,7 @@ class typeAirPreferenceHistory extends typeBasePreferenceHistory
 
     /**
      * @param typeGeoPoliticalAreaCode $ArrivalGeoPoliticalAreaCode
-     * @return \FilippoToso\Travelport\UProfile\typeAirPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeAirPreferenceHistory
      */
     public function setArrivalGeoPoliticalAreaCode($ArrivalGeoPoliticalAreaCode)
     {
@@ -573,7 +573,7 @@ class typeAirPreferenceHistory extends typeBasePreferenceHistory
 
     /**
      * @param typeMoney $BenchMarkAmount
-     * @return \FilippoToso\Travelport\UProfile\typeAirPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeAirPreferenceHistory
      */
     public function setBenchMarkAmount($BenchMarkAmount)
     {
@@ -591,7 +591,7 @@ class typeAirPreferenceHistory extends typeBasePreferenceHistory
 
     /**
      * @param typeGeoPoliticalAreaType $ConnectionGeoPoliticalAreaType
-     * @return \FilippoToso\Travelport\UProfile\typeAirPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeAirPreferenceHistory
      */
     public function setConnectionGeoPoliticalAreaType($ConnectionGeoPoliticalAreaType)
     {
@@ -609,7 +609,7 @@ class typeAirPreferenceHistory extends typeBasePreferenceHistory
 
     /**
      * @param typeGeoPoliticalAreaCode $ConnectionGeoPoliticalAreaCode
-     * @return \FilippoToso\Travelport\UProfile\typeAirPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeAirPreferenceHistory
      */
     public function setConnectionGeoPoliticalAreaCode($ConnectionGeoPoliticalAreaCode)
     {
@@ -627,7 +627,7 @@ class typeAirPreferenceHistory extends typeBasePreferenceHistory
 
     /**
      * @param anonymous883 $ContractCode
-     * @return \FilippoToso\Travelport\UProfile\typeAirPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeAirPreferenceHistory
      */
     public function setContractCode($ContractCode)
     {
@@ -645,7 +645,7 @@ class typeAirPreferenceHistory extends typeBasePreferenceHistory
 
     /**
      * @param anonymous884 $CorporateID
-     * @return \FilippoToso\Travelport\UProfile\typeAirPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeAirPreferenceHistory
      */
     public function setCorporateID($CorporateID)
     {
@@ -663,7 +663,7 @@ class typeAirPreferenceHistory extends typeBasePreferenceHistory
 
     /**
      * @param typePCC $PseudoCityCode
-     * @return \FilippoToso\Travelport\UProfile\typeAirPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeAirPreferenceHistory
      */
     public function setPseudoCityCode($PseudoCityCode)
     {
@@ -681,7 +681,7 @@ class typeAirPreferenceHistory extends typeBasePreferenceHistory
 
     /**
      * @param date $TravelStartDate
-     * @return \FilippoToso\Travelport\UProfile\typeAirPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeAirPreferenceHistory
      */
     public function setTravelStartDate($TravelStartDate)
     {
@@ -699,7 +699,7 @@ class typeAirPreferenceHistory extends typeBasePreferenceHistory
 
     /**
      * @param date $TravelEndDate
-     * @return \FilippoToso\Travelport\UProfile\typeAirPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeAirPreferenceHistory
      */
     public function setTravelEndDate($TravelEndDate)
     {
@@ -717,7 +717,7 @@ class typeAirPreferenceHistory extends typeBasePreferenceHistory
 
     /**
      * @param anonymous893 $CabinTypeMiscTravel
-     * @return \FilippoToso\Travelport\UProfile\typeAirPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeAirPreferenceHistory
      */
     public function setCabinTypeMiscTravel($CabinTypeMiscTravel)
     {
@@ -735,7 +735,7 @@ class typeAirPreferenceHistory extends typeBasePreferenceHistory
 
     /**
      * @param anonymous894 $CabinTypeRefCategory
-     * @return \FilippoToso\Travelport\UProfile\typeAirPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeAirPreferenceHistory
      */
     public function setCabinTypeRefCategory($CabinTypeRefCategory)
     {
@@ -753,7 +753,7 @@ class typeAirPreferenceHistory extends typeBasePreferenceHistory
 
     /**
      * @param anonymous887 $SeatTypeMiscTravel
-     * @return \FilippoToso\Travelport\UProfile\typeAirPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeAirPreferenceHistory
      */
     public function setSeatTypeMiscTravel($SeatTypeMiscTravel)
     {
@@ -771,7 +771,7 @@ class typeAirPreferenceHistory extends typeBasePreferenceHistory
 
     /**
      * @param anonymous888 $SeatTypeMiscRefCategory
-     * @return \FilippoToso\Travelport\UProfile\typeAirPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeAirPreferenceHistory
      */
     public function setSeatTypeMiscRefCategory($SeatTypeMiscRefCategory)
     {

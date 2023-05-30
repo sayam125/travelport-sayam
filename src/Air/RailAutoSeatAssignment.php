@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class RailAutoSeatAssignment
 {
@@ -49,7 +49,7 @@ class RailAutoSeatAssignment
 
     /**
      * @param anonymous600 $SeatType
-     * @return \FilippoToso\Travelport\Air\RailAutoSeatAssignment
+     * @return \Santosdave\Travelport\Air\RailAutoSeatAssignment
      */
     public function setSeatType($SeatType)
     {
@@ -67,7 +67,7 @@ class RailAutoSeatAssignment
 
     /**
      * @param anonymous601 $SeatValue
-     * @return \FilippoToso\Travelport\Air\RailAutoSeatAssignment
+     * @return \Santosdave\Travelport\Air\RailAutoSeatAssignment
      */
     public function setSeatValue($SeatValue)
     {
@@ -85,7 +85,7 @@ class RailAutoSeatAssignment
 
     /**
      * @param typeRef $RailSegmentRef
-     * @return \FilippoToso\Travelport\Air\RailAutoSeatAssignment
+     * @return \Santosdave\Travelport\Air\RailAutoSeatAssignment
      */
     public function setRailSegmentRef($RailSegmentRef)
     {
@@ -103,7 +103,7 @@ class RailAutoSeatAssignment
 
     /**
      * @param typeRef $BookingTravelerRef
-     * @return \FilippoToso\Travelport\Air\RailAutoSeatAssignment
+     * @return \Santosdave\Travelport\Air\RailAutoSeatAssignment
      */
     public function setBookingTravelerRef($BookingTravelerRef)
     {

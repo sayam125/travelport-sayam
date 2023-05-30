@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class VoluntaryRefunds
 {
@@ -35,7 +35,7 @@ class VoluntaryRefunds
 
     /**
      * @param Penalty $Penalty
-     * @return \FilippoToso\Travelport\GDSQueue\VoluntaryRefunds
+     * @return \Santosdave\Travelport\GDSQueue\VoluntaryRefunds
      */
     public function setPenalty($Penalty)
     {
@@ -53,7 +53,7 @@ class VoluntaryRefunds
 
     /**
      * @param boolean $VolChangeInd
-     * @return \FilippoToso\Travelport\GDSQueue\VoluntaryRefunds
+     * @return \Santosdave\Travelport\GDSQueue\VoluntaryRefunds
      */
     public function setVolChangeInd($VolChangeInd)
     {

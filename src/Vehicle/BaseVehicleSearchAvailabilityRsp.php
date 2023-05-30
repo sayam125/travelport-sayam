@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Vehicle;
+namespace Santosdave\Travelport\Vehicle;
 
 class BaseVehicleSearchAvailabilityRsp extends BaseSearchRsp
 {
@@ -42,7 +42,7 @@ class BaseVehicleSearchAvailabilityRsp extends BaseSearchRsp
 
     /**
      * @param VehicleDateLocation $VehicleDateLocation
-     * @return \FilippoToso\Travelport\Vehicle\BaseVehicleSearchAvailabilityRsp
+     * @return \Santosdave\Travelport\Vehicle\BaseVehicleSearchAvailabilityRsp
      */
     public function setVehicleDateLocation($VehicleDateLocation)
     {
@@ -60,7 +60,7 @@ class BaseVehicleSearchAvailabilityRsp extends BaseSearchRsp
 
     /**
      * @param Vehicle $Vehicle
-     * @return \FilippoToso\Travelport\Vehicle\BaseVehicleSearchAvailabilityRsp
+     * @return \Santosdave\Travelport\Vehicle\BaseVehicleSearchAvailabilityRsp
      */
     public function setVehicle($Vehicle)
     {

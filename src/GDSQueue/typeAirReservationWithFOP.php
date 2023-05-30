@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class typeAirReservationWithFOP extends typeBaseAirReservation
 {
@@ -55,7 +55,7 @@ class typeAirReservationWithFOP extends typeBaseAirReservation
 
     /**
      * @param FormOfPayment $FormOfPayment
-     * @return \FilippoToso\Travelport\GDSQueue\typeAirReservationWithFOP
+     * @return \Santosdave\Travelport\GDSQueue\typeAirReservationWithFOP
      */
     public function setFormOfPayment($FormOfPayment)
     {

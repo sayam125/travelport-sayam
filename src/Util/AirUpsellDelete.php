@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class AirUpsellDelete
 {
@@ -35,7 +35,7 @@ class AirUpsellDelete
 
     /**
      * @param typeRef $QualifyRef
-     * @return \FilippoToso\Travelport\Util\AirUpsellDelete
+     * @return \Santosdave\Travelport\Util\AirUpsellDelete
      */
     public function setQualifyRef($QualifyRef)
     {
@@ -53,7 +53,7 @@ class AirUpsellDelete
 
     /**
      * @param typeRef $OfferRef
-     * @return \FilippoToso\Travelport\Util\AirUpsellDelete
+     * @return \Santosdave\Travelport\Util\AirUpsellDelete
      */
     public function setOfferRef($OfferRef)
     {

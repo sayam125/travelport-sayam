@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class ProfileSearchRsp extends BaseRsp
 {
@@ -55,7 +55,7 @@ class ProfileSearchRsp extends BaseRsp
 
     /**
      * @param ProfileSummary $ProfileSummary
-     * @return \FilippoToso\Travelport\UProfile\ProfileSearchRsp
+     * @return \Santosdave\Travelport\UProfile\ProfileSearchRsp
      */
     public function setProfileSummary($ProfileSummary)
     {
@@ -73,7 +73,7 @@ class ProfileSearchRsp extends BaseRsp
 
     /**
      * @param ProfileParentSearchSummary $ProfileParentSearchSummary
-     * @return \FilippoToso\Travelport\UProfile\ProfileSearchRsp
+     * @return \Santosdave\Travelport\UProfile\ProfileSearchRsp
      */
     public function setProfileParentSearchSummary($ProfileParentSearchSummary)
     {
@@ -91,7 +91,7 @@ class ProfileSearchRsp extends BaseRsp
 
     /**
      * @param StringLength1to128 $SearchToken
-     * @return \FilippoToso\Travelport\UProfile\ProfileSearchRsp
+     * @return \Santosdave\Travelport\UProfile\ProfileSearchRsp
      */
     public function setSearchToken($SearchToken)
     {
@@ -109,7 +109,7 @@ class ProfileSearchRsp extends BaseRsp
 
     /**
      * @param typeMoreResults $MoreResults
-     * @return \FilippoToso\Travelport\UProfile\ProfileSearchRsp
+     * @return \Santosdave\Travelport\UProfile\ProfileSearchRsp
      */
     public function setMoreResults($MoreResults)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class FareBasis
 {
@@ -35,7 +35,7 @@ class FareBasis
 
     /**
      * @param string $Code
-     * @return \FilippoToso\Travelport\UniversalRecord\FareBasis
+     * @return \Santosdave\Travelport\UniversalRecord\FareBasis
      */
     public function setCode($Code)
     {
@@ -53,7 +53,7 @@ class FareBasis
 
     /**
      * @param typeRef $SegmentRef
-     * @return \FilippoToso\Travelport\UniversalRecord\FareBasis
+     * @return \Santosdave\Travelport\UniversalRecord\FareBasis
      */
     public function setSegmentRef($SegmentRef)
     {

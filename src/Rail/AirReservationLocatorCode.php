@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class AirReservationLocatorCode
 {
@@ -28,7 +28,7 @@ class AirReservationLocatorCode
 
     /**
      * @param typeLocatorCode $_
-     * @return \FilippoToso\Travelport\Rail\AirReservationLocatorCode
+     * @return \Santosdave\Travelport\Rail\AirReservationLocatorCode
      */
     public function set_($_)
     {

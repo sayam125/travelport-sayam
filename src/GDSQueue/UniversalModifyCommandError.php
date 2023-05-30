@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class UniversalModifyCommandError
 {
@@ -35,7 +35,7 @@ class UniversalModifyCommandError
 
     /**
      * @param string $_
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalModifyCommandError
+     * @return \Santosdave\Travelport\GDSQueue\UniversalModifyCommandError
      */
     public function set_($_)
     {
@@ -53,7 +53,7 @@ class UniversalModifyCommandError
 
     /**
      * @param typeRef $UniversalModifyCmdKey
-     * @return \FilippoToso\Travelport\GDSQueue\UniversalModifyCommandError
+     * @return \Santosdave\Travelport\GDSQueue\UniversalModifyCommandError
      */
     public function setUniversalModifyCmdKey($UniversalModifyCmdKey)
     {

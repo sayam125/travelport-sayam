@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class VehicleDateLocation extends typeVehicleVendorLocation
 {
@@ -99,7 +99,7 @@ class VehicleDateLocation extends typeVehicleVendorLocation
 
     /**
      * @param VendorLocation[] $VendorLocation
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleDateLocation
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleDateLocation
      */
     public function setVendorLocation(array $VendorLocation = null)
     {
@@ -117,7 +117,7 @@ class VehicleDateLocation extends typeVehicleVendorLocation
 
     /**
      * @param string $PickupDateTime
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleDateLocation
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleDateLocation
      */
     public function setPickupDateTime($PickupDateTime)
     {
@@ -135,7 +135,7 @@ class VehicleDateLocation extends typeVehicleVendorLocation
 
     /**
      * @param typeIATACode $PickupLocation
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleDateLocation
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleDateLocation
      */
     public function setPickupLocation($PickupLocation)
     {
@@ -153,7 +153,7 @@ class VehicleDateLocation extends typeVehicleVendorLocation
 
     /**
      * @param string $ReturnDateTime
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleDateLocation
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleDateLocation
      */
     public function setReturnDateTime($ReturnDateTime)
     {
@@ -171,7 +171,7 @@ class VehicleDateLocation extends typeVehicleVendorLocation
 
     /**
      * @param typeIATACode $ReturnLocation
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleDateLocation
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleDateLocation
      */
     public function setReturnLocation($ReturnLocation)
     {
@@ -189,7 +189,7 @@ class VehicleDateLocation extends typeVehicleVendorLocation
 
     /**
      * @param typeVehicleLocation $PickupLocationType
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleDateLocation
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleDateLocation
      */
     public function setPickupLocationType($PickupLocationType)
     {
@@ -207,7 +207,7 @@ class VehicleDateLocation extends typeVehicleVendorLocation
 
     /**
      * @param typeVehicleLocation $ReturnLocationType
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleDateLocation
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleDateLocation
      */
     public function setReturnLocationType($ReturnLocationType)
     {
@@ -225,7 +225,7 @@ class VehicleDateLocation extends typeVehicleVendorLocation
 
     /**
      * @param string $PickupLocationNumber
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleDateLocation
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleDateLocation
      */
     public function setPickupLocationNumber($PickupLocationNumber)
     {
@@ -243,7 +243,7 @@ class VehicleDateLocation extends typeVehicleVendorLocation
 
     /**
      * @param string $ReturnLocationNumber
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleDateLocation
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleDateLocation
      */
     public function setReturnLocationNumber($ReturnLocationNumber)
     {
@@ -261,7 +261,7 @@ class VehicleDateLocation extends typeVehicleVendorLocation
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleDateLocation
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleDateLocation
      */
     public function setKey($Key)
     {

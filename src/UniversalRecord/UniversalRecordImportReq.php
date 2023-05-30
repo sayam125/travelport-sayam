@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class UniversalRecordImportReq extends BaseReq
 {
@@ -68,7 +68,7 @@ class UniversalRecordImportReq extends BaseReq
 
     /**
      * @param FileFinishingInfo $FileFinishingInfo
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalRecordImportReq
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalRecordImportReq
      */
     public function setFileFinishingInfo($FileFinishingInfo)
     {
@@ -86,7 +86,7 @@ class UniversalRecordImportReq extends BaseReq
 
     /**
      * @param typeLocatorCode $UniversalRecordLocatorCode
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalRecordImportReq
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalRecordImportReq
      */
     public function setUniversalRecordLocatorCode($UniversalRecordLocatorCode)
     {
@@ -104,7 +104,7 @@ class UniversalRecordImportReq extends BaseReq
 
     /**
      * @param boolean $ReturnUnmaskedData
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalRecordImportReq
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalRecordImportReq
      */
     public function setReturnUnmaskedData($ReturnUnmaskedData)
     {
@@ -122,7 +122,7 @@ class UniversalRecordImportReq extends BaseReq
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalRecordImportReq
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalRecordImportReq
      */
     public function setProviderCode($ProviderCode)
     {
@@ -140,7 +140,7 @@ class UniversalRecordImportReq extends BaseReq
 
     /**
      * @param typeProviderLocatorCode $ProviderLocatorCode
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalRecordImportReq
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalRecordImportReq
      */
     public function setProviderLocatorCode($ProviderLocatorCode)
     {

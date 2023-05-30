@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class AirFareDisplayRuleKey
 {
@@ -35,7 +35,7 @@ class AirFareDisplayRuleKey
 
     /**
      * @param typeNonBlanks $_
-     * @return \FilippoToso\Travelport\GDSQueue\AirFareDisplayRuleKey
+     * @return \Santosdave\Travelport\GDSQueue\AirFareDisplayRuleKey
      */
     public function set_($_)
     {
@@ -53,7 +53,7 @@ class AirFareDisplayRuleKey
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\GDSQueue\AirFareDisplayRuleKey
+     * @return \Santosdave\Travelport\GDSQueue\AirFareDisplayRuleKey
      */
     public function setProviderCode($ProviderCode)
     {

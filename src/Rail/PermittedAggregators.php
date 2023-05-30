@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class PermittedAggregators
 {
@@ -28,7 +28,7 @@ class PermittedAggregators
 
     /**
      * @param Aggregator[] $Aggregator
-     * @return \FilippoToso\Travelport\Rail\PermittedAggregators
+     * @return \Santosdave\Travelport\Rail\PermittedAggregators
      */
     public function setAggregator(array $Aggregator)
     {

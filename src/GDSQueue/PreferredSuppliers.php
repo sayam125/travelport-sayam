@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class PreferredSuppliers
 {
@@ -28,7 +28,7 @@ class PreferredSuppliers
 
     /**
      * @param RailSupplier $RailSupplier
-     * @return \FilippoToso\Travelport\GDSQueue\PreferredSuppliers
+     * @return \Santosdave\Travelport\GDSQueue\PreferredSuppliers
      */
     public function setRailSupplier($RailSupplier)
     {

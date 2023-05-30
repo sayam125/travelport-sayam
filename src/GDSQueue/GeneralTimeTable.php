@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class GeneralTimeTable
 {
@@ -82,7 +82,7 @@ class GeneralTimeTable
 
     /**
      * @param typeDaysOfOperation $DaysOfOperation
-     * @return \FilippoToso\Travelport\GDSQueue\GeneralTimeTable
+     * @return \Santosdave\Travelport\GDSQueue\GeneralTimeTable
      */
     public function setDaysOfOperation($DaysOfOperation)
     {
@@ -100,7 +100,7 @@ class GeneralTimeTable
 
     /**
      * @param typeLocation $FlightOrigin
-     * @return \FilippoToso\Travelport\GDSQueue\GeneralTimeTable
+     * @return \Santosdave\Travelport\GDSQueue\GeneralTimeTable
      */
     public function setFlightOrigin($FlightOrigin)
     {
@@ -118,7 +118,7 @@ class GeneralTimeTable
 
     /**
      * @param typeLocation $FlightDestination
-     * @return \FilippoToso\Travelport\GDSQueue\GeneralTimeTable
+     * @return \Santosdave\Travelport\GDSQueue\GeneralTimeTable
      */
     public function setFlightDestination($FlightDestination)
     {
@@ -136,7 +136,7 @@ class GeneralTimeTable
 
     /**
      * @param CarrierList $CarrierList
-     * @return \FilippoToso\Travelport\GDSQueue\GeneralTimeTable
+     * @return \Santosdave\Travelport\GDSQueue\GeneralTimeTable
      */
     public function setCarrierList($CarrierList)
     {
@@ -154,7 +154,7 @@ class GeneralTimeTable
 
     /**
      * @param string $StartDate
-     * @return \FilippoToso\Travelport\GDSQueue\GeneralTimeTable
+     * @return \Santosdave\Travelport\GDSQueue\GeneralTimeTable
      */
     public function setStartDate($StartDate)
     {
@@ -172,7 +172,7 @@ class GeneralTimeTable
 
     /**
      * @param string $EndDate
-     * @return \FilippoToso\Travelport\GDSQueue\GeneralTimeTable
+     * @return \Santosdave\Travelport\GDSQueue\GeneralTimeTable
      */
     public function setEndDate($EndDate)
     {
@@ -190,7 +190,7 @@ class GeneralTimeTable
 
     /**
      * @param time $StartTime
-     * @return \FilippoToso\Travelport\GDSQueue\GeneralTimeTable
+     * @return \Santosdave\Travelport\GDSQueue\GeneralTimeTable
      */
     public function setStartTime($StartTime)
     {
@@ -208,7 +208,7 @@ class GeneralTimeTable
 
     /**
      * @param time $EndTime
-     * @return \FilippoToso\Travelport\GDSQueue\GeneralTimeTable
+     * @return \Santosdave\Travelport\GDSQueue\GeneralTimeTable
      */
     public function setEndTime($EndTime)
     {
@@ -226,7 +226,7 @@ class GeneralTimeTable
 
     /**
      * @param boolean $IncludeConnection
-     * @return \FilippoToso\Travelport\GDSQueue\GeneralTimeTable
+     * @return \Santosdave\Travelport\GDSQueue\GeneralTimeTable
      */
     public function setIncludeConnection($IncludeConnection)
     {

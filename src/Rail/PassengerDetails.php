@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class PassengerDetails
 {
@@ -49,7 +49,7 @@ class PassengerDetails
 
     /**
      * @param LoyaltyCardDetails $LoyaltyCardDetails
-     * @return \FilippoToso\Travelport\Rail\PassengerDetails
+     * @return \Santosdave\Travelport\Rail\PassengerDetails
      */
     public function setLoyaltyCardDetails($LoyaltyCardDetails)
     {
@@ -67,7 +67,7 @@ class PassengerDetails
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Rail\PassengerDetails
+     * @return \Santosdave\Travelport\Rail\PassengerDetails
      */
     public function setKey($Key)
     {
@@ -85,7 +85,7 @@ class PassengerDetails
 
     /**
      * @param typePTC $Code
-     * @return \FilippoToso\Travelport\Rail\PassengerDetails
+     * @return \Santosdave\Travelport\Rail\PassengerDetails
      */
     public function setCode($Code)
     {
@@ -103,7 +103,7 @@ class PassengerDetails
 
     /**
      * @param int $Age
-     * @return \FilippoToso\Travelport\Rail\PassengerDetails
+     * @return \Santosdave\Travelport\Rail\PassengerDetails
      */
     public function setAge($Age)
     {

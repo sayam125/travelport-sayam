@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class SegmentContinuityInfo
 {
@@ -42,7 +42,7 @@ class SegmentContinuityInfo
 
     /**
      * @param ArvlUnknSegment $ArvlUnknSegment
-     * @return \FilippoToso\Travelport\GDSQueue\SegmentContinuityInfo
+     * @return \Santosdave\Travelport\GDSQueue\SegmentContinuityInfo
      */
     public function setArvlUnknSegment($ArvlUnknSegment)
     {
@@ -60,7 +60,7 @@ class SegmentContinuityInfo
 
     /**
      * @param ContinuityOverrideRemark $ContinuityOverrideRemark
-     * @return \FilippoToso\Travelport\GDSQueue\SegmentContinuityInfo
+     * @return \Santosdave\Travelport\GDSQueue\SegmentContinuityInfo
      */
     public function setContinuityOverrideRemark($ContinuityOverrideRemark)
     {
@@ -78,7 +78,7 @@ class SegmentContinuityInfo
 
     /**
      * @param int $ArrivalUnknownSegmentCount
-     * @return \FilippoToso\Travelport\GDSQueue\SegmentContinuityInfo
+     * @return \Santosdave\Travelport\GDSQueue\SegmentContinuityInfo
      */
     public function setArrivalUnknownSegmentCount($ArrivalUnknownSegmentCount)
     {

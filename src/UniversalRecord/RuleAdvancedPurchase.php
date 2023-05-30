@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class RuleAdvancedPurchase
 {
@@ -56,7 +56,7 @@ class RuleAdvancedPurchase
 
     /**
      * @param string $ReservationLatestPeriod
-     * @return \FilippoToso\Travelport\UniversalRecord\RuleAdvancedPurchase
+     * @return \Santosdave\Travelport\UniversalRecord\RuleAdvancedPurchase
      */
     public function setReservationLatestPeriod($ReservationLatestPeriod)
     {
@@ -74,7 +74,7 @@ class RuleAdvancedPurchase
 
     /**
      * @param typeStayUnit $ReservationLatestUnit
-     * @return \FilippoToso\Travelport\UniversalRecord\RuleAdvancedPurchase
+     * @return \Santosdave\Travelport\UniversalRecord\RuleAdvancedPurchase
      */
     public function setReservationLatestUnit($ReservationLatestUnit)
     {
@@ -92,7 +92,7 @@ class RuleAdvancedPurchase
 
     /**
      * @param string $TicketingEarliestDate
-     * @return \FilippoToso\Travelport\UniversalRecord\RuleAdvancedPurchase
+     * @return \Santosdave\Travelport\UniversalRecord\RuleAdvancedPurchase
      */
     public function setTicketingEarliestDate($TicketingEarliestDate)
     {
@@ -110,7 +110,7 @@ class RuleAdvancedPurchase
 
     /**
      * @param string $TicketingLatestDate
-     * @return \FilippoToso\Travelport\UniversalRecord\RuleAdvancedPurchase
+     * @return \Santosdave\Travelport\UniversalRecord\RuleAdvancedPurchase
      */
     public function setTicketingLatestDate($TicketingLatestDate)
     {
@@ -128,7 +128,7 @@ class RuleAdvancedPurchase
 
     /**
      * @param boolean $MoreRulesPresent
-     * @return \FilippoToso\Travelport\UniversalRecord\RuleAdvancedPurchase
+     * @return \Santosdave\Travelport\UniversalRecord\RuleAdvancedPurchase
      */
     public function setMoreRulesPresent($MoreRulesPresent)
     {

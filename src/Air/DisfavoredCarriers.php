@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class DisfavoredCarriers
 {
@@ -28,7 +28,7 @@ class DisfavoredCarriers
 
     /**
      * @param Carrier $Carrier
-     * @return \FilippoToso\Travelport\Air\DisfavoredCarriers
+     * @return \Santosdave\Travelport\Air\DisfavoredCarriers
      */
     public function setCarrier($Carrier)
     {

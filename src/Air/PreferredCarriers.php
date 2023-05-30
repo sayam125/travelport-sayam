@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class PreferredCarriers
 {
@@ -28,7 +28,7 @@ class PreferredCarriers
 
     /**
      * @param Carrier $Carrier
-     * @return \FilippoToso\Travelport\Air\PreferredCarriers
+     * @return \Santosdave\Travelport\Air\PreferredCarriers
      */
     public function setCarrier($Carrier)
     {

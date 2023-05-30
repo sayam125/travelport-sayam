@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class BookingCode
 {
@@ -28,7 +28,7 @@ class BookingCode
 
     /**
      * @param typeClassOfService $Code
-     * @return \FilippoToso\Travelport\UniversalRecord\BookingCode
+     * @return \Santosdave\Travelport\UniversalRecord\BookingCode
      */
     public function setCode($Code)
     {

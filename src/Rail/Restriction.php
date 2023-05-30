@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class Restriction
 {
@@ -35,7 +35,7 @@ class Restriction
 
     /**
      * @param DaysOfWeekRestriction $DaysOfWeekRestriction
-     * @return \FilippoToso\Travelport\Rail\Restriction
+     * @return \Santosdave\Travelport\Rail\Restriction
      */
     public function setDaysOfWeekRestriction($DaysOfWeekRestriction)
     {
@@ -53,7 +53,7 @@ class Restriction
 
     /**
      * @param RestrictionPassengerTypes $RestrictionPassengerTypes
-     * @return \FilippoToso\Travelport\Rail\Restriction
+     * @return \Santosdave\Travelport\Rail\Restriction
      */
     public function setRestrictionPassengerTypes($RestrictionPassengerTypes)
     {

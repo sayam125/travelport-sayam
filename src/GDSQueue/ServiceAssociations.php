@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class ServiceAssociations
 {
@@ -28,7 +28,7 @@ class ServiceAssociations
 
     /**
      * @param ApplicableSegment[] $ApplicableSegment
-     * @return \FilippoToso\Travelport\GDSQueue\ServiceAssociations
+     * @return \Santosdave\Travelport\GDSQueue\ServiceAssociations
      */
     public function setApplicableSegment(array $ApplicableSegment)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class Auxdata
 {
@@ -28,7 +28,7 @@ class Auxdata
 
     /**
      * @param Entry[] $Entry
-     * @return \FilippoToso\Travelport\GDSQueue\Auxdata
+     * @return \Santosdave\Travelport\GDSQueue\Auxdata
      */
     public function setEntry(array $Entry)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class AirItinerary
 {
@@ -42,7 +42,7 @@ class AirItinerary
 
     /**
      * @param typeBaseAirSegment $AirSegment
-     * @return \FilippoToso\Travelport\Util\AirItinerary
+     * @return \Santosdave\Travelport\Util\AirItinerary
      */
     public function setAirSegment($AirSegment)
     {
@@ -60,7 +60,7 @@ class AirItinerary
 
     /**
      * @param HostToken $HostToken
-     * @return \FilippoToso\Travelport\Util\AirItinerary
+     * @return \Santosdave\Travelport\Util\AirItinerary
      */
     public function setHostToken($HostToken)
     {
@@ -78,7 +78,7 @@ class AirItinerary
 
     /**
      * @param APISRequirements $APISRequirements
-     * @return \FilippoToso\Travelport\Util\AirItinerary
+     * @return \Santosdave\Travelport\Util\AirItinerary
      */
     public function setAPISRequirements($APISRequirements)
     {

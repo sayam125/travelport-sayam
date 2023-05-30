@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class HotelRulesReq extends BaseReq
 {
@@ -47,7 +47,7 @@ class HotelRulesReq extends BaseReq
 
     /**
      * @param typeLocatorCode $HotelReservationLocatorCode
-     * @return \FilippoToso\Travelport\Hotel\HotelRulesReq
+     * @return \Santosdave\Travelport\Hotel\HotelRulesReq
      */
     public function setHotelReservationLocatorCode($HotelReservationLocatorCode)
     {
@@ -65,7 +65,7 @@ class HotelRulesReq extends BaseReq
 
     /**
      * @param HotelRulesLookup $HotelRulesLookup
-     * @return \FilippoToso\Travelport\Hotel\HotelRulesReq
+     * @return \Santosdave\Travelport\Hotel\HotelRulesReq
      */
     public function setHotelRulesLookup($HotelRulesLookup)
     {

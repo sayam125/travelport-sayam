@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class typeAdaptedRoomGuestAllocation
 {
@@ -33,7 +33,7 @@ class typeAdaptedRoomGuestAllocation
 
     /**
      * @param typeGuestChildInformation[] $Child
-     * @return \FilippoToso\Travelport\Rail\typeAdaptedRoomGuestAllocation
+     * @return \Santosdave\Travelport\Rail\typeAdaptedRoomGuestAllocation
      */
     public function setChild(array $Child = null)
     {
@@ -51,7 +51,7 @@ class typeAdaptedRoomGuestAllocation
 
     /**
      * @param int $NumberOfAdults
-     * @return \FilippoToso\Travelport\Rail\typeAdaptedRoomGuestAllocation
+     * @return \Santosdave\Travelport\Rail\typeAdaptedRoomGuestAllocation
      */
     public function setNumberOfAdults($NumberOfAdults)
     {

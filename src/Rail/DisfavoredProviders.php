@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class DisfavoredProviders
 {
@@ -28,7 +28,7 @@ class DisfavoredProviders
 
     /**
      * @param Provider $Provider
-     * @return \FilippoToso\Travelport\Rail\DisfavoredProviders
+     * @return \Santosdave\Travelport\Rail\DisfavoredProviders
      */
     public function setProvider($Provider)
     {

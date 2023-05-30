@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class SingleProfileMigrationRsp extends BaseRsp
 {
@@ -48,7 +48,7 @@ class SingleProfileMigrationRsp extends BaseRsp
 
     /**
      * @param typeProfileID $ProfileID
-     * @return \FilippoToso\Travelport\UProfile\SingleProfileMigrationRsp
+     * @return \Santosdave\Travelport\UProfile\SingleProfileMigrationRsp
      */
     public function setProfileID($ProfileID)
     {
@@ -66,7 +66,7 @@ class SingleProfileMigrationRsp extends BaseRsp
 
     /**
      * @param StringLength1to128 $Status
-     * @return \FilippoToso\Travelport\UProfile\SingleProfileMigrationRsp
+     * @return \Santosdave\Travelport\UProfile\SingleProfileMigrationRsp
      */
     public function setStatus($Status)
     {
@@ -84,7 +84,7 @@ class SingleProfileMigrationRsp extends BaseRsp
 
     /**
      * @param typeProfileType $ProfileType
-     * @return \FilippoToso\Travelport\UProfile\SingleProfileMigrationRsp
+     * @return \Santosdave\Travelport\UProfile\SingleProfileMigrationRsp
      */
     public function setProfileType($ProfileType)
     {

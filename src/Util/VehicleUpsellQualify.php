@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class VehicleUpsellQualify
 {
@@ -189,7 +189,7 @@ class VehicleUpsellQualify
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Util\VehicleUpsellQualify
+     * @return \Santosdave\Travelport\Util\VehicleUpsellQualify
      */
     public function setKey($Key)
     {
@@ -207,7 +207,7 @@ class VehicleUpsellQualify
 
     /**
      * @param typeSupplierCode $VendorCode
-     * @return \FilippoToso\Travelport\Util\VehicleUpsellQualify
+     * @return \Santosdave\Travelport\Util\VehicleUpsellQualify
      */
     public function setVendorCode($VendorCode)
     {
@@ -225,7 +225,7 @@ class VehicleUpsellQualify
 
     /**
      * @param typeDate $EffectiveDate
-     * @return \FilippoToso\Travelport\Util\VehicleUpsellQualify
+     * @return \Santosdave\Travelport\Util\VehicleUpsellQualify
      */
     public function setEffectiveDate($EffectiveDate)
     {
@@ -243,7 +243,7 @@ class VehicleUpsellQualify
 
     /**
      * @param typeDate $ExpirationDate
-     * @return \FilippoToso\Travelport\Util\VehicleUpsellQualify
+     * @return \Santosdave\Travelport\Util\VehicleUpsellQualify
      */
     public function setExpirationDate($ExpirationDate)
     {
@@ -261,7 +261,7 @@ class VehicleUpsellQualify
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\Util\VehicleUpsellQualify
+     * @return \Santosdave\Travelport\Util\VehicleUpsellQualify
      */
     public function setProviderCode($ProviderCode)
     {
@@ -279,7 +279,7 @@ class VehicleUpsellQualify
 
     /**
      * @param string $PickupDateTime
-     * @return \FilippoToso\Travelport\Util\VehicleUpsellQualify
+     * @return \Santosdave\Travelport\Util\VehicleUpsellQualify
      */
     public function setPickupDateTime($PickupDateTime)
     {
@@ -297,7 +297,7 @@ class VehicleUpsellQualify
 
     /**
      * @param typeIATACode $PickupLocation
-     * @return \FilippoToso\Travelport\Util\VehicleUpsellQualify
+     * @return \Santosdave\Travelport\Util\VehicleUpsellQualify
      */
     public function setPickupLocation($PickupLocation)
     {
@@ -315,7 +315,7 @@ class VehicleUpsellQualify
 
     /**
      * @param string $ReturnDateTime
-     * @return \FilippoToso\Travelport\Util\VehicleUpsellQualify
+     * @return \Santosdave\Travelport\Util\VehicleUpsellQualify
      */
     public function setReturnDateTime($ReturnDateTime)
     {
@@ -333,7 +333,7 @@ class VehicleUpsellQualify
 
     /**
      * @param typeIATACode $ReturnLocation
-     * @return \FilippoToso\Travelport\Util\VehicleUpsellQualify
+     * @return \Santosdave\Travelport\Util\VehicleUpsellQualify
      */
     public function setReturnLocation($ReturnLocation)
     {
@@ -351,7 +351,7 @@ class VehicleUpsellQualify
 
     /**
      * @param typeVehicleLocation $PickupLocationType
-     * @return \FilippoToso\Travelport\Util\VehicleUpsellQualify
+     * @return \Santosdave\Travelport\Util\VehicleUpsellQualify
      */
     public function setPickupLocationType($PickupLocationType)
     {
@@ -369,7 +369,7 @@ class VehicleUpsellQualify
 
     /**
      * @param typeVehicleLocation $ReturnLocationType
-     * @return \FilippoToso\Travelport\Util\VehicleUpsellQualify
+     * @return \Santosdave\Travelport\Util\VehicleUpsellQualify
      */
     public function setReturnLocationType($ReturnLocationType)
     {
@@ -387,7 +387,7 @@ class VehicleUpsellQualify
 
     /**
      * @param string $PickupLocationNumber
-     * @return \FilippoToso\Travelport\Util\VehicleUpsellQualify
+     * @return \Santosdave\Travelport\Util\VehicleUpsellQualify
      */
     public function setPickupLocationNumber($PickupLocationNumber)
     {
@@ -405,7 +405,7 @@ class VehicleUpsellQualify
 
     /**
      * @param string $ReturnLocationNumber
-     * @return \FilippoToso\Travelport\Util\VehicleUpsellQualify
+     * @return \Santosdave\Travelport\Util\VehicleUpsellQualify
      */
     public function setReturnLocationNumber($ReturnLocationNumber)
     {
@@ -423,7 +423,7 @@ class VehicleUpsellQualify
 
     /**
      * @param boolean $AirConditioning
-     * @return \FilippoToso\Travelport\Util\VehicleUpsellQualify
+     * @return \Santosdave\Travelport\Util\VehicleUpsellQualify
      */
     public function setAirConditioning($AirConditioning)
     {
@@ -441,7 +441,7 @@ class VehicleUpsellQualify
 
     /**
      * @param typeVehicleTransmission $TransmissionType
-     * @return \FilippoToso\Travelport\Util\VehicleUpsellQualify
+     * @return \Santosdave\Travelport\Util\VehicleUpsellQualify
      */
     public function setTransmissionType($TransmissionType)
     {
@@ -459,7 +459,7 @@ class VehicleUpsellQualify
 
     /**
      * @param typeVehicleClass $VehicleClass
-     * @return \FilippoToso\Travelport\Util\VehicleUpsellQualify
+     * @return \Santosdave\Travelport\Util\VehicleUpsellQualify
      */
     public function setVehicleClass($VehicleClass)
     {
@@ -477,7 +477,7 @@ class VehicleUpsellQualify
 
     /**
      * @param typeVehicleCategory $Category
-     * @return \FilippoToso\Travelport\Util\VehicleUpsellQualify
+     * @return \Santosdave\Travelport\Util\VehicleUpsellQualify
      */
     public function setCategory($Category)
     {
@@ -495,7 +495,7 @@ class VehicleUpsellQualify
 
     /**
      * @param typeDoorCount $DoorCount
-     * @return \FilippoToso\Travelport\Util\VehicleUpsellQualify
+     * @return \Santosdave\Travelport\Util\VehicleUpsellQualify
      */
     public function setDoorCount($DoorCount)
     {
@@ -513,7 +513,7 @@ class VehicleUpsellQualify
 
     /**
      * @param typeRateCode $RateCode
-     * @return \FilippoToso\Travelport\Util\VehicleUpsellQualify
+     * @return \Santosdave\Travelport\Util\VehicleUpsellQualify
      */
     public function setRateCode($RateCode)
     {
@@ -531,7 +531,7 @@ class VehicleUpsellQualify
 
     /**
      * @param typeRateCategory $RateCategory
-     * @return \FilippoToso\Travelport\Util\VehicleUpsellQualify
+     * @return \Santosdave\Travelport\Util\VehicleUpsellQualify
      */
     public function setRateCategory($RateCategory)
     {
@@ -549,7 +549,7 @@ class VehicleUpsellQualify
 
     /**
      * @param typeDiscountNumber $DiscountNumber
-     * @return \FilippoToso\Travelport\Util\VehicleUpsellQualify
+     * @return \Santosdave\Travelport\Util\VehicleUpsellQualify
      */
     public function setDiscountNumber($DiscountNumber)
     {
@@ -567,7 +567,7 @@ class VehicleUpsellQualify
 
     /**
      * @param typeRef $OfferRef
-     * @return \FilippoToso\Travelport\Util\VehicleUpsellQualify
+     * @return \Santosdave\Travelport\Util\VehicleUpsellQualify
      */
     public function setOfferRef($OfferRef)
     {
@@ -585,7 +585,7 @@ class VehicleUpsellQualify
 
     /**
      * @param typeElementStatus $ElStat
-     * @return \FilippoToso\Travelport\Util\VehicleUpsellQualify
+     * @return \Santosdave\Travelport\Util\VehicleUpsellQualify
      */
     public function setElStat($ElStat)
     {
@@ -603,7 +603,7 @@ class VehicleUpsellQualify
 
     /**
      * @param boolean $KeyOverride
-     * @return \FilippoToso\Travelport\Util\VehicleUpsellQualify
+     * @return \Santosdave\Travelport\Util\VehicleUpsellQualify
      */
     public function setKeyOverride($KeyOverride)
     {

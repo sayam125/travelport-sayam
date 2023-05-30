@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class ProviderReservationSearchResult
 {
@@ -89,7 +89,7 @@ class ProviderReservationSearchResult
 
     /**
      * @param Name $Name
-     * @return \FilippoToso\Travelport\UniversalRecord\ProviderReservationSearchResult
+     * @return \Santosdave\Travelport\UniversalRecord\ProviderReservationSearchResult
      */
     public function setName($Name)
     {
@@ -107,7 +107,7 @@ class ProviderReservationSearchResult
 
     /**
      * @param typeProductInfo[] $ProductInfo
-     * @return \FilippoToso\Travelport\UniversalRecord\ProviderReservationSearchResult
+     * @return \Santosdave\Travelport\UniversalRecord\ProviderReservationSearchResult
      */
     public function setProductInfo(array $ProductInfo = null)
     {
@@ -125,7 +125,7 @@ class ProviderReservationSearchResult
 
     /**
      * @param AgencyInfo $AgencyInfo
-     * @return \FilippoToso\Travelport\UniversalRecord\ProviderReservationSearchResult
+     * @return \Santosdave\Travelport\UniversalRecord\ProviderReservationSearchResult
      */
     public function setAgencyInfo($AgencyInfo)
     {
@@ -143,7 +143,7 @@ class ProviderReservationSearchResult
 
     /**
      * @param string $UniversalRecordLocatorCode
-     * @return \FilippoToso\Travelport\UniversalRecord\ProviderReservationSearchResult
+     * @return \Santosdave\Travelport\UniversalRecord\ProviderReservationSearchResult
      */
     public function setUniversalRecordLocatorCode($UniversalRecordLocatorCode)
     {
@@ -161,7 +161,7 @@ class ProviderReservationSearchResult
 
     /**
      * @param string $CreatedDate
-     * @return \FilippoToso\Travelport\UniversalRecord\ProviderReservationSearchResult
+     * @return \Santosdave\Travelport\UniversalRecord\ProviderReservationSearchResult
      */
     public function setCreatedDate($CreatedDate)
     {
@@ -179,7 +179,7 @@ class ProviderReservationSearchResult
 
     /**
      * @param string $EarliestTravelDate
-     * @return \FilippoToso\Travelport\UniversalRecord\ProviderReservationSearchResult
+     * @return \Santosdave\Travelport\UniversalRecord\ProviderReservationSearchResult
      */
     public function setEarliestTravelDate($EarliestTravelDate)
     {
@@ -197,7 +197,7 @@ class ProviderReservationSearchResult
 
     /**
      * @param typeReservationTicketed $Ticketed
-     * @return \FilippoToso\Travelport\UniversalRecord\ProviderReservationSearchResult
+     * @return \Santosdave\Travelport\UniversalRecord\ProviderReservationSearchResult
      */
     public function setTicketed($Ticketed)
     {
@@ -215,7 +215,7 @@ class ProviderReservationSearchResult
 
     /**
      * @param string $ProviderCode
-     * @return \FilippoToso\Travelport\UniversalRecord\ProviderReservationSearchResult
+     * @return \Santosdave\Travelport\UniversalRecord\ProviderReservationSearchResult
      */
     public function setProviderCode($ProviderCode)
     {
@@ -233,7 +233,7 @@ class ProviderReservationSearchResult
 
     /**
      * @param string $ProviderLocatorCode
-     * @return \FilippoToso\Travelport\UniversalRecord\ProviderReservationSearchResult
+     * @return \Santosdave\Travelport\UniversalRecord\ProviderReservationSearchResult
      */
     public function setProviderLocatorCode($ProviderLocatorCode)
     {
@@ -251,7 +251,7 @@ class ProviderReservationSearchResult
 
     /**
      * @param typeExternalSearchIndex $ExternalSearchIndex
-     * @return \FilippoToso\Travelport\UniversalRecord\ProviderReservationSearchResult
+     * @return \Santosdave\Travelport\UniversalRecord\ProviderReservationSearchResult
      */
     public function setExternalSearchIndex($ExternalSearchIndex)
     {

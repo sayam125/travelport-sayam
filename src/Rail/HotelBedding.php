@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class HotelBedding
 {
@@ -49,7 +49,7 @@ class HotelBedding
 
     /**
      * @param typeBedding $Type
-     * @return \FilippoToso\Travelport\Rail\HotelBedding
+     * @return \Santosdave\Travelport\Rail\HotelBedding
      */
     public function setType($Type)
     {
@@ -67,7 +67,7 @@ class HotelBedding
 
     /**
      * @param int $NumberOfBeds
-     * @return \FilippoToso\Travelport\Rail\HotelBedding
+     * @return \Santosdave\Travelport\Rail\HotelBedding
      */
     public function setNumberOfBeds($NumberOfBeds)
     {
@@ -85,7 +85,7 @@ class HotelBedding
 
     /**
      * @param typeMoney $Amount
-     * @return \FilippoToso\Travelport\Rail\HotelBedding
+     * @return \Santosdave\Travelport\Rail\HotelBedding
      */
     public function setAmount($Amount)
     {
@@ -103,7 +103,7 @@ class HotelBedding
 
     /**
      * @param string $Content
-     * @return \FilippoToso\Travelport\Rail\HotelBedding
+     * @return \Santosdave\Travelport\Rail\HotelBedding
      */
     public function setContent($Content)
     {

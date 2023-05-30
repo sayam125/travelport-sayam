@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class Requisition
 {
@@ -42,7 +42,7 @@ class Requisition
 
     /**
      * @param string $Number
-     * @return \FilippoToso\Travelport\UniversalRecord\Requisition
+     * @return \Santosdave\Travelport\UniversalRecord\Requisition
      */
     public function setNumber($Number)
     {
@@ -60,7 +60,7 @@ class Requisition
 
     /**
      * @param anonymous34 $Category
-     * @return \FilippoToso\Travelport\UniversalRecord\Requisition
+     * @return \Santosdave\Travelport\UniversalRecord\Requisition
      */
     public function setCategory($Category)
     {
@@ -78,7 +78,7 @@ class Requisition
 
     /**
      * @param anonymous35 $Type
-     * @return \FilippoToso\Travelport\UniversalRecord\Requisition
+     * @return \Santosdave\Travelport\UniversalRecord\Requisition
      */
     public function setType($Type)
     {

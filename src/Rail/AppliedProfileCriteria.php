@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class AppliedProfileCriteria
 {
@@ -28,7 +28,7 @@ class AppliedProfileCriteria
 
     /**
      * @param anonymous1412 $TravelerProfileId
-     * @return \FilippoToso\Travelport\Rail\AppliedProfileCriteria
+     * @return \Santosdave\Travelport\Rail\AppliedProfileCriteria
      */
     public function setTravelerProfileId($TravelerProfileId)
     {

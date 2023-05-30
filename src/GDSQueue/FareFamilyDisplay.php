@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class FareFamilyDisplay
 {
@@ -28,7 +28,7 @@ class FareFamilyDisplay
 
     /**
      * @param string $ModifierType
-     * @return \FilippoToso\Travelport\GDSQueue\FareFamilyDisplay
+     * @return \Santosdave\Travelport\GDSQueue\FareFamilyDisplay
      */
     public function setModifierType($ModifierType)
     {

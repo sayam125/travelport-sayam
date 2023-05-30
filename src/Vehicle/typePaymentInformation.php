@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Vehicle;
+namespace Santosdave\Travelport\Vehicle;
 
 class typePaymentInformation
 {
@@ -47,7 +47,7 @@ class typePaymentInformation
 
     /**
      * @param typeVoucherInformation $Voucher
-     * @return \FilippoToso\Travelport\Vehicle\typePaymentInformation
+     * @return \Santosdave\Travelport\Vehicle\typePaymentInformation
      */
     public function setVoucher($Voucher)
     {
@@ -65,7 +65,7 @@ class typePaymentInformation
 
     /**
      * @param string $BillingNumber
-     * @return \FilippoToso\Travelport\Vehicle\typePaymentInformation
+     * @return \Santosdave\Travelport\Vehicle\typePaymentInformation
      */
     public function setBillingNumber($BillingNumber)
     {
@@ -83,7 +83,7 @@ class typePaymentInformation
 
     /**
      * @param string $BillingReferenceNumber
-     * @return \FilippoToso\Travelport\Vehicle\typePaymentInformation
+     * @return \Santosdave\Travelport\Vehicle\typePaymentInformation
      */
     public function setBillingReferenceNumber($BillingReferenceNumber)
     {
@@ -101,7 +101,7 @@ class typePaymentInformation
 
     /**
      * @param anonymous585 $PrePayment
-     * @return \FilippoToso\Travelport\Vehicle\typePaymentInformation
+     * @return \Santosdave\Travelport\Vehicle\typePaymentInformation
      */
     public function setPrePayment($PrePayment)
     {

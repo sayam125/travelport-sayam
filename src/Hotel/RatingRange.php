@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class RatingRange
 {
@@ -35,7 +35,7 @@ class RatingRange
 
     /**
      * @param typeSimpleHotelRating $MinimumRating
-     * @return \FilippoToso\Travelport\Hotel\RatingRange
+     * @return \Santosdave\Travelport\Hotel\RatingRange
      */
     public function setMinimumRating($MinimumRating)
     {
@@ -53,7 +53,7 @@ class RatingRange
 
     /**
      * @param typeSimpleHotelRating $MaximumRating
-     * @return \FilippoToso\Travelport\Hotel\RatingRange
+     * @return \Santosdave\Travelport\Hotel\RatingRange
      */
     public function setMaximumRating($MaximumRating)
     {

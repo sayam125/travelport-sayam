@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class ExchangeAirSegment
 {
@@ -42,7 +42,7 @@ class ExchangeAirSegment
 
     /**
      * @param typeBaseAirSegment $AirSegment
-     * @return \FilippoToso\Travelport\Rail\ExchangeAirSegment
+     * @return \Santosdave\Travelport\Rail\ExchangeAirSegment
      */
     public function setAirSegment($AirSegment)
     {
@@ -60,7 +60,7 @@ class ExchangeAirSegment
 
     /**
      * @param CabinClass $CabinClass
-     * @return \FilippoToso\Travelport\Rail\ExchangeAirSegment
+     * @return \Santosdave\Travelport\Rail\ExchangeAirSegment
      */
     public function setCabinClass($CabinClass)
     {
@@ -78,7 +78,7 @@ class ExchangeAirSegment
 
     /**
      * @param string $FareBasisCode
-     * @return \FilippoToso\Travelport\Rail\ExchangeAirSegment
+     * @return \Santosdave\Travelport\Rail\ExchangeAirSegment
      */
     public function setFareBasisCode($FareBasisCode)
     {

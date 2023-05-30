@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class typeRateVariance
 {
@@ -42,7 +42,7 @@ class typeRateVariance
 
     /**
      * @param string $Type
-     * @return \FilippoToso\Travelport\UniversalRecord\typeRateVariance
+     * @return \Santosdave\Travelport\UniversalRecord\typeRateVariance
      */
     public function setType($Type)
     {
@@ -60,7 +60,7 @@ class typeRateVariance
 
     /**
      * @param float $Value
-     * @return \FilippoToso\Travelport\UniversalRecord\typeRateVariance
+     * @return \Santosdave\Travelport\UniversalRecord\typeRateVariance
      */
     public function setValue($Value)
     {
@@ -78,7 +78,7 @@ class typeRateVariance
 
     /**
      * @param string $Apply
-     * @return \FilippoToso\Travelport\UniversalRecord\typeRateVariance
+     * @return \Santosdave\Travelport\UniversalRecord\typeRateVariance
      */
     public function setApply($Apply)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class TravelSegment extends Segment
 {
@@ -58,7 +58,7 @@ class TravelSegment extends Segment
 
     /**
      * @param typeIATACode $Origin
-     * @return \FilippoToso\Travelport\Hotel\TravelSegment
+     * @return \Santosdave\Travelport\Hotel\TravelSegment
      */
     public function setOrigin($Origin)
     {
@@ -76,7 +76,7 @@ class TravelSegment extends Segment
 
     /**
      * @param typeIATACode $Destination
-     * @return \FilippoToso\Travelport\Hotel\TravelSegment
+     * @return \Santosdave\Travelport\Hotel\TravelSegment
      */
     public function setDestination($Destination)
     {
@@ -94,7 +94,7 @@ class TravelSegment extends Segment
 
     /**
      * @param string $DepartureTime
-     * @return \FilippoToso\Travelport\Hotel\TravelSegment
+     * @return \Santosdave\Travelport\Hotel\TravelSegment
      */
     public function setDepartureTime($DepartureTime)
     {
@@ -112,7 +112,7 @@ class TravelSegment extends Segment
 
     /**
      * @param string $ArrivalTime
-     * @return \FilippoToso\Travelport\Hotel\TravelSegment
+     * @return \Santosdave\Travelport\Hotel\TravelSegment
      */
     public function setArrivalTime($ArrivalTime)
     {

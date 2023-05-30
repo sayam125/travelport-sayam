@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class OwnershipChange
 {
@@ -28,7 +28,7 @@ class OwnershipChange
 
     /**
      * @param typeRef $OwningPCC
-     * @return \FilippoToso\Travelport\GDSQueue\OwnershipChange
+     * @return \Santosdave\Travelport\GDSQueue\OwnershipChange
      */
     public function setOwningPCC($OwningPCC)
     {

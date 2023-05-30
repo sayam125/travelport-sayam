@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class RuleCharges
 {
@@ -56,7 +56,7 @@ class RuleCharges
 
     /**
      * @param string $PenaltyType
-     * @return \FilippoToso\Travelport\Air\RuleCharges
+     * @return \Santosdave\Travelport\Air\RuleCharges
      */
     public function setPenaltyType($PenaltyType)
     {
@@ -74,7 +74,7 @@ class RuleCharges
 
     /**
      * @param string $DepartureStatus
-     * @return \FilippoToso\Travelport\Air\RuleCharges
+     * @return \Santosdave\Travelport\Air\RuleCharges
      */
     public function setDepartureStatus($DepartureStatus)
     {
@@ -92,7 +92,7 @@ class RuleCharges
 
     /**
      * @param typeMoney $Amount
-     * @return \FilippoToso\Travelport\Air\RuleCharges
+     * @return \Santosdave\Travelport\Air\RuleCharges
      */
     public function setAmount($Amount)
     {
@@ -110,7 +110,7 @@ class RuleCharges
 
     /**
      * @param float $Percent
-     * @return \FilippoToso\Travelport\Air\RuleCharges
+     * @return \Santosdave\Travelport\Air\RuleCharges
      */
     public function setPercent($Percent)
     {
@@ -128,7 +128,7 @@ class RuleCharges
 
     /**
      * @param boolean $MoreRulesPresent
-     * @return \FilippoToso\Travelport\Air\RuleCharges
+     * @return \Santosdave\Travelport\Air\RuleCharges
      */
     public function setMoreRulesPresent($MoreRulesPresent)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Vehicle;
+namespace Santosdave\Travelport\Vehicle;
 
 class DriverInfo
 {
@@ -28,7 +28,7 @@ class DriverInfo
 
     /**
      * @param anonymous615 $Age
-     * @return \FilippoToso\Travelport\Vehicle\DriverInfo
+     * @return \Santosdave\Travelport\Vehicle\DriverInfo
      */
     public function setAge($Age)
     {

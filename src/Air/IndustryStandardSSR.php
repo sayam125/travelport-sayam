@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class IndustryStandardSSR
 {
@@ -28,7 +28,7 @@ class IndustryStandardSSR
 
     /**
      * @param string $Code
-     * @return \FilippoToso\Travelport\Air\IndustryStandardSSR
+     * @return \Santosdave\Travelport\Air\IndustryStandardSSR
      */
     public function setCode($Code)
     {

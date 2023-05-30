@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class Dimension extends typeUnitOfMeasure
 {
@@ -31,7 +31,7 @@ class Dimension extends typeUnitOfMeasure
 
     /**
      * @param string $type
-     * @return \FilippoToso\Travelport\UniversalRecord\Dimension
+     * @return \Santosdave\Travelport\UniversalRecord\Dimension
      */
     public function setType($type)
     {

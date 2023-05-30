@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class BookingRules
 {
@@ -54,7 +54,7 @@ class BookingRules
 
     /**
      * @param BookingRulesFareReference $BookingRulesFareReference
-     * @return \FilippoToso\Travelport\Air\BookingRules
+     * @return \Santosdave\Travelport\Air\BookingRules
      */
     public function setBookingRulesFareReference($BookingRulesFareReference)
     {
@@ -72,7 +72,7 @@ class BookingRules
 
     /**
      * @param RuleInfo[] $RuleInfo
-     * @return \FilippoToso\Travelport\Air\BookingRules
+     * @return \Santosdave\Travelport\Air\BookingRules
      */
     public function setRuleInfo(array $RuleInfo = null)
     {
@@ -90,7 +90,7 @@ class BookingRules
 
     /**
      * @param Restriction $Restriction
-     * @return \FilippoToso\Travelport\Air\BookingRules
+     * @return \Santosdave\Travelport\Air\BookingRules
      */
     public function setRestriction($Restriction)
     {
@@ -108,7 +108,7 @@ class BookingRules
 
     /**
      * @param DocumentRequired $DocumentRequired
-     * @return \FilippoToso\Travelport\Air\BookingRules
+     * @return \Santosdave\Travelport\Air\BookingRules
      */
     public function setDocumentRequired($DocumentRequired)
     {
@@ -126,7 +126,7 @@ class BookingRules
 
     /**
      * @param boolean $GenderDobRequired
-     * @return \FilippoToso\Travelport\Air\BookingRules
+     * @return \Santosdave\Travelport\Air\BookingRules
      */
     public function setGenderDobRequired($GenderDobRequired)
     {

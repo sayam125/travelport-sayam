@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class BaseReservation
 {
@@ -77,7 +77,7 @@ class BaseReservation
 
     /**
      * @param AccountingRemark $AccountingRemark
-     * @return \FilippoToso\Travelport\UProfile\BaseReservation
+     * @return \Santosdave\Travelport\UProfile\BaseReservation
      */
     public function setAccountingRemark($AccountingRemark)
     {
@@ -95,7 +95,7 @@ class BaseReservation
 
     /**
      * @param GeneralRemark $GeneralRemark
-     * @return \FilippoToso\Travelport\UProfile\BaseReservation
+     * @return \Santosdave\Travelport\UProfile\BaseReservation
      */
     public function setGeneralRemark($GeneralRemark)
     {
@@ -113,7 +113,7 @@ class BaseReservation
 
     /**
      * @param Restriction $Restriction
-     * @return \FilippoToso\Travelport\UProfile\BaseReservation
+     * @return \Santosdave\Travelport\UProfile\BaseReservation
      */
     public function setRestriction($Restriction)
     {
@@ -131,7 +131,7 @@ class BaseReservation
 
     /**
      * @param PassiveInfo $PassiveInfo
-     * @return \FilippoToso\Travelport\UProfile\BaseReservation
+     * @return \Santosdave\Travelport\UProfile\BaseReservation
      */
     public function setPassiveInfo($PassiveInfo)
     {
@@ -149,7 +149,7 @@ class BaseReservation
 
     /**
      * @param typeLocatorCode $LocatorCode
-     * @return \FilippoToso\Travelport\UProfile\BaseReservation
+     * @return \Santosdave\Travelport\UProfile\BaseReservation
      */
     public function setLocatorCode($LocatorCode)
     {
@@ -167,7 +167,7 @@ class BaseReservation
 
     /**
      * @param string $CreateDate
-     * @return \FilippoToso\Travelport\UProfile\BaseReservation
+     * @return \Santosdave\Travelport\UProfile\BaseReservation
      */
     public function setCreateDate($CreateDate)
     {
@@ -185,7 +185,7 @@ class BaseReservation
 
     /**
      * @param string $ModifiedDate
-     * @return \FilippoToso\Travelport\UProfile\BaseReservation
+     * @return \Santosdave\Travelport\UProfile\BaseReservation
      */
     public function setModifiedDate($ModifiedDate)
     {
@@ -203,7 +203,7 @@ class BaseReservation
 
     /**
      * @param string $CustomerNumber
-     * @return \FilippoToso\Travelport\UProfile\BaseReservation
+     * @return \Santosdave\Travelport\UProfile\BaseReservation
      */
     public function setCustomerNumber($CustomerNumber)
     {

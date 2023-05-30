@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class PaymentRestriction
 {
@@ -35,7 +35,7 @@ class PaymentRestriction
 
     /**
      * @param CardRestriction $CardRestriction
-     * @return \FilippoToso\Travelport\GDSQueue\PaymentRestriction
+     * @return \Santosdave\Travelport\GDSQueue\PaymentRestriction
      */
     public function setCardRestriction($CardRestriction)
     {
@@ -53,7 +53,7 @@ class PaymentRestriction
 
     /**
      * @param AddressRestriction $AddressRestriction
-     * @return \FilippoToso\Travelport\GDSQueue\PaymentRestriction
+     * @return \Santosdave\Travelport\GDSQueue\PaymentRestriction
      */
     public function setAddressRestriction($AddressRestriction)
     {

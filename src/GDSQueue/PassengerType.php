@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class PassengerType extends typePassengerType
 {
@@ -41,7 +41,7 @@ class PassengerType extends typePassengerType
 
     /**
      * @param FareGuaranteeInfo $FareGuaranteeInfo
-     * @return \FilippoToso\Travelport\GDSQueue\PassengerType
+     * @return \Santosdave\Travelport\GDSQueue\PassengerType
      */
     public function setFareGuaranteeInfo($FareGuaranteeInfo)
     {

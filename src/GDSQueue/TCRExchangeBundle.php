@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class TCRExchangeBundle
 {
@@ -63,7 +63,7 @@ class TCRExchangeBundle
 
     /**
      * @param AirExchangeInfo $AirExchangeInfo
-     * @return \FilippoToso\Travelport\GDSQueue\TCRExchangeBundle
+     * @return \Santosdave\Travelport\GDSQueue\TCRExchangeBundle
      */
     public function setAirExchangeInfo($AirExchangeInfo)
     {
@@ -81,7 +81,7 @@ class TCRExchangeBundle
 
     /**
      * @param AirPricingInfoRef $AirPricingInfoRef
-     * @return \FilippoToso\Travelport\GDSQueue\TCRExchangeBundle
+     * @return \Santosdave\Travelport\GDSQueue\TCRExchangeBundle
      */
     public function setAirPricingInfoRef($AirPricingInfoRef)
     {
@@ -99,7 +99,7 @@ class TCRExchangeBundle
 
     /**
      * @param typeFeeInfo $FeeInfo
-     * @return \FilippoToso\Travelport\GDSQueue\TCRExchangeBundle
+     * @return \Santosdave\Travelport\GDSQueue\TCRExchangeBundle
      */
     public function setFeeInfo($FeeInfo)
     {
@@ -117,7 +117,7 @@ class TCRExchangeBundle
 
     /**
      * @param typeTaxInfo $TaxInfo
-     * @return \FilippoToso\Travelport\GDSQueue\TCRExchangeBundle
+     * @return \Santosdave\Travelport\GDSQueue\TCRExchangeBundle
      */
     public function setTaxInfo($TaxInfo)
     {
@@ -135,7 +135,7 @@ class TCRExchangeBundle
 
     /**
      * @param Penalty $Penalty
-     * @return \FilippoToso\Travelport\GDSQueue\TCRExchangeBundle
+     * @return \Santosdave\Travelport\GDSQueue\TCRExchangeBundle
      */
     public function setPenalty($Penalty)
     {
@@ -153,7 +153,7 @@ class TCRExchangeBundle
 
     /**
      * @param typeTCRNumber $TCRNumber
-     * @return \FilippoToso\Travelport\GDSQueue\TCRExchangeBundle
+     * @return \Santosdave\Travelport\GDSQueue\TCRExchangeBundle
      */
     public function setTCRNumber($TCRNumber)
     {

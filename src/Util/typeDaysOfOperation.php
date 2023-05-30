@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class typeDaysOfOperation
 {
@@ -70,7 +70,7 @@ class typeDaysOfOperation
 
     /**
      * @param boolean $Mon
-     * @return \FilippoToso\Travelport\Util\typeDaysOfOperation
+     * @return \Santosdave\Travelport\Util\typeDaysOfOperation
      */
     public function setMon($Mon)
     {
@@ -88,7 +88,7 @@ class typeDaysOfOperation
 
     /**
      * @param boolean $Tue
-     * @return \FilippoToso\Travelport\Util\typeDaysOfOperation
+     * @return \Santosdave\Travelport\Util\typeDaysOfOperation
      */
     public function setTue($Tue)
     {
@@ -106,7 +106,7 @@ class typeDaysOfOperation
 
     /**
      * @param boolean $Wed
-     * @return \FilippoToso\Travelport\Util\typeDaysOfOperation
+     * @return \Santosdave\Travelport\Util\typeDaysOfOperation
      */
     public function setWed($Wed)
     {
@@ -124,7 +124,7 @@ class typeDaysOfOperation
 
     /**
      * @param boolean $Thu
-     * @return \FilippoToso\Travelport\Util\typeDaysOfOperation
+     * @return \Santosdave\Travelport\Util\typeDaysOfOperation
      */
     public function setThu($Thu)
     {
@@ -142,7 +142,7 @@ class typeDaysOfOperation
 
     /**
      * @param boolean $Fri
-     * @return \FilippoToso\Travelport\Util\typeDaysOfOperation
+     * @return \Santosdave\Travelport\Util\typeDaysOfOperation
      */
     public function setFri($Fri)
     {
@@ -160,7 +160,7 @@ class typeDaysOfOperation
 
     /**
      * @param boolean $Sat
-     * @return \FilippoToso\Travelport\Util\typeDaysOfOperation
+     * @return \Santosdave\Travelport\Util\typeDaysOfOperation
      */
     public function setSat($Sat)
     {
@@ -178,7 +178,7 @@ class typeDaysOfOperation
 
     /**
      * @param boolean $Sun
-     * @return \FilippoToso\Travelport\Util\typeDaysOfOperation
+     * @return \Santosdave\Travelport\Util\typeDaysOfOperation
      */
     public function setSun($Sun)
     {

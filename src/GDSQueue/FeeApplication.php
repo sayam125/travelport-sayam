@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class FeeApplication
 {
@@ -35,7 +35,7 @@ class FeeApplication
 
     /**
      * @param typeFeeApplication $_
-     * @return \FilippoToso\Travelport\GDSQueue\FeeApplication
+     * @return \Santosdave\Travelport\GDSQueue\FeeApplication
      */
     public function set_($_)
     {
@@ -53,7 +53,7 @@ class FeeApplication
 
     /**
      * @param anonymous913 $Code
-     * @return \FilippoToso\Travelport\GDSQueue\FeeApplication
+     * @return \Santosdave\Travelport\GDSQueue\FeeApplication
      */
     public function setCode($Code)
     {

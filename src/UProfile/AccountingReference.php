@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class AccountingReference extends typeKeyElement
 {
@@ -70,7 +70,7 @@ class AccountingReference extends typeKeyElement
 
     /**
      * @param typeRef[] $PaymentDetailsRef
-     * @return \FilippoToso\Travelport\UProfile\AccountingReference
+     * @return \Santosdave\Travelport\UProfile\AccountingReference
      */
     public function setPaymentDetailsRef(array $PaymentDetailsRef = null)
     {
@@ -88,7 +88,7 @@ class AccountingReference extends typeKeyElement
 
     /**
      * @param StringLength1to128 $Type
-     * @return \FilippoToso\Travelport\UProfile\AccountingReference
+     * @return \Santosdave\Travelport\UProfile\AccountingReference
      */
     public function setType($Type)
     {
@@ -106,7 +106,7 @@ class AccountingReference extends typeKeyElement
 
     /**
      * @param StringLength1to255 $Value
-     * @return \FilippoToso\Travelport\UProfile\AccountingReference
+     * @return \Santosdave\Travelport\UProfile\AccountingReference
      */
     public function setValue($Value)
     {
@@ -124,7 +124,7 @@ class AccountingReference extends typeKeyElement
 
     /**
      * @param typeProfileID $AccountID
-     * @return \FilippoToso\Travelport\UProfile\AccountingReference
+     * @return \Santosdave\Travelport\UProfile\AccountingReference
      */
     public function setAccountID($AccountID)
     {
@@ -142,7 +142,7 @@ class AccountingReference extends typeKeyElement
 
     /**
      * @param typePriorityOrder $PriorityOrder
-     * @return \FilippoToso\Travelport\UProfile\AccountingReference
+     * @return \Santosdave\Travelport\UProfile\AccountingReference
      */
     public function setPriorityOrder($PriorityOrder)
     {
@@ -160,7 +160,7 @@ class AccountingReference extends typeKeyElement
 
     /**
      * @param typeProfileID $OwnerID
-     * @return \FilippoToso\Travelport\UProfile\AccountingReference
+     * @return \Santosdave\Travelport\UProfile\AccountingReference
      */
     public function setOwnerID($OwnerID)
     {
@@ -178,7 +178,7 @@ class AccountingReference extends typeKeyElement
 
     /**
      * @param boolean $Active
-     * @return \FilippoToso\Travelport\UProfile\AccountingReference
+     * @return \Santosdave\Travelport\UProfile\AccountingReference
      */
     public function setActive($Active)
     {

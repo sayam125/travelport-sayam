@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class SecondaryTypeRule
 {
@@ -33,7 +33,7 @@ class SecondaryTypeRule
 
     /**
      * @param OptionalServiceApplicationLimitType[] $ApplicationLimit
-     * @return \FilippoToso\Travelport\GDSQueue\SecondaryTypeRule
+     * @return \Santosdave\Travelport\GDSQueue\SecondaryTypeRule
      */
     public function setApplicationLimit(array $ApplicationLimit = null)
     {
@@ -51,7 +51,7 @@ class SecondaryTypeRule
 
     /**
      * @param typeRef $SecondaryType
-     * @return \FilippoToso\Travelport\GDSQueue\SecondaryTypeRule
+     * @return \Santosdave\Travelport\GDSQueue\SecondaryTypeRule
      */
     public function setSecondaryType($SecondaryType)
     {

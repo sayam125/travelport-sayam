@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class HotelRateChangedInfo
 {
@@ -42,7 +42,7 @@ class HotelRateChangedInfo
 
     /**
      * @param HotelProperty $HotelProperty
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelRateChangedInfo
+     * @return \Santosdave\Travelport\UniversalRecord\HotelRateChangedInfo
      */
     public function setHotelProperty($HotelProperty)
     {
@@ -60,7 +60,7 @@ class HotelRateChangedInfo
 
     /**
      * @param HotelRateDetail $HotelRateDetail
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelRateChangedInfo
+     * @return \Santosdave\Travelport\UniversalRecord\HotelRateChangedInfo
      */
     public function setHotelRateDetail($HotelRateDetail)
     {
@@ -78,7 +78,7 @@ class HotelRateChangedInfo
 
     /**
      * @param string $Reason
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelRateChangedInfo
+     * @return \Santosdave\Travelport\UniversalRecord\HotelRateChangedInfo
      */
     public function setReason($Reason)
     {

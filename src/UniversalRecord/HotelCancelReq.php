@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class HotelCancelReq extends BaseReq
 {
@@ -89,7 +89,7 @@ class HotelCancelReq extends BaseReq
 
     /**
      * @param HotelProperty $HotelProperty
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelCancelReq
+     * @return \Santosdave\Travelport\UniversalRecord\HotelCancelReq
      */
     public function setHotelProperty($HotelProperty)
     {
@@ -107,7 +107,7 @@ class HotelCancelReq extends BaseReq
 
     /**
      * @param HotelStay $HotelStay
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelCancelReq
+     * @return \Santosdave\Travelport\UniversalRecord\HotelCancelReq
      */
     public function setHotelStay($HotelStay)
     {
@@ -125,7 +125,7 @@ class HotelCancelReq extends BaseReq
 
     /**
      * @param FileFinishingInfo $FileFinishingInfo
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelCancelReq
+     * @return \Santosdave\Travelport\UniversalRecord\HotelCancelReq
      */
     public function setFileFinishingInfo($FileFinishingInfo)
     {
@@ -143,7 +143,7 @@ class HotelCancelReq extends BaseReq
 
     /**
      * @param string $SupplierCode
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelCancelReq
+     * @return \Santosdave\Travelport\UniversalRecord\HotelCancelReq
      */
     public function setSupplierCode($SupplierCode)
     {
@@ -161,7 +161,7 @@ class HotelCancelReq extends BaseReq
 
     /**
      * @param string $SupplierLocatorCode
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelCancelReq
+     * @return \Santosdave\Travelport\UniversalRecord\HotelCancelReq
      */
     public function setSupplierLocatorCode($SupplierLocatorCode)
     {
@@ -179,7 +179,7 @@ class HotelCancelReq extends BaseReq
 
     /**
      * @param typeURVersion $Version
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelCancelReq
+     * @return \Santosdave\Travelport\UniversalRecord\HotelCancelReq
      */
     public function setVersion($Version)
     {
@@ -197,7 +197,7 @@ class HotelCancelReq extends BaseReq
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelCancelReq
+     * @return \Santosdave\Travelport\UniversalRecord\HotelCancelReq
      */
     public function setProviderCode($ProviderCode)
     {
@@ -215,7 +215,7 @@ class HotelCancelReq extends BaseReq
 
     /**
      * @param typeProviderLocatorCode $ProviderLocatorCode
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelCancelReq
+     * @return \Santosdave\Travelport\UniversalRecord\HotelCancelReq
      */
     public function setProviderLocatorCode($ProviderLocatorCode)
     {

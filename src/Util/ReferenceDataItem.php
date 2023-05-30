@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class ReferenceDataItem
 {
@@ -54,7 +54,7 @@ class ReferenceDataItem
 
     /**
      * @param AdditionalInfo[] $AdditionalInfo
-     * @return \FilippoToso\Travelport\Util\ReferenceDataItem
+     * @return \Santosdave\Travelport\Util\ReferenceDataItem
      */
     public function setAdditionalInfo(array $AdditionalInfo = null)
     {
@@ -72,7 +72,7 @@ class ReferenceDataItem
 
     /**
      * @param boolean $Deprecated
-     * @return \FilippoToso\Travelport\Util\ReferenceDataItem
+     * @return \Santosdave\Travelport\Util\ReferenceDataItem
      */
     public function setDeprecated($Deprecated)
     {
@@ -90,7 +90,7 @@ class ReferenceDataItem
 
     /**
      * @param StringLength1to128 $Code
-     * @return \FilippoToso\Travelport\Util\ReferenceDataItem
+     * @return \Santosdave\Travelport\Util\ReferenceDataItem
      */
     public function setCode($Code)
     {
@@ -108,7 +108,7 @@ class ReferenceDataItem
 
     /**
      * @param StringLength1to128 $Name
-     * @return \FilippoToso\Travelport\Util\ReferenceDataItem
+     * @return \Santosdave\Travelport\Util\ReferenceDataItem
      */
     public function setName($Name)
     {
@@ -126,7 +126,7 @@ class ReferenceDataItem
 
     /**
      * @param StringLength1to255 $Description
-     * @return \FilippoToso\Travelport\Util\ReferenceDataItem
+     * @return \Santosdave\Travelport\Util\ReferenceDataItem
      */
     public function setDescription($Description)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class typeRestrictionData
 {
@@ -45,7 +45,7 @@ class typeRestrictionData
 
     /**
      * @param typeMoney $Amount
-     * @return \FilippoToso\Travelport\GDSQueue\typeRestrictionData
+     * @return \Santosdave\Travelport\GDSQueue\typeRestrictionData
      */
     public function setAmount($Amount)
     {
@@ -63,7 +63,7 @@ class typeRestrictionData
 
     /**
      * @param typePercentageWithDecimal $Percentage
-     * @return \FilippoToso\Travelport\GDSQueue\typeRestrictionData
+     * @return \Santosdave\Travelport\GDSQueue\typeRestrictionData
      */
     public function setPercentage($Percentage)
     {
@@ -81,7 +81,7 @@ class typeRestrictionData
 
     /**
      * @param UNKNOWN $Name
-     * @return \FilippoToso\Travelport\GDSQueue\typeRestrictionData
+     * @return \Santosdave\Travelport\GDSQueue\typeRestrictionData
      */
     public function setName($Name)
     {
@@ -99,7 +99,7 @@ class typeRestrictionData
 
     /**
      * @param UNKNOWN $Value
-     * @return \FilippoToso\Travelport\GDSQueue\typeRestrictionData
+     * @return \Santosdave\Travelport\GDSQueue\typeRestrictionData
      */
     public function setValue($Value)
     {

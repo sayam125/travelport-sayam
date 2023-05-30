@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class AirUpsellCriteria
 {
@@ -42,7 +42,7 @@ class AirUpsellCriteria
 
     /**
      * @param AirUpsellAdd $AirUpsellAdd
-     * @return \FilippoToso\Travelport\Util\AirUpsellCriteria
+     * @return \Santosdave\Travelport\Util\AirUpsellCriteria
      */
     public function setAirUpsellAdd($AirUpsellAdd)
     {
@@ -60,7 +60,7 @@ class AirUpsellCriteria
 
     /**
      * @param AirUpsellUpdate $AirUpsellUpdate
-     * @return \FilippoToso\Travelport\Util\AirUpsellCriteria
+     * @return \Santosdave\Travelport\Util\AirUpsellCriteria
      */
     public function setAirUpsellUpdate($AirUpsellUpdate)
     {
@@ -78,7 +78,7 @@ class AirUpsellCriteria
 
     /**
      * @param AirUpsellDelete $AirUpsellDelete
-     * @return \FilippoToso\Travelport\Util\AirUpsellCriteria
+     * @return \Santosdave\Travelport\Util\AirUpsellCriteria
      */
     public function setAirUpsellDelete($AirUpsellDelete)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class typeUnitOfMeasure
 {
@@ -35,7 +35,7 @@ class typeUnitOfMeasure
 
     /**
      * @param float $Value
-     * @return \FilippoToso\Travelport\Rail\typeUnitOfMeasure
+     * @return \Santosdave\Travelport\Rail\typeUnitOfMeasure
      */
     public function setValue($Value)
     {
@@ -53,7 +53,7 @@ class typeUnitOfMeasure
 
     /**
      * @param string $Unit
-     * @return \FilippoToso\Travelport\Rail\typeUnitOfMeasure
+     * @return \Santosdave\Travelport\Rail\typeUnitOfMeasure
      */
     public function setUnit($Unit)
     {

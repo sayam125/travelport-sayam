@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class UniversalRecordRetrieveRsp extends BaseRsp
 {
@@ -41,7 +41,7 @@ class UniversalRecordRetrieveRsp extends BaseRsp
 
     /**
      * @param UniversalRecord $UniversalRecord
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalRecordRetrieveRsp
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalRecordRetrieveRsp
      */
     public function setUniversalRecord($UniversalRecord)
     {
@@ -59,7 +59,7 @@ class UniversalRecordRetrieveRsp extends BaseRsp
 
     /**
      * @param boolean $Updated
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalRecordRetrieveRsp
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalRecordRetrieveRsp
      */
     public function setUpdated($Updated)
     {

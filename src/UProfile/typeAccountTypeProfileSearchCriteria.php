@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeAccountTypeProfileSearchCriteria extends typeProfileSearchCriteria
 {
@@ -30,7 +30,7 @@ class typeAccountTypeProfileSearchCriteria extends typeProfileSearchCriteria
 
     /**
      * @param typeWildcard $MidOfficeID
-     * @return \FilippoToso\Travelport\UProfile\typeAccountTypeProfileSearchCriteria
+     * @return \Santosdave\Travelport\UProfile\typeAccountTypeProfileSearchCriteria
      */
     public function setMidOfficeID($MidOfficeID)
     {

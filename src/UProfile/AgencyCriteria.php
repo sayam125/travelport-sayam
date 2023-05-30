@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class AgencyCriteria extends typeProfileSearchCriteria
 {
@@ -44,7 +44,7 @@ class AgencyCriteria extends typeProfileSearchCriteria
 
     /**
      * @param typeWildcard $Name
-     * @return \FilippoToso\Travelport\UProfile\AgencyCriteria
+     * @return \Santosdave\Travelport\UProfile\AgencyCriteria
      */
     public function setName($Name)
     {
@@ -62,7 +62,7 @@ class AgencyCriteria extends typeProfileSearchCriteria
 
     /**
      * @param typeWildcard $AgencyCode
-     * @return \FilippoToso\Travelport\UProfile\AgencyCriteria
+     * @return \Santosdave\Travelport\UProfile\AgencyCriteria
      */
     public function setAgencyCode($AgencyCode)
     {
@@ -80,7 +80,7 @@ class AgencyCriteria extends typeProfileSearchCriteria
 
     /**
      * @param typeWildcard $IataNumber
-     * @return \FilippoToso\Travelport\UProfile\AgencyCriteria
+     * @return \Santosdave\Travelport\UProfile\AgencyCriteria
      */
     public function setIataNumber($IataNumber)
     {

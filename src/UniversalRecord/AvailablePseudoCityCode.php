@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class AvailablePseudoCityCode
 {
@@ -28,7 +28,7 @@ class AvailablePseudoCityCode
 
     /**
      * @param typePCC $PseudoCityCode
-     * @return \FilippoToso\Travelport\UniversalRecord\AvailablePseudoCityCode
+     * @return \Santosdave\Travelport\UniversalRecord\AvailablePseudoCityCode
      */
     public function setPseudoCityCode($PseudoCityCode)
     {

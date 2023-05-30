@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class DeliveryInfo extends typeStructuredAddress
 {
@@ -81,7 +81,7 @@ class DeliveryInfo extends typeStructuredAddress
 
     /**
      * @param ShippingAddress $ShippingAddress
-     * @return \FilippoToso\Travelport\Util\DeliveryInfo
+     * @return \Santosdave\Travelport\Util\DeliveryInfo
      */
     public function setShippingAddress($ShippingAddress)
     {
@@ -99,7 +99,7 @@ class DeliveryInfo extends typeStructuredAddress
 
     /**
      * @param PhoneNumber $PhoneNumber
-     * @return \FilippoToso\Travelport\Util\DeliveryInfo
+     * @return \Santosdave\Travelport\Util\DeliveryInfo
      */
     public function setPhoneNumber($PhoneNumber)
     {
@@ -117,7 +117,7 @@ class DeliveryInfo extends typeStructuredAddress
 
     /**
      * @param Email $Email
-     * @return \FilippoToso\Travelport\Util\DeliveryInfo
+     * @return \Santosdave\Travelport\Util\DeliveryInfo
      */
     public function setEmail($Email)
     {
@@ -135,7 +135,7 @@ class DeliveryInfo extends typeStructuredAddress
 
     /**
      * @param GeneralRemark $GeneralRemark
-     * @return \FilippoToso\Travelport\Util\DeliveryInfo
+     * @return \Santosdave\Travelport\Util\DeliveryInfo
      */
     public function setGeneralRemark($GeneralRemark)
     {
@@ -153,7 +153,7 @@ class DeliveryInfo extends typeStructuredAddress
 
     /**
      * @param ProviderReservationInfoRef $ProviderReservationInfoRef
-     * @return \FilippoToso\Travelport\Util\DeliveryInfo
+     * @return \Santosdave\Travelport\Util\DeliveryInfo
      */
     public function setProviderReservationInfoRef($ProviderReservationInfoRef)
     {
@@ -171,7 +171,7 @@ class DeliveryInfo extends typeStructuredAddress
 
     /**
      * @param string $Type
-     * @return \FilippoToso\Travelport\Util\DeliveryInfo
+     * @return \Santosdave\Travelport\Util\DeliveryInfo
      */
     public function setType($Type)
     {
@@ -189,7 +189,7 @@ class DeliveryInfo extends typeStructuredAddress
 
     /**
      * @param anonymous131 $SignatureRequired
-     * @return \FilippoToso\Travelport\Util\DeliveryInfo
+     * @return \Santosdave\Travelport\Util\DeliveryInfo
      */
     public function setSignatureRequired($SignatureRequired)
     {
@@ -207,7 +207,7 @@ class DeliveryInfo extends typeStructuredAddress
 
     /**
      * @param string $TrackingNumber
-     * @return \FilippoToso\Travelport\Util\DeliveryInfo
+     * @return \Santosdave\Travelport\Util\DeliveryInfo
      */
     public function setTrackingNumber($TrackingNumber)
     {

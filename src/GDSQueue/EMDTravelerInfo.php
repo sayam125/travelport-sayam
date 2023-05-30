@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class EMDTravelerInfo
 {
@@ -42,7 +42,7 @@ class EMDTravelerInfo
 
     /**
      * @param NameInfo $NameInfo
-     * @return \FilippoToso\Travelport\GDSQueue\EMDTravelerInfo
+     * @return \Santosdave\Travelport\GDSQueue\EMDTravelerInfo
      */
     public function setNameInfo($NameInfo)
     {
@@ -60,7 +60,7 @@ class EMDTravelerInfo
 
     /**
      * @param typePTC $TravelerType
-     * @return \FilippoToso\Travelport\GDSQueue\EMDTravelerInfo
+     * @return \Santosdave\Travelport\GDSQueue\EMDTravelerInfo
      */
     public function setTravelerType($TravelerType)
     {
@@ -78,7 +78,7 @@ class EMDTravelerInfo
 
     /**
      * @param int $Age
-     * @return \FilippoToso\Travelport\GDSQueue\EMDTravelerInfo
+     * @return \Santosdave\Travelport\GDSQueue\EMDTravelerInfo
      */
     public function setAge($Age)
     {

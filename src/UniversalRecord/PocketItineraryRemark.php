@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class PocketItineraryRemark extends typeAssociatedRemarkWithSegmentRef
 {

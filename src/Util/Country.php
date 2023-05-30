@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class Country
 {
@@ -63,7 +63,7 @@ class Country
 
     /**
      * @param typeCountry $Code
-     * @return \FilippoToso\Travelport\Util\Country
+     * @return \Santosdave\Travelport\Util\Country
      */
     public function setCode($Code)
     {
@@ -81,7 +81,7 @@ class Country
 
     /**
      * @param string $Name
-     * @return \FilippoToso\Travelport\Util\Country
+     * @return \Santosdave\Travelport\Util\Country
      */
     public function setName($Name)
     {
@@ -99,7 +99,7 @@ class Country
 
     /**
      * @param string $ExtendedCode
-     * @return \FilippoToso\Travelport\Util\Country
+     * @return \Santosdave\Travelport\Util\Country
      */
     public function setExtendedCode($ExtendedCode)
     {
@@ -117,7 +117,7 @@ class Country
 
     /**
      * @param string $CurrencyCode
-     * @return \FilippoToso\Travelport\Util\Country
+     * @return \Santosdave\Travelport\Util\Country
      */
     public function setCurrencyCode($CurrencyCode)
     {
@@ -135,7 +135,7 @@ class Country
 
     /**
      * @param typeIATACode $IataCode
-     * @return \FilippoToso\Travelport\Util\Country
+     * @return \Santosdave\Travelport\Util\Country
      */
     public function setIataCode($IataCode)
     {
@@ -153,7 +153,7 @@ class Country
 
     /**
      * @param string $Continent
-     * @return \FilippoToso\Travelport\Util\Country
+     * @return \Santosdave\Travelport\Util\Country
      */
     public function setContinent($Continent)
     {

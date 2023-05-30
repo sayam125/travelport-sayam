@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class AvailabilityErrorInfo extends typeErrorInfo
 {
@@ -35,7 +35,7 @@ class AvailabilityErrorInfo extends typeErrorInfo
 
     /**
      * @param AirSegmentError $AirSegmentError
-     * @return \FilippoToso\Travelport\Rail\AvailabilityErrorInfo
+     * @return \Santosdave\Travelport\Rail\AvailabilityErrorInfo
      */
     public function setAirSegmentError($AirSegmentError)
     {

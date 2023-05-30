@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class ProviderReservationInfo
 {
@@ -147,7 +147,7 @@ class ProviderReservationInfo
 
     /**
      * @param ProviderReservationDetails $ProviderReservationDetails
-     * @return \FilippoToso\Travelport\Rail\ProviderReservationInfo
+     * @return \Santosdave\Travelport\Rail\ProviderReservationInfo
      */
     public function setProviderReservationDetails($ProviderReservationDetails)
     {
@@ -165,7 +165,7 @@ class ProviderReservationInfo
 
     /**
      * @param ProviderReservationDisplayDetailsList $ProviderReservationDisplayDetailsList
-     * @return \FilippoToso\Travelport\Rail\ProviderReservationInfo
+     * @return \Santosdave\Travelport\Rail\ProviderReservationInfo
      */
     public function setProviderReservationDisplayDetailsList($ProviderReservationDisplayDetailsList)
     {
@@ -183,7 +183,7 @@ class ProviderReservationInfo
 
     /**
      * @param ExternalReservationInfo $ExternalReservationInfo
-     * @return \FilippoToso\Travelport\Rail\ProviderReservationInfo
+     * @return \Santosdave\Travelport\Rail\ProviderReservationInfo
      */
     public function setExternalReservationInfo($ExternalReservationInfo)
     {
@@ -201,7 +201,7 @@ class ProviderReservationInfo
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Rail\ProviderReservationInfo
+     * @return \Santosdave\Travelport\Rail\ProviderReservationInfo
      */
     public function setKey($Key)
     {
@@ -219,7 +219,7 @@ class ProviderReservationInfo
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\Rail\ProviderReservationInfo
+     * @return \Santosdave\Travelport\Rail\ProviderReservationInfo
      */
     public function setProviderCode($ProviderCode)
     {
@@ -237,7 +237,7 @@ class ProviderReservationInfo
 
     /**
      * @param typeProviderLocatorCode $LocatorCode
-     * @return \FilippoToso\Travelport\Rail\ProviderReservationInfo
+     * @return \Santosdave\Travelport\Rail\ProviderReservationInfo
      */
     public function setLocatorCode($LocatorCode)
     {
@@ -263,7 +263,7 @@ class ProviderReservationInfo
 
     /**
      * @param \DateTime $CreateDate
-     * @return \FilippoToso\Travelport\Rail\ProviderReservationInfo
+     * @return \Santosdave\Travelport\Rail\ProviderReservationInfo
      */
     public function setCreateDate(\DateTime $CreateDate)
     {
@@ -281,7 +281,7 @@ class ProviderReservationInfo
 
     /**
      * @param date $HostCreateDate
-     * @return \FilippoToso\Travelport\Rail\ProviderReservationInfo
+     * @return \Santosdave\Travelport\Rail\ProviderReservationInfo
      */
     public function setHostCreateDate($HostCreateDate)
     {
@@ -299,7 +299,7 @@ class ProviderReservationInfo
 
     /**
      * @param time $HostCreateTime
-     * @return \FilippoToso\Travelport\Rail\ProviderReservationInfo
+     * @return \Santosdave\Travelport\Rail\ProviderReservationInfo
      */
     public function setHostCreateTime($HostCreateTime)
     {
@@ -325,7 +325,7 @@ class ProviderReservationInfo
 
     /**
      * @param \DateTime $ModifiedDate
-     * @return \FilippoToso\Travelport\Rail\ProviderReservationInfo
+     * @return \Santosdave\Travelport\Rail\ProviderReservationInfo
      */
     public function setModifiedDate(\DateTime $ModifiedDate)
     {
@@ -343,7 +343,7 @@ class ProviderReservationInfo
 
     /**
      * @param boolean $Imported
-     * @return \FilippoToso\Travelport\Rail\ProviderReservationInfo
+     * @return \Santosdave\Travelport\Rail\ProviderReservationInfo
      */
     public function setImported($Imported)
     {
@@ -361,7 +361,7 @@ class ProviderReservationInfo
 
     /**
      * @param typeRef $TicketingModifiersRef
-     * @return \FilippoToso\Travelport\Rail\ProviderReservationInfo
+     * @return \Santosdave\Travelport\Rail\ProviderReservationInfo
      */
     public function setTicketingModifiersRef($TicketingModifiersRef)
     {
@@ -379,7 +379,7 @@ class ProviderReservationInfo
 
     /**
      * @param boolean $InQueueMode
-     * @return \FilippoToso\Travelport\Rail\ProviderReservationInfo
+     * @return \Santosdave\Travelport\Rail\ProviderReservationInfo
      */
     public function setInQueueMode($InQueueMode)
     {
@@ -397,7 +397,7 @@ class ProviderReservationInfo
 
     /**
      * @param typeRef $GroupRef
-     * @return \FilippoToso\Travelport\Rail\ProviderReservationInfo
+     * @return \Santosdave\Travelport\Rail\ProviderReservationInfo
      */
     public function setGroupRef($GroupRef)
     {
@@ -415,7 +415,7 @@ class ProviderReservationInfo
 
     /**
      * @param typePCC $OwningPCC
-     * @return \FilippoToso\Travelport\Rail\ProviderReservationInfo
+     * @return \Santosdave\Travelport\Rail\ProviderReservationInfo
      */
     public function setOwningPCC($OwningPCC)
     {
@@ -433,7 +433,7 @@ class ProviderReservationInfo
 
     /**
      * @param typeElementStatus $ElStat
-     * @return \FilippoToso\Travelport\Rail\ProviderReservationInfo
+     * @return \Santosdave\Travelport\Rail\ProviderReservationInfo
      */
     public function setElStat($ElStat)
     {
@@ -451,7 +451,7 @@ class ProviderReservationInfo
 
     /**
      * @param boolean $KeyOverride
-     * @return \FilippoToso\Travelport\Rail\ProviderReservationInfo
+     * @return \Santosdave\Travelport\Rail\ProviderReservationInfo
      */
     public function setKeyOverride($KeyOverride)
     {
@@ -469,7 +469,7 @@ class ProviderReservationInfo
 
     /**
      * @param anonymous515 $AgentOverride
-     * @return \FilippoToso\Travelport\Rail\ProviderReservationInfo
+     * @return \Santosdave\Travelport\Rail\ProviderReservationInfo
      */
     public function setAgentOverride($AgentOverride)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class FaxDetailsInformation
 {
@@ -35,7 +35,7 @@ class FaxDetailsInformation
 
     /**
      * @param AirPricingInfoRef $AirPricingInfoRef
-     * @return \FilippoToso\Travelport\UniversalRecord\FaxDetailsInformation
+     * @return \Santosdave\Travelport\UniversalRecord\FaxDetailsInformation
      */
     public function setAirPricingInfoRef($AirPricingInfoRef)
     {
@@ -53,7 +53,7 @@ class FaxDetailsInformation
 
     /**
      * @param FaxDetails $FaxDetails
-     * @return \FilippoToso\Travelport\UniversalRecord\FaxDetailsInformation
+     * @return \Santosdave\Travelport\UniversalRecord\FaxDetailsInformation
      */
     public function setFaxDetails($FaxDetails)
     {

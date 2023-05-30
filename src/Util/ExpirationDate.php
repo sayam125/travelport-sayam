@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class ExpirationDate
 {
@@ -35,7 +35,7 @@ class ExpirationDate
 
     /**
      * @param typeDate $EarliestDate
-     * @return \FilippoToso\Travelport\Util\ExpirationDate
+     * @return \Santosdave\Travelport\Util\ExpirationDate
      */
     public function setEarliestDate($EarliestDate)
     {
@@ -53,7 +53,7 @@ class ExpirationDate
 
     /**
      * @param typeDate $LatestDate
-     * @return \FilippoToso\Travelport\Util\ExpirationDate
+     * @return \Santosdave\Travelport\Util\ExpirationDate
      */
     public function setLatestDate($LatestDate)
     {

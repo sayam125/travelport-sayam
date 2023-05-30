@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class AirSegmentTicketingModifiers
 {
@@ -35,7 +35,7 @@ class AirSegmentTicketingModifiers
 
     /**
      * @param typeRef $AirSegmentRef
-     * @return \FilippoToso\Travelport\Rail\AirSegmentTicketingModifiers
+     * @return \Santosdave\Travelport\Rail\AirSegmentTicketingModifiers
      */
     public function setAirSegmentRef($AirSegmentRef)
     {
@@ -53,7 +53,7 @@ class AirSegmentTicketingModifiers
 
     /**
      * @param StringLength1to10 $BrandTier
-     * @return \FilippoToso\Travelport\Rail\AirSegmentTicketingModifiers
+     * @return \Santosdave\Travelport\Rail\AirSegmentTicketingModifiers
      */
     public function setBrandTier($BrandTier)
     {

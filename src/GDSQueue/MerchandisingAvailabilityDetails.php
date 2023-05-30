@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class MerchandisingAvailabilityDetails
 {
@@ -35,7 +35,7 @@ class MerchandisingAvailabilityDetails
 
     /**
      * @param AirItineraryDetails $AirItineraryDetails
-     * @return \FilippoToso\Travelport\GDSQueue\MerchandisingAvailabilityDetails
+     * @return \Santosdave\Travelport\GDSQueue\MerchandisingAvailabilityDetails
      */
     public function setAirItineraryDetails($AirItineraryDetails)
     {
@@ -53,7 +53,7 @@ class MerchandisingAvailabilityDetails
 
     /**
      * @param AccountCode $AccountCode
-     * @return \FilippoToso\Travelport\GDSQueue\MerchandisingAvailabilityDetails
+     * @return \Santosdave\Travelport\GDSQueue\MerchandisingAvailabilityDetails
      */
     public function setAccountCode($AccountCode)
     {

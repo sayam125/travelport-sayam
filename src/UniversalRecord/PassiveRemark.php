@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class PassiveRemark
 {
@@ -42,7 +42,7 @@ class PassiveRemark
 
     /**
      * @param string $Text
-     * @return \FilippoToso\Travelport\UniversalRecord\PassiveRemark
+     * @return \Santosdave\Travelport\UniversalRecord\PassiveRemark
      */
     public function setText($Text)
     {
@@ -60,7 +60,7 @@ class PassiveRemark
 
     /**
      * @param string $Type
-     * @return \FilippoToso\Travelport\UniversalRecord\PassiveRemark
+     * @return \Santosdave\Travelport\UniversalRecord\PassiveRemark
      */
     public function setType($Type)
     {
@@ -78,7 +78,7 @@ class PassiveRemark
 
     /**
      * @param typeRef $PassiveSegmentRef
-     * @return \FilippoToso\Travelport\UniversalRecord\PassiveRemark
+     * @return \Santosdave\Travelport\UniversalRecord\PassiveRemark
      */
     public function setPassiveSegmentRef($PassiveSegmentRef)
     {

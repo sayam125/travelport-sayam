@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class BaggageAllowances
 {
@@ -42,7 +42,7 @@ class BaggageAllowances
 
     /**
      * @param BaggageAllowanceInfo $BaggageAllowanceInfo
-     * @return \FilippoToso\Travelport\Rail\BaggageAllowances
+     * @return \Santosdave\Travelport\Rail\BaggageAllowances
      */
     public function setBaggageAllowanceInfo($BaggageAllowanceInfo)
     {
@@ -60,7 +60,7 @@ class BaggageAllowances
 
     /**
      * @param CarryOnAllowanceInfo $CarryOnAllowanceInfo
-     * @return \FilippoToso\Travelport\Rail\BaggageAllowances
+     * @return \Santosdave\Travelport\Rail\BaggageAllowances
      */
     public function setCarryOnAllowanceInfo($CarryOnAllowanceInfo)
     {
@@ -78,7 +78,7 @@ class BaggageAllowances
 
     /**
      * @param BaseBaggageAllowanceInfo $EmbargoInfo
-     * @return \FilippoToso\Travelport\Rail\BaggageAllowances
+     * @return \Santosdave\Travelport\Rail\BaggageAllowances
      */
     public function setEmbargoInfo($EmbargoInfo)
     {

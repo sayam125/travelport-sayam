@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class PermittedBookingCodes
 {
@@ -28,7 +28,7 @@ class PermittedBookingCodes
 
     /**
      * @param BookingCode $BookingCode
-     * @return \FilippoToso\Travelport\UniversalRecord\PermittedBookingCodes
+     * @return \Santosdave\Travelport\UniversalRecord\PermittedBookingCodes
      */
     public function setBookingCode($BookingCode)
     {

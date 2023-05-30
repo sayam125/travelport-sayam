@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class RailAvailInfo
 {
@@ -42,7 +42,7 @@ class RailAvailInfo
 
     /**
      * @param typeRailClass $ClassCode
-     * @return \FilippoToso\Travelport\GDSQueue\RailAvailInfo
+     * @return \Santosdave\Travelport\GDSQueue\RailAvailInfo
      */
     public function setClassCode($ClassCode)
     {
@@ -60,7 +60,7 @@ class RailAvailInfo
 
     /**
      * @param int $Quantity
-     * @return \FilippoToso\Travelport\GDSQueue\RailAvailInfo
+     * @return \Santosdave\Travelport\GDSQueue\RailAvailInfo
      */
     public function setQuantity($Quantity)
     {
@@ -78,7 +78,7 @@ class RailAvailInfo
 
     /**
      * @param typeRailCabin $CabinClass
-     * @return \FilippoToso\Travelport\GDSQueue\RailAvailInfo
+     * @return \Santosdave\Travelport\GDSQueue\RailAvailInfo
      */
     public function setCabinClass($CabinClass)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class AirCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 {
@@ -227,7 +227,7 @@ class AirCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param SupplierLocator $SupplierLocator
-     * @return \FilippoToso\Travelport\UniversalRecord\AirCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\AirCreateReservationReq
      */
     public function setSupplierLocator($SupplierLocator)
     {
@@ -245,7 +245,7 @@ class AirCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param ThirdPartyInformation $ThirdPartyInformation
-     * @return \FilippoToso\Travelport\UniversalRecord\AirCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\AirCreateReservationReq
      */
     public function setThirdPartyInformation($ThirdPartyInformation)
     {
@@ -263,7 +263,7 @@ class AirCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param PointOfSale $PointOfSale
-     * @return \FilippoToso\Travelport\UniversalRecord\AirCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\AirCreateReservationReq
      */
     public function setPointOfSale($PointOfSale)
     {
@@ -281,7 +281,7 @@ class AirCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param AirPricingSolution $AirPricingSolution
-     * @return \FilippoToso\Travelport\UniversalRecord\AirCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\AirCreateReservationReq
      */
     public function setAirPricingSolution($AirPricingSolution)
     {
@@ -299,7 +299,7 @@ class AirCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param ActionStatus $ActionStatus
-     * @return \FilippoToso\Travelport\UniversalRecord\AirCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\AirCreateReservationReq
      */
     public function setActionStatus($ActionStatus)
     {
@@ -317,7 +317,7 @@ class AirCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param Payment $Payment
-     * @return \FilippoToso\Travelport\UniversalRecord\AirCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\AirCreateReservationReq
      */
     public function setPayment($Payment)
     {
@@ -335,7 +335,7 @@ class AirCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param DeliveryInfo $DeliveryInfo
-     * @return \FilippoToso\Travelport\UniversalRecord\AirCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\AirCreateReservationReq
      */
     public function setDeliveryInfo($DeliveryInfo)
     {
@@ -353,7 +353,7 @@ class AirCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param AutoSeatAssignment $AutoSeatAssignment
-     * @return \FilippoToso\Travelport\UniversalRecord\AirCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\AirCreateReservationReq
      */
     public function setAutoSeatAssignment($AutoSeatAssignment)
     {
@@ -371,7 +371,7 @@ class AirCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param SpecificSeatAssignment $SpecificSeatAssignment
-     * @return \FilippoToso\Travelport\UniversalRecord\AirCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\AirCreateReservationReq
      */
     public function setSpecificSeatAssignment($SpecificSeatAssignment)
     {
@@ -389,7 +389,7 @@ class AirCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param AssociatedRemark $AssociatedRemark
-     * @return \FilippoToso\Travelport\UniversalRecord\AirCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\AirCreateReservationReq
      */
     public function setAssociatedRemark($AssociatedRemark)
     {
@@ -407,7 +407,7 @@ class AirCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param PocketItineraryRemark $PocketItineraryRemark
-     * @return \FilippoToso\Travelport\UniversalRecord\AirCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\AirCreateReservationReq
      */
     public function setPocketItineraryRemark($PocketItineraryRemark)
     {
@@ -425,7 +425,7 @@ class AirCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param ReviewBooking $ReviewBooking
-     * @return \FilippoToso\Travelport\UniversalRecord\AirCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\AirCreateReservationReq
      */
     public function setReviewBooking($ReviewBooking)
     {
@@ -443,7 +443,7 @@ class AirCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param AirPricingTicketingModifiers $AirPricingTicketingModifiers
-     * @return \FilippoToso\Travelport\UniversalRecord\AirCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\AirCreateReservationReq
      */
     public function setAirPricingTicketingModifiers($AirPricingTicketingModifiers)
     {
@@ -461,7 +461,7 @@ class AirCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param typeRetainReservation $RetainReservation
-     * @return \FilippoToso\Travelport\UniversalRecord\AirCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\AirCreateReservationReq
      */
     public function setRetainReservation($RetainReservation)
     {
@@ -479,7 +479,7 @@ class AirCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param anonymous1520 $Source
-     * @return \FilippoToso\Travelport\UniversalRecord\AirCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\AirCreateReservationReq
      */
     public function setSource($Source)
     {
@@ -497,7 +497,7 @@ class AirCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param boolean $OverrideMCT
-     * @return \FilippoToso\Travelport\UniversalRecord\AirCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\AirCreateReservationReq
      */
     public function setOverrideMCT($OverrideMCT)
     {
@@ -515,7 +515,7 @@ class AirCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param boolean $RestrictWaitlist
-     * @return \FilippoToso\Travelport\UniversalRecord\AirCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\AirCreateReservationReq
      */
     public function setRestrictWaitlist($RestrictWaitlist)
     {
@@ -533,7 +533,7 @@ class AirCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param boolean $CreatePassiveForHold
-     * @return \FilippoToso\Travelport\UniversalRecord\AirCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\AirCreateReservationReq
      */
     public function setCreatePassiveForHold($CreatePassiveForHold)
     {
@@ -551,7 +551,7 @@ class AirCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param anonymous1521 $ChannelId
-     * @return \FilippoToso\Travelport\UniversalRecord\AirCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\AirCreateReservationReq
      */
     public function setChannelId($ChannelId)
     {
@@ -569,7 +569,7 @@ class AirCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param anonymous1522 $NSCC
-     * @return \FilippoToso\Travelport\UniversalRecord\AirCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\AirCreateReservationReq
      */
     public function setNSCC($NSCC)
     {
@@ -587,7 +587,7 @@ class AirCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param anonymous1523 $CheckPriceVarianceType
-     * @return \FilippoToso\Travelport\UniversalRecord\AirCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\AirCreateReservationReq
      */
     public function setCheckPriceVarianceType($CheckPriceVarianceType)
     {
@@ -605,7 +605,7 @@ class AirCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param float $CheckPriceVarianceValue
-     * @return \FilippoToso\Travelport\UniversalRecord\AirCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\AirCreateReservationReq
      */
     public function setCheckPriceVarianceValue($CheckPriceVarianceValue)
     {
@@ -623,7 +623,7 @@ class AirCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param boolean $SplitReservation
-     * @return \FilippoToso\Travelport\UniversalRecord\AirCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\AirCreateReservationReq
      */
     public function setSplitReservation($SplitReservation)
     {
@@ -641,7 +641,7 @@ class AirCreateReservationReq extends BaseCreateWithFormOfPaymentReq
 
     /**
      * @param boolean $PreferCompleteItinerary
-     * @return \FilippoToso\Travelport\UniversalRecord\AirCreateReservationReq
+     * @return \Santosdave\Travelport\UniversalRecord\AirCreateReservationReq
      */
     public function setPreferCompleteItinerary($PreferCompleteItinerary)
     {

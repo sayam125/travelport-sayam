@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class HotelReservationCriteria
 {
@@ -61,7 +61,7 @@ class HotelReservationCriteria
 
     /**
      * @param typeDateSpec $CheckInDate
-     * @return \FilippoToso\Travelport\GDSQueue\HotelReservationCriteria
+     * @return \Santosdave\Travelport\GDSQueue\HotelReservationCriteria
      */
     public function setCheckInDate($CheckInDate)
     {
@@ -79,7 +79,7 @@ class HotelReservationCriteria
 
     /**
      * @param typeHotelChainCode $HotelChainCode
-     * @return \FilippoToso\Travelport\GDSQueue\HotelReservationCriteria
+     * @return \Santosdave\Travelport\GDSQueue\HotelReservationCriteria
      */
     public function setHotelChainCode($HotelChainCode)
     {
@@ -97,7 +97,7 @@ class HotelReservationCriteria
 
     /**
      * @param typeHotelCode $HotelCode
-     * @return \FilippoToso\Travelport\GDSQueue\HotelReservationCriteria
+     * @return \Santosdave\Travelport\GDSQueue\HotelReservationCriteria
      */
     public function setHotelCode($HotelCode)
     {
@@ -115,7 +115,7 @@ class HotelReservationCriteria
 
     /**
      * @param string $HotelConfirmation
-     * @return \FilippoToso\Travelport\GDSQueue\HotelReservationCriteria
+     * @return \Santosdave\Travelport\GDSQueue\HotelReservationCriteria
      */
     public function setHotelConfirmation($HotelConfirmation)
     {
@@ -133,7 +133,7 @@ class HotelReservationCriteria
 
     /**
      * @param typeIATACode $Location
-     * @return \FilippoToso\Travelport\GDSQueue\HotelReservationCriteria
+     * @return \Santosdave\Travelport\GDSQueue\HotelReservationCriteria
      */
     public function setLocation($Location)
     {
@@ -151,7 +151,7 @@ class HotelReservationCriteria
 
     /**
      * @param boolean $PassiveOnly
-     * @return \FilippoToso\Travelport\GDSQueue\HotelReservationCriteria
+     * @return \Santosdave\Travelport\GDSQueue\HotelReservationCriteria
      */
     public function setPassiveOnly($PassiveOnly)
     {

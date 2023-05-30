@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class BaseCoreSearchReq extends BaseCoreReq
 {
@@ -38,7 +38,7 @@ class BaseCoreSearchReq extends BaseCoreReq
 
     /**
      * @param NextResultReference $NextResultReference
-     * @return \FilippoToso\Travelport\GDSQueue\BaseCoreSearchReq
+     * @return \Santosdave\Travelport\GDSQueue\BaseCoreSearchReq
      */
     public function setNextResultReference($NextResultReference)
     {

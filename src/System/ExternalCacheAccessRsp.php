@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\System;
+namespace Santosdave\Travelport\System;
 
 class ExternalCacheAccessRsp extends BaseRsp
 {
@@ -32,7 +32,7 @@ class ExternalCacheAccessRsp extends BaseRsp
 
     /**
      * @param CacheEntry[] $CacheEntry
-     * @return \FilippoToso\Travelport\System\ExternalCacheAccessRsp
+     * @return \Santosdave\Travelport\System\ExternalCacheAccessRsp
      */
     public function setCacheEntry(array $CacheEntry = null)
     {

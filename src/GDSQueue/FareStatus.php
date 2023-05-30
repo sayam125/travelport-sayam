@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class FareStatus
 {
@@ -35,7 +35,7 @@ class FareStatus
 
     /**
      * @param FareStatusFailureInfo $FareStatusFailureInfo
-     * @return \FilippoToso\Travelport\GDSQueue\FareStatus
+     * @return \Santosdave\Travelport\GDSQueue\FareStatus
      */
     public function setFareStatusFailureInfo($FareStatusFailureInfo)
     {
@@ -53,7 +53,7 @@ class FareStatus
 
     /**
      * @param typeFareStatusCode $Code
-     * @return \FilippoToso\Travelport\GDSQueue\FareStatus
+     * @return \Santosdave\Travelport\GDSQueue\FareStatus
      */
     public function setCode($Code)
     {

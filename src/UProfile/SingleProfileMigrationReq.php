@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class SingleProfileMigrationReq extends BaseReq
 {
@@ -68,7 +68,7 @@ class SingleProfileMigrationReq extends BaseReq
 
     /**
      * @param StringLength1to10 $ExternalSystem
-     * @return \FilippoToso\Travelport\UProfile\SingleProfileMigrationReq
+     * @return \Santosdave\Travelport\UProfile\SingleProfileMigrationReq
      */
     public function setExternalSystem($ExternalSystem)
     {
@@ -86,7 +86,7 @@ class SingleProfileMigrationReq extends BaseReq
 
     /**
      * @param typeProfileType $ProfileType
-     * @return \FilippoToso\Travelport\UProfile\SingleProfileMigrationReq
+     * @return \Santosdave\Travelport\UProfile\SingleProfileMigrationReq
      */
     public function setProfileType($ProfileType)
     {
@@ -104,7 +104,7 @@ class SingleProfileMigrationReq extends BaseReq
 
     /**
      * @param typePCC $PCC
-     * @return \FilippoToso\Travelport\UProfile\SingleProfileMigrationReq
+     * @return \Santosdave\Travelport\UProfile\SingleProfileMigrationReq
      */
     public function setPCC($PCC)
     {
@@ -122,7 +122,7 @@ class SingleProfileMigrationReq extends BaseReq
 
     /**
      * @param StringLength1to50 $AccountProfileTitle
-     * @return \FilippoToso\Travelport\UProfile\SingleProfileMigrationReq
+     * @return \Santosdave\Travelport\UProfile\SingleProfileMigrationReq
      */
     public function setAccountProfileTitle($AccountProfileTitle)
     {
@@ -140,7 +140,7 @@ class SingleProfileMigrationReq extends BaseReq
 
     /**
      * @param StringLength1to50 $TravelerProfileTitle
-     * @return \FilippoToso\Travelport\UProfile\SingleProfileMigrationReq
+     * @return \Santosdave\Travelport\UProfile\SingleProfileMigrationReq
      */
     public function setTravelerProfileTitle($TravelerProfileTitle)
     {

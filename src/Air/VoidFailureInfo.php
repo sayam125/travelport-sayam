@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class VoidFailureInfo
 {
@@ -42,7 +42,7 @@ class VoidFailureInfo
 
     /**
      * @param string $_
-     * @return \FilippoToso\Travelport\Air\VoidFailureInfo
+     * @return \Santosdave\Travelport\Air\VoidFailureInfo
      */
     public function set_($_)
     {
@@ -60,7 +60,7 @@ class VoidFailureInfo
 
     /**
      * @param string $TicketNumber
-     * @return \FilippoToso\Travelport\Air\VoidFailureInfo
+     * @return \Santosdave\Travelport\Air\VoidFailureInfo
      */
     public function setTicketNumber($TicketNumber)
     {
@@ -78,7 +78,7 @@ class VoidFailureInfo
 
     /**
      * @param int $Code
-     * @return \FilippoToso\Travelport\Air\VoidFailureInfo
+     * @return \Santosdave\Travelport\Air\VoidFailureInfo
      */
     public function setCode($Code)
     {

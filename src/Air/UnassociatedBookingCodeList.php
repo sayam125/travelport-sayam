@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class UnassociatedBookingCodeList
 {
@@ -26,7 +26,7 @@ class UnassociatedBookingCodeList
 
     /**
      * @param typeApplicableSegment[] $ApplicableSegment
-     * @return \FilippoToso\Travelport\Air\UnassociatedBookingCodeList
+     * @return \Santosdave\Travelport\Air\UnassociatedBookingCodeList
      */
     public function setApplicableSegment(array $ApplicableSegment = null)
     {

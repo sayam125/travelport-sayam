@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class ContractCode
 {
@@ -49,7 +49,7 @@ class ContractCode
 
     /**
      * @param anonymous886 $Code
-     * @return \FilippoToso\Travelport\Air\ContractCode
+     * @return \Santosdave\Travelport\Air\ContractCode
      */
     public function setCode($Code)
     {
@@ -67,7 +67,7 @@ class ContractCode
 
     /**
      * @param string $CompanyName
-     * @return \FilippoToso\Travelport\Air\ContractCode
+     * @return \Santosdave\Travelport\Air\ContractCode
      */
     public function setCompanyName($CompanyName)
     {
@@ -85,7 +85,7 @@ class ContractCode
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\Air\ContractCode
+     * @return \Santosdave\Travelport\Air\ContractCode
      */
     public function setProviderCode($ProviderCode)
     {
@@ -103,7 +103,7 @@ class ContractCode
 
     /**
      * @param typeSupplierCode $SupplierCode
-     * @return \FilippoToso\Travelport\Air\ContractCode
+     * @return \Santosdave\Travelport\Air\ContractCode
      */
     public function setSupplierCode($SupplierCode)
     {

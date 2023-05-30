@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class ServiceGroup
 {
@@ -35,7 +35,7 @@ class ServiceGroup
 
     /**
      * @param ServiceSubGroup $ServiceSubGroup
-     * @return \FilippoToso\Travelport\Air\ServiceGroup
+     * @return \Santosdave\Travelport\Air\ServiceGroup
      */
     public function setServiceSubGroup($ServiceSubGroup)
     {
@@ -53,7 +53,7 @@ class ServiceGroup
 
     /**
      * @param string $Code
-     * @return \FilippoToso\Travelport\Air\ServiceGroup
+     * @return \Santosdave\Travelport\Air\ServiceGroup
      */
     public function setCode($Code)
     {

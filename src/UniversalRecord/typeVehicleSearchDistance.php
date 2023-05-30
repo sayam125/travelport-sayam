@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class typeVehicleSearchDistance
 {
@@ -49,7 +49,7 @@ class typeVehicleSearchDistance
 
     /**
      * @param typeDistance $Units
-     * @return \FilippoToso\Travelport\UniversalRecord\typeVehicleSearchDistance
+     * @return \Santosdave\Travelport\UniversalRecord\typeVehicleSearchDistance
      */
     public function setUnits($Units)
     {
@@ -67,7 +67,7 @@ class typeVehicleSearchDistance
 
     /**
      * @param anonymous1103 $Direction
-     * @return \FilippoToso\Travelport\UniversalRecord\typeVehicleSearchDistance
+     * @return \Santosdave\Travelport\UniversalRecord\typeVehicleSearchDistance
      */
     public function setDirection($Direction)
     {
@@ -85,7 +85,7 @@ class typeVehicleSearchDistance
 
     /**
      * @param anonymous1104 $MinDistance
-     * @return \FilippoToso\Travelport\UniversalRecord\typeVehicleSearchDistance
+     * @return \Santosdave\Travelport\UniversalRecord\typeVehicleSearchDistance
      */
     public function setMinDistance($MinDistance)
     {
@@ -103,7 +103,7 @@ class typeVehicleSearchDistance
 
     /**
      * @param anonymous1105 $MaxDistance
-     * @return \FilippoToso\Travelport\UniversalRecord\typeVehicleSearchDistance
+     * @return \Santosdave\Travelport\UniversalRecord\typeVehicleSearchDistance
      */
     public function setMaxDistance($MaxDistance)
     {

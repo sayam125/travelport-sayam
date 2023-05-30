@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class DocumentRequired
 {
@@ -49,7 +49,7 @@ class DocumentRequired
 
     /**
      * @param string $DocType
-     * @return \FilippoToso\Travelport\UniversalRecord\DocumentRequired
+     * @return \Santosdave\Travelport\UniversalRecord\DocumentRequired
      */
     public function setDocType($DocType)
     {
@@ -67,7 +67,7 @@ class DocumentRequired
 
     /**
      * @param boolean $IncludeExcludeUseInd
-     * @return \FilippoToso\Travelport\UniversalRecord\DocumentRequired
+     * @return \Santosdave\Travelport\UniversalRecord\DocumentRequired
      */
     public function setIncludeExcludeUseInd($IncludeExcludeUseInd)
     {
@@ -85,7 +85,7 @@ class DocumentRequired
 
     /**
      * @param string $DocId
-     * @return \FilippoToso\Travelport\UniversalRecord\DocumentRequired
+     * @return \Santosdave\Travelport\UniversalRecord\DocumentRequired
      */
     public function setDocId($DocId)
     {
@@ -103,7 +103,7 @@ class DocumentRequired
 
     /**
      * @param string $AllowedIds
-     * @return \FilippoToso\Travelport\UniversalRecord\DocumentRequired
+     * @return \Santosdave\Travelport\UniversalRecord\DocumentRequired
      */
     public function setAllowedIds($AllowedIds)
     {

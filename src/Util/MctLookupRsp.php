@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class MctLookupRsp extends BaseRsp
 {
@@ -41,7 +41,7 @@ class MctLookupRsp extends BaseRsp
 
     /**
      * @param MctStandard $MctStandard
-     * @return \FilippoToso\Travelport\Util\MctLookupRsp
+     * @return \Santosdave\Travelport\Util\MctLookupRsp
      */
     public function setMctStandard($MctStandard)
     {
@@ -59,7 +59,7 @@ class MctLookupRsp extends BaseRsp
 
     /**
      * @param MctException $MctException
-     * @return \FilippoToso\Travelport\Util\MctLookupRsp
+     * @return \Santosdave\Travelport\Util\MctLookupRsp
      */
     public function setMctException($MctException)
     {

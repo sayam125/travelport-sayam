@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class AirReservationLocatorCode
 {
@@ -28,7 +28,7 @@ class AirReservationLocatorCode
 
     /**
      * @param typeLocatorCode $_
-     * @return \FilippoToso\Travelport\GDSQueue\AirReservationLocatorCode
+     * @return \Santosdave\Travelport\GDSQueue\AirReservationLocatorCode
      */
     public function set_($_)
     {

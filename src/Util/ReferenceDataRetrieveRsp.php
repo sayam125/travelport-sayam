@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class ReferenceDataRetrieveRsp extends BaseRsp
 {
@@ -41,7 +41,7 @@ class ReferenceDataRetrieveRsp extends BaseRsp
 
     /**
      * @param ReferenceDataItem $ReferenceDataItem
-     * @return \FilippoToso\Travelport\Util\ReferenceDataRetrieveRsp
+     * @return \Santosdave\Travelport\Util\ReferenceDataRetrieveRsp
      */
     public function setReferenceDataItem($ReferenceDataItem)
     {
@@ -59,7 +59,7 @@ class ReferenceDataRetrieveRsp extends BaseRsp
 
     /**
      * @param typeMoreResults $MoreResults
-     * @return \FilippoToso\Travelport\Util\ReferenceDataRetrieveRsp
+     * @return \Santosdave\Travelport\Util\ReferenceDataRetrieveRsp
      */
     public function setMoreResults($MoreResults)
     {

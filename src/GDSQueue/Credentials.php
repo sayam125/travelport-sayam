@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class Credentials
 {
@@ -28,7 +28,7 @@ class Credentials
 
     /**
      * @param anonymous25 $UserId
-     * @return \FilippoToso\Travelport\GDSQueue\Credentials
+     * @return \Santosdave\Travelport\GDSQueue\Credentials
      */
     public function setUserId($UserId)
     {

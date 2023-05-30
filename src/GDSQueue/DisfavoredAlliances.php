@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class DisfavoredAlliances
 {
@@ -28,7 +28,7 @@ class DisfavoredAlliances
 
     /**
      * @param Alliance $Alliance
-     * @return \FilippoToso\Travelport\GDSQueue\DisfavoredAlliances
+     * @return \Santosdave\Travelport\GDSQueue\DisfavoredAlliances
      */
     public function setAlliance($Alliance)
     {

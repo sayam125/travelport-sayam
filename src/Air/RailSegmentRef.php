@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class RailSegmentRef
 {
@@ -28,7 +28,7 @@ class RailSegmentRef
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Air\RailSegmentRef
+     * @return \Santosdave\Travelport\Air\RailSegmentRef
      */
     public function setKey($Key)
     {

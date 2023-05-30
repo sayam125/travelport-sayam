@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class HotelTransportation
 {
@@ -28,7 +28,7 @@ class HotelTransportation
 
     /**
      * @param typeOTACode $Type
-     * @return \FilippoToso\Travelport\GDSQueue\HotelTransportation
+     * @return \Santosdave\Travelport\GDSQueue\HotelTransportation
      */
     public function setType($Type)
     {

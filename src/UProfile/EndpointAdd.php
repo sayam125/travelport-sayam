@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class EndpointAdd extends typeEditableEndpoint
 {
@@ -32,7 +32,7 @@ class EndpointAdd extends typeEditableEndpoint
 
     /**
      * @param typePurposeTypeCode $PurposeTypeCode
-     * @return \FilippoToso\Travelport\UProfile\EndpointAdd
+     * @return \Santosdave\Travelport\UProfile\EndpointAdd
      */
     public function setPurposeTypeCode($PurposeTypeCode)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class PriceRange
 {
@@ -42,7 +42,7 @@ class PriceRange
 
     /**
      * @param boolean $DefaultCurrency
-     * @return \FilippoToso\Travelport\GDSQueue\PriceRange
+     * @return \Santosdave\Travelport\GDSQueue\PriceRange
      */
     public function setDefaultCurrency($DefaultCurrency)
     {
@@ -60,7 +60,7 @@ class PriceRange
 
     /**
      * @param typeMoney $StartPrice
-     * @return \FilippoToso\Travelport\GDSQueue\PriceRange
+     * @return \Santosdave\Travelport\GDSQueue\PriceRange
      */
     public function setStartPrice($StartPrice)
     {
@@ -78,7 +78,7 @@ class PriceRange
 
     /**
      * @param typeMoney $EndPrice
-     * @return \FilippoToso\Travelport\GDSQueue\PriceRange
+     * @return \Santosdave\Travelport\GDSQueue\PriceRange
      */
     public function setEndPrice($EndPrice)
     {

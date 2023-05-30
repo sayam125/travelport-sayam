@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class Affiliations
 {
@@ -28,7 +28,7 @@ class Affiliations
 
     /**
      * @param TravelArranger $TravelArranger
-     * @return \FilippoToso\Travelport\UniversalRecord\Affiliations
+     * @return \Santosdave\Travelport\UniversalRecord\Affiliations
      */
     public function setTravelArranger($TravelArranger)
     {

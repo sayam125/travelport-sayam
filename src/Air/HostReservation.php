@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class HostReservation
 {
@@ -63,7 +63,7 @@ class HostReservation
 
     /**
      * @param typeCarrier $Carrier
-     * @return \FilippoToso\Travelport\Air\HostReservation
+     * @return \Santosdave\Travelport\Air\HostReservation
      */
     public function setCarrier($Carrier)
     {
@@ -81,7 +81,7 @@ class HostReservation
 
     /**
      * @param typeLocatorCode $CarrierLocatorCode
-     * @return \FilippoToso\Travelport\Air\HostReservation
+     * @return \Santosdave\Travelport\Air\HostReservation
      */
     public function setCarrierLocatorCode($CarrierLocatorCode)
     {
@@ -99,7 +99,7 @@ class HostReservation
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\Air\HostReservation
+     * @return \Santosdave\Travelport\Air\HostReservation
      */
     public function setProviderCode($ProviderCode)
     {
@@ -117,7 +117,7 @@ class HostReservation
 
     /**
      * @param typeProviderLocatorCode $ProviderLocatorCode
-     * @return \FilippoToso\Travelport\Air\HostReservation
+     * @return \Santosdave\Travelport\Air\HostReservation
      */
     public function setProviderLocatorCode($ProviderLocatorCode)
     {
@@ -135,7 +135,7 @@ class HostReservation
 
     /**
      * @param typeLocatorCode $UniversalLocatorCode
-     * @return \FilippoToso\Travelport\Air\HostReservation
+     * @return \Santosdave\Travelport\Air\HostReservation
      */
     public function setUniversalLocatorCode($UniversalLocatorCode)
     {
@@ -153,7 +153,7 @@ class HostReservation
 
     /**
      * @param boolean $ETicket
-     * @return \FilippoToso\Travelport\Air\HostReservation
+     * @return \Santosdave\Travelport\Air\HostReservation
      */
     public function setETicket($ETicket)
     {

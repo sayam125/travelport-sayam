@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class CategoryDetailsType
 {
@@ -33,7 +33,7 @@ class CategoryDetailsType
 
     /**
      * @param ValueDetails[] $CategoryDetails
-     * @return \FilippoToso\Travelport\GDSQueue\CategoryDetailsType
+     * @return \Santosdave\Travelport\GDSQueue\CategoryDetailsType
      */
     public function setCategoryDetails(array $CategoryDetails = null)
     {
@@ -51,7 +51,7 @@ class CategoryDetailsType
 
     /**
      * @param string $Value
-     * @return \FilippoToso\Travelport\GDSQueue\CategoryDetailsType
+     * @return \Santosdave\Travelport\GDSQueue\CategoryDetailsType
      */
     public function setValue($Value)
     {

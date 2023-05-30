@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class ProfileModifyReq extends BaseReq
 {
@@ -82,7 +82,7 @@ class ProfileModifyReq extends BaseReq
 
     /**
      * @param typeProfileID $ProfileID
-     * @return \FilippoToso\Travelport\UProfile\ProfileModifyReq
+     * @return \Santosdave\Travelport\UProfile\ProfileModifyReq
      */
     public function setProfileID($ProfileID)
     {
@@ -100,7 +100,7 @@ class ProfileModifyReq extends BaseReq
 
     /**
      * @param ProvisioningCode $ProvisioningCode
-     * @return \FilippoToso\Travelport\UProfile\ProfileModifyReq
+     * @return \Santosdave\Travelport\UProfile\ProfileModifyReq
      */
     public function setProvisioningCode($ProvisioningCode)
     {
@@ -118,7 +118,7 @@ class ProfileModifyReq extends BaseReq
 
     /**
      * @param UniqueProfileID $UniqueProfileID
-     * @return \FilippoToso\Travelport\UProfile\ProfileModifyReq
+     * @return \Santosdave\Travelport\UProfile\ProfileModifyReq
      */
     public function setUniqueProfileID($UniqueProfileID)
     {
@@ -136,7 +136,7 @@ class ProfileModifyReq extends BaseReq
 
     /**
      * @param ProfileModifyCmd $ProfileModifyCmd
-     * @return \FilippoToso\Travelport\UProfile\ProfileModifyReq
+     * @return \Santosdave\Travelport\UProfile\ProfileModifyReq
      */
     public function setProfileModifyCmd($ProfileModifyCmd)
     {
@@ -154,7 +154,7 @@ class ProfileModifyReq extends BaseReq
 
     /**
      * @param typeVersion $Version
-     * @return \FilippoToso\Travelport\UProfile\ProfileModifyReq
+     * @return \Santosdave\Travelport\UProfile\ProfileModifyReq
      */
     public function setVersion($Version)
     {
@@ -172,7 +172,7 @@ class ProfileModifyReq extends BaseReq
 
     /**
      * @param boolean $ReturnProfile
-     * @return \FilippoToso\Travelport\UProfile\ProfileModifyReq
+     * @return \Santosdave\Travelport\UProfile\ProfileModifyReq
      */
     public function setReturnProfile($ReturnProfile)
     {
@@ -190,7 +190,7 @@ class ProfileModifyReq extends BaseReq
 
     /**
      * @param boolean $ShowDataUnmasked
-     * @return \FilippoToso\Travelport\UProfile\ProfileModifyReq
+     * @return \Santosdave\Travelport\UProfile\ProfileModifyReq
      */
     public function setShowDataUnmasked($ShowDataUnmasked)
     {

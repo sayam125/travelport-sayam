@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class PropertyDescription
 {
@@ -35,7 +35,7 @@ class PropertyDescription
 
     /**
      * @param string $_
-     * @return \FilippoToso\Travelport\GDSQueue\PropertyDescription
+     * @return \Santosdave\Travelport\GDSQueue\PropertyDescription
      */
     public function set_($_)
     {
@@ -53,7 +53,7 @@ class PropertyDescription
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\GDSQueue\PropertyDescription
+     * @return \Santosdave\Travelport\GDSQueue\PropertyDescription
      */
     public function setProviderCode($ProviderCode)
     {

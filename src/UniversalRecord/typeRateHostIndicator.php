@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class typeRateHostIndicator
 {
@@ -35,7 +35,7 @@ class typeRateHostIndicator
 
     /**
      * @param string $InventoryToken
-     * @return \FilippoToso\Travelport\UniversalRecord\typeRateHostIndicator
+     * @return \Santosdave\Travelport\UniversalRecord\typeRateHostIndicator
      */
     public function setInventoryToken($InventoryToken)
     {
@@ -53,7 +53,7 @@ class typeRateHostIndicator
 
     /**
      * @param string $RateToken
-     * @return \FilippoToso\Travelport\UniversalRecord\typeRateHostIndicator
+     * @return \Santosdave\Travelport\UniversalRecord\typeRateHostIndicator
      */
     public function setRateToken($RateToken)
     {

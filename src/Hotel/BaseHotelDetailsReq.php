@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class BaseHotelDetailsReq extends BaseReq
 {
@@ -54,7 +54,7 @@ class BaseHotelDetailsReq extends BaseReq
 
     /**
      * @param HotelProperty $HotelProperty
-     * @return \FilippoToso\Travelport\Hotel\BaseHotelDetailsReq
+     * @return \Santosdave\Travelport\Hotel\BaseHotelDetailsReq
      */
     public function setHotelProperty($HotelProperty)
     {
@@ -72,7 +72,7 @@ class BaseHotelDetailsReq extends BaseReq
 
     /**
      * @param HotelDetailsModifiers $HotelDetailsModifiers
-     * @return \FilippoToso\Travelport\Hotel\BaseHotelDetailsReq
+     * @return \Santosdave\Travelport\Hotel\BaseHotelDetailsReq
      */
     public function setHotelDetailsModifiers($HotelDetailsModifiers)
     {
@@ -90,7 +90,7 @@ class BaseHotelDetailsReq extends BaseReq
 
     /**
      * @param PointOfSale $PointOfSale
-     * @return \FilippoToso\Travelport\Hotel\BaseHotelDetailsReq
+     * @return \Santosdave\Travelport\Hotel\BaseHotelDetailsReq
      */
     public function setPointOfSale($PointOfSale)
     {

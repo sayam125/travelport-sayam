@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class TotalReservationPrice
 {
@@ -40,7 +40,7 @@ class TotalReservationPrice
 
     /**
      * @param typeHotelRateDescription[] $RoomRateDescription
-     * @return \FilippoToso\Travelport\GDSQueue\TotalReservationPrice
+     * @return \Santosdave\Travelport\GDSQueue\TotalReservationPrice
      */
     public function setRoomRateDescription(array $RoomRateDescription = null)
     {
@@ -58,7 +58,7 @@ class TotalReservationPrice
 
     /**
      * @param typeMoney $TotalPrice
-     * @return \FilippoToso\Travelport\GDSQueue\TotalReservationPrice
+     * @return \Santosdave\Travelport\GDSQueue\TotalReservationPrice
      */
     public function setTotalPrice($TotalPrice)
     {
@@ -76,7 +76,7 @@ class TotalReservationPrice
 
     /**
      * @param typeMoney $ApproxTotalPrice
-     * @return \FilippoToso\Travelport\GDSQueue\TotalReservationPrice
+     * @return \Santosdave\Travelport\GDSQueue\TotalReservationPrice
      */
     public function setApproxTotalPrice($ApproxTotalPrice)
     {

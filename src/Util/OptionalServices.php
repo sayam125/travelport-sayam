@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class OptionalServices
 {
@@ -45,7 +45,7 @@ class OptionalServices
 
     /**
      * @param OptionalServicesTotal $OptionalServicesTotal
-     * @return \FilippoToso\Travelport\Util\OptionalServices
+     * @return \Santosdave\Travelport\Util\OptionalServices
      */
     public function setOptionalServicesTotal($OptionalServicesTotal)
     {
@@ -63,7 +63,7 @@ class OptionalServices
 
     /**
      * @param OptionalService $OptionalService
-     * @return \FilippoToso\Travelport\Util\OptionalServices
+     * @return \Santosdave\Travelport\Util\OptionalServices
      */
     public function setOptionalService($OptionalService)
     {
@@ -81,7 +81,7 @@ class OptionalServices
 
     /**
      * @param GroupedOptionInfo $GroupedOptionInfo
-     * @return \FilippoToso\Travelport\Util\OptionalServices
+     * @return \Santosdave\Travelport\Util\OptionalServices
      */
     public function setGroupedOptionInfo($GroupedOptionInfo)
     {
@@ -99,7 +99,7 @@ class OptionalServices
 
     /**
      * @param ServiceRuleType[] $OptionalServiceRules
-     * @return \FilippoToso\Travelport\Util\OptionalServices
+     * @return \Santosdave\Travelport\Util\OptionalServices
      */
     public function setOptionalServiceRules(array $OptionalServiceRules = null)
     {

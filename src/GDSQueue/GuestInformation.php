@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class GuestInformation
 {
@@ -47,7 +47,7 @@ class GuestInformation
 
     /**
      * @param NumberOfAdults $NumberOfAdults
-     * @return \FilippoToso\Travelport\GDSQueue\GuestInformation
+     * @return \Santosdave\Travelport\GDSQueue\GuestInformation
      */
     public function setNumberOfAdults($NumberOfAdults)
     {
@@ -65,7 +65,7 @@ class GuestInformation
 
     /**
      * @param NumberOfChildren $NumberOfChildren
-     * @return \FilippoToso\Travelport\GDSQueue\GuestInformation
+     * @return \Santosdave\Travelport\GDSQueue\GuestInformation
      */
     public function setNumberOfChildren($NumberOfChildren)
     {
@@ -83,7 +83,7 @@ class GuestInformation
 
     /**
      * @param ExtraChild $ExtraChild
-     * @return \FilippoToso\Travelport\GDSQueue\GuestInformation
+     * @return \Santosdave\Travelport\GDSQueue\GuestInformation
      */
     public function setExtraChild($ExtraChild)
     {
@@ -101,7 +101,7 @@ class GuestInformation
 
     /**
      * @param int $NumberOfRooms
-     * @return \FilippoToso\Travelport\GDSQueue\GuestInformation
+     * @return \Santosdave\Travelport\GDSQueue\GuestInformation
      */
     public function setNumberOfRooms($NumberOfRooms)
     {

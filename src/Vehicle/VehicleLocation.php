@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Vehicle;
+namespace Santosdave\Travelport\Vehicle;
 
 class VehicleLocation
 {
@@ -49,7 +49,7 @@ class VehicleLocation
 
     /**
      * @param VendorLocation $VendorLocation
-     * @return \FilippoToso\Travelport\Vehicle\VehicleLocation
+     * @return \Santosdave\Travelport\Vehicle\VehicleLocation
      */
     public function setVendorLocation($VendorLocation)
     {
@@ -67,7 +67,7 @@ class VehicleLocation
 
     /**
      * @param Distance $Distance
-     * @return \FilippoToso\Travelport\Vehicle\VehicleLocation
+     * @return \Santosdave\Travelport\Vehicle\VehicleLocation
      */
     public function setDistance($Distance)
     {
@@ -85,7 +85,7 @@ class VehicleLocation
 
     /**
      * @param CoordinateLocation $CoordinateLocation
-     * @return \FilippoToso\Travelport\Vehicle\VehicleLocation
+     * @return \Santosdave\Travelport\Vehicle\VehicleLocation
      */
     public function setCoordinateLocation($CoordinateLocation)
     {
@@ -103,7 +103,7 @@ class VehicleLocation
 
     /**
      * @param LocationInformation $LocationInformation
-     * @return \FilippoToso\Travelport\Vehicle\VehicleLocation
+     * @return \Santosdave\Travelport\Vehicle\VehicleLocation
      */
     public function setLocationInformation($LocationInformation)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class MerchandisingAvailabilityDetails
 {
@@ -35,7 +35,7 @@ class MerchandisingAvailabilityDetails
 
     /**
      * @param AirItineraryDetails $AirItineraryDetails
-     * @return \FilippoToso\Travelport\Util\MerchandisingAvailabilityDetails
+     * @return \Santosdave\Travelport\Util\MerchandisingAvailabilityDetails
      */
     public function setAirItineraryDetails($AirItineraryDetails)
     {
@@ -53,7 +53,7 @@ class MerchandisingAvailabilityDetails
 
     /**
      * @param AccountCode $AccountCode
-     * @return \FilippoToso\Travelport\Util\MerchandisingAvailabilityDetails
+     * @return \Santosdave\Travelport\Util\MerchandisingAvailabilityDetails
      */
     public function setAccountCode($AccountCode)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class Criteria
 {
@@ -35,7 +35,7 @@ class Criteria
 
     /**
      * @param anonymous572 $Order
-     * @return \FilippoToso\Travelport\Hotel\Criteria
+     * @return \Santosdave\Travelport\Hotel\Criteria
      */
     public function setOrder($Order)
     {
@@ -53,7 +53,7 @@ class Criteria
 
     /**
      * @param anonymous573 $Type
-     * @return \FilippoToso\Travelport\Hotel\Criteria
+     * @return \Santosdave\Travelport\Hotel\Criteria
      */
     public function setType($Type)
     {

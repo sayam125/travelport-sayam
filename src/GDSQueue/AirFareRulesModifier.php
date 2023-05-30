@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class AirFareRulesModifier
 {
@@ -28,7 +28,7 @@ class AirFareRulesModifier
 
     /**
      * @param AirFareRuleCategory $AirFareRuleCategory
-     * @return \FilippoToso\Travelport\GDSQueue\AirFareRulesModifier
+     * @return \Santosdave\Travelport\GDSQueue\AirFareRulesModifier
      */
     public function setAirFareRuleCategory($AirFareRuleCategory)
     {

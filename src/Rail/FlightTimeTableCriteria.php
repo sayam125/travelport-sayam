@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class FlightTimeTableCriteria
 {
@@ -35,7 +35,7 @@ class FlightTimeTableCriteria
 
     /**
      * @param GeneralTimeTable $GeneralTimeTable
-     * @return \FilippoToso\Travelport\Rail\FlightTimeTableCriteria
+     * @return \Santosdave\Travelport\Rail\FlightTimeTableCriteria
      */
     public function setGeneralTimeTable($GeneralTimeTable)
     {
@@ -53,7 +53,7 @@ class FlightTimeTableCriteria
 
     /**
      * @param SpecificTimeTable $SpecificTimeTable
-     * @return \FilippoToso\Travelport\Rail\FlightTimeTableCriteria
+     * @return \Santosdave\Travelport\Rail\FlightTimeTableCriteria
      */
     public function setSpecificTimeTable($SpecificTimeTable)
     {

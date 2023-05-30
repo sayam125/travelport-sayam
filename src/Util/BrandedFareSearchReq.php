@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class BrandedFareSearchReq extends BaseReq
 {
@@ -47,7 +47,7 @@ class BrandedFareSearchReq extends BaseReq
 
     /**
      * @param FareFamilyCriteria $FareFamilyCriteria
-     * @return \FilippoToso\Travelport\Util\BrandedFareSearchReq
+     * @return \Santosdave\Travelport\Util\BrandedFareSearchReq
      */
     public function setFareFamilyCriteria($FareFamilyCriteria)
     {
@@ -65,7 +65,7 @@ class BrandedFareSearchReq extends BaseReq
 
     /**
      * @param BrandedFareSearchModifier $BrandedFareSearchModifier
-     * @return \FilippoToso\Travelport\Util\BrandedFareSearchReq
+     * @return \Santosdave\Travelport\Util\BrandedFareSearchReq
      */
     public function setBrandedFareSearchModifier($BrandedFareSearchModifier)
     {

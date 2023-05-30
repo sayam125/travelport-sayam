@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class BaggageAllowanceInfo extends BaseBaggageAllowanceInfo
 {
@@ -48,7 +48,7 @@ class BaggageAllowanceInfo extends BaseBaggageAllowanceInfo
 
     /**
      * @param BagDetails $BagDetails
-     * @return \FilippoToso\Travelport\Air\BaggageAllowanceInfo
+     * @return \Santosdave\Travelport\Air\BaggageAllowanceInfo
      */
     public function setBagDetails($BagDetails)
     {
@@ -66,7 +66,7 @@ class BaggageAllowanceInfo extends BaseBaggageAllowanceInfo
 
     /**
      * @param typePTC $TravelerType
-     * @return \FilippoToso\Travelport\Air\BaggageAllowanceInfo
+     * @return \Santosdave\Travelport\Air\BaggageAllowanceInfo
      */
     public function setTravelerType($TravelerType)
     {
@@ -84,7 +84,7 @@ class BaggageAllowanceInfo extends BaseBaggageAllowanceInfo
 
     /**
      * @param typeRef $FareInfoRef
-     * @return \FilippoToso\Travelport\Air\BaggageAllowanceInfo
+     * @return \Santosdave\Travelport\Air\BaggageAllowanceInfo
      */
     public function setFareInfoRef($FareInfoRef)
     {

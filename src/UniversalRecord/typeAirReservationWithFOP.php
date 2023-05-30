@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class typeAirReservationWithFOP extends typeBaseAirReservation
 {
@@ -55,7 +55,7 @@ class typeAirReservationWithFOP extends typeBaseAirReservation
 
     /**
      * @param FormOfPayment $FormOfPayment
-     * @return \FilippoToso\Travelport\UniversalRecord\typeAirReservationWithFOP
+     * @return \Santosdave\Travelport\UniversalRecord\typeAirReservationWithFOP
      */
     public function setFormOfPayment($FormOfPayment)
     {

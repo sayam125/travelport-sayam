@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class ProfileRetrieveHierarchyRsp extends BaseRsp
 {
@@ -34,7 +34,7 @@ class ProfileRetrieveHierarchyRsp extends BaseRsp
 
     /**
      * @param HierarchyLevel $HierarchyLevel
-     * @return \FilippoToso\Travelport\UProfile\ProfileRetrieveHierarchyRsp
+     * @return \Santosdave\Travelport\UProfile\ProfileRetrieveHierarchyRsp
      */
     public function setHierarchyLevel($HierarchyLevel)
     {

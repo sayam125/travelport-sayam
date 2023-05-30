@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class TicketEndorsement
 {
@@ -28,7 +28,7 @@ class TicketEndorsement
 
     /**
      * @param typeEndorsement $Value
-     * @return \FilippoToso\Travelport\Rail\TicketEndorsement
+     * @return \Santosdave\Travelport\Rail\TicketEndorsement
      */
     public function setValue($Value)
     {

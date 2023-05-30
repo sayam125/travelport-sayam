@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class AirDelete
 {
@@ -49,7 +49,7 @@ class AirDelete
 
     /**
      * @param typeLocatorCode $ReservationLocatorCode
-     * @return \FilippoToso\Travelport\GDSQueue\AirDelete
+     * @return \Santosdave\Travelport\GDSQueue\AirDelete
      */
     public function setReservationLocatorCode($ReservationLocatorCode)
     {
@@ -67,7 +67,7 @@ class AirDelete
 
     /**
      * @param typeElement $Element
-     * @return \FilippoToso\Travelport\GDSQueue\AirDelete
+     * @return \Santosdave\Travelport\GDSQueue\AirDelete
      */
     public function setElement($Element)
     {
@@ -85,7 +85,7 @@ class AirDelete
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\GDSQueue\AirDelete
+     * @return \Santosdave\Travelport\GDSQueue\AirDelete
      */
     public function setKey($Key)
     {
@@ -103,7 +103,7 @@ class AirDelete
 
     /**
      * @param typeRef $BookingTravelerRef
-     * @return \FilippoToso\Travelport\GDSQueue\AirDelete
+     * @return \Santosdave\Travelport\GDSQueue\AirDelete
      */
     public function setBookingTravelerRef($BookingTravelerRef)
     {

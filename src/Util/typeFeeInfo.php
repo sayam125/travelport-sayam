@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class typeFeeInfo
 {
@@ -138,7 +138,7 @@ class typeFeeInfo
 
     /**
      * @param TaxInfoRef[] $TaxInfoRef
-     * @return \FilippoToso\Travelport\Util\typeFeeInfo
+     * @return \Santosdave\Travelport\Util\typeFeeInfo
      */
     public function setTaxInfoRef(array $TaxInfoRef = null)
     {
@@ -156,7 +156,7 @@ class typeFeeInfo
 
     /**
      * @param IncludedInBase $IncludedInBase
-     * @return \FilippoToso\Travelport\Util\typeFeeInfo
+     * @return \Santosdave\Travelport\Util\typeFeeInfo
      */
     public function setIncludedInBase($IncludedInBase)
     {
@@ -174,7 +174,7 @@ class typeFeeInfo
 
     /**
      * @param typeMoney $BaseAmount
-     * @return \FilippoToso\Travelport\Util\typeFeeInfo
+     * @return \Santosdave\Travelport\Util\typeFeeInfo
      */
     public function setBaseAmount($BaseAmount)
     {
@@ -192,7 +192,7 @@ class typeFeeInfo
 
     /**
      * @param string $Description
-     * @return \FilippoToso\Travelport\Util\typeFeeInfo
+     * @return \Santosdave\Travelport\Util\typeFeeInfo
      */
     public function setDescription($Description)
     {
@@ -210,7 +210,7 @@ class typeFeeInfo
 
     /**
      * @param string $SubCode
-     * @return \FilippoToso\Travelport\Util\typeFeeInfo
+     * @return \Santosdave\Travelport\Util\typeFeeInfo
      */
     public function setSubCode($SubCode)
     {
@@ -228,7 +228,7 @@ class typeFeeInfo
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Util\typeFeeInfo
+     * @return \Santosdave\Travelport\Util\typeFeeInfo
      */
     public function setKey($Key)
     {
@@ -246,7 +246,7 @@ class typeFeeInfo
 
     /**
      * @param typeMoney $Amount
-     * @return \FilippoToso\Travelport\Util\typeFeeInfo
+     * @return \Santosdave\Travelport\Util\typeFeeInfo
      */
     public function setAmount($Amount)
     {
@@ -264,7 +264,7 @@ class typeFeeInfo
 
     /**
      * @param string $Code
-     * @return \FilippoToso\Travelport\Util\typeFeeInfo
+     * @return \Santosdave\Travelport\Util\typeFeeInfo
      */
     public function setCode($Code)
     {
@@ -282,7 +282,7 @@ class typeFeeInfo
 
     /**
      * @param string $FeeToken
-     * @return \FilippoToso\Travelport\Util\typeFeeInfo
+     * @return \Santosdave\Travelport\Util\typeFeeInfo
      */
     public function setFeeToken($FeeToken)
     {
@@ -300,7 +300,7 @@ class typeFeeInfo
 
     /**
      * @param typeRef $PaymentRef
-     * @return \FilippoToso\Travelport\Util\typeFeeInfo
+     * @return \Santosdave\Travelport\Util\typeFeeInfo
      */
     public function setPaymentRef($PaymentRef)
     {
@@ -318,7 +318,7 @@ class typeFeeInfo
 
     /**
      * @param typeRef $BookingTravelerRef
-     * @return \FilippoToso\Travelport\Util\typeFeeInfo
+     * @return \Santosdave\Travelport\Util\typeFeeInfo
      */
     public function setBookingTravelerRef($BookingTravelerRef)
     {
@@ -336,7 +336,7 @@ class typeFeeInfo
 
     /**
      * @param typePTC $PassengerTypeCode
-     * @return \FilippoToso\Travelport\Util\typeFeeInfo
+     * @return \Santosdave\Travelport\Util\typeFeeInfo
      */
     public function setPassengerTypeCode($PassengerTypeCode)
     {
@@ -354,7 +354,7 @@ class typeFeeInfo
 
     /**
      * @param StringLength1to64 $Text
-     * @return \FilippoToso\Travelport\Util\typeFeeInfo
+     * @return \Santosdave\Travelport\Util\typeFeeInfo
      */
     public function setText($Text)
     {
@@ -372,7 +372,7 @@ class typeFeeInfo
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\Util\typeFeeInfo
+     * @return \Santosdave\Travelport\Util\typeFeeInfo
      */
     public function setProviderCode($ProviderCode)
     {
@@ -390,7 +390,7 @@ class typeFeeInfo
 
     /**
      * @param typeSupplierCode $SupplierCode
-     * @return \FilippoToso\Travelport\Util\typeFeeInfo
+     * @return \Santosdave\Travelport\Util\typeFeeInfo
      */
     public function setSupplierCode($SupplierCode)
     {
@@ -408,7 +408,7 @@ class typeFeeInfo
 
     /**
      * @param typeElementStatus $ElStat
-     * @return \FilippoToso\Travelport\Util\typeFeeInfo
+     * @return \Santosdave\Travelport\Util\typeFeeInfo
      */
     public function setElStat($ElStat)
     {
@@ -426,7 +426,7 @@ class typeFeeInfo
 
     /**
      * @param boolean $KeyOverride
-     * @return \FilippoToso\Travelport\Util\typeFeeInfo
+     * @return \Santosdave\Travelport\Util\typeFeeInfo
      */
     public function setKeyOverride($KeyOverride)
     {

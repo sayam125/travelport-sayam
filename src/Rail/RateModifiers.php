@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class RateModifiers
 {
@@ -63,7 +63,7 @@ class RateModifiers
 
     /**
      * @param typeRateCode $RateCode
-     * @return \FilippoToso\Travelport\Rail\RateModifiers
+     * @return \Santosdave\Travelport\Rail\RateModifiers
      */
     public function setRateCode($RateCode)
     {
@@ -81,7 +81,7 @@ class RateModifiers
 
     /**
      * @param typeDiscountNumber $DiscountNumber
-     * @return \FilippoToso\Travelport\Rail\RateModifiers
+     * @return \Santosdave\Travelport\Rail\RateModifiers
      */
     public function setDiscountNumber($DiscountNumber)
     {
@@ -99,7 +99,7 @@ class RateModifiers
 
     /**
      * @param typeSupplierCode $VendorCode
-     * @return \FilippoToso\Travelport\Rail\RateModifiers
+     * @return \Santosdave\Travelport\Rail\RateModifiers
      */
     public function setVendorCode($VendorCode)
     {
@@ -117,7 +117,7 @@ class RateModifiers
 
     /**
      * @param string $PromotionalCode
-     * @return \FilippoToso\Travelport\Rail\RateModifiers
+     * @return \Santosdave\Travelport\Rail\RateModifiers
      */
     public function setPromotionalCode($PromotionalCode)
     {
@@ -135,7 +135,7 @@ class RateModifiers
 
     /**
      * @param string $VendorLocationRef
-     * @return \FilippoToso\Travelport\Rail\RateModifiers
+     * @return \Santosdave\Travelport\Rail\RateModifiers
      */
     public function setVendorLocationRef($VendorLocationRef)
     {
@@ -153,7 +153,7 @@ class RateModifiers
 
     /**
      * @param string $TourCode
-     * @return \FilippoToso\Travelport\Rail\RateModifiers
+     * @return \Santosdave\Travelport\Rail\RateModifiers
      */
     public function setTourCode($TourCode)
     {

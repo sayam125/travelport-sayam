@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class HotelMediaLinksReq extends BaseReq
 {
@@ -75,7 +75,7 @@ class HotelMediaLinksReq extends BaseReq
 
     /**
      * @param PermittedProviders $PermittedProviders
-     * @return \FilippoToso\Travelport\Hotel\HotelMediaLinksReq
+     * @return \Santosdave\Travelport\Hotel\HotelMediaLinksReq
      */
     public function setPermittedProviders($PermittedProviders)
     {
@@ -93,7 +93,7 @@ class HotelMediaLinksReq extends BaseReq
 
     /**
      * @param HotelProperty $HotelProperty
-     * @return \FilippoToso\Travelport\Hotel\HotelMediaLinksReq
+     * @return \Santosdave\Travelport\Hotel\HotelMediaLinksReq
      */
     public function setHotelProperty($HotelProperty)
     {
@@ -111,7 +111,7 @@ class HotelMediaLinksReq extends BaseReq
 
     /**
      * @param boolean $SecureLinks
-     * @return \FilippoToso\Travelport\Hotel\HotelMediaLinksReq
+     * @return \Santosdave\Travelport\Hotel\HotelMediaLinksReq
      */
     public function setSecureLinks($SecureLinks)
     {
@@ -129,7 +129,7 @@ class HotelMediaLinksReq extends BaseReq
 
     /**
      * @param typeRequestedImageSize $SizeCode
-     * @return \FilippoToso\Travelport\Hotel\HotelMediaLinksReq
+     * @return \Santosdave\Travelport\Hotel\HotelMediaLinksReq
      */
     public function setSizeCode($SizeCode)
     {
@@ -147,7 +147,7 @@ class HotelMediaLinksReq extends BaseReq
 
     /**
      * @param boolean $RichMedia
-     * @return \FilippoToso\Travelport\Hotel\HotelMediaLinksReq
+     * @return \Santosdave\Travelport\Hotel\HotelMediaLinksReq
      */
     public function setRichMedia($RichMedia)
     {
@@ -165,7 +165,7 @@ class HotelMediaLinksReq extends BaseReq
 
     /**
      * @param boolean $Gallery
-     * @return \FilippoToso\Travelport\Hotel\HotelMediaLinksReq
+     * @return \Santosdave\Travelport\Hotel\HotelMediaLinksReq
      */
     public function setGallery($Gallery)
     {

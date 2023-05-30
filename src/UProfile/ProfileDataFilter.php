@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class ProfileDataFilter
 {
@@ -35,7 +35,7 @@ class ProfileDataFilter
 
     /**
      * @param typeProfileDataCategory $ProfileDataCategory
-     * @return \FilippoToso\Travelport\UProfile\ProfileDataFilter
+     * @return \Santosdave\Travelport\UProfile\ProfileDataFilter
      */
     public function setProfileDataCategory($ProfileDataCategory)
     {
@@ -53,7 +53,7 @@ class ProfileDataFilter
 
     /**
      * @param GeoPoliticalAreaFilter $GeoPoliticalAreaFilter
-     * @return \FilippoToso\Travelport\UProfile\ProfileDataFilter
+     * @return \Santosdave\Travelport\UProfile\ProfileDataFilter
      */
     public function setGeoPoliticalAreaFilter($GeoPoliticalAreaFilter)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class ExchangePenaltyInfo
 {
@@ -49,7 +49,7 @@ class ExchangePenaltyInfo
 
     /**
      * @param PenaltyInformation $PenaltyInformation
-     * @return \FilippoToso\Travelport\Rail\ExchangePenaltyInfo
+     * @return \Santosdave\Travelport\Rail\ExchangePenaltyInfo
      */
     public function setPenaltyInformation($PenaltyInformation)
     {
@@ -67,7 +67,7 @@ class ExchangePenaltyInfo
 
     /**
      * @param typePTC $PTC
-     * @return \FilippoToso\Travelport\Rail\ExchangePenaltyInfo
+     * @return \Santosdave\Travelport\Rail\ExchangePenaltyInfo
      */
     public function setPTC($PTC)
     {
@@ -85,7 +85,7 @@ class ExchangePenaltyInfo
 
     /**
      * @param typeMoney $MinimumChangeFee
-     * @return \FilippoToso\Travelport\Rail\ExchangePenaltyInfo
+     * @return \Santosdave\Travelport\Rail\ExchangePenaltyInfo
      */
     public function setMinimumChangeFee($MinimumChangeFee)
     {
@@ -103,7 +103,7 @@ class ExchangePenaltyInfo
 
     /**
      * @param typeMoney $MaximumChangeFee
-     * @return \FilippoToso\Travelport\Rail\ExchangePenaltyInfo
+     * @return \Santosdave\Travelport\Rail\ExchangePenaltyInfo
      */
     public function setMaximumChangeFee($MaximumChangeFee)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class typeTimeRange
 {
@@ -35,7 +35,7 @@ class typeTimeRange
 
     /**
      * @param string $EarliestTime
-     * @return \FilippoToso\Travelport\GDSQueue\typeTimeRange
+     * @return \Santosdave\Travelport\GDSQueue\typeTimeRange
      */
     public function setEarliestTime($EarliestTime)
     {
@@ -53,7 +53,7 @@ class typeTimeRange
 
     /**
      * @param string $LatestTime
-     * @return \FilippoToso\Travelport\GDSQueue\typeTimeRange
+     * @return \Santosdave\Travelport\GDSQueue\typeTimeRange
      */
     public function setLatestTime($LatestTime)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class Certificate
 {
@@ -63,7 +63,7 @@ class Certificate
 
     /**
      * @param string $Number
-     * @return \FilippoToso\Travelport\Hotel\Certificate
+     * @return \Santosdave\Travelport\Hotel\Certificate
      */
     public function setNumber($Number)
     {
@@ -81,7 +81,7 @@ class Certificate
 
     /**
      * @param typeMoney $Amount
-     * @return \FilippoToso\Travelport\Hotel\Certificate
+     * @return \Santosdave\Travelport\Hotel\Certificate
      */
     public function setAmount($Amount)
     {
@@ -99,7 +99,7 @@ class Certificate
 
     /**
      * @param typeMoney $DiscountAmount
-     * @return \FilippoToso\Travelport\Hotel\Certificate
+     * @return \Santosdave\Travelport\Hotel\Certificate
      */
     public function setDiscountAmount($DiscountAmount)
     {
@@ -117,7 +117,7 @@ class Certificate
 
     /**
      * @param int $DiscountPercentage
-     * @return \FilippoToso\Travelport\Hotel\Certificate
+     * @return \Santosdave\Travelport\Hotel\Certificate
      */
     public function setDiscountPercentage($DiscountPercentage)
     {
@@ -135,7 +135,7 @@ class Certificate
 
     /**
      * @param date $NotValidBefore
-     * @return \FilippoToso\Travelport\Hotel\Certificate
+     * @return \Santosdave\Travelport\Hotel\Certificate
      */
     public function setNotValidBefore($NotValidBefore)
     {
@@ -153,7 +153,7 @@ class Certificate
 
     /**
      * @param date $NotValidAfter
-     * @return \FilippoToso\Travelport\Hotel\Certificate
+     * @return \Santosdave\Travelport\Hotel\Certificate
      */
     public function setNotValidAfter($NotValidAfter)
     {

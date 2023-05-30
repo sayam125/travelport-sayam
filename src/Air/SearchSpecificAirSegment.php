@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class SearchSpecificAirSegment
 {
@@ -63,7 +63,7 @@ class SearchSpecificAirSegment
 
     /**
      * @param string $DepartureTime
-     * @return \FilippoToso\Travelport\Air\SearchSpecificAirSegment
+     * @return \Santosdave\Travelport\Air\SearchSpecificAirSegment
      */
     public function setDepartureTime($DepartureTime)
     {
@@ -81,7 +81,7 @@ class SearchSpecificAirSegment
 
     /**
      * @param typeCarrier $Carrier
-     * @return \FilippoToso\Travelport\Air\SearchSpecificAirSegment
+     * @return \Santosdave\Travelport\Air\SearchSpecificAirSegment
      */
     public function setCarrier($Carrier)
     {
@@ -99,7 +99,7 @@ class SearchSpecificAirSegment
 
     /**
      * @param typeFlightNumber $FlightNumber
-     * @return \FilippoToso\Travelport\Air\SearchSpecificAirSegment
+     * @return \Santosdave\Travelport\Air\SearchSpecificAirSegment
      */
     public function setFlightNumber($FlightNumber)
     {
@@ -117,7 +117,7 @@ class SearchSpecificAirSegment
 
     /**
      * @param typeIATACode $Origin
-     * @return \FilippoToso\Travelport\Air\SearchSpecificAirSegment
+     * @return \Santosdave\Travelport\Air\SearchSpecificAirSegment
      */
     public function setOrigin($Origin)
     {
@@ -135,7 +135,7 @@ class SearchSpecificAirSegment
 
     /**
      * @param typeIATACode $Destination
-     * @return \FilippoToso\Travelport\Air\SearchSpecificAirSegment
+     * @return \Santosdave\Travelport\Air\SearchSpecificAirSegment
      */
     public function setDestination($Destination)
     {
@@ -153,7 +153,7 @@ class SearchSpecificAirSegment
 
     /**
      * @param int $SegmentIndex
-     * @return \FilippoToso\Travelport\Air\SearchSpecificAirSegment
+     * @return \Santosdave\Travelport\Air\SearchSpecificAirSegment
      */
     public function setSegmentIndex($SegmentIndex)
     {

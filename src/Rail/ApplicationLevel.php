@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class ApplicationLevel
 {
@@ -47,7 +47,7 @@ class ApplicationLevel
 
     /**
      * @param ApplicationLimits $ApplicationLimits
-     * @return \FilippoToso\Travelport\Rail\ApplicationLevel
+     * @return \Santosdave\Travelport\Rail\ApplicationLevel
      */
     public function setApplicationLimits($ApplicationLimits)
     {
@@ -65,7 +65,7 @@ class ApplicationLevel
 
     /**
      * @param ServiceData $ServiceData
-     * @return \FilippoToso\Travelport\Rail\ApplicationLevel
+     * @return \Santosdave\Travelport\Rail\ApplicationLevel
      */
     public function setServiceData($ServiceData)
     {
@@ -83,7 +83,7 @@ class ApplicationLevel
 
     /**
      * @param anonymous318 $ApplicableLevels
-     * @return \FilippoToso\Travelport\Rail\ApplicationLevel
+     * @return \Santosdave\Travelport\Rail\ApplicationLevel
      */
     public function setApplicableLevels($ApplicableLevels)
     {
@@ -101,7 +101,7 @@ class ApplicationLevel
 
     /**
      * @param string $ProviderDefinedApplicableLevels
-     * @return \FilippoToso\Travelport\Rail\ApplicationLevel
+     * @return \Santosdave\Travelport\Rail\ApplicationLevel
      */
     public function setProviderDefinedApplicableLevels($ProviderDefinedApplicableLevels)
     {

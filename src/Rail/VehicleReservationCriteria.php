@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class VehicleReservationCriteria
 {
@@ -61,7 +61,7 @@ class VehicleReservationCriteria
 
     /**
      * @param typeDateSpec $PickUpDate
-     * @return \FilippoToso\Travelport\Rail\VehicleReservationCriteria
+     * @return \Santosdave\Travelport\Rail\VehicleReservationCriteria
      */
     public function setPickUpDate($PickUpDate)
     {
@@ -79,7 +79,7 @@ class VehicleReservationCriteria
 
     /**
      * @param string $VehicleConfirmation
-     * @return \FilippoToso\Travelport\Rail\VehicleReservationCriteria
+     * @return \Santosdave\Travelport\Rail\VehicleReservationCriteria
      */
     public function setVehicleConfirmation($VehicleConfirmation)
     {
@@ -97,7 +97,7 @@ class VehicleReservationCriteria
 
     /**
      * @param typeIATACode $Location
-     * @return \FilippoToso\Travelport\Rail\VehicleReservationCriteria
+     * @return \Santosdave\Travelport\Rail\VehicleReservationCriteria
      */
     public function setLocation($Location)
     {
@@ -115,7 +115,7 @@ class VehicleReservationCriteria
 
     /**
      * @param typeSupplierCode $VendorCode
-     * @return \FilippoToso\Travelport\Rail\VehicleReservationCriteria
+     * @return \Santosdave\Travelport\Rail\VehicleReservationCriteria
      */
     public function setVendorCode($VendorCode)
     {
@@ -133,7 +133,7 @@ class VehicleReservationCriteria
 
     /**
      * @param string $LocationNumber
-     * @return \FilippoToso\Travelport\Rail\VehicleReservationCriteria
+     * @return \Santosdave\Travelport\Rail\VehicleReservationCriteria
      */
     public function setLocationNumber($LocationNumber)
     {
@@ -151,7 +151,7 @@ class VehicleReservationCriteria
 
     /**
      * @param boolean $PassiveOnly
-     * @return \FilippoToso\Travelport\Rail\VehicleReservationCriteria
+     * @return \Santosdave\Travelport\Rail\VehicleReservationCriteria
      */
     public function setPassiveOnly($PassiveOnly)
     {

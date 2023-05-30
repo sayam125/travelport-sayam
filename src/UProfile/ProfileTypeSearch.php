@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class ProfileTypeSearch
 {
@@ -77,7 +77,7 @@ class ProfileTypeSearch
 
     /**
      * @param AgencyGroupCriteria $AgencyGroupCriteria
-     * @return \FilippoToso\Travelport\UProfile\ProfileTypeSearch
+     * @return \Santosdave\Travelport\UProfile\ProfileTypeSearch
      */
     public function setAgencyGroupCriteria($AgencyGroupCriteria)
     {
@@ -95,7 +95,7 @@ class ProfileTypeSearch
 
     /**
      * @param AgencyCriteria $AgencyCriteria
-     * @return \FilippoToso\Travelport\UProfile\ProfileTypeSearch
+     * @return \Santosdave\Travelport\UProfile\ProfileTypeSearch
      */
     public function setAgencyCriteria($AgencyCriteria)
     {
@@ -113,7 +113,7 @@ class ProfileTypeSearch
 
     /**
      * @param BranchCriteria $BranchCriteria
-     * @return \FilippoToso\Travelport\UProfile\ProfileTypeSearch
+     * @return \Santosdave\Travelport\UProfile\ProfileTypeSearch
      */
     public function setBranchCriteria($BranchCriteria)
     {
@@ -131,7 +131,7 @@ class ProfileTypeSearch
 
     /**
      * @param BranchGroupCriteria $BranchGroupCriteria
-     * @return \FilippoToso\Travelport\UProfile\ProfileTypeSearch
+     * @return \Santosdave\Travelport\UProfile\ProfileTypeSearch
      */
     public function setBranchGroupCriteria($BranchGroupCriteria)
     {
@@ -149,7 +149,7 @@ class ProfileTypeSearch
 
     /**
      * @param AgentCriteria $AgentCriteria
-     * @return \FilippoToso\Travelport\UProfile\ProfileTypeSearch
+     * @return \Santosdave\Travelport\UProfile\ProfileTypeSearch
      */
     public function setAgentCriteria($AgentCriteria)
     {
@@ -167,7 +167,7 @@ class ProfileTypeSearch
 
     /**
      * @param AccountCriteria $AccountCriteria
-     * @return \FilippoToso\Travelport\UProfile\ProfileTypeSearch
+     * @return \Santosdave\Travelport\UProfile\ProfileTypeSearch
      */
     public function setAccountCriteria($AccountCriteria)
     {
@@ -185,7 +185,7 @@ class ProfileTypeSearch
 
     /**
      * @param TravelerCriteria $TravelerCriteria
-     * @return \FilippoToso\Travelport\UProfile\ProfileTypeSearch
+     * @return \Santosdave\Travelport\UProfile\ProfileTypeSearch
      */
     public function setTravelerCriteria($TravelerCriteria)
     {
@@ -203,7 +203,7 @@ class ProfileTypeSearch
 
     /**
      * @param TravelerGroupCriteria $TravelerGroupCriteria
-     * @return \FilippoToso\Travelport\UProfile\ProfileTypeSearch
+     * @return \Santosdave\Travelport\UProfile\ProfileTypeSearch
      */
     public function setTravelerGroupCriteria($TravelerGroupCriteria)
     {

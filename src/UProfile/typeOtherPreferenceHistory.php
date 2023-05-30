@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeOtherPreferenceHistory extends typeKeyElement
 {
@@ -142,7 +142,7 @@ class typeOtherPreferenceHistory extends typeKeyElement
 
     /**
      * @param typePreferencePurpose $Purpose
-     * @return \FilippoToso\Travelport\UProfile\typeOtherPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeOtherPreferenceHistory
      */
     public function setPurpose($Purpose)
     {
@@ -160,7 +160,7 @@ class typeOtherPreferenceHistory extends typeKeyElement
 
     /**
      * @param typePriorityOrder $PriorityOrder
-     * @return \FilippoToso\Travelport\UProfile\typeOtherPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeOtherPreferenceHistory
      */
     public function setPriorityOrder($PriorityOrder)
     {
@@ -178,7 +178,7 @@ class typeOtherPreferenceHistory extends typeKeyElement
 
     /**
      * @param boolean $TripApproval
-     * @return \FilippoToso\Travelport\UProfile\typeOtherPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeOtherPreferenceHistory
      */
     public function setTripApproval($TripApproval)
     {
@@ -196,7 +196,7 @@ class typeOtherPreferenceHistory extends typeKeyElement
 
     /**
      * @param boolean $Inclusive
-     * @return \FilippoToso\Travelport\UProfile\typeOtherPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeOtherPreferenceHistory
      */
     public function setInclusive($Inclusive)
     {
@@ -214,7 +214,7 @@ class typeOtherPreferenceHistory extends typeKeyElement
 
     /**
      * @param typeOtherPreference $OtherSupplierType
-     * @return \FilippoToso\Travelport\UProfile\typeOtherPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeOtherPreferenceHistory
      */
     public function setOtherSupplierType($OtherSupplierType)
     {
@@ -232,7 +232,7 @@ class typeOtherPreferenceHistory extends typeKeyElement
 
     /**
      * @param date $BookingStartDate
-     * @return \FilippoToso\Travelport\UProfile\typeOtherPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeOtherPreferenceHistory
      */
     public function setBookingStartDate($BookingStartDate)
     {
@@ -250,7 +250,7 @@ class typeOtherPreferenceHistory extends typeKeyElement
 
     /**
      * @param date $BookingEndDate
-     * @return \FilippoToso\Travelport\UProfile\typeOtherPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeOtherPreferenceHistory
      */
     public function setBookingEndDate($BookingEndDate)
     {
@@ -268,7 +268,7 @@ class typeOtherPreferenceHistory extends typeKeyElement
 
     /**
      * @param date $UsageStartDate
-     * @return \FilippoToso\Travelport\UProfile\typeOtherPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeOtherPreferenceHistory
      */
     public function setUsageStartDate($UsageStartDate)
     {
@@ -286,7 +286,7 @@ class typeOtherPreferenceHistory extends typeKeyElement
 
     /**
      * @param date $UsageEndDate
-     * @return \FilippoToso\Travelport\UProfile\typeOtherPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeOtherPreferenceHistory
      */
     public function setUsageEndDate($UsageEndDate)
     {
@@ -304,7 +304,7 @@ class typeOtherPreferenceHistory extends typeKeyElement
 
     /**
      * @param StringLength1to128 $SupplierName
-     * @return \FilippoToso\Travelport\UProfile\typeOtherPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeOtherPreferenceHistory
      */
     public function setSupplierName($SupplierName)
     {
@@ -322,7 +322,7 @@ class typeOtherPreferenceHistory extends typeKeyElement
 
     /**
      * @param typeGeoPoliticalAreaType $GeoPoliticalAreaType
-     * @return \FilippoToso\Travelport\UProfile\typeOtherPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeOtherPreferenceHistory
      */
     public function setGeoPoliticalAreaType($GeoPoliticalAreaType)
     {
@@ -340,7 +340,7 @@ class typeOtherPreferenceHistory extends typeKeyElement
 
     /**
      * @param typeGeoPoliticalAreaCode $GeoPoliticalAreaCode
-     * @return \FilippoToso\Travelport\UProfile\typeOtherPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeOtherPreferenceHistory
      */
     public function setGeoPoliticalAreaCode($GeoPoliticalAreaCode)
     {
@@ -358,7 +358,7 @@ class typeOtherPreferenceHistory extends typeKeyElement
 
     /**
      * @param typePreferencePaymentMethod $PreferencePaymentMethod
-     * @return \FilippoToso\Travelport\UProfile\typeOtherPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeOtherPreferenceHistory
      */
     public function setPreferencePaymentMethod($PreferencePaymentMethod)
     {
@@ -376,7 +376,7 @@ class typeOtherPreferenceHistory extends typeKeyElement
 
     /**
      * @param typeRef $PaymentDetailsRef
-     * @return \FilippoToso\Travelport\UProfile\typeOtherPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeOtherPreferenceHistory
      */
     public function setPaymentDetailsRef($PaymentDetailsRef)
     {
@@ -394,7 +394,7 @@ class typeOtherPreferenceHistory extends typeKeyElement
 
     /**
      * @param typeMoney $MaxCostAmount
-     * @return \FilippoToso\Travelport\UProfile\typeOtherPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeOtherPreferenceHistory
      */
     public function setMaxCostAmount($MaxCostAmount)
     {
@@ -412,7 +412,7 @@ class typeOtherPreferenceHistory extends typeKeyElement
 
     /**
      * @param typeCurrency $Currency
-     * @return \FilippoToso\Travelport\UProfile\typeOtherPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeOtherPreferenceHistory
      */
     public function setCurrency($Currency)
     {
@@ -430,7 +430,7 @@ class typeOtherPreferenceHistory extends typeKeyElement
 
     /**
      * @param StringLength1to255 $GeneralPreference
-     * @return \FilippoToso\Travelport\UProfile\typeOtherPreferenceHistory
+     * @return \Santosdave\Travelport\UProfile\typeOtherPreferenceHistory
      */
     public function setGeneralPreference($GeneralPreference)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class Balance
 {
@@ -49,7 +49,7 @@ class Balance
 
     /**
      * @param typeMoney $CreditCardDueAmount
-     * @return \FilippoToso\Travelport\GDSQueue\Balance
+     * @return \Santosdave\Travelport\GDSQueue\Balance
      */
     public function setCreditCardDueAmount($CreditCardDueAmount)
     {
@@ -67,7 +67,7 @@ class Balance
 
     /**
      * @param typeMoney $CheckDueAmount
-     * @return \FilippoToso\Travelport\GDSQueue\Balance
+     * @return \Santosdave\Travelport\GDSQueue\Balance
      */
     public function setCheckDueAmount($CheckDueAmount)
     {
@@ -85,7 +85,7 @@ class Balance
 
     /**
      * @param date $DueDate
-     * @return \FilippoToso\Travelport\GDSQueue\Balance
+     * @return \Santosdave\Travelport\GDSQueue\Balance
      */
     public function setDueDate($DueDate)
     {
@@ -103,7 +103,7 @@ class Balance
 
     /**
      * @param date $ReceivedDate
-     * @return \FilippoToso\Travelport\GDSQueue\Balance
+     * @return \Santosdave\Travelport\GDSQueue\Balance
      */
     public function setReceivedDate($ReceivedDate)
     {

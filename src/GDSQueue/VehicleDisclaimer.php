@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class VehicleDisclaimer
 {
@@ -49,7 +49,7 @@ class VehicleDisclaimer
 
     /**
      * @param string $_
-     * @return \FilippoToso\Travelport\GDSQueue\VehicleDisclaimer
+     * @return \Santosdave\Travelport\GDSQueue\VehicleDisclaimer
      */
     public function set_($_)
     {
@@ -67,7 +67,7 @@ class VehicleDisclaimer
 
     /**
      * @param typeVehicleDisclaimer $Type
-     * @return \FilippoToso\Travelport\GDSQueue\VehicleDisclaimer
+     * @return \Santosdave\Travelport\GDSQueue\VehicleDisclaimer
      */
     public function setType($Type)
     {
@@ -85,7 +85,7 @@ class VehicleDisclaimer
 
     /**
      * @param string $SubType
-     * @return \FilippoToso\Travelport\GDSQueue\VehicleDisclaimer
+     * @return \Santosdave\Travelport\GDSQueue\VehicleDisclaimer
      */
     public function setSubType($SubType)
     {
@@ -103,7 +103,7 @@ class VehicleDisclaimer
 
     /**
      * @param string $Description
-     * @return \FilippoToso\Travelport\GDSQueue\VehicleDisclaimer
+     * @return \Santosdave\Travelport\GDSQueue\VehicleDisclaimer
      */
     public function setDescription($Description)
     {

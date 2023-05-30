@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class HotelAdd
 {
@@ -119,7 +119,7 @@ class HotelAdd
 
     /**
      * @param LoyaltyCard $LoyaltyCard
-     * @return \FilippoToso\Travelport\GDSQueue\HotelAdd
+     * @return \Santosdave\Travelport\GDSQueue\HotelAdd
      */
     public function setLoyaltyCard($LoyaltyCard)
     {
@@ -137,7 +137,7 @@ class HotelAdd
 
     /**
      * @param Guarantee $Guarantee
-     * @return \FilippoToso\Travelport\GDSQueue\HotelAdd
+     * @return \Santosdave\Travelport\GDSQueue\HotelAdd
      */
     public function setGuarantee($Guarantee)
     {
@@ -155,7 +155,7 @@ class HotelAdd
 
     /**
      * @param GuestInformation $GuestInformation
-     * @return \FilippoToso\Travelport\GDSQueue\HotelAdd
+     * @return \Santosdave\Travelport\GDSQueue\HotelAdd
      */
     public function setGuestInformation($GuestInformation)
     {
@@ -173,7 +173,7 @@ class HotelAdd
 
     /**
      * @param AssociatedRemark $AssociatedRemark
-     * @return \FilippoToso\Travelport\GDSQueue\HotelAdd
+     * @return \Santosdave\Travelport\GDSQueue\HotelAdd
      */
     public function setAssociatedRemark($AssociatedRemark)
     {
@@ -191,7 +191,7 @@ class HotelAdd
 
     /**
      * @param BookingSource $BookingSource
-     * @return \FilippoToso\Travelport\GDSQueue\HotelAdd
+     * @return \Santosdave\Travelport\GDSQueue\HotelAdd
      */
     public function setBookingSource($BookingSource)
     {
@@ -209,7 +209,7 @@ class HotelAdd
 
     /**
      * @param typeGeneralText $HotelSpecialRequest
-     * @return \FilippoToso\Travelport\GDSQueue\HotelAdd
+     * @return \Santosdave\Travelport\GDSQueue\HotelAdd
      */
     public function setHotelSpecialRequest($HotelSpecialRequest)
     {
@@ -227,7 +227,7 @@ class HotelAdd
 
     /**
      * @param CorporateDiscountID $CorporateDiscountID
-     * @return \FilippoToso\Travelport\GDSQueue\HotelAdd
+     * @return \Santosdave\Travelport\GDSQueue\HotelAdd
      */
     public function setCorporateDiscountID($CorporateDiscountID)
     {
@@ -245,7 +245,7 @@ class HotelAdd
 
     /**
      * @param ReservationName $ReservationName
-     * @return \FilippoToso\Travelport\GDSQueue\HotelAdd
+     * @return \Santosdave\Travelport\GDSQueue\HotelAdd
      */
     public function setReservationName($ReservationName)
     {
@@ -263,7 +263,7 @@ class HotelAdd
 
     /**
      * @param ThirdPartyInformation $ThirdPartyInformation
-     * @return \FilippoToso\Travelport\GDSQueue\HotelAdd
+     * @return \Santosdave\Travelport\GDSQueue\HotelAdd
      */
     public function setThirdPartyInformation($ThirdPartyInformation)
     {
@@ -281,7 +281,7 @@ class HotelAdd
 
     /**
      * @param TravelComplianceData $TravelComplianceData
-     * @return \FilippoToso\Travelport\GDSQueue\HotelAdd
+     * @return \Santosdave\Travelport\GDSQueue\HotelAdd
      */
     public function setTravelComplianceData($TravelComplianceData)
     {
@@ -299,7 +299,7 @@ class HotelAdd
 
     /**
      * @param HotelBedding $HotelBedding
-     * @return \FilippoToso\Travelport\GDSQueue\HotelAdd
+     * @return \Santosdave\Travelport\GDSQueue\HotelAdd
      */
     public function setHotelBedding($HotelBedding)
     {
@@ -317,7 +317,7 @@ class HotelAdd
 
     /**
      * @param BookingConfirmation $BookingConfirmation
-     * @return \FilippoToso\Travelport\GDSQueue\HotelAdd
+     * @return \Santosdave\Travelport\GDSQueue\HotelAdd
      */
     public function setBookingConfirmation($BookingConfirmation)
     {
@@ -335,7 +335,7 @@ class HotelAdd
 
     /**
      * @param typeLocatorCode $ReservationLocatorCode
-     * @return \FilippoToso\Travelport\GDSQueue\HotelAdd
+     * @return \Santosdave\Travelport\GDSQueue\HotelAdd
      */
     public function setReservationLocatorCode($ReservationLocatorCode)
     {
@@ -353,7 +353,7 @@ class HotelAdd
 
     /**
      * @param typeRef $BookingTravelerRef
-     * @return \FilippoToso\Travelport\GDSQueue\HotelAdd
+     * @return \Santosdave\Travelport\GDSQueue\HotelAdd
      */
     public function setBookingTravelerRef($BookingTravelerRef)
     {

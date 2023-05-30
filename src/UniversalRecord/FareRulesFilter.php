@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class FareRulesFilter
 {
@@ -56,7 +56,7 @@ class FareRulesFilter
 
     /**
      * @param Refundability $Refundability
-     * @return \FilippoToso\Travelport\UniversalRecord\FareRulesFilter
+     * @return \Santosdave\Travelport\UniversalRecord\FareRulesFilter
      */
     public function setRefundability($Refundability)
     {
@@ -82,7 +82,7 @@ class FareRulesFilter
 
     /**
      * @param \DateTime $LatestTicketingTime
-     * @return \FilippoToso\Travelport\UniversalRecord\FareRulesFilter
+     * @return \Santosdave\Travelport\UniversalRecord\FareRulesFilter
      */
     public function setLatestTicketingTime(\DateTime $LatestTicketingTime = null)
     {
@@ -104,7 +104,7 @@ class FareRulesFilter
 
     /**
      * @param CHGType $CHG
-     * @return \FilippoToso\Travelport\UniversalRecord\FareRulesFilter
+     * @return \Santosdave\Travelport\UniversalRecord\FareRulesFilter
      */
     public function setCHG($CHG)
     {
@@ -122,7 +122,7 @@ class FareRulesFilter
 
     /**
      * @param MINType $MIN
-     * @return \FilippoToso\Travelport\UniversalRecord\FareRulesFilter
+     * @return \Santosdave\Travelport\UniversalRecord\FareRulesFilter
      */
     public function setMIN($MIN)
     {
@@ -140,7 +140,7 @@ class FareRulesFilter
 
     /**
      * @param MAXType $MAX
-     * @return \FilippoToso\Travelport\UniversalRecord\FareRulesFilter
+     * @return \Santosdave\Travelport\UniversalRecord\FareRulesFilter
      */
     public function setMAX($MAX)
     {
@@ -158,7 +158,7 @@ class FareRulesFilter
 
     /**
      * @param ADVType $ADV
-     * @return \FilippoToso\Travelport\UniversalRecord\FareRulesFilter
+     * @return \Santosdave\Travelport\UniversalRecord\FareRulesFilter
      */
     public function setADV($ADV)
     {
@@ -176,7 +176,7 @@ class FareRulesFilter
 
     /**
      * @param OTHType $OTH
-     * @return \FilippoToso\Travelport\UniversalRecord\FareRulesFilter
+     * @return \Santosdave\Travelport\UniversalRecord\FareRulesFilter
      */
     public function setOTH($OTH)
     {

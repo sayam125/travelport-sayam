@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class CreateAirlineFeeMcoReq extends BaseReq
 {
@@ -103,7 +103,7 @@ class CreateAirlineFeeMcoReq extends BaseReq
 
     /**
      * @param Name $Name
-     * @return \FilippoToso\Travelport\Util\CreateAirlineFeeMcoReq
+     * @return \Santosdave\Travelport\Util\CreateAirlineFeeMcoReq
      */
     public function setName($Name)
     {
@@ -121,7 +121,7 @@ class CreateAirlineFeeMcoReq extends BaseReq
 
     /**
      * @param FormOfPayment $FormOfPayment
-     * @return \FilippoToso\Travelport\Util\CreateAirlineFeeMcoReq
+     * @return \Santosdave\Travelport\Util\CreateAirlineFeeMcoReq
      */
     public function setFormOfPayment($FormOfPayment)
     {
@@ -139,7 +139,7 @@ class CreateAirlineFeeMcoReq extends BaseReq
 
     /**
      * @param FormOfPaymentRef $FormOfPaymentRef
-     * @return \FilippoToso\Travelport\Util\CreateAirlineFeeMcoReq
+     * @return \Santosdave\Travelport\Util\CreateAirlineFeeMcoReq
      */
     public function setFormOfPaymentRef($FormOfPaymentRef)
     {
@@ -157,7 +157,7 @@ class CreateAirlineFeeMcoReq extends BaseReq
 
     /**
      * @param GeneralRemark $GeneralRemark
-     * @return \FilippoToso\Travelport\Util\CreateAirlineFeeMcoReq
+     * @return \Santosdave\Travelport\Util\CreateAirlineFeeMcoReq
      */
     public function setGeneralRemark($GeneralRemark)
     {
@@ -175,7 +175,7 @@ class CreateAirlineFeeMcoReq extends BaseReq
 
     /**
      * @param AccountingRemark $AccountingRemark
-     * @return \FilippoToso\Travelport\Util\CreateAirlineFeeMcoReq
+     * @return \Santosdave\Travelport\Util\CreateAirlineFeeMcoReq
      */
     public function setAccountingRemark($AccountingRemark)
     {
@@ -193,7 +193,7 @@ class CreateAirlineFeeMcoReq extends BaseReq
 
     /**
      * @param Endorsement $Endorsement
-     * @return \FilippoToso\Travelport\Util\CreateAirlineFeeMcoReq
+     * @return \Santosdave\Travelport\Util\CreateAirlineFeeMcoReq
      */
     public function setEndorsement($Endorsement)
     {
@@ -211,7 +211,7 @@ class CreateAirlineFeeMcoReq extends BaseReq
 
     /**
      * @param typeMoney $Amount
-     * @return \FilippoToso\Travelport\Util\CreateAirlineFeeMcoReq
+     * @return \Santosdave\Travelport\Util\CreateAirlineFeeMcoReq
      */
     public function setAmount($Amount)
     {
@@ -229,7 +229,7 @@ class CreateAirlineFeeMcoReq extends BaseReq
 
     /**
      * @param typeAirport $LocationCode
-     * @return \FilippoToso\Travelport\Util\CreateAirlineFeeMcoReq
+     * @return \Santosdave\Travelport\Util\CreateAirlineFeeMcoReq
      */
     public function setLocationCode($LocationCode)
     {
@@ -247,7 +247,7 @@ class CreateAirlineFeeMcoReq extends BaseReq
 
     /**
      * @param anonymous1088 $LocatorCode
-     * @return \FilippoToso\Travelport\Util\CreateAirlineFeeMcoReq
+     * @return \Santosdave\Travelport\Util\CreateAirlineFeeMcoReq
      */
     public function setLocatorCode($LocatorCode)
     {
@@ -265,7 +265,7 @@ class CreateAirlineFeeMcoReq extends BaseReq
 
     /**
      * @param string $TicketNumber
-     * @return \FilippoToso\Travelport\Util\CreateAirlineFeeMcoReq
+     * @return \Santosdave\Travelport\Util\CreateAirlineFeeMcoReq
      */
     public function setTicketNumber($TicketNumber)
     {

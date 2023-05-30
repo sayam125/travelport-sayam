@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class SearchPriority
 {
@@ -28,7 +28,7 @@ class SearchPriority
 
     /**
      * @param Criteria[] $Criteria
-     * @return \FilippoToso\Travelport\GDSQueue\SearchPriority
+     * @return \Santosdave\Travelport\GDSQueue\SearchPriority
      */
     public function setCriteria(array $Criteria)
     {

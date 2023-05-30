@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class ProviderReservationStatus
 {
@@ -61,7 +61,7 @@ class ProviderReservationStatus
 
     /**
      * @param typeResultMessage $CancelInfo
-     * @return \FilippoToso\Travelport\UniversalRecord\ProviderReservationStatus
+     * @return \Santosdave\Travelport\UniversalRecord\ProviderReservationStatus
      */
     public function setCancelInfo($CancelInfo)
     {
@@ -87,7 +87,7 @@ class ProviderReservationStatus
 
     /**
      * @param \DateTime $CreateDate
-     * @return \FilippoToso\Travelport\UniversalRecord\ProviderReservationStatus
+     * @return \Santosdave\Travelport\UniversalRecord\ProviderReservationStatus
      */
     public function setCreateDate(\DateTime $CreateDate)
     {
@@ -113,7 +113,7 @@ class ProviderReservationStatus
 
     /**
      * @param \DateTime $ModifiedDate
-     * @return \FilippoToso\Travelport\UniversalRecord\ProviderReservationStatus
+     * @return \Santosdave\Travelport\UniversalRecord\ProviderReservationStatus
      */
     public function setModifiedDate(\DateTime $ModifiedDate)
     {
@@ -131,7 +131,7 @@ class ProviderReservationStatus
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\UniversalRecord\ProviderReservationStatus
+     * @return \Santosdave\Travelport\UniversalRecord\ProviderReservationStatus
      */
     public function setProviderCode($ProviderCode)
     {
@@ -149,7 +149,7 @@ class ProviderReservationStatus
 
     /**
      * @param typeProviderLocatorCode $LocatorCode
-     * @return \FilippoToso\Travelport\UniversalRecord\ProviderReservationStatus
+     * @return \Santosdave\Travelport\UniversalRecord\ProviderReservationStatus
      */
     public function setLocatorCode($LocatorCode)
     {
@@ -167,7 +167,7 @@ class ProviderReservationStatus
 
     /**
      * @param boolean $Cancelled
-     * @return \FilippoToso\Travelport\UniversalRecord\ProviderReservationStatus
+     * @return \Santosdave\Travelport\UniversalRecord\ProviderReservationStatus
      */
     public function setCancelled($Cancelled)
     {

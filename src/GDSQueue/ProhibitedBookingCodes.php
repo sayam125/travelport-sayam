@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class ProhibitedBookingCodes
 {
@@ -28,7 +28,7 @@ class ProhibitedBookingCodes
 
     /**
      * @param BookingCode $BookingCode
-     * @return \FilippoToso\Travelport\GDSQueue\ProhibitedBookingCodes
+     * @return \Santosdave\Travelport\GDSQueue\ProhibitedBookingCodes
      */
     public function setBookingCode($BookingCode)
     {

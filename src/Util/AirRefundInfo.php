@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class AirRefundInfo
 {
@@ -105,7 +105,7 @@ class AirRefundInfo
 
     /**
      * @param RefundRemark $RefundRemark
-     * @return \FilippoToso\Travelport\Util\AirRefundInfo
+     * @return \Santosdave\Travelport\Util\AirRefundInfo
      */
     public function setRefundRemark($RefundRemark)
     {
@@ -123,7 +123,7 @@ class AirRefundInfo
 
     /**
      * @param typeMoney $RefundAmount
-     * @return \FilippoToso\Travelport\Util\AirRefundInfo
+     * @return \Santosdave\Travelport\Util\AirRefundInfo
      */
     public function setRefundAmount($RefundAmount)
     {
@@ -141,7 +141,7 @@ class AirRefundInfo
 
     /**
      * @param typeMoney $RetainAmount
-     * @return \FilippoToso\Travelport\Util\AirRefundInfo
+     * @return \Santosdave\Travelport\Util\AirRefundInfo
      */
     public function setRetainAmount($RetainAmount)
     {
@@ -159,7 +159,7 @@ class AirRefundInfo
 
     /**
      * @param typeMoney $RefundFee
-     * @return \FilippoToso\Travelport\Util\AirRefundInfo
+     * @return \Santosdave\Travelport\Util\AirRefundInfo
      */
     public function setRefundFee($RefundFee)
     {
@@ -177,7 +177,7 @@ class AirRefundInfo
 
     /**
      * @param string $RefundableTaxes
-     * @return \FilippoToso\Travelport\Util\AirRefundInfo
+     * @return \Santosdave\Travelport\Util\AirRefundInfo
      */
     public function setRefundableTaxes($RefundableTaxes)
     {
@@ -195,7 +195,7 @@ class AirRefundInfo
 
     /**
      * @param typeCurrency $FiledCurrency
-     * @return \FilippoToso\Travelport\Util\AirRefundInfo
+     * @return \Santosdave\Travelport\Util\AirRefundInfo
      */
     public function setFiledCurrency($FiledCurrency)
     {
@@ -213,7 +213,7 @@ class AirRefundInfo
 
     /**
      * @param float $ConversionRate
-     * @return \FilippoToso\Travelport\Util\AirRefundInfo
+     * @return \Santosdave\Travelport\Util\AirRefundInfo
      */
     public function setConversionRate($ConversionRate)
     {
@@ -231,7 +231,7 @@ class AirRefundInfo
 
     /**
      * @param typeMoney $Taxes
-     * @return \FilippoToso\Travelport\Util\AirRefundInfo
+     * @return \Santosdave\Travelport\Util\AirRefundInfo
      */
     public function setTaxes($Taxes)
     {
@@ -249,7 +249,7 @@ class AirRefundInfo
 
     /**
      * @param typeMoney $OriginalTicketTotal
-     * @return \FilippoToso\Travelport\Util\AirRefundInfo
+     * @return \Santosdave\Travelport\Util\AirRefundInfo
      */
     public function setOriginalTicketTotal($OriginalTicketTotal)
     {
@@ -267,7 +267,7 @@ class AirRefundInfo
 
     /**
      * @param typeMoney $ForfeitAmount
-     * @return \FilippoToso\Travelport\Util\AirRefundInfo
+     * @return \Santosdave\Travelport\Util\AirRefundInfo
      */
     public function setForfeitAmount($ForfeitAmount)
     {
@@ -285,7 +285,7 @@ class AirRefundInfo
 
     /**
      * @param boolean $Retain
-     * @return \FilippoToso\Travelport\Util\AirRefundInfo
+     * @return \Santosdave\Travelport\Util\AirRefundInfo
      */
     public function setRetain($Retain)
     {
@@ -303,7 +303,7 @@ class AirRefundInfo
 
     /**
      * @param boolean $Refund
-     * @return \FilippoToso\Travelport\Util\AirRefundInfo
+     * @return \Santosdave\Travelport\Util\AirRefundInfo
      */
     public function setRefund($Refund)
     {

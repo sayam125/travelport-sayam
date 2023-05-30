@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class IssuanceModifiers
 {
@@ -63,7 +63,7 @@ class IssuanceModifiers
 
     /**
      * @param FormOfPaymentRef $FormOfPaymentRef
-     * @return \FilippoToso\Travelport\Util\IssuanceModifiers
+     * @return \Santosdave\Travelport\Util\IssuanceModifiers
      */
     public function setFormOfPaymentRef($FormOfPaymentRef)
     {
@@ -81,7 +81,7 @@ class IssuanceModifiers
 
     /**
      * @param FormOfPayment $FormOfPayment
-     * @return \FilippoToso\Travelport\Util\IssuanceModifiers
+     * @return \Santosdave\Travelport\Util\IssuanceModifiers
      */
     public function setFormOfPayment($FormOfPayment)
     {
@@ -99,7 +99,7 @@ class IssuanceModifiers
 
     /**
      * @param CustomerReceiptInfo $CustomerReceiptInfo
-     * @return \FilippoToso\Travelport\Util\IssuanceModifiers
+     * @return \Santosdave\Travelport\Util\IssuanceModifiers
      */
     public function setCustomerReceiptInfo($CustomerReceiptInfo)
     {
@@ -117,7 +117,7 @@ class IssuanceModifiers
 
     /**
      * @param EMDEndorsement $EMDEndorsement
-     * @return \FilippoToso\Travelport\Util\IssuanceModifiers
+     * @return \Santosdave\Travelport\Util\IssuanceModifiers
      */
     public function setEMDEndorsement($EMDEndorsement)
     {
@@ -135,7 +135,7 @@ class IssuanceModifiers
 
     /**
      * @param EMDCommission $EMDCommission
-     * @return \FilippoToso\Travelport\Util\IssuanceModifiers
+     * @return \Santosdave\Travelport\Util\IssuanceModifiers
      */
     public function setEMDCommission($EMDCommission)
     {
@@ -153,7 +153,7 @@ class IssuanceModifiers
 
     /**
      * @param typeCarrier $PlatingCarrier
-     * @return \FilippoToso\Travelport\Util\IssuanceModifiers
+     * @return \Santosdave\Travelport\Util\IssuanceModifiers
      */
     public function setPlatingCarrier($PlatingCarrier)
     {

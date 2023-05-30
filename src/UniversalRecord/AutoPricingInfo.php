@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class AutoPricingInfo
 {
@@ -84,7 +84,7 @@ class AutoPricingInfo
 
     /**
      * @param AirSegmentRef $AirSegmentRef
-     * @return \FilippoToso\Travelport\UniversalRecord\AutoPricingInfo
+     * @return \Santosdave\Travelport\UniversalRecord\AutoPricingInfo
      */
     public function setAirSegmentRef($AirSegmentRef)
     {
@@ -102,7 +102,7 @@ class AutoPricingInfo
 
     /**
      * @param BookingTravelerRef $BookingTravelerRef
-     * @return \FilippoToso\Travelport\UniversalRecord\AutoPricingInfo
+     * @return \Santosdave\Travelport\UniversalRecord\AutoPricingInfo
      */
     public function setBookingTravelerRef($BookingTravelerRef)
     {
@@ -120,7 +120,7 @@ class AutoPricingInfo
 
     /**
      * @param AirPricingModifiers $AirPricingModifiers
-     * @return \FilippoToso\Travelport\UniversalRecord\AutoPricingInfo
+     * @return \Santosdave\Travelport\UniversalRecord\AutoPricingInfo
      */
     public function setAirPricingModifiers($AirPricingModifiers)
     {
@@ -138,7 +138,7 @@ class AutoPricingInfo
 
     /**
      * @param AirSegmentPricingModifiers $AirSegmentPricingModifiers
-     * @return \FilippoToso\Travelport\UniversalRecord\AutoPricingInfo
+     * @return \Santosdave\Travelport\UniversalRecord\AutoPricingInfo
      */
     public function setAirSegmentPricingModifiers($AirSegmentPricingModifiers)
     {
@@ -156,7 +156,7 @@ class AutoPricingInfo
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\UniversalRecord\AutoPricingInfo
+     * @return \Santosdave\Travelport\UniversalRecord\AutoPricingInfo
      */
     public function setKey($Key)
     {
@@ -174,7 +174,7 @@ class AutoPricingInfo
 
     /**
      * @param anonymous987 $PricingType
-     * @return \FilippoToso\Travelport\UniversalRecord\AutoPricingInfo
+     * @return \Santosdave\Travelport\UniversalRecord\AutoPricingInfo
      */
     public function setPricingType($PricingType)
     {
@@ -192,7 +192,7 @@ class AutoPricingInfo
 
     /**
      * @param typeCarrier $PlatingCarrier
-     * @return \FilippoToso\Travelport\UniversalRecord\AutoPricingInfo
+     * @return \Santosdave\Travelport\UniversalRecord\AutoPricingInfo
      */
     public function setPlatingCarrier($PlatingCarrier)
     {
@@ -210,7 +210,7 @@ class AutoPricingInfo
 
     /**
      * @param typeElementStatus $ElStat
-     * @return \FilippoToso\Travelport\UniversalRecord\AutoPricingInfo
+     * @return \Santosdave\Travelport\UniversalRecord\AutoPricingInfo
      */
     public function setElStat($ElStat)
     {
@@ -228,7 +228,7 @@ class AutoPricingInfo
 
     /**
      * @param boolean $KeyOverride
-     * @return \FilippoToso\Travelport\UniversalRecord\AutoPricingInfo
+     * @return \Santosdave\Travelport\UniversalRecord\AutoPricingInfo
      */
     public function setKeyOverride($KeyOverride)
     {

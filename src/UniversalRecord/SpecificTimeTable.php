@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class SpecificTimeTable
 {
@@ -52,7 +52,7 @@ class SpecificTimeTable
 
     /**
      * @param FlightOrigin $FlightOrigin
-     * @return \FilippoToso\Travelport\UniversalRecord\SpecificTimeTable
+     * @return \Santosdave\Travelport\UniversalRecord\SpecificTimeTable
      */
     public function setFlightOrigin($FlightOrigin)
     {
@@ -70,7 +70,7 @@ class SpecificTimeTable
 
     /**
      * @param FlightDestination $FlightDestination
-     * @return \FilippoToso\Travelport\UniversalRecord\SpecificTimeTable
+     * @return \Santosdave\Travelport\UniversalRecord\SpecificTimeTable
      */
     public function setFlightDestination($FlightDestination)
     {
@@ -88,7 +88,7 @@ class SpecificTimeTable
 
     /**
      * @param string $StartDate
-     * @return \FilippoToso\Travelport\UniversalRecord\SpecificTimeTable
+     * @return \Santosdave\Travelport\UniversalRecord\SpecificTimeTable
      */
     public function setStartDate($StartDate)
     {
@@ -106,7 +106,7 @@ class SpecificTimeTable
 
     /**
      * @param typeCarrier $Carrier
-     * @return \FilippoToso\Travelport\UniversalRecord\SpecificTimeTable
+     * @return \Santosdave\Travelport\UniversalRecord\SpecificTimeTable
      */
     public function setCarrier($Carrier)
     {
@@ -124,7 +124,7 @@ class SpecificTimeTable
 
     /**
      * @param typeFlightNumber $FlightNumber
-     * @return \FilippoToso\Travelport\UniversalRecord\SpecificTimeTable
+     * @return \Santosdave\Travelport\UniversalRecord\SpecificTimeTable
      */
     public function setFlightNumber($FlightNumber)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class PCC
 {
@@ -42,7 +42,7 @@ class PCC
 
     /**
      * @param OverridePCC $OverridePCC
-     * @return \FilippoToso\Travelport\Util\PCC
+     * @return \Santosdave\Travelport\Util\PCC
      */
     public function setOverridePCC($OverridePCC)
     {
@@ -60,7 +60,7 @@ class PCC
 
     /**
      * @param PointOfSale $PointOfSale
-     * @return \FilippoToso\Travelport\Util\PCC
+     * @return \Santosdave\Travelport\Util\PCC
      */
     public function setPointOfSale($PointOfSale)
     {
@@ -78,7 +78,7 @@ class PCC
 
     /**
      * @param TicketAgency $TicketAgency
-     * @return \FilippoToso\Travelport\Util\PCC
+     * @return \Santosdave\Travelport\Util\PCC
      */
     public function setTicketAgency($TicketAgency)
     {

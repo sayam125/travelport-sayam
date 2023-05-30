@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class FareFamilyAdd
 {
@@ -28,7 +28,7 @@ class FareFamilyAdd
 
     /**
      * @param FareFamily $FareFamily
-     * @return \FilippoToso\Travelport\Util\FareFamilyAdd
+     * @return \Santosdave\Travelport\Util\FareFamilyAdd
      */
     public function setFareFamily($FareFamily)
     {

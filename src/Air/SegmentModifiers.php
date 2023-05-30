@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class SegmentModifiers
 {
@@ -47,7 +47,7 @@ class SegmentModifiers
 
     /**
      * @param AirSegmentRef $AirSegmentRef
-     * @return \FilippoToso\Travelport\Air\SegmentModifiers
+     * @return \Santosdave\Travelport\Air\SegmentModifiers
      */
     public function setAirSegmentRef($AirSegmentRef)
     {
@@ -65,7 +65,7 @@ class SegmentModifiers
 
     /**
      * @param TicketValidity $TicketValidity
-     * @return \FilippoToso\Travelport\Air\SegmentModifiers
+     * @return \Santosdave\Travelport\Air\SegmentModifiers
      */
     public function setTicketValidity($TicketValidity)
     {
@@ -83,7 +83,7 @@ class SegmentModifiers
 
     /**
      * @param BaggageAllowance $BaggageAllowance
-     * @return \FilippoToso\Travelport\Air\SegmentModifiers
+     * @return \Santosdave\Travelport\Air\SegmentModifiers
      */
     public function setBaggageAllowance($BaggageAllowance)
     {
@@ -101,7 +101,7 @@ class SegmentModifiers
 
     /**
      * @param typeTicketDesignator $TicketDesignator
-     * @return \FilippoToso\Travelport\Air\SegmentModifiers
+     * @return \Santosdave\Travelport\Air\SegmentModifiers
      */
     public function setTicketDesignator($TicketDesignator)
     {

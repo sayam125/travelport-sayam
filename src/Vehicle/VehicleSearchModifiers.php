@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Vehicle;
+namespace Santosdave\Travelport\Vehicle;
 
 class VehicleSearchModifiers
 {
@@ -153,7 +153,7 @@ class VehicleSearchModifiers
 
     /**
      * @param PermittedVendors $PermittedVendors
-     * @return \FilippoToso\Travelport\Vehicle\VehicleSearchModifiers
+     * @return \Santosdave\Travelport\Vehicle\VehicleSearchModifiers
      */
     public function setPermittedVendors($PermittedVendors)
     {
@@ -171,7 +171,7 @@ class VehicleSearchModifiers
 
     /**
      * @param ProhibitedVendors $ProhibitedVendors
-     * @return \FilippoToso\Travelport\Vehicle\VehicleSearchModifiers
+     * @return \Santosdave\Travelport\Vehicle\VehicleSearchModifiers
      */
     public function setProhibitedVendors($ProhibitedVendors)
     {
@@ -189,7 +189,7 @@ class VehicleSearchModifiers
 
     /**
      * @param VehicleModifier $VehicleModifier
-     * @return \FilippoToso\Travelport\Vehicle\VehicleSearchModifiers
+     * @return \Santosdave\Travelport\Vehicle\VehicleSearchModifiers
      */
     public function setVehicleModifier($VehicleModifier)
     {
@@ -207,7 +207,7 @@ class VehicleSearchModifiers
 
     /**
      * @param VehicleType $VehicleType
-     * @return \FilippoToso\Travelport\Vehicle\VehicleSearchModifiers
+     * @return \Santosdave\Travelport\Vehicle\VehicleSearchModifiers
      */
     public function setVehicleType($VehicleType)
     {
@@ -225,7 +225,7 @@ class VehicleSearchModifiers
 
     /**
      * @param RateModifiers $RateModifiers
-     * @return \FilippoToso\Travelport\Vehicle\VehicleSearchModifiers
+     * @return \Santosdave\Travelport\Vehicle\VehicleSearchModifiers
      */
     public function setRateModifiers($RateModifiers)
     {
@@ -243,7 +243,7 @@ class VehicleSearchModifiers
 
     /**
      * @param typeRateHostIndicator $RateHostIndicator
-     * @return \FilippoToso\Travelport\Vehicle\VehicleSearchModifiers
+     * @return \Santosdave\Travelport\Vehicle\VehicleSearchModifiers
      */
     public function setRateHostIndicator($RateHostIndicator)
     {
@@ -261,7 +261,7 @@ class VehicleSearchModifiers
 
     /**
      * @param LoyaltyCard $LoyaltyCard
-     * @return \FilippoToso\Travelport\Vehicle\VehicleSearchModifiers
+     * @return \Santosdave\Travelport\Vehicle\VehicleSearchModifiers
      */
     public function setLoyaltyCard($LoyaltyCard)
     {
@@ -279,7 +279,7 @@ class VehicleSearchModifiers
 
     /**
      * @param typeReferencePoint $ReferencePoint
-     * @return \FilippoToso\Travelport\Vehicle\VehicleSearchModifiers
+     * @return \Santosdave\Travelport\Vehicle\VehicleSearchModifiers
      */
     public function setReferencePoint($ReferencePoint)
     {
@@ -297,7 +297,7 @@ class VehicleSearchModifiers
 
     /**
      * @param BookingSource $BookingSource
-     * @return \FilippoToso\Travelport\Vehicle\VehicleSearchModifiers
+     * @return \Santosdave\Travelport\Vehicle\VehicleSearchModifiers
      */
     public function setBookingSource($BookingSource)
     {
@@ -315,7 +315,7 @@ class VehicleSearchModifiers
 
     /**
      * @param SpecialEquipment $SpecialEquipment
-     * @return \FilippoToso\Travelport\Vehicle\VehicleSearchModifiers
+     * @return \Santosdave\Travelport\Vehicle\VehicleSearchModifiers
      */
     public function setSpecialEquipment($SpecialEquipment)
     {
@@ -333,7 +333,7 @@ class VehicleSearchModifiers
 
     /**
      * @param typeVehicleSearchDistance $SearchDistance
-     * @return \FilippoToso\Travelport\Vehicle\VehicleSearchModifiers
+     * @return \Santosdave\Travelport\Vehicle\VehicleSearchModifiers
      */
     public function setSearchDistance($SearchDistance)
     {
@@ -351,7 +351,7 @@ class VehicleSearchModifiers
 
     /**
      * @param typeKeyword $Policy
-     * @return \FilippoToso\Travelport\Vehicle\VehicleSearchModifiers
+     * @return \Santosdave\Travelport\Vehicle\VehicleSearchModifiers
      */
     public function setPolicy($Policy)
     {
@@ -369,7 +369,7 @@ class VehicleSearchModifiers
 
     /**
      * @param DriverInfo $DriverInfo
-     * @return \FilippoToso\Travelport\Vehicle\VehicleSearchModifiers
+     * @return \Santosdave\Travelport\Vehicle\VehicleSearchModifiers
      */
     public function setDriverInfo($DriverInfo)
     {
@@ -387,7 +387,7 @@ class VehicleSearchModifiers
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Vehicle\VehicleSearchModifiers
+     * @return \Santosdave\Travelport\Vehicle\VehicleSearchModifiers
      */
     public function setKey($Key)
     {
@@ -405,7 +405,7 @@ class VehicleSearchModifiers
 
     /**
      * @param typeCurrency $PreferredCurrency
-     * @return \FilippoToso\Travelport\Vehicle\VehicleSearchModifiers
+     * @return \Santosdave\Travelport\Vehicle\VehicleSearchModifiers
      */
     public function setPreferredCurrency($PreferredCurrency)
     {
@@ -423,7 +423,7 @@ class VehicleSearchModifiers
 
     /**
      * @param boolean $UnlimitedMileage
-     * @return \FilippoToso\Travelport\Vehicle\VehicleSearchModifiers
+     * @return \Santosdave\Travelport\Vehicle\VehicleSearchModifiers
      */
     public function setUnlimitedMileage($UnlimitedMileage)
     {
@@ -441,7 +441,7 @@ class VehicleSearchModifiers
 
     /**
      * @param typeRateCategory $RateCategory
-     * @return \FilippoToso\Travelport\Vehicle\VehicleSearchModifiers
+     * @return \Santosdave\Travelport\Vehicle\VehicleSearchModifiers
      */
     public function setRateCategory($RateCategory)
     {
@@ -459,7 +459,7 @@ class VehicleSearchModifiers
 
     /**
      * @param boolean $RateGuaranteed
-     * @return \FilippoToso\Travelport\Vehicle\VehicleSearchModifiers
+     * @return \Santosdave\Travelport\Vehicle\VehicleSearchModifiers
      */
     public function setRateGuaranteed($RateGuaranteed)
     {
@@ -477,7 +477,7 @@ class VehicleSearchModifiers
 
     /**
      * @param typeRateTimePeriod $RatePeriod
-     * @return \FilippoToso\Travelport\Vehicle\VehicleSearchModifiers
+     * @return \Santosdave\Travelport\Vehicle\VehicleSearchModifiers
      */
     public function setRatePeriod($RatePeriod)
     {
@@ -495,7 +495,7 @@ class VehicleSearchModifiers
 
     /**
      * @param boolean $SellableRatesOnly
-     * @return \FilippoToso\Travelport\Vehicle\VehicleSearchModifiers
+     * @return \Santosdave\Travelport\Vehicle\VehicleSearchModifiers
      */
     public function setSellableRatesOnly($SellableRatesOnly)
     {

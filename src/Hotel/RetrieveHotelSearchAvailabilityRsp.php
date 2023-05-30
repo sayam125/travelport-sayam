@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class RetrieveHotelSearchAvailabilityRsp extends BaseHotelSearchRsp
 {
@@ -39,7 +39,7 @@ class RetrieveHotelSearchAvailabilityRsp extends BaseHotelSearchRsp
 
     /**
      * @param BaseAsyncProviderSpecificResponse $AsyncProviderSpecificResponse
-     * @return \FilippoToso\Travelport\Hotel\RetrieveHotelSearchAvailabilityRsp
+     * @return \Santosdave\Travelport\Hotel\RetrieveHotelSearchAvailabilityRsp
      */
     public function setAsyncProviderSpecificResponse($AsyncProviderSpecificResponse)
     {

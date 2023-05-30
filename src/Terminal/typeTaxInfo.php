@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Terminal;
+namespace Santosdave\Travelport\Terminal;
 
 class typeTaxInfo
 {
@@ -126,7 +126,7 @@ class typeTaxInfo
 
     /**
      * @param TaxDetail $TaxDetail
-     * @return \FilippoToso\Travelport\Terminal\typeTaxInfo
+     * @return \Santosdave\Travelport\Terminal\typeTaxInfo
      */
     public function setTaxDetail($TaxDetail)
     {
@@ -144,7 +144,7 @@ class typeTaxInfo
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Terminal\typeTaxInfo
+     * @return \Santosdave\Travelport\Terminal\typeTaxInfo
      */
     public function setKey($Key)
     {
@@ -162,7 +162,7 @@ class typeTaxInfo
 
     /**
      * @param string $Category
-     * @return \FilippoToso\Travelport\Terminal\typeTaxInfo
+     * @return \Santosdave\Travelport\Terminal\typeTaxInfo
      */
     public function setCategory($Category)
     {
@@ -180,7 +180,7 @@ class typeTaxInfo
 
     /**
      * @param string $CarrierDefinedCategory
-     * @return \FilippoToso\Travelport\Terminal\typeTaxInfo
+     * @return \Santosdave\Travelport\Terminal\typeTaxInfo
      */
     public function setCarrierDefinedCategory($CarrierDefinedCategory)
     {
@@ -198,7 +198,7 @@ class typeTaxInfo
 
     /**
      * @param typeRef $SegmentRef
-     * @return \FilippoToso\Travelport\Terminal\typeTaxInfo
+     * @return \Santosdave\Travelport\Terminal\typeTaxInfo
      */
     public function setSegmentRef($SegmentRef)
     {
@@ -216,7 +216,7 @@ class typeTaxInfo
 
     /**
      * @param typeRef $FlightDetailsRef
-     * @return \FilippoToso\Travelport\Terminal\typeTaxInfo
+     * @return \Santosdave\Travelport\Terminal\typeTaxInfo
      */
     public function setFlightDetailsRef($FlightDetailsRef)
     {
@@ -234,7 +234,7 @@ class typeTaxInfo
 
     /**
      * @param typeRef $CouponRef
-     * @return \FilippoToso\Travelport\Terminal\typeTaxInfo
+     * @return \Santosdave\Travelport\Terminal\typeTaxInfo
      */
     public function setCouponRef($CouponRef)
     {
@@ -252,7 +252,7 @@ class typeTaxInfo
 
     /**
      * @param boolean $TaxExempted
-     * @return \FilippoToso\Travelport\Terminal\typeTaxInfo
+     * @return \Santosdave\Travelport\Terminal\typeTaxInfo
      */
     public function setTaxExempted($TaxExempted)
     {
@@ -270,7 +270,7 @@ class typeTaxInfo
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\Terminal\typeTaxInfo
+     * @return \Santosdave\Travelport\Terminal\typeTaxInfo
      */
     public function setProviderCode($ProviderCode)
     {
@@ -288,7 +288,7 @@ class typeTaxInfo
 
     /**
      * @param typeSupplierCode $SupplierCode
-     * @return \FilippoToso\Travelport\Terminal\typeTaxInfo
+     * @return \Santosdave\Travelport\Terminal\typeTaxInfo
      */
     public function setSupplierCode($SupplierCode)
     {
@@ -306,7 +306,7 @@ class typeTaxInfo
 
     /**
      * @param typeMoney $Amount
-     * @return \FilippoToso\Travelport\Terminal\typeTaxInfo
+     * @return \Santosdave\Travelport\Terminal\typeTaxInfo
      */
     public function setAmount($Amount)
     {
@@ -324,7 +324,7 @@ class typeTaxInfo
 
     /**
      * @param typeAirport $OriginAirport
-     * @return \FilippoToso\Travelport\Terminal\typeTaxInfo
+     * @return \Santosdave\Travelport\Terminal\typeTaxInfo
      */
     public function setOriginAirport($OriginAirport)
     {
@@ -342,7 +342,7 @@ class typeTaxInfo
 
     /**
      * @param typeAirport $DestinationAirport
-     * @return \FilippoToso\Travelport\Terminal\typeTaxInfo
+     * @return \Santosdave\Travelport\Terminal\typeTaxInfo
      */
     public function setDestinationAirport($DestinationAirport)
     {
@@ -360,7 +360,7 @@ class typeTaxInfo
 
     /**
      * @param string $CountryCode
-     * @return \FilippoToso\Travelport\Terminal\typeTaxInfo
+     * @return \Santosdave\Travelport\Terminal\typeTaxInfo
      */
     public function setCountryCode($CountryCode)
     {
@@ -378,7 +378,7 @@ class typeTaxInfo
 
     /**
      * @param typeRef $FareInfoRef
-     * @return \FilippoToso\Travelport\Terminal\typeTaxInfo
+     * @return \Santosdave\Travelport\Terminal\typeTaxInfo
      */
     public function setFareInfoRef($FareInfoRef)
     {

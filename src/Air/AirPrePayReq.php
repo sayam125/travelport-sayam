@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class AirPrePayReq extends BaseReq
 {
@@ -47,7 +47,7 @@ class AirPrePayReq extends BaseReq
 
     /**
      * @param ListSearch $ListSearch
-     * @return \FilippoToso\Travelport\Air\AirPrePayReq
+     * @return \Santosdave\Travelport\Air\AirPrePayReq
      */
     public function setListSearch($ListSearch)
     {
@@ -65,7 +65,7 @@ class AirPrePayReq extends BaseReq
 
     /**
      * @param PrePayRetrieve $PrePayRetrieve
-     * @return \FilippoToso\Travelport\Air\AirPrePayReq
+     * @return \Santosdave\Travelport\Air\AirPrePayReq
      */
     public function setPrePayRetrieve($PrePayRetrieve)
     {

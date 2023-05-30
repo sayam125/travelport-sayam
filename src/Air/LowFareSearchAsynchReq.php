@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class LowFareSearchAsynchReq extends BaseLowFareSearchReq
 {
@@ -67,7 +67,7 @@ class LowFareSearchAsynchReq extends BaseLowFareSearchReq
 
     /**
      * @param AirSearchAsynchModifiers $AirSearchAsynchModifiers
-     * @return \FilippoToso\Travelport\Air\LowFareSearchAsynchReq
+     * @return \Santosdave\Travelport\Air\LowFareSearchAsynchReq
      */
     public function setAirSearchAsynchModifiers($AirSearchAsynchModifiers)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class FareRuleKey
 {
@@ -42,7 +42,7 @@ class FareRuleKey
 
     /**
      * @param typeNonBlanks $_
-     * @return \FilippoToso\Travelport\Util\FareRuleKey
+     * @return \Santosdave\Travelport\Util\FareRuleKey
      */
     public function set_($_)
     {
@@ -60,7 +60,7 @@ class FareRuleKey
 
     /**
      * @param string $FareInfoRef
-     * @return \FilippoToso\Travelport\Util\FareRuleKey
+     * @return \Santosdave\Travelport\Util\FareRuleKey
      */
     public function setFareInfoRef($FareInfoRef)
     {
@@ -78,7 +78,7 @@ class FareRuleKey
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\Util\FareRuleKey
+     * @return \Santosdave\Travelport\Util\FareRuleKey
      */
     public function setProviderCode($ProviderCode)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeBridgeBranchCmd
 {
@@ -35,7 +35,7 @@ class typeBridgeBranchCmd
 
     /**
      * @param typeProfileID $BranchID
-     * @return \FilippoToso\Travelport\UProfile\typeBridgeBranchCmd
+     * @return \Santosdave\Travelport\UProfile\typeBridgeBranchCmd
      */
     public function setBranchID($BranchID)
     {
@@ -53,7 +53,7 @@ class typeBridgeBranchCmd
 
     /**
      * @param typeProvisioningCode $BranchCode
-     * @return \FilippoToso\Travelport\UProfile\typeBridgeBranchCmd
+     * @return \Santosdave\Travelport\UProfile\typeBridgeBranchCmd
      */
     public function setBranchCode($BranchCode)
     {

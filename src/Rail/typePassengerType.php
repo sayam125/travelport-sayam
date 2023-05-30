@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class typePassengerType
 {
@@ -105,7 +105,7 @@ class typePassengerType
 
     /**
      * @param Name $Name
-     * @return \FilippoToso\Travelport\Rail\typePassengerType
+     * @return \Santosdave\Travelport\Rail\typePassengerType
      */
     public function setName($Name)
     {
@@ -123,7 +123,7 @@ class typePassengerType
 
     /**
      * @param LoyaltyCard $LoyaltyCard
-     * @return \FilippoToso\Travelport\Rail\typePassengerType
+     * @return \Santosdave\Travelport\Rail\typePassengerType
      */
     public function setLoyaltyCard($LoyaltyCard)
     {
@@ -141,7 +141,7 @@ class typePassengerType
 
     /**
      * @param DiscountCard $DiscountCard
-     * @return \FilippoToso\Travelport\Rail\typePassengerType
+     * @return \Santosdave\Travelport\Rail\typePassengerType
      */
     public function setDiscountCard($DiscountCard)
     {
@@ -159,7 +159,7 @@ class typePassengerType
 
     /**
      * @param PersonalGeography $PersonalGeography
-     * @return \FilippoToso\Travelport\Rail\typePassengerType
+     * @return \Santosdave\Travelport\Rail\typePassengerType
      */
     public function setPersonalGeography($PersonalGeography)
     {
@@ -177,7 +177,7 @@ class typePassengerType
 
     /**
      * @param typePTC $Code
-     * @return \FilippoToso\Travelport\Rail\typePassengerType
+     * @return \Santosdave\Travelport\Rail\typePassengerType
      */
     public function setCode($Code)
     {
@@ -195,7 +195,7 @@ class typePassengerType
 
     /**
      * @param int $Age
-     * @return \FilippoToso\Travelport\Rail\typePassengerType
+     * @return \Santosdave\Travelport\Rail\typePassengerType
      */
     public function setAge($Age)
     {
@@ -213,7 +213,7 @@ class typePassengerType
 
     /**
      * @param date $DOB
-     * @return \FilippoToso\Travelport\Rail\typePassengerType
+     * @return \Santosdave\Travelport\Rail\typePassengerType
      */
     public function setDOB($DOB)
     {
@@ -231,7 +231,7 @@ class typePassengerType
 
     /**
      * @param typeGender $Gender
-     * @return \FilippoToso\Travelport\Rail\typePassengerType
+     * @return \Santosdave\Travelport\Rail\typePassengerType
      */
     public function setGender($Gender)
     {
@@ -249,7 +249,7 @@ class typePassengerType
 
     /**
      * @param boolean $PricePTCOnly
-     * @return \FilippoToso\Travelport\Rail\typePassengerType
+     * @return \Santosdave\Travelport\Rail\typePassengerType
      */
     public function setPricePTCOnly($PricePTCOnly)
     {
@@ -267,7 +267,7 @@ class typePassengerType
 
     /**
      * @param string $BookingTravelerRef
-     * @return \FilippoToso\Travelport\Rail\typePassengerType
+     * @return \Santosdave\Travelport\Rail\typePassengerType
      */
     public function setBookingTravelerRef($BookingTravelerRef)
     {
@@ -285,7 +285,7 @@ class typePassengerType
 
     /**
      * @param boolean $AccompaniedPassenger
-     * @return \FilippoToso\Travelport\Rail\typePassengerType
+     * @return \Santosdave\Travelport\Rail\typePassengerType
      */
     public function setAccompaniedPassenger($AccompaniedPassenger)
     {
@@ -303,7 +303,7 @@ class typePassengerType
 
     /**
      * @param typeResidency $ResidencyType
-     * @return \FilippoToso\Travelport\Rail\typePassengerType
+     * @return \Santosdave\Travelport\Rail\typePassengerType
      */
     public function setResidencyType($ResidencyType)
     {

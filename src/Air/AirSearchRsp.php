@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class AirSearchRsp extends BaseAvailabilitySearchRsp
 {
@@ -134,7 +134,7 @@ class AirSearchRsp extends BaseAvailabilitySearchRsp
 
     /**
      * @param FareNoteList $FareNoteList
-     * @return \FilippoToso\Travelport\Air\AirSearchRsp
+     * @return \Santosdave\Travelport\Air\AirSearchRsp
      */
     public function setFareNoteList($FareNoteList)
     {
@@ -152,7 +152,7 @@ class AirSearchRsp extends BaseAvailabilitySearchRsp
 
     /**
      * @param ExpertSolutionList $ExpertSolutionList
-     * @return \FilippoToso\Travelport\Air\AirSearchRsp
+     * @return \Santosdave\Travelport\Air\AirSearchRsp
      */
     public function setExpertSolutionList($ExpertSolutionList)
     {
@@ -170,7 +170,7 @@ class AirSearchRsp extends BaseAvailabilitySearchRsp
 
     /**
      * @param RouteList $RouteList
-     * @return \FilippoToso\Travelport\Air\AirSearchRsp
+     * @return \Santosdave\Travelport\Air\AirSearchRsp
      */
     public function setRouteList($RouteList)
     {
@@ -188,7 +188,7 @@ class AirSearchRsp extends BaseAvailabilitySearchRsp
 
     /**
      * @param AlternateRouteList $AlternateRouteList
-     * @return \FilippoToso\Travelport\Air\AirSearchRsp
+     * @return \Santosdave\Travelport\Air\AirSearchRsp
      */
     public function setAlternateRouteList($AlternateRouteList)
     {
@@ -206,7 +206,7 @@ class AirSearchRsp extends BaseAvailabilitySearchRsp
 
     /**
      * @param AlternateLocationDistanceList $AlternateLocationDistanceList
-     * @return \FilippoToso\Travelport\Air\AirSearchRsp
+     * @return \Santosdave\Travelport\Air\AirSearchRsp
      */
     public function setAlternateLocationDistanceList($AlternateLocationDistanceList)
     {
@@ -224,7 +224,7 @@ class AirSearchRsp extends BaseAvailabilitySearchRsp
 
     /**
      * @param FareInfoMessage $FareInfoMessage
-     * @return \FilippoToso\Travelport\Air\AirSearchRsp
+     * @return \Santosdave\Travelport\Air\AirSearchRsp
      */
     public function setFareInfoMessage($FareInfoMessage)
     {
@@ -242,7 +242,7 @@ class AirSearchRsp extends BaseAvailabilitySearchRsp
 
     /**
      * @param AirPricingSolution $AirPricingSolution
-     * @return \FilippoToso\Travelport\Air\AirSearchRsp
+     * @return \Santosdave\Travelport\Air\AirSearchRsp
      */
     public function setAirPricingSolution($AirPricingSolution)
     {
@@ -260,7 +260,7 @@ class AirSearchRsp extends BaseAvailabilitySearchRsp
 
     /**
      * @param AirPricePointList $AirPricePointList
-     * @return \FilippoToso\Travelport\Air\AirSearchRsp
+     * @return \Santosdave\Travelport\Air\AirSearchRsp
      */
     public function setAirPricePointList($AirPricePointList)
     {
@@ -278,7 +278,7 @@ class AirSearchRsp extends BaseAvailabilitySearchRsp
 
     /**
      * @param RailSegmentList $RailSegmentList
-     * @return \FilippoToso\Travelport\Air\AirSearchRsp
+     * @return \Santosdave\Travelport\Air\AirSearchRsp
      */
     public function setRailSegmentList($RailSegmentList)
     {
@@ -296,7 +296,7 @@ class AirSearchRsp extends BaseAvailabilitySearchRsp
 
     /**
      * @param RailJourneyList $RailJourneyList
-     * @return \FilippoToso\Travelport\Air\AirSearchRsp
+     * @return \Santosdave\Travelport\Air\AirSearchRsp
      */
     public function setRailJourneyList($RailJourneyList)
     {
@@ -314,7 +314,7 @@ class AirSearchRsp extends BaseAvailabilitySearchRsp
 
     /**
      * @param RailFareNoteList $RailFareNoteList
-     * @return \FilippoToso\Travelport\Air\AirSearchRsp
+     * @return \Santosdave\Travelport\Air\AirSearchRsp
      */
     public function setRailFareNoteList($RailFareNoteList)
     {
@@ -332,7 +332,7 @@ class AirSearchRsp extends BaseAvailabilitySearchRsp
 
     /**
      * @param RailFareIDList $RailFareIDList
-     * @return \FilippoToso\Travelport\Air\AirSearchRsp
+     * @return \Santosdave\Travelport\Air\AirSearchRsp
      */
     public function setRailFareIDList($RailFareIDList)
     {
@@ -350,7 +350,7 @@ class AirSearchRsp extends BaseAvailabilitySearchRsp
 
     /**
      * @param RailFareList $RailFareList
-     * @return \FilippoToso\Travelport\Air\AirSearchRsp
+     * @return \Santosdave\Travelport\Air\AirSearchRsp
      */
     public function setRailFareList($RailFareList)
     {
@@ -368,7 +368,7 @@ class AirSearchRsp extends BaseAvailabilitySearchRsp
 
     /**
      * @param RailPricingSolution $RailPricingSolution
-     * @return \FilippoToso\Travelport\Air\AirSearchRsp
+     * @return \Santosdave\Travelport\Air\AirSearchRsp
      */
     public function setRailPricingSolution($RailPricingSolution)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class Rows
 {
@@ -35,7 +35,7 @@ class Rows
 
     /**
      * @param Row $Row
-     * @return \FilippoToso\Travelport\GDSQueue\Rows
+     * @return \Santosdave\Travelport\GDSQueue\Rows
      */
     public function setRow($Row)
     {
@@ -53,7 +53,7 @@ class Rows
 
     /**
      * @param typeRef $SegmentRef
-     * @return \FilippoToso\Travelport\GDSQueue\Rows
+     * @return \Santosdave\Travelport\GDSQueue\Rows
      */
     public function setSegmentRef($SegmentRef)
     {

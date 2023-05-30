@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class AirSolutionChangedInfo
 {
@@ -35,7 +35,7 @@ class AirSolutionChangedInfo
 
     /**
      * @param AirPricingSolution $AirPricingSolution
-     * @return \FilippoToso\Travelport\UniversalRecord\AirSolutionChangedInfo
+     * @return \Santosdave\Travelport\UniversalRecord\AirSolutionChangedInfo
      */
     public function setAirPricingSolution($AirPricingSolution)
     {
@@ -53,7 +53,7 @@ class AirSolutionChangedInfo
 
     /**
      * @param anonymous574 $ReasonCode
-     * @return \FilippoToso\Travelport\UniversalRecord\AirSolutionChangedInfo
+     * @return \Santosdave\Travelport\UniversalRecord\AirSolutionChangedInfo
      */
     public function setReasonCode($ReasonCode)
     {

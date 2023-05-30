@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class EMDCommission
 {
@@ -42,7 +42,7 @@ class EMDCommission
 
     /**
      * @param typeAdjustmentType $Type
-     * @return \FilippoToso\Travelport\Util\EMDCommission
+     * @return \Santosdave\Travelport\Util\EMDCommission
      */
     public function setType($Type)
     {
@@ -60,7 +60,7 @@ class EMDCommission
 
     /**
      * @param float $Value
-     * @return \FilippoToso\Travelport\Util\EMDCommission
+     * @return \Santosdave\Travelport\Util\EMDCommission
      */
     public function setValue($Value)
     {
@@ -78,7 +78,7 @@ class EMDCommission
 
     /**
      * @param typeCurrency $CurrencyCode
-     * @return \FilippoToso\Travelport\Util\EMDCommission
+     * @return \Santosdave\Travelport\Util\EMDCommission
      */
     public function setCurrencyCode($CurrencyCode)
     {

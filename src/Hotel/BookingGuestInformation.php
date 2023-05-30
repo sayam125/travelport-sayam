@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class BookingGuestInformation
 {
@@ -28,7 +28,7 @@ class BookingGuestInformation
 
     /**
      * @param typeGuestRoomInformation[] $Room
-     * @return \FilippoToso\Travelport\Hotel\BookingGuestInformation
+     * @return \Santosdave\Travelport\Hotel\BookingGuestInformation
      */
     public function setRoom(array $Room)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class IncludeAddlBookingCodeInfo
 {
@@ -35,7 +35,7 @@ class IncludeAddlBookingCodeInfo
 
     /**
      * @param typeCarrierCode $Type
-     * @return \FilippoToso\Travelport\Air\IncludeAddlBookingCodeInfo
+     * @return \Santosdave\Travelport\Air\IncludeAddlBookingCodeInfo
      */
     public function setType($Type)
     {
@@ -53,7 +53,7 @@ class IncludeAddlBookingCodeInfo
 
     /**
      * @param typeCarrier $SecondaryCarrier
-     * @return \FilippoToso\Travelport\Air\IncludeAddlBookingCodeInfo
+     * @return \Santosdave\Travelport\Air\IncludeAddlBookingCodeInfo
      */
     public function setSecondaryCarrier($SecondaryCarrier)
     {

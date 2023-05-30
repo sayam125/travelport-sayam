@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class HotelSuperShopperResults
 {
@@ -47,7 +47,7 @@ class HotelSuperShopperResults
 
     /**
      * @param HotelProperty $HotelProperty
-     * @return \FilippoToso\Travelport\GDSQueue\HotelSuperShopperResults
+     * @return \Santosdave\Travelport\GDSQueue\HotelSuperShopperResults
      */
     public function setHotelProperty($HotelProperty)
     {
@@ -65,7 +65,7 @@ class HotelSuperShopperResults
 
     /**
      * @param HotelDetailItem $HotelDetailItem
-     * @return \FilippoToso\Travelport\GDSQueue\HotelSuperShopperResults
+     * @return \Santosdave\Travelport\GDSQueue\HotelSuperShopperResults
      */
     public function setHotelDetailItem($HotelDetailItem)
     {
@@ -83,7 +83,7 @@ class HotelSuperShopperResults
 
     /**
      * @param HotelRateDetail $HotelRateDetail
-     * @return \FilippoToso\Travelport\GDSQueue\HotelSuperShopperResults
+     * @return \Santosdave\Travelport\GDSQueue\HotelSuperShopperResults
      */
     public function setHotelRateDetail($HotelRateDetail)
     {
@@ -101,7 +101,7 @@ class HotelSuperShopperResults
 
     /**
      * @param typeResultMessage[] $HotelResultsError
-     * @return \FilippoToso\Travelport\GDSQueue\HotelSuperShopperResults
+     * @return \Santosdave\Travelport\GDSQueue\HotelSuperShopperResults
      */
     public function setHotelResultsError(array $HotelResultsError = null)
     {

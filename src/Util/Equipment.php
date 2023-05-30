@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class Equipment
 {
@@ -35,7 +35,7 @@ class Equipment
 
     /**
      * @param string $Code
-     * @return \FilippoToso\Travelport\Util\Equipment
+     * @return \Santosdave\Travelport\Util\Equipment
      */
     public function setCode($Code)
     {
@@ -53,7 +53,7 @@ class Equipment
 
     /**
      * @param string $Description
-     * @return \FilippoToso\Travelport\Util\Equipment
+     * @return \Santosdave\Travelport\Util\Equipment
      */
     public function setDescription($Description)
     {

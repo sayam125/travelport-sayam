@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class typeBaseAirReservation extends BaseReservation
 {
@@ -161,7 +161,7 @@ class typeBaseAirReservation extends BaseReservation
 
     /**
      * @param OptionalServices $OptionalServices
-     * @return \FilippoToso\Travelport\Air\typeBaseAirReservation
+     * @return \Santosdave\Travelport\Air\typeBaseAirReservation
      */
     public function setOptionalServices($OptionalServices)
     {
@@ -179,7 +179,7 @@ class typeBaseAirReservation extends BaseReservation
 
     /**
      * @param SupplierLocator $SupplierLocator
-     * @return \FilippoToso\Travelport\Air\typeBaseAirReservation
+     * @return \Santosdave\Travelport\Air\typeBaseAirReservation
      */
     public function setSupplierLocator($SupplierLocator)
     {
@@ -197,7 +197,7 @@ class typeBaseAirReservation extends BaseReservation
 
     /**
      * @param ThirdPartyInformation $ThirdPartyInformation
-     * @return \FilippoToso\Travelport\Air\typeBaseAirReservation
+     * @return \Santosdave\Travelport\Air\typeBaseAirReservation
      */
     public function setThirdPartyInformation($ThirdPartyInformation)
     {
@@ -215,7 +215,7 @@ class typeBaseAirReservation extends BaseReservation
 
     /**
      * @param DocumentInfo $DocumentInfo
-     * @return \FilippoToso\Travelport\Air\typeBaseAirReservation
+     * @return \Santosdave\Travelport\Air\typeBaseAirReservation
      */
     public function setDocumentInfo($DocumentInfo)
     {
@@ -233,7 +233,7 @@ class typeBaseAirReservation extends BaseReservation
 
     /**
      * @param BookingTravelerRef $BookingTravelerRef
-     * @return \FilippoToso\Travelport\Air\typeBaseAirReservation
+     * @return \Santosdave\Travelport\Air\typeBaseAirReservation
      */
     public function setBookingTravelerRef($BookingTravelerRef)
     {
@@ -251,7 +251,7 @@ class typeBaseAirReservation extends BaseReservation
 
     /**
      * @param ProviderReservationInfoRef $ProviderReservationInfoRef
-     * @return \FilippoToso\Travelport\Air\typeBaseAirReservation
+     * @return \Santosdave\Travelport\Air\typeBaseAirReservation
      */
     public function setProviderReservationInfoRef($ProviderReservationInfoRef)
     {
@@ -269,7 +269,7 @@ class typeBaseAirReservation extends BaseReservation
 
     /**
      * @param typeBaseAirSegment $AirSegment
-     * @return \FilippoToso\Travelport\Air\typeBaseAirReservation
+     * @return \Santosdave\Travelport\Air\typeBaseAirReservation
      */
     public function setAirSegment($AirSegment)
     {
@@ -287,7 +287,7 @@ class typeBaseAirReservation extends BaseReservation
 
     /**
      * @param SvcSegment $SvcSegment
-     * @return \FilippoToso\Travelport\Air\typeBaseAirReservation
+     * @return \Santosdave\Travelport\Air\typeBaseAirReservation
      */
     public function setSvcSegment($SvcSegment)
     {
@@ -305,7 +305,7 @@ class typeBaseAirReservation extends BaseReservation
 
     /**
      * @param AirPricingInfo $AirPricingInfo
-     * @return \FilippoToso\Travelport\Air\typeBaseAirReservation
+     * @return \Santosdave\Travelport\Air\typeBaseAirReservation
      */
     public function setAirPricingInfo($AirPricingInfo)
     {
@@ -323,7 +323,7 @@ class typeBaseAirReservation extends BaseReservation
 
     /**
      * @param Payment $Payment
-     * @return \FilippoToso\Travelport\Air\typeBaseAirReservation
+     * @return \Santosdave\Travelport\Air\typeBaseAirReservation
      */
     public function setPayment($Payment)
     {
@@ -341,7 +341,7 @@ class typeBaseAirReservation extends BaseReservation
 
     /**
      * @param CreditCardAuth $CreditCardAuth
-     * @return \FilippoToso\Travelport\Air\typeBaseAirReservation
+     * @return \Santosdave\Travelport\Air\typeBaseAirReservation
      */
     public function setCreditCardAuth($CreditCardAuth)
     {
@@ -359,7 +359,7 @@ class typeBaseAirReservation extends BaseReservation
 
     /**
      * @param FareNote $FareNote
-     * @return \FilippoToso\Travelport\Air\typeBaseAirReservation
+     * @return \Santosdave\Travelport\Air\typeBaseAirReservation
      */
     public function setFareNote($FareNote)
     {
@@ -377,7 +377,7 @@ class typeBaseAirReservation extends BaseReservation
 
     /**
      * @param typeFeeInfo $FeeInfo
-     * @return \FilippoToso\Travelport\Air\typeBaseAirReservation
+     * @return \Santosdave\Travelport\Air\typeBaseAirReservation
      */
     public function setFeeInfo($FeeInfo)
     {
@@ -395,7 +395,7 @@ class typeBaseAirReservation extends BaseReservation
 
     /**
      * @param typeTaxInfoWithPaymentRef[] $TaxInfo
-     * @return \FilippoToso\Travelport\Air\typeBaseAirReservation
+     * @return \Santosdave\Travelport\Air\typeBaseAirReservation
      */
     public function setTaxInfo(array $TaxInfo = null)
     {
@@ -413,7 +413,7 @@ class typeBaseAirReservation extends BaseReservation
 
     /**
      * @param TicketingModifiers $TicketingModifiers
-     * @return \FilippoToso\Travelport\Air\typeBaseAirReservation
+     * @return \Santosdave\Travelport\Air\typeBaseAirReservation
      */
     public function setTicketingModifiers($TicketingModifiers)
     {
@@ -431,7 +431,7 @@ class typeBaseAirReservation extends BaseReservation
 
     /**
      * @param AssociatedRemark $AssociatedRemark
-     * @return \FilippoToso\Travelport\Air\typeBaseAirReservation
+     * @return \Santosdave\Travelport\Air\typeBaseAirReservation
      */
     public function setAssociatedRemark($AssociatedRemark)
     {
@@ -449,7 +449,7 @@ class typeBaseAirReservation extends BaseReservation
 
     /**
      * @param PocketItineraryRemark $PocketItineraryRemark
-     * @return \FilippoToso\Travelport\Air\typeBaseAirReservation
+     * @return \Santosdave\Travelport\Air\typeBaseAirReservation
      */
     public function setPocketItineraryRemark($PocketItineraryRemark)
     {
@@ -467,7 +467,7 @@ class typeBaseAirReservation extends BaseReservation
 
     /**
      * @param AirExchangeBundleTotal $AirExchangeBundleTotal
-     * @return \FilippoToso\Travelport\Air\typeBaseAirReservation
+     * @return \Santosdave\Travelport\Air\typeBaseAirReservation
      */
     public function setAirExchangeBundleTotal($AirExchangeBundleTotal)
     {
@@ -485,7 +485,7 @@ class typeBaseAirReservation extends BaseReservation
 
     /**
      * @param AirExchangeBundle $AirExchangeBundle
-     * @return \FilippoToso\Travelport\Air\typeBaseAirReservation
+     * @return \Santosdave\Travelport\Air\typeBaseAirReservation
      */
     public function setAirExchangeBundle($AirExchangeBundle)
     {

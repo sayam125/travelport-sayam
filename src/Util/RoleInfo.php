@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class RoleInfo
 {
@@ -49,7 +49,7 @@ class RoleInfo
 
     /**
      * @param anonymous188 $Id
-     * @return \FilippoToso\Travelport\Util\RoleInfo
+     * @return \Santosdave\Travelport\Util\RoleInfo
      */
     public function setId($Id)
     {
@@ -67,7 +67,7 @@ class RoleInfo
 
     /**
      * @param anonymous189 $Name
-     * @return \FilippoToso\Travelport\Util\RoleInfo
+     * @return \Santosdave\Travelport\Util\RoleInfo
      */
     public function setName($Name)
     {
@@ -85,7 +85,7 @@ class RoleInfo
 
     /**
      * @param string $Source
-     * @return \FilippoToso\Travelport\Util\RoleInfo
+     * @return \Santosdave\Travelport\Util\RoleInfo
      */
     public function setSource($Source)
     {
@@ -103,7 +103,7 @@ class RoleInfo
 
     /**
      * @param anonymous190 $Description
-     * @return \FilippoToso\Travelport\Util\RoleInfo
+     * @return \Santosdave\Travelport\Util\RoleInfo
      */
     public function setDescription($Description)
     {

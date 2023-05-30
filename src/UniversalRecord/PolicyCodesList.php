@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class PolicyCodesList
 {
@@ -28,7 +28,7 @@ class PolicyCodesList
 
     /**
      * @param typePolicyCode[] $PolicyCode
-     * @return \FilippoToso\Travelport\UniversalRecord\PolicyCodesList
+     * @return \Santosdave\Travelport\UniversalRecord\PolicyCodesList
      */
     public function setPolicyCode(array $PolicyCode)
     {

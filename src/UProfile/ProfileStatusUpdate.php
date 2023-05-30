@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class ProfileStatusUpdate
 {
@@ -28,7 +28,7 @@ class ProfileStatusUpdate
 
     /**
      * @param typeProfileEntityStatus $Status
-     * @return \FilippoToso\Travelport\UProfile\ProfileStatusUpdate
+     * @return \Santosdave\Travelport\UProfile\ProfileStatusUpdate
      */
     public function setStatus($Status)
     {

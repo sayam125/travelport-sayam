@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeAgencyInfoHistory extends typeProfileInfo
 {
@@ -66,7 +66,7 @@ class typeAgencyInfoHistory extends typeProfileInfo
 
     /**
      * @param StringLength1to128 $Name
-     * @return \FilippoToso\Travelport\UProfile\typeAgencyInfoHistory
+     * @return \Santosdave\Travelport\UProfile\typeAgencyInfoHistory
      */
     public function setName($Name)
     {
@@ -84,7 +84,7 @@ class typeAgencyInfoHistory extends typeProfileInfo
 
     /**
      * @param StringLength1to8 $IataNumber
-     * @return \FilippoToso\Travelport\UProfile\typeAgencyInfoHistory
+     * @return \Santosdave\Travelport\UProfile\typeAgencyInfoHistory
      */
     public function setIataNumber($IataNumber)
     {
@@ -102,7 +102,7 @@ class typeAgencyInfoHistory extends typeProfileInfo
 
     /**
      * @param typeProvisioningCode $AgencyCode
-     * @return \FilippoToso\Travelport\UProfile\typeAgencyInfoHistory
+     * @return \Santosdave\Travelport\UProfile\typeAgencyInfoHistory
      */
     public function setAgencyCode($AgencyCode)
     {
@@ -120,7 +120,7 @@ class typeAgencyInfoHistory extends typeProfileInfo
 
     /**
      * @param boolean $UsesTemplate
-     * @return \FilippoToso\Travelport\UProfile\typeAgencyInfoHistory
+     * @return \Santosdave\Travelport\UProfile\typeAgencyInfoHistory
      */
     public function setUsesTemplate($UsesTemplate)
     {
@@ -138,7 +138,7 @@ class typeAgencyInfoHistory extends typeProfileInfo
 
     /**
      * @param anonymous716 $URSyncData
-     * @return \FilippoToso\Travelport\UProfile\typeAgencyInfoHistory
+     * @return \Santosdave\Travelport\UProfile\typeAgencyInfoHistory
      */
     public function setURSyncData($URSyncData)
     {
@@ -156,7 +156,7 @@ class typeAgencyInfoHistory extends typeProfileInfo
 
     /**
      * @param boolean $URSyncTo
-     * @return \FilippoToso\Travelport\UProfile\typeAgencyInfoHistory
+     * @return \Santosdave\Travelport\UProfile\typeAgencyInfoHistory
      */
     public function setURSyncTo($URSyncTo)
     {

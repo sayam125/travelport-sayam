@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class VehicleType
 {
@@ -28,7 +28,7 @@ class VehicleType
 
     /**
      * @param typeVehicleTypes $_
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleType
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleType
      */
     public function set_($_)
     {

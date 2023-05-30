@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Vehicle;
+namespace Santosdave\Travelport\Vehicle;
 
 class SearchExtraDays
 {
@@ -35,7 +35,7 @@ class SearchExtraDays
 
     /**
      * @param int $DaysBefore
-     * @return \FilippoToso\Travelport\Vehicle\SearchExtraDays
+     * @return \Santosdave\Travelport\Vehicle\SearchExtraDays
      */
     public function setDaysBefore($DaysBefore)
     {
@@ -53,7 +53,7 @@ class SearchExtraDays
 
     /**
      * @param int $DaysAfter
-     * @return \FilippoToso\Travelport\Vehicle\SearchExtraDays
+     * @return \Santosdave\Travelport\Vehicle\SearchExtraDays
      */
     public function setDaysAfter($DaysAfter)
     {

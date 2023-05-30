@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class HotelUpsellOffer
 {
@@ -56,7 +56,7 @@ class HotelUpsellOffer
 
     /**
      * @param CorporateDiscountID $CorporateDiscountID
-     * @return \FilippoToso\Travelport\Util\HotelUpsellOffer
+     * @return \Santosdave\Travelport\Util\HotelUpsellOffer
      */
     public function setCorporateDiscountID($CorporateDiscountID)
     {
@@ -74,7 +74,7 @@ class HotelUpsellOffer
 
     /**
      * @param typeRatePlanType $RatePlanType
-     * @return \FilippoToso\Travelport\Util\HotelUpsellOffer
+     * @return \Santosdave\Travelport\Util\HotelUpsellOffer
      */
     public function setRatePlanType($RatePlanType)
     {
@@ -92,7 +92,7 @@ class HotelUpsellOffer
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Util\HotelUpsellOffer
+     * @return \Santosdave\Travelport\Util\HotelUpsellOffer
      */
     public function setKey($Key)
     {
@@ -110,7 +110,7 @@ class HotelUpsellOffer
 
     /**
      * @param typeElementStatus $ElStat
-     * @return \FilippoToso\Travelport\Util\HotelUpsellOffer
+     * @return \Santosdave\Travelport\Util\HotelUpsellOffer
      */
     public function setElStat($ElStat)
     {
@@ -128,7 +128,7 @@ class HotelUpsellOffer
 
     /**
      * @param boolean $KeyOverride
-     * @return \FilippoToso\Travelport\Util\HotelUpsellOffer
+     * @return \Santosdave\Travelport\Util\HotelUpsellOffer
      */
     public function setKeyOverride($KeyOverride)
     {

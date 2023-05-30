@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class VehicleSpecialRequest
 {
@@ -35,7 +35,7 @@ class VehicleSpecialRequest
 
     /**
      * @param typeGeneralText $_
-     * @return \FilippoToso\Travelport\GDSQueue\VehicleSpecialRequest
+     * @return \Santosdave\Travelport\GDSQueue\VehicleSpecialRequest
      */
     public function set_($_)
     {
@@ -53,7 +53,7 @@ class VehicleSpecialRequest
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\GDSQueue\VehicleSpecialRequest
+     * @return \Santosdave\Travelport\GDSQueue\VehicleSpecialRequest
      */
     public function setKey($Key)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class Profile
 {
@@ -105,7 +105,7 @@ class Profile
 
     /**
      * @param ProfileData $ProfileData
-     * @return \FilippoToso\Travelport\UProfile\Profile
+     * @return \Santosdave\Travelport\UProfile\Profile
      */
     public function setProfileData($ProfileData)
     {
@@ -123,7 +123,7 @@ class Profile
 
     /**
      * @param ProfileLink $ProfileLink
-     * @return \FilippoToso\Travelport\UProfile\Profile
+     * @return \Santosdave\Travelport\UProfile\Profile
      */
     public function setProfileLink($ProfileLink)
     {
@@ -141,7 +141,7 @@ class Profile
 
     /**
      * @param typeProfileParentWithData $ProfileParent
-     * @return \FilippoToso\Travelport\UProfile\Profile
+     * @return \Santosdave\Travelport\UProfile\Profile
      */
     public function setProfileParent($ProfileParent)
     {
@@ -159,7 +159,7 @@ class Profile
 
     /**
      * @param ProfileParentSummary $ProfileParentSummary
-     * @return \FilippoToso\Travelport\UProfile\Profile
+     * @return \Santosdave\Travelport\UProfile\Profile
      */
     public function setProfileParentSummary($ProfileParentSummary)
     {
@@ -177,7 +177,7 @@ class Profile
 
     /**
      * @param typeProfileID $ProfileID
-     * @return \FilippoToso\Travelport\UProfile\Profile
+     * @return \Santosdave\Travelport\UProfile\Profile
      */
     public function setProfileID($ProfileID)
     {
@@ -195,7 +195,7 @@ class Profile
 
     /**
      * @param typeProfileType $ProfileType
-     * @return \FilippoToso\Travelport\UProfile\Profile
+     * @return \Santosdave\Travelport\UProfile\Profile
      */
     public function setProfileType($ProfileType)
     {
@@ -213,7 +213,7 @@ class Profile
 
     /**
      * @param typeEntityName $Name
-     * @return \FilippoToso\Travelport\UProfile\Profile
+     * @return \Santosdave\Travelport\UProfile\Profile
      */
     public function setName($Name)
     {
@@ -231,7 +231,7 @@ class Profile
 
     /**
      * @param typeProfileEntityStatusWithDelete $Status
-     * @return \FilippoToso\Travelport\UProfile\Profile
+     * @return \Santosdave\Travelport\UProfile\Profile
      */
     public function setStatus($Status)
     {
@@ -249,7 +249,7 @@ class Profile
 
     /**
      * @param typeID $HierarchyLevelID
-     * @return \FilippoToso\Travelport\UProfile\Profile
+     * @return \Santosdave\Travelport\UProfile\Profile
      */
     public function setHierarchyLevelID($HierarchyLevelID)
     {
@@ -267,7 +267,7 @@ class Profile
 
     /**
      * @param typeVersion $Version
-     * @return \FilippoToso\Travelport\UProfile\Profile
+     * @return \Santosdave\Travelport\UProfile\Profile
      */
     public function setVersion($Version)
     {
@@ -285,7 +285,7 @@ class Profile
 
     /**
      * @param typeTemplateID $TemplateID
-     * @return \FilippoToso\Travelport\UProfile\Profile
+     * @return \Santosdave\Travelport\UProfile\Profile
      */
     public function setTemplateID($TemplateID)
     {
@@ -303,7 +303,7 @@ class Profile
 
     /**
      * @param typeVersion $TemplateVersion
-     * @return \FilippoToso\Travelport\UProfile\Profile
+     * @return \Santosdave\Travelport\UProfile\Profile
      */
     public function setTemplateVersion($TemplateVersion)
     {

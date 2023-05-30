@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class ReviewBooking
 {
@@ -91,7 +91,7 @@ class ReviewBooking
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Util\ReviewBooking
+     * @return \Santosdave\Travelport\Util\ReviewBooking
      */
     public function setKey($Key)
     {
@@ -109,7 +109,7 @@ class ReviewBooking
 
     /**
      * @param anonymous458 $Queue
-     * @return \FilippoToso\Travelport\Util\ReviewBooking
+     * @return \Santosdave\Travelport\Util\ReviewBooking
      */
     public function setQueue($Queue)
     {
@@ -127,7 +127,7 @@ class ReviewBooking
 
     /**
      * @param anonymous459 $QueueCategory
-     * @return \FilippoToso\Travelport\Util\ReviewBooking
+     * @return \Santosdave\Travelport\Util\ReviewBooking
      */
     public function setQueueCategory($QueueCategory)
     {
@@ -153,7 +153,7 @@ class ReviewBooking
 
     /**
      * @param \DateTime $DateTime
-     * @return \FilippoToso\Travelport\Util\ReviewBooking
+     * @return \Santosdave\Travelport\Util\ReviewBooking
      */
     public function setDateTime(\DateTime $DateTime)
     {
@@ -171,7 +171,7 @@ class ReviewBooking
 
     /**
      * @param typePCC $PseudoCityCode
-     * @return \FilippoToso\Travelport\Util\ReviewBooking
+     * @return \Santosdave\Travelport\Util\ReviewBooking
      */
     public function setPseudoCityCode($PseudoCityCode)
     {
@@ -189,7 +189,7 @@ class ReviewBooking
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\Util\ReviewBooking
+     * @return \Santosdave\Travelport\Util\ReviewBooking
      */
     public function setProviderCode($ProviderCode)
     {
@@ -207,7 +207,7 @@ class ReviewBooking
 
     /**
      * @param typeRef $ProviderReservationInfoRef
-     * @return \FilippoToso\Travelport\Util\ReviewBooking
+     * @return \Santosdave\Travelport\Util\ReviewBooking
      */
     public function setProviderReservationInfoRef($ProviderReservationInfoRef)
     {
@@ -225,7 +225,7 @@ class ReviewBooking
 
     /**
      * @param anonymous460 $Remarks
-     * @return \FilippoToso\Travelport\Util\ReviewBooking
+     * @return \Santosdave\Travelport\Util\ReviewBooking
      */
     public function setRemarks($Remarks)
     {
@@ -243,7 +243,7 @@ class ReviewBooking
 
     /**
      * @param typeElementStatus $ElStat
-     * @return \FilippoToso\Travelport\Util\ReviewBooking
+     * @return \Santosdave\Travelport\Util\ReviewBooking
      */
     public function setElStat($ElStat)
     {
@@ -261,7 +261,7 @@ class ReviewBooking
 
     /**
      * @param boolean $KeyOverride
-     * @return \FilippoToso\Travelport\Util\ReviewBooking
+     * @return \Santosdave\Travelport\Util\ReviewBooking
      */
     public function setKeyOverride($KeyOverride)
     {

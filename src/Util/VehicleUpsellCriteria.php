@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class VehicleUpsellCriteria
 {
@@ -42,7 +42,7 @@ class VehicleUpsellCriteria
 
     /**
      * @param VehicleUpsellAdd $VehicleUpsellAdd
-     * @return \FilippoToso\Travelport\Util\VehicleUpsellCriteria
+     * @return \Santosdave\Travelport\Util\VehicleUpsellCriteria
      */
     public function setVehicleUpsellAdd($VehicleUpsellAdd)
     {
@@ -60,7 +60,7 @@ class VehicleUpsellCriteria
 
     /**
      * @param VehicleUpsellUpdate $VehicleUpsellUpdate
-     * @return \FilippoToso\Travelport\Util\VehicleUpsellCriteria
+     * @return \Santosdave\Travelport\Util\VehicleUpsellCriteria
      */
     public function setVehicleUpsellUpdate($VehicleUpsellUpdate)
     {
@@ -78,7 +78,7 @@ class VehicleUpsellCriteria
 
     /**
      * @param VehicleUpsellDelete $VehicleUpsellDelete
-     * @return \FilippoToso\Travelport\Util\VehicleUpsellCriteria
+     * @return \Santosdave\Travelport\Util\VehicleUpsellCriteria
      */
     public function setVehicleUpsellDelete($VehicleUpsellDelete)
     {

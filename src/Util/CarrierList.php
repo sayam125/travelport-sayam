@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class CarrierList
 {
@@ -35,7 +35,7 @@ class CarrierList
 
     /**
      * @param CarrierCode $CarrierCode
-     * @return \FilippoToso\Travelport\Util\CarrierList
+     * @return \Santosdave\Travelport\Util\CarrierList
      */
     public function setCarrierCode($CarrierCode)
     {
@@ -53,7 +53,7 @@ class CarrierList
 
     /**
      * @param boolean $IncludeCarrier
-     * @return \FilippoToso\Travelport\Util\CarrierList
+     * @return \Santosdave\Travelport\Util\CarrierList
      */
     public function setIncludeCarrier($IncludeCarrier)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class typeRateHostIndicator
 {
@@ -35,7 +35,7 @@ class typeRateHostIndicator
 
     /**
      * @param string $InventoryToken
-     * @return \FilippoToso\Travelport\GDSQueue\typeRateHostIndicator
+     * @return \Santosdave\Travelport\GDSQueue\typeRateHostIndicator
      */
     public function setInventoryToken($InventoryToken)
     {
@@ -53,7 +53,7 @@ class typeRateHostIndicator
 
     /**
      * @param string $RateToken
-     * @return \FilippoToso\Travelport\GDSQueue\typeRateHostIndicator
+     * @return \Santosdave\Travelport\GDSQueue\typeRateHostIndicator
      */
     public function setRateToken($RateToken)
     {

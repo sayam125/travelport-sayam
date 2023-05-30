@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class QueueElement
 {
@@ -84,7 +84,7 @@ class QueueElement
 
     /**
      * @param string $DepartureDate
-     * @return \FilippoToso\Travelport\GDSQueue\QueueElement
+     * @return \Santosdave\Travelport\GDSQueue\QueueElement
      */
     public function setDepartureDate($DepartureDate)
     {
@@ -102,7 +102,7 @@ class QueueElement
 
     /**
      * @param string $QueueDate
-     * @return \FilippoToso\Travelport\GDSQueue\QueueElement
+     * @return \Santosdave\Travelport\GDSQueue\QueueElement
      */
     public function setQueueDate($QueueDate)
     {
@@ -120,7 +120,7 @@ class QueueElement
 
     /**
      * @param time $QueueTime
-     * @return \FilippoToso\Travelport\GDSQueue\QueueElement
+     * @return \Santosdave\Travelport\GDSQueue\QueueElement
      */
     public function setQueueTime($QueueTime)
     {
@@ -138,7 +138,7 @@ class QueueElement
 
     /**
      * @param string $Name
-     * @return \FilippoToso\Travelport\GDSQueue\QueueElement
+     * @return \Santosdave\Travelport\GDSQueue\QueueElement
      */
     public function setName($Name)
     {
@@ -156,7 +156,7 @@ class QueueElement
 
     /**
      * @param typeLocatorCode $UniversalRecordLocatorCode
-     * @return \FilippoToso\Travelport\GDSQueue\QueueElement
+     * @return \Santosdave\Travelport\GDSQueue\QueueElement
      */
     public function setUniversalRecordLocatorCode($UniversalRecordLocatorCode)
     {
@@ -174,7 +174,7 @@ class QueueElement
 
     /**
      * @param typeAgentCode $CreatedByAgentCode
-     * @return \FilippoToso\Travelport\GDSQueue\QueueElement
+     * @return \Santosdave\Travelport\GDSQueue\QueueElement
      */
     public function setCreatedByAgentCode($CreatedByAgentCode)
     {
@@ -192,7 +192,7 @@ class QueueElement
 
     /**
      * @param typeAgentCode $ModifiedByAgentCode
-     * @return \FilippoToso\Travelport\GDSQueue\QueueElement
+     * @return \Santosdave\Travelport\GDSQueue\QueueElement
      */
     public function setModifiedByAgentCode($ModifiedByAgentCode)
     {
@@ -210,7 +210,7 @@ class QueueElement
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\GDSQueue\QueueElement
+     * @return \Santosdave\Travelport\GDSQueue\QueueElement
      */
     public function setProviderCode($ProviderCode)
     {
@@ -228,7 +228,7 @@ class QueueElement
 
     /**
      * @param typeProviderLocatorCode $ProviderLocatorCode
-     * @return \FilippoToso\Travelport\GDSQueue\QueueElement
+     * @return \Santosdave\Travelport\GDSQueue\QueueElement
      */
     public function setProviderLocatorCode($ProviderLocatorCode)
     {

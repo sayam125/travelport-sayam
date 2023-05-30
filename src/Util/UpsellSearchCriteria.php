@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class UpsellSearchCriteria
 {
@@ -35,7 +35,7 @@ class UpsellSearchCriteria
 
     /**
      * @param EffectiveDate $EffectiveDate
-     * @return \FilippoToso\Travelport\Util\UpsellSearchCriteria
+     * @return \Santosdave\Travelport\Util\UpsellSearchCriteria
      */
     public function setEffectiveDate($EffectiveDate)
     {
@@ -53,7 +53,7 @@ class UpsellSearchCriteria
 
     /**
      * @param ExpirationDate $ExpirationDate
-     * @return \FilippoToso\Travelport\Util\UpsellSearchCriteria
+     * @return \Santosdave\Travelport\Util\UpsellSearchCriteria
      */
     public function setExpirationDate($ExpirationDate)
     {

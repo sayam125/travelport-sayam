@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class typeGuestRoomInformation extends typeGuestChildInformation
 {
@@ -42,7 +42,7 @@ class typeGuestRoomInformation extends typeGuestChildInformation
 
     /**
      * @param int $Adults
-     * @return \FilippoToso\Travelport\GDSQueue\typeGuestRoomInformation
+     * @return \Santosdave\Travelport\GDSQueue\typeGuestRoomInformation
      */
     public function setAdults($Adults)
     {
@@ -60,7 +60,7 @@ class typeGuestRoomInformation extends typeGuestChildInformation
 
     /**
      * @param BookingTravelerRef $BookingTravelerRef
-     * @return \FilippoToso\Travelport\GDSQueue\typeGuestRoomInformation
+     * @return \Santosdave\Travelport\GDSQueue\typeGuestRoomInformation
      */
     public function setBookingTravelerRef($BookingTravelerRef)
     {
@@ -78,7 +78,7 @@ class typeGuestRoomInformation extends typeGuestChildInformation
 
     /**
      * @param Child[] $Child
-     * @return \FilippoToso\Travelport\GDSQueue\typeGuestRoomInformation
+     * @return \Santosdave\Travelport\GDSQueue\typeGuestRoomInformation
      */
     public function setChild(array $Child = null)
     {

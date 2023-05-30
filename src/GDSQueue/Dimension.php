@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class Dimension extends typeUnitOfMeasure
 {
@@ -31,7 +31,7 @@ class Dimension extends typeUnitOfMeasure
 
     /**
      * @param string $type
-     * @return \FilippoToso\Travelport\GDSQueue\Dimension
+     * @return \Santosdave\Travelport\GDSQueue\Dimension
      */
     public function setType($type)
     {

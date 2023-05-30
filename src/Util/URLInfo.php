@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class URLInfo
 {
@@ -31,7 +31,7 @@ class URLInfo
 
     /**
      * @param typeGeneralText[] $Text
-     * @return \FilippoToso\Travelport\Util\URLInfo
+     * @return \Santosdave\Travelport\Util\URLInfo
      */
     public function setText(array $Text = null)
     {
@@ -49,7 +49,7 @@ class URLInfo
 
     /**
      * @param anyURI[] $URL
-     * @return \FilippoToso\Travelport\Util\URLInfo
+     * @return \Santosdave\Travelport\Util\URLInfo
      */
     public function setURL(array $URL = null)
     {

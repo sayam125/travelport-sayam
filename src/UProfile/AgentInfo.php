@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class AgentInfo extends typeProfileInfo
 {
@@ -129,7 +129,7 @@ class AgentInfo extends typeProfileInfo
 
     /**
      * @param Address $Address
-     * @return \FilippoToso\Travelport\UProfile\AgentInfo
+     * @return \Santosdave\Travelport\UProfile\AgentInfo
      */
     public function setAddress($Address)
     {
@@ -147,7 +147,7 @@ class AgentInfo extends typeProfileInfo
 
     /**
      * @param Phone $Phone
-     * @return \FilippoToso\Travelport\UProfile\AgentInfo
+     * @return \Santosdave\Travelport\UProfile\AgentInfo
      */
     public function setPhone($Phone)
     {
@@ -165,7 +165,7 @@ class AgentInfo extends typeProfileInfo
 
     /**
      * @param ElectronicAddress $ElectronicAddress
-     * @return \FilippoToso\Travelport\UProfile\AgentInfo
+     * @return \Santosdave\Travelport\UProfile\AgentInfo
      */
     public function setElectronicAddress($ElectronicAddress)
     {
@@ -183,7 +183,7 @@ class AgentInfo extends typeProfileInfo
 
     /**
      * @param ExternalIdentifier $ExternalIdentifier
-     * @return \FilippoToso\Travelport\UProfile\AgentInfo
+     * @return \Santosdave\Travelport\UProfile\AgentInfo
      */
     public function setExternalIdentifier($ExternalIdentifier)
     {
@@ -201,7 +201,7 @@ class AgentInfo extends typeProfileInfo
 
     /**
      * @param StringLength1to128 $UserName
-     * @return \FilippoToso\Travelport\UProfile\AgentInfo
+     * @return \Santosdave\Travelport\UProfile\AgentInfo
      */
     public function setUserName($UserName)
     {
@@ -219,7 +219,7 @@ class AgentInfo extends typeProfileInfo
 
     /**
      * @param StringLength1to255 $OccupationalTitle
-     * @return \FilippoToso\Travelport\UProfile\AgentInfo
+     * @return \Santosdave\Travelport\UProfile\AgentInfo
      */
     public function setOccupationalTitle($OccupationalTitle)
     {
@@ -237,7 +237,7 @@ class AgentInfo extends typeProfileInfo
 
     /**
      * @param StringLength1to128 $Title
-     * @return \FilippoToso\Travelport\UProfile\AgentInfo
+     * @return \Santosdave\Travelport\UProfile\AgentInfo
      */
     public function setTitle($Title)
     {
@@ -255,7 +255,7 @@ class AgentInfo extends typeProfileInfo
 
     /**
      * @param StringLength1to128 $Nickname
-     * @return \FilippoToso\Travelport\UProfile\AgentInfo
+     * @return \Santosdave\Travelport\UProfile\AgentInfo
      */
     public function setNickname($Nickname)
     {
@@ -273,7 +273,7 @@ class AgentInfo extends typeProfileInfo
 
     /**
      * @param StringLength1to128 $GivenName
-     * @return \FilippoToso\Travelport\UProfile\AgentInfo
+     * @return \Santosdave\Travelport\UProfile\AgentInfo
      */
     public function setGivenName($GivenName)
     {
@@ -291,7 +291,7 @@ class AgentInfo extends typeProfileInfo
 
     /**
      * @param StringLength1to128 $OtherName
-     * @return \FilippoToso\Travelport\UProfile\AgentInfo
+     * @return \Santosdave\Travelport\UProfile\AgentInfo
      */
     public function setOtherName($OtherName)
     {
@@ -309,7 +309,7 @@ class AgentInfo extends typeProfileInfo
 
     /**
      * @param StringLength1to128 $Surname
-     * @return \FilippoToso\Travelport\UProfile\AgentInfo
+     * @return \Santosdave\Travelport\UProfile\AgentInfo
      */
     public function setSurname($Surname)
     {
@@ -327,7 +327,7 @@ class AgentInfo extends typeProfileInfo
 
     /**
      * @param StringLength1to128 $Suffix
-     * @return \FilippoToso\Travelport\UProfile\AgentInfo
+     * @return \Santosdave\Travelport\UProfile\AgentInfo
      */
     public function setSuffix($Suffix)
     {
@@ -345,7 +345,7 @@ class AgentInfo extends typeProfileInfo
 
     /**
      * @param typeProfileID $DefaultBranchID
-     * @return \FilippoToso\Travelport\UProfile\AgentInfo
+     * @return \Santosdave\Travelport\UProfile\AgentInfo
      */
     public function setDefaultBranchID($DefaultBranchID)
     {
@@ -363,7 +363,7 @@ class AgentInfo extends typeProfileInfo
 
     /**
      * @param typeProvisioningCode $DefaultBranchCode
-     * @return \FilippoToso\Travelport\UProfile\AgentInfo
+     * @return \Santosdave\Travelport\UProfile\AgentInfo
      */
     public function setDefaultBranchCode($DefaultBranchCode)
     {
@@ -381,7 +381,7 @@ class AgentInfo extends typeProfileInfo
 
     /**
      * @param typeAlternateAgentID $AlternateAgentID
-     * @return \FilippoToso\Travelport\UProfile\AgentInfo
+     * @return \Santosdave\Travelport\UProfile\AgentInfo
      */
     public function setAlternateAgentID($AlternateAgentID)
     {

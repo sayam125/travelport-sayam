@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class typeStartEndTime
 {
@@ -84,7 +84,7 @@ class typeStartEndTime
 
     /**
      * @param string $Time
-     * @return \FilippoToso\Travelport\UniversalRecord\typeStartEndTime
+     * @return \Santosdave\Travelport\UniversalRecord\typeStartEndTime
      */
     public function setTime($Time)
     {
@@ -102,7 +102,7 @@ class typeStartEndTime
 
     /**
      * @param boolean $RequirementPassed
-     * @return \FilippoToso\Travelport\UniversalRecord\typeStartEndTime
+     * @return \Santosdave\Travelport\UniversalRecord\typeStartEndTime
      */
     public function setRequirementPassed($RequirementPassed)
     {
@@ -120,7 +120,7 @@ class typeStartEndTime
 
     /**
      * @param boolean $Mon
-     * @return \FilippoToso\Travelport\UniversalRecord\typeStartEndTime
+     * @return \Santosdave\Travelport\UniversalRecord\typeStartEndTime
      */
     public function setMon($Mon)
     {
@@ -138,7 +138,7 @@ class typeStartEndTime
 
     /**
      * @param boolean $Tue
-     * @return \FilippoToso\Travelport\UniversalRecord\typeStartEndTime
+     * @return \Santosdave\Travelport\UniversalRecord\typeStartEndTime
      */
     public function setTue($Tue)
     {
@@ -156,7 +156,7 @@ class typeStartEndTime
 
     /**
      * @param boolean $Wed
-     * @return \FilippoToso\Travelport\UniversalRecord\typeStartEndTime
+     * @return \Santosdave\Travelport\UniversalRecord\typeStartEndTime
      */
     public function setWed($Wed)
     {
@@ -174,7 +174,7 @@ class typeStartEndTime
 
     /**
      * @param boolean $Thu
-     * @return \FilippoToso\Travelport\UniversalRecord\typeStartEndTime
+     * @return \Santosdave\Travelport\UniversalRecord\typeStartEndTime
      */
     public function setThu($Thu)
     {
@@ -192,7 +192,7 @@ class typeStartEndTime
 
     /**
      * @param boolean $Fri
-     * @return \FilippoToso\Travelport\UniversalRecord\typeStartEndTime
+     * @return \Santosdave\Travelport\UniversalRecord\typeStartEndTime
      */
     public function setFri($Fri)
     {
@@ -210,7 +210,7 @@ class typeStartEndTime
 
     /**
      * @param boolean $Sat
-     * @return \FilippoToso\Travelport\UniversalRecord\typeStartEndTime
+     * @return \Santosdave\Travelport\UniversalRecord\typeStartEndTime
      */
     public function setSat($Sat)
     {
@@ -228,7 +228,7 @@ class typeStartEndTime
 
     /**
      * @param boolean $Sun
-     * @return \FilippoToso\Travelport\UniversalRecord\typeStartEndTime
+     * @return \Santosdave\Travelport\UniversalRecord\typeStartEndTime
      */
     public function setSun($Sun)
     {

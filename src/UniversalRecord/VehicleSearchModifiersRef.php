@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class VehicleSearchModifiersRef
 {
@@ -28,7 +28,7 @@ class VehicleSearchModifiersRef
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\UniversalRecord\VehicleSearchModifiersRef
+     * @return \Santosdave\Travelport\UniversalRecord\VehicleSearchModifiersRef
      */
     public function setKey($Key)
     {

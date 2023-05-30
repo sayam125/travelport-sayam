@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class ChargesRules
 {
@@ -31,7 +31,7 @@ class ChargesRules
 
     /**
      * @param VoluntaryChanges[] $VoluntaryChanges
-     * @return \FilippoToso\Travelport\Rail\ChargesRules
+     * @return \Santosdave\Travelport\Rail\ChargesRules
      */
     public function setVoluntaryChanges(array $VoluntaryChanges = null)
     {
@@ -49,7 +49,7 @@ class ChargesRules
 
     /**
      * @param VoluntaryRefunds[] $VoluntaryRefunds
-     * @return \FilippoToso\Travelport\Rail\ChargesRules
+     * @return \Santosdave\Travelport\Rail\ChargesRules
      */
     public function setVoluntaryRefunds(array $VoluntaryRefunds = null)
     {

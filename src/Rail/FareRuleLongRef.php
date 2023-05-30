@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class FareRuleLongRef
 {
@@ -28,7 +28,7 @@ class FareRuleLongRef
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Rail\FareRuleLongRef
+     * @return \Santosdave\Travelport\Rail\FareRuleLongRef
      */
     public function setKey($Key)
     {

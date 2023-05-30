@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class AirSegmentPricingModifiers
 {
@@ -96,7 +96,7 @@ class AirSegmentPricingModifiers
 
     /**
      * @param PermittedBookingCodes $PermittedBookingCodes
-     * @return \FilippoToso\Travelport\Util\AirSegmentPricingModifiers
+     * @return \Santosdave\Travelport\Util\AirSegmentPricingModifiers
      */
     public function setPermittedBookingCodes($PermittedBookingCodes)
     {
@@ -114,7 +114,7 @@ class AirSegmentPricingModifiers
 
     /**
      * @param typeRef $AirSegmentRef
-     * @return \FilippoToso\Travelport\Util\AirSegmentPricingModifiers
+     * @return \Santosdave\Travelport\Util\AirSegmentPricingModifiers
      */
     public function setAirSegmentRef($AirSegmentRef)
     {
@@ -132,7 +132,7 @@ class AirSegmentPricingModifiers
 
     /**
      * @param string $CabinClass
-     * @return \FilippoToso\Travelport\Util\AirSegmentPricingModifiers
+     * @return \Santosdave\Travelport\Util\AirSegmentPricingModifiers
      */
     public function setCabinClass($CabinClass)
     {
@@ -150,7 +150,7 @@ class AirSegmentPricingModifiers
 
     /**
      * @param string $AccountCode
-     * @return \FilippoToso\Travelport\Util\AirSegmentPricingModifiers
+     * @return \Santosdave\Travelport\Util\AirSegmentPricingModifiers
      */
     public function setAccountCode($AccountCode)
     {
@@ -168,7 +168,7 @@ class AirSegmentPricingModifiers
 
     /**
      * @param boolean $ProhibitAdvancePurchaseFares
-     * @return \FilippoToso\Travelport\Util\AirSegmentPricingModifiers
+     * @return \Santosdave\Travelport\Util\AirSegmentPricingModifiers
      */
     public function setProhibitAdvancePurchaseFares($ProhibitAdvancePurchaseFares)
     {
@@ -186,7 +186,7 @@ class AirSegmentPricingModifiers
 
     /**
      * @param boolean $ProhibitNonRefundableFares
-     * @return \FilippoToso\Travelport\Util\AirSegmentPricingModifiers
+     * @return \Santosdave\Travelport\Util\AirSegmentPricingModifiers
      */
     public function setProhibitNonRefundableFares($ProhibitNonRefundableFares)
     {
@@ -204,7 +204,7 @@ class AirSegmentPricingModifiers
 
     /**
      * @param boolean $ProhibitPenaltyFares
-     * @return \FilippoToso\Travelport\Util\AirSegmentPricingModifiers
+     * @return \Santosdave\Travelport\Util\AirSegmentPricingModifiers
      */
     public function setProhibitPenaltyFares($ProhibitPenaltyFares)
     {
@@ -222,7 +222,7 @@ class AirSegmentPricingModifiers
 
     /**
      * @param string $FareBasisCode
-     * @return \FilippoToso\Travelport\Util\AirSegmentPricingModifiers
+     * @return \Santosdave\Travelport\Util\AirSegmentPricingModifiers
      */
     public function setFareBasisCode($FareBasisCode)
     {
@@ -240,7 +240,7 @@ class AirSegmentPricingModifiers
 
     /**
      * @param typeFareBreak $FareBreak
-     * @return \FilippoToso\Travelport\Util\AirSegmentPricingModifiers
+     * @return \Santosdave\Travelport\Util\AirSegmentPricingModifiers
      */
     public function setFareBreak($FareBreak)
     {
@@ -258,7 +258,7 @@ class AirSegmentPricingModifiers
 
     /**
      * @param typeConnectionIndicator $ConnectionIndicator
-     * @return \FilippoToso\Travelport\Util\AirSegmentPricingModifiers
+     * @return \Santosdave\Travelport\Util\AirSegmentPricingModifiers
      */
     public function setConnectionIndicator($ConnectionIndicator)
     {
@@ -276,7 +276,7 @@ class AirSegmentPricingModifiers
 
     /**
      * @param StringLength1to10 $BrandTier
-     * @return \FilippoToso\Travelport\Util\AirSegmentPricingModifiers
+     * @return \Santosdave\Travelport\Util\AirSegmentPricingModifiers
      */
     public function setBrandTier($BrandTier)
     {

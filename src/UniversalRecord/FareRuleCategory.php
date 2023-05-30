@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class FareRuleCategory
 {
@@ -28,7 +28,7 @@ class FareRuleCategory
 
     /**
      * @param anonymous741 $Category
-     * @return \FilippoToso\Travelport\UniversalRecord\FareRuleCategory
+     * @return \Santosdave\Travelport\UniversalRecord\FareRuleCategory
      */
     public function setCategory($Category)
     {

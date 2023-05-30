@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class ProhibitedRuleCategories
 {
@@ -28,7 +28,7 @@ class ProhibitedRuleCategories
 
     /**
      * @param FareRuleCategory $FareRuleCategory
-     * @return \FilippoToso\Travelport\GDSQueue\ProhibitedRuleCategories
+     * @return \Santosdave\Travelport\GDSQueue\ProhibitedRuleCategories
      */
     public function setFareRuleCategory($FareRuleCategory)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class AdditionalInfo
 {
@@ -28,7 +28,7 @@ class AdditionalInfo
 
     /**
      * @param string $Category
-     * @return \FilippoToso\Travelport\GDSQueue\AdditionalInfo
+     * @return \Santosdave\Travelport\GDSQueue\AdditionalInfo
      */
     public function setCategory($Category)
     {

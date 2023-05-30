@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class ProfileSearchActionReq extends BaseReq
 {
@@ -40,7 +40,7 @@ class ProfileSearchActionReq extends BaseReq
 
     /**
      * @param StringLength1to128 $ConsumingSystem
-     * @return \FilippoToso\Travelport\UProfile\ProfileSearchActionReq
+     * @return \Santosdave\Travelport\UProfile\ProfileSearchActionReq
      */
     public function setConsumingSystem($ConsumingSystem)
     {

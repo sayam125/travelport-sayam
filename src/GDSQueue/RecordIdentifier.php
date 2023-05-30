@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class RecordIdentifier
 {
@@ -42,7 +42,7 @@ class RecordIdentifier
 
     /**
      * @param typeLocatorCode $UniversalLocatorCode
-     * @return \FilippoToso\Travelport\GDSQueue\RecordIdentifier
+     * @return \Santosdave\Travelport\GDSQueue\RecordIdentifier
      */
     public function setUniversalLocatorCode($UniversalLocatorCode)
     {
@@ -60,7 +60,7 @@ class RecordIdentifier
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\GDSQueue\RecordIdentifier
+     * @return \Santosdave\Travelport\GDSQueue\RecordIdentifier
      */
     public function setProviderCode($ProviderCode)
     {
@@ -78,7 +78,7 @@ class RecordIdentifier
 
     /**
      * @param typeProviderLocatorCode $ProviderLocatorCode
-     * @return \FilippoToso\Travelport\GDSQueue\RecordIdentifier
+     * @return \Santosdave\Travelport\GDSQueue\RecordIdentifier
      */
     public function setProviderLocatorCode($ProviderLocatorCode)
     {

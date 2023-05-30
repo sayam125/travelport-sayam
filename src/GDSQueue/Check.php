@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class Check
 {
@@ -49,7 +49,7 @@ class Check
 
     /**
      * @param anonymous19 $MICRNumber
-     * @return \FilippoToso\Travelport\GDSQueue\Check
+     * @return \Santosdave\Travelport\GDSQueue\Check
      */
     public function setMICRNumber($MICRNumber)
     {
@@ -67,7 +67,7 @@ class Check
 
     /**
      * @param string $RoutingNumber
-     * @return \FilippoToso\Travelport\GDSQueue\Check
+     * @return \Santosdave\Travelport\GDSQueue\Check
      */
     public function setRoutingNumber($RoutingNumber)
     {
@@ -85,7 +85,7 @@ class Check
 
     /**
      * @param string $AccountNumber
-     * @return \FilippoToso\Travelport\GDSQueue\Check
+     * @return \Santosdave\Travelport\GDSQueue\Check
      */
     public function setAccountNumber($AccountNumber)
     {
@@ -103,7 +103,7 @@ class Check
 
     /**
      * @param string $CheckNumber
-     * @return \FilippoToso\Travelport\GDSQueue\Check
+     * @return \Santosdave\Travelport\GDSQueue\Check
      */
     public function setCheckNumber($CheckNumber)
     {

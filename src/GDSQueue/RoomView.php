@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class RoomView
 {
@@ -28,7 +28,7 @@ class RoomView
 
     /**
      * @param typeOTACode $Code
-     * @return \FilippoToso\Travelport\GDSQueue\RoomView
+     * @return \Santosdave\Travelport\GDSQueue\RoomView
      */
     public function setCode($Code)
     {

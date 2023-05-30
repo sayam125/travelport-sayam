@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class OperatingCompany
 {
@@ -42,7 +42,7 @@ class OperatingCompany
 
     /**
      * @param string $_
-     * @return \FilippoToso\Travelport\GDSQueue\OperatingCompany
+     * @return \Santosdave\Travelport\GDSQueue\OperatingCompany
      */
     public function set_($_)
     {
@@ -60,7 +60,7 @@ class OperatingCompany
 
     /**
      * @param string $Code
-     * @return \FilippoToso\Travelport\GDSQueue\OperatingCompany
+     * @return \Santosdave\Travelport\GDSQueue\OperatingCompany
      */
     public function setCode($Code)
     {
@@ -78,7 +78,7 @@ class OperatingCompany
 
     /**
      * @param string $Name
-     * @return \FilippoToso\Travelport\GDSQueue\OperatingCompany
+     * @return \Santosdave\Travelport\GDSQueue\OperatingCompany
      */
     public function setName($Name)
     {

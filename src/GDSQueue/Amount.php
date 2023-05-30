@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class Amount
 {
@@ -35,7 +35,7 @@ class Amount
 
     /**
      * @param anonymous1268 $Type
-     * @return \FilippoToso\Travelport\GDSQueue\Amount
+     * @return \Santosdave\Travelport\GDSQueue\Amount
      */
     public function setType($Type)
     {
@@ -53,7 +53,7 @@ class Amount
 
     /**
      * @param typeMoney $AmountDuePaid
-     * @return \FilippoToso\Travelport\GDSQueue\Amount
+     * @return \Santosdave\Travelport\GDSQueue\Amount
      */
     public function setAmountDuePaid($AmountDuePaid)
     {

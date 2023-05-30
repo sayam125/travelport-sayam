@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class typeAgencyPayment
 {
@@ -42,7 +42,7 @@ class typeAgencyPayment
 
     /**
      * @param anonymous64 $AgencyBillingIdentifier
-     * @return \FilippoToso\Travelport\Air\typeAgencyPayment
+     * @return \Santosdave\Travelport\Air\typeAgencyPayment
      */
     public function setAgencyBillingIdentifier($AgencyBillingIdentifier)
     {
@@ -60,7 +60,7 @@ class typeAgencyPayment
 
     /**
      * @param anonymous65 $AgencyBillingNumber
-     * @return \FilippoToso\Travelport\Air\typeAgencyPayment
+     * @return \Santosdave\Travelport\Air\typeAgencyPayment
      */
     public function setAgencyBillingNumber($AgencyBillingNumber)
     {
@@ -78,7 +78,7 @@ class typeAgencyPayment
 
     /**
      * @param anonymous66 $AgencyBillingPassword
-     * @return \FilippoToso\Travelport\Air\typeAgencyPayment
+     * @return \Santosdave\Travelport\Air\typeAgencyPayment
      */
     public function setAgencyBillingPassword($AgencyBillingPassword)
     {

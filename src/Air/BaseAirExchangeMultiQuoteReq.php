@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class BaseAirExchangeMultiQuoteReq extends BaseCoreReq
 {
@@ -71,7 +71,7 @@ class BaseAirExchangeMultiQuoteReq extends BaseCoreReq
 
     /**
      * @param StringLength1to13 $TicketNumber
-     * @return \FilippoToso\Travelport\Air\BaseAirExchangeMultiQuoteReq
+     * @return \Santosdave\Travelport\Air\BaseAirExchangeMultiQuoteReq
      */
     public function setTicketNumber($TicketNumber)
     {
@@ -89,7 +89,7 @@ class BaseAirExchangeMultiQuoteReq extends BaseCoreReq
 
     /**
      * @param ProviderReservationInfo $ProviderReservationInfo
-     * @return \FilippoToso\Travelport\Air\BaseAirExchangeMultiQuoteReq
+     * @return \Santosdave\Travelport\Air\BaseAirExchangeMultiQuoteReq
      */
     public function setProviderReservationInfo($ProviderReservationInfo)
     {
@@ -107,7 +107,7 @@ class BaseAirExchangeMultiQuoteReq extends BaseCoreReq
 
     /**
      * @param AirPricingSolution $AirPricingSolution
-     * @return \FilippoToso\Travelport\Air\BaseAirExchangeMultiQuoteReq
+     * @return \Santosdave\Travelport\Air\BaseAirExchangeMultiQuoteReq
      */
     public function setAirPricingSolution($AirPricingSolution)
     {
@@ -125,7 +125,7 @@ class BaseAirExchangeMultiQuoteReq extends BaseCoreReq
 
     /**
      * @param RepricingModifiers $RepricingModifiers
-     * @return \FilippoToso\Travelport\Air\BaseAirExchangeMultiQuoteReq
+     * @return \Santosdave\Travelport\Air\BaseAirExchangeMultiQuoteReq
      */
     public function setRepricingModifiers($RepricingModifiers)
     {
@@ -143,7 +143,7 @@ class BaseAirExchangeMultiQuoteReq extends BaseCoreReq
 
     /**
      * @param OriginalItineraryDetails $OriginalItineraryDetails
-     * @return \FilippoToso\Travelport\Air\BaseAirExchangeMultiQuoteReq
+     * @return \Santosdave\Travelport\Air\BaseAirExchangeMultiQuoteReq
      */
     public function setOriginalItineraryDetails($OriginalItineraryDetails)
     {
@@ -161,7 +161,7 @@ class BaseAirExchangeMultiQuoteReq extends BaseCoreReq
 
     /**
      * @param OverridePCC $OverridePCC
-     * @return \FilippoToso\Travelport\Air\BaseAirExchangeMultiQuoteReq
+     * @return \Santosdave\Travelport\Air\BaseAirExchangeMultiQuoteReq
      */
     public function setOverridePCC($OverridePCC)
     {

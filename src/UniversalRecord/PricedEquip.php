@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class PricedEquip
 {
@@ -35,7 +35,7 @@ class PricedEquip
 
     /**
      * @param Equipment $Equipment
-     * @return \FilippoToso\Travelport\UniversalRecord\PricedEquip
+     * @return \Santosdave\Travelport\UniversalRecord\PricedEquip
      */
     public function setEquipment($Equipment)
     {
@@ -53,7 +53,7 @@ class PricedEquip
 
     /**
      * @param Charge $Charge
-     * @return \FilippoToso\Travelport\UniversalRecord\PricedEquip
+     * @return \Santosdave\Travelport\UniversalRecord\PricedEquip
      */
     public function setCharge($Charge)
     {

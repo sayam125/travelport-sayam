@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class DisfavoredProviders
 {
@@ -28,7 +28,7 @@ class DisfavoredProviders
 
     /**
      * @param Provider $Provider
-     * @return \FilippoToso\Travelport\GDSQueue\DisfavoredProviders
+     * @return \Santosdave\Travelport\GDSQueue\DisfavoredProviders
      */
     public function setProvider($Provider)
     {

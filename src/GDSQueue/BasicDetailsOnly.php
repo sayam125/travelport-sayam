@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class BasicDetailsOnly
 {
@@ -28,7 +28,7 @@ class BasicDetailsOnly
 
     /**
      * @param boolean $ReturnBasicDetails
-     * @return \FilippoToso\Travelport\GDSQueue\BasicDetailsOnly
+     * @return \Santosdave\Travelport\GDSQueue\BasicDetailsOnly
      */
     public function setReturnBasicDetails($ReturnBasicDetails)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class HotelReservationCriteria
 {
@@ -61,7 +61,7 @@ class HotelReservationCriteria
 
     /**
      * @param typeDateSpec $CheckInDate
-     * @return \FilippoToso\Travelport\Rail\HotelReservationCriteria
+     * @return \Santosdave\Travelport\Rail\HotelReservationCriteria
      */
     public function setCheckInDate($CheckInDate)
     {
@@ -79,7 +79,7 @@ class HotelReservationCriteria
 
     /**
      * @param typeHotelChainCode $HotelChainCode
-     * @return \FilippoToso\Travelport\Rail\HotelReservationCriteria
+     * @return \Santosdave\Travelport\Rail\HotelReservationCriteria
      */
     public function setHotelChainCode($HotelChainCode)
     {
@@ -97,7 +97,7 @@ class HotelReservationCriteria
 
     /**
      * @param typeHotelCode $HotelCode
-     * @return \FilippoToso\Travelport\Rail\HotelReservationCriteria
+     * @return \Santosdave\Travelport\Rail\HotelReservationCriteria
      */
     public function setHotelCode($HotelCode)
     {
@@ -115,7 +115,7 @@ class HotelReservationCriteria
 
     /**
      * @param string $HotelConfirmation
-     * @return \FilippoToso\Travelport\Rail\HotelReservationCriteria
+     * @return \Santosdave\Travelport\Rail\HotelReservationCriteria
      */
     public function setHotelConfirmation($HotelConfirmation)
     {
@@ -133,7 +133,7 @@ class HotelReservationCriteria
 
     /**
      * @param typeIATACode $Location
-     * @return \FilippoToso\Travelport\Rail\HotelReservationCriteria
+     * @return \Santosdave\Travelport\Rail\HotelReservationCriteria
      */
     public function setLocation($Location)
     {
@@ -151,7 +151,7 @@ class HotelReservationCriteria
 
     /**
      * @param boolean $PassiveOnly
-     * @return \FilippoToso\Travelport\Rail\HotelReservationCriteria
+     * @return \Santosdave\Travelport\Rail\HotelReservationCriteria
      */
     public function setPassiveOnly($PassiveOnly)
     {

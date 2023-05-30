@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class ProviderLocation
 {
@@ -35,7 +35,7 @@ class ProviderLocation
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\GDSQueue\ProviderLocation
+     * @return \Santosdave\Travelport\GDSQueue\ProviderLocation
      */
     public function setProviderCode($ProviderCode)
     {
@@ -53,7 +53,7 @@ class ProviderLocation
 
     /**
      * @param anonymous1177 $Location
-     * @return \FilippoToso\Travelport\GDSQueue\ProviderLocation
+     * @return \Santosdave\Travelport\GDSQueue\ProviderLocation
      */
     public function setLocation($Location)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class GdsQueueRemoveReq extends BaseReq
 {
@@ -75,7 +75,7 @@ class GdsQueueRemoveReq extends BaseReq
 
     /**
      * @param QueueSelector $QueueSelector
-     * @return \FilippoToso\Travelport\GDSQueue\GdsQueueRemoveReq
+     * @return \Santosdave\Travelport\GDSQueue\GdsQueueRemoveReq
      */
     public function setQueueSelector($QueueSelector)
     {
@@ -93,7 +93,7 @@ class GdsQueueRemoveReq extends BaseReq
 
     /**
      * @param string $QueueSessionToken
-     * @return \FilippoToso\Travelport\GDSQueue\GdsQueueRemoveReq
+     * @return \Santosdave\Travelport\GDSQueue\GdsQueueRemoveReq
      */
     public function setQueueSessionToken($QueueSessionToken)
     {
@@ -111,7 +111,7 @@ class GdsQueueRemoveReq extends BaseReq
 
     /**
      * @param typePCC $PseudoCityCode
-     * @return \FilippoToso\Travelport\GDSQueue\GdsQueueRemoveReq
+     * @return \Santosdave\Travelport\GDSQueue\GdsQueueRemoveReq
      */
     public function setPseudoCityCode($PseudoCityCode)
     {
@@ -129,7 +129,7 @@ class GdsQueueRemoveReq extends BaseReq
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\GDSQueue\GdsQueueRemoveReq
+     * @return \Santosdave\Travelport\GDSQueue\GdsQueueRemoveReq
      */
     public function setProviderCode($ProviderCode)
     {
@@ -147,7 +147,7 @@ class GdsQueueRemoveReq extends BaseReq
 
     /**
      * @param typeLocatorCode $ProviderLocatorCode
-     * @return \FilippoToso\Travelport\GDSQueue\GdsQueueRemoveReq
+     * @return \Santosdave\Travelport\GDSQueue\GdsQueueRemoveReq
      */
     public function setProviderLocatorCode($ProviderLocatorCode)
     {
@@ -165,7 +165,7 @@ class GdsQueueRemoveReq extends BaseReq
 
     /**
      * @param boolean $RemoveDuplicates
-     * @return \FilippoToso\Travelport\GDSQueue\GdsQueueRemoveReq
+     * @return \Santosdave\Travelport\GDSQueue\GdsQueueRemoveReq
      */
     public function setRemoveDuplicates($RemoveDuplicates)
     {

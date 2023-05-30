@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class ExcludeTicketing
 {
@@ -26,7 +26,7 @@ class ExcludeTicketing
 
     /**
      * @param typeRef[] $BookingTravelerRef
-     * @return \FilippoToso\Travelport\GDSQueue\ExcludeTicketing
+     * @return \Santosdave\Travelport\GDSQueue\ExcludeTicketing
      */
     public function setBookingTravelerRef(array $BookingTravelerRef = null)
     {

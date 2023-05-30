@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeSearchAddress
 {
@@ -56,7 +56,7 @@ class typeSearchAddress
 
     /**
      * @param StringLength1to255 $AddressLine
-     * @return \FilippoToso\Travelport\UProfile\typeSearchAddress
+     * @return \Santosdave\Travelport\UProfile\typeSearchAddress
      */
     public function setAddressLine($AddressLine)
     {
@@ -74,7 +74,7 @@ class typeSearchAddress
 
     /**
      * @param anonymous832 $City
-     * @return \FilippoToso\Travelport\UProfile\typeSearchAddress
+     * @return \Santosdave\Travelport\UProfile\typeSearchAddress
      */
     public function setCity($City)
     {
@@ -92,7 +92,7 @@ class typeSearchAddress
 
     /**
      * @param anonymous833 $StateProvince
-     * @return \FilippoToso\Travelport\UProfile\typeSearchAddress
+     * @return \Santosdave\Travelport\UProfile\typeSearchAddress
      */
     public function setStateProvince($StateProvince)
     {
@@ -110,7 +110,7 @@ class typeSearchAddress
 
     /**
      * @param anonymous834 $PostalCode
-     * @return \FilippoToso\Travelport\UProfile\typeSearchAddress
+     * @return \Santosdave\Travelport\UProfile\typeSearchAddress
      */
     public function setPostalCode($PostalCode)
     {
@@ -128,7 +128,7 @@ class typeSearchAddress
 
     /**
      * @param anonymous835 $Country
-     * @return \FilippoToso\Travelport\UProfile\typeSearchAddress
+     * @return \Santosdave\Travelport\UProfile\typeSearchAddress
      */
     public function setCountry($Country)
     {

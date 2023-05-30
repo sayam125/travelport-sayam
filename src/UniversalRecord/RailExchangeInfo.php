@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class RailExchangeInfo
 {
@@ -70,7 +70,7 @@ class RailExchangeInfo
 
     /**
      * @param typeMoney $RefundAmount
-     * @return \FilippoToso\Travelport\UniversalRecord\RailExchangeInfo
+     * @return \Santosdave\Travelport\UniversalRecord\RailExchangeInfo
      */
     public function setRefundAmount($RefundAmount)
     {
@@ -88,7 +88,7 @@ class RailExchangeInfo
 
     /**
      * @param typeMoney $CancellationFee
-     * @return \FilippoToso\Travelport\UniversalRecord\RailExchangeInfo
+     * @return \Santosdave\Travelport\UniversalRecord\RailExchangeInfo
      */
     public function setCancellationFee($CancellationFee)
     {
@@ -106,7 +106,7 @@ class RailExchangeInfo
 
     /**
      * @param typeMoney $ExchangeAmount
-     * @return \FilippoToso\Travelport\UniversalRecord\RailExchangeInfo
+     * @return \Santosdave\Travelport\UniversalRecord\RailExchangeInfo
      */
     public function setExchangeAmount($ExchangeAmount)
     {
@@ -124,7 +124,7 @@ class RailExchangeInfo
 
     /**
      * @param typeMoney $ApproximateRefundAmount
-     * @return \FilippoToso\Travelport\UniversalRecord\RailExchangeInfo
+     * @return \Santosdave\Travelport\UniversalRecord\RailExchangeInfo
      */
     public function setApproximateRefundAmount($ApproximateRefundAmount)
     {
@@ -142,7 +142,7 @@ class RailExchangeInfo
 
     /**
      * @param typeMoney $ApproximateCancellationFee
-     * @return \FilippoToso\Travelport\UniversalRecord\RailExchangeInfo
+     * @return \Santosdave\Travelport\UniversalRecord\RailExchangeInfo
      */
     public function setApproximateCancellationFee($ApproximateCancellationFee)
     {
@@ -160,7 +160,7 @@ class RailExchangeInfo
 
     /**
      * @param typeMoney $ApproximateExchangeAmount
-     * @return \FilippoToso\Travelport\UniversalRecord\RailExchangeInfo
+     * @return \Santosdave\Travelport\UniversalRecord\RailExchangeInfo
      */
     public function setApproximateExchangeAmount($ApproximateExchangeAmount)
     {
@@ -178,7 +178,7 @@ class RailExchangeInfo
 
     /**
      * @param typeMoney $RetainAmount
-     * @return \FilippoToso\Travelport\UniversalRecord\RailExchangeInfo
+     * @return \Santosdave\Travelport\UniversalRecord\RailExchangeInfo
      */
     public function setRetainAmount($RetainAmount)
     {

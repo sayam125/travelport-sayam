@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class AgentVoucher
 {
@@ -28,7 +28,7 @@ class AgentVoucher
 
     /**
      * @param string $Number
-     * @return \FilippoToso\Travelport\GDSQueue\AgentVoucher
+     * @return \Santosdave\Travelport\GDSQueue\AgentVoucher
      */
     public function setNumber($Number)
     {

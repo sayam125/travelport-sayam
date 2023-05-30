@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class UniversalDelete
 {
@@ -35,7 +35,7 @@ class UniversalDelete
 
     /**
      * @param typeElement $Element
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalDelete
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalDelete
      */
     public function setElement($Element)
     {
@@ -53,7 +53,7 @@ class UniversalDelete
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\UniversalRecord\UniversalDelete
+     * @return \Santosdave\Travelport\UniversalRecord\UniversalDelete
      */
     public function setKey($Key)
     {

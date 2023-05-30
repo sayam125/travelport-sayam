@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class FixedFieldGroup
 {
@@ -154,7 +154,7 @@ class FixedFieldGroup
 
     /**
      * @param FixedField $FixedField
-     * @return \FilippoToso\Travelport\UProfile\FixedFieldGroup
+     * @return \Santosdave\Travelport\UProfile\FixedFieldGroup
      */
     public function setFixedField($FixedField)
     {
@@ -172,7 +172,7 @@ class FixedFieldGroup
 
     /**
      * @param FixedFieldGroup $FixedFieldGroup
-     * @return \FilippoToso\Travelport\UProfile\FixedFieldGroup
+     * @return \Santosdave\Travelport\UProfile\FixedFieldGroup
      */
     public function setFixedFieldGroup($FixedFieldGroup)
     {
@@ -190,7 +190,7 @@ class FixedFieldGroup
 
     /**
      * @param typeID $ID
-     * @return \FilippoToso\Travelport\UProfile\FixedFieldGroup
+     * @return \Santosdave\Travelport\UProfile\FixedFieldGroup
      */
     public function setID($ID)
     {
@@ -208,7 +208,7 @@ class FixedFieldGroup
 
     /**
      * @param boolean $ReadOnly
-     * @return \FilippoToso\Travelport\UProfile\FixedFieldGroup
+     * @return \Santosdave\Travelport\UProfile\FixedFieldGroup
      */
     public function setReadOnly($ReadOnly)
     {
@@ -226,7 +226,7 @@ class FixedFieldGroup
 
     /**
      * @param boolean $Overriden
-     * @return \FilippoToso\Travelport\UProfile\FixedFieldGroup
+     * @return \Santosdave\Travelport\UProfile\FixedFieldGroup
      */
     public function setOverriden($Overriden)
     {
@@ -244,7 +244,7 @@ class FixedFieldGroup
 
     /**
      * @param typeFieldName $Name
-     * @return \FilippoToso\Travelport\UProfile\FixedFieldGroup
+     * @return \Santosdave\Travelport\UProfile\FixedFieldGroup
      */
     public function setName($Name)
     {
@@ -262,7 +262,7 @@ class FixedFieldGroup
 
     /**
      * @param StringLength1to255 $Description
-     * @return \FilippoToso\Travelport\UProfile\FixedFieldGroup
+     * @return \Santosdave\Travelport\UProfile\FixedFieldGroup
      */
     public function setDescription($Description)
     {
@@ -280,7 +280,7 @@ class FixedFieldGroup
 
     /**
      * @param anonymous880 $Component
-     * @return \FilippoToso\Travelport\UProfile\FixedFieldGroup
+     * @return \Santosdave\Travelport\UProfile\FixedFieldGroup
      */
     public function setComponent($Component)
     {
@@ -298,7 +298,7 @@ class FixedFieldGroup
 
     /**
      * @param anonymous881 $CorrelationElement
-     * @return \FilippoToso\Travelport\UProfile\FixedFieldGroup
+     * @return \Santosdave\Travelport\UProfile\FixedFieldGroup
      */
     public function setCorrelationElement($CorrelationElement)
     {
@@ -316,7 +316,7 @@ class FixedFieldGroup
 
     /**
      * @param StringLength1to128 $CorrelationValue
-     * @return \FilippoToso\Travelport\UProfile\FixedFieldGroup
+     * @return \Santosdave\Travelport\UProfile\FixedFieldGroup
      */
     public function setCorrelationValue($CorrelationValue)
     {
@@ -334,7 +334,7 @@ class FixedFieldGroup
 
     /**
      * @param int $DisplayOrder
-     * @return \FilippoToso\Travelport\UProfile\FixedFieldGroup
+     * @return \Santosdave\Travelport\UProfile\FixedFieldGroup
      */
     public function setDisplayOrder($DisplayOrder)
     {
@@ -352,7 +352,7 @@ class FixedFieldGroup
 
     /**
      * @param boolean $Hide
-     * @return \FilippoToso\Travelport\UProfile\FixedFieldGroup
+     * @return \Santosdave\Travelport\UProfile\FixedFieldGroup
      */
     public function setHide($Hide)
     {
@@ -370,7 +370,7 @@ class FixedFieldGroup
 
     /**
      * @param boolean $Inheritable
-     * @return \FilippoToso\Travelport\UProfile\FixedFieldGroup
+     * @return \Santosdave\Travelport\UProfile\FixedFieldGroup
      */
     public function setInheritable($Inheritable)
     {
@@ -388,7 +388,7 @@ class FixedFieldGroup
 
     /**
      * @param int $MinOccurs
-     * @return \FilippoToso\Travelport\UProfile\FixedFieldGroup
+     * @return \Santosdave\Travelport\UProfile\FixedFieldGroup
      */
     public function setMinOccurs($MinOccurs)
     {
@@ -406,7 +406,7 @@ class FixedFieldGroup
 
     /**
      * @param int $MaxOccurs
-     * @return \FilippoToso\Travelport\UProfile\FixedFieldGroup
+     * @return \Santosdave\Travelport\UProfile\FixedFieldGroup
      */
     public function setMaxOccurs($MaxOccurs)
     {
@@ -424,7 +424,7 @@ class FixedFieldGroup
 
     /**
      * @param string $Label
-     * @return \FilippoToso\Travelport\UProfile\FixedFieldGroup
+     * @return \Santosdave\Travelport\UProfile\FixedFieldGroup
      */
     public function setLabel($Label)
     {
@@ -442,7 +442,7 @@ class FixedFieldGroup
 
     /**
      * @param int $MinOccursOverride
-     * @return \FilippoToso\Travelport\UProfile\FixedFieldGroup
+     * @return \Santosdave\Travelport\UProfile\FixedFieldGroup
      */
     public function setMinOccursOverride($MinOccursOverride)
     {
@@ -460,7 +460,7 @@ class FixedFieldGroup
 
     /**
      * @param int $MaxOccursOverride
-     * @return \FilippoToso\Travelport\UProfile\FixedFieldGroup
+     * @return \Santosdave\Travelport\UProfile\FixedFieldGroup
      */
     public function setMaxOccursOverride($MaxOccursOverride)
     {
@@ -478,7 +478,7 @@ class FixedFieldGroup
 
     /**
      * @param boolean $InheritableControlInd
-     * @return \FilippoToso\Travelport\UProfile\FixedFieldGroup
+     * @return \Santosdave\Travelport\UProfile\FixedFieldGroup
      */
     public function setInheritableControlInd($InheritableControlInd)
     {

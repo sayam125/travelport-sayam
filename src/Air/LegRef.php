@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class LegRef
 {
@@ -28,7 +28,7 @@ class LegRef
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Air\LegRef
+     * @return \Santosdave\Travelport\Air\LegRef
      */
     public function setKey($Key)
     {

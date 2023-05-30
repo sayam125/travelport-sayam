@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class AirVoidDocumentRsp extends BaseRsp
 {
@@ -41,7 +41,7 @@ class AirVoidDocumentRsp extends BaseRsp
 
     /**
      * @param ETR $ETR
-     * @return \FilippoToso\Travelport\Air\AirVoidDocumentRsp
+     * @return \Santosdave\Travelport\Air\AirVoidDocumentRsp
      */
     public function setETR($ETR)
     {
@@ -59,7 +59,7 @@ class AirVoidDocumentRsp extends BaseRsp
 
     /**
      * @param VoidResultInfo $VoidResultInfo
-     * @return \FilippoToso\Travelport\Air\AirVoidDocumentRsp
+     * @return \Santosdave\Travelport\Air\AirVoidDocumentRsp
      */
     public function setVoidResultInfo($VoidResultInfo)
     {

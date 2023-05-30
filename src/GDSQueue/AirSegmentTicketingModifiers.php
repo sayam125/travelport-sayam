@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class AirSegmentTicketingModifiers
 {
@@ -35,7 +35,7 @@ class AirSegmentTicketingModifiers
 
     /**
      * @param typeRef $AirSegmentRef
-     * @return \FilippoToso\Travelport\GDSQueue\AirSegmentTicketingModifiers
+     * @return \Santosdave\Travelport\GDSQueue\AirSegmentTicketingModifiers
      */
     public function setAirSegmentRef($AirSegmentRef)
     {
@@ -53,7 +53,7 @@ class AirSegmentTicketingModifiers
 
     /**
      * @param StringLength1to10 $BrandTier
-     * @return \FilippoToso\Travelport\GDSQueue\AirSegmentTicketingModifiers
+     * @return \Santosdave\Travelport\GDSQueue\AirSegmentTicketingModifiers
      */
     public function setBrandTier($BrandTier)
     {

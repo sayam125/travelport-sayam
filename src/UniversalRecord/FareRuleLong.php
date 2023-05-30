@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class FareRuleLong
 {
@@ -42,7 +42,7 @@ class FareRuleLong
 
     /**
      * @param string $_
-     * @return \FilippoToso\Travelport\UniversalRecord\FareRuleLong
+     * @return \Santosdave\Travelport\UniversalRecord\FareRuleLong
      */
     public function set_($_)
     {
@@ -60,7 +60,7 @@ class FareRuleLong
 
     /**
      * @param int $Category
-     * @return \FilippoToso\Travelport\UniversalRecord\FareRuleLong
+     * @return \Santosdave\Travelport\UniversalRecord\FareRuleLong
      */
     public function setCategory($Category)
     {
@@ -78,7 +78,7 @@ class FareRuleLong
 
     /**
      * @param string $Type
-     * @return \FilippoToso\Travelport\UniversalRecord\FareRuleLong
+     * @return \Santosdave\Travelport\UniversalRecord\FareRuleLong
      */
     public function setType($Type)
     {

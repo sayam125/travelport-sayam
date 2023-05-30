@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class typeTicketModifierAmountType
 {
@@ -28,7 +28,7 @@ class typeTicketModifierAmountType
 
     /**
      * @param typeMoney $Amount
-     * @return \FilippoToso\Travelport\UniversalRecord\typeTicketModifierAmountType
+     * @return \Santosdave\Travelport\UniversalRecord\typeTicketModifierAmountType
      */
     public function setAmount($Amount)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class GuaranteePaymentType
 {
@@ -42,7 +42,7 @@ class GuaranteePaymentType
 
     /**
      * @param string $_
-     * @return \FilippoToso\Travelport\Rail\GuaranteePaymentType
+     * @return \Santosdave\Travelport\Rail\GuaranteePaymentType
      */
     public function set_($_)
     {
@@ -60,7 +60,7 @@ class GuaranteePaymentType
 
     /**
      * @param string $Type
-     * @return \FilippoToso\Travelport\Rail\GuaranteePaymentType
+     * @return \Santosdave\Travelport\Rail\GuaranteePaymentType
      */
     public function setType($Type)
     {
@@ -78,7 +78,7 @@ class GuaranteePaymentType
 
     /**
      * @param string $Description
-     * @return \FilippoToso\Travelport\Rail\GuaranteePaymentType
+     * @return \Santosdave\Travelport\Rail\GuaranteePaymentType
      */
     public function setDescription($Description)
     {

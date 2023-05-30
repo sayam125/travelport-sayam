@@ -4,3 +4,4 @@ data
 builder
 composer.lock
 test
+vendor

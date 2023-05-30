@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class ProviderReservationDisplayDetailsList
 {
@@ -35,7 +35,7 @@ class ProviderReservationDisplayDetailsList
 
     /**
      * @param DisplayDetails $DisplayDetails
-     * @return \FilippoToso\Travelport\Rail\ProviderReservationDisplayDetailsList
+     * @return \Santosdave\Travelport\Rail\ProviderReservationDisplayDetailsList
      */
     public function setDisplayDetails($DisplayDetails)
     {
@@ -53,7 +53,7 @@ class ProviderReservationDisplayDetailsList
 
     /**
      * @param TravelerNameNum $TravelerNameNum
-     * @return \FilippoToso\Travelport\Rail\ProviderReservationDisplayDetailsList
+     * @return \Santosdave\Travelport\Rail\ProviderReservationDisplayDetailsList
      */
     public function setTravelerNameNum($TravelerNameNum)
     {

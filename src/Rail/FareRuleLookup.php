@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class FareRuleLookup
 {
@@ -84,7 +84,7 @@ class FareRuleLookup
 
     /**
      * @param AccountCode $AccountCode
-     * @return \FilippoToso\Travelport\Rail\FareRuleLookup
+     * @return \Santosdave\Travelport\Rail\FareRuleLookup
      */
     public function setAccountCode($AccountCode)
     {
@@ -102,7 +102,7 @@ class FareRuleLookup
 
     /**
      * @param PointOfSale $PointOfSale
-     * @return \FilippoToso\Travelport\Rail\FareRuleLookup
+     * @return \Santosdave\Travelport\Rail\FareRuleLookup
      */
     public function setPointOfSale($PointOfSale)
     {
@@ -120,7 +120,7 @@ class FareRuleLookup
 
     /**
      * @param typeIATACode $Origin
-     * @return \FilippoToso\Travelport\Rail\FareRuleLookup
+     * @return \Santosdave\Travelport\Rail\FareRuleLookup
      */
     public function setOrigin($Origin)
     {
@@ -138,7 +138,7 @@ class FareRuleLookup
 
     /**
      * @param typeIATACode $Destination
-     * @return \FilippoToso\Travelport\Rail\FareRuleLookup
+     * @return \Santosdave\Travelport\Rail\FareRuleLookup
      */
     public function setDestination($Destination)
     {
@@ -156,7 +156,7 @@ class FareRuleLookup
 
     /**
      * @param typeCarrier $Carrier
-     * @return \FilippoToso\Travelport\Rail\FareRuleLookup
+     * @return \Santosdave\Travelport\Rail\FareRuleLookup
      */
     public function setCarrier($Carrier)
     {
@@ -174,7 +174,7 @@ class FareRuleLookup
 
     /**
      * @param string $FareBasis
-     * @return \FilippoToso\Travelport\Rail\FareRuleLookup
+     * @return \Santosdave\Travelport\Rail\FareRuleLookup
      */
     public function setFareBasis($FareBasis)
     {
@@ -192,7 +192,7 @@ class FareRuleLookup
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\Rail\FareRuleLookup
+     * @return \Santosdave\Travelport\Rail\FareRuleLookup
      */
     public function setProviderCode($ProviderCode)
     {
@@ -210,7 +210,7 @@ class FareRuleLookup
 
     /**
      * @param date $DepartureDate
-     * @return \FilippoToso\Travelport\Rail\FareRuleLookup
+     * @return \Santosdave\Travelport\Rail\FareRuleLookup
      */
     public function setDepartureDate($DepartureDate)
     {
@@ -228,7 +228,7 @@ class FareRuleLookup
 
     /**
      * @param date $TicketingDate
-     * @return \FilippoToso\Travelport\Rail\FareRuleLookup
+     * @return \Santosdave\Travelport\Rail\FareRuleLookup
      */
     public function setTicketingDate($TicketingDate)
     {

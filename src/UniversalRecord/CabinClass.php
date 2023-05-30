@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class CabinClass
 {
@@ -28,7 +28,7 @@ class CabinClass
 
     /**
      * @param string $Type
-     * @return \FilippoToso\Travelport\UniversalRecord\CabinClass
+     * @return \Santosdave\Travelport\UniversalRecord\CabinClass
      */
     public function setType($Type)
     {

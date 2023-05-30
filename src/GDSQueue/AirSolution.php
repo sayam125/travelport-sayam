@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class AirSolution
 {
@@ -49,7 +49,7 @@ class AirSolution
 
     /**
      * @param SearchTraveler $SearchTraveler
-     * @return \FilippoToso\Travelport\GDSQueue\AirSolution
+     * @return \Santosdave\Travelport\GDSQueue\AirSolution
      */
     public function setSearchTraveler($SearchTraveler)
     {
@@ -67,7 +67,7 @@ class AirSolution
 
     /**
      * @param typeBaseAirSegment $AirSegment
-     * @return \FilippoToso\Travelport\GDSQueue\AirSolution
+     * @return \Santosdave\Travelport\GDSQueue\AirSolution
      */
     public function setAirSegment($AirSegment)
     {
@@ -85,7 +85,7 @@ class AirSolution
 
     /**
      * @param HostToken $HostToken
-     * @return \FilippoToso\Travelport\GDSQueue\AirSolution
+     * @return \Santosdave\Travelport\GDSQueue\AirSolution
      */
     public function setHostToken($HostToken)
     {
@@ -103,7 +103,7 @@ class AirSolution
 
     /**
      * @param FareBasis $FareBasis
-     * @return \FilippoToso\Travelport\GDSQueue\AirSolution
+     * @return \Santosdave\Travelport\GDSQueue\AirSolution
      */
     public function setFareBasis($FareBasis)
     {

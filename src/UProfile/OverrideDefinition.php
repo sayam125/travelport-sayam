@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class OverrideDefinition
 {
@@ -63,7 +63,7 @@ class OverrideDefinition
 
     /**
      * @param typeID $TemplateFieldID
-     * @return \FilippoToso\Travelport\UProfile\OverrideDefinition
+     * @return \Santosdave\Travelport\UProfile\OverrideDefinition
      */
     public function setTemplateFieldID($TemplateFieldID)
     {
@@ -81,7 +81,7 @@ class OverrideDefinition
 
     /**
      * @param boolean $Hide
-     * @return \FilippoToso\Travelport\UProfile\OverrideDefinition
+     * @return \Santosdave\Travelport\UProfile\OverrideDefinition
      */
     public function setHide($Hide)
     {
@@ -99,7 +99,7 @@ class OverrideDefinition
 
     /**
      * @param StringLength1to128 $Label
-     * @return \FilippoToso\Travelport\UProfile\OverrideDefinition
+     * @return \Santosdave\Travelport\UProfile\OverrideDefinition
      */
     public function setLabel($Label)
     {
@@ -117,7 +117,7 @@ class OverrideDefinition
 
     /**
      * @param int $MinOccursOverride
-     * @return \FilippoToso\Travelport\UProfile\OverrideDefinition
+     * @return \Santosdave\Travelport\UProfile\OverrideDefinition
      */
     public function setMinOccursOverride($MinOccursOverride)
     {
@@ -135,7 +135,7 @@ class OverrideDefinition
 
     /**
      * @param boolean $ReadOnly
-     * @return \FilippoToso\Travelport\UProfile\OverrideDefinition
+     * @return \Santosdave\Travelport\UProfile\OverrideDefinition
      */
     public function setReadOnly($ReadOnly)
     {
@@ -153,7 +153,7 @@ class OverrideDefinition
 
     /**
      * @param typeCustomFieldOrGroupType $TemplateFieldType
-     * @return \FilippoToso\Travelport\UProfile\OverrideDefinition
+     * @return \Santosdave\Travelport\UProfile\OverrideDefinition
      */
     public function setTemplateFieldType($TemplateFieldType)
     {

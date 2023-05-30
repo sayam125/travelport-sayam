@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class OwnershipChange
 {
@@ -28,7 +28,7 @@ class OwnershipChange
 
     /**
      * @param typeRef $OwningPCC
-     * @return \FilippoToso\Travelport\Air\OwnershipChange
+     * @return \Santosdave\Travelport\Air\OwnershipChange
      */
     public function setOwningPCC($OwningPCC)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class ProfileModifyBridgeBranchesRsp extends BaseRsp
 {
@@ -48,7 +48,7 @@ class ProfileModifyBridgeBranchesRsp extends BaseRsp
 
     /**
      * @param BridgeBranch $BridgeBranch
-     * @return \FilippoToso\Travelport\UProfile\ProfileModifyBridgeBranchesRsp
+     * @return \Santosdave\Travelport\UProfile\ProfileModifyBridgeBranchesRsp
      */
     public function setBridgeBranch($BridgeBranch)
     {
@@ -66,7 +66,7 @@ class ProfileModifyBridgeBranchesRsp extends BaseRsp
 
     /**
      * @param typeProfileID $AgentID
-     * @return \FilippoToso\Travelport\UProfile\ProfileModifyBridgeBranchesRsp
+     * @return \Santosdave\Travelport\UProfile\ProfileModifyBridgeBranchesRsp
      */
     public function setAgentID($AgentID)
     {
@@ -84,7 +84,7 @@ class ProfileModifyBridgeBranchesRsp extends BaseRsp
 
     /**
      * @param StringLength1to128 $UserName
-     * @return \FilippoToso\Travelport\UProfile\ProfileModifyBridgeBranchesRsp
+     * @return \Santosdave\Travelport\UProfile\ProfileModifyBridgeBranchesRsp
      */
     public function setUserName($UserName)
     {

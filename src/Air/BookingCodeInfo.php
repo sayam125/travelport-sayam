@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class BookingCodeInfo
 {
@@ -35,7 +35,7 @@ class BookingCodeInfo
 
     /**
      * @param string $CabinClass
-     * @return \FilippoToso\Travelport\Air\BookingCodeInfo
+     * @return \Santosdave\Travelport\Air\BookingCodeInfo
      */
     public function setCabinClass($CabinClass)
     {
@@ -53,7 +53,7 @@ class BookingCodeInfo
 
     /**
      * @param string $BookingCounts
-     * @return \FilippoToso\Travelport\Air\BookingCodeInfo
+     * @return \Santosdave\Travelport\Air\BookingCodeInfo
      */
     public function setBookingCounts($BookingCounts)
     {

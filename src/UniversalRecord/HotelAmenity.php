@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class HotelAmenity
 {
@@ -35,7 +35,7 @@ class HotelAmenity
 
     /**
      * @param typeAmenityLevel $Level
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelAmenity
+     * @return \Santosdave\Travelport\UniversalRecord\HotelAmenity
      */
     public function setLevel($Level)
     {
@@ -53,7 +53,7 @@ class HotelAmenity
 
     /**
      * @param typeAmenityCode $AmenityCode
-     * @return \FilippoToso\Travelport\UniversalRecord\HotelAmenity
+     * @return \Santosdave\Travelport\UniversalRecord\HotelAmenity
      */
     public function setAmenityCode($AmenityCode)
     {

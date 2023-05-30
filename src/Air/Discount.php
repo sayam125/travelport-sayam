@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class Discount
 {
@@ -35,7 +35,7 @@ class Discount
 
     /**
      * @param DiscountCard $DiscountCard
-     * @return \FilippoToso\Travelport\Air\Discount
+     * @return \Santosdave\Travelport\Air\Discount
      */
     public function setDiscountCard($DiscountCard)
     {
@@ -53,7 +53,7 @@ class Discount
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\Air\Discount
+     * @return \Santosdave\Travelport\Air\Discount
      */
     public function setKey($Key)
     {

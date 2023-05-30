@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class AirExchangeMultiQuoteRsp extends BaseRsp
 {
@@ -48,7 +48,7 @@ class AirExchangeMultiQuoteRsp extends BaseRsp
 
     /**
      * @param AirSegmentList $AirSegmentList
-     * @return \FilippoToso\Travelport\Air\AirExchangeMultiQuoteRsp
+     * @return \Santosdave\Travelport\Air\AirExchangeMultiQuoteRsp
      */
     public function setAirSegmentList($AirSegmentList)
     {
@@ -66,7 +66,7 @@ class AirExchangeMultiQuoteRsp extends BaseRsp
 
     /**
      * @param BrandList $BrandList
-     * @return \FilippoToso\Travelport\Air\AirExchangeMultiQuoteRsp
+     * @return \Santosdave\Travelport\Air\AirExchangeMultiQuoteRsp
      */
     public function setBrandList($BrandList)
     {
@@ -84,7 +84,7 @@ class AirExchangeMultiQuoteRsp extends BaseRsp
 
     /**
      * @param AirExchangeMulitQuoteList $AirExchangeMulitQuoteList
-     * @return \FilippoToso\Travelport\Air\AirExchangeMultiQuoteRsp
+     * @return \Santosdave\Travelport\Air\AirExchangeMultiQuoteRsp
      */
     public function setAirExchangeMulitQuoteList($AirExchangeMulitQuoteList)
     {

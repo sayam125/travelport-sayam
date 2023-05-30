@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class ServiceInfo
 {
@@ -35,7 +35,7 @@ class ServiceInfo
 
     /**
      * @param string[] $Description
-     * @return \FilippoToso\Travelport\GDSQueue\ServiceInfo
+     * @return \Santosdave\Travelport\GDSQueue\ServiceInfo
      */
     public function setDescription(array $Description)
     {
@@ -53,7 +53,7 @@ class ServiceInfo
 
     /**
      * @param MediaItem $MediaItem
-     * @return \FilippoToso\Travelport\GDSQueue\ServiceInfo
+     * @return \Santosdave\Travelport\GDSQueue\ServiceInfo
      */
     public function setMediaItem($MediaItem)
     {

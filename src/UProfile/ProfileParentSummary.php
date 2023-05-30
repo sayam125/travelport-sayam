@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class ProfileParentSummary
 {
@@ -84,7 +84,7 @@ class ProfileParentSummary
 
     /**
      * @param ProfileParentSummary $ProfileParentSummary
-     * @return \FilippoToso\Travelport\UProfile\ProfileParentSummary
+     * @return \Santosdave\Travelport\UProfile\ProfileParentSummary
      */
     public function setProfileParentSummary($ProfileParentSummary)
     {
@@ -102,7 +102,7 @@ class ProfileParentSummary
 
     /**
      * @param typeProvisioningCode $ProvisioningCode
-     * @return \FilippoToso\Travelport\UProfile\ProfileParentSummary
+     * @return \Santosdave\Travelport\UProfile\ProfileParentSummary
      */
     public function setProvisioningCode($ProvisioningCode)
     {
@@ -120,7 +120,7 @@ class ProfileParentSummary
 
     /**
      * @param StringLength1to128 $Name
-     * @return \FilippoToso\Travelport\UProfile\ProfileParentSummary
+     * @return \Santosdave\Travelport\UProfile\ProfileParentSummary
      */
     public function setName($Name)
     {
@@ -138,7 +138,7 @@ class ProfileParentSummary
 
     /**
      * @param typeVersion $Version
-     * @return \FilippoToso\Travelport\UProfile\ProfileParentSummary
+     * @return \Santosdave\Travelport\UProfile\ProfileParentSummary
      */
     public function setVersion($Version)
     {
@@ -156,7 +156,7 @@ class ProfileParentSummary
 
     /**
      * @param typeID $HierarchyLevelID
-     * @return \FilippoToso\Travelport\UProfile\ProfileParentSummary
+     * @return \Santosdave\Travelport\UProfile\ProfileParentSummary
      */
     public function setHierarchyLevelID($HierarchyLevelID)
     {
@@ -174,7 +174,7 @@ class ProfileParentSummary
 
     /**
      * @param typeProfileEntityStatus $Status
-     * @return \FilippoToso\Travelport\UProfile\ProfileParentSummary
+     * @return \Santosdave\Travelport\UProfile\ProfileParentSummary
      */
     public function setStatus($Status)
     {
@@ -192,7 +192,7 @@ class ProfileParentSummary
 
     /**
      * @param typeDescription $Description
-     * @return \FilippoToso\Travelport\UProfile\ProfileParentSummary
+     * @return \Santosdave\Travelport\UProfile\ProfileParentSummary
      */
     public function setDescription($Description)
     {
@@ -210,7 +210,7 @@ class ProfileParentSummary
 
     /**
      * @param typeProfileID $ProfileID
-     * @return \FilippoToso\Travelport\UProfile\ProfileParentSummary
+     * @return \Santosdave\Travelport\UProfile\ProfileParentSummary
      */
     public function setProfileID($ProfileID)
     {
@@ -228,7 +228,7 @@ class ProfileParentSummary
 
     /**
      * @param typeProfileType $ProfileType
-     * @return \FilippoToso\Travelport\UProfile\ProfileParentSummary
+     * @return \Santosdave\Travelport\UProfile\ProfileParentSummary
      */
     public function setProfileType($ProfileType)
     {

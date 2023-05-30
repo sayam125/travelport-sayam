@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class TicketValidity
 {
@@ -35,7 +35,7 @@ class TicketValidity
 
     /**
      * @param date $NotValidBefore
-     * @return \FilippoToso\Travelport\GDSQueue\TicketValidity
+     * @return \Santosdave\Travelport\GDSQueue\TicketValidity
      */
     public function setNotValidBefore($NotValidBefore)
     {
@@ -53,7 +53,7 @@ class TicketValidity
 
     /**
      * @param date $NotValidAfter
-     * @return \FilippoToso\Travelport\GDSQueue\TicketValidity
+     * @return \Santosdave\Travelport\GDSQueue\TicketValidity
      */
     public function setNotValidAfter($NotValidAfter)
     {

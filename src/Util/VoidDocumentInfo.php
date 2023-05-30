@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class VoidDocumentInfo
 {
@@ -35,7 +35,7 @@ class VoidDocumentInfo
 
     /**
      * @param StringLength1to13 $DocumentNumber
-     * @return \FilippoToso\Travelport\Util\VoidDocumentInfo
+     * @return \Santosdave\Travelport\Util\VoidDocumentInfo
      */
     public function setDocumentNumber($DocumentNumber)
     {
@@ -53,7 +53,7 @@ class VoidDocumentInfo
 
     /**
      * @param anonymous453 $DocumentType
-     * @return \FilippoToso\Travelport\Util\VoidDocumentInfo
+     * @return \Santosdave\Travelport\Util\VoidDocumentInfo
      */
     public function setDocumentType($DocumentType)
     {

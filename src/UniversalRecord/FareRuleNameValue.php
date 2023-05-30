@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class FareRuleNameValue
 {
@@ -35,7 +35,7 @@ class FareRuleNameValue
 
     /**
      * @param string $Name
-     * @return \FilippoToso\Travelport\UniversalRecord\FareRuleNameValue
+     * @return \Santosdave\Travelport\UniversalRecord\FareRuleNameValue
      */
     public function setName($Name)
     {
@@ -53,7 +53,7 @@ class FareRuleNameValue
 
     /**
      * @param string $Value
-     * @return \FilippoToso\Travelport\UniversalRecord\FareRuleNameValue
+     * @return \Santosdave\Travelport\UniversalRecord\FareRuleNameValue
      */
     public function setValue($Value)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeProfileInfo
 {
@@ -35,7 +35,7 @@ class typeProfileInfo
 
     /**
      * @param StringLength1to255 $AdditionalIdentifier
-     * @return \FilippoToso\Travelport\UProfile\typeProfileInfo
+     * @return \Santosdave\Travelport\UProfile\typeProfileInfo
      */
     public function setAdditionalIdentifier($AdditionalIdentifier)
     {
@@ -53,7 +53,7 @@ class typeProfileInfo
 
     /**
      * @param typeDescription $Description
-     * @return \FilippoToso\Travelport\UProfile\typeProfileInfo
+     * @return \Santosdave\Travelport\UProfile\typeProfileInfo
      */
     public function setDescription($Description)
     {

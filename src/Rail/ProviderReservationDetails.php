@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class ProviderReservationDetails
 {
@@ -77,7 +77,7 @@ class ProviderReservationDetails
 
     /**
      * @param boolean $ProviderReservationDetail
-     * @return \FilippoToso\Travelport\Rail\ProviderReservationDetails
+     * @return \Santosdave\Travelport\Rail\ProviderReservationDetails
      */
     public function setProviderReservationDetail($ProviderReservationDetail)
     {
@@ -95,7 +95,7 @@ class ProviderReservationDetails
 
     /**
      * @param boolean $CustomCheck
-     * @return \FilippoToso\Travelport\Rail\ProviderReservationDetails
+     * @return \Santosdave\Travelport\Rail\ProviderReservationDetails
      */
     public function setCustomCheck($CustomCheck)
     {
@@ -113,7 +113,7 @@ class ProviderReservationDetails
 
     /**
      * @param boolean $ProviderProfile
-     * @return \FilippoToso\Travelport\Rail\ProviderReservationDetails
+     * @return \Santosdave\Travelport\Rail\ProviderReservationDetails
      */
     public function setProviderProfile($ProviderProfile)
     {
@@ -131,7 +131,7 @@ class ProviderReservationDetails
 
     /**
      * @param boolean $DivideDetails
-     * @return \FilippoToso\Travelport\Rail\ProviderReservationDetails
+     * @return \Santosdave\Travelport\Rail\ProviderReservationDetails
      */
     public function setDivideDetails($DivideDetails)
     {
@@ -149,7 +149,7 @@ class ProviderReservationDetails
 
     /**
      * @param boolean $EnhancedItinModifiers
-     * @return \FilippoToso\Travelport\Rail\ProviderReservationDetails
+     * @return \Santosdave\Travelport\Rail\ProviderReservationDetails
      */
     public function setEnhancedItinModifiers($EnhancedItinModifiers)
     {
@@ -167,7 +167,7 @@ class ProviderReservationDetails
 
     /**
      * @param boolean $IntegratedContent
-     * @return \FilippoToso\Travelport\Rail\ProviderReservationDetails
+     * @return \Santosdave\Travelport\Rail\ProviderReservationDetails
      */
     public function setIntegratedContent($IntegratedContent)
     {
@@ -185,7 +185,7 @@ class ProviderReservationDetails
 
     /**
      * @param boolean $Cruise
-     * @return \FilippoToso\Travelport\Rail\ProviderReservationDetails
+     * @return \Santosdave\Travelport\Rail\ProviderReservationDetails
      */
     public function setCruise($Cruise)
     {
@@ -203,7 +203,7 @@ class ProviderReservationDetails
 
     /**
      * @param boolean $RailSegment
-     * @return \FilippoToso\Travelport\Rail\ProviderReservationDetails
+     * @return \Santosdave\Travelport\Rail\ProviderReservationDetails
      */
     public function setRailSegment($RailSegment)
     {

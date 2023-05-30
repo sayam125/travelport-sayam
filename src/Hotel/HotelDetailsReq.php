@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class HotelDetailsReq extends BaseHotelDetailsReq
 {
@@ -71,7 +71,7 @@ class HotelDetailsReq extends BaseHotelDetailsReq
 
     /**
      * @param HostToken $HostToken
-     * @return \FilippoToso\Travelport\Hotel\HotelDetailsReq
+     * @return \Santosdave\Travelport\Hotel\HotelDetailsReq
      */
     public function setHostToken($HostToken)
     {
@@ -89,7 +89,7 @@ class HotelDetailsReq extends BaseHotelDetailsReq
 
     /**
      * @param NextResultReference $NextResultReference
-     * @return \FilippoToso\Travelport\Hotel\HotelDetailsReq
+     * @return \Santosdave\Travelport\Hotel\HotelDetailsReq
      */
     public function setNextResultReference($NextResultReference)
     {
@@ -107,7 +107,7 @@ class HotelDetailsReq extends BaseHotelDetailsReq
 
     /**
      * @param boolean $ReturnMediaLinks
-     * @return \FilippoToso\Travelport\Hotel\HotelDetailsReq
+     * @return \Santosdave\Travelport\Hotel\HotelDetailsReq
      */
     public function setReturnMediaLinks($ReturnMediaLinks)
     {
@@ -125,7 +125,7 @@ class HotelDetailsReq extends BaseHotelDetailsReq
 
     /**
      * @param boolean $ReturnGuestReviews
-     * @return \FilippoToso\Travelport\Hotel\HotelDetailsReq
+     * @return \Santosdave\Travelport\Hotel\HotelDetailsReq
      */
     public function setReturnGuestReviews($ReturnGuestReviews)
     {
@@ -143,7 +143,7 @@ class HotelDetailsReq extends BaseHotelDetailsReq
 
     /**
      * @param typePolicyReference $PolicyReference
-     * @return \FilippoToso\Travelport\Hotel\HotelDetailsReq
+     * @return \Santosdave\Travelport\Hotel\HotelDetailsReq
      */
     public function setPolicyReference($PolicyReference)
     {

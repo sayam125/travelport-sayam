@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class BundledServices
 {
@@ -28,7 +28,7 @@ class BundledServices
 
     /**
      * @param BundledService $BundledService
-     * @return \FilippoToso\Travelport\GDSQueue\BundledServices
+     * @return \Santosdave\Travelport\GDSQueue\BundledServices
      */
     public function setBundledService($BundledService)
     {

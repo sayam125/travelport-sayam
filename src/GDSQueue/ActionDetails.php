@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class ActionDetails
 {
@@ -56,7 +56,7 @@ class ActionDetails
 
     /**
      * @param typePCC $PseudoCityCode
-     * @return \FilippoToso\Travelport\GDSQueue\ActionDetails
+     * @return \Santosdave\Travelport\GDSQueue\ActionDetails
      */
     public function setPseudoCityCode($PseudoCityCode)
     {
@@ -74,7 +74,7 @@ class ActionDetails
 
     /**
      * @param string $AgentSine
-     * @return \FilippoToso\Travelport\GDSQueue\ActionDetails
+     * @return \Santosdave\Travelport\GDSQueue\ActionDetails
      */
     public function setAgentSine($AgentSine)
     {
@@ -92,7 +92,7 @@ class ActionDetails
 
     /**
      * @param date $EventDate
-     * @return \FilippoToso\Travelport\GDSQueue\ActionDetails
+     * @return \Santosdave\Travelport\GDSQueue\ActionDetails
      */
     public function setEventDate($EventDate)
     {
@@ -110,7 +110,7 @@ class ActionDetails
 
     /**
      * @param time $EventTime
-     * @return \FilippoToso\Travelport\GDSQueue\ActionDetails
+     * @return \Santosdave\Travelport\GDSQueue\ActionDetails
      */
     public function setEventTime($EventTime)
     {
@@ -128,7 +128,7 @@ class ActionDetails
 
     /**
      * @param string $Text
-     * @return \FilippoToso\Travelport\GDSQueue\ActionDetails
+     * @return \Santosdave\Travelport\GDSQueue\ActionDetails
      */
     public function setText($Text)
     {

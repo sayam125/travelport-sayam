@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\System;
+namespace Santosdave\Travelport\System;
 
 class OtherGuaranteeInfo
 {
@@ -35,7 +35,7 @@ class OtherGuaranteeInfo
 
     /**
      * @param string $_
-     * @return \FilippoToso\Travelport\System\OtherGuaranteeInfo
+     * @return \Santosdave\Travelport\System\OtherGuaranteeInfo
      */
     public function set_($_)
     {
@@ -53,7 +53,7 @@ class OtherGuaranteeInfo
 
     /**
      * @param anonymous300 $Type
-     * @return \FilippoToso\Travelport\System\OtherGuaranteeInfo
+     * @return \Santosdave\Travelport\System\OtherGuaranteeInfo
      */
     public function setType($Type)
     {

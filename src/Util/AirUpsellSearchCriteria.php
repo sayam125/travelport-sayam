@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class AirUpsellSearchCriteria
 {
@@ -35,7 +35,7 @@ class AirUpsellSearchCriteria
 
     /**
      * @param AirUpsellOfferSearchCriteria $AirUpsellOfferSearchCriteria
-     * @return \FilippoToso\Travelport\Util\AirUpsellSearchCriteria
+     * @return \Santosdave\Travelport\Util\AirUpsellSearchCriteria
      */
     public function setAirUpsellOfferSearchCriteria($AirUpsellOfferSearchCriteria)
     {
@@ -53,7 +53,7 @@ class AirUpsellSearchCriteria
 
     /**
      * @param AirUpsellQualifySearchCriteria $AirUpsellQualifySearchCriteria
-     * @return \FilippoToso\Travelport\Util\AirUpsellSearchCriteria
+     * @return \Santosdave\Travelport\Util\AirUpsellSearchCriteria
      */
     public function setAirUpsellQualifySearchCriteria($AirUpsellQualifySearchCriteria)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class GdsQueueCountReq extends BaseReq
 {
@@ -47,7 +47,7 @@ class GdsQueueCountReq extends BaseReq
 
     /**
      * @param QueuePseudoCitySelector $QueuePseudoCitySelector
-     * @return \FilippoToso\Travelport\GDSQueue\GdsQueueCountReq
+     * @return \Santosdave\Travelport\GDSQueue\GdsQueueCountReq
      */
     public function setQueuePseudoCitySelector($QueuePseudoCitySelector)
     {
@@ -65,7 +65,7 @@ class GdsQueueCountReq extends BaseReq
 
     /**
      * @param typeProviderCode $ProviderCode
-     * @return \FilippoToso\Travelport\GDSQueue\GdsQueueCountReq
+     * @return \Santosdave\Travelport\GDSQueue\GdsQueueCountReq
      */
     public function setProviderCode($ProviderCode)
     {

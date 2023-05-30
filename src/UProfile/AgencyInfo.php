@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class AgencyInfo extends typeProfileInfo
 {
@@ -115,7 +115,7 @@ class AgencyInfo extends typeProfileInfo
 
     /**
      * @param Advisory $Advisory
-     * @return \FilippoToso\Travelport\UProfile\AgencyInfo
+     * @return \Santosdave\Travelport\UProfile\AgencyInfo
      */
     public function setAdvisory($Advisory)
     {
@@ -133,7 +133,7 @@ class AgencyInfo extends typeProfileInfo
 
     /**
      * @param Address $Address
-     * @return \FilippoToso\Travelport\UProfile\AgencyInfo
+     * @return \Santosdave\Travelport\UProfile\AgencyInfo
      */
     public function setAddress($Address)
     {
@@ -151,7 +151,7 @@ class AgencyInfo extends typeProfileInfo
 
     /**
      * @param Phone $Phone
-     * @return \FilippoToso\Travelport\UProfile\AgencyInfo
+     * @return \Santosdave\Travelport\UProfile\AgencyInfo
      */
     public function setPhone($Phone)
     {
@@ -169,7 +169,7 @@ class AgencyInfo extends typeProfileInfo
 
     /**
      * @param ElectronicAddress $ElectronicAddress
-     * @return \FilippoToso\Travelport\UProfile\AgencyInfo
+     * @return \Santosdave\Travelport\UProfile\AgencyInfo
      */
     public function setElectronicAddress($ElectronicAddress)
     {
@@ -187,7 +187,7 @@ class AgencyInfo extends typeProfileInfo
 
     /**
      * @param ExternalIdentifier $ExternalIdentifier
-     * @return \FilippoToso\Travelport\UProfile\AgencyInfo
+     * @return \Santosdave\Travelport\UProfile\AgencyInfo
      */
     public function setExternalIdentifier($ExternalIdentifier)
     {
@@ -205,7 +205,7 @@ class AgencyInfo extends typeProfileInfo
 
     /**
      * @param StringLength1to128 $Name
-     * @return \FilippoToso\Travelport\UProfile\AgencyInfo
+     * @return \Santosdave\Travelport\UProfile\AgencyInfo
      */
     public function setName($Name)
     {
@@ -223,7 +223,7 @@ class AgencyInfo extends typeProfileInfo
 
     /**
      * @param StringLength1to8 $IataNumber
-     * @return \FilippoToso\Travelport\UProfile\AgencyInfo
+     * @return \Santosdave\Travelport\UProfile\AgencyInfo
      */
     public function setIataNumber($IataNumber)
     {
@@ -241,7 +241,7 @@ class AgencyInfo extends typeProfileInfo
 
     /**
      * @param typeProvisioningCode $AgencyCode
-     * @return \FilippoToso\Travelport\UProfile\AgencyInfo
+     * @return \Santosdave\Travelport\UProfile\AgencyInfo
      */
     public function setAgencyCode($AgencyCode)
     {
@@ -259,7 +259,7 @@ class AgencyInfo extends typeProfileInfo
 
     /**
      * @param boolean $UsesTemplate
-     * @return \FilippoToso\Travelport\UProfile\AgencyInfo
+     * @return \Santosdave\Travelport\UProfile\AgencyInfo
      */
     public function setUsesTemplate($UsesTemplate)
     {
@@ -277,7 +277,7 @@ class AgencyInfo extends typeProfileInfo
 
     /**
      * @param anonymous545 $URSyncData
-     * @return \FilippoToso\Travelport\UProfile\AgencyInfo
+     * @return \Santosdave\Travelport\UProfile\AgencyInfo
      */
     public function setURSyncData($URSyncData)
     {
@@ -295,7 +295,7 @@ class AgencyInfo extends typeProfileInfo
 
     /**
      * @param boolean $URSyncTo
-     * @return \FilippoToso\Travelport\UProfile\AgencyInfo
+     * @return \Santosdave\Travelport\UProfile\AgencyInfo
      */
     public function setURSyncTo($URSyncTo)
     {
@@ -313,7 +313,7 @@ class AgencyInfo extends typeProfileInfo
 
     /**
      * @param boolean $ProfileSyncTo
-     * @return \FilippoToso\Travelport\UProfile\AgencyInfo
+     * @return \Santosdave\Travelport\UProfile\AgencyInfo
      */
     public function setProfileSyncTo($ProfileSyncTo)
     {
@@ -331,7 +331,7 @@ class AgencyInfo extends typeProfileInfo
 
     /**
      * @param boolean $ProfileSyncFrom
-     * @return \FilippoToso\Travelport\UProfile\AgencyInfo
+     * @return \Santosdave\Travelport\UProfile\AgencyInfo
      */
     public function setProfileSyncFrom($ProfileSyncFrom)
     {

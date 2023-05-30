@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class AirExchangeQuoteRsp extends BaseRsp
 {
@@ -76,7 +76,7 @@ class AirExchangeQuoteRsp extends BaseRsp
 
     /**
      * @param StringLength1to13 $TicketNumber
-     * @return \FilippoToso\Travelport\Air\AirExchangeQuoteRsp
+     * @return \Santosdave\Travelport\Air\AirExchangeQuoteRsp
      */
     public function setTicketNumber($TicketNumber)
     {
@@ -94,7 +94,7 @@ class AirExchangeQuoteRsp extends BaseRsp
 
     /**
      * @param AirPricingSolution $AirPricingSolution
-     * @return \FilippoToso\Travelport\Air\AirExchangeQuoteRsp
+     * @return \Santosdave\Travelport\Air\AirExchangeQuoteRsp
      */
     public function setAirPricingSolution($AirPricingSolution)
     {
@@ -112,7 +112,7 @@ class AirExchangeQuoteRsp extends BaseRsp
 
     /**
      * @param AirExchangeBundleTotal $AirExchangeBundleTotal
-     * @return \FilippoToso\Travelport\Air\AirExchangeQuoteRsp
+     * @return \Santosdave\Travelport\Air\AirExchangeQuoteRsp
      */
     public function setAirExchangeBundleTotal($AirExchangeBundleTotal)
     {
@@ -130,7 +130,7 @@ class AirExchangeQuoteRsp extends BaseRsp
 
     /**
      * @param AirExchangeBundle $AirExchangeBundle
-     * @return \FilippoToso\Travelport\Air\AirExchangeQuoteRsp
+     * @return \Santosdave\Travelport\Air\AirExchangeQuoteRsp
      */
     public function setAirExchangeBundle($AirExchangeBundle)
     {
@@ -148,7 +148,7 @@ class AirExchangeQuoteRsp extends BaseRsp
 
     /**
      * @param HostToken $HostToken
-     * @return \FilippoToso\Travelport\Air\AirExchangeQuoteRsp
+     * @return \Santosdave\Travelport\Air\AirExchangeQuoteRsp
      */
     public function setHostToken($HostToken)
     {
@@ -166,7 +166,7 @@ class AirExchangeQuoteRsp extends BaseRsp
 
     /**
      * @param OptionalServices $OptionalServices
-     * @return \FilippoToso\Travelport\Air\AirExchangeQuoteRsp
+     * @return \Santosdave\Travelport\Air\AirExchangeQuoteRsp
      */
     public function setOptionalServices($OptionalServices)
     {
@@ -184,7 +184,7 @@ class AirExchangeQuoteRsp extends BaseRsp
 
     /**
      * @param FareRule $FareRule
-     * @return \FilippoToso\Travelport\Air\AirExchangeQuoteRsp
+     * @return \Santosdave\Travelport\Air\AirExchangeQuoteRsp
      */
     public function setFareRule($FareRule)
     {

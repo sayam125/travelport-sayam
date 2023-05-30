@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class RailRefundInfo
 {
@@ -63,7 +63,7 @@ class RailRefundInfo
 
     /**
      * @param typeMoney $RefundAmount
-     * @return \FilippoToso\Travelport\GDSQueue\RailRefundInfo
+     * @return \Santosdave\Travelport\GDSQueue\RailRefundInfo
      */
     public function setRefundAmount($RefundAmount)
     {
@@ -81,7 +81,7 @@ class RailRefundInfo
 
     /**
      * @param typeMoney $CancellationFee
-     * @return \FilippoToso\Travelport\GDSQueue\RailRefundInfo
+     * @return \Santosdave\Travelport\GDSQueue\RailRefundInfo
      */
     public function setCancellationFee($CancellationFee)
     {
@@ -99,7 +99,7 @@ class RailRefundInfo
 
     /**
      * @param boolean $Refund
-     * @return \FilippoToso\Travelport\GDSQueue\RailRefundInfo
+     * @return \Santosdave\Travelport\GDSQueue\RailRefundInfo
      */
     public function setRefund($Refund)
     {
@@ -117,7 +117,7 @@ class RailRefundInfo
 
     /**
      * @param boolean $Retain
-     * @return \FilippoToso\Travelport\GDSQueue\RailRefundInfo
+     * @return \Santosdave\Travelport\GDSQueue\RailRefundInfo
      */
     public function setRetain($Retain)
     {
@@ -135,7 +135,7 @@ class RailRefundInfo
 
     /**
      * @param typeMoney $RetainAmount
-     * @return \FilippoToso\Travelport\GDSQueue\RailRefundInfo
+     * @return \Santosdave\Travelport\GDSQueue\RailRefundInfo
      */
     public function setRetainAmount($RetainAmount)
     {
@@ -153,7 +153,7 @@ class RailRefundInfo
 
     /**
      * @param typeMoney $NetAmount
-     * @return \FilippoToso\Travelport\GDSQueue\RailRefundInfo
+     * @return \Santosdave\Travelport\GDSQueue\RailRefundInfo
      */
     public function setNetAmount($NetAmount)
     {

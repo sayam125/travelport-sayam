@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class FareRuleNameValue
 {
@@ -35,7 +35,7 @@ class FareRuleNameValue
 
     /**
      * @param string $Name
-     * @return \FilippoToso\Travelport\GDSQueue\FareRuleNameValue
+     * @return \Santosdave\Travelport\GDSQueue\FareRuleNameValue
      */
     public function setName($Name)
     {
@@ -53,7 +53,7 @@ class FareRuleNameValue
 
     /**
      * @param string $Value
-     * @return \FilippoToso\Travelport\GDSQueue\FareRuleNameValue
+     * @return \Santosdave\Travelport\GDSQueue\FareRuleNameValue
      */
     public function setValue($Value)
     {

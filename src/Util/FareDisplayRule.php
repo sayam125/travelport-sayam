@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Util;
+namespace Santosdave\Travelport\Util;
 
 class FareDisplayRule
 {
@@ -63,7 +63,7 @@ class FareDisplayRule
 
     /**
      * @param RuleAdvancedPurchase $RuleAdvancedPurchase
-     * @return \FilippoToso\Travelport\Util\FareDisplayRule
+     * @return \Santosdave\Travelport\Util\FareDisplayRule
      */
     public function setRuleAdvancedPurchase($RuleAdvancedPurchase)
     {
@@ -81,7 +81,7 @@ class FareDisplayRule
 
     /**
      * @param RuleLengthOfStay $RuleLengthOfStay
-     * @return \FilippoToso\Travelport\Util\FareDisplayRule
+     * @return \Santosdave\Travelport\Util\FareDisplayRule
      */
     public function setRuleLengthOfStay($RuleLengthOfStay)
     {
@@ -99,7 +99,7 @@ class FareDisplayRule
 
     /**
      * @param RuleCharges $RuleCharges
-     * @return \FilippoToso\Travelport\Util\FareDisplayRule
+     * @return \Santosdave\Travelport\Util\FareDisplayRule
      */
     public function setRuleCharges($RuleCharges)
     {
@@ -117,7 +117,7 @@ class FareDisplayRule
 
     /**
      * @param string $RuleNumber
-     * @return \FilippoToso\Travelport\Util\FareDisplayRule
+     * @return \Santosdave\Travelport\Util\FareDisplayRule
      */
     public function setRuleNumber($RuleNumber)
     {
@@ -135,7 +135,7 @@ class FareDisplayRule
 
     /**
      * @param string $Source
-     * @return \FilippoToso\Travelport\Util\FareDisplayRule
+     * @return \Santosdave\Travelport\Util\FareDisplayRule
      */
     public function setSource($Source)
     {
@@ -153,7 +153,7 @@ class FareDisplayRule
 
     /**
      * @param string $TariffNumber
-     * @return \FilippoToso\Travelport\Util\FareDisplayRule
+     * @return \Santosdave\Travelport\Util\FareDisplayRule
      */
     public function setTariffNumber($TariffNumber)
     {

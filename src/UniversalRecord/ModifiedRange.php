@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class ModifiedRange
 {
@@ -35,7 +35,7 @@ class ModifiedRange
 
     /**
      * @param date $ModifiedStart
-     * @return \FilippoToso\Travelport\UniversalRecord\ModifiedRange
+     * @return \Santosdave\Travelport\UniversalRecord\ModifiedRange
      */
     public function setModifiedStart($ModifiedStart)
     {
@@ -53,7 +53,7 @@ class ModifiedRange
 
     /**
      * @param date $ModifiedEnd
-     * @return \FilippoToso\Travelport\UniversalRecord\ModifiedRange
+     * @return \Santosdave\Travelport\UniversalRecord\ModifiedRange
      */
     public function setModifiedEnd($ModifiedEnd)
     {

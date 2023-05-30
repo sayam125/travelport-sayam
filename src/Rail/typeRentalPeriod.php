@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class typeRentalPeriod
 {
@@ -42,7 +42,7 @@ class typeRentalPeriod
 
     /**
      * @param anonymous586 $RentalUnit
-     * @return \FilippoToso\Travelport\Rail\typeRentalPeriod
+     * @return \Santosdave\Travelport\Rail\typeRentalPeriod
      */
     public function setRentalUnit($RentalUnit)
     {
@@ -60,7 +60,7 @@ class typeRentalPeriod
 
     /**
      * @param int $Length
-     * @return \FilippoToso\Travelport\Rail\typeRentalPeriod
+     * @return \Santosdave\Travelport\Rail\typeRentalPeriod
      */
     public function setLength($Length)
     {
@@ -78,7 +78,7 @@ class typeRentalPeriod
 
     /**
      * @param boolean $RequirementPassed
-     * @return \FilippoToso\Travelport\Rail\typeRentalPeriod
+     * @return \Santosdave\Travelport\Rail\typeRentalPeriod
      */
     public function setRequirementPassed($RequirementPassed)
     {

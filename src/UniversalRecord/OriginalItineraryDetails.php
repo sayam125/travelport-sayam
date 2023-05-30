@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class OriginalItineraryDetails
 {
@@ -70,7 +70,7 @@ class OriginalItineraryDetails
 
     /**
      * @param typeItineraryCode $ItineraryType
-     * @return \FilippoToso\Travelport\UniversalRecord\OriginalItineraryDetails
+     * @return \Santosdave\Travelport\UniversalRecord\OriginalItineraryDetails
      */
     public function setItineraryType($ItineraryType)
     {
@@ -88,7 +88,7 @@ class OriginalItineraryDetails
 
     /**
      * @param boolean $BulkTicket
-     * @return \FilippoToso\Travelport\UniversalRecord\OriginalItineraryDetails
+     * @return \Santosdave\Travelport\UniversalRecord\OriginalItineraryDetails
      */
     public function setBulkTicket($BulkTicket)
     {
@@ -106,7 +106,7 @@ class OriginalItineraryDetails
 
     /**
      * @param typePCC $TicketingPCC
-     * @return \FilippoToso\Travelport\UniversalRecord\OriginalItineraryDetails
+     * @return \Santosdave\Travelport\UniversalRecord\OriginalItineraryDetails
      */
     public function setTicketingPCC($TicketingPCC)
     {
@@ -124,7 +124,7 @@ class OriginalItineraryDetails
 
     /**
      * @param typeIATA $TicketingIATA
-     * @return \FilippoToso\Travelport\UniversalRecord\OriginalItineraryDetails
+     * @return \Santosdave\Travelport\UniversalRecord\OriginalItineraryDetails
      */
     public function setTicketingIATA($TicketingIATA)
     {
@@ -142,7 +142,7 @@ class OriginalItineraryDetails
 
     /**
      * @param typeCountry $TicketingCountry
-     * @return \FilippoToso\Travelport\UniversalRecord\OriginalItineraryDetails
+     * @return \Santosdave\Travelport\UniversalRecord\OriginalItineraryDetails
      */
     public function setTicketingCountry($TicketingCountry)
     {
@@ -160,7 +160,7 @@ class OriginalItineraryDetails
 
     /**
      * @param typeTourCode $TourCode
-     * @return \FilippoToso\Travelport\UniversalRecord\OriginalItineraryDetails
+     * @return \Santosdave\Travelport\UniversalRecord\OriginalItineraryDetails
      */
     public function setTourCode($TourCode)
     {
@@ -178,7 +178,7 @@ class OriginalItineraryDetails
 
     /**
      * @param date $TicketingDate
-     * @return \FilippoToso\Travelport\UniversalRecord\OriginalItineraryDetails
+     * @return \Santosdave\Travelport\UniversalRecord\OriginalItineraryDetails
      */
     public function setTicketingDate($TicketingDate)
     {

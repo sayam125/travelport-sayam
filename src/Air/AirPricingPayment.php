@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class AirPricingPayment
 {
@@ -49,7 +49,7 @@ class AirPricingPayment
 
     /**
      * @param Payment $Payment
-     * @return \FilippoToso\Travelport\Air\AirPricingPayment
+     * @return \Santosdave\Travelport\Air\AirPricingPayment
      */
     public function setPayment($Payment)
     {
@@ -67,7 +67,7 @@ class AirPricingPayment
 
     /**
      * @param FormOfPayment $FormOfPayment
-     * @return \FilippoToso\Travelport\Air\AirPricingPayment
+     * @return \Santosdave\Travelport\Air\AirPricingPayment
      */
     public function setFormOfPayment($FormOfPayment)
     {
@@ -85,7 +85,7 @@ class AirPricingPayment
 
     /**
      * @param FormOfPaymentRef $FormOfPaymentRef
-     * @return \FilippoToso\Travelport\Air\AirPricingPayment
+     * @return \Santosdave\Travelport\Air\AirPricingPayment
      */
     public function setFormOfPaymentRef($FormOfPaymentRef)
     {
@@ -103,7 +103,7 @@ class AirPricingPayment
 
     /**
      * @param AirPricingInfoRef $AirPricingInfoRef
-     * @return \FilippoToso\Travelport\Air\AirPricingPayment
+     * @return \Santosdave\Travelport\Air\AirPricingPayment
      */
     public function setAirPricingInfoRef($AirPricingInfoRef)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class PreferredConnectionPoints
 {
@@ -28,7 +28,7 @@ class PreferredConnectionPoints
 
     /**
      * @param typeLocation $ConnectionPoint
-     * @return \FilippoToso\Travelport\UniversalRecord\PreferredConnectionPoints
+     * @return \Santosdave\Travelport\UniversalRecord\PreferredConnectionPoints
      */
     public function setConnectionPoint($ConnectionPoint)
     {

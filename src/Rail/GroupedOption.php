@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class GroupedOption
 {
@@ -28,7 +28,7 @@ class GroupedOption
 
     /**
      * @param typeRef $OptionalServiceRef
-     * @return \FilippoToso\Travelport\Rail\GroupedOption
+     * @return \Santosdave\Travelport\Rail\GroupedOption
      */
     public function setOptionalServiceRef($OptionalServiceRef)
     {

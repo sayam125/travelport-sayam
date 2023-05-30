@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class WaiverCode
 {
@@ -42,7 +42,7 @@ class WaiverCode
 
     /**
      * @param typeTourCode $TourCode
-     * @return \FilippoToso\Travelport\Rail\WaiverCode
+     * @return \Santosdave\Travelport\Rail\WaiverCode
      */
     public function setTourCode($TourCode)
     {
@@ -60,7 +60,7 @@ class WaiverCode
 
     /**
      * @param typeTicketDesignator $TicketDesignator
-     * @return \FilippoToso\Travelport\Rail\WaiverCode
+     * @return \Santosdave\Travelport\Rail\WaiverCode
      */
     public function setTicketDesignator($TicketDesignator)
     {
@@ -78,7 +78,7 @@ class WaiverCode
 
     /**
      * @param anonymous791 $Endorsement
-     * @return \FilippoToso\Travelport\Rail\WaiverCode
+     * @return \Santosdave\Travelport\Rail\WaiverCode
      */
     public function setEndorsement($Endorsement)
     {

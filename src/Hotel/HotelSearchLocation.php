@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Hotel;
+namespace Santosdave\Travelport\Hotel;
 
 class HotelSearchLocation
 {
@@ -66,7 +66,7 @@ class HotelSearchLocation
 
     /**
      * @param HotelLocation $HotelLocation
-     * @return \FilippoToso\Travelport\Hotel\HotelSearchLocation
+     * @return \Santosdave\Travelport\Hotel\HotelSearchLocation
      */
     public function setHotelLocation($HotelLocation)
     {
@@ -84,7 +84,7 @@ class HotelSearchLocation
 
     /**
      * @param ProviderLocation $ProviderLocation
-     * @return \FilippoToso\Travelport\Hotel\HotelSearchLocation
+     * @return \Santosdave\Travelport\Hotel\HotelSearchLocation
      */
     public function setProviderLocation($ProviderLocation)
     {
@@ -102,7 +102,7 @@ class HotelSearchLocation
 
     /**
      * @param VendorLocation $VendorLocation
-     * @return \FilippoToso\Travelport\Hotel\HotelSearchLocation
+     * @return \Santosdave\Travelport\Hotel\HotelSearchLocation
      */
     public function setVendorLocation($VendorLocation)
     {
@@ -120,7 +120,7 @@ class HotelSearchLocation
 
     /**
      * @param typeStructuredAddress $HotelAddress
-     * @return \FilippoToso\Travelport\Hotel\HotelSearchLocation
+     * @return \Santosdave\Travelport\Hotel\HotelSearchLocation
      */
     public function setHotelAddress($HotelAddress)
     {
@@ -138,7 +138,7 @@ class HotelSearchLocation
 
     /**
      * @param typeHotelReferencePoint $ReferencePoint
-     * @return \FilippoToso\Travelport\Hotel\HotelSearchLocation
+     * @return \Santosdave\Travelport\Hotel\HotelSearchLocation
      */
     public function setReferencePoint($ReferencePoint)
     {
@@ -156,7 +156,7 @@ class HotelSearchLocation
 
     /**
      * @param CoordinateLocation $CoordinateLocation
-     * @return \FilippoToso\Travelport\Hotel\HotelSearchLocation
+     * @return \Santosdave\Travelport\Hotel\HotelSearchLocation
      */
     public function setCoordinateLocation($CoordinateLocation)
     {
@@ -174,7 +174,7 @@ class HotelSearchLocation
 
     /**
      * @param Distance $Distance
-     * @return \FilippoToso\Travelport\Hotel\HotelSearchLocation
+     * @return \Santosdave\Travelport\Hotel\HotelSearchLocation
      */
     public function setDistance($Distance)
     {

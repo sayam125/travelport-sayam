@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class PaymentDetails extends typeKeyTaggedElement
 {
@@ -104,7 +104,7 @@ class PaymentDetails extends typeKeyTaggedElement
 
     /**
      * @param PaymentPhone $PaymentPhone
-     * @return \FilippoToso\Travelport\UProfile\PaymentDetails
+     * @return \Santosdave\Travelport\UProfile\PaymentDetails
      */
     public function setPaymentPhone($PaymentPhone)
     {
@@ -122,7 +122,7 @@ class PaymentDetails extends typeKeyTaggedElement
 
     /**
      * @param PaymentAddress $PaymentAddress
-     * @return \FilippoToso\Travelport\UProfile\PaymentDetails
+     * @return \Santosdave\Travelport\UProfile\PaymentDetails
      */
     public function setPaymentAddress($PaymentAddress)
     {
@@ -140,7 +140,7 @@ class PaymentDetails extends typeKeyTaggedElement
 
     /**
      * @param typeDateOptions $StartDate
-     * @return \FilippoToso\Travelport\UProfile\PaymentDetails
+     * @return \Santosdave\Travelport\UProfile\PaymentDetails
      */
     public function setStartDate($StartDate)
     {
@@ -158,7 +158,7 @@ class PaymentDetails extends typeKeyTaggedElement
 
     /**
      * @param typeDateOptions $ExpirationDate
-     * @return \FilippoToso\Travelport\UProfile\PaymentDetails
+     * @return \Santosdave\Travelport\UProfile\PaymentDetails
      */
     public function setExpirationDate($ExpirationDate)
     {
@@ -176,7 +176,7 @@ class PaymentDetails extends typeKeyTaggedElement
 
     /**
      * @param typePaymentType $Type
-     * @return \FilippoToso\Travelport\UProfile\PaymentDetails
+     * @return \Santosdave\Travelport\UProfile\PaymentDetails
      */
     public function setType($Type)
     {
@@ -194,7 +194,7 @@ class PaymentDetails extends typeKeyTaggedElement
 
     /**
      * @param StringLength1to128 $IssuedToName
-     * @return \FilippoToso\Travelport\UProfile\PaymentDetails
+     * @return \Santosdave\Travelport\UProfile\PaymentDetails
      */
     public function setIssuedToName($IssuedToName)
     {
@@ -212,7 +212,7 @@ class PaymentDetails extends typeKeyTaggedElement
 
     /**
      * @param boolean $ExtendedPayment
-     * @return \FilippoToso\Travelport\UProfile\PaymentDetails
+     * @return \Santosdave\Travelport\UProfile\PaymentDetails
      */
     public function setExtendedPayment($ExtendedPayment)
     {
@@ -230,7 +230,7 @@ class PaymentDetails extends typeKeyTaggedElement
 
     /**
      * @param typePaymentSupplier $PaymentSupplier
-     * @return \FilippoToso\Travelport\UProfile\PaymentDetails
+     * @return \Santosdave\Travelport\UProfile\PaymentDetails
      */
     public function setPaymentSupplier($PaymentSupplier)
     {
@@ -248,7 +248,7 @@ class PaymentDetails extends typeKeyTaggedElement
 
     /**
      * @param StringLength1to128 $AccountNumber
-     * @return \FilippoToso\Travelport\UProfile\PaymentDetails
+     * @return \Santosdave\Travelport\UProfile\PaymentDetails
      */
     public function setAccountNumber($AccountNumber)
     {
@@ -266,7 +266,7 @@ class PaymentDetails extends typeKeyTaggedElement
 
     /**
      * @param StringLength1to255 $Description
-     * @return \FilippoToso\Travelport\UProfile\PaymentDetails
+     * @return \Santosdave\Travelport\UProfile\PaymentDetails
      */
     public function setDescription($Description)
     {
@@ -284,7 +284,7 @@ class PaymentDetails extends typeKeyTaggedElement
 
     /**
      * @param typePriorityOrder $PriorityOrder
-     * @return \FilippoToso\Travelport\UProfile\PaymentDetails
+     * @return \Santosdave\Travelport\UProfile\PaymentDetails
      */
     public function setPriorityOrder($PriorityOrder)
     {
@@ -302,7 +302,7 @@ class PaymentDetails extends typeKeyTaggedElement
 
     /**
      * @param typeProfileID $OwnerID
-     * @return \FilippoToso\Travelport\UProfile\PaymentDetails
+     * @return \Santosdave\Travelport\UProfile\PaymentDetails
      */
     public function setOwnerID($OwnerID)
     {

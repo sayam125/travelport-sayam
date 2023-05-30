@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class TicketValidity
 {
@@ -35,7 +35,7 @@ class TicketValidity
 
     /**
      * @param date $NotValidBefore
-     * @return \FilippoToso\Travelport\UniversalRecord\TicketValidity
+     * @return \Santosdave\Travelport\UniversalRecord\TicketValidity
      */
     public function setNotValidBefore($NotValidBefore)
     {
@@ -53,7 +53,7 @@ class TicketValidity
 
     /**
      * @param date $NotValidAfter
-     * @return \FilippoToso\Travelport\UniversalRecord\TicketValidity
+     * @return \Santosdave\Travelport\UniversalRecord\TicketValidity
      */
     public function setNotValidAfter($NotValidAfter)
     {

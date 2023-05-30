@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class EMDRetrieveReq extends BaseReq
 {
@@ -47,7 +47,7 @@ class EMDRetrieveReq extends BaseReq
 
     /**
      * @param ListRetrieve $ListRetrieve
-     * @return \FilippoToso\Travelport\Air\EMDRetrieveReq
+     * @return \Santosdave\Travelport\Air\EMDRetrieveReq
      */
     public function setListRetrieve($ListRetrieve)
     {
@@ -65,7 +65,7 @@ class EMDRetrieveReq extends BaseReq
 
     /**
      * @param DetailRetrieve $DetailRetrieve
-     * @return \FilippoToso\Travelport\Air\EMDRetrieveReq
+     * @return \Santosdave\Travelport\Air\EMDRetrieveReq
      */
     public function setDetailRetrieve($DetailRetrieve)
     {

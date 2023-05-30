@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class typeFieldRef
 {
@@ -28,7 +28,7 @@ class typeFieldRef
 
     /**
      * @param typeFieldID $ID
-     * @return \FilippoToso\Travelport\UProfile\typeFieldRef
+     * @return \Santosdave\Travelport\UProfile\typeFieldRef
      */
     public function setID($ID)
     {

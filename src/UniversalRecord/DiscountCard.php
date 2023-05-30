@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class DiscountCard
 {
@@ -63,7 +63,7 @@ class DiscountCard
 
     /**
      * @param typeRef $Key
-     * @return \FilippoToso\Travelport\UniversalRecord\DiscountCard
+     * @return \Santosdave\Travelport\UniversalRecord\DiscountCard
      */
     public function setKey($Key)
     {
@@ -81,7 +81,7 @@ class DiscountCard
 
     /**
      * @param StringLength1to8 $Code
-     * @return \FilippoToso\Travelport\UniversalRecord\DiscountCard
+     * @return \Santosdave\Travelport\UniversalRecord\DiscountCard
      */
     public function setCode($Code)
     {
@@ -99,7 +99,7 @@ class DiscountCard
 
     /**
      * @param StringLength1to255 $Description
-     * @return \FilippoToso\Travelport\UniversalRecord\DiscountCard
+     * @return \Santosdave\Travelport\UniversalRecord\DiscountCard
      */
     public function setDescription($Description)
     {
@@ -117,7 +117,7 @@ class DiscountCard
 
     /**
      * @param typeCardNumber $Number
-     * @return \FilippoToso\Travelport\UniversalRecord\DiscountCard
+     * @return \Santosdave\Travelport\UniversalRecord\DiscountCard
      */
     public function setNumber($Number)
     {
@@ -135,7 +135,7 @@ class DiscountCard
 
     /**
      * @param typeElementStatus $ElStat
-     * @return \FilippoToso\Travelport\UniversalRecord\DiscountCard
+     * @return \Santosdave\Travelport\UniversalRecord\DiscountCard
      */
     public function setElStat($ElStat)
     {
@@ -153,7 +153,7 @@ class DiscountCard
 
     /**
      * @param boolean $KeyOverride
-     * @return \FilippoToso\Travelport\UniversalRecord\DiscountCard
+     * @return \Santosdave\Travelport\UniversalRecord\DiscountCard
      */
     public function setKeyOverride($KeyOverride)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class PrePayProfileInfo
 {
@@ -70,7 +70,7 @@ class PrePayProfileInfo
 
     /**
      * @param PrePayId $PrePayId
-     * @return \FilippoToso\Travelport\Rail\PrePayProfileInfo
+     * @return \Santosdave\Travelport\Rail\PrePayProfileInfo
      */
     public function setPrePayId($PrePayId)
     {
@@ -88,7 +88,7 @@ class PrePayProfileInfo
 
     /**
      * @param PrePayCustomer $PrePayCustomer
-     * @return \FilippoToso\Travelport\Rail\PrePayProfileInfo
+     * @return \Santosdave\Travelport\Rail\PrePayProfileInfo
      */
     public function setPrePayCustomer($PrePayCustomer)
     {
@@ -106,7 +106,7 @@ class PrePayProfileInfo
 
     /**
      * @param PrePayAccount $PrePayAccount
-     * @return \FilippoToso\Travelport\Rail\PrePayProfileInfo
+     * @return \Santosdave\Travelport\Rail\PrePayProfileInfo
      */
     public function setPrePayAccount($PrePayAccount)
     {
@@ -124,7 +124,7 @@ class PrePayProfileInfo
 
     /**
      * @param Affiliations $Affiliations
-     * @return \FilippoToso\Travelport\Rail\PrePayProfileInfo
+     * @return \Santosdave\Travelport\Rail\PrePayProfileInfo
      */
     public function setAffiliations($Affiliations)
     {
@@ -142,7 +142,7 @@ class PrePayProfileInfo
 
     /**
      * @param AccountRelatedRules $AccountRelatedRules
-     * @return \FilippoToso\Travelport\Rail\PrePayProfileInfo
+     * @return \Santosdave\Travelport\Rail\PrePayProfileInfo
      */
     public function setAccountRelatedRules($AccountRelatedRules)
     {
@@ -160,7 +160,7 @@ class PrePayProfileInfo
 
     /**
      * @param string $StatusCode
-     * @return \FilippoToso\Travelport\Rail\PrePayProfileInfo
+     * @return \Santosdave\Travelport\Rail\PrePayProfileInfo
      */
     public function setStatusCode($StatusCode)
     {
@@ -178,7 +178,7 @@ class PrePayProfileInfo
 
     /**
      * @param typeCardNumber $CreatorID
-     * @return \FilippoToso\Travelport\Rail\PrePayProfileInfo
+     * @return \Santosdave\Travelport\Rail\PrePayProfileInfo
      */
     public function setCreatorID($CreatorID)
     {

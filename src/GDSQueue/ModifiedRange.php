@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class ModifiedRange
 {
@@ -35,7 +35,7 @@ class ModifiedRange
 
     /**
      * @param date $ModifiedStart
-     * @return \FilippoToso\Travelport\GDSQueue\ModifiedRange
+     * @return \Santosdave\Travelport\GDSQueue\ModifiedRange
      */
     public function setModifiedStart($ModifiedStart)
     {
@@ -53,7 +53,7 @@ class ModifiedRange
 
     /**
      * @param date $ModifiedEnd
-     * @return \FilippoToso\Travelport\GDSQueue\ModifiedRange
+     * @return \Santosdave\Travelport\GDSQueue\ModifiedRange
      */
     public function setModifiedEnd($ModifiedEnd)
     {

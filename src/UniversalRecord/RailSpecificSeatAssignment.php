@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class RailSpecificSeatAssignment
 {
@@ -56,7 +56,7 @@ class RailSpecificSeatAssignment
 
     /**
      * @param string $CoachLabel
-     * @return \FilippoToso\Travelport\UniversalRecord\RailSpecificSeatAssignment
+     * @return \Santosdave\Travelport\UniversalRecord\RailSpecificSeatAssignment
      */
     public function setCoachLabel($CoachLabel)
     {
@@ -74,7 +74,7 @@ class RailSpecificSeatAssignment
 
     /**
      * @param string $PlaceLabel
-     * @return \FilippoToso\Travelport\UniversalRecord\RailSpecificSeatAssignment
+     * @return \Santosdave\Travelport\UniversalRecord\RailSpecificSeatAssignment
      */
     public function setPlaceLabel($PlaceLabel)
     {
@@ -92,7 +92,7 @@ class RailSpecificSeatAssignment
 
     /**
      * @param string $Assignment
-     * @return \FilippoToso\Travelport\UniversalRecord\RailSpecificSeatAssignment
+     * @return \Santosdave\Travelport\UniversalRecord\RailSpecificSeatAssignment
      */
     public function setAssignment($Assignment)
     {
@@ -110,7 +110,7 @@ class RailSpecificSeatAssignment
 
     /**
      * @param typeRef $RailSegmentRef
-     * @return \FilippoToso\Travelport\UniversalRecord\RailSpecificSeatAssignment
+     * @return \Santosdave\Travelport\UniversalRecord\RailSpecificSeatAssignment
      */
     public function setRailSegmentRef($RailSegmentRef)
     {
@@ -128,7 +128,7 @@ class RailSpecificSeatAssignment
 
     /**
      * @param typeRef $BookingTravelerRef
-     * @return \FilippoToso\Travelport\UniversalRecord\RailSpecificSeatAssignment
+     * @return \Santosdave\Travelport\UniversalRecord\RailSpecificSeatAssignment
      */
     public function setBookingTravelerRef($BookingTravelerRef)
     {

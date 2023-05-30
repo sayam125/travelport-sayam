@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class RailAvailInfo
 {
@@ -42,7 +42,7 @@ class RailAvailInfo
 
     /**
      * @param typeRailClass $ClassCode
-     * @return \FilippoToso\Travelport\Air\RailAvailInfo
+     * @return \Santosdave\Travelport\Air\RailAvailInfo
      */
     public function setClassCode($ClassCode)
     {
@@ -60,7 +60,7 @@ class RailAvailInfo
 
     /**
      * @param int $Quantity
-     * @return \FilippoToso\Travelport\Air\RailAvailInfo
+     * @return \Santosdave\Travelport\Air\RailAvailInfo
      */
     public function setQuantity($Quantity)
     {
@@ -78,7 +78,7 @@ class RailAvailInfo
 
     /**
      * @param typeRailCabin $CabinClass
-     * @return \FilippoToso\Travelport\Air\RailAvailInfo
+     * @return \Santosdave\Travelport\Air\RailAvailInfo
      */
     public function setCabinClass($CabinClass)
     {

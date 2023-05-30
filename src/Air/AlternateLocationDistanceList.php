@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class AlternateLocationDistanceList
 {
@@ -28,7 +28,7 @@ class AlternateLocationDistanceList
 
     /**
      * @param AlternateLocationDistance $AlternateLocationDistance
-     * @return \FilippoToso\Travelport\Air\AlternateLocationDistanceList
+     * @return \Santosdave\Travelport\Air\AlternateLocationDistanceList
      */
     public function setAlternateLocationDistance($AlternateLocationDistance)
     {

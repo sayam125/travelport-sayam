@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UniversalRecord;
+namespace Santosdave\Travelport\UniversalRecord;
 
 class AirUpdate
 {
@@ -168,7 +168,7 @@ class AirUpdate
 
     /**
      * @param AccountingRemark $AccountingRemark
-     * @return \FilippoToso\Travelport\UniversalRecord\AirUpdate
+     * @return \Santosdave\Travelport\UniversalRecord\AirUpdate
      */
     public function setAccountingRemark($AccountingRemark)
     {
@@ -186,7 +186,7 @@ class AirUpdate
 
     /**
      * @param typeBaseAirSegment $AirSegment
-     * @return \FilippoToso\Travelport\UniversalRecord\AirUpdate
+     * @return \Santosdave\Travelport\UniversalRecord\AirUpdate
      */
     public function setAirSegment($AirSegment)
     {
@@ -204,7 +204,7 @@ class AirUpdate
 
     /**
      * @param CreditCardAuth $CreditCardAuth
-     * @return \FilippoToso\Travelport\UniversalRecord\AirUpdate
+     * @return \Santosdave\Travelport\UniversalRecord\AirUpdate
      */
     public function setCreditCardAuth($CreditCardAuth)
     {
@@ -222,7 +222,7 @@ class AirUpdate
 
     /**
      * @param AirPricingAdjustment $AirPricingAdjustment
-     * @return \FilippoToso\Travelport\UniversalRecord\AirUpdate
+     * @return \Santosdave\Travelport\UniversalRecord\AirUpdate
      */
     public function setAirPricingAdjustment($AirPricingAdjustment)
     {
@@ -240,7 +240,7 @@ class AirUpdate
 
     /**
      * @param AirPricingTicketingModifiers $AirPricingTicketingModifiers
-     * @return \FilippoToso\Travelport\UniversalRecord\AirUpdate
+     * @return \Santosdave\Travelport\UniversalRecord\AirUpdate
      */
     public function setAirPricingTicketingModifiers($AirPricingTicketingModifiers)
     {
@@ -258,7 +258,7 @@ class AirUpdate
 
     /**
      * @param DeliveryInfo $DeliveryInfo
-     * @return \FilippoToso\Travelport\UniversalRecord\AirUpdate
+     * @return \Santosdave\Travelport\UniversalRecord\AirUpdate
      */
     public function setDeliveryInfo($DeliveryInfo)
     {
@@ -276,7 +276,7 @@ class AirUpdate
 
     /**
      * @param AirSegmentSpecialUpdate $AirSegmentSpecialUpdate
-     * @return \FilippoToso\Travelport\UniversalRecord\AirUpdate
+     * @return \Santosdave\Travelport\UniversalRecord\AirUpdate
      */
     public function setAirSegmentSpecialUpdate($AirSegmentSpecialUpdate)
     {
@@ -294,7 +294,7 @@ class AirUpdate
 
     /**
      * @param LoyaltyCard $LoyaltyCard
-     * @return \FilippoToso\Travelport\UniversalRecord\AirUpdate
+     * @return \Santosdave\Travelport\UniversalRecord\AirUpdate
      */
     public function setLoyaltyCard($LoyaltyCard)
     {
@@ -312,7 +312,7 @@ class AirUpdate
 
     /**
      * @param SSR $SSR
-     * @return \FilippoToso\Travelport\UniversalRecord\AirUpdate
+     * @return \Santosdave\Travelport\UniversalRecord\AirUpdate
      */
     public function setSSR($SSR)
     {
@@ -330,7 +330,7 @@ class AirUpdate
 
     /**
      * @param GeneralRemark $GeneralRemark
-     * @return \FilippoToso\Travelport\UniversalRecord\AirUpdate
+     * @return \Santosdave\Travelport\UniversalRecord\AirUpdate
      */
     public function setGeneralRemark($GeneralRemark)
     {
@@ -348,7 +348,7 @@ class AirUpdate
 
     /**
      * @param AutoSeatAssignment $AutoSeatAssignment
-     * @return \FilippoToso\Travelport\UniversalRecord\AirUpdate
+     * @return \Santosdave\Travelport\UniversalRecord\AirUpdate
      */
     public function setAutoSeatAssignment($AutoSeatAssignment)
     {
@@ -366,7 +366,7 @@ class AirUpdate
 
     /**
      * @param SpecificSeatAssignment $SpecificSeatAssignment
-     * @return \FilippoToso\Travelport\UniversalRecord\AirUpdate
+     * @return \Santosdave\Travelport\UniversalRecord\AirUpdate
      */
     public function setSpecificSeatAssignment($SpecificSeatAssignment)
     {
@@ -384,7 +384,7 @@ class AirUpdate
 
     /**
      * @param AirPricingPayment $AirPricingPayment
-     * @return \FilippoToso\Travelport\UniversalRecord\AirUpdate
+     * @return \Santosdave\Travelport\UniversalRecord\AirUpdate
      */
     public function setAirPricingPayment($AirPricingPayment)
     {
@@ -402,7 +402,7 @@ class AirUpdate
 
     /**
      * @param AssociatedRemark $AssociatedRemark
-     * @return \FilippoToso\Travelport\UniversalRecord\AirUpdate
+     * @return \Santosdave\Travelport\UniversalRecord\AirUpdate
      */
     public function setAssociatedRemark($AssociatedRemark)
     {
@@ -420,7 +420,7 @@ class AirUpdate
 
     /**
      * @param PocketItineraryRemark $PocketItineraryRemark
-     * @return \FilippoToso\Travelport\UniversalRecord\AirUpdate
+     * @return \Santosdave\Travelport\UniversalRecord\AirUpdate
      */
     public function setPocketItineraryRemark($PocketItineraryRemark)
     {
@@ -438,7 +438,7 @@ class AirUpdate
 
     /**
      * @param OptionalServicesInfo $OptionalServicesInfo
-     * @return \FilippoToso\Travelport\UniversalRecord\AirUpdate
+     * @return \Santosdave\Travelport\UniversalRecord\AirUpdate
      */
     public function setOptionalServicesInfo($OptionalServicesInfo)
     {
@@ -456,7 +456,7 @@ class AirUpdate
 
     /**
      * @param ThirdPartyInformation $ThirdPartyInformation
-     * @return \FilippoToso\Travelport\UniversalRecord\AirUpdate
+     * @return \Santosdave\Travelport\UniversalRecord\AirUpdate
      */
     public function setThirdPartyInformation($ThirdPartyInformation)
     {
@@ -474,7 +474,7 @@ class AirUpdate
 
     /**
      * @param TravelComplianceData $TravelComplianceData
-     * @return \FilippoToso\Travelport\UniversalRecord\AirUpdate
+     * @return \Santosdave\Travelport\UniversalRecord\AirUpdate
      */
     public function setTravelComplianceData($TravelComplianceData)
     {
@@ -492,7 +492,7 @@ class AirUpdate
 
     /**
      * @param typeLocatorCode $ReservationLocatorCode
-     * @return \FilippoToso\Travelport\UniversalRecord\AirUpdate
+     * @return \Santosdave\Travelport\UniversalRecord\AirUpdate
      */
     public function setReservationLocatorCode($ReservationLocatorCode)
     {
@@ -510,7 +510,7 @@ class AirUpdate
 
     /**
      * @param typeRef $BookingTravelerRef
-     * @return \FilippoToso\Travelport\UniversalRecord\AirUpdate
+     * @return \Santosdave\Travelport\UniversalRecord\AirUpdate
      */
     public function setBookingTravelerRef($BookingTravelerRef)
     {
@@ -528,7 +528,7 @@ class AirUpdate
 
     /**
      * @param boolean $RestrictWaitlist
-     * @return \FilippoToso\Travelport\UniversalRecord\AirUpdate
+     * @return \Santosdave\Travelport\UniversalRecord\AirUpdate
      */
     public function setRestrictWaitlist($RestrictWaitlist)
     {

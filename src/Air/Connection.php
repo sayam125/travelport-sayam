@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class Connection
 {
@@ -91,7 +91,7 @@ class Connection
 
     /**
      * @param FareNote $FareNote
-     * @return \FilippoToso\Travelport\Air\Connection
+     * @return \Santosdave\Travelport\Air\Connection
      */
     public function setFareNote($FareNote)
     {
@@ -109,7 +109,7 @@ class Connection
 
     /**
      * @param boolean $ChangeOfPlane
-     * @return \FilippoToso\Travelport\Air\Connection
+     * @return \Santosdave\Travelport\Air\Connection
      */
     public function setChangeOfPlane($ChangeOfPlane)
     {
@@ -127,7 +127,7 @@ class Connection
 
     /**
      * @param boolean $ChangeOfTerminal
-     * @return \FilippoToso\Travelport\Air\Connection
+     * @return \Santosdave\Travelport\Air\Connection
      */
     public function setChangeOfTerminal($ChangeOfTerminal)
     {
@@ -145,7 +145,7 @@ class Connection
 
     /**
      * @param boolean $ChangeOfAirport
-     * @return \FilippoToso\Travelport\Air\Connection
+     * @return \Santosdave\Travelport\Air\Connection
      */
     public function setChangeOfAirport($ChangeOfAirport)
     {
@@ -163,7 +163,7 @@ class Connection
 
     /**
      * @param boolean $StopOver
-     * @return \FilippoToso\Travelport\Air\Connection
+     * @return \Santosdave\Travelport\Air\Connection
      */
     public function setStopOver($StopOver)
     {
@@ -181,7 +181,7 @@ class Connection
 
     /**
      * @param int $MinConnectionTime
-     * @return \FilippoToso\Travelport\Air\Connection
+     * @return \Santosdave\Travelport\Air\Connection
      */
     public function setMinConnectionTime($MinConnectionTime)
     {
@@ -199,7 +199,7 @@ class Connection
 
     /**
      * @param int $Duration
-     * @return \FilippoToso\Travelport\Air\Connection
+     * @return \Santosdave\Travelport\Air\Connection
      */
     public function setDuration($Duration)
     {
@@ -217,7 +217,7 @@ class Connection
 
     /**
      * @param int $SegmentIndex
-     * @return \FilippoToso\Travelport\Air\Connection
+     * @return \Santosdave\Travelport\Air\Connection
      */
     public function setSegmentIndex($SegmentIndex)
     {
@@ -235,7 +235,7 @@ class Connection
 
     /**
      * @param int $FlightDetailsIndex
-     * @return \FilippoToso\Travelport\Air\Connection
+     * @return \Santosdave\Travelport\Air\Connection
      */
     public function setFlightDetailsIndex($FlightDetailsIndex)
     {
@@ -253,7 +253,7 @@ class Connection
 
     /**
      * @param typeIgnoreStopOver $IncludeStopOverToFareQuote
-     * @return \FilippoToso\Travelport\Air\Connection
+     * @return \Santosdave\Travelport\Air\Connection
      */
     public function setIncludeStopOverToFareQuote($IncludeStopOverToFareQuote)
     {

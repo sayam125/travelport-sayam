@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\UProfile;
+namespace Santosdave\Travelport\UProfile;
 
 class HotelPreference extends typeBasePreference
 {
@@ -124,7 +124,7 @@ class HotelPreference extends typeBasePreference
 
     /**
      * @param date $CheckInStartDate
-     * @return \FilippoToso\Travelport\UProfile\HotelPreference
+     * @return \Santosdave\Travelport\UProfile\HotelPreference
      */
     public function setCheckInStartDate($CheckInStartDate)
     {
@@ -142,7 +142,7 @@ class HotelPreference extends typeBasePreference
 
     /**
      * @param date $CheckInEndDate
-     * @return \FilippoToso\Travelport\UProfile\HotelPreference
+     * @return \Santosdave\Travelport\UProfile\HotelPreference
      */
     public function setCheckInEndDate($CheckInEndDate)
     {
@@ -160,7 +160,7 @@ class HotelPreference extends typeBasePreference
 
     /**
      * @param anonymous535 $CorporateDiscountNumber
-     * @return \FilippoToso\Travelport\UProfile\HotelPreference
+     * @return \Santosdave\Travelport\UProfile\HotelPreference
      */
     public function setCorporateDiscountNumber($CorporateDiscountNumber)
     {
@@ -178,7 +178,7 @@ class HotelPreference extends typeBasePreference
 
     /**
      * @param typeMoney $MaxRoomRateAmount
-     * @return \FilippoToso\Travelport\UProfile\HotelPreference
+     * @return \Santosdave\Travelport\UProfile\HotelPreference
      */
     public function setMaxRoomRateAmount($MaxRoomRateAmount)
     {
@@ -196,7 +196,7 @@ class HotelPreference extends typeBasePreference
 
     /**
      * @param anonymous536 $MultiLevelRateCode
-     * @return \FilippoToso\Travelport\UProfile\HotelPreference
+     * @return \Santosdave\Travelport\UProfile\HotelPreference
      */
     public function setMultiLevelRateCode($MultiLevelRateCode)
     {
@@ -214,7 +214,7 @@ class HotelPreference extends typeBasePreference
 
     /**
      * @param anonymous537 $PropertyID
-     * @return \FilippoToso\Travelport\UProfile\HotelPreference
+     * @return \Santosdave\Travelport\UProfile\HotelPreference
      */
     public function setPropertyID($PropertyID)
     {
@@ -232,7 +232,7 @@ class HotelPreference extends typeBasePreference
 
     /**
      * @param anonymous538 $RateCode
-     * @return \FilippoToso\Travelport\UProfile\HotelPreference
+     * @return \Santosdave\Travelport\UProfile\HotelPreference
      */
     public function setRateCode($RateCode)
     {
@@ -250,7 +250,7 @@ class HotelPreference extends typeBasePreference
 
     /**
      * @param boolean $SmokingRoom
-     * @return \FilippoToso\Travelport\UProfile\HotelPreference
+     * @return \Santosdave\Travelport\UProfile\HotelPreference
      */
     public function setSmokingRoom($SmokingRoom)
     {
@@ -268,7 +268,7 @@ class HotelPreference extends typeBasePreference
 
     /**
      * @param anonymous871 $BedTypeMiscTravel
-     * @return \FilippoToso\Travelport\UProfile\HotelPreference
+     * @return \Santosdave\Travelport\UProfile\HotelPreference
      */
     public function setBedTypeMiscTravel($BedTypeMiscTravel)
     {
@@ -286,7 +286,7 @@ class HotelPreference extends typeBasePreference
 
     /**
      * @param anonymous872 $BedTypeRefCategory
-     * @return \FilippoToso\Travelport\UProfile\HotelPreference
+     * @return \Santosdave\Travelport\UProfile\HotelPreference
      */
     public function setBedTypeRefCategory($BedTypeRefCategory)
     {
@@ -304,7 +304,7 @@ class HotelPreference extends typeBasePreference
 
     /**
      * @param anonymous873 $SpecialRequestMiscTravel
-     * @return \FilippoToso\Travelport\UProfile\HotelPreference
+     * @return \Santosdave\Travelport\UProfile\HotelPreference
      */
     public function setSpecialRequestMiscTravel($SpecialRequestMiscTravel)
     {
@@ -322,7 +322,7 @@ class HotelPreference extends typeBasePreference
 
     /**
      * @param anonymous874 $SpecialRequestRefCategory
-     * @return \FilippoToso\Travelport\UProfile\HotelPreference
+     * @return \Santosdave\Travelport\UProfile\HotelPreference
      */
     public function setSpecialRequestRefCategory($SpecialRequestRefCategory)
     {

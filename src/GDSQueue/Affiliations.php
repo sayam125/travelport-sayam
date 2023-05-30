@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class Affiliations
 {
@@ -28,7 +28,7 @@ class Affiliations
 
     /**
      * @param TravelArranger $TravelArranger
-     * @return \FilippoToso\Travelport\GDSQueue\Affiliations
+     * @return \Santosdave\Travelport\GDSQueue\Affiliations
      */
     public function setTravelArranger($TravelArranger)
     {

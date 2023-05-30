@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class AirRefundQuoteReq extends BaseReq
 {
@@ -71,7 +71,7 @@ class AirRefundQuoteReq extends BaseReq
 
     /**
      * @param StringLength1to13 $TicketNumber
-     * @return \FilippoToso\Travelport\Air\AirRefundQuoteReq
+     * @return \Santosdave\Travelport\Air\AirRefundQuoteReq
      */
     public function setTicketNumber($TicketNumber)
     {
@@ -89,7 +89,7 @@ class AirRefundQuoteReq extends BaseReq
 
     /**
      * @param typeTCRNumber[] $TCRNumber
-     * @return \FilippoToso\Travelport\Air\AirRefundQuoteReq
+     * @return \Santosdave\Travelport\Air\AirRefundQuoteReq
      */
     public function setTCRNumber(array $TCRNumber = null)
     {
@@ -107,7 +107,7 @@ class AirRefundQuoteReq extends BaseReq
 
     /**
      * @param AirRefundModifiers $AirRefundModifiers
-     * @return \FilippoToso\Travelport\Air\AirRefundQuoteReq
+     * @return \Santosdave\Travelport\Air\AirRefundQuoteReq
      */
     public function setAirRefundModifiers($AirRefundModifiers)
     {
@@ -125,7 +125,7 @@ class AirRefundQuoteReq extends BaseReq
 
     /**
      * @param HostToken $HostToken
-     * @return \FilippoToso\Travelport\Air\AirRefundQuoteReq
+     * @return \Santosdave\Travelport\Air\AirRefundQuoteReq
      */
     public function setHostToken($HostToken)
     {
@@ -143,7 +143,7 @@ class AirRefundQuoteReq extends BaseReq
 
     /**
      * @param ProviderReservationInfo[] $ProviderReservationInfo
-     * @return \FilippoToso\Travelport\Air\AirRefundQuoteReq
+     * @return \Santosdave\Travelport\Air\AirRefundQuoteReq
      */
     public function setProviderReservationInfo(array $ProviderReservationInfo = null)
     {
@@ -161,7 +161,7 @@ class AirRefundQuoteReq extends BaseReq
 
     /**
      * @param boolean $Ignore
-     * @return \FilippoToso\Travelport\Air\AirRefundQuoteReq
+     * @return \Santosdave\Travelport\Air\AirRefundQuoteReq
      */
     public function setIgnore($Ignore)
     {

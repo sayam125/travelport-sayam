@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class AirFareDiscount
 {
@@ -42,7 +42,7 @@ class AirFareDiscount
 
     /**
      * @param float $Percentage
-     * @return \FilippoToso\Travelport\GDSQueue\AirFareDiscount
+     * @return \Santosdave\Travelport\GDSQueue\AirFareDiscount
      */
     public function setPercentage($Percentage)
     {
@@ -60,7 +60,7 @@ class AirFareDiscount
 
     /**
      * @param typeMoney $Amount
-     * @return \FilippoToso\Travelport\GDSQueue\AirFareDiscount
+     * @return \Santosdave\Travelport\GDSQueue\AirFareDiscount
      */
     public function setAmount($Amount)
     {
@@ -78,7 +78,7 @@ class AirFareDiscount
 
     /**
      * @param typeFareDiscount $DiscountMethod
-     * @return \FilippoToso\Travelport\GDSQueue\AirFareDiscount
+     * @return \Santosdave\Travelport\GDSQueue\AirFareDiscount
      */
     public function setDiscountMethod($DiscountMethod)
     {

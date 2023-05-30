@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class RoutingRules
 {
@@ -26,7 +26,7 @@ class RoutingRules
 
     /**
      * @param Routing[] $Routing
-     * @return \FilippoToso\Travelport\GDSQueue\RoutingRules
+     * @return \Santosdave\Travelport\GDSQueue\RoutingRules
      */
     public function setRouting(array $Routing = null)
     {

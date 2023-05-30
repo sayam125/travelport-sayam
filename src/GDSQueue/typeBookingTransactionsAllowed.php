@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class typeBookingTransactionsAllowed
 {
@@ -28,7 +28,7 @@ class typeBookingTransactionsAllowed
 
     /**
      * @param boolean $BookingEnabled
-     * @return \FilippoToso\Travelport\GDSQueue\typeBookingTransactionsAllowed
+     * @return \Santosdave\Travelport\GDSQueue\typeBookingTransactionsAllowed
      */
     public function setBookingEnabled($BookingEnabled)
     {

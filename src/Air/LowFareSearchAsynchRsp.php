@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Air;
+namespace Santosdave\Travelport\Air;
 
 class LowFareSearchAsynchRsp extends AirSearchRsp
 {
@@ -78,7 +78,7 @@ class LowFareSearchAsynchRsp extends AirSearchRsp
 
     /**
      * @param BaseAsyncProviderSpecificResponse $AsyncProviderSpecificResponse
-     * @return \FilippoToso\Travelport\Air\LowFareSearchAsynchRsp
+     * @return \Santosdave\Travelport\Air\LowFareSearchAsynchRsp
      */
     public function setAsyncProviderSpecificResponse($AsyncProviderSpecificResponse)
     {
@@ -96,7 +96,7 @@ class LowFareSearchAsynchRsp extends AirSearchRsp
 
     /**
      * @param BrandList $BrandList
-     * @return \FilippoToso\Travelport\Air\LowFareSearchAsynchRsp
+     * @return \Santosdave\Travelport\Air\LowFareSearchAsynchRsp
      */
     public function setBrandList($BrandList)
     {
@@ -114,7 +114,7 @@ class LowFareSearchAsynchRsp extends AirSearchRsp
 
     /**
      * @param typeLowFareSearchId $SearchId
-     * @return \FilippoToso\Travelport\Air\LowFareSearchAsynchRsp
+     * @return \Santosdave\Travelport\Air\LowFareSearchAsynchRsp
      */
     public function setSearchId($SearchId)
     {
@@ -132,7 +132,7 @@ class LowFareSearchAsynchRsp extends AirSearchRsp
 
     /**
      * @param typeCurrency $CurrencyType
-     * @return \FilippoToso\Travelport\Air\LowFareSearchAsynchRsp
+     * @return \Santosdave\Travelport\Air\LowFareSearchAsynchRsp
      */
     public function setCurrencyType($CurrencyType)
     {

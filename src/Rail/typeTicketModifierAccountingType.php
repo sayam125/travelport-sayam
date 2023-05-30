@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\Rail;
+namespace Santosdave\Travelport\Rail;
 
 class typeTicketModifierAccountingType
 {
@@ -28,7 +28,7 @@ class typeTicketModifierAccountingType
 
     /**
      * @param string $Value
-     * @return \FilippoToso\Travelport\Rail\typeTicketModifierAccountingType
+     * @return \Santosdave\Travelport\Rail\typeTicketModifierAccountingType
      */
     public function setValue($Value)
     {

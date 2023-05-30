@@ -1,6 +1,6 @@
 <?php
 
-namespace FilippoToso\Travelport\GDSQueue;
+namespace Santosdave\Travelport\GDSQueue;
 
 class RailCoachDetails
 {
@@ -42,7 +42,7 @@ class RailCoachDetails
 
     /**
      * @param string $RailCoachNumber
-     * @return \FilippoToso\Travelport\GDSQueue\RailCoachDetails
+     * @return \Santosdave\Travelport\GDSQueue\RailCoachDetails
      */
     public function setRailCoachNumber($RailCoachNumber)
     {
@@ -60,7 +60,7 @@ class RailCoachDetails
 
     /**
      * @param string $AvailableRailSeats
-     * @return \FilippoToso\Travelport\GDSQueue\RailCoachDetails
+     * @return \Santosdave\Travelport\GDSQueue\RailCoachDetails
      */
     public function setAvailableRailSeats($AvailableRailSeats)
     {
@@ -78,7 +78,7 @@ class RailCoachDetails
 
     /**
      * @param boolean $RailSeatMapAvailability
-     * @return \FilippoToso\Travelport\GDSQueue\RailCoachDetails
+     * @return \Santosdave\Travelport\GDSQueue\RailCoachDetails
      */
     public function setRailSeatMapAvailability($RailSeatMapAvailability)
     {
