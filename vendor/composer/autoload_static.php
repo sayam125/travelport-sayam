@@ -25,6 +25,7 @@ class ComposerStaticInitf77546be929c0c7f6d8fe706dcf0e32a
             'Symfony\\Polyfill\\Mbstring\\' => 26,
             'Symfony\\Contracts\\Translation\\' => 30,
             'Symfony\\Component\\Translation\\' => 30,
+            'Santosdave\\Travelport\\' => 22,
         ),
         'P' => 
         array (
@@ -35,10 +36,6 @@ class ComposerStaticInitf77546be929c0c7f6d8fe706dcf0e32a
         array (
             'Illuminate\\Support\\' => 19,
             'Illuminate\\Contracts\\' => 21,
-        ),
-        'F' => 
-        array (
-            'FilippoToso\\Travelport\\' => 23,
         ),
         'D' => 
         array (
@@ -71,6 +68,10 @@ class ComposerStaticInitf77546be929c0c7f6d8fe706dcf0e32a
         array (
             0 => __DIR__ . '/..' . '/symfony/translation',
         ),
+        'Santosdave\\Travelport\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
+        ),
         'Psr\\SimpleCache\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/simple-cache/src',
@@ -81,17 +82,13 @@ class ComposerStaticInitf77546be929c0c7f6d8fe706dcf0e32a
         ),
         'Illuminate\\Support\\' => 
         array (
-            0 => __DIR__ . '/..' . '/illuminate/macroable',
-            1 => __DIR__ . '/..' . '/illuminate/collections',
+            0 => __DIR__ . '/..' . '/illuminate/collections',
+            1 => __DIR__ . '/..' . '/illuminate/macroable',
             2 => __DIR__ . '/..' . '/illuminate/support',
         ),
         'Illuminate\\Contracts\\' => 
         array (
             0 => __DIR__ . '/..' . '/illuminate/contracts',
-        ),
-        'FilippoToso\\Travelport\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/src',
         ),
         'Doctrine\\Inflector\\' => 
         array (

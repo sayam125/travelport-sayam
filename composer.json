@@ -8,6 +8,12 @@
             "email": "filippo.toso@creativepark.it"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/santosdave/travelport"
+        }
+    ],
     "require": {
         "php": "^7.3|^8.0",
         "illuminate/support": "^5.6 || ^5.7 || ^5.8 || ^6.0 || ^7.0 || ^8.0"
