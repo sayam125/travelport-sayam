@@ -1,5 +1,5 @@
 {
-    "name": "filippo-toso/travelport",
+    "name": "santosdave/travelport",
     "description": "PHP client library for Travelport SOAP API",
     "license": "MIT",
     "authors": [
@@ -14,16 +14,16 @@
     },
     "autoload": {
         "psr-4": {
-            "FilippoToso\\Travelport\\": "src"
+            "Santosdave\\Travelport\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "FilippoToso\\Travelport\\TravelportServiceProvider"
+                "Santosdave\\Travelport\\TravelportServiceProvider"
             ],
             "aliases": {
-                "Travelport": "FilippoToso\\Travelport\\TravelportFacade"
+                "Travelport": "Santosdave\\Travelport\\TravelportFacade"
             }
         }
     }
