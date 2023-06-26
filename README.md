@@ -65,6 +65,7 @@ The first step whould be to publish the configuration file:
 
 ```
 php artisan vendor:publish --tag=config --provider="Santosdave\Travelport\TravelportServiceProvider"
+
 ```
 
 Then insert your credentials in the config\travelport.php file.
